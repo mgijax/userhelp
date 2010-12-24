@@ -1,0 +1,93 @@
+USERHELP DEVELOPEMENT INSTALLATION INSTRUCTIONS
+
+
+----- OVERVIEW -----
+The basic steps of installing the userhelp product are:
+
+a) decide where to install the product
+b) check the userhelp out of cvs
+c) set the proper configuration settings
+d) run the install
+e) setup web-based access
+
+
+----- PRE INSTALL DECISIONS -----
+First, decide where this product will be installed.  
+Suggested location is in a "/work/" directory, within your home 
+directory (/home/yourUserID/work/)
+
+Throughout the following steps, this value will be referred to as:
+INSTALL_LOCATION
+
+When checking out the userhelp from CVS, we have the option to dictate the 
+name of the directory in which the userhelp will "live".  We will use this
+functionality to help the developer track the status (branch/trunk/tag) 
+of the given userhelp install by the naming convention used.  Suggest the use 
+of directories named "userhelp-trunk" when checking out the trunk and 
+"userhelp-branchName" (userhelp-tr8087) when checking out a branch.
+
+Throughout the following steps, this value will be referred to as:
+INSTALL_DIR_NAME
+
+
+------- STEP 1 ------- 
+Checkout the userhelp product - From the Unix Command Line:
+
+1) when working on the trunk
+cd  INSTALL_LOCATION
+cvs  checkout  -d  INSTALL_DIR_NAME  userhelp
+example: cvs  checkout -d  userhelp-trunk userhelp
+
+2) when working on a branch, we need supply the branch name (usually 'tr####')
+cd  INSTALL_LOCATION
+cvs  checkout  -r BRANCH_NAME -d  INSTALL_DIR_NAME  userhelp
+example: cvs  checkout -r tr8087 -d  userhelp-trunk userhelp
+
+
+------- STEP 2 -------
+Only a default configuration file is provided.  The installer must
+copy the file named Configuration.defaults to another file named 
+Configuration.
+
+From the Unix Command Line:
+cd  INSTALL_DIR_NAME
+cp  Configuration.defaults  Configuration
+
+
+------- STEP 3 -------
+The install specific parameters have to be set for each install.  The most 
+important parameters (and will probably be changed for each install) have 
+been left at the top of the Configuration file for convenience.
+
+
+------- STEP 4 -------
+Now, it's time to install the product...
+
+From the Unix Command Line:  Run the Install script by typing "Install".  
+This will generate the server side includes, set permissions, etc...
+
+
+------- Step 5 ------- 
+Now that the product is installed, we need to setup the web-based access.
+For developers, this is accomplished by creating a soft link within the 
+"/yourUserID/public_html/" directory, that points to the full 
+path of this userhelp installation.
+
+From the Unix Command Line:
+
+cd  ~/public_html/
+
+ln  -s  /home/yourUserID/INSTALL_LOCATION/INSTALL_DIR_NAME/www/  INSTALL_DIR_NAME
+
+...for example...
+
+ln  -s  /home/yourUserID/work/userhelp-trunk/www/  userhelp-trunk
+
+Enter "http://rohan/~yourUserID/" into the browser, and you should see the 
+"userhelp-trunk" link (will look like a folder)
+
+This step may not be needed if the soft link has already been made and the 
+same directory naming conventions are used.
+
+
+

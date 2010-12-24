@@ -1,0 +1,32 @@
+########################################################################
+# Configuration.defaults - Sample userhelp Configuration File          #
+#                                                                      #
+# Copy this file to Configuration and edit before running Install.     #
+#	cp Configuration.defaults Configuration                        #
+#                                                                      #
+# Make sure you run Install any time you edit the Configuration file.  #
+########################################################################
+
+#####--------------------------------------------------------------#####
+#####----- Path to Global Config file -----------------------------#####
+MGICONFIG_PATH /usr/local/mgi/live/mgiconfig/
+GLOBAL_CONFIG	${MGICONFIG_PATH}web/GlobalConfig
+
+#####--------------------------------------------------------------#####
+#####----- Easy Install Parameters --------------------------------#####
+
+# Top level directory of this userdocs install
+#FULL_PATH	/home/djd/userhelp/
+FULL_PATH	/usr/local/mgi/live/userhelp/
+
+#####--------------------------------------------------------------#####
+#####-- system paths, ownership, and permissions for installation -#####
+#####--------------- THESE SHOULD NOT CHANGE ----------------------#####
+
+
+# colon-delimited list of directories containing Python libraries, including
+# the lib/python directory under this installation directory
+LIBDIRS		${FULL_PATH}lib/python:/usr/local/mgi/live/lib/python
+
+# The Path to Configuration.py
+CONFIG_PATH     /usr/local/mgi/live/lib/python

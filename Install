@@ -1,0 +1,248 @@
+#!/bin/sh
+
+###----------------------------------------------------------------------###
+###----------------- INSTALL --------------------------------------------###
+###----------------------------------------------------------------------###
+###
+### Purpose: Install script for the userdocs product
+###
+
+###----------------------------------------------------------------------###
+###----------------- CONSTANTS ------------------------------------------###
+###----------------------------------------------------------------------###
+
+TOP=`pwd`
+INSTALL_LOG=$TOP/admin/Install.log
+USAGE="Usage: $0 \n"
+
+###----------------------------------------------------------------------###
+###----------------- FUNCTIONS ------------------------------------------###
+###----------------------------------------------------------------------###
+
+log() {
+	# Purpose: send one or more strings (passed as parameters) to stdout
+	#	and to the log file
+	# Returns: nothing
+	# Assumes: we can write to the log file
+	# Effects: writes to stdout and to the log file
+	# Throws: nothing
+
+	for line in "$@"
+	do
+		echo $line
+		echo $line >> $INSTALL_LOG
+	done
+}
+
+logHeading() {
+	# Purpose: send one or more strings (passed as parameters) out to the
+	#	log as a heading, set off by lines before and after it
+	# Returns: nothing
+	# Assumes: see Assumes of log() function
+	# Effects: see Effects of log() function
+	# Throws: nothing
+
+	log "---------------------------------------------"
+	log "--> $@"
+	log "---------------------------------------------"
+}
+
+errorExit() {
+	# Purpose: logs one or more strings telling the user about why the
+	#	script failed
+	# Returns: nothing
+	# Assumes: nothing
+	# Effects: see the log() function's Effects
+	# Throws: nothing
+	# Notes: We trap signals 1, 2, 3, 12, 13, and 15 so that this function
+	#	is called for many abnormal program terminations.
+
+	log "Failed: "
+	log "$@"		# send all the strings to the log() function
+	exit 1
+}
+trap "errorExit $INSTALL_LOG" 1 2 3 12 13 15
+
+
+checkGroup() {
+	# Purpose: check to see if the current user is a member of the group
+	#	specified in $1, using the temp directory specified in $2
+	#	to check it
+	# Returns: nothing
+	# Assumes: nothing
+	# Effects: logs a message and exits the script if the group test fails
+	# Throws: nothing
+
+	tempfile=$2/tempfile
+	touch $tempfile
+	chgrp $1 $tempfile || errorExit "You are not a member of group $1"
+	rm -f $tempfile
+}
+
+execute() {
+	# Purpose: log and then execute the command passed in as parameters
+	# Returns: nothing
+	# Assumes: nothing
+	# Effects: depends on the command passed.  If the command fails, then
+	#	we give an error message and terminate the script.
+	# Throws: nothing
+
+	log "$*"
+	$* || errorExit "$*"
+}
+
+makeDir() {
+	# Purpose: make a directory (named in $1) in the current directory,
+	#	if it doesn't already exist
+	# Returns: nothing
+	# Assumes: nothing
+	# Effects: creates a directory in the file system, and logs its
+	#	actions.
+	# Throws: nothing
+
+	if [ ! -d $1 ]; then
+		log "Making $1 directory in `pwd`"
+		execute mkdir $1
+	else
+		log "The $1 directory already exists in `pwd`"
+	fi
+}
+
+reLink() {
+	# Purpose: regenerate a symbolic link (named in $2) so that it may
+	#	point to a new target ($1).  If the link doesn't already
+	#	exist, then just create it for the first time.
+	# Returns: nothing
+	# Assumes: we have permissions to create the link
+	# Effects: removes any existing symbolic link named $2 and creates a
+	#	new one
+	# Throws: nothing
+
+	if [ -h $2 ]; then
+		log "Removing old link: $2"
+		execute rm -f $2
+	fi
+	log "Creating new link: $2 -> $1"
+	execute ln -s $1 $2
+}
+
+compilePythonLibs() {
+	# Purpose: compiles all Python libraries in the current directory,
+	#	expecting the path to the Python interpreter in $1
+	# Returns: nothing
+	# Assumes: nothing
+	# Effects: removes any existing .pyc files, and creates a new one for
+	#	each .py file in the current directory
+	# Throws: nothing
+
+	for file in `ls *pyc`
+	do
+		log "Removing old file: $file"
+		execute rm -f $file
+	done
+	$1 -c 'import compileall; compileall.compile_dir(".")'
+}
+
+###----------------------------------------------------------------------###
+###----------------- Main Functionality ---------------------------------###
+###----------------------------------------------------------------------###
+
+logHeading "Beginning Installation" "`date`"
+
+# Reset the log file
+if [ -r $INSTALL_LOG ]; then
+	rm $INSTALL_LOG
+fi
+
+
+# Ensure we have a properly named config file
+CONFIGURATION=Configuration
+if [ ! -r Configuration ]; then
+	errorExit "The Configuration file is missing"
+fi
+
+
+# Read a few variables from the config file
+exec 4<&0
+exec < $CONFIGURATION
+while read name value junk
+do
+	case "$name" in
+		CONFIG_PATH)
+			CON_PATH=$value;;
+		LIBDIRS)
+			PPATH=$value;;
+		[A-z]*)
+			;; # other parms are not needed by Install
+	esac
+done
+exec 0<&4
+
+PYTHONPATH=$PPATH
+PATH=$PATH:$CON_PATH
+export PYTHONPATH
+export PATH
+
+# use the configuration module to parse our Configuration file and import
+# those variables to this script.  Notably, this is where we define:
+#	$PYTHON
+#	$GROUP
+#	$HOMEPAGE
+
+logHeading "Getting Configuration options..."
+CONFIG=/tmp/$$.config
+/usr/local/mgi/live/lib/python/Configuration.py ./Configuration sh > $CONFIG
+. $CONFIG
+rm -f $CONFIG
+
+# set the proper umask
+execute umask $UMASK		
+
+# Create any needed directories 
+logHeading "Creating directories..."
+for dir in ./www/include ./bin
+do
+	cd `dirname $dir`
+	makeDir `basename $dir`
+	cd $TOP
+done
+
+
+# This soft link to the config is no longer needed
+#cd www
+#ln -s ../Configuration Configuration
+#cd $TOP
+
+
+# Create a link to the Python interpreter from the bin/ directory
+logHeading "Linking to the Python interpreter..."
+cd bin
+reLink $PYTHON python
+cd $TOP
+
+
+# Create links to the configuration module and to the Python interpreter
+# in directories where we need to run Python scripts.
+logHeading "Creating links for Python scripts to use..."
+for dir in admin
+do
+	cd $dir
+	log "in `pwd`..."
+	reLink $TOP/bin/python python
+	reLink $CON_PATH/Configuration.pyc Configuration.pyc
+	cd $TOP
+done
+
+# Generate the include files for .shtml files to use
+logHeading "Generating the include files..."
+cd admin
+gen_includes
+cd $TOP
+
+
+# Make sure that all files are owned by $GROUP
+logHeading "Changing file and directory ownerships..."
+chmod 775 www/
+execute find . \( -type f -o -type d \) -exec chgrp $GROUP '{}' \;
+
+logHeading "Installation Finished" "`date`"
