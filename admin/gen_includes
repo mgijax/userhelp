@@ -1,0 +1,98 @@
+#!./python
+
+### This script generates all needed server side include files
+### used by the MGI userhelp product
+
+###----------------------------------------------------------------------###
+###----------------- SETUP ----------------------------------------------###
+###----------------------------------------------------------------------###
+import sys
+import os
+ 
+# Ensure the python libs are in the system path, and ignore python warnings
+if '/usr/local/mgi/lib/python/' not in sys.path:
+        sys.path.insert(0, '/usr/local/mgi/lib/python/')
+import ignoreDeprecation
+
+import Configuration
+config = Configuration.Configuration ('Configuration', 1)
+ 
+# Ensure local invocation, and not via symbolic link
+if os.path.islink(sys.argv[0]):
+        msg = "ERROR: Script %s invoked by a symbolic link.\n" % sys.argv[0]
+        sys.stderr.write(msg)
+        sys.exit(1)
+ 
+# make sure script is invoked from its installation directory.
+NOTBASENAME, BASENAME = os.path.split(sys.argv[0])
+if NOTBASENAME not in ('.', '', None):
+        msg = "ERROR: Script %s invoked from another directory.\n" % sys.argv[0]
+        sys.stderr.write(msg)
+        sys.exit(1)
+
+
+###----------------------------------------------------------------------###
+###----------------- CONSTANTS ------------------------------------------###
+###----------------------------------------------------------------------###
+
+INCLUDEDIR = '../www/include'
+
+###----------------------------------------------------------------------###
+###----------------- FUNCTIONS ------------------------------------------###
+###----------------------------------------------------------------------###
+
+def createIncludeLink (includeName, fileLoc ) :
+
+    filePath = os.path.join(INCLUDEDIR, includeName)
+    os.system("rm " + filePath)
+    os.system("ln -s " + fileLoc + " " + filePath)
+
+def createIncludeFile(filename, dataSource):
+#
+# INPUTS: filename - string full path name of file
+#         dataSource - either string or a function which returns a string. 
+#         dataSource value will be the contents of the include file
+#
+# EFFECTS: the include file is created and its permissions are set
+#          accordingly
+#
+
+    # gather the string which will be contained in the include file
+    if type(dataSource) == type("string"):
+      fileContents = dataSource
+    else:
+      fileContents = dataSource() #executes input function, returning string
+
+    # generate the include file
+    filePath = os.path.join(INCLUDEDIR, filename)
+    fd = open(filePath, 'w')
+    fd.write(fileContents)
+    fd.close()
+    os.system("chgrp " + config['GROUP'] + " " + filePath)
+
+    return
+
+###----------------------------------------------------------------------###
+###----------------- GENERATE THE INCLUDES ------------------------------###
+###----------------------------------------------------------------------###
+
+#####----- MGI URLs ----------------------#####
+createIncludeFile('webshare_url.html', config['WEBSHARE_URL'])
+createIncludeFile('faq_url.html', config['FAQ_URL'])
+createIncludeFile('wi_url.html', config['WI_URL'])
+createIncludeFile('javawi_url.html', config['JAVAWI_URL'])
+createIncludeFile('mgihome_url.html', config['MGIHOME_URL'])
+createIncludeFile('mblast_url.html', config['MOUSEBLAST_URL'])
+createIncludeFile('searchtool_url.html', config['QUICKSEARCH_URL'])
+createIncludeFile('mgiversion.html', config['NAME'])
+createIncludeFile('homepages_url.html', config['HOMEPAGES_URL'])
+createIncludeFile('menus_url.html', config['MENUS_URL'])
+createIncludeFile('ftp_url.html', config['FTP_URL'])
+
+
+#####----- Template Include Files --------#####
+createIncludeLink('templateHead.html',      config['MGICONFIG_PATH'] + 'web/templateHead.html')
+createIncludeLink('templateBodyStart.html', config['MGICONFIG_PATH'] + 'web/templateBodyStart.html')
+createIncludeLink('templateBodyStop.html',  config['MGICONFIG_PATH'] + 'web/templateBodyStop.html')
+createIncludeLink('templateBlankBodyStart.html', config['MGICONFIG_PATH'] + 'web/templateBlankBodyStart.html')
+createIncludeLink('templateBlankBodyStop.html',  config['MGICONFIG_PATH'] + 'web/templateBlankBodyStop.html')
