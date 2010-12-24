@@ -1,0 +1,28 @@
+/* CSS Document */
+.style1 {color: #006600;}
+.style2 {color: #888888 ;}
+.outline { border: 2px solid #DFEFFF; }
+
+
+/* THE CITED WEB PAGE ALSO RECOMMENDS THIS FOR IE 5.5 AND ABOVE:  body {text-align:center;} */
+table.center {margin-left:auto; margin-right:auto;}
+
+/* STYLES FOR TABLE TO REPLACE DEPRECATED BORDER=, CELL-PADDING=, CELL-SPACING= */
+table.b0p0s7 {border:none; border-collapse:collapse;}
+table.b0p0s7 td {border:none; padding-left:3px; padding-right:4px; padding-bottom:4px; padding-top:3px;}
+table.b1p3s7 {border-collapse:collapse;}
+table.b1p3s7 th {border-bottom:2px solid #BFBFBF; padding-left:3px; padding-right:4px; padding-bottom:4px; padding-top:3px; font-size:14px;}
+table.b1p3s7 td {border-bottom:1px solid #DFDFDF; padding-left:3px; padding-right:4px; padding-bottom:4px; padding-top:3px; vertical-align:middle;}
+
+
+/* NEW STYLES ATTEMPTING TO USE SEMANTICALLY-CORRECT HTML IN MOCKUP */
+/* Styles from mgi_template01.css:
+#faqPageHeader{background-color:#DFEFFF;position:relative;top:0;left:0;width:100%;border:thin solid #025;margin-bottom:5px;}
+.faqHeaderText{font-family:Verdana,Arial,Helvetica;font-weight:bold;font-size:20px;vertical-align:bottom;color:#025;}*/
+#faqPageHeader{overflow:auto; width:100%; height:auto; padding:0px;}
+H1{display:inline; float:left; position:absolute; bottom:2px; font-family:Verdana,Arial,Helvetica;font-weight:bold;font-size:20px;color:#025; padding:0px; margin:0px;}
+H2{display:inline; float:left; clear:none; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:18px; vertical-align:bottom; color:#025; margin:0px auto; padding:0px inherit;  }
+H3{font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:16px; color:#025; margin:16px 6px 20px 3px; border-bottom:1px solid #025;}
+H4{display:inline; clear:right; font-size:15px; padding:-3px 3px 5px 0px; margin:2px 2px 2px 0px; color:#002255; font-variant:small-caps; font-weight:normal;} /*background-color:#EDF9FF; */
+
+
