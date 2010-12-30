@@ -1,0 +1,7 @@
+<div style="float: right; margin-right: 10px;">
+  <input value=" Print " onclick="window.print();return false;" type="button">
+  <input value=" Close " onclick="window.close();return false;" type="button">
+  <a class="small homeLink" href="<!--#include file='include/userhelp_url.html'-->help_index.shtml" onClick="window.open('help_index.shtml', 'foo', 'width=800, height=600, toolbar=yes, location=yes, directories=yes, status=yes, menubar=yes, resizable=yes, scrollbars=yes'); return false;">
+    More Help
+  </a>
+</div>
