@@ -7,22 +7,24 @@
 # Make sure you run Install any time you edit the Configuration file.  #
 ########################################################################
 
-#####--------------------------------------------------------------#####
-#####----- Path to Global Config file -----------------------------#####
-MGICONFIG_PATH /usr/local/mgi/live/mgiconfig/
-GLOBAL_CONFIG	${MGICONFIG_PATH}web/GlobalConfig
 
 #####--------------------------------------------------------------#####
 #####----- Easy Install Parameters --------------------------------#####
 
-# Top level directory of this userdocs install
-#FULL_PATH	/home/djd/userhelp/
+# The directory of this userdocs install
+#FULL_PATH	/home/djd/work/userhelp-trunk/
 FULL_PATH	/usr/local/mgi/live/userhelp/
+
+# mgiconfig install directory
+MGICONFIG_PATH /usr/local/mgi/live/mgiconfig/
+
 
 #####--------------------------------------------------------------#####
 #####-- system paths, ownership, and permissions for installation -#####
 #####--------------- THESE SHOULD NOT CHANGE ----------------------#####
 
+# Path to Global Config file 
+GLOBAL_CONFIG	${MGICONFIG_PATH}web/GlobalConfig
 
 # colon-delimited list of directories containing Python libraries, including
 # the lib/python directory under this installation directory
