@@ -18,7 +18,7 @@ function openHelpWindow(helpFile){
 <!--#include file='include/templateBlankBodyStart.html'-->
 
 
-<div id="faqPageHeader">
+<div id="">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
    User Help Title
