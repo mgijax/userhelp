@@ -5,6 +5,8 @@
   User Help Title
 </title>
 
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
 <script>
 function openHelpWindow(helpFile){
   helpUrl = "./" + helpFile;
@@ -20,7 +22,7 @@ function openHelpWindow(helpFile){
 
 <div id="">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">
+ <span class="helpHeaderText">
    User Help Title
  </span>
 </div>
