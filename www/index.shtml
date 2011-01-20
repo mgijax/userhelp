@@ -1,5 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 <title><!--#include file="include/mgiversion.html"--> User Help </title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
 <script>
 function openHelpWindow(helpFile){
@@ -75,12 +76,13 @@ function openHelpWindow(helpFile){
         </dt>
             <!-- help example  -->
         <dd>
-          <a href="redo_sequence_summary_report.shtml" onClick="javascript:openHelpWindow('redo_sequence_summary_report.shtml'); return false;">            
+          <a href="sequence_summary_help.shtml" onClick="javascript:openHelpWindow('sequence_summary_help.shtml'); return false;">            
           Interpreting Mouse Sequences Summary Reports</a>
         </dd>
-<dd><a href="redo_sequence_detail.shtml" onClick="javascript:openHelpWindow('redo_sequence_detail.shtml'); return false;">
-            Interpreting Sequence Detail Reports
-          </a></dd>
+	<dd>
+	  <a href="sequence_detail_help.shtml" onClick="javascript:openHelpWindow('sequence_detail_help.shtml'); return false;">
+            Interpreting Sequence Detail Reports</a>
+	</dd>
 
         <!-- help example 3 -->
         
@@ -185,9 +187,8 @@ function openHelpWindow(helpFile){
       <dl class="linkedList">
         <!-- help example -->
         <dt>CRE Help </dt>
-          <dd><a href="redo_cre_summary.shtml" onClick="javascript:openHelpWindow('redo_cre_summary.shtml'); return false;">
-         Interpreting Recombinase Alleles - Tissue Specificity Summary Reports
-          </a>
+          <dd>
+	     <a href="cre_summary_help.shtml" onClick="javascript:openHelpWindow('cre_summary_help.shtml'); return false;">Interpreting Recombinase Alleles - Tissue Specificity Summary Reports</a>
         </dd>
       </dl>
     </td>
