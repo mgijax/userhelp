@@ -105,13 +105,13 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <li>You can also rearrange the order in which data appears by clicking the  column headers (titles). The initial sort is by driver, alphanumeric A-Z. Click to sort the driver from Z-A.</li>
 </ul>  
 </p>
-<P>
+
 
 <table class="nb">
 <tr><td><font size="-1"><a href="#csh_driver">Driver</a> |
-<a href="#asgan">Allele Symbol &nbsp; Gene; Allele Name</a> | 
+<a href="#asgan">Allele Symbol/Gene;Allele Name</a> | 
 <a href="#recomb_data">Recombinase Data</a> | 
-<a href="#anatom_system">[<i>anatomical system</i>]</a> |
+<a href="#anatom_system"><i> system</i></a> |
 <a href="#allele_syn">Allele Synonym</a> | 
 <a href="#allele_type">Allele Type</a> | 
 <a href="#inducible">Inducible</a> |  
@@ -119,42 +119,46 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <a href="#refz">Refs</a> </font> 
   </tr>
    </table>
-  </P>
+<p class="space"></p>
 
 <table border="1" cellpadding="4" width="!"> 
 <tr><th valign="top">Field</th><th>Description</th></tr> 
 
-<tr><th align="left" valign="top"><a name="csh_driver"></a>Driver</th><td valign="top">Gene, genetic element or construct that promotes recombination. 
+<tr><th class="thleft"> <a name="csh_driver"></a>Driver</th><td valign="top">Gene, genetic element, or construct that promotes recombination. 
 </td></tr> 
 
-<tr><th align="left" valign="top"><a name="asgan"></a>Allele Symbol<br>Gene; Allele Name</th><td>Official symbol for the allele.<br>Gene name; allele name. <br>In parentheses beneath the nomenclature is a link to the MGI Detail Report for this allele. Note that the detail page has a <b>Recombinase Specificity</b> row listing every system examined where specificity has been detected or not detected. Each system links to its specificity detail page.</td></tr> 
+<tr><th class="thleft"> <a name="asgan"></a>Allele Symbol<br>Gene; Allele Name</th><td>Official symbol for the allele.<br>Gene name; allele name. <br>In parentheses beneath the nomenclature is a link to the MGI Detail Report for this allele. Note that the detail page has a <b>Recombinase Specificity</b> row listing every system examined where specificity has been detected or not detected. Each system links to its specificity detail page.</td></tr> 
 
-<tr><th align="left" valign="top"><a name="recomb_data"></a><nobr>Recombinase Data</nobr></th><td>Information about whether recombinase specificity data was detected, not detected, or unavailable.<ul>
+<tr><th class="thleft"> <a name="recomb_data"></a><nobr>Recombinase Data</nobr></th><td>Information about whether recombinase specificity data was detected, not detected, or unavailable.<ul>
   <li>When an icon appears, (<img src="http://firien.informatics.jax.org/webshare/images/rightArrow.gif" border="0">) click it to reveal (or hide) a list of systems where data was detected/not detected. </li>
   <li>Click any list item to display a detail page with allele and tissue information, images, specificity particulars, and references.</li>
   <li>Click the column heading to sort by total number of systems.</li>
 </ul></td></tr> 
 
-<tr><th align="left" valign="top"><a name="anatom_system"></a><nobr>[<i>anatomical system</i>]</nobr></th> <td valign="top">When you search for recombinase specificity by selecting an anatomical system from the list on the Recombinase (cre) Specificity page, information about that system appears in the fourth column of the table. 
-    <table border="1" cellspacing="2" cellpadding="2" width="!%">
-<tr><th align="left" valign="top">Detected</th><td valign="top">Recombinase activity was assayed and found for this driver and system/tissue.</td></tr>
-<tr><th align="left" valign="top">Not Detected</th><td valign="top">Recombinase activity was assayed but not found for this driver and system/tissue.</td></tr>
-<tr><th align="left" valign="top">blank</th><td valign="top">MGI contains no information.</td></tr>
-	</table>
-The links go to the Recombinase Specificity Detail page for the listed system. Use the check boxes at the top of the page to add/remove additional systems.</td></tr>
+<tr><th class="thleft"> <a name="anatom_system"></a><nobr>[<i>system</i>]</nobr></th> <td valign="top"><ul>
+  <li>When you search for recombinase specificity by selecting an anatomical system from the list on the Recombinase (cre) Specificity page, a column containing information about that system appears in the results; the system name appears in the column header.</li>
+  <li>Any links go to the Recombinase Specificity Detail page for the listed system. Use the check boxes at the top of the page to add/remove additional systems.</li>
+  <li>Other information in this column:
+  
+	<table>
+	<tr><th class="thleft"> Detected</th><td valign="top">Recombinase activity was assayed and found for this driver and system/tissue.</td></tr>
+	<tr><th class="thleft"> Not Detected</th><td valign="top">Recombinase activity was assayed but not found for this driver and system/tissue.</td></tr>
+	<tr><th class="thleft">blank</th><td valign="top">MGI contains no information.</td></tr>
+		</table>
+	</td></tr>
 
-<tr><th align="left" valign="top"><a name="allele_syn"></a>Allele Synonym</th> <td valign="top">Any additional designations for the allele.</td></tr>
+<tr><th class="thleft"> <a name="allele_syn"></a>Allele Synonym</th> <td valign="top">Any additional designations for the allele.</td></tr>
 
-<tr><th align="left" valign="top"><a name="allele_type"></a>Allele Type</th><td valign="top">Specific allele type; for example, Transgenic (Cre/Flp),  Targeted (knock-in). </td></tr>
+<tr><th class="thleft"> <a name="allele_type"></a>Allele Type</th><td valign="top">Specific allele type; for example, Transgenic (Cre/Flp),  Targeted (knock-in). </td></tr>
 
-<tr><th align="left" valign="top"><a name="inducible"></a>Inducible</th> <td valign="top">Indicates whether or not  treatment (of mice carrying a cre allele) is required to activate recombinase activity. If <i>YES</i> appears, hover over the word to see a pop-up window containing a description of the induction agent (e.g. tamoxifen). </td></tr>
+<tr><th class="thleft"> <a name="inducible"></a>Inducible</th> <td valign="top">Indicates whether or not  treatment (of mice carrying a cre allele) is required to activate recombinase activity. If <i>YES</i> appears, hover over the word to see a pop-up window containing a description of the induction agent (e.g. tamoxifen). </td></tr>
 
-<tr><th align="left" valign="top"><a name="find_mice"></a>Find Mice (IMSR)</th><td valign="top">Information about the availability of mouse strains and/or cell lines of this allele in the International Mouse Strain Resource (IMSR).</td></tr>
+<tr><th class="thleft"> <a name="find_mice"></a>Find Mice (IMSR)</th><td valign="top">Information about the availability of mouse strains and/or cell lines of this allele in the International Mouse Strain Resource (IMSR).</td></tr>
 
-<tr><th align="left" valign="top"><a name="refz"></a>Refs</th> <td valign="top">Links to MGI Reference reports for all references annotated to the allele. The number in parentheses is the total of reports to expect.</td></tr>
+<tr><th class="thleft"> <a name="refz"></a>Refs</th> <td valign="top">Links to MGI Reference reports for all references annotated to the allele. In parentheses is the total number of reports.</td></tr>
  </table>
-</P>
-</p>
+
+<p class="space"></p>
 <A HREF="#toc">TOC</A>
 
 <!--#include file='include/templateBlankBodyStop.html'-->
