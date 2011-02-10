@@ -38,35 +38,26 @@ function openHelpWindow(helpFile){
         <li><a href="#help_go">GO Functional Annotations</a> | </li>
         <li><a href="#help_pathways">Biochemical Pathways</a> | </li>
         <li><a href="#help_strain">Strains, SNPs &amp Polymorphisms</a> | </li>
-        <li><a href="#help_mammortho">Mammalian Orthology</a></li>
+        <li><a href="#help_mammortho">Mammalian Orthology</a> |</li>
+	<li><a href="#help_other_searches">Other Searches</a></li>
         </ul>
     </td>
   </tr>
   </table>
 </td>
 </tr>
-
-
 <!-- Genes -->
-<tr>
-<td>
+
 <a name="help_marker"></a>
-
-  <table class="outline" width="100%">
-  <tr>
-    <td class="enhance">
-      <a href='<!--#include file='include/homepages_url.html'-->genes.shtml'
-      onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->genes.shtml');
-      return false;">
-      Genes, Genome Features &amp Maps</a>
-    </td>
-  </tr>
-
-  <tr >
-    <td>
-
-      <dl class="linkedList">
-        <!-- help example 1 -->
+<td>
+  <dl class="linkedList">
+  <dt>
+     <a href='<!--#include file='include/homepages_url.html'-->genes.shtml'
+            onclick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->genes.shtml');
+            return false;">
+            Genes, Genome Features &amp; Maps</a>
+    </dt>
+  
 	<dt>Genes & Markers Help
           <a href="example.shtml" onClick="javascript:openHelpWindow('example.shtml'); return false;">
          </a>
@@ -88,11 +79,6 @@ function openHelpWindow(helpFile){
         
       </dl>
 
-    </td>
-  </tr>
-  </table>
-</td>
-</tr>
 
 
 
@@ -314,7 +300,7 @@ function openHelpWindow(helpFile){
   <table class="outline" width="100%">
 
   <tr>
-    <td class="enhance">
+    <td>
       <a href='<!--#include file='include/homepages_url.html'-->orthology.shtml'
         onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->orthology.shtml');
         return false;">
@@ -322,7 +308,7 @@ function openHelpWindow(helpFile){
     </td>
   </tr>
 
-  <tr >
+  <tr>
     <td>
       <dl class="linkedList">
         <!-- help example -->
@@ -340,5 +326,35 @@ function openHelpWindow(helpFile){
 </tr>
 
 
-</table>
+<!-- other searches -->
+<tr>
+<td>
+<a name="help_other_searches"></a>
+
+  <table class="outline" width="100%">
+
+  <tr>
+    <td class="enhance">Other Searches
+    </td>
+  </tr>
+
+  <tr >
+    <td>
+      <dl class="linkedList">
+        <dt>Batch Querying / Interpreting Results
+        <dd>
+          <a href="batch_qf_help.shtml" onClick="javascript:openHelpWindow('batch_qf_help.shtml'); return false;">
+            Using the MGI Batch Query
+          </a>
+        </dd>
+      </dl>
+    </td>
+  </tr>
+
+  </table>
+</td>
+</tr>
+
+
+</table>-->
 <!--#include file='include/templateBodyStop.html'-->

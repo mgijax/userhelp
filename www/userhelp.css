@@ -11,6 +11,12 @@ h3{
 	color:#025; margin:16px 6px 8px 3px; 
 	border-bottom: medium none white;
 }
+h4{
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-weight:bold; font-size:12px; 
+	color:#025; margin:20px 2px 8px 3px; 
+	border-bottom: medium none white;
+}
 
 space {
 line-height: .3 em;

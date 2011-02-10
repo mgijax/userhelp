@@ -37,7 +37,7 @@ function openHelpWindow(helpFile){
     </tr>
 </table>
 <!-- Body of User Help -->
-<A NAME="toc"></A>
+<A NAME="top"></A>
 <P>This document answers the following questions about the Recombinase Alleles - Tissue Specificity Summary page:</P>
 <UL>
   <li><a href="#manipulate">What are the ways of creating different views of the data on this page?</a></li>
@@ -67,7 +67,7 @@ function openHelpWindow(helpFile){
     <li>Click and hold down the mouse on any of the column headings in the lower table to drag that column to the left or right and thereby rearrange the data order. You could, for example, place the <b>Driver</b> column all the way to the right of the lower table.</li>
   </ul>
 </p>
-<A HREF="#toc">TOC</A>
+
 
 
 <h3><a name="access"></a>When does a Recombinase Alleles - Tissue Specificity Summary appear?</h3>
@@ -92,7 +92,7 @@ function openHelpWindow(helpFile){
 <p>Expression assays of type <i>In situ reporter (transgenic)</i> and <i>In situ reporter (knock in)</i> are correctly referred to as expression data because they demonstrate the expression of the recombinase allele at the age when the allele is producing its protein for assays with antibody detection or its mRNA for assays with nucleotide probes.
 When the specimen's genotype involves a recombinase allele, the results of these expression assays are included in the summary table.</p>
 
-<A HREF="#toc">TOC</A>
+<A HREF="#top">Top</A><p>
 
 
 <h3><a name="usage"></a>How do I interpret the information on this page?</h3> 
@@ -132,10 +132,13 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <tr><th class="thleft"> <a name="recomb_data"></a><nobr>Recombinase Data</nobr></th><td>Information about whether recombinase specificity data was detected, not detected, or unavailable.<ul>
   <li>When an icon appears, (<img src="http://firien.informatics.jax.org/webshare/images/rightArrow.gif" border="0">) click it to reveal (or hide) a list of systems where data was detected/not detected. </li>
   <li>Click any list item to display a detail page with allele and tissue information, images, specificity particulars, and references.</li>
+
+
+
   <li>Click the column heading to sort by total number of systems.</li>
 </ul></td></tr> 
 
-<tr><th class="thleft"> <a name="anatom_system"></a><nobr>[<i>system</i>]</nobr></th> <td valign="top"><ul>
+<tr><th class="thleft"> <a name="anatom_system"></a><nobr><i>system</i></nobr></th> <td valign="top"><ul>
   <li>When you search for recombinase specificity by selecting an anatomical system from the list on the Recombinase (cre) Specificity page, a column containing information about that system appears in the results; the system name appears in the column header.</li>
   <li>Any links go to the Recombinase Specificity Detail page for the listed system. Use the check boxes at the top of the page to add/remove additional systems.</li>
   <li>Other information in this column:
@@ -159,6 +162,6 @@ When the specimen's genotype involves a recombinase allele, the results of these
  </table>
 
 <p class="space"></p>
-<A HREF="#toc">TOC</A>
+<A HREF="#top">Top</A><p>
 
 <!--#include file='include/templateBlankBodyStop.html'-->
