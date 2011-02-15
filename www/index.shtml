@@ -23,7 +23,6 @@ function openHelpWindow(helpFile){
 <!-- main body table -->
 <table width="75%" cellpadding="2" align="center">
 
-
 <!-- TOC table -->
 <tr>
 <td>
@@ -44,44 +43,31 @@ function openHelpWindow(helpFile){
     </td>
   </tr>
   </table>
-</td>
-</tr>
-<!-- Genes -->
+<!--end toc table-->
 
-<a name="help_marker"></a>
-<td>
-  <dl class="linkedList">
-  <dt>
+<!--start of body table-->
+<!-- Genes -->
+<tr><td class="enhance">
      <a href='<!--#include file='include/homepages_url.html'-->genes.shtml'
             onclick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->genes.shtml');
             return false;">
-            Genes, Genome Features &amp; Maps</a>
-    </dt>
+            Genes, Genome Features &amp; Maps</a></td>
+  	</tr>
   
-	<dt>Genes & Markers Help
-          <a href="example.shtml" onClick="javascript:openHelpWindow('example.shtml'); return false;">
-         </a>
-        </dt>
-        <dt>Sequence Help
-          
-        </dt>
-            <!-- help example  -->
-        <dd>
-          <a href="sequence_summary_help.shtml" onClick="javascript:openHelpWindow('sequence_summary_help.shtml'); return false;">            
+    <tr>
+    <td>
+      <dl class="linkedList">
+	<dt>Genes & Markers Help</dt>
+          <dd><a href="marker_detail_help.shtml" onClick="javascript:openHelpWindow('marker_detail_help.shtml'); return false;">Interpreting Gene Detail Reports</a></dd>
+	<dt>Sequence Help</dt>         
+        <dd><a href="sequence_summary_help.shtml" onClick="javascript:openHelpWindow('sequence_summary_help.shtml'); return false;">            
           Interpreting Mouse Sequences Summary Reports</a>
         </dd>
 	<dd>
 	  <a href="sequence_detail_help.shtml" onClick="javascript:openHelpWindow('sequence_detail_help.shtml'); return false;">
             Interpreting Sequence Detail Reports</a>
 	</dd>
-
-        <!-- help example 3 -->
-        
       </dl>
-
-
-
-
 <!-- Phenotypes -->
 <tr>
 <td>
@@ -114,16 +100,11 @@ function openHelpWindow(helpFile){
   </table>
 </td>
 </tr>
-
-
-
 <!-- Expression -->
 <tr>
 <td>
 <a name="help_gxd"></a>
-
   <table class="outline" width="100%">
-
   <tr>
     <td class="enhance">
       <a href='<!--#include file='include/homepages_url.html'-->expression.shtml'
@@ -131,17 +112,14 @@ function openHelpWindow(helpFile){
       return false;">
       Gene Expression</a>
     </td>
-  </tr>
-
-  <tr >
+ </tr>
     <td>
       <dl class="linkedList">
         <!-- help example -->
-        <dt>help example --
-          <a href="example.shtml" onClick="javascript:openHelpWindow('example.shtml'); return false;">
-            Example Link
-          </a>
-        </dt>
+        <dt>Expression Help</dt>
+	<dd><a href="gxdindex_help.shtml" onClick="javascript:openHelpWindow('gxdindex_help.shtml'); return false;">
+            Using the Gene Expression Literature Index Query Form</a>
+	</dd>
       </dl>
     </td>
   </tr>

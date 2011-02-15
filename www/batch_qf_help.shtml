@@ -59,7 +59,7 @@ function openHelpWindow(helpFile){
 <li><a HREF="#gene_expression">How do I interpret Gene Expression results?</a></li>
 <li><a href="#why_listed">Why is a gene listed multiple times in the report?</a></li>
 <li><a href="#go_codes">What do the acronyms in the Gene Ontology "code" column mean?</a></li>
-<li><a href="#lost_file">I clicked the Back button and when I returned to my query, the file I was uploading disappeared.</a></li>
+<li><a href="#lost_file">I clicked Back  and when I returned to my query, the file I was uploading disappeared.</a></li>
 <li><a href="#speed">What can I do to speed up my query?</a></li>
 <li><a href="#no_results">My query returned no results or <i>No associated gene</i> in one of the report columns. Why?</a></li>
 <li><a href="#example">Are there examples?</a></li>
@@ -118,11 +118,11 @@ function openHelpWindow(helpFile){
 <p>When typing or pasting IDs into the input box (you can copy and paste a column from an Excel spreadsheet):</p>
 
 <ol>
-  <li>Beneath <b>Source</b>, click the <b>Enter Text</b> tab.</li>
-  <li>Type or paste your list into the <b>ID/Symbols List</b> box.  The Batch Query tool accepts space, tab, and newline-separated lists  and removes any trailing commas. </li>
-  <li>Beside <b>Type</b>, either leave the default (Search all input types), or (when your list consists of a single input type and you want to make this distinction), click the arrow and select from the pulldown list. See <a href="#why_constrain">When would I constrain my search to a single input type? for details.</a> </li>
+  <li>Beneath Source, click the Enter Text tab.</li>
+  <li>Type or paste your list into the ID/Symbols List box.  The Batch Query tool accepts space, tab, and newline-separated lists  and removes any trailing commas. </li>
+  <li>Beside Type, either leave the default (Search all input types), or (when your list consists of a single input type and you want to make this distinction), click the arrow and select from the pulldown list. See <a href="#why_constrain">When would I constrain my search to a single input type? for details.</a> </li>
 
-<li>In the <b>Output</b> area, click to select <b>Gene Attributes, Additional Information</b>, and <b>Format</b> to appear in the output report. (See <a href="#customize">Are there choices for how to view query results?</a> for more information.)</li>
+<li>In the Output area, click to select Gene Attributes, Additional Information, and Format to appear in the output report. (See <a href="#customize">Are there choices for how to view query results?</a> for more information.)</li>
 <li>Click <i>Search</i>.</li>
 </ol>
 
@@ -130,12 +130,12 @@ function openHelpWindow(helpFile){
 
 <ol>
 <li>If this is spreadsheet data, be sure to save the file in tab- or comma-delimited format.</li>
-<li>In the <b>Input</b> column of the query form, leave the default (Search all input types) in the <b>Type</b> box, or click the arrow and choose a type from the list, if you wish to constrain the query. See <a href="#why_constrain">When would I constrain my search to a single input type?</a> for more details.</li>
-<li>Beneath <b>Source:</b>, click  the <b>Upload File</b> tab.  A menu of choices appears.</li>
-<li>Click the <b>Choose File</b> button and browse to locate your data. Once selected, the name of your  file appears beside the button.</li>
-<li>Beneath <b>File Type</b> and <b>ID/Symbols column</b>, check that the defaults (tab-delimited and 1) are correct for your uploaded file.</li>
+<li>In the Input column of the query form, leave the default (Search all input types) in the Type box, or click the arrow and choose a type from the list, if you wish to constrain the query. See <a href="#why_constrain">When would I constrain my search to a single input type?</a> for more details.</li>
+<li>Beneath Source:, click  the Upload File tab.  A menu of choices appears.</li>
+<li>Click Choose File and browse to locate your data. Once selected, the name of your  file appears in the blank.</li>
+<li>Beneath File Type and ID/Symbols column, check that the defaults (tab-delimited and 1) are correct for your uploaded file.</li>
 
-<li>In the <b>Output</b> area, click to select <b>Gene Attributes, Additional Information</b>, and <b>Format</b> to appear in the output report. (See <a href="#customize">Are there choices for how to view query results?</a> for more information.)</li>
+<li>In the Output area, click to select Gene Attributes, Additional Information, and Format to appear in the output report. (See <a href="#customize">Are there choices for how to view query results?</a> for more information.)</li>
 <li>Click <i>Search</i>.</li>
 </ol>
 </p>
@@ -144,7 +144,7 @@ function openHelpWindow(helpFile){
 <h3><a name="fields"></a>What are the accepted input identifier (ID) types?</h3>
 <p>For a given query, your list can be either mixed or all of the same type. You can also enter (mouse) gene symbols, synonyms, or orthologs.</p>
  <ul>
-  <li>When your input list consists of mixed ID types (for example, gene symbol, MGI ID, Entrez Gene ID, Homologene ID), use <b>Search all input types</b> (the default in the <b>Type</b> box). The following is an example of an input list requiring the use of the default:
+  <li>When your input list consists of mixed ID types (for example, gene symbol, MGI ID, Entrez Gene ID, Homologene ID), use Search all input types (the default in the Type box). The following is an example of an input list requiring the use of the default:
 <blockquote>
 <pre>
 MGI:96677 
@@ -161,7 +161,7 @@ MI0000248
 </blockquote>
 
 
-  <li>When all the items on your input list are of the same type and you wish to constrain the query, click the arrow to the right of the <b>Type</b> box and select that type from the list. (See <a href="#why_constrain">When would I constrain my search to a single input type?</a> for more details.)</li><br>
+  <li>When all the items on your input list are of the same type and you wish to constrain the query, click the arrow to the right of the Type box and select that type from the list. (See <a href="#why_constrain">When would I constrain my search to a single input type?</a> for more details.)</li><br>
 
 
 The following are representative examples for each type listed on the pulldown menu:
@@ -226,7 +226,7 @@ The following are additional types (not listed on the pulldown menu), followed b
  <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="why_constrain"></a>When would I constrain my search to a single input type?</h3>
-<p>You may wish to select a single input type from the <b>Type</b> list when you want the Batch Query to return:</p>
+<p>You may wish to select a single input type from the Type list when you want the Batch Query to return:</p>
  <ul>
    <li>Only current mouse gene symbols with MGI gene associations (for example, Acat1).</li>
    <li>Only current or former mouse symbols, synonyms, and orthologs with MGI gene associations.</li> 
@@ -239,16 +239,16 @@ The following are additional types (not listed on the pulldown menu), followed b
 <p>There is no limit to the number of identifiers that you can enter all at once, but there is a limit to how many numbers different browsers can present and there is a time constraint for very large files. 
 <ul>
   <li>Splitting long lists into sections speeds up return times. See the table under <a href="#why_select">Why can I select all the choices under Gene Attributes, but I'm limited to only one choice under Additional Information?</a>  for examples of the amount of data that you can expect to return, depending on your input/output choices.</li>
-  <li>Changing the default from <b>Search all input types</b> to the specific ID type is a good idea when your you have a very large file containing one type of identifier (e.g., all .</li>
+  <li>Changing the default from Search all input types to the specific ID type is a good idea when your you have a very large file containing one type of identifier (e.g., all .</li>
 </ul>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 
 </p>
 <h3><a name="customize"></a>Are there choices for how to view query results?</h3>
-<p>Yes. You can customize your results in three areas: <b>Gene Attributes, Additional Information</b>, and <b>Format</b>.  Click to make your selections. <br>
+<p>Yes. You can customize your results in three areas: Gene Attributes, Additional Information, and Format.  Click to make your selections. <br>
 <ul>
-  <li><b>Gene Attributes</b>:<br> You can retrieve gene/marker data for any/all of the following gene attributes or identifiers by clicking the boxes beside them. Each selected item adds one or more columns to the report.
+  <li>Gene Attributes:<br> You can retrieve gene/marker data for any/all of the following gene attributes or identifiers by clicking the boxes beside them. Each selected item adds one or more columns to the report.
    <blockquote>
 <table border="1" cellspacing="1" cellpadding="3" width="80%">
      <tr><th align="left" valign="top">When you select...</th><th align="left" valign="top">the resulting columns contain....</th></tr>
@@ -259,7 +259,7 @@ The following are additional types (not listed on the pulldown menu), followed b
      <tr><td valign="top">VEGA ID</td><td valign="top">VEGA ID</td></tr>
 </table>
 </blockquote></li>
-  <li><b>Additional Information</b>: <br>You can find data about objects associated with (or annotated to) genes. Select one of the following options per query. The default is not to return any of these data.<br> 
+  <li>Additional Information: <br>You can find data about objects associated with (or annotated to) genes. Select one of the following options per query. The default is not to return any of these data.<br> 
    <blockquote>
 <table border="1" cellspacing="1" cellpadding="3" width="!%">
     <tr><th valign="top">When you select...</th><th align="left" valign="top">the resulting columns contain....</th></tr>
@@ -277,7 +277,7 @@ The following are additional types (not listed on the pulldown menu), followed b
    </table>
 </blockquote>
 </li>
-  <li><b>Format:</b><br> You can view the output of your query results in your browser in several formats:
+  <li>Format:<br> You can view the output of your query results in your browser in several formats:
 <ul>
      <li>Web (HTML)</li>
      <li>Tab-delimited text.</li>
@@ -298,7 +298,7 @@ The default is web format.
 
  <h3><a name="why_select"></a>Why can I select all the choices under Gene Attributes, but I'm limited to only one choice under Additional Information? </h3>
 
-<p>The purpose of the single <b> Additional information</b> choice is to limit results to a reasonable size.  There is quite an increase in the amount of data returned when you select an <b>Additional Information</b> category. For example, if you enter symbols for 9 paired box genes...
+<p>The purpose of the single  Additional information choice is to limit results to a reasonable size.  There is quite an increase in the amount of data returned when you select an Additional Information category. For example, if you enter symbols for 9 paired box genes...
 <blockquote>
 <table border="1" cellspacing="1" cellpadding="3">
   <tr><td align="left" colspan="2" valign="top">Your input list is Pax1, Pax2, Pax3, ... Pax9</td></tr>
@@ -333,23 +333,23 @@ The default is web format.
 <p>Yes, you can.
 <ul><li>If you want to edit a list or change output options:</li>
 <ol>
-  <li>On the query results page, click <b>Modify</b>. The window that appears contains the original input/output data.</li>
-  <li>Edit the input list or change any <b>Output</b> options.</li>
-  <li>Click the <b>Search Again</b> button.</li>
+  <li>On the query results page, click Modify. The window that appears contains the original input/output data.</li>
+  <li>Edit the input list or change any Output options.</li>
+  <li>Click Search Again.</li>
 </ol>
 See <a href="#example">Are there examples?</a> for a sample of a query modification.
 <li>If you want to upload a different file:
 <ol>
-  <li>On the query results page, click <b>Modify</b>. The window that appears contains the original input/output data.
-<li>Click <b><i>Start New Batch Query</i></b>. An empty Input/Output window appears.</li>
-<li>Click <b>Upload file</b> and make the appropriate selections. See <A HREF="#howfill">How do I use this tool?</A> for more uploading steps.</li>
+  <li>On the query results page, click Modify. The window that appears contains the original input/output data.
+<li>Click <i>Start New Batch Query</i>. An empty Input/Output window appears.</li>
+<li>Click Upload file and make the appropriate selections. See <A HREF="#howfill">How do I use this tool?</A> for more uploading steps.</li>
 </ol></ul>
 
 </p>
 <b>Notes:</b> 
 <ul>
 <li>You can requery as many times as you like.</li>
-<li>Alternatively, you can click <b>Start New Query</b> to return to the original Batch Query form. </li>
+<li>Alternatively, you can click Start New Query to return to the original Batch Query form. </li>
 </ul>
 </p>
  <a href="#top"><font size="-1">Top</font></a>
@@ -358,7 +358,7 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
  <h3><A name="summary"></a>How do I interpret the MGI Batch Query Results report?</h3>
 <p>All results appear in the form of a table in either web (HTML) format, or in tab-delimited text depending on your Output selection.
   <ul>
-  <li>A summary of your query parameters appears at the top of the page under <b><i>You searched for...</i></b>. It lists:
+  <li>A summary of your query parameters appears at the top of the page under <i>You searched for...</i>. It lists:
 <ul>
   <li>the total number of IDs/symbols you entered (or uploaded)</li>
   <li>the <a href="#fields">input identifier type</a> of those IDs (e.g., Search all input types, MGI Gene/Marker ID, Current Symbols Only, and so on)</li>
@@ -373,7 +373,7 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
 
 <li>Background row shading alternates by marker symbol. For example, if you were to enter Pax6 and Kit, all Pax6 associations would appear in one shading (e.g., light) and all Kit associations would appear in a contrast shading (e.g., dark). </li><br>
 
-<li>Entries in the <b>Feature Type</b> column (beneath <b>Nomenclature</b>) identify the category and/or subcategory of the marker (e.g., snoRNA Gene, QTL, Pseudogene, Complex/Cluster/Region, and so on.)</li><br>
+<li>Entries in the Feature Type column (beneath Nomenclature) identify the category and/or subcategory of the marker (e.g., snoRNA Gene, QTL, Pseudogene, Complex/Cluster/Region, and so on.)</li><br>
 
 <li>When you select Gene Ontology (GO), three columns return: ID (with an entry such as <i>GO:0005525</i>), term (with an entry such as <i>GTP binding</i>), and Code (with an entry such as <i>IEA</i>. See <A HREF="http://www.geneontology.org/GO.evidence.shtml">Guide to GO Evidence Codes</a> at the Gene Ontology website for the definitions).</li><br>
 
@@ -445,7 +445,7 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
 
 
 <h3><a name="go_codes"></a>What do the acronyms in the Gene Ontology "code" column mean?</a></h3>
-<p>See <A HREF="http://www.geneontology.org/GO.evidence.shtml">Guide to GO Evidence Codes</a> at the Gene Ontology website. </b>
+<p>See <A HREF="http://www.geneontology.org/GO.evidence.shtml">Guide to GO Evidence Codes</a> at the Gene Ontology website. 
 </p>
  <a href="#top"><font size="-1">Top</font></a>
 
@@ -455,7 +455,7 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
 <ol>
   <li>Break the  ID or symbol list into pieces and run several queries. </li>
   <li>Eliminate Gene Attributes (remove the click next to Nomenclature) or select fewer of them (for example, only Ensembl ID, only Entrez Gene ID, or only VEGA ID).</li>
-<li>Click None beneath <b>Additional Information</b> or select something other than RefSNP ID. If you want RefSNP IDs, using smaller input files will speed up the query.</li>
+<li>Click None beneath Additional Information or select something other than RefSNP ID. If you want RefSNP IDs, using smaller input files will speed up the query.</li>
 </ol>
 </p>
 <p>
@@ -486,62 +486,95 @@ See <a href="#how_many_results">How many results can I get at one time?</a> for 
 
  <h3><A name="example"></a>Are there examples?</h3>
 <h4>Show me all the phenotype annotations for a list of three genes.</h4>
-  <ol>
-    <li>From <b>Gene Attributes</b>, click any other data you want to see in the output report (or leave the default, Nomenclature).</li>
-    <li>From <b>Additional Information</b>, click <b>Mammalian Phenotype (MP)</b>. </li>
-    <li>Change Input <b>Type</b> to <b>Current Symbols Only</b> (or leave the default, <b>Search all input types</b>).</li>
+  <p><ul>
+    <li>From Gene Attributes, click any other data you want to see in the output report (or leave the default, Nomenclature).</li>
+    <li>From Additional Information, click Mammalian Phenotype (MP).</li>
+    <li>Change Input Type to Current Symbols Only (or leave the default, Search all input types).</li>
     <li>Type three gene symbols (for example, Brca1, Brca2, and Bard1) into the ID/Symbols List box. </li>
     <li>Click Search.</li>
-  </ol>
+  </ul>
   </p>
 
-<h4>I want to add a fourth item to an input list of Brca1, Brca2, Bard1, and I want to run two queries: first select the default, and second, specify the input type, to discover whether or not there are any differences in the results.</h4>
-  <ol>
-  <li>Follow the instructions for the first example and click <b>Modify</b> when the results appear.</li>
-  <li>Add <i>A</i> (or <i>a</i>) to the list.</li>
+<h4>I want to add a fourth item to an input list of Brca1, Brca2, Bard1, and I want to run two queries: first, I want to use the default (Search all input types), and next, I want to select an input type, to discover whether or not there are differences in the results.</h4>
+<p>  <ul>
+  <li>Follow the instructions for the first example and click Modify when the results appear.</li>
+  <li>Add (for example) A (or a) to the list.</li>
   <li>Leave the default.</li>
-  <li>Click Search again. Five results appear. The ID type is <i>current symbol</i> for four of the items and <i>human  synonym</i> for the fifth item.</li>
-  <li>Click <b>Modify</b> again.</li>
-  <li>Don't edit the list but do change the Input Type to <b>Current Symbols Only</b> and click Search. Four results appear, all identified as <i>current symbol</i>. </li> 
-  </ol>
+  <li>Click Search again. Five results appear. The ID type is current symbol for four items and human synonym for the fifth item.</li>
+  <li>Click Modify again.</li>
+  <li>Don't edit the list but do change the Input Type to Current Symbols Only and click Search. Four results appear, all identified as <i>current symbol</i>. </li> 
+  </ul>
   <br>
+</p>
+<h4>I have a text file of MGI Marker IDs and I want to know the corresponding GenBank/RefSeq IDs.</h4>  
+<ul>
+    <li>In the Input box:</li>
+      
 
- <li>I have a text file of MGI Marker IDs and I want to know the corresponding GenBank/RefSeq IDs.</li>
-      <ol>
-        <li>In the Input column next to <b>Type</b>, leave the default (<b>Search all input types</b>).</li>
-        <li>Under <b>Source:</b>, click the <b>Upload File</b> tab.</li>
-         <li>From the menu that appears, beneath <b>File Type</b>, check that the delimiter and column defaults are accurate.</li>
-        <li>Beneath <b>ID/Symbols File</b>, click <b>Choose file</b>. Check that the file name that appears (beside the button) is correct.</li>
-    <li>In the Output box, under <b>Additional Information</b>, click <b>GenBank/RefSeqID</b>.</li>
-    <li>Click <b>Search</b>.</li>
-      </ol>
-     <br>
 
-  <li>I want a list of MGI alleles for Entrez Gene IDs located in the third column of an Excel spreadsheet.</li>
-   <ol>
-<li>In the Input column next to <b>Type</b>, click the arrow and select <b>Entrez Gene ID</b> (or leave the default, <b>Search all input types</b>) on the pulldown list.</li>
-  <li>In the Output column, Beside <b>Additional Information:</b> click <b>Alleles</b>.</li>
+  <ul>
+        <li>Next to Type, leave the default (Search all input types).</li>
+        <li>Beneath Source, click the Upload File tab. A menu appears.</li>
+         <li>Beneath File Type, check that the delimiter choice (tab-delimited or comma separated) and ID/Symbol Column number  match the content of your text file.</li>
+        <li>Beneath ID/Symbols File, click Browse.
+	<li>Locate and select your text file, then check that the filename that appears (beside Browse) is correct.</li>
+	</ul>
+    <li>In the Output box:</li>
+	<ul>
+	<li>Beneath Additional Information, click GenBank/RefSeqID.</li>
+	 </ul>
+	
+    <li>On the bottom of form:
+	<ul><li> click Search.</li></ul>
+      </ul>
+
+ <h4>I want a list of MGI alleles for Entrez Gene IDs located in the third column of an Excel spreadsheet.</h4>
+   <ul> <li>In the Input box:</li>
+<ul><li>Next to Type, click the arrow and select Entrez Gene ID (or leave the default, Search all input types) on the pulldown list.</li></ol>
+  <li>In the Output box:
+	<ul><li>Beneath Additional Information: click Alleles.</li></ul>
    <li>In Excel:</li>
      <ul>
      <li>Click the top of the column to select it, then click Edit->Copy.</li>
-     <li>In your browser, click inside the input box, and then click Edit->Paste.</li>
-     </ul>
-   <li>For <b>Input type</b> click  <i>EntrezGene</i> on the pulldown list (or leave the default, <b>Search all input types</b>).</li>
-    <li>Click <i>Search</i>.</li>
-   </ol>
- <br>
+	</ul>
+   <li>In your browser:
+	<ul>
+  <li>Click inside the input box, and then Edit->Paste.</li></ul>
+    
+   <li>In the Input box:
+	<ul>
+	  <li>Click  <i>EntrezGene</i> on the pulldown list (or leave the default, Search all input types).</li></ul>
+	   
+     <li>On the bottom of form, click Search.</li>
+      </ul>
 
-<li>I used the Genes and Markers Query Form and selected tab-delimited output for my results, and I now have a summary report with 67 matching items. How do I get a column of this data into the MGI Batch Query?<br>
-<b>Note:</b> The steps below do <i>not</i> work if you are using the Firefox browser. Check their website for a workaround or use a different browser for saving MGI Batch Query results in Excel.</b>
 
-<ol>
-  <li>Note the column number containing the data of interest.</li>
-  <li>Name and save the file. Under <i>Save as <u>t</u>ype:</i>, select Text (Tab delimited).</li>
-  <li>On the MGI Batch Query, click the <b>Upload File</b> tab, and <b>Choose File</b> to browse and locate the file.</li>
-  <li>Click the File Type (i.e., <i>tab-delimited</i>), enter the column number (e.g., <i>5</i>), and, if desired, select the input identifier type (e.g., MGI Gene/Marker ID) or leave the default (Search all input types).</li>
-  <li>Click the desired output options.</li>
+<h4>I used the Genes and Markers Query Form and selected tab-delimited output for my results, and I now have a summary report with 67 matching items. How do I get a column of this data into the MGI Batch Query?</h4>
+
+<p><b>Note:</b> The steps below do <i>not</i> work if you are using the Firefox browser. Check their website for a workaround or use a different browser for saving MGI Batch Query results in Excel.</p>
+<ul>
+  <li>In the summary report:</li>
+	<ol>
+	  <li>Note the column number containing the data of interest.</li>
+  <li>Name the file and save the file. </i>
+<li>Under <i>Save as <u>t</u>ype:</i>, select Text (Tab delimited).</li>
+<li>On the MGI Batch Query form, Input box:</li>
+  <li>Beneath Source, click Upload File, and then Browse to locate the file.</li>
+  <li>Click to select the File Type (tab-delimited), enter the column number (e.g., 6) and, if desired, make a selection beside from the list next to Type (e.g., MGI 
+Gene/Marker ID) or leave the default (Search all input types).</li></ol>
+<li>In the Output box:</li>
+  <ul>
+      <li>Click the desired Gene Attributes, Additional Information, and Format options.</li></ul>
+<li>Bottom of the form:</li>
+   <ol>
   <li>Click <i>Search</i>.</li>
-  <li>Click <b>Modify</b> button and change either the Input or Output option(s) to requery. </li>
+ </ol>
+<li>To re-query:
+	<OL>
+  <li>Click Modify</LI>
+	<LI>Change the Input and/or Output option(s). </li>
+	<li>Click Search again.
+
 </ol>
 <br><b>Note:</b> If your initial data are not in tab-delimited or comma-separated format, copy and paste the file into a spreadsheet, save it in one of those formats, and then use the MGI Batch Query to upload the desired column (be sure to identify the proper File Type and column).
  </ul>

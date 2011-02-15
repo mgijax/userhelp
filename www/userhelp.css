@@ -29,28 +29,43 @@ p {      padding: 2px 0px 12px 0px;
 blockquote {padding-left: 40px; align:center; padding-bottom:12px; padding-right: 40px; padding-top:4px;
 }
 
-}
-
 ul {
     padding: 2px 0px;
 }
 
-ul ul {
-    padding: 2px 0px;
+ul li {
+	margin-left: 25px;
 }
 
 ul ul li {
-    margin-left: 45px;
+    margin-left: 40px;
 }
 
-ul ul ul {
+ol {
     padding: 2px 0px;
 }
 
-.nb  {border:none; text-align:center; padding-bottom: 2px; width: 100%;
+ol li {
+	margin-left: 25px;
+}
+
+ul ol {
+    padding: 2px 0px;
+}
+ul ol li {
+    margin-left: 40px;
+}
+
+ol ul li {
+    margin-left: 40px;
+}
+
+
+
+.nb  { border:none; text-align:center; padding-bottom: 2px; width: 100%;
 font-size:12px;
 	}
-.nb td  {border:none; text-align:center;
+.nb td  { border:none; text-align:center;
 	}
 
 th {
