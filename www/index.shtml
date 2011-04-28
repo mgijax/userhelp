@@ -300,6 +300,12 @@ function openHelpWindow(helpFile){
             Using the MGI Batch Query
           </a>
         </dd>
+	<dt>Accession IDs 
+        <dd>
+          <a href="batch_qf_help.shtml" onClick="javascript:openHelpWindow('accession_ID_help.shtml'); return false;">
+            Using Examples  / Interpreting Results
+          </a>
+        </dd>
       </dl>
     </td>
   </tr>
