@@ -19,93 +19,78 @@ function openHelpWindow(helpFile){
 <div id="titleBarWrapper">
  <span class="titleBarMainTitle">User Help</span>
 </div> <!--titleBar-->
-
-<!-- main body table -->
-<table width="75%" cellpadding="2" align="center">
-
+<!--toc table>
 <!-- TOC table -->
-<tr>
-<td>
-  <table class="toc" width="100%">
-  <tr>
-    <td>
-        <ul>
-        <li><a href="#help_marker">Genes, Genome Features &amp Maps</a> | </li>
-        <li><a href="#help_pad">Phenotypes, Alleles &amp Disease Models</a> | </li>
-        <li><a href="#help_gxd">Gene Expression</a> | </li>
-        <li><a href="#help_cre">Recombinases</a> | </li>
-        <li><a href="#help_go">GO Functional Annotations</a> | </li>
-        <li><a href="#help_pathways">Biochemical Pathways</a> | </li>
-        <li><a href="#help_strain">Strains, SNPs &amp Polymorphisms</a> | </li>
-        <li><a href="#help_mammortho">Mammalian Orthology</a> |</li>
-	<li><a href="#help_other_searches">Other Searches</a></li>
-        </ul>
+
+<table class="nb" width="60%" cellpadding="4" align="center">
+<tr align="center"><Td VALIGN="top">  <a href="#help_marker">Genes, Genome Features &amp Maps</a> | 
+    <a href="#help_pad">Phenotypes, Alleles &amp Disease Models</a> | 
+    <a href="#help_gxd">Gene Expression</a> | 
+   <a href="#help_cre">Recombinases</a> | 
+     <a href="#help_go">GO Functional Annotations</a> | 
+ <a href="#help_pathways">Biochemical Pathways</a> | 
+ <a href="#help_strain"><nobr>Strains, SNPs &amp Polymorphisms</a> | 
+    <a href="#help_mammortho">Mammalian Orthology</a> | 
+<a href="#help_other_searches">Other Searches</a>
     </td>
   </tr>
   </table>
-<!--end toc table-->
+
+<!-- main body table -->
+<table width="80%" cellpadding="2" align="center">
+
 
 <!--start of body table-->
 <!-- Genes -->
-<tr><td class="enhance">
+<tr> <td class="enhance">
      <a href='<!--#include file='include/homepages_url.html'-->genes.shtml'
             onclick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->genes.shtml');
             return false;">
-            Genes, Genome Features &amp; Maps</a></td>
-  	</tr>
+            Genes, Genome Features &amp; Maps</a>
   
-    <tr>
-    <td>
-      <dl class="linkedList">
+      	<dl class="linkedList">
 	<dt>Genes & Markers Help</dt>
-          <dd><a href="marker_detail_help.shtml" onClick="javascript:openHelpWindow('marker_detail_help.shtml'); return false;">Interpreting Gene Detail Reports</a></dd>
-	<dt>Sequence Help</dt>         
-        <dd><a href="sequence_summary_help.shtml" onClick="javascript:openHelpWindow('sequence_summary_help.shtml'); return false;">            
-          Interpreting Mouse Sequences Summary Reports</a>
-        </dd>
 	<dd>
-	  <a href="sequence_detail_help.shtml" onClick="javascript:openHelpWindow('sequence_detail_help.shtml'); return false;">
-            Interpreting Sequence Detail Reports</a>
-	</dd>
-      </dl>
+          <table cellspacing="1" cellpadding="2" width="!">
+            <tr><td><ul><li><a href="marker_detail_help.shtml" onClick="javascript:openHelpWindow('marker_detail_help.shtml'); return false;">Interpreting Gene Detail Reports</a></li>
+	<li><a href="associated_human_diseases_help.shtml" onClick="javascript:openHelpWindow('associated_human_diseases_help.shtml'); return false;">Interpreting the Associated Human Diseases Report</a></li>
+	 <li><a href="go_classifications_help.shtml" onClick="javascript:openHelpWindow('go_classifications_help.shtml'); return false;">Interpreting the Gene Ontology Classifications Report</a></li>
+	 <li><a href="mapping_help.shtml" onClick="javascript:openHelpWindow('mapping_help.shtml'); return false;">Interpreting the Marker Mapping Data Query Results Summary</a></li>
+	</ul></td></tr></table></dd>
+	
+	<dt>Sequence Help</dt>         
+        <dd>
+          <table cellspacing="1" cellpadding="2" width="!">
+            <tr><td><ul class="linkedList"><li><a href="sequence_summary_help.shtml" onClick="javascript:openHelpWindow('sequence_summary_help.shtml'); return false;"> Interpreting Mouse Sequences Summary Reports</a></li>
+        
+	  <li><a href="sequence_detail_help.shtml" onClick="javascript:openHelpWindow('sequence_detail_help.shtml'); return false;">Interpreting Sequence Detail Reports</a></li>
+	</ul></td></tr></table></dd>
+      </dl></td></tr>
 <!-- Phenotypes -->
+<a name="help_pad">
 <tr>
-<td>
-<a name="help_pad"></a>
-
-  <table class="outline" width="100%">
-
-  <tr>
     <td class="enhance">
       <a href='<!--#include file='include/homepages_url.html'-->phenotypes.shtml'
       onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->phenotypes.shtml');
       return false;">
       Phenotypes, Alleles &amp Disease Models</a>
-    </td>
-  </tr>
-
-  <tr >
-    <td>
+ 
       <dl class="linkedList">
         <!-- help example -->
-        <dt>help example --
+        <dd>help example --
           <a href="example.shtml" onClick="javascript:openHelpWindow('example.shtml'); return false;">
             Example Link
           </a>
-        </dt>
+        </dd>
       </dl>
     </td>
   </tr>
 
-  </table>
-</td>
-</tr>
+ 
+
 <!-- Expression -->
+<a name="help_gxd">
 <tr>
-<td>
-<a name="help_gxd"></a>
-  <table class="outline" width="100%">
-  <tr>
     <td class="enhance">
       <a href='<!--#include file='include/homepages_url.html'-->expression.shtml'
       onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->expression.shtml');
@@ -113,31 +98,24 @@ function openHelpWindow(helpFile){
       Gene Expression</a>
     </td>
  </tr>
+<tr>
     <td>
       <dl class="linkedList">
         <!-- help example -->
         <dt>Expression Help</dt>
-	<dd><a href="gxdindex_help.shtml" onClick="javascript:openHelpWindow('gxdindex_help.shtml'); return false;">
+	<dd><a href="expression_literature_help.shtml" onClick="javascript:openHelpWindow('expression_literature_help.shtml'); return false;">
             Using the Gene Expression Literature Index Query Form</a>
 	</dd>
       </dl>
     </td>
   </tr>
 
-  </table>
-</td>
-</tr>
-
-
 
 <!-- cre -->
-<tr>
-<td>
 <a name="help_cre"></a>
 
-  <table class="outline" width="100%">
+<tr>
 
-  <tr>
     <td class="enhance">
       <a href='<!--#include file='include/homepages_url.html'-->recombinase.shtml'
       onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->recombinase.shtml');
@@ -146,7 +124,7 @@ function openHelpWindow(helpFile){
     </td>
   </tr>
 
-  <tr >
+  <tr>
     <td>
       <dl class="linkedList">
         <!-- help example -->
@@ -158,9 +136,6 @@ function openHelpWindow(helpFile){
     </td>
   </tr>
 
-  </table>
-</td>
-</tr>
 
 
 
@@ -334,5 +309,5 @@ function openHelpWindow(helpFile){
 </tr>
 
 
-</table>-->
+</table>
 <!--#include file='include/templateBodyStop.html'-->

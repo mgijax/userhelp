@@ -43,23 +43,27 @@ function openHelpWindow(helpFile){
  <UL>
  <LI><A HREF="#whatdo">What can I use the MGI Batch Query to find?</a>
  <LI><A HREF="#howfill">How do I use this tool?</A></LI>
-  <LI><A HREF="#fields">What are the accepted input identifier (ID) types?</a></li>
-  <LI><A HREF="#type_list">Does the input list have to be in any particular form?</a></li>
-<li><a href="#autodetect">What does "Search all input types" accomplish?</a></li>
-<li><a href="#why_constrain">When would I constrain my search to a single input type?</a></li>
-<li><a href="#how_many_IDs">How many IDs can I enter at one time?</a></li>
+  	<ul>
+ 	  <LI><A HREF="#fields">What are the accepted input identifier (ID) types?</a></li>
+  	  <LI><A HREF="#type_list">Does the input list have to be in any particular form?</a></li>
+	   <li><a href="#autodetect">What does "Search all input types" accomplish?</a></li>
+	   <li><a href="#why_constrain">When would I constrain my search to a single input type?</a></li>
+	   <li><a href="#how_many_IDs">How many IDs can I enter at one time?</a></li>
 <li><a href="#customize">Are there choices for how to view query results?</a></li>
 <li><a href="#why_select">Why can I select all the choices under <i>Gene Attributes</i>, but I'm limited to only one choice under <i>Additional Information</i>?</a></li>
 <li><a href="#how_many_results">How many results can I get at one time?</a></li>
 <li><a href="#revise">Can I edit my original options and requery?</a></li>
-
- <LI><A HREF="#summary">How do I interpret the MGI Batch Query Results report?</A></LI>
- <LI><A HREF="#mp">How do I interpret Mammalian Phenotype (MP) results?</A></LI>
- <LI><A HREF="#omim">How do I interpret Human Disease (OMIM) results?</A></LI>
-<li><a HREF="#gene_expression">How do I interpret Gene Expression results?</a></li>
-<li><a href="#why_listed">Why is a gene listed multiple times in the report?</a></li>
+ 	</ul>
+<li><a href="#interpret">How do I interpret results?</a></li>
+ <ul>
+   <LI><A HREF="#summary">MGI Batch Query results</A></LI>
+ <LI><A HREF="#mp">Mammalian Phenotype (MP) results</A></LI>
+ <LI><A HREF="#omim">Human Disease (OMIM) results</A></LI>
+<li><a HREF="#gene_expression">Gene Expression results</a></li>
+  </ul>
+<li><a href="#why_listed">Why is a gene listed multiple times in a report?</a></li>
 <li><a href="#go_codes">What do the acronyms in the Gene Ontology "code" column mean?</a></li>
-<li><a href="#lost_file">I clicked Back  and when I returned to my query, the file I was uploading disappeared.</a></li>
+<li><a href="#lost_file">I clicked Back and when I returned to my query, the file I was uploading disappeared.</a></li>
 <li><a href="#speed">What can I do to speed up my query?</a></li>
 <li><a href="#no_results">My query returned no results or <i>No associated gene</i> in one of the report columns. Why?</a></li>
 <li><a href="#example">Are there examples?</a></li>
@@ -98,15 +102,14 @@ function openHelpWindow(helpFile){
 
 
 <h3><a name="howfill"></a>How do I use this tool?</h3>
+<p>Given a set of gene symbols or input identifiers (e.g. MGI accession, RefSNP, VEGA IDs) from a spreadsheet, you can:
 <ul>
-  <li>Given a set of gene symbols or input identifiers (e.g. MGI accession, RefSNP, VEGA IDs) from a spreadsheet, you can copy and paste or upload a text file with a column of data into the Batch Query form. </li>
-<li>The column list can be mixed (e.g., gene symbols, synonyms, orthologs, IDs ).
-<li>You do not have to identify the type of input (e.g., marker ID, Entrez Gene ID) because the Batch Query tool detects this automatically. </li>
-  <li>You can specify the output in the <a href="#summary">MGI Batch Query Results</a>  (for example, nomenclature, genome location, Ensembl, Entrez Gene, or VEGA gene identifiers, gene ontology or mammalian phenotype IDs and codes, gene expression data, various other IDs), or Excel.
-<li>You can view the results in either web (HTML), tab-delimited format.</li>
+  <li>Copy and paste or upload a text file with a column of data into the Batch Query form. The column list can be mixed (e.g., gene symbols, synonyms, orthologs, IDs). You do not have to identify the type of input (e.g., marker ID, Entrez Gene ID) because the Batch Query tool detects the input type automatically. </li>
+  <li>Specify the output in the <a href="#summary">MGI Batch Query Results</a>  (for example, nomenclature, genome location, Ensembl, Entrez Gene, or VEGA gene identifiers, gene ontology or mammalian phenotype IDs and codes, gene expression data, various other IDs), or Excel.
+<li>View the results in either web (HTML), tab-delimited format.</li>
 </ul>
 </p>
-<p>You can also use the batch query to find duplications, ambiguities, and variations in data. You could check, for example, that an input list of MGI identifiers returns the same number of Ensembl, Entrez Gene, and VEGA IDs on different days or that switching the input and output IDs returns identical data.  See <a href="#example">Are there any examples?</a> for additional ways that you might use this query.
+<p>You can also use the batch query to find duplications, ambiguities, and variations in data. You could check, for example, that an input list of MGI identifiers returns the same number of Ensembl, Entrez Gene, and VEGA IDs on different days or that switching the input and output IDs returns identical data.  See <a href="#example">Are there any examples?</a> for additional ways you might use this query.
 </p>
 
 <b>Note:</b>
@@ -298,18 +301,17 @@ The default is web format.
 
  <h3><a name="why_select"></a>Why can I select all the choices under Gene Attributes, but I'm limited to only one choice under Additional Information? </h3>
 
-<p>The purpose of the single  Additional information choice is to limit results to a reasonable size.  There is quite an increase in the amount of data returned when you select an Additional Information category. For example, if you enter symbols for 9 paired box genes...
+<p>The purpose of the single Additional information choice is to limit results to a reasonable size.  There is quite an increase in the amount of data returned when you select an Additional Information category. For example, if you enter symbols for 9 paired box genes (your input list is Pax1, Pax2, Pax3, ... Pax9), and you select:</p>
 <blockquote>
-<table border="1" cellspacing="1" cellpadding="3">
-  <tr><td align="left" colspan="2" valign="top">Your input list is Pax1, Pax2, Pax3, ... Pax9</td></tr>
-  <tr><th align="left" valign="top">You select Nomenclature and ...</th><th valign="top"><nobr>the MGI Batch Query returns...</th></tr>
- <tr><td align="left" valign="top">Genome Location</td><td valign="top">9 rows, one for each gene, Pax1 - Pax9</td></tr>
-  <tr><td align="left" valign="top">UniProt ID</td><td valign="top">30+ matching rows</td></tr>
+<table border="1" cellspacing="1" cellpadding="6">
+  <tr><td valign="top"><b>Nomenclature and ...</b></td><td valign="top"><b>the MGI Batch Query returns...</b></td></tr>
+ <tr><td valign="top">Genome Location</td><td valign="top">9 rows, one for each gene, Pax1 - Pax9</td></tr>
+  <tr><td valign="top">UniProt ID</td><td valign="top">30+ matching rows</td></tr>
 
-   <tr><td align="left" valign="top">Gene Ontology (GO)</td><td valign="top">200+ matching rows</td></tr>
-  <tr><td align="left" valign="top">Mammalian Phenotype (MP)</td><td valign="top">650+ matching rows</td></tr>
-  <tr><td align="left" valign="top">Gene Expression</td><td valign="top">1400+ matching rows</td></tr>
-  <tr><td align="left" valign="top">RefSNP ID</td><td valign="top">~2900 matching rows</td></tr>
+   <tr><td valign="top">Gene Ontology (GO)</td><td valign="top">200+ matching rows</td></tr>
+  <tr><td valign="top">Mammalian Phenotype (MP)</td><td valign="top">650+ matching rows</td></tr>
+  <tr><td valign="top">Gene Expression</td><td valign="top">1400+ matching rows</td></tr>
+  <tr><td valign="top">RefSNP ID</td><td valign="top">~2900 matching rows</td></tr>
   </table>
 </blockquote>
 </p>
@@ -317,20 +319,18 @@ The default is web format.
 
 
 <h3><a name="how_many_results"></a>How many results can I get at one time?</h3>
-<p>The number of results that can appear at once depends on the output format you select.
 <ul>
   <li>For web format, the maximum is 10,000.</li>
   <li>For tab-delimited, the maximum is 200,000.</li>
 <li>For Excel, the maximum is 200,000.</li>
 </ul>
-</p>
-<p>If the result total is greater than the maximum allowed, a line at the top of the MGI Batch Query Results report lists the number found. If your results are greater than 300,000, the display is <i>300,000+</i>, and you'll have to split your query into smaller sections in order to see everything. See <a href="#speed">What can I do to speed up my query?</a> for other suggestions on how to limit results.</p>
 
+<p>If the result total is greater than the maximum allowed, a line at the top of the MGI Batch Query Results report lists the number found. If your results are greater than 300,000, the display is <i>300,000+</i>, and you'll have to split your query into smaller sections in order to see everything. See <a href="#speed">What can I do to speed up my query?</a> for other suggestions on how to limit results.
 </p>
  <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="revise"</a>Can I edit my original options and requery?</h3>
-<p>Yes, you can.
+<p>Yes, you can.</p>
 <ul><li>If you want to edit a list or change output options:</li>
 <ol>
   <li>On the query results page, click Modify. The window that appears contains the original input/output data.</li>
@@ -339,13 +339,13 @@ The default is web format.
 </ol>
 See <a href="#example">Are there examples?</a> for a sample of a query modification.
 <li>If you want to upload a different file:
-<ol>
+	<ol>
   <li>On the query results page, click Modify. The window that appears contains the original input/output data.
 <li>Click <i>Start New Batch Query</i>. An empty Input/Output window appears.</li>
 <li>Click Upload file and make the appropriate selections. See <A HREF="#howfill">How do I use this tool?</A> for more uploading steps.</li>
-</ol></ul>
+	</ol>
+</ul>
 
-</p>
 <b>Notes:</b> 
 <ul>
 <li>You can requery as many times as you like.</li>
@@ -354,17 +354,18 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
 </p>
  <a href="#top"><font size="-1">Top</font></a>
 
-
- <h3><A name="summary"></a>How do I interpret the MGI Batch Query Results report?</h3>
-<p>All results appear in the form of a table in either web (HTML) format, or in tab-delimited text depending on your Output selection.
+<h3><a name="interpret"></a>How do I interpret results?</h3>
+<blockquote>
+ <h4><a name="summary"></a>MGI Batch Query results</h4>
+<p>All Batch Query results appear in the form of a table in either web (HTML) format, or in tab-delimited text depending on your Output selection.
   <ul>
   <li>A summary of your query parameters appears at the top of the page under <i>You searched for...</i>. It lists:
 <ul>
   <li>the total number of IDs/symbols you entered (or uploaded)</li>
   <li>the <a href="#fields">input identifier type</a> of those IDs (e.g., Search all input types, MGI Gene/Marker ID, Current Symbols Only, and so on)</li>
-  <li>your Output options (e.g., Nomenclature,Genome Location, UniProt ID, and so on)</li></ul><br>
+  <li>your Output options (e.g., Nomenclature,Genome Location, UniProt ID, and so on)</li>
+  </ul><br>
   
-
 <li>If the results exceed the display limit (10,000 lines for web output, 200,000 for tab-delimited), a line of text identifies the total found. If your results are greater than 300,000, the display is <i>300,000+</i>.</li><br>
 
     <li>For each ID entered, at least one row is returned for that ID, its corresponding MGI gene/marker ID, plus columns for whichever attributes or additional information you selected (see <a href="#customize">Are there choices for how to view query results?</a>).</li><br>
@@ -375,16 +376,12 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
 
 <li>Entries in the Feature Type column (beneath Nomenclature) identify the category and/or subcategory of the marker (e.g., snoRNA Gene, QTL, Pseudogene, Complex/Cluster/Region, and so on.)</li><br>
 
-<li>When you select Gene Ontology (GO), three columns return: ID (with an entry such as <i>GO:0005525</i>), term (with an entry such as <i>GTP binding</i>), and Code (with an entry such as <i>IEA</i>. See <A HREF="http://www.geneontology.org/GO.evidence.shtml">Guide to GO Evidence Codes</a> at the Gene Ontology website for the definitions).</li><br>
-
-
+<li>When you select Gene Ontology (GO), three columns return: ID (with an entry such as <i>GO:0005525</i>), term (with an entry such as <i>GTP binding</i>), and Code (with an entry such as <i>IEA</i>. See <a href="http://www.geneontology.org/GO.evidence.shtml">Guide to GO Evidence Codes</a> at the Gene Ontology website for the definitions).</li>
 <!--<li>When you select Mammalian Phenotype (MP), any identifiers returned are for non-normal annotations only. The assumption is that you want to see abnormalities; however, if you want <i>every</i> phenotype investigated for a marker,  use the Phenotype QF</li>-->
   </ul>
-</p>
- <a href="#top"><font size="-1">Top</font></a>
 
-<h3><a name="mp"></a>How do I interpret Mammalian Phenotype (MP) results?</h3>
-<p>The list of Mammalian Phenotype Ontology terms associated with a gene is a combination of all terms associated with all mutant alleles of that gene.
+<h4><a name="mp"></a>Mammalian Phenotype (MP) results</h4>
+<p>The resulting list of Mammalian Phenotype Ontology terms associated with a gene is a combination of all terms associated with all mutant alleles of that gene.</p>
 <ul>
   <li>Mammalian Phenotype (MP) terms appear by gene.</li>
   <li>Each term describes a mouse phenotype with some mutation in that gene.</li>
@@ -392,158 +389,138 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
   <li>Analyzed mice may have causative mutations in other genes.</li>
   <li>Wide phenotypic variation exists due to homozygotes vs. heterozygotes and different strain backgrounds.</li>
 </ul>
-</p>
-<p>See also <A href="#summary">How do I interpret the MGI Batch Query Results report?</a> for information on the other fields.</</p>
+
+<p>See also <a href="#summary">MGI Batch Query results</a> for information on the other fields.</</p>
 
 <p>For detailed information, use the 
-<a href="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml">Phenotypes, Alleles & Disease Models Query Form</a> to find your gene of interest and Mammalian Phenotype terms associated with specific genotypes and strains.
-</p>
+<a href="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml">Phenotypes, Alleles & Disease Models Query Form</a> to find your gene of interest and Mammalian Phenotype terms associated with specific genotypes and strains.</p>
 
 <!--The list of Mammalian Phenotype Ontology terms associated with a gene is a combination of all terms  associated with all mutant alleles of that gene. The mice analyzed may have been heterozygotes or homozygotes for the mutant allele, or the mouse may have carried other mutations in addition to those in this gene alone. Further, strain background can have a profound effect on phenotype. Thus, the appearance of a Mammalian Phenotype term here does not mean that mutations in this gene necessarily contribute to or are causative of the phenotype. For detailed information, use the Phenotypes, Alleles & Disease Models Query Form and query for your gene of interest to view Mammalian Phenotype terms as they are associated with specific genotypes and strains.-->
 
- <a href="#top"><font size="-1">Top</font></a>
 
 
- <h3><a name="omim"></a>How do I interpret Human Disease (OMIM) results?</h3>
-<p> <li>Human Disease terms are listed by gene, followed by an ID and Term entry.</li></p>
+ <h4><a name="omim"></a>Human Disease (OMIM) results</h4>
+<p>Human Disease terms appear by gene, followed by an ID and the Mammalian Phenotype vocabulary term entry.</p>
 <ul>
- 
-  <li>Each term listed indicates that a mutant allele of this gene is involved in a mouse genotype used as a disease model.</li>
+   <li>Each term listed indicates that a mutant allele of this gene is involved in a mouse genotype used as a disease model.</li>
   <li>The term does not necessarily imply that mutations in that gene contribute to or cause the disease.</li>
   <li>Analyzed mice may have causative mutations in other genes.</li>
   <li>Wide variation exists due to homozygotes vs. heterozygotes and different strain backgrounds.</li>
 </ul>
 
-<p>See also <A href="#summary">How do I interpret the MGI Batch Query Results report?</a> for information on the other fields.</</p>
+<p>See also <a href="#summary">MGI Batch Query results</a> for information on other fields.</</p>
 
-<p>For detailed information, use the <a href="!--#include file='include/wi_url.html'--searches/allele_form.shtml">Phenotypes, Alleles & Disease Models Query Form</a> to find your gene of interest and view Human Disease terms as they are associated with specific allelic mutations and strains.
+<p>For detailed information, use the <a href="!--#include file='include/wi_url.html'--searches/allele_form.shtml">Phenotypes, Alleles & Disease Models Query Form</a> to find your gene of interest and view Human Disease terms as they are associated with specific allelic mutations and strains.</p>
 <!--The mice analyzed may have been heterozygotes or homozygotes for the mutant allele, or the mouse may have carried other mutations in addition to those in this gene alone. Thus, the appearance of a Human Disease term here does not mean that mutations in this gene necessarily contribute to or are causative of the disease.-->
-</p>
-<a href="#top"><font size="-1">Top</font></a>
 
 
-<h3><a name="gene_expression"></a>How do I interpret Gene Expression results?</h3>
-<p>If there is expression data from a curated reference in the Gene Expression Database, the anatomical structure examined (listed by Theiler stage and structure name) appears, followed by columns indicating: 
+<h4><a name="gene_expression"></a>Gene Expression results</h4>
+<p>If there is expression data from a curated reference in the Gene Expression Database, the anatomical structure examined (listed by Theiler stage and structure name) appears, followed by columns indicating: </p>
 <ul>
   <li>the total number of assay results for this gene/tissue</li>
   <li>the number of positive assay results (&#043;)</li>
   <li>the number of negative assay results (&minus;).</li>
 </ul>
-</p>
-<p>See also <A href="#summary">How do I interpret the MGI Batch Query Results report?</a> for information on the other fields.</</p>
+
+<p>See also <a href="#summary">MGI Batch Query results</a> for information on the other fields.</p>
  <!--<p>For detailed information, see <a href="gxd_tissue_results.shtml">Interpreting the Gene Expression Data: Results by Tissue - Summary Report</a>.</p>-->
 
-<p>Use the <A HREF="<!--#include file='include/java_url.html'-->WIFetch?page=markerQF">Genes and Markers Query Form</a> to find a gene of interest and  view additional expression results (e.g., Literature Summary, Data Summary, Theiler Stages, Assay Types, cDNA source data, External Resources).</p>
+<p>Use the <a href="<!--#include file='include/java_url.html'-->WIFetch?page=markerQF">Genes and Markers Query Form</a> to find a gene of interest and  view additional expression results (e.g., Literature Summary, Data Summary, Theiler Stages, Assay Types, cDNA source data, External Resources).</p>
+
+</blockquote>
 
 <a href="#top"><font size="-1">Top</font></a>
 
 
 <h3><a name="why_listed"</a>Why is a feature type listed multiple times in the report?</h3>
-<p>The relationship between a feature type and its attribute/additional information categories is frequently not one-to-one. For example, a gene may have several Ensembl, Entrez Gene, or VEGA IDs associated with it; multiple gene ontology (GO) and/or Mammalian Phenotype (MP) terms; and many refSNP IDs. Based on your output criteria, the MGI Batch Query report returns a line of text for each of these associations. See <a href="#why_select">Why can I select all the choices under Gene Attributes, but I'm limited to only one choice under Additional Information?</a> for the amount of data that the Batch Query returns, depending upon criteria.
+<p>Frequently, the relationship between a feature type and its attribute/additional information categories is not a one-to-one relationship. For example, a gene may have several associated Ensembl, Entrez Gene, or VEGA IDs; multiple gene ontology (GO) and/or Mammalian Phenotype (MP) terms; and many refSNP IDs. Based on your output criteria, the MGI Batch Query returns a line of text for each of these associations. See <a href="#why_select">Why can I select all the choices under Gene Attributes, but I'm limited to only one choice under Additional Information?</a> for the amount of data that the Batch Query returns, depending uponthose criteria.
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 
 
-<h3><a name="go_codes"></a>What do the acronyms in the Gene Ontology "code" column mean?</a></h3>
+<h3><a name="go_codes"></a>What do the acronyms in the Gene Ontology <b>Code</b> column mean?</a></h3>
 <p>See <A HREF="http://www.geneontology.org/GO.evidence.shtml">Guide to GO Evidence Codes</a> at the Gene Ontology website. 
 </p>
  <a href="#top"><font size="-1">Top</font></a>
 
 
 <h3><a name="speed"></a>What can I do to speed up my query?</h3>
-<p>There are several options for speeding up a query.
+<p>There are several options for speeding up a query.</p>
 <ol>
   <li>Break the  ID or symbol list into pieces and run several queries. </li>
   <li>Eliminate Gene Attributes (remove the click next to Nomenclature) or select fewer of them (for example, only Ensembl ID, only Entrez Gene ID, or only VEGA ID).</li>
 <li>Click None beneath Additional Information or select something other than RefSNP ID. If you want RefSNP IDs, using smaller input files will speed up the query.</li>
 </ol>
-</p>
-<p>
-See <a href="#how_many_results">How many results can I get at one time?</a> for the maximum display sizes.
-</p>
 
+<p>See <a href="#how_many_results">How many results can I get at one time?</a> for the maximum display sizes.
+</p>
 <a href="#top"><font size="-1">Top</font></a>
 
 
 <h3><a name="no_results"></a>My query returned no results or <i>No associated gene</i> in one of the report columns. Why?</h3>
-<ul><li>No results are returned if:
-  <ul>
-    <li>You upload a data file and don't specify the column containing your IDs or symbols correctly.</li>
-   <li>You upload a data file and don't select the correct file type (tab-delimited or comma separated).</li>
-   </li>
-        </ul>
-  </li><br>
-<li><i>No associated gene</i> appears:
-<ul>
-<li>In the row entry under MGI Gene/Marker ID, when the search does not find any annotations to or associations for that ID.</li>
-<li>For some (or all) entries, if you do not present a tab-delimited or comma-separated list. <br><b>Hint:</b>  <i>Save as</i> tab delimited or comma separated  and rerun the query.</li>
-<li>If you neglect to use quotation marks to enclose any gene synonym (or identifiers) containing spaces (e.g., <i>Dickie's small eye</i> must appear as <i>"Dickie's small eye"</i>  on a list).
-</li>
-</ul>
-</ul>
+<ul><li>No results are returned if you upload a data file and do not:</li>
+       <ul>
+	<li>specify the column containing your IDs or symbols correctly.</li>
+   	<li>select the correct file type (tab delimited or comma separated).</li>
+    	</ul>
+
+	<li><i>No associated gene</i> appears:</li>
+		<ul>
+		<li>In the row entry under MGI Gene/Marker ID, when the search does not find any annotations to/associations for that ID.</li>
+	<li>For some (or all) entries, if a file is not tab delimited or comma separated. <b>Hint:</b>  <i>Save as</i> tab delimited or comma separated  and rerun the query.</li>
+<li>If you do not enclose any gene synonym (or identifiers) containing spaces in quotation marks. <br>&nbsp;&nbsp;&nbsp;(e.g., change <i>Dickie's small eye</i> to <i>"Dickie's small eye"</i>).</li>
+	</ul>
+   </ul>
+
 <p><b>Note:</b> If you get an error message before your query completes, try using a smaller list of IDs or selecting fewer output categories.</p>
  <a href="#top"><font size="-1">Top</font></a>
 
  <h3><A name="example"></a>Are there examples?</h3>
-<h4>Show me all the phenotype annotations for a list of three genes.</h4>
-  <p><ul>
+<h4>I want to see all phenotype annotations for two genes.</h4>
+ <ul>
     <li>From Gene Attributes, click any other data you want to see in the output report (or leave the default, Nomenclature).</li>
-    <li>From Additional Information, click Mammalian Phenotype (MP).</li>
+    <li>From Additional Information, click Human Disease.</li>
     <li>Change Input Type to Current Symbols Only (or leave the default, Search all input types).</li>
-    <li>Type three gene symbols (for example, Brca1, Brca2, and Bard1) into the ID/Symbols List box. </li>
+    <li>Type the gene symbols in the ID/Symbols List box. </li>
     <li>Click Search.</li>
   </ul>
-  </p>
+  
 
-<h4>I want to add a fourth item to an input list of Brca1, Brca2, Bard1, and I want to run two queries: first, I want to use the default (Search all input types), and next, I want to select an input type, to discover whether or not there are differences in the results.</h4>
-<p>  <ul>
-  <li>Follow the instructions for the first example and click Modify when the results appear.</li>
-  <li>Add (for example) A (or a) to the list.</li>
-  <li>Leave the default.</li>
-  <li>Click Search again. Five results appear. The ID type is current symbol for four items and human synonym for the fifth item.</li>
-  <li>Click Modify again.</li>
-  <li>Don't edit the list but do change the Input Type to Current Symbols Only and click Search. Four results appear, all identified as <i>current symbol</i>. </li> 
-  </ul>
-  <br>
-</p>
-<h4>I have a text file of MGI Marker IDs and I want to know the corresponding GenBank/RefSeq IDs.</h4>  
+<h4>I want to add another item to an input list and see if there are different results depending on whether I use the default (Search all input types) or select an input type.</h4>
 <ul>
-    <li>In the Input box:</li>
-      
+  <li>Follow the instructions for the first example and click Modify when the results appear.</li>
+  <li>Add an item to the list.</li>
+  <li>Leave the default.</li>
+  <li>Click Search again. The ID type is current symbol for some items and human synonym for others.</li>
+  <li>Click Modify again.</li>
+  <li>Don't edit the list but do change the Input Type to Current Symbols Only and click Search. All results  are identified as <i>current symbol</i>. </li> 
+  </ul>
 
-
-  <ul>
+<h4>I have a text file of MGI Marker IDs and I want corresponding GenBank/RefSeq IDs.</h4>  
+<ul>
+    <li>Input box:</li>  
+	<ol>
         <li>Next to Type, leave the default (Search all input types).</li>
         <li>Beneath Source, click the Upload File tab. A menu appears.</li>
-         <li>Beneath File Type, check that the delimiter choice (tab-delimited or comma separated) and ID/Symbol Column number  match the content of your text file.</li>
+        <li>Beneath File Type, check that the delimiter choice (tab-delimited or comma separated) and ID/Symbol Column number  match the content of your text file.</li>
         <li>Beneath ID/Symbols File, click Browse.
 	<li>Locate and select your text file, then check that the filename that appears (beside Browse) is correct.</li>
-	</ul>
-    <li>In the Output box:</li>
-	<ul>
-	<li>Beneath Additional Information, click GenBank/RefSeqID.</li>
-	 </ul>
-	
-    <li>On the bottom of form:
-	<ul><li> click Search.</li></ul>
+	</ol><br>
+    <li>Output box:  Beneath Additional Information, click GenBank/RefSeqID.</li>
+	</ul><br>
+    <li>Bottom of form: Click Search.</li>
       </ul>
 
- <h4>I want a list of MGI alleles for Entrez Gene IDs located in the third column of an Excel spreadsheet.</h4>
-   <ul> <li>In the Input box:</li>
-<ul><li>Next to Type, click the arrow and select Entrez Gene ID (or leave the default, Search all input types) on the pulldown list.</li></ol>
-  <li>In the Output box:
-	<ul><li>Beneath Additional Information: click Alleles.</li></ul>
-   <li>In Excel:</li>
-     <ul>
-     <li>Click the top of the column to select it, then click Edit->Copy.</li>
-	</ul>
-   <li>In your browser:
-	<ul>
-  <li>Click inside the input box, and then Edit->Paste.</li></ul>
+
+<h4>I want a list of MGI alleles for Entrez Gene IDs located in the third column of an Excel spreadsheet.</h4>
+   <ul>
+	 <li>In the Input box, next to Type, click the arrow and select Entrez Gene ID (or leave the default, Search all input types) on the pulldown list.</li>
+  <li>In the output box, beneath Additional Information: click Alleles.</li>
+  <li>In Excel, click the top of the column to select it, then Edit->Copy.</li>
+	
+   <li>In your browser, click inside the input box, and then Edit->Paste.</li>
     
-   <li>In the Input box:
-	<ul>
-	  <li>Click  <i>EntrezGene</i> on the pulldown list (or leave the default, Search all input types).</li></ul>
+   <li>In the Input box, click  <i>EntrezGene</i> on the pulldown list (or leave the default, Search all input types).</li>
 	   
      <li>On the bottom of form, click Search.</li>
       </ul>
@@ -557,18 +534,16 @@ See <a href="#how_many_results">How many results can I get at one time?</a> for 
 	<ol>
 	  <li>Note the column number containing the data of interest.</li>
   <li>Name the file and save the file. </i>
-<li>Under <i>Save as <u>t</u>ype:</i>, select Text (Tab delimited).</li>
-<li>On the MGI Batch Query form, Input box:</li>
+<li>Under <i>Save as <u>t</u>ype:</i>, select Text (Tab delimited).</li></ol>
+<li>On the MGI Batch Query form, Input box:</li><ol>
+  
   <li>Beneath Source, click Upload File, and then Browse to locate the file.</li>
   <li>Click to select the File Type (tab-delimited), enter the column number (e.g., 6) and, if desired, make a selection beside from the list next to Type (e.g., MGI 
-Gene/Marker ID) or leave the default (Search all input types).</li></ol>
-<li>In the Output box:</li>
-  <ul>
-      <li>Click the desired Gene Attributes, Additional Information, and Format options.</li></ul>
-<li>Bottom of the form:</li>
-   <ol>
-  <li>Click <i>Search</i>.</li>
- </ol>
+Gene/Marker ID) or leave the default (Search all input types).</li></ol><br>
+
+<li>In the Output box, click the desired Gene Attributes, Additional Information, and Format options.</li>
+<li>On the bottom of the form, click <i>Search</i>.</li>
+
 <li>To re-query:
 	<OL>
   <li>Click Modify</LI>
@@ -576,6 +551,7 @@ Gene/Marker ID) or leave the default (Search all input types).</li></ol>
 	<li>Click Search again.
 
 </ol>
+</ul>
 <br><b>Note:</b> If your initial data are not in tab-delimited or comma-separated format, copy and paste the file into a spreadsheet, save it in one of those formats, and then use the MGI Batch Query to upload the desired column (be sure to identify the proper File Type and column).
  </ul>
 

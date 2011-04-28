@@ -1,0 +1,345 @@
+<!--#include file='include/templateHead.html'--> 
+<title>MGI-Retrieving Maps and Mapping Data</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<title>
+  <!--#include file="include/mgiversion.html"--> 
+Retrieving Maps and Mapping Data</title>
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+</style>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+Retrieving Maps and Mapping Data
+ </span>
+</div>
+
+
+
+<A NAME="top"></A>
+<P>This help document answers the following questions about maps and mapping data:</P>
+<UL>
+  <li><A href="#kind">What kind of mapping data does MGI contain?</A></li>
+ <li><A href="#howdo">How do I use the query forms listed on the Maps and Mapping Data menu?</a></li>
+ <LI><a href="#1f">What can I use the mapping query forms to find?</A></LI>
+ <LI><A HREF="#datasets">Which data sets can I search?</a></li>
+   <ul>
+   <li><a href="#4f">Recombinant Inbred Strain Distribution Patterns</A></LI>
+  <LI><a href="#5f">Recombinant Congenic Strain Distribution Patterns</A></LI>
+   
+   </ul>
+<li><a href="#retrieve">What map display and analysis options are there?</a></li>
+  <ul>
+    <LI><A HREF="linkmap_help.shtml">Linkage</a></LI>
+  <LI><A HREF="#3f">Cytogenetic</A></LI>
+  <LI><A HREF="#physical">Physical</A></LI>
+    </ul>
+<li><A href="#field">What values are acceptable in each of the Mapping Data Query Form fields?</A></li>
+<li><A href="#results">How do I interpret my query results?</a></li>
+  <ul>
+    <li><a href="#summary">Summary Reports</a></li>
+    <li><a href="#detail">Detail Reports</a></li>
+  </ul>
+  
+</UL>
+
+<P>See also:
+<UL>
+  <LI><A HREF="<!--#include file='include/glossary_url.html'-->">MGI Glossary</A> for unfamiliar terms (or for how MGI defines and uses familiar terms) and acronyms</LI>
+  <LI><A HREF="general_blurb.shtml">Using MGI Query Forms</A></LI>
+</UL>
+
+
+<H3><A NAME="kind">What kind of mapping data does MGI contain?</A></H3> 
+<P>The MGI database contains mapping data from experiments of several types, including:
+<UL>
+<LI>CONTIG
+<LI>CROSS
+<LI>RI / RC
+<LI>FISH
+<LI>HYBRID
+<LI><i>in situ</i>
+<LI>TEXT-Physical Mapping *
+<LI>TEXT-QTL *
+<LI>TEXT-Radiation Hybrid *
+</UL>
+* TEXT indicates a report on experimental results with no raw data provided.
+</p>
+<p>Another query option on the Maps and Mapping Data menu is Mouse Genome Browser. Use it to display (or browse) mouse genome annotations.  Current Mouse Genome Browser tracks include QTL, SNP density, alleles (gene-trapped, induced, spontaneous, targeted, transgenic), Ensembl, NCBI, and VEGA gene models, MGI representative transcripts, STS markers linked to UniSTS at NCBI, phenotypes,  and SNPs.
+</p>
+<a href="#top"><font size="-1">Top</font></a></P>
+
+<h3><A name="howdo"></a>How do I use the query forms listed on the Maps and Mapping Data menu?</h3>
+
+<P>To search for detailed data, enter or select values in one or more of the query form fields. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="general_blurb.shtml">Using MGI Query Forms</a> for answers to questions such as: 
+   <ul>
+    <li><A HREF="general_blurb.shtml#howdo">How do I submit a query?</a></li>
+       <li><a href="operators.shtml">What are operators and how do they affect my query?</a></li>
+    <li><a href="general_blurb.shtml#options">How do I select more than one item on a list?</a></li>
+  <li><a href="general_blurb.shtml#casesen">Does it matter what case I use when I type values in the fields?</a></li>
+  <LI><a href="general_blurb.shtml#sort">How do the sort options work?</a></li>
+  
+    <li><a href="general_blurb.shtml#maxno">Is there a maximum number of results I can get back all at once?</a></li>
+      <LI><a href="general_blurb.shtml#speed">Is there a way to speed up a query?</a>
+<!--<li><A href="general_blurb.shtml#range_question">When I enter exact marker or gene symbols in the Marker Range boxes, do the query results include or exclude those markers?</a></li>-->
+ </UL>
+ </p>
+<a href="#top"><font size="-1">Top</font></a>
+
+<H3><a name="1f"></A>What can I use the mapping query forms to find?</H3>
+<p>You can:</p>
+<ul>
+<li>search for mapping experiment records. </li>
+<li>search by chromosome and mapping panel. </li>
+<li>restrict your search to one or more experiment types.</li>
+<li>focus your search, using marker symbols, names, or synonyms.
+<li>query by author or reference accession ID identifier. </li>
+<li>expand/limit your search by including/excluding specific chromosomes when searching for experimental records related to markers.</li>
+  <!--<li>format results as hypertext or tab-delimited text files. </li>-->
+</ul>
+<p>See also <a href="#field">What values are acceptable in each of the Mapping Data Query Form fields?</a></p>
+
+<P><A HREF="http://www.mapmanager.org/">Map Manager QTX</A> software provide tools for statistical analysis of the results of genetic mapping experiments using backcrosses, intercrosses, or recombinant inbred (RI) strains. You can store, retrieve, and display mapping experiment data easily.  Kenneth F. Manly at the Roswell Park Cancer Institute created and maintains Map Manager QTX and a subcontract from MGI partially supports its development and distribution. Refer to Map Manager QTX documentation for details on how to work with mapping panel query results.</p>
+ </p>
+<a href="#top"><font size="-1">Top</font></a>
+
+
+<h3><A name="datasets"></a>Which data sets can I search?</h3>
+
+<p>You can search the following data sets:
+<UL>
+<LI><a href="#4f">Recombinant Inbred Strain Distribution Patterns</a>
+<LI><a href="#5f">Recombinant Congenic Strain Distribution Patterns</a>
+
+</UL>
+</p>
+ </p>
+<a href="#top"><font size="-1">Top</font></a>
+
+
+
+<H3><A NAME="retrieve"></A>What map display and analysis options are there? </H3>
+
+<P>There are several options for retrieving mapping information to build graphical maps displayed on a Web page:
+<P>
+<UL>
+<LI><a href="linkmap_help.shtml">Linkage maps</a>
+<LI><a href="#3f">Cytogenetic maps</a>
+<LI><a href="#physical">Physical maps</a>
+</ul>
+</p>
+
+<A HREF="#top"><font size="-1">Top</font></A><br>
+
+
+<H3><A NAME="field"></A>What values are acceptable in each of the Mapping Data Query Form fields?</H3>
+<P><table width="!" cellpadding="8" align="center">
+<tr align="center"><td align="center">
+<A HREF="#sym">Marker Symbol/Name</A> | <A HREF="#chr">Chromosome</A> | 
+<A HREF="#exptType">Experiment Type</a> | <A HREF="#acsno">Experiment Accession ID</A> | 
+<A HREF="#au">Author</A> | <A HREF="#jnum">Reference Accession ID</A></TD>
+ </TR>
+  </TABLE></p>
+ </p>
+<a href="#top"><font size="-1">Top</font></a>
+
+
+
+<TABLE BORDER CELLPADDING="4">
+<TR>  <TH>Field</th> <TH>Description</th>  </TR>
+<TR> <TH ALIGN="left" VALIGN="top">Marker Symbol/Name</TD> <TD><A NAME="sym"></A>Symbol or name for a mouse genetic marker. You can enter one or more symbols or names (separated by commas). By default, you search on current symbols/names and synonyms. However, you can limit your search to current symbols (no search of names) or current symbols/names only (no search of synonyms). The <a href="operators.shtml">operators</a> present additional search options. The default is <i>contains</i>; the system returns only the items with a symbol or name containing the characters you enter.
+<P>Note on the NOT operator: Many genes have withdrawn symbols and synonyms. When using the NOT operator with the default setting, a gene appears if any of its symbols (including withdrawns and synonyms) does not match the query. Therefore, some genes whose current symbol matches the query will appear, in apparent contradiction of your intent. You may find it more useful to change the selector to current symbols when using the NOT operator.
+<P>MGI database searching is NOT case sensitive.</TD>  </TR>
+
+<TR> <TH ALIGN="left" VALIGN="top">Chromosome <TD><A NAME="chr"></A>Mouse
+chromosome selection list. Select one or more chromosomes to filter your search to retrieve experimental records related to markers on specified chromosomes. </TR>
+<TR> <TH ALIGN="left" VALIGN="top">Experiment Type <TD><A NAME="exptType"></A>Mapping data records are categorized by experiment type. The Experiment Type(s) field presents a selection list with the following options:
+<UL>
+<LI>CONTIG
+<LI>CROSS
+<LI>RI / RC
+<LI>FISH
+<LI>HYBRID
+<LI><i>in situ</i>
+<LI>TEXT-Physical Mapping
+<LI>TEXT-QTL
+<LI>TEXT-Radiation Hybrid
+</UL> The default operator is ANY. Select one or more items from this list to focus your search. The TEXT prefix indicates that experimental results were reported but no raw data is given. </TR>
+<TR><TH ALIGN="left" VALIGN="top">Experiment Accession ID</A> <TD>A <A NAME="acsno"></A> unique ID assigned to each experiment record.
+MGI Accession IDs of the form MGI:#### are assigned to all experiment records submitted as of May 1997.  You can also use older format (<i>MGD-xxxx-nnnn</i>) accession IDs  for searching. The MGD accession ID format varies with experiment type as follows:
+<UL>
+<LI>MGD-CREX-# for CROSS experiments
+<LI>MGD-HYEX-# for HYBRID experiments
+<LI>MGD-INEX-# for <i>in situ</i> experiments
+<LI>MGD-FSEX-# for FISH experiments
+<LI>MGD-RIEX-# for RECOMBINANT INBRED experiments
+<LI>MGD-TEXT-# for textual description of experimental results
+</UL>
+
+
+<EM>See also</EM> <A HREF="searchtool_help_accession_ids.shtml">Querying by Accession IDs - Examples</A>.
+
+<TR>
+<TH ALIGN="left" VALIGN="top"><A NAME="au"></A>Author <TD>Author names are stored in PubMed  format consisting of the last name followed by a space and then first and second initials, as in Zhivago DE.  Enter a part or all of the name of the author you are interested in.  The default operator is <i>contains</i>.  If you use = (equals), you must type the name precisely as it is stored in the database.  Selecting LIKE (with a <a href="wildcard_tips.shtml">wild card</a>) may also be useful. Use the NOT check box to exclude an author from a search.
+ </TR>
+<!--<tr>
+<TH align=left valign=top><name="au"></a>Authors <TD>Complete list of authors of the article. The default operator is CONTAINS. Enter part of the name of the author you are interested in.
+ </TR>-->
+
+<TR> <TH ALIGN="left" VALIGN="top"><A NAME="jnum">Reference Accession ID</A><TD>Unique ID assigned to a reference. May be either a J number* or an MGI Accession ID. Use this field to retrieve experiment records related to a particular reference. <<EM>See also</EM> <A HREF="searchtool_help_accession_ids.shtml">Querying by Accession IDs - Examples</A>. <BR>
+*The J number is an MGI accession ID format for references. References are assigned J numbers sequentially, beginning with J:1; currently (2004), MGI contains over 100,000 references, so the most recent J numbers are somewhere in the J:100000+ range.</TR>
+</TABLE>
+</p>
+<A HREF="#top"><font size="-1">Top</font></A><br>
+
+<h3><A href="#results"></a>How do I interpret my query results?</h3>
+<h4><a name="summary"></a>Summary Reports</h4>
+<P>The query summary appears in a table with the following columns: Experiment type, Chromosome, Reference (short form). In addition, summaries may include another field, depending on experiment type, as follows:</p>
+<UL>
+<li>cross experiments show cross type</li>
+<li>RI experiments show RI set designation</li>
+<li>FISH experiments show the cytogenetic band.</li>
+</ul>
+<p>The summary provides links to the experiment details and to the full reference information.</p>
+
+<A HREF="#top"><font size="-1">Top</font></A>
+
+<H4><a name="detail"></a>Detail Reports</H4
+>
+<P>Click any experiment type to see its details. The Query Results -- Details record includes the following fields:
+
+<TABLE BORDER CELLPADDING="2" WIDTH="">
+<TR> <TH>Field</th><TH>Description</TR>
+<TR>  <TH ALIGN="left" VALIGN="top">Reference <TD>J number, Primary author, Journal, pages, year </TR>
+<TR> <TH ALIGN="left" VALIGN="top">Ref. Comment <TD>Any textual comments added by data editors </TR>
+<TR> <TH ALIGN="left" VALIGN="top">Experiment   <TD>Experiment type </TR>
+<TR> <TH ALIGN="left" VALIGN="top">Chromosome   <TD>Chromosome location of the markers studied </TR>
+<TR><TH ALIGN="left" VALIGN="top">Markers      <TD>List of related markers </TR>
+<TR><TH ALIGN="left" VALIGN="top">Notes        <TD>Textual information provided by editors </TR>
+<TR> <TH ALIGN="left" VALIGN="top">MGI Accession ID <TD>Unique ID assigned to an experiment record. All records are assigned a unique ID in MGI:#### format as of May 1997. </TR>
+<TR>  <TH ALIGN="left" VALIGN="top">MGD Accession ID <TD>Unique ID assigned to an experiment record in MGD. As of May 1997, accession IDs of this format are no longer assigned to experiment records, but the IDs for older records are retained in MGD for searching. </TR> </TABLE>
+</p>
+
+<P>The reference is linked to the full citation. The symbols are linked to the full marker descriptions.</p>
+
+<P>Depending on the experiment type, additional information appears.  See <A HREF="mapping_data.shtml">Mapping Experimental Data Records</A> for details about the record content for each experiment type. </P>
+<A HREF="#top"><font size="-1">Top</font></A>
+
+<H3> <A NAME="linkage">Using the Linkage Map Form</A></H3>
+ <P> The Linkage Map form enables you to search for linkage information from various sources and build linkage maps. It provides options to build a map display based on a customized view of a mouse chromosome. You can:
+<UL> 
+  <LI><EM>View a region of a chromosome</EM>, either by typing the cM position end points for a range, or, specifying the region around a marker by typing the marker symbol and number of cMs around the marker.</li> 
+<LI><EM>Filter the list of markers to retrieve</EM>. You can choose to include (default) or exclude DNA segments or syntenic markers in your query. You can restrict the map to markers of selected phenotypic classes or to markers that have similar names.</li> 
+<LI><EM>Select a species for comparison to build a comparative map.</EM> MGD contains orthology information on over 60 mammalian species.<P> <LI><EM>Add your own markers or modify the location of an existing marker.</EM> 
+</UL>
+</p>
+ <P> <EM>See</EM> <A HREF="linkmap_help.shtml">Using the Linkage Maps Query Form</a> for more detailed instructions.</p>
+<A HREF="#top"><font size="-1">Top</font></A>
+
+
+<H3><A NAME="3f"></a><a name="cytogenetic"></a>Using the Cytogenetic Maps Form</H3>
+<P> Cytogenetic mapping information is derived, for the most part, from <i>in situ</i> experiment records. You can retrieve information from the database to build a cytogenetic map display in web map format. <P>To use this form, select a chromosome and click on the Search button. The resulting map display shows the chromosome divided into
+cytogenetic bands on the left. Marker symbols are aligned on the right.  To see the detailed MGD marker record, click on the desired marker symbol.</P>
+<A HREF="#top"><font size="-1">Top</font></A>
+
+<H3><A NAME="physical"></a>Displaying Physical Maps</H3>
+
+<P>An ongoing project at MIT has been to build a CONTIG map of the mouse using MIT markers and STSs mapped against a mouse YAC library. The YAC library used is described by <A HREF="<!--#include file='include/wi_url.html'-->searches/reference.cgi?40585">Haldi, et al., in Mammalian Genome 7:767-769 (1996)</A> and consists of 40,000 YACs with an average insert size of 820 kb. A subset of 24,000 clones is used to build the physical map. <P> Physical mapping information is stored in MGI and is accessible using the <A HREF="<!--#include file='include/wi_url.html'-->searches/mapdata_form.shtml">Mapping Data</A> query form to search for CONTIG records.
+</P>
+<P>MGI also provides a graphical display of MIT physical mapping data integrated with MIT's genetic map of the mouse. Each chromosome is represented by a multi-page map in Web Map format. (See <A HREF="<!--#include file='include/wi_url.html'-->reports/mitmap">Integrated Whitehead/MIT Linkage and Physical Maps</a>.) On each map display, contigs are set against the backdrop of the MIT genetic map. <P>Vertical lines on the whole chromosome graphic represent the arrangement of contigs. Grey boxes on the chromosome indicate the chromosomal region <!--on the page currently displayed-->. <P> To the right of this small graphic is the enlarged view of the chromosomal region with centimorgan scale and genetically mapped MIT markers. To the right of this genetic map are shown the contigs. Black squares and red triangles on the vertical line of the contig indicate the location of MIT markers in the contig. Black squares indicate agreement while red triangles indicate conflict between the genetic and physical ordering of the markers. The MIT marker symbols are hyper-linked to
+MGD marker records; the contig names are linked to MGD mapping data records for the contigs. <P> The detail record for a contig provides a brief description of the contig, the list of YACs for the contig and an ordered list of MIT markers mapped within the contig. For each YAC, a series of plus (+) and minus (-) indicates the MIT markers associated with the YAC.</p>
+<A HREF="#top"><font size="-1">Top</font></A>
+
+
+ <H3><A NAME="results"></a>How do I interpret query results?</H3> 
+<ul>
+<li>By default, query results are displayed in HTML. </li>
+<li>Each cross is represented by one table for each chromosome.</li>
+<li> Each row in a table represents the strain distribution pattern for a particular marker; each column represents a strain.</li> 
+<li>By default, markers appear in linkage order with the centromere at the top.</li>
+</ul>
+<blockquote>
+<p> <em>Saving as tab-delimited text</em> <br> 
+When you select this option, MGI creates a file and prompts you to save the file on your machine.  The query results have a tabular arrangement, in tab-delimited text,  which you can use in a spreadsheet or text processing application.
+</p>
+
+</blockquote>
+<!--<P> <EM>Saving and Opening MGI RI (or RC) query results in Map Manager QTX format<BR> </EM>
+To use the option to save query result in Map Manager QTX format, you need to have Map Manager QTX installed. See <A HREF="http://www.mapmanager.org/">Map Manager QTX</A> for details.</p>--><!--If you are unfamiliar with Map Manager QTX, here is a simple procedure to get you started. This procedure assumes that you have done a search for, say, an RI data set in MGI and have saved the results as "Map Manager QTX 2.6 Text"<P> <OL> <LI>Start up Map Manager QTX <LI>	From the File menu, select Import... text. You will then see a Text Description dialog. <LI>In the dialog box, all the options, except set should be selected; type in the number of progeny, and replace the letters in the squares with those belonging to your data set. <LI>	Click on "OK" <LI>Under "Chromosome" in the menu bar, select the Chr # you wish to display</OL></P> -->
+<A HREF="#top"><font size="-1">Top</font></A>
+
+<H3><a name="4f"></a>Querying for Recombinant Inbred Strain Distribution Patterns</H3> 
+
+<P>MGI records for recombinant inbred strain distribution patterns are collected into composite reports. 
+<ul>
+ <li>Choose <a href="general_blurb.shtml#options">one or more</a> RI and one or more Chromosomes from the selection lists. 
+       <ul>
+         <li>If you select a set and do not specify a chromosome, the query results include ALL chromosomes.</li>
+     <li>If you select a chromosome and do not specify a RI set, the query results include all sets.</li>
+   </ul></li>
+
+ <li>Select a sort order for the results (cM position or symbol). </li>
+  <li>Select the format you want to see the results in (HTML or tab-delimited text). </li>
+
+</ul>
+<A HREF="#top"><font size="-1">Top</font></A>
+
+<!--<blockquote>
+<p>
+<table border cellpadding="3" width="!"> 
+<tr> <th align="left" valign="top">Format option</th><th align="left" valign="top">Use when you want to ...</td></tr>
+
+<tr> <td>HTML</td><td>display results in a Web document.</td></tr>
+<tr> <td>Text (tab-delimited fields)</td><td>incorporate your results into Excel or another spreadsheet application. </tr><tr> 
+</table>
+
+</blockquote>-->
+
+
+<H3><a name="5f"></a>Querying for Recombinant Congenic Strain Distribution Patterns</H3> 
+<P> MGI records for recombinant congenic strain distribution patterns are collected into composite reports. 
+<ul>
+  <li>Choose <a href="general_blurb.shtml#options">one or more</a> RC sets and one or more chromosomes from the selection lists.
+   <ul>
+     <li>If you select a cross, e.g. CsS, and do NOT specify chromosomes, the query results include ALL chromosomes.</li>
+     <li>If you select a chromosome and do not specify a cross, the query results include all crosses.</li>
+   </ul></li>
+  <li>Select a sort order for the results (cM position or symbol). </li>
+  <li>Select the format you want to see the results in (HTML or tab-delimited text). </li>
+</ul>
+<p>
+<p>To see a list of specially curated datasets available at MGI, click the link at the top of the page.</p></p>
+</li>
+</P>
+<A HREF="#top"><font size="-1">Top</font></A>
+
+<!--<H3><a name="6f"></a>Querying for DNA Mapping Panel Data Sets</H3>
+<P>You can search by chromosome and mapping panel and format your results  as hypertext or tab-delimited text.  <a href="http://www.mapmanager.org">Map Manager QTX</a>  helps you analyze the results of genetic mapping experiments using backcrosses, intercrosses, or recombinant inbred(RI) strains. This specialized database program allows easy storage, retrieval, and display of results from mapping experiments and provides tools for statistical analysis of the experimental results. Kenneth F. Manly at the Roswell Park Cancer Institute created and maintains Map Manager QTX and a subcontract from MGI partially supports its development and distribution. Refer to Map Manager QTX  documentation for details on how to work with mapping panel query results. The Map Manager QTX option under the Maps and Mapping Data menu links to the Map Manager QTX home page on the Web and provides access to the application, data files, and user documentation.
+You can use the DNA Mapping Panel Data Sets form to query the following mapping panels:</P>
+<UL>
+<LI>Copeland-Jenkins (C57BL/6J x M. spretus)F1 x C57BL/6J</li>
+<LI>EUCIB (BSB) (C57BL/6J x SPR or SEG/Pas)F1 x C57BL/6J
+<LI>EUCIB (BSS) (C57BL/6J x SPR or SEG/Pas)F1 x SPR or SEG/Pas
+<LI>Jax (BSB) (C57BL/6J x M. spretus)F1 x C57BL/6J
+<LI>Jax (BSS) (C57BL/6JEi x SPRET/Ei)F1 x SPRET/Ei 
+<LI>Kozak FvC58 (NFS/N x M. spretus) F1 x C58/J 
+<LI>Kozak FvSpr (NFS/N x M. spretus)F1 x M. spretus 
+<LI>Kozak Skive (NFS/N or C58/J x M. m. musculus)F1 x M. m. musculus 
+<LI>MIT (C57BL/6J-Lep<font size="-1"><sup>OB</sup></font>/Lep<font size="-1"><sup>OB</sup></font> x CAST)F1 x (C57BL/6J-Lep<font size="-1"><sup>OB</sup></font>/Lep<font size="-1"><sup>OB</sup></font> x CAST)F1 
+<LI>Reeves (Chr 16) Sex-averaged intersubspecific mapping panel 
+<LI>Seldin (C3H/HeJ-Fasl<font size="-1"><sup>GLD</sup></font> x M. spretus)F1 x C3H/HeJ-Fasl<font size="-1"><sup>GLD</sup></font>
+</UL></P>-->
+
+
+<!--#include file='include/templateBodyStop.html'--> 
