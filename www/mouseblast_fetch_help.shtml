@@ -1,0 +1,94 @@
+<!--#include file='include/templateHead.html'--> 
+<title>MGI-Using MouseBLAST - Searching by Sequence ID</title>
+
+<!--#include file='include/templateBodyStart.html'--> 
+
+<!-- Title Bar -->
+  <div id="titleBarWrapper">
+  <span class="titleBarMainTitle">Using MouseBLAST - Searching by Sequence ID</span>
+  </div> 
+<!--titleBar-->
+
+
+<A NAME="top"></A>
+<P>
+This help document answers the following questions:
+<ul>
+<li><a href="#know_ID">Can I search a sequence if I know the sequence accession ID?</a></li>
+<li><a href="#examples">Are there examples of sequence ID/sequence database combinations?</a></li>
+<li><a href="#retrieval">What if the MouseBLAST sequence retrieval tool is unavailable?</a></li>
+  <li><a href="#invalid_ID">What if the sequence identifier is invalid?</a></li>
+</ul></p>
+<a href="#top"><font size="-1"><a href="mblast_overview.shtml">Return to Using MouseBLAST - Overview</font></a>
+
+
+
+<H3><a name="know_ID"></a>Can I search a sequence if I know the sequence accession ID?</H3>
+<P>Yes. You can search a sequence by entering the sequence accession identifier, (also known as the <i>sequence accession ID</i>, <i>sequence ID</i>, <i>seq ID</i>, or <i>accession ID</i>).  To have MouseBLAST fetch your sequence, find <i>Option 1</i> in the <b>Query sequence</b> section of the MouseBlast query form and do the following:
+<OL>
+<LI>In the box beside Sequence ID, enter the unique  identifier for the sequence (e.g., NM_021099).
+<LI>Select the remote public sequence database where your unique identifier is valid.  (For NM_021099, the correct database is RefSeq.)
+<li>Click Search.</li>
+<li>The MouseBLAST Query Results report displays any sequence matches. Click to place a check mark beside any you wish to download or forward to MouseBLAST. </li>
+</OL>
+</p>
+
+<h3><a name="examples"></a>Are there examples of sequence ID/sequence database combinations?</h3>
+<P>
+The following table shows examples of sequence database and sequence ID combinations. <b> Note:</b> Items in the Unique Seq ID column are representative of IDs in databases listed in the Sequence Provider column; however, on any given day querying by that ID may not yield a result, due to database updates or changes.</p>
+<blockquote>
+<p>
+<table border="1" cellpadding="3">
+<tr><td><b>Sequence Provider</b></td><td><b>Unique Seq ID</b></td></tr>
+<tr>
+<td>GenBank/EMBL/DDBJ</td>
+<td>X04964</td>
+</tr>
+<tr>
+<td>RefSeq</td>
+<td>NM_008361</td>
+</tr>
+<tr>
+<td>SWISS-PROT</td>
+<td>P10749</td>
+</tr>
+<tr>
+<td>TrEMBL</td>
+<td>Q8C8K9</td>
+</tr>
+<tr>
+<td>DFCI Mouse Gene Index</td>
+<td>TC1572427</td>
+</tr>
+<!--<tr>
+<td>DFCI Human Gene Index</td>
+<td>THC2013983</td>
+</tr>
+<tr>
+<td>DFCI Rat Gene Index</td>
+<td>TC525063</td>
+</tr>-->
+<TR>
+<td>DoTS</td>
+<TD>DT.91592248</TD>
+</TR>
+<tr>
+<td>NIA Mouse Gene Index</td>
+<td>NAP025317-001</td>
+</tr>
+</table></p>
+</blockquote>
+
+
+
+<h3><a name="retrieval"></a>What if the MouseBLAST sequence retrieval tool is unavailable? </h3>
+<p>If the sequence retrieval tool is not working, MouseBLAST returns an error message to that effect.  Try to obtain your sequence from a web resource such <A HREF="http://www.ncbi.nlm.nih.gov/gquery/gquery.fcgi">Entrez</A> at the NCBI or <A HREF="http://au.expasy.org">ExPASy</A> at the Swiss Institute of Bioinformatics (SIB).
+</P>
+
+<h3><a name="invalid_ID"></a>What if the sequence identifier is invalid?</h3>
+<p>MouseBLAST returns an error message when a unique sequence identifier is not valid.  Either retype the identifier and repeat the search or enter a different identifier.
+</p>
+<font size="-1"><a href="#top">Back to Top</a></font>
+
+<!--#include file='include/templateBodyStop.html'--> 
+

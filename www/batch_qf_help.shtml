@@ -1,7 +1,7 @@
 <!--#include file='include/templateHead.html'-->
 <title>
   <!--#include file="include/mgiversion.html"-->
- Using the MGI Batch Query
+ MGI-Using the MGI Batch Query
 </title>
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
@@ -13,7 +13,6 @@ function openHelpWindow(helpFile){
 </script>
 
 <style type="text/css">
-
 </style>
 
 <!--#include file='include/templateBlankBodyStart.html'-->

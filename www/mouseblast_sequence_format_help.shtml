@@ -1,0 +1,131 @@
+<!--#include file='include/templateHead.html'--> 
+<title>MGI-Using MouseBLAST - Sequence Formats </title>
+
+<!--#include file='include/templateBodyStart.html'--> 
+
+<!-- Title Bar -->
+  <div id="titleBarWrapper">
+  <span class="titleBarMainTitle">Using MouseBLAST - Sequence Formats</span>
+  </div> 
+<!--titleBar-->
+
+
+<A NAME="top"></A>
+<P>
+This help document answers the following questions about sequence formats:
+<ul>
+  <li><a href="#format">Must I use a particular format when entering sequence on the MGI MouseBLAST query form?</a></li>
+  <li><a href="#fasta">What is FASTA format?</a></li>
+  <li><a href="#sequence_format">What does a sequence in FASTA format look like?</a></li>
+<li><A href="#gcg">What is Genetics Computer Group (GCG) format?</A></li>
+<li><A href="#gcg_format">What does a sequence in GCG format look like?</li>
+<li><a href="#free_text">What is free text format?</a></li>
+<li><a href="#free_sequence">What does a sequence in free text format look like?</a></li>
+
+</li>
+</ul>
+</p>
+<font size="-1"><a href="mblast_overview.shtml">Return to Using MouseBLAST - Overview</a></font>
+
+
+<h3><a name="format"></a>Must I use a particular format when entering sequence on the MGI MouseBLAST query form?</h3>
+<P>You may enter your sequence in <A HREF="#fasta">FASTA</A>, <A HREF="#gcg">GCG</A>, or <A HREF="#free_text">free-text</A> format.  MouseBLAST converts the data into FASTA format for input to WU-BLAST.
+</p>
+
+<A NAME="fasta"></A><h3>What is FASTA format?</h3>
+
+<p>FASTA format, also called "Pearson format" after its author Will Pearson, is the format that the WU-BLAST and NCBI BLAST programs use.  It is called FASTA format since is was first used by the FASTA alignment program.
+</p>
+
+<A NAME="sequence_format"></A><h3>What does a sequence in FASTA format look like?</h3>
+
+<p>A sequence in FASTA format starts with a one-line description that begins with a ">" character.  The description line usually has a sequence identifier immediately following the ">" character, and then the sequence description. <!--
+The sequence is formatted to have 70 symbols per line as shown in the following examples.-->
+</p><P>
+For example:
+<PRE>
+>gi|309398 interleukin 1-beta (AAA39276.1)
+MATVPELNCEMPPFDSDENDLFFEVDGPQKMKGCFQTFDLGCPDESIQLQISQQHINKSFRQAVSLIVAV
+EKLWQLPVSFPWTFQDEDMSTFFSFIFEEEPILCDSWDDDDNLLVCDVPIRQLHYRLRDEQQKSLVLSDP
+YELKALHLNGQNINQQVIFSMSFVQGEPSNDKIPVALGLKGKNLYLSCVMKDGTPTLQLESVDPKQYPKK
+KMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQDIIDFTMESVSS
+</PRE>
+</P>
+<p>Another example ( a partial gene trap sequence):</p>
+<pre>
+>Aqr cDNA sequence
+CCGGGACTTCTCAGGTTCCGGGAGGAACCGTGGGAGCCCAGCGTGTCTGTGCCGGGCGCT
+CTGGCACCTCGGGGCTGGGTCGCCGCCGCTGCTTGAAAGCTTTCGAGAGTCGCCGCTACG
+AGCCTCTGGTCAGCTTCAGTGGCGATCGCTGCGATGGCGGCTCCTGCGCAGCCCAAGAAA
+ATCGTGGCCCCCACGGTGTCCCAGATCAACGCGGAGTTCGTCACTCAGCTAGCATGTAAA
+TACTGGGCTCCTCATATCAAGAAGAAATCACCGTTTGATATAAAAGTAATTGAAGAAATA
+TATGAAAAAGAGATCGTCAAATCACGGTTTGCCATCAGGAAAATAATGCTGCTGGAATTT
+...</pre>
+</p>
+
+<A NAME="gcg"></A><h3>What is Genetics Computer Group (GCG) format?</h3>
+<a href="http://www.accelrys.com/products/gcg/">Accelrys GCG</a>, formerly known as the GCG Wisconsin Package, is a set of sequence analysis programs that use the GCG sequence format. 
+This format was developed by the Genetics Computer Group. </p>
+<a href="#top"><font size="-1">Back to top</font></a>
+
+<A NAME="gcg_format"></A><h3>What does a sequence in GCG format look like?</h3>
+
+<P>GCG format starts with a description followed by a ".." separator and the sequence as shown in the following example.
+<P>
+<FONT SIZE=-1>
+<PRE>
+!!NA_SEQUENCE 1.0
+gi|198293|gb|M15131.1|MUSIL1BA Mouse interleukin 1-beta (IL-1-beta) mRNA,
+gi-198293.seq  Length: 1339  November 8, 1999 13:29  Type: N  Check: 1315  ..
+       1  TGCAGGGTTC GAGGCCTAAT AGGCTCATCT GGGATCCTCT CCAGCCAAGC 
+      51  TTCCTTGTGC AAGTGTCTGA AGCAGCTATG GCAACTGTTC CTGAACTCAA 
+     101  CTGTGAAATG CCACCTTTTG ACAGTGATGA GAATGACCTG TTCTTTGAAG 
+     151  TTGACGGACC CCAAAAGATG AAGGGCTGCT TCCAAACCTT TGACCTGGGC 
+     201  TGTCCAGATG AGAGCATCCA GCTTCAAATC TCACAGCAGC ACATCAACAA 
+     251  GAGCTTCAGG CAGGCAGTAT CACTCATTGT GGCTGTGGAG AAGCTGTGGC 
+     301  AGCTACCTGT GTCTTTCCCG TGGACCTTCC AGGATGAGGA CATGAGCACC 
+     351  TTCTTTTCCT TCATCTTTGA AGAAGAGCCC ATCCTCTGTG ACTCATGGGA 
+     401  TGATGATGAT AACCTGCTGG TGTGTGACGT TCCCATTAGA CAGCTGCACT 
+     451  ACAGGCTCCG AGATGAACAA CAAAAAAGCC TCGTGCTGTC GGACCCATAT 
+     501  GAGCTGAAAG CTCTCCACCT CAATGGACAG AATATCAACC AACAAGTGAT 
+     551  ATTCTCCATG AGCTTTGTAC AAGGAGAACC AAGCAACGAC AAAATACCTG 
+     601  TGGCCTTGGG CCTCAAAGGA AAGAATCTAT ACCTGTCCTG TGTAATGAAA 
+     651  GACGGCACAC CCACCCTGCA GCTGGAGAGT GTGGATCCCA AGCAATACCC 
+     701  AAAGAAGAAG ATGGAAAAGC GGTTTGTCTT CAACAAGATA GAAGTCAAGA 
+     751  GCAAAGTGGA GTTTGAGTCT GCAGAGTTCC CCAACTGGTA CATCAGCACC 
+     801  TCACAAGCAG AGCACAAGCC TGTCTTCCTG GGAAACAACA GTGGTCAGGA 
+     851  CATAATTGAC TTCACCATGG AATCTGTGTC TTCCTAAAGT ATGGGCTGGA 
+     901  CTGTTTCTAA TGCCTTCCCC AGGGCATGTG AAGGAGCTCC CTTGTCATGA 
+     951  ATGAGCAGAC AGCTCAATCT CTAGGACACT CCTTAGTCCT CGGCCAAGAC 
+    1001  AGGTCGCTCA GGGTCACAAG AAACCATGGC ACATTCTGTT CAAAGAGAGC 
+    1051  CTGTGTTTCC TCCTTGCCTC TGATGGGCAA CCACTTACCT ATTTATTTAT 
+    1101  GTATTTATTG ATTGGTTGAT CTATTTAAGT TGATTCAAGG GGACATTAGG 
+    1151  CAGCACTCTC TAGAACAGAA CCTAGCTGTC AACGTGTGGG GGATGAATTG 
+    1201  GTCATAGCCT TGCACTTGAG GTCTTTCATT GAAGCTGAGA ATAAATAGGT 
+    1251  TCCTATAATA TGGATGAGAA TTTTTATGAA TGAAGCATTA GCACATTGCT 
+    1301  TTGATGAGTA TGAAATAAAT TTCATTAAAC AAACAAACA
+</PRE>
+</FONT></P>
+
+
+<h3><A NAME="free_text"></A>What is free-text format?</h3>
+
+<p>This format provides a string of characters representing the sequence without description or annotation.</p>
+
+
+<h3><a name="free_sequence"></a>What does a sequence in free-text format look like?</h3>
+<P> The following is an example of sequence in free-text format.
+<FONT SIZE=-1>
+<PRE>
+MATVPELNCEMPPFDSDENDLFFE
+VDGPQKMKGCFQTFDLGCPDESIQLQISQQHINKSFRQAVSLIVAV
+EKLWQLPVSFPWTFQDEDMSTFFSFIFEEEP
+ILCDSWDDDDNLLVCDVPIRQLHYRLRDEQQKSLVLSDP
+           YELKALHLNGQNINQQVIFSMSFV
+QGEPSNDKIPVALGLKGKNLYLSCVMKDGTPTLQLESVDPKQYPKK
+KMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQDIIDFTMESVSS
+</PRE>
+</font>
+</p>
+<a href="#top"><font size="-1">Back to top</font></a>
+<!--#include file='include/templateBodyStop.html'--> 

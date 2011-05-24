@@ -1,319 +1,231 @@
-<!--#include file='include/templateHead.html'-->
-<title><!--#include file="include/mgiversion.html"--> User Help </title>
-<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
-
-<script>
-function openHelpWindow(helpFile){
-  helpUrl = "./" + helpFile;
-  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
-};
-</script>
-
-<style type="text/css">
-</style>
-
-<!--#include file='include/templateBodyStart.html'-->
-
-
-<!-- Title Bar -->
-<div id="titleBarWrapper">
- <span class="titleBarMainTitle">User Help</span>
-</div> <!--titleBar-->
-<!--toc table>
-<!-- TOC table -->
-
-<table class="nb" width="60%" cellpadding="4" align="center">
-<tr align="center"><Td VALIGN="top">  <a href="#help_marker">Genes, Genome Features &amp Maps</a> | 
-    <a href="#help_pad">Phenotypes, Alleles &amp Disease Models</a> | 
-    <a href="#help_gxd">Gene Expression</a> | 
-   <a href="#help_cre">Recombinases</a> | 
-     <a href="#help_go">GO Functional Annotations</a> | 
- <a href="#help_pathways">Biochemical Pathways</a> | 
- <a href="#help_strain"><nobr>Strains, SNPs &amp Polymorphisms</a> | 
-    <a href="#help_mammortho">Mammalian Orthology</a> | 
-<a href="#help_other_searches">Other Searches</a>
-    </td>
-  </tr>
-  </table>
-
-<!-- main body table -->
-<table width="80%" cellpadding="2" align="center">
-
-
-<!--start of body table-->
-<!-- Genes -->
-<tr> <td class="enhance">
-     <a href='<!--#include file='include/homepages_url.html'-->genes.shtml'
-            onclick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->genes.shtml');
-            return false;">
-            Genes, Genome Features &amp; Maps</a>
+  <!--#include file='include/templateHead.html'-->
+  <title>
+  <!--#include file="include/mgiversion.html"--> 
+  User Help </title>
+  <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
   
-      	<dl class="linkedList">
-	<dt>Genes & Markers Help</dt>
-	<dd>
-          <table cellspacing="1" cellpadding="2" width="!">
-            <tr><td><ul><li><a href="marker_detail_help.shtml" onClick="javascript:openHelpWindow('marker_detail_help.shtml'); return false;">Interpreting Gene Detail Reports</a></li>
-	<li><a href="associated_human_diseases_help.shtml" onClick="javascript:openHelpWindow('associated_human_diseases_help.shtml'); return false;">Interpreting the Associated Human Diseases Report</a></li>
-	 <li><a href="go_classifications_help.shtml" onClick="javascript:openHelpWindow('go_classifications_help.shtml'); return false;">Interpreting the Gene Ontology Classifications Report</a></li>
-	 <li><a href="mapping_help.shtml" onClick="javascript:openHelpWindow('mapping_help.shtml'); return false;">Interpreting the Marker Mapping Data Query Results Summary</a></li>
-	</ul></td></tr></table></dd>
+  <script>
+  function openHelpWindow(helpFile){
+    helpUrl = "./" + helpFile;
+    window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+  };
+  </script>
+  
+  <style type="text/css">
+  </style>
+  
+  <!--#include file='include/templateBodyStart.html'-->
+  
+  
+  <!-- Title Bar -->
+  <div id="titleBarWrapper">
+   <span class="titleBarMainTitle">User Help</span>
+  </div> <!--titleBar-->
+  <!--toc table>
+  <!-- TOC table -->
+
+  	<table class="nb" width="60%" cellpadding="4" align="center">
+  <tr align="center"><td valign="top">  
+<a href="#help_marker">Genes, Genome Features &amp Maps</a> | 
+      <a href="#help_pad">Phenotypes, Alleles &amp Disease Models</a> | 
+      <a href="#help_gxd">Gene Expression</a> | 
+     <a href="#help_cre">Recombinases</a> | 
+       <a href="#help_go">GO Functional Annotations</a> | 
+   <a href="#help_pathways">Biochemical Pathways</a> | 
+   <a href="#help_strain"><nobr>Strains, SNPs &amp Polymorphisms</a> | 
+      <a href="#help_mammortho">Mammalian Orthology</a> | 
+  <a href="#help_other_searches">Other Searches</a>
+      </td>
+    </tr>
+    </table>
+  
+  <!-- main body table -->
+  
+  <a name="help_marker"></a>
+ <dl class="linkedList">
+<DT class="enhance">Genes, Genome Features, & Maps</dt>
+  <blockquote>
+  		<dt><b>Genes & Markers</b></dt>
+  	  	<dd><a href="marker_detail_help.shtml" onclick="javascript:openHelpWindow('marker_detail_help.shtml'); return false;">Interpreting Gene Detail Reports</a></dd>
+  	  	<dd><a href="associated_human_diseases_help.shtml" onclick="javascript:openHelpWindow('associated_human_diseases_help.shtml'); return false;">Interpreting the Associated Human Diseases Report</a></dd>
+  	  	 <dd><a href="go_classifications_help.shtml" onclick="javascript:openHelpWindow('go_classifications_help.shtml'); return false;">Interpreting the Gene Ontology Classifications Report</a></dd>
+  	  	 
+  	  	
+  	  	<dt><b>Sequences</b></dt>         
+  	          <dd><a href="sequence_summary_help.shtml" onclick="javascript:openHelpWindow('sequence_summary_help.shtml'); return false;"> Interpreting Mouse Sequences Summary Reports</a></dd>
+  	          
+  	  	  <dd><a href="sequence_detail_help.shtml" onclick="javascript:openHelpWindow('sequence_detail_help.shtml'); return false;">Interpreting Sequence Detail Reports</a></dd>
+  	
+  	<dd><a href="mapping_help.shtml" onclick="javascript:openHelpWindow('mapping_help.shtml'); return false;">Retrieving Maps & Mapping Data</a>
+  	  	</dd>
+  	   	<dt><b>Maps</b></dt>   
+  	<dd><a href="mapping_help.shtml" onclick="javascript:openHelpWindow('mapping_help.shtml'); return false;">Retrieving Maps & Mapping Data</a>
+  	  	</dd>
+  	</blockquote>
+  	
+  <!-- Phenotypes -->
+  <a name="help_pad">
+  <dt class="enhance">Phenotypes, Alleles, &amp; and Disease Models</dt>   
+	<blockquote>
+	<dt><b>Alleles</b></dt>     
+	          <dd>
+	            <a href="allele_help.shtml" onclick="javascript:openHelpWindow('allele_help.shtml'); return false;">Using the Phenotypes, Alleles, and Disease Models Query Form</a>
+	          </dd>
+	        
+	  	<dd>Interpreting Allele Summaries</dd>
+		<dd>Interpreting Allele Details</dd>
+		<dt><b><b>Phenotypes</b></b></dt>
+		<dd>Interpreting Pheno ....</dd>
+		<dd>Interpreting Pheno ....</dd>
+		<dd>&nbsp;</dd>
+	</blockquote>
 	
-	<dt>Sequence Help</dt>         
-        <dd>
-          <table cellspacing="1" cellpadding="2" width="!">
-            <tr><td><ul class="linkedList"><li><a href="sequence_summary_help.shtml" onClick="javascript:openHelpWindow('sequence_summary_help.shtml'); return false;"> Interpreting Mouse Sequences Summary Reports</a></li>
-        
-	  <li><a href="sequence_detail_help.shtml" onClick="javascript:openHelpWindow('sequence_detail_help.shtml'); return false;">Interpreting Sequence Detail Reports</a></li>
-	</ul></td></tr></table></dd>
-      </dl></td></tr>
-<!-- Phenotypes -->
-<a name="help_pad">
-<tr>
-    <td class="enhance">
-      <a href='<!--#include file='include/homepages_url.html'-->phenotypes.shtml'
-      onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->phenotypes.shtml');
-      return false;">
-      Phenotypes, Alleles &amp Disease Models</a>
+  <!-- Expression -->
+  <a name="help_gxd">
  
-      <dl class="linkedList">
-        <!-- help example -->
-        <dd>help example --
-          <a href="example.shtml" onClick="javascript:openHelpWindow('example.shtml'); return false;">
-            Example Link
-          </a>
-        </dd>
-      </dl>
-    </td>
-  </tr>
+        <dt class="enhance">Gene Expression</dt>
+         
+  	<blockquote>
+<dd><a href="expression_literature_help.shtml" onclick="javascript:openHelpWindow('expression_literature_help.shtml'); return false;">
+              Using the Gene Expression Literature Index Query Form</a>
+  	</dd>
+    <dt>&nbsp;</dt>
+<dd>&nbsp;</dd>
+</blockquote>
 
+   
+  
+  
+  <!-- cre -->
+  <a name="help_cre"></a>
+  
  
+          <!-- help example -->
+          <dt class="enhance">Recombinases</dt>
+            <blockquote>
+       <dd>
+         	     <a href="cre_summary_help.shtml" onclick="javascript:openHelpWindow('cre_summary_help.shtml'); return false;">Interpreting Recombinase Alleles - Tissue Specificity Summary Reports</a>
+                 </dd>
+              
+       </blockquote>
+       
 
-<!-- Expression -->
-<a name="help_gxd">
-<tr>
-    <td class="enhance">
-      <a href='<!--#include file='include/homepages_url.html'-->expression.shtml'
-      onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->expression.shtml');
-      return false;">
-      Gene Expression</a>
-    </td>
- </tr>
-<tr>
-    <td>
-      <dl class="linkedList">
-        <!-- help example -->
-        <dt>Expression Help</dt>
-	<dd><a href="expression_literature_help.shtml" onClick="javascript:openHelpWindow('expression_literature_help.shtml'); return false;">
-            Using the Gene Expression Literature Index Query Form</a>
-	</dd>
-      </dl>
-    </td>
-  </tr>
-
-
-<!-- cre -->
-<a name="help_cre"></a>
-
-<tr>
-
-    <td class="enhance">
-      <a href='<!--#include file='include/homepages_url.html'-->recombinase.shtml'
-      onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->recombinase.shtml');
-      return false;">
-      Recombinases</a>
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      <dl class="linkedList">
-        <!-- help example -->
-        <dt>CRE Help </dt>
-          <dd>
-	     <a href="cre_summary_help.shtml" onClick="javascript:openHelpWindow('cre_summary_help.shtml'); return false;">Interpreting Recombinase Alleles - Tissue Specificity Summary Reports</a>
-        </dd>
-      </dl>
-    </td>
-  </tr>
-
-
-
-
-<!-- go -->
-<tr>
-<td>
+<dt>&nbsp;</dt>
+<dd>&nbsp;</dd>
 <a name="help_go"></a>
+        <dt class="enhance">GO Functional Annotations</dt>
+<blockquote>
+     	<dd>Misc. GO stuff</dd>
+         
+        <dd>&nbsp;</dd>
+          
+     </blockquote>
+     
+  <!-- pathways -->
 
-  <table class="outline" width="100%">
+      <dt class="enhance">Strains, SNPs &amp Polymorphisms</dt>
+     <blockquote>
+	<dt><b>Strains</b>
+	<dd>
+	<dt><b>SNPs</b>
+          <dd>
+            <a href="snp_help.shtml" onclick="javascript:openHelpWindow('example.shtml'); return false;">
+              SNP Help
+            </a>
+          </dd>
+          <dt><b>Polymorphisms</b> 
+<dd>&nbsp;</dd>
+</blockquote>
 
-  <tr>
-    <td class="enhance">
-      <a href='<!--#include file='include/homepages_url.html'-->function.shtml'
-      onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->function.shtml');
-      return false;">
-      GO Functional Annotations</a>
-    </td>
-  </tr>
-
-  <tr >
-    <td>
-      <dl class="linkedList">
-        <!-- help example -->
-        <dt>help example --
-          <a href="example.shtml" onClick="javascript:openHelpWindow('example.shtml'); return false;">
-            Example Link
-          </a>
-        </dt>
-      </dl>
-    </td>
-  </tr>
-
-  </table>
-</td>
-</tr>
-
-
-
-<!-- pathways -->
-<tr>
-<td>
-<a name="help_pathways"></a>
-
-  <table class="outline" width="100%">
-
-  <tr>
-    <td class="enhance">
-      <a href='<!--#include file='include/homepages_url.html'-->pathways.shtml'
-        onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->pathways.shtml');
-        return false;">
-      Biochemical Pathways</a>
-    </td>
-  </tr>
-
-  <tr >
-    <td>
-      <dl class="linkedList">
-        <!-- help example -->
-        <dt>help example --
-          <a href="example.shtml" onClick="javascript:openHelpWindow('example.shtml'); return false;">
-            Example Link
-          </a>
-        </dt>
-      </dl>
-    </td>
-  </tr>
-
-  </table>
-</td>
-</tr>
-
-
-
-<!-- strain -->
-<tr>
-<td>
-<a name="help_strain"></a>
-
-  <table class="outline" width="100%">
-
-  <tr>
-    <td class="enhance">
-      <a href='<!--#include file='include/homepages_url.html'-->strains_SNPs.shtml'
-        onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->strains_SNPs.shtml');
-        return false;">
-      Strains, SNPs &amp Polymorphisms</a>
-    </td>
-  </tr>
-
-  <tr >
-    <td>
-      <dl class="linkedList">
-        <!-- help example -->
-        <dt>help example --
-          <a href="example.shtml" onClick="javascript:openHelpWindow('example.shtml'); return false;">
-            Example Link
-          </a>
-        </dt>
-      </dl>
-    </td>
-  </tr>
-
-  </table>
-</td>
-</tr>
+   
+ 
+  <!-- orthology -->
+   <a name="help_mammortho"></a>
+        <dt class="enhance">Orthology</dt>
+     
+          <dd>
+            <a href="example.shtml" onclick="javascript:openHelpWindow('example.shtml'); return false;">
+              Orthology Help
+            </a>
+          </dd>
+          
+<dd>&nbsp;</dd>
+   
+ 
+  
+  <a name="help_other_searches"></a>
+    
+      <dt class="enhance">Other Searches</dt>
+    
+          <blockquote>
+  <dt>Batch Querying / Interpreting Results
 
 
 
 
-<!-- orthology -->
-<tr>
-<td>
-<a name="help_mammortho"></a>
 
-  <table class="outline" width="100%">
-
-  <tr>
-    <td>
-      <a href='<!--#include file='include/homepages_url.html'-->orthology.shtml'
-        onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->orthology.shtml');
-        return false;">
-      Mammalian Orthology</a>
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      <dl class="linkedList">
-        <!-- help example -->
-        <dt>help example --
-          <a href="example.shtml" onClick="javascript:openHelpWindow('example.shtml'); return false;">
-            Example Link
-          </a>
-        </dt>
-      </dl>
-    </td>
-  </tr>
-
-  </table>
-</td>
-</tr>
+            <dd>
+              <a href="batch_qf_help.shtml" onclick="javascript:openHelpWindow('batch_qf_help.shtml'); return false;">
+                Using the MGI Batch Query
+              </a>
+            </dd>
+    	<dt>Using & Interpreting Accession IDs 
+            <dd>
+              <a href="accession_ID_help.shtml" onclick="javascript:openHelpWindow('accession_ID_help.shtml'); return false;">
+               Querying by Accession ID - Results and Examples
+              </a>
+            </dd>
+    
+    
+	<dt>MouseBLAST Help</dt>
+	
+            <dd>
+              <a href="mouseblast_overview_help.shtml" onclick="javascript:openHelpWindow('mouseblast_overview_help.shtml'); return false;">
+               Using MouseBLAST - Overview
+              </a>
+            </dd>
 
 
-<!-- other searches -->
-<tr>
-<td>
-<a name="help_other_searches"></a>
-
-  <table class="outline" width="100%">
-
-  <tr>
-    <td class="enhance">Other Searches
-    </td>
-  </tr>
-
-  <tr >
-    <td>
-      <dl class="linkedList">
-        <dt>Batch Querying / Interpreting Results
-        <dd>
-          <a href="batch_qf_help.shtml" onClick="javascript:openHelpWindow('batch_qf_help.shtml'); return false;">
-            Using the MGI Batch Query
-          </a>
-        </dd>
-	<dt>Using & Interpreting Accession IDs 
-        <dd>
-          <a href="batch_qf_help.shtml" onClick="javascript:openHelpWindow('accession_ID_help.shtml'); return false;">
-           Results / Examples
-          </a>
-        </dd>
-      </dl>
-    </td>
-  </tr>
-
-  </table>
-</td>
-</tr>
 
 
-</table>
-<!--#include file='include/templateBodyStop.html'-->
+
+
+	<dt>Miscellaneous Help 
+
+            <dd>
+              <a href="boolean_search_help.shtml" onclick="javascript:openHelpWindow('boolean_search_tip_help.shtml'); return false;">
+               Full-Text Searching on MGI Query Forms
+              </a>
+            </dd>
+     	<dd>
+              <a href="gen_search_help.shtml" onclick="javascript:openHelpWindow('boolean_search_tip_help.shtml'); return false;">
+               General Guidelines for MGI Searches
+              </a>
+            </dd>
+    	<dd>
+              <a href="wildcard_help.shtml" onclick="javascript:openHelpWindow('wildcard_help.shtml'); return false;">
+               Using Wild Cards on MGI Query Forms
+              </a>
+            </dd>
+    	<dd>
+              <a href="operator_help.shtml" onclick="javascript:openHelpWindow('operator_help.shtml'); return false;">
+               Using Operators on MGI Query Forms
+              </a>
+            </dd>
+    	<dd>
+              <a href="map_position_help.shtml" onclick="javascript:openHelpWindow('.shtml'); return false;">
+               Using Map Position Fields on MGI Query Forms
+              </a>
+            </dd>
+    
+  </blockquote>
+  
+  
+        </dl>
+      </td>
+    </tr>
+  
+    </table>
+  
+  <!--#include file='include/templateBodyStop.html'-->
+  

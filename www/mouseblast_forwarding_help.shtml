@@ -1,0 +1,73 @@
+<!--#include file='include/templateHead.html'-->
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+<title><!--#include file="include/mgiversion.html"-->Using the Forward to MouseBLAST Form</title>
+
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+</style>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">Using the Forward to MouseBLAST Form</span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+<tr>
+  <td class="enhance" align=left><!--#include file='help_toolbar.shtml'--></td>
+</tr>
+</table>
+
+
+<!-- Body of User Help -->
+<a name="top"></a>
+<P>The help document answers the following questions about the Forward to MouseBLAST form:
+<UL>
+<LI><A HREF="#whatdo">What's the purpose of this form?</A></LI>
+<LI><A HREF="#howdo">How do I use it?</A></LI>
+<LI><A HREF="#output">How do I interpret the results?</A></LI>
+<LI><A HREF="#example">Are there any sample searches?</A></LI>
+</UL>
+</p>
+
+<H3><A NAME="whatdo"></A>What's the purpose of this form?</H3>
+<p>Use this query form to search each sequence forwarded to MouseBLAST against a particular sequence database.  </p>
+<p>MouseBLAST searches a forwarded sequence against a mouse, rat, rodent, or human sequence database to find matching sequences.  The output of each search (sequences similar to the query sequence) appears in a separate web browser window.   If a matching sequence is associated to an MGI mouse gene record, a summary of that gene and a link to MGI appear in the search results.  You can either download sequences for any matches in FASTA format or forward them to MouseBLAST for additional searching.</p>
+
+
+<H3><A NAME="howdo"></A>How do I use it?</H3>
+<p>For each sequence you want to search, do the following. Use the fields in the
+last column to specify MouseBLAST search options.</p>
+<OL>
+<LI>Select whether you wish to mask the query sequence.  By default, the sequence is masked. 
+(See <A HREF="mouseblast_masking_help.shtml">Masking Details</A>.)
+<LI>Select the BLAST program you wish to use.  The default program is picked based on whether the
+query sequence is nucleotide or protein. (See <A HREF="mouseblast_blast_programs_help.shtml">WU-BLAST Programs</A>.)
+<LI>Select the sequence database you wish to search. (See <A HREF="mouseblast_sequence_databases_help.shtml">Sequence Databases</A>.)</li>
+<LI>Click Search.  Results of the search will appear in a new browser window.</li>
+</OL>
+<p>Alternatively, you can search the sequence using the MouseBLAST Query Form by following
+the Advanced BLAST query form link.</p>
+
+<H3><A NAME="output"></A>How do I interpret the results?</H3>
+<p>The results of each search appear in a new web browser window.  See <a href="mouseblast_output_help.shtml">Using The MouseBLAST Output Report</a> for details.</p>
+
+
+
+<H3><A NAME="example"></A>Are there any sample searches?</H3>
+<p>See <A HREF="mouseblast_examples_help.shtml">Example MouseBLAST Searches</A>.</p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
+<!--#include file='include/templateBlankBodyStop.html'-->

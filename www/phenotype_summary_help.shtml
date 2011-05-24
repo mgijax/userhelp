@@ -1,0 +1,335 @@
+<!--#include file='include/templateHead.html'--> 
+<title>MGI-Interpreting the Phenotype Summary on an Allele Detail Report</title>
+<!--#include file='include/templateBodyStart.html'--> 
+<!-- Title Bar -->
+
+
+
+<div id="titleBarWrapper">
+  <span class="titleBarMainTitle">Interpreting the Phenotype Summary on an Allele Detail Report</span>
+</div> <!--titleBar-->
+
+<a name="top"></A>
+<p>This help document describes the <b>Phenotype summary</b> section of an Allele Detail report and answers the following questions:</p>
+
+<UL>
+  <LI><A HREF="#purpose">What is the purpose of the Phenotype summary table?</a></LI>
+ <LI><A HREF="#interpret">How do I interpret the Phenotype summary table?</a></li>
+  <ul>
+    <li><a href="#key">Key: genotypes, colors, and symbols</li>
+  <li><a href="#numbers">Key:  numbers</a></li>
+  <li><a href="#show_hide">Show or hide all annotated terms</a></li>
+  <li><a href="#affected_systems">Affected Systems</a></li>
+   <li> <a href="#image">Tricolored image</a</li>
+<li><a href="#links">Links</a></li>
+  </ul>
+
+<li><a href="#howsortgs">What should appear in the Genotypes row? How is it sorted?</a></li>
+<li><a href="#howsortas">What should appear on the Affected Systems list? How is it sorted?</a></li>
+
+  <li><A HREF="#normalnull">What's the difference between N and &#248;? What does a blank cell indicate?</a></li>
+  <li><a href="#research">Where is the research that supports an annotation?</a></li>
+  <li><A href="#relationship">What's the relationship between the Phenotype summary table and the Phenotypic data by genotype tables?</a></li>
+
+<LI><A HREF="#more">More Q and A</A></Li>
+</UL>
+<P>See also:
+<UL>
+  <LI><A HREF="<!--#include file='include/glossary_url.html'-->">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
+  <LI><A HREF="allele_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
+  <LI><A HREF="allele_summary_report.shtml">Understanding Phenotypic Allele Summary Reports</A></LI>
+  <LI><A HREF="allele_detail_report.shtml">Understanding Phenotypic Allele Detail Reports</a></li>
+  <li><a onClick='javascript:openFaqWindow("Allele_tour.shtml"); return false;' href="<!--#include file='include/faq_url.html'-->Allele_tour.shtml">Allele Tour</a> (how to reveal table views)</li><br>
+
+
+
+</UL>
+
+<h3><a name="purpose"></a>What is the purpose of the Phenotype summary table?</h3>
+<p>The purpose of the <b>Phenotype summary</b> table is to display all genotypes involving an allele with annotations in affected anatomical systems. 
+In this table, you can:
+ 
+<ul>
+<li>view data ordered by Mammalian Phenotype term (see the <b>Phenotypic data by genotype</b> section below it for an alternative view)</li>
+<li>associate a genotype with a color when interpreting this and subsequent tables (<b>Phenotypic data by genotype, Disease models</b>) on the Allele Detail report </li>
+<li>show or hide all annotated terms</li>
+ <li>open a new window displaying each genotype's annotations (by clicking a genotype abbreviation (e.g. <i>hm1</i>)
+<li>compare genotypic details side by side (by opening subsequent windows)</li>
+<li>expand or contract an affected system to see specific subsystems</li>
+ <li>discover whether any disease models are annotated to the genotype</li>
+<li>locate terms in the ontological hierarchy (by following links to the Mammalian Phenotype Browser from the new  window) </li>
+<li>examine research for the phenotypic annotations (by following links to Reference detail reports from the new window).</li>
+</ul>
+</p>
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+ 
+<h3><a name="interpret"></a>How do I interpret the Phenotype summary table?</h3>
+<b>Note:</b> The <b>Phenotype summary</b> table contains the same information as the <b>Phenotypic data by genotype</b> section (below it), but the data is presented as a matrix rather than as a list. You may find it easier to work with one form of the data than the other. For example, when your query finds many phenotypes, you must scroll left/right in the <b>Phenotype summary</b> versus up/down for the <b>Phenotypic details by genotype </b>section to see all the results.</p>
+  
+
+<h4><a name="key">Key: genotypes, colors, and symbols</a></h4>
+<p>The key at the top of the Phenotype Summary by Mammalian Phenotype terms</b> table contains one color bar for each different allelic "state" (e.g., homozygous, heterozygous). 
+Each column has a color, an abbreviation for the state (e.g., <i>hm</i> for homozygous, <i>ht</i> for heterozygous, and so on) and a number (arrayed sequentially) for each search result. The colors make it easy to identify  each entity, especially when the Phenotype summary extends horizontally, or when you are viewing data from a <b>Phenotypic details by genotype</b> or <b>Disease model</b> perspective.</p>
+<blockquote>
+<table border="1" cellspacing="1" cellpadding="3" width="!">
+ <tr><th align="LEFT" valign="top"  bgcolor="#FBBB00">hm  &nbsp; (orange)</th><td valign="top">homozygous</td></tr>
+ <tr><th  align="LEFT" valign="top"  bgcolor="#00CEF2"><nobr>ht &nbsp; (blue)</th><td valign="Top">heterozygous</td></tr> 
+ <tr><th  align="LEFT" valign="top"  bgcolor="#D3FFA8">cn (green)</th><td valign="Top">conditional genotype</td></tr> 
+ <tr><th  align="LEFT" valign="top" bgcolor="#CCCCFF">cx &nbsp; (purple)</td><td valign="Top">complex (more than one genome feature)</td></tr>
+  <tr><th  align="LEFT" valign="top"  bgcolor="#FFB3E0">tg &nbsp;&nbsp;&nbsp;(pink)</td><td valign="Top">involves transgenes</td></tr> 
+ <tr><th align="LEFT" valign="top" bgcolor="#E3C8AC">ot&nbsp; (brown)</th><td valign="Top">other: hemizygous, indeterminate...</td></tr> 
+ 
+ <tr><th align="Center" valign="Top" bgcolor="FFFFCC">N</th><td valign="Top">Normal phenotype. Current annotations for this genotype and term indicate absence of abnormality. </td></tr> 
+ <tr><th align="CENTER" valign="top" bgcolor="FFFFCC">&#248;</th><td valign="Top">NOT a model for this disease, contrary to expectation. See <a href="allele_detail_report.shtml#references">References</a> for details.</td></tr> 
+
+<!--checkmark-->
+ <tr><th align="CENTER" valign="top" bgcolor="FFFFCC">&#x2713;</th><td valign="top">There is an abnormal phenotype in the affected system.  Click &#9658; in the <b>Affected Systems</b> column to see the specific column annotated. Click the term name to view it in the  Mammalian Phenotype Browser. </td></tr> 
+<!--null is for NOT-->
+ <tr><td valign="Top">Blank space</td><td valign="Top">No information.</td></tr> 
+</table>
+</blockquote>
+
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+
+<h4><a name="numbers"></a>Key: numbers</h4>
+<p>There is a number for each genotype involving this allele with annotations in affected anatomical systems.  Numbers increase sequentially across the <b>Genotypes:</b> bar.  If the number of genotypes in MGI involving this allele is 29, there will be 29 columns in the table (e.g., <i>hm1...ht15...cx20...tg29</i>).  You may need to scroll horizontally to see all the entries. <!--A glance at the results in the  <b>Allele Composition (Genetic Background)</b> column on the <b>Phenotypic Alleles Query Results Summary</b> alerts you to the width of the <b>Phenotype Summary</b> table.--></p>
+ 
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+
+<h4><a name="show_hide"></a>Show or hide all annotated terms</h4>
+<p><table border="1" cellspacing="2" cellpadding="3" width="!">
+ <tr><th>show</th><td>Click to expand or open a view of all annotations for this allele.</td></tr>
+<tr><th>hide</th><td>Click to contract or close the annotation list.</td></tr>
+</table>
+</p>
+
+<h4><a name="affected_systems"></a>Affected Systems</h4>
+<p>The <b>Affected Systems</b> column lists anatomical terms from the Mammalian Phenotypes Browser for which there are phenotypic annotations. <ul>
+  <li>If a term you are interested in does not appear, it means that, currently, there are no annotations to the term for this allele.</li>
+  <li>The sort order is alphabetical (e.g., behavioral/neurological before cardiovascular, skeleton before skin/coat/nails). </li>
+<li>To expand or collapse  <b>all</b> annotated terms, click  <b>show</b>
+or <b>hide</b> (above the Affected System column, to the left of the Key).</li>
+<li>To expand or collapse a <b>single</b> system, click the &#9658; or &#9660; beside it.</li>
+
+
+</ul>
+</p>
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+
+
+<h4> <a name="image"></a>Tricolored image</h4>
+<p>A tricolored image appears when you open one or more systems (to expand a list) next to any item (except the first) in the Affected Systems column. 
+<ul>
+  <li>Click the image to put a copy of the header row (genotype, color, and number) above the row. This visual aide is especially useful when several systems are expanded, making your summary table long; you won't have to scroll to the top of the Phenotype summary table to identify which genotype column is which.</li>
+  <li>To remove this copy, click the image again. </li>
+</ul>
+</p>
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+<h4><a name="links"></a>Links</h4>
+<p>To see information for all check marked anatomical terms in a column (i.e., all the Affected Systems for <i> hm1</i>):
+</p>
+<ul>
+  <li>Locate the header row.</li>
+<li>Click the genotype abbreviation in a column of interest (e.g., <i>hm1</i>). A new window appears, displaying all annotations from that column; links to the Mammalian Phenotype Browser (for term ontology); MGI J: numbers (for references); disease annotations (when relevant); and images (when available).</li>
+  <li>Open as many windows as desired. </li>
+<li>To see an alternate view of phenotypic data (i.e., genotype cross-referenced with allelic composition, and genetic background)
+<ol>
+  <li>Locate  a genotype of interest and note its color and number.</li>
+  <li>Scroll down to the <b>Phenotypic data by genotype</b> table and find that color/number. </li>
+</ol> (<b>Note:</b> Context-sensitive help is available by hovering with your mouse over any color/number in the Genotype column.) <!-- You can also find out whether there is a disease model identified for this genotype. --></li>
+</ul>
+</p>
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+<h3><a name="howsortgs"></a>What should appear in the Genotypes row? How is it sorted?</h3>
+<p>The first sort is by the allele state (homozygous, heterozygous, conditional, complex, involving transgenes, other). Within states, results are alphabetized by strain name/genetic background (e.g., AK, B6, C3, MRL, NOD).</p>
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+<h3><a name="howsortas"></a>What should appear on the Affected Systems list? How is it sorted?</h3>
+<p>The Affected Systems list contains annotation terms from the Mammalian Phenotypes Browser. If a term does not appear, it means that, at this time, the MGI database does not contain annotations for this allele to the term. The sort order in the summary table is always alphabetical (e.g., behavioral/neurological before cardiovascular, skeleton before skin/coat/nails). </p>
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+<h3><A name="normalnull"></a>What's the difference between N  and &#248;? What does a blank cell indicate?</h3>
+<ul>
+  <li><b>N</b> means that phenotypic analysis has occurred, and there is a report of no abnormality for part or all of the system although an abnormality was expected. 
+<li>If an <b>N</b> is visible when the system is closed (i.e., <b>hide</b>;), then only unexpected normals are annotated for that system.</li>
+<li>Click <b>show</b> or <b>hide</b> to investigate all research results for this (any) genotype/affected system.</li>
+  <li>&#248; means that, contrary to expectation, this genotype is not a model for a specific disease or diseases..</li>
+  <li>A blank cell indicates that, in MGI, the genotype in the column has not been annotated to the term in the row.</li>
+</ul>
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+
+<h3><a name="research"></a>Where is the research that supports an annotation?</h3>
+<p>Click the column header in the Genotypes row (e.g., <i>hm1, ht15, cx19</i>). In the window that appears, J-numbered citations (e.g., <i>J:7454</i>) appear after each Mammalian Phenotype Browser term (in parentheses). Clicking a citation brings up its MGI References Query Results -- Details report. Here you will find publication details, an abstract, and links to additional MGI information.</p>
+<p>When there is more than one reference paper, bullet items beneath the Mammalian Phenotype vocabulary terms differentiate which paper goes with which note. </p>
+<p>Bullet items provide additional information about the phenotype and may or may not be present, regardless of the number of papers.</p>
+ 
+  <p><b>Note:</b> There is also a References section at the bottom of the Phenotypic Allele Detail report. Clicking <b>All references</b> brings up a <b>References Query Results -- Summary</b> which displays links to all citations associated with the allele. Matching items are sorted chronologically with the most recent papers appearing at the top.
+ </p>
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+  <h3><A name="relationship"></a>What's the relationship between the Phenotype summary and the Phenotypic data by genotype tables?</a></h3>
+
+<p>The tables present alternate views of the same data. See <a href="#interpret">How do I interpret the Phenotype summary table?</a> and <a href="allele_detail_report.shtml#pg_details">Phenotypic Data by Genotype</a>.</p>
+
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+  <h3><A name="more"></a>More questions</h3>
+<ul>
+  <li><a href="#see_annot">Can I see annotations for every checkmarked item in the Genotypes column? </a></li>
+<li><a href="#how_many">How many new windows can I open?</a></h3>
+
+  <li><a href="#what_else">What else is there to know about genotype windows?</a></li>
+  <li><a href="#what_if">What if I'm only interested in disease models?</li>
+  <li><a href="#how_do">How do I get rid of additional windows or headers or subsystem views?</a></li>
+  <li><a href="#why_no">Why aren't all the systems in the Mammalian Phenotype vocabulary listed?</a></li>
+  <li><a href="#help">Help! I've expanded subsystems, scrolled through data, and can't see the header row any more. Is there a visual aid?</a></li>
+  <li><a href="#how_tell">How can I tell, without opening every window, what alleles and strains are involved with a genotype?</a></li>
+<li><a href="#why_diff">Why is the order of systems different in the summary table versus the genotype detail table?</a></li>
+  <li><a href="#how_often">How often are annotations added?</a></li>
+  <li><a href="#examples">Are there examples?</a></li>
+</ul>
+
+<h3><a name="see_annot"></a>Can I see annotations for every checkmarked item in the Genotypes column? </h3>
+<p>Yes. Click the colored box at the head of the Genotypes row (i.e., <u>hm1</u>, <u>ht4</u>). A new window appears, containing all available phenotypic details by genotype. 
+<ul>
+  <li>A small MGI logo appears in the top left corner.</li>
+<li>The color assigned to the genotype appears in a small box. The genotype abbreviation appears beneath the box (e.g., <i>hm1</i>). This enables quick identification of genotypes, particularly when opening several windows for comparison.</li>
+  <li>The nomenclature and genetic background appear in the header. Clicking any underlined symbol brings up its Phenotypic Allele Detail report.</li>
+ <li>A <b>Print</b> button allows you to send the screen content to a printer.</li>
+<li><i>Disease model</i> appears if relevant for this genotype. </li>
+  <li>When available, images associated with this genotype appear in the top right corner. </li>
+  <li>Each affected system (e.g., <i>nervous system</i>) identified by a check mark in the genotype column appears.</li>
+    <li>Each system term with an abnormality assertion (e.g., <i>brain inflammation</i>) appears, linked to its term detail report in the Mammalian Phenotype Browser. </li>
+    <li>Reference identifiers  (e.g., <i>J:120427</i>)  appear in parentheses next to the term, linked to the References Query Results -- Details report. </li>
+  </ul></p>
+  <p><b>Note:</b> You can access identical information by scrolling down to the <b>Phenotypic details by genotype</b> section on this detail report, clicking <b>show</b> to expand, following links, and  clicking <b>hide</b> to contract the data.</p>
+
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+<h3><a name="how_many"></a>How many new windows can I open?</h3>
+<p>As many as desired.</p>
+<p>Clicking any of the numbered genotypes opens a new window. <br><b>Note:</b> The first click may open the window in front of your current browser window. Subsequent (or all) clicks may open windows <i>behind</i> your current window.</p>
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+
+<h3><a name="what_else"></a>What else is there to know about genotype windows?</h3>
+<ul>
+<li>You can open as many windows as desired (there is one for every item in the  <b>Genotypes</b> row) for data comparisons.<br> <b>Note: </b>The windows have no "Back" button, so when you want them out of the way, you must close them.</li>
+  <li>You can resize the windows.<br> <b>Note:</b> When available, a table featuring mouse models of human diseases appears last in the display, so if this is your area of interest, be sure to expand (or scroll to the bottom of) genotype windows.</li>
+  <li>You can follow <b>Affected system </b>links to the MGI Mammalian Phenotype Browser and see terms represented  within the context of phenotype ontology.<br> <b>Note:</b> This opens a new window.</li>
+  <li>You can follow MGI J: numbers to MGI Reference Detail reports to find the research that supports the annotations.<br> <b>Note:</b> This opens a new window.</li>
+</ul>
+
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+  <h3><a name="what_if"></a>What if I'm only interested in disease models?</h3>
+<p>A check mark appears in any Genotypes column where there is phenotypic evidence of a disease model. Click the colored box at the top of that column (e.g., <i>hm9</i>)to access the new window. Scroll down to locate <b>Mouse Models of Human Disease</b> table.</p>
+<p>You can also scroll down the Allele Detail report to the <b>Disease Models</b> table which displays data for all genotypes.</p>
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+
+<h3><a name="how_do"></a>How do I get rid of extra windows, headers, or subsystem views?</h3>
+<ul><li>There is no Back button on the additional (genotype) windows. You must close them to get rid of them. </li>
+<li>To remove an extra header row, click the tricolored bar again. </li>
+<li>Click <b>show</b> or <b>hide</b> to expand or collapse data views.</li>
+<li>Click &#9658; or &#9660; to open or close just one system. <b>Note:</b> Closing a system also hides the additional labels that appear.</li></ul>
+</p>
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+<h3><a name="why_no"></a>Why aren't all the systems in the Mammalian Phenotype vocabulary listed?</h3>
+<p>Only those systems with at least one annotation appear in the table.</p>
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+
+<h3><a name="help"></a>Help! I've expanded subsystems, scrolled through data, and can't see the header row any more. I need a visual aid.</h3>
+
+<p>When you open a system (by clicking &#9658;), a tricolor bar appears beside the first subsystem on the expanded list. The bar is a toggle that inserts or removes a copy of the header row above that subsystem name. To use this visual aide:</p>
+<ul>
+  <li>Find a check mark in a column of interest.</li>
+  <li>Locate the affected system in the column on the right.</li>
+<li>Click <b>show</b> to open the list. The tricolor bar appears.</li>
+  <li>Click the  bar. A header row identifying the color, abbreviation, and number of each genotype appears above the affected system.</li>
+<li>Click the bar again to hide the additional copy of the header row.
+</ul>
+</p>
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+ <h3><a name="how_tell"></a>How can I tell, without opening every window, what alleles and strains are involved with a genotype?</h3>
+<p>Scroll down to the <b>Phenotypic data by genotype</b> table. All genotypes listed in the <b>Phenotype summary</b> appear, paired with their allelic composition and genetic background data. The view of the data is vertical (in the <b>Phenotypic data by genotype</b> table) rather than horizontal (as with the <b>Phenotype summary</b> table).</p>
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+<h3><a name="why_diff"></a>Why is the order of systems different in the summary table versus the genotype detail table?</h3>
+
+
+<p>Items in the <b>Affected Systems</b> list on the <b>Phenotype summary</b> table are ordered alphabetically. </p>
+<p>For any annotated subterms beneath these systems, the order is weighted by importance as specified by MGI curators.</p>
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+
+<h3><a name="how_often"></a>How often are annotations added? </h3>
+<p>MGI curators add new annotations from the literature every day.</p>
+
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+
+
+<h3><a name="examples"></a>Are there examples?</h3>
+<p>
+<ul>
+  <li>For additional terminology and/or to locate an annotation in the Mammalian Phenotype ontology, click &#9658; to open any affected system,  and follow subsystem links to the Mammalian Phenotype Browser term detail reports. </li>
+<li>For the research that supports an annotation, click the header row of interest (e.g., <i>hm1</i>) and expand the window that opens. An MGI J: number (in parentheses) follows each annotation and links to a Reference Detail report. </li>
+  <li>To rule out abnormality (for the time being), look at anything marked with N in a given system/subsystem.</li>
+  <li>To focus on mutations that affect a disease of interest, locate the <b>Disease Models</b> row at the bottom of the table. Click Genotypes columns where check marks occur (i.e., <i>hm3</i>). In the window that appears, locate the <b>Mouse Models of Human Disease</b> table at the bottom of that display. <b>Note:</b> The <b>Disease models</b> table at the bottom of the Allele Detail report lists all genotypes for all affected systems/subsystems in all allelic states. </li>
+  <li>For different views of the same genotypic data, compare the <b>Phenotype summary</b> with the <b>Phenotypic data by genotype</b>.  When there are mouse models for human disease, the  <b>Disease models</b> table presents yet another view of the data.</li>
+</ul>
+</p>
+<A HREF="#top"><font size=-1>Back to Top</font></A>
+<pre>
+
+<li>See
+<a onClick='javascript:openFaqWindow("Allele_tour.shtml"); return false;'
+ href="<!--#include file='include/faq_url.html'-->Allele_tour.shtml">Allele Tour</a> for a FAQ on how to use the new table.</li><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+
+
+
+
+<!--#include file="include/templateBodyStop.html"-->
+</body>
+</html>
+<!--
+Warranty Disclaimer and Copyright Notice
+ THE JACKSON LABORATORY MAKES NO REPRESENTATION ABOUT THE SUITABILITY OR
+ ACCURACY OF THIS SOFTWARE OR DATA FOR ANY PURPOSE, AND MAKES NO WARRANTIES,
+ EITHER EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY AND FITNESS FOR A
+ PARTICULAR PURPOSE OR THAT THE USE OF THIS SOFTWARE OR DATA WILL NOT
+ INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS, OR OTHER RIGHTS.
+ THE SOFTWARE AND DATA ARE PROVIDED "AS IS".
+ This software and data are provided to enhance knowledge and encourage
+ progress in the scientific community and are to be used only for research
+ and educational purposes.  Any reproduction or use for commercial purpose
+ is prohibited without the prior express written permission of the Jackson
+ Laboratory.
+Copyright © 1996, 1999, 2002, 2005, 2006, 2007 by The Jackson Laboratory
+All Rights Reserved
+-->
+

@@ -1,0 +1,244 @@
+<!--#include file='include/templateHead.html'-->
+
+<title>
+  <!--#include file="include/mgiversion.html"-->
+  MGI-Interpreting Mammalian Orthology Query Results
+</title>
+
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+</style>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="helpHeaderText">
+  Interpreting Mammalian Orthology Query Results
+ </span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+
+
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+  </td>
+</tr>
+
+</table>
+<!-- Body of User Help -->
+
+
+
+<A NAME="top"></A>
+
+<P>This Help document answers the following questions about interpreting the Mammalian Orthology Query Results :</P>
+
+<UL>
+<LI><A HREF="#contain">What's in the Mammalian Orthology Query Results?</A></LI>
+<li><A href="#single">How do I view resources for genes or sequences?</A></li>
+<LI><A HREF="#fasta">How do I download sequences in FASTA format?</A></LI>
+<LI><A HREF="#mouseblast">How do I forward sequences to MouseBLAST?</A></LI>
+<LI><A HREF="#buttons">How do the buttons work? What does Invert do?</A></LI>
+<LI><A HREF="#fields">How do I interpret these results?</A></LI>
+<li><a href="#reference">Are there any supporting references?</a></li>
+<li><a href="#compmap">Are there any comparative maps?</a></li>
+</UL>
+
+<P>See also:</P>
+<UL>
+<LI><A HREF="<!--#include file='include/glossary_url.html'-->">MGI Glossary</A> (for unfamiliar terms or acronyms)</LI>
+<LI><A HREF="mblast_query_form_usage.shtml">Using MouseBLAST - Basic Steps</A></LI>
+</UL>
+
+<H3><A NAME="contain"></A>What's in the Mammalian Orthology Query Results?</H3>
+<P>The Mammalian Orthology Query Results page contains:
+<ul>
+<li>a summary of your query parameters and the number of items found</LI>
+<li>a table summarizing orthology information on your query</LI>
+<li>the ability to select sequences from that table for downloading in FASTA format or forwarding to MouseBlast</LI>
+<li>a column of all known species with orthologous genes</LI>
+<li>links via the database accession identifier to the sequence source</LI>
+<li>a column of evidence codes for each orthology assertion</LI>
+<li>links to the supporting references for the assertions</LI>
+<li>links to a comparative map displaying all genes/markers within 2 centiMorgans of the gene or marker of interest</LI>
+<li>additional references for all evidence assertions or for selected species</LI>
+<li>links to additional resources with orthology data for this gene (e.g., TreeFam (phylogenetic trees of animal genes), Protein Superfamily reports, VISTA on UCSC browser (whole genome alignment), Homologene (at NCBI: automated detection of homologs among the annotated genes of completely sequenced eukaryotic genomes), MGI Mouse-Human-Rat Comparative GO Graph (curated GO classifications for mouse, human and rat orthologs annotated from the biomedical literature).</LI>
+</UL>
+</p>
+<A HREF="#top"><font size="-1">Top</font></a> 
+
+
+
+<H3><A NAME="single"></A>How do I view the resources for genes or sequences?</H3>
+<p>A Mammalian Orthology Query Results table displays, by species, external gene resources and/or MGI-stored sequences for your query. To access:
+<ul>
+  <li>Locate the item of interest in the AccID (Source) column.</li>
+  <li>Click the desired provider link (e.g., HGNC, Entrez Gene, RefSeq, Uniprot, OMIM).<br>
+The provider's record for this accession ID appears.</LI>
+</ul>
+</p>
+<a href="#top"><font size="-1">Top</font></a>
+
+<H3><A NAME="fasta"></A>How do I download sequences in FASTA format?</H3>
+<OL>
+<LI>Click to put a check mark in the Select column next to one or more sequences.</LI>
+<LI>Ensure that <i>download in FASTA format</i> appears in the box next to <i>For the selected sequences</i>.</LI>
+<LI>Click <i>Go</i>. The selected sequences appear on a new page, in FASTA format.</LI>
+</OL>
+
+ <a href="#top"><font size="-1">Top</font></a> 
+
+<H3><A NAME="mouseblast"></A>How do I forward sequences to MouseBLAST?</H3>
+<P>To forward sequences to MouseBLAST:</P>
+<OL>
+<LI>Click to put a check mark in the Select column next one or more sequences.</LI>
+<LI>Click the down arrow in the box beside <i>For the selected sequences</i>.</LI>
+<LI>Click <i>forward to MouseBLAST</i>.</LI>
+<LI>Click <i>Go</i>.</LI>
+</OL>
+</p>
+<p>For additional information, see:<ul>
+   <li><a href="mouseblast_forwarding_help.shtml">Using the Forward to MouseBLAST Form</a> </LI>
+ <li><a href="mblast_output.shtml">Interpreting the MouseBLAST Output Report</a></li>  
+</ul>
+</p>
+<A HREF="#top"><font size="-1">Top</font></a> 
+
+
+<H3><A NAME="buttons"></A>How do the buttons work? What does <i>Invert</i> do?</H3>
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH VALIGN="top">Button</TH>
+<TH>Action</TH>
+<TH>Use this when...</TH>
+</TR>
+
+<TR>
+<TH ALIGN="left" VALIGN="top"><nobr>Select all</TH>
+<td valign="top">Puts a check mark into every available check box.</TD>
+<TD VALIGN="top">You want to examine each sequence.</TD>
+</TR>
+
+<TR>
+<TH ALIGN="left" VALIGN="top">Invert</TH>
+<TD VALIGN="top">A toggle switch. Removes any check marks and puts them in any boxes not previously selected.</TD>
+<TD ALIGN="left" VALIGN="top">
+<UL>
+<LI>the list you want is longer than the list you do not want. Click Select All, click the undesired sequences, click Invert.</LI>
+
+<LI>you don't want the action of Reset.</LI>
+</UL>
+</TD>
+</TR>
+
+<TR>
+<TH ALIGN="left" VALIGN="top">Reset</TH>
+<TD VALIGN="top">Removes any check marks from boxes.</TD>
+<td valign="top">You want to start over and make all new selections.</TD>
+</TR>
+
+<TR>
+<TH ALIGN="left" VALIGN="top">Go</TH>
+<td valign="top">Activates your choice (or the default) from the selection menu.</TD>
+<td valign="top">You are ready to download a sequence in FASTA format or forward it to MouseBLAST. See <A HREF="#fasta">How do I download sequences in FASTA format?</A> or <A HREF="#mouseblast">How do I forward sequences to MouseBLAST?</A> for details.</TD>
+</TR>
+</TABLE>
+</p>
+ <a href="#top"><font size="-1">Top</font></a> 
+
+
+
+<h3><A NAME="fields"></A>How do I interpret these results?</h3>
+<P>For each ortholog in a class, the record shows some or all information in the following table, depending on the information available.
+<P><table class="nb" width="!" cellpadding="8" align="center">
+<tr align="center"><Td VALIGN="top"><a href="#Species">Species</a> | <a href="#Symbol">Symbol</a> | <a href="#Chr">Chr (Location) Coordinates</a> | <a href="#acc_ID">AccID (Source)</a> | <a href="#Evidence">Evidence</a> | 
+<a href="#References1">References (table)</a> | <a href="#comp_map">Comparative Map</a> |  <a href="#References2">References (list) | <a href="#Links">Links</a> </a></td></tr>
+</table>
+</p>
+<p>
+<TABLE BORDER cellpadding="4" width="100%">
+<TR>
+<TH>FIELD</th> <TH>DESCRIPTION</th> </TR>
+<TR><th align=left valign=top><a name="Species">Species</a></th> <td valign="top">Species name of each ortholog in a class. </td></TR>
+<TR><th align=left valign=top><a name="Symbol"></a>Symbol</th> <td valign="top">Symbol for an orthologous marker.</td></TR>
+<TR><th align=left valign=top><a name="Chr">Chr (Location)<br>Coordinates</a></th> <td valign="top">The chromosome the marker is assigned
+to, and, enclosed in parentheses, the cM position or cytogenetic band. Location information varies depending on information available.</td> </TR>
+<TR><th align=left valign=top><a name="acc_ID">AccID (Source)</a></th> <td valign="top">Database accession IDs assigned to the marker, linked to the database where the marker record is stored. Currently, MGI stores orthology information from databases such as Ark-Cat, BovMap, Entrez, HGNC, HorseBase, OMIM, PigBase, RGD, SheepBase. </td></TR>
+<TR> <th align=left valign=top><a name="Evidence"></a>Evidence</th><td valign="top">MGD orthology information includes criteria for orthology assertions. Criteria are represented as acronyms; possible values include:
+
+
+<table border="0" cellspacing="0" cellpadding="5" width="!">
+
+<tr>
+   <th valign="top"><font size="-1">AA</font></th>
+   <td valign="top"><font size="-1">Amino acid sequence comparison</font></td>
+</tr>
+<tr>
+    <th valign="top"><font size="-1">CE</font></th>
+    <td valign="top"><font size="-1">Coincident expression</font></td>
+</tr>
+<tr>
+    <th valign="top"><font size="-1">CL</font></th>
+    <td valign="top"><font size="-1">Conserved map location</font></td>
+</tr>
+<tr>
+    <th valign="top"><font size="-1">FH</th>
+    <td valign="top"><font size="-1">Formation of functional heteropolymers</font></td>
+</tr>
+<tr>
+    <th valign="top"><font size="-1">FC</th> <td valign="top"><font size="-1">Functional complementation</td></tr>
+<tr><th valign="top"><font size="-1">IX</th><td valign="top"><font size="-1">Immunological cross-reaction</td></tr>
+<tr><th valign="top"><font size="-1">NS</th><td valign="top"><font size="-1">Not specified</td></tr>
+<tr><th valign="top"><font size="-1">NT</th><td valign="top"><font size="-1">Nucleotide sequence comparison</td></tr>
+<tr><th valign="top"><font size="-1">SI</th><td valign="top"><font size="-1">Similar response to specific inhibitors</td></tr>
+<tr><th valign="top"><font size="-1">SL</th><td valign="top"><font size="-1">Similar subcellular location </td></tr>
+<tr><th valign="top"><font size="-1">SS</th><td valign="top"><font size="-1">Similar substrate specificity</td></tr>
+<tr><th valign="top"><font size="-1">SU</th><td valign="top"><font size="-1">Similar subunit structure</td> </tr>
+<tr><th valign="top"><font size="-1">UN</th><td valign="top"><font size="-1">Unreviewed</td></tr>
+<tr><th valign="top"><font size="-1">XH</th> <td valign="top"><font size="-1">Cross-hybridization to same molecular probe</td></font></tr>
+
+</table>
+
+</font>
+</TD> </TR>
+
+<tr><th align="left" valign="top"><a name="References1"></a>References (table)</th><td valign="top">Each criterion is associated with one or more references. Each evidence column contains a J:number, linked to the particular reference set for the criterion and species.</td></tr>
+<tr><th align="left" valign="top"><a name="comp_map"></a>Comparative Map</th><td valign="top">Click the desired species (rat, human) to see a 2 cM display around the queried marker.</td></tr>
+<tr><th align="left" valign="top"><a name="References2"></a>References (list)</th><td valign="top">Click <i>Display all</i> or select a species to see all or selected references.</td></tr>
+<tr><th align="left" valign="top"><a name="Links"></a>Links</th><td valign="top">Additional links to databases or resources with orthology data for this gene (e.g.,VISTA, HomoloGene, MGI Protein Superfamily reports, MGI Mouse-Human-Rat Comparative GO Graphs). </td></tr>
+</TABLE>
+</p>
+<a href="#top"><font size="-1">Top</font></a>
+<h3><a name="reference"></a>Are there any supporting references?</H3>
+<p>Yes. Each orthology class represented in the results includes links to supporting references. Beneath the table is the option to display all references for the orthology class or those pertaining to selected species. References are in short citation format and include the following information:
+<UL>
+<LI>J number</li>
+<LI>Author list</li>
+<LI>Title</li>
+ <LI>Journal</li>
+<LI>Publication date</li>
+<LI>Volume and pages</li>
+</UL>
+<!--<p>Each is linked to its MGI Reference Detail page.-->
+</p>
+<a href="#top"><font size="-1">Top</font></a>
+
+<H3><a name="compmap"></a>Are there any comparative maps?</H3>
+<p>Yes. The query results for each orthology class provide a link to a comparative map showing the region within 2 cM of the mouse marker and any orthologies in the selected other species.  This link only appears if the query results include mouse markers. The map display is in Web Map format.
+</p>
+<a href="#top"><font size="-1">Top</font></a>
+<!--#include file='include/templateBlankBodyStop.html'-->

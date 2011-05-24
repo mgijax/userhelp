@@ -1,0 +1,243 @@
+<!--#include file='include/templateHead.html'--> 
+<title>MGI-Using MouseBLAST - Sample Queries</title>
+
+<!--#include file='include/templateBodyStart.html'--> 
+
+<!-- Title Bar -->
+  <div id="titleBarWrapper">
+  <span class="titleBarMainTitle">Using MouseBLAST - Sample Queries</span>
+  </div> 
+<!--titleBar-->
+
+
+
+<a name="top"></a>
+<P>This help document describes the following sample searches:
+<UL>
+<LI><A HREF="#example1">Find mouse protein sequences similar to Bmp2</A>
+<LI><A HREF="#example2">Find genes located within specific assembly coordinates</A>
+<LI><A HREF="#example3">Determine whether a sequence region from a strain other than  C57BL/6 contains regions of similarity to sequences associated with MGI mouse genes</A> 
+</UL>
+</p>
+
+<p>The following examples identify the field values to set for the query. Default values for any other fields are assumed.</P>
+
+<h3><A NAME="example1"></A>Find mouse protein sequences similar to Bmp2</h3>
+<p>BMPs (bone morphogenic proteins) are a large family, so there should be many similar sequences.  Enter or select the following on the MouseBLAST query form and from the results, follow links to MGI gene reports. </p>
+<blockquote>
+<table>
+  	<tr><th align="left" valign="top"><font size="-1">BLAST Program:</th><td valign="top"><font size="-1">BLASTP</td></tr>
+	<tr><th align="left" valign="top"><font size="-1">Database:</th><td valign="top"><font size="-1">UniProt Mouse</td></tr>
+<tr><th align="left" valign="top" colspan="2"><font size="-1">Masking Options</td></tr>
+<tr><th align="left" valign="top"><font size="-1">&nbsp;&nbsp;&nbsp;For protein queries: </th><td valign="top"><font size="-1">check both SEG and XNU </td></tr>
+<tr><th align="left" valign="top" colspan="2"><font size="-1">Query sequence </td></tr>
+<tr><th align="left" valign="top"><font size="-1">&nbsp;&nbsp;&nbsp;Sequence ID:</th><td valign="top"><font size="-1">P21274</td></tr>
+<tr><th align="left" valign="top"><font size="-1">&nbsp;&nbsp;&nbsp;Sequence database:</th><td valign="top"><font size="-1">SWISS-PROT</td></tr>
+ <tr><th align="left" valign="top" colspan="2"><font size="-1">Output options</th></tr>
+<tr><th align="left" valign="top"><font size="-1">&nbsp;&nbsp;&nbsp;Number of scores to show:</th><td valign="top"><font size="-1">10</td></tr>
+<tr><th align="left" valign="top"><font size="-1">&nbsp;&nbsp;&nbsp;Number of alignments to show:</th><td valign="top"><font size="-1">100</td></tr>
+</table></font>
+
+</blockquote>
+
+
+<B>Results</B>
+
+<P>If you do not check the box at the bottom of the query form (Exclude alignment of query sequence...), the first match may be to the query sequence itself (if the database you searched contains it). You can:<ul>
+  <li>Follow the P21274 link to ExPASy (Expert Protein Analysis System). </li>
+   <li>Follow the Bmp2 link to its MGI gene detail page.  Note that the MGI accession ID, gene name, and chromosome location appear in the same line as the MGI Bmp2 link.</li>
+  <li>Click a link in the High Score column to bring up the BLAST output alignment section (where there are similar ExPASy and MGI links), displaying pairwise alignments for the hit.  Note that the X characters in the query sequence are masked with SEG and XNU.</li>
+ 
+</ul>
+</p>
+
+
+
+<h3><A NAME="example2"></A>Find genes located within specific assembly coordinates</h3>
+<P>You know that the kit oncogene is located on chromosome 5 and that the coordinates are somewhere between 75,200,000 and 75,400,000. Locate <i>Option 2 </i>in the <b>Query sequence</b> section of the query form (Query by genomic sequence interval), and enter your information. <br>
+<BLOCKQUOTE>
+   <table>
+  	<tr><th align="left" valign="top"><font size="-1">Chromosome:</th><td valign="top"><font size="-1">5</td></tr>
+  	<tr><th align="left" valign="top"><font size="-1">Coordinates</th><td valign="top"><font size="-1"> <i>between</i> &nbsp;&nbsp;&nbsp;  75,200,000 - 75,400,000  (or 75,200,000 AND 75,400,000)</td></tr>
+<tr><th align="left" valign="top"><font size="-1">Number of scores to show:</th><td valign="top"><font size="-1">25</td></tr>
+   <tr><th align="left" valign="top"><font size="-1">Number of alignments to show:</th><td valign="top"><font size="-1">25</td></tr>
+  </table>
+</BLOCKQUOTE>
+
+<B>Results</B>
+<P>The results are similar in appearance to those for Example 1.  Follow the links to see the various gene records for <I>kit</I>. </P>
+</p>
+<font size="-1"><a href="#top">Back to top</a></font>
+
+
+<H3><A NAME="example3"></A>Determine whether a sequence region from a strain other than C57BL/6 contains regions of similarity to sequences associated with MGI mouse genes</H3>
+<p>When searching with a genomic sequence, use RepeatMasker to filter any repeats.   The sequence below is a Mus musculus chromosome 1 genomic contig, strain 129/SvEvTac, GenBank entry, NT_039193. <!--from base pair xxx,xxx to xxx,xxx.-->
+</p>
+<UL>
+	<B>Program:</B> BLASTN<BR>
+	<B>Database</B> GenBank Mouse<BR>
+	<B>Masking Options for DNA Queries:</B> RepeatMasker<BR>
+	<B>Sequence:</B> <BR>
+<FONT SIZE=-1>
+<PRE>
+CACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACGCTCGTACA
+CGCACCCGGTGTACCTGTCTCCTTTGGCACTCAACACCTGGTCTTTCTCTCTACTCCGCAGAGAACTCCG
+TGGCGGCCAAATCCGGCGGCTGTTTCCCGGGATCCGCCACCGTGCACCTGGAGCAGGGCGGCACCAAGCT
+GGTGAAGGACTTACGTCCCGGAGACCGCGTGCTGGCGGCTGACGACCAGGGCCGGCTGCTGTACAGCGAC
+TTCCTCACCTTCCTGGACCGCGACGAAGGCGCCAAGAAGGTCTTCTACGTGATCGAGACGCTGGAGCCGC
+GCGAGCGCCTGCTGCTCACCGCCGCGCACCTGCTCTTCGTGGCGCCGCACAACGACTCGGGGCCCACGCC
+CGGGCCAAGCGCGCTCTTTGCCAGCCGCGTGCGCCCCGGGCAGCGCGTGTACGTGGTGGCTGAACGCGGC
+GGGGACCGCCGGCTGCTGCCCGCCGCGGTGCACAGCGTGACGCTGCGAGAGGAGGAGGCGGGCGCGTACG
+CGCCGCTCACGGCGCACGGCACCATTCTCATCAACCGGGTGCTCGCCTCGTGCTACGCTGTCATCGAGGA
+GCACAGCTGGGCACACCGGGCCTTCGCGCCTTTCCGCCTGGCGCACGCGCTGCTGGCCGCGCTGGCACCC
+GCCCGCACGGACGGCGGGGGCGGGGGCAGCATCCCTGCAGCGCAATCTGCAACGGAAGCGAGGGGCGCGG
+AGCCGACTGCGGGCATCCACTGGTACTCGCAGCTGCTCTACCACATTGGCACCTGGCTGTTGGACAGCGA
+GACCATGCATCCCTTGGGAATGGCGGTCAAGTCCAGCTGAAGCCCGACGGGACCGGGCAAGGGGCGGGCG
+GGGCGGGGAGCGACTGCGAAATAAGGAACTGATGGGAAAGCGCACGGAAGGAGACTTTTAATTATAAGAA
+TAATTCATAATAATAATAATAATGATAATAATAATAATAATAAGTAGGGCAGTCCAAAGTAGACTATAAG
+GAAGCAAAAACCCCGGGGAGTTCTGTTGTTATGTTTAGTTTATATATTTTTTTGAAATTTTTCGTTATTG
+TCTTATATGGGTTGTTTTTCTCCTCTCCTGGCTATTTATTTGTTTCGTATGAATAGATGTTTTAAAAATA
+TGAACGGACCTTCAAGAGCCTTAACTAGTTTGTGTCTTGGATAATTTATTATTGTGTGAACTGTACTCAC
+AGTGAGGGAAAGATTATTTTGTGAGGCCAAGCAACCTGCTGAAAGTCTATTTTTCTACATGTCCCTTGTC
+CTGCGTTTCAGAAGGCAAACCTCCGCATTCCTCTCCTGCTATGCTCCTGCTTTCCCGCAAGTGTAAACTA
+AAACCTGCTCCATGGGGGTCCACAAATTATATTTTTATACACAGAATTGTAAATTAGATTTTTGAGAGAT
+CAATACCTAACTGAATGACATTTCATTTTTTGAAAGTGTAAAATATGAAAATATATTATTTTAATTTAAC
+TATTTTCCAATGTAATAGCCGTCTTCTGTACTGCCTTCTTGGTTTGTATTTGCTTTGTAACCGCCACTTT
+GTCATGTTCTTGGAAACCAAGACTGTTAACGCACACATATACACTTTTTTTTTTGACAGACTGGAAGAAC
+TCTGTTATTTTTAACTTCAAAGAATTTATTAGAAAATAATATTTTTTAAAAGTGCACCTAGCAGCGAGCC
+CACGAGGATGGAGCCTGTAGTTTGTACAGAGAAAAACAAGGATGTTTTTGCATTAATAAACTGAGAAGTA
+ACTGCTGTAAATTTACTAAAATGTATTTTTGAATATTTTGTAATAGTTTTATAGAAATAAAGCGTGCCAC
+ACACACCCAGTGGTCAGTAGATATTTTCTGAGAATTCCTGTTGCACCCCCTTTATGTTGTTTTTGGCTTC
+ATTTCTGGGAAATCTGGAGCCCCAGTATTTTGTTGAGTTGTAATTTCAGACCTACTGACTTAGGAAACCA
+AAGTCAACAAAACAAATCCACTGTCTGCCCTCCTCATTGGAAGACCCCAGCCCTGTACTTGCTATGCAAA
+GCTCCGCCCACACTCTCCAGAGTTGGGGAATTGAGGGGGACAATCTTCCCCTGCCCATTTCCAACTCTTT
+GCCAGCAAAGCCTTCTTTGTGGGCAGGAGAGGCCTAGCATGTGCAGTCCCCTTTTTACATGGTAGCCTGC
+TGCCCTTCCCTGACCCTAGTCTCTGATCTGGAGGGAACAGCTTTCATAGCTGAAGATGCTGGACCTTTCC
+AGACAGGGTCTCCTAGAAATTTAGTTCTCCTACCCCTCCTAGCATGGTCACTGGAGTAACTTCTCCATCT
+GGGCCTGGTGAGCTGCCTGCCAGAGCCAGAGAGTGACCACTTTAGTATCTCTTGTTCTTTGTCTACCTGG
+AGCAAAGCCTGTAGTTTATCCCCAATGCCCAGTCAGTGACAGTGTTAGCTAGGTGTAGTGGGAGGAGTCC
+TTCCAGCTTACTGCCCCAGCTTACTGCTGCCTGGCAGTGTGTTCAAGAGGACTCTGCCCTGGTGCTTTAG
+TGTATTGAAACATGTCCTTCTCTGTGCTTTGGGGAGAAACATCTGAGAAGCTTTGAGCAGATGGAGGGGT
+CTCTGGGCAGATAGGGCCAAAGCAGAGACTGGCCCTGGTTTAAGAAGCAGCACTAAGTGAACCTTCTAAC
+TGCTTGGCAAGCCTGACCTCCAAGGAGACCTTTGAGGGTGTCTGCAGCCCTGAGGAGCTTCTTGGTGACA
+GAGGTTTTCCCAGGAGGCTGTCCCCACTACAATAGCCTTGGGTCGGAGATCTGTCCTCCACGGCTTCCAC
+AAGGCCAACATGCTTGGCAGCAGCAGGCCTTGGGATTTCTCTGCAAAAGATTTTTCTTTGGTCTCATAGG
+ACTCAGAAGCAGATTCGTAGCTGGTATTTCCGATGTCTCGTGGAATTGGCCATTGCTCTTCTTTTGTCCA
+TTCTGACAGACAAACTGGAACGACTGTGCACACCAACAGCTTCGACTGTGCCTAACAATGTAATCAGTTA
+CCCATGCAGCACTTGGGCAGAGGCAAGAACTGGATGCCCACCCAGCTCAACAGTTTGCCATGGCCTGAGA
+GGAATTCCGCGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCTCGGCGACTGATTATCGCCCTGTGGTGG
+AATTCTTGAGGAACCTGGTGATGCCCTTCCTCACCGTCATTTAAAACATCAGAGGAGCTGGATGCATGGG
+GAATGCTAAGGTGACGGGGGTGGAGCTGAGTCTGGGAAGAGAGGGTGAGGCTCAGGTATCTTGGCTCTAC
+CCTCATTACCATGTTGAACTTTAGTTTCACAACTGTCCATGGAACCTCTCAAAGTGATGCTGCATGACCT
+CACACAGCTTTGACAAGGACACATTCAGGACTTGCACTGAAATGTTGGTTTTTGAATATATGTGTGTGTG
+TGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTATGAAATGCAATGCAAGCAAAGT
+CAACTTCTGTGGTGAAGAAACCTCAGCAAAAGCAGCAATGAAGGCCCTGGGTCAGCTGAGTACAAGTCAC
+CTAGCTAGCATGTGTAACACATGGGGTCCATCCTTAGCACAGCCATATAGACAACAAACACACAAACCAG
+CAGCAACTTAATATTTTCTCATTAAACTGTCACTTTTACTGCTACTATGGTGTTTATTGAGGCTACATGG
+GTAGAAGAGAGTATATGGCAGCTTGATTCTTTGGGGGACAATTTGTATATTTAATTTTAAACTGAACATT
+TTTATTTAAAAATACAGCAAAGTTTAACTTGTTCAAGTGATTTAAGCTACCTATGGAACCATTTGCCTGC
+TCTGGATTTTGTTACTCTTAGTTTCAGGGGACCATTCTAGGGTCCTTCTAAGCTTACCTCCTTCCACCTA
+CAGAATTCTGGGGTCAACCCATATTTGGCCTTTTGGTGGCCTTGTGATTCAGAGGTAAGCAACCAGGAGG
+CTGGGTTTTCTGGTTTGGGCCACGAGGCAGCTGCTTCCCTGTTGGCTAGAAGCAGCGACAGCTCAGCTCC
+TGTTCTGAGAAGAACGCTGAGGTACCAGGGTCAGCCAAGTCTGTGTTAAGAGTGTGTCTCACTATCCCAT
+CTCAGAGGTGTGCCATGGGGGACAGACAGTCACAGGAAGTGATTTCTGATACCAGTATTCTGCATTATCT
+ATAAGTATGAATATTACCTTTTTGTCAGTTGCATTGGAAAAGAATAAGTTATAACTAGTCAATCTCCTAT
+AATCATAGGAGGGAGGCATGGCTTAATTGCTTCGGTTAAGTGGCCAGTGACTTTGCCAGCACTCATAAAT
+GCCATTAGGCTTCAGGCCACCGAGATGGAGCTGTTGATTTATTAAATGATGACAGGCAGGGAGCTGGTGT
+AATTTCTTTTATGGGTTAACACAGAGAGCTGAAACACCTAAATGGTTAAGTCTCATATTCTCCATGGCCT
+CTTCCAGGAGAGATCAAAGGAGCAGGGTGACAGAGGTTCTCACTGTGATGATGAGGGATTGGCATTCAAT
+GGATTTGCTTCTCATACCATAAAACACATGAAGTAATTATCAACTGTCCAGGACACGTTGATAACCTTTA
+GCAGTTCTTCTCCTTCCCTGCCTCCTTTTCCCTTGGTTAAACAGATGTGTTTGAGATTGCTTCCCTTTTA
+TGACCATGAACCATAGTCACAGTATTCTCTGTTAGCTCAATGATTTGCAAAACTGACAATACATGTCCAC
+TCAATGTGACCTTGGTGTGCAGGGCAGCCTGCTACACTCCTAGCTCTGTCAGCTGAAACAATCCCTTTCC
+TCAGAGAACTTAACTGTTAATGGTCAACAAAGAGACAGCTTTGCAGCACAGTTGTCTTTTTTCCCCCATG
+TGCTTGCTTTCCTCCTAGCCTAGAACTTTGTCCTGTTGACCTGCTAGAAGGGTATGGGATATCCTTTGGG
+GTTCACTAAGCTTCAAACACATGTCAGACCCACCCAGTGCTTAATAACTGTGTGTGGTGTTGTAGACAGG
+CCAGGAGCCCAGGATGTGGCTTAGTGGTAGAGTGTTTGTCTGCATGCTTTATTTCCTTCTTCATGCTAAA
+CTGACTTAGAAAGCACTTTCTACGTTTCCAGCTTCCAAGTCTCTTGTAATCTGAAGGTGATGACAGGCCA
+GGCTGGAGGGCAGGTGCTACTGGGACTCAGTGAGCCTGAGAGCTGGGCACTTTTAACATTCATCTGGGGA
+CACAGGGCAGCTCCCTAGAAAAACTGTCAGCAGTCGTTCTTATAAAGGAAAGAGATGTCAATGCCACCAA
+TGGCTACTGTGTGCTTGCTGGGCACCAGGTGTTTCTTAGTGGAGACATGACCTTGATATCTGTGGCCTCC
+CAGCTTCTCAGCAGCATCCATCCCTCAGAAAACTCCAACCTCAACCACAGTCTCCAGGATGACAGTGTCA
+AGTGCCAGGATCTGCGGCCTTCCACAGGCTGCCATGGACCTTTTTTTTTTTAATCACACTTGTTCCCTTT
+AGGGGCAGTGGGGTTGGCCAAGTCTCTGATGGAGGTTCTCTTTGTATCTCTGCCGCACTGTCCCACTCTG
+TTCTGCTGTTCTGGGCACTTCAACAAAACATCAACCACAGGCATTCTATAAAACACTCCAGATCTGTTCT
+GCTTAACCCTCTCAGCCCTCAGAGGTAGATTTTTATTGACCTCATTCAAAGCTTGAGTTCCAAGAGGCCA
+AGGCACTTGTCTAAGATCCCCACTTGCCATTCTCTTAACAAAGCCAGGACTTAGAAATTGTTTTCTAAAC
+TCTTGCCTTTTCACACAAGATCAGGGTACCACATCCAGTCATCCCTGGGCC
+</PRE>
+</FONT>
+
+<P></UL>
+<B>MouseBLAST Query Results</B>
+
+<pre><font size="-1">
+BLASTN 2.0MP-WashU [04-May-2006] [sol8-ultra-ILP32F64 2006-05-04T16:04:21] (WU-BLAST information)
+Query= QUERY QUERY Database: /data/seqdbs/blast/gb.new/gbmus 99,787 sequences; 260,597,413 total letters.  
+WARNING: Use of the hspsepSmax parameter should be considered with long database sequences, to improve 
+the biological relevance of the HSP groups that are assembled and to improve the statistical 
+discrimination of these groups from random background.   
+Smallest Sum High Probability Sequences producing High-scoring Segment Pairs: Score P(N) N
+</font></pre>
+<pre>
+For the selected sequences
+
+ gb|AK052447.1|AK052447 Mus musculus 13 days embryo lung c... 8136 0.        1
+      MGI:98297 Shh sonic hedgehog (Chr 5)
+ gb|AK077688.1|AK077688 Mus musculus 8 days embryo whole b... 8021 0.        1
+      MGI:98297 Shh sonic hedgehog (Chr 5)
+ gb|BC063087.1|BC063087 Mus musculus sonic hedgehog, mRNA ... 8015 0.        1
+      MGI:98297 Shh sonic hedgehog (Chr 5)
+ gb|X76290.1|MMSHH M.musculus (C57BL/6J) Shh mRNA.            3765 7.0e-165  1
+      MGI:98297 Shh sonic hedgehog (Chr 5)
+ gb|AK032466.1|AK032466 Mus musculus adult male olfactory ...  505 9.0e-13   1
+      MGI:94891 Dhh desert hedgehog (Chr 15)
+ gb|X76292.1|MMDHH M.musculus (129/Su) Dhh gene.               491 1.4e-12   1
+      MGI:94891 Dhh desert hedgehog (Chr 15)
+ gb|AK033392.1|AK033392 Mus musculus 16 days embryo lung c...  491 3.1e-12   1
+      MGI:94891 Dhh desert hedgehog (Chr 15)
+ gb|X76291.1|MMIHH M.musculus (C57BL/6J) Ihh mRNA.             459 2.9e-11   1
+      MGI:96533 Ihh Indian hedgehog (Chr 1)
+ gb|U85610.1|MMU85610 Mus musculus Indian hedgehog protein...  459 8.6e-11   1
+      MGI:96533 Ihh Indian hedgehog (Chr 1)
+ gb|BC046984.1|BC046984 Mus musculus Indian hedgehog, mRNA...  459 9.4e-11   1
+      MGI:96533 Ihh Indian hedgehog (Chr 1)
+ gb|AL732560.11|AL732560 Mouse DNA sequence from clone RP2...  373 1.1e-06   1
+      MGI:1918877 4833420G11Rik RIKEN cDNA 4833420G11 gene (Chr 2)
+      MGI:1344352 Dido1 death inducer-obliterator 1 (Chr 2)
+ gb|U37545.1|MMU37545 Mus musculus steroid sulfatase (Sts)...  360 3.1e-06   1
+      MGI:98438 Sts steroid sulfatase (Chr XY)
+ gb|BC060099.1|BC060099 Mus musculus zinc finger protein 3...  359 4.0e-06   1
+      MGI:1860402 Zfp316 zinc finger protein 316 (Chr 5)
+ gb|BC057078.1|BC057078 Mus musculus zinc finger protein 3...  359 4.1e-06   1
+      MGI:1860402 Zfp316 zinc finger protein 316 (Chr 5)
+ gb|AK047201.1|AK047201 Mus musculus 10 days neonate cereb...  357 4.4e-06   1
+      MGI:1930001 Bhlhb5 basic helix-loop-helix domain containing, class B5 (Chr 3)
+ gb|AK076228.1|AK076228 Mus musculus 16 days embryo head c...  353 7.1e-06   1
+      MGI:1930001 Bhlhb5 basic helix-loop-helix domain containing, class B5 (Chr 3)
+ gb|AF082568.1|AF082568 Mus musculus zinc finger type tran...  354 7.1e-06   1
+      MGI:1860402 Zfp316 zinc finger protein 316 (Chr 5)
+ gb|BC053007.1|BC053007 Mus musculus basic helix-loop-heli...  353 7.1e-06   1
+      MGI:1930001 Bhlhb5 basic helix-loop-helix domain containing, class B5 (Chr 3)
+ gb|X66367.1|MMGLUR M.musculus gene for glucocorticoid rec...  341 2.7e-05   1
+      MGI:95824 Nr3c1 nuclear receptor subfamily 3, group C, member 1 (Chr 18)
+ gb|AF031955.1|AF031955 Mus musculus krupple-related zinc ...  331 7.5e-05   1
+      MGI:1860402 Zfp316 zinc finger protein 316 (Chr 5)
+ gb|AF218865.1|AF218865 Mus musculus BETA3 mRNA, complete ...  323 0.00016   1
+      MGI:1930001 Bhlhb5 basic helix-loop-helix domain containing, class B5 (Chr 3)
+ gb|AK173265.1|AK173265 Mus musculus mRNA for mKIAA1791 pr...  324 0.00016   1
+      MGI:1916812 Cdc2l5 cell division cycle 2-like 5 (cholinesterase-related cell division controller) (Chr 13)
+ gb|AF190578.1|AF190578 Mus musculus receptor for viral-en...  319 0.00027   1
+      MGI:1890127 Plxnc1 plexin C1 (Chr 10)
+ gb|BC054540.1|BC054540 Mus musculus neogenin, mRNA (cDNA ...  315 0.00042   1
+      MGI:1097159 Neo1 neogenin (Chr 9)
+ gb|U44942.1|MMU44942 Mus musculus recombinant quaking gen...  307 0.00091   1
+      MGI:97837 Qk quaking (Chr 17)
+
+WARNING:  Descriptions of 139 database sequences were not reported due to the
+          limiting value of parameter V = 25
+</pre>
+<font size="-1"><a href="#top">Back to top</a></font>
+
+<!--#include file='include/templateBodyStop.html'--> 

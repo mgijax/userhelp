@@ -1,0 +1,182 @@
+<!--#include file='include/templateHead.html'-->
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<title>
+  <!--#include file="include/mgiversion.html"-->
+  MGI-Using MouseBLAST - Basic Steps
+</title>
+
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+</style>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+   Using MouseBLAST - Basic Steps
+ </span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+         </td>
+</tr>
+</table>
+
+<!-- Body of User Help -->
+<p></p>
+<A NAME="top"></A>
+<p>This Help document answers questions about how to use the MGI MouseBLAST query form to search a sequence within mouse/rodent sequence databases to find matching sequences that may be associated with mouse genes. Query results may be linked to MGI mouse gene records. Searches are performed using WU-BLAST 2.0. All sequence databases are updated on a weekly basis. Basically, there are five actions:</p>
+<oL>
+<LI><A HREF="#program">Select a WU-BLAST program.</A></li>
+  
+<LI><A HREF="#database">Select a sequence database to search against.</A></li>
+<LI><A HREF="#masking">Select a repeat masking analysis program (optional).</A></li>
+<LI><A HREF="#entry">Enter the query sequence.</A></li>
+<LI><A HREF="#parameter">Select the number of results and alignments to show in the output.</A></li>
+</oL>
+<font size="-1">Back to <a href="mouseblast_overview_help.shtml">Using MouseBLAST - Overview</a></font>
+
+<P>Use MouseBLAST to search a sequence against a mouse, rat, rodent or human sequence database to find matching sequences.  If a matching sequence is associated to an MGI mouse gene record, then summary information about that gene and a link to MGI is inserted in the output.</P>
+<P>If any of the matching sequences are associated genes, the result is a display containing links to MGI mouse gene records.  All matching sequences have links to the sequence provider's web site. See <a href="#results">Search Results</a> for details.</p>
+<p>See also:
+<uL>
+<LI><A HREF="mouseblast_output_help.shtml">Using MouseBLAST - Interpreting the Output Report</A>.</li>
+<LI><A HREF="mouseblast_examples_help.shtml">Using MouseBLAST - Sample Queries</A></EM>.</li>
+</uL>
+</p>
+<hr>
+<h3>The Five Actions</h3>
+<!--basic step 1-->
+  <ol>
+    <li><A NAME="program"></A><b>Select a WU-BLAST program</b>.
+<p>All six <a href="mouseblast_blast_programs_help.shtml">WU-BLAST 2.0</a> programs are available.  Valid combinations of BLAST program with query sequence type, sequence database type, and  alignment level are:
+
+<TABLE BORDER=1 CELLPADDING=3>
+<TR>
+<th valign="top">Program</th>
+<th valign="top"><nobr>Query Sequence Type</nobr></th>
+<th valign="top"><nobr>Sequence Database Type</th>
+<th valign="top"><nobr>Alignment Level</th>
+</TR>
+<tr>
+<td valign="top">BLASTN</TD>
+<td valign="top">DNA</TD>
+<td valign="top">DNA</TD>
+<td valign="top">DNA</TD>
+</TR>
+<TR>
+<td valign="top">BLASTX</TD>
+<td valign="top">DNA</TD>
+<td valign="top">Protein</TD>
+<td valign="top">Protein</TD>
+</TR>
+<TR>
+<td valign="top">TBLASTX</TD>
+<td valign="top">DNA</TD>
+<td valign="top">DNA</TD>
+<td valign="top">Protein</TD>
+</TR>
+<TR>
+<td valign="top">BLASTP</TD>
+<td valign="top">Protein</TD>
+<td valign="top">Protein</TD>
+<td valign="top">Protein</TD>
+</TR>
+<TR>
+<td valign="top">TBLASTN</TD>
+<td valign="top">Protein</TD>
+<td valign="top">DNA</TD>
+<td valign="top">Protein</TD>
+</TR>
+</TABLE>
+</li>
+
+<!--basic step 2-->
+  <li><A NAME="database"></A><b>Select a sequence database to search against</b>.
+<p>See <a href="mouseblast_sequence_database_help.shtml">Using MouseBLAST - Sequence Databases</a> for a list of the searchable nucleotide and protein sequence databases.
+</li>
+
+ <!--basic step 3-->
+<li><A NAME="masking"></a><b>Select a repeat masking analysis program (optional)</b>
+
+<p>There are several repeat masking programs you can run on your query sequence; these are especially useful when searching with genomic sequence.  The following masking options are available. 
+<UL>
+  <LI>RepeatMasker - Use to mask species-specific repeats in DNA sequences.
+  <LI>DUST - Use only with BLASTN searches to mask simple repeats in DNA sequences.
+  <LI>SEG - Use to mask low-complexity regions in protein sequences.
+  <LI>XNU - Use to mask short tandem repeats in protein sequences.
+  </UL>
+For more details, see <a href="mouseblast_masking_help.shtml">Using MouseBLAST - Masking Options</a>.
+</li>
+
+</p>
+<!--basic step 4-->
+<br>
+<li><A NAME="entry"></A><b>Enter the query sequence.</b>
+<p>There are four options for entering a query sequence. You can:
+    <!--There is a maximum of 50,000 letters.-->
+   <ul>
+  <!--step 4 - option 1-->
+  <LI><b>Query by sequence accession ID</b>.<br>
+  To have MouseBLAST fetch your sequence from one of several sequence databases, enter the correct unique <B>Sequence ID </B> for your 
+sequence and select the respective Sequence Database from the pull-down list. For more details, see <EM><A HREF="mouseblast_fetch_help.shtml">Searching By Sequence ID</A></EM>.</li> <br>
+  <!--step 4 - option 2-->
+  <LI><b>Query by genomic sequence interval.</b><br>
+   <b>Note:</b>&nbsp;The build number appearing on the query form is that of the most current NCBI assembly sequence. See <a href="http://www.ncbi.nlm.nih.gov/genome/seq/NCBIContigInfo.html">Assembling Genomic Sequences</a> for complete details.<br>
+    <ol type=a><A name="chromosome"></A>
+      <LI>Click the down-arrow and select the chromosome of interest.</LI>
+      <LI><A name="coordinates"></A>Type or paste the genome coordinates in the box next to <I>between</I>. Separate your entries with either AND or &#150;.
+     <LI>Click the down arrow and select either bp (base pairs) or Mbp (mega base pairs) as the unit of measurement. (The default is to use base pairs.)</LI>
+ 
+   <blockquote>
+   Examples:<br>
+   125618206 AND 125622026 <br>
+   125618206 &#150; 125622026 <br>
+   125.618 AND 125.622<br> 
+   125.618 &#150; 125.622
+   </blockquote>
+ </li>
+  <!--step 4 - option 3-->
+  <LI><B>Enter a sequence. Most Web browsers have a limit of 20,000 letters.</B><br>
+Paste in your sequence in FASTA, GCG, or free-text format.  <!--In this release of MouseBLAST, there are limits on the size of entry in the Sequence field.  Depending on your particular combination of computer, operating system, and browser, the limit may be as low as 23,000 bp.--> For more details, see <EM><A HREF="mouseblast_sequence_formats_help.shtml">Sequence Formats</A></EM>.
+  </LI><br>
+<!--step 4 - option 4-->
+<LI><B>Upload a sequence file.</B><br>
+To upload the file in FASTA, GCG, or free-text format, enter the local path or click Browse... to navigate your local file system.</li>
+</ul>
+
+<br>
+
+ <!--step 5-->
+ <li><A NAME="parameter"></A><b>Select the number of results and alignments to show in the output</b>.
+<blockquote>
+<table border="0" cellspacing="1" cellpadding="3" width="100%">
+<tr><th align="left" valign="top">Number of scores to show</th><td valign="top">Limits the number of matching sequences to appear in the summary list at the top of the BLAST results.</td></tr>
+<tr><th align="left" valign="top"><nobr>Number of alignments to show</nobr></th><td valign="top">Limits the number of matching sequence alignments to appear in the BLAST results.</td></tr>
+</table>
+</blockquote>
+
+</ol>
+<p>For <a name="results"></a>Search results, see <A HREF="mouseblast_output_help.shtml">Interpreting the MouseBLAST Output Report</A>.
+ 
+</p>
+<a href="#top"><font size="-1">Top</font></a>
+<!--#include file='include/templateBlankBodyStop.html'-->
+
+

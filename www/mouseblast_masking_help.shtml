@@ -1,0 +1,70 @@
+<!--#include file='include/templateHead.html'--> 
+<title>MGI-Using MouseBLAST - Masking Programs</title>
+
+<!--#include file='include/templateBodyStart.html'--> 
+
+<!-- Title Bar -->
+  <div id="titleBarWrapper">
+  <span class="titleBarMainTitle">Using MouseBLAST - Masking Programs</span>
+  </div> 
+<!--titleBar-->
+
+
+
+<a name="top"></a>
+<P>
+The help document answers the following questions:
+<ul>
+  <li><a href="#any_repeat">Should I use a repeat masking program?</a></li>
+  <li><a href="#repeatmasker">How does RepeatMasker work?</a></li>
+<li><a href="#whatif">What about low-complexity or short-periodicity internal repeats?</a></li>
+  <li><a href="#references">References</a></li>
+</ul>
+<font size="-2"><a href="mblast_overview.shtml">Back to Using MouseBLAST - Overview</a></font>
+
+<h3><a name="any_repeat"></a>Should I use a repeat masking program?</h3>
+
+<P>Repeat masking filters are especially useful when searching with genomic sequence.
+You can choose from among the following programs:  
+<blockquote>
+
+<table border="1" cellspacing="1" cellpadding="2">
+  <tr><th>Program</th><th>What it masks</th></tr>
+<tr><td valign="top">RepeatMasker</td><td valign="top">Low-complexity and interspersed repeats in nucleotide sequences using species-specific repeat <nobr>libraries <sup><a href="#smit">1<a></sup></nobr></td></tr>
+
+<tr><td valign="top">DUST</td><td valign="top">Simple repeats in nucleotide when searching nucleotide sequence databases with BLASTN<sup><a href="#tatusov">2<a></sup></td></tr>
+<tr><td valign="top">SEG</td><td valign="top">Low-complexity regions in protein sequences <sup><a href="#wootton">3</a></sup></td></tr>
+<tr><td valign="top">XNU</td><td valign="top">Short tandem repeats in protein sequences  <sup><a href="#claverie">4</a>.</sup></td></tr>
+</table>
+
+
+</blockquote>
+</p>
+
+
+<h3><a name="repeatmasker"></a>How does RepeatMasker work?</h3>
+<p>RepeatMasker filters out repetitive sequences using a set of scoring matrices specific to rodent, primate, other mammals, <EM>Drosophila</EM>, or <EM>Arabidopsis thaliana</EM> repeats.  You can run RepeatMasker with one of these scoring matrices to mask repetitive sequences in your query sequence before running WU-BLAST.  If RepeatMasker finds repetitive regions in the sequence, it replaces those nucleotide symbols with N.</p>
+<P>See <A HREF="mblast_output.shtml#rmoutput">RepeatMasker Output</A> for a table describing the location and identity of repeats that RepeatMasker finds. 
+<!--<p>The Repeat Masked Sequence section contains the masked sequence in FASTA format. Any regions of the query sequence containing repeats are replaced with N characters.</p>-->
+
+<p>For more information and documentation on RepeatMasker, see <a href="http://www.repeatmasker.org/">http://www.repeatmasker.org/</a>.
+</p>
+
+
+<h3><a name="whatif"></a>What about low-complexity or short-periodicity internal repeats?</h3>
+If a query sequence contains low-complexity or short-periodicity internal repeats, the search results may contain artificial or insignificant alignments.  DUST, SEG and XNU filter out these regions of unusual composition.</p>
+</p>
+
+
+
+<h3><a name="references"></a>References</h3>
+<p>
+<OL>
+<A NAME="smit"></A><LI>Smit, AFA and Green, P. RepeatMasker (1999) <em>unpublished</em>.
+<A NAME="tatusov"></A><LI>Tatusov, RL and Lipman, DJ.  DUST <em>unpublished</em>.
+<A NAME="wootton"></A><LI>Wootton, JC and Federhen, S.  Statistics of local complexity in amino acid sequences and sequence databases.  <em>Computers in Chemistry</em> (1993), 17, 149-163.
+<A NAME="claverie"></A><LI>Claverie, J-M and States, DJ.  Information enhancement methods in large scale sequence analysis.  <em>Computers in Chemistry,</em>  (1993), 17, 191-201.
+</OL>
+</p>
+<a href="#top"><font size="-2">Back to top</font></a>
+<!--#include file='include/templateBodyStop.html'--> 

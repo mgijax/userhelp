@@ -1,0 +1,329 @@
+<!--#include file='include/templateHead.html'-->
+<title>
+  <!--#include file="include/mgiversion.html"-->
+ Full-Text Searching on MGI Query Forms</title>
+</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+
+</style>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+ Full-Text Searching on MGI Query Forms
+ </span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+
+
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+    </tr>
+</table>
+<!-- Body of User Help -->
+
+<A NAME="top"></A>
+<P>This help document describes the MGI search engine that matches words and phrases and allows Boolean connectives between those searches for words and phrases.
+</P>
+ <UL>
+<LI><A HREF="#full_text">What is full-text searching?</a></li>
+<li><A href="#whatis">Which fields on MGI Query Forms support the full-text search?</a></li>
+<li><a href="#whatsearch">What database records are searched? What does the search return?</a></li>
+<li><A HREF="#boolean_operators">Which Boolean operators are allowed? How do they work? Is there a default operator?</A></li>
+<li><a href="#multiple">How do I construct a query using multiple terms?</a></li>
+<li><a href="#terms_with_commas">What if a term contains commas?</a></li>
+<li><A HREF="#case">Does case matter?</A></li>
+<li><A HREF="#rules">What are the rules for full-text searching?</a></li>
+<li><A HREF="#word_stemming">What is word stemming and how does it work?</A></li>
+<li><A HREF="#partial_word_matching">What is partial word matching and how does it work?</A></li>
+<li><A HREF="#quotes">How do I use quotation marks?</A></li>
+<li><A HREF="#parentheses">How do I use parentheses?</A></li>
+ <LI><A HREF="#restrictions">Are there any restrictions on full-text searching?</a></li>
+ <LI><A HREF="#examples">Are there examples?</a></li>
+<LI><A HREF="#error">What should I do if I get an error message?</A></LI>
+<li> <a href="#no_results">What happens if my query returns no results?</a></li>
+ </UL>
+ 
+<P>See also:</P>
+<UL>
+<LI>MGI Glossary for unfamiliar terms (or for how MGI defines familiar terms) and acronyms</LI>
+  <LI><A HREF="gen_search_help.shtml">General Guidelines for Searching MGI</A></LI>
+    <LI><A HREF="wildcard_help.shtml">Help Using Wildcards</a></LI>
+  
+</UL>
+
+<h3><A name="full_text"></a>What is a full-text searching?</h3>
+<p>In full-text searching, the system takes the term you enter, looks for that text in all database records of the appropriate type, and returns a list of <strong>all</strong> records containing the term in the search string.</p><P>Note: If you enter more than one term, you will get back records that contain <B>all</B> the terms. See <A HREF="#boolean_operators">Which Boolean operators are allowed? How do they work? Is there a default operator?</A>.
+</P>
+<A HREF="#top">Top</A><br>
+
+<h3><A name="whatis"></a>Which fields on MGI query forms support a full-text search?</h3>
+<P>You can do full-text searching using the <a href="#phenodis">phenotype/disease</a> field on the following query forms:</P>
+<UL>
+  <LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF">Genes and Markers Query Form</A></LI>
+  <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml">Phenotypes, Alleles, and Disease Models Query Form</A></LI>
+  <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/sequence_form.shtml">Mouse Sequence Query Form</A></LI>
+</UL>
+</p>
+<A HREF="#top">Top</A>
+
+<!--<P>You can also use the Phenotypes/Disease field on the Search Tool (located on our home page as well as above the toolbar beside every query form).  See <A HREF="searchtool_help.shtml">Using the Quick Search Tool</A> for details. </P>
+
+<P>Currently, the MGI search tool finds alleles by allele nomenclature, alleles by phenotype text search, alleles by gene nomenclature, and mammalian phenotype (MP) terms by MP matches.
+</P>-->
+
+<h3><a name="whatsearch"></a>What database records are searched? What does the search return?</h3>
+<p>The system takes the text you enter in the <a href="#phenodis">phenotype/disease</a> box on the query form and searches the following MGI database records:
+<UL>
+  <LI>MP term names, synonyms, accession IDs and annotation notes (General and Background-Sensitive notes)</LI>
+  <LI>Allele Additional Information Field</LI>
+  <li>human disease vocabulary terms, synonyms, and accession IDs.
+</ul>
+<a name="phenodis"></a>
+<p>The <i>phenotype/disease</i> box is located at the top of the query form in the <i>Mouse phenotypes and models of human disease</i> section (beneath <i>Enter any combination of phenotype terms, disease terms or IDs</i>).
+</p>
+
+<p>The Human Disease Vocabulary has a flat structure and the Mammalian Phenotype (MP) Ontology is hierarchical. Thus:
+<ul><li>For a Human Disease Vocabulary entry, the search returns alleles annotated to that term and that term only.</li>
+<li>For an MP term entry, the search also returns an allele if the genotype for that allele is lower down in the MP hierarchy. For example, entering a high level term such as <I>heart</I> returns not just alleles annotated to <I>heart</I>, but all genotypes annotated to <i>cardiac hypertrophy, dilated atria</i>, and so on.</li>
+</ul> 
+</P>
+<A HREF="#top">Top</A>
+
+<H3><A NAME="boolean_operators"></A>Which Boolean operators are allowed? How do they work? Is there a default operator?</H3>
+<p>&nbsp;Two operators are allowed: AND and OR.  NOT is currently unsupported but may be added at a future time. By default, a space between terms is interpreted as an AND. <br>&nbsp;The format is:
+
+<BLOCKQUOTE>
+ <I>term</I> OPERATOR <I>term</I>  ...<br>
+<UL>
+  <LI>If you enter <i>term1 </i>AND <i>term2</i>, the search locates all records containing both terms in any order. 
+  <LI>If you enter <i>term1 </i>OR <i>term2</i>, the search locates all records containing either term1 or term2 or both terms. </LI>
+</UL>
+</BLOCKQUOTE>
+<p>&nbsp;&nbsp;&nbsp;Examples:</p>
+<BLOCKQUOTE>
+<TABLE BORDER="1" CELLSPACING="4" CELLPADDING="4" width="55%">
+<TR><th align=width="15%">If you enter...</TH><TH>the search tool returns...</TH></TR>
+  <TR><td VALIGN="top"><nobr>heart AND defect</Td><TD VALIGN="top">Entries for <I>heart defect</I> but not for <I>heart</I> by itself or for <I>defect</I> by itself. Both expressions must appear in any matching terms. </TD></TR>
+  <TR><td valign="top">heart OR defect</Td><TD VALIGN="top">Entries for either <I>heart</I> or <I> defect</I>. </TD></TR>
+ <TR><td valign="top">heart defect</Td><TD VALIGN="top">Entries for <I>heart defect</I> but not for <I>heart</I> by itself or for <I>defect</I> by itself. (Same results as <i>heart</i> and <i>defect</i>, above.)</TD></TR>
+</TABLE>
+</BLOCKQUOTE>
+<A HREF="#top">Top</A>
+
+
+<h3><a name="multiple"></a>How do I construct a query using multiple terms?</h3>
+<p>By default, the search tool interprets a space between terms as AND. Therefore, if you do not want results for something containing <i>term1</i> <i>and</i> <i>term2</i> and <i>term3</i>, be sure to enter <b>or</b> between terms: entering <i>diabetes and Parkinsonism</i>, for example, (probably) yields zero results because there are (currently in MGI) no diseases containing both terms.
+<li>When diseases names contain multiple word, numeral or letter designations, enclose expressions that go together in quotation marks; for example, entering <i>diabetes and insulin resistance</i> returns approximately 171 matches whereas entering <i>diabetes and "insulin resistance"</i> returns 36 matches.
+</ul>
+</p>
+<A HREF="#top">Top</A>
+
+
+<h3><a name="terms_with_commas"></a>What if a term contains commas?</h3>
+<p>Commas between terms (or within terms) are interpreted as ORs. Therefore, if the term 
+itself contains a comma and you want to search on the exact phrase, enclose put the entire term in quotation marks (example: <i>"cyclin B1, related sequence"</i>).
+</p>
+</p>
+<A HREF="#top">Top</A>
+
+
+
+<H3><A name="case"></A>Does case matter?</H3>
+<P>No. The search engine is not case sensitive. Terms and operators may be uppercase, lowercase, or any mixture of the two. 
+</P>
+<A HREF="#top">Top</A>
+
+<H3><A name="rules"></A>What are the rules for full-text searching?</H3>
+<p><UL>
+<LI>Enter one or more terms or multi-word terms (e.g., <I>circulatory</I>, &nbsp; <I>immune system</I>).</LI>
+<LI>Separate words or phrases with one of the <A HREF="#boolean_operators">operators</A>: AND or OR. Example: <i>liver and pancreas</i></LI>
+ <LI>Add "whitespace" (space or tab) on either side of any operator. Example:<i> embryogenesis &nbsp;AND&nbsp; defect</i></LI>
+<LI>Enclose text in quotation marks if you want the search to return only items containing that phrase; e.g., <i>"endocrine system"</i></LI>
+<LI>Enclose terms in quotation marks if you want the search to return only exact matches on that term; e.g., if you want  <I>regulation</I> and not related words such as <I>regulatory</I>, put quotes around it. See <A HREF="#quotes">How do I use quotation marks?</A></LI>
+ </UL>
+</p>
+<A HREF="#top">Top</A>
+
+<h3><A name="word_stemming"></A>What is  word stemming and how does it work?</h3>
+
+<P>The MGI search engine stems (i.e., cuts off) at the word level to retrieve matches that are close yet not exact. For example, you can enter <i>diabetic</i> or <i>diabetes</i> and get the same results because the system truncates your entry to <I> diabet</I>. 
+</P>
+<A HREF="#top">Top</A>
+
+
+<h3><A name="partial_word_matching"></A>What is partial word matching and how does it work?</h3>
+<P>The search engine performs partial matches on words: it looks for terms that begin, end, or are contained in other terms.  For example, if you enter <I>ear</I>, the system not only returns results for <I>ear</I>, but also for <B>ear</b>ly and h<b>ear</b>t. 
+</P>
+<P>Therefore, be sure to put a space in front of any term that begins, ends, or is contained in another term and enclose the term in quotation marks. For example, if you want results for <i>eye</i>, you must enter <i>&#147;&nbsp;&nbsp;eye&#148;</i>.  If you don't, the system stems <I>eye</I> to <I>ey</I> and matches <I>ey</I> any where in a word, thus returning results for e.g., kidn<b>ey</b> as well as <b>eye</b>.</li>
+</ul></p>
+<A HREF="#top">Top</A><br>
+
+<h3><A name="quotes"</A>How do I use quotation marks?</h3>
+<ul>
+  <li>Enclose anything that you do not want reduced to a stem in quotation marks (quotation marks "turn off" <A href="#word_stemming">word stemming</A>).  For example, if you want results for <I>cardiac</I> but not <I>cardiovascular</I>, enclose the former in quotes to prevent a return of everything beginning with <I>cardio</I>.
+
+<br>On the other hand, if you want to look at every allele or phenotype involved in immunity, simply enter the stem, <I>immun</I> without the quotation marks.</li>
+
+  <li>If the term you are entering contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: <i>&#147;cyclin B1, related sequence&#148;</i>).</li></li>
+  <li>Be sure that all quotation marks are balanced. There must be one pair before and after each search term (e.g., <I>&#147;abnormal morphology&#148;</I>).</LI>
+<LI>Use only double quotation marks (single quotation marks - i.e, &#145;<i>cardio</i>&#146; - are invalid.</LI>
+
+</ul>
+<p>See <A href="#examples">Are there examples?</A> for additional entries and results.</p>
+
+<A HREF="#top">Top</A><br>
+
+<h3><A name="parentheses"></A>How do I use parentheses?</h3>
+<p>Parentheses tell the search engine the order in which it should interpret your terms. Consider two examples:
+<blockquote>
+ a or b and c &nbsp;&nbsp;&nbsp;e.g., cord or column and spinal <br>
+(a or b) and c &nbsp;&nbsp;&nbsp;e.g., (cord or column) and spinal
+</blockquote>
+By default, the engine interprets AND first, and so evaluates the first example as if you had put parentheses around b and c. The result is a return of anything containing  <I>spinal column</i>, or <I>cord</I>, including accordance, record, and so on.
+The second example returns results for <I>spinal cord</I> or <I>spinal column</I>.
+</p>
+<P>See <A href="#boolean_operators">Which Boolean operators are allowed? How do they work? Is there a default operator?</A> for how the search engine interprets AND and OR.</P>
+<A HREF="#top">Top</A><br>
+
+ <h3><A name="restrictions"></a>Are there any restrictions on full-text searching?</h3>
+<ul>
+<LI>Wildcards are not allowed.</LI>
+<LI>The NOT operator is not allowed. </li>
+<LI>If you do not enter an operator, the default is AND between terms.</li>
+<LI>The system ignores variations in punctuation and spacing. The results for each of the following entries are the same.</li>
+  <ul>
+      <i>heart, defect</i><br>
+      <i>heart defect</i> <br>
+      <i>heart and defect</i>  </ul>
+
+
+</ul>
+
+<A HREF="#top">Top</A><br>
+
+<H3><a name="examples"></a>Are there examples?</H3>
+<p>See also <a href="omim_browser_help.shtml#examples">examples</a> (with results specific to the Human Disease Vocabulary Browser).
+
+ <table border=1 cellpadding=4>
+  <TR><TH ALIGN="left" VALIGN="top">If you enter...</TH><TH ALIGN="left" VALIGN="top">you'll get results for...</TH><TH ALIGN="left" VALIGN="top">Why?</TH></TR>
+
+ <TR><td valign="top">membrane</td><td valign="top">membrane, membranous; transmembrane anything containing <I>membran</I></I></td><TD VALIGN="top"> <A href="#word_stemming">Word stemming</a> and <A href="#partial_word_matching">partial word matching.</a></TD></tr>
+
+ <TR><td valign="top">hearing</td> <TD VALIGN="top">hear</td><td valign="top"> <A href="#word_stemming">Word stemming.</a></TD></tr>
+
+ <TR><td valign="top">hearing</td> <TD VALIGN="top">hearing, heard, hears, heart</td><td valign="top"><A href="#partial_word_matching">Partial word matching.</a></TD></tr>
+
+ <TR><td valign="top">"hearing"</td> <TD VALIGN="top">hearing<br>shearing</td><td valign="top">Full word match<br><A href="#partial_word_matching">Partial word matching.</a> </TD></tr>
+
+ <TR><td valign="top">"ear"</td> <TD VALIGN="top">Anything containing <I>ear</I> including ears, hear, heart, early</td><td valign="top"><A href="#partial_word_matching">Partial word matching.</a></TD></tr>
+
+ <TR><td valign="top">" ear"</td> <TD VALIGN="top">ear, ears, early</td>
+<td valign="top"><a href="#quotes">Quotation mark</a> and white space at beginning eliminates <A href="#partial_word_matching">partial word matches</a> on hear, heart.</TD></tr>
+
+ <TR><td valign="top">" ear "</td> <TD VALIGN="top">Only ear</td><td valign="top">Leading and trailing quotation marks and white spaces prevent <A href="#partial_word_matching">partial word matching</a> at either end; no returns for early, hear, ears, or heart. </TD></tr>
+
+ <TR><td valign="top">spinal cord</td> <TD VALIGN="top">spinal cord</td><td valign="top">Implicit <a href="#boolean_operators">AND</a> operator.</TD></tr>
+
+ <TR><td valign="top">"spinal cord"</td> <TD VALIGN="top">spinal cord</td><td valign="top"><a href="#quotes">Quotation marks.</a></TD></tr>
+   <tr><td valign="top">spinal or cord</td><TD VALIGN="top">Anything containing either spinal or cord</td>
+<td valign="top"><a href="#boolean_operators">OR</a> operator.</TD></tr>
+   <tr><td valign="top">spinal and cord</td> 
+       <TD VALIGN="top">Anything containing both <I>spinal</I> and cord </td>
+       <td valign="top"><a href="#boolean_operators">AND</a> operator.</TD>  </tr>
+
+  <tr><td valign="top">spinal, cord</td>
+       <td valign="top">Anything containing both <I>spinal</I> and  <I>cord</I> </td>
+       <td valign="top"><a href="#boolean_operators">AND</a> operator. System ignores extraneous punctuation.</tr>
+
+  <tr><td valign="top">spinal and (cord or column)</td>
+       <td valign="top">Anything containing both <I>spinal</I> and  <I>cord</I> or <I>column</I></td>
+       <td valign="top"><a href="#boolean_operators">AND</a> <a href="#parentheses">parentheses</a>, <a href="#boolean_operators">OR</a>.
+      </tr>
+  <tr><td valign="top">spinal and (cord or column</td>
+       <td valign="top">Error</td>
+       <td valign="top">Opening parenthesis is present; closing parenthesis is missing.
+      </tr>
+  <tr><td valign="top">"abnormal spinal cord morphology </td>
+       <td valign="top">Error</td>
+       <td valign="top">Missing quotation mark.
+      </tr>
+ <tr><td valign="top">'abnormal spinal cord morphology </td>
+       <td valign="top">abnormal spinal cord morphology results</td>
+       <td valign="top">System ignores extraneous punctuation.
+      </tr>
+ <tr><td valign="top">Factor V Deficiency</td>
+       <td valign="top">results for Factor V, VI, VII, etc.</td>
+       <td valign="top"><a href="#partial_word_matching">Partial match</a> on V.
+      </tr>
+ <tr><td valign="top">"Factor V Deficiency"</td>
+       <td valign="top">Factor V alone</td>
+       <td valign="top">Quotation marks turn off <a href="#word_stemming">stemming.</a></td>
+      </tr>
+
+ <tr><td valign="top">cytochrome c, somatic (gene/marker symbol/name field)</td>
+       <td valign="top"><i>cytochrome c</i> <b>or</b> <i>somatic</i> (~43 matches)</td>
+       <td valign="top">Quotation marks needed if desired search is on entire term (searching on <i>&#147;cytochrome c, somatic&#148;</i> results in ~1 match). </a></td>
+      </tr>
+
+ 
+<TR><TD VALIGN="top">superimposed aqueductal stenosis</td><TD VALIGN="top">One allele with an allele name, chromosome and category information, but no observed effects or allelic composition (genetic background) data</td><TD VALIGN="top">The Mammalian Phenotype (MP) Ontology is annotated at the genotype level. The allele appears because of a match in the Additional Notes Field but it has no genotypes that contribute to the query result. </TD></tr>
+<!--
+<TR><TD VALIGN="top">obstructive hydrocephalus</td><td valign="top">Three alleles</td><TD VALIGN="top">Observed effects or allelic composition (genetic background)<br>All alleles and every genotype appear because the query is at the allele level.</TD></tr>
+-->
+
+</table></p>
+<A HREF="#top">Top</A><br>
+
+<H3><a name="error"></a>What should I do if I get an error message?</H3>
+<ul>
+<li>Check the punctuation in your search string and make sure that all necessary quotation marks and parentheses are present and balanced.</li>
+<LI>Check your spelling and the sections on <A href="#partial_word_matching">partial word matching</A> and <A href="#word_stemming">word stemming</A> again.</LI>
+<LI>Retry your query, using more (or fewer, more specific) parameters.</LI>
+<LI>Change the number next to <B>Maximum Returned.</b>
+</ul>
+<A HREF="#top">Top</A>
+
+  <h3><A name="no_results"></a>What happens if my query returns no results?</h3>
+
+<P>If your query returns no results, the resulting report:
+<UL>
+  <LI>Summarizes your query parameters </LI>
+  <LI>Indicates that there were 0 matches </LI>
+  <LI>May list additional resources to help refine your query.</LI>
+</UL>
+</P>
+<P>The probable causes are: </P>
+<UL>
+  <LI>There is something wrong with your selection from one of the browsers (i.e., did you copy and paste the entire term/ID?) See the following help documentation for clarification:
+<ul>
+  <li><a href="mp_browser_help.shtml">Using the Mammalian Phenotype (MP) Browser</a></li>
+  <li><a href="omim_browser_help.shtml">Using the Human Disease Vocabulary Browser</a>.</li>
+  </ul>
+<LI>There is an error in the text search string in the Phenotypes/Diseases box. For example, did you enclose multi-word terms in quotation marks? See <a href="#examples">examples</a> for help.</LI>
+  <LI>The allele nomenclature is incorrect (see 
+<a href="<!--#include file='include/mgihome_url.html'-->/nomen/allmut_quickhelp.shtml">Quick Guide to Nomenclature for Alleles and Mutations).</a></LI>
+<LI>The number in <b>Maximum Returned</b> is zero.</LI>
+<LI>The database does not contain your term yet. </LI>
+
+</UL>
+</p>
+<A HREF="#top">Top</A>
+
+<!--#include file='include/templateBlankBodyStop.html'-->

@@ -42,11 +42,67 @@ function openHelpWindow(helpFile){
 
 <!-- Body of User Help -->
 <tr>
-  <td class="enhance" align=left>
-    USER HELP DOCUMENTATION
+  <td class="enhance" align=left><a href='<!--#include file='include/homepages_url.html'-->phenotypes.shtml'
+        onclick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->phenotypes.shtml');
+        return false;">Phenotypes
   </td>
 </tr>
 
+ <tr>
+  
+      <td class="enhance">
+        <a href='<!--#include file='include/homepages_url.html'-->recombinase.shtml'
+        onclick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->recombinase.shtml');
+        return false;">
+        Recombinases</a>
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        <dl class="linkedList">
+
+
+
+  <a name="help_go"></a>
+  
+    <table class="outline" width="100%">
+  
+    <tr>
+      <td class="enhance">
+        <a href='<!--#include file='include/homepages_url.html'-->function.shtml'
+        onclick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->function.shtml');
+        return false;">
+
+
+ <a name="help_pathways"></a>
+  
+    <table class="outline" width="100%">
+  
+    <tr>
+      <td class="enhance">
+        <a href='<!--#include file='include/homepages_url.html'-->pathways.shtml'
+          onclick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->pathways.shtml');
+          return false;">
+        Biochemical Pathways</a>
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        <dl class="linkedList">
+
+
+<a href='<!--#include file='include/homepages_url.html'-->strains_SNPs.shtml'
+          onclick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->strains_SNPs.shtml');
+          return false;">
+          <!-- help example -->
+
+  <dt class="enhance">
+        <a href='<!--#include file='include/homepages_url.html'-->orthology.shtml'
+          onclick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->orthology.shtml');
+          return false;">
+        Mammalian Orthology</a>
 
 
 </table>
