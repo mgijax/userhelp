@@ -20,16 +20,15 @@ function openHelpWindow(helpFile){
 <!--#include file='include/templateBlankBodyStart.html'-->
 
 
-<div id="">
+<div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="helpHeaderText">
+ <span class="faqHeaderText">
   Interpreting Mammalian Orthology Query Results
  </span>
 </div>
 
 <!-- Container Table -->
 <table border=0 cellpadding=0 cellspacing=5 width="100%">
-
 
 <!-- Title Bar -->
 <tr>
@@ -41,7 +40,7 @@ function openHelpWindow(helpFile){
 </table>
 <!-- Body of User Help -->
 
-
+<br>
 
 <A NAME="top"></A>
 
@@ -61,11 +60,11 @@ function openHelpWindow(helpFile){
 <P>See also:</P>
 <UL>
 <LI><A HREF="<!--#include file='include/glossary_url.html'-->">MGI Glossary</A> (for unfamiliar terms or acronyms)</LI>
-<LI><A HREF="mblast_query_form_usage.shtml">Using MouseBLAST - Basic Steps</A></LI>
+<LI><A HREF="mouseblast_basic_steps_help.shtml">Using MouseBLAST - Basic Steps</A></LI>
 </UL>
 
 <H3><A NAME="contain"></A>What's in the Mammalian Orthology Query Results?</H3>
-<P>The Mammalian Orthology Query Results page contains:
+<P>The Mammalian Orthology Query Results page contains:</p>
 <ul>
 <li>a summary of your query parameters and the number of items found</LI>
 <li>a table summarizing orthology information on your query</LI>
@@ -78,19 +77,17 @@ function openHelpWindow(helpFile){
 <li>additional references for all evidence assertions or for selected species</LI>
 <li>links to additional resources with orthology data for this gene (e.g., TreeFam (phylogenetic trees of animal genes), Protein Superfamily reports, VISTA on UCSC browser (whole genome alignment), Homologene (at NCBI: automated detection of homologs among the annotated genes of completely sequenced eukaryotic genomes), MGI Mouse-Human-Rat Comparative GO Graph (curated GO classifications for mouse, human and rat orthologs annotated from the biomedical literature).</LI>
 </UL>
-</p>
+
 <A HREF="#top"><font size="-1">Top</font></a> 
 
 
-
 <H3><A NAME="single"></A>How do I view the resources for genes or sequences?</H3>
-<p>A Mammalian Orthology Query Results table displays, by species, external gene resources and/or MGI-stored sequences for your query. To access:
+<p>A Mammalian Orthology Query Results table displays, by species, external gene resources and/or MGI-stored sequences for your query. To access:</p>
 <ul>
   <li>Locate the item of interest in the AccID (Source) column.</li>
   <li>Click the desired provider link (e.g., HGNC, Entrez Gene, RefSeq, Uniprot, OMIM).<br>
 The provider's record for this accession ID appears.</LI>
 </ul>
-</p>
 <a href="#top"><font size="-1">Top</font></a>
 
 <H3><A NAME="fasta"></A>How do I download sequences in FASTA format?</H3>
@@ -99,8 +96,7 @@ The provider's record for this accession ID appears.</LI>
 <LI>Ensure that <i>download in FASTA format</i> appears in the box next to <i>For the selected sequences</i>.</LI>
 <LI>Click <i>Go</i>. The selected sequences appear on a new page, in FASTA format.</LI>
 </OL>
-
- <a href="#top"><font size="-1">Top</font></a> 
+<a href="#top"><font size="-1">Top</font></a> 
 
 <H3><A NAME="mouseblast"></A>How do I forward sequences to MouseBLAST?</H3>
 <P>To forward sequences to MouseBLAST:</P>
@@ -110,12 +106,12 @@ The provider's record for this accession ID appears.</LI>
 <LI>Click <i>forward to MouseBLAST</i>.</LI>
 <LI>Click <i>Go</i>.</LI>
 </OL>
-</p>
-<p>For additional information, see:<ul>
+
+<p>For additional information, see:</p>
+<ul>
    <li><a href="mouseblast_forwarding_help.shtml">Using the Forward to MouseBLAST Form</a> </LI>
- <li><a href="mblast_output.shtml">Interpreting the MouseBLAST Output Report</a></li>  
+ <li><a href="mouseblast_output_help.shtml">Interpreting the MouseBLAST Output Report</a></li>  
 </ul>
-</p>
 <A HREF="#top"><font size="-1">Top</font></a> 
 
 
@@ -157,18 +153,17 @@ The provider's record for this accession ID appears.</LI>
 <td valign="top">You are ready to download a sequence in FASTA format or forward it to MouseBLAST. See <A HREF="#fasta">How do I download sequences in FASTA format?</A> or <A HREF="#mouseblast">How do I forward sequences to MouseBLAST?</A> for details.</TD>
 </TR>
 </TABLE>
-</p>
+<br>
  <a href="#top"><font size="-1">Top</font></a> 
 
 
 
 <h3><A NAME="fields"></A>How do I interpret these results?</h3>
-<P>For each ortholog in a class, the record shows some or all information in the following table, depending on the information available.
-<P><table class="nb" width="!" cellpadding="8" align="center">
-<tr align="center"><Td VALIGN="top"><a href="#Species">Species</a> | <a href="#Symbol">Symbol</a> | <a href="#Chr">Chr (Location) Coordinates</a> | <a href="#acc_ID">AccID (Source)</a> | <a href="#Evidence">Evidence</a> | 
-<a href="#References1">References (table)</a> | <a href="#comp_map">Comparative Map</a> |  <a href="#References2">References (list) | <a href="#Links">Links</a> </a></td></tr>
+<P>For each ortholog in a class, the record shows some or all information in the following table, depending on the information available.</p>
+<table class="nb" width="!" align="center">
+<tr align="center"><Td VALIGN="top"  cellpadding="1"><a href="#Species">Species</a> | <a href="#Symbol">Symbol</a> | <a href="#Chr">Chr (Location) Coordinates</a> | <a href="#acc_ID">AccID (Source)</a> | <a href="#Evidence">Evidence</a> | 
+<a href="#References1">References (table)</a> | <a href="#comp_map">Comparative Map</a> |  <a href="#References2">References (list)</a> | <a href="#Links">Links</a> </a></td></tr>
 </table>
-</p>
 <p>
 <TABLE BORDER cellpadding="4" width="100%">
 <TR>
@@ -179,14 +174,12 @@ The provider's record for this accession ID appears.</LI>
 to, and, enclosed in parentheses, the cM position or cytogenetic band. Location information varies depending on information available.</td> </TR>
 <TR><th align=left valign=top><a name="acc_ID">AccID (Source)</a></th> <td valign="top">Database accession IDs assigned to the marker, linked to the database where the marker record is stored. Currently, MGI stores orthology information from databases such as Ark-Cat, BovMap, Entrez, HGNC, HorseBase, OMIM, PigBase, RGD, SheepBase. </td></TR>
 <TR> <th align=left valign=top><a name="Evidence"></a>Evidence</th><td valign="top">MGD orthology information includes criteria for orthology assertions. Criteria are represented as acronyms; possible values include:
-
-
 <table border="0" cellspacing="0" cellpadding="5" width="!">
 
-<tr>
+   <tr>
    <th valign="top"><font size="-1">AA</font></th>
    <td valign="top"><font size="-1">Amino acid sequence comparison</font></td>
-</tr>
+   </tr>
 <tr>
     <th valign="top"><font size="-1">CE</font></th>
     <td valign="top"><font size="-1">Coincident expression</font></td>
@@ -199,8 +192,7 @@ to, and, enclosed in parentheses, the cM position or cytogenetic band. Location 
     <th valign="top"><font size="-1">FH</th>
     <td valign="top"><font size="-1">Formation of functional heteropolymers</font></td>
 </tr>
-<tr>
-    <th valign="top"><font size="-1">FC</th> <td valign="top"><font size="-1">Functional complementation</td></tr>
+<tr><th valign="top"><font size="-1">FC</th> <td valign="top"><font size="-1">Functional complementation</td></tr>
 <tr><th valign="top"><font size="-1">IX</th><td valign="top"><font size="-1">Immunological cross-reaction</td></tr>
 <tr><th valign="top"><font size="-1">NS</th><td valign="top"><font size="-1">Not specified</td></tr>
 <tr><th valign="top"><font size="-1">NT</th><td valign="top"><font size="-1">Nucleotide sequence comparison</td></tr>
@@ -209,12 +201,8 @@ to, and, enclosed in parentheses, the cM position or cytogenetic band. Location 
 <tr><th valign="top"><font size="-1">SS</th><td valign="top"><font size="-1">Similar substrate specificity</td></tr>
 <tr><th valign="top"><font size="-1">SU</th><td valign="top"><font size="-1">Similar subunit structure</td> </tr>
 <tr><th valign="top"><font size="-1">UN</th><td valign="top"><font size="-1">Unreviewed</td></tr>
-<tr><th valign="top"><font size="-1">XH</th> <td valign="top"><font size="-1">Cross-hybridization to same molecular probe</td></font></tr>
-
-</table>
-
-</font>
-</TD> </TR>
+<tr><th valign="top"><font size="-1">XH</th> <td valign="top"><font size="-1">Cross-hybridization to same molecular probe</font></td></tr>
+</table></TD></TR>
 
 <tr><th align="left" valign="top"><a name="References1"></a>References (table)</th><td valign="top">Each criterion is associated with one or more references. Each evidence column contains a J:number, linked to the particular reference set for the criterion and species.</td></tr>
 <tr><th align="left" valign="top"><a name="comp_map"></a>Comparative Map</th><td valign="top">Click the desired species (rat, human) to see a 2 cM display around the queried marker.</td></tr>
@@ -223,6 +211,8 @@ to, and, enclosed in parentheses, the cM position or cytogenetic band. Location 
 </TABLE>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
+
+
 <h3><a name="reference"></a>Are there any supporting references?</H3>
 <p>Yes. Each orthology class represented in the results includes links to supporting references. Beneath the table is the option to display all references for the orthology class or those pertaining to selected species. References are in short citation format and include the following information:
 <UL>

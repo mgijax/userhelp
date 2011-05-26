@@ -1,73 +1,84 @@
 <!--#include file='include/templateHead.html'-->
-<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
-<title><!--#include file="include/mgiversion.html"-->Using the Forward to MouseBLAST Form</title>
 
+<title>
+  <!--#include file="include/mgiversion.html"-->
+  Using the Forward to MouseBLAST Form
+</title>
+
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
 <script>
 function openHelpWindow(helpFile){
-  helpUrl = "./" + helpFile;
-  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+  helpUrl = "./" + helpFile;  
+
+window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
 };
 </script>
 
 <style type="text/css">
 </style>
 
-<!--#include file='include/templateBlankBodyStart.html'-->
-
-
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">Using the Forward to MouseBLAST Form</span>
+ <span class="faqHeaderText">
+  Using the Forward to MouseBLAST Form
+ </span>
 </div>
 
 <!-- Container Table -->
-<table border=0 cellpadding=0 cellspacing=5 width="100%">
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+<!-- Title Bar -->
 <tr>
-  <td class="enhance" align=left><!--#include file='help_toolbar.shtml'--></td>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+  </td>
 </tr>
 </table>
+<!--#include file='include/templateBlankBodyStart.html'-->
 
 
 <!-- Body of User Help -->
+<br>
+
 <a name="top"></a>
-<P>The help document answers the following questions about the Forward to MouseBLAST form:
+<P>The help document answers the following questions about the Forward to MouseBLAST form:</p>
+
 <UL>
 <LI><A HREF="#whatdo">What's the purpose of this form?</A></LI>
 <LI><A HREF="#howdo">How do I use it?</A></LI>
 <LI><A HREF="#output">How do I interpret the results?</A></LI>
 <LI><A HREF="#example">Are there any sample searches?</A></LI>
 </UL>
-</p>
 
-<H3><A NAME="whatdo"></A>What's the purpose of this form?</H3>
+<A NAME="whatdo"></A>
+<H3>What's the purpose of this form?</H3>
 <p>Use this query form to search each sequence forwarded to MouseBLAST against a particular sequence database.  </p>
-<p>MouseBLAST searches a forwarded sequence against a mouse, rat, rodent, or human sequence database to find matching sequences.  The output of each search (sequences similar to the query sequence) appears in a separate web browser window.   If a matching sequence is associated to an MGI mouse gene record, a summary of that gene and a link to MGI appear in the search results.  You can either download sequences for any matches in FASTA format or forward them to MouseBLAST for additional searching.</p>
+<ul>
+<li>MouseBLAST searches a forwarded sequence against a mouse, rat, rodent, or human sequence database to find matching sequences.</li>
+  <li>The output of each search (sequences similar to the query sequence) appears in a separate web browser window. </li>  
+<li>If a matching sequence is associated to an MGI mouse gene record, a summary of that gene and a link to MGI appear in the search results.</li> 
+<li>You can download sequences for any matches in FASTA format or you can forward them to MouseBLAST for additional searching.</li>
+</ul>
+
+<A NAME="howdo"></A>
+<H3>How do I use it?</H3>
+<p>For each sequence you want to search, do the following. Use the fields in the BLAST Program and Database column to specify MouseBLAST search options.</p>
+<uL>
+<LI>Click/unclick the option to mask the query sequence.  By default, the sequence is masked. For more information, see <A HREF="mouseblast_masking_help.shtml">Using MouseBLAST - Masking Programs</A>.</li>
+<LI>Select the BLAST program to use.  The default program is based on whether the query sequence is nucleotide or protein. For more information, see <A HREF="mouseblast_blast_programs_help.shtml">Using MouseBLAST - Available BLAST Programs</A>.</li>
+<LI>Select the sequence database to search. See <A HREF="mouseblast_sequence_databases_help.shtml">Using MouseBLAST - Sequence Databases</A>.</li>
+<LI>Click Search.  Results appear in a new browser window.</li>
+<li>Alternatively, you can search a sequence using the MouseBLAST Query Form by following the Advanced BLAST query form link.</li>
+</uL>
+
+<A NAME="output"></A>
+<H3>How do I interpret the results?</H3>
+<p>The results of each search appear in a new web browser window.  See <a href="mouseblast_output_help.shtml">Interpreting the MouseBLAST Output Report</a> for details.</p>
 
 
-<H3><A NAME="howdo"></A>How do I use it?</H3>
-<p>For each sequence you want to search, do the following. Use the fields in the
-last column to specify MouseBLAST search options.</p>
-<OL>
-<LI>Select whether you wish to mask the query sequence.  By default, the sequence is masked. 
-(See <A HREF="mouseblast_masking_help.shtml">Masking Details</A>.)
-<LI>Select the BLAST program you wish to use.  The default program is picked based on whether the
-query sequence is nucleotide or protein. (See <A HREF="mouseblast_blast_programs_help.shtml">WU-BLAST Programs</A>.)
-<LI>Select the sequence database you wish to search. (See <A HREF="mouseblast_sequence_databases_help.shtml">Sequence Databases</A>.)</li>
-<LI>Click Search.  Results of the search will appear in a new browser window.</li>
-</OL>
-<p>Alternatively, you can search the sequence using the MouseBLAST Query Form by following
-the Advanced BLAST query form link.</p>
-
-<H3><A NAME="output"></A>How do I interpret the results?</H3>
-<p>The results of each search appear in a new web browser window.  See <a href="mouseblast_output_help.shtml">Using The MouseBLAST Output Report</a> for details.</p>
-
-
-
-<H3><A NAME="example"></A>Are there any sample searches?</H3>
-<p>See <A HREF="mouseblast_examples_help.shtml">Example MouseBLAST Searches</A>.</p>
-
-<a href="#top"><font size="-1">Top</font></a>
+<A NAME="example"></A>
+<H3>Are there any sample searches?</H3>
+<p>See <A HREF="mouseblast_examples_help.shtml">Using MouseBLAST - Sample Queries</A>.</p>
 
 <!--#include file='include/templateBlankBodyStop.html'-->

@@ -1,13 +1,42 @@
-<!--#include file='include/templateHead.html'--> 
-<title>MGI-Using MouseBLAST - Sequence Databases</title>
+<!--#include file='include/templateHead.html'-->
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
-<!--#include file='include/templateBodyStart.html'--> 
+<title>
+  <!--#include file="include/mgiversion.html"-->
+  Using MouseBLAST - Sequence Databases
+</title>
+
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+</style>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+   Using MouseBLAST - Sequence Databases
+ </span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
 
 <!-- Title Bar -->
-  <div id="titleBarWrapper">
-  <span class="titleBarMainTitle">Using MouseBLAST - Sequence Databases </span>
-  </div> 
-<!--titleBar-->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+         </td>
+</tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+<br>
 
 
 <a name="top"></a>
@@ -15,9 +44,9 @@
  <UL>
    <LI><A HREF="#nucleotide">Nucleotide Sequence Databases</A></LI>
   <LI><A HREF="#protein">Protein Sequence Databases</A></LI>
+  <li><a href="mouseblast_overview_help.shtml">Using MouseBLAST - Overview</a></li>
 </ul>
-
-Back to <a href="mblast_overview.shtml">Using MouseBLAST - Overview</a>
+</p>
 
 
 <h3><a name="nucleotide"></a>Nucleotide Sequence Databases</h3>
@@ -40,11 +69,11 @@ Back to <a href="mblast_overview.shtml">Using MouseBLAST - Overview</a>
 
 <li><a name="refseq"></a><b>RefSeq Mouse Transcripts</b> - All NCBI RefSeq Mouse transcripts (Mouse RefSeqs of type NM_, NR_, XM_, and XR_).</li><br>
 
-<li><a name="build_37"></a><b>NCBI Mouse Genome Assembly Build 37</b> -  NCBI Build 37.1 represents over 90% of the mouse genome in finished form. Click to see the <a href="http://www.ncbi.nlm.nih.gov/mapview/map_search.cgi?taxid=10090">data</a> or the <a href="http://www.ncbi.nlm.nih.gov/mapview/stats/BuildStats.cgi?taxid=10090&build=37&ver=1">statistics</a>. </li><br>
+<li><a name="build_37"></a><b>NCBI Mouse Genome Assembly Build 37</b> -  NCBI Build 37.1 represents over 90% of the mouse genome in finished form.  See NCBI's <a href="http://www.ncbi.nlm.nih.gov/projects/genome/assembly/grc/mouse/">Mouse Genome Overview</a> for details. Click to see the <a href="http://www.ncbi.nlm.nih.gov/mapview/map_search.cgi?taxid=10090">genome view</a> or the <a href="http://www.ncbi.nlm.nih.gov/mapview/stats/BuildStats.cgi?taxid=10090&build=37&ver=1">statistics</a>. </li><br>
 
-<li><a name="build_36"></a><b>NCBI Mouse Genome Assembly Build 36</b> -  The Build 36 assembly from the Mouse Genome Sequencing Consortium (MGSC) is composed largely of finished sequence  and includes approximately 2.6 Gb of sequences on chromosomes 1-19, X, Y, M (mitochondrial DNA) and Un (unmapped clone contigs). See NCBI's  <a href="http://www.ncbi.nlm.nih.gov/projects/genome/seq/NCBIContigInfo.html">Assembling Genomic Sequences</a> for complete details.</li><br>
+<li><a name="build_36"></a><b>NCBI Mouse Genome Assembly Build 36</b> -  The Build 36 assembly from the Mouse Genome Sequencing Consortium (MGSC) is composed largely of finished sequence  and includes approximately 2.6 Gb of sequences on chromosomes 1-19, X, Y, M (mitochondrial DNA) and Un (unmapped clone contigs). <!--See NCBI's  <a href="http://www.ncbi.nlm.nih.gov/projects/genome/assembly/grc/mouse/">Mouse Genome Overview</a> for details.--></li><br>
 
-<li><a name="build_34"></a><b>NCBI Mouse Genome Assembly Build 34</b> - NCBI Mouse Build 34 represents a fourth generation composite assembly. In this build, chromosomes 1,3,5,6,7,8,9,10, and 12-19 were automatically assembled. See NCBI's <a href="http://www.ncbi.nlm.nih.gov/projects/genome/seq/NCBIContigInfo.html">Assembling Genomic Sequences</a> for complete details.</li><br>
+<li><a name="build_34"></a><b>NCBI Mouse Genome Assembly Build 34</b> - NCBI Mouse Build 34 represents a fourth generation composite assembly. In this build, chromosomes 1,3,5,6,7,8,9,10, and 12-19 were automatically assembled. </li><br>
 
 <li><a name="DFCI_mouse"></a><b>DFCI Mouse Gene Index</b> - Tentative consensus transcript sequences from DFCI's Mouse Gene Index (MGI).</li><br>
 
@@ -55,7 +84,7 @@ Back to <a href="mblast_overview.shtml">Using MouseBLAST - Overview</a>
 <li><a name="fantom"></a><b>RIKEN FANTOM cDNAs</b> - Mouse cDNAs from the RIKEN FANTOM project.</li>
 </UL>
 </p>
-<a href="#top"><font size="-1">Back to top</font></a>
+<a href="#top"><font size="-1">Top</font></a>
 
 
 <h3><a name="protein"></a>Protein Sequence Databases</h3>
@@ -71,5 +100,5 @@ Back to <a href="mblast_overview.shtml">Using MouseBLAST - Overview</a>
 <li><b>UniProt Rodent</b> - All rodent protein sequences from the "non-redundant" set of sequences from SwissProt and TrEMBL (SP_TR_NRDB from SIB/EBI). Rodent sequences are parsed from these sequences as entries containing "rodentia" in the phylogeny lines or "mus" or "rattus" in the species lines.</li>
 </ul>
 </p>
-<a href="#top"><font size="-1">Back to top</font></a>
-<!--#include file='include/templateBodyStop.html'--> 
+<a href="#top"><font size="-1">Top</font></a>
+<!--#include file='include/templateBlankBodyStop.html'--> 

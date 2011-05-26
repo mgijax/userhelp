@@ -1,0 +1,120 @@
+<!--#include file='include/templateHead.html'-->
+
+<title>
+  <!--#include file="include/mgiversion.html"-->
+Using MouseBLAST - Available BLAST Programs 
+</title>
+
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+</style>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+  Using MouseBLAST - Available BLAST Programs 
+ </span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+  </td>
+</tr>
+
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+<!-- Body of User Help -->
+
+<br>
+
+<a name="top"></a>
+<P>This MouseBLAST Help document contains the following information:</P>
+<UL>
+  <LI><A HREF="#blast_programs">Which BLAST programs can I use with MouseBLAST?</A></LI>
+  <LI><A HREF="#information">What's the history of BLAST?</A></LI>
+  <LI><A HREF="#tutorial">Where can I get additional information?</A></LI>
+  <LI><A HREF="#references">References</A></LI>
+</UL>
+<p>Back to <a href="mouseblast_overview_help.shtml">Overview</a>
+</p>
+
+<A NAME="blast_programs"></A><H3>Which BLAST programs can I use with MouseBLAST?</H3>
+
+<P>You can use five different programs from the WU-BLAST version 2.0 package in MGI MouseBLAST. WU-BLAST, developed by Warren Gish at Washington University, is an implementation of the BLAST (Basic Local Alignment Search Tool) algorithm by <A HREF="#altschul1">Altschul <EM>et al.</EM>, 1990</A>. </P>
+
+<blockquote>
+<table border="1" cellpadding="4">
+<tr><th>Program</th><th align="left">Comparison</th></tr>
+<tr><th align="left">BLASTN</th><td valign="top">Nucleotide query sequence against nucleotide sequence database.</td></tr>
+<tr><th align="left">BLASTX</th><td valign="top">Nucleotide query sequence translated in all reading frames against a protein sequence database. You can use this option to find potential translation products of an unknown nucleotide sequence.</td>
+</tr>
+ <tr>
+   <th align="left">TBLASTX</th>
+   <td valign="top">Six-frame translations of a nucleotide query sequence against the six-frame translations of a nucleotide sequence database. <!--<b>Note:</b> You cannot use the tblastx program with nr databazse on the BLAST web becqause it is computationally intensive.--></td>
+ </tr>
+  <tr>
+    <th align="left">BLASTP</th>
+    <td valign="top">Amino acid query sequence against a protein sequence database.</td>
+  </tr>
+  <tr>
+     <th align="left">TBLASTN</th>
+     <td valign="top">Protein query sequence against a nucleotide sequence database dynamically translated in all six reading frames (both strands).</td>
+  </tr>
+</table>
+</blockquote>
+
+<h3>
+<A NAME="information"></a>What's the history of BLAST?</h3>
+<p>The Basic Local Alignment Search Tool (BLAST) was first published by Stephen Altschul, Warren Gish, Webb Miller, Eugene Myers, and David Lipman<a href="#altschul1"><sup>1</sup></a> in 1990 from the NCBI.  After September 1994, Warren Gish at Washington University started to release enhanced versions of BLAST, WU-BLAST (then at version 1.4).  Until that time, there was a single source for BLAST at the NCBI (also at version 1.4).
+
+<UL>
+<LI><B>WU-BLAST</B>
+<BR>
+Warren Gish also optimized the BLAST programs for speed on different platforms.  The first version of WU-BLAST was released in September 1994; in 1996, he released the first "gapped" version of BLAST, <i>WU-BLAST 2.0 </i>(Gish, <em>unpublished</em>).  This version allows for gapped alignments and statistics.  It can also identify multiple regions of similarity for each sequence match.  
+See <A HREF="http://blast.wustl.edu">http://blast.wustl.edu</A> for details.</li>
+<BR>
+<LI><B>NCBI BLAST</B>
+<BR>
+NCBI was the only source for BLAST when WU-BLAST version 1.4 appeared.  In September 1997, (Altschul <em>et al.</em><A HREF="#altschul2"><sup>2</sup></a> released a "gapped" version of BLAST called NCBI BLAST version 2.0.  This version included speed enhancements.</li>
+<BR>
+<LI><B>PSI-BLAST</B>
+<BR>
+Altschul <em>et al.</em><a href="#altschul2"><sup>2</sup></a> also introduced PSI-BLAST (Position Specific Iterated BLAST) in September 1997 for detecting very distant regions of similarity by running BLAST iteratively.  The significant alignments are then used to construct a position-specific score matrix that is used to search the same database again.</li>
+<BR>
+<LI><B>PHI-BLAST</B>
+<BR>
+Zhang <em>et al.</em><A HREF="#zhang1"><sup>3</sup></a> introduced PHI-BLAST (Pattern Hit Initiated BLAST) in 1998.  PHI-BLAST lets you search for protein motifs in sequence databases and is used in conjunction with PSI-BLAST.  PHI-BLAST combines regular expression matches with local alignments, and thus, you can find sequences containing a certain pattern with similarity to a particular sequence.</li>
+</UL>
+</p>
+
+
+<A NAME="tutorial"></A><h3>Where can I find additional information?</h3>
+<P>The NCBI provides <a href="http://www.ncbi.nlm.nih.gov/blast/blast_FAQs.shtml">BLAST FAQs</a> and a course on the <A HREF="http://www.ncbi.nlm.nih.gov/BLAST/tutorial/Altschul-1.html">Statistics of Sequence Similarity Scores</A>.  Additional BLAST resources are available at the <a href="http://www.ncbi.nlm.nih.gov/blast/">NCBI BLAST</a> site.
+</p>
+
+
+<h3><A NAME="references"></A>References</h3>
+<OL>
+<li><a name="altschul1"></a>Altschul, SF, Gish, W, Miller, W, Myers, EW, Lipman, DJ.  Basic local alignment search tool.  <em>J. Mol. Biol.</em> (1990), 215(3), 403-10.</li>
+
+<li><a name="altschul2"></a>Altschul, SF, Madden, TL, Schaffer, AA, Zhang, J, Zhang, Z, Miller, W, Lipman, DJ.  Gapped BLAST and PSI-BLAST:  a new generation of protein database search programs.  <em>Nucleic Acids Res.</em> (1997), 25(17), 3389-402.</li>
+
+<li><A NAME="zhang1"></A>Zhang, Z, Schaffer, AA, Miller, W, Madden, TL, Lipman, DJ, Koonin, EV, Altschul, SF.  Protein sequence similarity searches using patterns as seeds. <em>Nucleic Acids Res.</em> (1998), 26(17), 3986-90.</li>
+</OL>
+</p>
+<a href="#top"><font size="-1">Top</font></a>
+
+<!--#include file='include/templateBlankBodyStop.html'--> 

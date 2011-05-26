@@ -17,7 +17,6 @@ function openHelpWindow(helpFile){
 <style type="text/css">
 </style>
 
-<!--#include file='include/templateBlankBodyStart.html'-->
 
 
 <div id="faqPageHeader">
@@ -37,6 +36,7 @@ function openHelpWindow(helpFile){
          </td>
 </tr>
 </table>
+<!--#include file='include/templateBlankBodyStart.html'-->
 
 <!-- Body of User Help -->
 <p></p>
@@ -51,16 +51,17 @@ function openHelpWindow(helpFile){
 <LI><A HREF="#parameter">Select the number of results and alignments to show in the output.</A></li>
 </oL>
 <font size="-1">Back to <a href="mouseblast_overview_help.shtml">Using MouseBLAST - Overview</a></font>
-
+<p></p>
 <P>Use MouseBLAST to search a sequence against a mouse, rat, rodent or human sequence database to find matching sequences.  If a matching sequence is associated to an MGI mouse gene record, then summary information about that gene and a link to MGI is inserted in the output.</P>
 <P>If any of the matching sequences are associated genes, the result is a display containing links to MGI mouse gene records.  All matching sequences have links to the sequence provider's web site. See <a href="#results">Search Results</a> for details.</p>
 <p>See also:
 <uL>
-<LI><A HREF="mouseblast_output_help.shtml">Using MouseBLAST - Interpreting the Output Report</A>.</li>
-<LI><A HREF="mouseblast_examples_help.shtml">Using MouseBLAST - Sample Queries</A></EM>.</li>
+<LI><A HREF="mouseblast_output_help.shtml">Using MouseBLAST - Interpreting the Output Report</A></li>
+<LI><A HREF="mouseblast_examples_help.shtml">Using MouseBLAST - Sample Queries</A></EM></li>
 </uL>
 </p>
-<hr>
+<p></p>
+
 <h3>The Five Actions</h3>
 <!--basic step 1-->
   <ol>
@@ -106,6 +107,7 @@ function openHelpWindow(helpFile){
 </TR>
 </TABLE>
 </li>
+<p></p>
 
 <!--basic step 2-->
   <li><A NAME="database"></A><b>Select a sequence database to search against</b>.

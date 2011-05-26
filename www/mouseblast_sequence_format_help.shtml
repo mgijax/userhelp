@@ -1,13 +1,45 @@
-<!--#include file='include/templateHead.html'--> 
-<title>MGI-Using MouseBLAST - Sequence Formats </title>
+<!--#include file='include/templateHead.html'-->
 
-<!--#include file='include/templateBodyStart.html'--> 
+<title>
+  <!--#include file="include/mgiversion.html"-->
+Using MouseBLAST - Sequence Formats
+</title>
+
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+</style>
+
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+  Using MouseBLAST - Sequence Formats 
+ </span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
 
 <!-- Title Bar -->
-  <div id="titleBarWrapper">
-  <span class="titleBarMainTitle">Using MouseBLAST - Sequence Formats</span>
-  </div> 
-<!--titleBar-->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+  </td>
+</tr>
+
+</table>
+<!-- Body of User Help -->
+
+<br>
 
 
 <A NAME="top"></A>
@@ -21,11 +53,9 @@ This help document answers the following questions about sequence formats:
 <li><A href="#gcg_format">What does a sequence in GCG format look like?</li>
 <li><a href="#free_text">What is free text format?</a></li>
 <li><a href="#free_sequence">What does a sequence in free text format look like?</a></li>
-
-</li>
+<li><a href="mouseblast_overview_help.shtml">Using MouseBLAST - Overview</a></li>
 </ul>
 </p>
-<font size="-1"><a href="mblast_overview.shtml">Return to Using MouseBLAST - Overview</a></font>
 
 
 <h3><a name="format"></a>Must I use a particular format when entering sequence on the MGI MouseBLAST query form?</h3>
@@ -64,9 +94,9 @@ TATGAAAAAGAGATCGTCAAATCACGGTTTGCCATCAGGAAAATAATGCTGCTGGAATTT
 </p>
 
 <A NAME="gcg"></A><h3>What is Genetics Computer Group (GCG) format?</h3>
-<a href="http://www.accelrys.com/products/gcg/">Accelrys GCG</a>, formerly known as the GCG Wisconsin Package, is a set of sequence analysis programs that use the GCG sequence format. 
+<a href="http://www.accelrys.com">Accelrys GCG</a>, formerly known as the GCG Wisconsin Package, is a set of sequence analysis programs that use the GCG sequence format. 
 This format was developed by the Genetics Computer Group. </p>
-<a href="#top"><font size="-1">Back to top</font></a>
+<a href="#top"><font size="-1">Top</font></a>
 
 <A NAME="gcg_format"></A><h3>What does a sequence in GCG format look like?</h3>
 
@@ -106,6 +136,7 @@ gi-198293.seq  Length: 1339  November 8, 1999 13:29  Type: N  Check: 1315  ..
     1301  TTGATGAGTA TGAAATAAAT TTCATTAAAC AAACAAACA
 </PRE>
 </FONT></P>
+<a href="#top"><font size="-1">Top</font></a>
 
 
 <h3><A NAME="free_text"></A>What is free-text format?</h3>
@@ -127,5 +158,6 @@ KMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQDIIDFTMESVSS
 </PRE>
 </font>
 </p>
-<a href="#top"><font size="-1">Back to top</font></a>
-<!--#include file='include/templateBodyStop.html'--> 
+<a href="#top"><font size="-1">Top</font></a>
+
+<!--#include file='include/templateBlankBodyStop.html'--> 

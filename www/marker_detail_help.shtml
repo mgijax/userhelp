@@ -38,6 +38,7 @@ function openHelpWindow(helpFile){
 </tr>
 </table>
 
+<!--#include file='include/templateBlankBodyStart.html'-->
 
 
 <!-- Body of User Help -->

@@ -1,11 +1,11 @@
 <!--#include file='include/templateHead.html'-->
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
+
 <title>
   <!--#include file="include/mgiversion.html"-->
   Using MouseBLAST - Overview
 </title>
-
 
 <script>
 function openHelpWindow(helpFile){
@@ -18,7 +18,6 @@ function openHelpWindow(helpFile){
 </style>
 
 
-
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
@@ -28,16 +27,15 @@ function openHelpWindow(helpFile){
 
 <!-- Container Table -->
 <table border=0 cellpadding=0 cellspacing=5 width="100%">
-
 <!-- Title Bar -->
 <tr>
   <td class="enhance" align=left>
       <!--#include file='help_toolbar.shtml'-->
-         </td>
+     </td>
 </tr>
 </table>
-<!-- Body of User Help -->
-
+<br>
+<!--#include file='include/templateBlankBodyStart.html'-->
 
 <A NAME="top"></A>
 <P>
@@ -45,53 +43,51 @@ This help document provides links to answers for the following questions:</p>
 <UL>
 <!--<li>What is MouseBLAST?</li>-->
 <LI><A HREF="#whatdo">What do I use the MouseBLAST form for?</A></li>
-<LI><A HREF="mouseblast_basic_stepo.shtml">How do I use this form?</A></li>
-<LI><A HREF="mouseblast_output_help.shtml">How do I interpret the results of my search?</A></li>
-<LI><A HREF="mouseblast_examples_help.shtml">Are there any examples?</A></li>
-<LI><A HREF="mouseblast_blast_programs_help.shtml">What is BLAST? What's the difference between the WU-BLAST programs?</A></li>
-<LI><A HREF="mouseblast_sequence_databases_help.shtml">Which sequence databases can I search?</A></li>
-<LI><A HREF="mouseblast_masking_help.shtml">What are the different ways to mask a query sequence?</A></li>
-<LI><A HREF="mouseblast_sequence_format_help.shtml">Which sequence formats can I use on this form?</A></li>
-<LI><A HREF="mouseblast_fetch_help.shtml">Can I find a sequence if I know the sequence accession ID?</A></li>
+<LI><A HREF="#howdo">How do I use this form?</A></li>
+<LI><A HREF="#output">How do I interpret the results of my search?</A></li>
+<LI><A HREF="#sample">Are there any examples?</A></li>
+<LI><A HREF="#programs">What is BLAST? What's the difference between the WU-BLAST programs?</A></li>
+<LI><A HREF="#databases">Which sequence databases can I search?</A></li>
+<LI><A HREF="#masking">What are the different ways to mask a query sequence?</A></li>
+<LI><A HREF="#formats">Which sequence formats can I use on this form?</A></li>
+<LI><A HREF="#fetch">Can I find a sequence if I know the sequence accession ID?</A></li>
 </UL>
 
 <a name="top"></a>
 <H3><A NAME="whatdo"></A>What do I use the MouseBLAST form for?</H3>
 <p>Use this form to search mouse, rat, rodent, or human sequence database for sequences that may be associated with mouse genes. If a matching sequence is associated to an MGI mouse gene record, a detail report containing summary information and a link to MGI appears.  You can either download the sequences for FASTA format matches or forward them to MouseBLAST for additional searches.</p>
 
-
-<H3><A NAME="howdo"></A>How do I use this form?</H3>
+<A NAME="howdo"></A>
+<H3>How do I use this form?</H3>
 <P>See <A HREF="mouseblast_basic_steps_help.shtml">Using MouseBLAST - Basic Steps</A>.</p>
 
-<H3><A NAME="output"></A>How do I interpret the results of my search?</H3>
-<P>See <A HREF="mouseblast_output_help.shtml">Using MouseBLAST - Interpreting the Output Report</A>.</p>
+<A NAME="output"></A>
+<H3>How do I interpret the results of my search?</H3>
+<P>See <A HREF="mouseblast_output_help.shtml">Using MouseBLAST - Interpreting the MouseBLAST Output Report</A>.</p>
 
-<H3><A NAME="example"></A>Are there any examples?</H3>
-<P>See <A HREF="mouseblast_examples_help.shtml">Using MouseBLAST - Sample Queries</A>.
-</p>
+<A NAME="sample"></A>
+<H3>Are there any examples?</H3>
+<P>See <A HREF="mouseblast_examples_help.shtml">Using MouseBLAST - Sample Queries</A>.</p>
 
-<H3><A NAME="programs"></A>
-What is BLAST? What is the difference between the WU-BLAST programs? <!-- (BLASTN, BLASTX, BLASTP, TBLASTN, and TBLASTX)--></H3>
-<p>See <A HREF="mouseblast_blast_programs_help.shtml">Using MouseBLAST - Available BLAST Programs</A>.
-</p>
+<A NAME="programs"></A>
+<H3>What is BLAST? What is the difference between the WU-BLAST programs? <!-- (BLASTN, BLASTX, BLASTP, TBLASTN, and TBLASTX)--></H3>
+<p>See <A HREF="mouseblast_blast_programs_help.shtml">Using MouseBLAST - Available BLAST Programs</A>.</p>
 
+<A NAME="databases"></A>
+<H3>Which sequence databases can I search?</H3>
+<P>See <A HREF="mouseblast_sequence_databases_help.shtml">Using MouseBLAST - Sequence Databases</A>.</p>
 
-<H3><A NAME="databases"></A>Which sequence databases can I search?</H3>
-<P>See <A HREF="mouseblast_sequence_databases_help.shtml">Using MouseBLAST - Sequence Databases</A>.
-</p>
+<A NAME="masking"></A>
+<H3>Are there different ways to mask a query sequence?</H3>
+<p>See <A HREF="mouseblast_masking_help.shtml">Using MouseBLAST - Masking Programs</A>.</p>
 
-<H3><A NAME="masking"></A>Are there different ways to mask a query sequence?</H3>
-<p>See <A HREF="mouseblast_masking_help.shtml">Using MouseBLAST - Masking Programs</A>./p>
+<A NAME="formats"></A>
+<H3>Which sequence formats can I use on this form?</H3>
+<P>See <A HREF="mouseblast_sequence_format_help.shtml">Using MouseBLAST - Sequence Formats</A>.</p>
 
-
-<H3><A NAME="formats"></A>Which sequence formats can I use on this form?</H3>
-<P>See <A HREF="mouseblast_sequence_format_help.shtml">Using MouseBLAST - Sequence Formats</A>.
-</p>
-
-
-<H3><A NAME="fetch"></A>Can I find a sequence if I know the sequence accession ID?</H3>
-<p></p>See <A HREF="mouseblast_fetch_help.shtml">Using MouseBLAST - Searching By Sequence ID</A>.
-</p>
+<A NAME="fetch"></A>
+<H3>Can I find a sequence if I know the sequence accession ID?</H3>
+<p></p>See <A HREF="mouseblast_fetch_help.shtml">Using MouseBLAST - Searching By Sequence ID</A>.</p>
 <a href="#top"><font size="-1">Top</font></a>
 
 <!--#include file='include/templateBlankBodyStop.html'-->

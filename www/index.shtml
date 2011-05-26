@@ -21,12 +21,13 @@
   <div id="titleBarWrapper">
    <span class="titleBarMainTitle">User Help</span>
   </div> <!--titleBar-->
-  <!--toc table>
+
   <!-- TOC table -->
 
   	<table class="nb" width="60%" cellpadding="4" align="center">
-  <tr align="center"><td valign="top">  
-<a href="#help_marker">Genes, Genome Features &amp Maps</a> | 
+  <tr align="center">
+	<td valign="top">  
+	<a href="#help_marker">Genes, Genome Features &amp Maps</a> | 
       <a href="#help_pad">Phenotypes, Alleles &amp Disease Models</a> | 
       <a href="#help_gxd">Gene Expression</a> | 
      <a href="#help_cre">Recombinases</a> | 
@@ -40,9 +41,8 @@
     </table>
   
   <!-- main body table -->
-  
-  <a name="help_marker"></a>
- <dl class="linkedList">
+  <dl class="linkedList">
+  <a name="help_marker"></a> 
 <DT class="enhance">Genes, Genome Features, & Maps</dt>
   <blockquote>
   		<dt><b>Genes & Markers</b></dt>
@@ -55,17 +55,14 @@
   	          <dd><a href="sequence_summary_help.shtml" onclick="javascript:openHelpWindow('sequence_summary_help.shtml'); return false;"> Interpreting Mouse Sequences Summary Reports</a></dd>
   	          
   	  	  <dd><a href="sequence_detail_help.shtml" onclick="javascript:openHelpWindow('sequence_detail_help.shtml'); return false;">Interpreting Sequence Detail Reports</a></dd>
-  	
-  	<dd><a href="mapping_help.shtml" onclick="javascript:openHelpWindow('mapping_help.shtml'); return false;">Retrieving Maps & Mapping Data</a>
-  	  	</dd>
-  	   	<dt><b>Maps</b></dt>   
-  	<dd><a href="mapping_help.shtml" onclick="javascript:openHelpWindow('mapping_help.shtml'); return false;">Retrieving Maps & Mapping Data</a>
-  	  	</dd>
+  	  
+  	 <dt><b>Maps</b></dt>   
+  	<dd><a href="mapping_help.shtml" onclick="javascript:openHelpWindow('mapping_help.shtml'); return false;">Retrieving Maps & Mapping Data</a></dd>
   	</blockquote>
   	
   <!-- Phenotypes -->
-  <a name="help_pad">
-  <dt class="enhance">Phenotypes, Alleles, &amp; and Disease Models</dt>   
+  <a name="help_pad"></a>
+  <dt class="enhance">Phenotypes, Alleles, & and Disease Models</dt>   
 	<blockquote>
 	<dt><b>Alleles</b></dt>     
 	          <dd>
@@ -81,9 +78,8 @@
 	</blockquote>
 	
   <!-- Expression -->
-  <a name="help_gxd">
- 
-        <dt class="enhance">Gene Expression</dt>
+  <a name="help_gxd"></a>
+     <dt class="enhance">Gene Expression</dt>
          
   	<blockquote>
 <dd><a href="expression_literature_help.shtml" onclick="javascript:openHelpWindow('expression_literature_help.shtml'); return false;">
@@ -98,15 +94,11 @@
   
   <!-- cre -->
   <a name="help_cre"></a>
-  
- 
-          <!-- help example -->
-          <dt class="enhance">Recombinases</dt>
+      <dt class="enhance">Recombinases</dt>
             <blockquote>
        <dd>
          	     <a href="cre_summary_help.shtml" onclick="javascript:openHelpWindow('cre_summary_help.shtml'); return false;">Interpreting Recombinase Alleles - Tissue Specificity Summary Reports</a>
-                 </dd>
-              
+                </dd>             
        </blockquote>
        
 
@@ -114,62 +106,66 @@
 <dd>&nbsp;</dd>
 <a name="help_go"></a>
         <dt class="enhance">GO Functional Annotations</dt>
-<blockquote>
-     	<dd>Misc. GO stuff</dd>
-         
-        <dd>&nbsp;</dd>
+     	<blockquote>
+          <dd>GO stuff</dd>
+                   
+                  <dd>&nbsp;</dd>
+                    
+          </blockquote>
           
-     </blockquote>
+    
      
   <!-- pathways -->
+<a name="help_strain"></a>
 
       <dt class="enhance">Strains, SNPs &amp Polymorphisms</dt>
      <blockquote>
-	<dt><b>Strains</b>
-	<dd>
-	<dt><b>SNPs</b>
-          <dd>
-            <a href="snp_help.shtml" onclick="javascript:openHelpWindow('example.shtml'); return false;">
-              SNP Help
-            </a>
-          </dd>
-          <dt><b>Polymorphisms</b> 
-<dd>&nbsp;</dd>
-</blockquote>
+	<dt><b>Strains</b></dt>
+	
+	<dd>misc....
+	
+	
+	<dt><b>SNPs</b></dt>
+         
+           <dd>
+                      <a href="snp_help.shtml" onclick="javascript:openHelpWindow('snp_help.shtml'); return false;">SNP Help</a>
+           </dd>
+           <dd><a href="SNP_discrepancy_help.shtml" onclick="javascript:openHelpWindow('SNP_discrepancy_help.shtml'); return false;">
+                        SNP Discrepancy Help
+                      </a>
+                    </dd>
+    
+          
+          <dt><b>Polymorphisms</b> </dt>
+	<dd>&nbsp;</dd>
+  </blockquote>
+
 
    
  
   <!-- orthology -->
    <a name="help_mammortho"></a>
-        <dt class="enhance">Orthology</dt>
-     
+        <dt class="enhance">Mammalian Orthology</dt>
+   
           <dd>
             <a href="example.shtml" onclick="javascript:openHelpWindow('example.shtml'); return false;">
               Orthology Help
             </a>
           </dd>
-          
-<dd>&nbsp;</dd>
+         
+
    
  
   
   <a name="help_other_searches"></a>
-    
-      <dt class="enhance">Other Searches</dt>
+          <dt class="enhance">Other Searches</dt>
     
           <blockquote>
-  <dt>Batch Querying / Interpreting Results
-
-
-
-
-
-            <dd>
-              <a href="batch_qf_help.shtml" onclick="javascript:openHelpWindow('batch_qf_help.shtml'); return false;">
-                Using the MGI Batch Query
+  <dt><b>Batch Querying / Interpreting Results</b></dt>
+         <dd><a href="batch_qf_help.shtml" onclick="javascript:openHelpWindow('batch_qf_help.shtml'); return false;">Using the MGI Batch Query
               </a>
             </dd>
-    	<dt>Using & Interpreting Accession IDs 
+    	<dt><b>Using & Interpreting Accession IDs </b>
             <dd>
               <a href="accession_ID_help.shtml" onclick="javascript:openHelpWindow('accession_ID_help.shtml'); return false;">
                Querying by Accession ID - Results and Examples
@@ -177,11 +173,49 @@
             </dd>
     
     
-	<dt>MouseBLAST Help</dt>
+	<dt><b>MouseBLAST Help</b></dt>
 	
-            <dd>
+         
+ <dd>
               <a href="mouseblast_overview_help.shtml" onclick="javascript:openHelpWindow('mouseblast_overview_help.shtml'); return false;">
                Using MouseBLAST - Overview
+              </a>
+            </dd>
+
+ <dd>
+              <a href="mouseblast_basic_steps_help.shtml" onclick="javascript:openHelpWindow('mouseblast_basic_steps_help.shtml'); return false;">
+               Using MouseBLAST - Basic Steps
+              </a>
+            </dd>
+
+<dd>
+              <a href="mouseblast_output_help.shtml" onclick="javascript:openHelpWindow('mouseblast_output_help.shtml'); return false;">
+               Using MouseBLAST - Interpreting the MouseBLAST Output Report
+              </a>
+            </dd>
+
+ <dd>	<a href="mouseblast_examples_help.shtml" onclick="javascript:openHelpWindow('mouseblast_examples_help.shtml'); return false;">
+               Using MouseBLAST - Sample Queries
+              </a>
+            </dd>
+ <dd>	<a href="mouseblast_blast_programs_help.shtml" onclick="javascript:openHelpWindow('mouseblast_blast_programs_help.shtml'); return false;">
+               Using MouseBLAST - Available BLAST Programs
+              </a>
+            </dd>
+<dd>	<a href="mouseblast_sequence_databases_help.shtml" onclick="javascript:openHelpWindow('mouseblast_sequence_databases_help.shtml'); return false;">
+               Using MouseBLAST - Sequence Databases
+              </a>
+            </dd>
+<dd>	<a href="mouseblast_masking_help.shtml" onclick="javascript:openHelpWindow('mouseblast_masking_help.shtml'); return false;">
+               Using MouseBLAST - Masking Programs
+              </a>
+            </dd>
+<dd>	<a href="mouseblast_fetch_help.shtml" onclick="javascript:openHelpWindow('mouseblast_fetch_help.shtml'); return false;">
+               Using MouseBLAST - Searching by Sequence ID
+              </a>
+            </dd>
+<dd>	<a href="mouseblast_forwarding_help.shtml" onclick="javascript:openHelpWindow('mouseblast_forwarding_help.shtml'); return false;">
+               Using the Forward to MouseBLAST Form
               </a>
             </dd>
 
@@ -227,5 +261,5 @@
   
     </table>
   
-  <!--#include file='include/templateBodyStop.html'-->
+  <!--#include file='include/templateBlankBodyStop.html'-->
   

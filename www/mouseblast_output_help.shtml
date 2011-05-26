@@ -16,7 +16,6 @@ function openHelpWindow(helpFile){
 <style type="text/css">
 </style>
 
-<!--#include file='include/templateBlankBodyStart.html'-->
 
 
 <div id="faqPageHeader">
@@ -36,6 +35,7 @@ function openHelpWindow(helpFile){
 </table>
 
 <A NAME="top"></A>
+<!--#include file='include/templateBlankBodyStart.html'-->
 
 <P>
 This help document answers the following questions:</p>
@@ -44,14 +44,16 @@ This help document answers the following questions:</p>
    <ul>
      <li><a href="#summary">Alignment summary of matching sequences</a></li>
      <li><a href="#alignments">Pairwise Alignments</a></li>
+     <li><a href="#rmoutput">Repeatmasker Output</a></li>
+     <li><a href="#rmsequence">Repeat Masked Sequence</a></li>
    </ul>
    <LI><A HREF="#howdo">How do I interpret the results of my search?</A>
 <LI><A HREF="#cando">What can I do with a matching sequence?</A>
-<LI><A HREF="mblast_examples.shtml">Are there any sample searches?</A>
-</UL>
-
-<font size="-2"><a href="mblast_overview.shtml">Back to Using MouseBLAST - Overview</a>
+<LI><A HREF="mouseblast_examples_help.shtml">Are there any sample searches?</A>
+<li><font size="-1"><a href="mouseblast_overview_help.shtml">Using MouseBLAST - Overview</a>
 </font>
+</UL>
+<p></p>
 <A NAME="whatdo"></A>
 <H3>What does the MouseBLAST output report contain?</H3>
 The MouseBLAST output report contains:
@@ -72,8 +74,8 @@ The MouseBLAST output report contains:
 <LI><A HREF="#rmsequence">Repeat masked sequence</A> - masked regions are replaced for N characters.</li>
 </ul>
 <P>
-<A NAME="summary"></A>
-<h4><a name="asms"></a>Alignment summary of matching sequences</h4>
+
+<h4><A NAME="summary"></A>Alignment summary of matching sequences</h4>
 <P>The alignment summary provides a listing of the:
    <ul>
    <LI>Matching sequences in descending levels of similarity.  For each matching sequence, the following data appear:
@@ -111,101 +113,101 @@ To do either:
 </ul>
 </ul>
 </p>
-<a href="#top"><font size="-2">Back to top</font></a>
 
-<A NAME="alignments"></A>
-<h4>Pairwise Alignments</h4>
+
+<blockquote>
+<h4><a name="alignments"></a>Pairwise Alignments</h4>
 <ul>
-<LI>For each matching sequence, one or more pairwise alignments appear.  For each matching sequence, the following information is available:
+<li>For each matching sequence, one or more pairwise alignments appear.  For each matching sequence, the following information is available:
 <ul>
-<LI>Sequence identifier with link to provider's web site
-<LI>Sequence description
-<LI>Length of matching sequence
-<LI>Data about MGI genes and markers that matching sequences are associated with:
+<li>Sequence identifier with link to provider's web site
+<li>Sequence description
+<li>Length of matching sequence
+<li>Data about MGI genes and markers that matching sequences are associated with:
 <ul>
-<LI>Gene/marker symbol
-<LI>Gene/marker name
-<LI>Chromosome gene/marker has been mapped to (if known).
+<li>Gene/marker symbol
+<li>Gene/marker name
+<li>Chromosome gene/marker has been mapped to (if known).
 </ul>  
 </ul>
-<LI>Functionality to:
+<li>Functionality to:
 <ul>
-<LI>Download one or more of the matching sequences in FASTA format
-<LI>Forward one or more matching sequences to MouseBLAST.
+<li>Download one or more of the matching sequences in FASTA format
+<li>Forward one or more matching sequences to MouseBLAST.
 </ul>
 To do either:
 <ul>
-<LI>Select the sequences by checking the check boxes by the sequence identifiers
-<LI>Select an operation:
+<li>Select the sequences by checking the check boxes by the sequence identifiers
+<li>Select an operation:
 <ul>
-<LI>download in FASTA format
-<LI>forward to MouseBLAST.
+<li>download in FASTA format
+<li>forward to MouseBLAST.
 </ul>
-<LI>Click Go.
+<li>Click Go.
 </ul>
 </ul>
 
 For each pairwise alignment for a matching sequence, the following appears.  (Note: Plus strand alignments appear before minus strand alignments.)
 <ul>
-<LI>Score
-<LI>Expectation value
-<LI>Probability
-<LI>Level of identity between two sequences expressed as:
+<li>Score
+<li>Expectation value
+<li>Probability
+<li>Level of identity between two sequences expressed as:
 <ul>
-<LI>Number of identical base pairs or amino acids in sequence alignment
-<LI>Length of alignment
-<LI>Percent identity.
+<li>Number of identical base pairs or amino acids in sequence alignment
+<li>Length of alignment
+<li>Percent identity.
 </ul>
-<LI>Level of similarity between two sequences expressed as:
+<li>Level of similarity between two sequences expressed as:
 <ul>
-<LI>Number of similar base pairs or amino acids in sequence alignment
-<LI>Length of alignment
-<LI>Percent similarity.
+<li>Number of similar base pairs or amino acids in sequence alignment
+<li>Length of alignment
+<li>Percent similarity.
 </ul>
-<LI>The actual alignment.
+<li>The actual alignment.
 </ul>
 <p>Pairwise alignments between the query and matching sequence appear in blocks called <i>High-Scoring Pairs</i> or <i>ASP</i>.  ASPs determine how BLAST detects whether two sequences are similar to one another.  Gapped BLAST algorithms, such as WU-BLAST 2.0, attempt to extend all HSPs so that they join, if possible.  However, sometimes there are multiple HSPs for a given matching sequence; for example, the alignment of the genomic sequence to a transcript results in an HSP for each exon represented in the transcript.
 </ul>
 </p>
-<a href="#top"><font size="-2">Back to top</font></a>
 
-<A NAME="rmoutput"></A>
-<h4>RepeatMasker Output</h4>
-<P>The RepeatMasker output section (appearing only when you run RepeatMasker) contains a table summarizing repeats detected in the query sequence. The following is an example of the table:
-<PRE>
+
+<h4><a name="rmoutput"></a>RepeatMasker Output</h4>
+<p>The RepeatMasker output section (appearing only when you run RepeatMasker) contains a table summarizing repeats detected in the query sequence. The following is an example of the table:
+<pre>
  SW     perc perc perc  query     position in query    matching repeat        position in  repeat
  score  div. del. ins.  sequence  begin  end (left)    repeat   class/family  begin  end (left)  ID
  
   225   20.0  0.0  0.0  M15131    1083   1127 (211) +  (TTTA)n  Simple_repeat    1   45    (0)      
-</PRE>
+</pre>
 
 This table contains:
 <ul>
-<LI>the Smith-Waterman score of the alignment between the region of the query sequence and the repeat consensus sequence</LI>
-<LI>the percentage of substitutions in the matching region compared to the consensus</LI>
-<LI>the percentage of bases opposite a gap in the query sequence (deleted bp)
-<LI>the percentage of bases opposite a gap in the repeat consensus (inserted bp)</LI>
-<LI>the name of query sequence
-<LI>the starting position of the match in the query sequence
-<LI>the ending position of the match in the query sequence
-<LI>the number of bases in the query sequence past the ending position of the match
-<LI>the direction of match, either + or -, with respect to the consensus sequence in the database
-<LI>the name of the matching interspersed repeat
-<LI>the class of the repeat, in this case a simple repeat
-<LI>the starting position of the match in the database sequence (using top-strand numbering)
-<LI>the ending position of the match in the database sequence
-<LI>the number of bases in (the complement of) the repeat consensus sequence 
+<li>the Smith-Waterman score of the alignment between the region of the query sequence and the repeat consensus sequence</li>
+<li>the percentage of substitutions in the matching region compared to the consensus</li>
+<li>the percentage of bases opposite a gap in the query sequence (deleted bp)
+<li>the percentage of bases opposite a gap in the repeat consensus (inserted bp)</li>
+<li>the name of query sequence
+<li>the starting position of the match in the query sequence
+<li>the ending position of the match in the query sequence
+<li>the number of bases in the query sequence past the ending position of the match
+<li>the direction of match, either + or -, with respect to the consensus sequence in the database
+<li>the name of the matching interspersed repeat
+<li>the class of the repeat, in this case a simple repeat
+<li>the starting position of the match in the database sequence (using top-strand numbering)
+<li>the ending position of the match in the database sequence
+<li>the number of bases in (the complement of) the repeat consensus sequence 
 prior to the beginning of the match (so 0 means that the match extended all the way to the end of the repeat consensus sequence).
 </ul>
 </p>
-<a href="#top"><font size="-2">Back to top</font></a>
 
-<A NAME="rmsequence"></A>
-<h4>Repeat Masked Sequence</h4>
-<P>
+
+<h4><a name="rmsequence"></a>Repeat Masked Sequence</h4>
+<p>
 The Repeat Masked Sequence section appears only when you run RepeatMasker and contains the masked sequence in FASTA format.  Any regions of the query sequence that contain repeats found in the sequence are replaced with N characters.
 </p>
-<a href="#top"><font size="-2">Back to top</font></a>
+</blockquote>
+
+<a href="#top"><font size="-1">Top</font></a>
 
 <A NAME="howdo"></A>
 <H3>How do I interpret the results of my search?</H3>
@@ -218,7 +220,7 @@ Most people judge the significance of a sequence alignment by two criteria: the 
 <p>As an example, assume that you have two GenBank mouse sequences, <i>Sequence A</i> and <i>Sequence B</i>.  You hypothesize that <i>Sequence A </i>is most similar to <i>Sequence B.</i>  To support this hypothesis, you must first search <i>Sequence A</i> against all GenBank mouse sequences, and then search <i>Sequence B</i> against all GenBank mouse sequences.  If <i>Sequence A</i> best matches <i>Sequence B</i> in the first alignment, and <i>Sequence B</i> best matches <i>Sequence A</i>, it suggests that these sequences are most similar to one another among all GenBank mouse sequences.
 </p>
 </p>
-<a href="#top"><font size="-2">Back to top</font></a>
+<a href="#top"><font size="-1">Top</font></a>
 
 <P>
 <A NAME="cando"></A>
@@ -235,14 +237,14 @@ To do either:
 <LI>Click Go.
 </ul>
 </p>
-<a href="#top"><font size="-2">Back to top</font></a>
+<a href="#top"><font size="-1">Top</font></a>
 
 <P>
 <A NAME="example"></A>
 <H3>Are there any sample searches?</H3>
-<p>See <A HREF="mblast_examples.shtml">Using MouseBLAST - Sample Queries</A>.
+<p>See <A HREF="mouseblast_examples_help.shtml">Using MouseBLAST - Sample Queries</A>.
 </p>
-<a href="#top"><font size="-2">Back to top</font></a>
+<a href="#top"><font size="-1">Top</font></a>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 

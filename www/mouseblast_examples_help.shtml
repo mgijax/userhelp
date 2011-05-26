@@ -1,22 +1,47 @@
-<!--#include file='include/templateHead.html'--> 
+<!--#include file='include/templateHead.html'-->
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 <title>MGI-Using MouseBLAST - Sample Queries</title>
 
-<!--#include file='include/templateBodyStart.html'--> 
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+</style>
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+   Using MouseBLAST - Sample Queries
+ </span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
 
 <!-- Title Bar -->
-  <div id="titleBarWrapper">
-  <span class="titleBarMainTitle">Using MouseBLAST - Sample Queries</span>
-  </div> 
-<!--titleBar-->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+         </td>
+</tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
 
-
+<!-- Body of User Help -->
+<p></p>
 
 <a name="top"></a>
 <P>This help document describes the following sample searches:
 <UL>
-<LI><A HREF="#example1">Find mouse protein sequences similar to Bmp2</A>
-<LI><A HREF="#example2">Find genes located within specific assembly coordinates</A>
-<LI><A HREF="#example3">Determine whether a sequence region from a strain other than  C57BL/6 contains regions of similarity to sequences associated with MGI mouse genes</A> 
+<LI><A HREF="#example1">Find mouse protein sequences similar to Bmp2</A></li>
+<LI><A HREF="#example2">Find genes located within specific assembly coordinates</A></li>
+<LI><A HREF="#example3">Determine whether a sequence region from a strain other than  C57BL/6 contains regions of similarity to sequences associated with MGI mouse genes</A> </li>
 </UL>
 </p>
 
@@ -26,60 +51,57 @@
 <p>BMPs (bone morphogenic proteins) are a large family, so there should be many similar sequences.  Enter or select the following on the MouseBLAST query form and from the results, follow links to MGI gene reports. </p>
 <blockquote>
 <table>
-  	<tr><th align="left" valign="top"><font size="-1">BLAST Program:</th><td valign="top"><font size="-1">BLASTP</td></tr>
-	<tr><th align="left" valign="top"><font size="-1">Database:</th><td valign="top"><font size="-1">UniProt Mouse</td></tr>
+  	<tr><td valign="top"><font size="-1"><b>BLAST Program:</b></td><td valign="top"><font size="-1">BLASTP</td></tr>
+	<tr><td valign="top"><font size="-1"><b>Database:</b></td><td valign="top"><font size="-1">UniProt Mouse</td></tr>
 <tr><th align="left" valign="top" colspan="2"><font size="-1">Masking Options</td></tr>
-<tr><th align="left" valign="top"><font size="-1">&nbsp;&nbsp;&nbsp;For protein queries: </th><td valign="top"><font size="-1">check both SEG and XNU </td></tr>
-<tr><th align="left" valign="top" colspan="2"><font size="-1">Query sequence </td></tr>
-<tr><th align="left" valign="top"><font size="-1">&nbsp;&nbsp;&nbsp;Sequence ID:</th><td valign="top"><font size="-1">P21274</td></tr>
-<tr><th align="left" valign="top"><font size="-1">&nbsp;&nbsp;&nbsp;Sequence database:</th><td valign="top"><font size="-1">SWISS-PROT</td></tr>
- <tr><th align="left" valign="top" colspan="2"><font size="-1">Output options</th></tr>
-<tr><th align="left" valign="top"><font size="-1">&nbsp;&nbsp;&nbsp;Number of scores to show:</th><td valign="top"><font size="-1">10</td></tr>
-<tr><th align="left" valign="top"><font size="-1">&nbsp;&nbsp;&nbsp;Number of alignments to show:</th><td valign="top"><font size="-1">100</td></tr>
+<tr><td valign="top"><font size="-1"><b>For protein queries:</b></td><td valign="top"><font size="-1">Check both SEG and XNU </td></tr>
+<tr><th align="left" valign="top" colspan="2"><font size="-1">Query sequence</td></tr>
+<tr><td valign="top"><font size="-1"><b>Sequence ID:</b></td><td valign="top"><font size="-1">P21274</td></tr>
+<tr><td valign="top"><font size="-1"><b>Sequence database:</b></td><td valign="top"><font size="-1">SWISS-PROT</td></tr>
+ <tr><td valign="top" colspan="2"><font size="-1"><b>Output options</b></td></tr>
+<tr><td valign="top"><font size="-1"><b>Number of scores to show:</b></td><td valign="top"><font size="-1">10</td></tr>
+<tr><td valign="top"><font size="-1"><b>Number of alignments to show:</b></td><td valign="top"><font size="-1">100</td></tr>
 </table></font>
-
 </blockquote>
 
-
 <B>Results</B>
-
 <P>If you do not check the box at the bottom of the query form (Exclude alignment of query sequence...), the first match may be to the query sequence itself (if the database you searched contains it). You can:<ul>
   <li>Follow the P21274 link to ExPASy (Expert Protein Analysis System). </li>
    <li>Follow the Bmp2 link to its MGI gene detail page.  Note that the MGI accession ID, gene name, and chromosome location appear in the same line as the MGI Bmp2 link.</li>
   <li>Click a link in the High Score column to bring up the BLAST output alignment section (where there are similar ExPASy and MGI links), displaying pairwise alignments for the hit.  Note that the X characters in the query sequence are masked with SEG and XNU.</li>
- 
 </ul>
 </p>
-
 
 
 <h3><A NAME="example2"></A>Find genes located within specific assembly coordinates</h3>
 <P>You know that the kit oncogene is located on chromosome 5 and that the coordinates are somewhere between 75,200,000 and 75,400,000. Locate <i>Option 2 </i>in the <b>Query sequence</b> section of the query form (Query by genomic sequence interval), and enter your information. <br>
 <BLOCKQUOTE>
    <table>
-  	<tr><th align="left" valign="top"><font size="-1">Chromosome:</th><td valign="top"><font size="-1">5</td></tr>
-  	<tr><th align="left" valign="top"><font size="-1">Coordinates</th><td valign="top"><font size="-1"> <i>between</i> &nbsp;&nbsp;&nbsp;  75,200,000 - 75,400,000  (or 75,200,000 AND 75,400,000)</td></tr>
-<tr><th align="left" valign="top"><font size="-1">Number of scores to show:</th><td valign="top"><font size="-1">25</td></tr>
-   <tr><th align="left" valign="top"><font size="-1">Number of alignments to show:</th><td valign="top"><font size="-1">25</td></tr>
+  	<tr><td valign="top"><font size="-1"><b>Chromosome:</b></td><td valign="top"><font size="-1">5</td></tr>
+  	<tr><td valign="top"><font size="-1"><b>Coordinates</b></td><td valign="top"><font size="-1"> <i>between</i>  75,200,000 - 75,400,000  (or 75,200,000 AND 75,400,000)</td></tr>
+<tr><td valign="top"><font size="-1"><b>Number of scores to show:</b></td><td valign="top"><font size="-1">25</td></tr>
+   <tr><td valign="top"><font size="-1"><b>Number of alignments to show:</b></td><td valign="top"><font size="-1">25</td></tr>
   </table>
 </BLOCKQUOTE>
 
 <B>Results</B>
 <P>The results are similar in appearance to those for Example 1.  Follow the links to see the various gene records for <I>kit</I>. </P>
-</p>
-<font size="-1"><a href="#top">Back to top</a></font>
 
+<font size="-1"><a href="#top">Top</a></font>
 
-<H3><A NAME="example3"></A>Determine whether a sequence region from a strain other than C57BL/6 contains regions of similarity to sequences associated with MGI mouse genes</H3>
+<H3><A NAME="example3"></A>
+Determine whether a sequence region from a strain other than C57BL/6 contains regions of similarity to sequences associated with MGI mouse genes</H3>
 <p>When searching with a genomic sequence, use RepeatMasker to filter any repeats.   The sequence below is a Mus musculus chromosome 1 genomic contig, strain 129/SvEvTac, GenBank entry, NT_039193. <!--from base pair xxx,xxx to xxx,xxx.-->
 </p>
+<blockquote>
 <UL>
 	<B>Program:</B> BLASTN<BR>
 	<B>Database</B> GenBank Mouse<BR>
 	<B>Masking Options for DNA Queries:</B> RepeatMasker<BR>
 	<B>Sequence:</B> <BR>
 <FONT SIZE=-1>
-<PRE>
+
+<pre>
 CACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACGCTCGTACA
 CGCACCCGGTGTACCTGTCTCCTTTGGCACTCAACACCTGGTCTTTCTCTCTACTCCGCAGAGAACTCCG
 TGGCGGCCAAATCCGGCGGCTGTTTCCCGGGATCCGCCACCGTGCACCTGGAGCAGGGCGGCACCAAGCT
@@ -166,10 +188,12 @@ TTCTGCTGTTCTGGGCACTTCAACAAAACATCAACCACAGGCATTCTATAAAACACTCCAGATCTGTTCT
 GCTTAACCCTCTCAGCCCTCAGAGGTAGATTTTTATTGACCTCATTCAAAGCTTGAGTTCCAAGAGGCCA
 AGGCACTTGTCTAAGATCCCCACTTGCCATTCTCTTAACAAAGCCAGGACTTAGAAATTGTTTTCTAAAC
 TCTTGCCTTTTCACACAAGATCAGGGTACCACATCCAGTCATCCCTGGGCC
-</PRE>
-</FONT>
+</pre>
+</font>
 
-<P></UL>
+<p></ul>
+
+</blockquote>
 <B>MouseBLAST Query Results</B>
 
 <pre><font size="-1">
@@ -238,6 +262,6 @@ For the selected sequences
 WARNING:  Descriptions of 139 database sequences were not reported due to the
           limiting value of parameter V = 25
 </pre>
-<font size="-1"><a href="#top">Back to top</a></font>
+<font size="-1"><a href="#top">Top</a></font>
 
-<!--#include file='include/templateBodyStop.html'--> 
+<!--#include file='include/templateBlankBodyStop.html'--> 

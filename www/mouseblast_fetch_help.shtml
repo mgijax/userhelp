@@ -1,43 +1,67 @@
-<!--#include file='include/templateHead.html'--> 
-<title>MGI-Using MouseBLAST - Searching by Sequence ID</title>
+<!--#include file='include/templateHead.html'-->
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
-<!--#include file='include/templateBodyStart.html'--> 
+<title>
+  <!--#include file="include/mgiversion.html"-->
+  Using MouseBLAST - Searching by Sequence ID
+</title>
+
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+</style>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+   Using MouseBLAST - Searching by Sequence ID
+ </span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
 
 <!-- Title Bar -->
-  <div id="titleBarWrapper">
-  <span class="titleBarMainTitle">Using MouseBLAST - Searching by Sequence ID</span>
-  </div> 
-<!--titleBar-->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+         </td>
+</tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
 
-
+<!-- Body of User Help -->
+<p></p>
 <A NAME="top"></A>
-<P>
-This help document answers the following questions:
+<P>This help document answers the following questions:</p>
 <ul>
 <li><a href="#know_ID">Can I search a sequence if I know the sequence accession ID?</a></li>
 <li><a href="#examples">Are there examples of sequence ID/sequence database combinations?</a></li>
 <li><a href="#retrieval">What if the MouseBLAST sequence retrieval tool is unavailable?</a></li>
   <li><a href="#invalid_ID">What if the sequence identifier is invalid?</a></li>
-</ul></p>
-<a href="#top"><font size="-1"><a href="mblast_overview.shtml">Return to Using MouseBLAST - Overview</font></a>
-
-
+<li><a href="#top"><a href="mouseblast_overview_help.shtml">Using MouseBLAST - Overview</a></li>
+</ul>
 
 <H3><a name="know_ID"></a>Can I search a sequence if I know the sequence accession ID?</H3>
-<P>Yes. You can search a sequence by entering the sequence accession identifier, (also known as the <i>sequence accession ID</i>, <i>sequence ID</i>, <i>seq ID</i>, or <i>accession ID</i>).  To have MouseBLAST fetch your sequence, find <i>Option 1</i> in the <b>Query sequence</b> section of the MouseBlast query form and do the following:
+<P>Yes. You can search a sequence by entering the sequence accession identifier, (also known as the <i>sequence accession ID</i>, <i>sequence ID</i>, <i>seq ID</i>, or <i>accession ID</i>).  To have MouseBLAST fetch your sequence, find <i>Option 1</i> in the <b>Query sequence</b> section of the MouseBlast query form and do the following:</p>
+
 <OL>
-<LI>In the box beside Sequence ID, enter the unique  identifier for the sequence (e.g., NM_021099).
-<LI>Select the remote public sequence database where your unique identifier is valid.  (For NM_021099, the correct database is RefSeq.)
+<LI>In the box beside Sequence ID, enter the unique  identifier for the sequence (e.g., NM_021099).</li>
+<LI>Select the remote public sequence database where your unique identifier is valid.  (For NM_021099, the correct database is RefSeq.)</li>
+
 <li>Click Search.</li>
 <li>The MouseBLAST Query Results report displays any sequence matches. Click to place a check mark beside any you wish to download or forward to MouseBLAST. </li>
 </OL>
-</p>
 
 <h3><a name="examples"></a>Are there examples of sequence ID/sequence database combinations?</h3>
-<P>
-The following table shows examples of sequence database and sequence ID combinations. <b> Note:</b> Items in the Unique Seq ID column are representative of IDs in databases listed in the Sequence Provider column; however, on any given day querying by that ID may not yield a result, due to database updates or changes.</p>
+<P>The following table shows examples of sequence database and sequence ID combinations. <b> Note:</b> Items in the Unique Seq ID column are representative of IDs in databases listed in the Sequence Provider column; however, on any given day querying by that ID may not yield a result, due to database updates or changes.</p>
 <blockquote>
-<p>
 <table border="1" cellpadding="3">
 <tr><td><b>Sequence Provider</b></td><td><b>Unique Seq ID</b></td></tr>
 <tr>
@@ -76,9 +100,8 @@ The following table shows examples of sequence database and sequence ID combinat
 <td>NIA Mouse Gene Index</td>
 <td>NAP025317-001</td>
 </tr>
-</table></p>
+</table>
 </blockquote>
-
 
 
 <h3><a name="retrieval"></a>What if the MouseBLAST sequence retrieval tool is unavailable? </h3>
@@ -88,7 +111,7 @@ The following table shows examples of sequence database and sequence ID combinat
 <h3><a name="invalid_ID"></a>What if the sequence identifier is invalid?</h3>
 <p>MouseBLAST returns an error message when a unique sequence identifier is not valid.  Either retype the identifier and repeat the search or enter a different identifier.
 </p>
-<font size="-1"><a href="#top">Back to Top</a></font>
+<font size="-1"><a href="#top">Top</a></font>
 
-<!--#include file='include/templateBodyStop.html'--> 
+<!--#include file='include/templateBlankBodyStop.html'--> 
 
