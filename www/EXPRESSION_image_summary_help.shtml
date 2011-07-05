@@ -1,0 +1,58 @@
+<!--#include file='include/templateHead.html'-->
+<title>
+  <!--#include file="include/mgiversion.html"-->
+MGI-Interpreting the Gene Expression Data Images Query by Gene -- Summary</title>
+
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+<style type="text/css">
+</style>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+Interpreting the Gene Expression Data Images Query by Gene -- Summary</span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+    </tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+<!--titleBar-->
+<A NAME="top"></A>
+<h3>How do I interpret this report?</h3>
+
+<p>When there are images of expression data for a given gene, the word <i>Images</i>, followed by a number, appears in the Expression section of the Gene Detail page. Clicking the number returns a summary page where you can access all that gene's expression images.</p>
+
+<ul>
+  <li>The symbol, name, and MGI accession ID of the gene whose expression images are displayed on this report appear at the top of the page.</li><br>
+
+<li>The total number of expression images (panes) associated with expression data for this gene appears near the top of the page. Each figure contains at least one expression image (pane); some contain many. There is one thumbnail for each figure in the summary.</li><br>
+
+<li>To the right of each thumbnail is the reference where the data was obtained, its figure label, and the type of expression study or studies illustrated in the figure, preceded by the appropriate pane labels (if given). Only expression studies of this gene are reported.</li><br>
+
+<li>Click the thumbnail or figure label to access the image detail page. There you can view a full-sized image and find links to all assays that refer to this image.</li><br>
+
+<li>Thumbnails are first sorted by the assay types they illustrate, then by year of publication and finally by reference (J) number.  Figures showing only <i>in situ</i> assays are first, followed by figures showing both <i>in situ</i> and gel assays, and concluding with figures showing gel assays only. <!--Within these groups, images are sorted by publication date, with the most recent publications appearing first, and then by figure label.--></li><br>
+
+<li>Click <i>Next</i> or <i>Previous</i> to navigate the image set. <i>Previous</i> functions like a <i>Back</i> button. <i>First</i> returns you to the initial summary page;  <i>Last</i> takes you to the last summary page.</li><br>
+
+<li>To change the number of figures shown per page, use the drop-down box in the upper right. Choose between 10, 25, or 50 figures per page or All. If you have a slow computer connection, it is advisable to choose the smaller numbers.</li>
+
+</ul>
+</p>
+  
+<!--#include file='include/templateBlankBodyStop.html'--> 
+

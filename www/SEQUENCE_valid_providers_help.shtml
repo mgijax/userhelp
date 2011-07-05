@@ -1,0 +1,161 @@
+<!--#include file='include/templateHead.html'-->
+
+<title><!--#include file="include/mgiversion.html"-->MGI-Valid Sequence Provider and Type Combinations</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;  
+window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">MGI-Valid Sequence Provider and Type Combinations</span>
+</div>
+
+<style type="text/css">
+</style>
+
+
+<!-- Container Table -->
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+  </td>
+</tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+<!-- Body of User Help -->
+
+
+
+<P>Only the following sequence provider and sequence type combinations are available or valid for use on MGI's Mouse Sequence Query Form.</P>
+<blockquote>
+<table border="1" cellspacing="1" cellpadding="5">
+<tr>
+<th valign="top">Sequence Provider</th>
+<th valign="top">Valid Sequence Type</th>
+</tr>
+
+<tr>
+<td valign="top">VEGA Transcript</td>
+<td valign="top">RNA</td>
+</tr>
+
+<tr>
+<td valign="top">Ensembl Transcript</td>
+<td valign="top">RNA</td>
+</tr>
+
+<tr>
+<td valign="top">RefSeq</td>
+<td valign="top">RNA, polypeptide</td>
+</tr>
+
+<tr>
+<td valign="top">GenBank/EMBL/DDBJ:Rodent</td>
+<td valign="top">DNA, RNA</td>
+</tr>
+
+<tr>
+<td valign="top">GenBank/EMBL/DDBJ:Patent</td>
+<td valign="top">DNA, RNA</td>
+</tr>
+
+<tr>
+<td valign="top">GenBank/EMBL/DDBJ:HTC</td>
+<td valign="top">DNA, RNA</td>
+</tr>
+
+<tr>
+<td valign="top">GenBank/EMBL/DDBJ:EST</td>
+<td valign="top">DNA, RNA</td>
+</tr>
+
+<tr>
+<td valign="top">GenBank/EMBL/DDBJ:HTG</td>
+<td valign="top">DNA, RNA</td>
+</tr>
+
+<tr>
+<td valign="top">GenBank/EMBL/DDBJ:STS</td>
+<td valign="top">DNA, RNA</td>
+</tr>
+
+<tr>
+<td valign="top">GenBank/EMBL/DDBJ:GSS</td>
+<td valign="top">DNA, RNA</td>
+</tr>
+
+<tr>
+<td valign="top">GenBank/EMBL/DDBJ: Synthetic</td>
+<td valign="top">DNA, RNA</td>
+</tr>
+
+<tr>
+<td valign="top">GenBank/EMBL/DDBJ</td>
+<td valign="top">DNA, RNA</td>
+</tr>
+
+<tr>
+<td valign="top">Vega Gene Model</td>
+<td valign="top">DNA</td>
+</tr>
+
+
+
+<tr>
+<td valign="top">Ensembl Gene Model</td>
+<td valign="top">DNA</td>
+</tr>
+
+<tr>
+<td valign="top">NCBI Gene Model</td>
+<td valign="top">DNA</td>
+</tr>
+
+
+<tr>
+<td valign="top">VEGA Protein</td>
+<td valign="top">polypeptide</td>
+</tr>
+
+<tr>
+<td valign="top">Ensembl Protein</td>
+<td valign="top">polypeptide</td>
+</tr>
+
+
+
+<tr>
+<td valign="top">DFCI Mouse Gene Index</td>
+<td valign="top">RNA</td>
+</tr>
+
+<tr>
+<td valign="top">DoTS</td>
+<td valign="top">RNA</td>
+</tr>
+
+<tr>
+<td valign="top">NIA Mouse Gene Index</td>
+<td valign="top">RNA</td>
+</tr>
+
+<tr>
+<td valign="top">SWISS-PROT</td>
+<td valign="top">polypeptide</td>
+</tr>
+
+<tr>
+<td valign="top">TrEMBL</td>
+<td valign="top">polypeptide</td>
+</tr>
+</table>
+</blockquote></p>
+
+<!--#include file='include/templateBlankBodyStop.html'--> 

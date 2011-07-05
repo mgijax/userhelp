@@ -1,0 +1,438 @@
+<!--#include file='include/templateHead.html'-->
+
+<title>
+  <!--#include file="include/mgiversion.html"-->
+MGI-Interpreting a Sequence Summary</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;  
+
+window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+</style>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+Interpreting a Sequence Summary </span>
+</div>
+
+<!-- Container Table -->
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+  </td>
+</tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+<!-- Body of User Help -->
+
+
+<A NAME="top"></A> 
+
+<P>This document answers the following questions about a sequence summary:</P>
+
+<UL>
+<LI><A HREF="#access">When does a sequence summary appear?</A></LI>
+<LI><A HREF="#contain">What's in a sequence summary?</A></LI>
+<!--<li><a href="#sort">How is this report sorted?</a></li>-->
+<LI><A HREF="#usage">How do I use a sequence summary?</A></LI>
+   <UL>
+   <LI><A HREF="#single">How do I view details for a single sequence?</A></LI>
+   <LI><A HREF="#fasta">How do I download sequences in FASTA format?</A></LI>
+   <LI><A HREF="#mouseblast">How do I forward sequences to MouseBLAST?</A></LI>
+   <LI><A HREF="#buttons">How do the buttons work? What does <i>Invert</i> do?</A></LI>
+   </UL>
+</LI>
+<LI><A HREF="#ftp">I got a summary with a "Link to Results on FTP Site" message. What do I do now?</A></LI>
+<LI><A HREF="#msqf">I filled in fields on the Mouse Sequence Query Form and got this information. What does it tell me?</A></LI>
+<LI><A HREF="#marker_detail">I clicked a link on an MGI Gene Detail report and got this information. What does it tell me?</A></LI>
+<LI><A HREF="#reference_detail">I clicked a link on an MGI Reference Detail report and got this information. What does it tell me?</A></LI>
+<LI><A HREF="#fields">What can I do with sequence summary information?</A></LI>
+<LI><A HREF="#resolved">What does it mean if a value cannot be resolved to an MGI controlled vocabulary?</A></LI>
+</ul>
+<P>See also:</P>
+<UL>
+<LI><A HREF="<!--#include file='include/glossary_url.html'-->">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
+<LI><A HREF="SEQUENCE_help.shtml">Using the Mouse Sequence Query Form</A></LI>
+
+<LI><A HREF="SEQUENCE_detail_help.shtml">Interpreting Sequence Detail Reports</A></LI>
+
+<LI><A HREF="SEQUENCE_query_tips_help.shtml">Sequence Query Tips</A></LI>
+
+<LI><A HREF="mouseblast_basic_steps_help.shtml">Using MouseBLAST - Basic Steps</A></LI>
+</UL>
+
+
+<H3><A NAME="access"></A>When does a sequence summary appear?</H3>
+
+<P>A sequence summary appears:</P>
+
+<BLOCKQUOTE>
+<TABLE BORDER="1" CELLPADDING="4" WIDTH="100%">
+<TR>
+<TH ALIGN="left" VALIGN="top">When you search for sequences...</TH>
+<TH ALIGN="left" VALIGN="top">For field details, see...</TH>
+</TR>
+
+<TR>
+<TD VALIGN="top">using the Web option in the Output Format field</TD>
+<TD VALIGN="top"><A HREF="#msqf">I filled in fields on the Mouse Sequence Query Form...</A></TD>
+</TR>
+
+<TR>
+<TD VALIGN="top">from a Gene Detail report</TD>
+<TD VALIGN="top"><A HREF="#marker_detail">I clicked a link on a Gene Detail report...</A> </TD>
+</TR>
+
+<TR>
+<TD VALIGN="top">from on a Reference Detail report</TD>
+<TD VALIGN="top"><A HREF="#reference_detail">I clicked a link on a Reference Detail report...</A></TD>
+</TR>
+</TABLE>
+</BLOCKQUOTE>
+</p>
+
+
+<H3><A NAME="contain"></A>What's in a sequence summary?</H3>
+
+<P>The Mouse Sequences Query Results summary appears when you select either the Web or Web without toolbar option from the Output Format section of the Mouse Sequences Query Form. The summary provides a general description of each sequence that your query returns. The summary lists:</P>
+
+<UL>
+<LI>Query parameters and sort options from the Mouse Sequence Query Form.</LI>
+
+<LI STYLE="list-style: none"><BR>
+</LI>
+
+<LI>Number of matching sequences displayed out of number found (e.g.,  100 of 171 sequences displayed)</LI>
+
+<LI STYLE="list-style: none"><BR>
+</LI>
+
+<LI>Summary information about the sequences matching your query, in columns. Depending on items checked in the <A HREF="SEQUENCE_help.shtml#sort">Sorting and output format</A> section of the sequences query form, columns headings can include Select (for your check marks) Sequence, Version, Type, Length, Strain/Species, Description from Sequence Provider, Source, Tissue, Library, Clone Collection, Marker Symbol, Marker Name, Map Position, Genome Coordinates. The default is to return sequence, type, length, strain/species, description, clone collection and marker symbol details.</LI>
+</UL>
+
+<P>You can select a sequence and view details (see <A HREF="SEQUENCE_detail.shtml">Using Sequence Detail Reports</A>), or you can download it in <A HREF="#fasta">FASTA</A> format or forward it to <A HREF="#mouseblast">MouseBLAST</A>.
+</P>
+
+<font size="-1"><a href="#top">Top</a>
+</font>
+
+<!--<h3><a name="sort"></a>How is this report sorted?</h3> 
+
+<p>The default sort for the Sequence summary is <i>Type</i> which translates to the following order:
+<blockquote>
+<table border="1" cellspacing="2" cellpadding="3" width="!">
+<tr><th valign="top">Sort </th><th valign="top">Sequence attribute</th></th></tr>
+  <tr><td valign="top">First</td><td valign="top">Type </td></tr>
+  <tr><td valign="top">Second</td><td valign="top">Provider </td></tr>
+  <tr><td valign="top">Third</td><td valign="top">Length (descending)</td></tr>
+</table>
+
+</blockquote>
+</p>
+<p>
+There is no further sort by the division (for example,<i>Rodent</i> or <i>HTC</i> within the sequence provider. All GenBank sequences, regardless of division, undergo a single sort. See also <A HREF="SEQUENCE_help.shtml#sort">Sorting and output format</A> for more sort options on the Mouse Sequence Query Form.
+</p>
+<font size="-1"><a href="#top">Top</a>
+</font>-->
+
+
+
+<H3><A NAME="usage"></A>How do I use a sequence summary?</H3>
+
+<P>There are several ways to use a sequence summary. You can:</P>
+
+<OL>
+<LI>view sequence details for a single sequence by clicking either the <B>MGI Sequence Detail</B> or the provider (e.g., GenBank, RefSeq, and so on) link.</LI>
+
+<LI>download one or more sequences in <A HREF="#fasta">FASTA</A> format.</LI>
+
+<LI>forward one or more sequences to <A HREF="#mouseblast">MouseBLAST</A>.</LI>
+</OL>
+</p>
+
+
+<font size="-1"><a href="#top">Top</a>
+</font>
+<H3><A NAME="single"></A>How do I view details for a single sequence?</H3>
+
+<P>You can elect to view the sequence details in the provider's database or in MGI.</P>
+
+<OL>
+<LI>Click the desired provider link (e.g., GenBank |EMBL |DDBJ).<BR>
+The provider's sequence record appears.</LI>
+
+<LI>Click <B>MGI Sequence Detail</B>.<BR>
+The detail record for that sequence as stored in MGI appears. See <A HREF="SEQUENCE_detail.shtml">Using Sequence Detail Reports</A>.</LI>
+</OL>
+
+<font size="-1"><a href="#top">Top</a>
+</font>
+<H3><A NAME="fasta"></A>How do I download sequences in FASTA format?</H3>
+
+<P>To download sequences in FASTA format:</P>
+
+<OL>
+<LI>Click to put a check mark in the <B>Select</B> column next to one or more sequences.</LI>
+
+<LI>Click the arrow next to <B>For the selected sequences.</B></LI>
+
+<LI>Click <B>download in FASTA format</B>.</LI>
+
+<LI>Click <B>GO</B>.</LI>
+</OL>
+
+<font size="-1"><a href="#top">Top</a>
+</font>
+<H3><A NAME="mouseblast"></A>How do I forward sequences to MouseBLAST?</H3>
+
+<P>To forward sequences to MouseBLAST:</P>
+
+<OL>
+<LI>Click to put a check mark in the <B>Select</B> column next one or more sequences.</LI>
+
+<LI>Click the arrow next to <B>For the selected sequences.</B></LI>
+
+<LI>Click <B>forward to MouseBLAST</B>.</LI>
+
+<LI>Click <B>GO</B>.</LI>
+</OL>
+</p>
+<p>For additional information, see:
+<ul>
+   <li><a href="mblast_select_seq_menu.shtml">Using the Forward to MouseBLAST Form</a></li>
+ <li><a href="mblast_output.shtml">Interpreting the MouseBLAST Output Report</a></li>  
+</ul>
+</p>
+<font size="-1"><a href="#top">Top</a></font>
+
+<H3><A NAME="ftp"></A>I got a summary with a "Link to Results on FTP Site" message. What do I do now?</H3>
+
+<P>The Mouse Sequence Summary with the FTP link summarizes your query parameters at the top of the page and beneath this, lists the number of items that matched your query.</P>
+
+<UL>
+<LI>If you want to retrieve those matches right now, click the link (i.e., <I>ftp://ftp.informatics.jax.org/wirequests/nnnnnn</I>).</LI>
+
+<LI>If you want to access your results later, copy or save the URL to the MGI FTP site and make a note of how long they will be retained. If you don't retrieve your results within 72 hours, you'll have to rerun this query.</LI>
+</UL>
+
+
+<h4>Example: FASTA summary with link to MGI FTP site</h4>
+<H4 ALIGN="center"><FONT FACE="arial, Helvetica, Sans Serif">Mouse Sequences<BR>
+Query Results -- Summary</FONT></H4>
+
+<BLOCKQUOTE>
+<ALIGN LEFT=""><font face="courier New, Courier" size="-1"><U>Query Summary</U><BR>
+ Type: equals RNA<BR>
+Chromosome: on 2<BR>
+ Marker Symbol/Name: contains kit searching current symbols/names and synonyms.<BR>
+Sort: by Type<BR>
+ 71 of 71 sequences displayed<BR>
+Link to Results on FTP Site<BR>
+<BR>
+ ftp://ftp.informatics.jax.org/pub/custom/generated/@22394.1/queryResults<BR>
+<BR>
+ Results will be available for 72 hours. Your results will be available until<BR>
+ 05/09/2004 at 04:46 pm EDT.<BR>
+<BR>
+ Print or save this page to save the URL to your results.<BR>
+Results Summary<BR>
+20 of 20 sequences were successfully retrieved in FASTA format.<BR>
+
+<!--Mouse Sequences<br>
+Query Results Summary <br>	 
+Query Summary<br>
+Marker symbol/name:= Ggn searching current symbols/names & synonyms<br>
+Display limit:equals 100<br>
+Display format:equals Tab-delimited text to ftp site 5 matching reference SNPs displayed<br>
+Link to Results on FTP Site<br><br>
+
+ftp://ftp.informatics.jax.org/pub/custom/wi_generated/@26713.1/queryResults<br>
+
+Results will be available for 72 hours. Your results will be available until 08/25/2005 at 01:35 am EDT.<br>
+
+Print or save this page to save the URL to your results.-->
+
+</FONT></ALIGN>
+</BLOCKQUOTE>
+
+
+
+
+
+
+<font size="-1"><a href="#top">Top</a>
+</font>
+<H3><A NAME="buttons"></A>How do the buttons work? What does <i>Invert</i> do?</H3>
+<p>
+<blockquote>
+<table border="1" cellpadding="4">
+<tr>
+<th valign="top">Button</th>
+<th>Action</th>
+<th>Use this when...</th>
+</tr>
+
+<tr>
+<th align="left" valign="top">Select all</th>
+<td>Selects all the sequences on the list.</td>
+<td valign="top">You want to examine every sequence.</td>
+</tr>
+
+<tr>
+<th align="left" valign="top">Invert</th>
+<td valign="top">A toggle switch. Removes any check marks and puts them in any boxes not previously selected.</td>
+<td align="left" valign="top">
+<ul>
+<li>the list of sequences you want to see is longer than the list you do not want to see. Click <b>Select All</b>, click the <b>undesired</b> sequences, click <b>Invert</b>.</li>
+
+<li>you don't want the action of <b>Reset</b>.</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<th align="left" valign="top">Reset</th>
+<td valign="top">Removes any check marks from boxes.</td>
+<td>You want to start over and make all new selections.</td>
+</tr>
+
+<tr>
+<th align="left" valign="top">Go</th>
+<td>Activates your choice (or the default) from the selection menu.</td>
+<td>You are ready to download a sequence in FASTA format or forward it to MouseBLAST. See <a href="#fasta">How do I download sequences in FASTA format?</a> or <a href="#mouseblast">How do I forward sequences to MouseBLAST?</a> for details.</td>
+</tr>
+</table>
+</blockquote>
+</p>
+
+<font size="-1"><a href="#top">Top</a>
+</font>
+<H3><A NAME="msqf"></A>I filled in fields on the Mouse Sequence Query Form and got this information. What does it tell me?</H3>
+
+<UL>
+<LI>At the top of the page is a list of the query parameters that produced this report.</LI>
+
+<LI>The table below identifies and provides information about the sequences matching your search criteria.<BR>
+<BR>
+</LI>
+</UL>
+
+<P>Examine this information, and, if it is not what you expect, return to the Query Form and change your parameters. See <A HREF="SEQUENCE_query_hints">Sequence Query Hints</A> for suggestions on how to do this.</P>
+
+<UL>
+<LI>Click either <B>MGI Sequence Detail</B> or one of the provider links in the report to view sequence details.</LI>
+
+<LI>Select one or more sequences to download in FASTA format or forward to MouseBLAST. See <A HREF="#fasta">FASTA</A> or <A HREF="#mouseblast">MouseBlast</A> for details.</LI>
+</UL>
+
+<P>See <A HREF="#fields">What can I do with sequence summary information?</A> for more details.</P>
+
+<font size="-1"><a href="#top">Top</a>
+</font>
+<H3><A NAME="marker_detail"></A>I clicked a link on a Marker Detail report and got this information. What does it tell me?</H3>
+
+<P>You were looking for sequences associated with a gene and clicked <B>All Sequences</B> from the <B>Sequences</B> section of a gene detail report.</P>
+
+<P>Below the header of the Mouse Sequence Summary is the marker symbol, name, and ID, followed by the number of items displayed out of the number found.</P>
+
+<P>The table provides information about the sequences associated with the marker. If a sequence is from the genome assembly, the coordinates appear in the Description from Sequence Provider column.</P>
+
+<UL>
+<LI>Click either <B>MGI Sequence Detail</B> or one of the provider links in the report to view sequence details.</LI>
+
+<LI>Select one or more sequences to download in FASTA format or forward to MouseBLAST. See <A HREF="#fasta">FASTA</A> or <A HREF="#mouseblast">MouseBlast</A> for details.</LI>
+</UL>
+
+<P>See <A HREF="#fields">What can I do with sequence summary information?</A> for more details.</P>
+
+<font size="-1"><a href="#top">Top</a>
+</font>
+<H3><A NAME="reference_detail"></A>I clicked a link on a Reference Detail report and got this information. What does it tell me?</H3>
+
+<P>You were looking for sequences associated with a reference and used the <B>Sequences</B> link on a Reference Detail report. The Sequence Summary provides the J number and citation of the reference.</P>
+
+<P>The table provides information about the sequences associated with the reference.</P>
+
+<UL>
+<LI>Click either <B>MGI Sequence Detail</B> or one of the provider links in the report to view sequence details.</LI>
+
+<LI>Select one or more sequences to download in FASTA format or forward to MouseBLAST. See <A HREF="#fasta">FASTA</A> or <A HREF="#mouseblast">MouseBlast</A> for details.</LI>
+</UL>
+
+<P>See <A HREF="#fields">What can I do with sequence summary information?</A> for more details.</P>
+
+<font size="-1"><a href="#top">Top</a>
+</font>
+<H3><A NAME="fields"></A>What can I do with sequence summary information?</H3>
+
+<P>After reviewing this information, you may want to run your query again, and change the...</P>
+
+<UL>
+<LI><A HREF="SEQUENCE_help.shtml#max_no">maximum number of items returned</A> (for example, when the number of query results available is greater than the number appearing in your browser).</LI>
+
+<LI>columns to <A HREF="SEQUENCE_help.shtml#show">Show in results</A> or the <A HREF="SEQUENCE_help.shtml#sortby">Sort by</A> order of those results.</LI>
+
+<LI><A HREF="SEQUENCE_help.shtml#output_format">output format</A> (for example, to display tab-delimited text for use in a spreadsheet or FASTA format for use with a BLAST tool).</LI>
+
+<LI>query parameters so that you can narrow (or expand) your results. See <A HREF="SEQUENCE_query_hints.shtml">Sequence Query Hints</A> for suggestions on how to do this.</LI>
+</UL>
+
+ 
+
+<P>On the sequence summary, you can follow links to:</P>
+
+<UL>
+<LI>the MGI Sequence Detail report or the provider's sequence record</LI>
+
+<LI>an MGI Gene Detail report containing more information about the marker.</LI>
+</UL>
+
+<P>Depending on how you access this summary and your sort choices, some or all of the following fields and links appear:</P>
+<P><table width="!" cellpadding="2" align="center">
+<tr align="center"><td><a href="#select">Select</a> | <a href="#sequence">Sequence</a> | <a href="#version">Version</a> | 
+<a href="#type">Type</a> | <a href="#length">Length</a> | <a href="#desc">Description from sequence provider</a> | <a href="#strain">Strain</a> | <a href="#tissue">Tissue</a> | <a href="#library">Library</a> | <a href="#marker_symbol">Marker symbol</a> | <a href="#marker_name">Marker name</a> | <a href="#position">Map position</a> | <a href="#coord">Genome Coordinates</a></td></tr>
+   </table>
+  </P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR><TH>Field</TH><TH>Description</TH></TR>
+<TR><TH ALIGN="left" VALIGN="top"><a name="select"></a>Select</TH><TD ALIGN="top" VALIGN="left">Check boxes for selecting sequences for downloading, or forwarding.</TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="sequence"></A>Sequence</TH><TD><UL><LI>Sequence identifier</LI>
+<LI>Name of the sequence provider, linked to the associated sequence in the provider's database.</LI>
+<LI>Link to the MGI sequence detail report</LI></UL></TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="version"></A>Version</TH><TD ALIGN="top" VALIGN="left">Number assigned by the provider to this update of the sequence information. If blank, the provider does not furnish this information.</TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="type"></A>Type</TH><TD ALIGN="top" VALIGN="left">Type of sequence: RNA, DNA, or polypeptide. <!--Sorting order is as follows:--></TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><a name="length"></a>Length</TH><TD ALIGN="top" VALIGN="left">Length of the sequence, in base pairs (RNA, DNA) or amino acids (polypeptides).</TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><a name="desc"></a>Description from Sequence Provider</TH><TD ALIGN="top" VALIGN="left">Information about the sequence from the provider you selected (RefSeq, GenBank, and so on.)</TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="strain"></A>Strain/Species</TH><TD>Mouse strain (or species if other than laboratory mouse) from which the sequence was derived. If the strain/species cannot be resolved to an MGI controlled vocabulary a message to this effect appears, marked with an asterisk. See <A HREF="#resolved">What does it mean if a value cannot be resolved to an MGI controlled vocabulary?</A></TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="tissue"></A>Source Tissue</TH>
+<TD>Mouse tissue from which the sequence was derived.</TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="library"></A>Library</TH><TD>Mouse library from which the sequence was derived.</TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="clone_collection"></A>Clone Collection</TH><TD>Name of clone collections from which the sequence was derived. (<B>Not Applicable</B> appears for RefSeq, UniProt, DFCI, DoTS,  NIA sequences)</TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><a name="marker_symbol"></a>Marker Symbol</TH><TD>Gene/marker symbol associated with the sequence(s), linked to the MGI Gene Detail report.</TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><a name="marker_name"></a>Marker Name</TH><TD>Name of the gene/marker associated with the sequence.</TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><a href="#position"></a>Map Position</TH><TD>Chromosome(s) and cM position(s) of the markers each sequence is associated with.</TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><a name="coord"></a>Genome Coordinates</TH><TD>Assembly sequence coordinates for the mapped gene/marker. Format is <I>Chromosome# (beginning coordinate - end coordinate)</I></TD></TR>
+</TABLE>
+</p>
+
+<font size="-1"><a href="#top">Top</a>
+</font>
+<H3><A NAME="resolved"></A>What does it mean if a value cannot be resolved to an MGI controlled vocabulary?</H3>
+
+<P>Providers describe sequence attributes (strains/species, tissues, libraries, clone collections, and so on) in their reports. MGI captures these original values, converts them to MGI controlled vocabularies if possible, and stores them in the MGI databases. Once captured, values are called <I>resolved</I>, and you can use them as search terms on the Mouse Sequence Query Form. If the original value is not resolved to a controlled vocabulary term, it does not produce results if queried upon; a message to this effect, marked with an asterisk, appears on your query report.</P>
+
+<font size="-1"><a href="#top">Top</a></font>
+
+
+<!--#include file='include/templateBlankBodyStop.html'--> 

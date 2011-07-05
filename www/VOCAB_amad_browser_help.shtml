@@ -1,0 +1,142 @@
+<!--#include file='include/templateHead.html'-->
+<title>
+  <!--#include file="include/mgiversion.html"-->
+MGI-Using the Adult Mouse Anatomical Dictionary Browser</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+
+</style>
+
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+Using the Mouse Adult Mouse Anatomical Dictionary Browser </span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+
+
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+    </tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+<!-- Body of User Help -->
+
+<A name="top"></A>
+
+<P>The Anatomical Dictionary for the Adult Mouse was developed and is being refined to provide standardized nomenclature for anatomical structures in the postnatal mouse (Theiler stage 28).</p>
+<P>
+Use the Adult Mouse Anatomical Dictionary Browser to view the anatomical terms and their relationships in a hierarchical display.</p>
+</P>
+
+<A NAME="top"></A>
+<P>This help document answers the following questions about the Browser:
+ <UL>
+   <LI><A HREF="#howis">How is the Adult Mouse Anatomical Dictionary organized?</A></LI>
+  <LI><A HREF="#whatcan">What can I use the Browser to find?</A></LI>
+ <LI><A HREF="#include">What is the difference between browsing and searching?</A></LI>
+  <LI><A HREF="#browse">How do I browse the vocabulary?</A></LI>
+<LI><A HREF="#search">How do I search the vocabulary?</A></LI>
+  <LI><A HREF="#whatfind">What can I find on the Query Results page?</A></LI>
+ <LI><A HREF="#td_page">How do I interpret a Term Detail page?</A></LI>
+ <LI><A HREF="#contribute">How can I contribute to the vocabulary?</A></LI>
+ </UL>
+</p>
+<P>See also:</p>
+<ul>
+  <li><A HREF="<!--#include file='include/glossary_url.html'-->">MGI Glossary</A> for any unfamiliar terms or acronyms.</li>
+
+</ul>
+
+
+ <H3><A NAME="howis"></A>How is the Adult Mouse Anatomical Dictionary organized?</H3>
+<P>The Anatomical Dictionary for the Adult Mouse is organized spatially and functionally, using "is a" and "part of" relationships. Anatomical terms are arranged as a hierarchy from body region or organ system to tissue substructure.</P>
+
+<P>Modeling the anatomy hierarchically makes it possible to record
+expression results from assays with differing spatial resolution in a consistent and integrated manner. Organizing the anatomical terms as a Directed Acyclic Graph (DAG), i.e., in which a term can have more than one parent, allows presentation of the anatomy from multiple perspectives.</P>
+<A HREF="#top"><font size="-1">Top</font></A>
+
+<H3><A NAME="whatcan"></A>What can I use the Browser to find?</H3>
+<P>Use the Browser to find standardized vocabulary terms for anatomical structures present in the postnatal mouse (Theiler stage 28).</P>
+<A HREF="#top"><font size="-1">Top</font></A>
+
+<H3><A NAME="include"></A>What is the difference between browsing and searching the Dictionary?</H3>
+<P>You can either browse or search from the Adult Mouse Anatomical Dictionary Browser entry page.
+<UL>
+  <LI><B>Browsing</B> brings up a <B>Term Detail</B> page displaying the highest level terms in the hierarchy, providing a starting point for navigating the ontology to locate specific anatomical structures. Clicking on individual terms results in <B>Term Detail</B> pages displaying parents (superstructures), siblings (structures at the same level), and children (substructures).</LI>
+  <LI><B>Searching</B> by entering a text string or Adult Mouse Anatomical Dictionary (MA) accession number in the <B>Query</B> field brings up a <B>Query Results</B> page displaying all structures that match the query.</LI>
+</UL></P>
+<A HREF="#top"><font size="-1">Top</font></A>
+
+<H3><A NAME="browse"></A>How do I browse the vocabulary?</H3>
+<P>To browse the vocabulary, click <B>Adult Mouse Anatomical Dictionary</B> on the Adult Mouse Anatomical Dictionary Browser page. A <B>Term Detail</B> page appears displaying the highest level terms in the hierarchy. Click on structures to navigate progressively through the ontology in order to locate specific anatomical terms.</P>
+<A HREF="#top"><font size="-1">Top</font></A>
+
+<H3><A NAME="search"></A>How do I search the vocabulary?</H3>
+<P>The <B>Query</B> field accepts any text string and searches for all terms containing that string plus any synonyms. For  example, entering <I>cranium</I> returns all terms containing the word <I>cranium</I>, such as <I>chondrocranium, viserocranium, chondrocranium bone</I> and <I>viserocranium bone,</I> as well as, for example, <I>neurocranium</I>, which is a synonym for chondrocranium.
+<P>Entering the MA accession identifier in the <B>Query</B> field returns only an exact match on the number.
+
+<P>To search the Adult Mouse Anatomical Dictionary Browser:
+<OL>
+ <LI>Type either a text string or an MA accession number in the Query box. </LI>
+ <LI>Click <B>Submit Query</B>.  The search returns a <B>Query Results</B> page that displays all matching terms  in the vocabulary.
+<LI>Click the desired term to view its <B>Term Detail</B> page.
+</OL></P>
+<A HREF="#top"><font size="-1">Top</font></A><BR>
+<H3><A NAME="whatfind"></A>What can I find on the Query Results page?</H3>
+<P>The <B>Query Results</B> page lists all matching anatomical terms in the vocabulary. Click the desired term to view its <B>Term Detail</B> page.</P>
+<A HREF="#top"><font size="-1">Top</font></A>
+
+<H3><A NAME="td_page"></A>How do I interpret the Term Detail page?</H3>
+<P>The <B>Term Detail</B> page provides the following information.
+<P>
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Field</TH><TH>Color</TH><TH>Description</TH></TR>
+<TR><TD VALIGN="top">MA term, MA id,<BR>Definition, Synonyms,<BR>Number of paths to term</TD>
+<TD VALIGN="top">
+   <TABLE BORDER="0" CELLSPACING="0" BGCOLOR="#FFFFCC"><TR><TD VALIGN="top">Yellow</TD></TR>
+   </TABLE>
+<TD VALIGN="top">The selected anatomical term, the unique identifier (accession number) for the term, the definition of the term, any synonyms associated with the term (if available), and the number of paths to the term within the ontology.</TD></TR>
+<TR>
+<TD VALIGN="top">Name, Unique identifier</TD><TD VALIGN="top"><FONT COLOR="#FF0000">Red</FONT></TD><TD>Name of the anatomical term selected, followed by its unique identifier. There is one identifier for each term in the Adult Mouse Anatomical Dictionary. This means that the ID is always the same regardless of how many times the term is displayed as part of a specific path to that term. The unique identifier for a given structure remains the same even if its name changes.</TD></TR>
+<TR><TD VALIGN="top">Links</TD><TD VALIGN="top"><FONT COLOR="#0000FF">Blue</FONT><TD>List of all paths to the term. Click the desired link to bring up a detail page for that term.</TD></TR>
+<TR>
+<TD VALIGN="top"><IMG SRC="<!--#include file='include/wi_url.html'-->images/shared/is-a.gif">&nbsp;"Is-a" relationship</TD>
+<TD VALIGN="top"><FONT COLOR="#008000">Green</FONT></TD>
+<TD VALIGN="top">Indicates that the term is an instance or type of the more general term (parent or superstructure) above it in the hierarchy.</TD></TR>
+
+<TR><TD VALIGN="top"><IMG SRC="<!--#include file='include/wi_url.html'-->images/shared/part-of.gif">&nbsp;"Part-of" Relationship</TD>
+<TD VALIGN="top"><FONT COLOR="#800080">Purple</FONT><TD VALIGN="top">Indicates that the term is a component of the more general term (parent or superstructure) above it in the hierarchy.</TD></TR>
+
+<TR>
+<TD VALIGN="top"><FONT COLOR="#0000FF">+</FONT></TD>
+<TD VALIGN="top"><FONT COLOR="#0000FF">Blue</FONT></TD><TD>A plus sign (+) following a term indicates that the term has  children (substructures) within the vocabulary. Click on the term to see the additional paths.
+</TD></TR>
+</TABLE>
+</P>
+<A HREF="#top"><font size="-1">Top</font></A>
+
+ <H3><A NAME="contribute"></A>How can I contribute to the vocabulary?</H3>
+<P>Your input is welcome. Please <A HREF="mailto:anatomy@informatics.jax.org">contact</A> us with suggestions, additions, or questions about the Anatomical Dictionary for the Adult Mouse.
+</P>
+<A HREF="#top"><font size="-1">Top</font></A>
+
+<HR>
+<P>Terry Hayamizu, Mary Mangan, John Corradi, and Martin Ringwald developed the Anatomical Dictionary for the Adult Mouse as part of the Gene Expression Database (GXD) project. GXD is funded by NIH grant HD33745. Postdoctoral fellowships F32 HD08435-01 and F32 HG00215-01 supported M.M. and J.C.
+<!--#include file='include/templateBlankBodyStop.html'--> 

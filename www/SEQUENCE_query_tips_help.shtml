@@ -1,0 +1,133 @@
+<!--#include file='include/templateHead.html'-->
+
+<title><!--#include file="include/mgiversion.html"-->MGI-Sequence Query Tips</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;  
+window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">Sequence Query Tips</span>
+</div>
+
+<style type="text/css">
+</style>
+
+
+<!-- Container Table -->
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+  </td>
+</tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+<!-- Body of User Help -->
+
+<a name="top"></a>
+<P>This Help document answers the following questions about the Mouse Sequence Query Form:</P>
+
+<UL>
+<LI><A HREF="#limit">How do I limit my query results?</A></LI>
+<LI><A HREF="#hints">Are there any tips for limiting query results?</A></LI>
+</UL>
+
+<H3><a name="limit"></a>How do I limit my query results?</H3>
+
+<P>To limit your query results, use as many fields as possible in your query.  Override the default values with specific values you want to query.  See the next question for specific suggestions in each search category. If it is not possible to limit your query and you wish to retrieve more than 5000 sequences, please <A HREF="<!--#include file='include/mgihome_url.html'-->/support/mgi_inbox.shtml">Contact User Support</A> and ask for a custom SQL query.
+</P>
+
+<H3><A NAME="hints"></A>Are there any tips for limiting query results?</H3>
+<p>Yes. Experiment with some or all of the following.</p>
+<blockquote>
+<table border="1" cellpadding="2">
+<tr><td><b>Search Category</b></td> <td><b>Tip</b></td></tr>
+
+<tr>
+<td align="center" valign="center">
+<b>Sequence Attributes</b></th>
+<td valign="top">   <ul>
+   <li>Change the <b>Sequence Type</b> default from <i>ANY</i> to a specific type.</li>
+   <li>Change the <b>Sequence Provider</b> default from <i>ANY</i> to one or more providers.</li>
+</ul></td>
+</tr>
+
+
+<tr>
+<td valign="center"><b>Sequence Source</b></tb>
+<td><ul>
+   <li>Browse the strain list for a <b>Strain</b> you want to query.</li>
+   <li>Browse the tissue list for a <b>Tissue</b> you want to query.</li>
+   <li>Browse the library list for a <b>Library</b> you want to query.</li>
+   <li>Change the default operator from <i>contains</i> to <i>=</i> (is) when you want an exact match for <b>Strain, Tissue</b>, or <b>Library</b>.</li>
+</ul></td>
+</tr>
+
+<tr>
+<td align="center" valign="center"><b>Annotated Genes & Features</b></td>
+<td valign="top"><ul>
+   <li>Enter a gene or marker by typing in a <b>Marker Symbol/Name</b> to find sequences associated to MGI genes or markers.</li>
+   <li>Change the default operator from <i>contains</i> to <i>=</i> (is) when you want an exact match for <b>Marker Symbol/Name</b>.</li>
+   <li>Change the marker <b>Type</b> default to a specific type.</li>
+</ul></td>
+</tr>
+
+<tr>
+<td align="center" valign="center"><b>Map Position</b></td>
+<td valign="top"><ul>
+   <li>Select one or more <b>Chromosomes</b>.</li>
+   <li>Enter a <b>cM Position</b>.</li>
+   <li>Enter a <b>Cytogenetic Band</b>.</li>
+</ul></td>
+</tr>
+
+
+<tr>
+<td align="center" valign="center"><b>Gene Ontolotgy (GO) Classifications</b></td>
+<td valign="top"><ul>
+   <li>Browse the GO classifications for a <b>Gene Classification</b> you want to query.</li>
+   <li>Change the default operator from <i>contains</i> to <i>=</i> (is) when you want an exact match for the <b>Gene Classification</b>.</li>
+</ul></td>
+</tr>
+
+
+<tr>
+<td align="center" valign="center"><b>Protein domains</b></td>
+<td valign="top"><ul class="lj">
+   <li>Browse the domains for an <b>InterPro Protein Domain</b> you want to query.</li>
+   <li>Change the default operator from <i>contains</i> to <i>=</i> (is) when you want an exact match for the <b>InterPro Protein Domain</b>.</li>
+</ul></td>
+</tr>
+
+<tr>
+<td align="center" valign="center"><b>Expression</b></td>
+<td  valign="top"><ul>
+   <li>Select one or more <b>Developmental Stage(s)</b>.</li>
+   <li>Browse the Anatomical Dictionary for an <b>Anatomical Structures(s)</b> you want to query.</li>
+   <li>Change the default operator from contains to <i>=</i> (is) when you want an exact match for the <b>Anatomical Structures(s)</b>.</li>
+   <li>Select one or more <b>Assay Type(s)</b>.</li>
+</ul></td>
+</tr>
+
+<tr>
+<td align="center" valign="center"><b>Phenotypes</b></td>
+<td valign="top"><ul class="lj">
+   <li>Click <b>Anatomical Systems Affected by Phenotypes</b> and choose items from the list to add to your query. </li>
+<li>Alternatively, browse the <b>Full Mammalian Phenotype (MP) Ontology</b> and/or the <b>Human Disease (OMIM) Vocabulary</b> for terms and definitions; type one or more terms into the <b>Phenotype/Disease</b> box.</li>
+</ul></td>
+</tr>
+
+</table>
+
+</blockquote>
+
+</P>
+<A HREF="#top">Top</A> 
+<!--#include file='include/templateBlankBodyStop.html'--> 

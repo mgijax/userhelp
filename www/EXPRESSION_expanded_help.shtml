@@ -1,0 +1,260 @@
+<!--#include file='include/templateHead.html'-->
+<title>
+  <!--#include file="include/mgiversion.html"-->
+ MGI-Using the Gene Expression Data Expanded Query Form</title>
+</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+
+</style>
+
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+ Using the Gene Expression Data Expanded Query Form
+ </span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+
+
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+    </tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+<!-- Body of User Help -->
+
+<A NAME="top"></A>
+<P>This help document answers the following questions about the Gene Expression Data Expanded Query Form:
+<UL>
+ <LI><A HREF="#whatpurpose">What is the purpose of the Gene Expression Database?</A></LI>
+ <LI><A HREF="#whatquery">What can I use this query form to find?</A></LI>
+ <LI><A HREF="#howdo">How do I use this query form?</A></LI>
+ <LI><A HREF="#fields">What values are acceptable in each of the fields?</A></LI>
+ <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</A></LI>
+  <LI><A HREF="EXPRESSION_help.shtml#not_found">What if the search does not find any expression results?</a>
+<li><a href="EXPRESSION_help.shtml#generate">Which expression data query parameters generate an expression literature search? Which do not?</li>
+
+   <LI><A HREF="#example">Are there examples of query results?</A></LI>
+ </UL>
+</P>
+
+<H3><A NAME="whatpurpose"></A>What is the purpose of the Gene Expression Database?</H3>
+<P>The Gene Expression Database (GXD) is designed to integrate many different types of endogenous gene expression</A> data from the mouse in formats appropriate for comprehensive analysis. Query results, such as the developmental stage and tissue of expression (or non-expression), the genetic origin of the sample, and the numbers and sizes of detected bands, are described together with the molecular probe, the expression assay type, and the experimental conditions used.  Expression patterns are described using an extensive, hierarchical dictionary of standardized anatomical terms, making it possible to record expression results from assays with differing spatial resolution in a consistent and integrated manner and to analyze expression patterns at differing levels of detail. Whenever possible, text annotations are complemented by digitized images of the original expression data.
+<P>To learn more about GXD and how we acquire data, please see <A HREF="<!--#include file='include/mgihome_url.html'-->GXD/aboutGXD.shtml">About the Gene Expression Database (GXD)</A>.</P>
+<a href="#top"><font size="-1">Top</font></a>
+
+ <H3><A NAME="whatquery"></A>What can I use this query form to find?</H3>
+<P>The Gene Expression Data Expanded Query Form is specifically designed to allow you to search for genes expressed in some anatomical structures and/or developmental stages but not in others.  This query form allows you to combine the parameters necessary for these queries with most of the query parameters available on the standard 
+<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQF">Gene Expression Data Query Form</A>.  Examples of the questions you can ask are:
+ <UL>
+  <LI>Which genes are expressed in the forebrain and not expressed in the midbrain?</LI>
+  <LI>Which genes are expressed exclusively in the eye and its substructures?</LI>
+  <LI>Which genes are expressed only at Theiler Stage 15?</LI>
+  <LI>Which genes are expressed at Theiler Stage 10 but either are not expressed or have not been analyzed in the adult?</LI>
+ <LI>Excluding results obtained using RT-PCR, which genes are expressed in the forelimb and not expressed in the hindlimb?</LI>
+  </UL>
+ <P>See <A HREF="#example">Are there examples of query results?</A> for the form field values for these queries.
+
+<P>If you are interested in doing queries that do not involve comparing the presence and absence of expression in various structures or at various stages, you might find it easier to use the standard 
+<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQF">Gene Expression Data Query Form</A>.</P>
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><A name="howdo"></a>How do I use this query form?</h3>
+
+<P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following paragraphs. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help.shtml">Using MGI Query Forms</a> for answers to questions such as: 
+   <ul>
+    <li><A HREF="MISC_usingQFs_help.shtml#howdo">How do I submit a query?</a></li>
+       <li><a href="MISC_operators_help.shtml#operators">What are operators and how do they affect my query?</a></li>
+    <li><a href="MISC_usingQFs_help.shtml#options">How do I select more than one item on a list?</a></li>
+  <li><a href="MISC_usingQFs_help.shtml#casesen">Does it matter what case I use when I type values in the fields?</a></li>
+  <LI><a href="MISC_usingQFs_help.shtml#sort">How do the sort options work?</a></li>
+  
+    <li><a href="MISC_usingQFs_help.shtml#maxno">Is there a maximum number of results I can get back all at once?</a></li>
+      <LI><a href="MISC_usingQFs_help.shtml#speed">Is there a way to speed up a query?</a>
+<li><A href="MISC_usingQFs_help.shtml#range_question">When I enter exact marker or gene symbols in the Marker Range boxes, do the query results include or exclude those markers?</a></li>
+ </UL>
+ </p>
+<a href="#top"><font size="-1">Top</font></a>
+
+
+<H3><A NAME="fields"></A>What values are acceptable in each of the fields?</H3>
+<table width="!" cellpadding="4" class="nb" align="center">
+<tr align="center"><font size="-1"><td valign="top"><a href="#gene_nomenclature">Gene</a> |  <a href="#map_position">Map position</a> | <a href="#gene_ontology">Gene Ontology classifications</a> | <a href="#detected_in">Expression</a> | <a href="#mutated_gene">Mutated Gene</a> | <a href="#assay_type">Assay type(s)</a> | <a href="#sort">Sorting and output format</a></font>
+</TD>
+  </TR>
+ </TABLE>
+
+<TABLE BORDER=1 CELLPADDING="4" width="100%">
+  <TR> <TH>Field</TH> <TH>Description</TH> </TR>
+ <TR><td valign="top"><A NAME="gene_nomenclature"></A><b>Gene</b></Td><td valign="top">Symbol, name, or synonym for a mouse genetic marker.<ul><li>Enter one or more terms, separated by commas. (example: kit, bmp6, shh). <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
+<li>By default, the search is on current symbols/names and synonyms.  However, you can limit your search to current symbols (no search of names) or current symbols/names only (no search of synonyms)</li>
+<li> The operators present additional search options; the default operator is contains. See <a href="MISC_operators_help.shtml">How Operators Work on MGI Query Forms</a> for more information.</li></ul></TD></TR>
+
+<TR><td valign="top"><a name="map_position"></a><b>Map position</b></td>
+  <Td ALIGN="left" VALIGN="top">Use the map position parameters (<a name="chromosome"></a><a href="MISC_map_position_help.shtml#chromosome">Chromosome(s)</a>, <a name="coordinates"></a><a href="MISC_map_position_help.shtml#coordinates">Genome Coordinates</a>, <a name="cytogenetic_band"></a><a href="MISC_map_position_help.shtml#cytogenetic_band">Cytogenetic Band</a>, <a name="marker_range"></a><a href="MISC_map_position_help.shtml#marker_range">Marker Range</a>, and <a name="cm_offset"></a><a href="MISC_map_position_help.shtml#cm_offset">cM Position</a>) to limit the scope of your query.
+<ul> <li>When using chromosome(s), you can also define genome coordinates, cytogenetic band, or cM position.</li> <li>You cannot combine genome coordinates, cytogenetic band, and cM position with one another.</li><li>You can enter any markers with coordinates.</li></ul>
+See <a href="MISC_map_position_HELP.shtml">Using Map Position Fields on MGI Query Forms</a> for additional details about entering values in these fields.</td>
+</tr>
+  
+<tr>
+   <td valign="top"><A NAME="gene_ontology"></A><b>Gene <br>Ontology <br>classifications</b></Td>
+        <TD valign="top">Genes may be described using three broad categories reflecting biological roles: Molecular Function, Biological Process, or Cellular Component. The Gene Ontology (GO) Consortium has developed structured vocabularies to specify detailed aspects within each category. MGI uses GO terms to annotate gene records. See <a href="GO_classification_fields_help.shtml">Using Gene Ontology Classification Fields on MGI Query Forms </a> for details.    </TD>
+      </TR>
+
+<TR><td valign="top"><a name="detected_in"></a><b>Expression</b></Td><td valign="top">This portion of the form lets you query for genes expressed in some anatomical structures and/or developmental stages but not in others.
+<UL>
+<LI>To specify structure(s), type an entry in the field or make stage selections from the list.  You may use both fields simultaneously.</LI>
+<LI>Structures or stages entered in the top box query the database for assay results demonstrating the expression of genes in those structures or stages.</LI>
+<LI>Structures or stages entered in the lower box query for the absence of expression of genes in those structures or stages.  <B>Note:</B> If the structure or stage in the lower box has conflicting expression results annotated to it, i.e., results showing both the presence and absence of expression of a particular gene, that gene is considered to be expressed and is not returned by this query.</LI>
+</UL>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr>
+
+  <td valign="top"><a name="anatomical_structure"></a><b>Anatomical Structure(s)</b></td>
+  <td valign="top">The anatomical structures are taken from the <a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml">Anatomical Dictionary</a>. Enter a single item or multiple items separated by commas. Use an <a href="MISC_operators_help.shtml">operator</a> (the default is <i>contains</i>)  to narrow or expand your search.
+
+<p>For each stage, the Anatomical Dictionary is organized as a hierarchy of structures. You can choose to include either substructures (children), superstructures (parents), both, or neither in your search. The default is to Include substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon. If you choose to include superstructures, the system, besides searching for brain, looks for structures in the hierarchy placed above brain, such as central nervous system.
+<p>Please note: 
+<ul><li>If you enter more than one structure in the upper box, results demonstrating expression of a particular gene must exist for <b>all</b> the structures you specified in order for the query to return that gene.
+<li>If you enter more than one structure in the lower box, the query returns genes with an absence of expression in any of the specified structures.
+<li>If you click Any other structure, the query returns genes with expression in the specified structures but nowhere else.
+</ul>
+<p>If you are unsure of the most appropriate structural term to use, browse the
+<a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml">Anatomical Dictionary</a>. </td>
+</tr>
+
+<tr><td valign="top"><a name="developmental_stage"></a><b>Developmental Stage(s)</b></td>
+    <td valign="top">Use this field to select <a href="MISC_usingQFs_help.shtml#options">one or more</a> Theiler stages (TS) to focus your search on a particular stage of embryonic development. <ul>
+    <li>The default for the upper box is <i>Any</i> stage.</li>
+    <li>The default for the lower box is <i>All stages not selected above</i>. </li>
+   <li>If you enter more than one stage in the upper box, for the query to return a particular gene, results demonstrating its expression must exist for <i>all</i> the specified stages.
+<li>If you enter more than one stage in the lower box, the query returns those genes for which there was an absence of expression in <i>All stages not selected above</i>.
+</ul>
+  <p>If you want to see, for example, genes expressed in brain at a particular stage but not expressed in the heart at any stage, change the default in the lower box to <i>Any</i>. </p>
+
+<p><b>Note</b>: The Theiler system organizes development into stages defined by the
+appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc. Therefore, if you are interested in all available records for embryos of age 14.0 dpc, you must select both TS 21 and TS 22.
+<p>You can <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagecriteria.html">browse Stage descriptions</a> for a list of the defining features for each Theiler stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28.
+<tr><td valign="top"><a name="and_not"></a><b>Expression: <br>and NOT detected in:<br>
+and NOT detected or analyzed in:</b><br></td><td valign="top"><p>This portion of the form allows you to distinguish between two kinds of absence of expression. When you use:
+<ul>
+<li><b>and NOT detected in</b>, the query is for results where expression is <i>absent</i> in the specified structures or stages.</li>
+<li><b>and NOT detected or analyzed in</b>, the query is for genes with no positive expression results in the specified structures or stages. The result is genes whose expression has not been examined (not analyzed) in the specified structures and stages, as well those genes whose expression was <i>absent</i> (not detected).  This is particularly useful because authors tend to emphasize where a particular gene is expressed but often do not explicitly discuss where it was not expressed.</li>
+</ul></td></tr>
+
+<tr><td valign="top"><b>Exclude mutant specimens from query</b></td><td align="left" valign="top">
+Since mutants often have aberrant expression patterns, by default, expression results obtained from specimens containing one or more mutant alleles are excluded from the query.  To include expression results obtained from mutants in your query, click to deselect this option.  <b>Note:</b> Because of the way the query is designed, knock-in embryos are considered mutants.  Therefore, if you exclude mutant specimens, the query returns no expression results 
+obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table></td></tr>
+</blockquote>
+
+
+<TR><td valign="top"><A NAME="mutated_gene"><b>Mutated Gene</b></Td>
+<td valign="top"></A>To search for expression data obtained from mutant specimens, use this field to enter the symbol or name of the mutated genetic marker. The default <a href="MISC_operators_help.shtml">operator</a> for the symbol/name is <i>contains</i>. 
+By default, the system searches for current symbols/names and synonyms of the mutated gene. However, you can limit your search to current symbols (no search of names) or current symbols/names only (no search of synonyms).</TD>
+</TR>
+
+<TR><td valign="top"><A NAME="assay_type"></A><b>Assay type(s)</b></Td>
+<td valign="top">Selection list of assay types. Use this field and its operators (in and not in) to limit your search to assays of <a href="MISC_usingQFs_help.shtml#options">one or more selected</a> types. The default assay type is ANY.</TD>
+</TR>
+<tr><td valign="top"><a name="sort"></a><b>Sorting and <br>output format</b></td>
+    <td valign="top">
+    <table border="0" cellpadding="3">
+      <tr>
+      <td valign="top"><A NAME="return_type"></A><b>Return data type</b></Td>
+      <TD VALIGN="top">Click one of the  choices  depending whether you want to see Assays or Assay Results in the summary report for your query (the default is to summarize by Assay Results).</TD>
+      </TR>
+      
+<tr>
+  <td valign="top"><A NAME="sort_by"></A><b>Sort by</b></Td>
+   <TD VALIGN="top">
+     <table border="1" cellspacing="0" cellpadding="3">
+       <tr>
+         <th valign="top">Choose...</th>
+         <th valign="Top">To sort by...</th>
+         <th valign="top">The sort order is...</th>
+        </tr>
+        <tr>
+         <td valign="top">Assays</td>
+         <td valign="top">Gene Symbol<br>Assay type<br> Author</td>
+                 <td valign="top">Alphabetical by gene symbol.<br>Alphabetical by assay  type.<br>Alphabetical by last name of first author.</td>
+       </tr>
+       <tr>
+        <td valign="top"><b>Assay Results</b></td>
+        <td valign="top">Gene Symbol<br> Age<br>Anatomical structure<br> Assay type</td>
+                <td valign="top">Alphabetical by gene symbol.<br>Chronological by age.<br>Hierarchical by anatomical dictionary for each stage.<br>Alphabetical by assay type.</td>
+       </tr>
+      </table>
+     </td>
+   </tr>
+<tr>
+   <Td VALIGN="top"><A NAME="max_returned"></A><b>Maximum Returned</b></Td>
+    <td valign="top">Change this number to whatever you wish or click <i>No limit</i>. The intent of the default (500) is not to speed the search by limiting the scope but rather to let you restrict (or expand) your results. </TD>
+    </TR>
+  </TABLE>
+   </td>
+  </tr>
+</table>
+</TABLE>
+</P>
+<a href="#top"><font size="-1">Top</font></a>
+
+<H3><A NAME="summary"></A>How do I interpret the query results summary and detail pages?</H3>
+<P>See <A HREF="EXPRESSION_query_results_help.shtml">Interpreting Gene Expression Data Query Results</A>.</P>
+<a href="#top"><font size="-1">Top</font></a>
+
+<H3><A NAME="example"></A>Are there examples of query results?</H3>
+<P>The following examples give the field values required for each query when using the Gene Expression Data Expanded Query Form.  Default values for other fields in the form are assumed.  For the greatest chance of success when learning how to use this form, we recommend that you return your queries by Assay Results and sort by Gene symbol.</P>
+
+<OL>
+<LI>What genes are expressed in the forebrain and not expressed in the midbrain?<BR><BR>
+<B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; CONTAINS forebrain<BR>
+<B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(lower box)&nbsp;&nbsp;&nbsp; CONTAINS midbrain
+
+<P>This query returns a summary page listing assay results for genes that have been shown to be expressed (detected=yes) in the forebrain (and its substructures) and whose assay results for the midbrain (and its substructures) were <B>all</B> reported as lacking expression (detected=no).  Each listing includes the gene symbol (with a link to its detail page), assay type used, results details (given as an MGI accession ID linked to an assay record), allele pairs describing the mutant genotype of the specimen (if applicable), age of the specimen, structure examined, and an indication of whether or not expression was detected.</LI>
+
+<LI> Which genes are expressed exclusively in the eye and its substructures?<BR><BR>
+<B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; CONTAINS eye<BR>
+<B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(lower box)&nbsp;&nbsp;&nbsp; (click to put a check mark next to) Any other structure 
+
+<P>This query returns genes shown to be expressed exclusively in the eye and its substructures.  For those genes, expression results for any other structures analyzed must be Not detected (absent).</LI>
+
+<LI> Which genes are expressed only at Theiler Stage 15?<BR><BR>
+<B>Developmental Stage(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; TS 15<BR>
+<B>Developmental Stage(s)</B>: &nbsp;&nbsp;(lower box)&nbsp;&nbsp;&nbsp; ALL stages not selected above
+
+<P>This query returns genes shown to be expressed exclusively at TS  15.  For those genes, expression results obtained at any other Theiler stage must be Not detected (absent).</LI>
+
+<LI> Which genes are expressed at Theiler Stage 10 but either are not expressed or have not been analyzed in the postnatal animal?<BR><BR>
+<B>Developmental Stage(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; TS  10<BR>
+<B>Developmental Stage(s)</B>: &nbsp;&nbsp;(lower box)&nbsp;&nbsp;&nbsp; TS  28<BR>
+<B>AND NOT detected or analyzed in: </B> selected
+
+<P>This query returns genes that have been shown to be expressed in the TS  10 embryo but for which there are no positive (detected=yes) expression results at TS  28.  For those genes, this is either because the results present in the database for the postnatal animal were either Not detected (absent) or did not exist (not analyzed).
+</P>
+<LI>Excluding results obtained using RT-PCR, which genes are expressed in the forelimb and not expressed in the hindlimb?<BR><BR>
+<B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; CONTAINS forelimb<BR>
+<B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(lower box)&nbsp;&nbsp;&nbsp; CONTAINS hindlimb<BR>
+<B>Assay Type(s):</B> not in RT-PCR
+
+<P>This query returns genes that have been shown to be expressed in the forelimb and not expressed in the hindlimb, excluding results obtained using the very sensitive technique of RT-PCR.
+</P>
+</OL>
+<a href="#top"><font size="-1">Top</font></a>
+
+<!--#include file='include/templateBlankBodyStop.html'--> 

@@ -1,11 +1,8 @@
 <!--#include file='include/templateHead.html'-->
-<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
-
 <title>
   <!--#include file="include/mgiversion.html"-->
-  Interpreting Gene Detail Reports
-</title>
-
+MGI-Interpreting the Gene Detail Report</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
 <script>
 function openHelpWindow(helpFile){
@@ -15,71 +12,70 @@ function openHelpWindow(helpFile){
 </script>
 
 <style type="text/css">
+
 </style>
+
 
 
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
-   Interpreting Gene Detail Reports
+  Interpreting the Gene Detail Report
  </span>
 </div>
 
 <!-- Container Table -->
 <table border=0 cellpadding=0 cellspacing=5 width="100%">
 
+
 <!-- Title Bar -->
 <tr>
   <td class="enhance" align=left>
       <!--#include file='help_toolbar.shtml'-->
-         </td>
-</tr>
+    </tr>
 </table>
-
 <!--#include file='include/templateBlankBodyStart.html'-->
 
-
 <!-- Body of User Help -->
+<A NAME="top"></A> <p>This help document answers the following questions about the Gene Detail Report.
+<ul>
+<li><a href="#title">What determines the title of this report?</a></li>
 
-<p>This help document answers the following questions about A gene detail Report:
-<UL>
-<LI><A HREF="#title">What determines the title of this report?</A></LI>
-
-<LI><A HREF="#field">Which fields should show up on this report?</A></LI>
+<li><a href="#field">Which fields should show up on this report?</a></li>
 <li><a href="#data">How can I tell which dbSNP build the data comes from?</a></li>
-<LI><A HREF="#click">What happens if I click <I>Your Input Welcome</I>?</A></LI>
-</UL></p>
+<li><a href="#click">What happens if I click <i>Your Input Welcome</i>?</a></li>
+</ul></p>
 
-<h3><A name="title"></A>What determines the title of this report?</h3>
+<h3><A name="title"></A>What determines the title  of this report?</h3>
 <p>The title of this report describes the marker and genomic feature type returned as a result of your query. The title may identify a gene, segment, pseudogene, marker, BAC/YAC end, complex/cluster/region, or some other genome feature including "Miscellaneous Genome Feature Detail."
   </ul>
-<!--<p><b>Note:</b> The title is the only place in this report that identifies the feature type found by your query. </p>-->
+
 </P>
 <A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
 <H3><A NAME="field"></A>Which fields should show up on this report?</H3>
 <P>Depending on data availability and the marker type, this detail report contains information in some or all of the following categories:</P>
 
-<P><table class="nb">
-<tr align="center"><td><font size="-1"><a href="#sym_detail">Symbol/Name/ID</a> | <a href="#feature_type">Feature Type</a> | <a href="#sts">STS</a> | <a href="#synonym">Synonyms</a> |
+<table width="!" cellpadding="2" class="nb" cellspacing="2">
+<tr align="center"><td><font size="-1"><a href="#sym_detail">Symbol/Name/ID</a> |  <a href="#synonym">Synonyms</a> | <a href="#feature_type">Feature Type</a> | <a href="#sts">STS</a> |
 <a href="#genetic_map">Genetic Map</a> | <a href="#sequence_map">Sequence Map</a> |
-<a href="#orthology">Mammalian homology</a> | <a href="#sequences">Sequences</a> | <a href="#phenotypes_detail">Alleles & Phenotypes</a> | <a href="#polymorphisms">Polymorphisms</a> | <a href="#GO_detail">Gene Ontology (GO) Classifications</a> | <a href="#expression_detail">Expression</a> | <a href="#other_database_links">Other database links</a> | <a href="#protein_domains_detail">Protein-related information</a> | <a href="#molecular_reagents">Molecular reagents</a> | <a href="#references">References</a> | <a href="#other">Other accession IDs</a></font></TD>
+<a href="#orthology">Mammalian homology</a> | <a href="#sequences">Sequences</a> | <a href="#phenotypes_detail">Alleles & Phenotypes</a> | <a href="#polymorphisms">Polymorphisms</a> | <a href="#GO_detail"><nobr>GO Classifications</a></nobr> | <a href="#expression_detail">Expression</a> |<a href="#molecular_reagents">Molecular reagents</a> | <a href="#other_database_links">Other database links</a> | <a href="#protein_domains_detail">Protein-related information</a> | <a href="#references">References</a> | <a href="#other">Other accession IDs</a></font></TD>
 </TR>
 </TABLE>
 
 
-<TABLE BORDER="1" CELLPADDING="3" width="98%">
+<TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Field</TH>
 <TH>Description</TH>
 </TR>
 
 <TR>
-<th class="thleft" width="10%"><A NAME="sym_detail"></A>Symbol<BR><br><br><br>
- Name<BR><br><br>ID</TH>
-<TD ALIGN="top">Official gene symbol for the mouse genetic marker. If the symbol is unofficial, the word <I>interim</I> follows the symbol name, in parentheses, to indicate that the nomenclature is being reviewed by the Mouse Genomic Nomenclature Committee.<br><br>
+<TH ALIGN="left" VALIGN="top"><A NAME="sym_detail"></A>Symbol<BR><br>
+ Name<BR><br>ID</TH>
+<TD VALIGN="top">Official gene symbol for the mouse genetic marker. If the symbol is unofficial, the word <I>interim</I> follows the symbol name, in parentheses, to indicate that the nomenclature is being reviewed by the Mouse Genomic Nomenclature Committee.
 
-The name for this marker appears beneath the symbol. A symbol may be a gene, DNA segment, QTL, cytogenetic marker, pseudogene, BAC/YAC end, complex/cluster/region, or one of the other genome features including endogenous viruses, retrotransposons, integration sites, and repetitive elements. An additional class of such features includes genomic segments that function or are biologically significant as DNA elements.<br><br>
+<P>The name for this marker appears beneath the symbol. A symbol may be a gene, DNA segment, QTL, cytogenetic marker, pseudogene, BAC/YAC end, complex/cluster/region, or one of the other genome features including endogenous viruses, retrotransposons, integration sites, and repetitive elements. An additional class of such features includes genomic segments that function or are biologically significant as DNA elements.</P>
 
 <P>The MGI accession identifier appears beneath the name.</P>
 <p><b>BioType Conflict</b>
@@ -95,23 +91,24 @@ The name for this marker appears beneath the symbol. A symbol may be a gene, DNA
 	<!--<li>If there is a strain-specific reference for this marker but there are no additional notes, the <b>Strain Specificity</b> box does not appear.</li>-->
 </ul>
 </p>
-
 </TD>
 </TR>
-<tr><th class="thleft"><a name="feature_type"></a>Feature Type</th><td valign="top">Genetic feature type(s) annotated to the marker (e.g, snoRNA gene, rRNA gene and so on). Hovering over each term produces a pop-up window containing the definition associated with each term. See <a href="marker_feature_types.shtml#feature_types">Genome Feature Type Definitions</a> for a complete list.</td></tr>
+
 <TR>
-<th class="thleft"><A NAME="sts"></A>STS</TH>
-<TD ALIGN="top">If applicable, symbols for sequence tag sites (STS) with the same DNA sequence (or a portion of that sequence) as the marker, linked to the DNA Detail Segment Detail page. For example, D7Mit19 and D7Mit31 are said to be STSs of Tyr.</TD>
-</TR>
-<TR>
-<th class="thleft"><A NAME="synonym"></A>Synonyms</TH>
+<TH ALIGN="left" VALIGN="top"><A NAME="synonym"></A>Synonyms</TH>
 <TD VALIGN="top">Names or symbols for a given marker that may appear in the literature but which are not approved names or symbols.</TD>
 </TR>
+<tr><th align="left" valign="top"><a name="feature_type"></a>Feature Type</th><td valign="top">Genetic feature type(s) annotated to the marker (e.g, snoRNA gene, rRNA gene and so on). Hovering over each term produces a pop-up window containing the definition associated with each term. See <a href="GENE_feature_types.shtml#feature_types">Genome Feature Type Definitions</a> for a complete list.</td></tr>
 <TR>
-<th class="thleft"><a name="genetic_map"></a>Genetic Map</TH>
+<TH ALIGN="left" VALIGN="top"><A NAME="sts"></A>STS</TH>
+<TD VALIGN="top">If applicable, symbols for sequence tag sites (STS) with the same DNA sequence (or a portion of that sequence) as the marker, linked to the DNA Detail Segment Detail page. For example, D7Mit19 and D7Mit31 are said to be STSs of Tyr.</TD>
+</TR>
+
+<TR>
+<TH ALIGN="left" VALIGN="top"><a name="genetic_map"></a>Genetic Map</TH>
 <Td ALIGN="left" VALIGN="top">As much as is known for this marker of the following: 
 <ul>
-  <li>Chromosome to which the marker is assigned. Aside from a chromosome number, other possible values include MT (miTophondrial), XY (XY pseudoautosomal), UN (chromosome assignment is not known).</li>
+  <li>Chromosome to which the marker is assigned. Aside from a chromosome number, other possible values include MT (mitochondrial), XY (XY pseudoautosomal), UN (chromosome assignment is not known).</li>
   <li>Marker's centimorgan position.  Centimorgan positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009)  (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546">PMID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.</li>
   <li>Centimorgan position.  centiMorgan (cM) positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009). Markers without genome coordinates cannot be assigned specific cM locations are designated as "syntenic".
 <!--
@@ -121,7 +118,7 @@ For markers whose position is known, a numeric value appears. This value is calc
 <li>Cytogenetic position.</li></TD>
 </TR>
 <TR>
-<tr><th class="thleft"><a name="sequence_map"></a>Sequence Map</TH><TD VALIGN="Top">Appears if coordinates are assigned and includes:
+<tr><TH ALIGN="left" VALIGN="top"><a name="sequence_map"></a>Sequence Map</TH><TD VALIGN="Top">Appears if coordinates are assigned and includes:
        <UL>
        <LI>genome coordinate range and strand, in base pairs from VEGA annotation (selected as genomic representative sequence) </LI>
     <LI>external links to other genomic context displays (e.g., Vega ContigView, Ensembl ContigView, UCSC Browser, NCBI Map Viewer)</LI>
@@ -134,7 +131,7 @@ For markers whose position is known, a numeric value appears. This value is calc
 </TR>
 
 <TR>
-<th class="thleft"><A NAME="orthology"></A>Mammalian<BR>
+<TH ALIGN="left" VALIGN="top"><A NAME="orthology"></A>Mammalian<BR>
 homology</TH>
 <TD VALIGN="top">Mammalian homology records for this marker, as follows (depending on availability):
 <UL>
@@ -148,7 +145,7 @@ homology</TH>
 
 
 <TR>
-<th class="thleft"><A NAME="sequences"></A>Sequences</TH>
+<TH ALIGN="left" VALIGN="top"><A NAME="sequences"></A>Sequences</TH>
 <TD VALIGN="top">
 <TABLE BORDER="1" CELLPADDING="2" WIDTH="100%">
 <TR>
@@ -192,7 +189,7 @@ MGI Representative Sequences provide users quick access to a single genomic, tra
 </TD>
 </TR>
 <TR>
-<th class="thleft"><A NAME="phenotypes_detail"></A>Alleles and Phenotypes</TH>
+<TH ALIGN="left" VALIGN="top"><A NAME="phenotypes_detail"></A>Alleles and Phenotypes</TH>
 <TD VALIGN="top">Depending on availability, the display includes some or all of the following links or information. Numbers in parentheses indicate how many items each linked report contains.
 <UL>
 <LI>Counts of and links to <i>All alleles</i> and to any other phenotypic allele category associated with this marker. </LI>
@@ -207,10 +204,10 @@ Query Results -- Summary page: alleles with OMIM annotations to associated genot
 </TR>
 
 <TR>
-<th class="thleft"><A NAME="polymorphisms"></A>Polymorphisms</TH>
+<TH ALIGN="left" VALIGN="top"><A NAME="polymorphisms"></A>Polymorphisms</TH>
 <TD VALIGN="top">Links to the following MGI summary reports (the number available appears in parentheses):<ul>
   <li>Polymorphisms Query Results -- Summary  for any RFLPs/PCRs for this marker:  </li>
-<li>Mouse SNPs Query Results -- Summary for any SNPs within 2 kb of this marker.  <b>Note:</b> If MGI gene and marker genome coordinates are out of sync with the SNP data, <b>within 2 kb of this marker</b> does not appear, and the summary report indicates the discrepancy. See <a href="snp_discrepancy.shtml">Understanding Mouse SNP Coordinate Discrepancies</a> for details.
+<li>Mouse SNPs Query Results -- Summary for any SNPs within 2 kb of this marker.  <b>Note:</b> If MGI gene and marker genome coordinates are out of sync with the SNP data, <b>within 2 kb of this marker</b> does not appear, and the summary report indicates the discrepancy. See <a href="snp_discrepancy_help.shtml">Understanding Mouse SNP Coordinate Discrepancies</a> for details.
 </ul>
 </TD>
 </TR>
@@ -219,10 +216,11 @@ Query Results -- Summary page: alleles with OMIM annotations to associated genot
 </TR>
 
 <TR>
-<th class="thleft"><A NAME="GO_detail"></A>Gene Ontology (GO)<BR>
+<TH ALIGN="left" VALIGN="top"><A NAME="GO_detail"></A>Gene Ontology (GO)<BR>
  Classifications</TH>
 <TD VALIGN="top"><ul>
-   <li><B>All GO classifications (<i># annotations</i>)</b> links to a summary of the <i>nn </i> annotated items found (click <A HREF="go_classifications.shtml">here </A> for information about interpreting the fields on this page). You can browse the GO vocabulary from the query results section and locate multiple terms that annotate a gene record.</li>
+   <li><B>All GO classifications (<i># annotations</i>)</b> links to a summary of the <i>nn </i> annotated items found.
+See  <A HREF="GO_classification_fields_help.shtml">Using Gene Ontology Classification Fields on MGI Query Forms</A> for how to interpret the fields on this page. You can browse the GO vocabulary from the query results section and locate multiple terms that annotate a gene record.</li>
  <li>Links to GO annotations for Process (biological), Component (cellular), and Function (molecular) of the gene. </li>
   <li>A link to the GO Consortium Reference Genome Annotation Project, if this gene is annotated in the project.</li>
 <li>A link to any External Resources (for example, <a href="http://func.med.harvard.edu/mouse/">FuncBase</a>, a database of functional predictions) for additional information about this gene.</li>
@@ -232,7 +230,7 @@ Query Results -- Summary page: alleles with OMIM annotations to associated genot
 
 
 <TR>
-<th class="thleft"><A NAME="expression_detail"></A>Expression</TH>
+<TH ALIGN="left" VALIGN="top"><A NAME="expression_detail"></A>Expression</TH>
 <td valign="top">Depending on availability, some or all of the following information may appear:
 <ul>
   <li>Literature Summary: number of references analyzing expression for this gene; links to a table of the ages and assay types analyzed.</li>
@@ -245,33 +243,14 @@ Query Results -- Summary page: alleles with OMIM annotations to associated genot
      </ul>
   <li>	Theiler stage: List of all developmental stages where expression was analyzed; each summary report lists expression results from that stage.</li>
   <li>Assay Type Results and Assays: assay type used for the analyses; number of results and different assay types link to summary reports (subsets of those described above).</li>
->  <li><a name="cdna_summary"></a>cDNA source data: the number of cDNA clones for this marker, linked to a cDNA Clone Source Data Query Results Summary with the following columns: Nucleotide Probe/Clone AccID, Name, Clone Collection, Age, Tissue, Cell Line, and Gene. If (PUTATIVE) appears beside the gene symbol, it means that the relationship between the gene and clone is established by computation rather than experimental data. The Nucleotide Probe/Clone AccID (Accession Identifier) and the Gene columns contain links to detail records. </li>
+  <li><a name="cdna_summary"></a>cDNA source data: the number of cDNA clones for this marker, linked to a summary page with the following columns: Nucleotide Probe/Clone AccID, Name, Clone Collection, Age, Tissue, Cell Line, and Gene. If (PUTATIVE) appears beside the gene symbol, it means that the relationship between the gene and clone is established by computation rather than experimental data.</li>
   <li>External Resources: links to expression information for this marker in other than MGI databases. Examples: Allen Brain Atlas, GENSAT, gene microarray profile pages at GEO, Novartis, ArrayExpress.</li>
  </ul>
 </TD>
 </TR>
-<TR>
-<th class="thleft"><A NAME="other_database_links"></A>Other database links</TH>
-<TD VALIGN="top"><ul>
-  <li>List of and links to external resources with database accession IDs associated to this marker. Examples are EC, Ensembl Gene Model, DoTS, DFCI,
-NIA Mouse Gene Index, Entrez Gene, <!--dbGSS (for Gene Traps),--> International Mouse Knockout Project Consortium Status.</li>
- 
- <li>Additionally, there may be links to the sequence evidence underlying gene predictions provided by NCBI, Ensembl, and VEGA.</li>
-</ul>
-</TD>
-</TR>
 
 <TR>
-<th class="thleft"><A NAME="protein_domains_detail"></A>Protein-related information</TH>
-<TD VALIGN="top"><ul>
-  <li>List of InterPro domain IDs & descriptions for protein sequences encoded by the gene. The ID links to the InterPro detail page for the domain at the EBI. If there is a SWISS-PROT sequence associated to the marker, click <I>Graphical View of Protein Domain Structure</I> to view the protein domain structure of the SWISS-PROT sequence at InterPro web.</li>
-  <li>Links to Protein Ontology for those genes with mappings to PRO IDs.</li>
-</ul></TD>
-</TR>
-
-
-<TR>
-<th class="thleft"><A NAME="molecular_reagents"></A>Molecular reagents</TH>
+<TH ALIGN="left" VALIGN="top"><A NAME="molecular_reagents"></A>Molecular reagents</TH>
 <TD VALIGN="top">Links to summary pages of MGI molecular reagent information for the marker grouped by All nucleic, Genomic, cDNA, Primer pair, Other (i.e., other nucleic acid probes), and Antibody. Note that <I>Genomic, cDNA, Primer pair</I> and <I>Other</I> are subsets of All nucleic. The number in parentheses indicates the total number of items listed in the summary. If you select:
 
 <UL STYLE="padding-left:30px">
@@ -282,9 +261,27 @@ NIA Mouse Gene Index, Entrez Gene, <!--dbGSS (for Gene Traps),--> International 
 </TD>
 </TR>
 
+<TR>
+<TH ALIGN="left" VALIGN="top"><A NAME="other_database_links"></A>Other database links</TH>
+<TD VALIGN="top"><ul>
+  <li>List of and links to external resources with database accession IDs associated to this marker. Examples are EC, Ensembl Gene Model, DoTS, DFCI,
+NIA Mouse Gene Index, Entrez Gene, <!--dbGSS (for Gene Traps),--> International Mouse Knockout Project Consortium Status.</li>
+  <li>Additionally, there may be links to the sequence evidence underlying gene predictions provided by NCBI, Ensembl, and VEGA.</li>
+</ul>
+</TD>
+</TR>
 
 <TR>
-<th class="thleft"><A NAME="references"></A>References</TH>
+<TH ALIGN="left" VALIGN="top"><A NAME="protein_domains_detail"></A>Protein-related information</TH>
+<TD VALIGN="top"><ul>
+  <li>List of InterPro domain IDs & descriptions for protein sequences encoded by the gene. The ID links to the InterPro detail page for the domain at the EBI. If there is a SWISS-PROT sequence associated to the marker, click <I>Graphical View of Protein Domain Structure</I> to view the protein domain structure of the SWISS-PROT sequence at InterPro web.</li>
+  <li>Links to Protein Ontology for those genes with mappings to PRO IDs.</li>
+</ul></TD>
+</TR>
+
+
+<TR>
+<TH ALIGN="left" VALIGN="top"><A NAME="references"></A>References</TH>
 <TD VALIGN="top">Some or all of the following, depending on availability:
 
 <UL STYLE="padding-left:30px">
@@ -298,7 +295,7 @@ NIA Mouse Gene Index, Entrez Gene, <!--dbGSS (for Gene Traps),--> International 
 References on the detail and summary pages include a J number (an MGI reference ID) and a short citation, linked to the full citation.</TD>
 </TR>
 <TR>
-<th class="thleft"><A NAME="other"></A>Other<BR>
+<TH ALIGN="left" VALIGN="top"><A NAME="other"></A>Other<BR>
 accession IDs</TH>
 <TD VALIGN="top">List of any other MGI accession IDs associated with this marker.</TD>
 </TR>
@@ -315,4 +312,4 @@ accession IDs</TH>
 <P>The Your Input Welcome button, located at the top right of your screen, appears as part of the detailed query results. Clicking the button brings up a dialogue box for submitting any updates or corrections to the data you are viewing. Our User Support staff will review your comments and make sure the appropriate changes are made. This provides an easy way to help us keep data current.</P>
 <A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
 
-<!--#include file='include/templateBlankBodyStop.html'-->
+<!--#include file='include/templateBlankBodyStop.html'--> 

@@ -1,0 +1,329 @@
+ <!--#include file='include/templateHead.html'-->
+<title>
+  <!--#include file="include/mgiversion.html"-->
+MGI-Using the Genes and Markers Query Form</title>
+
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+<style type="text/css">
+</style>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+Using the Genes and Markers Query Form</span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+    </tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<p><a name="top"></a>This help document answers the following questions:
+</p> <ul style="padding-left:30px">
+ <li><a href="#whatdo">What can I use the Genes and Markers Query Form to find?</a>
+ <li><a href="#howdo">How do I use this query form?</a>
+  <li><a href="#fields">What values are acceptable in each of the query form fields?</a>
+ <li><a href="GENE_summary_help.shtml">How do I interpret the summary results of my query?</a>
+ <li><a href="GENE_detail_help.shtml">How do I interpret the detail results of my query?</a>
+ <!--<LI><A HREF="#button">What happens if I click the Your Input Welcome button on the detail page?</a>-->
+ <li><a href="#example">Are there any sample queries?</a>
+</ul>
+<p>See also:
+<ul style="padding-left:30px">
+  <li><a href="<!--#include file='include/glossary_url.html'-->">MGI Glossary</a> for unfamiliar terms (or for how MGI defines and uses familiar terms) and acronyms</li>
+  <li><a href="MISC_general_searching_help">General Guidelines for MGI Query Form Searches</a></li>
+  <li><a href="GENE_feature_types.shtml">Genome Feature Type Definitions</a></li>
+</ul>
+
+<h3><a name="whatdo"></a>What can I  use the Genes and Markers Query Form to find?</h3>
+ <p>Use this query form to search for detailed information on various types of mouse markers. You can:
+<ul>
+<li>search for gene/marker details by entering a current or old symbol, name, allele, or ortholog; or you can restrict the search to look for only a current symbol or name.
+  <li>query by feature type and thereby confine the search to protein coding genes, to individual non-coding RNA genes,  or to a variety of other categories. See <a href="GENE_feature_types.shtml">Genome Feature Type Definitions</a> for a complete list of feature types, descriptions, and corresponding SO IDs (if available/pertinent).</li>
+  <li>retrieve lists of markers sorted by nomenclature, genome coordinates, or  cM position.</li>
+<li>include GO classifications, InterPro domains, phenotype terms, or clone collections in your search parameters.
+<li>limit or expand the amount of items returned.</li>
+<li>modify search parameters until you are satisfied with the results. </li>
+<li>forward  results to the web, to an Excel file, or to an ftp site.</li>
+</ul>
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="howdo"></a>How do I use this query form?</h3>
+
+<p>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following paragraphs. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_general_searching_help.shtml">General Guidelines for MGI Query Form Searches</a> for answers to questions about submitting queries, using operators, choosing sort orders, speeding up queries, and similar help topics.  
+ </p>
+<a href="#top"><font size="-1">Top</font></a>
+
+
+<h3><a name="fields"></a>What values are acceptable in each of the query form fields?</h3>
+<p>Use these fields to search for genes and markers by name, location, GO terms, protein domains, for mouse phenotypes and mouse models of human disease, or by inclusion in a clone collection.</p>
+
+<P><table width="!" cellpadding="2" class="nb">
+<tr>
+<td align="center"><a href="#gene_nomenclature"><font size="-1">Gene/Marker</a> |
+<a href="#marker_type">Feature Type</a> |
+<a href="#map_position">Map position</a> |
+
+<nobr><a href="#gene_ontology">Gene Ontology classifications</a> |</nobr>
+<nobr><a href="#interpro">Protein domains</a> |</nobr>
+<nobr><a href="#phenotype">Mouse phenotypes & mouse models of human disease</a> |
+<a href="#clone_collection">Clone collection</a> |</nobr>
+<a href="#sort_by">Sorting & output format</a></font></td>
+</tr>
+</table>
+
+<table border="1" cellpadding="3" width="100%">
+<tr>
+<tr><th align="left" valign="top">Gene/Marker</th>
+     <td><table border="0" cellpadding="4">
+         <tr><td valign="top">Symbol, name, or synonym for a genetic marker.<ul>
+  <li>Enter one or more symbols/names/synonyms (separated by commas). <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
+   <li>By default, the search is on current and old symbols/names, synonyms, alleles, and orthologs.  However, you can limit the search to current symbols or names.  </li>
+  <li>The <a href="MISC_operators_help.shtml">operators</a> (begins, = , ends, contains, like) present additional search options. The default is <i>contains</i>.</li>
+</ul>
+	</td></tr>        
+     </table>
+    </td>
+</tr>
+<tr>
+        <th align="left" valign="top"><a name="marker_type"></a>Feature Type</th>
+        <td>Use this field to query for features in a selected category. Numbers in parentheses next to each feature type indicate MGI marker totals per category.
+
+<ul>
+<li>Click <b>Show/Hide</b> to expand/contract all list choices or click &#9658; or &#9660; open/close a category or subcategory.</li> 
+<li>Click the box next to each item you wish to include in the search. Check marks indicate your choices.</li>
+<li>Clicking the box beside a major category (any item that opens to subcategories, e.g., <i>all feature types, gene, non-coding RNA gene</i>) selects all items beneath it. </li>
+ <li>A minus in a box beside a category indicates that discrete items beneath it are selected (and not the entire category or subcategory, e.g. <i>miRNA gene</i> and <i>lincRNA gene</i> and not all non-coding RNA genes).</li>
+ <li>Checking all categories has the same effect as checking none of the categories. If you do not click any category, the search includes them all. </li>
+<li>An empty box indicates no choices in an entire category/subcategory.</li>         
+           </ul>
+See <a href="GENE_feature_types.shtml">Genome Feature Type Definitions</a> for a table that describes all the choices. </td>
+        </tr>
+<tr><th align="left" valign="top">Map position</th>
+  <td align="left" valign="top">Use the map position parameters (<a href="MISC_map_position_help.shtml#chromosome">Chromosome(s)</a>, <a name="coordinates"></a><a href="MISC_map_position_help.shtml#coordinates">Genome Coordinates</a>, <a href="MISC_map_position_help.shtml#cytogenetic_band">Cytogenetic Band</a>, <a href="MISC_map_position_help.shtml#marker_range">Marker Range</a>, and <a href="MISC_map_position_help.shtml#cm_offset">cM Position</a>) to limit the scope of your query.<ul>
+      <li>When using chromosome(s), you can also define genome coordinates, cytogenetic band, or cM position.</li> <li>You cannot combine genome coordinates, cytogenetic band, and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) &#151; except QTL(s) &#151;  with coordinates.</li></ul>
+See <a href="MISC_map_position_help.shtml">Using Map Position Fields on MGI Query Forms</a> for further details about entering values in these fields.</td>
+</tr>
+
+<tr>
+   <th align="left" valign="top"><a name="gene_ontology"></a>Gene <br>Ontology <br>classification</th>
+        <td valign="top">Genes may be described using three broad categories reflecting biological roles: Molecular Function, Biological Process, or Cellular Component. The Gene Ontology (GO) Consortium has developed structured vocabularies to specify detailed aspects within each category. MGI uses GO terms to annotate gene records. See <a href="GO_classification_fields_help.shtml">Using Gene Ontology Classification Fields on MGI Query Forms </a> for details.
+       </td>
+</tr>
+
+<tr>
+  <th align="left" valign="top">Protein domains</th>
+  <td valign="top">
+    <table border="0" cellpadding="3">
+      <tr>
+         <th align="left" valign="top"><a name="interpro"></a>InterPro Protein Domains</th>
+         <td>InterPro accession ID for a protein family, domain, or functional site.
+<ul>
+  <li>To find an accession ID, click  <i>Browse InterPro protein domains</i>.</li>
+  <li>Copy and paste (or type) an ID or description into the box.</li>
+  <li>To enter more than one ID or description, use AND between them. Searching on <i>term1</i> AND <i>term2</i> returns markers annotated to <b>both</b> term1 and term2. </li>
+      </ul>
+     </td>
+    </tr>
+   </table>
+  </td>
+</tr>
+
+<tr>
+  <th align="left" valign="top">Mouse<br>phenotypes &amp;<br><nobr>mouse models of <br>human disease</th>
+  <td valign="top">
+    <table border="0" cellpadding="3">
+     <tr>
+     <th align="left" valign="top"><a name="phenotype"></a>Phenotype/<br>Human Disease</th>
+     <td>See <a href="ALLELE_help.shtml#phenotypes">Phenotype/Disease</a>.<br>Note: The query returns a marker only if at least one associated allele satisfies whatever you enter in this section.
+     </td>
+   </tr>
+  </table>
+ </td>
+</tr>
+
+<tr>
+  <th align="left" valign="top">Clone collection</th>
+  <td valign="top">
+    <table border="0"cellpadding="3">
+      <tr>
+       <th align="left" valign="top"><a name="clone_collection"></a>Clone Collection</th>
+       <td>Use this field to search for markers with at least one associated molecular segment record with an <i>encodes</i> or <i>putative</i> relationship to the marker.
+         <ul style="padding-left:30px">
+           <li>To restrict your search to markers with a clone ID, select one or more of the clone collections from the drop-down list. (For details such as the differences between the sets on this list, see <a href="clone_collections_help.shtml">MGI Clone Collections</a>.)</li>
+           <li>Select ANY if you do not want to restrict the search by clone collection. If you select multiple clone collections, the search returns markers with associated clones from any of the selected collections.</li>
+           <li>To make multiple selections, see <a href="MISC_general_searching_help.shtml#options">How do I select more than one item on a list?</a></li>
+         </ul>
+       </td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+<tr><th align="left" valign="top">Sorting and <br>output format</th>
+    <td valign="top">
+     <table border="0" cellpadding="3">
+      <tr>
+       <th align="left" valign="top"><a name="sort_by"></a>Sort by</th>
+       <td valign="top">Click one of the choices (Nomenclature, Genome Coordinates, or cM Position) to determine the order of any results on the summary page. <br>
+The combination of sort option and <a href="#gene_nomenclature">search</a> parameter affects the order and type of results listed on this summary page.<ul>
+<li>If you search using <i>current & old symbols/names, synonyms, alleles, orthologs,</i> the summary page columns are  Chr, cM, Genome Coordinates, Symbol/Name and Matching Text.
+<li>If you search on <i>current symbols/names</i>, the summary page column headings are Chr, cM, Genome Coordinates, and Symbol/Name. </td>
+      </tr>
+        <tr>
+      <th valign="top" align="left"><a name="max_returned"></a>Maximum Returned</th><td>The default is 500.  You can change this number to whatever you wish or you can click <i>no limit</i>. </td>
+      </tr>
+     </table>
+
+      </td>
+     </tr>
+
+<p>
+</ul>
+    <tr>
+    <th align="left" valign="top"><a name="output_format"></a>Output</th>
+    <td valign="top">Choose from the list depending on how you wish to view the report.
+     <TR><TH ALIGN="left" VALIGN="top"><A NAME="format"></A>Output format</TH><TD VALIGN="top">Choose from the list depending on how you wish to view the results.
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="4">
+<TR><TH ALIGN="left" VALIGN="top">Web (default)</TH><TD VALIGN="top">Web page with MGI toolbar and all the selected items. </TD></TR>
+<TR><TH ALIGN="left" VALIGN="top">Excel</TH><TD VALIGN="top">Comma-delimited text in an Excel spreadsheet with a .csv (comma separated values) extension. (See <a href="http://en.wikipedia.org/wiki/Comma-separated_values">http://en.wikipedia.org/wiki/Comma-separated_values</a> for details.</TD></TR>
+<TR><TH ALIGN="left" VALIGN="top">Tab-delimited</TH><TD VALIGN="top">Tab-delimited text returned to your browser with all the selected fields.</TD></TR>
+<TR><TH ALIGN="left" VALIGN="top">Tab-delimited text to ftp site</TH><TD VALIGN="top">Tab-delimited text saved on our public FTP site available for 72 hours. Be sure to save the URL or print the page with the information for later access.  
+</TABLE>
+    </td>
+    </tr>
+  </table>
+
+</tbody>
+</p>
+<a href="#top"><font size="-1">Top</font></a>
+
+
+<h3><a name="GENE_summary_help.shtml"></a>How do I interpret the summary results of my query?</a></h3>
+<p>See <a href="GENE_summary_help.shtml">Using the Marker Summary Report.</a></p>
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="GENE_detail_help.shtml"></a>How do I interpret the detail results of my query?</a></h3>
+<p>See <a href="GENE_detail_help.shtml">Using the Marker Detail Report.</a></p>
+<a href="#top"><font size="-1">Top</font></a>
+
+ <h3><a name="button"></a>What happens if I click the Your Input Welcome button on the detail page?</h3>
+
+<p>The Your Input Welcome button appears at the top right of your screen as part of the detailed query results.  Clicking the button brings up a dialogue box to use for submitting updates and corrections to the data you are viewing. Our User Support staff will review your comments and make sure the appropriate changes are made.  This provides an easy way for you to help us keep data current.</p>
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="example"></a>Are there any sample queries?</h3>
+<p>The following examples show the field values that produce the given results. Default values for other fields are assumed.</p>
+<ol>
+<li>How do I find genes with symbols/names containing <i>cd2</i> mapped to Chr. 3 between 30 and 50 cM?
+<blockquote>
+<b>Gene/Marker Symbol/Name:</b>&nbsp;&nbsp;&nbsp; cd2 <br>
+<b>Chromosome(s):</b>&nbsp;&nbsp;&nbsp;3<br>
+<b>cM Position:</b> &nbsp;&nbsp;&nbsp;between 30.0-50.0<br>
+<b>Sort by:</b>&nbsp;&nbsp;&nbsp;cM position<br>
+The search yields a list of at least 3 markers containing the alphanumeric <i>cd2</i> on Chromosome 3.
+
+</blockquote></li>
+
+
+<li>Which histocompatibility markers are located on Chromosome 4?
+<blockquote>
+<b>Gene/Marker Symbol/Name:</b> CONTAINS histoc<br>
+<b>Chromosome(s):</b> 4 <br>
+The search yields a list of at least 5 histocompatibility markers on Chromosome 4.
+</blockquote></li>
+
+
+
+
+<!--Examples for OMIM QF
+abnormal AND cardiovascular
+168600 OR Parkinson OR PD
+Query Summary
+Phenotypes: contains (abnormal AND cardiovascular) searching MP terms, synonyms, IDs and notes.
+Human Diseases: contains (168600 OR Parkinson OR PD) searching Human Disease terms, synonyms, and IDs.
+Sort: by Allele Symbol
+Display Limit: equals 500
+
+<LI>Which genes on Chromosome 16 are related to Parkinson's Disease and what phenotypic
+information about them is available?
+<blockquote>
+<B>Chromosome:</b> 7<br>
+<B>Phenotype </B>(MLC Search Term): diabet*<br>
+This search yields a list of markers whose phenotypic records contain
+information related to diabetes.
+</blockquote></li>-->
+
+<li>What information does MGI have on the <i>Chrng</i> marker?
+<blockquote>
+<b>Gene/Marker Symbol/Name: </b> BEGINS chrng <br>
+This search yields a link to the marker record for <i>Chrng</i> (and any other
+markers for which the symbol or name begins with the characters <i>chrng</i>).
+</blockquote></li>
+
+<li>List all the genes on any chromosome between cM position 10 and 15.
+<blockquote>
+<b>Chromosome(s): </b>2<br>
+
+<b>cM Position</b> BETWEEN: 10.0-15.0 <br>
+
+<b>Maximum returned:</b> no limit<br>
+<b>Sort by:</b> cM Position<br>
+This query yields a listing of ~57  markers on Chromosome 2 ordered by cM position.
+</blockquote></li>
+
+<li>How can I find which MIT markers are located within a specific range on Chromosome 11?
+<blockquote>
+<b>Marker Symbol/Name:</b>&nbsp;&nbsp;&nbsp; contains MIT<br>
+<b>Chromosome(s):</b> 11<br>
+<b>Genome Coordinates:</b> between 4.0-4.5 Mbp<br>
+<b>Sort:</b> by cM position<br>
+This query yields a listing of ~6 MIT markers on Chromosome 11 ordered by cM
+position.
+</blockquote>
+</li>
+
+<li>I want to find the current symbols of all non-coding RNA genes on  Chr. 7 between 43 and 57 cM.
+<blockquote>
+<b>Gene/Marker Symbol/Name</b>&nbsp;&nbsp;&nbsp; search in current symbols/names<br>
+<b>Feature Type:</b>&nbsp;&nbsp;&nbsp;non-coding RNA gene<br>
+<b>Chromosome(s):</b> 7<br>
+<b>cM Position</b> between 43 and 57<br>
+<b>Sort:</b> by <b>cM position</b><br>
+<b>Display limit </b> equals <b>500</b><br>
+This query returns the current symbols for at least 26 matching items that include lincRNA, miRNA, rRNA, snoRNA, and unclassified non-coding RNA gene feature types.
+</blockquote>
+</li>
+
+
+
+</ol>
+<!-- 	39590978 on 17-->
+<!--<P><a name="search"></a></P>
+<LI>Exclude all the markers beginning with <b>D14</b> on Chromosome 14 between cM position 10 and 15.
+<P>
+<UL style="padding-left:10px"><B>Sort by: Symbol<br>
+Max number of items retrieved: No Limit<br>
+Symbol/Name: NOT BEGINS D14<br>
+Search: </b> first by <b>current symbols</b> and then by <b>current symbols/names & synonyms<br>
+Chromosome: 14<br>
+cM Position BETWEEN: 10 and 15 </B></UL>
+<P>In August, 2002, the first query returned a list of 29 markers, none of which began with D14. Setting the Search parameter to <b>current symbols/names & synonyms</b> returned 110 items, many of which began with D14. The wider setting picked up withdrawn symbols, names, or synonyms as well as current symbols.
+</P></LI>-->
+</p>
+<a href="#top"><font size="-1">Top</font></a>
+
+
+<!--#include file='include/templateBlankBodyStop.html'-->

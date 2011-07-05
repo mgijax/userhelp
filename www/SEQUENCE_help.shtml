@@ -1,0 +1,402 @@
+<!--#include file='include/templateHead.html'-->
+
+<title><!--#include file="include/mgiversion.html"-->MGI-Using the Mouse Sequence Query Form</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;  
+window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">Using the Mouse Sequence Query Form</span>
+</div>
+
+<style type="text/css">
+</style>
+
+
+<!-- Container Table -->
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+  </td>
+</tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+<!-- Body of User Help -->
+<A NAME="top"></A> 
+<p>This help document answers the following questions:
+ <ul>
+ <li><a href="#whatdo">What can I use the Mouse Sequence Query Form to find?</a></li>
+ <li><a href="#seqattribute">How do I use this form to find sequences?</a></li>
+ <li><a href="#field">What values are acceptable in the each of the query form fields?</a></li>
+ <li><a href="#sort">How do the sorting and output format options work?</a></li>
+ <li><a href="#ftp">I got a summary report with a "Link to Results on FTP Site" message. What do I do now?</a></li>
+ <li><a href="SEQUENCE_summary_help.shtml">How do I interpret the summary results of my query?</a></li>
+ <li><a href="SEQUENCE_detail_help.shtml">How do I interpret the detail results of my query?</a></li>
+ <li><a href="#example">Are there any sample queries?</a></li>
+ <li><a href="#messages">What should I do if I get a status message?</a></li>
+  </ul>
+</p>
+
+<P>See also:
+<UL>
+
+  <LI><A HREF="<!--#include file='include/glossary_url.html'-->">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
+   <LI><A HREF="SEQUENCE_query_tips_help.shtml">Sequence Query Tips</A></li>
+  </UL>
+</p>
+
+ <H3><A NAME="whatdo"></A>What can I use the Mouse Sequence Query Form to find?</H3>
+ <P>Use this query form to find mouse sequences by entering some or all of the following:
+<UL>
+<LI>sequence attributes: type, provider name, description, length</li>
+<LI>sequence source: strain (or species if other than laboratory mouse), tissue, library, clone collection</li>
+<LI>properties of annotated markers: symbol/name, mapped position, GO classifications, protein domains, gene expression, phenotype classifications.</LI>
+</UL>
+</p>
+<P>The query retrieves the first 5000 sequences that match your parameters. See <A HREF="#limit">Is there a limit on the number of sequences that a query returns?</A> for more details. <B>Note:</B> A query will <B>only</B> display the  number indicated in <A HREF="#max_no">Maximum number of items returned</A>. The default is 100.</P>
+
+<P>You can determine the sort order of the results. See <A HREF="#sort">How do the sorting and output format options work?</A></P>
+
+<H3><A NAME="seqattribute"></A>How do I use this form to find sequences?</H3>
+<UL>
+    <LI>Choose values within the sections to narrow or expand your search. (See <A HREF="#example">Are there any sample queries?</A> for examples.) You can set values for sequence attributes, sequence source, annotated genes and markers, map position, gene ontology classifications, protein domains, expression, phenotypes, or diseases. Each value that you enter restricts the results returned.</li>
+<LI> If you do not enter or select values in a given section, the search uses that section's  defaults. These defaults do not restrict or cancel values you set in other sections.</LI>
+  <LI>Make sorting and output format choices (you can have query results returned to your browser or stored on MGI's FTP site for later access).</li>
+<LI>Click <B>Search</B> to submit your query (or <B>Reset</B> to clear the fields, return any default values, and start over).</li>
+</UL>
+<P>The result is either a Sequence Summary report listing all the sequences found or a text file containing these sequences in tab-delimited or FASTA format. See <A HREF="SEQUENCE_summary_help.shtml">Interpreting a Sequence Summary</A>.
+</P>
+
+<a href="#top"><font size="-1">Top</font></a>
+
+
+<H3><A NAME="limit"></A>Is there a limit on the number of sequences that a query returns?</H3>
+<P>You can get back a maximum of 5000 sequences matching your parameters. The default is set to return a maximum of 100 sequences. You can change this number in the <A HREF="#sort">Sorting and output format</A> section of the query form. </P>
+<P>See also:
+<UL>
+  <LI><A HREF="#sort">How do the sorting and output format options work?</A></LI>
+  <LI><A HREF="SEQUENCE_query_tips_help.shtml">Sequence Query Tips</A></LI>
+  <LI><A HREF="#messages">What should I do if I get a status message?</A></LI>
+</UL>
+</P>
+<A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
+
+<H3><A NAME="field"></A>What values are acceptable in each of the query form fields?</H3>
+<P><table class="nb" width="!" cellpadding="2" align="center">
+<tr align="center"><td><font size="-1"><a href="#sequence_attributes">Sequence attributes</a> | <a href="#source">Sequence source</a> | <a href="#genes_and_markers">Annotated genes & markers</a> | <a href="#map_position">Map position</a> | <a href="#go_classification">Gene Ontology (GO) Classifications</a> | <a href="#interpro">Protein Domains</a> | <a href="#expression">Expression</a> | <nobr><a href="#phenotypes">Mouse phenotypes & mouse models of human disease</a></nobr> | <nobr><a href="#sort">Sorting and output format</a></nobr></font></td>
+ </TR>
+ </TABLE>
+</P>
+
+ <TABLE BORDER="1" CELLPADDING="4" WIDTH="!">
+   <TR><TH>Field </TH><TH>Description</TH></TR>
+   <TR><TH ALIGN="left" VALIGN="top"><A NAME="sequence_attributes"></A>Sequence attributes</TH>
+     <TD>
+       <TABLE CELLPADDING="4">
+       <TR><TD ALIGN="left" VALIGN="top"><A NAME="sequence_type"></A><B>Sequence Type</B></TD><TD>Click one or more items from the selection list. The default is to return sequences from <B>Any</B> type on the list.</TD></TR>
+
+      <TR><TD VALIGN="top"><B><A NAME="sequence_provider"></A>Sequence Provider</B></TD><TD VALIGN="top">Click one or more items from the selection list. The default is to return sequences from <B>Any</B> provider on the list. See <A HREF="SEQUENCE_valid_providers_help.shtml">Valid Sequence Provider and Type Combinations</A> for the allowed combinations.</TD></TR>
+
+   <TR><TD VALIGN="top"><B><A NAME="provider_description"></A>Description From Sequence Provider</B></TD><TD VALIGN="top">Enter something you think the provider is likely to use in the text description of the sequence. The system searches the MGI database a string containing whatever you enter.  <B>Note:</B>&nbsp;This search is restricted to sequences associated to a mouse gene or marker. </TD></TR>
+
+  <TR><TD VALIGN="top"><B><A NAME="sequence_length"></A>Sequence Length</B></TD>
+      <TD><UL STYLE="padding-left:10px">
+          <LI>Select an operator or use the default (greater than or equal to).
+           <LI>Type in the number of base pairs or amino acids. Use <I>and</I> for ranges (<I>i.e.</I>, if the sequence length is between 500 and 1000 base pairs, enter <I>500 and 1000</I>).
+      <LI>Use equals (<I>=</I>) when you know the exact length of a particular sequence.</LI>  </UL>
+      </TD></TR>
+      </TABLE></TD></TR>
+
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="source"></A>Sequence source</TH>
+    <TD><TABLE>
+      <TR><TH ALIGN="left" VALIGN="top"><A NAME="strain_tissue_library"></A>Strain (or species if other than laboratory mouse)/ <BR>Tissue/<BR>Library</TH>
+<TD ALIGN="left" VALIGN="top">Information about the sequence from the source provider, but
+<A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=glossaryTerm&key=resolved">resolved</A> to an MGI controlled 
+<A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=glossaryTerm&key=controlled_vocabulary">vocabulary</A>.
+<P>Browse the strain/species, tissue, or library list to locate desired items:
+<OL STYLE="padding-left:20px">
+        <LI>Type or paste one or more strain/species, tissue, or library name in the box.</LI>
+        <LI>Select an <A HREF="MISC_operators_help.shtml">operator</A> or use the default (begins).</LI>
+        <LI>Click the NOT box to exclude a particular strain (or species if other than laboratory mouse), tissue, or library.</LI>
+      </UL><B>Note:</B> The standard strain (or species if other than laboratory mouse) list is only a partial list of what you may query on. </TD></TR>
+
+ <TR><TH ALIGN="left" VALIGN="top"><A NAME="clone_collection"></A>Clone collection</TH><TD VALIGN="top">Use this field to restrict your search for sequences to those derived from a clone collection set (clone libraries from one or more collections of libraries are called <I>clone collections</I>). For example, the IMAGE clone collection is the group of clones from all IMAGE clone libraries.  The default is  to <B>not</B> restrict the search to any particular clone collection.
+<UL STYLE="padding-left:30px">
+  <LI>To restrict the search, select one or more of the clone collections from the drop-down list. (For details such as the differences between the sets on this list, see <A HREF="clone_collections.shtml">MGI Clone Collections</A>.)</LI>
+  <LI>Select ANY if you do not want to restrict the search by clone collection. If you select multiple clone collections, the search returns data from any of the selected collections.</LI>
+  <LI>To make multiple selections, see <A HREF="general_blurb.shtml#options">How do I select more than one option on a list?</A></LI>
+  </UL></TD></TR>
+        </TABLE></TD></TR>
+
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="genes_and_markers"></A>Annotated genes and markers <TD VALIGN="top">Use this field to find sequences associated with different types of MGI markers.
+<TABLE><TR><TH ALIGN="left" VALIGN="top"><A NAME="marker_symbol_name"></A>Marker Symbol/Name</TH>
+<TD><uL STYLE="padding-left:20px">
+  <LI>Pick an <A HREF="operators.shtml">operator</A> from the selection list (the default is <I>contains</I>).</LI>
+
+<li>Enter the gene symbol/name/synonym. <b>Note:</b> If the symbol/name or synonym contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
+
+  <LI>Use the default search (current symbols/names and synonyms) or make another choice from the selection list. </LI>
+
+ </uL>
+</TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="type"></A>Type</TH><TD>The kind of marker, as defined in MGI.
+  <LI>Use the default (no particular type) or pick from the selection list.</LI>
+  <LI>Click the NOT check box to exclude types from the search.</TD></TR></TABLE></TD></TR>
+
+
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="map_position"></A>Map position</TH><TD VALIGN="top">Use these parameters to limit the scope of retrieved sequences to those associated with mapped genes and markers.
+There are several ways to use the map position parameters. If you use the chromosome parameter, you may also define a cytogenetic band, cM position, or genome coordinate. However, you cannot combine cytogenetic band, cM position, and genome coordinate with one another.
+     <TABLE>
+      <TR><TH ALIGN="left" VALIGN="top"><A NAME="chromosome"></A>Chromosome</TH><TD VALIGN="top">
+          <LI>Choose an <A HREF="operators.shtml">operator</A> (on/not on)</LI>
+          <LI>Select one or more items from the chromosome selection list. </LI></TD></TR>
+
+   <TR><A NAME="cyt"></A><TH ALIGN="left" VALIGN="top">Cytogenetic Band</TH><TD VALIGN="top">
+     <LI>Specify all or a portion of a cytogenetic band offset. The default is <I>equals</I> (=), which limits the search to exact matches.
+<LI>Select an alternative <A HREF="operators.shtml">operator</A> if you want to search using part of a cytogenetic band offset.
+<LI>Click the NOT box to exclude whatever you type in the box.<BR></LI>
+</TD> </TR>
+
+ <TR><A NAME="cmp"></A><TH VALIGN="top" ALIGN="left">cM position</TH><TD VALIGN="top">
+<OL>
+  <LI>Specify a chromosomal region BETWEEN two points on one chromosome selected from the Chromosome list by entering the cM values to begin and end the region, separated by <I>and</I> (for example, <I>50 and 75</I>).
+     <LI>Specify a region WITHIN an area surrounding a marker by entering the current, approved symbol and the number of cM on either side of the marker. For this option, you do not need to not select a chromosome.
+</OL></TD>
+ </TR>
+
+ <TR><A NAME="coordinates"></A><TH ALIGN="left" VALIGN="top">Genome Coordinates</TH><TD VALIGN="top">
+<OL>
+  <LI>Make a selection on the <A HREF="#chromosome">Chromosome</A> list.</LI>
+ <LI>Enter the genome assembly coordinate(s) for a mapped gene or marker.</LI>
+   <LI>Use the default (Between) or click the down arrow to select the &lt;= (less than or equal to) or &gt;= (greater than or equal to) <A HREF="operators.shtml">operator</A>.
+ <LI>Click the other down arrow and select either bp (base pairs) or Mbp (mega base pairs) as the unit of measurement. (The default is base pairs.)</LI>
+<LI>Enter the coordinate(s):</LI><BR>
+
+<TABLE ALIGN="center" BORDER="1" CELLSPACING="0" CELLPADDING="4" WIDTH="100%">
+  <TR><TH ALIGN="left" VALIGN="top" NOWRAP>If you use...</TH><TH ALIGN="left" WIDTH="30%" VALIGN="top">Type or paste in the box...</TH><TH ALIGN="left">Examples: (be sure to select the proper unit: Mbp or bp)</TH></TR>
+  <TR><TD ALIGN="left" VALIGN="top">Between</TD><TD VALIGN="top">Coordinates indicating the area that includes the marker of interest, separated by either AND or - . The maximum number of characters is 23. </TD>
+<TD>125618206 AND 125622026 <BR>125618206 - 125622026 <BR>125.618 AND 125.622<BR> 125.618 - 125.622</TD></TR>
+  <TR><TD>&lt; =</TD><TD VALIGN="top">A single coordinate less than or equal to that of a mapped gene or marker.</TD>  <TD>125618205<BR> 125.61 </TD></TR>
+  <TR><TD>&gt; =</TD><TD VALIGN="top">A single coordinate greater than or equal to a mapped gene or marker. </TD><TD>125622026<BR> 125.63 </TD></TR>
+</TABLE>
+</OL>
+<B>Note:</B>&nbsp;The build number appearing on the query form is that of the most current NCBI assembly sequence. See <A HREF="http://www.ncbi.nlm.nih.gov/genome/seq/NCBIContigInfo.html">Assembling Genomic Sequences</A> for complete details.<BR><BR>
+  </TD>
+ </TR>
+</TABLE>
+
+<P>The Mouse Sequence Query Form returns all sequences associated with markers  annotated to the map positions you enter. Thus, if a marker located at your map position has 10 sequences associated with it, the query returns 10 sequences rather than just 1 marker.</P>
+</TD></TR>
+
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="go_classification"></A>Gene Ontology (GO) Classifications</TH><TD>Use this field to find sequences associated with genes annotated with GO classification terms. See <A HREF="marker_help.shtml#gene">Using the Marker Query Form - Gene Ontology (GO) Classifications</A> for details on entering GO terms.
+<P>The Mouse Sequence Query Form returns all sequences associated with markers annotated to the GO terms you enter. Thus, if a marker annotated with your GO term has 10 sequences associated with it, the query returns 10 sequences rather than just 1 marker. As an example, try:
+<BLOCKQUOTE>
+<B>Gene Ontology Term(s)</B>&nbsp;contains <I>prenylation</I><BR>
+<B>Biological Process</B>&nbsp; checked
+</BLOCKQUOTE>
+<P>This query returns over 100 sequences associated to MGI markers containing <I>prenylation</I> in the Gene Ontology (GO) classification field on the Gene Detail report.</P></TD></TR>
+
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="interpro"></A>Protein Domains</TH><TD>Use this field to find sequences associated with genes annotated with a specific InterPro accession ID for a protein family, domain, or functional site.
+<P>The Mouse Sequence Query Form returns a list of all sequences associated with markers annotated to the protein domain(s) you enter. Thus, if a marker annotated to your protein domain has 10 sequences associated with it, the query returns 10 sequences rather than just 1 marker.
+<UL>
+  <LI>If you click <B>view all the InterPro domains</B>, you can scroll to select an Interpro ID (e.g., IPR000001) from the list that appears, then copy and paste it into the field.</LI>
+  <LI>If you click <B>InterPro/EBI</B>, a new window opens to the InterPro-EBI home page where you can continue your search.</LI>
+<LI>The default is a "contains" search. This means that you'll bet back any item from the Interpro database with an ID or description containing the characters you type in the box. You can change this to an <I>= (equals), begins, ends,</I> or <I>like</I> search by selecting one of these items from the drop-down menu.
+ <LI>You can enter more than one InterPro ID or description and use the logical
+<A HREF="operators.shtml">operator</A> AND between them. A search of term1 AND term2 returns markers annotated to <B>both</B> term1 and term2. </LI>
+</UL></TD></TR>
+
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="expression"></A>Expression</TH><TD>
+<P>Use this field to find sequences associated to genes annotated with specific expression data. <TABLE
+  <TR> <TH ALIGN="left" VALIGN="top"></A>Developmental Stage(s)</TH>
+       <TD><A NAME="stage"></A>Use this field and its <A HREF="#operators">operators</A> (<B>in</B> or <B>not in</B>) to select one or more Theiler stages (TS) to focus your search on a particular stage of embryonic development. A dictionary for TS 27 is not yet available. See <A HREF="expression_help.shtml#stage">Developmental Stage(s)</A> for more details.</TD></TR>
+  <TR><TH ALIGN="left" VALIGN="top">Anatomical Structure(s)</TH>
+      <TD VALIGN="top"><A NAME="structure"></A>The anatomical structures are taken from the <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml">Anatomical Dictionary</A>. Clicking on a stage brings up a list of anatomical terms for structures present at that stage of development. Enter a single item or multiple items, separated by commas. For each stage, the Anatomical Dictionary is organized as a hierarchy of structures. You can choose to include either <B>substructures</B> (children), <B>superstructures</B> (parents), both, or neither in your search. The default is to <B>Include</B> substructures.  See <A HREF="expression_help.shtml#anatomical_structure">Anatomical Structure(s)</A> for more details. </P></TD></TR>
+
+<TR><TH ALIGN="left" VALIGN="top">Assay Type(s)</TH>
+<TD><A NAME="assay"></A>Selection list of assay types. Use this field and its <A HREF="#operators">operators</A> (<B>in</B> and <B>not in</B>) to limit your search to assays of one or more selected types. The default assay type is ANY.
+</TABLE>
+
+<P><P>The Mouse Sequence Query Form returns a list of sequences associated with markers annotated with expression data from your query. Thus, if the expression data you seek is annotated to a gene with 10 sequences associated with it, the query returns those 10 sequences rather than just 1 marker. As an example, try:
+<BLOCKQUOTE>
+<B>Developmental Stage(s)</B> in TS:26</BR>
+<B>Anatomical structure(s)</B>&nbsp; contains brain <BR>
+<B>Substructures</B>  checked<BR>
+<B>Assay Type</B>&nbsp;in RNase protection<BR>
+</BLOCKQUOTE>
+<P>This query should return at least 100 sequences.
+</TD></TR>
+
+<TR> <TH ALIGN="left" VALIGN="top"><A NAME="phenotypes"></A>Phenotype/Disease</TH>
+<TD>Use this field to find sequences associated with genes annotated with specific phenotype classification terms.  See <A HREF="allele_help.shtml#phenotypes">Phenotype/Disease </A> for details.</TD></TR>
+<TR>
+<TH ALIGN="left" VALIGN="top"><A NAME="sort"></A>Sorting and output format</TH><TD VALIGN="top">Use this field to limit your search results and to choose what items to view in your Sequence Summary.
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="4">
+
+<TH VALIGN="top" ALIGN="left"><A NAME="max_no"></A>Maximum number of items returned</TH><TD>If you want to limit the number of sequences returned, type in a number (5000 or less). The default is 100; the intent is not to speed up your search by limiting the scope but rather to let you restrict (or expand) your results. If you use the default and get a message on the Sequence Summary Report that says, for example, <I>100 of 171 sequences displayed</I>, you can examine only the first 100 results. If you want to see the additional 71 sequences, rerun the query using the same parameters, but type <I>171</I> (or a somewhat larger number) in this field.</TD></TR>
+  <TR><TH ALIGN="left" VALIGN="top"><A NAME="show"></A>Show in results</TH><TD VALIGN="top">Click the box next to <I>select all</I>  to see results from every category listed next to Sequence Attributes, Sequence Source, and Properties of Annotated Markers in/on the Sequence Query Form.  If you do not check <I>select all</I>, the report columns contain only the items checked. Click items to select/deselect.</TD></TR>
+<TR><A NAME="sortby"></A><TH ALIGN="left" VALIGN="top">Sort by</TH><TD VALIGN="top">Choose an order from the selection list: Type, Provider, Length, Strain/Species, Tissue, Library, Clone Collection, Marker Symbol, Map Position, Genome Coordinates.</TD></TR>
+
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="output_format"></A>Output format</TH><TD VALIGN="top">Choose from the list depending on how you wish to view the Sequence Summary report columns you've selected.
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="4">
+<TR><TH ALIGN="left" VALIGN="top">Web (default)</TH><TD VALIGN="top">Web page with MGI toolbar and all the selected columns. </TD></TR>
+<TR><TH ALIGN="left" VALIGN="top">Excel</TH><TD VALIGN="top">Comma-delimited text in an Excel spreadsheet with a .csv extension.</TD></TR>
+
+<TR><TH ALIGN="left" VALIGN="top">Tab-delimited text</TH><TD VALIGN="top">Tab-delimited text returned to your browser with all the selected fields.</TD></TR>
+<TR><TH ALIGN="left" VALIGN="top">Tab-delimited text to ftp site</TH><TD VALIGN="top">Tab-delimited text saved on our public FTP site available for 72 hours. Be sure to save the URL or print the page with the information for later access.  </TD></TR>
+<TR><TH ALIGN="left" VALIGN="top">FASTA format</TH><TD VALIGN="top">Tab-delimited FASTA-formatted results returned to your browser. <B>Note:</B>Selected output fields and sorting options do not apply to FASTA output files.</TD></TR>
+<TR><TH ALIGN="left" VALIGN="top">FASTA format to ftp site</TH><TD VALIGN="top">Tab-delimited FASTA-formatted results saved on our public FTP site for 72 hours.  Be sure to save the URL or print the page with the information for later access.</TD></TR>
+
+</TABLE>
+<P>Output retrieval:</P>
+
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="4">
+   <TR><TH ALIGN="left" VALIGN="top">If you select...</TH><TH ALIGN="left" VALIGN="top">The 1st sort is by...</TH><TH ALIGN="left" VALIGN="top">The 2nd sort is by ... </TH><TH ALIGN="left" VALIGN="bottom">The 3rd sort is by...</TH><TH  ALIGN="left" VALIGN="bottom">The 4th sort is by...</TH></TR></FONT>
+  <TR><TH ALIGN="left" VALIGN="top">Provider</TH><TD VALIGN="top">RefSeq, GenBank/EMBL/DDBJ:Other, DFCI, DoTS, NIA Mouse Gene Index, <BR>
+SWISS-PROT, TrEMBL</TD><TD VALIGN="top">RNA, DNA, polypeptide</TD><TD VALIGN="top">Length (descending)</TD><TD>&nbsp;</TD></TR>
+   <TR><TH ALIGN="left" VALIGN="top">Type (default)</TH><TD VALIGN="top">RNA, DNA, polypeptide</TD><TD>RefSeq, GenBank/EMBL/DDBJ:Other, DFCI, DoTS,  NIA Mouse Gene Index, SWISS-PROT, TrEMBL</TD>
+<TD VALIGN="top">Length (descending)</TD><TD>&nbsp;</TD></TR>
+   <TR><TH ALIGN="left" VALIGN="top">Length</TH><TD VALIGN="top" COLSPAN="4">Length (descending) </TD></TR>
+ <TR><TH ALIGN="left" VALIGN="top">Strain/Species, Tissue, Library</TH><TD VALIGN="top">Alphabetical (ascending). Not Specified, Not Resolved appear at the end.</TD><TD VALIGN="top">Provider: RefSeq, GenBank/EMBL/DDBJ:Other, DFCI/DoTS, NIA Mouse Gene Index, SWISS-PROT, TrEMBL</TD><TD VALIGN="top">Type: RNA, DNA, polypeptide</TD><TD VALIGN="top">Length (descending)</TR>
+ <TR><TH ALIGN="left" VALIGN="top">Clone Collection</TH><TD VALIGN="top" COLSPAN="4">
+Riken (FANTOM), RPCI-23, RPCI-24, IMAGE, NIA, and so on.</TD></TR>
+ <TR><TH ALIGN="left" VALIGN="top">Marker Symbol</TH><TD VALIGN="top">Symbol (ascending)</TD><TD VALIGN="top">Provider: RefSeq, GenBank/EMBL/DDBJ:Other, DFCI/DoTS,  NIA Mouse Gene Index, SWISS-PROT, TrEMBL</TD><TD VALIGN="top">Type: RNA, DNA, polypeptide</TD><TD VALIGN="top">Length (descending)</TD></TR>
+ <TR><TH ALIGN="left" VALIGN="top">Map Position</TH><TD VALIGN="top">Chromosome (ascending)</TD><TD VALIGN="top">Numerical cM position (if any) (ascending)</TD><TD VALIGN="top">Alphanumeric by cytogenetic band (ascending)</TD><TD VALIGN="top">Length (descending)</TR></TR>
+ <TR><TH ALIGN="left" VALIGN="top">Genome Coordinates</TH><TD VALIGN="top">Chromosome (ascending)</TD><TD VALIGN="top">Coordinates (ascending)</TD><TD VALIGN="top">Symbol/name</TD><TD VALIGN="top">&nbsp;</TR></TR>
+</TABLE>
+   </TD></TR></TABLE>
+</TD></TR></TABLE>
+</P><A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
+
+<H3><A NAME="ftp"></A><A HREF="SEQUENCE_summary_help.shtml#ftp">I got a summary report with a "Link to Results on FTP Site" message. What do I do now?</a></H3>
+
+<A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
+
+ <H3><A NAME="summary"></A>How do I interpret the summary results of my query?</H3>
+<P>See <A HREF="SEQUENCE_summary_help.shtml">Interpreting a Sequence Summary</A>. 
+</P>
+<A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
+
+ <H3><A NAME="detail"></A>How do I interpret the detail results of my query?</H3>
+<P>See the <A HREF="SEQUENCE_detail_help.shtml">Interpreting Sequence Details</A>.
+</P>
+<A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
+
+
+<H3><A NAME="example"></A>Are there any sample queries?</H3>
+<P>The following examples identify the field values to set for the query. Default values for any other fields are assumed.
+<P>
+<OL>
+<LI>Find GenBank RNA sequences with fewer than 2000 base pairs containing the description <I>interleukin</I>.
+<BLOCKQUOTE>
+<B>Sequence Type:</B> &nbsp; RNA<BR>
+<B>Provider:</B>&nbsp; GenBank/EMBL/DDBJ<BR>
+<B>Description From Sequence Provider:</B> &nbsp; <I>interleukin</I><BR>
+<B>Sequence Length:</B> &nbsp; &lt;&#061;2000<BR>
+ <B>Maximum number of items returned:</B>&nbsp; <I>500</I>
+</BLOCKQUOTE>
+<LI>Find SWISS-PROT polypeptide sequences containing between 200 and 300 amino acids.</LI>
+<BLOCKQUOTE>
+<B>Sequence Type:</B> &nbsp; polypeptide<BR>
+<B>Sequence Provider:</B> SWISS-PROT<BR>
+<B>Sequence Length:</B> between <I>200 and 300</I><BR>
+ <B>Maximum number of items returned</B>&nbsp;  <I>500</I><BR>
+</BLOCKQUOTE>
+<LI>Find any C57BL/6 sequences associated to markers on chromosome 13 from the RPCI-23 library.
+<BLOCKQUOTE>
+<B>Strain:</B> &nbsp;begins  C57BL/6<BR>
+<B>Library:</B> begins &nbsp;  RPCI-23<BR>
+<B>Chromosome:</B> on 13<BR>
+ <B>Maximum number of items returned:</B>&nbsp;  <I>500</I><BR>
+</BLOCKQUOTE>
+<LI>Find sequences associated to genes with symbols/names containing <I>cd2</I> mapped to Chr 3 between 30 and 50 cM.
+<BLOCKQUOTE>
+<B>Marker Symbol/Name:</B> contains <I>cd2</I> searching current symbols/names and synonyms<BR>
+<B>Chromosome:</B> on 3<BR>
+<B>cM Position:</B> between <I>30 and 50</I><BR>
+<B>Sort by:</B> Type<BR>
+ <B>Maximum number of items returned:</B>&nbsp;  <I>500</I><BR>
+</BLOCKQUOTE>
+<LI>Find sequences associated to genes with annotated GO terms containing <I>prenylation</I>.
+<BLOCKQUOTE>
+<B>Gene Ontology Term(s)</B>: contains <I>prenylation</I><BR>
+<B>Biological Process</B>&nbsp; checked<BR>
+<B>Maximum number of items displayed</B> &nbsp; 500
+</BLOCKQUOTE>
+<LI>Find sequences associated to markers with expression results detected by <I>in situ</I> assays at TS 26 in structures containing <I>brain</I>.
+<BLOCKQUOTE>
+<B>Developmental Stage(s)</B>:&nbsp; <I>TS 26</I><BR>
+<B>Anatomical Structure(s)</B>: contains<I> brain</I> <BR>
+<B>Substructures</B>&nbsp; checked<BR>
+<B>Assay Type(s)</B>: in RNA in situ<BR>
+<B>Maximum number of items returned</B>:  <I>500</I>
+</BLOCKQUOTE>
+<LI>Find sequences associated with markers annotated with any coat color anomalies.
+<BLOCKQUOTE>
+<B>Phenotype Classifications</B>: coat color: anomalies<BR>
+<B>Maximum number of items returned</B>:  <I>500</I>
+</BLOCKQUOTE>
+</LI>
+<LI>Find sequences associated with genes that have allele annotations containing <I>eye</I>.
+<BLOCKQUOTE>
+<B>Phenotype Text Search</B>: <I>eye</I><BR>
+<B>Maximum number of items returned</B>:  <I>1000</I>
+</BLOCKQUOTE>
+</LI>
+</OL>
+</P>
+<A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
+
+<H3><A NAME="messages"></A>What should I do if I get a status message?</H3>
+<P>
+<TABLE BORDER="1"  CELLPADDING="4">
+<TR><TH ALIGN="center" VALIGN="top">Message</TH><TH ALIGN="center" VALIGN="top" NOWRAP>Problem</TH><TH ALIGN="center" VALIGN="top">Recommendation</TH></TR>
+<TR><TD ALIGN="left" VALIGN="top">100 of <I>nnn</I> sequences displayed</B></TD><TD VALIGN="top">The query form default for <B>Maximum number of items returned</B> is 100. <TD VALIGN="top">This message lets you know that your query is successful, but the resulting summary contains only <I>nnn</I> of your "hits."  If you want to examine all <I>nnn</I> of these sequences, rerun your query (using the same parameters), but change the display maximum (in the <B>Sorting and output format</B> section) so that it's equal to or greater than <I>nnn</I>. 
+<TR><TD ALIGN="left" VALIGN="top"><B>Warning<BR>
+Your query matches more than 5000 sequences, the MGI designated limit.<BR>
+Below are 100 of these sequences.</B><ul class="lj">
+  <LI>To change the number of sequences displayed, go to the Mouse Sequence Query Form, change the value for the Maximum number of items returned in the Sorting and output format section, and rerun the search. You may need to reenter your original search parameters.</LI>
+  <LI>To refine your search to find fewer than 5000 sequences, go to the Mouse Sequence Query Form, select additional search constraints, and rerun the search. To read more about this, see Sequence Query Hints.</LI>
+  <LI>To retrieve more than 5000 sequences, please 
+<A HREF="<!--#include file='include/mgihome_url.html'-->/support/mgi_inbox.shtml">Contact MGI User Support</a>. </LI></ul>
+</TD>
+<TD ALIGN="left" VALIGN="top">Your search returned more sequences than we can process in a reasonable amount of time. For example, asking to see all mRNA from GenBank produces this status message. </TD>
+<TD ALIGN="left" VALIGN="top">To find fewer than 5000 sequences, return to the query form and refine your search. See <A HREF="SEQUENCE_query_hints.shtml">Sequence Query Hints</A> for how to do this.  If you need to see 5000+ sequences, 
+<A HREF="<!--#include file='include/mgihome_url.html'-->/support/mgi_inbox.shtml">Contact User Support</A> and ask for a custom SQL query.</TD>
+</TR>
+<TR>
+<TD ALIGN="left" VALIGN="top"><B>Link to Results on FTP site</B><BR>
+ftp://ftp.informatics.jax.org/wirequests/nnnnnn/<BR>
+Results will be available for 72 hours.<BR>Results will be available for 72 hours. Your results will be available until n/nn/200n at hh:mm pm EST.<BR>
+Print or save this page to save the URL to your results.<BR>
+</TD>
+<TD ALIGN="left" VALIGN="top">Your query report is deleted from the FTP site after 72 hours.
+<TD ALIGN="left" VALIGN="top">If you want to retrieve your results but don't wish to do so at this time, print or save this page to retain the URL.</TD>
+</TR>
+<TR>
+<TD ALIGN="left" VALIGN="top"><b>Results Summary</b><BR>
+<I>nnn</I> of <I>nnn</I> sequences were successfully retrieved in FASTA format.
+The following sequences could not be retrieved. <BR>
+MGI User Support can help resolve questions about these missing sequences.</B></TD>
+<TD ALIGN="left" VALIGN="top">The reason for the unreturned sequences cannot be determined at this point.
+<TD ALIGN="left" VALIGN="top"><A HREF="<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml">Contact User Support</A> to research the issue and get back to you. Be sure to save this URL and to contact User Support within the 72 hours.
+</TR>
+<TR>
+<TD ALIGN="left" VALIGN="top"><B>MGI Query Error</B><BR>
+Your query did not complete. The cause is likely to be too much system activity at the present time. Please try your query again later.</TD>
+<TD ALIGN="left" VALIGN="top">Many users are querying from the forms right now, or some queries require many of the system resources, or your query alone returns a large number of sequences.
+<TD ALIGN="left" VALIGN="top">Try to narrow your query so that it returns fewer results. See <A HREF="SEQUENCE_query_hints.shtml">Sequence Query Hints</A> for how to do this. If you still get this message, try your query again later.</TD>
+</TR>
+</TABLE>
+</P>
+<A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
+
+<!--#include file='include/templateBlankBodyStop.html'--> 

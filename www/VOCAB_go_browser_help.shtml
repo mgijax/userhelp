@@ -1,0 +1,208 @@
+<!--#include file='include/templateHead.html'-->
+<title>
+  <!--#include file="include/mgiversion.html"-->
+MGI-Using the Gene Ontology (GO) Browser</title>
+
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+
+</style>
+
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+Using the Gene Ontology (GO) Browser</span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+
+
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+    </tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+<!-- Body of User Help -->
+
+<A name="top"></A>
+<!--<h4>Acknowledgements</h4>-->
+<P><SMALL> We wish to acknowledge the developers of the MeSH Browser for
+their user interface design. Please reference:
+Chang HF, Nelson SJ. 1999. Presenting MeSH Data Over the Web.
+JAMIA Symposium Supplement: 1037.
+</SMALL>
+<HR>
+<A NAME="top"></A>
+<P>This Gene Ontology (GO) Browser help document answers the following questions:
+ <UL>
+ <LI><A HREF="#howstructure">How are Gene Ontology (GO) vocabularies structured?</A></LI>
+ <LI><A HREF="#browse">How do I browse the GO vocabularies?</A></LI>
+ <LI><A HREF="#interpret">How do I interpret the Term Details?</A></LI>
+<LI><A HREF="#search">How do I search the GO vocabularies?</A></LI>
+<LI><A HREF="#results">How do I interpret the Query Results?</A></LI>
+<LI><A HREF="#summary">How do I interpret the Gene Ontology Annotations Query Results Summary?</A></LI>
+
+  </UL>
+
+<H3><A NAME="howstructure"></A>How are Gene Ontology (GO) vocabularies structured?</H3>
+<P>The GO vocabularies have a hierarchical structure that permits a range of detail from high-level, broadly descriptive terms to very low-level, highly specific terms. The range is useful for annotating genes and searching for gene information using these terms as search criteria. You can either browse or search the vocabularies from the Browser main page.
+</P>
+<A HREF="#top">Top</A>
+
+<H3><A NAME="browse"></A>How do I browse the GO vocabularies?</H3>
+<P>To browse the GO, click on one of the three broad categories that reflect the biological roles of genes. <P>
+<TABLE BORDER="1" CELLPADDING="2">
+ <TR><TH WIDTH="17%">Category</TH><TH WIDTH="10%">GO ID</TH><TH WIDTH="45%">Description</TH><TH WIDTH="28%">Example</TH></TR>
+<TR><TD VALIGN="top">Molecular Function</TD><TD VALIGN="top">GO:0003674</TD><TD VALIGN="top">Tasks performed by individual gene products.</TD><TD VALIGN="top">Transcription factor; DNA helicase</TD></TR>
+ <TR><TD VALIGN="top">Cellular Component</TD><TD VALIGN="top">GO:0005575</TD><TD VALIGN="top">Subcellular structures, locations, and macromolecular complexes</TD><TD VALIGN="top">Nucleus; telomere; origin recognition complex</TD></TR>
+<TR><TD VALIGN="top">Biological Process</TD><TD VALIGN="top">GO:0008150</TD><TD VALIGN="top">Broad biological goals accomplished by ordered assemblies of molecular functions</TD>
+<TD VALIGN="top">Mitosis; purine metabolism</TD></TR>
+</TABLE>
+</P>
+<A HREF="#top">Top</A>
+
+<H3><A NAME="interpret"></A>How do I interpret Term Details?</H3>
+<P>The Gene Ontology Browser Term Detail page contains the following information. The item of interest appears in red. Click the blue label indicating the number of genes and annotations (e.g. <FONT COLOR="#0000FF">45 genes, 55 annotations</FONT>)  to see the <A HREF="#summary">Gene Ontology Annotations Query Results</A>.
+<P>
+<TABLE BORDER="1" CELLPADDING="2">
+<TR>
+<TH>Field</TH><TH>Description</TH></TR>
+<TR><TD VALIGN="top">GO term, GO id, Definition, Synonym, Comments, Number of paths to term</TD>
+  <TD VALIGN="top">Selected GO term, unique identifier for the term, definition of the term, synonyms for the term if available, any curatorial comments, and the number of paths to the term. The comments area may contain information such as that a GO term is obsolete, reasons for obsoleting, and suggestions for alternate annotation choices. <B>Note:</B> Click on any detail  term to see its associated structures or synonyms.</TD></TR>
+
+<TR><TD VALIGN="top">Links</TD><TD>A list of all paths to the term. Click on the desired link to bring up a detail  for that term.</TD></TR>
+
+<TR><TD><IMG SRC="<!--#include file='include/wi_url.html'-->images/shared/is-a.gif"> "Is-a" Relationship</TD><TD>Indicates that the term is an instance or type of the more general term above it in the tree. For example, metabolism is a type of cell growth and maintenance.</TD></TR>
+
+<TR><TD VALIGN="top"><IMG SRC="<!--#include file='include/wi_url.html'-->images/shared/part-of.gif"> "Part-of" Relationship</TD><TD>Indicates that the term is a component of the more general term above in the tree. For example, cell cycle arrest is a part of the cell cycle process.</TD></TR>
+
+<TR><TD VALIGN="top"><IMG SRC="<!--#include file='include/wi_url.html'-->images/shared/regulates.gif">"Regulates" Relationship</TD><TD VALIGN="top">Indicates that the term modulates the frequency, rate, or extent of the term above it in the tree.</TD></TR>
+
+<TR><TD VALIGN="top"><IMG SRC="<!--#include file='include/wi_url.html'-->images/shared/positively_regulates.gif">"Regulates upward" Relationship</TD><TD VALIGN="top">Indicates that the term activates or increases the frequency, rate, or extent of the term above it in the tree.</TD></TR>
+<TR><TD VALIGN="top"><IMG SRC="<!--#include file='include/wi_url.html'-->images/shared/negatively_regulates.gif">"Regulates downward" Relationship</TD><TD VALIGN="top">Indicates that the term stops, prevents, or reduces the frequency, rate, or extent of the term above it in the tree.</TD></TR>
+
+
+<TR><TD VALIGN="top">+</TD><TD>A plus sign (+) following a term indicates that the term has 
+<A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=glossaryTerm&key=children">children</A>. Click on the term to see the additional paths.</TD>
+</TR>
+
+<TR>
+<TD VALIGN="top">Unique identifier</TD><TD>Name of the ontology selected, followed by the a unique identifier. There is one identifier for each GO term in the GO. This means that no matter how many times the term appears, the ID is always the same. This is also true if the term changes. For example, if  <i>cell growth and maintenance</i> becomes simply <i>cell growth</i>, the GO identifier does not change.</TD></tr>
+<TR><TD VALIGN="top"># genes,&nbsp; #annotations</td><TD>Number of markers annotated to the term and its descendants, followed by the number of annotations to each term and its decedents. Click this label to see the <A HREF="#summary">Gene Ontology Annotations Query Results</A>.</TD></TR>
+</TABLE>
+</P>
+<A HREF="#top">Top</A>
+
+
+<H3><A NAME="search"></A>How do I search the GO vocabularies?</H3>
+<UL>
+<LI>To search the Gene Ontologies, enter any text string or GO identifier in the Query box, click the box beside the ontology category you are interested in, (the default is to search all three), and click Search.
+<LI>To erase a term or identifier, click Reset.
+<LI>When you enter a text string in the box, the GO Browser searches for all terms containing that string and any synonyms. For example, if you enter <i>muscle</i> and check all categories, the Browser returns items which include <i>muscle development</i>, <i>non-muscle myosin</i>, and <i>structural protein of muscle</i>. (The number of annotations is always increasing; by mid 2006, the Gene Ontology Browser Query Results for <i>muscle</i> listed links for 6 molecular function terms, 11 cellular component terms,  and 92 biological process terms)</li>
+</UL>
+
+<p>If you enter the GO identifier, the Browser searches a vocabulary by ID and returns only an exact match on the ID string. For example, to see all of the GO terms for molecular function, enter GO:0003674. The GO Browser - Query Results  lists all matches found.
+</P>
+<A HREF="#top">Top</A>
+
+
+
+
+<H3><A NAME="results"></A>How do I interpret the Query Results?</H3>
+<P>The Gene Ontology Browser - Query Results  lists all matches found per ontology (molecular function, cellular component, biological process). Locate the item of interest and click the desired term from the list to see <A HREF="#interpret">Term Details</A>.</P>
+<A HREF="#top">Top</A>
+
+<H3><A NAME="summary"></A>How do I interpret the Gene Ontology Annotations Query Results?</H3>
+<table width="!" class="nb" cellpadding="4" align="center">
+<tr align="center"><Td VALIGN="top"><a href="#symbol">Symbol, Name</a> | <a href="#chr">Chr</a> | <a href="#category">Category</a> | <a href="#classterm">Annotated Term</a> | <a href="#evidence">Evidence</a> | <a href="#references">Refs</a></td></tr></table>
+
+<TABLE CELLPADDING="4" BORDER="1">
+<tr><th valign="top">Field</th><th valign="top">Description</th></tr>
+  <TR><TH ALIGN="left" VALIGN="top"><A NAME="symbol"></A>Symbol, Name</TH><TD>The
+   symbol for the mouse genetic marker (linked to its MGI gene detail ), followed by the name for this marker.</TD></TR>
+
+  <TR><TH ALIGN="left" VALIGN="top"><A NAME="chr"></A>Chr</TH><TD>The
+ chromosome number (or letter) location of the marker.</TD></TR>
+
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="category"></A>Category</TH> <TD>All GO terms are organized into three major categories; the letter indicates the category for each annotation:
+ <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+   <TR><TH ALIGN="left" VALIGN="top"><font size="-1">F</TH><TD ALIGN="left" VALIGN="top"><font size="-1">Molecular Function</TD></font></TR>
+
+        <TR><TH ALIGN="left" VALIGN="top"><font size="-1">C</TH><TD ALIGN="left" VALIGN="top"><font size="-1">Cellular Component</TD></TR>
+ <TR><TH ALIGN="left" VALIGN="top"><font size="-1">P</TH><TD ALIGN="left" VALIGN="top"><font size="-1">Biological Process</TD></TR>
+</TABLE>
+</TD></TR>
+
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="classterm"></A><nobr>Annotated Term</TH><TD>Specific GO term used to describe the given gene, linked to its Gene Ontology Term Detail  (see  <A HREF="#interpret">How do I interpret  Term Details?</A> for details.) <i>Note:</i> Annotated Terms may be preceded by qualifiers:
+          <ul>
+<li><i>Not</i> can appear before a term from any of the three ontologies. Curators use it to note explicitly that the gene product is not associated with the GO term.</li>
+ <br>
+<li><I>colocalizes with</I> appears only with cellular component terms. Curators use it:
+    <ol>
+   <li>to annotate gene products transiently or peripherally associated with an organelle or complex to the relevant cellular component term;</li>
+   <li>in cases where the resolution of an assay is not accurate enough to say that the gene product is a bona fide component member. </li></ol>
+   As an example, <I>colocalizes with</I> would appear when light microscope evidence localizes a gene product to e.g., a cellular complex, but there is no evidence that the gene product is a part of that complex.</li><br>
+
+<li><I>contributes to</I> appears only with molecular function terms. Curators use this annotation when a gene product contributes to a molecular function, but is not in itself sufficient for the function. Annotating individual gene products according to attributes of a complex is especially useful for molecular function annotations in cases where a complex has an activity, but not all of the individual subunits do. As an example, there may be a known catalytic subunit and one or more additional subunits, or the activity may be present only when the complex is assembled.</li><br>
+<li><i>Not colocalizes with/Not contributes to</i> implies that a gene product is expected to colocalize with/contribute to a cellular component/molecular function but is found not to do so by one of the GO evidence criteria.</li>
+     </ul>
+For more details, see the <a href="http://www.geneontology.org/GO.annotation.shtml#qual">GO Annotation Guide</a>.
+   </td>
+  </tr>
+
+
+
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="evidence"></A>Evidence</TH><TD>Criteria that justify the annotation. The most common GO evidence codes appear in the table below.
+For a complete list and the most current information, see <A HREF="http://www.geneontology.org/GO.evidence.shtml">Guide to GO Evidence Codes</A> at the Gene Ontology web site.
+
+<blockquote>
+<table cellpadding="2" border="0">
+<tr><th align="left" valign="top" width="20%"><font size="-1">EXP</th> <td><font size="-1">Inferred from Experiment</td></tr>
+  <tr><th align="left" valign="top" width="20%"><font size="-1">IC</th> <td><font size="-1">Inferred by the Curator</td></tr>
+  <tr><th align="left" valign="top"><font size="-1">IDA</th><td><font size="-1">Inferred from Direct Assay</td></tr>
+ <tr><th align="left" valign="top"><font size="-1">IEA</th><td><font size="-1">Inferred from Electronic Annotation</td></tr>
+ <tr><th align="left" valign="top"><font size="-1">IGI</th><td><font size="-1">Inferred from Genetic Interaction</td></tr>
+ <tr><th align="Left" valign="Top"><font size="-1">Imp</th><td><font size="-1">Inferred from Mutant Phenotype</td></tr>
+ <tr><th align="left" valign="top"><font size="-1">IPI</th><td><font size="-1">Inferred from Physical Interaction</td></tr>
+ <tr><th align="left" valign="top"><font size="-1">ISA</th><td><font size="-1">Inferred from Sequence Alignment</td></tr>
+ <tr><th align="left" valign="top"><font size="-1">ISM</th><td><font size="-1">Inferred from Sequence Model</td></tr>
+ <tr><th align="left" valign="top"><font size="-1">ISO</th><td><font size="-1">Inferred from Sequence Orthology</td></tr>
+
+ <tr><th align="left" valign="top"><font size="-1">ISS</th><td><font size="-1">Inferred from Sequence Or Structural Similarity</td></tr>
+ <tr><th align="left" valign="top"><font size="-1">NAS</th><td><font size="-1">Non-traceable Author Statement</td></tr>
+
+
+ <tr><th align="left" valign="top"><font size="-1">ND</th><td><font size="-1">No biological Data available</td></tr>
+  <tr><th align="left" valign="top"><font size="-1">RCA</th><td><font size="-1">Reviewed Computational Analysis</td></tr>
+ <tr><th align="left" valign="top"><font size="-1">TAS</th><td><font size="-1">Traceable Author Statement</td></font></tr>
+</table>
+
+</blockquote>
+ <TR><TH ALIGN="left" VALIGN="top"><a name="references"></a>Ref(s)</TH><TD>J number (every reference stored in MGI has a number with the format <I>J:nnnn</I>) of the supporting reference for the classification, linked to  References Query Results -- Details. Note: If there are more than three references, that numeral replaces the J number, and the link goes to Reference Query Results. </TD></TR>
+</TABLE>
+</P>
+
+<A HREF="#top">Top</A>
+
+<!--#include file='include/templateBlankBodyStop.html'--> 
+
+
+<!--As an example, click You can browse the GO classifications, enter trypsin in the Query box, and then click Search to get the list of molecular function terms matching this query. Click trypsin activity. The system returns trypsin activity [GO:0004295] followed by the number of genes and annotations found. Next repeat this process using serine-type endopeptidase. Click serine-type endopeptidase activity, and note that the result is a greater number of number of genes and annotations because it includes not only the subterm (or child), trypsin activity, but also annotations to all other types of serine-type endopeptidases as well as genes annotated to the term serine-type endopeptidase activity itself.-->
+
+
+
+

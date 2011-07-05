@@ -1,0 +1,59 @@
+<!--#include file='include/templateHead.html'-->
+<title>
+  <!--#include file="include/mgiversion.html"-->
+MGI-Interpreting the Gene Expression Data: Results by Tissue - Summary Report</title>
+
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+<style type="text/css">
+</style>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+Interpreting the Gene Expression Data: Results by Tissue - Summary Report</span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+    </tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+<!-- Body of User Help -->
+<A NAME="top"></A>
+ 
+<a name="using_GXD_tissue"></a>
+
+<h3>How do I interpret this report?</h3>
+
+<ul>
+  <li>If there is expression data about a marker in the Gene Expression Database, the word <i>Tissues</i>, followed by a number, appears in the Expression section of the Gene Detail page.  Clicking that number presents a table of all anatomical structures in the database examined when analyzing the gene expression pattern. The symbol and name of the gene whose expression was analyzed as well as its MGI accession ID appears at the top of the table.</li>
+
+<li>If there is expression data from a reference in the Gene Expression Database, the word <i>Tissues</i>, preceded by a number, appears in the Additional Information section of References Query Results - Details. Clicking <i>Tissues</i> presents a table of all anatomical structures examined when analyzing gene expression in this reference.  The J: number link  to the reference followed by the full list citation appears at the top of the table. </li>
+</ul>
+
+<br>
+<blockquote>
+<table border="1" cellpadding="4" width="95%">
+<tr><th>Field</th><th>Description</th></tr>
+
+<tr><th align="left" valign="top">Structure</th><td valign="top">Anatomical structures examined when analyzing expression.  Given as a Theiler stage (TS) and anatomical structure name, linked to the Anatomical Dictionary Browser-term detail page that includes the structure.</td></tr>
+<tr><th align="left" valign="top">Results</th><td valign="top">For all columns, the number links to a Gene Expression Data - Query Results Summary page listing the symbol of the gene analyzed, the assay type used, result details (given as an MGI accession ID linked to an assay record), allele pairs describing the mutant genotype of the specimen (if applicable), age of the specimen examined, the structure examined, and an indication of whether or not expression was detected.</td></tr>
+<tr><th align="left" valign="top">All</th><td valign="top">Number of times the structure was examined  whether expression was detected or not.</td></tr>
+<tr><th align="left" valign="top"><b>+</b></th><td valign="top">Number of times expression was detected in the structure.</td></tr>
+<tr><th align="left" valign="top"><b>-</b></th><td valign="top">Number of times expression was found to be absent in the structure.</td></tr>
+</table>
+</blockquote>
+</p>
+<!--#include file='include/templateBlankBodyStop.html'--> 

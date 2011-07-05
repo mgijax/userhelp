@@ -107,13 +107,14 @@
 <a name="help_go"></a>
         <dt class="enhance">GO Functional Annotations</dt>
      	<blockquote>
-          <dd>GO stuff</dd>
+          <dd> <a href="GO_classification_fields_help.shtml" onclick="javascript:openHelpWindow('gO_classification_fields_help.shtml'); return false;">Using Gene Ontology Classification Fields on MGI Query Forms</a></dd>
                    
-                  <dd>&nbsp;</dd>
+                  <dd> <a href="GO_classification_report_help.shtml" onclick="javascript:openHelpWindow('GO_classification_report_help'); return false;">Interpreting the Gene Ontology Classifications Report</a></dd>
                     
           </blockquote>
           
-    
+ 
+ 
      
   <!-- pathways -->
 <a name="help_strain"></a>
@@ -214,48 +215,45 @@
                Using MouseBLAST - Searching by Sequence ID
               </a>
             </dd>
-<dd>	<a href="mouseblast_forwarding_help.shtml" onclick="javascript:openHelpWindow('mouseblast_forwarding_help.shtml'); return false;">
+	<dd><a href="mouseblast_forwarding_help.shtml" onclick="javascript:openHelpWindow('mouseblast_forwarding_help.shtml'); return false;">
                Using the Forward to MouseBLAST Form
               </a>
             </dd>
 
-
-
-
-
-
-	<dt>Miscellaneous Help 
-
+<!--there are -7- of these so far-->
+	<dt>Miscellaneous Help
+<!--1-->
+	<dd><a href="MISC_usingQFs_help.shtml" onclick="javascript:openHelpWindow('MISC_usingQFs_help.shtml'); return false;">Using MGI Query Forms</a>
+            </dd> 
+<!--2-->
+	<dd>
+              <a href="MISC_operators_help.shtml" onclick="javascript:openHelpWindow('MISC_operators_help.shtml'); return false;">Using Operators on MGI Query Forms</a>
+            </dd>
+<!--3-->
+	<dd><a href="MISC_general_searching_help.shtml" onclick="javascript:openHelpWindow('MISC_general_searching_help.shtml'); return false;">General Guidelines for MGI Searches</a>
+            </dd>
+<!--4-->
+    	<dd>
+<!--5-->
             <dd>
-              <a href="boolean_search_help.shtml" onclick="javascript:openHelpWindow('boolean_search_tip_help.shtml'); return false;">
-               Full-Text Searching on MGI Query Forms
-              </a>
+              <a href="MISC_boolean_search_help.shtml" onclick="javascript:openHelpWindow('MISC_boolean_search_help.shtml'); return false;">Full-Text Searching on MGI Query Forms</a>
             </dd>
-     	<dd>
-              <a href="gen_search_help.shtml" onclick="javascript:openHelpWindow('boolean_search_tip_help.shtml'); return false;">
-               General Guidelines for MGI Searches
-              </a>
-            </dd>
+<!--6-->     
     	<dd>
-              <a href="wildcard_help.shtml" onclick="javascript:openHelpWindow('wildcard_help.shtml'); return false;">
-               Using Wild Cards on MGI Query Forms
+              <a href="MISC_wildcard_help.shtml" onclick="javascript:openHelpWindow('MISC_wildcard_help.shtml'); return false;">Using Wild Cards on MGI Query Forms
               </a>
             </dd>
-    	<dd>
-              <a href="operator_help.shtml" onclick="javascript:openHelpWindow('operator_help.shtml'); return false;">
-               Using Operators on MGI Query Forms
-              </a>
-            </dd>
-    	<dd>
-              <a href="map_position_help.shtml" onclick="javascript:openHelpWindow('.shtml'); return false;">
+<!--7-->
+                  <dd><a href="MISC_map_position_help.shtml" onclick="javascript:openHelpWindow('MISC_map_position_help.shtml'); return false;">
                Using Map Position Fields on MGI Query Forms
               </a>
             </dd>
     
-  </blockquote>
+ 
   
   
         </dl>
+ </blockquote>
       </td>
     </tr>
   

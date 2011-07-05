@@ -1,0 +1,214 @@
+<!--#include file='include/templateHead.html'-->
+<title>
+  <!--#include file="include/mgiversion.html"-->
+MGI-Using the Human Disease Vocabulary Browser</title>
+
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+<style type="text/css">
+</style>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+Using the Human Disease Vocabulary Browser</span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+    </tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+<!-- Body of User Help -->
+
+<A NAME="top"></A>
+ <!-- Links to summary annotated phenotype data at MGI are provided in Term Detail Reports.-->
+
+<P>This help document answers the following questions:
+ <UL>
+<li><a href="#whatis">What is the Human Disease Vocabulary and what can I use it to find?</a></li>
+  <LI><A HREF="#howare">How is the Human Disease Vocabulary organized?</A></li>
+<LI><A HREF="#boolean">What do I need to know about Boolean operators in order to use this tool? word stemming? partial word matching? quotation marks?</a></li>
+    <LI><A HREF="#whatcan">What can I use the Human Disease Vocabulary Browser to find?</A></li>
+ <LI><A HREF="#include">What is the difference between browsing and searching the vocabulary?</A></li>
+  <li><a href="#multiple">Can I enter more than one term or accession ID? enter abbreviations for a disease? enter a synonym for a disease? enter partial words? mix and match?</a></li>
+ <LI><A HREF="#details">How do I get the details about diseases with mouse models?</A></li>
+<LI><A HREF="VOCAB_omim_browser_detail_help.shtml">How do I interpret a Human Disease and Mouse Model Detail report?</A>
+<LI><A HREF="#no_results">What should I do if I get no results? What if I get results for only one term and I entered several?</A></li>
+<LI><A HREF="#examples">Are there any examples?</A></LI>
+ </UL>
+<P>See also:
+<UL>
+  <LI><A HREF="allele_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
+
+  <LI><A HREF="<!--#include file='include/glossary_url.html'-->">MGI Glossary</A> for unfamiliar terms (or for how MGI defines specific terms) and acronyms. </LI>
+  <LI><A HREF="MISC_general_searching_help.shtml">General Guidelines for MGI Query Form Searches</A></LI>
+  <LI><A HREF="MISC_boolean_search_help.shtml">Full-Text Searching on MGI Query Forms</A></LI>
+</UL>
+
+
+<h3><a name="whatis"></a>What is the Human Disease Vocabulary and what can I use to find?</h3>
+<P>The Human Disease Vocabulary is a catalog of human genetic disorders from the Online Mendelian Inheritance in Man (OMIM) database. Use the vocabulary browser to search for potential mouse models of human diseases.
+</P>
+
+
+  <H3><A NAME="howare"></A>How is the Human Disease Vocabulary organized?</H3>
+<P>The Vocabulary has a flat structure and is organized alphanumerically (A-Z; 0-9). When you click any letter of the alphabet, a list of all (OMIM) diseases or syndromes beginning with that letter appears, arranged alphabetically.  When you click 0-9,  one list appears, containing all (OMIM) diseases beginning with a number (e.g., <i>6-pyruvoyltetrahydropterin Synthase; PTS</i>).
+The number of mouse models in MGI appears in parentheses next to each disease name. The absence of this text, e.g.,<i> (3 mouse models)</i>, means that MGI currently contains no models for this disease. However, if a mouse has been shown NOT to be a model of a human disease, this is not listed here.
+<p>You can also use the Search box to find diseases of interest. To do this, type the name(s) in the box and click Search.
+</P>
+
+
+<h3><A name="boolean">What do I need to know about Boolean operators in order to use this tool? word stemming? partial word matching? quotation marks?</a></h3>
+
+<ul>
+ <li>Use the Boolean operator AND when you want information about mouse models for:
+    <ul>
+    <li>more than one disease/syndrome, e.g., <I>diabetes and Parkinson.</I></li>
+    <li>a disease with various names or synonyms, e.g., <I>Parkinson and Parkinsonism.</i>
+   </ul>
+ <li>Use the Boolean operator OR when you want information about mouse models for:
+    <ul>
+    <li>a disease or syndrome containing both terms. e.g., <i>diabetes or juvenile</i></li>
+    </ul>
+<li>Use quotation marks to group and order terms, circumvent word stemming, and prevent partial word matching. The search mechanism cuts off some entries (word stemming) and/or retrieves hits that are close but not exact (partial word matching). For example, if you want results for <i>Factor V Deficiency</i> and you don't enclose this disease term in quotation marks, the search returns not only pages containing factor V deficiency but also those containing factor deficiency V, factor and V, and factor and deficiency (e.g., <i>Vitamin K-Dependent Clotting Factors, Deficiency of</i>; <i>Factor VII, Factor VIII,</i> and so on).
+</ul>
+<p>For complete details, see <a href="MISC_boolean_search_help.shtml">Full-Text Searching on MGI Query Forms</a> and <a href="MISC_boolean_search_help.shtml#boolean_operators">Boolean operators</a>, <a href="MISC_boolean_search_help.shtml#quotes">quotation marks</a>, <a href="MISC_boolean_search_help.shtml#partial_word_matching">partial word matching</a>, <a href="MISC_boolean_search_help.shtml#word_stemming">word stemming</a>. See <a href="#examples">Are there examples?</a> for how different query parameters yield different results.</p>
+
+<font size="-1"><a href="#top">Top</a></font><BR>
+
+
+ <H3><A NAME="whatcan"></A>What can I use the Vocabulary Browser to find?</H3>
+<P>You can use the vocabulary browser to search for potential mouse models of human diseases. 
+ To do this, click either the desired letter of the alphabet or the numerals 0-9. Terms are arranged alphanumerically.  If you do not find the desired term by browsing, try entering it in the Search box. You may find that the OMIM designation for the disease is different from the common one: for example, searching for <I>juvenile diabetes</I> yields the term <I>Maturity-Onset Diabetes of the Young, Type I; MODY1.</i> </p>
+
+
+<H3><A NAME="include"></A>What is the difference between and browsing and searching the vocabulary?</H3>
+<P>You can either browse or search from the Human Disease Vocabulary Browser entry page. 
+<ul>
+  <li>Browsing involves clicking a letter (or numeral) to bring up a list of diseases and scrolling to find one of interest (i.e., one with mouse models). Clicking the disease link brings up a Human Disease and Mouse Detail report with relevant information about the disease, including any associated genes and mouse models. See <A HREF="VOCAB_omim_browser_detail_help.shtml">Interpreting the Human Disease and Model Detail Report</A> for specifics.</li>
+  <li>Searching involves entering something in the Vocabulary Browser query field. To search the Vocabulary Browser:
+<UL>
+<LI>Type either a term or the accession identifier (ID) (e.g., <i>168600</i>) in the box.</li>
+<LI>Click Search. The Human Disease Vocabulary Browser report lists any matches found.</li>
+<LI>Click on the desired term to view its Human Disease and Mouse Model Detail report.</li>
+</UL>
+</ul>
+</p>
+
+
+<h3><a name="multiple">Can I enter more than one term or accession ID? enter abbreviations for a disease? enter a synonym for a disease? enter partial words? mix and match?</h3>
+<p>Yes, you can do all of these things. You will not, however, get results if you enter a disease with its own accession ID. See <a href="#examples">Examples</a> for sample entries and results.</p>
+
+<ol>
+  <li>To enter more than one term or accession ID:
+<ul>
+<li>Connect terms or accession IDs with <a href="MISC_boolean_search_help.shtml#boolean_operators">Boolean operators</a> (AND, OR).</li>
+<li>Use <a href="MISC_boolean_search_help.shtml#quotes">quotation marks</a> around disease terms containing than one word, number, or numeral. (e.g., "Factor V deficiency")</li>
+</ul>
+<li>To enter an abbreviation or synonym for a disease, (e.g., <i>PD</i> for Parkinson disease), simply type it in the query box. This can be a good way to begin a search when you have no additional details. The resulting Query Summary lists the number of matching human disease terms, so you can refine your query from here.
+</li>
+    <li>To enter multiple synonyms for a disease, enter them one after the other in the query box or connect them using AND; e.g., <i>Lewy body Park2</i> (or <i>Lewy body AND Park2</i>).</li>
+    <li>To abbreviate a disease term, simply enter as many letters as you think may be necessary to get the desired result and click <i>Search</i>.</li>
+<li>You can enter disease terms and OMIM accession IDs and synonyms and abbreviations and partial words.</li>
+  </ul>
+</ol>
+  
+<font size="-1"><a href="#top">Top</a></font><BR>
+
+<h3><a name="details"></a>How do I get the details about diseases with mouse models?</h3>
+<p>There are two ways to use the Human Disease Vocabulary Browser to find diseases with mouse models in MGI.</p>
+<ol><li>Use the alphanumerical list at the top of the Vocabulary Browser.
+  <ol type=A>
+           <li>Click a letter or number. A list of diseases beginning with that letter or number appears. 
+   <li>Click a disease or syndrome on the list. If MGI has mouse models for that disease, this information appears in parentheses beside the disease name, and clicking the accession ID number will take you to the OMIM disease detail report. (The absence of this text, e.g.,<i> (3 mouse models)</i>, means that MGI currently contains no models for this disease. However, if a mouse has been shown NOT to be a model of a human disease, this is not listed here.)
+
+    <li>From the Human Disease and Mouse Model Detail report, you can click links to find additional MGI resources. (See <a href="VOCAB_omim_browser_detail_help.shtml">Interpreting a Human Disease and Mouse Model Detail Report</a>.) </li>
+</ol>
+ <li>Use the search box. <ol type=A><li>Enter term(s) or accession ID(s) in the box and click Search.  The Human Disease Vocabulary Browser report lists any matches found.  <b>Note:</b> If MGI has mouse models for that disease, this information appears in parentheses beside the disease name.
+<li>Click any item of interest to view its Human Disease and Mouse Model Detail report. (See <a href="VOCAB_omim_browser_detail_help.shtml">Interpreting a Human Disease and Mouse Model Detail Report</a> for how  to use this report.)
+</ol>
+</ol>
+
+<h3>How do I interpret Human Disease and Mouse Model Details?</h3>
+<p>See <A HREF="VOCAB_omim_browser_detail_help.shtml">Interpreting Human Disease and Mouse Model Details</a>.
+</p>
+
+
+<h3><A name="no_results"></A>What should I do if I get no results? What if I get results for only one term?</h3>
+<P>If your query returns no results, the Human Disease Vocabulary Browser query summary details your input parameters and reports that there were zero matching human disease terms. For example: <br><br><i><font size="-1">
+Query Summary<br>
+Human Disease Vocabulary: contains (HHHH Syndrome) and (Factor V deficiency) searching Human Disease vocabulary, synonyms, symbols, and accession IDs.<br>
+0 matching Human Disease terms
+</i>
+</font>
+<P>The probable cause is that something in the search box is incorrect. For example:
+<ul>
+<li>Did you enter both the disease term and its OMIM accession ID? (use one or the other)</li>
+<LI>Did you make a spelling mistake in the term or a numerical mistake in the accession ID? </li>
+<LI>Did you connect terms using AND when you meant to use OR? </LI>
+<LI>Did you put quotation marks around disease terms containing multiple words or letters(e.g., "Factor V deficiency")? </li>
+<li>If you were copying and pasting, did you omit something? </li></UL>
+<P>See <a href="#examples">Examples</a> for help.</P>
+<font size="-1"><a href="#top">Top</a></font><BR>
+
+<h3><a name="examples"></a>Are there any examples?</h3>
+<blockquote>
+<table border="0" cellspacing="2" cellpadding="2">
+    
+   <tr><th align="left" valign="top">Your entry</th><th align="left"><nobr># matches*</th><th align="left" valign="top">Why?</th></tr>
+<tr><td align="left" valign="top">PD</td><td valign="top">64</td><td valign="top">You can enter the OMIM abbreviation for a disease. The Browser returns results for that disease <b>and</b> any other disease containing that abbreviation.</td></tr>
+<tr><td valign="top">Parkinson</td><td valign="top">27</td><td valign="top" rowspan="2">You can also enter either a "shorthand" or alternative term for a disease. <br> You'll get fewer results than when using the abbreviation, so it's easier to scan the results for the optimal one(s).</td></tr>
+<tr><td valign="top">Parkinsonism</td><td valign="top">27</td></tr>
+ <tr><td align="left" valign="top">Parkinson Disease</td><td valign="top">16</td><td valign="top">Entering a term and the word <i>disease</i> may narrow the results even further.</td></tr>
+<tr><td valign="top">Parkinson; PD</td><td valign="top">5</td><td valign="top">You can enter a disease term and its abbreviation. The Browser finds anything in the  vocabulary containing both: in this case, it's hitting <i>Parkinson Disease, Age at Onset Of; AAO<b>PD</b></i> as well as <i>Parkinson Disease; <b>PD</b></i>.</td></tr>
+<tr><td align="left" valign="top">168600 Parkinson; PD</td><td valign="top">0</td><td valign="top" rowspan="2">Entering the OMIM accession ID, the disease term, and the abbreviation returns <b>no </b> results.<br>
+Entering the accession ID and the disease term also returns no results.<br>
+ Entering the disease term, a semicolon, and the abbreviation is OK.</td></tr>
+<tr><td valign="Top">168600 Parkinson</td><td valign="Top">0</td></tr>
+<tr><td valign="top">168600</td><td valign="top">1</td><td valign="top">Using the OMIM identifier number (in this case, 168600) yields the most narrow result.</td></tr>
+
+<tr><td valign="top">tremor or Parkinson</td><td valign="top">33</td><td valign="top">Do you want a list of diseases where either of your terms is present? Use OR between your entries.  
+<b>NOTE:</b> MGI includes only the names and ID numbers of OMIM diseases and conditions.  Clinical symptoms or descriptive terms do not appear.</td></tr>
+<tr><td valign="top">tremor and Parkinson</td><td valign="top">0</td><td valign="top">Do you want the set where both terms must be present? Use AND between your entries. In this example, the return is zero because, currently, there are no MGI Human Disease Vocabulary records containing both <i>tremor</i> and <i>Parkinson</i> in the disease name. 
+<b>NOTE: </b>MGI includes only the names and ID numbers of OMIM diseases and conditions.  Clinical symptoms or descriptive terms do not appear.</td></tr>
+<tr><td valign="top">Factor V Deficiency</td><td valign="top">15</td><td valign="top">The Browser  returns not only <i>Factor V Deficiency</i> but also anything containing factor and V or factor and deficiency (e.g., <i>Vitamin K-Dependent Clotting Factors, Deficiency of</i>; <i>Factor VII, Factor VIII,</i> and so on). </td></tr>
+<tr><td valign="top"><nobr>"Factor V Deficiency"</nobr></td><td valign="top">1</td><td valign="top">Putting quotation marks around a term ensures a return of only disease descriptions  containing the entire term.</td></tr>
+
+<tr><td valign="top">dilated cardiomyopathy</td><td valign="top">21</td><td valign="top">The search returns terms containing <i>dilated</i> and <i>cardiomyopathy</i>; this includes <i>Cardiomyopathy, Idiopathic Dilated, Mitochondrial</i>. </td></tr>
+<tr><td valign="top">"dilated cardiomyopathy"</td><td valign="top">0</td><td valign="top">The quotation marks around the term impose a search order (i.e., the tool looks for <i>dilated</i> and then for <i>cardiomyopathy</i>); thus, the tool does not find entries for <i>cardiomyopathy, dilated</i> (the OMIM designation for this term). It may be a good strategy not to use quotation marks until discovering how OMIM characterizes the term.
+
+<tr><td valign="top"><nobr>"cardiomyopathy, dilated"</nobr></td><td valign="top">2</td><td valign="top">Use of quotation marks around the explicit OMIM term ensures the narrowest result.</td></tr>
+<tr><td colspan="3">* The number of matches is representative. The point of the examples is to show how to structure a query in various ways to yield different (or zero) results. If you get zero results, it may mean that MGI has no data for a query using these parameters at this time.  However, if your results are not as expected, the Browser software may be using:
+<ul>
+ 
+ <li><a href="MISC_boolean_search_help.shtml#partial_word_matching">partial word matching</a> or </li>
+  <li><a href="MISC_boolean_search_help.shtml#word_stemming">word stemming</a> </li>
+  </ul>
+See also <a href="MISC_boolean_search_help.shtml">Full-Text Searching on MGI Query Forms</a> for additional examples and detailed explanations of how to use:
+
+<ul>
+  <li><a href="MISC_boolean_search_help.shtml#boolean_operators">Boolean operators</a></li>
+ <li><a href="MISC_boolean_search_help.shtml#quotes">quotation marks</a></li></ul>
+</td></tr>
+</table>
+</blockquote>
+
+<font size="-1"><a href="#top">Top</a></font>
+
+
+<hr>
+OMIM&#153; and Online Mendelian Inheritance in Man&#153; are trademarks of the Johns Hopkins University.
+
+<!--#include file='include/templateBlankBodyStop.html'--> 

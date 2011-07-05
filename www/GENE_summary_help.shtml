@@ -1,0 +1,159 @@
+<!--#include file='include/templateHead.html'-->
+<title>
+MGI-Interpreting the Genes and Marker Query Results Summary</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+
+</style>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+  Interpreting the Genes and Marker Query Results Summary
+ </span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+
+
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+    </tr>
+</table>
+
+<!-- Body of User Help -->
+
+<A NAME="top"></A>
+<P>This Help document answers the following questions about the genes and markers summary report:</P>
+<UL>
+<LI><A href="#summary_sort">What determines the content of this report?</a></LI>
+ <li><a href="#broad_narrow">What's the difference between the narrow search and the broad search?</a></li>
+ <li><a href="#content">What should the summary report contain?</a></li>
+
+<LI><A HREF="#hierarchy">What determines the sort order on a summary page?</A></LI>
+</ul>
+<p>See also:
+<ul>
+  <li><a href="GENE_help.shtml">Using the Genes and Markers Query Form</a></li>
+  <li><a href="GENE_detail_help.shtml">Interpreting the Gene Detail Report</a></li>
+
+</ul>
+</p>
+<h3><a name="summary_sort"></a>What determines the content of this report?</h3>
+<P>The marker summary content depends on the button you click on the
+<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF">Genes and Markers Query Form</a> (cM, Nomenclature, or Genome Coordinates) and your choice in the Search box next to the Symbol/Name field. There are two types of searches: narrow and broad.</p>
+
+<a href="#top">Top</A><br>
+
+ <h3><a name="broad_narrow"></a>What's the difference between the narrow search and the broad search?</h3>
+<P>The <i>narrow</i> search is on current gene symbols or names. The <i>broad</i> search includes current as well as old symbols or names, plus any synonyms, alleles, or orthologs.</p>
+
+<a href="#top">Top</A><br>
+
+<h3><a name="content"></a>What should the summary report contain?</h3>
+<p>
+<UL>
+<LI>At the top of the Genes and Markers Query Results - Summary report is a display of your query parameters. For example:
+   <BLOCKQUOTE>
+	<dl>
+	  <dt><font size="-1"><u><b>You searched for...</b></u></font></dt>
+	 <dt><font size="-1"><b>Feature Type: gene</b></font></dt>
+	<dt><font size="-1"><b>Chromosome:</b> equals <b><i>X</i></b></font></dt>
+	  <dt><font size="-1"><b>Genome Coordinates:</b> between <b>7.4 and 7.9</b> Mbp</font></dt>
+	  
+	  <dt><font size="-1"><b>Sort:</b> by <b>Nomenclature</b></font></dt>
+          <dt><font size="-1"><b>Display Limit:</b> equals <b>500</b></font></dt>
+
+	</dl>
+     
+      </BLOCKQUOTE>
+    <br>  
+  <li>Beneath the summary is an option to change your parameters. Click <b>Modify Search</b> to return to the Genes and Markers Query Form. You may wish to include/remove parameters or change the sorting and output defaults.</li><br>  
+
+<LI>Beneath the <b>Modify Search</b> option is information about the amount of data found. For example:
+  
+    <BLOCKQUOTE>
+<font size="-1"> 25 matching items displayed.</font>
+</BLOCKQUOTE><br>
+    If you expected more results than are displayed, click <b>Modify Search</b>, and change the default to <B>No limit</B>. Alternatively, you can type in a number that will yield fewer results.
+
+ </li><br>
+  <LI>Beneath the statement are the following columns, with a row for each matching item. </li></ul>
+
+<BLOCKQUOTE>
+<TABLE BORDER="1" CELLPADDING="4">
+<TR><TH VALIGN="top">Field</TH><TH>Description</TH></TR>
+ <TR><TH ALIGN="left" VALIGN="top">Chr</TH> <TD>If known, the chromosome to which the marker is assigned.</TD></TR>
+
+ <TR><TH ALIGN="left" VALIGN="top">cM</TH><TD>Marker's centimorgan position.  Centimorgan positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009)   (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546">PMID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.</TD></TR>
+ <TR><TH ALIGN="left" VALIGN="top">Genome Coordinate (strand)</TH><TD VALIGN="top">Marker's coordinates on the mouse genome assembly sequence map, and the strand location of the coordinates in parentheses. Plus (+) is = 5<sup>'</sup> to 3<sup>'</sup>. Minus (-) is 3<sup>'</sup> to 5<sup>'</sup>.</TD></TR>
+<tr><th align="left" valign="top">Feature Type</th><td valign="Top">Marker categories  resulting from your selection(s) on the query form. For example, if you clicked <b>Non-coding RNA gene</b>, results for rRNA, tRNA, snRNA, snoRNA, or miRNA genes may appear.</td></tr>
+
+ <TR><TH ALIGN="left" VALIGN="top">Symbol, Name</TH><TD>Marker symbol and name, linked to the MGI marker detail page.</TD></TR>
+ <TR><TH ALIGN="left" VALIGN="top">Matching Text</TH><TD>Type of information contained in the database and the text that it matches. The tool searches for items containing a match in the following order: current symbol, current name, allele symbol, allele name, withdrawn symbol, withdrawn name,
+human ortholog symbol, human ortholog name, other ortholog symbol.</TD></TR>
+</TABLE>
+
+<P>Note: If you use the narrow search (gene symbols/names), the <B>Matching Text</B> field does not appear on the Genes and Markers Query Results - Summary report.</P>
+</BLOCKQUOTE>
+<p><a href="#top">Top</A>
+
+<H3><A name="hierarchy"></a>What determines the sort order on a summary page?</H3>
+<ol>
+<li>The <b>Nomenclature</b> sort (the default) is the result of  the interaction of two hierarchies: primary and secondary. The first items to appear in summary report are any results that equal your search criteria, in secondary hierarchy order. Next all results that begin with your search  criteria appear, in the same order. Finally, all results containing your criteria appear, again in the same order.
+  <ul>
+  <LI>Primary
+    <OL>
+      <LI>equals </LI>
+      <LI>begins </LI>
+      <LI>contains </LI>
+     </OL>  </LI>
+  <LI>Secondary:
+    <OL>
+     <LI>current symbols </LI>
+     <LI>current names </LI>
+     <LI>allele symbols </LI>
+     <LI>allele names </LI>
+     <LI>old (withdrawn) symbols </LI>
+     <LI>old (withdrawn) names </LI>
+     <LI>synonyms </LI>
+     <LI>human ortholog symbols </LI>
+     <LI>human ortholog names </LI>
+     <LI>other orthologs </LI>
+    </OL> </li>
+ </uL><br>
+
+
+<LI>The <b>cM</b> sort order is:
+    <ul>
+     <li>First by chromosome.</li>
+     <LI>Second by cM position in ascending order.  Markers with a syntenic cM position (or with no cM position value) appear at the end of each chromosome's list, ordered alphabetically by symbol. <!--The cM position value (at peak LOD score) for a QTL determines its placement in the list, but this value does not appear in the display.--></li>
+    </ul><br>
+
+<li><b>Genome coordinates</b> sort order is:
+    <ul>
+     <li>First by chromosome. </li>
+     <LI>Second by genome coordinates.</LI>
+     <LI>Third by symbol/name.</LI>
+    </ol>
+
+</ol>
+</p>
+<a href="#top">Top</A><br>
+
+<!--#include file='include/templateBlankBodyStop.html'--> 
+

@@ -1,0 +1,109 @@
+<!--#include file='include/templateHead.html'-->
+
+<title><!--#include file="include/mgiversion.html"-->MGI-Interpreting Sequence Details</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;  
+window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">Interpreting Sequence Details</span>
+</div>
+
+<style type="text/css">
+</style>
+
+<!-- Container Table -->
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+  </td>
+</tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+<!-- Body of User Help -->
+
+
+<A NAME="top"></A>
+<P>This help document describes how to interpret the following fields on a sequence detail report.
+<UL>
+<LI><A HREF="#id">ID/version</A></LI>
+ <LI><A HREF="#seq_description">Sequence Description from Provider</A></LI>
+ <LI><A HREF="#provider">Provider</A></LI>
+<LI><A HREF="#sequence">Sequence</A></LI>
+<LI><A HREF="#source">Source</A></LI>
+<LI><A HREF="#chromosome">Chromosome</A></LI>
+<LI><A HREF="#gene_annotation">Annotated genes and markers</A></LI>
+<LI><A HREF="#probe_annotation">MGI curated clones/probes annotated to sequence</A></LI>
+<LI><A HREF="#seq_reference">Sequence references in MGI</A></LI>
+</UL>
+
+</UL>
+<P>See also:
+<UL>
+  <LI><A HREF="<!--#include file='include/glossary_url.html'-->">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
+  <LI><A HREF="SEQUENCE_help.shtml">Using the Mouse Sequence Query Form</A></LI>
+  <LI><A HREF="SEQUENCE_summary_help.shtml">Interpreting a Sequence Summary</A></LI>
+  <LI><A HREF="SEQUENCE_query_tips_help.shtml">Sequence Query Tips</A>
+</UL>
+
+<!--<table width="97%" cellpadding="2" align="center">
+<tr class="nb"><td><font size="-1"><a href="#id">ID/Version</a> | <a href="#seq_description">Sequence description from provider</a> | <a href="#provider">Provider</a> | <a href="#sequence">Sequence</a> | <a href="#source">Source</a> | <a href="#chromosome">Chromosome</a> | <a href="#gene_annotation">Annotated genes & markers</a> | <nobr><a href="#probe_annotation">MGI curated clones/probes annotated to sequence</a> |  <nobr><a href="#seq_reference">Sequence references in MGI</a></font></td>
+  </tr>
+   </table>-->
+  </P>
+<p>
+<TABLE WIDTH="100%" BORDER="1" CELLPADDING="4" CELLSPACING="2">
+ <TR>
+   <TH>FIELD </TH><TH>DESCRIPTION</TH> </TR>
+<TR><TH ALIGN="right" VALIGN="top"><A NAME="id"></A>ID/Version</TH><TD>The primary and  secondary (if they exist) sequence identifiers appear on the left.  The ID is primary if it appears in boldface type; if the type face is not bold, it is a secondary ID.   The name of the sequence provider appears beside the ID in parentheses, linked to the sequence detail report at the provider's web site.
+On the right is the provider's version number for the sequence. Sometimes this takes the form of the latest sequence or annotation update. If version information is missing, the provider did not supply it.</TD></TR>
+
+<TR><TH ALIGN="right" VALIGN="top"><A NAME="seq_description"></A>Sequence<BR>description<BR>from provider</TH><TD VALIGN="top">Typically, this is the information contained in the <I>Definition</I> or <I>Description</I> field of the provider's sequence record. If this field is blank, the provider did not supply the information. For genome assembly sequences, the coordinates, the chromosome, and the build number appear.  The build number is from the most current NCBI assembly sequence. See <A HREF="http://www.ncbi.nlm.nih.gov/genome/seq/NCBIContigInfo.html">Assembling Genomic Sequences</A> for complete details.</TD></TR>
+
+<TR><TH ALIGN="right" VALIGN="top"><A NAME="provider"></A>Provider</TH><TD>Name of the sequence provider and sometimes the division (e.g., Rodent, High Throughput cDNA, High Throughput Genome, Patent, EST, STS, GSS) of origin. <I>This sequence has been deleted from the provider database</I> appears if the provider no longer has the sequence.</TD></TR>
+
+<TR><TH ALIGN="right" VALIGN="top"><A NAME="sequence"></A>Sequence</TH><TD VALIGN="top">Type and length of the sequence; amount of flanking sequence.<TABLE>
+   <TR><TH ALIGN="left" VALIGN="top">Type</TH><TD ALIGN="left" VALIGN="top">DNA, RNA, or polypeptide.</TD> </TR>
+    <TR><TH ALIGN="left" VALIGN="top">Length</TD><TD ALIGN="left" VALIGN="top">For RNA and DNA sequences length is in base pairs (bp); for polypeptides, length is in amino acids (aa). </TD> </TR>
+ <TR><TH ALIGN="left" VALIGN="top">Flanking sequence<TD ALIGN="left" VALIGN="top">Use if you are either forwarding a genome assembly sequence to MouseBLAST or downloading it in FASTA format and want to add sequence to both ends. The metric is kb (1000 base pairs); thus, to add 10,000 pairs of flanking sequence to each end, enter 10 (this increases the sequence by 20 kb).   </TD></TABLE>
+<P>You can:
+<UL>
+  <LI>download this sequence in FASTA format or forward it to MouseBLAST</LI>
+  <LI>specifiy an amount flanking sequence to add to each end (but only if this is an assembly sequence).</LI></UL>
+<P>Click the arrow to select/deselect and GO to activate. (If the sequence is marked as deleted, this option is not available.) The default is to download the file in FASTA format with no flanking sequence; a FASTA sequence file containing the selected sequence appears in your browser window. When you forward a sequence to MouseBLAST, it will appear on a MouseBLAST submission form.<!--w/wo flanking sequence?--></LI>
+</UL>
+
+</TD></TR>
+
+<TR><TH ALIGN="right" VALIGN="top"><A NAME="source"></A>Source</TH><TD ALIGN="left" VALIGN="top">All available sequence source attribute data (i.e., library, organism, strain/species, sex, age, tissue, cell line). For some sequence providers (e.g., UniProt,  DoTS, NIA, DFCI) a link is available. If an asterisk follows a data item, it means that we could not map information from the provider to an item in our database. (Providers describe sequence attributes &#151; strains/species, tissues, libraries, clone collections, and so on &#151; in their reports. MGI captures these original values, converts them to MGI controlled vocabularies if possible, and stores them. Once captured, values are called <I>resolved,</I> and you can use them as search terms on the Mouse Sequence Query Form. If the original value is not resolved to a controlled vocabulary term, it does not produce results when queried upon, and the asterisk appears on your query report).
+
+
+ <TR><TH ALIGN="right" VALIGN="top"><A NAME="chromosome"></A>Chromosome</TH> <TD>Chromosomal assignment of markers associated to the sequence.
+
+  <LI>If a set of markers maps to multiple chromosomes (as, for example, with a  chimeric YAC), each chromosome is listed. </LI>
+  <LI>If multiple markers are associated to the sequence and at least one is mapped, the identified chromosome appears.</LI>
+  <LI>If one or more markers are associated to the sequence but none are mapped, <B>Unmapped</B> appears.</LI>
+<LI>If there are no markers associated to the sequence, this field is blank.</LI> </TD></TR>
+
+<TR><TH ALIGN="right" VALIGN="top"><A NAME="gene_annotation"></A>Annotated<BR>genes and<BR>markers</TH><TD VALIGN="top"><B>Type, Symbol</B> (linked to the MGI Marker Detail report), <B>Name</B>, and the number of <B>GO Terms, Expression Assays,  Orthologs</B> and <B>Phenotypic Alleles</B> annotated to the markers that the sequence is associated with. </TD></TR>
+
+<TR><TH ALIGN="right" VALIGN="top"><A NAME="probe_annotation"></A>MGI curated<BR>clones/probes<BR> annotated to sequence</TH><TD VALIGN="top">For any probe/clone associated to the sequence, the following appear: <B>Name</B> (linked to its Molecular Probes and Clones detail report), <B>Clone Collection</B>, <B>Clone ID</B>, and <B>Type</B> (cDNA, DNA construct, genomic, mitochondrial, oligo, primer, Not specified). If the clone belongs to multiple clone collections, each appears on a separate line.</TD></TR>
+
+<TR><TH ALIGN="right" VALIGN="top"><A NAME="seq_reference"></A>Sequence<BR> references<BR> in MGI</TH><TD VALIGN="top">If a reference with an MGI number refers to a record from any of our sequence providers (GenBank/EMBL/DDBJ, RefSeq, UniProt, DFCI, DoTS, NIA Mouse Gene Index), the report displays all references in MGI associated with the sequence.</TD></TR>
+</TABLE>
+
+
+</p><a href="#top"><font size="-1">Top</font></a>
+<!--#include file='include/templateBlankBodyStop.html'--> 
+
+
+
+
