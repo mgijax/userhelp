@@ -40,7 +40,6 @@ function openHelpWindow(helpFile){
 <UL>
 <LI><A HREF="#what">What SNP data does the MGI database contain?</a></li>
 <LI><A HREF="#whatnot">What SNP data does the MGI database <b>NOT</b> contain?</a></li>
-
 <LI><A HREF="#wherewhen">Where does MGI get mouse SNP data and when does it load this data? </A></LI>
 <li><A HREF="#data">How can I tell which dbSNP build the data comes from?</a></li>
 <LI><A HREF="#contain">What's in the SNP Data in MGI report?</A></LI>

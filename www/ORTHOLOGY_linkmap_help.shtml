@@ -1,0 +1,214 @@
+<!--#include file='include/templateHead.html'-->
+<title>
+  <!--#include file="include/mgiversion.html"-->
+MGI-Using the Linkage Maps Query Form</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+
+</style>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+  Using the Linkage Maps Query Form
+ </span>
+</div>
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+
+
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+    </tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+<!-- Body of User Help -->
+<a name="top"></A>
+
+<p>This help document answers the following questions:
+ <UL>
+ <LI><A HREF="#whatdo">What do I use the Linkage Maps Query Form to find?</a></li>
+ <LI><A HREF="#howdo">How do I use this form?</a></li>
+ <LI><A HREF="#mapsrc">What are the sources for the linkage maps?</a></li>
+ <li><a href="#whatkind">What kind of maps can I generate?</a></li>
+ <li><a href="#format">Is there a choice of format?</a></li>
+ <LI><A HREF="#fields">What values are acceptable in each of the query form fields?</a></li>
+ <LI><A HREF="#feature">What do the results look like?</a></li>
+ <LI><A HREF="#example">Are there examples of using specific field values to get certain results?</a></li>
+ </UL>
+
+ <h3><a name="whatdo"></a>What do I use the Linkage Map query form for?</h3>
+<p>The Linkage Maps Query Form provides options to generate linkage maps based on a view of a mouse chromosome.  Information for a linkage map is retrieved from the database.  Linkage relationships for markers are determined by the
+cM position assigned to each marker. A marker detail record from
+MGD may include a cM position. In MGD, these assignments
+are representative of the "consensus map" for the mouse. By
+default, the Map Source is set to <b>MGD stored value</b>. However, you can select from a variety of mapping data sets to generate a linkage map.</p>
+ <a href="#top"><font size="-1">Top</font></a>
+
+<h3><A name="howdo"></a>How do I use this query form?</h3>
+
+<P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following paragraphs. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_general_searching_help.shtml">Using MGI Query Forms</a> for how to submit or speed up a query, select an operator or sort options, and so on.</p>
+   
+<a href="#top"><font size="-1">Top</font></a>
+
+
+<h3><a name="mapsrc"></a>What are the sources for the linkage maps?</h3>
+<p>Sources of mapping information for linkage maps include:
+ <ul><li>Linear interpolation using the standard genetic map described in Cox et al. (2009).  (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546">PMID</a>). </li>
+ <ul>
+<li>Standard genetic map described in Cox et al. (2009)  <a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546">PubMed</a>. </li>
+<li>A new standard genetic map for the laboratory mouse from Cox A, Ackert-Bicknell CL, Dumont BL, Ding Y, Bell JT, Brockmann GA, Wergedal JE, Bult C, Paigen B, Flint J, Tsaih SW, Churchill GA, Broman KW.</li>
+   <li>MGI genetic marker and orthology records
+   <li>Chromosome Committee Reports (through 2000)
+   <li>MIT Whitehead Institute Mouse Genome reports
+  </ul>
+and the following DNA mapping panels:
+
+ <ul>
+   <li>Copeland-Jenkins (C57BL/6J x M. spretus)F1 x C57BL/6J
+   <li>EUCIB (BSB) (C57BL/6J x SPR or SEG/Pas)F1 x C57BL/6J
+   <li>EUCIB (BSS) (C57BL/6J x SPR or SEG/Pas)F1 x SPR or SEG/Pas
+   <li>Jax (BSB) (C57BL/6J x M. spretus)F1 x C57BL/6J
+   <li>Jax (BSS) (C57BL/6JEi x SPRET/Ei)F1 x SPRET/Ei
+   <LI>Kozak FvC58 (NFS/N x M. spretus) F1 x C58/J
+   <LI>Kozak FvSpr (NFS/N x M. spretus)F1 x M. spretus
+   <LI>Kozak Skive (NFS/N or C58/J x M. m. musculus)F1 x M. m. musculus
+   <li>MIT (C57BL/6J-Lep&lt;ob&gt;/Lep&lt;ob&gt;x CAST)F1 x (C57BL/6J-Lep&lt;ob&gt;/Lep&lt;ob&gt; x CAST)F1
+   <li>Reeves (Chr 16) Sex-averaged intersubspecific mapping panel
+   <li>Seldin (C3H/HeJ-Fasl&lt;gld&gt; x M. spretus)F1 x C3H/HeJ-Fasl&lt;gld&gt;
+  </ul>
+  <blockquote>
+<b>  NOTE:</b>
+  Maps are constructed from mapping panel data using a simple linkage analysis algorithm applied to the mapping panel data set. Errors in the generated map are the responsibility of the Mouse Genome Informatics Project; if you find an error, please  <A HREF="<!--#include file='include/mgihome_url.html'-->/support/mgi_inbox.shtml">contact User Support</A> to report it.
+</blockquote></p>
+ <a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="whatkind"></a>What kind of maps can I generate?</h3>
+
+<P>The Linkage Maps form provides options to build a map display based on a customized view of a mouse chromosome. You can:
+  <UL>
+   <LI>View a region of a chromosome, either by typing the cM position endpoints for a range, or, specifying the region around a marker by typing the marker symbol and number of cMs around the marker.
+   <LI>Filter the list of markers to retrieve. You can choose to include (this is the default) or exclude DNA segments or syntenic markers in your query. You can restrict the map to markers of selected phenotypic classes or to markers that have similar names.
+  <LI>Select a species for comparison to build a comparative map. MGD contains orthology information for 17 mammalian species.
+   <LI>Add your own markers or modify the location of an existing marker.
+  </UL></p>
+ <a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="format"></a>Is there a choice of format?</h3>
+<P><A NAME="fmt"></A>You can build linkage maps in several formats:
+ <ul>
+  <I>Web Map</I><br>
+   The default selection in the "Map Format" field, "Web Map" format is used to create an image of a linkage map displayed on a Web browser page. Marker symbols on this map are linked to marker detail records.  <br>
+
+ <p><I>PostScript</I><br>
+   When you select this format option and execute a query, the system prompts you for a filename to save the PostScript file on your machine. You can send the file to a printer or display with a PostScript viewer. The Linkage Maps form provides various options for formatting the postscript file. <p>
+  </ul>
+</p>
+ <a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="fields"></a>What values are acceptable in each of the query form fields?</h3>
+<P><table width="!" cellpadding="8" class="nb" align="center">
+<tr align="center"><td align="center"><A HREF="#map_format">Map Format</A> |   <A HREF="#map_source">Map Source</A> |   <A HREF="#chr">Chromosome</A> | <A HREF="#markers">Markers</A> | <A HREF="#dna">Include DNA segments?</A> | <A HREF="#syntenic">Include syntenic markers?</A> | <A HREF="#gene_ontology">Gene Ontology (GO) Classifications</A> | <A HREF="#sym">Marker Symbol/Name</A> | <A HREF="#compmap">Comparative Maps</A> | <A HREF="#custmap">Customized Map</A> | <A HREF="#pfmt">PostScript Formatting Options</A></TD>
+</TR>
+</TABLE>
+
+<table border=1 cellpadding=4>
+ <TR>
+  <TH></A>FIELD <TH>DESCRIPTION </TR>
+ <TR><TH align=left valign=top><A NAME="map_format"></A>Map Format</th><td valign=top>You can select either Web Map or PostScript.</td> </TR>
+ <TR> <TH align=left><A NAME="map_source"></A>Map Source</TH><td valign=top>The source for mapping information used to build the map can be MGD, Chromosome Committee Reports, MIT Whitehead Institute Mouse Genome reports, or DNA mapping panel data sets as described above.</TD> </TR>
+<TR><TH align=left valign=top><A NAME="chr"></A>Chromosome</TH> <td valign=top>Several options enable you to select a chromosome and focus the map on a particular region of a chromosome. You must select a chromosome to generate a map.  The default selection is Chr 1. Select ONE of the following options to specify a chromosomal region. Note that when specifying the endpoints (gene symbols or cM position) for the region, the resulting map will include the endpoints.
+    <UL><LI>Specify a region between two points.  You can specify the endpoints either by typing in two symbols, or two cM positions, or one of each.</li>
+ <LI>Specify a region within some number of cM from a specified marker. You must type the complete symbol for the marker.</li>   </UL> </TD> </TR>
+<TR><TH align=left valign=top><A NAME="markers"></A>Markers</TH>
+   <td valign=top>The next several options describe how you can build a linkage map with a focus on particular types of genetic markers.</td> </tr>
+<TR><TH align="left"><A NAME="dna"></A>Include DNA segments?</TH><td valign=top>The default is Yes. If you select No, the resulting map does not include DNA segments.</TD> </TR>
+<TR> <TH align="left"><A NAME="syntenic"></A>Include syntenic markers?</TH> <td valign=top>The default is Yes, so that, regardless of any other parameters you specify for the map, the map includes a listing of syntenic markers (markers that have been assigned to a chromosome but for which there is no cM position estimate).</TD> </TR>
+<th align="left" valign="top"><A NAME="gene_ontology"></A>Gene <br>Ontology (GO) <br>Classifications</Th>
+        <TD valign="top">Genes may be described using three broad categories reflecting biological roles: Molecular Function, Biological Process, or Cellular Component. The Gene Ontology (GO) Consortium has developed structured vocabularies to specify detailed aspects within each category. MGI uses GO terms to annotate gene records. See <a href="GO_classification_fields_help.shtml">Using Gene Ontology Classification Fields on MGI Query Forms</a> for details.    </TD>
+      </TR>
+
+<TR><TH align=left valign=top><A name="sym"></a>Marker Symbol/Name</th>
+
+
+ <td valign="top">Symbol, name, or synonym for a mouse genetic marker.
+<ul>
+  <li> Enter one or more symbols or names or synonyms (separated by commas). <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
+  <li>By default, you search on current symbols/names and synonyms.  However, you can limit your search to current symbols (no search of names) or current symbols/names only (no search of synonyms).
+</li>
+  <li>The operators present additional search options. The default is <i>contains</i>. (See <a href="MISC_operators_help.shtml">Using Operators on MGI Query Forms</a> for more information.) </li>
+<li>Click NOT check box to exclude symbols from your search. <B>Note:</B> Many genes have withdrawn symbols and synonyms. If you use NOT and the default setting, a gene appears if any of its symbols (including withdrawns and synonyms) do <i>not</i> match the query. Thus, in apparent contradiction of your intent, some genes whose current symbol matches the query will appear. To avoid this, change the selector to <i>current symbols</i> when using the NOT operator. </li>
+</ul>
+
+ </TR>
+
+<TR><TH align=left valign=top><A NAME="compmap"></A>Comparative Maps</TH> <td valign=top>Selection list of the mammalian species for which MGD contains orthology information. <i>The human species is the default selection.</i> You can choose to view ONLY mouse markers that have orthologies, or view ALL mouse markers and include whatever orthologies there are. The symbol and location is given for each ortholog from the comparison species to the right of the display of mouse markers.</TD></TR>
+<TR><TH align=left valign=top><A NAME="custmap"></A>Customized Map</th> <td valign=top>Type in a symbol and cM position <i>separated by a space</i>, one marker per line.  You can modify the position of an existing marker by typing the marker symbol and new cM position. Your entry overrides the database value in the map display.</td> </TR>
+
+<TR><TH align=left><A NAME="pfmt"></A>PostScript Formatting Options</TH> <td valign=top>These options apply only to the PostScript format. You can select options that modify how the printed map appears. </TD> </TR>
+ </TABLE>
+</p>
+ <a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="feature"></a>What do the results look like?</h3>
+<p>Central to the display is the Chromosome with cM positions marked. To the left of the chromosome is an iconized display of the chromosome indicating the chromosome number.  The small box on the chromosome indicates the region of the chromosome displayed on the current page.  A line going from the chromosome to the right indicates the cM location of the markers displayed to the right of the line.  Markers in the same cM position are grouped together by a vertical line.  Each marker is highlighted and linked to its detail record in the database. </p>
+
+<P> If you select the option to show orthologs from another species, the orthologs appear to the right of the mouse markers.  The symbol and location is shown for each. <P>If you select the option to show syntenic markers, these appear as a listing after the map pages. Each symbol is linked to the marker detail record in the database.</p>
+ <a href="#top"><font size="-1">Top</font></a>
+
+ <h3><a name="example"></a>Are there examples of using specific field values to get certain results?</h3>
+<p>The following examples show the field values necessary for an operation.  Otherwise, default
+values on the form are assumed.</P>
+ <OL>
+   <LI>Show markers between cM 10 and 25 on Chromosome 5 and human orthologies; exclude syntenic markers and DNA segments.
+ <blockquote>
+      <B>Chromosome</B>   5<br>
+   <B>     Restrict map to a chromosomal region:</B> Between 10 and 25 (cMs)<BR>
+	<B>Include DNA segments? </B>No<BR>
+	<B>Include syntenic markers? </B>No<BR>
+	<B>Comparative Maps</B> <br>
+           <B>Show orthologs from species</B> HUMAN
+ </blockquote>
+
+This search results in a 2-page display of markers in the region of 10 to 25 cMs.  Human orthologs are listed to the right of the chromosome.</li>
+
+   <P>
+    <LI>Show only MIT markers for Chromosome 7 between  cM 10 and 25.
+ <BLOCKQUOTE>
+
+	<B>Chromosome</B> 7<BR>
+	<B>Between </B>10 and 25 (cMs)<BR>
+	<B>Include DNA segments?</B>   YES<BR>
+	<B>Marker Symbol/Name</B>  CONTAIN   Mass<BR>
+        <B>Show orthologs from species</B>   NONE
+  </BLOCKQUOTE>
+
+The resulting map display shows only MIT markers in the specified region of Chr 7.  Note that you could select MIT (stored value) from the Map Source field and select a chromosome.  The resulting map would include only MIT markers for the chromosome.  The cM position values would be from MIT's mapping project, rather than the consensus map values stored in MGD.</li> <!--and the Chromosome Committee reports.-->
+<P>
+   <LI>Show markers on Chromosome 12 between 35 and 45 cMs. Include a newly identified gene, <I>Ab2l</I>, located at  cM  37.8. Exclude syntenic markers.
+<blockquote>
+   <B>Chromosome </B>12<bR>
+   <B>Between</B> 35 and 45 (cMs)<br>
+   <B>Markers</B><bR>
+   <B>Include DNA segments? </B>  Yes<BR>
+   <B>Include syntenic markers?</B>  No<BR>
+   <B>Comparative maps</B><br>
+   <B>Show orthologs from species </B>  human (Homo sapiens)<bR>
+   <B>Customized Map</B>  Ab2l 37.8
+</blockquote>
+The resulting map shows all markers in the region of 35 to 45 cMs on Chromosome 12 and any orthologs. The Ab2l marker appears at cM 37.8 (but not linked to an MGI record since one does not exist).</li>
+ </ol>
+</p>
+ <a href="#top"><font size="-1">Top</font></a>
+<!--#include file='include/templateBlankBodyStop.html'--> 
