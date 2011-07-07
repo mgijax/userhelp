@@ -47,20 +47,23 @@
   <blockquote>
   		<dt><b>Genes & Markers</b></dt>
 		<dd><a href="GENE_help.shtml" onclick="javascript:openHelpWindow('GENE_help.shtml'); return false;">Using the Genes and Markers Query Form</a></dd>
-  	  	<dd><a href="GENE_detail_help.shtml" onclick="javascript:openHelpWindow('marker_detail_help.shtml'); return false;">Interpreting Gene Detail Reports</a></dd>
-
+  	  
 	<dd><a href="GENE_summary_help.shtml" onclick="javascript:openHelpWindow('GENE_summary_help.shtml'); return false;">Interpreting a Gene and Markers Summary</a></dd>
   	  	<dd><a href="GENE_detail_help.shtml" onclick="javascript:openHelpWindow('GENE_detail_help.shtml'); return false;">Interpreting Gene Details</a></dd>
 
-<dd><a href="GENE_feature_types_help.shtml" onclick="javascript:openHelpWindow('GENE_feature_types_help.shtml'); return false;">Interpreting Gene Details</a></dd>
+<dd><a href="GENE_feature_types_help.shtml" onclick="javascript:openHelpWindow('GENE_feature_types_help.shtml'); return false;">Genome Feature Type Definitions</a></dd>
   	  	
   	  	 
   	  	
-  	  	<dt><b>Sequences</b></dt>         
-  	          <dd><a href="sequence_summary_help.shtml" onclick="javascript:openHelpWindow('sequence_summary_help.shtml'); return false;"> Interpreting Mouse Sequences Summary Reports</a></dd>
-  	          
-  	  	  <dd><a href="sequence_detail_help.shtml" onclick="javascript:openHelpWindow('sequence_detail_help.shtml'); return false;">Interpreting Sequence Detail Reports</a></dd>
-  	  
+  	  	<dt><b>Sequences</b></dt>
+		 <dd><a href="SEQUENCE_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_help.shtml'); return false;">Using the Mouse Sequence Query Form</a></dd>         
+  	          <dd><a href="SEQUENCE_summary_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_summary_help.shtml'); return false;"> Interpreting a Mouse Sequences Summary</a></dd>  	          
+  	  	  <dd><a href="SEQUENCE_detail_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_detail_help.shtml'); return false;">Interpreting Sequence Details</a></dd>
+  	   <dd><a href="SEQUENCE_query_tips_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_query_tips_help.shtml'); return false;">Sequence Query Tips</a></dd>
+
+ <dd><a href="SEQUENCE_valid_providers_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_valid_providers_help.shtml'); return false;">Valid Sequence Provider and Type Combinations</a></dd>
+
+
   	 <dt><b>Maps</b></dt>   
   	<dd><a href="mapping_help.shtml" onclick="javascript:openHelpWindow('mapping_help.shtml'); return false;">Retrieving Maps & Mapping Data</a></dd>
   	</blockquote>
@@ -110,10 +113,10 @@
               Interpreting Gene Expression Data Query Results</a>
   	</dd>
 <dd><a href="EXPRESSION_image_summary_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_image_summary_help.shtml'); return false;">
-              Interpreting the Gene Expression Data Images Query by Gene -- Summary</a>
+              Interpreting the Gene Expression Data Images Query by Gene Summary</a>
   	</dd>
 <dd><a href="EXPRESSION_tissue_results_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_tissue_results_help.shtml'); return false;">
-              Interpreting the Gene Expression Data: Results by Tissue - Summary Report</a>
+              Interpreting the Gene Expression Data: Results by Tissue Summary</a>
   	</dd>
 	<dd><a href="EXPRESSION_probe_summary_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_tissue_results_help.shtml'); return false;">
               Interpreting a cDNA Clone Source Data Summary</a>
@@ -121,16 +124,8 @@
 	<dd><a href="EXPRESSION_probe_detail_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_tissue_results_help.shtml'); return false;">
               Interpreting cDNA Clone Source Data Details</a>
   	</dd>
-
-
-
-
-   
 </blockquote>
-
-   
-  
-  
+ 
   <!-- cre -->
   <a name="help_cre"></a>
       <dt class="enhance">Recombinases</dt>
@@ -153,10 +148,7 @@
                    
                   <dd> <a href="GO_classification_report_help.shtml" onclick="javascript:openHelpWindow('GO_classification_report_help'); return false;">Interpreting the Gene Ontology Classifications Report</a></dd>
                    
-          </blockquote>
-          
- 
- 
+          </blockquote> 
      
   <!-- pathways -->
 <a name="help_strain"></a>
@@ -181,10 +173,7 @@
           
           <dt><b>Polymorphisms</b> </dt>
 	<dd>&nbsp;</dd>
-  </blockquote>
-
-
-   
+  </blockquote>   
  
   <!-- orthology -->
    <a name="help_mammortho"></a>
@@ -195,7 +184,6 @@
               Orthology Help
             </a>
           </dd>
-         
 
    
  
@@ -230,7 +218,6 @@
                Using MouseBLAST - Basic Steps
               </a>
             </dd>
-
 <dd>
               <a href="mouseblast_output_help.shtml" onclick="javascript:openHelpWindow('mouseblast_output_help.shtml'); return false;">
                Using MouseBLAST - Interpreting the MouseBLAST Output Report
@@ -265,11 +252,6 @@
 <!--there are -7- of these so far-->
 	<dt>Miscellaneous Help
 		<dd><a href="genetrap_usecase_help.shtml" onclick="javascript:openHelpWindow('genetrap_usecase_help.shtml'); return false;">Gene Trap Questions and Answers</a></dd> 
-
-
-
-
-
 
 <!--1-->
 	<dd><a href="MISC_usingQFs_help.shtml" onclick="javascript:openHelpWindow('MISC_usingQFs_help.shtml'); return false;">Using MGI Query Forms</a>

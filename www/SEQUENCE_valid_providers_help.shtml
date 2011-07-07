@@ -12,7 +12,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">MGI-Valid Sequence Provider and Type Combinations</span>
+ <span class="faqHeaderText">Valid Sequence Provider and Type Combinations</span>
 </div>
 
 <style type="text/css">
