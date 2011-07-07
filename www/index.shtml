@@ -74,8 +74,9 @@
 	<blockquote>
 	<dt><b>Phenotypes & Alleles</b></dt>     
 	          <dd>
-	            <a href="ALLELE_help.shtml" onclick="javascript:openHelpWindow('ALLELE_help.shtml'); return false;">Using the Phenotypes, Alleles, and Disease Models Query Form</a>
-	          </dd>
+	            <a href="ALLELE_help.shtml" onclick="javascript:openHelpWindow('ALLELE_help.shtml'); return false;">Using the Phenotypes, Alleles, and Disease Models Query Form</a></dd>
+
+		 <dd><a href="ALLELE_phenotypic_categories_help.shtml" onclick="javascript:openHelpWindow('ALLELE_phenotypic_categories_help.shtml'); return false;">  Selecting Phenotypic Allele Categories</a></dd>
 		<dd><a href="ALLELE_summary_help.shtml" onclick="javascript:openHelpWindow('ALLELE_summary_help.shtml'); return false;">Interpreting a Phenotypic Allele Summary</a></dd>
 	         <DD><a href="ALLELE_detail_help.shtml" onclick="javascript:openHelpWindow('ALLELE_detail_help.shtml'); return false;">Interpreting Phenotypic Allele Details</a></dd>			  
 	         <DD><a href="ALLELE_detail_pheno_summary_help.shtml" onclick="javascript:openHelpWindow('ALLELE_detail_pheno_summary_help.shtml'); return false;">Interpreting the Phenotype Summary in Allele Details</a></dd>
@@ -172,12 +173,15 @@
   <!-- orthology -->
    <a name="help_mammortho"></a>
         <dt class="enhance">Mammalian Orthology</dt>
-   
-          <dd>
-            <a href="example.shtml" onclick="javascript:openHelpWindow('example.shtml'); return false;">
-              Orthology Help
-            </a>
-          </dd>
+   <blockquote>
+          
+                    <dd>
+                      <a href="example.shtml" onclick="javascript:openHelpWindow('example.shtml'); return false;">
+                        Orthology Help
+                      </a>
+                    </dd>
+          </blockquote>
+          
 
    
  
@@ -243,8 +247,8 @@
               </a>
             </dd>
 
-<!--there are -7- of these so far-->
-	<dt>Miscellaneous Help
+
+	<dt><b>Miscellaneous Help</b></dt>
 		<dd><a href="genetrap_usecase_help.shtml" onclick="javascript:openHelpWindow('genetrap_usecase_help.shtml'); return false;">Gene Trap Questions and Answers</a></dd> 
 
 <!--1-->

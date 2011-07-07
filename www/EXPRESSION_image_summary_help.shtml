@@ -1,7 +1,7 @@
 <!--#include file='include/templateHead.html'-->
 <title>
   <!--#include file="include/mgiversion.html"-->
-MGI-Interpreting the Gene Expression Data Images Query by Gene -- Summary</title>
+MGI-Interpreting the Gene Expression Data Images Query by Gene Summary</title>
 
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
@@ -17,7 +17,7 @@ function openHelpWindow(helpFile){
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
-Interpreting the Gene Expression Data Images Query by Gene -- Summary</span>
+Interpreting the Gene Expression Data Images Query by Gene Summary</span>
 </div>
 
 <!-- Container Table -->
