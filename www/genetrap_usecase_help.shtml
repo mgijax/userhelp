@@ -1,14 +1,36 @@
-<!--#include file='include/templateHead.html'--> 
-<title>MGI-Gene Trap Questions and Answers</title>
+<!--#include file='include/templateHead.html'-->
 
-<!--#include file='include/templateBodyStart.html'--> 
+<title><!--#include file="include/mgiversion.html"-->MGI-Gene Trap Questions and Answers</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;  
+window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">Gene Trap Questions and Answers</span>
+</div>
+
+<style type="text/css">
+</style>
+
+
+<!-- Container Table -->
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
 <!-- Title Bar -->
-  <div id="titleBarWrapper">
-  <span class="titleBarMainTitle">Gene Trap Questions and Answers</span>
-  </div> 
-<!--titleBar-->
-<a name="top"></a>
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+  </td>
+</tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+<!-- Body of User Help -->
+<A NAME="top"></A> 
 <p>This help document answers the following types of questions about gene traps.
 <ul>
 <li><a href="#general">General questions about gene traps</a></li>
@@ -17,10 +39,10 @@
 <li><a href="#sfgi">Searching for sequence information</a></li>
 <li>See also:
 	<ul>
-  	<li><a href="allele_help.shtml">Using the MGI Phenotypes, Alleles & Disease Models Query Form</a></li>
-	<li><a href="allele_detail_report.shtml">Understanding Phenotypic Allele Detail Reports</a></li>
-	<li><a href="allele_summary_report.shtml">Understanding Phenotypic Allele Summary Reports</a></li>
-	</ul>
+  	<li><a href="ALLELE_help.shtml">Using the MGI Phenotypes, Alleles & Disease Models Query Form</a></li>
+	<li><a href="ALLELE_detail_help.shtml">Interpreting Phenotypic Allele Details</a></li>
+	<li><a href="ALLELE_summary_help.shtml">Interpreting a Phenotypic Allele Summary</a></li>
+		</ul>
 </UL>
 </p>
 
@@ -211,12 +233,12 @@ For example:
 <img src="images/mutations_origin.jpg" width="546" height="41" border="0" alt="">
 </blockquote>
 
-<p><b>Note: </b> The <a href="allele_detail_report.shtml#find_mice">Find Mice (IMSR)</a> section of the Gene-trapped Allele Detail report contains information on this topic. See  <a href="#buy_mouse">How can I tell if a cell line or a mouse strain carrying the mutation is available for purchase?</a> for an example.
+<p><b>Note: </b> The <a href="ALLELE_detail_help.shtml#find_mice">Find Mice (IMSR)</a> section of the Gene-trapped Allele Detail report contains information on this topic. See  <a href="#buy_mouse">How can I tell if a cell line or a mouse strain carrying the mutation is available for purchase?</a> for an example.
 </p>
 <A HREF="#top"><font size="-1">Top</font></A>
 
 <h3><a name="buy_mouse"></a>How can I tell if a cell line or a mouse strain carrying the mutation is available for purchase?</h3>
-<p>Locate the <b>Find Mice (IMSR)</b> section of a Gene-trapped Allele Detail report. The information indicates whether or not mouse strains and cell lines are available from the International Mouse Strain Resource (IMSR).
+<p>Locate the <a href="ALLELE_detail_help.shtml#find_mice">Find Mice (IMSR)</a> section of a Gene-trapped Allele Detail report. The information indicates whether or not mouse strains and cell lines are available from the International Mouse Strain Resource (IMSR).
 <blockquote>
 <img src="images/imsr.jpg" width="710" height="60" border="0" alt="">
 </blockquote>
@@ -674,7 +696,7 @@ If the method is 3' RACE or 5' RACE, the tag defining the insertion site is RNA-
 
 
 <h3><a name="sequence_similarity"></a>Can I find gene trap insertions by BLASTing against gene trap sequences and searching by sequence similarity?</h3>
-<p>Yes. Use MGI's MouseBLAST. BLAST results link to corresponding MGI Alleles and Genes. See <a href="mblast_overview.shtml">Using MouseBLAST - Overview</a> for how to use this tool.
+<p>Yes. Use MGI's MouseBLAST. BLAST results link to corresponding MGI Alleles and Genes. See <a href="mouseblast_overview_help.shtml">Using MouseBLAST - Overview</a> for how to use this tool.
 </p>
 <A HREF="#top"><font size="-1">Top</font></A>
 
@@ -782,4 +804,4 @@ then the gene trap has trapped a gene.
 
 
 
-<!--#include file='include/templateBodyStop.html'--> 
+<!--#include file='include/templateBlankBodyStop.html'--> 

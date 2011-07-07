@@ -1,11 +1,11 @@
 <!--#include file='include/templateHead.html'--> 
-<title>MGI-Interpreting an Phenotypic Allele Summary</title>
+<title>MGI-Interpreting a Phenotypic Allele Summary</title>
 
 <!--#include file='include/templateBodyStart.html'--> 
 
 <!-- Title Bar -->
   <div id="titleBarWrapper">
-  <span class="titleBarMainTitle">Interpreting an Phenotypic Allele Summary </span>
+  <span class="titleBarMainTitle">Interpreting a Phenotypic Allele Summary </span>
   </div> 
 <!--titleBar-->
 <A NAME="top"></A>

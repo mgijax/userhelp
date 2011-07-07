@@ -1,0 +1,180 @@
+<!--#include file='include/templateHead.html'-->
+
+<title><!--#include file="include/mgiversion.html"-->Interpreting Recombinase Specificity Details</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;  
+window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">Interpreting Recombinase Specificity Details</span>
+</div>
+
+<style type="text/css">
+</style>
+
+
+<!-- Container Table -->
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+  </td>
+</tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+<!-- Body of User Help -->
+<A NAME="top"></A> 
+
+<P>This help document describes Recombinase Specificity Detail reports which contain some or all of the following elements:</p>
+  <ul>
+	<li><a href="#should_appear">What should appear on this page?</a></li>
+		<ul>
+      		<li><a href="#title">Title</a></li>
+	              	<li><a href="#allele_info">Allele information</a></li>
+      			<li><a href="#tissue_info">Tissue information</a></li>
+       			<li><a href="#image">Images</a></li>
+       			<li><a href="#recomb_spec">Recombinase specificity </a></li>
+			<ul>
+			  <li><a href="#assay_detailz">Assays</a></li>
+			  <li><a href="#gtbg"><nobr>Genotypic Background</nobr></a></li>
+			  <li><a href="#notez">Result Notes</a></li>
+		         </ul>
+			  <li><a href="#reffs">References</a></li>    
+		</ul>
+	<li><a href="#manipulate">What are the ways of creating different views of the data on this page?</a></li>
+     </ul>
+   
+ 
+<P>See also:
+   <ul>
+       <LI><A HREF="RECOMBINASE_summary_HELP.shtml">Using Recombinase Alleles - Tissue Specificity Summary Reports</A></LI>
+ <LI><A HREF="ALLELE_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A> (recombinase-containing transgenes or knock-ins or floxed or frt alleles)</LI>
+</UL>
+
+
+
+<h3><a name="should_appear"></a>What should appear on this page?</h3>
+<p>The Recombinase Specificity Detail page summarizes the recombinase expression for the selected allele and tissue combination.</p>
+
+<h4><a name="title"></a>Title</h4>
+<p>The title on an Recombinase Specificity Detail report takes the form:</p> 
+<blockquote>
+[<i>allele symbol</i>] - [name of anatomical system ]
+<!--<p>The allele symbol is the gene plus the abbreviation for the allele name.</p>-->
+For example:
+   <b><i>Foxg1<sup>tm1(cre)Skm</i></sup> - Alimentary System </b>
+</blockquote>
+
+
+<h4><a name="fields"></a>Fields</h4>
+<p>The table below describes the possible fields in a Recombinase Specificity Detail report. If a field does not appear, it means that information is not currently available for this allele.</p>
+
+<table border="0" cellspacing="1" cellpadding="2" class="nb" width="100%">
+<TR><TD ALIGN="center"><font size="-1"><a href="#allele_info">Allele information</a> |  <a href="#tissue_info">Tissue information</a> |  <a href="#image">Images</a> |  <a href="#recomb_spec">Recombinase Specificity</a> |  <a href="#reffs">References</a></td></tr>
+</table>
+
+<table border="1" cellspacing="1" cellpadding="2" width="!%">
+<TR>
+<th valign="top">Field</TH><th valign="top">Description</TH></TR>
+<tr><th valign="top"><a name="allele_info"></a>Allele information</th>
+    <Td>
+    <table border="0" cellspacing="1" cellpadding="4" width="!%">
+    <tr><th valign="top">Allele</th><td valign="top">The allele symbol is composed of the gene symbol and the allele designation.  If the gene is unknown, only the allele designation appears.</td></tr>
+    <tr><th valign="top">Driver</th><td valign="top">The gene, gene promoter, or construct.</td></tr>
+    <tr><th valign="top">Type</th><td valign="top">Specific allele category: e.g., Targeted (knock-in), Transgenic (Cre/Flp)</td></tr>
+ <tr><TH VALIGN="top">Synonym</td><td valign="top">Other names for the allele.</td></tr>
+    <tr><TH VALIGN="top">Molecular description</td><td>Details of allele generation. Molecular references cited link to MGI Reference Detail reports. </td></tr>
+
+
+    <tr><th valign="top">Find Mice (IMSR)</th><td valign="top">Information about the availability of mouse strains and/or cell lines of this allele in the International Mouse Strain Resource (IMSR) and an indicator of whether or not there are any strains or lines available for any allele of this transgene or gene.</td></tr>
+
+
+
+    <TR><th valign="top"><a name="addl_tiss"></a>Additional Tissues</th><td valign="top">Systems in which specificity data has been curated. Each system listed links to its own Recombinase Specificity Detail page for this allele.</td></tr>
+    </table></td></tr>
+
+<TR><th valign="top"><a name="tissue_info"></a>Tissue Information</th><td valign="top">
+	[<i><small>system</small></i>] - On the left, the name of the system with recombinase activity. On the right, other recombinase alleles with activity in that system. Each listed allele links to its MGI Recombinase Specificity Detail page in the specified system.  If <b><i>...(more)</i></b> appears, click it or the arrow icon (<img src="http://firien.informatics.jax.org/webshare/images/rightArrow.gif" border="0">) to expand the list.
+	</td></tr>
+	
+<tr><th valign"top"><a name="image"></a>Images</th><td valign="top">Any images that the MGI database contains for this combination of allele and system. You can resize each image and drag it anywhere on the page. This is especially useful for side-by-side comparisons of expression in a given structure. </td></tr>
+
+<TR><th valign="top" align="right"><a name="recomb_spec"></a>Recombinase Specificity<br></th>
+    <td valign="top">
+	<table border="0" cellspacing="2" cellpadding="4" width="!">
+      	<tr><th valign"top"><a name="structure"></a>Structure</th><td valign="top">Recombinase specificity results are associated with structures described in the <a href="http://www.informatics.jax.org/searches/AMA_form.shtml">Anatomical Dictionary</a>.  Structures appear in alphabetical order, A-Z.  Click the column name to reverse the order.</td></tr>
+
+<tr><th valign"top"><a name="assayed_age"></a><nobr>Assayed Age</nobr></th><td valign="top">Age of the embryo at time of assay.</td></tr> 
+
+        <tr><th valign"top"><a name="level"></a>Level</th><td valign="top">Intensity of observed expression as specified by the author(s). Possibilities are: Absent, Present, Ambiguous, Trace, Weak, Moderate, Strong, Very Strong. <i>Present</i> appears if the author does not explicitly describe expression level.</td></tr> 
+
+        <tr><th valign"top"><a name="pattern"></a>Pattern</th><td valign="top">As specified by the author(s), possibilities are: Homogenous, Non-Homogenous, Diffuse, Graded, Patchy, Regionally Restricted, Scattered, Single Cells, Spotted, Ubiquitous, Widespread, Not Specified, Not Applicable.</td></tr> 
+
+        <tr><th valign"top"><a name="reference_source"></a>Reference, Source</th><td valign="top">The J number (MGI ID) of the paper with the data, linked to the MGI <b>References Query Results -- Details </b> for the abstract and additional information; the figure number of the <a href="#image">Image</a>; a thumbnail of the image which, when clicked, outlines the larger image above it in the <a href="#image">Images</a> row.</td></tr> 
+	 </table>
+
+<tr><th valign="top" align="right"><a name="assay_detailz"></a>Assays</th>
+	<td>Click the <b>Assays</b> tab (at the top of the table) to show columns with the assay type; the  detection method; the reporter gene, probe or antibody; and notes about the assay.<table border="0" cellspacing="2" cellpadding="4">
+  	<tr><th valign"top"><a name="assay_type"></a>Assay Type</th><td valign="top">In situ reporter (knock in), in situ reporter (transgenic), or Recombinase reporter.</td></tr> 
+	<tr><th valign"top"><a name="reporter_gene"></a>Reporter Gene</th><td valign="top">Gene assayed for.</td></tr>
+	<tr><th valign"top"><a name="detection_method"><nobr>Detection Method</nobr></a></th><td valign="top">Assay method. Examples: direct detection, probe, antibody.</td></tr> 
+        <tr><th valign"top"><a name="assay_note"></a>Assay Note</th><td valign="top">Details pertaining to the entire assay, e.g. treatment. </td></tr></td></tr>
+	</table>
+</td></tr>
+<tr><th valign"top"><a name="gtbg"></a>Genotypic Background</th><td valign="top">Click<b> the Genotypic  Background</b> tab (at the top of the table) to show columns containing the allelic composition, genetic strain background, sex, and notes about the specimen.<br>
+	<table border="0" cellspacing="2" cellpadding="4">
+	  <tr><th valign="top"><a name="acgb"></a>Allelic Composition, Genetic Background</th><TD VALIGN="top">Allele pairs that contribute to the genotype and the mouse strain background. Each allele is linked to its corresponding Phenotypic Allele Detail Report. <br>
+ Beneath the allele pairs, in parentheses, the strain of the genetic background appears; e.g., (involves: 129/Sv * C57BL/6) or (not specified).<br>
+       	<table border="0" cellspacing="2" cellpadding="4">
+       <tr><th valign="top">Involves</th><td valign="top">Indicates that the strains listed (separated by asterisks) contributed to the genetic background of the specimen; additional unspecified strains may also be part of the specimen's genetic background.</td></tr>
+       <tr><th valign="top">Either</th><td valign="top">Indicates that more than one genetic background appears in a reference, but the background of the specimen is unspecified.</td></tr>
+       </table>
+	</td>
+	</tr>
+    <tr><th valign"top"><a name="sex"></a>Sex</th><td valign="top">Male or female, when known.  <b>Not specified</b> is the most common entry.</td></tr>
+        <tr><th valign"top"><a name="specimen_note"></a>Specimen Note</th><td valign="top">Provides additional information on the treatment or assay details on individual specimens; for example, maternal/paternal transmission of the cre allele. </td></tr> 
+	</table></td></tr>
+
+<tr><th valign"top"><a name="notez"></a>Result Notes</th><td valign="top">Click the <b>Result Notes</b> tab (at the top of the table) to see data about, for example, staining in the assayed tissue, in the Result Note column.</td></tr>
+
+<tr><th valign"top"><A NAME="reffs"></A>References</th>
+    <td valign=top>
+	<table border="0" cellspacing="1" cellpadding="2" width="!">
+	  
+	  <tr><th align="left" valign="top"><nobr>All for this allele: |</nobr></th>
+	      <td valign="top">  Number of and link to the References Query Results -- Summary of all the MGI papers  for this allele.</td></tr>
+  	</table>
+    </td>
+   </tr>
+</table>
+<A HREF="#top"><font size="-1">Top</font></A>
+
+<h3><a name="manipulate">What are the ways of creating different views of the data on this page?</a></h3>
+<p>You can: </p>
+  <ul>
+<li>Click <a href="#assay_detailz">Assays</a> to view any available data in these additional columns: <a href="#assay_type">Assay Type</a>, <a href="#reporter_gene">Reporter Gene</a>, <a href="#detection_method">Detection Method</a>, <a href="#assay_note">Assay Note</a>.</li>
+  
+  <li>Click <a href="#gtbg">Genetic Background</a> to view any available date in these additional columns: <a href="#acgb">Allelic Composition, Genetic Background</a>; <a href="#sex">Sex</a>; <a href="#specimen_note">Specimen Notes</a>.</li>
+   <li>Click <a href="#notez">Result Notes</a> to see available data in the Result Note column.</li> 
+
+  
+  <li>Click column headings containing up/down arrow icons to resort column content.</li>
+<li>Move images from their original location in the <a href="#image">Images</a> table row to any location on the page (for comparison with other images or data).</li>
+<li>Resize an image (in the <a href="#image">Images</a> row) by clicking it and dragging its corners.</li>
+<li>Click an image in the <b>Reference, Source</b> column to identify its corresponding larger image in the <a href="#image">Images</a> row.</li>
+</ul>
+
+  
+<A HREF="#top"><font size="-1">Top</font></A>
+
+
+
+
+<!--#include file="include/templateBlankBodyStop.html"-->

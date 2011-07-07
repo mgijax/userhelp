@@ -1,0 +1,73 @@
+<!--#include file='include/templateHead.html'-->
+
+<title><!--#include file="include/mgiversion.html"-->MGI-Interpreting a cDNA Clone Source Data Summary</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;  
+window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">Interpreting a cDNA Clone Source Data Summary</span>
+</div>
+
+<style type="text/css">
+</style>
+
+
+<!-- Container Table -->
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+  </td>
+</tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+<!-- Body of User Help -->
+
+
+
+<A NAME="top"></A>
+<P><A NAME="summary"></A>This help document describes how to interpret a cDNA Clone Source Data Summary. In the summarized results, each probe/clone accession ID is highlighted and linked to the detail report for that probe/clone. Probes and markers may be associated by sequence identities, hybridization, or putative relationships. We are exploring ways to make this summary more useful to you, for a future release. </P>
+<P>See also:
+<UL>
+  <LI><A HREF="EXPRESSION_probe_detail_help.shtml">Interpreting cDNA Clone Source Data Details</A></LI>
+</UL>
+</P>
+<TABLE BORDER CELLPADDING="4">
+<TR>
+<TH>FIELD <TH>DESCRIPTION
+</TR>
+<TR>
+<TH ALIGN="left" VALIGN="top"><NOBR>Nucleotide Probe/Clone AccID <TD VALIGN="top">MGI Accession ID for the probe/clone, linked to the detailed record for the probe/clone.
+</TR>
+
+<TR>
+<TH ALIGN="left" VALIGN="top">Name </TH><TD VALIGN="top">Name of the probe/clone.</TD>
+</TR>
+
+<TR>
+<TH ALIGN="left" VALIGN="top">Clone Collection</TH> <TD VALIGN="top">Name of the collection to which the clone belongs.</TD>
+</TR>
+ <TR>
+<TH ALIGN="left" VALIGN="top">Seq Type</TH> <TD VALIGN="Top">Sequence Type of the probe/clone.
+May be one of the following: cDNA, genomic, DNA, mitochondrial, oligo, primer, RNA, or  Not Specified (i.e., the provider did not supply this information).</TD>
+ </TR>
+<TR>
+<TH ALIGN="left" VALIGN="top">Seq Link?</TH><TD VALIGN="top">Indicates whether there is a Sequence Accession ID associated with the probe/clone. </TD>
+</TR>
+<TR>
+<TH ALIGN="left" VALIGN="top">Markers</TH> <TD VALIGN="top">Symbols for the markers associated with the probe/clone. If the probe is putatively associated with a marker in the MGI database, PUTATIVE appears in parentheses after the marker symbol.</TD>
+</TR>
+ <TR>
+<TH ALIGN="left" VALIGN="top">Chr</TH> <TD VALIGN="top">The chromosome to which the marker is assigned, and, enclosed in parentheses, the cM position or cytogenetic band. Location information shown varies, depending on available data. </TD>
+</TR>
+</TABLE>
+</P>
+<!--#include file='include/templateBlankBodyStop.html'--> 

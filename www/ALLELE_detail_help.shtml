@@ -1,13 +1,13 @@
 <!--#include file='include/templateHead.html'--> 
-<title>MGI-Understanding Phenotypic Allele Detail Reports</title>
+<title>MGI-Interpreting Phenotypic Allele Detail Reports</title>
 <!--#include file='include/templateBodyStart.html'--> 
 <!-- Title Bar -->
 <div id="titleBarWrapper">
-  <span class="titleBarMainTitle">Understanding Phenotypic Allele Detail Reports</span>
+  <span class="titleBarMainTitle">Interpreting Phenotypic Allele Details</span>
 </div> <!--titleBar-->
 
 <a name="top"></A>
-<P>This help document describes Phenotypic Allele Detail reports. 
+<P>This help document describes Phenotypic Allele Details. 
 
 </P> 
 
@@ -19,9 +19,7 @@
     <li><a href="#nomenclature">Nomenclature</a></li>
     <li><a href="#origin">Mutation/Variant/Vector/Transgene origin</a></li>
     <li><a href="#description">Mutation/Variant/Vector/Transgene description</a></li>
-    <li><a href="#find_mice">Find Mice (IMSR
-
-)</a></li>
+    <li><a href="#find_mice">Find Mice (IMSR)</a></li>
     <li><a href="#gene_expression">Expression</a></li>
 <li><a href="#recombinase_specificity">Recombinase specificity</a></li>
     <li><a href="#summary">Phenotype summary</a></li>
@@ -37,8 +35,8 @@
 <P>See also:
 <UL>
   <LI><A HREF="allele_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
-  <LI><A HREF="allele_summary_report.shtml">Understanding Phenotypic Allele Summary Reports</A></LI>
-<li><A HREF="phenoview.shtml">Interpreting the Phenotype Summary on an Allele Detail Report</a></li>
+  <LI><A HREF="allele_summary_report.shtml">Interpreting a Phenotypic Allele Summary</A></LI>
+<li><A HREF="phenoview.shtml">Interpreting the Phenotype Summary in Allele Details</a></li>
 <li><a href="genetrap_usecases.shtml">Gene Trap Questions and Answers</a></li>
 <li><a href="recombinase_alleles_summary_report.shtml">Using Recombinase Alleles -- Tissue Specificity Summary Reports</a></li>
 
@@ -188,7 +186,7 @@ Click &#9660; to close the  display.<br>The image that appears is a genome brows
 
 
 
-<TR><TH align="right" valign=top><A NAME="summary"></a>Phenotype summary<td valign="top">See <a href="phenoview.shtml">Interpreting the Phenotype summary table.</a></td></tr>
+<TR><TH align="right" valign=top><A NAME="summary"></a>Phenotype summary<td valign="top">See <a href="ALLELE_detail_pheno_summary_help.shtml">Interpreting the Phenotype summary table.</a></td></tr>
 
 <tr><TH align="right" VALIGN="top"><A NAME="genotype"></A>Phenotypic data by genotype</th><TD ALIGN="left" VALIGN="top">Phenotypic details for all genotypes that include at least one copy of the specified allele.<br><br><table border cellpadding=4>
 <tr><td valign="top">Colored boxes, <br>abbreviations, <br>numbers</td><td valign="top">
@@ -260,4 +258,4 @@ If this field is not present, it means that there is currently no information of
 </p>
 
 
-<!--#include file="include/templateBodyStop.html"-->
+<!--#include file="include/templateBlankBodyStop.html"-->
