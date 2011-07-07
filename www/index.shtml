@@ -46,8 +46,13 @@
 <DT class="enhance">Genes, Genome Features, & Maps</dt>
   <blockquote>
   		<dt><b>Genes & Markers</b></dt>
-  	  	<dd><a href="marker_detail_help.shtml" onclick="javascript:openHelpWindow('marker_detail_help.shtml'); return false;">Interpreting Gene Detail Reports</a></dd>
-  	  	<dd><a href="associated_human_diseases_help.shtml" onclick="javascript:openHelpWindow('associated_human_diseases_help.shtml'); return false;">Interpreting the Associated Human Diseases Report</a></dd>
+		<dd><a href="GENE_help.shtml" onclick="javascript:openHelpWindow('GENE_help.shtml'); return false;">Using the Genes and Markers Query Form</a></dd>
+  	  	<dd><a href="GENE_detail_help.shtml" onclick="javascript:openHelpWindow('marker_detail_help.shtml'); return false;">Interpreting Gene Detail Reports</a></dd>
+
+	<dd><a href="GENE_summary_help.shtml" onclick="javascript:openHelpWindow('GENE_summary_help.shtml'); return false;">Interpreting a Gene and Markers Summary</a></dd>
+  	  	<dd><a href="GENE_detail_help.shtml" onclick="javascript:openHelpWindow('GENE_detail_help.shtml'); return false;">Interpreting Gene Details</a></dd>
+
+<dd><a href="GENE_feature_types_help.shtml" onclick="javascript:openHelpWindow('GENE_feature_types_help.shtml'); return false;">Interpreting Gene Details</a></dd>
   	  	
   	  	 
   	  	
