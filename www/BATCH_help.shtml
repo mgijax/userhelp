@@ -328,11 +328,11 @@ The default is web format.
 </p>
  <a href="#top"><font size="-1">Top</font></a>
 
-<h3><a name="revise"</a>Can I edit my original options and requery?</h3>
+<h3><a name="revise"></a>Can I edit my original options and requery?</h3>
 <p>Yes, you can.</p>
 <ul><li>If you want to edit a list or change output options:</li>
 <ol>
-  <li>When your results appear, click the banner at the top of the page (Click to modify search). (The banner title  changes to Click to Hide Search.) The window that appears contains your original search criteria. </li>
+  <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. </li>
   <li>Edit the input list or change any Output options.</li>
   <li>Click Search.</li>
 <li>Repeat steps 1 and 2 until the desired results appear.</li>
@@ -340,7 +340,7 @@ The default is web format.
 See <a href="#example">Are there examples?</a> for a sample of a query modification.
 <li>If you want to upload a different file:
 	<ol>
-  <li>When your results appear, click the banner at the top of the page (Click to modify search). (The banner title in  changes to Click to Hide Search.) The window that appears contains your original search criteria.
+  <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title in  changes to Click to Hide Search.) The window that appears contains your original search criteria.
 <li>Click the i>Upload File</i> tab and then the Choose File button.</li>
 <li>Select the appropriate file. See <A HREF="#howfill">How do I use this tool?</A> for more information about uploading files.</li>
 	</ol>

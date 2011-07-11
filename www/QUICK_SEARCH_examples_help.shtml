@@ -1,0 +1,299 @@
+<!--#include file='include/templateHead.html'-->
+<title>
+  <!--#include file="include/mgiversion.html"-->
+MGI-Quick Search Examples and Questions</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+
+</style>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+  Quick Search Examples and Questions
+ </span>
+</div>
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+
+
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+    </tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+<!-- Body of User Help -->
+<a name="top"></A>
+
+
+<p>This help document answers the following questions:</p>
+
+<UL>
+<li><a href="#advanced">Is there an advanced search?</a></li>
+<li><a href="#more">I got more than one result when I searched by accession ID. Why?</a></li>
+<li><a href="#exact">I want an exact genome feature match.  Should I query by name or symbol or synonym or can I use an ortholog?</a> </li>
+<li><a href="#complicated">Can I search using complicated nomenclature, e.g. <i>T(XA1?;InY)8Ei, reciprocal translocation, Chr X and inverted Chr Y, Eicher 8?</i></a> </li>
+<li><a href="#various">My term appears in different various forms in an MGI vocabulary. Does it matter which one I use?</a> </li>
+<li><a href="#no_go">I'm looking for hydrogen:potassium-exchanging ATPase activity GO:0008900. What do I enter in the Quick Search box?</a></li>
+<!--<li><a href="#no_match">Are there any MGI terms that will <b>NOT</b> return an exact match?</a>-->
+<li><a href="#need_to_know">Do I have to know vocabulary keywords or could I enter a vocabulary definition or synonym instead?</a></li>
+<li><a href="#acronym">What do the vocabulary acronyms stand for? Which one does Quick Search query?</a> </li>
+<li><a href="#how_many">How many items can I search for at once?</a> </li>
+<li><a href="#wild">Are wild cards allowed?</a> </li>
+<li><a href="#multi_word">Are multi-word phrases allowed?</a> </li>
+<li><a href="#q_mark">Do I have to use quotation marks?</a> </li>
+<li><a href="#mistype">Does Quick Search offer an alternative spelling if I mistype something?</a> </li>
+<li><a href="#which_id">Are there examples of the accession IDs that Quick Search can find?</a> </li>
+<li><a href="#stemming">What is stemming? Are there examples of words that Quick Search stems?</a> </li>
+<li><a href="#stop">What are "stop words" and what does Quick Search do with them?</a> </li>
+<li><a href="#help">Help! I can't find what I was looking for.</a>
+</ul>
+
+<a href="searchtool_help.shtml"><font size="-1">Back to "Using the Quick Search Tool"</font></a>
+
+<h3><a name="advanced"></a>Is there an advanced search?</h3>
+<p>You can narrow what the Quick Search returns by:</p>
+<ul><li>entering exact phrases or complete nomenclature (that is, instead of using a wild card). 
+  <li>putting your entry in quotation marks (for example  entering "kit ligand" instead of <i>kit</i>).</li>
+  </ul>
+<p>You can get additional information about Quick Search results by: <ul>
+  <li>forwarding them to the MGI Batch Query (click <b>Get more data</b> beneath <b>Best Match</b> under <b>Genome Features</b> on the <b>Quick Search Results</b> page).</li>
+  <li>using <a href="searchtool_help.shtml#google">Search MGI with Google</a> (located at the bottom of the <b>Quick Search Results</b> page.</li>
+</ul>
+</p>
+<p>See also <a href="searchtool_help.shtml#advantage">When should I use Quick Search vs. an individual MGI query form?</a> for more information about advanced searches.</p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
+
+<h3><a name="more"></a>I got more than one result when I searched by accession ID. Why?</h3>
+<p>Accession IDs associated directly and only with a genome feature appear as an exact match under <b>Genome Features</b>. Accession IDs associated with one or more genome features <b>and</b> with another object (for example, a sequence ID) return the associated features as exact matches and accessioned objects in  <b>Other Results by ID</b>. These include:
+<ul>
+  <li>gene model ID</li>
+   <li>sequence ID</li>
+  <li>TreeFam ID</li>
+  <li>Homologene ID</li>
+  <li>EC (Enzyme Commission) ID</li>
+  <li>DoTS ID</li>
+  <li>UniGene ID</li>
+  <li>DFCI ID</li>
+  <li>NIA Mouse Gene Index ID</li>
+  <li>PDB ID</li>  
+  <!--<li>gene trap ID</li>-->
+</ul>
+<p>In addition, some accession IDs are not unique. As an example, query for <i>100678</i>. 
+<ul>
+  <li>HomoloGene uses this identifier for a mouse gene.</li>
+  <li>NCBI uses it to identify a gene model sequence associated with another gene.</li>
+  <li>OMIM uses it to identify a disease condition whose associated human gene has an orthologous gene in mouse.</li>
+</ul>
+See <a href="id_examples.shtml">Accession ID types and examples</a>  for list of providers, sample IDs, and where to look for any matches in the Quick Search Results.
+</p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="exact"></a>I want an exact genome feature match.  Should I query by name or symbol or synonym or can I use an ortholog?</h3>
+<p>You may use any of these, and more. Searchable fields for exact matching include:
+<ul>
+  <li>symbol - current or old</li>
+  <li>complete name </li>
+  <li>complete synonym</li>
+  <li>complete orthologous gene symbol</li>
+  <li>complete orthologous gene name</li>
+  <li>complete orthologous gene synonym</li>
+  <li>complete allele symbol</li>
+  <li>complete allele synonym</li>
+  <li>complete allele name</li>
+<li>mutant cell line name</li>
+<li>mutant cell line provider</li>
+
+  <li>"related" synonym  (e.g., tudor domain containing 7)</li>
+</ul>
+</p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
+ <h3><a name="complicated"></a>Can I search using complicated nomenclature, e.g. <i>T(XA1?;InY)8Ei, reciprocal translocation, Chr X and inverted Chr Y, Eicher 8</i>?</h3>
+<p>Quick Search handles special characters such as parentheses, commas, colons, semicolons, dashes, slashes, +/-.  However, the text in this example consists of both the symbol  (<i>T(XA1?;InY)8Ei</i>) and name (<i>reciprocal translocation, Chr X and inverted Chr Y, Eicher 8</i>). Enter either the symbol or the name in the query box. If you want an exact match on the name/symbol combination, enclose each group in quotation marks ("<i>T(XA1?;InY)8Ei</i>"  "<i>reciprocal translocation, Chr X and inverted Chr Y, Eicher 8</i>").</p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
+
+<h3><a name="various"></a>My term appears in different various forms in an MGI vocabulary. Does it matter which one I use?</h3>
+<p>All synonym variations produce the same result. For example, whether you enter <i>(K+ + H+)-ATPase activity</i> or <i>H+/K+-ATPase activity</i>, or  <i>H,K-ATPase activity</i>, you'll see identical matches. </p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
+
+<h3><a name="no_go"></a>I'm looking for hydrogen:potassium-exchanging ATPase activity GO:0008900. What do I enter in the Quick Search box?</h3>
+<p>The string above contains both  the term definition (hydrogen:potassium-exchanging ATPase activity) and the identifier (GO:0008900). One or the other is sufficient when querying for any matches. For best results, enclose multi-word terms in quotation marks, e.g. "hydrogen:potassium-exchanging ATPase activity."</p>
+<a href="#top"><font size="-1">Top</font></a>
+
+
+<!--<h3><a name="no_match"></a>Are there any MGI terms that will <b>NOT</b> return an exact match?</h3>
+<p>Allele synonyms will not return associated genome feature records as exact matches.</p>
+<a href="#top"><font size="-1">Top</font></a>-->
+
+
+<h3><a name="need_to_know"></a>Do I have to know vocabulary keywords or could I enter a vocabulary definition or synonym instead?</h3>
+<p>Quick Search looks for terms (that is, <a href="http://en.wikipedia.org/wiki/Keyword" target="new">keywords</a>), synonyms, and definitions from the vocabularies. If you want an exact match, put the word or phrase in quotation marks to find a complete term, synonym, or definition.
+
+</p><a href="#top"><font size="-1">Top</font></a>
+
+
+<h3><a name="acronym"></a>What do the vocabulary acronyms stand for? Which one does Quick Search query?</h3>
+<blockquote>
+<table border="1" cell spacing="0" cellpadding="3" width="!%">
+<tr><th width="15%" valign="top">Acronym</th><th valign="top">Full Name</th><th valign="top">Quick Search looks for...</th></tr>
+<tr><td valign="top">AD</td><td valign="top">Anatomical Dictionary<br>
+<a href="<!--#include file='include/wi_url.html'-->/searches/anatdict_form.shtml">The Mouse Anatomical Dictionary Browser</a></td><td valign="top">Expression</td></tr>
+<tr><td valign="top">GO</td><td valign="top">Gene Ontology<br>
+<a href="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml">GO Browser</a></td>
+<td valign="top">Function including molecular function, biological process, and cellular component</td></tr>
+<tr><td valign="top">MP</td><td valign="top">Mammalian Phenotype<br>
+<a href="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml">Mammalian Phenotype Browser</a></td><td valign="top">Phenotype</td></tr>
+<tr><td valign="top">OMIM</td><td valign="top">Online Mendelian Inheritance in Man<br>
+<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A">Human Disease Vocabulary Browser</a></td><td valign="top">Disease (model or ortholog)</td></tr>
+<tr><td valign="top">PIRSF</td><td valign="top">Protein Information Resource SuperFamily </td><td valign="top">Protein families</td></tr>
+<tr><td valign="top">InterPro</td><td valign="top">Protein data from  EBI's <a href="http://www.ebi.ac.uk/interpro/">InterPro</a> database</td><td valign="top">Protein domain</td></tr>
+</table><br>
+<b>Note:</b> Adult Mouse Anatomy (MA) matches do not appear beneath <a href="searchtool_help.shtml#vocabulary">Vocabulary Terms</a>, but (when available) do appear beneath <b>Other Results by ID</b>.
+</blockquote>
+
+</p>
+</p><a href="#top"><font size="-1">Top</font></a>
+
+
+<h3><a name="how_many"></a>How many items can I search for at once?</h3>
+<p>You can enter as many as 32 words, IDs, or other text items. Each piece of text in a phrase, even when enclosed in quotation marks, counts as a word. 
+</p>
+<a href="#top"><font size="-1">Top</font></a>
+
+
+<h3><a name="wild"></a>Are wild cards allowed?</h3>
+<p>The only wild card allowed is the asterisk and you can only use it at the end of a word or symbol or term.</p>
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="multi_word">Are multi-word phrases allowed?</h3>
+<p>Yes, as long as they do not contain more than 32 words.
+</p>
+<a href="#top"><font size="-1">Top</font></a>
+
+
+<h3><a name="q_mark">Do I have to use quotation marks?</h3>
+<p>No, but they are helpful when you want Quick Search to match an exact word, term, or phrase.
+</p><a href="#top"><font size="-1">Top</font></a>
+
+
+<h3><a name="mistype"></a>Does Quick Search offer an alternative spelling if I mistype something?</h3>
+<p>No. However, at the top of the Quick Search Results, anything that it does not find is highlighted in red, next to <i>See Details for this Search</i>. Frequently, this is a clue that a term is misspelled.
+</p>
+<a href="#top"><font size="-1">Top</font></a>
+
+
+
+<h3><a name="which_id">Are there any examples of the accession IDs that Quick Search can find?</h3>
+<p>Yes. See <a href="searchtool_help_accession_ids.shtml">Accession ID types and examples</a> for list of providers, sample IDs, and where to look for any matches in the Quick Search Results.
+</p>
+<a href="#top"><font size="-1">Top</font></a>
+
+
+<h3><a name="stemming">What is stemming? Are there examples of words that Quick Search stems?</h3>
+<p>Quick Search identifies the "root" of a word by removing common suffixes. This is called <i>stemming</i>. (For more information, see <a href="http://en.wikipedia.org/wiki/Stemming" target="new">stemming</a> in Wikipedia.)
+As examples:  <i>translocation</i> is stemmed to <i>transloc-</i>; <i>immunization</i> is stemmed to <i>immun-</i>.  Click <i>See Details for this Search</i> on a Results page to see how Quick Search has stemmed any word or phrase in your search text.
+</p>
+<p>Additional examples:    
+  <blockquote>
+ <table border="1" cellpadding="4">
+   <tr><th><font size="-1">Term</th><th valign="top"><font size="-1">Stemmed to...</th></tr>
+     <tr><td valign="top"><font size="-1">alimentary</td><td valign="top"><font size="-1">alimentari-</td></tr>
+     <tr><td valign="top"><font size="-1">perinatal</td><td valign="top"><font size="-1">perinat-</td></tr>
+     <tr><td valign="top"><font size="-1">metabolism</td><td valign="top"<font size="-1">metabol-</td></tr>
+     <tr><td valign="top"><font size="-1">immune</td><td valign="top"><font size="-1">immun-</td></tr>
+     <tr><td valign="top"><font size="-1">embryonic</td><td valign="top"><font size="-1">embryon-</td></tr>
+     <tr><td valign="top"><font size="-1">postnatal</td><td valign="top"><font size="-1">postnat-</td></tr>
+     <tr><td valign="top"><font size="-1">aging</td><td valign="top"><font size="-1">age-</td></tr>
+    <tr><td valign="top"><font size="-1">pigmentation</td><td valign="top"><font size="-1">pigment-</td></tr>
+    <tr><td valign="top"><font size="-1">urinary system</td><td valign="top"><font size="-1">urinari-, system-</td></tr>
+    <tr><td valign="top"><font size="-1">respiratory</td><td valign="top"><font size="-1">respiratori-</td></tr>
+    <tr><td valign="top"><font size="-1">tumorigenesis</td><td valign="top"><font size="-1">tumorigenesi-</td></tr>
+  </table>
+ </blockquote>
+ </p>
+<p>
+<b>Note:</b> For best results, use wild cards on scientific or medical terms that the stemming algorithm may not recognize. As examples, use: 
+<ul>
+<li><i>hippocamp*</i> to find hippocampus, hippocampi, hippocampal</li>
+<li><i>cell*</i> to find cell, cells, cellular, cell-like</li>
+<li><i>embry*</i> to find embryo, embryonic, embryonal, embryoes, embryogenesis</li>
+<li><i>nucle*</i> to find nucleus, nucleosis, nucleosome, nucleolar, and so on.</li>
+</ul></p>
+
+<p><b>Note:</b> You may find that matches on the  <b>Genome Features</b> are to stemmed versions of your search term and that these entries appear prior to your search term.  As an example, you enter <i>Apoe</i> and expect to see alleles of this gene at the top of the list, but instead you discover genes with synonyms containing <i>Apo</i>. This occurs because the search engine does not discriminate  between <i>Apo</i> (the term as stemmed) and <i>Apoe</i> (your term) but does allot marker symbols a larger value.</p><a href="#top"><font size="-1">Top</font></a>
+  
+<h3><A name="stop">What are "stop words" and what does Quick Search do with them?</h3>
+<p><b>Stop words</b> are natural articles of speech that are filtered by search engines to speed up processing.
+See <a href="http://en.wikipedia.org/wiki/Stop_words">stop words</a> in Wikipedia for a definition. Quick Search removes the following words (except when they are part of a gene name) from queries:
+<blockquote>
+<table border="0" cellspacing="2" cellpadding="4 width=">
+   <tr><td valign="top">a | an | and | as | be | but | if | is| it | or | such | that | the | their | then | there | these | they | this | was | will</td></tr>
+  </table>
+</blockquote>
+</p>
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="help"></a>Help! I can't find what I was looking for.</h3>
+<ul>
+  <li>If Quick Search doesn't return appropriate matches, or if you want more specific results, try using  one of the MGI query forms accessible from the <b>Search</b> tab in the top menu bar. Click <b>Search-->All Search Tools</b> (on the MGI homepage) to see everything available. (<a href="http://www.informatics.jax.org/allsearch.shtml">http://www.informatics.jax.org/allsearch.shtml</a>)</li>
+  <li>Consult the user documentation for detailed information about searches. As examples, see 
+<A HREF="marker_help.shtml">Using the Genes and Markers Query Form</A> for information about searches on genes or genome features and <A HREF="searchtool_help_accession_ids.shtml#probes_clones">Querying by Accession ID - Examples</A> for the types of accession ID cross-referenced in MGI.
+
+
+<blockquote>
+<table border="1" cellspacing="1" cellpadding="3" width="!">
+ <tr><th valign="top">To find...</th><th valign="top">For example...</th><th valign="top">Look here</th></tr>
+     <tr><td valign="top" width="15%">An overview of MGI data</td><td valign="top">lists of all MGI markers, sequence data, mammalian orthology, gene ontology, strains & polymorphisms, gene expression, alleles and phenotypes, nomenclature, references, clone collections</td><td valign="top"><a href="ftp://ftp.informatics.jax.org/pub/reports/index.html">MGI Data and Statistical Reports</a></td></tr>
+<tr><td valign="top">MGI query forms & other searches</td><td valign="top" width="55%">Genes, Genome Features & Maps; Phenotypes, Alleles & Disease Models; Gene Expression; GO Functional annotations; Strains, SNPs & Polymorphisms; Mammalian Orthology; Sequences; Probes & Clones; References; Vocabularies; and more</td><td valign="top">
+<a href="<!--#include file='include/wi_url.html'-->menus/allsearch.shtml">All Search Tools</a></td></tr>
+       <tr><td valign="top">Nomenclature</td><td valign="top">symbols, names, synonyms for mouse genes,  genome features, orthologs, alleles, mutations</td><td valign="top">
+<a href="<!--#include file='include/mgihome_url.html'-->homepages/genes.shtml">Genes, Genome Features & Maps</a><br>
+<A HREF="<!--#include file='include/mgihome_url.html'-->/nomen/index.shtml">Mouse Nomenclature Homepage</a></td></tr>
+    <tr><td valign="top">Gene expression</td><td valign="top">during development, from assays, in structures, during developmental stages, in cell-line or tissue</td><td valign="top">
+<a href="<!--#include file='include/mgihome_url.html'-->homepages/expression.shtml">Gene Expression Database (GXD)</a> </td></tr>
+    <tr><td valign="top">Embryonic development, postnatal mouse, anatomical structures, Theiler stages</td><td valign="top">somite pair<br>pigmented retinal epithelium</td><td valign="top">
+<a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml">The Mouse Anatomical Dictionary Browser</a></td></tr>
+    <tr><td valign="top">Functional annotations for mouse gene products</td><td valign="top">GO:0004699<br>calcium-independent protein kinase C activity<br>regulation of signal transduction </td><td valign="top">
+<a href="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml">GO Browser</a></td></tr>
+    <tr><td valign="top">Protein domains</td><td valign="top">IPR016243<br>Immunoglobulin-like fold<br>Tyrosine-protein kinase, CSF-1/PDGF receptor<br>
+Protein kinase ATP binding, conserved site</td><td valign="top"><a href="ftp://ftp.informatics.jax.org/pub/reports/MGI_InterProDomains.sql.rpt">Interpro IDs and domain names</a> (MGI data report) or <br>EBI's <a href="http://www.ebi.ac.uk/interpro/">InterPro</a> database </td></tr>   
+        <tr><td valign="top">Annotated phenotype data (terms, definitions and term relationships in a DAG)</td><td valign="top">cellular phenotype<br>               
+ embryogenesis phenotype <br>homeostasis/metabolism phenotype<br>lethality-postnatal</td><td valign="top">
+<a href="<!--#include file='include/wi_url.html'-->/searches/MP_form.shtml">Mammalian Phenotype Browser</a></td></td></tr>   
+
+  <tr><td valign="top">human genes and genetic disorders; diseases</td><td valign="top">607822<br>breast cancer</td><td valign="top">
+<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A">Human Disease Vocabulary Browser</a></td></tr> 
+   
+   </table>
+
+</blockquote>
+</li>
+  <li>Contact User Support for help finding information relevant to your research. You can use the "Your Input Welcome" button to submit questions, use the  <a href="<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml" title="Contact user support">Contact User Support</a> form,  or call (207) 288-6445.</li>
+
+</ul>
+
+</p>
+
+<font size="-1"><A HREF="#top">Top</A></font>
+
+<!--#include file='include/templateBlankBodyStop.html'--> 

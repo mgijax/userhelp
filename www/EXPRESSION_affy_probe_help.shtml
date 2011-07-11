@@ -36,9 +36,10 @@ function openHelpWindow(helpFile){
 <!-- Body of User Help -->
 <a name="top"></A>
 
-<blockquote>
+<p></p>
 <p>The Microarray Probeset Summary report displays all probesets and arrays associated with a marker.</p>
 
+<blockquote>
 <table border="1" cellpadding="4">
 <tr>
 <th>Field</th>
@@ -69,9 +70,11 @@ function openHelpWindow(helpFile){
 <tr><th valign="top">FTP</th><td valign="top">Name of and link to each assay report identified under <b>Microarray Platform</b> (reports are stored on the 
 <a href="<!--#include file='include/ftp_url.html'-->">MGI FTP site</a>).</td></tr>
 </table>
-</p>
 
 </blockquote>
+</p>
+
+
  <a href="#top"><font size="-1">Top</font></a>
 
 <!--#include file='include/templateBlankBodyStop.html'-->
