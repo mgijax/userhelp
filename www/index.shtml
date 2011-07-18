@@ -164,9 +164,7 @@
                         Using the Linkage Maps Query Form</a>
                     </dd>
           </blockquote>
-          
-
-   
+      
  
   
   <a name="help_other_searches"></a>
@@ -228,6 +226,31 @@
 <!--7-->
                   <dd><a href="MISC_map_position_help.shtml" onclick="javascript:openHelpWindow('MISC_map_position_help.shtml'); return false;">Using Map Position Fields on MGI Query Forms</a></dd>
      <dd><a href="MISC_clone_collection_help.shtml" onclick="javascript:openHelpWindow('MISC_clone_collection_help.shtml'); return false;">Using the Clone Collection Field on MGI Query Forms</a></dd>
+<dd><a href="GO_classification_fields_help.shtml" onclick="javascript:openHelpWindow('GO_classification_fields_help.shtml'); return false;">Using Gene Ontology Classification Fields on MGI Query Forms</a></dd>		
+
+
+
+
+<dt class="enhance">Vocabularies        
+
+ 		<dd><a href="VOCAB_go_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_go_browser_help.shtml'); return false;">Using the Gene Ontology (GO) Browser</a>
+                    </dd>
+
+		<dd><a href="GO_classification_report_help.shtml" onclick="javascript:openHelpWindow('GO_classification_report_help.shtml'); return false;">Interpreting the Gene Ontology Classifications Report</a>
+                    </dd>		
+
+
+<dd><a href="VOCAB_omim_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_omim_browser_help.shtml'); return false;">Using the Human Disease Vocabulary Browser</a></dd>
+		
+<dd><a href="VOCAB_omim_browser_detail_help.shtml" onclick="javascript:openHelpWindow('VOCAB_omim_browser_detail_help.shtml'); return false;">Interpreting Human Disease and Mouse Model Details</a></dd>
+		
+
+<dd><a href="VOCAB_mp_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_mp_browser_help.shtml'); return false;">Using the Mammalian Phenotype (MP) Browser</a></dd>		
+
+<dd><a href="VOCAB_mad_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_mad_browser_help.shtml'); return false;">Using the Mouse Anatomical Dictionary Browser</a></dd>		
+
+
+<dd><a href="VOCAB_amad_browser_help.shtml" onclick="javascript:openHelpWindow(VOCAB_amad_browser_help.shtml'); return false;">Using the Adult Mouse Anatomical Dictionary Browser</a></dd>
         </dl>
  </blockquote>
    

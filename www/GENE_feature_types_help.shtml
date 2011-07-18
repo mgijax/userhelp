@@ -55,7 +55,7 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
 
 <tr><td valign"top"><font size="-1"><b>non-coding RNA gene</b></td><td valign="top"><font size="-1">A gene that produces an RNA transcript that functions as the gene product.</td><td valign="top"><font size="-1">&nbsp;</td></tr>
 
-<tr><td valign="top"><font size="-1"><b></b>rRNA gene</b></td><td valign="top"><font size="-1">A gene that encodes ribosomal RNA.</td><td valign="top"><font size="-1"><b>SO:0001637</font></td></tr>
+<tr><td valign="top"><font size="-1"><b>rRNA gene</b></td><td valign="top"><font size="-1">A gene that encodes ribosomal RNA.</td><td valign="top"><font size="-1">SO:0001637</font></td></tr>
 
 <tr><td valign"top"><font size="-1"><b>tRNA gene</font></b></td><td valign="top"><font size="-1">A gene that encodes Transfer RNA. </td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
 
