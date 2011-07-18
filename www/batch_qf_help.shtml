@@ -42,24 +42,18 @@ function openHelpWindow(helpFile){
  <UL>
  <LI><A HREF="#whatdo">What can I use the MGI Batch Query to find?</a>
  <LI><A HREF="#howfill">How do I use this tool?</A></LI>
-  	<ul>
- 	  <LI><A HREF="#fields">What are the accepted input identifier (ID) types?</a></li>
-  	  <LI><A HREF="#type_list">Does the input list have to be in any particular form?</a></li>
-	   <li><a href="#autodetect">What does "Search all input types" accomplish?</a></li>
-	   <li><a href="#why_constrain">When would I constrain my search to a single input type?</a></li>
-	   <li><a href="#how_many_IDs">How many IDs can I enter at one time?</a></li>
+  	
 <li><a href="#customize">Are there choices for how to view query results?</a></li>
-<li><a href="#why_select">Why can I select all the choices under <i>Gene Attributes</i>, but I'm limited to only one choice under <i>Additional Information</i>?</a></li>
 <li><a href="#how_many_results">How many results can I get at one time?</a></li>
 <li><a href="#revise">Can I edit my original options and requery?</a></li>
  	</ul>
 <li><a href="#interpret">How do I interpret results?</a></li>
- <ul>
+ <!--<ul>
    <LI><A HREF="#summary">MGI Batch Query results</A></LI>
  <LI><A HREF="#mp">Mammalian Phenotype (MP) results</A></LI>
  <LI><A HREF="#omim">Human Disease (OMIM) results</A></LI>
 <li><a HREF="#gene_expression">Gene Expression results</a></li>
-  </ul>
+  </ul>-->
 <li><a href="#why_listed">Why is a gene listed multiple times in a report?</a></li>
 <li><a href="#go_codes">What do the acronyms in the Gene Ontology "code" column mean?</a></li>
 <!--<li><a href="#lost_file">I clicked Back and when I returned to my query, the file I was uploading disappeared.</a></li>-->
@@ -83,12 +77,13 @@ function openHelpWindow(helpFile){
 	</ul>
   <li>annotations 
 	<ul>
-	  <li>gene ontology terms</li>
-	  <li>mammalian phenotype terms</li>
-	  <li>gene expression tissue/assay data</li>
+	  <li>gene ontology (GO) terms </li>
+	  <li>mammalian phenotype (MP) terms</li>
+	  <li>human disease (OMIM) terms</li>
 	  <li>MGI allele IDs</li>
-  	  <li>GenBank IDs</li>
-  	  <li>RefSeq IDs</li>
+	  <li>gene expression tissue/assay data</li>
+	   <li>GenBank/RefSeq IDs</li>
+  	  
 	  <li>RefSNP IDs</li>
 	   <li>UniProt IDs</li>
 </ul>
@@ -101,14 +96,19 @@ function openHelpWindow(helpFile){
 
 
 <h3><a name="howfill"></a>How do I use this tool?</h3>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td><a href="#howto">How to query</a> | <a href="#fields">Input identifier (ID) types allowed</a> | <a href="#type_list">Input list requirements</a> | <a href="#autodetect">Search all input types</a> | <a href="#why_constrain">Using a single input type</a> | <a href="#how_many_IDs">ID limits?</a></li></td></tr></table>
+
+<a name="howto"></a>
+<h4>How to Query</h4>
 <p>Given a set of gene symbols or input identifiers (e.g. MGI accession, RefSNP, VEGA IDs) from a spreadsheet, you can:
 <ul>
   <li>Copy and paste or upload a text file with a column of data into the Batch Query form. The column list can be mixed (e.g., gene symbols, synonyms, orthologs, IDs). You do not have to identify the type of input (e.g., marker ID, Entrez Gene ID) because the Batch Query tool detects the input type automatically. </li>
   <li>Specify the output in the <a href="#summary">MGI Batch Query Results</a>  (for example, nomenclature, genome location, Ensembl, Entrez Gene, or VEGA gene identifiers, gene ontology or mammalian phenotype IDs and codes, gene expression data, various other IDs), or Excel.
-<li>View the results in either web (HTML), tab-delimited format.</li>
+<li>View the results in either web (HTML) or tab-delimited format.</li>
 </ul>
 </p>
-<p>You can also use the batch query to find duplications, ambiguities, and variations in data. You could check, for example, that an input list of MGI identifiers returns the same number of Ensembl, Entrez Gene, and VEGA IDs on different days or that switching the input and output IDs returns identical data.  See <a href="#example">Are there any examples?</a> for additional ways you might use this query.
+<p>You can also use the batch query to find duplications, ambiguities, and variations in data. You could check, for example, that your input list of MGI identifiers returns the same number of Ensembl, Entrez Gene, and VEGA IDs on subsequent days or that switching the input and output IDs returns identical data.  See <a href="#example">Are there any examples?</a> for additional ways you might use this query.
 </p>
 
 <b>Note:</b>
@@ -143,8 +143,36 @@ function openHelpWindow(helpFile){
 </p>
  <a href="#top"><font size="-1">Top</font></a>
 
-<h3><a name="fields"></a>What are the accepted input identifier (ID) types?</h3>
+
+
+<h4><a name="fields"></a>Input identifier (ID) types allowed</h4>
 <p>For a given query, your list can be either mixed or all of the same type. You can also enter (mouse) gene symbols, synonyms, or orthologs.</p>
+
+The following are representative examples for each type listed on the pulldown menu:
+<blockquote>
+<table border="1"  cellpadding="4" width="!">
+  <tr><th valign="top">Input identifier type</th><th valign="top">Representative example</th></tr>
+<tr><td valign="top">MGI Gene/Marker ID</td><td valign="top">MGI:96677</td></tr>
+<tr><td valign="top">Current Symbols Only</td><td valign="top">Trp53 <br>Pax6<br>D11Mit10</td> </tr>
+
+<tr><td valign="top">All Symbols/Synonyms/Orthologs<br>(includes both current and old symbols)<td valign="top">Pax6<br>Pax-6<br>Trp53<br>P53</td></tr>
+<tr><td valign="top">Entrez Gene ID</td><td valign="top">16590</td></tr>
+<tr><td valign="top">Ensembl ID </td><td valign="top">ENSMUSG00000028530</td></tr>
+<tr><td valign="top">VEGA ID</td><td valign="top">OTTMUSG00000015949</td></tr>
+<tr><td valign="top">UniGene ID</td><td valign="top">247073</td></tr>
+<tr><td valign="top">miRBase ID</td><td valign="top">MI0000248</td></tr>
+<tr><td valign="top">GenBank/RefSeq ID*</td><td valign="top">NM_001122899<br> AK033644<br>NP_666257</td></tr>
+<tr><td valign="top">UniProt ID</td><td valign="top">P48356<br>Q3UFR6<br>A2AKJ2</td></tr>
+<tr><td valign="top">GO ID (Gene Ontology)</td><td valign="top">GO:0019221</td></tr>
+<tr><td valign="top">RefSNP ID</td><td valign="top">rs3021544</td></tr>
+<tr><td valign="top">Affy 1.0 ST</td><td valign="top">10344620</td></tr>
+<tr><td valign="top">Affy 430 2.0</td><td valign="top">1415670_at</td></tr>
+</table>
+  <p>*&nbsp;&nbsp;&nbsp;GenBank IDs are for nucleotide sequences only. RefSeq IDs are for either nucleotide or protein sequences.</td></tr>
+ </table>
+</blockquote>
+
+<p><b>Notes:</b></p>
  <ul>
   <li>When your input list consists of mixed ID types (for example, gene symbol, MGI ID, Entrez Gene ID, Homologene ID), use Search all input types (the default in the Type box). The following is an example of an input list requiring the use of the default:
 <blockquote>
@@ -166,46 +194,23 @@ MI0000248
   <li>When all the items on your input list are of the same type and you wish to constrain the query, click the arrow to the right of the Type box and select that type from the list. (See <a href="#why_constrain">When would I constrain my search to a single input type?</a> for more details.)</li><br>
 
 
-The following are representative examples for each type listed on the pulldown menu:
-<blockquote>
-<table border="1"  cellpadding="4" width="!">
-  <tr><th valign="top">Input identifier type</th><th valign="top">Representative example</th></tr>
-<tr><td valign="top">MGI Gene/Marker ID</td><td valign="top">MGI:96677</td></tr>
-<tr><td valign="top">Current Symbols Only</td><td valign="top">Trp53 <br>Pax6<br>D11Mit10</td> </tr>
 
-<tr><td valign="top">All Symbols/Synonyms/Orthologs<br>(includes both current and old symbols)<td valign="top">Pax6<br>Pax-6<br>Trp53<br>P53</td></tr>
-<tr><td valign="top">Entrez Gene ID</td><td valign="top">16590</td></tr>
-<tr><td valign="top">Ensembl ID </td><td valign="top">ENSMUSG00000028530</td></tr>
-<tr><td valign="top">VEGA ID</td><td valign="top">OTTMUSG00000015949</td></tr>
-<tr><td valign="top">UniGene ID</td><td valign="top">247073</td></tr>
-<tr><td valign="top">MiRBase ID</td><td valign="top">MI0000248</td></tr>
-<tr><td valign="top">GenBank/RefSeq ID*</td><td valign="top">NM_001122899<br> AK033644<br>NP_666257</td></tr>
-<tr><td valign="top">UniProt ID</td><td valign="top">P48356<br>Q3UFR6<br>A2AKJ2</td></tr>
-<tr><td valign="top">GO (Gene Ontology)</td><td valign="top">GO:0019221</td></tr>
-<tr><td valign="top">RefSNP ID</td><td valign="top">rs3021544</td></tr>
-<tr><td valign="top">Probeset ID</td><td valign="top">10379153</td></tr>
-
- <table border="0" cellspacing="0" cellpadding="4">
-  <tr><td valign="top">*</td><td valign="top">GenBank IDs are for nucleotide sequences only. RefSeq IDs are for either nucleotide or protein sequences.</td></tr>
- </table>
-</blockquote>
-
-The following are additional types (not listed on the pulldown menu), followed by examples, of other types of IDs that the Batch Query recognizes: 
-<blockquote>
+<li>The following are additional types (not listed on the pulldown menu), followed by examples, of other types of IDs that the Batch Query recognizes: 
+</li><blockquote>
 
 <table border="1" cellpadding="4" width="!">
 <tr><th valign="top">Input identifier type</th><th valign="top">Representative example</th></tr>
-<tr><td valign="top">BayGenomics</td><td valign="top">LST083</td></tr>
+<!--<tr><td valign="top">BayGenomics</td><td valign="top">LST083</td></tr>-->
 <tr><td valign="top">DoTS<br>(Database Of Transcribed Sequences)</td><td valign="top">DT.529646</td></tr>
 <tr><td valign="top">DCFI <br>(Dana-Farber Cancer Institute)</td><td valign="top">TC1572427</td></tr>
 <tr><td valign="top">EC <br>(Enzyme Commission)</td><td valign="top">2.7.10.1</td></tr>
-<tr><td valign="top">FHCRC<BR>(Fred Hutchinson Cancer Research Center)</td><td valign="top">FHCRC-GT-S15-11C1</td></tr>
+<!--<tr><td valign="top">FHCRC<BR>(Fred Hutchinson Cancer Research Center)</td><td valign="top">FHCRC-GT-S15-11C1</td></tr>-->
 <tr><td valign="top">Homologene</td><td valign="top">20151</td></tr>
-<tr><td valign="top">Lexicon</td><td valign="top">OST128284</td></tr>
+<!--<tr><td valign="top">Lexicon</td><td valign="top">OST128284</td></tr>-->
 <tr><td valign="top">NIA Mouse Gene Index</td><td valign="top">U167412</td></tr>
 
 <tr><td valign="top">PDB<br>(Protein Data Bank)</td><td valign="top">1HU8</td></tr>
-<tr><td valign="top">TIGEM<br>(Telethon Institute of Genetics and Medicine)</td><td valign="top">GC0196</td></tr>
+<!--<tr><td valign="top">TIGEM<br>(Telethon Institute of Genetics and Medicine)</td><td valign="top">GC0196</td></tr>-->
 
 <tr><td valign="top">TreeFam</td><td valign="top">TF320146</td></tr>
 </table>
@@ -215,19 +220,21 @@ The following are additional types (not listed on the pulldown menu), followed b
  </p>
  <a href="#top"><font size="-1">Top</font></a>
 
-  <h3><A name="type_list"></a>Does the input list have to be in any particular form?</h3>
-<p>Yes. <ul>
+
+
+
+ <h3><A name="type_list"></a>Input list requirements</h3> <ul>
   <li>If there are spaces in any list entry (as for example, <i>Dickie's small eye</i>, a synonym for Pax6), you must enclose that entry in double quotation marks (i.e.,<i>&#147;Dickie's small eye&#148;</i>). </li>
   <li>The Batch Query tool accepts space, tab, and newline-separated lists and removes any trailing commas from such lists.</li>
-</ul></p>
+</ul>
  <a href="#top"><font size="-1">Top</font></a>
 
-<h3><a name="autodetect"></a>What does "Search all input types" accomplish?</a></h3>
+<h3><a name="autodetect"></a>Searching all input types</h3>
 <p>Since the Batch Query's default option is to search all input types, you do not have to identify what you enter or upload into the Batch Query. The tool determines whether they are of one type or a combination of IDs and or symbols. You may, however, select from the pulldown menu if you wish to constrain your query to a single type. See also <a href="#why_constrain">When would I constrain my search to a single input type?</a> below.</p>
 </p>
  <a href="#top"><font size="-1">Top</font></a>
 
-<h3><a name="why_constrain"></a>When would I constrain my search to a single input type?</h3>
+<h3><a name="why_constrain"></a>Using a single input type</h3>
 <p>You may wish to select a single input type from the Type list when you want the Batch Query to return:</p>
  <ul>
    <li>Only current mouse gene symbols with MGI gene associations (for example, Acat1).</li>
@@ -237,10 +244,11 @@ The following are additional types (not listed on the pulldown menu), followed b
  </p>
  <a href="#top"><font size="-1">Top</font></a>
 
-<h3><a name="how_many_IDs"></a>How many IDs can I enter at one time?</h3>
+
+<h3><a name="how_many_IDs"></a>ID limits?</h3>
 <p>There is no limit to the number of identifiers that you can enter all at once, but there is a limit to how many numbers different browsers can present and there is a time constraint for very large files. 
 <ul>
-  <li>Splitting long lists into sections speeds up return times. See the table under <a href="#why_select">Why can I select all the choices under Gene Attributes, but I'm limited to only one choice under Additional Information?</a>  for examples of the amount of data that you can expect to return, depending on your input/output choices.</li>
+  <li>Splitting long lists into sections speeds up return times. Depending on your input/output choices, it may be wise to do so.</li>
   <li>Changing the default from Search all input types to the specific ID type is a good idea when you have a very large file containing one type of identifier (e.g., all symbols/synonyms/orthologs).</li>
 </ul>
 </p>
@@ -266,7 +274,7 @@ The following are additional types (not listed on the pulldown menu), followed b
 <table border="1" cellspacing="1" cellpadding="3" width="!%">
     <tr><th valign="top">When you select...</th><th align="left" valign="top">the resulting columns contain....</th></tr>
      <tr><td valign="top">Gene Ontology (GO)</td><td valign="top">ID, term, code <br><i>NOT</i> annotations do not appear in the results.<br></td></tr>
-     <tr><td align="left" valign="top">Mammalian Phenotype Ontology (MP)</td><td valign="top">ID, term<br><i>Normal</i> annotations do not appear in the results. <br>See <a href="#mp">How do I interpret Mammalian Phenotype (MP) results?</a></td></tr>
+     <tr><td align="left" valign="top">Mammalian Phenotype Ontology (MP)</td><td valign="top">ID, term<br><i>Normal</i> annotations do not appear in the results. <br>See <a href="#interpret">How do I interpret  results?</a></td></tr>
      <tr><td valign="top">Alleles</td><td valign="top">MGI allele identifier and allele symbols.</td></tr>
 
 
@@ -275,7 +283,7 @@ The following are additional types (not listed on the pulldown menu), followed b
          <tr><td valign="top">RefSNP ID</td><td valign="top">RefSNP identifiers<br>Results include RefSNPs within 2 KB of the gene/marker. </td></tr>
 <tr><td valign="top">GenBank/RefSeq ID</th><td valign="top">GenBank (nucleotide) or RefSeq (nucleotide or protein) sequence identifiers.</td></tr>
      <tr><td valign="top">UniProt ID</th><td valign="top">UniProt sequence identifiers.</td></tr>
- <tr><td valign="top">Human Disease (OMIM)</th><td valign="top">ID, term<br>See <a href="#omim">How do I interpret Human Disease (OMIM) results?</a></td></tr>
+ <tr><td valign="top">Human Disease (OMIM)</th><td valign="top">ID, term<br>See <a href="#interpret">How do I interpret  results?</a></td></tr>
    </table>
 </blockquote>
 </li>
@@ -298,24 +306,7 @@ The default is web format.
 </p>
  <a href="#top"><font size="-1">Top</font></a>
 
- <h3><a name="why_select"></a>Why can I select all the choices under Gene Attributes, but I'm limited to only one choice under Additional Information? </h3>
-
-<p>The purpose of the single Additional information choice is to limit results to a reasonable size.  There is quite an increase in the amount of data returned when you select an Additional Information category. For example, if you enter symbols for 9 paired box genes (your input list is Pax1, Pax2, Pax3, ... Pax9), and you select:</p>
-<blockquote>
-<table border="1" cellspacing="1" cellpadding="6">
-  <tr><td valign="top"><b>Nomenclature and ...</b></td><td valign="top"><b>the MGI Batch Query returns...</b></td></tr>
- <tr><td valign="top">Genome Location</td><td valign="top">9 rows, one for each gene, Pax1 - Pax9</td></tr>
-  <tr><td valign="top">UniProt ID</td><td valign="top">30+ matching rows</td></tr>
-
-   <tr><td valign="top">Gene Ontology (GO)</td><td valign="top">200+ matching rows</td></tr>
-  <tr><td valign="top">Mammalian Phenotype (MP)</td><td valign="top">650+ matching rows</td></tr>
-  <tr><td valign="top">Gene Expression</td><td valign="top">1400+ matching rows</td></tr>
-  <tr><td valign="top">RefSNP ID</td><td valign="top">~2900 matching rows</td></tr>
-  </table>
-</blockquote>
-</p>
- <a href="#top"><font size="-1">Top</font></a>
-
+ 
 
 <h3><a name="how_many_results"></a>How many results can I get at one time?</h3>
 <ul>
@@ -355,7 +346,10 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
  <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="interpret"></a>How do I interpret results?</h3>
-<blockquote>
+<table><tr><td><A HREF="#summary">MGI Batch Query</A> | <A HREF="#mp">Mammalian Phenotype (MP)</A> |
+<A HREF="#omim">Human Disease (OMIM)</A> |<a HREF="#gene_expression">Gene Expression </a></td></table>
+ 
+
  <h4><a name="summary"></a>MGI Batch Query results</h4>
 <p>All Batch Query results appear in the form of a table in either web (HTML) format, or in tab-delimited text depending on your Output selection.
   <ul>
@@ -426,8 +420,6 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
  <!--<p>For detailed information, see <a href="gxd_tissue_results.shtml">Interpreting the Gene Expression Data: Results by Tissue - Summary Report</a>.</p>-->
 
 <p>Use the <a href="<!--#include file='include/java_url.html'-->WIFetch?page=markerQF">Genes and Markers Query Form</a> to find a gene of interest and  view additional expression results (e.g., Literature Summary, Data Summary, Theiler Stages, Assay Types, cDNA source data, External Resources).</p>
-
-</blockquote>
 
 <a href="#top"><font size="-1">Top</font></a>
 

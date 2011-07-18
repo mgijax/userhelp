@@ -81,23 +81,19 @@ Using the Genes and Markers Query Form</span>
 <nobr><a href="#interpro">Protein domains</a> |</nobr>
 <nobr><a href="#phenotype">Mouse phenotypes & mouse models of human disease</a> |
 <a href="#clone_collection">Clone collection</a> |</nobr>
-<a href="#sort_by">Sorting & output format</a></font></td>
-</tr>
+<a href="#sort_by">Sorting & output format</a></font></td></tr>
 </table>
 
-<table border="1" cellpadding="3" width="100%">
-<tr>
+<table border="1" cellpadding="3" width="!">
 <tr><th align="left" valign="top">Gene/Marker</th>
-     <td><table border="0" cellpadding="4">
-         <tr><td valign="top">Symbol, name, or synonym for a genetic marker.<ul>
+     <td align="top">Symbol, name, or synonym for a genetic marker.
+	     <ul>
   <li>Enter one or more symbols/names/synonyms (separated by commas). <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
    <li>By default, the search is on current and old symbols/names, synonyms, alleles, and orthologs.  However, you can limit the search to current symbols or names.  </li>
   <li>The <a href="MISC_operators_help.shtml">operators</a> (begins, = , ends, contains, like) present additional search options. The default is <i>contains</i>.</li>
-</ul>
+	</ul>
 	</td></tr>        
-     </table>
-    </td>
-</tr>
+    
 <tr>
         <th align="left" valign="top"><a name="marker_type"></a>Feature Type</th>
         <td>Use this field to query for features in a selected category. Numbers in parentheses next to each feature type indicate MGI marker totals per category.
@@ -110,7 +106,7 @@ Using the Genes and Markers Query Form</span>
  <li>Checking all categories has the same effect as checking none of the categories. If you do not click any category, the search includes them all. </li>
 <li>An empty box indicates no choices in an entire category/subcategory.</li>         
            </ul>
-See <a href="GENE_feature_types.shtml">Genome Feature Type Definitions</a> for a table that describes all the choices. </td>
+See <a href="GENE_feature_types.shtml">Genome Feature Type Definitions</a> for a table describing all choices. </td>
         </tr>
 <tr><th align="left" valign="top">Map position</th>
   <td align="left" valign="top">Use the map position parameters (<a href="MISC_map_position_help.shtml#chromosome">Chromosome(s)</a>, <a name="coordinates"></a><a href="MISC_map_position_help.shtml#coordinates">Genome Coordinates</a>, <a href="MISC_map_position_help.shtml#cytogenetic_band">Cytogenetic Band</a>, <a href="MISC_map_position_help.shtml#marker_range">Marker Range</a>, and <a href="MISC_map_position_help.shtml#cm_offset">cM Position</a>) to limit the scope of your query.<ul>
@@ -127,9 +123,9 @@ See <a href="MISC_map_position_help.shtml">Using Map Position Fields on MGI Quer
 <tr>
   <th align="left" valign="top">Protein domains</th>
   <td valign="top">
-    <table border="0" cellpadding="3">
+    <table border="0" cellpadding="2">
       <tr>
-         <th align="left" valign="top"><a name="interpro"></a>InterPro Protein Domains</th>
+         <th valign="top"><a name="interpro"></a>InterPro Protein Domains</th>
          <td>InterPro accession ID for a protein family, domain, or functional site.
 <ul>
   <li>To find an accession ID, click  <i>Browse InterPro protein domains</i>.</li>
