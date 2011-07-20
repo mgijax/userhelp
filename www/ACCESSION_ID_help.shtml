@@ -370,7 +370,7 @@ td><td align=center valign=top>Markers</td><TD VALIGN="top">1FRB</TD><TD VALIGN=
  <TD VALIGN="top">OTTMUSG00000015949<br> OTTMUST00000084765</td>
  <TD VALIGN="top">Alphanumeric</td>
   </TR>
-<TR><th align=left>Gene trap IDs</th><td>Alleles & Sequences</td><td valign="top">See <a href="genetrap_usecases.shtml#creator_table">Cell Line Creators and Accession IDs</a> for specific examples.
+<TR><th align=left>Gene trap IDs</th><td>Alleles & Sequences</td><td valign="top">See <a href="genetrap_usecase_help.shtml#creator_table">Cell Line Creators and Accession IDs</a> for specific examples.
 </td></td><td valign="top">Alphanumeric, some with special characters (e.g., dash or underscore)</td></tr>
 
 

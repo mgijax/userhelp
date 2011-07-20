@@ -81,7 +81,7 @@ If you are interested in doing queries that ask what genes are expressed in some
 
  <h3><A name="howdo"></a>How do I use this query form?</h3>
 
-<P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following paragraphs. After entering values in the query form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help">Using MGI Query Forms</a> for answers to questions such as: 
+<P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following paragraphs. After entering values in the query form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help.shtml">Using MGI Query Forms</a> for answers to questions such as: 
    <ul>
     <li><A HREF="MISC_usingQFs_help.shtml#howdo">How do I submit a query?</a></li>
        <li><a href="MISC_usingQFs_help.shtml#operators">What are operators and how do they affect my query?</a></li>
@@ -109,15 +109,16 @@ If you are interested in doing queries that ask what genes are expressed in some
 <li> The operators present additional search options; the default operator is contains. See <a href="MISC_operators_help.shtml">Using Operators on MGI Query Forms</a> for more information.</li></ul></TD></TR>
    
 <TR><td valign="top"><a name="map_position"></a><b>Map position</b></td>
-  <Td ALIGN="left" VALIGN="top">Use the map position parameters (<a href="MISC_map_position_help.shtml#chromosome">Chromosome(s)</a>, <a href="MISC_map_position_help.shtml#coordinates">Genome Coordinates</a>, <a href="MISC_map_position_help.shtml#cytogenetic_band">Cytogenetic Band</a>, <a href="MISC_map_position_help.shtml#marker_range">Marker Range</a>, and <a href="MISC_map_position_help.shtml#cm_offset">cM Position</a>) to limit the scope of your query. <ul><li>When using chromosome(s), you can also define genome coordinates, cytogenetic band, or cM position.</li> <li>You cannot combine genome coordinates, cytogenetic band, and cM position with one another.</li><li>You can enter any markers with coordinates.</li></ul></td>
+  <Td ALIGN="left" VALIGN="top">Use the map position parameters (Chromosomes, Genome Coordinates, Cytogenetic Band, Marker Range, and cM Position) to limit the scope of your query. See <a href="MISC_map_position_help.shtml">Using Map Position Fields on MGI Query Forms</a> for details.
+<ul><li>When using chromosome(s), you can also define genome coordinates, cytogenetic band, or cM position.</li> <li>You cannot combine genome coordinates, cytogenetic band, and cM position with one another.</li><li>You can enter any markers with coordinates.</li></ul></td>
         </tr>
 <tr>
 <td valign="top"><A NAME="gene_ontology"></A><b>Gene <br>Ontology <br>classifications</b></td>
-        <TD valign="top">Genes may be described using three broad categories reflecting biological roles: Molecular Function, Biological Process, or Cellular Component. The Gene Ontology (GO) Consortium has developed structured vocabularies to specify detailed aspects within each category. MGI uses GO terms to annotate gene records. See <a href="GO_classification_fields_help.shtml.shtml">Using Gene Ontology Classification Fields on MGI Query Forms </a> for details.    </TD>
+        <TD valign="top">Genes may be described using three broad categories reflecting biological roles: Molecular Function, Biological Process, or Cellular Component. The Gene Ontology (GO) Consortium has developed structured vocabularies to specify detailed aspects within each category. MGI uses GO terms to annotate gene records. See <a href="GO_classification_fields_help.shtml">Using Gene Ontology Classification Fields on MGI Query Forms </a> for details.    </TD>
       </TR>
 
   <td valign="top"><b>Expression</b></b></td>
-          <TD valign="top">Click to limit your search to assays/assay results that expression was <A NAME="detected_in"></a>detected in, not detected in, or either. The default value is either.<p>
+          <TD valign="top">Click to limit your search to assays/assay results that expression was <A NAME="detected_in"></a>detected in, not detected in, or either. The default value is <i>either</i>.<p>
          <table>
         <TR>
          <td valign="top"><A NAME="anatomical_structure"></A><b>Anatomical Structure(s)</b></td>
@@ -244,7 +245,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
   <B>Gene/Marker Symbol/Name:</B>  <i>begins</i> en1<br>
   <b>Return data type:</b>  Assay Results
   </blockquote>
-<p>This query returns a list of results from assays examining <i>En1</i> expression. This summary report includes the gene symbol (with a link to its MGI detail page), the assay type used, result details (given as an MGI accession ID linked to an assay record), allele pairs describing the mutant genotype of the specimen (if applicable), the age of the specimen, the structure examined, and an indication of whether or not expression was detected.</p></li>
+<p>This query returns a list of results from assays examining <i>En1</i> expression. This summary report includes the gene symbol (with a link to its MGI detail page), the assay type used, result details linked to an assay record (click <i>data</i>), allele pairs describing the mutant genotype of the specimen (if applicable), the age of the specimen, the structure examined, and an indication of whether or not expression was detected.</p></li>
 
 <!--2-->
 <LI>What genes are expressed in the heart at E8.5 in wild-type mice only? 
@@ -257,7 +258,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <b>Return data type:</b>  Assays
 </blockquote>
 
-<p>This query returns a list of genes expressed in the heart at E8.5. This summary report includes the gene symbol (with a link to its MGI detail page), the assay type used, result details (given as an MGI accession ID linked to an assay record), and the reference (linked to an MGI reference detail page). The report does not include any expression results obtained from mutant alleles. <b>Note:</b> Each developmental stage in the example includes coverage of embryonic day 8.5. See <a href="#stages">Theiler System</a> for details.</p></li>
+<p>This query returns a list of genes expressed in the heart at E8.5. This summary report includes the gene symbol (with a link to its MGI detail page), the assay type used, result details (linked to an assay record), and the reference (linked to an MGI data detail page). The report does not include any expression results obtained from mutant alleles. <b>Note:</b> Each developmental stage in the example includes coverage of embryonic day 8.5. See <a href="#stages">Theiler System</a> for details.</p></li>
 <!--3-->
 <li>Is <b>Htr7</b> expressed in brain?<br><br>
 <blockquote>
