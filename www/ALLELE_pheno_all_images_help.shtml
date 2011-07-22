@@ -68,7 +68,7 @@ function openHelpWindow(helpFile){
 <p><b>Note: </b>If there are images for genotypes associated with this allele, they appear in the <b>Phenotypes</b> section of the Phenotypic Allele Detail report. Click on the image to access these Image Detail reports.</p>
 <P>See also:
 <UL>
-  <LI><A HREF="ALLELE_pheno_image_detail.shtml">Interpreting Interpreting (Phenotypic) Image DetailS</A></LI>
+  <LI><A HREF="ALLELE_pheno_image_detail_help.shtml">Interpreting Interpreting (Phenotypic) Image Details</A></LI>
   <LI><A HREF="ALLELE_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
   <LI><A HREF="ALLELE_summary_help.shtml">Interpreting a Phenotypic Allele Summary</A></LI>
   <LI><A HREF="ALLELE_detail_help.shtml">Interpretin Phenotypic Allele Details</A></LI>

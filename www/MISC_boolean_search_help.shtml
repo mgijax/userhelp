@@ -209,10 +209,13 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
 <LI>The NOT operator is not allowed. </li>
 <LI>If you do not enter an operator, the default is AND between terms.</li>
 <LI>The system ignores variations in punctuation and spacing. The results for each of the following entries are the same.</li>
-  <ul>
+ <blockquote>
+ 
       <i>heart, defect</i><br>
       <i>heart defect</i> <br>
-      <i>heart and defect</i>  </ul>
+      <i>heart and defect</i>  
+
+</blockquote>
 
 
 </ul>
