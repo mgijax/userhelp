@@ -45,88 +45,85 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 </P>
 
 <H3><A NAME="hints"></A>Are there any tips for limiting query results?</H3>
-<p>Yes. Experiment with some or all of the following.</p>
-<blockquote>
-<table border="1" cellpadding="2">
-<tr><td><b>Search Category</b></td> <td><b>Tip</b></td></tr>
+<p>Yes. Try some or all of the following actions:</p>
+<table border="1" cellpadding="2" width-"!">
+<tr><th class="thleft" width="15%">Search Category</th> <th class="thleft">&nbsp;&nbsp;&nbsp;Tip</th></tr>
 
 <tr>
-<td align="center" valign="center">
-<b>Sequence Attributes</b></th>
+<th class="thleft">Sequence Attributes</th>
 <td valign="top">   <ul>
-   <li>Change the <b>Sequence Type</b> default from <i>ANY</i> to a specific type.</li>
-   <li>Change the <b>Sequence Provider</b> default from <i>ANY</i> to one or more providers.</li>
+   <li>Change the Sequence Type default from ANY to a specific type.</li>
+   <li>Change the Sequence Provider default from ANY to one or more providers.</li>
 </ul></td>
 </tr>
 
 
 <tr>
-<td valign="center"><b>Sequence Source</b></tb>
+<th class="thleft">Sequence Source</th>
 <td><ul>
-   <li>Browse the strain list for a <b>Strain</b> you want to query.</li>
-   <li>Browse the tissue list for a <b>Tissue</b> you want to query.</li>
-   <li>Browse the library list for a <b>Library</b> you want to query.</li>
-   <li>Change the default operator from <i>contains</i> to <i>=</i> (is) when you want an exact match for <b>Strain, Tissue</b>, or <b>Library</b>.</li>
+   <li>Browse the strain list for a Strain you want to query.</li>
+   <li>Browse the tissue list for a Tissue you want to query.</li>
+   <li>Browse the library list for a Library you want to query.</li>
+   <li>Change the default operator from contains to = (is) when you want an exact match for Strain, Tissue, or Library.</li>
 </ul></td>
 </tr>
 
 <tr>
-<td align="center" valign="center"><b>Annotated Genes & Features</b></td>
+<th class="thleft">Annotated Genes & Features</th>
 <td valign="top"><ul>
-   <li>Enter a gene or marker by typing in a <b>Marker Symbol/Name</b> to find sequences associated to MGI genes or markers.</li>
-   <li>Change the default operator from <i>contains</i> to <i>=</i> (is) when you want an exact match for <b>Marker Symbol/Name</b>.</li>
-   <li>Change the marker <b>Type</b> default to a specific type.</li>
+   <li>Enter a gene or marker by typing in a Marker Symbol/Name to find sequences associated to MGI genes or markers.</li>
+   <li>Change the default operator from contains to = (is) when you want an exact match for Marker Symbol/Name.</li>
+   <li>Change the marker Type default to a specific type.</li>
 </ul></td>
 </tr>
 
 <tr>
-<td align="center" valign="center"><b>Map Position</b></td>
+<th class="thleft">Map Position</th>
 <td valign="top"><ul>
-   <li>Select one or more <b>Chromosomes</b>.</li>
-   <li>Enter a <b>cM Position</b>.</li>
-   <li>Enter a <b>Cytogenetic Band</b>.</li>
+   <li>Select one or more Chromosomes.</li>
+   <li>Enter a cM Position.</li>
+   <li>Enter a Cytogenetic Band.</li>
 </ul></td>
 </tr>
 
 
 <tr>
-<td align="center" valign="center"><b>Gene Ontolotgy (GO) Classifications</b></td>
+<th class="thleft">Gene Ontolotgy (GO) Classifications</th>
 <td valign="top"><ul>
-   <li>Browse the GO classifications for a <b>Gene Classification</b> you want to query.</li>
-   <li>Change the default operator from <i>contains</i> to <i>=</i> (is) when you want an exact match for the <b>Gene Classification</b>.</li>
+   <li>Browse the GO classifications for a Gene Classification you want to query.</li>
+   <li>Change the default operator from contains to = (is) when you want an exact match for the Gene Classification.</li>
 </ul></td>
 </tr>
 
 
 <tr>
-<td align="center" valign="center"><b>Protein domains</b></td>
+<th class="thleft">Protein domains</th>
 <td valign="top"><ul class="lj">
-   <li>Browse the domains for an <b>InterPro Protein Domain</b> you want to query.</li>
-   <li>Change the default operator from <i>contains</i> to <i>=</i> (is) when you want an exact match for the <b>InterPro Protein Domain</b>.</li>
+   <li>Browse the domains for an InterPro Protein Domain you want to query.</li>
+   <li>Change the default operator from contains to = (is) when you want an exact match for the InterPro Protein Domain.</li>
 </ul></td>
 </tr>
 
 <tr>
-<td align="center" valign="center"><b>Expression</b></td>
-<td  valign="top"><ul>
-   <li>Select one or more <b>Developmental Stage(s)</b>.</li>
-   <li>Browse the Anatomical Dictionary for an <b>Anatomical Structures(s)</b> you want to query.</li>
-   <li>Change the default operator from contains to <i>=</i> (is) when you want an exact match for the <b>Anatomical Structures(s)</b>.</li>
-   <li>Select one or more <b>Assay Type(s)</b>.</li>
+<th class="thleft">Expression</th>
+<td valign="top"><ul>
+   <li>Select one or more Developmental Stage(s).</li>
+   <li>Browse the Anatomical Dictionary for an Anatomical Structures(s) you want to query.</li>
+   <li>Change the default operator from contains to = (is) when you want an exact match for the Anatomical Structures(s).</li>
+   <li>Select one or more Assay Type(s).</li>
 </ul></td>
 </tr>
 
 <tr>
-<td align="center" valign="center"><b>Phenotypes</b></td>
+<th class="thleft">Phenotypes</th>
 <td valign="top"><ul class="lj">
-   <li>Click <b>Anatomical Systems Affected by Phenotypes</b> and choose items from the list to add to your query. </li>
-<li>Alternatively, browse the <b>Full Mammalian Phenotype (MP) Ontology</b> and/or the <b>Human Disease (OMIM) Vocabulary</b> for terms and definitions; type one or more terms into the <b>Phenotype/Disease</b> box.</li>
+   <li>Click Anatomical Systems Affected by Phenotypes and choose items from the list to add to your query. </li>
+<li>Alternatively, browse the Full Mammalian Phenotype (MP) Ontology and/or the Human Disease (OMIM) Vocabulary for terms and definitions; type one or more terms into the Phenotype/Disease box.</li>
 </ul></td>
 </tr>
-
 </table>
 
-</blockquote>
+
 
 </P>
 <A HREF="#top">Top</A> 

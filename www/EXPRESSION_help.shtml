@@ -163,7 +163,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
     <td valign="top">
     <table border="0" cellpadding="3">
       <tr>
-      <td valign="top"><A NAME="return_type"></A>Return data type</b></td>
+      <th valign="top" class="thleft"><A NAME="return_type"></A>Return data type</th>
       <TD VALIGN="top">Click one of the  choices,  depending on whether you want to see Assays or Assay Results in the summary report for your query (the default is to summarize by Assays).</TD><td>&nbsp;</td>
       </TR>
       
@@ -177,7 +177,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
          <th valign="top">The sort order is...</b></td>
         </tr>
         <tr>
-         <td valign="top">Assays</td>
+         <th class="thleft" valign="top">Assays</th>
          <td valign="top">Gene Symbol; Assay type; Author</td>
                  <td valign="top">Alphabetical by marker symbol; alphabetical by assay type; alphabetical by last name of first author.</td>
        </tr>
@@ -190,8 +190,8 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
      </td>
    </tr>
 <tr>
-   <TH VALIGN="top" ALIGN="left"><A NAME="max_returned"></A><b>Maximum Returned</b></td>
-    <TD>Change this number to whatever you wish or click <i>No limit</i>. The intent of the default (500) is not to speed the search by limiting the scope but rather to let you restrict (or expand) your results. </TD>
+   <TH VALIGN="top" ALIGN="left" class="thleft"><A NAME="max_returned"></A>Maximum Returned</th>
+    <TD>Change to the desired number or click <i>No limit</i>. The intent of the default (500) is not to speed the search by limiting the scope but rather to let you restrict (or expand) your results. </TD>
     </TR>
   </TABLE>
    </td>
