@@ -107,9 +107,8 @@ function openHelpWindow(helpFile){
 <li> The operators present additional search options; the default operator is contains. See <a href="MISC_operators_help.shtml">How Operators Work on MGI Query Forms</a> for more information.</li></ul></TD></TR>
 
 <TR><td valign="top"><a name="map_position"></a><b>Map position</b></td>
-  <Td ALIGN="left" VALIGN="top">Use the map position parameters (<a name="chromosome"></a><a href="MISC_map_position_help.shtml#chromosome">Chromosome(s)</a>, <a name="coordinates"></a><a href="MISC_map_position_help.shtml#coordinates">Genome Coordinates</a>, <a name="cytogenetic_band"></a><a href="MISC_map_position_help.shtml#cytogenetic_band">Cytogenetic Band</a>, <a name="marker_range"></a><a href="MISC_map_position_help.shtml#marker_range">Marker Range</a>, and <a name="cm_offset"></a><a href="MISC_map_position_help.shtml#cm_offset">cM Position</a>) to limit the scope of your query.
-<ul> <li>When using chromosome(s), you can also define genome coordinates, cytogenetic band, or cM position.</li> <li>You cannot combine genome coordinates, cytogenetic band, and cM position with one another.</li><li>You can enter any markers with coordinates.</li></ul>
-See <a href="MISC_map_position_HELP.shtml">Using Map Position Fields on MGI Query Forms</a> for additional details about entering values in these fields.</td>
+  <Td ALIGN="left" VALIGN="top">Use the map position parameters (Chromosomes, Genome Coordinates, Cytogenetic Band, Marker Range, and cM Position) to limit the scope of your query. See <a href="MISC_map_position_help.shtml">Using Map Position Fields on MGI Query Forms</a> for details.
+<ul><li>When using chromosome(s), you can also define genome coordinates, cytogenetic band, or cM position.</li> <li>You cannot combine genome coordinates, cytogenetic band, and cM position with one another.</li><li>You can enter any markers with coordinates.</li></ul></td>
 </tr>
   
 <tr>
@@ -226,7 +225,7 @@ By default, the system searches for current symbols/names and synonyms of the mu
 <B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; CONTAINS forebrain<BR>
 <B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(lower box)&nbsp;&nbsp;&nbsp; CONTAINS midbrain
 
-<P>This query returns a summary page listing assay results for genes that have been shown to be expressed (detected=yes) in the forebrain (and its substructures) and whose assay results for the midbrain (and its substructures) were <B>all</B> reported as lacking expression (detected=no).  Each listing includes the gene symbol (with a link to its detail page), assay type used, results details (given as an MGI accession ID linked to an assay record), allele pairs describing the mutant genotype of the specimen (if applicable), age of the specimen, structure examined, and an indication of whether or not expression was detected.</LI>
+<P>This query returns a summary page listing assay results for genes that have been shown to be expressed (detected=yes) in the forebrain (and its substructures) and whose assay results for the midbrain (and its substructures) were <B>all</B> reported as lacking expression (detected=no).  Each listing includes the gene symbol (with a link to its detail page), assay type used, results details (given as an MGI accession ID with the word, data, linked to an assay detail record), allele pairs describing the mutant genotype of the specimen (if applicable), age of the specimen, structure examined, and an indication of whether or not expression was detected.</LI>
 
 <LI> Which genes are expressed exclusively in the eye and its substructures?<BR><BR>
 <B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; CONTAINS eye<BR>
