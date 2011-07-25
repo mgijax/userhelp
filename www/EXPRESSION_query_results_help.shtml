@@ -96,8 +96,6 @@ Interpreting Gene Expression Data Query Results</span>
 <font size="-1"><a href="#top">Top</a>
 </font>
 
-<a href="#top">Top</A><br>
-
 <h3><a name="content"></a>What should the summary report contain?</h3>
 <p>At the top of the Gene Expression Data Query - Summary report is a synopsis of your query parameters. For example:</p> 
    <pre>
@@ -211,7 +209,7 @@ The number links to the Literature query results summary containing those conten
   <li>not detected in (expression absent);</li>
   <li>mutated gene symbol/name.</li>
 </ul> 
-<p><b>Note:</b> You can query gene expression literature content records directly using the <a href="http://www.informatics.jax.org/searches/gxdindex_form.shtml">Gene Expression Literature Query Form</a>.</p>
+<p><b>Note:</b> You can query gene expression literature content records directly using the <a href="http://www.informatics.jax.org/gxdlit">Gene Expression Literature Query Form</a>.</p>
 
 <font size="-1"><A HREF="#top">Top</A></font>
 
@@ -240,7 +238,7 @@ The number links to the Literature query results summary containing those conten
  <table border  width="!" cellspacing="1" cellpadding="4">
   <tr>
  <td align="center" valign="top"><b>Field</b></td>  <td align="center" valign="top"><b>Description</b></td> </tr>
-  <tr><th align="left" valign="top">Reporter</b></td> <td valign="top">If the assay type is <i>in situ</i> reporter (knock-in)</a>, the name of the reporter gene</a>.
+  <tr><td valign="top"><b>Reporter</b></td> <td valign="top">If the assay type is <i>in situ</i> reporter (knock-in)</a>, the name of the reporter gene</a>.
 </td></tr>
    <tr><td valign="top"><b>Probe </b></td> <td valign="top">Name of the probe used, linked to its detail record.</td> </tr>
    <tr><td valign="top"><b>Probe preparation</b></td><td valign="top">Brief description of the probe material used and preparation details.</td></tr>
