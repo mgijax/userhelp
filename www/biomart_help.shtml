@@ -1,0 +1,406 @@
+<!--#include file='include/templateHead.html'-->
+
+<title><!--#include file="include/mgiversion.html"-->MGI-Using the MGI BioMart Datasets</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;  
+window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">Using the MGI BioMart Datasets</span>
+</div>
+
+<style type="text/css">
+</style>
+
+
+<!-- Container Table -->
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+  </td>
+</tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+<!-- Body of User Help -->
+
+
+
+<A NAME="top"></A>
+<p>This help document answers the following questions:</p> 
+<UL>
+<LI><a href="#whatis">What is a BioMart?</A></LI>
+<li><a href="#advantages">What are some of the advantages of using MGI BioMart?</a></li>
+<li><a href="#MGI_data">What databases are available through the MGI BioMart?</a></li>
+<!--<li><a href="#mgi_biomart">What data does the MGI BioMart contain?</a></li>-->
+<li><a href="#dataset">What datasets are available in the MGI BioMart?</a></li>
+<LI><A HREF="#how_use">How do I use MGI BioMart?</A></LI>
+<li><a href="#count">Can I tell in advance the size of the dataset that a query returns?</a></li>
+<li><a href="#filter">What is the function of filters?</a></li>
+<li><a href="#attribute">What is the function of attributes?</a></li>
+<li><a href="#feature_types">How can I use MGI BioMart to search for specific genome feature types?</a></li>
+<li><a href="#expression_query">How can I use MGI BioMart to search for gene expression data?</a></li>
+<li><a href="#reorganize">How can I change the sort order in my query results?</a></li>
+<li><a href="#tips">Are there additional tips for using MGI BioMart?</a></li>
+<li><a href="#no_results">My query returned no results. Why?</a></li>
+<li><A href="#results">What can I do on a result page?</A></li>
+ <li><a href="#what_not_find">Are there data that MGI BioMart does not currently find?</a></li>
+<LI><A HREF="#resources">Where can I find additional BioMart information?</A></LI>
+
+
+ </ul>
+
+<H3><a name="whatis"></a>What is a BioMart?</H3>
+  
+<p>
+BioMart is a query-oriented data management and integration system that performs like a batch query. The system can be applied to a single or to multiple databases. It provides fast, powerful, and complex queries to an individual database, federations (connections) with other databases, and ongoing enhancements. BioMart can be used to convert one or more data sources (flat files or a relational databases) into data marts that are accessible either with a web browser or with Perl, Java and webservice APIs (Application Program Interfaces). </p>
+<p>
+BioMart is a joint development of the Ontario Institute for Cancer Research (OICR) and the European Bioinformatics Institute (EBI).</p>
+
+<A HREF="#top"<font size-"-1">Top</font></A>
+
+<h3><a name="advantages"></a>What are some of the advantages of using MGI BioMart?</h3>
+<p>BioMart provides an efficient solution to issues such as:</p>
+<ul><li>having to learn a different interface for each software tool that you use</li>
+<li>needing more than one data resource to refine searches</li>
+<li>desiring to integrate your data with other datasets/databases</li>
+<li>spending time cutting and pasting results between websites</li>
+<li>requiring a custom SQL, a web service or an API to accomplish your tasks.</li>
+</ul>
+ <p>BioMart provides one generic interface, one resource, with no need for a custom SQL/web service/API. You can import data, reiterate and refine queries on one page, and integrate your data with other datasets that MGI BioMart hosts (e.g. Ensembl, VEGA, RGD) and export results, all without cutting and pasting. </p?
+<p>You can also combine filters and attributes to fully annotate your dataset with a remote one, all without a custom SQL, web service, or API.  </p>
+</p>
+
+<A HREF="#top"<font size-"-1">Top</font></A>
+
+<h3><a name="MGI_data"></a>What databases are available through the MGI BioMart?</a></h3>
+<p>MGI BioMart provides access to 3 <a href="#databases">databases</a>, composed of <a href="#dataset">datasets</a>.
+<p>
+ <a name="databases"></a>Databases currently available for access are named:
+<ul>
+   <li>MGI Biomart</li>
+   <li>Ensembl Mart 57</li>
+  <li>VEGA 56</li>
+</ul>
+</p>
+<A HREF="#top"<font size-"-1">Top</font></A>
+
+<h3><a name="dataset"></a>What datasets are available in the MGI BioMart?</h3>
+
+<p>MGI Biomart datasets:</p>
+<ul>
+  <li>Genes & Genome Features</li>
+  <li>Gene Expression Data (GXD). </li>
+  </p>
+</ul>
+
+<p>A dataset is a collection of data tables that follow a given naming convention. Each column in the table represents a variable. Each row corresponds to a member of the dataset. Examples are
+<ul>
+  <li>Mus musculus genes from the NCBI m37 mouse assembly (Ensembl and VEGA)</li>
+  <li>All public markers in MGI (genes, genome features, transgenes, QTLs, and so on)
+   <li> All public alleles in MGI that have been associated to a marker</li>
+  <li>Gene expression data (e.g., assay type, developmental stage, anatomical structure, level of expression, pattern).</li>
+</ul>
+ </p>
+ 
+<p>MGI BioMart <a href="#filter">filters</a> - restrict a query by selecting: </p>
+<ul>
+  <li>Genome feature, location, allele, and ortholog for approximately 30,000 genes in the MGI database</li>
+  <li>Gene, stage and tissue of expression, expression level and assay type.</li>
+</ul>
+</p>
+
+<p>MGI BioMart <a href="#attribute">attributes</a> - determine the data columns displayed in the query results:</p>
+<ul>
+  <li>Genome features, locations, alleles, and orthologs for approximately 30,000 genes in the MGI database</li>
+  <li>Gene symbol, assay type, stage and anatomical structure and expression results.</li>
+</ul>
+</p>
+
+<A HREF="#top"<font size-"-1">Top</font></A>
+
+<h3><a name="how_use"></a>How do I use MGI BioMart?</h3>
+<p>You use MGI BioMart to:</p>
+<ul>
+    <li>Query on (or import a list of) genes or genome features or gene expression data, <a href="#filter">filter</a> it (apply query restrictions), and determine the output sort order.</li>
+	<li>Refine your query by adding/subtracting <a href="#filter">filter</a>.</li>
+	<li>Change how the query results display by adding/subtracting attributes.</li>
+  	<li>Query a different database.</li>
+	<li>Integrate MGI data with data from the other database.</li>
+	<li>Export the results to a file that you can keep or send to another mart.</li>
+</ul>
+
+<p>To do this:</p>
+<p>Click and then select options from the right and left panes of the user interface:
+
+<ul>
+  <li>Select a database to query against.</li>
+ <li>(Optional) Apply <a href="#filter">Filters</a> (e.g. click <i>Choose file</i> to import a list of gene symbols or IDs or to paste them in the box; click to select a Genome Location).</li>
+ <li>Select <a href="#attribute">Attributes</a> (data to be returned) (e.g. MGI ID, Feature Name, etc.).</li>
+<li>(Optional) Get an idea of the size of the data returned vs. dataset queried against (click Count) </li>
+ <li>Click Results.</li>
+<li>(Optional) Adjust the output (e.g. <b>View</b> more/less data, <b>Export all results to</b> the desired file type and format, check <a href="#unique_results"><b>Unique results only</b></a>).</li>
+<li>(Optional) Refine results and requery, (e.g. add different 
+<a href="#filter">filters</a> or <a href="#attribute">attributes</a>, reorder result columns,  change output format).</li>
+<li>(Optional) Add another dataset to the initial query.</li>
+</ul>
+</p>
+<p>See also <a href="#tips">Are there additional tips for using MGI BioMart?</a> </p>
+
+<A HREF="#top"<font size-"-1">Top</font></A>
+
+<h3><a name="count"></a>Can I tell in advance the size of the dataset that a query returns?</h3>
+<p>Yes. 
+<ul>
+  <li>Click <b>Count</b> (before clicking <b>Results</b>). </li>
+  <li>Two numbers appear: the number of items input or found versus the number of items in the selected database.</li>
+</ul>
+
+</P>
+
+<A HREF="#top"<font size-"-1">Top</font></A>
+
+<h3><a name="filter"></a>What is the function of filters?</h3>
+<p>MGI BioMart uses the concept of <i>filters</i> for narrowing or expanding a query. Initially, you may wish to query the entire set of genes and genome features in MGI, but you can also query a smaller, more limited set (for example, by importing a list of IDs or symbols or selecting a specific region of a chromosome) using the filters. Below are expanded images of all MGI BioMart Genes & Genome Features and Gene Expression Data filter categories.
+<blockquote>
+<img src="images/3_filters.jpg"  border="0" width="755" height="722" alt="select filters">
+</blockquote>
+<blockquote>
+<img src="images/gxd_filters.jpg"  border="0" width=767 height=782 alt="select gxd filters">
+</blockquote>
+</P>
+<A HREF="#top"<font size-"-1">Top</font></A>
+
+<h3><a name="attribute"></a>What is the function of attributes?</h3> 
+<p>BioMart identifies the <a href="#dataset">dataset</a> information to add to your query results as <i>attributes</i>.  Below are expanded images of MGI BioMart Genes & Genome Features and Gene Expression data (GXD) attribute categories.</p>
+<blockquote>
+<img src="images/biomart_attributes2.jpg"  border="0" width="570" height="397" alt="select filters">
+</blockquote>
+
+<blockquote>
+<img src="images/gxd_attributes.jpg"  border="0" width="709" height="588" alt="select gxd attributes">
+</blockquote>
+
+
+<p>Below are the attribute names to use when querying for Genes & Genome Features data followed by examples of what MGI BioMart returns.
+</p><table border="1" cellspacing="1" cellpadding="2" width="!"
+<tr><th>&nbsp;</th><th valign="top">Attribute Name</th><th valign="top">Examples</th></tr>
+
+     <tr><th valign="top" rowspan="11">Features</th><tr><td>MGI ID</td><td valign="top">MGI:87904</td></tr>
+     <tr><td valign="top">Feature Symbol</td><td valign="top">Actb</td></tr>
+      <tr><td valign="top">Feature Name</td><td valign="top">actin, beta</td></tr>
+      <tr><td valign="top">Feature Type</td><td valign="top">protein coding gene</td></tr>
+      <tr><td valign="top">Feature Synonyms</td><td valign="top">Actx</td></tr>
+      <tr><td valign="top">Mouse Entrez gene ID</td><td valign="top">11461</td></tr>
+      <tr><td valign="top">Mouse Ensembl gene ID</td><td valign="top">ENSMUSG00000029580</td></tr>
+      <tr><td valign="top">Mouse VEGA gene ID</td><td valign="top">OTTMUSG00000015100</td></tr>
+      <tr><td valign="top">GO ID (gene ontology identifier)</td><td valign="top">GO:0006916</td></tr>
+      <tr><td valign="top">GO term</td><td valign="top">protein kinase binding</td></tr>
+
+  <tr><th valign="top" rowspan="5">Genome Location <br>(NCBI Build 37)</th></tr>
+        <tr><td valign="top">Chromosome</td><td valign="top">1 thru 19, X, Y, XY, MT, UN</td></tr>
+	<tr><td valign="top">Start Coordinate (bp)</td><td valign="top">143665420</td></tr>
+        <tr><td valign="top">End Coordinate (bp)</td><td valign="top">143668404</td></tr>
+	<tr><td valign="top">strand</td><td valign="top">+ or -</td></tr>
+
+	
+   <tr><th valign="top" rowspan="7">Alleles</th></tr>
+       <tr><td valign="top">MGI allele ID</td><td valign="top">MGI:2180089</td></tr>
+       <tr><td valign="top">Allele Symbol</td><td valign="top">Actb<sup>tm1bhr</sup></td></tr>
+       <tr><td valign="top">Allele Name</td><td valign="top">targeted mutation 1, Richard R. Behringer</td></tr>
+       <tr><td valign="top">Allele Type</td><td valign="top">Targeted (knock-out)</td></tr>
+       <tr><td valign="top">Phenotype ID</td><td valign="top">MP:0003984</td></tr>
+       <tr><td valign="top">Phenotype Term</td><td valign="top">embryonic growth retardation</td></tr>
+	 <tr><th valign="top" rowspan="5">Orthologs</th></tr>
+ <tr><td valign="top">Human Symbol</td><td valign="top">Actb</td></tr>
+ <tr><td valign="top">Human Entrez Gene ID</td><td valign="top">81822</td></tr>
+ <tr><td valign="top">Rat Symbol</td><td valign="top">ACTB</td></tr>
+ <tr><td valign="top">Rat Entrez Gene ID</td><td valign="top">60</td></tr>
+</table>
+</P>
+
+
+<p>Below are the attribute names to use when querying for gene expression data followed by examples of what MGI BioMart returns.
+</p>
+<p><table border="1" cellspacing="1" cellpadding="2" width="!"
+
+ <tr><th align="left">GXD Attributes</th><th valign="top">Attribute Name</th><th valign="top">Examples</th></tr>  
+
+<tr><th align="left" rowspan="2">Gene</th><td valign="top">Gene Symbol</td><td valign="top">Shh</td></tr>
+     <tr><td valign="top">MGI Gene ID</td><td valign="top">MGI:98297</td></tr>
+     
+
+
+<tr><th align="left" rowspan="4">Assay</th><td>MGI Assay ID</td><td valign="top">MGI:1275014</td></tr>
+      <tr><td valign="top">Assay Type</td><td valign="top">RNA in situ</td></tr>
+      <tr><td valign="top">MGI Probe ID</td><td valign="top">MGI:1194645</td></tr>
+      <tr><td valign="top">MGI Antibody ID</td><td valign="top">MGI:3053439</td></tr>
+     
+     <tr><th align="left" rowspan="1">Genotype of Specimen</th><td>Mutant Allele(s)</td><td valign="top">Shh<sup>tm2Amc</sup></td></tr>
+
+<tr><th align="left" rowspan="3">Stage And Anatomical Structure</th><td>Age</td><td valign="top">E18.5</td></tr>
+   <tr><td valign="top">Theiler Stage</td><td valign="top">TS26</td></tr>
+      <tr><td valign="top">Anatomical Structure</td><td valign="top">Cerebellum</td></tr>
+
+   <tr><th align="left" rowspan="1">Expression Results</th><td>Level</td><td valign="top">Trace</td></tr>
+
+   <tr><th align="left" rowspan="1">In Situ Assay</th><td>Pattern</td><td valign="top">Regionally restricted</td></tr>
+
+      <tr><th align="left" rowspan="2">Reference IDs</th><td>J Number</td><td valign="top">J:108509</td></tr>
+
+	  <tr><td valign="top">PubMed ID</td><td valign="top">16571630</td></tr>
+
+ 
+</table></p>
+
+<A HREF="#top"<font size-"-1">Top</font></A>
+
+<h3><a name="feature_types"></a>How can I use BioMart to search for specific genome feature types?</h3>
+ <ul>
+  <li>The image below depicts a search for all non-coding RNA genes  between 11000000 and 31000000 base pairs on Chr. 7. </li>
+  <li>The <b>Count</b> for the returned items is 15 out of 78,757 in the database entries searched.</li> 
+<li>As you select <a href="#attribute">Attributes</a> for output, they appear in the left-hand frame (in the image, they are Feature Symbol/Name/Type, Chromosome, Start/End Coordinate). These selections determine the content of any columns appearing in your results.</li> </ul>
+<blockquote>
+<img src="images/feature_type_query.jpg"  width="75%" height="50%" border="0" alt="">
+</blockquote>
+
+
+<p>The image below depicts the results of this search.
+</p><blockquote>
+
+<img src="images/result_feature_set.jpg" width="75%" height="50%" border="0" alt="">
+
+</blockquote>
+</p>
+
+<A HREF="#top"<font size-"-1">Top</font></A>
+
+<h3><a name="expression_query"></a>How can I use BioMart to search for gene expression data?</h3>
+<p>
+As an example, here is how you can find In situ reporter (knock-in) assays that show expression in diencephalon: 
+</p>
+<ul>
+<li>CHOOSE DATABASE MGI BioMart.</li>
+<li>CHOOSE DATASET Gene Expression Data (GXD).</li>
+<li>Click on <a href="#filter">Filters</a> in the left hand column to restrict your query. </li>
+<li>Check the box in front of Anatomical Structure and enter <i>diencephalon</i> in its field. </li>
+<li>Check Expression and use its default setting: Detected.</li>
+<li>Check Assay Type and select <i>in situ reporter (knock-in)</i>.</li>
+<li>Click the Count button to see the number of expected results. For example: 262 assays out of a total of 1181425 (262/1181425). </li>
+<li>Click on  <a href="#attribute">Attributes</a> in the left hand column to select the results. </li>
+<li>For this example, just use the default settings. </li>
+<li>Click the Results button. </li>
+<li>If you view your results as HTML, the Figures and MGI Assay IDs link to detail web pages in the MGI Database.</li>
+</ul>
+
+<p>The image below depicts a portion of the results of this search.
+</p><blockquote>
+
+<img src="images/gxd_results.jpg" width=800 height=410 border="0" alt="gxd results">
+
+</blockquote>
+</p>
+
+
+<A HREF="#top"<font size-"-1">Top</font></A>
+
+<h3><a name="no_results"></a>My query returned no results. Why?</h3>
+ <ul>
+   <li>Imported files must contain a single type of identifier (feature symbol or specific ID). </li>
+   <li>Imported files (genome or allele features or IDs) must be saved with the .txt extension.</li>
+   <li>The proper identifier must appear in the pull-down list. If you leave the default (MGI ID) but are importing a list of feature symbols, there will be no results.</li>
+ </ul>
+</p>
+ <A HREF="#top"<font size-"-1">Top</font></A>
+<h3><a name="what_not_find"></a>Are there data that MGI BioMart does not currently search for/find?</h3>
+<p>Yes. The MGI BioMart does not yet contain all MGI data. For example, for the Genes & Genome Features dataset, it does not recognize secondary marker IDs. Secondary IDs are neither counted (e.g. when you  click <b>Count</b>) nor do they appear when you click <b>Results</b>.</p>
+<p>MGI gene detail pages list secondary IDs in the <b>Other accession IDs</b> section at the bottom. For example, the Kit gene detail page lists MGD-MRK-11588, MGD-MRK-14609, MGD-MRK-15420, MGD-MRK-1672, MGD-MRK-9743, MGI:3530304, MGI:3530312, MGI:3530319. None of these are returned if/when you include Kit in the Feature Symbol list of an MGI BioMart query. 
+</P>
+<A HREF="#top"<font size-"-1">Top</font></A>
+
+  
+<h3><a name="reorganize"></a>How can I change the sort order in my query results?</h3>
+<p>The order in which items appear under <a href="#attribute">Attributes</a> (left panel) is the order of the columns in which the query results appear. As an example, for Genes & Genome Feature results, by default, Feature Symbol and Feature Name are the first two columns. To change the order: 
+<ol>
+	<li>Click Attributes.</li>
+  	<li>Click to open attribute lists in the right panel (e.g. Features, Genome Location, Alleles, Orthologs).
+ 	<li>Select an item (e.g. MGI ID, Feature Type, etc.) from an attribute list. When you do so, the item appears beneath <b>Attributes</b> in the left-hand panel.  </li>
+  	<li>Deselect any attribute that you do not want to appear as a column in your results. </li>
+  	<li>Continue selecting/deselecting attributes until they appear in the desired column order (on the left). </li>
+ 	<li>Click <b>Results</b> again.
+	<li>Repeat until satisfied with the result.</li>
+</ol>
+</p>
+
+
+<A HREF="#top"<font size-"-1">Top</font></A>
+
+<h3><a name="results"></a>What can I do on a result page? </h3>
+
+<ul>
+  <li>By default, the first 10 results appear in hyper-linked HTML format. To alter the number and format, select from the drop-down lists; e.g. if the result <b>Count</b> is 17 results,  select 20 from the <b>View</b> list. </li>
+<li>Select CSV or TSV to see results as comma- or tab-separated values.</li>
+
+ <li>Click <a name="unique_results"></a><b>Unique results only</b> to remove any redundancy in a given data model. Note, however, that this may affect the time it takes to retrieve your results.</li>
+<li>Once you are satisfied with a result set,  choose from the actions  at the top of the page and click <b>Go</b> button. If your query is particularly intensive and the server times out,  use one of the Web file options.</li>
+  <li>You can incorporate a second dataset into the query by clicking on the second Dataset node on the left and following the same steps. Linking of the datasets and merging of data into the final result set is handled automatically. </li>
+<li>To begin a new query, click <b>New</b> (on the toolbar).</li>
+<li>Click the XML button on the toolbar for a summary of your current query in BioMart Query XML format. This is useful for accessing BioMart via the mart service web services interface. Similarly, click the Perl button to  generate a BioMart perl API script to run the same query.</li>
+</ul>
+ </p>
+</p>
+<A HREF="#top"<font size-"-1">Top</font></A>
+
+<h3><a name="tips">Are there any additional tips for using MGI BioMart?</a></h3>
+<p>Yes. Be aware that:</p>
+<ul>
+  <li>MGI BioMart supports only files with a  .txt extension. Therefore, be sure to save any files that you wish to import into BioMart with that extension (e.g. lists of symbols or IDs).</li>
+  <li>For the Genes & Genome Features dataset, the default identifier for input is MGI ID. If you wish to filter by Feature Symbol or an ID other than MGI and you do not change the default, the query will fail. </li>
+  <li>All imported items must be of the same type (e.g. all Mouse VEGA Gene IDs or all Feature Symbols).</li>
+<li>MGI BioMart does not find allele names that include a comma. You must replace the comma with a % (percent sign) to get results. </li>
+</ul>
+
+<p>MGI BioMart does allow you to:</p>
+<ul>
+   <li>Choose an additional dataset (for comparison) and select filters and attributes for it.</li>
+    <li>Click <b>Count</b> before you click <b>Results</b> to determine the size of the returned dataset. The number appears beside <b>Dataset</b> at the top of the right-hand panel. As an example, selecting miRNA as a feature type returns <b>625/78757</b> which means that there are 625 miRNAs among the 78,757 entries in the MGI BioMart database.</li>
+<li>Add additional parameters to a query after it completes (i.e., rerun it after selecting more columns for the output.</li>
+<li>Rearrange the order in which columns appear in your results. The column order in the results is the order in which you select items under <b>Attributes</b>. Note that  <b>Feature Symbol</b> and <b>Feature Type</b> are the default Attribute values and therefore appear as the first and second columns unless you deselect them. You can always re-add either term after making additional choices.
+</li>
+<li>Change the number of results to view (from 10 to 20, 50, 100, 150, 200 or all results) once they appear.</li>
+<li>Build more/less complex queries and rerun them without starting over (by adding or subtracting <a href="#attribute">attributes</a>).</li>
+<li>Export results to a file, to a .gz (compressed file), or to a compressed web file with an email notification.</li>
+<li>Format any results in web (HTML), CSV (comma-separated value), TSV (tab-separated value) or Excel (.xls) files.</li>
+</ul>
+ 
+</p>
+<A HREF="#top"<font size-"-1">Top</font></A>
+
+
+<h3><A name="resources"></a>Where can I find additional BioMart information?</h3>
+<p>The <a href="http://www.biomart.org/">BioMart Project </a> website has additional information.
+
+<ul>
+  <li>To access the application, click <b>MartView</b>.</li>
+  <li>Additional tabs provide news and documentation.</li>
+ 
+
+</ul>
+</p>
+<A HREF="#top"<font size-"-1">Top</font></A>
+</P>
+
+
+<!--#include file='include/templateBlankBodyStop.html'-->
+
+
+
+
+

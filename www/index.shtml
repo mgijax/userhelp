@@ -138,8 +138,6 @@
       <dt class="enhance">Strains, SNPs &amp; Polymorphisms</dt>
      <blockquote>
 	<dt><b>Strains & Polymorphisms</b></dt>
-
-	
 	 <dd><a href="STRAINS_polymorphism_help.shtml" onclick="javascript:openHelpWindow('STRAINS_polymorphism_help.shtml'); return false;">Using the RFLP/PCR Polymorphism Query Form</a></dd>
 	
 	<dt><b>SNPs</b></dt>         
@@ -176,8 +174,14 @@
 	<dd><a href="QUICK_SEARCH_help.shtml" onclick="javascript:openHelpWindow('QUICK_SEARCH_help.shtml'); return false;">Using the Quick Search Tool</a></dd>
 	<dd><a href="QUICK_SEARCH_examples_help.shtml" onclick="javascript:openHelpWindow('QUICK_SEARCH_examples_help.shtml'); return false;">Quick Search Examples and Questions</a></dd>
 
+<dd><a href="reference_help.shtml" onclick="javascript:openHelpWindow('reference_help.shtml'); return false;">Using the Reference Query Form</a></dd>
+
   <dt><b>Batch Querying / Interpreting Results</b></dt>
          <dd><a href="BATCH_help.shtml" onclick="javascript:openHelpWindow('BATCH_help.shtml'); return false;">Using the MGI Batch Query</a></dd>
+  <dt><b>Biomart</b></dt>
+         <dd><a href="biomart_help.shtml" onclick="javascript:openHelpWindow('biomart_help.shtml'); return false;">Using the MGI BioMart Datasets</a></dd>
+
+
     	<dt><b>Using & Interpreting Accession IDs </b>
             <dd>
               <a href="ACCESSION_ID_help.shtml" onclick="javascript:openHelpWindow('ACCESSION_ID_help.shtml'); return false;">
@@ -196,8 +200,12 @@
  <dd>	<a href="mouseblast_blast_programs_help.shtml" onclick="javascript:openHelpWindow('mouseblast_blast_programs_help.shtml'); return false;">Using MouseBLAST - Available BLAST Programs</a></dd>
 	<dd><a href="mouseblast_sequence_databases_help.shtml" onclick="javascript:openHelpWindow('mouseblast_sequence_databases_help.shtml'); return false;">Using MouseBLAST - Sequence Databases</a></dd>
 	<dd><a href="mouseblast_masking_help.shtml" onclick="javascript:openHelpWindow('mouseblast_masking_help.shtml'); return false;">Using MouseBLAST - Masking Programs</a></dd>
+	<dd><a href="mouseblast_sequence_format_help.shtml" onclick="javascript:openHelpWindow('mouseblast_sequence_format_help.shtml'); return false;">Using MouseBLAST - Sequence Formats</a></dd>
 	<dd><a href="mouseblast_fetch_help.shtml" onclick="javascript:openHelpWindow('mouseblast_fetch_help.shtml'); return false;">Using MouseBLAST - Searching by Sequence ID</a></dd>
 	<dd><a href="mouseblast_forwarding_help.shtml" onclick="javascript:openHelpWindow('mouseblast_forwarding_help.shtml'); return false;">Using the Forward to MouseBLAST Form</a></dd>
+
+
+
 
 
 	<dt><b>Gene Trap Help</b></dt>
