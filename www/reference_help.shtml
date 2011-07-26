@@ -1,0 +1,455 @@
+<h4>Missing/no longer on query form (first page) (but is available later, on summary/detail page?)</h4>
+
+	<ol>
+	  <li>Sort query results by First Author, J Number are gone from initial entry (is J num search available later on?)
+	  <li>Max number of items returned  (10, 100, 500, No limit) not on init. page (what are the max numbers that we allow them to choose on summary?</li>
+	  <li>Summarize results button is gone...there is no choice...you always get a summary.</li>
+<li>Volume is gone</li>
+<li>Chromosome <TD>Chromosome, if any, to which a marker is assigned.  Select   1-19, X, Y, Mitochondrial (genes found in mouse mitochondria), XY (pseudoautosomal) (markers in the pseudoautosomal region) or Unknown (chromosome assignment not known).<br>
+Click <I>in</I> to focus your search by limiting the search to references related to markers <I>in</I> one of these categories or <I>not in</I> to exclude such markers from the search. </li>
+
+	</ol>
+	
+
+<h4>Rearranged (i.e., no longer first or @ top of form:()</h4>
+
+	<ol>
+	  <li><b>Reference Accession ID</b> is now called <b>PubMed ID or MGI Reference ID</b></li>
+ <li>First Author is located in <b>Author</b> field (top of form) where there are 3 choices (Any, First, Last) </li>
+	  <li>Authors is [ditto the above].</li>
+<li>Journal & year are 3rd & 4th</li>
+	</ol>
+
+<p>Features</p>
+<table border="1" cellspacing="2" cellpadding="3" width="!">
+   Picklist includes plain last name in addition to all last names with initials.
+ Typing “McMaho…” brings back all these authors.
+ YUI provides widget for autocomplete for many items in a list.  (see below)
+
+<tr><th>Field</th><th>What's New or revised</th><th>How to use</th><th>Notes, if any</th></tr>
+  <tr><th>Author</th><td>New: autocomplete</td><td valign="top"><ol>
+    <li>User chooses Any author(s), First author, or Last author (PI or lab director where the paper originated)</li>
+		
+<li>User types name or partial string, then selects from autocompete list.
+<li>User may next type 2nd name or partial string & select from a different autocomplete list.</li>
+
+
+<p>User may choose as many names as desired/ i.e., create a list. (But must choose from autocomplete list)</li></ul></td>
+</tr>
+  <tr><th>Journal</th><td valign="top">Autocomplete</td><td valign="top"><ul>
+    <li>User types full or partial title & chooses from autocomplete list for first search term</li>
+		<li>Types 2nd full/partial title & chooses from new autocomplete list.</li>
+<li>User may enter journal list (i.e., make as many choices as desired). But must choose from autocomplete </ul></td>
+
+
+	<td valign="top"><b>NOTE:</b> The only items that show up in the autocomplete list...and thus, the only search criteria allowed....are NCBI Journal list, MGI books, references already in MGI.<br>
+	<b>Note:</b> Remind user that journal/book/reference curation is not static but dynamic. What MGI does not have today could conceivably show up in the future.</td></tr>
+  <tr><th>Year</th><td valign="top">Revised.</td><td valign="top">Formats allowed are year, range of years separated by a hyphen (e.g., 1989-2010); minus-prefixed year (from earliest reference thru that year, e.g. -2010); and minus-appended year (everything from that year to the present, e.g. 2004-)</td>
+<td valign="top">&nbsp;</td></tr>
+<tr><th>Text</th><td valign="top">New field</td><td valign="top">Behaves like the Quick Search tool</td><td valign="top">Refer user to that documentation? NO. Explain stemming? Maybe. Explain wildcards? Somewhere. Use/revise table  under "What are the rules for entering text in the Quick Search box? (from searchtool_help.shtml#box)?</td></tr>
+
+<tr><th>PubMed ID or MGI reference ID</th><td valign="top">Unique identifier for each record/ citation assigned by PubMed or MGI. Examples: </td><td valign="top">nbsp;</td><td valign="top">&nbsp;</td></tr>
+
+<tr><th>MISSING (i.e., fields moved to summary page)</th><td valign="top">Sort</td><td valign="top">Max number of items returned (10, 20, 100, 500, No limit</td><td valign="top">Summarize results (yes/no)</td></tr>
+
+<tr><th></th><td valign="top"></td><td valign="top"></td><td valign="top"></td></tr>
+
+
+</table>
+
+
+New Updates --
+1.  1-page paradigm-- Query Form and Summary on the same page (but notice the query form doesn't "collapse" yet - try to imagine)
+2.  Filters - filters are now iterative
+3.  Abstract - the display is improved, the "show all" button added too.
+4.  Book references - the information for a book reference is now displayed (e.g. J:147336)
+5.  Column display - the column order was modified as well as some of the widths
+6.  Text searches - working better, but this is still in progress
+
+Not Implemented --
+1.  Long authors not yet wrapping in the auto-complete list
+2.  Filter lists that are long are still displayed as a truncated list
+3.  The QF reset button not working (introduced with the 1-page paradigm)
+4.  Still not trapping the error of querying for an ID and other fields
+5.  No download options
+
+
+Jill 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--#include file='include/templateHead.html'--> 
+<title>MGI-Using the References Query Form</title>
+
+<!--#include file='include/templateBodyStart.html'--> 
+
+<!-- Title Bar -->
+  <div id="titleBarWrapper">
+  <span class="titleBarMainTitle">Using the References Query Form</span>
+  </div> 
+<!--titleBar-->
+<br>
+
+
+<A NAME="top"></A>
+<P>This help document answers the following questions about the References Query Form:
+ <UL>
+ <LI><A HREF="#whatuse_refqf">What can I use the References Query Form to find?</A></LI>
+<li><a href="#author_refqf">How do I search by author?</a></li>
+<li><a href="#chromosome_refqf">How do I search by chromosome?</a></li>
+ <LI><A HREF="#howfill_refqf"qf>How do I fill in this query form?</A></LI>
+ <LI><A HREF="#fields_refqf">What values are acceptable in each of the fields?</A></LI>
+ <LI><A HREF="#summary_refqf">What can I do with the summary results of a references query?</A></LI>
+<!--<LI><A HREF="#sort">How do the sort options work?</A></LI>-->
+ <!--<LI><A HREF="#link">How can I view a more detailed result?</A></LI>
+<LI><A HREF="#detail">How do I interpret the detail results?</A></LI>-->
+ <LI><A HREF="#examples_refqf">Are there examples of queries and results for references?</A></LI>
+ </UL>
+
+
+ <H3><A NAME="whatuse_refqf"></A>What can I use the References Query Form to find?</H3>
+<P>The References query form enables you to search for and retrieve information related to one or more references. MGI is "reference driven" in that most data are extracted from journal articles and other scientific literature. The references comprise a "master bibliography" for the database. The result provide access links to related data in MGI.  </p>
+<P>Some kinds of data, such as mouse physical mapping data from MIT, are downloaded from external databases. Appropriate references for these data are also provided.
+</p>
+<p>You can search for references <!--with abstracts--> by author, journal, year, text (in the title or the abstract), PubMed or MGI ID, or a combination of these fields.</p>
+<font size="-1"><A HREF="#top">Top</A></font>
+
+ <H3><A NAME="howfill_refqf"></a>How do I fill in this query form?</H3>
+<P>Enter enough information in the search fields to narrow the search to a few records.
+<ul>
+  <li>Use the  Author and Text fields to focus your search. </li>
+  <li>Use the <a href="#year">Year</a> and <a href="#journal">Journal</a> fields to further limit the scope of the search. </li>
+<li>After entering values, click <B>Search</B> to submit the query. </li>
+
+  <li>Use the Results page to select the most suitable option,  to <a href="#filter">filter</a> the data, or click to <a href="#modify">modify</a> your search.</li>
+  <li>When you find the desired reference(s), follow links to additional information throughout the database. </li>
+<li>Click <B>Reset</B> to clear the fields. The only default value on the References query form is Any Author, so if this is not your prefered search criteria, click to make a different selection in the Author field.</li>
+</ul>
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+<h3><a name="author_refqf"></a>How do I search by author?</h3>
+<p>You can do any of the following in the Author area of the MGI References Query form:
+<ul>
+  <li>If you know the author's last name and initials, enter it, without punctuation, and click Search.</li>
+  <li>Enter a partial name and scroll to select from the autocomplete list that appears.</li>
+  <li>Change the default from Any Author(s) to First Author or Last Author.</li>
+  <li>Add additional author(s). <b>Note:</b> the results are NOT cumulative; that is, entering Hill D; Drabkin H; and Dolan M returns references for each author and not for papers where these three are all authors. </li>
+</ul>
+
+ <li>User chooses Any author(s), First author, or Last author (PI or lab director where the paper originated)</li>
+		
+<li>User types name or partial string, then selects from autocompete list.
+<li>User may next type 2nd name or partial string & select from a different autocomplete list.</li>
+
+
+<p>User may choose as many names as desired/ i.e., create a list. (But must choose from autocomplete list)</li></ul></td>
+
+
+
+
+</p>
+<font size="-1"><A HREF="#top">Top</A></font>
+
+
+<h3><a name="journal"></a>How do I search by journal?</h3>
+
+<h3><a name="year"></a>How do I search by year?</h3>
+<p>Enter any of the following:</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>  <th>A single year</th><td>1995</td></tr></table>
+
+
+<h3><a name="year"></a>How do I search by text?</h3>
+
+
+
+<h3><a name="year"></a>How do I search by PubMed or MGI ID?</h3>
+
+
+<h3><a name="filter"></a>How do I filter my results?</h3>
+<p>You can filter results by <a href="#author">author</a>, journal, year, or data. In the banner at the top, after Filter References By: click the desired box. </p>
+
+<h3>Can I see abstracts?</h3>
+<p>You can view an abstract for each reference by clicking <code>abstract</code>&#9658; in the Title box) or view all abstracts (by clicking Show All Abstracts in the Filter References By: banner.</p>
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><th>Author</th><td></td></tr>
+  <tr><th></th><td></td></tr>
+  <tr><th>Author</th><td></td></tr>
+  <tr><th>Author</th><td></td></tr>
+  <tr><th>Author</th><td></td></tr>
+  <tr><th>Author</th><td></td></tr>
+
+</table>
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+<H3><A NAME="fields_refqf"></A>What values are acceptable in each of the fields?</H3>
+<P><table width="!" cellpadding="2" align="center">
+
+
+
+<tr align="center"><td valign="top"><A HREF="#author">Author</A> | <A HREF="#journal">Journal</A> | <A HREF="#year">Year</A> | <A HREF="#text">Text</A> | <A HREF="#pubmed_mgi_id">PubMed ID or MGI Reference ID</A> </TD>
+</TR></TABLE></P>
+
+<TABLE BORDER CELLPADDING="4">
+<TR>
+ <TH>FIELD <TH>DESCRIPTION </TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="first"></A>Author</th> <TD>The last name and initial(s) of the first author in the list of authors of a particular article. The format of the entry is last name (space) first initial/second initial <I>e.g.</I>, Chapman VM. The suggested operator is BEGINS (the default option). If you use the equals operator (=), you must type the complete name precisely as it is stored in the database.
+</td> </TR>
+
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="journal"></A>Journal</th> <TD>The name of the journal. Use PubMed abbreviated format as your search string. To find this abbreviated format name, go to <a href="http://www.ncbi.nlm.nih.gov/sites/entrez">PubMed/Entrez</a>:<ol>
+  <li>From the Search box, select <i>Journals</i>. </li>
+  <li>In the <i>for</i> field, type the full name of the journal (for example, <i>Mammalian Genome</i>. If PubMed/Entrez indexes this journal, a page returns with the PubMed abbreviated format name in the <i>Title Abbreviation</i> field (for example, <i>Mamm Genome</i>).</li>
+</ol>
+
+
+<p>If you remember only part of a journal name, you can still use this field. Enter some text with a wildcard (%) and select one of the operators (BEGINS, CONTAINS, or LIKE). For example, to find a journal of procedings, you could enter Proc% and BEGINS or CONTAINS.</td></TR>
+
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="year"></A>Year</TH><TD>Year the article was published.  <!--The default is = (equals). Use the format <B>19XX</B> or <B>20XX</B>. --></TD> </TR>
+<!--<TR>  <TH ALIGN="left" VALIGN="top">Volume <TD><A NAME="vol"></A>Volume designation for the journal. </TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="pages"></A>Pages <TD>Page or page range of an article. The default (and only operator) is begins. Examples: <i>131</i> or <i>131-%</i>. </TR>-->
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="title"></A>Title</th> <TD>Title of the article (or book). Enter a word or phrase to search for titles that contain that word or phrase. CONTAINS is the default operator.</td> </TR>
+
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="text"></A>Text</th> <TD>Enter a text string to search for articles with abstracts/titles containing the terms you enter.
+<ul>
+  <li>Words separated by a space are interpreted as a phrase.  For example, entering <EM>binding protein</EM> yields references with abstracts containing that phrase.</li>
+  <li>Boolean operators (OR or AND) are not permitted.</li>
+  <li>Use an asterisk (*) as a wild card, particularly to find variations on a root word or in spelling. Examples: 2,4-Dichlorobenz* process; haemo* hemo*</li>
+  <li>Use quotation marks to enclose phrases where the specified words must come in order, with no words intervening. </li>
+  </ul>
+The most relevant results appear at the top of the returned list (i.e. those containing all of the searched words.
+
+
+
+
+
+
+In general, we would like to do the following: 
+"	Remove irrelevant, common words from our text corpus and from the user's query (e.g., "the", "a", "of"), but keep all words that are relevant.
+"	Alter words in our corpus and words in the user's query when there are different grammatical forms of the same root word (e.g., "shopping", "shopped", "shops" are all based on the root word "shop-").
+"	Break apart words in our corpus and words in the user's query that are composed of smaller pieces when it is logical to do so (e.g., "Tg(Pax6-cre)" contains the gene symbol "Pax6" and the genetic construct "cre", which are words a user might search for separately).
+"	Allow the user to search using a "wildcard" at the end of a partial word so as to find variations in spelling or variations on a word that are not considered true grammatical forms of the same root word.
+"	Allow the user to search for phrases such that their specified words must come in their specified order, with no intervening words.
+
+
+
+
+
+
+
+
+<EM>See</EM> <A HREF="textsearch_tips.shtml">Full-text Searching Help</A> for more information.</td> </TR>
+
+<TR> <TH ALIGN="left" VALIGN="top"><A NAME="jnum"></A>Pub Med ID or MGI Reference Accession ID</th> <TD>A unique ID assigned to a reference. Enter an MGI Accession ID, a <A HREF="#j_num">J number</A>, or PubMed ID.  <b>Note:</b>  Every reference stored in MGI has a J number of the form <a name="j_num_id"></a><b>J:<i>n...</i></b>.  Examples: 
+12819150, MGI:2665389, or J:84182 will all return the title, Connecting sequence and biology in the laboratory mouse. </li>
+</td>
+</TR>
+</TABLE>
+</p>
+<font size="-1"><A HREF="#top">Top</A></font>
+
+
+
+<H3><A NAME="summary_refqf"></A>What can I do with the summary results of a references query?</H3>
+<p>The top of the page  contains a summary of your search parameter(s) (for example,  author name) and the number of results.  <
+
+
+
+<p>In the center of the form are options for refining your search.</p>
+<p>The summary results for the References Query contain fields in addition to those on the originating form (i.e., Author, Title, Journal, PubMed/MGI ID. On the summary, the first column on the left contains  </p>
+
+
+<TABLE BORDER CELLPADDING="4">
+<TR>
+ <TH>FIELD <TH>DESCRIPTION </TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="first"></A>Author</th> <TD>
+<ol>
+<li>The default is First Author(s). Click First Author or Last Author if desired.</li>
+  <li>Begin typing in the entry field.  An autocomplete list appears.</li>
+<li>Select one item from the list. The author's name appears in the field, followed by a semicolon.</li>
+  <li>To create a list of authors, repeat steps 1 and 2 as desired.. </li>
+  <li>Click Reset to clear this field.</li>
+</ul>
+
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="journal"></A>Journal</th> 
+<TD><ul>
+  <li>Begin typing the name of a journal in the entry field.  An autocomplete list of PubMed abbreviated format journal titles, MGI books, and MGI references appears.</li></li>
+  <li>Select one item from the list. The item appears in the field, followed by a semi-colon. </li>
+  <<li>To create a list of journals or MGI books or references, repeat steps 1 and 2 as desired. </li>
+  <li>Click Reset to clear this field.</li>
+</ul>
+
+
+
+
+
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="year"></A>Year</TH><TD>Year the article was published. <ul>
+  <li>Enter a single year, a range of years, or an open-ended query such as everything after 2009 (2009-) or everything before 2007 (-2007).</li>
+  <li>If  <font color="#FF0000">*Invalid year</font> appears, correct any errors in formatting. </li>
+</ul></TD> </TR>
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="abstract"></A>Text</th> <TD>
+
+Text: 
+ Keep checkboxes. 
+ No Booleans.
+ ID: 
+ Separate section to avoid user errors. 
+ Support lists.
+
+The abstract for the article downloaded from PubMed. Enter a text string in this field to search for articles with abstracts containing the terms you enter. Words separated by a space are interpreted as a phrase.  For example, entering <EM>binding protein</EM> yields references with abstracts containing the phrase "binding protein." You can also use the Boolean operators OR or AND to connect words in a search. <P><B>Note:</B> The <A HREF="#sort">sort selection</A> buttons <B>Sort query results by, Max number of items returned,</B> and <B>Summarize</B> results do NOT operate if your only search criteria entry is in the Abstract field. <EM>See</EM> <A HREF="textsearch_tips.shtml">Full-text Searching Help</A> for more information.</td> </TR>
+
+<TR> <TH ALIGN="left" VALIGN="top"><A NAME="jnum"></A>Pub Med ID or MGI Reference Accession ID</th> <TD>A unique ID assigned to a reference. Enter an MGI Accession ID, a <A HREF="#j_num">J number</A>, or PubMed ID.  <b>Note:</b>  Every reference stored in MGI has a J number of the form <a name="j_num_id"></a><b>J:<i>n...</i></b>.  Examples: 
+12819150, MGI:2665389, or J:84182 will all return the title, Connecting sequence and biology in the laboratory mouse. </li>
+</td>
+</TR>
+</TABLE>
+</p>
+
+
+
+
+
+<P>If you expect multiple records from a search, it may be helpful to generate a concise listing of query results. By default, the <I>Summarize results</I> option is selected. Click the box beside this option to select or deselect it. The summary page orders the items <!--by year (the most recent items appear first). Each line contains the following information:  <A HREF="#j_num">J number</A>, author(s), title, journal, publication date, volume/issue, pages.
+<P>Click a record in the summarized list to see the full PubMed format Reference and abstract (if available).--> </P>
+<font size="-1"><A HREF="#top">Top</A></font>
+
+
+<H3><A NAME="detail"></A>How do I interpret the detail results?</H3>
+
+<P>Click a category to retrieve the related information. On these pages, you can follow links to browse additional areas of MGI or other databases; you can always go back to the original list of reference results.</P>
+<ul><li>The <B>References Query Results -- Detail</B> report displays the full PubMed format reference with an abstract or full text link, if available.</li> 
+  <LI>The PubMed ID number is linked to the record found in ENTREZ. </LI>
+  <LI>The detailed results include information about the MGI Accession ID, <A HREF="#j_num">J Number</A>, Other Accession IDs, (usually PubMed), Title, Authors, Journal, Volume, Issue, Year, Pages, Review Status, Abstract/Full Text (if available), and Additional Information (if available).</li>
+   <ul>
+     <LI>The Review Status field indicates whether the article comes from a peer-reviewed journal or a nonpeer-reviewed publication or data submission. </LI>
+    <LI>The Full Text link displays any short, unpublished scientific articles associated with your query. </LI>
+   <LI>Items under Additional Information link to any MGI data extracted from that paper. If present, a number in parentheses indicates how many data items of that type to expect. Related records may include marker descriptions, sequences, orthologies, molecular probes,  mapping data, expression data (for example, <i>n</i> results,&nbsp;&nbsp;<i>n</i> assays,&nbsp;&nbsp;<i>n</i> tissues), antibodies</A> (associated with expression assays), or phenotypic alleles. </LI>
+
+   </UL>
+   </ul>-->
+<font size="-1"><A HREF="#top">Top</A></font>
+
+<h3>TBD</h3>
+<h4>Error messages</h4>
+
+<table border="1" cellspacing="1" cellpadding="3" width="!">
+  <tr><th>Message</th><th>Reason</th><th>Action</th></tr>
+<tr><td>Too many Author to filter. Modify your search or use another filter first.
+Close</td><td>The query timed out.</td><td>Either use the Click to modify search process or select a Journal, Year, or Data filter before selecting Author as a filter.</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+
+</table>
+
+
+
+Too many Author to filter. Modify your search or use another filter first.
+Close
+
+
+
+<H3><A NAME="example_refqf"></A>Are there examples of queries and results for references?</H3>
+<P> The following examples show the field values to set for the query. Default values for other fields are assumed.</P>
+
+
+
+
+
+
+<OL>
+<LI>Find a paper in MGI describing a methodology for large-scale sequence analysis with <A HREF="#j_num">J number</A> J:45711.
+<BLOCKQUOTE>
+<B>Reference Accession ID</B>  J:45711<BR>
+This query finds an article entitled <I>Comparative sequence analysis of a gene-rich cluster at human chromosome 12p13 and its syntenic region in mouse chromosome 6</I>, <A HREF="#j_num">J number</A>, 45711 and MGI ID accession ID, MGI:1194866.
+</BLOCKQUOTE>
+</LI>
+
+<LI>Find all the papers published after 2001 authored by Carninci, though you are not sure of the first name.
+<BLOCKQUOTE>
+<B>First Author</B>  BEGINS  Carninci<BR>
+<B>Year</B> &gt;2001 <BR>
+This query finds all articles written by any first author whose last name begins <I>Carninci</I> published after 2001.
+</BLOCKQUOTE>
+</LI>
+
+ <LI>Find all the papers written by Carninci in 2002 and published in the journal <I>Genomics</I>.
+<BLOCKQUOTE>
+<B>First Author</B> BEGINS carninci <BR>
+<B>Journal</B> BEGINS gen <BR>
+<B>Year</B> = 2002 <BR>
+The query results include all articles written by Carninci in 2002 published in Genomics, Genetics (or any other journal whose name begins with <I>Gen</I>).
+</BLOCKQUOTE>
+</LI>
+
+<LI>Find papers published in 2003 that include an author named Clemente or Clementi; you are not sure which.
+<BLOCKQUOTE>
+<B>Author(s)</B> CONTAINS clemen <BR>
+<B>Year</B> = 2003<BR>
+<P> The query finds the articles published in 2003 written by several authors.  In each case, one of the author names contains the letters <I>clemen</I> (for example, <I>Clemens</I> and <I>Clemente</I>).
+</BLOCKQUOTE>
+ </LI>
+
+<LI>There is an article on cystic fibrosis by a researcher whose last name is something-Bell or Bell-something. You are pretty sure that <I>cystic fibrosis</I> is in the title.
+<BLOCKQUOTE>
+<B>First Author</B>  BEGINS bell <BR>
+<B>Title</B> CONTAINS cystic<BR>
+This query finds several references to articles by Campbell, Bellacosa, and Abella with <I>cystic</I> or <I>Cystic</I> in the title.
+ </BLOCKQUOTE>
+</LI>
+
+<LI>Some important research on kidney disease was reported by Cohen. Get a list of references by him/her pertaining to kidney.
+ <BLOCKQUOTE>
+<B> Summarize Results?:</B> No <BR>
+<B> First Author:</B> BEGINS cohen <BR>
+<B>Abstract: </B> kidney or renal <BR>
+The query retrieves references displayed in full format so that you can view all of them on the same web page, search all the contents, or print out all the results. </OL>
+</BLOCKQUOTE>
+</LI>
+</OL>
+
+<P><B>Note:</B> Be wary of the following searches:
+<OL>
+<LI><B>Title</B> CONTAINS murine<BR>
+This search uses a common term found in many titles and requires looking at every title in the bibliography table. If you set No Limit on Max number of items returned, the result is a display of over six thousand references. If this is not your intent, either limit the maximim number of returns or use more words and additional criteria to narrow your query.
+</LI>
+<BR><BR>
+<LI><B>First Author</B> = Nadeau J <BR>
+Using the = (equals) operator in a text field results in a search for the precise string of characters you enter. This search returns any reference attributed to Nadeau J and excludes those by Nadeau JH.
+</LI>
+</OL>
+</P>
+<font size="-1"><A HREF="#top">Top</A></font>
+<!--#include file='include/templateBodyStop.html'--> 
