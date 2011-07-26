@@ -1,11 +1,37 @@
-<!--#include file='include/templateHead.html'--> 
-<title>MGI-Interpreting Phenotypic Allele Detail Reports</title>
-<!--#include file='include/templateBodyStart.html'--> 
-<!-- Title Bar -->
-<div id="titleBarWrapper">
-  <span class="titleBarMainTitle">Interpreting Phenotypic Allele Details</span>
-</div> <!--titleBar-->
+<!--#include file='include/templateHead.html'-->
+<title>
+  <!--#include file="include/mgiversion.html"-->
+MGI-Interpreting Phenotypic Allele Detail Reports</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+
+</style>
+<div id="">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+  Interpreting Phenotypic Allele Detail Reports
+ </span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+
+
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+    </tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
 <a name="top"></A>
 <P>This help document describes Phenotypic Allele Details. 
 
@@ -47,7 +73,7 @@
 
 <h4><a name="title"></a>Title</h4>
 
-<p>The title on an allele detail report takes the following form:<br> 
+<p>The title on an allele detail page takes the following form:<br> 
 <blockquote>
 [<b><i>allele symbol</i></b>]<br> [<b><i>allele type</i></b>] <b>Detail</b>
 </BLOCKQUOTE>
@@ -55,18 +81,19 @@
 <p>As examples:
 
 <blockquote>
-<table border="0" cellspacing="1" cellpadding="3" width="!">
-  <tr><td width=15%">spontaneous</td><th align="left" valign="top"><i>Apoe<sup>shi</sup></i> Spontaneous Allele Detail</th></tr>
-<tr><td>chemically induced</td><th align="left" valign="top"><i>Edn3<sup>tmgc48</sup></i> Chemically induced Allele Detail</th></tr>
-<tr><td>radiation induced</td><th align="left" valign="top"><i>Cryge<sup>nz</sup></i> Radiation induced Allele Detail</th></tr>
-<tr><td>transposon induced</td><th align="left" valign="top"><i>Mdc1<sup>Tn(pb-ZG-s)1.1Mrc</sup></i>Transposon induced Allele Detail</th></tr>
- <tr><td>transgenic</td><th align="left" valign="top"><i>Tg<sup>(CAG-sb10)1Dla</sup></i> Transgene Allele Detail</th></tr>
-  <tr><td>transgenic (Transposae)</td><th align="left" valign="top"><i>Tg(aP2-SREBF1c)9884Reh</i> Transgenic Allele Detail</th></tr>
-<tr><td>targeted allele</td><th align="left" valign="top"><i>Ahr<sup>tm1(AHR)Mym</i></sup> Targeted Allele Detail</th></tr>
- <tr><td>gene trapped</td><th align="left" valign="top"><b><i>Alms1<sup>Gt(XH152)Byg</sup></i> Gene trapped Allele Detail</th></tr>
-<tr><td>Gene trapped/no gene nomenclature*</td><th align="left" valign="top"><b><i>Gt(pU21)102lmeg </i> Gene trapped Allele Detail</th></tr>
+<table border="0" cellspacing="1" cellpadding="2" width="75%">
+<tr><th valign="top">Allele type</th><th valign="top">Title example</th></tr>
+  <tr><td>spontaneous</td><th class="thleft"><i>Apoe<sup>shi</sup></i> Spontaneous Allele Detail</td></tr>
+<tr><td>chemically induced</td><th class="thleft"><i>Edn3<sup>tmgc48</sup></i> Chemically induced Allele Detail</th></tr>
+<tr><td>radiation induced</td><th class="thleft"><i>Cryge<sup>nz</sup></i> Radiation induced Allele Detail</th></tr>
+<tr><td>transposon induced</td><th class="thleft"><i>Mdc1<sup>Tn(pb-ZG-s)1.1Mrc</sup></i>Transposon induced Allele Detail</th></tr>
+ <tr><td>transgenic</td><th class="thleft"><i>Tg<sup>(CAG-sb10)1Dla</sup></i> Transgene Allele Detail</th></tr>
+  <tr><td>transgenic (Transposae)</td><th class="thleft"><i>Tg(aP2-SREBF1c)9884Reh</i> Transgenic Allele Detail</th></tr>
+<tr><td>targeted allele</td><th class="thleft"><i>Ahr<sup>tm1(AHR)Mym</i></sup> Targeted Allele Detail</th></tr>
+ <tr><td>gene trapped</td><th class="thleft"><i>Alms1<sup>Gt(XH152)Byg</sup></i> Gene trapped Allele Detail</th></tr>
+<tr><td><nobr>Gene trapped/no gene nomenclature*</td><th class="thleft"><i>Gt(pU21)102lmeg </i> Gene trapped Allele Detail</th></tr>
 
-<tr><td>QTL</td><th align="left" valign="top"><i>Ap7q<sup>C57BL/6ByJ</sup></i> QTL Variant Detail</th></tr>
+<tr><td>QTL</td><th class="thleft"><i>Ap7q<sup>C57BL/6ByJ</sup></i> QTL Variant Detail</th></tr>
 </table>
 
 </blockquote>
@@ -106,80 +133,80 @@
 <table border="1" cellspacing="2" cellpadding="4" width="100%">
 
 <TR>
-<TH>Field</TH>
-<TH>Description</TH>
+<TH>Field</td>
+<TH>Description</td>
 </TR>
 
 
-<tr><th valign="top" align="right"><a name="nomenclature"></a>Nomenclature</th>
+<tr><th valign="top" align="right"><a name="nomenclature"></a>Nomenclature</td>
     <Td>
     <table border="0" cellspacing="2" cellpadding="4" width="!">
-    <tr><th align="left" valign="top">Symbol</th><td valign="top">The symbol of the allele.
+    <tr><td valign="top">Symbol</td><td valign="top">The symbol of the allele.
 The allele symbol is composed of the gene symbol and the allele designation.  If the gene is unknown, only the allele designation appears.</td>
 
 
-   <tr><th align="left" valign="top">Name</th><td>The allele name appears beneath the symbol.  See 
+   <tr><td valign="top">Name</td><td>The allele name appears beneath the symbol.  See 
 <A HREF="<!--#include file='include/mgihome_url.html'-->nomen/gene.shtml">Guidelines for Nomenclature of Genes, Genetic Markers, Alleles, & Mutations in Mouse & Rat</a> for details.</td></tr>
-    <tr><th align="left" valign="top"><nobr>MGI ID</nobr></th><td valign="bottom">The MGI accession identifier for this allele.</TD></tr><tr><th align="left" valign="top">Synonyms</th><td>Other names for this allele.</td></TR>
+    <tr><td valign="top"><nobr>MGI ID</nobr></td><td valign="bottom">The MGI accession identifier for this allele.</TD></tr><tr><td valign="top">Synonyms</td><td>Other names for this allele.</td></TR>
     
-<tr><th valign="top">Gene</th><td valign="top">Some or all of the following: Gene (symbol), Location (chromosome, genome coordinates, strand), Genetic Position <!--and human ortholog of the mouse genetic marker-->.</td>
+<tr><th valign="top">Gene</td><td valign="top">Some or all of the following: Gene (symbol), Location (chromosome, genome coordinates, strand), Genetic Position <!--and human ortholog of the mouse genetic marker-->.</td>
 </tr> </table>
      </td>
 </tr>
 
-<tr><th valign="top" align="right"><a name="origin"></a>Mutation/Variant/Transgene origin</th>
+<tr><th valign="top" align="right"><a name="origin"></a>Mutation/Variant/Transgene origin</td>
     <Td>
     <table border="0" cellspacing="2" cellpadding="4" width="100%">
-  	<tr><TH ALIGN="right" VALIGN="top"><A NAME=""></a><nobr>Mutation/Variant/Transgene origin</nobr></TH><TD VALIGN="top"><ul>
+  	<tr><TH ALIGN="right" VALIGN="top"><A NAME=""></a><nobr>Mutation/Variant/Transgene origin</nobr></td><TD VALIGN="top"><ul>
   	  <li>If a mutant cell line has an accession identifier, this appears. If it does not have an accession ID, the name appears (e.g., ES62, EX65).  The organization that generated the cell line (e.g., Lexicon, BayGenomics, Texas Institute for Medical Genetics, etc.) appears in parentheses. </li>
   	  <li>Variant information may include the <b>Strain of Specimen</b>, and  allele (QTL) and mutation type.</li>
   	 </TD></TR>
-	<TR><TH ALIGN="right" VALIGN="top"><A NAME=""></A>Germline Transmission</TH><td valign="top"> Either the status of a mouse created from this cell line, if germ line or chimera transmission reference is known, or an indication that the transmission status is unknown.</td></tr>
-	<tr><th align="right" valign="top">Parent Cell Line</th><td valign="top">Parent name, and, in parentheses, the cell type (for example, ES Cell). If Parent Cell Line appears as <i>Other (see notes)</i>, there is more information in the <a href="#additional">Additional information</a> section of this report.</td></tr>
-	<TR><TH ALIGN="right" VALIGN="top"><a name=""></a>Strain of Origin</TH>
+	<TR><TH ALIGN="right" VALIGN="top"><A NAME=""></A>Germline Transmission</td><td valign="top"> Either the status of a mouse created from this cell line, if germ line or chimera transmission reference is known, or an indication that the transmission status is unknown.</td></tr>
+	<tr><th align="right" valign="top">Parent Cell Line</td><td valign="top">Parent name, and, in parentheses, the cell type (for example, ES Cell). If Parent Cell Line appears as <i>Other (see notes)</i>, there is more information in the <a href="#additional">Additional information</a> section of this report.</td></tr>
+	<TR><TH ALIGN="right" VALIGN="top"><a name=""></a>Strain of Origin</td>
 <Td ALIGN="left" VALIGN="top">Mouse strain that the allele originated from.</td></tr>
 	</td>
 	</tr>
 	</table>
 
-<TR><th valign="top" align="right"><a name="description"></a>Mutation/Variant/Vector/Transgene description</th>
+<TR><th valign="top" align="right"><a name="description"></a>Mutation/Variant/Vector/Transgene description</td>
    <td>
     <table border="0" cellspacing="2" cellpadding="4" width="100%">
-           	<tr><TH ALIGN="left" VALIGN="top">Allele Type</td><td>Type of allele by mode of origin.</td></tr>
-	<tr><TH ALIGN="left" VALIGN="top">Mutation</td><td>Method that produced this mutation and methodology. When available, a description appears. Any molecular references are linked to MGI Reference Detail reports.</td></tr>
-	<tr><TH ALIGN="left" VALIGN="top">Inheritance</td><td>Phenotypic effect of the allele when heterozygous with the wild type allele. <b>Note:</b> This information is primarily entered for spontaneous and chemically or radiation-induced alleles and QTLs.</td></tr>		
-<tr><TH ALIGN="left" VALIGN="top">Sequence tag</td><td>Click &#9658; to open the display.
+           	<tr><td valign="top">Allele Type</td><td>Type of allele by mode of origin.</td></tr>
+	<tr><td valign="top">Mutation</td><td>Method that produced this mutation and methodology. When available, a description appears. Any molecular references are linked to MGI Reference Detail reports.</td></tr>
+	<tr><td valign="top">Inheritance</td><td>Phenotypic effect of the allele when heterozygous with the wild type allele. <b>Note:</b> This information is primarily entered for spontaneous and chemically or radiation-induced alleles and QTLs.</td></tr>		
+<tr><td valign="top">Sequence tag</td><td>Click &#9658; to open the display.
 Click &#9660; to close the  display.
 		<table border="1" cellspacing="2" cellpadding="4" width="!">
-  		<tr><TH ALIGN="left" VALIGN="top">Tag ID</th><td>Cell line sequence tag identifier, assigned by the creator. The link goes to the external resource for this sequence (for example, IGTC, dbGSS). </td></tr>
-		<tr><TH ALIGN="left" VALIGN="top">GenBank ID</th><td>The dbGSS identifier assigned to this sequence tag.</td></tr>
-		<tr><TH ALIGN="left" VALIGN="top">Method<A NAME="method"><td>Sequencing technique.</td></tr>
-		<tr><TH ALIGN="left" VALIGN="top">Tag Location (strand)</th><td><A NAME="location">Chromosome location, genome coordinates in base pairs, and the indicator of how the strand is oriented to the genome (+ or -), based on NCBI build 37.</td></tr>
-		<tr><TH ALIGN="left" VALIGN="top">Select</th><td><A NAME="select">Click the check box to select a sequence for downloading in FASTA format or forwarding to MGI MouseBLAST.</td></tr>
+  		<tr><td valign="top">Tag ID</td><td>Cell line sequence tag identifier, assigned by the creator. The link goes to the external resource for this sequence (for example, IGTC, dbGSS). </td></tr>
+		<tr><td valign="top">GenBank ID</td><td>The dbGSS identifier assigned to this sequence tag.</td></tr>
+		<tr><td valign="top">Method<A NAME="method"><td>Sequencing technique.</td></tr>
+		<tr><td valign="top">Tag Location (strand)</td><td><A NAME="location">Chromosome location, genome coordinates in base pairs, and the indicator of how the strand is oriented to the genome (+ or -), based on NCBI build 37.</td></tr>
+		<tr><td valign="top">Select</td><td><A NAME="select">Click the check box to select a sequence for downloading in FASTA format or forwarding to MGI MouseBLAST.</td></tr>
 	  	</table>
 		</TD></TR>
-   <tr><th align="left" valign="top"><nobr>Genome Context</nobr></th><td valign="top">Click &#9658; to open the display.
+   <tr><td valign="top"><nobr>Genome Context</nobr></td><td valign="top">Click &#9658; to open the display.
 Click &#9660; to close the  display.<br>The image that appears is a genome browser view of the mutation and contains a link  to MGI GBrowse and all the genome sequence tags in the region.  When numerous gene traps appear, use the Scroll/Zoom feature (yellow arrows, middle of the page) to locate a given trap.</td></tr>
 </TABLE>
 
 
-<TR><th valign="top" align="right"><a name="find_mice"></a>Find Mice (IMSR)</th><td valign="top">Information about the availability of mouse strains and/or cell lines of this allele in the International Mouse Strain Resource (IMSR). There is also an indicator of whether or not there are any strains or lines available for any mutation of this gene.</td>    
+<TR><th valign="top" align="right"><a name="find_mice"></a>Find Mice (IMSR)</td><td valign="top">Information about the availability of mouse strains and/or cell lines of this allele in the International Mouse Strain Resource (IMSR). There is also an indicator of whether or not there are any strains or lines available for any mutation of this gene.</td>    
      </tr>
 
 
-<TR><th valign="top" align="right"><a name="gene_expression"></a>Expression</th>
+<TR><th valign="top" align="right"><a name="gene_expression"></a>Expression</td>
     <Td>
     <table border="0" cellspacing="2" cellpadding="4" width="100%">
-  	<tr><TH ALIGN="left" VALIGN="top">In <b>Mice Carrying this Mutation</b></th><td>Number (in parentheses) of gene expression assay results involving the featured allele, linked to a corresponding Gene Expression Assay Results Summary Report.</td></tr>
+  	<tr><td valign="top">In <b>Mice Carrying this Mutation</b></td><td>Number (in parentheses) of gene expression assay results involving the featured allele, linked to a corresponding Gene Expression Assay Results Summary Report.</td></tr>
     </table>
      </td>
      </tr>
 
-<tr><TR><th valign="top" align="right"><a name="recombinase_specificity"></a>Recombinase specificity</th>
+<tr><TR><th valign="top" align="right"><a name="recombinase_specificity"></a>Recombinase specificity</td>
     <Td><table border="1" cellspacing="1" cellpadding="2" width="95%">
-      <tr><th align="left" valign="top">Specificity in</th><td valign="top">Recombinase activity was assayed and detected for this allele in all (the high-level terms for the) anatomical systems listed.</td></tr>
- <tr><th align="left" valign="top"><nobr>Not Detected in</nobr></th><td valign="Top">Recombinase activity was assayed and not detected for this allele in all (the high-level terms for the) anatomical systems listed.</td></tr>
- <tr><th align="left" valign="top">Driver</th><td valign="Top">Name of promoter and a link to a summary of all recombinase alleles driven by this promoter.</td></tr>
+      <tr><td valign="top">Specificity in</td><td valign="top">Recombinase activity was assayed and detected for this allele in all (the high-level terms for the) anatomical systems listed.</td></tr>
+ <tr><td valign="top"><nobr>Not Detected in</nobr></td><td valign="Top">Recombinase activity was assayed and not detected for this allele in all (the high-level terms for the) anatomical systems listed.</td></tr>
+ <tr><td valign="top">Driver</td><td valign="Top">Name of promoter and a link to a summary of all recombinase alleles driven by this promoter.</td></tr>
 
     </table>
     Each listed system links to a Recombinase Specificity Detail page associating expression assays of type <b>Recombinase reporter</b>,  <b>In situ reporter (knock in)</b> and <b>In situ reporter (transgene)</b> with genotypes. </td></tr>
@@ -188,7 +215,7 @@ Click &#9660; to close the  display.<br>The image that appears is a genome brows
 
 <TR><TH align="right" valign=top><A NAME="summary"></a>Phenotype summary<td valign="top">See <a href="ALLELE_detail_pheno_summary_help.shtml">Interpreting the Phenotype summary table.</a></td></tr>
 
-<tr><TH align="right" VALIGN="top"><A NAME="genotype"></A>Phenotypic data by genotype</th><TD ALIGN="left" VALIGN="top">Phenotypic details for all genotypes that include at least one copy of the specified allele.<br><br><table border cellpadding=4>
+<tr><TH align="right" VALIGN="top"><A NAME="genotype"></A>Phenotypic data by genotype</td><TD ALIGN="left" VALIGN="top">Phenotypic details for all genotypes that include at least one copy of the specified allele.<br><br><table border cellpadding=4>
 <tr><td valign="top">Colored boxes, <br>abbreviations, <br>numbers</td><td valign="top">
 <ul><li>A <a href="phenoview.shtml#key">Key</a> decodes the information.</li>
 <li>Each column heading contains a color, an abbreviation, and a number. </li>
@@ -200,8 +227,8 @@ Click &#9660; to close the  display.<br>The image that appears is a genome brows
 </ul></td></tr>
 
 
-<TR><th align="left" valign="top"><a name="al_comp"></a>Allelic Composition</th><TD VALIGN="top" COLSPAN="2">Genotype of each allele, linked to its MGI Allele Detail report.</TD>
-<TR><Th VALIGN="top" align="left"><nobr>Genetic Background</nobr></Th><TD VALIGN="top" COLSPAN="2">Mouse strains  involved, if known.</TD></tr>
+<TR><td valign="top"><a name="al_comp"></a>Allelic Composition</td><TD VALIGN="top" COLSPAN="2">Genotype of each allele, linked to its MGI Allele Detail report.</TD>
+<TR><Th VALIGN="top" align="left"><nobr>Genetic Background</nobr></td><TD VALIGN="top" COLSPAN="2">Mouse strains  involved, if known.</TD></tr>
 </table>
 <p>Click &#9658; to open a display of any high-level phenotypic terms (e.g., behavior/neurological), in the phenotype descriptions. Beneath the terms are: <ul>
   <li>subterms linked to Mammalian Phenotype Browser Term Detail reports</li>
@@ -211,7 +238,7 @@ Click &#9660; to close the  display.<br>The image that appears is a genome brows
 Click &#9660; to close the  display.</p></td>
 </tr>
 
-<tr><TH align="right" VALIGN="top"><A NAME="models"></A>Disease models</th><TD ALIGN="left" VALIGN="top">List of all mouse genotypes annotated to a disease. Results are sorted into five categories (if there is no result, a category does not appear) for models with:<ul class="lj">
+<tr><TH align="right" VALIGN="top"><A NAME="models"></A>Disease models</td><TD ALIGN="left" VALIGN="top">List of all mouse genotypes annotated to a disease. Results are sorted into five categories (if there is no result, a category does not appear) for models with:<ul class="lj">
     <LI>phenotypic similarity to human disease and etiologies involving orthologs (the human ortholog of the mouse gene is associated with the same disease).  If a genotype appears in this category, it will not be associated with any of the other four categories except transgenes or other mutation types<. </LI>
     <LI>phenotypic similarity to human disease but a distinct etiology (that is, human genes are associated with this disease, but orthologs of those genes do not appear in the mouse genotype).</LI>
     <LI>phenotypic similarity to human diseases with unknown etiology or involving genes where the human ortholog is unknown.</LI>
@@ -219,9 +246,9 @@ Click &#9660; to close the  display.</p></td>
     <LI>no similarity to the expected human disease phenotype (that is, one or more human genes may be associated with the human disease; the mouse genotype may involve mutations in orthologous genes; but the phenotype does not resemble the human disease).</LI></ul>
 
 <TABLE BORDER="1" CELLPADDING="4">
-  <TR><TH ALIGN="left" VALIGN="top">Mouse Models of <br>Human Disease</TH><TD ALIGN="left" VALIGN="top">All human diseases annotated to any mouse genotype containing the allele. Full disease term (e.g., Aniridia, TypeII; Peters Anomaly; Frasier Syndrome; Wilms Tumor 1), linked to the (MGI) Human Disease and Mouse Model Detail report. The OMIM accession identifier appears beneath the term (e.g., 106210; 60387), linked to its OMIM record.</TD></TR>
+  <TR><td valign="top">Mouse Models of <br>Human Disease</td><TD ALIGN="left" VALIGN="top">All human diseases annotated to any mouse genotype containing the allele. Full disease term (e.g., Aniridia, TypeII; Peters Anomaly; Frasier Syndrome; Wilms Tumor 1), linked to the (MGI) Human Disease and Mouse Model Detail report. The OMIM accession identifier appears beneath the term (e.g., 106210; 60387), linked to its OMIM record.</TD></TR>
 
-<TR><TH align="left" VALIGN="top"><a name="notes"></a>Note</TH><TD VALIGN="top">Column containing a number if there is additional information about the disease or model. This information appears below the table, beside the number.  If the word <i>Not</i> appears, it means that the reference's author(s) looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified.</TD></tr>
+<TR><td valign="top"><a name="notes"></a>Note</td><TD VALIGN="top">Column containing a number if there is additional information about the disease or model. This information appears below the table, beside the number.  If the word <i>Not</i> appears, it means that the reference's author(s) looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified.</TD></tr>
 
 <tr><td valign="top">Colored boxes, <br>abbreviations, <br>numbers</td><td valign="top">
 <ul><li>A <a href="phenoview.shtml#key">Key</a> decodes the information.</li>
@@ -233,13 +260,13 @@ Click &#9660; to close the  display.</p></td>
 <li>Identical colors, abbreviations, and numbers appear in the <b>Phenotypic data by genotype</b> and <b>Disease models</b> sections, offering alternate (or more specific) views of the data.</li>
 </ul></td></tr>
 
- <TR><TH ALIGN="left" VALIGN="top">Genotype</th><TD VALIGN="top"><TABLE BORDER="1" CELLPADDING="2">
-<TR><TH ALIGN="left" VALIGN="top"><nobr>Allelic Composition</TH><TD VALIGN="top">Allele pairs present in the genotype. Each allele is linked to its corresponding Phenotypic Allele Detail report.</TD></tr>
- <TR><TH ALIGN="left" VALIGN="top"><nobr>Genetic Background</nobr></TH><TD VALIGN="top">Mouse strains involved, if known.</TD></tr>
+ <TR><td valign="top">Genotype</td><TD VALIGN="top"><TABLE BORDER="1" CELLPADDING="2">
+<TR><td valign="top"><nobr>Allelic Composition</td><TD VALIGN="top">Allele pairs present in the genotype. Each allele is linked to its corresponding Phenotypic Allele Detail report.</TD></tr>
+ <TR><td valign="top"><nobr>Genetic Background</nobr></td><TD VALIGN="top">Mouse strains involved, if known.</TD></tr>
 </TABLE></td></tr>
- <TR><TH ALIGN="left" VALIGN="top">Ref(s)</TH><TD VALIGN="top">The supporting reference linked by its MGI reference number to the MGI Reference Detail report containing the full citation. </TD></tr>
+ <TR><td valign="top">Ref(s)</td><TD VALIGN="top">The supporting reference linked by its MGI reference number to the MGI Reference Detail report containing the full citation. </TD></tr>
 </TABLE></td></tr>
-<tr><TH align="right" VALIGN="top"><A NAME="additional"></A>Notes</th>
+<tr><TH align="right" VALIGN="top"><A NAME="additional"></A>Notes</td>
 <td valign="top">Miscellaneous data about the allele that does not appear in the above categories such as:
 <ul>
 <li>GenBank accession identifier for the mutation.</li>
@@ -249,7 +276,7 @@ Click &#9660; to close the  display.</p></td>
 </ul>
 If this field is not present, it means that there is currently no information of this type in the MGI database for this allele.</td></tr>
 
-<tr><TH align="right" VALIGN="top"><A NAME="reffs"></A>References</th><td valign=top><ul>
+<tr><TH align="right" VALIGN="top"><A NAME="reffs"></A>References</td><td valign=top><ul>
   <li>Original is a J: number (MGI identifier) link to an MGI Reference Detail report containing the full citation for the original allele reference. </li>
   <li>All references (#) links to a Reference Summary report on all MGI papers examining the phenotype of the allele.</LI>
    </UL>
