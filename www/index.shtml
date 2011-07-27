@@ -66,7 +66,14 @@
 
   	 <dt><b>Maps</b></dt>   
   	<dd><a href="maps_and_mapping_data_help.shtml" onclick="javascript:openHelpWindow('maps_and_mapping_data_help.shtml'); return false;">Retrieving Maps & Mapping Data</a></dd>
+<dd><a href="linkmap_help.shtml" onclick="javascript:openHelpWindow('linkmap_help
+
+
+.shtml'); return false;">Using the Linkage Maps Query Form</a></dd>
   	</blockquote>
+
+
+
   	
   <!-- Phenotypes -->
   <a name="help_pad"></a>
