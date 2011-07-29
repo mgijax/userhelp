@@ -293,7 +293,7 @@ As an example, here is how you can find In situ reporter (knock-in) assays that 
 <li>Check the box in front of Anatomical Structure and enter <i>diencephalon</i> in its field. </li>
 <li>Check Expression and use its default setting: Detected.</li>
 <li>Check Assay Type and select <i>in situ reporter (knock-in)</i>.</li>
-<li>Click the Count button to see the number of expected results. For example: 262 assays out of a total of 1181425 (262/1181425). </li>
+<li>Click the Count button to see the number of expected results. For example: 262 records out of a total of 1181425 (262/1181425). </li>
 <li>Click on  <a href="#attribute">Attributes</a> in the left hand column to select the results. </li>
 <li>For this example, just use the default settings. </li>
 <li>Click the Results button. </li>
