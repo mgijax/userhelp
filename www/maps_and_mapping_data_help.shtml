@@ -89,7 +89,7 @@ function openHelpWindow(helpFile){
 </UL>
 * TEXT indicates a report on experimental results with no raw data provided.
 </p>
-<p>Another query option on the Maps and Mapping Data menu is Mouse Genome Browser. Use it to display (or browse) mouse genome annotations.  Current Mouse Genome Browser tracks include QTL, SNP density, alleles (gene-trapped, induced, spontaneous, targeted, transgenic), Ensembl, NCBI, and VEGA gene models, MGI representative transcripts, STS markers linked to UniSTS at NCBI, phenotypes,  and SNPs.
+<p>Another query option on the Maps and Mapping Data menu is the Mouse Genome Browser. Use it to display (or browse) mouse genome annotations.  Current Mouse Genome Browser tracks include QTL, SNP density, alleles (gene-trapped, induced, spontaneous, targeted, transgenic), Ensembl, NCBI, and VEGA gene models, MGI representative transcripts, STS markers linked to UniSTS at NCBI, phenotypes,  and SNPs.
 </p>
 <a href="#top"><font size="-1">Top</font></a></P>
 
@@ -158,7 +158,7 @@ function openHelpWindow(helpFile){
 
 <TABLE BORDER CELLPADDING="4">
 <TR>  <TH>Field</th> <TH>Description</th>  </TR>
-<TR> <TH ALIGN="left" VALIGN="top">Marker Symbol/Name</TD> <TD><A NAME="sym"></A>Symbol or name for a mouse genetic marker. You can enter one or more symbols or names (separated by commas). By default, you search on current symbols/names and synonyms. However, you can limit your search to current symbols (no search of names) or current symbols/names only (no search of synonyms). The <a href="operators.shtml">operators</a> present additional search options. The default is <i>contains</i>; the system returns only the items with a symbol or name containing the characters you enter.
+<TR> <TH ALIGN="left" VALIGN="top">Marker Symbol/Name</TD> <TD><A NAME="sym"></A>Symbol or name for a mouse genetic marker. You can enter one or more symbols or names (separated by commas). By default, you search on current symbols/names and synonyms. However, you can limit your search to current symbols (no search of names) or current symbols/names only (no search of synonyms). The <a href="MISC_operators_help.shtml">operators</a> present additional search options. The default is <i>contains</i>; the system returns only the items with a symbol or name containing the characters you enter.
 <P>Note on the NOT operator: Many genes have withdrawn symbols and synonyms. When using the NOT operator with the default setting, a gene appears if any of its symbols (including withdrawns and synonyms) does not match the query. Therefore, some genes whose current symbol matches the query will appear, in apparent contradiction of your intent. You may find it more useful to change the selector to current symbols when using the NOT operator.
 <P>MGI database searching is NOT case sensitive.</TD>  </TR>
 
