@@ -15,8 +15,6 @@ function openHelpWindow(helpFile){
 <style type="text/css">
 </style>
 
-<!--#include file='include/templateBlankBodyStart.html'-->
-
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
@@ -34,6 +32,8 @@ Using Map Position Fields on MGI Query Forms
       <!--#include file='help_toolbar.shtml'-->
     </tr>
 </table>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
 <!-- Body of User Help -->
 <hr>
 <A NAME="top"></A>
