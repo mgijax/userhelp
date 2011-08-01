@@ -207,7 +207,7 @@ Query Results -- Summary page: alleles with OMIM annotations to associated genot
 <TH ALIGN="left" VALIGN="top"><A NAME="polymorphisms"></A>Polymorphisms</TH>
 <TD VALIGN="top">Links to the following MGI summary reports (the number available appears in parentheses):<ul>
   <li>Polymorphisms Query Results -- Summary  for any RFLPs/PCRs for this marker:  </li>
-<li>Mouse SNPs Query Results -- Summary for any SNPs within 2 kb of this marker.  <b>Note:</b> If MGI gene and marker genome coordinates are out of sync with the SNP data, <b>within 2 kb of this marker</b> does not appear, and the summary report indicates the discrepancy. See <a href="snp_discrepancy_help.shtml">Understanding Mouse SNP Coordinate Discrepancies</a> for details.
+<li>Mouse SNPs Query Results -- Summary for any SNPs within 2 kb of this marker.  <b>Note:</b> If MGI gene and marker genome coordinates are out of sync with the SNP data, <b>within 2 kb of this marker</b> does not appear, and the summary report indicates the discrepancy. See <a href="SNP_discrepancy_help.shtml">Understanding Mouse SNP Coordinate Discrepancies</a> for details.
 </ul>
 </TD>
 </TR>
