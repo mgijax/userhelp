@@ -114,7 +114,7 @@ human ortholog symbol, human ortholog name, other ortholog symbol.</TD></TR>
 
 <H3><A name="hierarchy"></a>What determines the sort order on a summary page?</H3>
 <ol>
-<li>The <b>Nomenclature</b> sort (the default) is the result of  the interaction of two hierarchies: primary and secondary. The first items to appear in summary report are any results that equal your search criteria, in secondary hierarchy order. Next all results that begin with your search  criteria appear, in the same order. Finally, all results containing your criteria appear, again in the same order.
+<li>The <b>Nomenclature</b> sort (the default) is the result of  the interaction of two hierarchies: primary and secondary. The first items to appear in the summary report are any results that equal your search criteria, in secondary hierarchy order. Next all results that begin with your search  criteria appear, in the same order. Finally, all results containing your criteria appear, again in the same order.
   <ul>
   <LI>Primary
     <OL>
