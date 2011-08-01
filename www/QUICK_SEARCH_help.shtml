@@ -159,7 +159,7 @@ function openHelpWindow(helpFile){
 <blockquote>
 <table border="1" cellspacing="1" cellpadding="3" width="!">
 <tr><th valign="top">Issue</th><th valign="top width="45%">Rule</th><th valign="top">Examples</th></tr>
-<tr><td valign="top"><a name="combining"></a>Combining terms in a search</td><td valign="top">Quick Search does not combine whatever you enter into "meaningful" associations. Rather, it attempts to match as much of your text as possible in individual nomenclature or vocabulary terms, synonyms, or definitions.<td valign="top">A search on <i>cadherin hindbrain</i> does not return genes in the cadherin family that are expressed in the hindbrain. To perform complex searches like this, consider using MGI's advanced query forms. Click Search--> 
+<tr><td valign="top"><a name="combining"></a>Combining terms in a search</td><td valign="top">Quick Search does not combine whatever you enter into "meaningful" associations. Rather, it attempts to match as much of your text as possible in individual nomenclature or vocabulary terms, synonyms, or definitions.<td valign="top">A search on <i>cadherin hindbrain</i> does not return genes in the cadherin family that are expressed in the hindbrain. To perform complex searches like this, consider using MGI's advanced query forms. Click 
 <a href="<!--#include file='include/menus_url.html'-->allsearch.shtml">All Search Tools</a> for a complete list.</td></tr>
 
 <tr><td valign="top"><a name="stem_to"></a>Stemming to root words</td><td valign="top"><li>Quick Search <a href="http://en.wikipedia.org/wiki/Stemming" target="new">stems</a> words: it removes suffixes and searches using root words.</li><br> <li>Quick Search stems words even when they are enclosed in quotation marks.</li></td><td valign="top"><li>A search for <i>stem cell factor receptor binding</i> searches for  <i>stem-</i>, <i>cell-</i> (e.g.  cellular), <i>factor-,</i> <i>recept-</i> (e.g.  reception); <i>bind-</i> (e.g.  binds).</li> <li>A search for <i>cell division</i> also looks for <i>cell- divis-</i>.</li>.
@@ -384,7 +384,7 @@ Search engine (<a href="http://en.wikipedia.org/wiki/Apache_Lucene" target="new"
  <tr><td valign="top">Can it cross boundaries between subject areas?<br>
 For example, can I find genes with a particular molecular function expressed in a specific tissue? <br>...combine a nomenclature query with a GO or MP term and a disease?<br>
 ...confine the search to a specific coordinate range or Theiler stage? </td>
-</td><td valign="top">No.</td><td valign="top">Yes. Click Search--><a href="<!--#include file='include/menus_url.html'-->allsearch.shtml">All Search Tools</a> for a complete list of all available MGI query forms.</td></tr>
+</td><td valign="top">No.</td><td valign="top">Yes. Click <a href="<!--#include file='include/menus_url.html'-->allsearch.shtml">All Search Tools</a> for a complete list of all available MGI query forms.</td></tr>
  <tr><td valign="top">Can I choose how my results are sorted? </td><td valign="top">No.</td><td valign="top">Yes, many  MGI query forms allow you to customize your output in this way.</td></tr> 
 <tr><td valign="top">"Contains" searching?</td><td valign="top">No.</td><td valign="top">Yes.</td></tr>
 </table></p>
