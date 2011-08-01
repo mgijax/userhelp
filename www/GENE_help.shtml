@@ -174,7 +174,7 @@ See <a href="MISC_map_position_help.shtml">Using Map Position Fields on MGI Quer
       <tr>
        <th align="left" valign="top"><a name="sort_by"></a>Sort by</th>
        <td valign="top">Click one of the choices (Nomenclature, Genome Coordinates, or cM Position) to determine the order of any results on the summary page. <br>
-The combination of sort option and <a href="#gene_nomenclature">search</a> parameter affects the order and type of results listed on this summary page.<ul>
+The combination of sort option and search parameter affects the order and type of results listed on this summary page.<ul>
 <li>If you search using <i>current & old symbols/names, synonyms, alleles, orthologs,</i> the summary page columns are  Chr, cM, Genome Coordinates, Symbol/Name and Matching Text.
 <li>If you search on <i>current symbols/names</i>, the summary page column headings are Chr, cM, Genome Coordinates, and Symbol/Name. </td>
       </tr>
