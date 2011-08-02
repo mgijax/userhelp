@@ -181,6 +181,7 @@
 	<dd><a href="QUICK_SEARCH_help.shtml" onclick="javascript:openHelpWindow('QUICK_SEARCH_help.shtml'); return false;">Using the Quick Search Tool</a></dd>
 	<dd><a href="QUICK_SEARCH_examples_help.shtml" onclick="javascript:openHelpWindow('QUICK_SEARCH_examples_help.shtml'); return false;">Quick Search Examples and Questions</a></dd>
 
+<dt><b>References</b></dt>
 <dd><a href="reference_help.shtml" onclick="javascript:openHelpWindow('reference_help.shtml'); return false;">Using the Reference Query Form</a></dd>
 
   <dt><b>Batch Querying / Interpreting Results</b></dt>
