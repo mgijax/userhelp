@@ -130,9 +130,9 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 
  <TR><TH ALIGN="left" VALIGN="top"><A NAME="clone_collection"></A>Clone collection</TH><TD VALIGN="top">Use this field to restrict your search for sequences to those derived from a clone collection set (clone libraries from one or more collections of libraries are called <I>clone collections</I>). For example, the IMAGE clone collection is the group of clones from all IMAGE clone libraries.  The default is  to <B>not</B> restrict the search to any particular clone collection.
 <UL STYLE="padding-left:30px">
-  <LI>To restrict the search, select one or more of the clone collections from the drop-down list. (For details such as the differences between the sets on this list, see <A HREF="clone_collections.shtml">MGI Clone Collections</A>.)</LI>
+  <LI>To restrict the search, select one or more of the clone collections from the drop-down list. (For details such as the differences between the sets on this list, see <A HREF="MISC_clone_collection_help.shtml">MGI Clone Collections</A>.)</LI>
   <LI>Select ANY if you do not want to restrict the search by clone collection. If you select multiple clone collections, the search returns data from any of the selected collections.</LI>
-  <LI>To make multiple selections, see <A HREF="general_blurb.shtml#options">How do I select more than one option on a list?</A></LI>
+  <LI>To make multiple selections, see <A HREF="MISC_usingQFs_help.shtml#options">How do I select more than one option on a list?</A></LI>
   </UL></TD></TR>
         </TABLE></TD></TR>
 
@@ -278,6 +278,8 @@ Riken (FANTOM), RPCI-23, RPCI-24, IMAGE, NIA, and so on.</TD></TR>
 
 <H3><A NAME="ftp"></A><A HREF="SEQUENCE_summary_help.shtml#ftp">I got a summary report with a "Link to Results on FTP Site" message. What do I do now?</a></H3>
 
+<P>See <A HREF="SEQUENCE_summary_help.shtml#ftp">Using Sequence Summary Reports.</A>
+</P>
 <A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
 
  <H3><A NAME="summary"></A>How do I interpret the summary results of my query?</H3>
