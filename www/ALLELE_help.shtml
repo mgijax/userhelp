@@ -274,14 +274,14 @@ There are several ways to use the map position parameters (<A HREF="#chromosome"
 
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="categories"></A>Categories</TH><TD VALIGN="top">Use these check boxes to search by phenotypic allele categories and/or QTL for alleles or variants resulting in phenotypic change. <br><br>
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="2" WIDTH="100%">
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="phenotypic_alleles"></A>Phenotypic Alleles</TH><TD VALIGN="top">Mode of origin of a new allelic state. The default is to search all types. For example, selecting <I>Targeted (knock-out)</I> may yield over 2000 alleles; if you want to narrow your search to return only those targeted mutations involved in conditional mutations, click the check box next to Return conditionally targeted genotypes only.<BR><br>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="phenotypic_alleles"></A>Phenotypic Alleles</TH><TD VALIGN="top">Mode of origin of a new allelic state. The default is to search all types. For example, selecting <I>Targeted (knock-out)</I> may yield over 5000 alleles; if you want to narrow your search to return only those targeted mutations involved in conditional mutations, click the check box next to Return conditionally targeted genotypes only.<BR><br>
 <B>Notes:</B> 
 <ul>
   <li>A conditionally targeted genotype is dependent on the presence of some other factor (often a DNA sequence that expresses a protein functioning in specific recombination events). In MGI, <I>conditional</I> is a genotype attribute, and this is most commonly used to represent Cre-mediated excision of genomic sequences flanked by loxP sites; in most instances, this is accompanied by simultaneous insertion of some selectable marker (<I>e.g.</I> neomycin). The excised genotype, often associated with a phenotype, is dependent (or conditional) on the presence of the Cre-expressing construct.</li>
   <li>Options for searching by allele type include spontaneous, chemically induced (all, ENU), radiation induced, transgenic (all; random, expressed; random, gene disruption; Cre/Flp),
 gene trapped, targeted (all, Floxed/Frt, Reporter, knock-out, knock-in). See 
-<a href="allele_types.shtml">Allele Types</a> for how MGI differentiates these categories.</li>
-  <li>You can exclude cell-line-only alleles from your search. See <a href="genetrap_usecases.shtml#distinguish">Gene Trap Questions and Answers</a> for how to do this.</li>
+<a href="ALLELE_phenotypic_categories_help.shtml">Allele Types</a> for how MGI differentiates these categories.</li>
+  <li>You can exclude cell-line-only alleles from your search. See <a href="genetrap_usecase_help.shtml#distinguish">Gene Trap Questions and Answers</a> for how to do this.</li>
 </ul></TD></TR>
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="QTL"></A>QTL</TH><TD ALIGN="left" VALIGN="top">Quantitative Trait Locus.  A  polymorphic locus with alleles that differentially affect the expression of a continuously distributed phenotypic trait. Usually, a QTL is a marker described by statistical association to quantitative variation in the particular phenotypic trait, thought to be controlled by the cumulative action of alleles at multiple loci. <b> Note:</b> Traditionally, MGI does not define major modifier loci as QTL although the literature often refers to these as QTL.
 </TD>
