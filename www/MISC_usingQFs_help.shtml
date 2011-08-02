@@ -38,6 +38,7 @@ function openHelpWindow(helpFile){
  <UL>
   <li><A HREF="#howdo">How do I submit a query?</a></li>
   <li><A href="#operators">What are operators and how do they affect my query?</a></li>
+  <li><a href=""#options">How do I select more than one item on a list?</a></li>
  <li><a href="MISC_boolean_search_help.shtml">When should I use Boolean operators (ANDs, ORs) and/or quotation marks?</a></li>
    <li><A href="#casesen">Does it matter what case I use when I type values in the fields?</a></li>
   <LI><A HREF="#sort">How do the sort options work?</a></li>
