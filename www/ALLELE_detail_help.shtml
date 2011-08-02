@@ -60,11 +60,11 @@ function openHelpWindow(helpFile){
  
 <P>See also:
 <UL>
-  <LI><A HREF="allele_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
-  <LI><A HREF="allele_summary_report.shtml">Interpreting a Phenotypic Allele Summary</A></LI>
-<li><A HREF="phenoview.shtml">Interpreting the Phenotype Summary in Allele Details</a></li>
-<li><a href="genetrap_usecases.shtml">Gene Trap Questions and Answers</a></li>
-<li><a href="recombinase_alleles_summary_report.shtml">Using Recombinase Alleles -- Tissue Specificity Summary Reports</a></li>
+  <LI><A HREF="ALLELE_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
+  <LI><A HREF="ALLELE_summary_help.shtml">Interpreting a Phenotypic Allele Summary</A></LI>
+<li><A HREF="ALLELE_detail_pheno_summary_help.shtml">Interpreting the Phenotype Summary in Allele Details</a></li>
+<li><a href="genetrap_usecase_help.shtml">Gene Trap Questions and Answers</a></li>
+<li><a href="RECOMBINASE_summary_help.shtml">Using Recombinase Alleles -- Tissue Specificity Summary Reports</a></li>
 
   <LI><A HREF="<!--#include file='include/glossary_url.html'-->">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
  <li> <A HREF="<!--#include file='include/mgihome_url.html'-->nomen/gene.shtml">Guidelines for Nomenclature of Genes, Genetic Markers, Alleles, & Mutations in Mouse & Rat</a></li>
@@ -77,7 +77,7 @@ function openHelpWindow(helpFile){
 <blockquote>
 [<b><i>allele symbol</i></b>]<br> [<b><i>allele type</i></b>] <b>Detail</b>
 </BLOCKQUOTE>
-[allele type] is the <a href="allele_help.shtml#categories">category </a> used to narrow the allele search. The category can be spontaneous, induced (chemically, radiation, or transposon), transgenic (random, expressed; random, gene disruption; Cre/Flp; transposase), gene trapped, targeted (floxed/frt, reporte, knock-out, knock-in) or QTL. </i> 
+[allele type] is the <a href="ALLELE_help.shtml#categories">category </a> used to narrow the allele search. The category can be spontaneous, induced (chemically, radiation, or transposon), transgenic (random, expressed; random, gene disruption; Cre/Flp; transposase), gene trapped, targeted (floxed/frt, reporte, knock-out, knock-in) or QTL. </i> 
 <p>As examples:
 
 <blockquote>
@@ -101,7 +101,7 @@ function openHelpWindow(helpFile){
 *  See <a href="genetrap_usecases.shtml#no_association">Why aren't all gene traps associated with a gene?</a> for details.)</p>
 
 </blockquote>
-<A HREF="#top"><font size=-1>Back to Top</font></A>
+<A HREF="#top"><font size=-1>Top</font></A>
 
 
 <h4><a name="welcome"></a>Your Input Welcome</i></h4> 
@@ -111,7 +111,7 @@ function openHelpWindow(helpFile){
 <h4><a name="image"></a>Images</h4>
 <p>If the MGI database contains multiple images for the mouse, a representative image appears on the Phenotypic Allele Detail page (top right). Click anywhere on the image to see the Image Detail page for the representative image or click Show the <b><i>#</i> image(s)</b> involving this allele</b> to view them all.</p>
 
-<A HREF="#top"><font size=-1>Back to Top</font></A>
+<A HREF="#top"><font size=-1>Top</font></A>
 
 
 <h4><a name="fields"></a>Fields</h4>
@@ -186,7 +186,7 @@ Click &#9660; to close the  display.
 	  	</table>
 		</TD></TR>
    <tr><td valign="top"><nobr>Genome Context</nobr></td><td valign="top">Click &#9658; to open the display.
-Click &#9660; to close the  display.<br>The image that appears is a genome browser view of the mutation and contains a link  to MGI GBrowse and all the genome sequence tags in the region.  When numerous gene traps appear, use the Scroll/Zoom feature (yellow arrows, middle of the page) to locate a given trap.</td></tr>
+Click &#9660; to close the  display.<br>The image that appears is a genome browser view of the mutation and contains a link  to the MGI Mouse Genome Browser and all the genome sequence tags in the region.  When numerous gene traps appear, use the Scroll/Zoom feature (yellow arrows, middle of the page) to locate a given trap.</td></tr>
 </TABLE>
 
 
@@ -283,6 +283,6 @@ If this field is not present, it means that there is currently no information of
     </td></tr></table>
 
 </p>
-
+<A HREF="#top"><font size=-1>Top</font></A>
 
 <!--#include file="include/templateBlankBodyStop.html"-->
