@@ -45,7 +45,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
      <ul>
    <li><a href="#mp_ontology">Is there a list of phenotype terms to select from?</a></li>
   <li><a href="#disease_ontology">Is there a list of disease terms to select from?</a></li>
-    <li><a href="phenotype_highlevel_help.shtml#whatis">How do I make choices on the Anatomical Systems Affected by Phenotypes list?</a></li>
+    <li><a href="ALLELE_phenotype_highlevel_help.shtml#whatis">How do I make choices on the Anatomical Systems Affected by Phenotypes list?</a></li>
   <li><a href="#relationship">Can I query using both a phenotype term and a disease term?</a></li>
 <li><a href="#sort">How do the sort options work?</a></li>
 <LI><A HREF="#operators">How do the operators in drop-down boxes on the Nomenclature & location field affect my query?</A></LI>
@@ -59,9 +59,9 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 
  <LI><A HREF="allele_summary_help.shtml">Where can I find answers to questions about the summary report resulting from my query?</A></LI>
  <LI><A HREF="#link">How can I find more detail on my query?</A></LI>
- <LI><A HREF="allele_detail_help.shtml">Where can I find answers to questions about the detail report resulting from my query?</A></LI>
+ <LI><A HREF="ALLELE_detail_help.shtml">Where can I find answers to questions about the detail report resulting from my query?</A></LI>
  <li><A href="#no_results">What if my query returns no results?</a></li>
-<LI><A HREF="boolean_search_tips.shtml#examples">What are some examples of queries using phenotypic terms?</A></LI>
+<LI><A HREF="MISC_boolean_search_help.shtml#examples">What are some examples of queries using phenotypic terms?</A></LI>
  </UL>
 <!--<P>See also:
 <UL>
@@ -79,7 +79,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <p>Use this query form to find  mutant or genetically engineered alleles, transgenes, or QTL variants by phenotype annotation, human disease annotation, nomenclature, chromosomal location, or allele categories. You can enter any combination of phenotype terms, disease terms, and accession identifiers(IDs).
  </P>
 <a href="#top"><font size="-1">Top</font></a>
-<H3><A NAME="glossary"></a>How does MGI define <I>phenotype, disease</I>, and <I>allele</I>?  Are there definitions for common terms unique to MGI?</A></LI>
+<H3><A NAME="glossary"></a>How does MGI define <I>phenotype, disease</I>, and <I>allele</I>?
 </H3>
 <P><table border="0" cellspacing="0" cellpadding="0" width="!%">
  <tr><td valign="top"><i>phenotype</i></td><td>A description of the observable state of an individual with respect to some inherited characteristic. Often, individuals with different genotypes display the same phenotype. See also <I>dominant</I> and <I>recessive</I> in the <A HREF="<!--#include file='include/glossary_url.html'-->">MGI Glossary</A>.<br>
@@ -101,7 +101,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <p><b>Note:</b> Some terms may have unique definitions in the context of MGI queries and results. For more information, see:
 <ul>
 <li><A HREF="<!--#include file='include/glossary_url.html'-->">MGI Glossary</A> for how MGI defines terms such as allele type and compound allele combination</li>
-<li>User documentation for the <a href="allele_summary_report.shtml">summary</a> and <a href="allele_detail_report.shtml">detail</a> reports resulting from your searches.</li>
+<li>User documentation for the <a href="ALLELE_summary_help.shtml">summary</a> and <a href="ALLELE_detail_help.shtml">detail</a> reports resulting from your searches.</li>
 </ul> 
 </P>
 <a href="#top"><font size="-1">Top</font></a>
@@ -116,33 +116,33 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 </P>
 <p>See also:
    <ul>
-    <li><A HREF="general_blurb.shtml#howdo">How do I submit a query?</a></li>
-       <li><a href="general_blurb.shtml#operators">What are operators and how do they affect my query?</a></li>
-    <li><a href="general_blurb.shtml#options">How do I select more than one item on a list?</a></li>
-  <li><a href="general_blurb.shtml#casesen">Does it matter what case I use when I type values in the fields?</a></li>
+    <li><A HREF="MISC_usingQFs_help.shtml#howdo">How do I submit a query?</a></li>
+       <li><a href="MISC_operators_help.shtml#operators">What are operators and how do they affect my query?</a></li>
+    <li><a href="MISC_usingQFs_help.shtml#options">How do I select more than one item on a list?</a></li>
+  <li><a href="MISC_boolean_search_help#case">Does it matter what case I use when I type values in the fields?</a></li>
   
 <li><A href="#output">Are there different ways to view the output of my query?</A></li>
 
-    <li><a href="general_blurb.shtml#maxno">Is there a maximum number of results I can get back all at once?</a></li>
-      <LI><a href="general_blurb.shtml#speed">Is there a way to speed up a query?</a>
+    <li><a href="MISC_usingQFs_help.shtml#maxno">Is there a maximum number of results I can get back all at once?</a></li>
+      <LI><a href="MISC_usingQFs_help.shtml#speed">Is there a way to speed up a query?</a>
 </ul>
 </p><a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="mp_ontology"></a>Is there a list of phenotype terms to select from?</h3>
 <p>Yes. There are two ways to get phenotype lists from the Phenotypes, Alleles, and Disease Models Query Form:
    <ol>
-     <li>Click  Anatomical Systems Affected by Phenotypes to bring up an abbreviated list, organized  roughly by system (cardiovascular, hematopoietic, and so on). The list is in alphabetical order and you can select as many terms as desired. Once you click OK, the terms populate the query box. The default relationship between the terms is AND (see <A HREF="boolean_search_tips.shtml#examples">What are some examples of queries and results?</A> and <a href="boolean_search_tips.shtml">Using Full-Text Searches on MGI Query Forms</a>).</LI>
+     <li>Click  Anatomical Systems Affected by Phenotypes to bring up an abbreviated list, organized  roughly by system (cardiovascular, hematopoietic, and so on). The list is in alphabetical order and you can select as many terms as desired. Once you click OK, the terms populate the query box. The default relationship between the terms is AND (see <A HREF="MISC_boolean_search_help.shtml#examples">What are some examples of queries and results?</A> and <a href="MISC_boolean_search_help.shtml">Using Full-Text Searches on MGI Query Forms</a>).</LI>
 
-<li>Click Full Mammalian Phenotype (MP) Ontology to activate the Mammalian Phenotype Browser. Click to navigate the MP hierarchy until you find the term you are looking for. See <a href="mp_browser_help.shtml">Using the Mammalian Phenotype (MP) Browser</a> for additional help.</li>
+<li>Click Full Mammalian Phenotype (MP) Ontology to activate the Mammalian Phenotype Browser. Click to navigate the MP hierarchy until you find the term you are looking for. See <a href="VOCAB_mp_browser_help.shtml">Using the Mammalian Phenotype (MP) Browser</a> for additional help.</li>
    </ol>
 </P>
 <a href="#top"><font size="-1">Top</font></a>
 <h3><a name="disease_ontology"></a>Is there a list of disease terms to select from?</h3>
-<p>Yes.  To get a list of disease terms from the Phenotypes, Alleles, and Disease Models Query Form, click Human Disease (OMIM) Vocabulary to activate the Human Disease Vocabulary Browser.  Navigate the vocabulary until you find the term you are looking for.  See <a href="omim_browser_help.shtml">Using the Human Disease Vocabulary Browser</a> for additional help.
+<p>Yes.  To get a list of disease terms from the Phenotypes, Alleles, and Disease Models Query Form, click Human Disease (OMIM) Vocabulary to activate the Human Disease Vocabulary Browser.  Navigate the vocabulary until you find the term you are looking for.  See <a href="VOCAB_omim_browser_help.shtml">Using the Human Disease Vocabulary Browser</a> for additional help.
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 <h3>How do I make choices on the Anatomical Systems Affected by Phenotypes list?</h3>
-<p>See <a href="phenotype_highlevel_help.shtml#whatis">How do I make choices on the Anatomical Systems Affected by Phenotypes list?</a>.</p>
+<p>See <a href="ALLELE_phenotype_highlevel_help.shtml#whatis">How do I make choices on the Anatomical Systems Affected by Phenotypes list?</a>.</p>
 <a href="#top"><font size="-1">Top</font></a>
 
 
@@ -176,7 +176,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <a href="#top"><font size="-1">Top</font></a>
 
 <H3><A NAME="operators"></A>How do the operators in drop-down boxes on the Nomenclature & location field affect my query?</H3>
-<P>The operators in the drop-down boxes expand or narrow the effect of your search.  Click the down arrow to see all the available options. (See <a href="operators.shtml">Using Operators on MGI Query Forms</a> for additional details.)
+<P>The operators in the drop-down boxes expand or narrow the effect of your search.  Click the down arrow to see all the available options. (See <a href="MISC_operators_help.shtml">Using Operators on MGI Query Forms</a> for additional details.)
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 <H3><A NAME="field"></A>What values are acceptable in each of the fields?</H3>
@@ -204,7 +204,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
   <LI>Click <B>Anatomical Systems Affected by Phenotypes</B>. The Phenotypes Selection List appears.</LI>
   <LI>Click high-level terms relevant to your search, such as <I>behavior OR neurological</I>, <I>craniofacial</I>, and so on. You can make multiple choices. </LI>
 <LI>Click <B>OK</B>. The selections you made appear in the <B>Phenotype/Disease</B> box on the query form. You can edit the terms.<br>
- <br><b>Note:</b> For details on selecting multiple terms, editing terms, and for why your selections appear as they do when they populate the Phenotype/Disease box, see <a href="phenotype_highlevel_help.shtml">Using the Phenotypes Selection List</a>.</li>
+ <br><b>Note:</b> For details on selecting multiple terms, editing terms, and for why your selections appear as they do when they populate the Phenotype/Disease box, see <a href="ALLELE_phenotype_highlevel_help.shtml">Using the Phenotypes Selection List</a>.</li>
 </OL>
 <P>To select MP terms:
  <OL>
@@ -234,7 +234,7 @@ The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkin
   <LI>AND finds text that includes <B>both</B> the term before it and the term after it; for example, <I>heart and defect</I> finds <I>heart defect</I> but not <I>heart </I>and not <I>defect</I>.</LI>
   <LI>OR finds text that includes either the term before it or the one after; for example,  <I>heart</I> or <I>defect</I> finds any text containing either <I>heart</I> or <I>defect</I>. </LI>
   </UL>
-<LI>See <A HREF="boolean_search_tips.shtml">Using Full-Text Searches on MGI Query Forms</A> for using quotation marks, parentheses, and white space with search terms.</P>
+<LI>See <A HREF="MISC_boolean_search_help.shtml">Using Full-Text Searches on MGI Query Forms</A> for using quotation marks, parentheses, and white space with search terms.</P>
 </UL>
 </P>
 
@@ -335,12 +335,12 @@ gene trapped, targeted (all, Floxed/Frt, Reporter, knock-out, knock-in). See
 
 
 <h3>Where can I find answers to questions about gene trapped alleles?</h3>
-<p>See <a href="genetrap_usecases.shtml">Gene Trap Questions and Answers</a>.</p>
+<p>See <a href="genetrap_usecase_help.shtml">Gene Trap Questions and Answers</a>.</p>
 <a href="#top"><font size="-1">Top</font></a>
 
 
 <H3>Where can I find answers to questions about the summary report resulting from my query?</H3>
-<P>See <A HREF="allele_summary_report.shtml">Understanding Phenotypic Allele Query Summary Reports</A>.</P>
+<P>See <A HREF="ALLELE_summary_help.shtml">Understanding Phenotypic Allele Query Summary Reports</A>.</P>
 <a href="#top"><font size="-1">Top</font></a>
 
 
@@ -349,7 +349,7 @@ gene trapped, targeted (all, Floxed/Frt, Reporter, knock-out, knock-in). See
 </P>
 <a href="#top"><font size="-1">Top</font></a>
 <H3><A NAME="detail"></A>Where can I find answers to questions about the detail report resulting from my query?</H3>
-<P>See <A HREF="allele_detail_report.shtml">Understanding Phenotypic Allele Detail Pages.</A>
+<P>See <A HREF="ALLELE_detail_help.shtml">Understanding Phenotypic Allele Detail Pages.</A>
 </p>
 <a href="#top"><font size="-1">Top</font></a></P>
 
@@ -373,16 +373,16 @@ gene trapped, targeted (all, Floxed/Frt, Reporter, knock-out, knock-in). See
 
 <ul> 
 <li><A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml">Mammalian Phenotype (MP) Browser</a></li>
-<li><A HREF="mp_browser_help.shtml">Using the Mammalian Phenotype (MP) Browser</a></li>
+<li><A HREF="VOCAB_mp_browser_help.shtml">Using the Mammalian Phenotype (MP) Browser</a></li>
 <li><a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A">Human Disease Vocabulary Browser</a></li>
-<li><A HREF="omim_browser_help.shtml">Using the Human Disease Vocabulary Browser</a></li>
-<li><A HREF="boolean_search_tips.shtml">Using Boolean Operators in MGI</a></li> 
+<li><A HREF="VOCAB_omim_browser_help.shtml">Using the Human Disease Vocabulary Browser</a></li>
+<li><A HREF="MISC_boolean_search_help.shtml">Using Boolean Operators in MGI</a></li> 
 <li><A HREF="<!--#include file='include/mgihome_url.html'-->/nomen/allmut_quickhelp.shtml">Quick Guide to Nomenclature for Alleles and Mutations</a></li>
 </UL>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 <H3><A NAME="example"></a>What are some examples of queries using phenotypic terms?</H3>
-<P>See <A HREF="boolean_search_tips.shtml#examples">Using Full-Text Searches on MGI Query Forms</A>.</P>
+<P>See <A HREF="MISC_boolean_search_help.shtml#examples">Using Full-Text Searches on MGI Query Forms</A>.</P>
  <a href="#top"><font size="-1">Top</font></a>
 
 <!--#include file='include/templateBlankBodyStop.html'-->
