@@ -71,7 +71,7 @@ function openHelpWindow(helpFile){
   <LI><A HREF="ALLELE_pheno_image_detail_help.shtml">Interpreting Interpreting (Phenotypic) Image Details</A></LI>
   <LI><A HREF="ALLELE_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
   <LI><A HREF="ALLELE_summary_help.shtml">Interpreting a Phenotypic Allele Summary</A></LI>
-  <LI><A HREF="ALLELE_detail_help.shtml">Interpretin Phenotypic Allele Details</A></LI>
+  <LI><A HREF="ALLELE_detail_help.shtml">Interpreting Phenotypic Allele Details</A></LI>
 </UL>
 
 
