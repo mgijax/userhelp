@@ -1,6 +1,19 @@
 <!--#include file='include/templateHead.html'--> 
 <title>MGI-Interpreting a Phenotypic Allele Summary</title>
 
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+
+</style>
+
 <!--#include file='include/templateBodyStart.html'--> 
 
 <!-- Title Bar -->
@@ -20,14 +33,14 @@
 <P>See also:
 <UL>
   <LI><A HREF="<!--#include file='include/glossary_url.html'-->">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
-  <LI><A HREF="allele_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
-  <LI><A HREF="allele_detail_report.shtml">Understanding Phenotypic Allele Detail Reports</A></LI>
+  <LI><A HREF="ALLELE_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
+  <LI><A HREF="ALLELE_detail_help.shtml">Understanding Phenotypic Allele Detail Reports</A></LI>
 </UL></P>
 
 <H3><A NAME="access"></A>When does an allele summary appear?</H3>
 
 <P>The Phenotypic Alleles Query Results -- Summary appears either when a query on the Phenotypes, Alleles, and Disease Models Query Form returns any alleles or when you select  All alleles or specific allele types on a gene/marker detail report (see <a href="marker_detail.shtml#phenotypes_detail">Alleles and Phenotypes</a> for more information).</P>
-<A HREF="#top">Back to Top</A>
+<A HREF="#top">Top</A>
 
 <H3><A NAME="contain"></A>What should show up in this report?</H3>
 <P>A search for alleles results in a summary listing of any "hits" with links to detail records.
@@ -79,7 +92,7 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
 
        
 </p>
-<A HREF="#top">Back to Top</A>
+<A HREF="#top">Top</A>
 
 
 <H3><A NAME="usage"></A>How do I interpret an allele summary report?</H3>
@@ -100,7 +113,7 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
 </ul>
 </P>
 
-<A HREF="#top">Back to Top</A>
+<A HREF="#top">Top</A>
 
 <H3><A NAME="notcontain"></A>Why do some alleles have observed phenotypes and genotypes and some do not?</H3>
 
@@ -112,13 +125,13 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
  <TR><TD VALIGN="top">aqueductal stenosis</TD><TD VALIGN="top">Three alleles (<i>hhy</i>, <i>Dlg5<sup>tm1Vv</sup></i>, and <i>oh</i>). <i>Hhy</i> returns data in the Observed Phenotypes in Mouse and Allelic Composition (Genetic Background) columns.<TD VALIGN="top"><i>Hhy</i> and <i>Dlg5<sup>tm1Vv</sup></i> are annotated to the term.</TD></TR>
 
 </TABLE></P><br>
-<A HREF="#top">Back to Top</A>
+<A HREF="#top">Top</A>
  
 <h3><A name="no_results">What if my query returns no results?</A></h3>
-<p>See <a href="allele_help.shtml#no_results">What if my query returns no results?</a> in <i>Using the Phenotypes, Alleles, and Disease Models Query Form</i>.
+<p>See <a href="ALLELE_help.shtml#no_results">What if my query returns no results?</a> in <i>Using the Phenotypes, Alleles, and Disease Models Query Form</i>.
 </p>
 
-<A HREF="#top">Back to Top</A>
+<A HREF="#top">Top</A>
 
  <BR>
 <!--#include file='include/templateBodyStop.html'--> 
