@@ -37,16 +37,14 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 	<li><a href="#should_appear">What should appear on this page?</a></li>
 		<ul>
       		<li><a href="#title">Title</a></li>
-	              	<li><a href="#allele_info">Allele information</a></li>
-      			<li><a href="#tissue_info">Tissue information</a></li>
-       			<li><a href="#image">Images</a></li>
-       			<li><a href="#recomb_spec">Recombinase specificity </a></li>
-			<ul>
-			  <li><a href="#assay_detailz">Assays</a></li>
-			  <li><a href="#gtbg"><nobr>Genotypic Background</nobr></a></li>
-			  <li><a href="#notez">Result Notes</a></li>
-		         </ul>
-			  <li><a href="#reffs">References</a></li>    
+	        <li><a href="#allele_info">Allele information</a></li>
+      		<li><a href="#tissue_info">Tissue information</a></li>
+       		<li><a href="#image">Images</a></li>
+       		<li><a href="#recomb_spec">Recombinase specificity </a></li>
+			<li><a href="#assay_detailz">Assays</a></li>
+			<li><a href="#gtbg"><nobr>Genotypic Background</nobr></a></li>
+			<li><a href="#notez">Result Notes</a></li>
+			<li><a href="#reffs">References</a></li>    
 		</ul>
 	<li><a href="#manipulate">What are the ways of creating different views of the data on this page?</a></li>
      </ul>
