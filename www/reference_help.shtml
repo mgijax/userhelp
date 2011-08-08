@@ -122,13 +122,14 @@ Using the References Query Form </span>
  <LI><A HREF="#whatuse_refqf">What can I use the References Query Form to find?</A></LI>
 <!-- <li><a href="#chromosome_refqf">How do I search by chromosome?</a></li> -->
  <LI><A HREF="#howfill_refqf"qf>How do I fill in this query form?</A></LI>
- <LI><A HREF="#fields_refqf">What values are acceptable in each of the fields?</A></LI>
+ <!-- <LI><A HREF="#fields_refqf">What values are acceptable in each of the fields?</A></LI> -->
  <li><a href="#author_refqf">How do I search by author?</a></li>
  <li><a href="#journal_refqf">How do I search by journal?</a></li>
  <li><a href="#year_refqf">How do I search by year?</a></li>
  <li><a href="#text_refqf">How do I search by text?</a></li>
  <LI><A HREF="#PubMedID_refqf">How do I search by PubMed or MGI ID?</A></LI>
  <LI><A HREF="#results_refqf">What can I do with the results of a references query?</A></LI>
+ <LI><A HREF="#filter_refqf">How do I filter my results?</A></LI>
  <LI><A HREF="#abstracts_refqf">Can I see abstracts?</A></LI>
  <!--<LI><A HREF="#link">How can I view a more detailed result?</A></LI>
 <LI><A HREF="#detail">How do I interpret the detail results?</A></LI>-->
@@ -210,7 +211,7 @@ Enter a text string to search for articles with abstracts/titles containing the 
   <li>Use quotation marks to enclose phrases where the specified words must come in order, with no words intervening. </li>
   <li>Boolean operators (OR or AND) are not permitted.</li>
   </ul>
-The most relevant results appear at the top of the returned list (i.e. those containing all of the searched words.
+<p>The most relevant results appear at the top of the returned list (i.e. those containing all of the searched words.</p>
 
 <font size="-1"><A HREF="#top">Top</A></font>
 
@@ -218,28 +219,10 @@ The most relevant results appear at the top of the returned list (i.e. those con
 
 Enter a single or series of PubMed or MGI reference IDs (<b>Note:</b>  Every reference stored in MGI has a J number of the form <b>J:<i>n...</i></b>.). Example: 18989690; 18192873; J:159210.
 
-<h3><a name="filter"></a>How do I filter my results?</h3>
-<p>You can filter results by <a href="#author">author</a>, journal, year, or data. In the banner at the top, after Filter References By: click the desired box. </p>
-
 <font size="-1"><A HREF="#top">Top</A></font>
 
 
 <H3><A NAME="results_refqf"></A>What can I do with the results of a references query?</H3>
-<p>The top of the page  contains a summary of your search parameter(s) (for example,  author name) and the number of results.  
-
-
-
-<p>In the center of the form are options for refining your search.</p>
-<p>The summary results for the References Query contain fields in addition to those on the originating form (i.e., Author, Title, Journal, PubMed/MGI ID. On the summary, the first column on the left contains  </p>
-<p>NOTE: If you get an error message such as "Too many Authors to filter." Modify your search or use another filter first. 
-
-***your query has timed out. Either use the Click to modify search process or select a Journal, Year, or Data filter before selecting Author as a filter.</td></tr>
-</p>
-
-<font size="-1"><A HREF="#top">Top</A></font>
-
-
-<H3><A NAME="detail"></A>What can I do on a results page?</H3>
 
 <ul>
   <li>Modify (iterative)</li>
@@ -249,20 +232,36 @@ Enter a single or series of PubMed or MGI reference IDs (<b>Note:</b>  Every ref
 <li>Get a text file of all the references</li>
 </ul>
 
+<p>The top of the page  contains a summary of your search parameter(s) (for example,  author name) and the number of results.  
+
+<p>In the center of the form are options for refining your search.</p>
+<p>The summary results for the References Query contain fields in addition to those on the originating form (i.e., Author, Title, Journal, PubMed/MGI ID. On the summary, the first column on the left contains  </p>
+<p>NOTE: If you get an error message such as "Too many Authors to filter." Modify your search or use another filter first. 
+
+<!-- ***your query has timed out. Either use the Click to modify search process or select a Journal, Year, or Data filter before selecting Author as a filter. --></td></tr>
+</p>
+
+
 <P>Click a category to retrieve the related information. On these pages, you can follow links to browse additional areas of MGI or other databases; you can always go back to the original list of reference results.</P>
 <ul><li>The report displays the full PubMed format reference with an abstract or full text link, if available.</li> 
   <LI>The PubMed ID number is linked to the record found in ENTREZ. </LI>
-  <LI>The detailed results include information about the MGI Accession ID, <A HREF="#j_num">J Number</A>, Other Accession IDs, (usually PubMed), Title, Authors, Journal,  Year, Pages,  Abstract.</li>
+  <LI>The detailed results include information about the MGI Accession ID (J Number), PubMed ID, Title, Authors, Journal,  Year, Pages,  Abstract.</li>
    <ul>
-     <LI>The Review Status field indicates whether the article comes from a peer-reviewed journal or a nonpeer-reviewed publication or data submission. </LI>
-    <LI>The Full Text link displays any short, unpublished scientific articles associated with your query. </LI>
-   <LI>Items under Additional Information link to any MGI data extracted from that paper. If present, a number in parentheses indicates how many data items of that type to expect. Related records may include marker descriptions, sequences, orthologies, molecular probes,  mapping data, expression data (for example, <i>n</i> results,&nbsp;&nbsp;<i>n</i> assays,&nbsp;&nbsp;<i>n</i> tissues), antibodies</A> (associated with expression assays), or phenotypic alleles. </LI>
+     <!-- <LI>The Review Status field indicates whether the article comes from a peer-reviewed journal or a nonpeer-reviewed publication or data submission. </LI> 
+    <LI>The Full Text link displays any short, unpublished scientific articles associated with your query. </LI> -->
+   <LI>Items under Additional Information link to some of the MGI data extracted from that paper. If present, a number indicates how many data items of that type to expect. Related records may include marker descriptions, sequences, orthologies, molecular probes,  mapping data, expression data (for example, <i>n</i> results,&nbsp;&nbsp;<i>n</i> assays,&nbsp;&nbsp;<i>n</i> tissues), antibodies</A> (associated with expression assays), or phenotypic alleles. </LI>
 
    </UL>
    </ul>
    
-   
-<h3><A NAME="abstract_refqf"></a>Can I see abstracts?</h3>
+<font size="-1"><A HREF="#top">Top</A></font>
+
+<h3><a name="filter_refqf"></a>How do I filter my results?</h3>
+<p>You can filter results by <a href="#author_refqf">author</a>, journal, year, or data. In the banner at the top, after Filter References By: click the desired box. </p>
+
+<font size="-1"><A HREF="#top">Top</A></font>
+
+<h3><A NAME="abstracts_refqf"></a>Can I see abstracts?</h3>
 <p>You can view an abstract for each reference by clicking <code>abstract</code>&#9658; in the Title box) or view all abstracts (by clicking Show All Abstracts in the Filter References By: banner.</p>
 
 
@@ -315,7 +314,7 @@ The query results include all articles written by Carninci in 2002 and published
 <p></p>
 
 <LI>Find papers published in 2003 that include an author named Clemente or Clementi, you are not sure which.
-  <ul>
+  <ol>
       <li>In the Author(s) field, leave the default, Any Author(s).</li>
 <li>Begin typing (C-l-e-m-e-n...) until the autolist appears. </li>
 <li>Continue entering letters until the list contains Clemente.</li>
@@ -324,9 +323,9 @@ The query results include all articles written by Carninci in 2002 and published
 <li>Select Clementi (all).</li>
   <li>In the Year field, enter 2003.</li>
 <li>Click Search. </li>
-</ul>
+</ol>
 
-<P> The query finds articles published in 2003 written by several authors one of whom is named Clementi.</p>
+<LI> The query finds articles published in 2003 written by several authors one of whom is named Clementi.
  </LI>
 <p></p>
 
