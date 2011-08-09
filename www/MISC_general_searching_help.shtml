@@ -203,8 +203,8 @@ species, you select that species from the list.  How you make the selection depe
 <P>Some selection lists allow you to specify more than one value.  For example, you may wish to search for orthologies in species human or cat. In this
 case, you would select several options from the selection list. Again, the exact mechanism for doing this depends on your implementation.
 <UL>
-  <LI>On a Macintosh, hold the command (Apple) key down and click on the desired items in the list; OR hold the shift key down and  click on two items to select those and all items in between.
-  <LI>On a PC, hold the control key down and click on the desired items in the list; OR hold the shift key down and click on two items to select those and all items in between.
+  <LI>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired items in the list; OR hold the shift key down and  click on two items to select those and all items in between. </li>
+  <LI>On a PC, hold the control key down and click on the desired items in the list; OR hold the shift key down and click on two items to select those and all items in between. </li>
  </UL></P>
 
 
@@ -232,9 +232,9 @@ case, you would select several options from the selection list. Again, the exact
 
 
  <H3><A NAME="not"></A>The NOT operator</H3>
-<P>You can use the NOT operator to exclude a value or set of values. However, NOT also can be interpreted as EVERYTHING ELSE BUT..., and therein lies the danger of using the NOT operator. <P>Use NOT only when you put values in multiple fields on the query form. Use at least one descriptive field without NOT. For example, in References, you might be interested in finding articles where <UL> Author BEGINS Chapman<BR> Year = 1994<BR> Journal NOT BEGINS Genom<BR></UL> </P>
+<P>You can use the NOT operator to exclude a value or set of values. However, NOT also can be interpreted as EVERYTHING ELSE BUT..., and therein lies the danger of using the NOT operator. <P>Use NOT only when you put values in multiple fields on the query form. Use at least one descriptive field without NOT. <!-- For example, in References, you might be interested in finding articles where <UL> Author BEGINS Chapman<BR> Year = 1994<BR> Journal NOT BEGINS Genom<BR></UL> </P>
 
-<P>This search yields the list of articles by Chapman written in 1994 appearing in any journal except Genomics (or any others with titles beginning <I>Genom</I>). <P>Click the NOT box next to the field to which you want to apply the negation.</P>
+<P>This search yields the list of articles by Chapman written in 1994 appearing in any journal except Genomics (or any others with titles beginning <I>Genom</I>). <P>Click the NOT box next to the field to which you want to apply the negation. --></P>
 
 
 <H3><A NAME="text"></A>Text fields with comparison operators</H3>
