@@ -170,22 +170,22 @@ Using the References Query Form </span>
   <li>Click Reset to clear this field.</li>
 </ul>
 <p><b>Notes:</b></p>
-<ol>
+<ul>
   <li>The results are NOT cumulative; that is, entering Smith D; Johnson H; and Evans M returns references for each author and not for papers in which all three are authors.</li>
   <li>You must choose author names from the autocomplete list (i.e., there is no free text entry in this field.)</li>
-</ol>
+</ul>
 </p>
 <font size="-1"><A HREF="#top">Top</A></font>
 
 
 <h3><a name="journal_refqf"></a>How do I search by journal?</h3>
 <ol>
-<li>There is no default value.</li>
-  <li>Begin typing a partial journal name in the entry field.  An autocomplete list appears.</li>
-<li>Select one item from the list. The journal name appears in the field, followed by a semicolon.</li>
-  <li>To create a list of journals, repeat steps 1 and 2 as desired.  </li></li>
-  <li>Click Reset to clear this field.</li>
-</ul>
+ <li>The default is Any Author(s). Click First Author or Last Author if desired.</li>
+ <li>Begin typing a partial journal name in the entry field.  An autocomplete list appears.</li>
+ <li>Select one item from the list. The journal name appears in the field, followed by a semicolon.</li>
+ <li>To create a list of journals, repeat steps 1 and 2 as desired. </li>
+ <li>Click Reset to clear this field.</li>
+</ol>
 <p><b>Note:</b></p>
 
   <ul>You must choose journal names from the autocomplete list (i.e., there is no free text entry in this field.)</ul>
@@ -197,7 +197,7 @@ Using the References Query Form </span>
 To find references according to the year the article was published: 
 <ul>
   <li>Enter a single year, a range of years, or an open-ended query such as everything after 2009 (2009-) or everything before 2007 (-2007).</li>
-  <li>If  <font color="#FF0000">*Invalid year</font> appears, correct any errors in formatting. </li>
+  <!-- <li>If  <font color="#FF0000">*Invalid year</font> appears, correct any errors in formatting. </li> -->
 </ul>
 
 <font size="-1"><A HREF="#top">Top</A></font>
