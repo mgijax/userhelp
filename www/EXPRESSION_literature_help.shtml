@@ -1,29 +1,4 @@
 
-<h3><a name="revise"></a>Can I edit my original options and requery?</h3>
-<p>Yes, you can. If you want to edit a list or change output options:
-<ol>
-  <li>When your results appear, click the banner at the top of the page (Click to modify search). (The banner title  changes to Click to Hide Search.) The window that appears contains your original search criteria. </li>
-  <li>Edit the input list or change any Output options.</li>
-  <li>Click Search.</li>
-<li>Repeat steps 1 and 2 until the desired results appear.<br>
-See <a href="#example">Are there examples?</a> for a sample of a query modification.
-</li>
-</ol>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!--#include file='include/templateHead.html'--> 
 <title>
   <!--#include file="include/mgiversion.html"-->
@@ -62,6 +37,9 @@ function openHelpWindow(helpFile){
 </table>
 <!--#include file='include/templateBlankBodyStart.html'-->
 
+
+
+
 <!-- Body of User Help -->
 <A NAME="top"></A>
 <P>This help document answers the following questions:</p>
@@ -79,7 +57,7 @@ function openHelpWindow(helpFile){
 
 
  <h3><A name="whatis"></a>What can I use this query form to find?</h3>
-<p>The Gene Expression Literature Query Form allows you to query for references that include data on endogenous gene expression in the mouse.  The Gene Expression Database (GXD) curators create content records that contain information on the genes and ages analyzed and assay types used in each reference; the query form queries these content records.  To the best of our knowledge, all publications containing embryonic expression data from 1993 to the present for all pertinent journals, and from 1990 to the present for the major development journals, have content records.  However, expression assays using knock-in reporter genes have only been included in the content records since May 2002.  Curators add content records to GXD daily.
+<p>The Gene Expression Literature Query Form allows you to query for references that include data on endogenous gene expression in the mouse.  The Gene Expression Database (GXD) curators create content records that contain information on the genes and ages analyzed and assay types used in each reference; the query form queries these content records.  To the best of our knowledge, all publications containing embryonic expression data from 1993 to the present for all pertinent journals, and from 1990 to the present for the major development journals, have content records.  However, expression assays using knock-in reporter genes have only been included in the content records since May 2002.  Curators add content records to GXD weekly.
 </p>
 
  <h3><A name="howuse"></a>How do I use the Gene Expression Literature Query Form?</h3>
@@ -119,41 +97,55 @@ function openHelpWindow(helpFile){
 <li><B>E</B> is the abbreviation for <I>embryonic</I> and means that an author indicated that embryonic expression was analyzed but did not indicate the exact age of the tissue examined. Using E returns only this type of expression data; it does not return data for all embryonic stages.</li>
 <li><B>A</B> is the abbreviation for <I>adult</I>; you can use it to search for studies of postnatal expression.</li>
 <li>The default age value is ANY.</li>
-<li>The age operators are in, &lt; (less than), &gt; (greater than), &lt;= (less than or equal to), &gt;= (greater than or equal to). The default age operator is "in."</li>
-<li> If you want to limit your query to only embryonic expression data, you should choose <i>&lt;A</i> (less than adult) on the query form.</li>
+<li>To select more than one value: 
+<ul>
+ <LI>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired items in the list; OR hold the shift key down and  click on two items to select those and all items in between. </li>
+  <LI>On a PC, hold the control key down and click on the desired items in the list; OR hold the shift key down and click on two items to select those and all items in between. </li>
+</ul>
  </ul></td></tr>
 
 
 <TR><td align="left" valign="top"><a name="author"></a><b>Author</b></TD>
-    <TD><A name=au></A>Author names are stored in PubMed format, consisting of the last name followed by a space and then first and second initials as in "Zhivago DE."  Enter a part or all of the name of the author you are interested in. Use one of the operators in the pull-down menu to modify your search. The default is CONTAINS. <br>If you:
-   <ul>
-   <li>type an author's last name using CONTAINS, the system searches the author list field for any references containing the name anywhere in the list of authors.</LI>
-   <li>want to find articles containing more than one author name, use CONTAINS with the two names. For example, "Authors CONTAINS dowler%white" retrieves any references containing both Dowler and White as authors where Dowler precedes White in the list.</LI>
-   <li>use BEGINS, the system searches for your entry as the first author in a list.</LI>
-   <li>use = (the equals operator), you must type the name exactly as it is stored in the database.</LI>
-  <li>use ENDS, the system looks for any publication containing your entry as the last author on its list.</LI>
-  <li>use IS NULL, the system returns a list of publications where no author is listed.</LI>
+    <TD>
+    <ul>
+<li>The default is Any Author(s). Click First Author or Last Author if desired.</li>
+  <li>Begin typing a partial name in the entry field.  An autocomplete list appears.</li>
+<li>Select one item from the list. The author's name appears in the field, followed by a semicolon.</li>
+  <li>To create a list of authors, repeat steps 1 and 2 as desired.  </li></li>
+  <li>Click Reset to clear this field.</li>
 </ul>
-Use the NOT check box to exclude authors from a search.</td>   </TR>
+<p><b>Notes:</b></p>
+<ul>
+  <li>The results are NOT cumulative; that is, entering Smith D; Johnson H; and Evans M returns references for each author and not for papers in which all three are authors.</li>
+  <li>You must choose author names from the autocomplete list (i.e., there is no free text entry in this field.)</li>
+</ul></td>   </TR>
    
     <TR>
      <td align="left" valign="top"><a name="journal"></a><b>Journal</b></TD>
-     <TD><A name="jn"></A>The name of the journal, using PubMed's abbreviated format.
-Enter part of a journal name and select one of the operators: BEGINS (the default option), = (equals), CONTAINS, ENDS, LIKE (with a <A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=glossaryTerm&key=wildcard">wild card</A>), or IS NULL.  Use in conjunction with other fields to further restrict a search.  See the <a href="#author">Author</a> field for a full description of how the operators work. <p>Use the NOT check box to exclude journals from a search.
+     <TD><A name="jn"></A>
+<ol>
+  <li>Begin typing a partial journal name in the entry field.  An autocomplete list appears.</li>
+  <li>Select one item from the list. The journal name appears in the field, followed by a semicolon.</li>
+  <li>To create a list of journals, repeat steps 1 and 2 as desired. </li>
+  <li>Click Reset to clear this field.</li>
+</ol>
+<p><b>Note:</b></p>
+
+  <ul>You must choose journal names from the autocomplete list (i.e., there is no free text entry in this field.)</ul>
 </TD></TR>
+
     <TR>
-  <TR><td align="left" valign="top"><b>Year</b></td><TD><A name="yr"></A>The year the article was published. Use in conjunction with other fields to further narrow the scope of a search. Enter a year in the format 20XX. The operators for this field allow you to choose a range of years. The default operator is =.</TD></TR>
+  <TR><td align="left" valign="top"><b>Year</b></td><TD><A name="yr"></A>The year the article was published. Use in conjunction with other fields to further narrow the scope of a search. Enter a year in the format 20XX. Enter a single year, a range of years, or an open-ended query such as everything after 2009 (2009-) or everything before 2007 (-2007).</TD></TR>
     <TR>
-     <TR><td align="left" valign="top"><b>Text</b></td><TD><A name="text"></A>Enter a text string in this field to search for titles and/or abstracts. <br>You can:
-	<ul>
-	  <li>Use an asterisk (*) as a wildcard. For example, entering <b>*membran</b> (or <b>membran*</b>) returns titles and/or abstracts containing "membrane," "membranous," "transmembrane," and so on.</li>
-	<li>Search for phrases in a specified order, with no intervening words.
-  <li>Click to select In Title or In Abstract or both.</li>
-  <li>Enclose terms in quotation marks if you want the search program to interpret them as a phrase; for example, "signaling pathway heart",  the search program and retrieves records containing that phrase.</li>
-  <li> If you use <b>AND</b> to separate terms, the search program finds records containing the specified terms in any order. 
-</ul>
- See  <A href="MISC_wildcard_help.shtml">Using Wild Cards on MGI Query Forms</A> and <a href="MISC_boolean_search_help.shtml">Full-Text Searching on MGI Query Forms</a> for more details.</TD></TR>
-  </table>
+     <TR><td align="left" valign="top"><b>Text</b></td><TD><A name="text"></A>Enter a text string to search for articles with abstracts/titles containing the terms you enter.
+<ul>
+  <li>The text search <a href="http://en.wikipedia.org/wiki/Stemming" target="new">stems</a> words: it removes suffixes and searches using root words.  A search for <i>stem cell factor receptor binding</i> searches for  <i>stem-</i>, <i>cell-</i> (e.g.  cellular), <i>factor-,</i> <i>recept-</i> (e.g.  reception); <i>bind-</i> (e.g.  binds). <li>A search for <i>cell division</i> also looks for <i>cell- divis-</i>.</li>
+  <li>Use an asterisk (*) as a wild card, particularly to find variations on a root word or in spelling. Examples: 2,4-Dichlorobenz* process; haemo* hemo*</li>
+  <li>Use quotation marks to enclose phrases where the specified words must come in order, with no words intervening. </li>
+  <li>Boolean operators (OR or AND) are not permitted.</li>
+  </ul>
+ See  <A href="MISC_wildcard_help.shtml">Using Wild Cards on MGI Query Forms</A> <!-- and <a href="MISC_boolean_search_help.shtml">Full-Text Searching on MGI Query Forms</a> --> for more details.</TD></TR>
+  
  </TD>
 </TR>
 </TABLE>
@@ -227,6 +219,18 @@ Enter part of a journal name and select one of the operators: BEGINS (the defaul
 <p> Any comments the curator feels are necessary to interpret the record appear at the bottom of the page. <b>Note:</b> As indicated on the detail page, the record denotes only that a gene was assayed for, using a particular assay type, and does not indicate whether or not gene expression was detected.</p>
 <font size="-1"><a href="#top">Top</a>
 </font>
+
+<h3><a name="revise"></a>Can I edit my original options and requery?</h3>
+<p>Yes, you can. If you want to edit a list or change output options:
+<ol>
+  <li>When your results appear, click the banner at the top of the page (Click to modify search). (The banner title  changes to Click to Hide Search.) The window that appears contains your original search criteria. </li>
+  <li>Edit the input list or change any Output options.</li>
+  <li>Click Search.</li>
+<li>Repeat steps 1 and 2 until the desired results appear.<br>
+See <a href="#example">Are there examples?</a> for a sample of a query modification.
+</li>
+</ol>
+
 
 <p class="space"></p>
 
