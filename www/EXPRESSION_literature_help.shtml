@@ -134,9 +134,8 @@ function openHelpWindow(helpFile){
   <ul>You must choose journal names from the autocomplete list (i.e., there is no free text entry in this field.)</ul>
 </TD></TR>
 
-    <TR>
   <TR><td align="left" valign="top"><b>Year</b></td><TD><A name="yr"></A>The year the article was published. Use in conjunction with other fields to further narrow the scope of a search. Enter a year in the format 20XX. Enter a single year, a range of years, or an open-ended query such as everything after 2009 (2009-) or everything before 2007 (-2007).</TD></TR>
-    <TR>
+  
      <TR><td align="left" valign="top"><b>Text</b></td><TD><A name="text"></A>Enter a text string to search for articles with abstracts/titles containing the terms you enter.
 <ul>
   <li>The text search <a href="http://en.wikipedia.org/wiki/Stemming" target="new">stems</a> words: it removes suffixes and searches using root words.  A search for <i>stem cell factor receptor binding</i> searches for  <i>stem-</i>, <i>cell-</i> (e.g.  cellular), <i>factor-,</i> <i>recept-</i> (e.g.  reception); <i>bind-</i> (e.g.  binds). <li>A search for <i>cell division</i> also looks for <i>cell- divis-</i>.</li>
@@ -146,12 +145,10 @@ function openHelpWindow(helpFile){
   </ul>
  See  <A href="MISC_wildcard_help.shtml">Using Wild Cards on MGI Query Forms</A> <!-- and <a href="MISC_boolean_search_help.shtml">Full-Text Searching on MGI Query Forms</a> --> for more details.</TD></TR>
   
- </TD>
-</TR>
 </TABLE>
 </p>
-<font size="-1"><a href="#top">Top</a>
-</font>
+<font size="-1"><a href="#top">Top</a></font>
+
 <h3><A name="summary">How do I interpret the query results?</h3>
 <P>Gene Expression Literature queries return a summary of search criteria matches.  Each record appears in two areas: at the top of the page in the <a href="#irbaa">Summary by Age and Assay</a> table and in the <a href="#irbgr">Summary by Gene and Reference</a> listing.
 </P>
