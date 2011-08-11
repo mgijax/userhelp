@@ -129,7 +129,7 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <tr><th class="thleft"> <a name="asgan"></a>Allele Symbol<br>Gene; Allele Name</th><td>Official symbol for the allele.<br>Gene name; allele name. <br>In parentheses beneath the nomenclature is a link to the MGI Detail Report for this allele. Note that the detail page has a <b>Recombinase Specificity</b> row listing every system examined where specificity has been detected or not detected. Each system links to its specificity detail page.</td></tr> 
 
 <tr><th class="thleft"> <a name="recomb_data"></a><nobr>Recombinase Data</nobr></th><td>Information about whether recombinase specificity data was detected, not detected, or unavailable.<ul>
-  <li>When the arrow icon (<img src="http://firien.informatics.jax.org/webshare/images/rightArrow.gif" border="0">) appears, click it to reveal (or hide) a list of systems where data was detected/not detected. </li>
+  <li>When the arrow icon (<IMG SRC="<!--#include file='include/wi_url.html'-->images/shared/rightArrow.gif" border="0">) appears, click it to reveal (or hide) a list of systems where data was detected/not detected. </li>
   <li>Click any list item to display a detail page with allele and tissue information, images, specificity particulars, and references.</li>
 
 
