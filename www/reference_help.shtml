@@ -188,7 +188,10 @@ Using the References Query Form </span>
 </ol>
 <p><b>Note:</b></p>
 
-  <ul>You must choose journal names from the autocomplete list (i.e., there is no free text entry in this field.)</ul>
+  <ul>
+  <li>This field uses journal abbreviations from the National Library of Medicine (NLM). A search for <i>The Journal of Endocrinology</i> will not find any references, though a search for <i>J Endocrinol</i> will. The journal abbreviations used are listed alphabetically at this <a href="ftp://ftp.ncbi.nih.gov/pubmed/J_Medline.txt">NLM web site</a>. </li>
+  <li>You must choose journal names from the autocomplete list (i.e., there is no free text entry in this field.)</li>
+  </ul>
 
 <font size="-1"><A HREF="#top">Top</A></font>
 

@@ -131,7 +131,10 @@ function openHelpWindow(helpFile){
 </ol>
 <p><b>Note:</b></p>
 
-  <ul>You must choose journal names from the autocomplete list (i.e., there is no free text entry in this field.)</ul>
+  <ul>
+  <li>This field uses journal abbreviations from the National Library of Medicine (NLM). A search for <i>Developmental Biology</i> will not find any references, though a search for <i>Dev Biol</i> will. The journal abbreviations used are listed alphabetically at this <a href="ftp://ftp.ncbi.nih.gov/pubmed/J_Medline.txt">NLM web site</a>. </li>
+  <li>You must choose journal names from the autocomplete list (i.e., there is no free text entry in this field.)</li>
+  </ul>
 </TD></TR>
 
   <TR><td align="left" valign="top"><b>Year</b></td><TD><A name="yr"></A>The year the article was published. Use in conjunction with other fields to further narrow the scope of a search. Enter a year in the format 20XX. Enter a single year, a range of years, or an open-ended query such as everything after 2009 (2009-) or everything before 2007 (-2007).</TD></TR>
