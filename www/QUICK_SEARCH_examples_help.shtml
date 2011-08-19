@@ -69,7 +69,7 @@ function openHelpWindow(helpFile){
   </ul>
 <p>You can get additional information about Quick Search results by: <ul>
   <li>forwarding them to the MGI Batch Query (click <b>Get more data</b> beneath <b>Best Match</b> under <b>Genome Features</b> on the <b>Quick Search Results</b> page).</li>
-  <li>using <a href="searchtool_help.shtml#google">Search MGI with Google</a> (located at the bottom of the <b>Quick Search Results</b> page.</li>
+  <li>using <a href="QUICK_SEARCH_help.shtml#google">Search MGI with Google</a> (located at the bottom of the <b>Quick Search Results</b> page.</li>
 </ul>
 </p>
 <p>See also <a href="searchtool_help.shtml#advantage">When should I use Quick Search vs. an individual MGI query form?</a> for more information about advanced searches.</p>
