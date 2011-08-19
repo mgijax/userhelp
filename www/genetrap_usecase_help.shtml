@@ -262,7 +262,7 @@ For example:
 <A HREF="#top"><font size="-1">Top</font></A>
 
 <h3><a name="all_accession_ids"></a>Is there a list of all gene trap cell line accession IDs?</h3>
-<p>Yes. Click  <b>Download-->MGI Data and Statistical Reports--></b> to access   <a href="ftp://devftp.informatics.jax.org/pub/reports/MRK_GeneTrap.rpt">MGI Marker associations to Gene Trap IDs (tab-delimited).</a></p>
+<p>Yes. Click  <b>Download-->MGI Data and Statistical Reports--></b> to access   <a href="ftp://ftp.informatics.jax.org/pub/reports/MRK_GeneTrap.rpt">MGI Marker associations to Gene Trap IDs (tab-delimited).</a></p>
 <A HREF="#top"><font size="-1">Top</font></A>
 
 <h3><a name="stat_report"></a>Is there a list of all IDs and nomenclature associated with gene traps in MGI?</h3>
