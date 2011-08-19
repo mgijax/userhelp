@@ -59,7 +59,7 @@ Using Map Position Fields on MGI Query Forms
           <li>Make a selection on the <a href="#chromosome">Chromosome(s)</a> list.</li>
          <!--<li>Enter the genome assembly coordinate(s) for a mapped gene or marker. </li>-->
           <li>Use the default (between) or click the down arrow to select the &lt;= (less than or equal to) or &gt;= (greater than or equal to) 
-<a href="operators.shtml">operator</a>.
+<a href="MISC_operators_help.shtml">operator</a>.
           <li>Click the other down arrow and select either bp (base pairs) or Mbp (mega base pairs) as the unit of measurement. (The default is base pairs.)</li>
           <li>Enter the coordinate(s):</li><br>
            <table align="center" border="1" cellspacing="0" cellpadding="4" width="100%">
