@@ -135,7 +135,7 @@ and the following DNA mapping panels:
 <TR><TH align="left"><A NAME="dna"></A>Include DNA segments?</TH><td valign=top>The default is Yes. If you select No, the resulting map does not include DNA segments.</TD> </TR>
 <TR> <TH align="left"><A NAME="syntenic"></A>Include syntenic markers?</TH> <td valign=top>The default is Yes, so that, regardless of any other parameters you specify for the map, the map includes a listing of syntenic markers (markers that have been assigned to a chromosome but for which there is no cM position estimate).</TD> </TR>
 <th align="left" valign="top"><A NAME="gene_ontology"></A>Gene <br>Ontology (GO) <br>Classifications</Th>
-        <TD valign="top">Genes may be described using three broad categories reflecting biological roles: Molecular Function, Biological Process, or Cellular Component. The Gene Ontology (GO) Consortium has developed structured vocabularies to specify detailed aspects within each category. MGI uses GO terms to annotate gene records. See <a href="GO_classificatio_fields_help.shtml">Using Gene Ontology Classification Fields on MGI Query Forms </a> for details.    </TD>
+        <TD valign="top">Genes may be described using three broad categories reflecting biological roles: Molecular Function, Biological Process, or Cellular Component. The Gene Ontology (GO) Consortium has developed structured vocabularies to specify detailed aspects within each category. MGI uses GO terms to annotate gene records. See <a href="GO_classification_fields_help.shtml">Using Gene Ontology Classification Fields on MGI Query Forms </a> for details.    </TD>
       </TR>
 
 <TR><TH align=left valign=top><A name="sym"></a>Marker Symbol/Name</th>
