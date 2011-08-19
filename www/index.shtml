@@ -266,7 +266,7 @@
 <dd><a href="VOCAB_mad_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_mad_browser_help.shtml'); return false;">Using the Mouse Anatomical Dictionary Browser</a></dd>		
 
 
-<dd><a href="VOCAB_amad_browser_help.shtml" onclick="javascript:openHelpWindow(VOCAB_amad_browser_help.shtml'); return false;">Using the Adult Mouse Anatomical Dictionary Browser</a></dd>
+<dd><a href="VOCAB_amad_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_amad_browser_help.shtml'); return false;">Using the Adult Mouse Anatomical Dictionary Browser</a></dd>
         </dl>
  </blockquote>
    
