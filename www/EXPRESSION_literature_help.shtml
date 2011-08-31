@@ -107,13 +107,13 @@ function openHelpWindow(helpFile){
 
 <TR><td align="left" valign="top"><a name="author"></a><b>Author</b></TD>
     <TD>
-    <ul>
+    <ol>
 <li>The default is Any Author(s). Click First Author or Last Author if desired.</li>
   <li>Begin typing a partial name in the entry field.  An autocomplete list appears.</li>
 <li>Select one item from the list. The author's name appears in the field, followed by a semicolon.</li>
-  <li>To create a list of authors, repeat steps 1 and 2 as desired.  </li></li>
+  <li>To create a list of authors, repeat steps 2 and 3 as desired.  </li></li>
   <li>Click Reset to clear this field.</li>
-</ul>
+</ol>
 <p><b>Notes:</b></p>
 <ul>
   <li>The results are NOT cumulative; that is, entering Smith D; Johnson H; and Evans M returns references for each author and not for papers in which all three are authors.</li>
