@@ -106,7 +106,7 @@ Using the Genes and Markers Query Form</span>
  <li>Checking all categories has the same effect as checking none of the categories. If you do not click any category, the search includes them all. </li>
 <li>An empty box indicates no choices in an entire category/subcategory.</li>         
            </ul>
-See <a href="GENE_feature_types.shtml">Genome Feature Type Definitions</a> for a table describing all choices. </td>
+See <a href="GENE_feature_types_help.shtml">Genome Feature Type Definitions</a> for a table describing all choices. </td>
         </tr>
 <tr><th align="left" valign="top">Map position</th>
   <td align="left" valign="top">Use the map position parameters (<a href="MISC_map_position_help.shtml#chromosome">Chromosome(s)</a>, <a name="coordinates"></a><a href="MISC_map_position_help.shtml#coordinates">Genome Coordinates</a>, <a href="MISC_map_position_help.shtml#cytogenetic_band">Cytogenetic Band</a>, <a href="MISC_map_position_help.shtml#marker_range">Marker Range</a>, and <a href="MISC_map_position_help.shtml#cm_offset">cM Position</a>) to limit the scope of your query.<ul>
