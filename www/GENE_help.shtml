@@ -38,6 +38,7 @@ Using the Genes and Markers Query Form</span>
   <li><a href="#fields">What values are acceptable in each of the query form fields?</a>
  <li><a href="GENE_summary_help.shtml">How do I interpret the summary results of my query?</a>
  <li><a href="GENE_detail_help.shtml">How do I interpret the detail results of my query?</a>
+  <li><a href="#textfile_markerqf">How do I retrieve my results as a text file?</a></li>
  <!--<LI><A HREF="#button">What happens if I click the Your Input Welcome button on the detail page?</a>-->
  <li><a href="#example">Are there any sample queries?</a>
 </ul>
@@ -219,6 +220,9 @@ The combination of sort option and search parameter affects the order and type o
 
 <p>The Your Input Welcome button appears at the top right of your screen as part of the detailed query results.  Clicking the button brings up a dialogue box to use for submitting updates and corrections to the data you are viewing. Our User Support staff will review your comments and make sure the appropriate changes are made.  This provides an easy way for you to help us keep data current.</p>
 <a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="textfile_markerqf"></a>How do I retrieve my results as a text file?</h3>
+<p>At the bottom of the form, in the Sorting and output format section, change the <a href="#output_format">Output</a> from Web (the default) to Tab-delimited. </p>
 
 <h3><a name="example"></a>Are there any sample queries?</h3>
 <p>The following examples show the field values that produce the given results. Default values for other fields are assumed.</p>

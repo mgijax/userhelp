@@ -54,6 +54,7 @@ Using the References Query Form </span>
  <LI><A HREF="#results_refqf">What can I do with the results of a references query?</A></LI>
  <LI><A HREF="#filter_refqf">How do I filter my results?</A></LI>
  <LI><A HREF="#abstracts_refqf">Can I see abstracts?</A></LI>
+ <li><a href="#textfile_refqf">Can I get my results as a text file?</a></li>
  <!--<LI><A HREF="#link">How can I view a more detailed result?</A></LI>
 <LI><A HREF="#detail">How do I interpret the detail results?</A></LI>-->
  <LI><A HREF="#examples_refqf">Are there examples of queries and results for references?</A></LI>
@@ -124,7 +125,7 @@ To find references according to the year the article was published:
   <li>Enter a single year, a range of years, or an open-ended query such as everything after 2009 (2009-) or everything before 2007 (-2007).</li>
   <!-- <li>If  <font color="#FF0000">*Invalid year</font> appears, correct any errors in formatting. </li> -->
 </ul>
-
+<br>
 <font size="-1"><A HREF="#top">Top</A></font>
 
 <h3><a name="text_refqf"></a>How do I search by text?</h3>
@@ -158,7 +159,7 @@ Enter a text string to search for articles with abstracts/titles containing the 
 </ul>
 Your search results are shown with four sections, marked by light blue banners: 
 <ol>
- <li><b>Click to modify search</b>: Click in the light blue banner in this section if you wish to modify your search. This section will expand to show the References Query Form with your original search parameters.</li>
+ <li><b>Click to modify search</b>: Click in the light blue banner in this section if you wish to modify your search. (The banner title changes to Click to Hide Search.) This section will expand to show the References Query Form with your original search parameters.</li>
  <li><b>Results</b>: The Results section contains a summary of your search parameter(s) (for example, author name) and the number of results. If you have filtered your results, the <A HREF="#filter_refqf">filters</a> used, the ability to remove filters, and the number of results after filtering will appear in the center of this section. The right hand side of this section allows you to page through your results and change the number of results viewed on a page. </li>
  <li><b>Filter references by:</b> Use this section to <A HREF="#filter_refqf">filter</a> your results, show all abstracts or create a text file of your results. </li>
  <li>The fourth banner shows the field headings for your results:</li>
@@ -172,7 +173,7 @@ Your search results are shown with four sections, marked by light blue banners:
    <li><b>Vol(Iss)Pg</b>: The volume designation and pages for the publication. </li>
    </ul>
   
- Click on the Author(s), Journal and Year column headings or the arrows to change the sort order of your results. </li>
+ <li>Click on the Author(s), Journal and Year column headings or the arrows to change the sort order of your results. </li>
 </ol>
 
 <!-- ***your query has timed out. Either use the Click to modify search process or select a Journal, Year, or Data filter before selecting Author as a filter. -->
@@ -180,8 +181,8 @@ Your search results are shown with four sections, marked by light blue banners:
 <font size="-1"><A HREF="#top">Top</A></font>
 
 <h3><a name="filter_refqf"></a>How do I filter my results?</h3>
-<p>You can filter results by <a href="#author_refqf">author</a>, journal, year, or data. In the banner at the top, after Filter References By: click the desired box. This will reduce your results to only those containing the checked items. </p>
-<p>NOTE: If you get an error message such as "Too many Authors to filter." Modify your search or use another filter first. 
+<p>You can filter results by author, journal, year, or data. In the banner above your results, after Filter References By: click the desired box. This will reduce your results to only those containing the checked items. This will allow you to further limit your results to specific authors, journals, years or a type of MGI curated data.</p>
+<p>NOTE: If you get an error message such as "Too many Authors to filter." Modify your search or use another filter first. </p>
 
 <font size="-1"><A HREF="#top">Top</A></font>
 
@@ -190,10 +191,13 @@ Your search results are shown with four sections, marked by light blue banners:
 
 <font size="-1"><A HREF="#top">Top</A></font>
 
+<h3><a name="#textfile_refqf"></a>Can I get my results as a text file?</h3>
+<p>Yes. In your search results, at the right hand edge of the Filter references bar, click on the Text File icon. Your web browser will download a file of the references that remain after any filtering you may have performed. The file will contain the PubMed ID, authors, title and journal information for each reference. </p>
+
 
 <H3><A NAME="examples_refqf"></A>Are there examples of queries and results for references?</H3>
 <ul>
-<LI>Find a paper in MGI describing a methodology for large-scale sequence analysis with J number J:45711.
+<li>Find a paper in MGI describing a methodology for large-scale sequence analysis with J number J:45711.
 <ul><li>In the PubMed ID or MGI Reference ID field, enter  J:45711</li>
 <li>Click Search.</li>
 </ul>
@@ -248,8 +252,8 @@ The query results include all articles written by Carninci in 2002 and published
 <li>Click Search. </li>
 </ol>
 
-<LI> The query finds articles published in 2003 written by several authors one of whom is named Clementi.
- </LI>
+The query finds articles published in 2003 written by several authors one of whom is named Clementi.
+
 <p></p>
 
 <LI>There is an article on cystic fibrosis by a researcher whose last name Bell. You don't know whether these words are in the title or not, but you are not looking for ventricular fibrosis or cystic kidney disease. </li>
@@ -279,7 +283,6 @@ The query results include all articles written by Carninci in 2002 and published
 </p>
 
 
-</P>
 <font size="-1"><A HREF="#top">Top</A></font>
 
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxx
