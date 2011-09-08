@@ -96,20 +96,24 @@ For more details, see the <a href="http://www.geneontology.org/GO.annotation.htm
 <tr><th align=left valign=top><a name="evidence"></a>Evidence</th><td>Criteria that justify the annotation. GO evidence codes appearing on the MGI Gene Ontology Classifications and how they are used are listed below. For additional details, see the <A HREF="http://www.geneontology.org/GO.evidence.shtml">Guide to GO Evidence Codes</a> at the Gene Ontology web site.
 <blockquote>
 <table cellpadding="2" border="0">
-     <tr><th align="left" valign="top" width="15%"><font size="-1">EXP</th> <td><font size="-1">Inferred from Experiment</td></tr>
-  <tr><th align="left" valign="top" width="15%"><font size="-1">IC</th> <td><font size="-1">Inferred by Curator</td></tr>
-  <tr><th align="left" valign="top"><font size="-1">IDA</th><td valign="top"><font size="-1">Inferred from Direct Assay</td></tr>
+ <tr><th align="left" valign="top" width="15%"><font size="-1">EXP</th> <td><font size="-1">Inferred from Experiment</td></tr>
+ <tr><th align="left" valign="top" width="15%"><font size="-1">IAS</th> <td><font size="-1">Inferred from Ancestral Sequence</td></tr>
+ <tr><th align="left" valign="top" width="15%"><font size="-1">IBA</th> <td><font size="-1">Inferred from Biological aspect of Ancestor</td></tr>
+ <tr><th align="left" valign="top" width="15%"><font size="-1">IBD</th> <td><font size="-1"> Inferred from Biological aspect of Descendant</td></tr>
+ <tr><th align="left" valign="top" width="15%"><font size="-1">IC</th> <td><font size="-1">Inferred by Curator</td></tr>
+ <tr><th align="left" valign="top"><font size="-1">IDA</th><td valign="top"><font size="-1">Inferred from Direct Assay</td></tr>
  <tr><th align="left" valign="top"><font size="-1">IEA</th><td><font size="-1">Inferred from Electronic Annotation</td></tr>
-
  <tr><th align="left" valign="top"><font size="-1">IGI</th><td><font size="-1">Inferred From Genetic Interaction</td></tr>
+ <tr><th align="left" valign="top" width="15%"><font size="-1">IKR</th> <td><font size="-1">Inferred from Key Residues</td></tr>
  <tr><th align="left" valign="top"><font size="-1">IMP</th><td><font size="-1">Inferred from Mutant Phenotype</td></tr>
+ <tr><th align="left" valign="top" width="15%"><font size="-1">IMR</th> <td><font size="-1">Inferred from Missing Residues</td></tr>
  <tr><th align="left" valign="top"><font size="-1">IPI</th><td><font size="-1">Inferred from Physical Interaction</td></tr>
+ <tr><th align="left" valign="top" width="15%"><font size="-1">IRD</th> <td><font size="-1">Inferred from Rapid Divergence</td></tr>
  <tr><th align="left" valign="top"><font size="-1">ISA</th><td><font size="-1">Inferred from Sequence Alignment</td></tr>
  <tr><th align="left" valign="top"><font size="-1">ISM</th><td><font size="-1">Inferred from Sequence Model</td></tr>
  <tr><th align="left" valign="top"><font size="-1">ISO</th><td><font size="-1">Inferred from Sequence Orthology</td></tr>
  <tr><th align="left" valign="top"><font size="-1">ISS</th><td><font size="-1">Inferred from Sequence Or Structural Similarity</td></tr>
-
-<tr><th align="left" valign="top"><font size="-1">NAS</th><td><font size="-1">Non-traceable Author Statement</td></tr>
+ <tr><th align="left" valign="top"><font size="-1">NAS</th><td><font size="-1">Non-traceable Author Statement</td></tr>
  <tr><th align="left" valign="top"><font size="-1">ND</th><td><font size="-1">No biological Data available</td></tr>
  <tr><th align="left" valign="top"><font size="-1">RCA</th><td><font size="-1">Inferred from Reviewed Computational Analysis</td></tr>
  <tr><th align="left" valign="top"><font size="-1">TAS</th><td><font size="-1">Traceable Author Statement</td></tr>
