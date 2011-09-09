@@ -71,11 +71,11 @@ Using the References Query Form </span>
  <H3><A NAME="howfill_refqf"></a>How do I fill in this query form?</H3>
 <P>Enter enough information in the search fields to narrow the search to a few references.
 <ul>
-  <li>Use the  Author and Text fields to focus your search. </li>
-  <li>Use the <a href="#year">Year</a> and <a href="#journal">Journal</a> fields to further limit the scope of the search. </li>
+  <li>Use the  <a href="#author_refqf">Author</a> and <a href="#text_refqf">Text</a> fields to focus your search. </li>
+  <li>Use the <a href="#year_refqf">Year</a> and <a href="#journal_refqf">Journal</a> fields to further limit the scope of the search. </li>
 <li>After entering values, click <B>Search</B> to submit the query. </li>
 
-  <li>Use the Results page to select the most suitable option,  to <a href="#filter">filter</a> the data, or click to <a href="#modify">modify</a> your search.</li>
+  <li>Use the Results page to select the most suitable option,  to <a href="#filter_refqf">filter</a> the data, or click to <a href="#modify_refqf">modify</a> your search.</li>
   <li>When you find the desired reference(s), follow links to additional information throughout the database. </li>
 <li>Click <B>Reset</B> to clear the fields. The only default value on the References query form is Any Author, so if this is not your prefered search criteria, click to make a different selection in the Author field.</li>
 </ul>
@@ -157,11 +157,11 @@ Enter a text string to search for articles with abstracts/titles containing the 
 <li>Show/hide all abstracts or see a single abstract.</li>
 <li>Get a text file of all the references</li>
 </ul>
-Your search results are shown with four sections, marked by light blue banners: 
+<p>Your search results are shown with four sections, marked by light blue banners: </p>
 <ol>
- <li><b>Click to modify search</b>: Click in the light blue banner in this section if you wish to modify your search. (The banner title changes to Click to Hide Search.) This section will expand to show the References Query Form with your original search parameters.</li>
+ <li><b>Click to <a name="modify_refqf">modify</a> search</b>: Click in the light blue banner in this section if you wish to modify your search. (The banner title changes to Click to Hide Search.) This section will expand to show the References Query Form with your original search parameters.</li>
  <li><b>Results</b>: The Results section contains a summary of your search parameter(s) (for example, author name) and the number of results. If you have filtered your results, the <A HREF="#filter_refqf">filters</a> used, the ability to remove filters, and the number of results after filtering will appear in the center of this section. The right hand side of this section allows you to page through your results and change the number of results viewed on a page. </li>
- <li><b>Filter references by:</b> Use this section to <A HREF="#filter_refqf">filter</a> your results, show all abstracts or create a text file of your results. </li>
+ <li><b>Filter references by:</b> Use this section to <A HREF="#filter_refqf">filter</a> your results, show all abstracts or create a <a href="#textfile_refqf">text file</a> of your results. </li>
  <li>The fourth banner shows the field headings for your results:</li>
   <ul>
    <li><b>PubMed ID/MGI Ref. ID</b>: The PubMed ID, if present, is linked to PubMed. The MGI begins with <i>J:</i>. </li>
@@ -173,7 +173,7 @@ Your search results are shown with four sections, marked by light blue banners:
    <li><b>Vol(Iss)Pg</b>: The volume designation and pages for the publication. </li>
    </ul>
   
- <li>Click on the Author(s), Journal and Year column headings or the arrows to change the sort order of your results. </li>
+ <li>Click on the Author(s), Journal and Year column headings or the up/down arrowheads ( &#9660; &#9650;) to change the sort order of your results. </li>
 </ol>
 
 <!-- ***your query has timed out. Either use the Click to modify search process or select a Journal, Year, or Data filter before selecting Author as a filter. -->
@@ -191,7 +191,7 @@ Your search results are shown with four sections, marked by light blue banners:
 
 <font size="-1"><A HREF="#top">Top</A></font>
 
-<h3><a name="#textfile_refqf"></a>Can I get my results as a text file?</h3>
+<h3><a name="textfile_refqf"></a>Can I get my results as a text file?</h3>
 <p>Yes. In your search results, at the right hand edge of the Filter references bar, click on the Text File icon. Your web browser will download a file of the references that remain after any filtering you may have performed. The file will contain the PubMed ID, authors, title and journal information for each reference. </p>
 
 
@@ -213,10 +213,10 @@ Your search results are shown with four sections, marked by light blue banners:
 <LI>Find all the papers published after 2001 authored by Carninci, though you are not sure of the first name.
 <ol>
  <li>In the Author field, click First Author.</li>
-  <li>Begin typing (C-a-r-n-i...) until the autolist appears.</li>
+  <li>Begin typing (C-a-r-n-i...) until the autocomplete list appears.</li>
   <li>Select Carninici P. </li>
   <li>In the Year field, enter 2001-.</li>
-   <li>Click Search.   The Results page appears. No references are found.</li>
+   <li>Click Search.  The Results page appears. No references are found.</li>
 <li>In the blue banner at the top, Click to Modify Search. </li>
 <li>In the page that appears, click Reset.</li>
 <li>Repeat steps 1 and 2. For step 3, select Carninci P.</li>
@@ -230,7 +230,7 @@ Your search results are shown with four sections, marked by light blue banners:
  <LI>Find all the papers written by Carninci in 2002 and published in the Journal of Structural Genomics.</I>.
 <ol>
   <li>In the Author(s) field, leave the default, Any Author(s).
-<li>Begin typing (C-a-r-n-i...) until the autolist appears.</li>
+<li>Begin typing (C-a-r-n-i...) until the autocomplete list appears.</li>
 <li>Be sure to select Carninci P rather than Carninici P.</li>
  <li>In the Journal field,  begin typing J-s-t-r-u and  select J Struct Funct Genomics from the list that appears.</li>
   <li>In the Year field, enter 2002.</li>
@@ -243,7 +243,7 @@ The query results include all articles written by Carninci in 2002 and published
 <LI>Find papers published in 2003 that include an author named Clemente or Clementi, you are not sure which.
   <ol>
       <li>In the Author(s) field, leave the default, Any Author(s).</li>
-<li>Begin typing (C-l-e-m-e-n...) until the autolist appears. </li>
+<li>Begin typing (C-l-e-m-e-n...) until the autocomplete list appears. </li>
 <li>Continue entering letters until the list contains Clemente.</li>
 <li>Select Clemente (all). Clemente; appears in the Authors box.</li>
 <li>Repeat steps 1 & 2 until the list contains Clementi.</li>
@@ -259,7 +259,7 @@ The query finds articles published in 2003 written by several authors one of who
 <LI>There is an article on cystic fibrosis by a researcher whose last name Bell. You don't know whether these words are in the title or not, but you are not looking for ventricular fibrosis or cystic kidney disease. </li>
 <ol>
   <li>In the Author(s) field, leave the default, Any Author(s).</li>
-<li>Begin typing (B-e-l...) until Bell appears in the autolist.</li>
+<li>Begin typing (B-e-l...) until Bell appears in the autocomplete list.</li>
 <li>Select Bell (all) from the list.</li>
 <li>In the Text field, click Title and Abstract.</li>
   <li>Enter "cystic fibrosis" in the Text field.  Enclosing the term in quotation marks ensures  specificity.</li>
