@@ -55,13 +55,11 @@
   	  	
   	  	 
   	  	
-  	  	<dt><b>Sequences</b></dt>
-		 <dd><a href="SEQUENCE_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_help.shtml'); return false;">Using the Mouse Sequence Query Form</a></dd>         
-  	          <dd><a href="SEQUENCE_summary_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_summary_help.shtml'); return false;"> Interpreting a Sequence Summary</a></dd>  	          
-  	  	  <dd><a href="SEQUENCE_detail_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_detail_help.shtml'); return false;">Interpreting Sequence Details</a></dd>
-  	   <dd><a href="SEQUENCE_query_tips_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_query_tips_help.shtml'); return false;">Sequence Query Tips</a></dd>
-
- <dd><a href="SEQUENCE_valid_providers_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_valid_providers_help.shtml'); return false;">Valid Sequence Provider and Type Combinations</a></dd>
+  	  <dt><b>Sequences</b></dt>
+		        
+  	  <dd><a href="SEQUENCE_summary_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_summary_help.shtml'); return false;"> Interpreting a Sequence Summary</a></dd>  	          
+  	  <dd><a href="SEQUENCE_detail_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_detail_help.shtml'); return false;">Interpreting Sequence Details</a></dd>
+  	  <dd><a href="SEQUENCE_valid_providers_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_valid_providers_help.shtml'); return false;">Valid Sequence Provider and Type Combinations</a></dd>
 
 
   	 <dt><b>Maps</b></dt>   
