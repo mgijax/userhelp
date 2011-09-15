@@ -107,7 +107,7 @@ The Field Description - Term Detail report appears.</P>
       <TABLE BORDER="0" CELLSPACING="0" BGCOLOR="#FFFFCC">
         <TR><TD VALIGN="top">Yellow</TD></TR>
        </TABLE>
-    <TD VALIGN="top">Selected phenotype term, unique identifier for the term, definition of the term, any synonyms associated with the term, and number of paths to the term in the vocabulary structure.</TD>
+    <TD VALIGN="top">Selected phenotype term, unique identifier for the term, definition of the term, any synonyms associated with the term, and number of paths to the term in the vocabulary structure. Some terms may also have Alternate IDs.</TD>
 </TR>
 <TR><TD VALIGN="top">Unique identifier</TD><TD><FONT COLOR="#FF0000">Red</FONT></TD><TD>Name of the phenotype term selected, followed by the a unique identifier. There is one identifier for each term in the MP Browser. This means that no matter how many times the term appears, the ID is always the same. This is also true if the term changes. For example, if  "anophthalmia" becomes simply "absent eyes," the Mammalian Phenotype identifier does not change.</TD>
 </TR>
