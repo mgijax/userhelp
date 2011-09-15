@@ -218,7 +218,7 @@ function openHelpWindow(helpFile){
 <TR><th colspan=4 align=left><a name="expression"></a>Expression</th></tr>
 <tr><TD VALIGN="top">MGI assay ID</td><td align=center valign=top>Expression</td><TD VALIGN="top">MGI:1339505</td><TD VALIGN="top">Alphanumeric with colon</td></tr>
 <TR><th colspan=4 align=left>Genes & Markers</th></tr>
-<tr><td valign=top><a name="mgi_marker_ID"></a>MGI Marker ID</td><td valign=top align=center rowspan=14>Genes, Sequences
+<tr><td valign=top><a name="mgi_marker_ID"></a>MGI Marker ID</td><td valign=top align=center rowspan=13>Genes, Sequences
 </td><td valign=top>MGI:87895, MGD-MRK-1672</td><TD VALIGN="top">Alphanumeric with colon</td></tr>
 <tr><TD VALIGN="top">BROAD</td><TD VALIGN="top">D1184</td><TD VALIGN="top">Alphanumeric</td></TR>
 <tr><td valign="top">dbGSS mutant cell line ID</td><TD VALIGN="top">FHCRC-GT-S15-11C1</td><TD VALIGN="top">Alphanumeric</td></tr>
@@ -226,10 +226,8 @@ function openHelpWindow(helpFile){
 <tr><td valign=top>DoTS ID<td valign=top>DT.529646</td><TD VALIGN="top">Alphanumeric with decimal</td></tr>
 <tr><td valign=top>E.C. number</td><td valign=top>2.7.1.112</td><TD VALIGN="top">Numeric with decimals</td></tr>
 <tr><td valign=top>Ensembl ID<td valign=top>ENSMUSG00000005672</td><TD VALIGN="top">Alphanumeric</td></tr>
-
 <tr><td valign=top>Entrez ID</td><td valign=top>16590</td><TD VALIGN="top">Numeric</td></tr>
 <tr><td valign=top>NIA Mouse Gene Index ID<TD VALIGN="top">U041021</td><td valign=top>Alphanumeric</td></tr>
-<tr><TD VALIGN="top">TreeFam ID</td><TD VALIGN="top">TF3201465</td><TD ALIGN="top">Alphanumeric</td></TR>
 <tr><td valign=top>UniGene ID<td valign=top>4394</td><TD VALIGN="top">Numeric</td></tr>
 <tr><td valign=top>UniProt<td valign=top>P6281</td><TD VALIGN="top">Alphanumeric</td></tr>
 <tr><td valign=top>UniSTS<td valign=top>125993</td><TD VALIGN="top">Numeric</td></tr>
@@ -318,8 +316,9 @@ td><td align=center valign=top>Markers</td><TD VALIGN="top">1FRB</TD><TD VALIGN=
 <tr><TD VALIGN="top">Pro ID</td><td align=center valign=top>Markers & Sequences</td><TD VALIGN="top">PR:000003753</TD><TD VALIGN="top">Alphanumeric</td></TR>
 
 <TR><th colspan=4 align=left>References</th></tr>
-<tr><TD VALIGN="top">PubMed ID</td><td align=center valign=top rowspan=4>References</td><TD VALIGN="top">M14791, 8825637</TD><TD VALIGN="top">Alphanumeric or numeric</td></TR>
+<tr><TD VALIGN="top">PubMed ID</td><td align=center valign=top rowspan=5>References</td><TD VALIGN="top">M14791, 8825637</TD><TD VALIGN="top">Alphanumeric or numeric</td></TR>
 <tr><TD VALIGN="top">PubMed ID</td><TD VALIGN="top">99236653</TD><TD VALIGN="top">Numeric</td></TR>
+<tr><TD VALIGN="top">DOI ID</td><TD VALIGN="top">10.1006/bbrc.1999.1563</TD><TD VALIGN="top">Alphanumeric or numeric</td></TR>
 <tr><TD VALIGN="top">MGI reference ID</td><TD VALIGN="top">MGI:15219</TD><TD VALIGN="top">Alphanumeric with colon</td></TR>
 <tr><TD VALIGN="top">J number<br> (Every MGI stored reference has a number of the form J:<i>nnnnn..</i>).</td><TD VALIGN="top">J:14135</TD>
 <TD VALIGN="top">Alphanumeric with colon</td></TR>
