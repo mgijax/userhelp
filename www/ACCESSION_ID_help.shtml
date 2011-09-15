@@ -134,8 +134,7 @@ function openHelpWindow(helpFile){
   <dd>NM_005208 :  RefSeq - Human</dd>
 <br><br>
 
-   <dt><b>Miscellaneous</b></dt>
- <dd>TF325768 :  TreeFam-Tree</dd>
+<dt><b>Miscellaneous</b></dt>
   <dd>2.7.10.1 :  EC</dd>
   <dd>1FRB :  PDB</dd>
 </dl>
@@ -162,6 +161,7 @@ function openHelpWindow(helpFile){
   <dd>J:62345 :  MGI</dd>
  <dd>8825637 :  PubMed</dd>
   <dd>MGI:1858784 :  MGI</dd>
+  <dd>10.1006/bbrc.1999.1563 :  DOI</dd>
 <br>
 <dt><a name="probez"></a><b>Probes</b></dt>
    <dd>MGI:200469 :  MGI</dd>
