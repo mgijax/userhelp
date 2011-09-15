@@ -56,13 +56,11 @@ function openHelpWindow(helpFile){
 <H3><A NAME="field"></A>Which fields should show up on this report?</H3>
 <P>Depending on data availability and the marker type, this detail report contains information in some or all of the following categories:</P>
 
-<table width="!" cellpadding="2" class="nb" cellspacing="2">
-<tr align="center"><td><font size="-1"><a href="#sym_detail">Symbol/Name/ID</a> |  <a href="#synonym">Synonyms</a> | <a href="#feature_type">Feature Type</a> | <a href="#sts">STS</a> |
-<a href="#genetic_map">Genetic Map</a> | <a href="#sequence_map">Sequence Map</a> |
-<a href="#orthology">Mammalian homology</a> | <a href="#sequences">Sequences</a> | <a href="#phenotypes_detail">Alleles & Phenotypes</a> | <a href="#polymorphisms">Polymorphisms</a> | <a href="#GO_detail"><nobr>GO Classifications</a></nobr> | <a href="#expression_detail">Expression</a> |<a href="#molecular_reagents">Molecular reagents</a> | <a href="#other_database_links">Other database links</a> | <a href="#protein_domains_detail">Protein-related information</a> | <a href="#references">References</a> | <a href="#other">Other accession IDs</a></font></TD>
+<P><table width="!" cellpadding="2" cellspacing="2">
+<tr align="center"><td><font size="-1"><a href="#sym_detail">Symbol/Name/ID</a> | <a href="#synonym">Synonyms</a> | <a href="#sts">STS</a> | <a href="#feature_type">Feature Type</a> | 
+<a href="#genetic_map">Genetic Map</a> | <a href="#sequence_map">Sequence Map</a> | <a href="#sequences">Sequences</a> | <a href="#orthology">Mammalian homology</a> | <a href="#humanortho">Human ortholog</a>  | <a href="#phenotypes_detail">Alleles & Phenotypes</a> | <a href="#polymorphisms">Polymorphisms</a> | <a href="#GO_detail">Gene Ontology (GO) Classifications</a> | <a href="#expression_detail">Expression</a> | <a href="#other_database_links">Other database links</a> | <a href="#protein_domains_detail">Protein-related information</a> | <a href="#molecular_reagents">Molecular reagents</a> | <a href="#references">References</a> | <a href="#other">Other accession IDs</a></font></TD>
 </TR>
 </TABLE>
-
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -131,20 +129,6 @@ For markers whose position is known, a numeric value appears. This value is calc
 </TR>
 
 <TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="orthology"></A>Mammalian<BR>
-homology</TH>
-<TD VALIGN="top">Mammalian homology records for this marker, as follows (depending on availability):
-<UL>
-<LI>A list of species with curated orthology relationships with (in parentheses) a link to the MGI Mammalian Orthology Query Results page of curated orthology relationships</LI>
-<LI>A link to a mouse/human comparative map display of the area plus or minus 2 cM around the marker</LI>
-<li>A link to the TreeFam database (phylogenetic trees of animal genes). </li>
-<LI>A link to this marker's MGI Protein Superfamily Detail page if it can be annotated to a Protein Information Resource SuperFamily (PIRSF) classification name.</LI>
-</UL>
-</TD>
-</TR>
-
-
-<TR>
 <TH ALIGN="left" VALIGN="top"><A NAME="sequences"></A>Sequences</TH>
 <TD VALIGN="top">
 <TABLE BORDER="1" CELLPADDING="2" WIDTH="100%">
@@ -188,6 +172,31 @@ MGI Representative Sequences provide users quick access to a single genomic, tra
 
 </TD>
 </TR>
+<TR>
+<TH ALIGN="left" VALIGN="top"><A NAME="orthology"></A>Mammalian<BR>
+homology</TH>
+<TD VALIGN="top">Mammalian homology records for this marker, as follows (depending on availability):
+<UL>
+<LI>A list of species with curated orthology relationships with (in parentheses) a link to the MGI Mammalian Orthology Query Results page of curated orthology relationships</LI>
+<LI>A link to a mouse/human comparative map display of the area plus or minus 2 cM around the marker</LI>
+<LI>A link to this marker's MGI Protein Superfamily Detail page if it can be annotated to a Protein Information Resource SuperFamily (PIRSF) classification name</LI>
+<li>A link to the Gene Tree View at Ensembl (phylogenetic trees of animal genes). </li>
+</UL>
+</TD>
+</TR>
+<tr>
+<th ALIGN="left" VALIGN="top"><A NAME="humanortho"></A>Human<BR>
+ortholog</TH>
+<TD VALIGN="top">Human ortholog records for this marker, if available, as follows:
+<UL>
+<li>Official human gene symbol (linked to EntrezGene), name and NCBI EntrezGene ID. </li>
+<li>Human Synonyms: Names or symbols for a given marker that may appear in the literature but which are not approved names or symbols</li>
+<li>Human genome coordinate range and strand, in base pairs, from NCBI</li>
+<li>The number of human diseases associated with this gene in OMIM. When you click on this number a pop-up window appears listing the associated diseases (linked to the MGI Human Disease and Mouse Model Detail page) and the OMIM ID (linked to the OMIM entry for that disease). An asterisk appears if that disease is associated with mutations in the mouse gene. <b>Note:</b>  Inclusion in this report does not necessarily mean that mutations in the gene of interest contribute to or cause the disease listed in Human Disease column. The gene may have an allele that is part of a complex genotype that includes other causative genes.</LI>
+</ul>
+</td>
+</tr>
+
 <TR>
 <TH ALIGN="left" VALIGN="top"><A NAME="phenotypes_detail"></A>Alleles and Phenotypes</TH>
 <TD VALIGN="top">Depending on availability, the display includes some or all of the following links or information. Numbers in parentheses indicate how many items each linked report contains.
