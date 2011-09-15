@@ -82,7 +82,7 @@ function openHelpWindow(helpFile){
 <ul>
   <li>gene model ID</li>
    <li>sequence ID</li>
-  <li>TreeFam ID</li>
+  <!--<li>TreeFam ID</li>-->
   <li>Homologene ID</li>
   <li>EC (Enzyme Commission) ID</li>
   <li>DoTS ID</li>
