@@ -90,7 +90,7 @@ function openHelpWindow(helpFile){
   <li>DFCI ID</li>
   <li>NIA Mouse Gene Index ID</li>
   <li>PDB ID</li>  
-  <!--<li>gene trap ID</li>-->
+  <li>DOI ID</li>
 </ul>
 <p>In addition, some accession IDs are not unique. As an example, query for <i>100678</i>. 
 <ul>
