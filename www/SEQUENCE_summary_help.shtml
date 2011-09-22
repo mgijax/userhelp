@@ -53,7 +53,7 @@ Interpreting a Sequence Summary </span>
    </UL>
 </LI>
 <LI><A HREF="#ftp">I got a summary with a "Link to Results on FTP Site" message. What do I do now?</A></LI>
-<LI><A HREF="#msqf">I filled in fields on the Mouse Sequence Query Form and got this information. What does it tell me?</A></LI>
+<!--<LI><A HREF="#msqf">I filled in fields on the Mouse Sequence Query Form and got this information. What does it tell me?</A></LI>-->
 <LI><A HREF="#marker_detail">I clicked a link on an MGI Gene Detail report and got this information. What does it tell me?</A></LI>
 <LI><A HREF="#reference_detail">I clicked a link on an MGI Reference Detail report and got this information. What does it tell me?</A></LI>
 <LI><A HREF="#fields">What can I do with sequence summary information?</A></LI>
@@ -83,10 +83,10 @@ Interpreting a Sequence Summary </span>
 <TH ALIGN="left" VALIGN="top">For field details, see...</TH>
 </TR>
 
-<TR>
+<!--<TR>
 <TD VALIGN="top">using the Web option in the Output Format field</TD>
 <TD VALIGN="top"><A HREF="#msqf">I filled in fields on the Mouse Sequence Query Form...</A></TD>
-</TR>
+</TR>-->
 
 <TR>
 <TD VALIGN="top">from a Gene Detail report</TD>
@@ -104,23 +104,23 @@ Interpreting a Sequence Summary </span>
 
 <H3><A NAME="contain"></A>What's in a sequence summary?</H3>
 
-<P>The Mouse Sequences Query Results summary appears when you select either the Web or Web without toolbar option from the Output Format section of the Mouse Sequences Query Form. The summary provides a general description of each sequence that your query returns. The summary lists:</P>
+<P>The Mouse Sequences Query Results summary appears when you select the All sequences, RefSeq or UniProt links in the Sequences section of a marker detail page. The summary provides a general description of each sequence that your query returns. The summary lists:</P>
 
 <UL>
-<LI>Query parameters and sort options from the Mouse Sequence Query Form.</LI>
+<LI>Marker Symbol, Name and MGI accession ID.</LI>
 
 <LI STYLE="list-style: none"><BR>
 </LI>
 
-<LI>Number of matching sequences displayed out of number found (e.g.,  100 of 171 sequences displayed)</LI>
+<LI>Number of matching sequences displayed out of number found (e.g.,  1 - 25 of 171 sequences displayed)</LI>
 
 <LI STYLE="list-style: none"><BR>
 </LI>
 
-<LI>Summary information about the sequences matching your query, in columns. Depending on items checked in the <A HREF="SEQUENCE_help.shtml#sort">Sorting and output format</A> section of the sequences query form, columns headings can include Select (for your check marks) Sequence, Version, Type, Length, Strain/Species, Description from Sequence Provider, Source, Tissue, Library, Clone Collection, Marker Symbol, Marker Name, Map Position, Genome Coordinates. The default is to return sequence, type, length, strain/species, description, clone collection and marker symbol details.</LI>
+<LI>Summary information about the sequences matching your query, in columns. Columns headings are: Select (for your check marks), Sequence, Type, Length, Strain/Species, Description from Sequence Provider, Clone Collection and Marker Symbol. </LI>
 </UL>
 
-<P>You can select a sequence and view details (see <A HREF="SEQUENCE_detail.shtml">Using Sequence Detail Reports</A>), or you can download it in <A HREF="#fasta">FASTA</A> format or forward it to <A HREF="#mouseblast">MouseBLAST</A>.
+<P>You can select a sequence and view details (see <A HREF="SEQUENCE_detail_help.shtml">Using Sequence Detail Reports</A>), or you can download it in <A HREF="#fasta">FASTA</A> format or forward it to <A HREF="#mouseblast">MouseBLAST</A>.
 </P>
 
 <font size="-1"><a href="#top">Top</a>
@@ -172,7 +172,7 @@ There is no further sort by the division (for example,<i>Rodent</i> or <i>HTC</i
 The provider's sequence record appears.</LI>
 
 <LI>Click <B>MGI Sequence Detail</B>.<BR>
-The detail record for that sequence as stored in MGI appears. See <A HREF="SEQUENCE_detail.shtml">Using Sequence Detail Reports</A>.</LI>
+The detail record for that sequence as stored in MGI appears. See <A HREF="SEQUENCE_detail_help.shtml">Using Sequence Detail Reports</A>.</LI>
 </OL>
 
 <font size="-1"><a href="#top">Top</a>
@@ -209,8 +209,8 @@ The detail record for that sequence as stored in MGI appears. See <A HREF="SEQUE
 </p>
 <p>For additional information, see:
 <ul>
-   <li><a href="mblast_select_seq_menu.shtml">Using the Forward to MouseBLAST Form</a></li>
- <li><a href="mblast_output.shtml">Interpreting the MouseBLAST Output Report</a></li>  
+   <li><a href="mouseblast_forwarding_help.shtml">Using the Forward to MouseBLAST Form</a></li>
+ <li><a href="mouseblast_output_help.shtml">Interpreting the MouseBLAST Output Report</a></li>  
 </ul>
 </p>
 <font size="-1"><a href="#top">Top</a></font>
@@ -317,7 +317,7 @@ Print or save this page to save the URL to your results.-->
 
 <font size="-1"><a href="#top">Top</a>
 </font>
-<H3><A NAME="msqf"></A>I filled in fields on the Mouse Sequence Query Form and got this information. What does it tell me?</H3>
+<!--<H3><A NAME="msqf"></A>I filled in fields on the Mouse Sequence Query Form and got this information. What does it tell me?</H3>
 
 <UL>
 <LI>At the top of the page is a list of the query parameters that produced this report.</LI>
@@ -338,7 +338,8 @@ Print or save this page to save the URL to your results.-->
 <P>See <A HREF="#fields">What can I do with sequence summary information?</A> for more details.</P>
 
 <font size="-1"><a href="#top">Top</a>
-</font>
+</font>-->
+
 <H3><A NAME="marker_detail"></A>I clicked a link on a Marker Detail report and got this information. What does it tell me?</H3>
 
 <P>You were looking for sequences associated with a gene and clicked <B>All Sequences</B> from the <B>Sequences</B> section of a gene detail report.</P>
