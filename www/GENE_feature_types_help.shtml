@@ -47,62 +47,87 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
 </ul>
 </p>
 <table border="1" cellspacing="1" cellpadding="3" width="!">
-<tr><td valign="top"><font size="-1"><nobr><b>Feature Type</b></td><th valign="top"><font size="-1">MGI Definition</font></b></td><th valign="top"><font size="-1">Corresponding<br>SO ID</font></b></td></tr>
+<tr><th valign="top"><font style="white-space:nowrap;" size="-1">Feature Type</th><th valign="top"><font size="-1">MGI Definition</font></th><th valign="top"><font size="-1">Corresponding<br>SO ID</font></th></tr>
 
-<tr><td valign"top"><b><font size="-1">gene</td><td valign="top"><font size="-1">A region (or regions) that include all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions, and/or other functional sequence regions. </td><td valign="top"><font size="-1">SO:0000704</font></td></tr>
+<tr><th align="left" valign="top"><font size="-1">gene</th><td valign="top"><font size="-1">A region (or regions) that include all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions, and/or other functional sequence regions. </td><td valign="top"><font size="-1">SO:0000704</font></td></tr>
 
-<tr><td valign"top"><font size="-1"><b>protein coding gene</td><td valign="top"><font size="-1"><font size="-1">A gene that produces at least one transcript that is translated into a protein. </td><td valign="top"><font size="-1"></font>&nbsp;</font></td></tr>
+<tr><th align="left" valign="top"><font size="-1">protein coding gene</th><td valign="top"><font size="-1"><font size="-1">A gene that produces at least one transcript that is translated into a protein. </td><td valign="top"><font size="-1"></font>&nbsp;</font></td></tr>
 
-<tr><td valign"top"><font size="-1"><b>non-coding RNA gene</b></td><td valign="top"><font size="-1">A gene that produces an RNA transcript that functions as the gene product.</td><td valign="top"><font size="-1">&nbsp;</td></tr>
+<tr><th align="left" valign="top"><font size="-1">non-coding RNA gene</th><td valign="top"><font size="-1">A gene that produces an RNA transcript that functions as the gene product.</td><td valign="top"><font size="-1">&nbsp;</td></tr>
 
-<tr><td valign="top"><font size="-1"><b>rRNA gene</b></td><td valign="top"><font size="-1">A gene that encodes ribosomal RNA.</td><td valign="top"><font size="-1">SO:0001637</font></td></tr>
+<tr><th valign="top" align="left"><font size="-1">rRNA gene</th><td valign="top"><font size="-1">A gene that encodes ribosomal RNA.</td><td valign="top"><font size="-1">SO:0001637</font></td></tr>
 
-<tr><td valign"top"><font size="-1"><b>tRNA gene</font></b></td><td valign="top"><font size="-1">A gene that encodes Transfer RNA. </td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
+<tr><th align="left" valign="top"><font size="-1">tRNA gene</font></th><td valign="top"><font size="-1">A gene that encodes Transfer RNA. </td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
 
-<tr><td valign="top"><font size="-1"><b>snRNA gene</b></td><td valign="top"><font size="-1">A gene that encodes a Small Nuclear RNA.</td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
+<tr><th valign="top" align="left"><font size="-1">snRNA gene</th><td valign="top"><font size="-1">A gene that encodes a Small Nuclear RNA.</td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
 
-<tr><td valign="top><font size="-1"><b>snoRNA gene</b></td><td valign="top"><font size="-1">A gene that encodes for Small Nucleolar RNA.</td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
+<tr><th valign="top" align="left"><font size="-1">snoRNA gene</th><td valign="top"><font size="-1">A gene that encodes for Small Nucleolar RNA.</td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
 
-<tr><td valign="top><b><font size="-1"><b>miRNA gene</b></td><td valign="top"><font size="-1">A gene that encodes for microRNA. </td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
+<tr><th valign="top" align="left"><font size="-1">miRNA gene</th><td valign="top"><font size="-1">A gene that encodes for microRNA. </td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
 
-<tr><td valign="top><b><font size="-1"><b>scRNA gene</b></td><td valign="top"><font size="-1">A gene that encodes for Small Cytoplasmic RNA.</td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
+<tr><th valign="top" align="left"><font size="-1">scRNA gene</th><td valign="top"><font size="-1">A gene that encodes for Small Cytoplasmic RNA.</td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
 
-<tr><td valign="top><b><font size="-1"><b>lincRNA gene</b></td><td valign="top"><font size="-1">A gene that encodes large intervening non-coding RNA. </td><td valign="top"><font size="-1">SO:0001641</font></td></tr>
+<tr><th valign="top" align="left"><font size="-1">lincRNA gene</th><td valign="top"><font size="-1">A gene that encodes large intervening non-coding RNA. </td><td valign="top"><font size="-1">SO:0001641</font></td></tr>
 
-<tr><td valign="top><b><font size="-1"><b>RNase P RNA gene</b></td><td valign="top"><font size="-1">A gene that encodes RNase P RNA, the RNA component of Ribonuclease P (RNase P).</td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
+<tr><th valign="top" align="left"><font size="-1">RNase P RNA gene</th><td valign="top"><font size="-1">A gene that encodes RNase P RNA, the RNA component of Ribonuclease P (RNase P).</td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
 
-<tr><td valign="top><b><font size="-1"><b>RNase MRP RNA gene</b></td><td valign="top"><font size="-1">A gene that encodes RNase MRP RNA.</td><td valign="top"><font size="-1">SO:0001640</font></td></tr>
+<tr><th valign="top" align="left"><font size="-1">RNase MRP RNA gene</th><td valign="top"><font size="-1">A gene that encodes RNase MRP RNA.</td><td valign="top"><font size="-1">SO:0001640</font></td></tr>
 
 
-<tr><td valign="top><b><font size="-1"><b>telomerase RNA gene</b></td><td valign="top"><font size="-1">A non-coding RNA gene, the RNA product of which is a component of telomerase. </td><td valign="top"><font size="-1">SO:0001643</font></td></tr>
+<tr><th valign="top" align="left"><font size="-1">telomerase RNA gene</th><td valign="top"><font size="-1">A non-coding RNA gene, the RNA product of which is a component of telomerase. </td><td valign="top"><font size="-1">SO:0001643</font></td></tr>
 
-<tr><td valign="top><b><font size="-1"><b><nobr>Unclassified non-coding RNA gene</b></td><td valign="top"><font size="-1">A non-coding RNA gene not classified The RNA product of this non-coding is a component of telomerase.</td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
+<tr><th valign="top" align="left"><font style="white-space:nowrap;" size="-1">Unclassified non-coding RNA gene</th><td valign="top"><font size="-1">A non-coding RNA gene not classified The RNA product of this non-coding is a component of telomerase.</td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
 
-<tr><td valign="top><b><font size="-1"><b><nobr>heritable phenotypic marker</b></td><td valign="top"><font size="-1">A biological region characterized as a single heritable trait in a phenotype screen. The heritable phenotype may be mapped to a chromosome but generally has not been characterized to a specific gene locus. </td><td valign="top"><font size="-1">SO:0001500</font></td></tr>
+<tr><th valign="top" align="left"><font style="white-space:nowrap;" size="-1">heritable phenotypic marker</th><td valign="top"><font size="-1">A biological region characterized as a single heritable trait in a phenotype screen. The heritable phenotype may be mapped to a chromosome but generally has not been characterized to a specific gene locus. </td><td valign="top"><font size="-1">SO:0001500</font></td></tr>
 
-<tr><td valign="top><b><font size="-1"><b>gene segment</b></td><td valign="top"><font size="-1">A gene component region which acts as a recombinational unit of a gene whose functional form is generated through somatic recombination. </td><td valign="top"><font size="-1">SO:3000000</font></td></tr>
+<tr><th valign="top" align="left"><font size="-1">gene segment</th><td valign="top"><font size="-1">A gene component region which acts as a recombinational unit of a gene whose functional form is generated through somatic recombination. </td><td valign="top"><font size="-1">SO:3000000</font></td></tr>
 
-<tr><td valign="top><b><font size="-1"><b>unclassified gene</b></td><td valign="top"><font size="-1">A region of the genome associated with transcript and/or prediction evidence but where feature classification is imprecise.<td valign="top">&nbsp;</td></tr>
+<tr><th valign="top" align="left"><font size="-1">unclassified gene</th><td valign="top"><font size="-1">A region of the genome associated with transcript and/or prediction evidence but where feature classification is imprecise.<td valign="top">&nbsp;</td></td></tr>
 
-<tr><td valign="top><font size="-1"><b>other feature types</b></td><td valign="top"><font size="-1">MGI markers that are not classified as <i>gene</i> including pseudogenes, QTL, transgenes, gene clusters, cytogenetic markers, & unclassified genome features. </td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
+<tr><th valign="top" align="left"><font size="-1">other feature types</th><td valign="top"><font size="-1">MGI markers that are not classified as <i>gene</i> including pseudogenes, QTL, transgenes, gene clusters, cytogenetic markers, & unclassified genome features. </td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
 
-<tr><td valign="top><font size="-1"><b>pseudogene</b></td><td valign="top"><font size="-1">A sequence that closely resembles a known functional gene, at another locus within the genome, that is non-functional a consequence of (usually several) mutations that prevent either its transcription or translation (or both).  In general, pseudogenes result from either reverse transcription of a transcript of their normal paralog, in which case the pseudogene typically lacks introns and includes a poly(A) tail, or from recombination, in which case the pseudogene is typically a tandem duplication of its normal paralog. </td><td valign="top"><font size="-1">SO:0000336</font></td></tr>
+<tr><th valign="top" align="left"><font size="-1">QTL</th><td valign="top"><font size="-1">A quantitative trait locus (QTL) is a polymorphic locus which contains alleles that differentially affect the expression of a continuously distributed phenotypic trait. Usually it is a marker described by statistical association to quantitative variation in the particular phenotypic trait that is thought to be controlled by the cumulative action of alleles at multiple loci. </td><td valign="top"><font size="-1">SO:0000771</font></td></tr>
 
-<tr><td valign="top><font size="-1"><b>QTL</b></td><td valign="top"><font size="-1">A quantitative trait locus (QTL) is a polymorphic locus which contains alleles that differentially affect the expression of a continuously distributed phenotypic trait. Usually it is a marker described by statistical association to quantitative variation in the particular phenotypic trait that is thought to be controlled by the cumulative action of alleles at multiple loci. </td><td valign="top"><font size="-1">SO:0000771</font></td></tr>
+<tr><th valign="top" align="left"><font size="-1">transgene</th><td valign="top"><font size="-1">A gene that has been transferred naturally or by any of a number of genetic engineering techniques from one organism to another. </td><td valign="top"><font size="-1">SO:0000902</font></td></tr>
 
-<tr><td valign="top><font size="-1"><b>transgene</b></td><td valign="top"><font size="-1">A gene that has been transferred naturally or by any of a number of genetic engineering techniques from one organism to another. </td><td valign="top"><font size="-1">SO:0000902</font></td></tr>
+<tr><th valign="top" align="left"><font size="-1">complex/cluster/region</th><td valign="top"><font size="-1">A group of linked markers characterized by related sequence and/or function where the precise location or identity of the individual components is obscure. </td><td valign="top">&nbsp;</td></tr>
 
-<tr><td valign="top><font size="-1"><b>complex/cluster/region</b></td><td valign="top"><font size="-1">A group of linked markers characterized by related sequence and/or function where the precise location or identity of the individual components is obscure. </td><td valign="top">&nbsp;</td></tr>
-<tr><td valign="top><font size="-1"><b>cytogenetic marker</b></td><td valign="top"><font size="-1">A structure within a chromosome or a chromosomal rearrangement that is visible by microscopic examination. </td><td valign="top">&nbsp;</td></tr>
+<tr><th valign="top" align="left"><font size="-1">cytogenetic marker</th><td valign="top"><font size="-1">A structure within a chromosome or a chromosomal rearrangement that is visible by microscopic examination. </td><td valign="top">&nbsp;</td></tr>
 
-<tr><td valign="top><font size="-1"><b>BAC/YAC end</b></td><td valign="top"><font size="-1">A region of sequence from the end of a BAC or YAC clone used as a reagent in mapping and genome assembly. </td><td valign="top">&nbsp;</td></tr>
+<tr><th valign="top" align="left"><font size="-1">chromosomal deletion</th><td valign="top"><font size="-1">An incomplete chromosome.</td><td valign="top"><font size="-1">SO:1000029</td></tr>
 
-<tr><td valign="top><font size="-1"><nobr><b>other genome feature</b></td><td valign="top"><font size="-1">A region of the genome associated with biological interest (includes regulatory regions, conserved regions and related sequences, repetitive sequences, and viral integrations). </td><td valign="top">&nbsp;</td></tr>
+<tr><th valign="top" align="left"><font size="-1">insertion</th><td valign="top"><font size="-1">The sequence of one or more nucleotides added between two adjacent nucleotides in the sequence.</td><td valign="top"><font size="-1">SO:0000667</td></tr>
 
-<tr><td valign="top><font size="-1"><b>DNA segment</b></td><td valign="top"><font size="-1">A region of the genome associated with experimental interest, often used as a reagent for genetic mapping. Includes RFLP and other hybridization probes, sequence-tagged sites (STS), and regions defined by PCR primer pairs such as microsatellite markers). </td><td valign="top"><font size="-1"></font></td></tr>
+<tr><th valign="top" align="left"><font size="-1">chromosomal inversion</th><td valign="top"><font size="-1">An interchromosomal mutation where a region of the chromosome is inverted with respect to wild type.</td><td valign="top"><font size="-1">SO:1000030</td></tr>
 
+<tr><th valign="top" align="left"><font size="-1">Robertsonian fusion</th><td valign="top"><font size="-1">A non reciprocal translocation whereby the participating chromosomes break at their centromeres and the long arms fuse to form a single chromosome with a single centromere.</td><td valign="top"><font size="-1">SO:1000043</td></tr>
+
+<tr><th valign="top" align="left"><font style="white-space:nowrap;" size="-1">reciprocal chromosomal translocation</th><td valign="top"><font size="-1">A chromosomal translocation with two breaks; two chromosome segments have simply been exchanged.</td><td valign="top"><font size="-1">SO:1000048</td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">chromosomal translocation</th><td valign="top"><font size="-1">An interchromosomal mutation. Rearrangements that alter the pairing of telomeres are classified as translocations.</td><td valign="top"><font size="-1">SO:1000044</td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">chromosomal duplication</th><td valign="top"><font size="-1">An extra chromosome.</td><td valign="top"><font size="-1">SO:1000037</td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">chromosomal transposition</th><td valign="top"><font size="-1">A chromosome structure variant whereby a region of a chromosome has been transferred to another position. Among interchromosomal rearrangements, the term transposition is reserved for that class in which the telomeres of the chromosomes involved are coupled (that is to say, form the two ends of a single DNA molecule) as in wild-type.</td><td valign="top"><font size="-1">SO:0000453</td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">unclassified cytogenetic marker</th><td valign="top"><font size="-1">A cytogenetic marker not classifiable within current cytogenetic subcategories.</td><td valign="top">&nbsp;</td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">BAC/YAC end</th><td valign="top"><font size="-1">A region of sequence from the end of a BAC or YAC clone used as a reagent in mapping and genome assembly. </td><td valign="top">&nbsp;</td></tr>
+
+<tr><th valign="top" align="left"><font size="-1"><font size="-1"><nobr>other genome feature</th><td valign="top"><font size="-1">A region of the genome associated with biological interest (includes regulatory regions, conserved regions and related sequences, repetitive sequences, and viral integrations). </td><td valign="top">&nbsp;</td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">DNA segment</th><td valign="top"><font size="-1">A region of the genome associated with experimental interest, often used as a reagent for genetic mapping. Includes RFLP and other hybridization probes, sequence-tagged sites (STS), and regions defined by PCR primer pairs such as microsatellite markers). </td><td valign="top"><font size="-1"></font></td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">pseudogenic region</th><td valign="top"><font size="-1">A non-functional descendant of a functional entity.</td><td valign="top"><font size="-1">SO:0000462</td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">pseudogene</th><td valign="top"><font size="-1">A sequence that closely resembles a known functional gene, at another locus within the genome, that is non-functional a consequence of (usually several) mutations that prevent either its transcription or translation (or both).  In general, pseudogenes result from either reverse transcription of a transcript of their normal paralog, in which case the pseudogene typically lacks introns and includes a poly(A) tail, or from recombination, in which case the pseudogene is typically a tandem duplication of its normal paralog. </td><td valign="top"><font size="-1">SO:0000336</font></td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">pseudogenic gene segment</th><td valign="top"><font size="-1">A recombinational unit of a gene which when incorporated by somatic recombination in the final gene transcript results in a nonfunctional product.</td><td valign="top"><font size="-1">SO:0001741</td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">polymorphic pseudogene</th><td valign="top"><font size="-1">Pseudogene owing to a SNP/DIP but in other individuals/haplotypes/strains the gene is translated.</td><td valign="top">&nbsp;</td></tr>
 
 </table>
+
 
 </p>
 
