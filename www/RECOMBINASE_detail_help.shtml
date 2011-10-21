@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title><!--#include file="include/mgiversion.html"-->Interpreting Recombinase Specificity Details</title>
+<title><!--#include file="include/mgiversion.html"-->Interpreting Recombinase Activity Details</title>
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
 <script>
@@ -12,7 +12,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">Interpreting Recombinase Specificity Details</span>
+ <span class="faqHeaderText">Interpreting Recombinase Activity Details</span>
 </div>
 
 <style type="text/css">
@@ -32,7 +32,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 <!-- Body of User Help -->
 <A NAME="top"></A> 
 
-<P>This help document describes Recombinase Specificity Detail reports which contain some or all of the following elements:</p>
+<P>This help document describes Recombinase Activity Detail reports which contain some or all of the following elements:</p>
   <ul>
 	<li><a href="#should_appear">What should appear on this page?</a></li>
 		<ul>
@@ -40,7 +40,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 	        <li><a href="#allele_info">Allele information</a></li>
       		<li><a href="#tissue_info">Tissue information</a></li>
        		<li><a href="#image">Images</a></li>
-       		<li><a href="#recomb_spec">Recombinase specificity </a></li>
+       		<li><a href="#recomb_spec">Recombinase activity </a></li>
 			<li><a href="#assay_detailz">Assays</a></li>
 			<li><a href="#gtbg"><nobr>Genotypic Background</nobr></a></li>
 			<li><a href="#notez">Result Notes</a></li>
@@ -52,17 +52,17 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
  
 <P>See also:
    <ul>
-       <LI><A HREF="RECOMBINASE_summary_HELP.shtml">Using Recombinase Alleles - Tissue Specificity Summary Reports</A></LI>
+       <LI><A HREF="RECOMBINASE_summary_HELP.shtml">Using Recombinase Alleles - Tissue Activity Summary Reports</A></LI>
  <LI><A HREF="ALLELE_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A> (recombinase-containing transgenes or knock-ins or floxed or frt alleles)</LI>
 </UL>
 
 
 
 <h3><a name="should_appear"></a>What should appear on this page?</h3>
-<p>The Recombinase Specificity Detail page summarizes the recombinase expression for the selected allele and tissue combination.</p>
+<p>The Recombinase Activity Detail page summarizes the recombinase expression for the selected allele and tissue combination.</p>
 
 <h4><a name="title"></a>Title</h4>
-<p>The title on an Recombinase Specificity Detail report takes the form:</p> 
+<p>The title on an Recombinase Activity Detail report takes the form:</p> 
 <blockquote>
 [<i>allele symbol</i>] - [name of anatomical system ]
 <!--<p>The allele symbol is the gene plus the abbreviation for the allele name.</p>-->
@@ -72,10 +72,10 @@ For example:
 
 
 <h4><a name="fields"></a>Fields</h4>
-<p>The table below describes the possible fields in a Recombinase Specificity Detail report. If a field does not appear, it means that information is not currently available for this allele.</p>
+<p>The table below describes the possible fields in a Recombinase Activity Detail report. If a field does not appear, it means that information is not currently available for this allele.</p>
 
 <table border="0" cellspacing="1" cellpadding="2" class="nb" width="100%">
-<TR><TD ALIGN="center"><font size="-1"><a href="#allele_info">Allele information</a> |  <a href="#tissue_info">Tissue information</a> |  <a href="#image">Images</a> |  <a href="#recomb_spec">Recombinase Specificity</a> |  <a href="#reffs">References</a></td></tr>
+<TR><TD ALIGN="center"><font size="-1"><a href="#allele_info">Allele information</a> |  <a href="#tissue_info">Tissue information</a> |  <a href="#image">Images</a> |  <a href="#recomb_spec">Recombinase Activity</a> |  <a href="#reffs">References</a></td></tr>
 </table>
 
 <table border="1" cellspacing="1" cellpadding="2" width="!%">
@@ -95,19 +95,19 @@ For example:
 
 
 
-    <TR><th valign="top"><a name="addl_tiss"></a>Additional Tissues</th><td valign="top">Systems in which specificity data has been curated. Each system listed links to its own Recombinase Specificity Detail page for this allele.</td></tr>
+    <TR><th valign="top"><a name="addl_tiss"></a>Additional Tissues</th><td valign="top">Systems in which activity data has been curated. Each system listed links to its own Recombinase Activity Detail page for this allele.</td></tr>
     </table></td></tr>
 
 <TR><th valign="top"><a name="tissue_info"></a>Tissue Information</th><td valign="top">
-	[<i><small>system</small></i>] - On the left, the name of the system with recombinase activity. On the right, other recombinase alleles with activity in that system. Each listed allele links to its MGI Recombinase Specificity Detail page in the specified system.  If <b><i>...(more)</i></b> appears, click it or the arrow icon (<img src="http://firien.informatics.jax.org/webshare/images/rightArrow.gif" border="0">) to expand the list.
+	[<i><small>system</small></i>] - On the left, the name of the system with recombinase activity. On the right, other recombinase alleles with activity in that system. Each listed allele links to its MGI Recombinase Activity Detail page in the specified system.  If <b><i>...(more)</i></b> appears, click it or the arrow icon (<img src="http://firien.informatics.jax.org/webshare/images/rightArrow.gif" border="0">) to expand the list.
 	</td></tr>
 	
 <tr><th valign"top"><a name="image"></a>Images</th><td valign="top">Any images that the MGI database contains for this combination of allele and system. You can resize each image and drag it anywhere on the page. This is especially useful for side-by-side comparisons of expression in a given structure. </td></tr>
 
-<TR><th valign="top" align="right"><a name="recomb_spec"></a>Recombinase Specificity<br></th>
+<TR><th valign="top" align="right"><a name="recomb_spec"></a>Recombinase Activity<br></th>
     <td valign="top">
 	<table border="0" cellspacing="2" cellpadding="4" width="!">
-      	<tr><th valign"top"><a name="structure"></a>Structure</th><td valign="top">Recombinase specificity results are associated with structures described in the <a href="http://www.informatics.jax.org/searches/AMA_form.shtml">Anatomical Dictionary</a>.  Structures appear in alphabetical order, A-Z.  Click the column name to reverse the order.</td></tr>
+      	<tr><th valign"top"><a name="structure"></a>Structure</th><td valign="top">Recombinase activity results are associated with structures described in the <a href="http://www.informatics.jax.org/searches/AMA_form.shtml">Anatomical Dictionary</a>.  Structures appear in alphabetical order, A-Z.  Click the column name to reverse the order.</td></tr>
 
 <tr><th valign"top"><a name="assayed_age"></a><nobr>Assayed Age</nobr></th><td valign="top">Age of the embryo at time of assay.</td></tr> 
 

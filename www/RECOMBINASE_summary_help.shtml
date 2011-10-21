@@ -1,7 +1,7 @@
 <!--#include file='include/templateHead.html'-->
 <title>
   <!--#include file="include/mgiversion.html"-->
- Interpreting a Recombinase Alleles - Tissue Specificity Summary 
+ Interpreting a Recombinase Alleles - Tissue activity Summary 
 </title>
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
@@ -22,7 +22,7 @@ function openHelpWindow(helpFile){
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
- Interpreting a Recombinase Alleles Tissue Specificity Summary
+ Interpreting a Recombinase Alleles Tissue Activity Summary
  </span>
 </div>
 
@@ -38,14 +38,14 @@ function openHelpWindow(helpFile){
 </table>
 <!-- Body of User Help -->
 <A NAME="top"></A>
-<P>This document answers the following questions about the Recombinase Alleles - Tissue Specificity Summary page:</P>
+<P>This document answers the following questions about the Recombinase Alleles - Tissue Activity Summary page:</P>
 <UL>
   <li><a href="#manipulate">What are the ways of creating different views of the data on this page?</a></li>
 
-  <LI><A HREF="#access">When does a Recombinase Alleles - Tissue Specificity Summary appear?</A></LI>
+  <LI><A HREF="#access">When does a Recombinase Alleles - Tissue Activity Summary appear?</A></LI>
 <LI><A HREF="#contain">What should show up on this page?</A></LI>
   <LI><A HREF="#usage">How do I interpret the information on this page?</A></LI>
-<!--<li><a href="#no_result">How can I find recombinase data if the structure or driver is not listed on the Recombinase (cre) Specificity search lists?</a></li>
+<!--<li><a href="#no_result">How can I find recombinase data if the structure or driver is not listed on the Recombinase (cre) Activity search lists?</a></li>
 <li><a href="#nomenclature">Where can I find more information about recombinase-containing transgene and knock-in alleles?</a></li>-->
 </UL>
 <P>See also:
@@ -70,19 +70,19 @@ function openHelpWindow(helpFile){
 
 
 
-<h3><a name="access"></a>When does a Recombinase Alleles - Tissue Specificity Summary appear?</h3>
-<p>The Recombinase Alleles Summary presents a table of transgenic and targeted knock-out recombinase alleles contained in the MGI database. It appears when you select either a driver or a system from the boxes on the <a href="http://www.creportal.org">Recombinase (cre) Specificity</a> page and click <b>Go</b>.
+<h3><a name="access"></a>When does a Recombinase Alleles - Tissue Activity Summary appear?</h3>
+<p>The Recombinase Alleles Summary presents a table of transgenic and targeted knock-out recombinase alleles contained in the MGI database. It appears when you select either a driver or a system from the boxes on the <a href="http://www.creportal.org">Recombinase (cre) Activity</a> page and click <b>Go</b>.
 
 
 <h3><A name="contain"></a>What should show up on this page?</h3>
-<p>The table resulting from a Recombinase Allele Specificity query contains a row for either:
+<p>The table resulting from a Recombinase Allele Activity query contains a row for either:
 
 <ul>
-  <li>every recombinase allele in the MGI database for the selected <b>driver</b>, whether it has tissue specificity data or not.</li>
+  <li>every recombinase allele in the MGI database for the selected <b>driver</b>, whether it has tissue activity data or not.</li>
   <li>only those recombinase alleles in the MGI database having data for the selected <b>anatomical system</b>.</li>
 </ul>
 </p>
-<p>The data on the Recombinase Alleles - Tissue Specificity Summary are information about  expression assays demonstrating the activity of the recombination allele in particular tissues, at or prior to the time when the mouse tissue is assayed. This is referred to as <i>tissue specificity</i> or <i>recombinase activity</i> data.
+<p>The data on the Recombinase Alleles - Tissue Activity Summary are information about  expression assays demonstrating the activity of the recombination allele in particular tissues, at or prior to the time when the mouse tissue is assayed. This is referred to as <i>tissue activity</i> or <i>recombinase activity</i> data.
 <p>Although all data are captured in MGI's database as expression assays, the assays of type <i>recombinase reporter</i> are more correctly referred to as demonstrating <i>activity</i> of the recombinase allele rather than its <i>expression</i>. This is because tissues where the assay shows recombinase allele activity may be descendents of the tissue (as development and cell differentiation continues) in which the recombinase allele first began producing its protein (began being expressed).</p>
 <p>Once the recombinase has acted upon the target gene by removing or rearranging part of its sequence, all descendent tissues will carry the recombined target gene. 
 </p>
@@ -99,7 +99,7 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <p>The box at the top of the page lets you control the display of the data. See <a href="#manipulate">What are the ways of creating different views of the data on this page?</a> for more detail.</p>
 
 <p><ul>
-  <li><b>Some or all</b> of the following fields appear, depending on whether you search for recombinase specificity in a particular anatomical system or use a promoter to search for tissue specificity data.</li>
+  <li><b>Some or all</b> of the following fields appear, depending on whether you search for recombinase activity in a particular anatomical system or use a promoter to search for tissue activity data.</li>
  <li>You can add or subtract columns to/from the table by checking/unchecking the boxes at the top of the summary page. </li>
   <li>You can rearrange table order by clicking a column heading, holding the mouse down, and dragging the column to the left or right. </li>
 <li>You can also rearrange the order in which data appears by clicking the  column headers (titles). The initial sort is by driver, alphanumeric A-Z. Click to sort the driver from Z-A.</li>
@@ -126,11 +126,11 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <tr><th class="thleft"> <a name="csh_driver"></a>Driver</th><td valign="top">Gene, genetic element, or construct that promotes recombination. 
 </td></tr> 
 
-<tr><th class="thleft"> <a name="asgan"></a>Allele Symbol<br>Gene; Allele Name</th><td>Official symbol for the allele.<br>Gene name; allele name. <br>In parentheses beneath the nomenclature is a link to the MGI Detail Report for this allele. Note that the detail page has a <b>Recombinase Specificity</b> row listing every system examined where specificity has been detected or not detected. Each system links to its specificity detail page.</td></tr> 
+<tr><th class="thleft"> <a name="asgan"></a>Allele Symbol<br>Gene; Allele Name</th><td>Official symbol for the allele.<br>Gene name; allele name. <br>In parentheses beneath the nomenclature is a link to the MGI Detail Report for this allele. Note that the detail page has a <b>Recombinase Activity</b> row listing every system examined where activity has been detected or not detected. Each system links to its activity detail page.</td></tr> 
 
-<tr><th class="thleft"> <a name="recomb_data"></a><nobr>Recombinase Data</nobr></th><td>Information about whether recombinase specificity data was detected, not detected, or unavailable.<ul>
+<tr><th class="thleft"> <a name="recomb_data"></a><nobr>Recombinase Data</nobr></th><td>Information about whether recombinase activity data was detected, not detected, or unavailable.<ul>
   <li>When the arrow icon (<IMG SRC="<!--#include file='include/wi_url.html'-->images/shared/rightArrow.gif" border="0">) appears, click it to reveal (or hide) a list of systems where data was detected/not detected. </li>
-  <li>Click any list item to display a detail page with allele and tissue information, images, specificity particulars, and references.</li>
+  <li>Click any list item to display a detail page with allele and tissue information, images, activity particulars, and references.</li>
 
 
 
@@ -138,8 +138,8 @@ When the specimen's genotype involves a recombinase allele, the results of these
 </ul></td></tr> 
 
 <tr><th class="thleft"> <a name="anatom_system"></a><nobr><i>system</i></nobr></th> <td valign="top"><ul>
-  <li>When you search for recombinase specificity by selecting an anatomical system from the list on the Recombinase (cre) Specificity page, a column containing information about that system appears in the results; the system name appears in the column header.</li>
-  <li>Any links go to the Recombinase Specificity Detail page for the listed system. Use the check boxes at the top of the page to add/remove additional systems.</li>
+  <li>When you search for recombinase activity by selecting an anatomical system from the list on the Recombinase (cre) Activity page, a column containing information about that system appears in the results; the system name appears in the column header.</li>
+  <li>Any links go to the Recombinase Activity Detail page for the listed system. Use the check boxes at the top of the page to add/remove additional systems.</li>
   <li>Other information in this column:
   
 	<table>
