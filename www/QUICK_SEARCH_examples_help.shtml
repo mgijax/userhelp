@@ -98,7 +98,7 @@ function openHelpWindow(helpFile){
   <li>NCBI uses it to identify a gene model sequence associated with another gene.</li>
   <li>OMIM uses it to identify a disease condition whose associated human gene has an orthologous gene in mouse.</li>
 </ul>
-See <a href="id_examples.shtml">Accession ID types and examples</a>  for list of providers, sample IDs, and where to look for any matches in the Quick Search Results.
+See <a href="ACCESSION_ID_help.shtml">Accession ID types and examples</a>  for list of providers, sample IDs, and where to look for any matches in the Quick Search Results.
 </p>
 
 <a href="#top"><font size="-1">Top</font></a>
