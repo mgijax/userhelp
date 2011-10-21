@@ -75,7 +75,7 @@ function openHelpWindow(helpFile){
 <li>links to the supporting references for the assertions</LI>
 <li>links to a comparative map displaying all genes/markers within 2 centiMorgans of the gene or marker of interest</LI>
 <li>additional references for all evidence assertions or for selected species</LI>
-<li>links to additional resources with orthology data for this gene (e.g., TreeFam (phylogenetic trees of animal genes), Protein Superfamily reports, VISTA on UCSC browser (whole genome alignment), Homologene (at NCBI: automated detection of homologs among the annotated genes of completely sequenced eukaryotic genomes), MGI Mouse-Human-Rat Comparative GO Graph (curated GO classifications for mouse, human and rat orthologs annotated from the biomedical literature).</LI>
+<li>links to additional resources with orthology data for this gene (e.g., Gene Tree (phylogenetic trees of animal genes at Ensembl), Protein Superfamily reports, VISTA on UCSC browser (whole genome alignment), Homologene (at NCBI: automated detection of homologs among the annotated genes of completely sequenced eukaryotic genomes), MGI Mouse-Human-Rat Comparative GO Graph (curated GO classifications for mouse, human and rat orthologs annotated from the biomedical literature).</LI>
 </UL>
 
 <A HREF="#top"><font size="-1">Top</font></a> 
