@@ -47,7 +47,7 @@ function openHelpWindow(helpFile){
     <li><a href="#description">Mutation/Variant/Vector/Transgene description</a></li>
     <li><a href="#find_mice">Find Mice (IMSR)</a></li>
     <li><a href="#gene_expression">Expression</a></li>
-<li><a href="#recombinase_specificity">Recombinase specificity</a></li>
+<li><a href="#recombinase_activity">Recombinase activity</a></li>
     <li><a href="#summary">Phenotype summary</a></li>
     <li><a href="#genotype">Phenotypic data by genotype</a></li>
     <li><a href="#models">Disease models</a></li>
@@ -64,7 +64,7 @@ function openHelpWindow(helpFile){
   <LI><A HREF="ALLELE_summary_help.shtml">Interpreting a Phenotypic Allele Summary</A></LI>
 <li><A HREF="ALLELE_detail_pheno_summary_help.shtml">Interpreting the Phenotype Summary in Allele Details</a></li>
 <li><a href="genetrap_usecase_help.shtml">Gene Trap Questions and Answers</a></li>
-<li><a href="RECOMBINASE_summary_help.shtml">Using Recombinase Alleles -- Tissue Specificity Summary Reports</a></li>
+<li><a href="RECOMBINASE_summary_help.shtml">Using Recombinase Alleles -- Tissue Activity Summary Reports</a></li>
 
   <LI><A HREF="<!--#include file='include/glossary_url.html'-->">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
  <li> <A HREF="<!--#include file='include/mgihome_url.html'-->nomen/gene.shtml">Guidelines for Nomenclature of Genes, Genetic Markers, Alleles, & Mutations in Mouse & Rat</a></li>
@@ -128,7 +128,7 @@ function openHelpWindow(helpFile){
 <table border="0" cellspacing="2" cellpadding="4" width="!">
   
 <tr><td align="center"><font size="-1"><a href="#nomenclature">Nomenclature</a> | <a href="#origin">origin</a> |
-<a href="#description">description</a> | <a href="#find_mice">Find Mice (IMSR)</a> | <a href="#gene_expression">Expression</a> |  <a href="#recombinase_specificity">Recombinase specificity</a> | <a href="#summary">Phenotype summary</a> | <nobr><a href="#genotype">Phenotypic data by genotype</a></nobr> | <a href="#models">Disease models</a> | <a href="#additional">Additional information</a> | <a href="#reffs">References</a></font></td></tr>
+<a href="#description">description</a> | <a href="#find_mice">Find Mice (IMSR)</a> | <a href="#gene_expression">Expression</a> |  <a href="#recombinase_activity">Recombinase activity</a> | <a href="#summary">Phenotype summary</a> | <nobr><a href="#genotype">Phenotypic data by genotype</a></nobr> | <a href="#models">Disease models</a> | <a href="#additional">Additional information</a> | <a href="#reffs">References</a></font></td></tr>
 </table>
 <table border="1" cellspacing="2" cellpadding="4" width="100%">
 
@@ -202,14 +202,14 @@ Click &#9660; to close the  display.<br>The image that appears is a genome brows
      </td>
      </tr>
 
-<tr><TR><th valign="top" align="right"><a name="recombinase_specificity"></a>Recombinase specificity</td>
+<tr><TR><th valign="top" align="right"><a name="recombinase_activity"></a>Recombinase activity</td>
     <Td><table border="1" cellspacing="1" cellpadding="2" width="95%">
-      <tr><td valign="top">Specificity in</td><td valign="top">Recombinase activity was assayed and detected for this allele in all (the high-level terms for the) anatomical systems listed.</td></tr>
+      <tr><td valign="top">Activity in</td><td valign="top">Recombinase activity was assayed and detected for this allele in all (the high-level terms for the) anatomical systems listed.</td></tr>
  <tr><td valign="top"><nobr>Not Detected in</nobr></td><td valign="Top">Recombinase activity was assayed and not detected for this allele in all (the high-level terms for the) anatomical systems listed.</td></tr>
  <tr><td valign="top">Driver</td><td valign="Top">Name of promoter and a link to a summary of all recombinase alleles driven by this promoter.</td></tr>
 
     </table>
-    Each listed system links to a Recombinase Specificity Detail page associating expression assays of type <b>Recombinase reporter</b>,  <b>In situ reporter (knock in)</b> and <b>In situ reporter (transgene)</b> with genotypes. </td></tr>
+    Each listed system links to a Recombinase Activity Detail page associating expression assays of type <b>Recombinase reporter</b>,  <b>In situ reporter (knock in)</b> and <b>In situ reporter (transgene)</b> with genotypes. </td></tr>
 
 
 
