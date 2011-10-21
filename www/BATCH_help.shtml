@@ -205,9 +205,8 @@ The following are additional types (not listed on the pulldown menu), followed b
 <tr><td valign="top">NIA Mouse Gene Index</td><td valign="top">U167412</td></tr>
 
 <tr><td valign="top">PDB<br>(Protein Data Bank)</td><td valign="top">1HU8</td></tr>
-<tr><td valign="top">TIGEM<br>(Telethon Institute of Genetics and Medicine)</td><td valign="top">GC0196</td></tr>
-
-<tr><td valign="top">TreeFam</td><td valign="top">TF320146</td></tr>
+<!--<tr><td valign="top">TIGEM<br>(Telethon Institute of Genetics and Medicine)</td><td valign="top">GC0196</td></tr>
+<tr><td valign="top">TreeFam</td><td valign="top">TF320146</td></tr>-->
 </table>
 </blockquote></li>
 </ul>
