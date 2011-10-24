@@ -57,10 +57,10 @@ function openHelpWindow(helpFile){
 <P>Depending on data availability and the marker type, this detail report contains information in some or all of the following categories:</P>
 
 <P><table width="!" cellpadding="2" cellspacing="2">
-<tr align="center"><td><font size="-1"><a href="#sym_detail">Symbol/Name/ID</a> | <a href="#synonym">Synonyms</a> | <a href="#sts">STS</a> | <a href="#feature_type">Feature Type</a> | 
-<a href="#genetic_map">Genetic Map</a> | <a href="#sequence_map">Sequence Map</a> | <a href="#sequences">Sequences</a> | <a href="#orthology">Mammalian homology</a> | <a href="#humanortho">Human ortholog</a>  | <a href="#phenotypes_detail">Alleles & Phenotypes</a> | <a href="#polymorphisms">Polymorphisms</a> | <a href="#GO_detail">Gene Ontology (GO) Classifications</a> | <a href="#expression_detail">Expression</a> | <a href="#other_database_links">Other database links</a> | <a href="#protein_domains_detail">Protein-related information</a> | <a href="#molecular_reagents">Molecular reagents</a> | <a href="#references">References</a> | <a href="#other">Other accession IDs</a></font></TD>
+<tr align="center"><td><font size="-1"><a href="#sym_detail">Symbol/Name/ID</a> | <a href="#synonym">Synonyms</a> | <a href="#sts">STS</a> | <a href="#feature_type">Feature Type</a> | <a href="#genetic_map">Genetic Map</a> | <a href="#sequence_map">Sequence Map</a> | <a href="#orthology">Mammalian homology</a> | <a href="#humanortho">Human ortholog</a>  | <a href="#phenotypes_detail">Alleles & Phenotypes</a> | <a href="#GO_detail">Gene Ontology (GO) Classifications</a> | <a href="#expression_detail">Expression</a> | <a href="#molecular_reagents">Molecular reagents</a> | <a href="#other_database_links">Other database links</a> | <a href="#sequences">Sequences</a> | <a href="#polymorphisms">Polymorphisms</a> | <a href="#protein_domains_detail">Protein-related information</a> | <a href="#references">References</a> | <a href="#other">Other accession IDs</a></font></TD>
 </TR>
 </TABLE>
+
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -89,19 +89,18 @@ function openHelpWindow(helpFile){
 	<!--<li>If there is a strain-specific reference for this marker but there are no additional notes, the <b>Strain Specificity</b> box does not appear.</li>-->
 </ul>
 </p>
+
 </TD>
 </TR>
-
 <TR>
 <TH ALIGN="left" VALIGN="top"><A NAME="synonym"></A>Synonyms</TH>
 <TD VALIGN="top">Names or symbols for a given marker that may appear in the literature but which are not approved names or symbols.</TD>
 </TR>
-<tr><th align="left" valign="top"><a name="feature_type"></a>Feature Type</th><td valign="top">Genetic feature type(s) annotated to the marker (e.g, snoRNA gene, rRNA gene and so on). Hovering over each term produces a pop-up window containing the definition associated with each term. See <a href="GENE_feature_types.shtml#feature_types">Genome Feature Type Definitions</a> for a complete list.</td></tr>
 <TR>
 <TH ALIGN="left" VALIGN="top"><A NAME="sts"></A>STS</TH>
 <TD VALIGN="top">If applicable, symbols for sequence tag sites (STS) with the same DNA sequence (or a portion of that sequence) as the marker, linked to the DNA Detail Segment Detail page. For example, D7Mit19 and D7Mit31 are said to be STSs of Tyr.</TD>
 </TR>
-
+<tr><th align="left" valign="top"><a name="feature_type"></a>Feature Type</th><td valign="top">Genetic feature type(s) annotated to the marker (e.g, snoRNA gene, rRNA gene and so on). Hovering over each term produces a pop-up window containing the definition associated with each term. See <a href="marker_feature_types.shtml#feature_types">Genome Feature Type Definitions</a> for a complete list.</td></tr>
 <TR>
 <TH ALIGN="left" VALIGN="top"><a name="genetic_map"></a>Genetic Map</TH>
 <Td ALIGN="left" VALIGN="top">As much as is known for this marker of the following: 
@@ -128,6 +127,103 @@ For markers whose position is known, a numeric value appears. This value is calc
 </TD>
 </TR>
 
+<TR>
+<TH ALIGN="left" VALIGN="top"><A NAME="orthology"></A>Mammalian<BR>
+homology</TH>
+<TD VALIGN="top">Mammalian homology records for this marker, as follows (depending on availability):
+<UL>
+<LI>A list of species with curated orthology relationships with (in parentheses) a link to the MGI Mammalian Orthology Query Results page of curated orthology relationships</LI>
+<LI>A link to a mouse/human comparative map display of the area plus or minus 2 cM around the marker</LI>
+<LI>A link to this marker's MGI Protein Superfamily Detail page if it can be annotated to a Protein Information Resource SuperFamily (PIRSF) classification name</LI>
+<li>A link to the Gene Tree View at Ensembl (phylogenetic trees of animal genes). </li>
+</UL>
+</TD>
+</TR>
+
+<tr>
+<th ALIGN="left" VALIGN="top"><A NAME="humanortho"></A>Human<BR>
+ortholog</TH>
+<TD VALIGN="top">Human ortholog records for this marker, if available, as follows:
+<UL>
+<li>Official human gene symbol (linked to EntrezGene), name and NCBI EntrezGene ID </li>
+<li>Human Synonyms: Names or symbols for a given marker that may appear in the literature but which are not approved names or symbols</li>
+<li>Human genome coordinate range and strand, in base pairs, from NCBI</li>
+<li>The number of human diseases associated with this gene in OMIM. When you click on this number a pop-up window appears listing the associated diseases (linked to the MGI Human Disease and Mouse Model Detail page) and the OMIM ID (linked to the OMIM entry for that disease). An asterisk appears if a mouse model of that disease is associated with mutations in the orthologous mouse gene. <b>Note:</b>  Inclusion in this report does not necessarily mean that mutations in the gene of interest contribute to or cause the disease listed in the Human Disease column. The gene may have an allele that is part of a complex genotype that includes other causative genes.</LI>
+</ul>
+</td>
+</tr>
+
+<TR>
+<TH ALIGN="left" VALIGN="top"><A NAME="phenotypes_detail"></A>Alleles and Phenotypes</TH>
+<TD VALIGN="top">Depending on availability, the display includes some or all of the following links or information. Numbers in parentheses indicate how many items each linked report contains.
+<UL>
+<LI>Counts of and links to <i>All alleles</i> and to any other phenotypic allele category associated with this marker. </LI>
+<LI>A short summary of phenotypes produced by mutant alleles.</LI>
+<li>The number of human diseases associated with this mouse gene in MGI. When you click on this number a pop-up window appears listing the associated diseases (linked to the MGI Human Disease and Mouse Model Detail page) and the OMIM ID (linked to the OMIM entry for that disease). An asterisk appears if that disease is associated with mutations in the mouse gene. At the bottom of the window is a  link to a list of all mutant alleles of that gene that are associated with human disease models. (This does not necessarily mean that mutations in this gene contribute to or are causative of the disease.)</li>
+<li><b>Alleles Annotated to Human Diseases</b>: a link to the Phenotypic Alleles
+Query Results -- Summary page: alleles with OMIM annotations to associated genotypes</li>
+<!--removed per TR7518 & 3.44 <LI>A link to the Mouse Locus Catalog if it contains a record for this phenotype. <B>Note:</B> The MLC records are being phased out and are available for only a subset  of MGI markers.</LI>-->
+<li> <b>Phenotype Images</b>: Click the number to bring up the <b>All Phenotype Images for Gene<b> report and view  every phenotype image that MGI has for this gene.</p></li>
+</UL>
+ </TD>
+</TR>
+
+<TR>
+<TH ALIGN="left" VALIGN="top"><A NAME="GO_detail"></A>Gene Ontology (GO)<BR>
+ Classifications</TH>
+<TD VALIGN="top"><ul>
+   <li><B>All GO classifications (<i># annotations</i>)</b> links to a summary of the <i>nn </i> annotated items found (click <A HREF="go_classifications.shtml">here </A> for information about interpreting the fields on this page). You can browse the GO vocabulary from the query results section and locate multiple terms that annotate a gene record.</li>
+ <li>Links to GO annotations for Process (biological), Component (cellular), and Function (molecular) of the gene. </li>
+  <li>A link to the GO Consortium Reference Genome Annotation Project, if this gene is annotated in the project.</li>
+<li>A link to any External Resources (for example, <a href="http://func.med.harvard.edu/mouse/">FuncBase</a>, a database of functional predictions) for additional information about this gene.</li>
+ 
+</ul></TD>
+</TR>
+
+
+<TR>
+<TH ALIGN="left" VALIGN="top"><A NAME="expression_detail"></A>Expression</TH>
+<td valign="top">Depending on availability, some or all of the following information may appear:
+<ul>
+  <li>Literature Summary: number of references analyzing expression for this gene; links to a table of the ages and assay types analyzed.</li>
+  <li>Data Summary - each number links to a summary report: 
+	<ul>
+        <li>Assays - assays analyzing expression of the marker; links to data.</li>
+        <li>Results - expression results; links to details.</li>
+        <li>Tissues - anatomical structures where expression was analyzed; summary report details whether or not expression was detected.</li>
+         <li>Images - images associated with results; summary report displays thumbnails of any associated figures; links to full-size images.</li>
+     </ul>
+  <li>	Theiler stage: List of all developmental stages where expression was analyzed; each summary report lists expression results from that stage.</li>
+  <li>Assay Type Results and Assays: assay type used for the analyses; number of results and different assay types link to summary reports (subsets of those described above).</li>
+  <li><a name="cdna_summary"></a>cDNA source data: the number of cDNA clones for this marker, linked to a summary page with the following columns: Nucleotide Probe/Clone AccID, Name, Clone Collection, Age, Tissue, Cell Line, and Gene. If (PUTATIVE) appears beside the gene symbol, it means that the relationship between the gene and clone is established by computation rather than experimental data.</li>
+  <li>External Resources: links to expression information for this marker in other than MGI databases. Examples: Allen Brain Atlas, GENSAT, gene microarray profile pages at GEO, Novartis, ArrayExpress.</li>
+ </ul>
+</TD>
+</TR>
+
+<TR>
+<TH ALIGN="left" VALIGN="top"><A NAME="molecular_reagents"></A>Molecular reagents</TH>
+<TD VALIGN="top">Links to summary pages of MGI molecular reagent information for the marker grouped by All nucleic, Genomic, cDNA, Primer pair, Other (i.e., other nucleic acid probes), Antibodies and Microarray probesets. Note that <I>Genomic, cDNA, Primer pair</I> and <I>Other</I> are subsets of All nucleic. The number in parentheses indicates the total number of items listed in the summary. If you select:
+
+<UL STYLE="padding-left:30px">
+<LI>All nucleic, Genomic, cDNA, Primer pair, Other:  link is to Molecular Probes and Clones Query Results -- Summary.</LI>
+
+<LI>Antibodies: link is to Antibodies Query Results -- Summary.</LI>
+<li>Microarray probeset: link is to Microarray Probeset Summary</li>
+</UL>
+</TD>
+</TR>
+
+<TR>
+<TH ALIGN="left" VALIGN="top"><A NAME="other_database_links"></A>Other database links</TH>
+<TD VALIGN="top"><ul>
+  <li>List of and links to external resources with database accession IDs associated to this marker. Examples are EC, Ensembl Gene Model, DoTS, DFCI,
+NIA Mouse Gene Index, Entrez Gene, <!--dbGSS (for Gene Traps),--> International Mouse Knockout Project Consortium Status.</li>
+ 
+ <li>Additionally, there may be links to the sequence evidence underlying gene predictions provided by NCBI, Ensembl, and VEGA.</li>
+</ul>
+</TD>
+</TR>
 <TR>
 <TH ALIGN="left" VALIGN="top"><A NAME="sequences"></A>Sequences</TH>
 <TD VALIGN="top">
@@ -169,113 +265,13 @@ For markers whose position is known, a numeric value appears. This value is calc
 <B>Note on representative sequence display:</B><br>
 MGI Representative Sequences provide users quick access to a single genomic, transcript and polypeptide sequence (where available) for the featured gene.  To view all sequences for the gene, follow the <b>All sequences </b>link at the bottom of the Sequences section.
 
-
 </TD>
 </TR>
-<TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="orthology"></A>Mammalian<BR>
-homology</TH>
-<TD VALIGN="top">Mammalian homology records for this marker, as follows (depending on availability):
-<UL>
-<LI>A list of species with curated orthology relationships with (in parentheses) a link to the MGI Mammalian Orthology Query Results page of curated orthology relationships</LI>
-<LI>A link to a mouse/human comparative map display of the area plus or minus 2 cM around the marker</LI>
-<LI>A link to this marker's MGI Protein Superfamily Detail page if it can be annotated to a Protein Information Resource SuperFamily (PIRSF) classification name</LI>
-<li>A link to the Gene Tree View at Ensembl (phylogenetic trees of animal genes). </li>
-</UL>
-</TD>
-</TR>
-<tr>
-<th ALIGN="left" VALIGN="top"><A NAME="humanortho"></A>Human<BR>
-ortholog</TH>
-<TD VALIGN="top">Human ortholog records for this marker, if available, as follows:
-<UL>
-<li>Official human gene symbol (linked to EntrezGene), name and NCBI EntrezGene ID. </li>
-<li>Human Synonyms: Names or symbols for a given marker that may appear in the literature but which are not approved names or symbols</li>
-<li>Human genome coordinate range and strand, in base pairs, from NCBI</li>
-<li>The number of human diseases associated with this gene in OMIM. When you click on this number a pop-up window appears listing the associated diseases (linked to the MGI Human Disease and Mouse Model Detail page) and the OMIM ID (linked to the OMIM entry for that disease). An asterisk appears if that disease is associated with mutations in the mouse gene. <b>Note:</b>  Inclusion in this report does not necessarily mean that mutations in the gene of interest contribute to or cause the disease listed in Human Disease column. The gene may have an allele that is part of a complex genotype that includes other causative genes.</LI>
-</ul>
-</td>
-</tr>
-
-<TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="phenotypes_detail"></A>Alleles and Phenotypes</TH>
-<TD VALIGN="top">Depending on availability, the display includes some or all of the following links or information. Numbers in parentheses indicate how many items each linked report contains.
-<UL>
-<LI>Counts of and links to <i>All alleles</i> and to any other phenotypic allele category associated with this marker. </LI>
-<LI>A short summary of phenotypes produced by mutant alleles.</LI>
-<li><b>Associated Human Diseases</b>: a link to a list of all distinct human diseases where a mouse mutant allele of this gene is part of a mouse genotype that represents a disease model. (This does not necessarily mean that mutations in this gene contribute to or are causative of the disease.)</li>
-<li><b>Alleles Annotated to Human Diseases</b>: a link to the Phenotypic Alleles
-Query Results -- Summary page: alleles with OMIM annotations to associated genotypes</li>
-<!--removed per TR7518 & 3.44 <LI>A link to the Mouse Locus Catalog if it contains a record for this phenotype. <B>Note:</B> The MLC records are being phased out and are available for only a subset  of MGI markers.</LI>-->
-<li> <b>Phenotype Images</b>: Click the number to bring up the <b>All Phenotype Images for Gene<b> report and view  every phenotype image that MGI has for this gene.</p></li>
-</UL>
- </TD>
-</TR>
-
 <TR>
 <TH ALIGN="left" VALIGN="top"><A NAME="polymorphisms"></A>Polymorphisms</TH>
 <TD VALIGN="top">Links to the following MGI summary reports (the number available appears in parentheses):<ul>
   <li>Polymorphisms Query Results -- Summary  for any RFLPs/PCRs for this marker:  </li>
-<li>Mouse SNPs Query Results -- Summary for any SNPs within 2 kb of this marker.  <b>Note:</b> If MGI gene and marker genome coordinates are out of sync with the SNP data, <b>within 2 kb of this marker</b> does not appear, and the summary report indicates the discrepancy. See <a href="SNP_discrepancy_help.shtml">Understanding Mouse SNP Coordinate Discrepancies</a> for details.
-</ul>
-</TD>
-</TR>
-
-<TR>
-</TR>
-
-<TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="GO_detail"></A>Gene Ontology (GO)<BR>
- Classifications</TH>
-<TD VALIGN="top"><ul>
-   <li><B>All GO classifications (<i># annotations</i>)</b> links to a summary of the <i>nn </i> annotated items found.
-See  <A HREF="GO_classification_fields_help.shtml">Using Gene Ontology Classification Fields on MGI Query Forms</A> for how to interpret the fields on this page. You can browse the GO vocabulary from the query results section and locate multiple terms that annotate a gene record.</li>
- <li>Links to GO annotations for Process (biological), Component (cellular), and Function (molecular) of the gene. </li>
-  <li>A link to the GO Consortium Reference Genome Annotation Project, if this gene is annotated in the project.</li>
-<li>A link to any External Resources (for example, <a href="http://func.med.harvard.edu/mouse/">FuncBase</a>, a database of functional predictions) for additional information about this gene.</li>
- 
-</ul></TD>
-</TR>
-
-
-<TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="expression_detail"></A>Expression</TH>
-<td valign="top">Depending on availability, some or all of the following information may appear:
-<ul>
-  <li>Literature Summary: number of references analyzing expression for this gene; links to a table of the ages and assay types analyzed.</li>
-  <li>Data Summary - each number links to a summary report: 
-	<ul>
-        <li>Assays - assays analyzing expression of the marker; links to data.</li>
-        <li>Results - expression results; links to details.</li>
-        <li>Tissues - anatomical structures where expression was analyzed; summary report details whether or not expression was detected.</li>
-         <li>Images - images associated with results; summary report displays thumbnails of any associated figures; links to full-size images.</li>
-     </ul>
-  <li>	Theiler stage: List of all developmental stages where expression was analyzed; each summary report lists expression results from that stage.</li>
-  <li>Assay Type Results and Assays: assay type used for the analyses; number of results and different assay types link to summary reports (subsets of those described above).</li>
-  <li><a name="cdna_summary"></a>cDNA source data: the number of cDNA clones for this marker, linked to a summary page with the following columns: Nucleotide Probe/Clone AccID, Name, Clone Collection, Age, Tissue, Cell Line, and Gene. If (PUTATIVE) appears beside the gene symbol, it means that the relationship between the gene and clone is established by computation rather than experimental data.</li>
-  <li>External Resources: links to expression information for this marker in other than MGI databases. Examples: Allen Brain Atlas, GENSAT, gene microarray profile pages at GEO, Novartis, ArrayExpress.</li>
- </ul>
-</TD>
-</TR>
-
-<TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="molecular_reagents"></A>Molecular reagents</TH>
-<TD VALIGN="top">Links to summary pages of MGI molecular reagent information for the marker grouped by All nucleic, Genomic, cDNA, Primer pair, Other (i.e., other nucleic acid probes), and Antibody. Note that <I>Genomic, cDNA, Primer pair</I> and <I>Other</I> are subsets of All nucleic. The number in parentheses indicates the total number of items listed in the summary. If you select:
-
-<UL STYLE="padding-left:30px">
-<LI>All nucleic, Genomic, cDNA, Primer pair, Other:  link is to Molecular Probes and Clones Query Results -- Summary.</LI>
-
-<LI>Antibody: link is to Antibodies Query Results -- Summary.</LI>
-</UL>
-</TD>
-</TR>
-
-<TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="other_database_links"></A>Other database links</TH>
-<TD VALIGN="top"><ul>
-  <li>List of and links to external resources with database accession IDs associated to this marker. Examples are EC, Ensembl Gene Model, DoTS, DFCI,
-NIA Mouse Gene Index, Entrez Gene, <!--dbGSS (for Gene Traps),--> International Mouse Knockout Project Consortium Status.</li>
-  <li>Additionally, there may be links to the sequence evidence underlying gene predictions provided by NCBI, Ensembl, and VEGA.</li>
+<li>Mouse SNPs Query Results -- Summary for any SNPs within 2 kb of this marker.  <b>Note:</b> If MGI gene and marker genome coordinates are out of sync with the SNP data, <b>within 2 kb of this marker</b> does not appear, and the summary report indicates the discrepancy. See <a href="snp_discrepancy.shtml">Understanding Mouse SNP Coordinate Discrepancies</a> for details.
 </ul>
 </TD>
 </TR>
