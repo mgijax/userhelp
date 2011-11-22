@@ -180,7 +180,7 @@ The following are representative examples for each type listed on the pulldown m
 <tr><td valign="top">UniGene ID</td><td valign="top">247073</td></tr>
 <tr><td valign="top">MiRBase ID</td><td valign="top">MI0000248</td></tr>
 <tr><td valign="top">GenBank/RefSeq ID*</td><td valign="top">NM_001122899<br> AK033644<br>NP_666257</td></tr>
-<tr><td valign="top">UniProt ID</td><td valign="top">P48356<br>Q3UFR6<br>A2AKJ2</td></tr>
+<tr><td valign="top">UniProt ID</td><td valign="top">P48356<br>A2AKJ2</td></tr>
 <tr><td valign="top">GO (Gene Ontology)</td><td valign="top">GO:0019221</td></tr>
 <tr><td valign="top">RefSNP ID</td><td valign="top">rs3021544</td></tr>
 <tr><td valign="top">Probeset ID</td><td valign="top">10379153</td></tr>
