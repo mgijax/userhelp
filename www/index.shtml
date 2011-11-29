@@ -27,7 +27,7 @@
   	<table class="nb" width="60%" cellpadding="4" align="center">
   <tr align="center">
 	<td valign="top">  
-	<a href="#help_marker">Genes, Genome Features, &amp; Maps</a> | 
+	<a href="#help_marker">Genes & Genome Features<!--, &amp; Maps--></a> | 
       <a href="#help_pad">Phenotypes, Alleles &amp Disease Models</a> | 
       <a href="#help_gxd">Gene Expression</a> | 
      <a href="#help_cre">Recombinases</a> | 
@@ -43,7 +43,7 @@
   <!-- main body table -->
   <dl class="linkedList">
   <a name="help_marker"></a> 
-<DT class="enhance">Genes, Genome Features, & Maps</dt>
+<DT class="enhance">Genes & Genome Features<!--, & Maps--></dt>
   <blockquote>
   		<dt><b>Genes & Markers</b></dt>
 		<dd><a href="GENE_help.shtml" onclick="javascript:openHelpWindow('GENE_help.shtml'); return false;">Using the Genes and Markers Query Form</a></dd>
@@ -62,12 +62,12 @@
   	  <dd><a href="SEQUENCE_valid_providers_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_valid_providers_help.shtml'); return false;">Valid Sequence Provider and Type Combinations</a></dd>
 
 
-  	 <dt><b>Maps</b></dt>   
+  	 <!--<dt><b>Maps</b></dt>   
   	<dd><a href="maps_and_mapping_data_help.shtml" onclick="javascript:openHelpWindow('maps_and_mapping_data_help.shtml'); return false;">Retrieving Maps & Mapping Data</a></dd>
 <dd><a href="linkmap_help.shtml" onclick="javascript:openHelpWindow('linkmap_help
 
 
-.shtml'); return false;">Using the Linkage Maps Query Form</a></dd>
+.shtml'); return false;">Using the Linkage Maps Query Form</a></dd>-->
   	</blockquote>
 
 
@@ -115,7 +115,7 @@
 
   <dt><b>Molecular Reagents</b></dt>
 		<dd><a href="EXPRESSION_affy_probe_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_affy_probe_help.shtml'); return false;">Interpreting a Microarray Probeset Summary</a></dd>
-	<dd><a href="EXPRESSION_antibody_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_antibody_help.shtml'); return false;">Interpreting an Antibodies Summary</a></dd>
+	<!--<dd><a href="EXPRESSION_antibody_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_antibody_help.shtml'); return false;">Interpreting an Antibodies Summary</a></dd>-->
 </blockquote>
  
   <!-- cre -->
@@ -142,8 +142,8 @@
 
       <dt class="enhance">Strains, SNPs &amp; Polymorphisms</dt>
      <blockquote>
-	<dt><b>Strains & Polymorphisms</b></dt>
-	 <dd><a href="STRAINS_polymorphism_help.shtml" onclick="javascript:openHelpWindow('STRAINS_polymorphism_help.shtml'); return false;">Using the RFLP/PCR Polymorphism Query Form</a></dd>
+	<!--<dt><b>Strains & Polymorphisms</b></dt>
+	 <dd><a href="STRAINS_polymorphism_help.shtml" onclick="javascript:openHelpWindow('STRAINS_polymorphism_help.shtml'); return false;">Using the RFLP/PCR Polymorphism Query Form</a></dd>-->
 	
 	<dt><b>SNPs</b></dt>         
            <dd><a href="SNP_help.shtml" onclick="javascript:openHelpWindow('SNP_help.shtml'); return false;">Using the Mouse SNP Query Form</a></dd>
@@ -162,10 +162,10 @@
         <dt class="enhance">Mammalian Orthology</dt>
    <blockquote>
           
-                    <dd>
-                      <a href="linkmap_help.shtml" onclick="javascript:openHelpWindow('linkmap_help.shtml'); return false;">
-                        Using the Linkage Maps Query Form</a>
-                    </dd>
+     <!--<dd> <a href="linkmap_help.shtml" onclick="javascript:openHelpWindow('linkmap_help.shtml'); return false;">
+     Using the Linkage Maps Query Form</a> </dd>-->
+     <dd> <a href="orthology_results_help_shtml"
+     onclick="javascript:openHelpWindow('orthology_results_help_shtml'); return false;">Interpreting Mammalian Orthology Results</a></dd>
           </blockquote>
       
  
