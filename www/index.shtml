@@ -164,8 +164,8 @@
           
      <!--<dd> <a href="linkmap_help.shtml" onclick="javascript:openHelpWindow('linkmap_help.shtml'); return false;">
      Using the Linkage Maps Query Form</a> </dd>-->
-     <dd> <a href="orthology_results_help_shtml"
-     onclick="javascript:openHelpWindow('orthology_results_help_shtml'); return false;">Interpreting Mammalian Orthology Results</a></dd>
+     <dd> <a href="orthology_results_help.shtml"
+     onclick="javascript:openHelpWindow('orthology_results_help.shtml'); return false;">Interpreting Mammalian Orthology Results</a></dd>
           </blockquote>
       
  
