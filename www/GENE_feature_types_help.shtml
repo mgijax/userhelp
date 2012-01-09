@@ -69,6 +69,8 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
 
 <tr><th valign="top" align="left"><font size="-1">lincRNA gene</th><td valign="top"><font size="-1">A gene that encodes large intervening non-coding RNA. </td><td valign="top"><font size="-1">SO:0001641</font></td></tr>
 
+<tr><th valign="top" align="left"><font size="-1">SRP RNA gene</th><td valign="top"><font size="-1">A gene that encodes the signal recognition particle RNA. </td><td valign="top"><font size="-1">SO:0000590</font></td></tr>
+
 <tr><th valign="top" align="left"><font size="-1">RNase P RNA gene</th><td valign="top"><font size="-1">A gene that encodes RNase P RNA, the RNA component of Ribonuclease P (RNase P).</td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
 
 <tr><th valign="top" align="left"><font size="-1">RNase MRP RNA gene</th><td valign="top"><font size="-1">A gene that encodes RNase MRP RNA.</td><td valign="top"><font size="-1">SO:0001640</font></td></tr>
