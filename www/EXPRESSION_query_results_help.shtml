@@ -450,8 +450,8 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
  <td valign="top"><b>Figure</b></td>  <td valign="top">Figure number/title of the image in the reference.</td> </tr>
  <tr>
  <td valign="top"><b>MGI Accession ID</b></td><td valign="top">MGI accession ID of the image.</td> </tr>
- <tr>
-   <td valign="top"><b>Assays that refer to this image</b></td><td valign="top">A link to this table at the bottom of the page.</td> </tr>
+ <!--<tr>
+   <td valign="top"><b>Assays that refer to this image</b></td><td valign="top">A link to this table at the bottom of the page.</td> </tr>-->
 </table>
 
 </blockquote>
@@ -461,7 +461,7 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
 <table border="1" width="!" cellspacing="1" cellpadding="4">
  <tr>  <th>Field</th>  <th><b>Description</th></tr>
  <tr>
-   <td valign="top"><b>Note</b></td> <td valign="top">Notes that the curators feel are necessary to orient users when viewing the image.</td></tr>
+   <td valign="top"><b>Caption</b></td> <td valign="top">Notes that the curators feel are necessary to orient users when viewing the image.</td></tr>
  <tr> <td valign="top"><b>Copyright</b></td> <td valign="top">Copyright statement for the images, in a format specified by the publisher of the reference.</td> </tr>
    <tr>
      <td valign="top"><a name="table_below"></a><b>Assays that refer to this image</b></td><td valign="top"><ul>
