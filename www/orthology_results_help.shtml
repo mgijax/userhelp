@@ -207,7 +207,7 @@ to, and, enclosed in parentheses, the cM position or cytogenetic band. Location 
 <tr><th align="left" valign="top"><a name="References1"></a>References (table)</th><td valign="top">Each criterion is associated with one or more references. Each evidence column contains a J:number, linked to the particular reference set for the criterion and species.</td></tr>
 <tr><th align="left" valign="top"><a name="comp_map"></a>Comparative Map</th><td valign="top">Click the desired species (rat, human) to see a 2 cM display around the queried marker.</td></tr>
 <tr><th align="left" valign="top"><a name="References2"></a>References (list)</th><td valign="top">Click <i>Display all</i> or select a species to see all or selected references.</td></tr>
-<tr><th align="left" valign="top"><a name="Links"></a>Links</th><td valign="top">Additional links to databases or resources with orthology data for this gene (e.g.,VISTA, HomoloGene, MGI Protein Superfamily reports, MGI Mouse-Human-Rat Comparative GO Graphs). </td></tr>
+<tr><th align="left" valign="top"><a name="Links"></a>Links</th><td valign="top">Additional links to databases or resources with orthology data for this gene (e.g., Gene Tree, VISTA, HomoloGene, MGI Protein Superfamily reports, MGI Mouse-Human-Rat Comparative GO Graphs). </td></tr>
 </TABLE>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
