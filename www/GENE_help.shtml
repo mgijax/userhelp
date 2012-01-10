@@ -46,14 +46,14 @@ Using the Genes and Markers Query Form</span>
 <ul style="padding-left:30px">
   <li><a href="<!--#include file='include/glossary_url.html'-->">MGI Glossary</a> for unfamiliar terms (or for how MGI defines and uses familiar terms) and acronyms</li>
   <li><a href="MISC_general_searching_help">General Guidelines for MGI Query Form Searches</a></li>
-  <li><a href="GENE_feature_types.shtml">Genome Feature Type Definitions</a></li>
+  <li><a href="GENE_feature_types_help.shtml">Genome Feature Type Definitions</a></li>
 </ul>
 
 <h3><a name="whatdo"></a>What can I  use the Genes and Markers Query Form to find?</h3>
  <p>Use this query form to search for detailed information on various types of mouse markers. You can:
 <ul>
 <li>search for gene/marker details by entering a current or old symbol, name, allele, or ortholog; or you can restrict the search to look for only a current symbol or name.
-  <li>query by feature type and thereby confine the search to protein coding genes, to individual non-coding RNA genes,  or to a variety of other categories. See <a href="GENE_feature_types.shtml">Genome Feature Type Definitions</a> for a complete list of feature types, descriptions, and corresponding SO IDs (if available/pertinent).</li>
+  <li>query by feature type and thereby confine the search to protein coding genes, to individual non-coding RNA genes,  or to a variety of other categories. See <a href="GENE_feature_types_help.shtml">Genome Feature Type Definitions</a> for a complete list of feature types, descriptions, and corresponding SO IDs (if available/pertinent).</li>
   <li>retrieve lists of markers sorted by nomenclature, genome coordinates, or  cM position.</li>
 <li>include GO classifications, InterPro domains, phenotype terms, or clone collections in your search parameters.
 <li>limit or expand the amount of items returned.</li>
@@ -102,6 +102,7 @@ Using the Genes and Markers Query Form</span>
 <ul>
 <li>Click <b>Show/Hide</b> to expand/contract all list choices or click &#9658; or &#9660; open/close a category or subcategory.</li> 
 <li>Click the box next to each item you wish to include in the search. Check marks indicate your choices.</li>
+<li>Mouse over a feature type to view its definition.</li>
 <li>Clicking the box beside a major category (any item that opens to subcategories, e.g., <i>all feature types, gene, non-coding RNA gene</i>) selects all items beneath it. </li>
  <li>A minus in a box beside a category indicates that discrete items beneath it are selected (and not the entire category or subcategory, e.g. <i>miRNA gene</i> and <i>lincRNA gene</i> and not all non-coding RNA genes).</li>
  <li>Checking all categories has the same effect as checking none of the categories. If you do not click any category, the search includes them all. </li>
