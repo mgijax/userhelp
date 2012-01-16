@@ -179,7 +179,7 @@ function openHelpWindow(helpFile){
 <tr><td valign="top"><li>For best results, use wild cards on scientific or medical terms which the stemming algorithm may not recognize.</li></td><td valign="top"><li><i>hippocamp*</i> &nbsp;finds hippocampus, hippocampi, hippocampal</li><li><i>cell*</i> &nbsp;finds cell, cells, cellular, cell-like</li><li><i>embry*</i>&nbsp; finds embryo, embryonic, embryonal, embryoes, embryogenesis</li><li><i>nucle*</i>&nbsp; finds nucleus, nucleosis, nucleosome, nucleolar.</li></td></tr>
 
   <tr><td valign="top"><a name="how_many"></a>Number of words allowed</td><td valign="top">32</td>
-<td valign="top">Use the <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=batchQF">MGI Batch Query</a> for longer lists of genome features or accession IDs.</td></tr>
+<td valign="top">Use the <a href="<!--#include file='include/fewi_url.html'-->batch">MGI Batch Query</a> for longer lists of genome features or accession IDs.</td></tr>
 
   <tr><td valign="top"><a name="brackets"></a>Angle brackets</td><td valign="top">Use to enclose superscripts in gene and allele nomenclature.</td><td valign="top">fas&lt;lpr&gt;</td></tr>
 
