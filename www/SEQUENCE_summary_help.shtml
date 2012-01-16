@@ -61,12 +61,12 @@ Interpreting a Sequence Summary </span>
 </ul>
 <P>See also:</P>
 <UL>
-<LI><A HREF="<!--#include file='include/glossary_url.html'-->">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
+<LI><A HREF="<!--#include file='include/glossary_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
 <LI><A HREF="SEQUENCE_help.shtml">Using the Mouse Sequence Query Form</A></LI>
 
 <LI><A HREF="SEQUENCE_detail_help.shtml">Interpreting Sequence Detail Reports</A></LI>
 
-<LI><A HREF="SEQUENCE_query_tips_help.shtml">Sequence Query Tips</A></LI>
+<!--<LI><A HREF="SEQUENCE_query_tips_help.shtml">Sequence Query Tips</A></LI>-->
 
 <LI><A HREF="mouseblast_basic_steps_help.shtml">Using MouseBLAST - Basic Steps</A></LI>
 </UL>
@@ -376,7 +376,7 @@ Print or save this page to save the URL to your results.-->
 </font>
 <H3><A NAME="fields"></A>What can I do with sequence summary information?</H3>
 
-<P>After reviewing this information, you may want to run your query again, and change the...</P>
+<!--<P>After reviewing this information, you may want to run your query again, and change the...</P>
 
 <UL>
 <LI><A HREF="SEQUENCE_help.shtml#max_no">maximum number of items returned</A> (for example, when the number of query results available is greater than the number appearing in your browser).</LI>
@@ -386,9 +386,7 @@ Print or save this page to save the URL to your results.-->
 <LI><A HREF="SEQUENCE_help.shtml#output_format">output format</A> (for example, to display tab-delimited text for use in a spreadsheet or FASTA format for use with a BLAST tool).</LI>
 
 <LI>query parameters so that you can narrow (or expand) your results. See <A HREF="SEQUENCE_query_hints.shtml">Sequence Query Hints</A> for suggestions on how to do this.</LI>
-</UL>
-
- 
+</UL>-->
 
 <P>On the sequence summary, you can follow links to:</P>
 

@@ -48,10 +48,10 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 </UL>
 <P>See also:
 <UL>
-  <LI><A HREF="<!--#include file='include/glossary_url.html'-->">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
-  <LI><A HREF="SEQUENCE_help.shtml">Using the Mouse Sequence Query Form</A></LI>
+  <LI><A HREF="<!--#include file='include/glossary_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
+  <!--<LI><A HREF="SEQUENCE_help.shtml">Using the Mouse Sequence Query Form</A></LI>-->
   <LI><A HREF="SEQUENCE_summary_help.shtml">Interpreting a Sequence Summary</A></LI>
-  <LI><A HREF="SEQUENCE_query_tips_help.shtml">Sequence Query Tips</A>
+  <!--<LI><A HREF="SEQUENCE_query_tips_help.shtml">Sequence Query Tips</A></li>-->
 </UL>
 
 <!--<table width="97%" cellpadding="2" align="center">
@@ -66,7 +66,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 <TR><TH ALIGN="right" VALIGN="top"><A NAME="id"></A>ID/Version</TH><TD>The primary and  secondary (if they exist) sequence identifiers appear on the left.  The ID is primary if it appears in boldface type; if the type face is not bold, it is a secondary ID.   The name of the sequence provider appears beside the ID in parentheses, linked to the sequence detail report at the provider's web site.
 On the right is the provider's version number for the sequence. Sometimes this takes the form of the latest sequence or annotation update. If version information is missing, the provider did not supply it.</TD></TR>
 
-<TR><TH ALIGN="right" VALIGN="top"><A NAME="seq_description"></A>Sequence<BR>description<BR>from provider</TH><TD VALIGN="top">Typically, this is the information contained in the <I>Definition</I> or <I>Description</I> field of the provider's sequence record. If this field is blank, the provider did not supply the information. For genome assembly sequences, the coordinates, the chromosome, and the build number appear.  The build number is from the most current NCBI assembly sequence. See <A HREF="http://www.ncbi.nlm.nih.gov/genome/seq/NCBIContigInfo.html">Assembling Genomic Sequences</A> for complete details.</TD></TR>
+<TR><TH ALIGN="right" VALIGN="top"><A NAME="seq_description"></A>Sequence<BR>description<BR>from provider</TH><TD VALIGN="top">Typically, this is the information contained in the <I>Definition</I> or <I>Description</I> field of the provider's sequence record. If this field is blank, the provider did not supply the information. For genome assembly sequences, the coordinates, the chromosome, and the build number appear.  The build number is from the most current NCBI assembly sequence. <!--See <A HREF="http://www.ncbi.nlm.nih.gov/genome/seq/NCBIContigInfo.html">Assembling Genomic Sequences</A> for complete details.</TD></TR>-->
 
 <TR><TH ALIGN="right" VALIGN="top"><A NAME="provider"></A>Provider</TH><TD>Name of the sequence provider and sometimes the division (e.g., Rodent, High Throughput cDNA, High Throughput Genome, Patent, EST, STS, GSS) of origin. <I>This sequence has been deleted from the provider database</I> appears if the provider no longer has the sequence.</TD></TR>
 

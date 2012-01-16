@@ -409,7 +409,7 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
 
 <p>See also <a href="#summary">MGI Batch Query results</a> for information on other fields.</</p>
 
-<p>For detailed information, use the <a href="!--#include file='include/wi_url.html'--searches/allele_form.shtml">Phenotypes, Alleles & Disease Models Query Form</a> to find your gene of interest and view Human Disease terms as they are associated with specific allelic mutations and strains.</p>
+<p>For detailed information, use the <a href="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml">Phenotypes, Alleles & Disease Models Query Form</a> to find your gene of interest and view Human Disease terms as they are associated with specific allelic mutations and strains.</p>
 <!--The mice analyzed may have been heterozygotes or homozygotes for the mutant allele, or the mouse may have carried other mutations in addition to those in this gene alone. Thus, the appearance of a Human Disease term here does not mean that mutations in this gene necessarily contribute to or are causative of the disease.-->
 
 

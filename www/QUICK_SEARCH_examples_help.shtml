@@ -60,7 +60,7 @@ function openHelpWindow(helpFile){
 <li><a href="#help">Help! I can't find what I was looking for.</a>
 </ul>
 
-<a href="searchtool_help.shtml"><font size="-1">Back to "Using the Quick Search Tool"</font></a>
+<a href="QUICK_SEARCH_help.shtml"><font size="-1">Back to "Using the Quick Search Tool"</font></a>
 
 <h3><a name="advanced"></a>Is there an advanced search?</h3>
 <p>You can narrow what the Quick Search returns by:</p>
@@ -72,7 +72,7 @@ function openHelpWindow(helpFile){
   <li>using <a href="QUICK_SEARCH_help.shtml#google">Search MGI with Google</a> (located at the bottom of the <b>Quick Search Results</b> page.</li>
 </ul>
 </p>
-<p>See also <a href="searchtool_help.shtml#advantage">When should I use Quick Search vs. an individual MGI query form?</a> for more information about advanced searches.</p>
+<p>See also <a href="QUICK_SEARCH_help.shtml#advantage">When should I use Quick Search vs. an individual MGI query form?</a> for more information about advanced searches.</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
@@ -168,7 +168,7 @@ See <a href="ACCESSION_ID_help.shtml">Accession ID types and examples</a>  for l
 <tr><td valign="top">PIRSF</td><td valign="top">Protein Information Resource SuperFamily </td><td valign="top">Protein families</td></tr>
 <tr><td valign="top">InterPro</td><td valign="top">Protein data from  EBI's <a href="http://www.ebi.ac.uk/interpro/">InterPro</a> database</td><td valign="top">Protein domain</td></tr>
 </table><br>
-<b>Note:</b> Adult Mouse Anatomy (MA) matches do not appear beneath <a href="searchtool_help.shtml#vocabulary">Vocabulary Terms</a>, but (when available) do appear beneath <b>Other Results by ID</b>.
+<b>Note:</b> Adult Mouse Anatomy (MA) matches do not appear beneath <a href="QUICK_SEARCH_help.shtml#vocabulary">Vocabulary Terms</a>, but (when available) do appear beneath <b>Other Results by ID</b>.
 </blockquote>
 
 </p>
@@ -204,7 +204,7 @@ See <a href="ACCESSION_ID_help.shtml">Accession ID types and examples</a>  for l
 
 
 <h3><a name="which_id">Are there any examples of the accession IDs that Quick Search can find?</h3>
-<p>Yes. See <a href="searchtool_help_accession_ids.shtml">Accession ID types and examples</a> for list of providers, sample IDs, and where to look for any matches in the Quick Search Results.
+<p>Yes. See <a href="ACCESSION_ID_help.shtml">Querying by Accession ID - Results and Examples</a> for list of providers, sample IDs, and where to look for any matches in the Quick Search Results.
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 
@@ -257,7 +257,7 @@ See <a href="http://en.wikipedia.org/wiki/Stop_words">stop words</a> in Wikipedi
 <ul>
   <li>If Quick Search doesn't return appropriate matches, or if you want more specific results, try using  one of the MGI query forms accessible from the <b>Search</b> tab in the top menu bar. Click <b>Search-->All Search Tools</b> (on the MGI homepage) to see everything available. (<a href="http://www.informatics.jax.org/allsearch.shtml">http://www.informatics.jax.org/allsearch.shtml</a>)</li>
   <li>Consult the user documentation for detailed information about searches. As examples, see 
-<A HREF="marker_help.shtml">Using the Genes and Markers Query Form</A> for information about searches on genes or genome features and <A HREF="searchtool_help_accession_ids.shtml#probes_clones">Querying by Accession ID - Examples</A> for the types of accession ID cross-referenced in MGI.
+<A HREF="GENE_help.shtml">Using the Genes and Markers Query Form</A> for information about searches on genes or genome features and <A HREF="ACCESSION_ID_help.shtml">Querying by Accession ID - Results and Examples</A> for the types of accession ID cross-referenced in MGI.
 
 
 <blockquote>

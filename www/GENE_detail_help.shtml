@@ -100,7 +100,7 @@ function openHelpWindow(helpFile){
 <TH ALIGN="left" VALIGN="top"><A NAME="sts"></A>STS</TH>
 <TD VALIGN="top">If applicable, symbols for sequence tag sites (STS) with the same DNA sequence (or a portion of that sequence) as the marker, linked to the DNA Detail Segment Detail page. For example, D7Mit19 and D7Mit31 are said to be STSs of Tyr.</TD>
 </TR>
-<tr><th align="left" valign="top"><a name="feature_type"></a>Feature Type</th><td valign="top">Genetic feature type(s) annotated to the marker (e.g, snoRNA gene, rRNA gene and so on). Hovering over each term produces a pop-up window containing the definition associated with each term. See <a href="marker_feature_types.shtml#feature_types">Genome Feature Type Definitions</a> for a complete list.</td></tr>
+<tr><th align="left" valign="top"><a name="feature_type"></a>Feature Type</th><td valign="top">Genetic feature type(s) annotated to the marker (e.g, snoRNA gene, rRNA gene and so on). Hovering over each term produces a pop-up window containing the definition associated with each term. See <a href="GENE_feature_types_help.shtml">Genome Feature Type Definitions</a> for a complete list.</td></tr>
 <TR>
 <TH ALIGN="left" VALIGN="top"><a name="genetic_map"></a>Genetic Map</TH>
 <Td ALIGN="left" VALIGN="top">As much as is known for this marker of the following: 
@@ -271,7 +271,7 @@ MGI Representative Sequences provide users quick access to a single genomic, tra
 <TH ALIGN="left" VALIGN="top"><A NAME="polymorphisms"></A>Polymorphisms</TH>
 <TD VALIGN="top">Links to the following MGI summary reports (the number available appears in parentheses):<ul>
   <li>Polymorphisms Query Results -- Summary  for any RFLPs/PCRs for this marker:  </li>
-<li>Mouse SNPs Query Results -- Summary for any SNPs within 2 kb of this marker.  <b>Note:</b> If MGI gene and marker genome coordinates are out of sync with the SNP data, <b>within 2 kb of this marker</b> does not appear, and the summary report indicates the discrepancy. See <a href="snp_discrepancy.shtml">Understanding Mouse SNP Coordinate Discrepancies</a> for details.
+<li>Mouse SNPs Query Results -- Summary for any SNPs within 2 kb of this marker.  <b>Note:</b> If MGI gene and marker genome coordinates are out of sync with the SNP data, <b>within 2 kb of this marker</b> does not appear, and the summary report indicates the discrepancy. See <a href="SNP_discrepancy_help.shtml">Understanding Mouse SNP Coordinate Discrepancies</a> for details.
 </ul>
 </TD>
 </TR>
