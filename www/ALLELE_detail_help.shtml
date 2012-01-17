@@ -66,7 +66,7 @@ function openHelpWindow(helpFile){
 <li><a href="genetrap_usecase_help.shtml">Gene Trap Questions and Answers</a></li>
 <li><a href="RECOMBINASE_summary_help.shtml">Using Recombinase Alleles -- Tissue Activity Summary Reports</a></li>
 
-  <LI><A HREF="<!--#include file='include/glossary_url.html'-->">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
+  <LI><A HREF="<!--#include file='include/glossary_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
  <li> <A HREF="<!--#include file='include/mgihome_url.html'-->nomen/gene.shtml">Guidelines for Nomenclature of Genes, Genetic Markers, Alleles, & Mutations in Mouse & Rat</a></li>
 
 </UL>
@@ -217,7 +217,7 @@ Click &#9660; to close the  display.<br>The image that appears is a genome brows
 
 <tr><TH align="right" VALIGN="top"><A NAME="genotype"></A>Phenotypic data by genotype</td><TD ALIGN="left" VALIGN="top">Phenotypic details for all genotypes that include at least one copy of the specified allele.<br><br><table border cellpadding=4>
 <tr><td valign="top">Colored boxes, <br>abbreviations, <br>numbers</td><td valign="top">
-<ul><li>A <a href="phenoview.shtml#key">Key</a> decodes the information.</li>
+<ul><li>A <a href="ALLELE_detail_pheno_summary_help.shtml#key">Key</a> decodes the information.</li>
 <li>Each column heading contains a color, an abbreviation, and a number. </li>
 <li>Colors correspond  to genotypic "states."</li>
 <li>Abbreviations are "shorthand" for those states (e.g., hm stands for homozygous). </li>
@@ -251,7 +251,7 @@ Click &#9660; to close the  display.</p></td>
 <TR><td valign="top"><a name="notes"></a>Note</td><TD VALIGN="top">Column containing a number if there is additional information about the disease or model. This information appears below the table, beside the number.  If the word <i>Not</i> appears, it means that the reference's author(s) looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified.</TD></tr>
 
 <tr><td valign="top">Colored boxes, <br>abbreviations, <br>numbers</td><td valign="top">
-<ul><li>A <a href="phenoview.shtml#key">Key</a> decodes the information.</li>
+<ul><li>A <a href="ALLELE_detail_pheno_summary_help.shtml#key">Key</a> decodes the information.</li>
 <li>Each column heading contains a color, an abbreviation, and a number. </li>
 <li>Colors correspond  to genotypic "states."</li>
 <li>Abbreviations are "shorthand" for those states (e.g., hm stands for homozygous). </li>

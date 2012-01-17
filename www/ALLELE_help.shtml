@@ -82,7 +82,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <H3><A NAME="glossary"></a>How does MGI define <I>phenotype, disease</I>, and <I>allele</I>?
 </H3>
 <P><table border="0" cellspacing="0" cellpadding="0" width="!%">
- <tr><td valign="top"><i>phenotype</i></td><td>A description of the observable state of an individual with respect to some inherited characteristic. Often, individuals with different genotypes display the same phenotype. See also <I>dominant</I> and <I>recessive</I> in the <A HREF="<!--#include file='include/glossary_url.html'-->">MGI Glossary</A>.<br>
+ <tr><td valign="top"><i>phenotype</i></td><td>A description of the observable state of an individual with respect to some inherited characteristic. Often, individuals with different genotypes display the same phenotype. See also <I>dominant</I> and <I>recessive</I> in the <A HREF="<!--#include file='include/glossary_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A>.<br>
  <!--In MGI, the specific vocabulary of the Mammalian Phenotype Ontology.--></td></tR>
 
 <tr><td valign="top"><i>disease</i></td><tD> A human disease, syndrome, or condition listed in the OMIM (Online Mendelian Inheritance in Man) database.</tD></tR>
@@ -119,7 +119,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
     <li><A HREF="MISC_usingQFs_help.shtml#howdo">How do I submit a query?</a></li>
        <li><a href="MISC_operators_help.shtml#operators">What are operators and how do they affect my query?</a></li>
     <li><a href="MISC_usingQFs_help.shtml#options">How do I select more than one item on a list?</a></li>
-  <li><a href="MISC_boolean_search_help#case">Does it matter what case I use when I type values in the fields?</a></li>
+  <li><a href="MISC_boolean_search_help#case.shtml">Does it matter what case I use when I type values in the fields?</a></li>
   
 <li><A href="#output">Are there different ways to view the output of my query?</A></li>
 
@@ -242,17 +242,17 @@ The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkin
 There are several ways to use the map position parameters (<A HREF="#chromosome">Chromosome</A>, <A HREF="#cyt">Cytogenetic Band</A>, <A HREF="#cmp">cM Position</A>, <A HREF="#coordinates">Genome Coordinates</A>). If you use <B>Chromosome</B>, you may also define a cytogenetic band, cM position, or genome coordinate. However, you cannot combine <B>Cytogenetic Band, cM Position</B>, and <B>Genome Coordinate</B> with one another AND must select a chromosome (except when using "within"). <BR><BR>
 
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="6" WIDTH="100%">
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="allele"></A>Allele</TH><TD>You can search on any <I>approved</I> mouse allele symbol, name, or synonym.<ul><li>Enter one or more terms, separated by commas. <b>Note:</b>&nbsp; If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "interleukin 10 receptor, beta" or "Alpha1,4Gal-T").</li><li> The operators (the default is <I>contains</I>) present additional search options. See <A HREF="operators.shtml">Using Operators on MGI Query Forms</A> for more details.</li></ul></TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="allele"></A>Allele</TH><TD>You can search on any <I>approved</I> mouse allele symbol, name, or synonym.<ul><li>Enter one or more terms, separated by commas. <b>Note:</b>&nbsp; If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "interleukin 10 receptor, beta" or "Alpha1,4Gal-T").</li><li> The operators (the default is <I>contains</I>) present additional search options. See <A HREF="MISC_operators_help.shtml">Using Operators on MGI Query Forms</A> for more details.</li></ul></TD></TR>
 
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="gene_marker"></A>Gene/Marker</TH><TD><ul><li>Symbol, name, or synonym for a mouse genetic marker.</li><li>Enter one or more terms, separated by commas.  <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
 <li>By default, the search is on current symbols/names and synonyms.  However, you can limit your search to current symbols (no search of names) or current symbols/names only (no search of synonyms)</li>
-<li> The operators present additional search options; the default operator is contains. See <a href="operators.shtml">How Operators Work on MGI Query Forms</a> for more information.</li></ul></TD></TR>
+<li> The operators present additional search options; the default operator is contains. See <a href="MISC_operators_help.shtml">Using Operators on MGI Query Forms</a> for more information.</li></ul></TD></TR>
 </td>        </TR>
 
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="chromosome"></A>Chromosome</TH><TD VALIGN="top"><ul><LI>Choose an operator (on/not on). (See <A HREF="operators.shtml">Using Operators on MGI Query Forms</A> for more details.)
 <LI>Select one or more items from the chromosome selection list.</LI></ul></TD></TR>
 
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="cyt"></A>Cytogenetic Band</TH><TD VALIGN="top"><ul><LI>Specify all or a portion of a cytogenetic band offset. The default is <I>equals</I> (=), which limits the search to exact matches.</li> <LI>Select an alternative operator if you want to search using part of a cytogenetic band offset. See <A HREF="operators.shtml">Using Operators on MGI Query Forms</A> for more details.</li><LI>Click the NOT box to exclude whatever you type in the box.</LI></ul> </TD> </TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="cyt"></A>Cytogenetic Band</TH><TD VALIGN="top"><ul><LI>Specify all or a portion of a cytogenetic band offset. The default is <I>equals</I> (=), which limits the search to exact matches.</li> <LI>Select an alternative operator if you want to search using part of a cytogenetic band offset. See <A HREF="MISC_operators_help.shtml">Using Operators on MGI Query Forms</A> for more details.</li><LI>Click the NOT box to exclude whatever you type in the box.</LI></ul> </TD> </TR>
 
 <TR></A><TH VALIGN="top" ALIGN="left"><A NAME="cmp">cM Position</TH><TD VALIGN="top"><ul> <LI>Specify a chromosomal region BETWEEN two points on one chromosome selected from the Chromosome list by entering the cM values to begin and end the region, separated by <I>and</I> (for example, <I>50 and 75</I>).</li><LI>Establish a relationship between values: between, equal, less than, greater than, less than or equal to, greater than or equal to, < >, is null, is not null.</LI> <LI>Specify a region WITHIN an area surrounding a marker by entering the current, approved symbol and the number of cM on either side of the marker. For this option, you do not need to not select a chromosome.</li></ul></TD> </TR>
 
@@ -266,7 +266,7 @@ There are several ways to use the map position parameters (<A HREF="#chromosome"
   <TR><td valign="top">&gt; =</TD><TD VALIGN="top">A single coordinate greater than or equal to a mapped gene or marker. </TD><td valign="top">125622026<BR> 125.63 </TD></TR>
                </TABLE>
              </OL>
-<P><B>Note:</B>&nbsp;The build number appearing on the query form is that of the most current NCBI assembly sequence. See the <A HREF="http://www.ncbi.nlm.nih.gov/genome/assembly/grc/mouse/">Genome Reference Consortium</A> for details  about assembling genomic sequences.</P></TD> </TR>
+<P><B>Note:</B>&nbsp;The build number appearing on the query form is that of the most current NCBI assembly sequence. <!--See the <A HREF="http://www.ncbi.nlm.nih.gov/genome/assembly/grc/mouse/">Genome Reference Consortium</A> for details  about assembling genomic sequences.--></P></TD> </TR>
 </TABLE>
 </TD></TR>
 

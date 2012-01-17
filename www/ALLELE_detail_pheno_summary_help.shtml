@@ -62,7 +62,7 @@ function openHelpWindow(helpFile){
 </UL>
 <P>See also:
 <UL>
-  <LI><A HREF="<!--#include file='include/glossary_url.html'-->">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
+  <LI><A HREF="<A HREF="<!--#include file='include/glossary_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
   <LI><A HREF="ALLELE_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
   <LI><A HREF="ALLELE_summary_help.shtml">Understanding Phenotypic Allele Summary Reports</A></LI>
   <LI><A HREF="ALLELE_detail_help.shtml">Understanding Phenotypic Allele Detail Reports</a></li>
@@ -99,7 +99,7 @@ In this table, you can:
 <p>The key at the top of the Phenotype Summary by Mammalian Phenotype terms</b> table contains one color bar for each different allelic "state" (e.g., homozygous, heterozygous). 
 Each column has a color, an abbreviation for the state (e.g., <i>hm</i> for homozygous, <i>ht</i> for heterozygous, and so on) and a number (arrayed sequentially) for each search result. The colors make it easy to identify  each entity, especially when the Phenotype summary extends horizontally, or when you are viewing data from a <b>Phenotypic details by genotype</b> or <b>Disease model</b> perspective.</p>
 <blockquote>
-<table border="1" cellspacing="1" cellpadding="3" width="!">
+<table border="1" width="!">
  <tr><th align="LEFT" valign="top"  bgcolor="#FBBB00">hm  &nbsp; (orange)</th><td valign="top">homozygous</td></tr>
  <tr><th  align="LEFT" valign="top"  bgcolor="#00CEF2"><nobr>ht &nbsp; (blue)</th><td valign="Top">heterozygous</td></tr> 
  <tr><th  align="LEFT" valign="top"  bgcolor="#D3FFA8">cn (green)</th><td valign="Top">conditional genotype</td></tr> 
@@ -108,7 +108,7 @@ Each column has a color, an abbreviation for the state (e.g., <i>hm</i> for homo
  <tr><th align="LEFT" valign="top" bgcolor="#E3C8AC">ot&nbsp; (brown)</th><td valign="Top">other: hemizygous, indeterminate...</td></tr> 
  
  <tr><th align="Center" valign="Top" bgcolor="FFFFCC">N</th><td valign="Top">Normal phenotype. Current annotations for this genotype and term indicate absence of abnormality. </td></tr> 
- <tr><th align="CENTER" valign="top" bgcolor="FFFFCC">&#248;</th><td valign="Top">NOT a model for this disease, contrary to expectation. See <a href="ALLELE_detail_help.shtml#references">References</a> for details.</td></tr> 
+ <tr><th align="CENTER" valign="top" bgcolor="FFFFCC">&#248;</th><td valign="Top">NOT a model for this disease, contrary to expectation. See <a href="ALLELE_detail_help.shtml#reffs">References</a> for details.</td></tr> 
 
 <!--checkmark-->
  <tr><th align="CENTER" valign="top" bgcolor="FFFFCC">&#x2713;</th><td valign="top">There is an abnormal phenotype in the affected system.  Click &#9658; in the <b>Affected Systems</b> column to see the specific column annotated. Click the term name to view it in the  Mammalian Phenotype Browser. </td></tr> 
@@ -203,7 +203,7 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li>
 
   <h3><A name="relationship"></a>What's the relationship between the Phenotype summary and the Phenotypic data by genotype tables?</a></h3>
 
-<p>The tables present alternate views of the same data. See <a href="#interpret">How do I interpret the Phenotype summary table?</a> and <a href="ALLELE_detail_help.shtml#pg_details">Phenotypic Data by Genotype</a>.</p>
+<p>The tables present alternate views of the same data. See <a href="#interpret">How do I interpret the Phenotype summary table?</a> and <a href="ALLELE_detail_help.shtml#genotype">Phenotypic Data by Genotype</a>.</p>
 
 <A HREF="#top"><font size=-1>Top</font></A>
 
