@@ -241,7 +241,7 @@ function openHelpWindow(helpFile){
 <TR><th align=left valign="top"><a name="map_position"></a>Map position</th>
   <Td ALIGN="left" VALIGN="top">Use the map position parameters (<a name="chromosome"></a>Chromosome(s), <a name="coordinates"></a>Genome Coordinates, <a name="cytogenetic_band"></a>Cytogenetic Band, <a name="marker_range"></a>Marker Range, and              <a name="cm_offset"></a>cM Position) to limit the scope of your query. <li>When using chromosome(s), you can also define genome coordinates, cytogenetic band, or cM position.</li> <li>You cannot combine genome coordinates, cytogenetic band, and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) &#151; except QTL(s) &#151; with coordinates.</li>
 
-See <a href="map_position_blurb.shtml">Using Map Position Fields on MGI Query Forms</a> for further details about entering values in these fields.</td>
+See <a href="MISC_map_position_help.shtml">Using Map Position Fields on MGI Query Forms</a> for further details about entering values in these fields.</td>
         </tr>
      
 

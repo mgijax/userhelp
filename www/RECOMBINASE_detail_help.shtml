@@ -52,7 +52,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
  
 <P>See also:
    <ul>
-       <LI><A HREF="RECOMBINASE_summary_HELP.shtml">Using Recombinase Alleles - Tissue Activity Summary Reports</A></LI>
+       <LI><A HREF="RECOMBINASE_summary_help.shtml">Using Recombinase Alleles - Tissue Activity Summary Reports</A></LI>
  <LI><A HREF="ALLELE_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A> (recombinase-containing transgenes or knock-ins or floxed or frt alleles)</LI>
 </UL>
 
