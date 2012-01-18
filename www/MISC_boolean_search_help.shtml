@@ -77,9 +77,9 @@ function openHelpWindow(helpFile){
 <P>The following MGI query forms support full-text searches:</P>
 <UL>
   <LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF">Genes and Markers Query Form</A> (phenotype/disease field)</LI>
- <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/gxdlit_form.shtml">Gene Expression Literature Search</A> (Text field)</LI>
+ <LI><a href="<!--#include file='include/fewi_url.html'-->gxdlit">Gene Expression Literature Search</A> (Text field)</LI>
   <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml">Phenotypes, Alleles, and Disease Models Query Form</A></LI>
-  <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/sequence_form.shtml">Mouse Sequence Query Form</a> (Phenotype/Disease field)</LI>
+  <!--<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/sequence_form.shtml">Mouse Sequence Query Form</a> (Phenotype/Disease field)</LI>-->
 </UL>
 </p>
 <A HREF="#top">Top</A>

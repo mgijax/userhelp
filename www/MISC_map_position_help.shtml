@@ -72,7 +72,7 @@ Using Map Position Fields on MGI Query Forms
       <tr><td>&gt; =</td><td valign="top">A single coordinate greater than or equal to a mapped gene or marker. </td><td>125622026<br> 125.63 </td></tr>
            </table></li>
          
-         <b>Note:</b>&nbsp;The build number appearing on the query form is that of the NCBI assembly sequence loaded in the MGI database. This may or may not be the number of the most current build at NCBI. See <a href="http://www.ncbi.nlm.nih.gov/genome/assembly/grc/mouse/">Genome Reference Consortium</a> for complete details.</ul>
+         <b>Note:</b>&nbsp;The build number appearing on the query form is that of the NCBI assembly sequence loaded in the MGI database. This may or may not be the number of the most current build at NCBI. <!--See <a href="http://www.ncbi.nlm.nih.gov/genome/assembly/grc/mouse/">Genome Reference Consortium</a> for complete details.--></ul>
          </td>
          </tr>
     

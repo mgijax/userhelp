@@ -54,7 +54,7 @@ Using Wild Cards on MGI Query Forms
 <P>See also:</P>
 
 <UL> 
-<LI><A href= "<!--#include file='include/glossary_url.html'-->">MGI Glossary</A> for
+<LI><A HREF="<!--#include file='include/glossary_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> for
 unfamiliar terms (or for how MGI defines fmiliar terms) and acronyms</LI>
 <LI><A href="MISC_general_searching_help.shtml">General Guidelines for MGI Query Form Searches</A></LI>
 <LI><A href="MISC_boolean_search_help.shtml">Full-text Searching on MGI Query Forms</A></LI>

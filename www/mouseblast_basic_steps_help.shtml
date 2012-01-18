@@ -111,7 +111,7 @@ function openHelpWindow(helpFile){
 
 <!--basic step 2-->
   <li><A NAME="database"></A><b>Select a sequence database to search against</b>.
-<p>See <a href="mouseblast_sequence_database_help.shtml">Using MouseBLAST - Sequence Databases</a> for a list of the searchable nucleotide and protein sequence databases.
+<p>See <a href="mouseblast_sequence_databases_help.shtml">Using MouseBLAST - Sequence Databases</a> for a list of the searchable nucleotide and protein sequence databases.
 </li>
 
  <!--basic step 3-->
@@ -140,7 +140,7 @@ For more details, see <a href="mouseblast_masking_help.shtml">Using MouseBLAST -
 sequence and select the respective Sequence Database from the pull-down list. For more details, see <EM><A HREF="mouseblast_fetch_help.shtml">Searching By Sequence ID</A></EM>.</li> <br>
   <!--step 4 - option 2-->
   <LI><b>Query by genomic sequence interval.</b><br>
-   <b>Note:</b>&nbsp;The build number appearing on the query form is that of the most current NCBI assembly sequence. See <a href="http://www.ncbi.nlm.nih.gov/genome/seq/NCBIContigInfo.html">Assembling Genomic Sequences</a> for complete details.<br>
+   <b>Note:</b>&nbsp;The build number appearing on the query form is that of the most current NCBI assembly sequence. <!--See <a href="http://www.ncbi.nlm.nih.gov/genome/seq/NCBIContigInfo.html">Assembling Genomic Sequences</a> for complete details.--><br>
     <ol type=a><A name="chromosome"></A>
       <LI>Click the down-arrow and select the chromosome of interest.</LI>
       <LI><A name="coordinates"></A>Type or paste the genome coordinates in the box next to <I>between</I>. Separate your entries with either AND or &#150;.
@@ -156,7 +156,7 @@ sequence and select the respective Sequence Database from the pull-down list. Fo
  </li>
   <!--step 4 - option 3-->
   <LI><B>Enter a sequence. Most Web browsers have a limit of 20,000 letters.</B><br>
-Paste in your sequence in FASTA, GCG, or free-text format.  <!--In this release of MouseBLAST, there are limits on the size of entry in the Sequence field.  Depending on your particular combination of computer, operating system, and browser, the limit may be as low as 23,000 bp.--> For more details, see <EM><A HREF="mouseblast_sequence_formats_help.shtml">Sequence Formats</A></EM>.
+Paste in your sequence in FASTA, GCG, or free-text format.  <!--In this release of MouseBLAST, there are limits on the size of entry in the Sequence field.  Depending on your particular combination of computer, operating system, and browser, the limit may be as low as 23,000 bp.--> For more details, see <EM><A HREF="mouseblast_sequence_format_help.shtml">Sequence Formats</A></EM>.
   </LI><br>
 <!--step 4 - option 4-->
 <LI><B>Upload a sequence file.</B><br>
