@@ -227,7 +227,7 @@ function openHelpWindow(helpFile){
   <li>Edit the input list or change any Output options.</li>
   <li>Click Search.</li>
 <li>Repeat steps 1 and 2 until the desired results appear.<br>
-See <a href="#example">Are there examples?</a> for a sample of a query modification.
+<!--See <a href="#example">Are there examples?</a> for a sample of a query modification.-->
 </li>
 </ol>
 
