@@ -55,7 +55,7 @@ Mapping Experimental Data Records
 
 <P>See also:
 <UL>
-  <LI><A HREF="<!--#include file='include/glossary_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</a> for unfamiliar terms (or for how MGI defines familiar terms) and acronyms</LI>
+  <LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</a> for unfamiliar terms (or for how MGI defines familiar terms) and acronyms</LI>
   <LI><A HREF="MISC_general_searching_help.shtml">General Guidelines for MGI Query Form Searches</A></LI>
   <LI><A HREF="MISC_wildcard_help.shtml">Using Wildcards on MGI Query Forms</A></LI>
  </ul>

@@ -59,7 +59,7 @@ function openHelpWindow(helpFile){
 
 <P>See also:</P>
 <UL>
-<LI><A HREF="<!--#include file='include/glossary_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> (for unfamiliar terms or acronyms)</LI>
+<LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> (for unfamiliar terms or acronyms)</LI>
 <LI><A HREF="mouseblast_basic_steps_help.shtml">Using MouseBLAST - Basic Steps</A></LI>
 </UL>
 
