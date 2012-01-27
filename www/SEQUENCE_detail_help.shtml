@@ -48,7 +48,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 </UL>
 <P>See also:
 <UL>
-  <LI><A HREF="<!--#include file='include/glossary_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
+  <LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
   <!--<LI><A HREF="SEQUENCE_help.shtml">Using the Mouse Sequence Query Form</A></LI>-->
   <LI><A HREF="SEQUENCE_summary_help.shtml">Interpreting a Sequence Summary</A></LI>
   <!--<LI><A HREF="SEQUENCE_query_tips_help.shtml">Sequence Query Tips</A></li>-->
