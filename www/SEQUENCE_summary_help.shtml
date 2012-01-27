@@ -49,25 +49,23 @@ Interpreting a Sequence Summary </span>
    <LI><A HREF="#single">How do I view details for a single sequence?</A></LI>
    <LI><A HREF="#fasta">How do I download sequences in FASTA format?</A></LI>
    <LI><A HREF="#mouseblast">How do I forward sequences to MouseBLAST?</A></LI>
-   <LI><A HREF="#buttons">How do the buttons work? What does <i>Invert</i> do?</A></LI>
+   <!--<LI><A HREF="#buttons">How do the buttons work? What does <i>Invert</i> do?</A></LI>-->
    </UL>
 </LI>
-<LI><A HREF="#ftp">I got a summary with a "Link to Results on FTP Site" message. What do I do now?</A></LI>
+<!--<LI><A HREF="#ftp">I got a summary with a "Link to Results on FTP Site" message. What do I do now?</A></LI>-->
 <!--<LI><A HREF="#msqf">I filled in fields on the Mouse Sequence Query Form and got this information. What does it tell me?</A></LI>-->
 <LI><A HREF="#marker_detail">I clicked a link on an MGI Gene Detail report and got this information. What does it tell me?</A></LI>
 <LI><A HREF="#reference_detail">I clicked a link on an MGI Reference Detail report and got this information. What does it tell me?</A></LI>
 <LI><A HREF="#fields">What can I do with sequence summary information?</A></LI>
 <LI><A HREF="#resolved">What does it mean if a value cannot be resolved to an MGI controlled vocabulary?</A></LI>
 </ul>
+
 <P>See also:</P>
 <UL>
-<LI><A HREF="<!--#include file='include/glossary_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
-<LI><A HREF="SEQUENCE_help.shtml">Using the Mouse Sequence Query Form</A></LI>
-
+<LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
+<!--<LI><A HREF="SEQUENCE_help.shtml">Using the Mouse Sequence Query Form</A></LI>-->
 <LI><A HREF="SEQUENCE_detail_help.shtml">Interpreting Sequence Detail Reports</A></LI>
-
 <!--<LI><A HREF="SEQUENCE_query_tips_help.shtml">Sequence Query Tips</A></LI>-->
-
 <LI><A HREF="mouseblast_basic_steps_help.shtml">Using MouseBLAST - Basic Steps</A></LI>
 </UL>
 
@@ -117,10 +115,10 @@ Interpreting a Sequence Summary </span>
 <LI STYLE="list-style: none"><BR>
 </LI>
 
-<LI>Summary information about the sequences matching your query, in columns. Columns headings are: Select (for your check marks), Sequence, Type, Length, Strain/Species, Description from Sequence Provider, Clone Collection and Marker Symbol. </LI>
+<LI>Summary information about the sequences matching your query, in columns. Columns headings are: Select<!--(for your check marks)-->, Sequence, Type, Length, Strain/Species, Description from Sequence Provider, Clone Collection and Marker Symbol. </LI>
 </UL>
 
-<P>You can select a sequence and view details (see <A HREF="SEQUENCE_detail_help.shtml">Using Sequence Detail Reports</A>), or you can download it in <A HREF="#fasta">FASTA</A> format or forward it to <A HREF="#mouseblast">MouseBLAST</A>.
+<P>You can view MGI sequence details (see <A HREF="SEQUENCE_detail_help.shtml">Using Sequence Detail Reports</A>), or you can download it in <A HREF="#fasta">FASTA</A> format or forward it to <A HREF="#mouseblast">MouseBLAST</A>.
 </P>
 
 <font size="-1"><a href="#top">Top</a>
@@ -154,9 +152,9 @@ There is no further sort by the division (for example,<i>Rodent</i> or <i>HTC</i
 <OL>
 <LI>view sequence details for a single sequence by clicking either the <B>MGI Sequence Detail</B> or the provider (e.g., GenBank, RefSeq, and so on) link.</LI>
 
-<LI>download one or more sequences in <A HREF="#fasta">FASTA</A> format.</LI>
+<LI>download <!--one or more--> a sequence in <A HREF="#fasta">FASTA</A> format.</LI>
 
-<LI>forward one or more sequences to <A HREF="#mouseblast">MouseBLAST</A>.</LI>
+<LI>forward <!--one or more--> a sequence to <A HREF="#mouseblast">MouseBLAST</A>.</LI>
 </OL>
 </p>
 
@@ -177,35 +175,35 @@ The detail record for that sequence as stored in MGI appears. See <A HREF="SEQUE
 
 <font size="-1"><a href="#top">Top</a>
 </font>
-<H3><A NAME="fasta"></A>How do I download sequences in FASTA format?</H3>
+<H3><A NAME="fasta"></A>How do I download a sequence in FASTA format?</H3>
 
-<P>To download sequences in FASTA format:</P>
+<P>To download a sequence in FASTA format:</P>
 
-<OL>
-<LI>Click to put a check mark in the <B>Select</B> column next to one or more sequences.</LI>
+<ul>
+<LI>Click the FASTA link in the <B>Select</B> column for the sequence.</LI>
 
-<LI>Click the arrow next to <B>For the selected sequences.</B></LI>
+<!--<LI>Click the arrow next to <B>For the selected sequences.</B></LI>
 
 <LI>Click <B>download in FASTA format</B>.</LI>
 
-<LI>Click <B>GO</B>.</LI>
-</OL>
+<LI>Click <B>GO</B>.</LI>-->
+</ul>
 
 <font size="-1"><a href="#top">Top</a>
 </font>
-<H3><A NAME="mouseblast"></A>How do I forward sequences to MouseBLAST?</H3>
+<H3><A NAME="mouseblast"></A>How do I forward a sequence to MouseBLAST?</H3>
 
-<P>To forward sequences to MouseBLAST:</P>
+<P>To forward a sequence to MouseBLAST:</P>
 
-<OL>
-<LI>Click to put a check mark in the <B>Select</B> column next one or more sequences.</LI>
+<ul>
+<LI>Click the MouseBLAST link in the <B>Select</B> column for the sequence.</LI>
 
-<LI>Click the arrow next to <B>For the selected sequences.</B></LI>
+<!--<LI>Click the arrow next to <B>For the selected sequences.</B></LI>
 
 <LI>Click <B>forward to MouseBLAST</B>.</LI>
 
-<LI>Click <B>GO</B>.</LI>
-</OL>
+<LI>Click <B>GO</B>.</LI>-->
+</ul>
 </p>
 <p>For additional information, see:
 <ul>
@@ -215,7 +213,7 @@ The detail record for that sequence as stored in MGI appears. See <A HREF="SEQUE
 </p>
 <font size="-1"><a href="#top">Top</a></font>
 
-<H3><A NAME="ftp"></A>I got a summary with a "Link to Results on FTP Site" message. What do I do now?</H3>
+<!--<H3><A NAME="ftp"></A>I got a summary with a "Link to Results on FTP Site" message. What do I do now?</H3>
 
 <P>The Mouse Sequence Summary with the FTP link summarizes your query parameters at the top of the page and beneath this, lists the number of items that matched your query.</P>
 
@@ -229,7 +227,7 @@ The detail record for that sequence as stored in MGI appears. See <A HREF="SEQUE
 <h4>Example: FASTA summary with link to MGI FTP site</h4>
 <H4 ALIGN="center"><FONT FACE="arial, Helvetica, Sans Serif">Mouse Sequences<BR>
 Query Results -- Summary</FONT></H4>
-
+<!--
 <BLOCKQUOTE>
 <ALIGN LEFT=""><font face="courier New, Courier" size="-1"><U>Query Summary</U><BR>
  Type: equals RNA<BR>
@@ -248,7 +246,7 @@ Link to Results on FTP Site<BR>
 Results Summary<BR>
 20 of 20 sequences were successfully retrieved in FASTA format.<BR>
 
-<!--Mouse Sequences<br>
+Mouse Sequences<br>
 Query Results Summary <br>	 
 Query Summary<br>
 Marker symbol/name:= Ggn searching current symbols/names & synonyms<br>
@@ -260,19 +258,15 @@ ftp://ftp.informatics.jax.org/pub/custom/wi_generated/@26713.1/queryResults<br>
 
 Results will be available for 72 hours. Your results will be available until 08/25/2005 at 01:35 am EDT.<br>
 
-Print or save this page to save the URL to your results.-->
+Print or save this page to save the URL to your results.
 
 </FONT></ALIGN>
 </BLOCKQUOTE>
 
-
-
-
-
-
 <font size="-1"><a href="#top">Top</a>
-</font>
-<H3><A NAME="buttons"></A>How do the buttons work? What does <i>Invert</i> do?</H3>
+</font>-->
+
+<!--<H3><A NAME="buttons"></A>How do the buttons work? What does <i>Invert</i> do?</H3>
 <p>
 <blockquote>
 <table border="1" cellpadding="4">
@@ -316,7 +310,7 @@ Print or save this page to save the URL to your results.-->
 </p>
 
 <font size="-1"><a href="#top">Top</a>
-</font>
+</font>-->
 <!--<H3><A NAME="msqf"></A>I filled in fields on the Mouse Sequence Query Form and got this information. What does it tell me?</H3>
 
 <UL>
@@ -351,7 +345,7 @@ Print or save this page to save the URL to your results.-->
 <UL>
 <LI>Click either <B>MGI Sequence Detail</B> or one of the provider links in the report to view sequence details.</LI>
 
-<LI>Select one or more sequences to download in FASTA format or forward to MouseBLAST. See <A HREF="#fasta">FASTA</A> or <A HREF="#mouseblast">MouseBlast</A> for details.</LI>
+<LI>Choose a sequence to download in FASTA format or forward to MouseBLAST. See <A HREF="#fasta">FASTA</A> or <A HREF="#mouseblast">MouseBlast</A> for details.</LI>
 </UL>
 
 <P>See <A HREF="#fields">What can I do with sequence summary information?</A> for more details.</P>
@@ -367,7 +361,7 @@ Print or save this page to save the URL to your results.-->
 <UL>
 <LI>Click either <B>MGI Sequence Detail</B> or one of the provider links in the report to view sequence details.</LI>
 
-<LI>Select one or more sequences to download in FASTA format or forward to MouseBLAST. See <A HREF="#fasta">FASTA</A> or <A HREF="#mouseblast">MouseBlast</A> for details.</LI>
+<LI>Choose a sequence to download in FASTA format or forward to MouseBLAST. See <A HREF="#fasta">FASTA</A> or <A HREF="#mouseblast">MouseBlast</A> for details.</LI>
 </UL>
 
 <P>See <A HREF="#fields">What can I do with sequence summary information?</A> for more details.</P>
