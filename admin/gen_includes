@@ -79,6 +79,7 @@ def createIncludeFile(filename, dataSource):
 #####----- MGI URLs ----------------------#####
 createIncludeFile('webshare_url.html', config['WEBSHARE_URL'])
 createIncludeFile('faq_url.html', config['FAQ_URL'])
+createIncludeFile('fewi_url.html', config['FEWI_URL'])
 createIncludeFile('wi_url.html', config['WI_URL'])
 createIncludeFile('javawi_url.html', config['JAVAWI_URL'])
 createIncludeFile('mgihome_url.html', config['MGIHOME_URL'])
