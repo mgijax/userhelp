@@ -232,7 +232,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <p></p>
    
 <p><b>Note:</b> You can query gene expression literature content records directly using the 
-<a href="<!--#include file='include/wi_url.html'-->searches/gxdindex_form.shtml">Gene Expression Literature Query Form</a>.</p>
+<a href="<!--#include file='include/fewi_url.html'-->gxdlit">Gene Expression Literature Query Form</a>.</p>
 
 </p>
 <a href="#top"><font size="-1">Top</font></a>
