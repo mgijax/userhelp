@@ -66,8 +66,8 @@ function openHelpWindow(helpFile){
 <H3><A NAME="contain"></A>What's in the Mammalian Orthology Query Results?</H3>
 <P>The Mammalian Orthology Query Results page contains:</p>
 <ul>
-<li>a summary of your query parameters and the number of items found</LI>
-<li>a table summarizing orthology information on your query</LI>
+<!--<li>a summary of your query parameters and the number of items found</LI>-->
+<li>a table summarizing orthology information on the gene</LI>
 <li>the ability to select sequences from that table for downloading in FASTA format or forwarding to MouseBlast</LI>
 <li>a column of all known species with orthologous genes</LI>
 <li>links via the database accession identifier to the sequence source</LI>
