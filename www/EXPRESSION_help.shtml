@@ -99,17 +99,17 @@ If you are interested in doing queries that ask what genes are expressed in some
 
 <h3><a name="fields"></a>What values are acceptable in each of the query form fields?</h3>
 <table width="!" cellpadding="4" class="nb" align="center">
-<tr align="center"><Td VALIGN="top"><A HREF="#gene">Gene</A> | <A HREF="#map_position">Map position</A> |
+<tr align="center"><Td VALIGN="top"><A HREF="#gene_nomenclature">Gene</A> | <A HREF="#map_position">Map position</A> |
 <A HREF="#gene_ontology">Gene Ontology classifications</A> | <A HREF="#detected_in">Expression</A> | <A HREF="#mutated_gene">Mutated gene</A> | <A HREF="#assay_type">Assay Type</A> | <a href="#output_format">Sorting & output format</a></td>
  </TR>
   </TABLE>
 <table border="1" cellpadding="3">
-<TR><td valign="top"><A NAME="gene"></A><b>Gene</b></td><TD>Symbol, name, or synonym for a  mouse genetic marker.<ul><li>Enter one or more terms, separated by commas. <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
+<TR><td valign="top"><A NAME="gene_nomenclature"></A><b>Gene</b></td><TD>Symbol, name, or synonym for a  mouse genetic marker.<ul><li>Enter one or more terms, separated by commas. <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
 <li>By default, the search is on current symbols/names and synonyms.  However, you can limit your search to current symbols (no search of names) or current symbols/names only (no search of synonyms)</li>
 <li> The operators present additional search options; the default operator is contains. See <a href="MISC_operators_help.shtml">Using Operators on MGI Query Forms</a> for more information.</li></ul></TD></TR>
    
 <TR><td valign="top"><a name="map_position"></a><b>Map position</b></td>
-  <Td ALIGN="left" VALIGN="top">Use the map position parameters (Chromosomes, Genome Coordinates, Cytogenetic Band, Marker Range, and cM Position) to limit the scope of your query. See <a href="MISC_map_position_help.shtml">Using Map Position Fields on MGI Query Forms</a> for details.
+  <Td ALIGN="left" VALIGN="top">Use the map position parameters (<a name="chromosome"></a>Chromosomes, <a name="coordinates"></a>Genome Coordinates, <a name="cytogenetic_band"></a>Cytogenetic Band, <a name="marker_range"></a>Marker Range, and <a name="cm_offset"></a>cM Position) to limit the scope of your query. See <a href="MISC_map_position_help.shtml">Using Map Position Fields on MGI Query Forms</a> for details.
 <ul><li>When using chromosome(s), you can also define genome coordinates, cytogenetic band, or cM position.</li> <li>You cannot combine genome coordinates, cytogenetic band, and cM position with one another.</li><li>You can enter any markers with coordinates.</li></ul></td>
         </tr>
 <tr>
