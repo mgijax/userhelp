@@ -184,7 +184,7 @@ function openHelpWindow(helpFile){
 
  <TABLE BORDER="1" CELLPADDING="4">
    <TR><TH>Field </TH><TH>Description</TH></TR>
-   <TR><TD VALIGN="top"><B><a name="sasc"></a>Strains and strain comparisons</B></TD><TD VALIGN="top">Use this section to add strains from the <b>Available Strains</b> list to the <b>Selected Strains</b> list, select a strain sort order (for the search results), determine a <a name="reference_strain"></a><b>reference strain</b> to return by comparison (if desired), and to determine the <b>SNPs Returned</b> (same as or different from the reference strain, or all SNPs). 
+   <TR><TD VALIGN="top"><B><a name="sasc"></a>Strains and strain comparisons</B></TD><TD VALIGN="top">Use this section to add strains from the <a name="available_strains"></a><b>Available Strains</b> list to the <a name="selected_strains"></a><b>Selected Strains</b> list, select a strain sort order (for the search results), determine a <a name="reference_strain"></a><b>reference strain</b> to return by comparison (if desired), and to determine the <a name="snps_returned"></a><b>SNPs Returned</b> (same as or different from the reference strain, or all SNPs). 
 
 <p>Default/disallowed</p>
 <ul>
@@ -239,7 +239,7 @@ function openHelpWindow(helpFile){
     
 
 <TR><th align=left valign="top"><a name="map_position"></a>Map position</th>
-  <Td ALIGN="left" VALIGN="top">Use the map position parameters (<a name="chromosome"></a>Chromosome(s), <a name="coordinates"></a>Genome Coordinates, <a name="cytogenetic_band"></a>Cytogenetic Band, <a name="marker_range"></a>Marker Range, and              <a name="cm_offset"></a>cM Position) to limit the scope of your query. <li>When using chromosome(s), you can also define genome coordinates, cytogenetic band, or cM position.</li> <li>You cannot combine genome coordinates, cytogenetic band, and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) &#151; except QTL(s) &#151; with coordinates.</li>
+  <Td ALIGN="left" VALIGN="top">Use the map position parameters (<a name="chromosome"></a>Chromosome(s), <a name="genome_coordinates"></a></a>Genome Coordinates, <a name="cytogenetic_band"></a>Cytogenetic Band, <a name="marker_range"></a>Marker Range, and              <a name="cm_offset"></a>cM Position) to limit the scope of your query. <li>When using chromosome(s), you can also define genome coordinates, cytogenetic band, or cM position.</li> <li>You cannot combine genome coordinates, cytogenetic band, and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) &#151; except QTL(s) &#151; with coordinates.</li>
 
 See <a href="MISC_map_position_help.shtml">Using Map Position Fields on MGI Query Forms</a> for further details about entering values in these fields.</td>
         </tr>
