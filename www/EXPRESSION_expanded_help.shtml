@@ -107,7 +107,7 @@ function openHelpWindow(helpFile){
 <li> The operators present additional search options; the default operator is contains. See <a href="MISC_operators_help.shtml">How Operators Work on MGI Query Forms</a> for more information.</li></ul></TD></TR>
 
 <TR><td valign="top"><a name="map_position"></a><b>Map position</b></td>
-  <Td ALIGN="left" VALIGN="top">Use the map position parameters (Chromosomes, Genome Coordinates, Cytogenetic Band, Marker Range, and cM Position) to limit the scope of your query. See <a href="MISC_map_position_help.shtml">Using Map Position Fields on MGI Query Forms</a> for details.
+  <Td ALIGN="left" VALIGN="top">Use the map position parameters (<a name="chromosome"></a>Chromosomes, <a name="coordinates"></a>Genome Coordinates, <a name="cytogenetic_band"></a>Cytogenetic Band, <a name="marker_range"></a>Marker Range, and <a name="cm_offset"></a>cM Position) to limit the scope of your query. See <a href="MISC_map_position_help.shtml">Using Map Position Fields on MGI Query Forms</a> for details.
 <ul><li>When using chromosome(s), you can also define genome coordinates, cytogenetic band, or cM position.</li> <li>You cannot combine genome coordinates, cytogenetic band, and cM position with one another.</li><li>You can enter any markers with coordinates.</li></ul></td>
 </tr>
   
