@@ -100,7 +100,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 
 <p><b>Note:</b> Some terms may have unique definitions in the context of MGI queries and results. For more information, see:
 <ul>
-<li><A HREF="<!--#include file='include/javawi_url.html'-->">MGI Glossary</A> for how MGI defines terms such as allele type and compound allele combination</li>
+<li><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> for how MGI defines terms such as allele type and compound allele combination</li>
 <li>User documentation for the <a href="ALLELE_summary_help.shtml">summary</a> and <a href="ALLELE_detail_help.shtml">detail</a> reports resulting from your searches.</li>
 </ul> 
 </P>
