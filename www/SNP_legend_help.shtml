@@ -212,7 +212,7 @@ th { border: thin solid;
        <td align="center" valign="top">
          <table border="1" cellpadding="0" cellspacing="1" valign="top">
           <tr>    
-            <td align="center" valign="bottom" bgcolor="#FF8C00"><img src="http://lindon.informatics.jax.org/wts_projects/1500/1560/SNP_Mockups/SNP_Images/Strain_trans.gif" alt="STRAIN"></td>
+            <td align="center" valign="bottom" bgcolor="#FF8C00"><img src="images/Strain_trans.gif" width="10" height="46" alt="STRAIN"></td>
           <tr>
          </table>
        <td valign="top">Reference Strain Selected (SNP results summary pages only).</td>
