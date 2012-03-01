@@ -172,7 +172,7 @@ Query Results -- Summary page: alleles with OMIM annotations to associated genot
 <TH ALIGN="left" VALIGN="top"><A NAME="GO_detail"></A>Gene Ontology (GO)<BR>
  Classifications</TH>
 <TD VALIGN="top"><ul>
-   <li><B>All GO classifications (<i># annotations</i>)</b> links to a summary of the <i>nn </i> annotated items found (click <A HREF="go_classifications.shtml">here </A> for information about interpreting the fields on this page). You can browse the GO vocabulary from the query results section and locate multiple terms that annotate a gene record.</li>
+   <li><B>All GO classifications (<i># annotations</i>)</b> links to a summary of the <i>nn </i> annotated items found (click <A HREF="GO_classifications_fields_help.shtml">here </A> for information about interpreting the fields on this page). You can browse the GO vocabulary from the query results section and locate multiple terms that annotate a gene record.</li>
  <li>Links to GO annotations for Process (biological), Component (cellular), and Function (molecular) of the gene. </li>
   <li>A link to the GO Consortium Reference Genome Annotation Project, if this gene is annotated in the project.</li>
 <li>A link to any External Resources (for example, <a href="http://func.med.harvard.edu/mouse/">FuncBase</a>, a database of functional predictions) for additional information about this gene.</li>
