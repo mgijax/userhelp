@@ -147,13 +147,25 @@ function openHelpWindow(helpFile){
 
 <h3><a name="strain_alleles"></a>Strain Alleles</h3>
 <blockquote>
-<table border="1" cellpadding="1" cellspacing="1">
+<table>
+<style type="text/css">
+td { border: thin solid; 
+	vertical-align: baseline;
+	}
+tr { border: thin solid;
+	text-align: left; 
+	vertical-align: baseline;
+	}
+th { border: thin solid;
+	text-align: center;
+	}
+</style>
    <tr><td align="center" valign="top">
        <table border="1" cellpadding="0" cellspacing="1" width="100%">
-         <tr><td bgcolor="#FF8787" align="center">&nbsp;A&nbsp;</td>
-             <td bgcolor="#8787FF" align="center">&nbsp;C&nbsp;</td>    
-             <td bgcolor="#00ff00" align="center">&nbsp;G&nbsp;</td>    
-             <td bgcolor="#ffff00" align="center">&nbsp;T&nbsp;</td>
+         <tr><td style= "background: #FF8787;">&nbsp;A&nbsp;</td>
+             <td style= "background: #8787FF;">&nbsp;C&nbsp;</td>    
+             <td style= "background: #00ff00;">&nbsp;G&nbsp;</td>    
+             <td style= "background: #ffff00;">&nbsp;T&nbsp;</td>
           </tr>
       </table>
       </td>
@@ -171,9 +183,9 @@ function openHelpWindow(helpFile){
       <td align="center" valign="top">
         <table border="1" cellpadding="0" cellspacing="1" valign="top">
           <tr>    
-            <td bgcolor="#FFFFFF" align="center">&nbsp;i&nbsp;</td>
-            <td bgcolor="#FFFFFF" align="center">&nbsp;j&nbsp;</td>    
-            <td bgcolor="#FFFFFF" align="center">&nbsp;k&nbsp;</td>
+            <td style= "background: #FFFFFF;">&nbsp;i&nbsp;</td>
+            <td style= "background: #FFFFFF;">&nbsp;j&nbsp;</td>    
+            <td style= "background: #FFFFFF;">&nbsp;k&nbsp;</td>
           </tr>
         </table>
       <td valign="top">Single letter insertion codes indicate noted insertion sequences defined in the Insertions column (see below).</td>
@@ -191,7 +203,7 @@ function openHelpWindow(helpFile){
        <td align="center" valign="top">
          <table border="1" cellpadding="0" cellspacing="1" valign="top">
            <tr>    
-            <td bgcolor="#FFFFFF" align="center">&nbsp;&nbsp;&nbsp;</td>
+            <td style= "background: #FFFFFF;">&nbsp;&nbsp;&nbsp;</td>
            </tr>
          </table>
        <td valign="top">(blank cell) means that no allele data are available <!--submitted--> for that strain.</td>
@@ -200,7 +212,7 @@ function openHelpWindow(helpFile){
        <td align="center" valign="top">
          <table border="1" cellpadding="0" cellspacing="1" valign="top">
           <tr>    
-            <td align="center" valign="bottom" bgcolor="#FF8C00"><img src="http://shire.informatics.jax.org/wts_projects/1500/1560/SNP_Mockups/SNP_Images/Strain_trans.gif" alt="STRAIN"></td>
+            <td align="center" valign="bottom" bgcolor="#FF8C00"><img src="http://lindon.informatics.jax.org/wts_projects/1500/1560/SNP_Mockups/SNP_Images/Strain_trans.gif" alt="STRAIN"></td>
           <tr>
          </table>
        <td valign="top">Reference Strain Selected (SNP results summary pages only).</td>
@@ -209,7 +221,7 @@ function openHelpWindow(helpFile){
       <td align="center" valign="top">
         <table border="1" cellpadding="0" cellspacing="1" valign="top">
           <tr>
-           <td bgcolor="#DC143C" align="center"><font color="white">&nbsp;S&nbsp;</td>
+           <td style= "background: #DC143C;"><font color="white">&nbsp;S&nbsp;</td>
           </tr>
         </table>
       <td valign="top">Same allele value as in the reference strain (SNP results summary pages only).</td>
@@ -218,26 +230,26 @@ function openHelpWindow(helpFile){
      <td align="center" valign="top">
        <table border="1" cellpadding="0" cellspacing="1" valign="top">
         <tr>
-         <td bgcolor="#2F4F4F" align="center"><font color="white">&nbsp;D&nbsp;</td>
+         <td style= "background: #2F4F4F;"><font color="white">&nbsp;D&nbsp;</td>
         </tr>
        </table>
      <td valign="top">Different allele value from that in the reference strain (SNP results summary pages only).</td>
     </tr>
     <tr><td align="center" valign="top">
         <table border="1" cellpadding="0" cellspacing="1" width="100%">
-<tr><td bgcolor="#FF8787" align="center">&nbsp;<u>A</u>&nbsp;   </td>
- <td bgcolor="#8787FF" align="center">
+<tr><td style= "background: #FF8787;">&nbsp;<u>A</u>&nbsp;   </td>
+ <td style= "background: #8787FF;">
      &nbsp;<u>C</u>&nbsp;
-    </td>    <td bgcolor="#00ff00" align="center">
+    </td>    <td style= "background: #00ff00;">
      &nbsp;<u>G</u>&nbsp;
-    </td>    <td bgcolor="#ffff00" align="center">
+    </td>    <td style= "background: #ffff00;">
     &nbsp;<u>T</u>&nbsp;
     </td></tr></table></td>
-<td valign="top">(underlined) Nucleotide value conflict for the strain; consensus value determined by majority.</td></tr><tr><td align="center" valign="top"><table border="1" cellpadding="2" cellspacing="2" valign="top"><tr><td bgcolor="#FFFFFF" align="center">
+<td valign="top">(underlined) Nucleotide value conflict for the strain; consensus value determined by majority.</td></tr><tr><td align="center" valign="top"><table border="1" cellpadding="2" cellspacing="2" valign="top"><tr><td style= "background: #FFFFFF;">
      &nbsp;?&nbsp;
     </td></tr></table>
-<td valign="top">The consensus value is ambiguous because there is a nucleotide value conflict for the strain. <!--or because all submitted alleles for the strain are N--></td></tr><tr><th align="left" valign="top">Insertions</th>
-<td valign="top">Insertion allele sequences for single-letter insertion codes.</td></tr><tr><th align="left" valign="top">Allele Summary</th>
+<td valign="top">The consensus value is ambiguous because there is a nucleotide value conflict for the strain. <!--or because all submitted alleles for the strain are N--></td></tr><tr><th align="center" valign="top">Insertions</th>
+<td valign="top">Insertion allele sequences for single-letter insertion codes.</td></tr><tr><th align="center" valign="top">Allele Summary</th>
 <td valign="top">Summary of observed allele values from all strains for the RefSNP (SNP results summary pages only).</td></tr></table>
 
 </blockquote>
