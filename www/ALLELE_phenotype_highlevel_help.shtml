@@ -52,7 +52,7 @@ function openHelpWindow(helpFile){
 <LI><A href="ALLELE_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
 <LI><A href="ALLELE_summary_help.shtml">Interpreting a Phenotypic Allele Summary</A></LI>
 <LI><A href="ALLELE_detail_help.shtml">Interpreting Phenotypic Allele Details</A></LI>
-<LI><A HREF="<!--#include file='include/glossary_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> for
+<LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> for
 unfamiliar terms (or for how MGI defines familiar terms) and acronyms</LI>
 </UL>
 
