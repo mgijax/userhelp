@@ -549,7 +549,7 @@ MCL	     Indicates Mutant Cell Line identity.
 <p>If the Gene-trapped Allele Detail report displays a genome browser link, you can view gene trap sequence tag positions relative to genome coordinates.
 
 <ul><li>In the <b>Mutation description</b> section, click the icon 
-(<img src="<!--#include file='webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Genome Context</b>. </li>
+(<img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Genome Context</b>. </li>
 <li>Click <b>View all gene trap sequence tags within a 10kb region</b> (bottom of the thumbnail). The MGI Genome Browser application (GBrowse) appears. </li>
 <li>Use the <b>Scroll/Zoom</b> feature in GBrowse to modify the coordinate range.</li>
 </ul>
@@ -615,7 +615,7 @@ MCL	     Indicates Mutant Cell Line identity.
 <p>
 <ol>
 <li>Locate the <b>Mutation description</b> row on a Gene-trapped Allele Detail report.</li>
-<li>Click the icon (<img src="<!--#include file='webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Sequence Tags</b>.<br>
+<li>Click the icon (<img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Sequence Tags</b>.<br>
 In the table that appears, the  <b>GenBank ID</b> column lists the GenBank sequence tag ID  for each gene trap insertion.<br>
 The <b>Tag ID</b> column contains the sequence tag identifiers.<br>
 The sequence tag's GenBank identifier (<b>GenBank ID</b>), the sequencing technique (<b>Method</b>), and chromosome, map position, and strand  (<b>Tag Location</b>) also appear. Note that you can <b>select</b> sequences here to download in FASTA format or forward to MGI's MouseBLAST program.</li>
@@ -633,7 +633,7 @@ The sequence tag's GenBank identifier (<b>GenBank ID</b>), the sequencing techni
   <li>Information about gene orientation with respect to a given sequence tag appears in the Gene-trapped Allele Detail report. 
 <ol>
   <li>Locate the <b>Mutation description</b> row on a Gene-trapped Allele Detail report.</li>
-  <li>Click the icon (<img src="<!--#include file='webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Sequence Tags.</b></li>
+  <li>Click the icon (<img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Sequence Tags.</b></li>
 <li>Find the <b>Tag Location (strand)</b> column. Strand information appears in parentheses, after the chromosome number and genome coordinates. Plus (+) indicates that the sequence tag has a left to right orientation; minus (-) indicates right to left.
   </ol>
 <img src="images/orientation.jpg" width="492" height="243" border="0" alt="">
@@ -653,7 +653,7 @@ The sequence tag's GenBank identifier (<b>GenBank ID</b>), the sequencing techni
 <!--23: display if Gene Trap Sequence Tag Defines the Insertion Site or Not-->
 <h3><a name="possible"></a>Is is possible to tell whether a sequence tag defines the insertion site (is a genomic- or DNA-based tag) or not (is an RNA-based tag)?</h3>
 
-<p>Yes. On a Gene-trapped Allele Detail report, click the icon (<img src="<!--#include file='webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Sequence Tags</b>. The table that appears contains a <b>Method</b> column where the information you are looking for appears (if known).
+<p>Yes. On a Gene-trapped Allele Detail report, click the icon (<img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Sequence Tags</b>. The table that appears contains a <b>Method</b> column where the information you are looking for appears (if known).
 If the method is 3' RACE or 5' RACE, the tag defining the insertion site is RNA-based. Any other method listed is DNA- (or genomic-) based (for example, inverse PCR, 3' or 5' splinkerette, plasmid rescue).
 </p>
 <blockquote>
@@ -666,7 +666,7 @@ If the method is 3' RACE or 5' RACE, the tag defining the insertion site is RNA-
 <h3><a name="coordinates"></a>Where can I find the coordinates and strand for a given gene trap sequence tag?</h3>
 <p>The Gene-trapped Allele Detail report displays this information for any gene traps that map to a single position in the mouse genome.
 <ul>
-  <li>In the <b>Mutation description</b> section, click the icon (<img src="<!--#include file='webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Sequence Tags</b>.</li>
+  <li>In the <b>Mutation description</b> section, click the icon (<img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Sequence Tags</b>.</li>
   <li>The table that appears contains a <b>Tag Location (strand)</b> column where the coordinates and strand for each tag appear. </li>
   <li>Plus (+) indicates that the sequence tag has a left to right orientation; minus (-) indicates right to left.</li>
 <li><i>Unknown</i> or <i>Multiple</i> may also appear in this column.</li>
@@ -677,7 +677,7 @@ If the method is 3' RACE or 5' RACE, the tag defining the insertion site is RNA-
 <h3><a name="multiple_locations"></a>Can I view coordinates/strands for all significant sequence tag BLAST hits for mixed cell line gene traps that map to multiple locations?</h3>
 <p>Yes. When the <b>Mutation description</b> section (next to <b>Mutation</b>) of a Gene-trapped Allele Detail report   indicates that sequence tags for an insertion align in multiple locations:
 <ul>
-  <li>Click the icon (<img src="<!--#include file='webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Sequence Tags</b>.</li>
+  <li>Click the icon (<img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Sequence Tags</b>.</li>
   <li>In the table that appears, click the sequence tag listed beneath <b>Select</b> (in the last column).</li>
   <li>Click the down icon next to <b>Selected Tags:</b> and select <b>MouseBLAST</b>.</li>
 <li>Click <b>Go</b>. The MGI MouseBLAST query form appears with the relevant fields filled in. Adjust as desired (e.g., you may prefer different <b>Output options</b>.)</li>
@@ -704,7 +704,7 @@ If the method is 3' RACE or 5' RACE, the tag defining the insertion site is RNA-
 <h3><a name="gt_locations"></a>Can I view the approximate locations of gene trap insertions?</h3>
 <p>Yes. Both the Gene-trapped Allele Detail report and the MGI genome browser (GBrowse) provide views of gene trap sequence tag positions relative to representative gene transcripts. 
 
-<p>In the <b>Mutation description</b> section, click the icon (click the icon (<img src="<!--#include file='webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Genome Context</b>. To access the GBrowse view, click <b>View all gene trap sequence tags in this region</b> at the bottom of the image that appears.</p>
+<p>In the <b>Mutation description</b> section, click the icon (click the icon (<img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Genome Context</b>. To access the GBrowse view, click <b>View all gene trap sequence tags in this region</b> at the bottom of the image that appears.</p>
 
 <p>See <a href="#how_know_gt">How can I tell if a given gene trap has trapped a gene?</a> and <a href="#interpret_gbrowse">How do I interpret GBrowse gene trap tracks?</a> for additional information.</p>
 

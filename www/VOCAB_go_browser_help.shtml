@@ -86,14 +86,14 @@ JAMIA Symposium Supplement: 1037.
 
 <TR><TD VALIGN="top">Links</TD><TD>A list of all paths to the term. Click on the desired link to bring up a detail  for that term.</TD></TR>
 
-<TR><TD><img src="<!--#include file='webshare_url.html'-->images/is-a.gif"> "Is-a" Relationship</TD><TD>Indicates that the term is an instance or type of the more general term above it in the tree. For example, metabolism is a type of cell growth and maintenance.</TD></TR>
+<TR><TD><img src="<!--#include file='include/webshare_url.html'-->images/is-a.gif"> "Is-a" Relationship</TD><TD>Indicates that the term is an instance or type of the more general term above it in the tree. For example, metabolism is a type of cell growth and maintenance.</TD></TR>
 
-<TR><TD VALIGN="top"><img src="<!--#include file='webshare_url.html'-->images/part-of.gif"> "Part-of" Relationship</TD><TD>Indicates that the term is a component of the more general term above in the tree. For example, cell cycle arrest is a part of the cell cycle process.</TD></TR>
+<TR><TD VALIGN="top"><img src="<!--#include file='include/webshare_url.html'-->images/part-of.gif"> "Part-of" Relationship</TD><TD>Indicates that the term is a component of the more general term above in the tree. For example, cell cycle arrest is a part of the cell cycle process.</TD></TR>
 
-<TR><TD VALIGN="top"><img src="<!--#include file='webshare_url.html'-->images/regulates.gif">"Regulates" Relationship</TD><TD VALIGN="top">Indicates that the term modulates the frequency, rate, or extent of the term above it in the tree.</TD></TR>
+<TR><TD VALIGN="top"><img src="<!--#include file='include/webshare_url.html'-->images/regulates.gif">"Regulates" Relationship</TD><TD VALIGN="top">Indicates that the term modulates the frequency, rate, or extent of the term above it in the tree.</TD></TR>
 
-<TR><TD VALIGN="top"><img src="<!--#include file='webshare_url.html'-->images/positively_regulates.gif">"Regulates upward" Relationship</TD><TD VALIGN="top">Indicates that the term activates or increases the frequency, rate, or extent of the term above it in the tree.</TD></TR>
-<TR><TD VALIGN="top"><img src="<!--#include file='webshare_url.html'-->images/negatively_regulates.gif">"Regulates downward" Relationship</TD><TD VALIGN="top">Indicates that the term stops, prevents, or reduces the frequency, rate, or extent of the term above it in the tree.</TD></TR>
+<TR><TD VALIGN="top"><img src="<!--#include file='include/webshare_url.html'-->images/positively_regulates.gif">"Regulates upward" Relationship</TD><TD VALIGN="top">Indicates that the term activates or increases the frequency, rate, or extent of the term above it in the tree.</TD></TR>
+<TR><TD VALIGN="top"><img src="<!--#include file='include/webshare_url.html'-->images/negatively_regulates.gif">"Regulates downward" Relationship</TD><TD VALIGN="top">Indicates that the term stops, prevents, or reduces the frequency, rate, or extent of the term above it in the tree.</TD></TR>
 
 
 <TR><TD VALIGN="top">+</TD><TD>A plus sign (+) following a term indicates that the term has 
