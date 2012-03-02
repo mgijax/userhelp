@@ -150,11 +150,11 @@ function openHelpWindow(helpFile){
 <table>
 <style type="text/css">
 td { border: thin solid; 
-	vertical-align: baseline;
+	vertical-align: middle;
 	}
 tr { border: thin solid;
 	text-align: left; 
-	vertical-align: baseline;
+	vertical-align: middle;
 	}
 th { border: thin solid;
 	text-align: center;
@@ -174,7 +174,7 @@ th { border: thin solid;
    <tr><td align="center" valign="top">
         <table border="1" cellpadding="0" cellspacing="1" valign="top">
          <tr>
-          <td align="center" valign="top" bgcolor="#AAAAAA">&nbsp;-&nbsp;</td>
+          <td style= "background: #AAAAAA;">&nbsp;-&nbsp;</td>
          </tr>
         </table>
        <td valign="top">(dash) indicates a deletion for that strain relative to some other strain.</td>
@@ -212,7 +212,7 @@ th { border: thin solid;
        <td align="center" valign="top">
          <table border="1" cellpadding="0" cellspacing="1" valign="top">
           <tr>    
-            <td align="center" valign="bottom" bgcolor="#FF8C00"><img src="images/Strain_trans.gif" width="10" height="46" alt="STRAIN"></td>
+            <td style= "background: #FF8C00;"><img src="images/Strain_trans.gif" width="10" height="46" alt="STRAIN"></td>
           <tr>
          </table>
        <td valign="top">Reference Strain Selected (SNP results summary pages only).</td>
@@ -245,11 +245,14 @@ th { border: thin solid;
     </td>    <td style= "background: #ffff00;">
     &nbsp;<u>T</u>&nbsp;
     </td></tr></table></td>
-<td valign="top">(underlined) Nucleotide value conflict for the strain; consensus value determined by majority.</td></tr><tr><td align="center" valign="top"><table border="1" cellpadding="2" cellspacing="2" valign="top"><tr><td style= "background: #FFFFFF;">
+<td valign="top">(underlined) Nucleotide value conflict for the strain; consensus value determined by majority.</td></tr>
+<tr><td align="center" valign="top"><table border="1" cellpadding="2" cellspacing="2" valign="top"><tr><td style= "background: #FFFFFF;">
      &nbsp;?&nbsp;
-    </td></tr></table>
-<td valign="top">The consensus value is ambiguous because there is a nucleotide value conflict for the strain. <!--or because all submitted alleles for the strain are N--></td></tr><tr><th align="center" valign="top">Insertions</th>
-<td valign="top">Insertion allele sequences for single-letter insertion codes.</td></tr><tr><th align="center" valign="top">Allele Summary</th>
+</td></tr></table>
+<td valign="top">The consensus value is ambiguous because there is a nucleotide value conflict for the strain. <!--or because all submitted alleles for the strain are N--></td></tr>
+<tr><th align="center" valign="top">Insertions</th>
+<td valign="top">Insertion allele sequences for single-letter insertion codes.</td></tr>
+<tr><th align="center" valign="top">Allele Summary</th>
 <td valign="top">Summary of observed allele values from all strains for the RefSNP (SNP results summary pages only).</td></tr></table>
 
 </blockquote>
