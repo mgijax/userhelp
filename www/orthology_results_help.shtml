@@ -59,7 +59,7 @@ function openHelpWindow(helpFile){
 
 <P>See also:</P>
 <UL>
-<LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> (for unfamiliar terms or acronyms)</LI>
+<LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A> (for unfamiliar terms or acronyms)</LI>
 <LI><A HREF="mouseblast_basic_steps_help.shtml">Using MouseBLAST - Basic Steps</A></LI>
 </UL>
 
@@ -109,8 +109,8 @@ The provider's record for this accession ID appears.</LI>
 
 <p>For additional information, see:</p>
 <ul>
-   <li><a href="mouseblast_forwarding_help.shtml">Using the Forward to MouseBLAST Form</a> </LI>
- <li><a href="mouseblast_output_help.shtml">Interpreting the MouseBLAST Output Report</a></li>  
+   <li><a href="mouseblast_forwarding_help.shtml" target="_blank">Using the Forward to MouseBLAST Form</a> </LI>
+ <li><a href="mouseblast_output_help.shtml" target="_blank">Interpreting the MouseBLAST Output Report</a></li>  
 </ul>
 <A HREF="#top"><font size="-1">Top</font></a> 
 
