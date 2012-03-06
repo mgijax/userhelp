@@ -45,7 +45,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
      <ul>
    <li><a href="#mp_ontology">Is there a list of phenotype terms to select from?</a></li>
   <li><a href="#disease_ontology">Is there a list of disease terms to select from?</a></li>
-    <li><a href="ALLELE_phenotype_highlevel_help.shtml#whatis">How do I make choices on the Anatomical Systems Affected by Phenotypes list?</a></li>
+    <li><a href="ALLELE_phenotype_highlevel_help.shtml#whatis" target="_blank">How do I make choices on the Anatomical Systems Affected by Phenotypes list?</a></li>
   <li><a href="#relationship">Can I query using both a phenotype term and a disease term?</a></li>
 <li><a href="#sort">How do the sort options work?</a></li>
 <LI><A HREF="#operators">How do the operators in drop-down boxes on the Nomenclature & location field affect my query?</A></LI>
@@ -54,14 +54,14 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <LI><A HREF="#invert_selected">What does Invert selected do?</A></LI>
 <li><A href="#gt_alleles">Can I use this query form to find all gene trapped alleles?</a></li>
 
-<li><A HREF="genetrap_usecase_help.shtml">Where can I find answers to questions about gene trapped alleles?</li>
+<li><A HREF="genetrap_usecase_help.shtml" target="_blank">Where can I find answers to questions about gene trapped alleles?</li>
 
 
- <LI><A HREF="allele_summary_help.shtml">Where can I find answers to questions about the summary report resulting from my query?</A></LI>
+ <LI><A HREF="allele_summary_help.shtml" target="_blank">Where can I find answers to questions about the summary report resulting from my query?</A></LI>
  <LI><A HREF="#link">How can I find more detail on my query?</A></LI>
- <LI><A HREF="ALLELE_detail_help.shtml">Where can I find answers to questions about the detail report resulting from my query?</A></LI>
+ <LI><A HREF="ALLELE_detail_help.shtml" target="_blank">Where can I find answers to questions about the detail report resulting from my query?</A></LI>
  <li><A href="#no_results">What if my query returns no results?</a></li>
-<LI><A HREF="MISC_boolean_search_help.shtml#examples">What are some examples of queries using phenotypic terms?</A></LI>
+<LI><A HREF="MISC_boolean_search_help.shtml#examples" target="_blank">What are some examples of queries using phenotypic terms?</A></LI>
  </UL>
 <!--<P>See also:
 <UL>
@@ -82,26 +82,26 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <H3><A NAME="glossary"></a>How does MGI define <I>phenotype, disease</I>, and <I>allele</I>?
 </H3>
 <P><table border="0" cellspacing="0" cellpadding="0" width="!%">
- <tr><td valign="top"><i>phenotype</i></td><td>A description of the observable state of an individual with respect to some inherited characteristic. Often, individuals with different genotypes display the same phenotype. See also <I>dominant</I> and <I>recessive</I> in the <A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A>.<br>
+ <tr><td valign="top"><i>phenotype</i></td><td>A description of the observable state of an individual with respect to some inherited characteristic. Often, individuals with different genotypes display the same phenotype. See also <I>dominant</I> and <I>recessive</I> in the <A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A>.<br>
  <!--In MGI, the specific vocabulary of the Mammalian Phenotype Ontology.--></td></tR>
 
 <tr><td valign="top"><i>disease</i></td><tD> A human disease, syndrome, or condition listed in the OMIM (Online Mendelian Inheritance in Man) database.</tD></tR>
 
 <tr><td valign="top"><i>allele</i></td><td>One of the variant forms of a gene, differing from other forms in its nucleotide sequence. <i>Allele category, allele combination</i> and <i>allele pair</i> also appear in the 
-<A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A>.</tD></tR>
+<A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A>.</tD></tR>
 
-<tr><td valign="top"><i>allele name</i></td><tD>In MGI, an allele name is a word or phrase that uniquely identifies an allele of a given gene. The allele name has an abbreviation that is the allele symbol added as a superscript to the gene symbol. See also <I>Gene Name</I> in the <A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A>.</tD></tr>
+<tr><td valign="top"><i>allele name</i></td><tD>In MGI, an allele name is a word or phrase that uniquely identifies an allele of a given gene. The allele name has an abbreviation that is the allele symbol added as a superscript to the gene symbol. See also <I>Gene Name</I> in the <A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A>.</tD></tr>
 
-<tr><td valign="top"><i>allele symbol</i></td><td valign="top">In MGI, an allele symbol is a unique abbreviation for the allele name of a given gene. Allele symbols take the form of superscripts added to the gene symbol. See also <I>Gene Name</I> and <I>Gene Symbol</I> in the  <A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A>.</tD></tr>
+<tr><td valign="top"><i>allele symbol</i></td><td valign="top">In MGI, an allele symbol is a unique abbreviation for the allele name of a given gene. Allele symbols take the form of superscripts added to the gene symbol. See also <I>Gene Name</I> and <I>Gene Symbol</I> in the  <A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A>.</tD></tr>
 
-<tr><td valign="top"><nobr><i>allelic composition</i><br> (genetic background)</td><td valign="top">See <i>Allele Combination, Compound Allele Combination</i>, in the <A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A>.</tD>
+<tr><td valign="top"><nobr><i>allelic composition</i><br> (genetic background)</td><td valign="top">See <i>Allele Combination, Compound Allele Combination</i>, in the <A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A>.</tD>
 </tr></table>
 
 
 <p><b>Note:</b> Some terms may have unique definitions in the context of MGI queries and results. For more information, see:
 <ul>
-<li><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> for how MGI defines terms such as allele type and compound allele combination</li>
-<li>User documentation for the <a href="ALLELE_summary_help.shtml">summary</a> and <a href="ALLELE_detail_help.shtml">detail</a> reports resulting from your searches.</li>
+<li><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A> for how MGI defines terms such as allele type and compound allele combination</li>
+<li>User documentation for the <a href="ALLELE_summary_help.shtml" target="_blank">summary</a> and <a href="ALLELE_detail_help.shtml" target="_blank">detail</a> reports resulting from your searches.</li>
 </ul> 
 </P>
 <a href="#top"><font size="-1">Top</font></a>
@@ -116,33 +116,33 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 </P>
 <p>See also:
    <ul>
-    <li><A HREF="MISC_usingQFs_help.shtml#howdo">How do I submit a query?</a></li>
-       <li><a href="MISC_operators_help.shtml#operators">What are operators and how do they affect my query?</a></li>
-    <li><a href="MISC_usingQFs_help.shtml#options">How do I select more than one item on a list?</a></li>
-  <li><a href="MISC_boolean_search_help.shtml#case">Does it matter what case I use when I type values in the fields?</a></li>
+    <li><A HREF="MISC_usingQFs_help.shtml#howdo" target="_blank">How do I submit a query?</a></li>
+       <li><a href="MISC_operators_help.shtml#operators" target="_blank">What are operators and how do they affect my query?</a></li>
+    <li><a href="MISC_usingQFs_help.shtml#options" target="_blank">How do I select more than one item on a list?</a></li>
+  <li><a href="MISC_boolean_search_help.shtml#case" target="_blank">Does it matter what case I use when I type values in the fields?</a></li>
   
 <li><A href="#output">Are there different ways to view the output of my query?</A></li>
 
-    <li><a href="MISC_usingQFs_help.shtml#maxno">Is there a maximum number of results I can get back all at once?</a></li>
-      <LI><a href="MISC_usingQFs_help.shtml#speed">Is there a way to speed up a query?</a>
+    <li><a href="MISC_usingQFs_help.shtml#maxno" target="_blank">Is there a maximum number of results I can get back all at once?</a></li>
+      <LI><a href="MISC_usingQFs_help.shtml#speed" target="_blank">Is there a way to speed up a query?</a>
 </ul>
 </p><a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="mp_ontology"></a>Is there a list of phenotype terms to select from?</h3>
 <p>Yes. There are two ways to get phenotype lists from the Phenotypes, Alleles, and Disease Models Query Form:
    <ol>
-     <li>Click  Anatomical Systems Affected by Phenotypes to bring up an abbreviated list, organized  roughly by system (cardiovascular, hematopoietic, and so on). The list is in alphabetical order and you can select as many terms as desired. Once you click OK, the terms populate the query box. The default relationship between the terms is AND (see <A HREF="MISC_boolean_search_help.shtml#examples">What are some examples of queries and results?</A> and <a href="MISC_boolean_search_help.shtml">Using Full-Text Searches on MGI Query Forms</a>).</LI>
+     <li>Click  Anatomical Systems Affected by Phenotypes to bring up an abbreviated list, organized  roughly by system (cardiovascular, hematopoietic, and so on). The list is in alphabetical order and you can select as many terms as desired. Once you click OK, the terms populate the query box. The default relationship between the terms is AND (see <A HREF="MISC_boolean_search_help.shtml#examples" target="_blank">What are some examples of queries and results?</A> and <a href="MISC_boolean_search_help.shtml" target="_blank">Using Full-Text Searches on MGI Query Forms</a>).</LI>
 
-<li>Click Full Mammalian Phenotype (MP) Ontology to activate the Mammalian Phenotype Browser. Click to navigate the MP hierarchy until you find the term you are looking for. See <a href="VOCAB_mp_browser_help.shtml">Using the Mammalian Phenotype (MP) Browser</a> for additional help.</li>
+<li>Click Full Mammalian Phenotype (MP) Ontology to activate the Mammalian Phenotype Browser. Click to navigate the MP hierarchy until you find the term you are looking for. See <a href="VOCAB_mp_browser_help.shtml" target="_blank">Using the Mammalian Phenotype (MP) Browser</a> for additional help.</li>
    </ol>
 </P>
 <a href="#top"><font size="-1">Top</font></a>
 <h3><a name="disease_ontology"></a>Is there a list of disease terms to select from?</h3>
-<p>Yes.  To get a list of disease terms from the Phenotypes, Alleles, and Disease Models Query Form, click Human Disease (OMIM) Vocabulary to activate the Human Disease Vocabulary Browser.  Navigate the vocabulary until you find the term you are looking for.  See <a href="VOCAB_omim_browser_help.shtml">Using the Human Disease Vocabulary Browser</a> for additional help.
+<p>Yes.  To get a list of disease terms from the Phenotypes, Alleles, and Disease Models Query Form, click Human Disease (OMIM) Vocabulary to activate the Human Disease Vocabulary Browser.  Navigate the vocabulary until you find the term you are looking for.  See <a href="VOCAB_omim_browser_help.shtml" target="_blank">Using the Human Disease Vocabulary Browser</a> for additional help.
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 <h3>How do I make choices on the Anatomical Systems Affected by Phenotypes list?</h3>
-<p>See <a href="ALLELE_phenotype_highlevel_help.shtml#whatis">How do I make choices on the Anatomical Systems Affected by Phenotypes list?</a>.</p>
+<p>See <a href="ALLELE_phenotype_highlevel_help.shtml#whatis" target="_blank">How do I make choices on the Anatomical Systems Affected by Phenotypes list?</a>.</p>
 <a href="#top"><font size="-1">Top</font></a>
 
 
@@ -176,7 +176,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <a href="#top"><font size="-1">Top</font></a>
 
 <H3><A NAME="operators"></A>How do the operators in drop-down boxes on the Nomenclature & location field affect my query?</H3>
-<P>The operators in the drop-down boxes expand or narrow the effect of your search.  Click the down arrow to see all the available options. (See <a href="MISC_operators_help.shtml">Using Operators on MGI Query Forms</a> for additional details.)
+<P>The operators in the drop-down boxes expand or narrow the effect of your search.  Click the down arrow to see all the available options. (See <a href="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</a> for additional details.)
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 <H3><A NAME="field"></A>What values are acceptable in each of the fields?</H3>
@@ -204,7 +204,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
   <LI>Click <B>Anatomical Systems Affected by Phenotypes</B>. The Phenotypes Selection List appears.</LI>
   <LI>Click high-level terms relevant to your search, such as <I>behavior OR neurological</I>, <I>craniofacial</I>, and so on. You can make multiple choices. </LI>
 <LI>Click <B>OK</B>. The selections you made appear in the <B>Phenotype/Disease</B> box on the query form. You can edit the terms.<br>
- <br><b>Note:</b> For details on selecting multiple terms, editing terms, and for why your selections appear as they do when they populate the Phenotype/Disease box, see <a href="ALLELE_phenotype_highlevel_help.shtml">Using the Phenotypes Selection List</a>.</li>
+ <br><b>Note:</b> For details on selecting multiple terms, editing terms, and for why your selections appear as they do when they populate the Phenotype/Disease box, see <a href="ALLELE_phenotype_highlevel_help.shtml" target="_blank">Using the Phenotypes Selection List</a>.</li>
 </OL>
 <P>To select MP terms:
  <OL>
@@ -234,7 +234,7 @@ The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkin
   <LI>AND finds text that includes <B>both</B> the term before it and the term after it; for example, <I>heart and defect</I> finds <I>heart defect</I> but not <I>heart </I>and not <I>defect</I>.</LI>
   <LI>OR finds text that includes either the term before it or the one after; for example,  <I>heart</I> or <I>defect</I> finds any text containing either <I>heart</I> or <I>defect</I>. </LI>
   </UL>
-<LI>See <A HREF="MISC_boolean_search_help.shtml">Using Full-Text Searches on MGI Query Forms</A> for using quotation marks, parentheses, and white space with search terms.</P>
+<LI>See <A HREF="MISC_boolean_search_help.shtml" target="_blank">Using Full-Text Searches on MGI Query Forms</A> for using quotation marks, parentheses, and white space with search terms.</P>
 </UL>
 </P>
 
@@ -242,21 +242,21 @@ The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkin
 There are several ways to use the map position parameters (<A HREF="#chromosome">Chromosome</A>, <A HREF="#cyt">Cytogenetic Band</A>, <A HREF="#cmp">cM Position</A>, <A HREF="#coordinates">Genome Coordinates</A>). If you use <B>Chromosome</B>, you may also define a cytogenetic band, cM position, or genome coordinate. However, you cannot combine <B>Cytogenetic Band, cM Position</B>, and <B>Genome Coordinate</B> with one another AND must select a chromosome (except when using "within"). <BR><BR>
 
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="6" WIDTH="100%">
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="allele"></A>Allele</TH><TD>You can search on any <I>approved</I> mouse allele symbol, name, or synonym.<ul><li>Enter one or more terms, separated by commas. <b>Note:</b>&nbsp; If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "interleukin 10 receptor, beta" or "Alpha1,4Gal-T").</li><li> The operators (the default is <I>contains</I>) present additional search options. See <A HREF="MISC_operators_help.shtml">Using Operators on MGI Query Forms</A> for more details.</li></ul></TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="allele"></A>Allele</TH><TD>You can search on any <I>approved</I> mouse allele symbol, name, or synonym.<ul><li>Enter one or more terms, separated by commas. <b>Note:</b>&nbsp; If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "interleukin 10 receptor, beta" or "Alpha1,4Gal-T").</li><li> The operators (the default is <I>contains</I>) present additional search options. See <A HREF="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</A> for more details.</li></ul></TD></TR>
 
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="gene_marker"></A>Gene/Marker</TH><TD><ul><li>Symbol, name, or synonym for a mouse genetic marker.</li><li>Enter one or more terms, separated by commas.  <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
 <li>By default, the search is on current symbols/names and synonyms.  However, you can limit your search to current symbols (no search of names) or current symbols/names only (no search of synonyms)</li>
-<li> The operators present additional search options; the default operator is contains. See <a href="MISC_operators_help.shtml">Using Operators on MGI Query Forms</a> for more information.</li></ul></TD></TR>
+<li> The operators present additional search options; the default operator is contains. See <a href="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</a> for more information.</li></ul></TD></TR>
 </td>        </TR>
 
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="chromosome"></A>Chromosome</TH><TD VALIGN="top"><ul><LI>Choose an operator (on/not on). (See <a href="MISC_operators_help.shtml">Using Operators on MGI Query Forms</A> for more details.)
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="chromosome"></A>Chromosome</TH><TD VALIGN="top"><ul><LI>Choose an operator (on/not on). (See <a href="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</A> for more details.)
 <LI>Select one or more items from the chromosome selection list.</LI></ul></TD></TR>
 
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="cyt"></A>Cytogenetic Band</TH><TD VALIGN="top"><ul><LI>Specify all or a portion of a cytogenetic band offset. The default is <I>equals</I> (=), which limits the search to exact matches.</li> <LI>Select an alternative operator if you want to search using part of a cytogenetic band offset. See <A HREF="MISC_operators_help.shtml">Using Operators on MGI Query Forms</A> for more details.</li><LI>Click the NOT box to exclude whatever you type in the box.</LI></ul> </TD> </TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="cyt"></A>Cytogenetic Band</TH><TD VALIGN="top"><ul><LI>Specify all or a portion of a cytogenetic band offset. The default is <I>equals</I> (=), which limits the search to exact matches.</li> <LI>Select an alternative operator if you want to search using part of a cytogenetic band offset. See <A HREF="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</A> for more details.</li><LI>Click the NOT box to exclude whatever you type in the box.</LI></ul> </TD> </TR>
 
 <TR></A><TH VALIGN="top" ALIGN="left"><A NAME="cmp">cM Position</TH><TD VALIGN="top"><ul> <LI>Specify a chromosomal region BETWEEN two points on one chromosome selected from the Chromosome list by entering the cM values to begin and end the region, separated by <I>and</I> (for example, <I>50 and 75</I>).</li><LI>Establish a relationship between values: between, equal, less than, greater than, less than or equal to, greater than or equal to, < >, is null, is not null.</LI> <LI>Specify a region WITHIN an area surrounding a marker by entering the current, approved symbol and the number of cM on either side of the marker. For this option, you do not need to not select a chromosome.</li></ul></TD> </TR>
 
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="coordinates"></A>Genome Coordinates</TH><TD VALIGN="top"><ul><LI>Make a selection on the <A HREF="#chromosome">Chromosome</A> list.</LI><LI>Enter the genome assembly coordinate(s) for a mapped gene or marker.</LI><LI>Use the default (Between) or click the down arrow to select the &lt;= (less than or equal to) or &gt;= (greater than or equal to) operator (see <a href="MISC_operators_help.shtml">Using Operators on MGI Query Forms</a> for more details.) </li><LI>Click the other down arrow and select either bp (base pairs) or Mbp (mega base pairs) as the unit of measurement.(The default is base pairs.)</LI><LI>Enter the coordinate(s):</LI></ul><BR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="coordinates"></A>Genome Coordinates</TH><TD VALIGN="top"><ul><LI>Make a selection on the <A HREF="#chromosome">Chromosome</A> list.</LI><LI>Enter the genome assembly coordinate(s) for a mapped gene or marker.</LI><LI>Use the default (Between) or click the down arrow to select the &lt;= (less than or equal to) or &gt;= (greater than or equal to) operator (see <a href="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</a> for more details.) </li><LI>Click the other down arrow and select either bp (base pairs) or Mbp (mega base pairs) as the unit of measurement.(The default is base pairs.)</LI><LI>Enter the coordinate(s):</LI></ul><BR>
 
 <TABLE ALIGN="center" BORDER="1" CELLSPACING="0" CELLPADDING="4" WIDTH="100%">
               <TR><TH ALIGN="left" VALIGN="top" NOWRAP>If you use...</TH><TH ALIGN="left" WIDTH="30%" VALIGN="top">Type or paste in the box...</TH><Td ALIGN="left"><b>Examples:</b> (be sure to select the proper unit: Mbp or bp)</Td></TR>
@@ -280,7 +280,7 @@ There are several ways to use the map position parameters (<A HREF="#chromosome"
   <li>A conditionally targeted genotype is dependent on the presence of some other factor (often a DNA sequence that expresses a protein functioning in specific recombination events). In MGI, <I>conditional</I> is a genotype attribute, and this is most commonly used to represent Cre-mediated excision of genomic sequences flanked by loxP sites; in most instances, this is accompanied by simultaneous insertion of some selectable marker (<I>e.g.</I> neomycin). The excised genotype, often associated with a phenotype, is dependent (or conditional) on the presence of the Cre-expressing construct.</li>
   <li>Options for searching by allele type include spontaneous, chemically induced (all, ENU), radiation induced, transgenic (all; random, expressed; random, gene disruption; Cre/Flp),
 gene trapped, targeted (all, Floxed/Frt, Reporter, knock-out, knock-in). See 
-<a href="ALLELE_phenotypic_categories_help.shtml">Allele Types</a> for how MGI differentiates these categories.</li>
+<a href="ALLELE_phenotypic_categories_help.shtml" target="_blank">Allele Types</a> for how MGI differentiates these categories.</li>
   <li>You can exclude cell-line-only alleles from your search. See <a href="genetrap_usecase_help.shtml#distinguish">Gene Trap Questions and Answers</a> for how to do this.</li>
 </ul></TD></TR>
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="QTL"></A>QTL</TH><TD ALIGN="left" VALIGN="top">Quantitative Trait Locus.  A  polymorphic locus with alleles that differentially affect the expression of a continuously distributed phenotypic trait. Usually, a QTL is a marker described by statistical association to quantitative variation in the particular phenotypic trait, thought to be controlled by the cumulative action of alleles at multiple loci. <b> Note:</b> Traditionally, MGI does not define major modifier loci as QTL although the literature often refers to these as QTL.
@@ -335,12 +335,12 @@ gene trapped, targeted (all, Floxed/Frt, Reporter, knock-out, knock-in). See
 
 
 <h3>Where can I find answers to questions about gene trapped alleles?</h3>
-<p>See <a href="genetrap_usecase_help.shtml">Gene Trap Questions and Answers</a>.</p>
+<p>See <a href="genetrap_usecase_help.shtml" target="_blank">Gene Trap Questions and Answers</a>.</p>
 <a href="#top"><font size="-1">Top</font></a>
 
 
 <H3>Where can I find answers to questions about the summary report resulting from my query?</H3>
-<P>See <A HREF="ALLELE_summary_help.shtml">Understanding Phenotypic Allele Query Summary Reports</A>.</P>
+<P>See <A HREF="ALLELE_summary_help.shtml" target="_blank">Understanding Phenotypic Allele Query Summary Reports</A>.</P>
 <a href="#top"><font size="-1">Top</font></a>
 
 
@@ -349,7 +349,7 @@ gene trapped, targeted (all, Floxed/Frt, Reporter, knock-out, knock-in). See
 </P>
 <a href="#top"><font size="-1">Top</font></a>
 <H3><A NAME="detail"></A>Where can I find answers to questions about the detail report resulting from my query?</H3>
-<P>See <A HREF="ALLELE_detail_help.shtml">Understanding Phenotypic Allele Detail Pages.</A>
+<P>See <A HREF="ALLELE_detail_help.shtml" target="_blank">Understanding Phenotypic Allele Detail Pages.</A>
 </p>
 <a href="#top"><font size="-1">Top</font></a></P>
 
@@ -372,17 +372,17 @@ gene trapped, targeted (all, Floxed/Frt, Reporter, knock-out, knock-in). See
 <P>See the following for additional information:</P>
 
 <ul> 
-<li><A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml">Mammalian Phenotype (MP) Browser</a></li>
-<li><A HREF="VOCAB_mp_browser_help.shtml">Using the Mammalian Phenotype (MP) Browser</a></li>
-<li><a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A">Human Disease Vocabulary Browser</a></li>
-<li><A HREF="VOCAB_omim_browser_help.shtml">Using the Human Disease Vocabulary Browser</a></li>
-<li><A HREF="MISC_boolean_search_help.shtml">Using Boolean Operators in MGI</a></li> 
-<li><A HREF="<!--#include file='include/mgihome_url.html'-->/nomen/allmut_quickhelp.shtml">Quick Guide to Nomenclature for Alleles and Mutations</a></li>
+<li><A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype (MP) Browser</a></li>
+<li><A HREF="VOCAB_mp_browser_help.shtml" target="_blank">Using the Mammalian Phenotype (MP) Browser</a></li>
+<li><a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A" target="_blank">Human Disease Vocabulary Browser</a></li>
+<li><A HREF="VOCAB_omim_browser_help.shtml" target="_blank">Using the Human Disease Vocabulary Browser</a></li>
+<li><A HREF="MISC_boolean_search_help.shtml" target="_blank">Using Boolean Operators in MGI</a></li> 
+<li><A HREF="<!--#include file='include/mgihome_url.html'-->/nomen/allmut_quickhelp.shtml" target="_blank">Quick Guide to Nomenclature for Alleles and Mutations</a></li>
 </UL>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 <H3><A NAME="example"></a>What are some examples of queries using phenotypic terms?</H3>
-<P>See <A HREF="MISC_boolean_search_help.shtml#examples">Using Full-Text Searches on MGI Query Forms</A>.</P>
+<P>See <A HREF="MISC_boolean_search_help.shtml#examples" target="_blank">Using Full-Text Searches on MGI Query Forms</A>.</P>
  <a href="#top"><font size="-1">Top</font></a>
 
 <!--#include file='include/templateBlankBodyStop.html'-->

@@ -48,11 +48,11 @@ function openHelpWindow(helpFile){
 </UL>
 <P>See also:</P>
 <UL> 
-<LI><A href="MISC_boolean_search_help.shtml">Full-Text Searching on MGI Query Forms</a> (sections on Boolean operators, word stemming, partial word matching, quotation marks, parentheses)</li>
-<LI><A href="ALLELE_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
-<LI><A href="ALLELE_summary_help.shtml">Interpreting a Phenotypic Allele Summary</A></LI>
-<LI><A href="ALLELE_detail_help.shtml">Interpreting Phenotypic Allele Details</A></LI>
-<LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> for
+<LI><A href="MISC_boolean_search_help.shtml" target="_blank">Full-Text Searching on MGI Query Forms</a> (sections on Boolean operators, word stemming, partial word matching, quotation marks, parentheses)</li>
+<LI><A href="ALLELE_help.shtml" target="_blank">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
+<LI><A href="ALLELE_summary_help.shtml" target="_blank">Interpreting a Phenotypic Allele Summary</A></LI>
+<LI><A href="ALLELE_detail_help.shtml" target="_blank">Interpreting Phenotypic Allele Details</A></LI>
+<LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A> for
 unfamiliar terms (or for how MGI defines familiar terms) and acronyms</LI>
 </UL>
 
@@ -64,7 +64,7 @@ For an explanation of what appears in the search box, see <a href="#strange">str
 
 <P><b>Note:</b> If you enter more than one term, the system returns only those records containing <B>all</B> your terms. It interprets a space between terms as AND. If you want the system to return records containing <b>either</b> term, type<b> OR </b>between terms.
 <p>
-See <A HREF="MISC_boolean_search_help.shtml">Using Full-Text Searches on MGI Query Forms</A> for more details about using AND and OR, quotation marks, parentheses, partial word matching, and word stemming.
+See <A HREF="MISC_boolean_search_help.shtml" target="_blank">Using Full-Text Searches on MGI Query Forms</A> for more details about using AND and OR, quotation marks, parentheses, partial word matching, and word stemming.
 
 </P>
 
@@ -78,7 +78,7 @@ See <A HREF="MISC_boolean_search_help.shtml">Using Full-Text Searches on MGI Que
 
 
 <p>You can then copy and paste the term (or its MP identifier; for example, MP:0003279 is the ID for aneurysm) in the Phenotype/Disease search box.</p>
-<p>See <a href="VOCAB_mp_browser_help.shtml">Using the Mammalian Phenotype (MP) Browser</a> for additional help.
+<p>See <a href="VOCAB_mp_browser_help.shtml" target="_blank">Using the Mammalian Phenotype (MP) Browser</a> for additional help.
 </P>
 
  <h3><A name="options"></a>How do I select more than one item from this list?</h3>
@@ -176,7 +176,7 @@ See <A HREF="MISC_boolean_search_help.shtml">Using Full-Text Searches on MGI Que
 
 <H3><A name="edit"></a>Can I edit the box on the query form? Add more terms?</H3>
 <P>Yes to both questions. For example, you may wish to change an AND to an OR. You may wish to click the links beside <b>Select </b> or <b>Browse</b> and add more items from those lists. You may also wish to add your own terms. See 
-<A HREF="MISC_boolean_search_help.shtml">Full-Text Searching on MGI Query Forms</a> for additional information.
+<A HREF="MISC_boolean_search_help.shtml" target="_blank">Full-Text Searching on MGI Query Forms</a> for additional information.
  
 
 </p>
