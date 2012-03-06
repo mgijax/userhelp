@@ -112,7 +112,7 @@ Using the References Query Form </span>
 <p><b>Note:</b></p>
 
   <ul>
-  <li>This field uses journal abbreviations from the National Library of Medicine (NLM). A search for <i>The Journal of Endocrinology</i> will not find any references, though a search for <i>J Endocrinol</i> will. The journal abbreviations used are listed alphabetically at this <a href="ftp://ftp.ncbi.nih.gov/pubmed/J_Medline.txt">NLM web site</a>. </li>
+  <li>This field uses journal abbreviations from the National Library of Medicine (NLM). A search for <i>The Journal of Endocrinology</i> will not find any references, though a search for <i>J Endocrinol</i> will. The journal abbreviations used are listed alphabetically at this <a href="ftp://ftp.ncbi.nih.gov/pubmed/J_Medline.txt" target="_blank">NLM web site</a>. </li>
   <li>You must choose journal names from the autocomplete list (i.e., there is no free text entry in this field.)</li>
   </ul>
 
@@ -132,7 +132,7 @@ To find references according to the year the article was published:
 
 Enter a text string to search for articles with abstracts/titles containing the terms you enter.
 <ul>
-  <li>The text search <a href="http://en.wikipedia.org/wiki/Stemming" target="new">stems</a> words: it removes suffixes and searches using root words.  A search for <i>stem cell factor receptor binding</i> searches for  <i>stem-</i>, <i>cell-</i> (e.g.  cellular), <i>factor-,</i> <i>recept-</i> (e.g.  reception); <i>bind-</i> (e.g.  binds). <li>A search for <i>cell division</i> also looks for <i>cell- divis-</i>.</li>
+  <li>The text search <a href="http://en.wikipedia.org/wiki/Stemming" target="new" target="_blank">stems</a> words: it removes suffixes and searches using root words.  A search for <i>stem cell factor receptor binding</i> searches for  <i>stem-</i>, <i>cell-</i> (e.g.  cellular), <i>factor-,</i> <i>recept-</i> (e.g.  reception); <i>bind-</i> (e.g.  binds). <li>A search for <i>cell division</i> also looks for <i>cell- divis-</i>.</li>
   <li>Use an asterisk (*) as a wild card, particularly to find variations on a root word or in spelling. Examples: 2,4-Dichlorobenz* process; haemo* hemo*</li>
   <li>Use quotation marks to enclose phrases where the specified words must come in order, with no words intervening. </li>
   <li>Boolean operators (OR or AND) are not permitted.</li>
@@ -163,18 +163,19 @@ Enter a text string to search for articles with abstracts/titles containing the 
  <li><b>Results</b>: The Results section contains a summary of your search parameter(s) (for example, author name) and the number of results. If you have filtered your results, the <A HREF="#filter_refqf">filters</a> used, the ability to remove filters, and the number of results after filtering will appear in the center of this section. The right hand side of this section allows you to page through your results and change the number of results viewed on a page. </li>
  <li><b>Filter references by:</b> Use this section to <A HREF="#filter_refqf">filter</a> your results, show all abstracts or create a <a href="#textfile_refqf">text file</a> of your results. </li>
  <li>The fourth banner shows the field headings for your results:</li>
+ </ol>
+  <blockquote>
   <ul>
-   <li><b>PubMed ID/MGI Ref. ID</b>: The PubMed ID, if present, is linked to PubMed. The MGI begins with <i>J:</i>. </li>
+   <li><b>PubMed ID/MGI Ref. ID</b>: The PubMed ID, if present, is linked to PubMed. The MGI ID begins with <i>J:</i>. </li>
    <li><b>Author(s)</b>: The authors of the reference. Click this column heading to sort alphabetically by first author. Click again to reverse the sort order. </li>
    <li><b>Title</b>: The title of the reference. Click <code>abstract</code>&#9658; to view the reference abstract. </li>
-   <li><b>Journal</b>: The name of the journal in <a href="ftp://ftp.ncbi.nih.gov/pubmed/J_Medline.txt">NLM</a> abbreviated format. Click this column heading to sort alphabetically by journal. Click again to reverse the sort order. </li>
+   <li><b>Journal</b>: The name of the journal in <a href="ftp://ftp.ncbi.nih.gov/pubmed/J_Medline.txt" target="_blank">NLM</a> abbreviated format. Click this column heading to sort alphabetically by journal. Click again to reverse the sort order. </li>
    <li><b>Year</b>: The year the article was published. Click this column heading to sort by year. Click again to reverse the sort order. </li>
-   <li><b>Curated Data</b>: Links to some of the MGI data extracted from that paper. If present, a number indicates how many data items of that type to expect. Related records may include <a href="GENE_feature_types_help.shtml">genome features</a>, sequences, orthologies, molecular probes, mapping data, expression data (for example, <i>n</i> results,&nbsp;&nbsp;<i>n</i> assays,&nbsp;&nbsp;<i>n</i> tissues), antibodies</A> (associated with expression assays), or phenotypic alleles. </li>
+   <li><b>Curated Data</b>: Links to some of the MGI data extracted from that paper. If present, a number indicates how many data items of that type to expect. Related records may include <a href="GENE_feature_types_help.shtml" target="_blank">genome features</a>, sequences, orthologies, molecular probes, mapping data, expression data (for example, <i>n</i> results,&nbsp;&nbsp;<i>n</i> assays,&nbsp;&nbsp;<i>n</i> tissues), antibodies</A> (associated with expression assays), or phenotypic alleles. </li>
    <li><b>Vol(Iss)Pg</b>: The volume designation and pages for the publication. </li>
    </ul>
-  
- <li>Click on the Author(s), Journal and Year column headings or the up/down arrowheads ( &#9660; &#9650;) to change the sort order of your results. </li>
-</ol>
+   </blockquote>
+<p>Click on the Author(s), Journal and Year column headings or the up/down arrowheads ( &#9660; &#9650;) to change the sort order of your results. </p>
 
 <!-- ***your query has timed out. Either use the Click to modify search process or select a Journal, Year, or Data filter before selecting Author as a filter. -->
    
@@ -194,6 +195,7 @@ Enter a text string to search for articles with abstracts/titles containing the 
 <h3><a name="textfile_refqf"></a>Can I get my results as a text file?</h3>
 <p>Yes. In your search results, at the right hand edge of the Filter references bar, click on the Text File icon. Your web browser will download a file of the references that remain after any filtering you may have performed. The file will contain the PubMed ID, authors, title and journal information for each reference. </p>
 
+<font size="-1"><A HREF="#top">Top</A></font>
 
 <H3><A NAME="examples_refqf"></A>Are there examples of queries and results for references?</H3>
 <ul>
