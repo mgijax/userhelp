@@ -51,12 +51,12 @@ function openHelpWindow(helpFile){
 </UL>
 <P>See also:
 <UL>
-   <li><a href="SNP_help.shtml">Using the Mouse SNP Query Form</a></Li>
-  <li><a href="SNP_load_help.shtml">Interpreting the SNP Data in MGI</a></li>
-  <li><a href="SNP_summary_help.shtml">Interpreting a Mouse SNP Summary</a></li>
-   <li><a href="SNP_detail_help.shtml">Interpreting Mouse SNP Details</a> </li>
-  <li><a href="SNP_legend_help.shtml">Interpreting the MGI Mouse SNPs Legend</a></li>
-  <li><a href="SNP_discrepancy_help.shtml">Understanding Mouse SNP Coordinate Discrepancies</a></li>
+   <li><a href="SNP_help.shtml" target="_blank">Using the Mouse SNP Query Form</a></Li>
+  <li><a href="SNP_load_help.shtml" target="_blank">Interpreting the SNP Data in MGI</a></li>
+  <li><a href="SNP_summary_help.shtml" target="_blank">Interpreting a Mouse SNP Summary</a></li>
+   <li><a href="SNP_detail_help.shtml" target="_blank">Interpreting Mouse SNP Details</a> </li>
+  <li><a href="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Legend</a></li>
+  <li><a href="SNP_discrepancy_help.shtml" target="_blank">Understanding Mouse SNP Coordinate Discrepancies</a></li>
 </ul>
 </p>
 
@@ -67,7 +67,7 @@ function openHelpWindow(helpFile){
 
 
 <h3><a name="dbsnp">What is dbSNP?</a></h3>
-<p><a href="http://www.ncbi.nlm.nih.gov/SNP/index.html">dbSNP</a>, the Single Nucleotide Polymorphism (SNP) database at <a href="http://www.ncbi.nlm.nih.gov/">National Center for Biotechnology Information (NCBI)</a>  is a public-domain archive for a broad collection of simple genetic polymorphisms for a variety of organisms, including mouse. This collection of polymorphisms includes single-base nucleotide substitutions (also known as single nucleotide polymorphisms or SNPs), small-scale multi-base deletions or insertions, called <i>IN-DELS</i> (also called <i>deletion insertion polymorphisms</i> or <i>DIPs</i>), and retroposable element insertions and microsatellite repeat variations (also called <i>short tandem repeats</i> or <i>STRs</i>). Each dbSNP entry includes the sequence context of the polymorphism (i.e., the surrounding sequence), the occurrence frequency of the polymorphism (by population or individual), and the experimental method(s), protocols, and conditions used to assay the variation.</p>
+<p><a href="http://www.ncbi.nlm.nih.gov/SNP/index.html" target="_blank">dbSNP</a>, the Single Nucleotide Polymorphism (SNP) database at <a href="http://www.ncbi.nlm.nih.gov/" target="_blank">National Center for Biotechnology Information (NCBI)</a>  is a public-domain archive for a broad collection of simple genetic polymorphisms for a variety of organisms, including mouse. This collection of polymorphisms includes single-base nucleotide substitutions (also known as single nucleotide polymorphisms or SNPs), small-scale multi-base deletions or insertions, called <i>IN-DELS</i> (also called <i>deletion insertion polymorphisms</i> or <i>DIPs</i>), and retroposable element insertions and microsatellite repeat variations (also called <i>short tandem repeats</i> or <i>STRs</i>). Each dbSNP entry includes the sequence context of the polymorphism (i.e., the surrounding sequence), the occurrence frequency of the polymorphism (by population or individual), and the experimental method(s), protocols, and conditions used to assay the variation.</p>
 </P>
 
 <h3><a name="function"></a>What are dbSNP function classes?</h3>
@@ -75,7 +75,7 @@ function openHelpWindow(helpFile){
 </p>
 
 <h3><a name="dbSNP_fc"></a>How are the dbSNP function classes defined?</h3>
-<p>See <a href="SNP_legend_help.shtml">Understanding the MGI Mouse SNPs Legend</a>.</p>
+<p>See <a href="SNP_legend_help.shtml" target="_blank">Understanding the MGI Mouse SNPs Legend</a>.</p>
 <a href="#top">Top</A>
 
 
@@ -106,7 +106,7 @@ function openHelpWindow(helpFile){
  <tr><th valign="top"><nobr>Flanking Sequence</nobr></th><th valign="top">Definition</th></tr>
 
   <tr><td valign="top"><nobr>rs Flanking Sequence</td><td valign="top">The flanking sequence of the Exemplar ss Assay for the RefSNP. MGI loads only the rs Flanking Sequence dbSNP for a given RefSNP and displays this sequence on the SNP Detail report. MGI calculates the corresponding IUPAC nucleotide uncertainty code from the rs Allele Summary (strain/alleles only).</td></tr> 
-  <tr><td valign="top"><nobr>ss Flanking Sequence</td><td valign="top">The 5’ and 3’ flanking sequences that are intended to uniquely locate the described polymorphism from a given assay in the genome. Occasionally, the ss Flanking Sequence contains sequence that is found in multiple locations in the genome.</td></tr> 
+  <tr><td valign="top"><nobr>ss Flanking Sequence</td><td valign="top">The 5' and 3' flanking sequences that are intended to uniquely locate the described polymorphism from a given assay in the genome. Occasionally, the ss Flanking Sequence contains sequence that is found in multiple locations in the genome.</td></tr> 
 </table>
 </p>
 
