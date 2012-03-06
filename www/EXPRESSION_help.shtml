@@ -59,7 +59,7 @@ function openHelpWindow(helpFile){
 <h3><A name="whatpurpose"></a>What is the purpose of the Gene Expression Database?</h3>
 <p>The Gene Expression Database (GXD) is designed to integrate many different types of endogenous gene expression data from the mouse in formats appropriate for comprehensive analysis.   Query results, such as the developmental stage and tissue of expression (or non-expression), the genetic origin of the sample, and the numbers and sizes of detected bands, are described together with the molecular probe, the expression assay type, and the experimental conditions used.  Expression patterns are described using an extensive, hierarchical dictionary of standardized anatomical terms, making it possible to record expression results from assays with differing spatial resolution in a consistent and integrated manner and to analyze expression patterns at differing levels of detail. Whenever possible, text annotations are complemented by digitized images of the original expression data.
 <p>To learn more about GXD and how we acquire data, please see
-<a href="<!--#include file='include/mgihome_url.html'-->/GXD/aboutGXD.shtml">About GXD</a>.
+<a href="<!--#include file='include/mgihome_url.html'-->/GXD/aboutGXD.shtml" target="_blank">About GXD</a>.
 </p>
 
 
@@ -76,22 +76,22 @@ function openHelpWindow(helpFile){
 <p>(See <A href="#example">Are there examples of query results?</a> for the form
 field values for these queries.)
 <p>
-If you are interested in doing queries that ask what genes are expressed in some anatomical structures and/or developmental stages but not in others, you should use the <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQFexpanded">Gene Expression Data Expanded Query Form</a>.</p>
+If you are interested in doing queries that ask what genes are expressed in some anatomical structures and/or developmental stages but not in others, you should use the <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQFexpanded" target="_blank">Gene Expression Data Expanded Query Form</a>.</p>
 
 
  <h3><A name="howdo"></a>How do I use this query form?</h3>
 
 <P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following paragraphs. After entering values in the query form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help.shtml">Using MGI Query Forms</a> for answers to questions such as: 
    <ul>
-    <li><A HREF="MISC_usingQFs_help.shtml#howdo">How do I submit a query?</a></li>
-       <li><a href="MISC_usingQFs_help.shtml#operators">What are operators and how do they affect my query?</a></li>
-    <li><a href="MISC_usingQFs_help.shtml#options">How do I select more than one item on a list?</a></li>
-  <li><a href="MISC_usingQFs_help.shtml#casesen">Does it matter what case I use when I type values in the fields?</a></li>
-  <LI><a href="MISC_usingQFs_help.shtml#sort">How do the sort options work?</a></li>
+    <li><A HREF="MISC_usingQFs_help.shtml#howdo" target="_blank">How do I submit a query?</a></li>
+       <li><a href="MISC_usingQFs_help.shtml#operators" target="_blank">What are operators and how do they affect my query?</a></li>
+    <li><a href="MISC_usingQFs_help.shtml#options" target="_blank">How do I select more than one item on a list?</a></li>
+  <li><a href="MISC_usingQFs_help.shtml#casesen" target="_blank">Does it matter what case I use when I type values in the fields?</a></li>
+  <LI><a href="MISC_usingQFs_help.shtml#sort" target="_blank">How do the sort options work?</a></li>
   
-    <li><a href="MISC_usingQFs_help.shtml#maxno">Is there a maximum number of results I can get back all at once?</a></li>
-      <LI><a href="MISC_usingQFs_help.shtml#speed">Is there a way to speed up a query?</a>
-<li><A href="MISC_usingQFs_help.shtml#range_question">When I enter exact marker or gene symbols in the Marker Range boxes, do the query results include or exclude those markers?</a></li>
+    <li><a href="MISC_usingQFs_help.shtml#maxno" target="_blank">Is there a maximum number of results I can get back all at once?</a></li>
+      <LI><a href="MISC_usingQFs_help.shtml#speed" target="_blank">Is there a way to speed up a query?</a>
+<li><A href="MISC_usingQFs_help.shtml#range_question" target="_blank">When I enter exact marker or gene symbols in the Marker Range boxes, do the query results include or exclude those markers?</a></li>
  </UL>
  </p>
 <a href="#top"><font size="-1">Top</font></a>
@@ -106,15 +106,15 @@ If you are interested in doing queries that ask what genes are expressed in some
 <table border="1" cellpadding="3">
 <TR><td valign="top"><A NAME="gene_nomenclature"></A><b>Gene</b></td><TD>Symbol, name, or synonym for a  mouse genetic marker.<ul><li>Enter one or more terms, separated by commas. <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
 <li>By default, the search is on current symbols/names and synonyms.  However, you can limit your search to current symbols (no search of names) or current symbols/names only (no search of synonyms)</li>
-<li> The operators present additional search options; the default operator is contains. See <a href="MISC_operators_help.shtml">Using Operators on MGI Query Forms</a> for more information.</li></ul></TD></TR>
+<li> The operators present additional search options; the default operator is contains. See <a href="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</a> for more information.</li></ul></TD></TR>
    
 <TR><td valign="top"><a name="map_position"></a><b>Map position</b></td>
-  <Td ALIGN="left" VALIGN="top">Use the map position parameters (<a name="chromosome"></a>Chromosomes, <a name="coordinates"></a>Genome Coordinates, <a name="cytogenetic_band"></a>Cytogenetic Band, <a name="marker_range"></a>Marker Range, and <a name="cm_offset"></a>cM Position) to limit the scope of your query. See <a href="MISC_map_position_help.shtml">Using Map Position Fields on MGI Query Forms</a> for details.
+  <Td ALIGN="left" VALIGN="top">Use the map position parameters (<a name="chromosome"></a>Chromosomes, <a name="coordinates"></a>Genome Coordinates, <a name="cytogenetic_band"></a>Cytogenetic Band, <a name="marker_range"></a>Marker Range, and <a name="cm_offset"></a>cM Position) to limit the scope of your query. See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fields on MGI Query Forms</a> for details.
 <ul><li>When using chromosome(s), you can also define genome coordinates, cytogenetic band, or cM position.</li> <li>You cannot combine genome coordinates, cytogenetic band, and cM position with one another.</li><li>You can enter any markers with coordinates.</li></ul></td>
         </tr>
 <tr>
 <td valign="top"><A NAME="gene_ontology"></A><b>Gene <br>Ontology <br>classifications</b></td>
-        <TD valign="top">Genes may be described using three broad categories reflecting biological roles: Molecular Function, Biological Process, or Cellular Component. The Gene Ontology (GO) Consortium has developed structured vocabularies to specify detailed aspects within each category. MGI uses GO terms to annotate gene records. See <a href="GO_classification_fields_help.shtml">Using Gene Ontology Classification Fields on MGI Query Forms </a> for details.    </TD>
+        <TD valign="top">Genes may be described using three broad categories reflecting biological roles: Molecular Function, Biological Process, or Cellular Component. The Gene Ontology (GO) Consortium has developed structured vocabularies to specify detailed aspects within each category. MGI uses GO terms to annotate gene records. See <a href="GO_classification_fields_help.shtml" target="_blank">Using Gene Ontology Classification Fields on MGI Query Forms </a> for details.    </TD>
       </TR>
 
   <td valign="top"><b>Expression</b></b></td>
@@ -122,7 +122,7 @@ If you are interested in doing queries that ask what genes are expressed in some
          <table>
         <TR>
          <td valign="top"><A NAME="anatomical_structure"></A><b>Anatomical Structure(s)</b></td>
-         <TD VALIGN="TOP">The anatomical structures are taken from the <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml">Anatomical Dictionary</A>. Enter a single item or multiple items, separated by commas. Use an <a href="MISC_operators_help.shtml">operator</a> (the default is <i>contains</i>) to narrow or expand your search.
+         <TD VALIGN="TOP">The anatomical structures are taken from the <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</A>. Enter a single item or multiple items, separated by commas. Use an <a href="MISC_operators_help.shtml" target="_blank">operator</a> (the default is <i>contains</i>) to narrow or expand your search.
 
 <P>For each stage, the Anatomical Dictionary is organized as a hierarchy of structures. You can choose to include either substructures (children), superstructures (parents), both, or neither in your search. The default is to <i>include</i> substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon.</p>
 <ul><li>
@@ -141,7 +141,7 @@ If you enter more than one structure in the query field, you can choose to find 
 
 <p><a name="stages"></a><b>Note</b>: The Theiler system organizes development into stages defined by the
 appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc. Therefore, if you are interested in all available records for embryos of age 14.0 dpc, you will need to select both TS 21 and TS 22.
-<p>You can <A HREF="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagecriteria.html">browse Stage descriptions</a> for a list of the defining features for each Theiler stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28.
+<p>You can <A HREF="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagecriteria.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28.
        </TD>
       </TR>
      <tr><td valign="top"><a name="exclude_mutant"></a><b>Exclude mutant specimens from query</b></td><td valign="top">
@@ -155,7 +155,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
    
  <tr>
    <td valign="top"><A NAME="assay_type"></A><b>Assay Type</b></td>
-   <td valign="top">Selection list of assay types. Use this field and its <a href="MISC_operators_help.shtml">operators</a>  (in and not in) to limit your search to assays of one or more selected types. The default is to search <i>Any</i> of the assay types on the list.
+   <td valign="top">Selection list of assay types. Use this field and its <a href="MISC_operators_help.shtml" target="_blank">operators</a>  (in and not in) to limit your search to assays of one or more selected types. The default is to search <i>Any</i> of the assay types on the list.
        </TD>
       </TR>
     
@@ -202,12 +202,12 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <a href="#top"><font size="-1">Top</font></a>
 
 <H3><A NAME="summary"></A>How do I interpret the query results summary and detail pages?</H3>
-<p>See <a href="EXPRESSION_query_results_help.shtml">Interpreting Gene Expression Data Query Results</a>.</p>
+<p>See <a href="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data Query Results</a>.</p>
 <a href="#top"><font size="-1">Top</font></a>
 
 
 <h3>What if the search does not find any expression results?</h3>
-<p>See <a a href="EXPRESSION_query_results_help.shtml#not_found">Interpreting Gene Expression Data Query Results</a>.
+<p>See <a a href="EXPRESSION_query_results_help.shtml#not_found" target="_blank">Interpreting Gene Expression Data Query Results</a>.
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 
@@ -232,7 +232,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <p></p>
    
 <p><b>Note:</b> You can query gene expression literature content records directly using the 
-<a href="<!--#include file='include/fewi_url.html'-->gxdlit">Gene Expression Literature Query Form</a>.</p>
+<a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Search Form</a>.</p>
 
 </p>
 <a href="#top"><font size="-1">Top</font></a>
