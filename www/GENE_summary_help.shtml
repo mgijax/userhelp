@@ -48,14 +48,14 @@ function openHelpWindow(helpFile){
 </ul>
 <p>See also:
 <ul>
-  <li><a href="GENE_help.shtml">Using the Genes and Markers Query Form</a></li>
-  <li><a href="GENE_detail_help.shtml">Interpreting the Gene Detail Report</a></li>
+  <li><a href="GENE_help.shtml" target="_blank">Using the Genes and Markers Query Form</a></li>
+  <li><a href="GENE_detail_help.shtml" target="_blank">Interpreting the Gene Detail Report</a></li>
 
 </ul>
 </p>
 <h3><a name="summary_sort"></a>What determines the content of this report?</h3>
 <P>The marker summary content depends on the button you click on the
-<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF">Genes and Markers Query Form</a> (cM, Nomenclature, or Genome Coordinates) and your choice in the Search box next to the Symbol/Name field. There are two types of searches: narrow and broad.</p>
+<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF" target="_blank">Genes and Markers Query Form</a> (cM, Nomenclature, or Genome Coordinates) and your choice in the Search box next to the Symbol/Name field. There are two types of searches: narrow and broad.</p>
 
 <a href="#top">Top</A><br>
 
@@ -99,7 +99,7 @@ function openHelpWindow(helpFile){
 <TR><TH VALIGN="top">Field</TH><TH>Description</TH></TR>
  <TR><TH ALIGN="left" VALIGN="top">Chr</TH> <TD>If known, the chromosome to which the marker is assigned.</TD></TR>
 
- <TR><TH ALIGN="left" VALIGN="top">cM</TH><TD>Marker's centimorgan position.  Centimorgan positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009)   (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546">PMID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.</TD></TR>
+ <TR><TH ALIGN="left" VALIGN="top">cM</TH><TD>Marker's centimorgan position.  Centimorgan positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009)   (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PMID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.</TD></TR>
  <TR><TH ALIGN="left" VALIGN="top">Genome Coordinate (strand)</TH><TD VALIGN="top">Marker's coordinates on the mouse genome assembly sequence map, and the strand location of the coordinates in parentheses. Plus (+) is = 5<sup>'</sup> to 3<sup>'</sup>. Minus (-) is 3<sup>'</sup> to 5<sup>'</sup>.</TD></TR>
 <tr><th align="left" valign="top">Feature Type</th><td valign="Top">Marker categories  resulting from your selection(s) on the query form. For example, if you clicked <b>Non-coding RNA gene</b>, results for rRNA, tRNA, snRNA, snoRNA, or miRNA genes may appear.</td></tr>
 

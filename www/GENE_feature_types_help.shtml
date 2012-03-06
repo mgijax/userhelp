@@ -42,8 +42,8 @@ Genome Feature Type Definitions </span>
 <p>Many of the MGI classification terms come from the Sequence Ontology (SO) project. The SO project develops terms and relationships describing features and attributes of biological sequences. 
 When the MGI term definition comes from the SO project, the corresponding SO ID for that term appears.
 <ul>
-  <li>Learn more about the SO project here: <a href="http://www.sequenceontology.org/index.html">http://www.sequenceontology.org/index.html</a>. </li>
-  <li>Search and browse the full SO ontology here: <a href="http://www.sequenceontology.org/cgi-bin/miso.cgi">http://www.sequenceontology.org/cgi-bin/miso.cgi</a>.</li>
+  <li>Learn more about the SO project here: <a href="http://www.sequenceontology.org/index.html" target="_blank">http://www.sequenceontology.org/index.html</a>. </li>
+  <li>Search and browse the full SO ontology here: <a href="http://www.sequenceontology.org/cgi-bin/miso.cgi" target="_blank">http://www.sequenceontology.org/cgi-bin/miso.cgi</a>.</li>
 </ul>
 </p>
 <table border="1" cellspacing="1" cellpadding="3" width="!">
