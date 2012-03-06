@@ -32,14 +32,14 @@ function openHelpWindow(helpFile){
 </UL>
 <P>See also:
 <UL>
-  <LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
-  <LI><A HREF="ALLELE_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
-  <LI><A HREF="ALLELE_detail_help.shtml">Understanding Phenotypic Allele Detail Reports</A></LI>
+  <LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
+  <LI><A HREF="ALLELE_help.shtml" target="_blank">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
+  <LI><A HREF="ALLELE_detail_help.shtml" target="_blank">Understanding Phenotypic Allele Detail Reports</A></LI>
 </UL></P>
 
 <H3><A NAME="access"></A>When does an allele summary appear?</H3>
 
-<P>The Phenotypic Alleles Query Results -- Summary appears either when a query on the Phenotypes, Alleles, and Disease Models Query Form returns any alleles or when you select  All alleles or specific allele types on a gene/marker detail report (see <a href="GENE_detail_help.shtml#phenotypes_detail">Alleles and Phenotypes</a> for more information).</P>
+<P>The Phenotypic Alleles Query Results -- Summary appears either when a query on the Phenotypes, Alleles, and Disease Models Query Form returns any alleles or when you select  All alleles or specific allele types on a gene/marker detail report (see <a href="GENE_detail_help.shtml#phenotypes_detail" target="_blank">Alleles and Phenotypes</a> for more information).</P>
 <A HREF="#top">Top</A>
 
 <H3><A NAME="contain"></A>What should show up in this report?</H3>
@@ -128,7 +128,7 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
 <A HREF="#top">Top</A>
  
 <h3><A name="no_results">What if my query returns no results?</A></h3>
-<p>See <a href="ALLELE_help.shtml#no_results">What if my query returns no results?</a> in <i>Using the Phenotypes, Alleles, and Disease Models Query Form</i>.
+<p>See <a href="ALLELE_help.shtml#no_results" target="_blank">What if my query returns no results?</a> in <i>Using the Phenotypes, Alleles, and Disease Models Query Form</i>.
 </p>
 
 <A HREF="#top">Top</A>

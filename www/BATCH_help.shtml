@@ -375,7 +375,7 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
 
 <li>Entries in the Feature Type column (beneath Nomenclature) identify the category and/or subcategory of the marker (e.g., snoRNA Gene, QTL, Pseudogene, Complex/Cluster/Region, and so on.)</li><br>
 
-<li>When you select Gene Ontology (GO), three columns return: ID (with an entry such as <i>GO:0005525</i>), term (with an entry such as <i>GTP binding</i>), and Code (with an entry such as <i>IEA</i>. See <a href="http://www.geneontology.org/GO.evidence.shtml">Guide to GO Evidence Codes</a> at the Gene Ontology website for the definitions).</li>
+<li>When you select Gene Ontology (GO), three columns return: ID (with an entry such as <i>GO:0005525</i>), term (with an entry such as <i>GTP binding</i>), and Code (with an entry such as <i>IEA</i>. See <a href="http://www.geneontology.org/GO.evidence.shtml" target="_blank">Guide to GO Evidence Codes</a> at the Gene Ontology website for the definitions).</li>
 <!--<li>When you select Mammalian Phenotype (MP), any identifiers returned are for non-normal annotations only. The assumption is that you want to see abnormalities; however, if you want <i>every</i> phenotype investigated for a marker,  use the Phenotype QF</li>-->
   </ul>
 
@@ -392,7 +392,7 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
 <p>See also <a href="#summary">MGI Batch Query results</a> for information on the other fields.</</p>
 
 <p>For detailed information, use the 
-<a href="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml">Phenotypes, Alleles & Disease Models Query Form</a> to find your gene of interest and Mammalian Phenotype terms associated with specific genotypes and strains.</p>
+<a href="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles & Disease Models Query Form</a> to find your gene of interest and Mammalian Phenotype terms associated with specific genotypes and strains.</p>
 
 <!--The list of Mammalian Phenotype Ontology terms associated with a gene is a combination of all terms  associated with all mutant alleles of that gene. The mice analyzed may have been heterozygotes or homozygotes for the mutant allele, or the mouse may have carried other mutations in addition to those in this gene alone. Further, strain background can have a profound effect on phenotype. Thus, the appearance of a Mammalian Phenotype term here does not mean that mutations in this gene necessarily contribute to or are causative of the phenotype. For detailed information, use the Phenotypes, Alleles & Disease Models Query Form and query for your gene of interest to view Mammalian Phenotype terms as they are associated with specific genotypes and strains.-->
 
@@ -409,7 +409,7 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
 
 <p>See also <a href="#summary">MGI Batch Query results</a> for information on other fields.</</p>
 
-<p>For detailed information, use the <a href="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml">Phenotypes, Alleles & Disease Models Query Form</a> to find your gene of interest and view Human Disease terms as they are associated with specific allelic mutations and strains.</p>
+<p>For detailed information, use the <a href="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles & Disease Models Query Form</a> to find your gene of interest and view Human Disease terms as they are associated with specific allelic mutations and strains.</p>
 <!--The mice analyzed may have been heterozygotes or homozygotes for the mutant allele, or the mouse may have carried other mutations in addition to those in this gene alone. Thus, the appearance of a Human Disease term here does not mean that mutations in this gene necessarily contribute to or are causative of the disease.-->
 
 
@@ -424,7 +424,7 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
 <p>See also <a href="#summary">MGI Batch Query results</a> for information on the other fields.</p>
  <!--<p>For detailed information, see <a href="gxd_tissue_results.shtml">Interpreting the Gene Expression Data: Results by Tissue - Summary Report</a>.</p>-->
 
-<p>Use the <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF">Genes and Markers Query Form</a> to find a gene of interest and  view additional expression results (e.g., Literature Summary, Data Summary, Theiler Stages, Assay Types, cDNA source data, External Resources).</p>
+<p>Use the <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF" target="_blank">Genes and Markers Query Form</a> to find a gene of interest and  view additional expression results (e.g., Literature Summary, Data Summary, Theiler Stages, Assay Types, cDNA source data, External Resources).</p>
 
 </blockquote>
 
@@ -438,7 +438,7 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
 
 
 <h3><a name="go_codes"></a>What do the acronyms in the Gene Ontology <b>Code</b> column mean?</a></h3>
-<p>See <A HREF="http://www.geneontology.org/GO.evidence.shtml">Guide to GO Evidence Codes</a> at the Gene Ontology website. 
+<p>See <A HREF="http://www.geneontology.org/GO.evidence.shtml" target="_blank">Guide to GO Evidence Codes</a> at the Gene Ontology website. 
 </p>
  <a href="#top"><font size="-1">Top</font></a>
 
