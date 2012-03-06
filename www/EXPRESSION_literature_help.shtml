@@ -148,7 +148,7 @@ function openHelpWindow(helpFile){
   <li>Use quotation marks to enclose phrases where the specified words must come in order, with no words intervening. </li>
   <li>Boolean operators (OR or AND) are not permitted.</li>
   </ul>
- See  <A href="MISC_wildcard_help.shtml">Using Wild Cards on MGI Query Forms</A> <!-- and <a href="MISC_boolean_search_help.shtml">Full-Text Searching on MGI Query Forms</a> --> for more details.</TD></TR>
+ See  <A href="MISC_wildcard_help.shtml" target="_blank">Using Wild Cards on MGI Query Forms</A> <!-- and <a href="MISC_boolean_search_help.shtml">Full-Text Searching on MGI Query Forms</a> --> for more details.</TD></TR>
   
 </TABLE>
 </p>

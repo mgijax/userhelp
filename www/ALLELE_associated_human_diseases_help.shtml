@@ -49,11 +49,11 @@ function openHelpWindow(helpFile){
    </ul>
 <P>See also:
 <UL>
-  <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml">Phenotypes, Alleles, and Disease Models Query Form</A></LI>
+  <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A></LI>
 
-  <LI><A HREF="ALLELE_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
-  <LI><A HREF="ALLELE_summary_help.shtml">Interpreting a Phenotypic Allele Summary</A></LI>
-  <LI><A HREF="ALLELE_detail_help.shtml">Interpreting Phenotypic Allele Details</A></LI>
+  <LI><A HREF="ALLELE_help.shtml" target="_blank">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
+  <LI><A HREF="ALLELE_summary_help.shtml" target="_blank">Interpreting a Phenotypic Allele Summary</A></LI>
+  <LI><A HREF="ALLELE_detail_help.shtml" target="_blank">Interpreting Phenotypic Allele Details</A></LI>
 </UL>
 
 <h3><A name="what is">What is the Associated Human Diseases report?</h3>
@@ -83,7 +83,7 @@ function openHelpWindow(helpFile){
 
 
 <h3><a name="mouse_model">What if I'm interested in more mouse models of human diseases? </h3>
-<p>Fill in the Phenotype/Disease box on the <A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml">Phenotypes, Alleles, and Disease Models Query Form</A>. See <A HREF="ALLELE_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A> for a full explanation.</p>
+<p>Fill in the Phenotype/Disease box on the <A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A>. See <A HREF="ALLELE_help.shtml" target="_blank">Using the Phenotypes, Alleles, and Disease Models Query Form</A> for a full explanation.</p>
 <A HREF="#top">Top</A>
 
 <!--#include file='include/templateBlankBodyStop.html'-->
