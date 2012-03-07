@@ -40,7 +40,7 @@ function openHelpWindow(helpFile){
 <li><a href="#snp">What is a SNP? </a></li>
 <li><a href="#dbsnp">What is dbSNP?</a></li>
 <LI><A HREF="#function">What are the dbSNP function classes?</A></LI>
-<LI><A HREF="SNP_legend_help.shtml">How are the dbSNP function classes defined?</A></LI>
+<LI><A HREF="SNP_legend_help.shtml" target="_blank">How are the dbSNP function classes defined?</A></LI>
 <li><A href="#ref_snp">What is a RefSNP? How does it differ from an ss SNP?</A></li>
 <li><A href="#SNP_assay">What is a submitted SNP assay? a submitted SNP assay with and without strain/alleles? a submitter SNP ID? an exemplar ss assay?</A></li>
 <li><a href="#flanking">What's the difference between rs Flanking Sequence and ss Flanking Sequence?

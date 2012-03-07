@@ -44,10 +44,10 @@ Using the RFLP/PCR Polymorphism Query Form</span>
  </UL>
 <P>See also:
 <UL>
-  <LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> for unfamiliar terms (or for how MGI defines specific terms) and acronyms.</LI>
-  <LI><A HREF="MISC_general_searching_help.shtml">General Guidelines for MGI Query Form Searches</A></LI>
-  <LI><A HREF="MISC_wildcard_help.shtml">Using Wildcards on MGI Query Forms</A></LI>
-<li><a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF">Mouse SNP Query Form</a> </li>
+  <LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A> for unfamiliar terms (or for how MGI defines specific terms) and acronyms.</LI>
+  <LI><A HREF="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</A></LI>
+  <LI><A HREF="MISC_wildcard_help.shtml" target="_blank">Using Wildcards on MGI Query Forms</A></LI>
+<li><a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF" target="_blank">Mouse SNP Query Form</a> </li>
 </UL>
 
  <H3><A NAME="whatuse"></A>What can I use the RFLP/PCR Polymorphism Query Form to find?</H3>
@@ -59,7 +59,7 @@ Using the RFLP/PCR Polymorphism Query Form</span>
 </P>
 <P>For example:
 <UL>
-<LI> To find all the polymorphisms involving specified strains, type a single strain name, or multiple strain names separated by commas, in the Primary Strains field. If you are not sure of proper strain nomenclature, click one of the links beneath <A HREF="ftp://ftp.informatics.jax.org/pub/reports/index.html#strain">List of Strains with Polymorphism Data</A>.</LI>
+<LI> To find all the polymorphisms involving specified strains, type a single strain name, or multiple strain names separated by commas, in the Primary Strains field. If you are not sure of proper strain nomenclature, click one of the links beneath <A HREF="ftp://ftp.informatics.jax.org/pub/reports/index.html#strain" target="_blank">List of Strains with Polymorphism Data</A>.</LI>
 <P>
 <LI> To find differences between specified strains, type one or more strains in the Primary Strain(s)  field, and then enter the strains you wish to compare them against in the Comparison Strain(s) field.</LI>
 </UL></P>
@@ -67,7 +67,7 @@ Using the RFLP/PCR Polymorphism Query Form</span>
 
 <H3><A NAME="howfill"></A>How do I fill in this query form?</H3>
 <P>To search, enter or select values in one or more of the query form fields described in the following paragraphs. You can choose sort options (at the top of the form) that affect the way in which the summarized results appear. After entering values in the form fields, click <B>Search</B> to submit the query. Click <B>Reset</B> to clear the fields and return any default values.</P>
-See <a href="MISC_usingQFs_help.shtml">Using MGI Query Forms</a> for how to use operators, select list items and sort options, and speed up/submit queries. </p>
+See <a href="MISC_usingQFs_help.shtml" target="_blank">Using MGI Query Forms</a> for how to use operators, select list items and sort options, and speed up/submit queries. </p>
    
 <A HREF="#top">Top</A>
 
@@ -86,18 +86,18 @@ See <a href="MISC_usingQFs_help.shtml">Using MGI Query Forms</a> for how to use 
   <TR><TH ALIGN="left" VALIGN="top"><A NAME="sym"></A>Locus Symbol/Name</TH><TD VALIGN="top">Symbol or name for a mouse genetic marker.
 <UL>
   <LI>Enter one or more symbols or names (separated by commas).    <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example:  "cyclin B1, related sequence").</li> </LI>
-  <LI>Select an <A HREF="MISC_operators_help.shtml">operator</a>. The default  is CONTAINS; the system displays only the items with a symbol or name containing the characters you enter in this field. Click the pull-down arrow for additional choices. </LI>
+  <LI>Select an <A HREF="MISC_operators_help.shtml" target="_blank">operator</a>. The default  is CONTAINS; the system displays only the items with a symbol or name containing the characters you enter in this field. Click the pull-down arrow for additional choices. </LI>
 <LI>The default is to search current symbols/names & synonyms. Click the pull-down arrow to select an alternative: current symbols (no search of names) or current symbols or names. </LI>
   <LI>Use the NOT checkbox to exclude symbols from a search. <B>Note:</B> Many genes have
 withdrawn symbols and synonyms. If you use NOT and the default setting, a gene appears if <i>any</i> of its symbols (including withdrawns and synonyms) do <i>not</i> match the query. Thus, in apparent contradiction of your intent, some genes whose current symbol matches the query will appear. To avoid this, change the selector to <i>current symbols</i> when using the NOT.  </TR>
 
-  <TR><TH ALIGN="left" VALIGN="top"><A NAME="strain"></A>Primary Strain(s) <TD VALIGN="top"><B>Strain</B> refers to the strain of mouse in which a polymorphism is detected.  Enter a single strain or multiple strains separated by commas. Select an <A HREF="MISC_operators_help.shtml">operator</A> (the default is BEGINS). If your query specifies one or more primary strains and no comparison strains, the search finds all polymorphism information in MGI for the strains you specify.
+  <TR><TH ALIGN="left" VALIGN="top"><A NAME="strain"></A>Primary Strain(s) <TD VALIGN="top"><B>Strain</B> refers to the strain of mouse in which a polymorphism is detected.  Enter a single strain or multiple strains separated by commas. Select an <A HREF="MISC_operators_help.shtml" target="_blank">operator</A> (the default is BEGINS). If your query specifies one or more primary strains and no comparison strains, the search finds all polymorphism information in MGI for the strains you specify.
 <UL>
   <LI>To find polymorphic <B>differences</B> between strains, enter one or more strains in the Primary Strain(s) field and one or more strains in the Comparison Strain(s) field.</LI>
-  <LI>To check strain nomenclature or to see whether MGI has polymorphism information for your strain, click one of the lists under <A HREF="ftp://ftp.informatics.jax.org/pub/reports/index.html#strain">List of Strains with Polymorphism Data</A>.</LI>
+  <LI>To check strain nomenclature or to see whether MGI has polymorphism information for your strain, click one of the lists under <A HREF="ftp://ftp.informatics.jax.org/pub/reports/index.html#strain" target="_blank">List of Strains with Polymorphism Data</A>.</LI>
 </UL>  </TR>
 <TR>
-  <TH ALIGN="left" VALIGN="top"><A NAME="str"></A>Comparison Strain(s) <TD VALIGN="top">When you want to find differences in polymorphisms between two or more strains, use this field to specify strains to compare with those entered in the Primary Strains field. Enter a single strain or multiple strains separated by commas. Select an <A HREF="MISC_operators_help.shtml">operator</A> (the default is  BEGINS). </TD> </TR>
+  <TH ALIGN="left" VALIGN="top"><A NAME="str"></A>Comparison Strain(s) <TD VALIGN="top">When you want to find differences in polymorphisms between two or more strains, use this field to specify strains to compare with those entered in the Primary Strains field. Enter a single strain or multiple strains separated by commas. Select an <A HREF="MISC_operators_help.shtml" target="_blank">operator</A> (the default is  BEGINS). </TD> </TR>
  <TR>  <TH ALIGN="left" VALIGN="top"><A NAME="chr"></A>Chromosomal Location <TD VALIGN="top">There are three options associated with Chromosomal Location. You can select a: <UL>
      <LI>single chromosome to search for polymorphism data associated with markers on that chromosome.</LI>
      <LI>chromosomal region BETWEEN two points on a chromosome by selecting a chromosome AND specifying the cM values or marker symbols to begin and end the region of interest.

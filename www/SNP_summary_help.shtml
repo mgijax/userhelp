@@ -45,18 +45,18 @@ function openHelpWindow(helpFile){
 <li><a href="#date">How can I tell which database build I'm querying against?</a></li>
 <LI><A HREF="#not_contain">Will QTLs show up in a Mouse SNP summary?</A></LI>
 <LI><A HREF="#usage">How do I use a Mouse SNP summary?</A></LI>
-<LI><A HREF="SNP_legend_help.shtml">How do I interpret the legend?</A></LI>
-<LI><A HREF="SNP_discrepancy_help.shtml">How does genome coordinate discrepancy affect my results?</A></LI>
-<LI><A HREF="SNP_no_results_help.shtml">My query returned no results. Why?</A></LI>
+<LI><A HREF="SNP_legend_help.shtml" target="_blank">How do I interpret the legend?</A></LI>
+<LI><A HREF="SNP_discrepancy_help.shtml" target="_blank">How does genome coordinate discrepancy affect my results?</A></LI>
+<LI><A HREF="SNP_no_results_help.shtml" target="_blank">My query returned no results. Why?</A></LI>
 <li><A href="#ftp">I got a summary report with a "Link to Results on FTP Site" message. What do I do now?</A></li>
 </UL>
 
 <P>See also:</P>
 <ul>
  <LI><A HREF="#discrepancy">Understanding Mouse SNP Coordinate Discrepancies</A></LI>
-<LI><A HREF="SNP_detail_help.shtml">Interpreting Mouse SNP Details</A></LI>
-<LI><A HREF="SNP_legend_help.shtml">Interpreting the MGI Mouse SNPs Legend</A></LI>
-<li><a href="SNP_load_help.shtml">Interpreting the SNP Data in MGI</a></li>
+<LI><A HREF="SNP_detail_help.shtml" target="_blank">Interpreting Mouse SNP Details</A></LI>
+<LI><A HREF="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Legend</A></LI>
+<li><a href="SNP_load_help.shtml" target="_blank">Interpreting the SNP Data in MGI</a></li>
 </UL>
 
 
@@ -71,7 +71,7 @@ function openHelpWindow(helpFile){
     <li>The latter link takes you to the MGI Genes and Markers Query Results -- Summary where all MGI genes/markers within range appear, sorted by coordinates. </li>
   </ul>
   <b>Note:</b> If no SNPs are returned, these links do not appear, even though there may be markers in your range.
-<LI>A link to a legend (see <a href="SNP_legend_help.shtml">Interpreting the MGI Mouse SNPs Legend</a>) which decodes the data in the box below it).</LI>
+<LI>A link to a legend (see <a href="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Legend</a>) which decodes the data in the box below it).</LI>
 <LI>A table containing additional information about the Mouse SNPs matching your query. 
 <ul>
   <li>The table headings always include SNP ID, Map Position, and strain names. </li>
@@ -117,7 +117,7 @@ function openHelpWindow(helpFile){
 
 
 <h3><a name="discrepancy"></a>How does genome coordinate discrepancy affect my results?</h3>
-<p>When there is genome coordinate discrepancy, the summary section with links to associated genes from any returned coordinate regions does not appear.<!--When the discrepancy exists, a message indicating that the Associated Genes section is   temporarily disabled appears in the query summary report and you cannot click either the MGI Mouse Genome Browser or the MGI genes/markers links to view any returned coordinate ranges.--> This is because genome coordinates for mouse genes and markers in MGI are derived from the current NCBI mouse genome build but the coordinates for mouse SNPs are derived from an earlier NCBI mouse genome build (as, for example, when MGI genome coordinates are derived from NCBI build 34 but the dbSNP data references NCBI build 33).  See <A href="SNP_discrepancy_help.shtml">Understanding Mouse SNP Coordinate Discrepancies</a> for further information.
+<p>When there is genome coordinate discrepancy, the summary section with links to associated genes from any returned coordinate regions does not appear.<!--When the discrepancy exists, a message indicating that the Associated Genes section is   temporarily disabled appears in the query summary report and you cannot click either the MGI Mouse Genome Browser or the MGI genes/markers links to view any returned coordinate ranges.--> This is because genome coordinates for mouse genes and markers in MGI are derived from the current NCBI mouse genome build but the coordinates for mouse SNPs are derived from an earlier NCBI mouse genome build (as, for example, when MGI genome coordinates are derived from NCBI build 34 but the dbSNP data references NCBI build 33).  See <A href="SNP_discrepancy_help.shtml" target="_blank">Understanding Mouse SNP Coordinate Discrepancies</a> for further information.
 </p>
 
 <H3><A NAME="ftp"></A>I got a summary report with a "Link to Results on FTP Site" message. What do I do now?</H3>
