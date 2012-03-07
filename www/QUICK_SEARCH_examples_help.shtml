@@ -60,7 +60,7 @@ function openHelpWindow(helpFile){
 <li><a href="#help">Help! I can't find what I was looking for.</a>
 </ul>
 
-<a href="QUICK_SEARCH_help.shtml"><font size="-1">Back to "Using the Quick Search Tool"</font></a>
+<a href="QUICK_SEARCH_help.shtml" target="_blank"><font size="-1">Back to "Using the Quick Search Tool"</font></a>
 
 <h3><a name="advanced"></a>Is there an advanced search?</h3>
 <p>You can narrow what the Quick Search returns by:</p>
@@ -69,10 +69,10 @@ function openHelpWindow(helpFile){
   </ul>
 <p>You can get additional information about Quick Search results by: <ul>
   <li>forwarding them to the MGI Batch Query (click <b>Get more data</b> beneath <b>Best Match</b> under <b>Genome Features</b> on the <b>Quick Search Results</b> page).</li>
-  <li>using <a href="QUICK_SEARCH_help.shtml#google">Search MGI with Google</a> (located at the bottom of the <b>Quick Search Results</b> page.</li>
+  <li>using <a href="QUICK_SEARCH_help.shtml#google" target="_blank">Search MGI with Google</a> (located at the bottom of the <b>Quick Search Results</b> page.</li>
 </ul>
 </p>
-<p>See also <a href="QUICK_SEARCH_help.shtml#advantage">When should I use Quick Search vs. an individual MGI query form?</a> for more information about advanced searches.</p>
+<p>See also <a href="QUICK_SEARCH_help.shtml#advantage" target="_blank">When should I use Quick Search vs. an individual MGI query form?</a> for more information about advanced searches.</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
@@ -98,7 +98,7 @@ function openHelpWindow(helpFile){
   <li>NCBI uses it to identify a gene model sequence associated with another gene.</li>
   <li>OMIM uses it to identify a disease condition whose associated human gene has an orthologous gene in mouse.</li>
 </ul>
-See <a href="ACCESSION_ID_help.shtml">Accession ID types and examples</a>  for list of providers, sample IDs, and where to look for any matches in the Quick Search Results.
+See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and examples</a>  for list of providers, sample IDs, and where to look for any matches in the Quick Search Results.
 </p>
 
 <a href="#top"><font size="-1">Top</font></a>
@@ -147,7 +147,7 @@ See <a href="ACCESSION_ID_help.shtml">Accession ID types and examples</a>  for l
 
 
 <h3><a name="need_to_know"></a>Do I have to know vocabulary keywords or could I enter a vocabulary definition or synonym instead?</h3>
-<p>Quick Search looks for terms (that is, <a href="http://en.wikipedia.org/wiki/Keyword" target="new">keywords</a>), synonyms, and definitions from the vocabularies. If you want an exact match, put the word or phrase in quotation marks to find a complete term, synonym, or definition.
+<p>Quick Search looks for terms (that is, <a href="http://en.wikipedia.org/wiki/Keyword" target="blank">keywords</a>), synonyms, and definitions from the vocabularies. If you want an exact match, put the word or phrase in quotation marks to find a complete term, synonym, or definition.
 
 </p><a href="#top"><font size="-1">Top</font></a>
 
@@ -157,18 +157,18 @@ See <a href="ACCESSION_ID_help.shtml">Accession ID types and examples</a>  for l
 <table border="1" cell spacing="0" cellpadding="3" width="!%">
 <tr><th width="15%" valign="top">Acronym</th><th valign="top">Full Name</th><th valign="top">Quick Search looks for...</th></tr>
 <tr><td valign="top">AD</td><td valign="top">Anatomical Dictionary<br>
-<a href="<!--#include file='include/wi_url.html'-->/searches/anatdict_form.shtml">The Mouse Anatomical Dictionary Browser</a></td><td valign="top">Expression</td></tr>
+<a href="<!--#include file='include/wi_url.html'-->/searches/anatdict_form.shtml" target="_blank">The Mouse Anatomical Dictionary Browser</a></td><td valign="top">Expression</td></tr>
 <tr><td valign="top">GO</td><td valign="top">Gene Ontology<br>
-<a href="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml">GO Browser</a></td>
+<a href="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml" target="_blank">GO Browser</a></td>
 <td valign="top">Function including molecular function, biological process, and cellular component</td></tr>
 <tr><td valign="top">MP</td><td valign="top">Mammalian Phenotype<br>
-<a href="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml">Mammalian Phenotype Browser</a></td><td valign="top">Phenotype</td></tr>
+<a href="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a></td><td valign="top">Phenotype</td></tr>
 <tr><td valign="top">OMIM</td><td valign="top">Online Mendelian Inheritance in Man<br>
-<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A">Human Disease Vocabulary Browser</a></td><td valign="top">Disease (model or ortholog)</td></tr>
+<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A" target="_blank">Human Disease Vocabulary Browser</a></td><td valign="top">Disease (model or ortholog)</td></tr>
 <tr><td valign="top">PIRSF</td><td valign="top">Protein Information Resource SuperFamily </td><td valign="top">Protein families</td></tr>
-<tr><td valign="top">InterPro</td><td valign="top">Protein data from  EBI's <a href="http://www.ebi.ac.uk/interpro/">InterPro</a> database</td><td valign="top">Protein domain</td></tr>
+<tr><td valign="top">InterPro</td><td valign="top">Protein data from  EBI's <a href="http://www.ebi.ac.uk/interpro/" target="_blank">InterPro</a> database</td><td valign="top">Protein domain</td></tr>
 </table><br>
-<b>Note:</b> Adult Mouse Anatomy (MA) matches do not appear beneath <a href="QUICK_SEARCH_help.shtml#vocabulary">Vocabulary Terms</a>, but (when available) do appear beneath <b>Other Results by ID</b>.
+<b>Note:</b> Adult Mouse Anatomy (MA) matches do not appear beneath <a href="QUICK_SEARCH_help.shtml#vocabulary" target="_blank">Vocabulary Terms</a>, but (when available) do appear beneath <b>Other Results by ID</b>.
 </blockquote>
 
 </p>
@@ -204,13 +204,13 @@ See <a href="ACCESSION_ID_help.shtml">Accession ID types and examples</a>  for l
 
 
 <h3><a name="which_id">Are there any examples of the accession IDs that Quick Search can find?</h3>
-<p>Yes. See <a href="ACCESSION_ID_help.shtml">Querying by Accession ID - Results and Examples</a> for list of providers, sample IDs, and where to look for any matches in the Quick Search Results.
+<p>Yes. See <a href="ACCESSION_ID_help.shtml" target="_blank">Querying by Accession ID - Results and Examples</a> for list of providers, sample IDs, and where to look for any matches in the Quick Search Results.
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 
 
 <h3><a name="stemming">What is stemming? Are there examples of words that Quick Search stems?</h3>
-<p>Quick Search identifies the "root" of a word by removing common suffixes. This is called <i>stemming</i>. (For more information, see <a href="http://en.wikipedia.org/wiki/Stemming" target="new">stemming</a> in Wikipedia.)
+<p>Quick Search identifies the "root" of a word by removing common suffixes. This is called <i>stemming</i>. (For more information, see <a href="http://en.wikipedia.org/wiki/Stemming" target="blank">stemming</a> in Wikipedia.)
 As examples:  <i>translocation</i> is stemmed to <i>transloc-</i>; <i>immunization</i> is stemmed to <i>immun-</i>.  Click <i>See Details for this Search</i> on a Results page to see how Quick Search has stemmed any word or phrase in your search text.
 </p>
 <p>Additional examples:    
@@ -244,7 +244,7 @@ As examples:  <i>translocation</i> is stemmed to <i>transloc-</i>; <i>immunizati
   
 <h3><A name="stop">What are "stop words" and what does Quick Search do with them?</h3>
 <p><b>Stop words</b> are natural articles of speech that are filtered by search engines to speed up processing.
-See <a href="http://en.wikipedia.org/wiki/Stop_words">stop words</a> in Wikipedia for a definition. Quick Search removes the following words (except when they are part of a gene name) from queries:
+See <a href="http://en.wikipedia.org/wiki/Stop_words" target="_blank">stop words</a> in Wikipedia for a definition. Quick Search removes the following words (except when they are part of a gene name) from queries:
 <blockquote>
 <table border="0" cellspacing="2" cellpadding="4 width=">
    <tr><td valign="top">a | an | and | as | be | but | if | is| it | or | such | that | the | their | then | there | these | they | this | was | will</td></tr>
@@ -255,40 +255,40 @@ See <a href="http://en.wikipedia.org/wiki/Stop_words">stop words</a> in Wikipedi
 
 <h3><a name="help"></a>Help! I can't find what I was looking for.</h3>
 <ul>
-  <li>If Quick Search doesn't return appropriate matches, or if you want more specific results, try using  one of the MGI query forms accessible from the <b>Search</b> tab in the top menu bar. Click <b>Search-->All Search Tools</b> (on the MGI homepage) to see everything available. (<a href="http://www.informatics.jax.org/allsearch.shtml">http://www.informatics.jax.org/allsearch.shtml</a>)</li>
+  <li>If Quick Search doesn't return appropriate matches, or if you want more specific results, try using  one of the MGI query forms accessible from the <b>Search</b> tab in the top menu bar. Click <b>Search-->All Search Tools</b> (on the MGI homepage) to see everything available. (<a href="http://www.informatics.jax.org/allsearch.shtml" target="_blank">http://www.informatics.jax.org/allsearch.shtml</a>)</li>
   <li>Consult the user documentation for detailed information about searches. As examples, see 
-<A HREF="GENE_help.shtml">Using the Genes and Markers Query Form</A> for information about searches on genes or genome features and <A HREF="ACCESSION_ID_help.shtml">Querying by Accession ID - Results and Examples</A> for the types of accession ID cross-referenced in MGI.
+<A HREF="GENE_help.shtml" target="_blank">Using the Genes and Markers Query Form</A> for information about searches on genes or genome features and <A HREF="ACCESSION_ID_help.shtml" target="_blank">Querying by Accession ID - Results and Examples</A> for the types of accession ID cross-referenced in MGI.
 
 
 <blockquote>
 <table border="1" cellspacing="1" cellpadding="3" width="!">
  <tr><th valign="top">To find...</th><th valign="top">For example...</th><th valign="top">Look here</th></tr>
-     <tr><td valign="top" width="15%">An overview of MGI data</td><td valign="top">lists of all MGI markers, sequence data, mammalian orthology, gene ontology, strains & polymorphisms, gene expression, alleles and phenotypes, nomenclature, references, clone collections</td><td valign="top"><a href="ftp://ftp.informatics.jax.org/pub/reports/index.html">MGI Data and Statistical Reports</a></td></tr>
+     <tr><td valign="top" width="15%">An overview of MGI data</td><td valign="top">lists of all MGI markers, sequence data, mammalian orthology, gene ontology, strains & polymorphisms, gene expression, alleles and phenotypes, nomenclature, references, clone collections</td><td valign="top"><a href="ftp://ftp.informatics.jax.org/pub/reports/index.html" target="_blank">MGI Data and Statistical Reports</a></td></tr>
 <tr><td valign="top">MGI query forms & other searches</td><td valign="top" width="55%">Genes, Genome Features & Maps; Phenotypes, Alleles & Disease Models; Gene Expression; GO Functional annotations; Strains, SNPs & Polymorphisms; Mammalian Orthology; Sequences; Probes & Clones; References; Vocabularies; and more</td><td valign="top">
-<a href="<!--#include file='include/wi_url.html'-->menus/allsearch.shtml">All Search Tools</a></td></tr>
+<a href="<!--#include file='include/wi_url.html'-->menus/allsearch.shtml" target="_blank">All Search Tools</a></td></tr>
        <tr><td valign="top">Nomenclature</td><td valign="top">symbols, names, synonyms for mouse genes,  genome features, orthologs, alleles, mutations</td><td valign="top">
-<a href="<!--#include file='include/mgihome_url.html'-->homepages/genes.shtml">Genes, Genome Features & Maps</a><br>
-<A HREF="<!--#include file='include/mgihome_url.html'-->/nomen/index.shtml">Mouse Nomenclature Homepage</a></td></tr>
+<a href="<!--#include file='include/mgihome_url.html'-->homepages/genes.shtml" target="_blank">Genes, Genome Features & Maps</a><br>
+<A HREF="<!--#include file='include/mgihome_url.html'-->/nomen/index.shtml" target="_blank">Mouse Nomenclature Homepage</a></td></tr>
     <tr><td valign="top">Gene expression</td><td valign="top">during development, from assays, in structures, during developmental stages, in cell-line or tissue</td><td valign="top">
-<a href="<!--#include file='include/mgihome_url.html'-->homepages/expression.shtml">Gene Expression Database (GXD)</a> </td></tr>
+<a href="<!--#include file='include/mgihome_url.html'-->homepages/expression.shtml" target="_blank">Gene Expression Database (GXD)</a> </td></tr>
     <tr><td valign="top">Embryonic development, postnatal mouse, anatomical structures, Theiler stages</td><td valign="top">somite pair<br>pigmented retinal epithelium</td><td valign="top">
-<a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml">The Mouse Anatomical Dictionary Browser</a></td></tr>
+<a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">The Mouse Anatomical Dictionary Browser</a></td></tr>
     <tr><td valign="top">Functional annotations for mouse gene products</td><td valign="top">GO:0004699<br>calcium-independent protein kinase C activity<br>regulation of signal transduction </td><td valign="top">
-<a href="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml">GO Browser</a></td></tr>
+<a href="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml" target="_blank">GO Browser</a></td></tr>
     <tr><td valign="top">Protein domains</td><td valign="top">IPR016243<br>Immunoglobulin-like fold<br>Tyrosine-protein kinase, CSF-1/PDGF receptor<br>
-Protein kinase ATP binding, conserved site</td><td valign="top"><a href="ftp://ftp.informatics.jax.org/pub/reports/MGI_InterProDomains.sql.rpt">Interpro IDs and domain names</a> (MGI data report) or <br>EBI's <a href="http://www.ebi.ac.uk/interpro/">InterPro</a> database </td></tr>   
+Protein kinase ATP binding, conserved site</td><td valign="top"><a href="ftp://ftp.informatics.jax.org/pub/reports/MGI_InterProDomains.sql.rpt" target="_blank">Interpro IDs and domain names</a> (MGI data report) or <br>EBI's <a href="http://www.ebi.ac.uk/interpro/" target="_blank">InterPro</a> database </td></tr>   
         <tr><td valign="top">Annotated phenotype data (terms, definitions and term relationships in a DAG)</td><td valign="top">cellular phenotype<br>               
  embryogenesis phenotype <br>homeostasis/metabolism phenotype<br>lethality-postnatal</td><td valign="top">
-<a href="<!--#include file='include/wi_url.html'-->/searches/MP_form.shtml">Mammalian Phenotype Browser</a></td></td></tr>   
+<a href="<!--#include file='include/wi_url.html'-->/searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a></td></td></tr>   
 
   <tr><td valign="top">human genes and genetic disorders; diseases</td><td valign="top">607822<br>breast cancer</td><td valign="top">
-<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A">Human Disease Vocabulary Browser</a></td></tr> 
+<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A" target="_blank">Human Disease Vocabulary Browser</a></td></tr> 
    
    </table>
 
 </blockquote>
 </li>
-  <li>Contact User Support for help finding information relevant to your research. You can use the "Your Input Welcome" button to submit questions, use the  <a href="<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml" title="Contact user support">Contact User Support</a> form,  or call (207) 288-6445.</li>
+  <li>Contact User Support for help finding information relevant to your research. You can use the "Your Input Welcome" button to submit questions, use the  <a href="<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml" title="Contact user support" target="_blank">Contact User Support</a> form,  or call (207) 288-6445.</li>
 
 </ul>
 
