@@ -52,9 +52,9 @@ function openHelpWindow(helpFile){
 
 <P>See also:</P>
 <ul>
-<LI><A HREF="SNP_summary_help.shtml">Interpreting a Mouse SNP Summary</A></LI>
-<LI><A HREF="SNP_detail_help.shtml">Interpreting Mouse SNP Details</A></LI>
-<LI><A HREF="SNP_legend_help.shtml">Interpreting the MGI Mouse SNPs Legend</A> <i><font size="-1">(RefSNPs vs submitted SNPs, dbSNP & MGI function classes, variation types, rs & ss orientation, strain alleles & allele value conflicts, SNP assay IDs)</i></font></LI>
+<LI><A HREF="SNP_summary_help.shtml" target="_blank">Interpreting a Mouse SNP Summary</A></LI>
+<LI><A HREF="SNP_detail_help.shtml" target="_blank">Interpreting Mouse SNP Details</A></LI>
+<LI><A HREF="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Legend</A> <i><font size="-1">(RefSNPs vs submitted SNPs, dbSNP & MGI function classes, variation types, rs & ss orientation, strain alleles & allele value conflicts, SNP assay IDs)</i></font></LI>
 </UL>
 
 
@@ -84,7 +84,7 @@ function openHelpWindow(helpFile){
 
 
 <h3><A name="wherewhen"></A>Where does MGI get mouse SNP data and when does it load this data?</h3>
-  <p>MGI loads mouse SNP data from <a href="http://www.ncbi.nlm.nih.gov/projects/SNP/index.html">dbSNP at NCBI</a> in conjunction with new dbSNP build releases. </p>
+  <p>MGI loads mouse SNP data from <a href="http://www.ncbi.nlm.nih.gov/projects/SNP/index.html" target="_blank">dbSNP at NCBI</a> in conjunction with new dbSNP build releases. </p>
 <p></p>
 
 
@@ -143,7 +143,7 @@ function openHelpWindow(helpFile){
 </tr>
 <tr>
 <th align="left" valign="top"><a name="statistics"></a>Statistics</th>
-<td valign="top">All data values are from the most current dbSNP build loaded into the MGI database. <b>Note:</b> Some values for number of SNPs in MGI may differ from Provider values. See <a name="description">Description</a> for details. For more information, see <a href="http://www.ncbi.nlm.nih.gov/books/bv.fcgi?highlight=statistics&rid=helpsnpfaq.section.Content.dbSNP_Data_Statistic">dbSNP Data Statistics</a>.
+<td valign="top">All data values are from the most current dbSNP build loaded into the MGI database. <b>Note:</b> Some values for number of SNPs in MGI may differ from Provider values. See <a name="description">Description</a> for details. For more information, see <a href="http://www.ncbi.nlm.nih.gov/books/bv.fcgi?highlight=statistics&rid=helpsnpfaq.section.Content.dbSNP_Data_Statistic" target="_blank">dbSNP Data Statistics</a>.
 
 <table border="1" cellpadding="4">
 <tr>
