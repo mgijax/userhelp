@@ -45,13 +45,13 @@ function openHelpWindow(helpFile){
 </p>
 <p>See also:
 <ul>
-<li><a href="SNP_help.shtml">Using the Mouse SNP Query Form</a></li>
-<li><a href="SNP_summary_help.shtml">Interpreting a Mouse SNP Summary</a></li>
-<li><a href="SNP_load_help.shtml">Interpreting the SNP Data in MGI Report</a></li>
-<li><a href="SNP_terms_help.shtml">SNP Terms and Concepts</a></li>
-<li><a href="SNP_discrepancy_help.shtml">Understanding Mouse RefSNP Coordinate Discrepancies</a></li>
-<li><a href="SNP_legend_help.shtml">Interpreting the MGI Mouse SNPs Legend</a></li>
-<li><a href="SNP_no_results_help.shtml">My query returned no results. Why?</a></li>
+<li><a href="SNP_help.shtml" target="_blank">Using the Mouse SNP Query Form</a></li>
+<li><a href="SNP_summary_help.shtml" target="_blank">Interpreting a Mouse SNP Summary</a></li>
+<li><a href="SNP_load_help.shtml" target="_blank">Interpreting the SNP Data in MGI Report</a></li>
+<li><a href="SNP_terms_help.shtml" target="_blank">SNP Terms and Concepts</a></li>
+<li><a href="SNP_discrepancy_help.shtml" target="_blank">Understanding Mouse RefSNP Coordinate Discrepancies</a></li>
+<li><a href="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Legend</a></li>
+<li><a href="SNP_no_results_help.shtml" target="_blank">My query returned no results. Why?</a></li>
 </ul></p>
 <h3><a name="interpret"></a>How do I interpret the SNP detail report resulting from my query?</h3>
 <a name="top"></a>
@@ -117,7 +117,7 @@ function openHelpWindow(helpFile){
 </tr>
 <tr>
 <th align="left" valign="top"><a name="snp_assays"></a>SNP assays and RefSNP consensus</th>
-<td align="left" valign="top">Strain alleles of submitted assays and consensus values for this RefSNP; ss assays with strain alleles appear separately from ss assays without strain alleles. The ss assays without strain alleles have no Population column and have an allele summary rather than a list of strains. See <a href="SNP_legend_help.shtml">Interpreting the MGI Mouse SNPs Legend</a> for additional details about RefSNPs versus submitted SNPs, dbSNP and MGI function classes, variation types, rs and ss orientation, strain alleles and allele value conflict information, and SNP assay IDs.
+<td align="left" valign="top">Strain alleles of submitted assays and consensus values for this RefSNP; ss assays with strain alleles appear separately from ss assays without strain alleles. The ss assays without strain alleles have no Population column and have an allele summary rather than a list of strains. See <a href="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Legend</a> for additional details about RefSNPs versus submitted SNPs, dbSNP and MGI function classes, variation types, rs and ss orientation, strain alleles and allele value conflict information, and SNP assay IDs.
 <table border="1" cellspacing="1" cellpadding="3">
 <tr>
 <th align="left" valign="top">Assay ID</th>
@@ -141,7 +141,7 @@ function openHelpWindow(helpFile){
 </tr>
 <tr>
 <th align="left" valign="top">Variation Type</th>
-<td valign="top">See <a href="SNP_legend_help.shtml">Interpreting the MGI Mouse SNPs Legend</a>.</td>
+<td valign="top">See <a href="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Legend</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top">Strains</th>
@@ -180,7 +180,7 @@ function openHelpWindow(helpFile){
  <tr>
   <th align="left" valign="top"><a name="gene_marker"></a>Function class, Allele, Residue,<br> Codon Position, AA Position</th>
   <td valign="top">For Function class, see <a href="SNP_legend_help.shtml">Interpreting the MGI Mouse SNPs Legend</a>.
-<br>Residue: Abbreviation for the amino acid. See <a href="http://en.wikipedia.org/wiki/Amino_acid#Table_of_standard_amino_acid_abbreviations_and_side_chain_properties">table</a>.
+<br>Residue: Abbreviation for the amino acid. See <a href="http://en.wikipedia.org/wiki/Amino_acid#Table_of_standard_amino_acid_abbreviations_and_side_chain_properties" target="_blank">table</a>.
 </td>
  </tr>
 </table>

@@ -62,11 +62,11 @@ Interpreting a Sequence Summary </span>
 
 <P>See also:</P>
 <UL>
-<LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
+<LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
 <!--<LI><A HREF="SEQUENCE_help.shtml">Using the Mouse Sequence Query Form</A></LI>-->
-<LI><A HREF="SEQUENCE_detail_help.shtml">Interpreting Sequence Detail Reports</A></LI>
+<LI><A HREF="SEQUENCE_detail_help.shtml" target="_blank">Interpreting Sequence Detail Reports</A></LI>
 <!--<LI><A HREF="SEQUENCE_query_tips_help.shtml">Sequence Query Tips</A></LI>-->
-<LI><A HREF="mouseblast_basic_steps_help.shtml">Using MouseBLAST - Basic Steps</A></LI>
+<LI><A HREF="mouseblast_basic_steps_help.shtml" target="_blank">Using MouseBLAST - Basic Steps</A></LI>
 </UL>
 
 
@@ -118,7 +118,7 @@ Interpreting a Sequence Summary </span>
 <LI>Summary information about the sequences matching your query, in columns. Columns headings are: Select<!--(for your check marks)-->, Sequence, Type, Length, Strain/Species, Description from Sequence Provider, Clone Collection and Marker Symbol. </LI>
 </UL>
 
-<P>You can view MGI sequence details (see <A HREF="SEQUENCE_detail_help.shtml">Using Sequence Detail Reports</A>), or you can download it in <A HREF="#fasta">FASTA</A> format or forward it to <A HREF="#mouseblast">MouseBLAST</A>.
+<P>You can view MGI sequence details (see <A HREF="SEQUENCE_detail_help.shtml" target="_blank">Using Sequence Detail Reports</A>), or you can download it in <A HREF="#fasta">FASTA</A> format or forward it to <A HREF="#mouseblast">MouseBLAST</A>.
 </P>
 
 <font size="-1"><a href="#top">Top</a>
@@ -170,7 +170,7 @@ There is no further sort by the division (for example,<i>Rodent</i> or <i>HTC</i
 The provider's sequence record appears.</LI>
 
 <LI>Click <B>MGI Sequence Detail</B>.<BR>
-The detail record for that sequence as stored in MGI appears. See <A HREF="SEQUENCE_detail_help.shtml">Using Sequence Detail Reports</A>.</LI>
+The detail record for that sequence as stored in MGI appears. See <A HREF="SEQUENCE_detail_help.shtml" target="_blank">Using Sequence Detail Reports</A>.</LI>
 </OL>
 
 <font size="-1"><a href="#top">Top</a>
@@ -207,8 +207,8 @@ The detail record for that sequence as stored in MGI appears. See <A HREF="SEQUE
 </p>
 <p>For additional information, see:
 <ul>
-   <li><a href="mouseblast_forwarding_help.shtml">Using the Forward to MouseBLAST Form</a></li>
- <li><a href="mouseblast_output_help.shtml">Interpreting the MouseBLAST Output Report</a></li>  
+   <li><a href="mouseblast_forwarding_help.shtml" target="_blank">Using the Forward to MouseBLAST Form</a></li>
+ <li><a href="mouseblast_output_help.shtml" target="_blank">Interpreting the MouseBLAST Output Report</a></li>  
 </ul>
 </p>
 <font size="-1"><a href="#top">Top</a></font>

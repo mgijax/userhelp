@@ -38,7 +38,7 @@ function openHelpWindow(helpFile){
 <p>This help document answers the following questions:
  <UL>
  <LI><A HREF="#whatdo">What can I use the Mouse SNP Query Form to find?</A></LI>
-<LI><A HREF="SNP_discrepancy_help.shtml">How does genome coordinate discrepancy affect a query?</A></LI>
+<LI><A HREF="SNP_discrepancy_help.shtml" target="_blank">How does genome coordinate discrepancy affect a query?</A></LI>
   <LI><A HREF="#seqattribute">How do I use this form to find SNPs?</A></LI>
 <li><a href="#specifics">Are there specific requirements for this form?</a></li>
 <li><a href="#date">How do I know which dbSNP build I'm querying against?</a></li>
@@ -52,17 +52,17 @@ function openHelpWindow(helpFile){
 <li><A HREF="#include_QTL">Do SNPs Located Near Genes include QTLs in the summary results?</A></LI>
 <li><A HREF="#include_QTL">Can I change the strain order in the query results?
  <li><A href="#results">How do I interpret query results?</A></li>
-<LI><A HREF="SNP_no_results_help.shtml">My query returned no results. Why?</A></LI>
+<LI><A HREF="SNP_no_results_help.shtml" target="_blank">My query returned no results. Why?</A></LI>
 <!--<A HREF="#example">Are there any sample queries?</A></LI>-->
 
 </UL>
 </P>
 <p>See also: 
 <UL>
-<li><a href="SNP_terms_help.shtml">SNP Terms</a> for answers to questions such as <a href="SNP_terms_help.shtml#dbSNP">What is dbSNP?</a>, <a href="SNP_terms_help.shtml#function">What are the dbSNP function classes?</a>, <a href="SNP_terms_help.shtml#variation_type">What is a <i>variation type</i>?</a>, and <a href="SNP_terms_help.shtml#dbsnp_vt">What is the distinction between variation types?</a></li>
-<li><a href="SNP_legend_help.shtml">Understanding Mouse SNPs in MGI</a> for information about dbSNP and MGI function classes</li>
-<li><a href="SNP_summary_help.shtml">Interpreting a Mouse SNP Summary</a>, <a href="SNP_detail_help.shtml">Interpreting Mouse SNP Details</a>, <a href="SNP_load_help.shtml">Interpreting the SNP Data in MGI Report</a></li>
-<li><a href="SNP_discrepancy_help.shtml">Understanding Mouse SNP Coordinate Discrepancies</a></li>
+<li><a href="SNP_terms_help.shtml" target="_blank">SNP Terms</a> for answers to questions such as <a href="SNP_terms_help.shtml#dbSNP" target="_blank">What is dbSNP?</a>, <a href="SNP_terms_help.shtml#function" target="_blank">What are the dbSNP function classes?</a>, <a href="SNP_terms_help.shtml#variation_type" target="_blank">What is a <i>variation type</i>?</a>, and <a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">What is the distinction between variation types?</a></li>
+<li><a href="SNP_legend_help.shtml" target="_blank">Understanding Mouse SNPs in MGI</a> for information about dbSNP and MGI function classes</li>
+<li><a href="SNP_summary_help.shtml" target="_blank">Interpreting a Mouse SNP Summary</a>, <a href="SNP_detail_help.shtml" target="_blank">Interpreting Mouse SNP Details</a>, <a href="SNP_load_help.shtml" target="_blank">Interpreting the SNP Data in MGI Report</a></li>
+<li><a href="SNP_discrepancy_help.shtml" target="_blank">Understanding Mouse SNP Coordinate Discrepancies</a></li>
 </ul>
 </p>
 
@@ -80,7 +80,7 @@ function openHelpWindow(helpFile){
 <li>marker range</li>
 <li>associated genes</li>
 </UL>
-<b>Note:</b> The query searches for RefSNP consensus information, <b>not</b> submitted SNP assay information, and only RefSNP consensus information data are returned. See <a href="SNP_terms_help.shtml">SNP Terms and Concepts</a> for details about RefSNPs, submitted SNP assays, and consensus data.
+<b>Note:</b> The query searches for RefSNP consensus information, <b>not</b> submitted SNP assay information, and only RefSNP consensus information data are returned. See <a href="SNP_terms_help.shtml" target="_blank">SNP Terms and Concepts</a> for details about RefSNPs, submitted SNP assays, and consensus data.
 <!--
 <p>Strain queries consider the <A href="SNP_terms_help.shtml#strain_allele">rs consensus strain allele</a> set for each SNP (the union of the majority allele calls for each strain of a SNP). Only data from <a href="SNP_terms_help.shtml#SNP_assay">ss assays with strain/alleles</a> contribute to the rs consensus strain alleles and <a href="SNP_terms_help.shtml#variation_type">rs variation type</a>.</p>-->
 <P>The query retrieves the first 1000 (the default) SNPs that match your criteria. See <A HREF="#limit">Is there a limit on the number of SNPs that a query returns?</A> for more details. <B>Note:</B> The number of results in a query report is never more than the number indicated in <A HREF="#max_no">Maximum number of items returned</A>. Thus, if you want to ensure that you see every result, check the <i>no limit</i> box in the <a href="#sort">Output options</a> section.</P>
@@ -95,7 +95,7 @@ function openHelpWindow(helpFile){
 
 
 <H3><A NAME="seqattribute"></A>How do I use this form to find SNPs?</A></H3>
-<P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in <A HREF="#field">What values are acceptable in the each of the query form fields?</A>. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help.shtml">Using MGI Query Forms</a> for additional information.
+<P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in <A HREF="#field">What values are acceptable in the each of the query form fields?</A>. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help.shtml" target="_blank">Using MGI Query Forms</a> for additional information.
 
  </UL>
  </p>
@@ -235,13 +235,13 @@ function openHelpWindow(helpFile){
 <p>You can also set the results to return all SNPs relative to the reference strain allele, only those which are the same, or only those which are different. To do this, click the arrow beside <b>SNPs returned</b> and highlight your choice.
 </p></TD></TR>
 
-   <TR><TH ALIGN="left" VALIGN="top"><A NAME="attributes"></a>SNP attributes</th><td valign="top">Use these boxes to determine the types and case of SNPs to return. To make selections, click one or more items on the lists.  The default is to return SNPs from <B>Any</B> type or class on the list. See <a name="variation_type"></a><a href="SNP_terms_help.shtml#dbsnp_vt">Variation Types</a> and <a name="function_class"></a><a href="SNP_terms_help.shtml#dbsnp_fc">Function Class</a> for additional details about list items on these lists.</td></tr>
+   <TR><TH ALIGN="left" VALIGN="top"><A NAME="attributes"></a>SNP attributes</th><td valign="top">Use these boxes to determine the types and case of SNPs to return. To make selections, click one or more items on the lists.  The default is to return SNPs from <B>Any</B> type or class on the list. See <a name="variation_type"></a><a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">Variation Types</a> and <a name="function_class"></a><a href="SNP_terms_help.shtml#dbsnp_fc" target="_blank">Function Class</a> for additional details about list items on these lists.</td></tr>
     
 
 <TR><th align=left valign="top"><a name="map_position"></a>Map position</th>
   <Td ALIGN="left" VALIGN="top">Use the map position parameters (<a name="chromosome"></a>Chromosome(s), <a name="genome_coordinates"></a></a>Genome Coordinates, <a name="cytogenetic_band"></a>Cytogenetic Band, <a name="marker_range"></a>Marker Range, and              <a name="cm_offset"></a>cM Position) to limit the scope of your query. <li>When using chromosome(s), you can also define genome coordinates, cytogenetic band, or cM position.</li> <li>You cannot combine genome coordinates, cytogenetic band, and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) &#151; except QTL(s) &#151; with coordinates.</li>
 
-See <a href="MISC_map_position_help.shtml">Using Map Position Fields on MGI Query Forms</a> for further details about entering values in these fields.</td>
+See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fields on MGI Query Forms</a> for further details about entering values in these fields.</td>
         </tr>
      
 
@@ -269,7 +269,7 @@ See <a href="MISC_map_position_help.shtml">Using Map Position Fields on MGI Quer
   <li>The query is inclusive of the marker.</li>
   <li>You may <b>not</b> use QTL symbols. SNPs are not associated with markers of <i>type</i> QTL.</li>
 </ul>
-<b>Note:</b> When there is a discrepancy between the genome coordinates of SNPs and MGI genes, this field is disabled. For more information, see <a href="SNP_discrepancy_help.shtml">How does genome coordinate discrepancy affect my query?
+<b>Note:</b> When there is a discrepancy between the genome coordinates of SNPs and MGI genes, this field is disabled. For more information, see <a href="SNP_discrepancy_help.shtml" target="_blank">How does genome coordinate discrepancy affect my query?
 </td></tr>
 </table></td></tr>
 
@@ -296,7 +296,7 @@ See <a href="MISC_map_position_help.shtml">Using Map Position Fields on MGI Quer
 <TR><TH ALIGN="left" VALIGN="top">Tab-delimited text to ftp site</TH><TD VALIGN="top">Tab-delimited text saved on our public FTP site available for 72 hours. Be sure to save the URL or print the page with the information for later access.  
 </TABLE>
 </TD>
- <tr><td colspan="2">If your query times out or you get an error message before it completes, <A HREF="<!--#include file='include/mgihome_url.html'-->/support/mgi_inbox.shtml">Contact User Support</A>.
+ <tr><td colspan="2">If your query times out or you get an error message before it completes, <A HREF="<!--#include file='include/mgihome_url.html'-->/support/mgi_inbox.shtml" target="_blank">Contact User Support</A>.
 </td></tr>
 </TR></TABLE>
 </td></tr></table>
@@ -326,14 +326,14 @@ See <a href="MISC_map_position_help.shtml">Using Map Position Fields on MGI Quer
 <p>
 <ul>
   <li><p>See <A HREF="SNP_summary_help.shtml">Interpreting a Mouse SNP Summary</A> for this information. From the summary report, you can access a SNP Detail Reports for single SNPs. 
-  <li>See <a href="SNP_detail_help.shtml">Interpreting SNP Details</a> for this information.</li>
+  <li>See <a href="SNP_detail_help.shtml" target="_blank">Interpreting SNP Details</a> for this information.</li>
 </ul>
 </p>
 <A HREF="#top"<font size-"-1">Top</font></A>
 
 
  <H3>My query returned no results. Why? </H3>
-<P>See <A HREF="SNP_no_results_help.shtml">My SNP query returned no results. Why? </A> for help reformulating a Mouse SNP query.</P>
+<P>See <A HREF="SNP_no_results_help.shtml" target="_blank">My SNP query returned no results. Why? </A> for help reformulating a Mouse SNP query.</P>
 
 <A HREF="#top"<font size=>Top</font></A>
 <!--<h3>Are there examples?</h3>

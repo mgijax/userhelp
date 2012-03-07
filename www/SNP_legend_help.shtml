@@ -54,13 +54,13 @@ function openHelpWindow(helpFile){
 
 <P>See also:
 <UL>
-  <li><a href="SNP_terms_help.shtml">SNP Terms and Concepts</a> </li>
-  <li><a href="SNP_summary_help.shtml">Interpreting a Mouse SNP Summary</a></li>
-   <li><a href="SNP_detail_help.shtml">Interpreting Mouse SNP Details</a> </li>
-  <li><a href="SNP_load_help.shtml">Interpreting the MGI Mouse SNPs Legend</a></li>
+  <li><a href="SNP_terms_help.shtml" target="_blank">SNP Terms and Concepts</a> </li>
+  <li><a href="SNP_summary_help.shtml" target="_blank">Interpreting a Mouse SNP Summary</a></li>
+   <li><a href="SNP_detail_help.shtml" target="_blank">Interpreting Mouse SNP Details</a> </li>
+  <li><a href="SNP_load_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Legend</a></li>
   <!--<li><a href="SNP_legend_help.shtml">Understanding Mouse SNPs in MGI</a></li>-->
-  <li><a href="SNP_discrepancy_help.shtml">Understanding Mouse SNP Coordinate Discrepancies</a> </li>
-  <li><a href="SNP_no_results_help.shtml">My query returned no results. Why?</a> </li>
+  <li><a href="SNP_discrepancy_help.shtml" target="_blank">Understanding Mouse SNP Coordinate Discrepancies</a> </li>
+  <li><a href="SNP_no_results_help.shtml" target="_blank">My query returned no results. Why?</a> </li>
 </ul>
 </p>
 
@@ -110,7 +110,7 @@ function openHelpWindow(helpFile){
 <a href="#top">Top</a>
 
 <h4><a name="MGI_classes"></a>MGI Function Classes</h4>
-<p>The following are MGI function classes that appear when genome coordinates are "in sync" <br>(see <a href="SNP_discrepancy_help.shtml">Understanding Mouse SNP Coordinate Discrepancies</a> for details).</p>
+<p>The following are MGI function classes that appear when genome coordinates are "in sync" <br>(see <a href="SNP_discrepancy_help.shtml" target="_blank">Understanding Mouse SNP Coordinate Discrepancies</a> for details).</p>
 <blockquote>
 <table border="1" cellpadding="4" cellspacing="1">
 <tr align="left" valign="top"><th valign="top">Class</th><th valign="top">The variation ...</th></tr>
@@ -140,7 +140,7 @@ function openHelpWindow(helpFile){
 </table>
 </blockquote>
 
-<b>Note:</b> MGI queries display only the dbSNP variation types present in the mouse SNP data.<br> See <a href="SNP_terms_help.shtml#dbsnp_vt">SNP Terms and Concepts</a> for definitions of the dbSNP variation types.
+<b>Note:</b> MGI queries display only the dbSNP variation types present in the mouse SNP data.<br> See <a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">SNP Terms and Concepts</a> for definitions of the dbSNP variation types.
 </p>
 
 <a href="#top">Top</a>
