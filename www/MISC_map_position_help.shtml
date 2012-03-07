@@ -46,8 +46,8 @@ Using Map Position Fields on MGI Query Forms
           <th align="left" valign="top"><a name="chromosome"></a>Chromosome(s)</th>
           <td valign="top">
             <ul>
-            <li>Choose an <a href="MISC_operators_help.shtml">operator</a> (on/not on)</li>
-            <li>Select <a href="MISC_usingQFs_help.shtml#options">one or more items</a> from the chromosome selection list.</li>
+            <li>Choose an <a href="MISC_operators_help.shtml" target="_blank">operator</a> (on/not on)</li>
+            <li>Select <a href="MISC_usingQFs_help.shtml#options" target="_blank">one or more items</a> from the chromosome selection list.</li>
             </ul>
           </td>
           </tr>
@@ -59,7 +59,7 @@ Using Map Position Fields on MGI Query Forms
           <li>Make a selection on the <a href="#chromosome">Chromosome(s)</a> list.</li>
          <!--<li>Enter the genome assembly coordinate(s) for a mapped gene or marker. </li>-->
           <li>Use the default (between) or click the down arrow to select the &lt;= (less than or equal to) or &gt;= (greater than or equal to) 
-<a href="MISC_operators_help.shtml">operator</a>.
+<a href="MISC_operators_help.shtml" target="_blank">operator</a>.
           <li>Click the other down arrow and select either bp (base pairs) or Mbp (mega base pairs) as the unit of measurement. (The default is base pairs.)</li>
           <li>Enter the coordinate(s):</li><br>
            <table align="center" border="1" cellspacing="0" cellpadding="4" width="100%">
@@ -81,7 +81,7 @@ Using Map Position Fields on MGI Query Forms
  <td valign="top">
    <ul>
      <li>Specify all or a portion of a cytogenetic band offset. The default is <i>equals</i> (=), which limits the search to exact matches.</li>
-     <li>Select an alternative <a href="MISC_operators_help.shtml">operator</a> if you want to search using part of a cytogenetic band offset.</li>
+     <li>Select an alternative <a href="MISC_operators_help.shtml" target="_blank">operator</a> if you want to search using part of a cytogenetic band offset.</li>
      </ul>  
   </td> 
 </tr>
@@ -100,7 +100,7 @@ Using Map Position Fields on MGI Query Forms
 
 <tr>
   <th valign="top" align="left"><a name="cm_offset"></a>cM Position</th>
-  <td valign="top">Centimorgan (cM) positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009).  (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546">PMID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.
+  <td valign="top">Centimorgan (cM) positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009).  (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PMID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.
    <ol>
     <li>Select a chromosome from the Chromosome(s) list.
 <li>Specify a region BETWEEN two points (on this chromosome) by entering beginning and ending values, separated either by <i>and</i> or a hyphen (e.g. <i>50 and 75</i> or <i>50-75</i>).</li>

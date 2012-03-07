@@ -62,9 +62,9 @@ function openHelpWindow(helpFile){
  
 <P>See also:</P>
 <UL>
-<LI><a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> for unfamiliar terms (or for how MGI defines familiar terms) and acronyms</LI>
-  <LI><A HREF="MISC_general_searching_help.shtml">General Guidelines for MGI Query Form Searches</A></LI>
-    <LI><A HREF="MISC_wildcard_help.shtml">Using Wildcards on MGI Query Forms</a></LI>
+<LI><a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A> for unfamiliar terms (or for how MGI defines familiar terms) and acronyms</LI>
+  <LI><A HREF="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</A></LI>
+    <LI><A HREF="MISC_wildcard_help.shtml" target="_blank">Using Wildcards on MGI Query Forms</a></LI>
   
 </UL>
 
@@ -76,9 +76,9 @@ function openHelpWindow(helpFile){
 <h3><A name="whatis"></a>Which fields on MGI query forms support a full-text search?</h3>
 <P>The following MGI query forms support full-text searches:</P>
 <UL>
-  <LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF">Genes and Markers Query Form</A> (phenotype/disease field)</LI>
- <LI><a href="<!--#include file='include/fewi_url.html'-->gxdlit">Gene Expression Literature Search</A> (Text field)</LI>
-  <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml">Phenotypes, Alleles, and Disease Models Query Form</A></LI>
+  <LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF" target="_blank">Genes and Markers Query Form</A> (phenotype/disease field)</LI>
+ <LI><a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Search</A> (Text field)</LI>
+  <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A></LI>
   <!--<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/sequence_form.shtml">Mouse Sequence Query Form</a> (Phenotype/Disease field)</LI>-->
 </UL>
 </p>
@@ -223,7 +223,7 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
 <A HREF="#top">Top</A><br>
 
 <H3><a name="examples"></a>Are there examples?</H3>
-<p>See also <a href="VOCAB_omim_browser_help.shtml#examples">examples</a> (with results specific to the Human Disease Vocabulary Browser).
+<p>See also <a href="VOCAB_omim_browser_help.shtml#examples" target="_blank">examples</a> (with results specific to the Human Disease Vocabulary Browser).
 
  <table border=1 cellpadding=4>
   <TR><TH ALIGN="left" VALIGN="top">If you enter...</TH><TH ALIGN="left" VALIGN="top">you'll get results for...</TH><TH ALIGN="left" VALIGN="top">Why?</TH></TR>
@@ -317,12 +317,12 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
 <UL>
   <LI>There is something wrong with your selection from one of the browsers (i.e., did you copy and paste the entire term/ID?) See the following help documentation for clarification:
 <ul>
-  <li><a href="VOCAB_mp_browser_help.shtml">Using the Mammalian Phenotype (MP) Browser</a></li>
-  <li><a href="VOCAB_omim_browser_help.shtml">Using the Human Disease Vocabulary Browser</a>.</li>
+  <li><a href="VOCAB_mp_browser_help.shtml" target="_blank">Using the Mammalian Phenotype (MP) Browser</a></li>
+  <li><a href="VOCAB_omim_browser_help.shtml" target="_blank">Using the Human Disease Vocabulary Browser</a>.</li>
   </ul>
 <LI>There is an error in the text search string in the Phenotypes/Diseases box. For example, did you enclose multi-word terms in quotation marks? See <a href="#examples">examples</a> for help.</LI>
   <LI>The allele nomenclature is incorrect (see 
-<a href="<!--#include file='include/mgihome_url.html'-->/nomen/allmut_quickhelp.shtml">Quick Guide to Nomenclature for Alleles and Mutations).</a></LI>
+<a href="<!--#include file='include/mgihome_url.html'-->/nomen/allmut_quickhelp.shtml" target="_blank">Quick Guide to Nomenclature for Alleles and Mutations).</a></LI>
 <LI>The number in <b>Maximum Returned</b> is zero.</LI>
 <LI>The database does not contain your term yet. </LI>
 

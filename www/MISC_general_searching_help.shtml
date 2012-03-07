@@ -54,38 +54,38 @@ General Guidelines for MGI Query Form Searches
 
  <p><A NAME="see_also"></A>See also:</p>
 <ul>
-   <li><a href="MISC_boolean_search_help.shtml">Full-Text Searching on MGI Query Forms</a></li>
-  <li><a href="MISC_wildcard_help.shtml">Using Wild Cards on MGI Query Forms</a></li>
+   <li><a href="MISC_boolean_search_help.shtml" target="_blank">Full-Text Searching on MGI Query Forms</a></li>
+  <li><a href="MISC_wildcard_help.shtml" target="_blank">Using Wild Cards on MGI Query Forms</a></li>
 </ul>
 <p></p>
 
 <h3><a name="help"></a>Where can I find help using MGI query forms?</h3>
 <P>MGI is accessible on the Internet via the World Wide Web (WWW) and relies on online forms to present
 query options in an easy-to-use format. Help documentation is available on-line (click <u>Help</u> under the MGI logo). Our Mouse Genome Informatics home page is located at
-<A HREF="http://www.informatics.jax.org">http://www.informatics.jax.org</A>. 
- You can <A HREF="<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml">contact User Support</A> by e-mail or by  phone at (207) 288-6445.</P>
+<A HREF="http://www.informatics.jax.org" target="_blank">http://www.informatics.jax.org</A>. 
+ You can <A HREF="<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml" target="_blank">contact User Support</A> by e-mail or by  phone at (207) 288-6445.</P>
 
  <H3><A NAME="method"></A>Is there a general method of querying the MGI databases?</H3>
 <P>A general procedure to build a query includes the following steps (<b>select form, enter value(s), choose output, restrict/expand scope, execute).</b>
 <uL>
 <LI>Select the query form to use depending on the type of information you want to search for. The following forms are available:
 <UL>
- <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/AMA_form.shtml">Adult Mouse Anatomical Dictionary Browser</A></LI>
+ <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/AMA_form.shtml" target="_blank">Adult Mouse Anatomical Dictionary Browser</A></LI>
  <!--<LI>Anatomical Dictionary Browser Query Refiner (accessible via searches from the <A HREF="<!--#include file='include/wi_url.html'-->searches/AMA_form.shtml">Adult Mouse Anatomical Dictionary Browser</A>)
  <LI<A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF">Genes and Markers Query Form</A></LI>-->
- <LI><a href="<!--#include file='include/fewi_url.html'-->gxdlit">Gene Expression Literature Query Form</A></LI>
- <LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQF">Gene Expression Data Query Form</A></LI>
- <LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQFexpanded">Gene Expression Data Expanded Query Form</A></LI>
- <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml">GO Browser</A></LI>
- <LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A">Human Disease Vocabulary Browser</A> </LI>
+ <LI><a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Query Form</A></LI>
+ <LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQF" target="_blank">Gene Expression Data Query Form</A></LI>
+ <LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQFexpanded" target="_blank">Gene Expression Data Expanded Query Form</A></LI>
+ <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml" target="_blank">GO Browser</A></LI>
+ <LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A" target="_blank">Human Disease Vocabulary Browser</A> </LI>
  <!--<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/homology_form.shtml">Mammalian Orthology Query Form</A> </LI>-->
- <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml">Mammalian Phenotype Browser</A> </LI>
- <LI><a href="<!--#include file='include/fewi_url.html'-->batch">MGI Batch Query</A> </LI>
- <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml">The Mouse Anatomical Dictionary Browser</A></LI>
+ <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A> </LI>
+ <LI><a href="<!--#include file='include/fewi_url.html'-->batch" target="_blank">MGI Batch Query</A> </LI>
+ <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">The Mouse Anatomical Dictionary Browser</A></LI>
  <!--<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/sequence_form.shtml">Mouse Sequence Query Form</A> </LI>-->
-<LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF">Mouse SNP Query Form</A> (Single Nucleotide Polymorphisms) </LI>
-<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml">Phenotypes, Alleles, and Disease Models Query Form</A></LI>
- <LI><a href="<!--#include file='include/fewi_url.html'-->reference">References Query Form</A> </LI>
+<LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF" target="_blank">Mouse SNP Query Form</A> (Single Nucleotide Polymorphisms) </LI>
+<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A></LI>
+ <LI><a href="<!--#include file='include/fewi_url.html'-->reference" target="_blank">References Query Form</A> </LI>
  <!--<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/polymorphism_form.shtml"> RFLP/PCR Polymorphism Query Form</A></LI>
  <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/cytomap_form.shtml">Cytogenetic Map (Using Information from MGD)</A> </LI>
  <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/linkmap_form.shtml">Linkage Map (Using Information from MGD)</A></LI>
@@ -94,7 +94,7 @@ query options in an easy-to-use format. Help documentation is available on-line 
  <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/rcset_form.shtml">Recombinant Congenic Strain Distribution Patterns Query Form</A></LI>-->
 </UL><br>
 See also
-<A HREF="<!--#include file='include/wi_url.html'-->menus/allsearch.shtml">All Search Tools</A> for a list of query forms arranged by function.</li><br>
+<A HREF="<!--#include file='include/wi_url.html'-->menus/allsearch.shtml" target="_blank">All Search Tools</A> for a list of query forms arranged by function.</li><br>
 
 <LI>Enter (or select) values in one or more query form
 fields to use as search criteria. Use more descriptive fields</A> (for example,  <I>Author</I> or <I>Title</I> in the References Query Form) as primary search criteria.  Use the general fields (for example, <I>Year</I> and <I>Journal</I> in the References Query Form) to further limit the scope of your search. Note that the search finds
