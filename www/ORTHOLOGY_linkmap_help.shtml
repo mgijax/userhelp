@@ -58,16 +58,16 @@ default, the Map Source is set to <b>MGD stored value</b>. However, you can sele
 
 <h3><A name="howdo"></a>How do I use this query form?</h3>
 
-<P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following paragraphs. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_general_searching_help.shtml">Using MGI Query Forms</a> for how to submit or speed up a query, select an operator or sort options, and so on.</p>
+<P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following paragraphs. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_general_searching_help.shtml" target="_blank">Using MGI Query Forms</a> for how to submit or speed up a query, select an operator or sort options, and so on.</p>
    
 <a href="#top"><font size="-1">Top</font></a>
 
 
 <h3><a name="mapsrc"></a>What are the sources for the linkage maps?</h3>
 <p>Sources of mapping information for linkage maps include:
- <ul><li>Linear interpolation using the standard genetic map described in Cox et al. (2009).  (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546">PMID</a>). </li>
+ <ul><li>Linear interpolation using the standard genetic map described in Cox et al. (2009).  (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PMID</a>). </li>
  <ul>
-<li>Standard genetic map described in Cox et al. (2009)  <a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546">PubMed</a>. </li>
+<li>Standard genetic map described in Cox et al. (2009)  <a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PubMed</a>. </li>
 <li>A new standard genetic map for the laboratory mouse from Cox A, Ackert-Bicknell CL, Dumont BL, Ding Y, Bell JT, Brockmann GA, Wergedal JE, Bult C, Paigen B, Flint J, Tsaih SW, Churchill GA, Broman KW.</li>
    <li>MGI genetic marker and orthology records
    <li>Chromosome Committee Reports (through 2000)
@@ -90,7 +90,7 @@ and the following DNA mapping panels:
   </ul>
   <blockquote>
 <b>  NOTE:</b>
-  Maps are constructed from mapping panel data using a simple linkage analysis algorithm applied to the mapping panel data set. Errors in the generated map are the responsibility of the Mouse Genome Informatics Project; if you find an error, please  <A HREF="<!--#include file='include/mgihome_url.html'-->/support/mgi_inbox.shtml">contact User Support</A> to report it.
+  Maps are constructed from mapping panel data using a simple linkage analysis algorithm applied to the mapping panel data set. Errors in the generated map are the responsibility of the Mouse Genome Informatics Project; if you find an error, please  <A HREF="<!--#include file='include/mgihome_url.html'-->/support/mgi_inbox.shtml" target="_blank">contact User Support</A> to report it.
 </blockquote></p>
  <a href="#top"><font size="-1">Top</font></a>
 
@@ -136,7 +136,7 @@ and the following DNA mapping panels:
 <TR><TH align="left"><A NAME="dna"></A>Include DNA segments?</TH><td valign=top>The default is Yes. If you select No, the resulting map does not include DNA segments.</TD> </TR>
 <TR> <TH align="left"><A NAME="syntenic"></A>Include syntenic markers?</TH> <td valign=top>The default is Yes, so that, regardless of any other parameters you specify for the map, the map includes a listing of syntenic markers (markers that have been assigned to a chromosome but for which there is no cM position estimate).</TD> </TR>
 <th align="left" valign="top"><A NAME="gene_ontology"></A>Gene <br>Ontology (GO) <br>Classifications</Th>
-        <TD valign="top">Genes may be described using three broad categories reflecting biological roles: Molecular Function, Biological Process, or Cellular Component. The Gene Ontology (GO) Consortium has developed structured vocabularies to specify detailed aspects within each category. MGI uses GO terms to annotate gene records. See <a href="GO_classification_fields_help.shtml">Using Gene Ontology Classification Fields on MGI Query Forms</a> for details.    </TD>
+        <TD valign="top">Genes may be described using three broad categories reflecting biological roles: Molecular Function, Biological Process, or Cellular Component. The Gene Ontology (GO) Consortium has developed structured vocabularies to specify detailed aspects within each category. MGI uses GO terms to annotate gene records. See <a href="GO_classification_fields_help.shtml" target="_blank">Using Gene Ontology Classification Fields on MGI Query Forms</a> for details.    </TD>
       </TR>
 
 <TR><TH align=left valign=top><A name="sym"></a>Marker Symbol/Name</th>
@@ -147,7 +147,7 @@ and the following DNA mapping panels:
   <li> Enter one or more symbols or names or synonyms (separated by commas). <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
   <li>By default, you search on current symbols/names and synonyms.  However, you can limit your search to current symbols (no search of names) or current symbols/names only (no search of synonyms).
 </li>
-  <li>The operators present additional search options. The default is <i>contains</i>. (See <a href="MISC_operators_help.shtml">Using Operators on MGI Query Forms</a> for more information.) </li>
+  <li>The operators present additional search options. The default is <i>contains</i>. (See <a href="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</a> for more information.) </li>
 <li>Click NOT check box to exclude symbols from your search. <B>Note:</B> Many genes have withdrawn symbols and synonyms. If you use NOT and the default setting, a gene appears if any of its symbols (including withdrawns and synonyms) do <i>not</i> match the query. Thus, in apparent contradiction of your intent, some genes whose current symbol matches the query will appear. To avoid this, change the selector to <i>current symbols</i> when using the NOT operator. </li>
 </ul>
 
