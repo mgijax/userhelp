@@ -48,7 +48,7 @@ function openHelpWindow(helpFile){
  <LI><A HREF="#howdo">How do I use this form?</a>
  <LI><A HREF="#fields">What values are acceptable in each of the query form fields?</a>
   <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</a>
-  <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found">What if the search does not find any expression results?</a>
+  <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found" target="_blank">What if the search does not find any expression results?</a>
 <li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</li>
   <LI><A HREF="#example">Are there examples of query results?</a>
 
@@ -132,7 +132,7 @@ If you enter more than one structure in the query field, you can choose to find 
 <p> If you choose to include superstructures, the system, besides searching for brain, looks for structures in the hierarchy placed above brain, such as central nervous system. This can be a useful search strategy when you want to know in what structures a gene is NOT expressed.</p>
 
 <P>If you are unsure of the most appropriate structural term to use, browse the
-<a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml">Anatomical Dictionary</a>.</p> 
+<a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</a>.</p> 
      </TD>
     </TR>
     <TR>
@@ -149,7 +149,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
      
 <tr>
 <td valign="top"><A NAME="mutated_gene"></A><b>Mutated Gene</b></td>
-  <TD>To search for expression data obtained from mutant specimens, use this field to enter the symbol or name of the mutated genetic marker. Select an <a href="MISC_operators_help.shtml">operator</a> (the default is <i>contains</i>) from the drop-down menu to expand or narrow your query. By default,  the system searches for current symbols/names and synonyms of the mutated gene. Clicking the down-arrow  presents two other options: you can search current symbols (no search of names) or current symbols/names only (no search of synonyms).
+  <TD>To search for expression data obtained from mutant specimens, use this field to enter the symbol or name of the mutated genetic marker. Select an <a href="MISC_operators_help.shtml" target="_blank">operator</a> (the default is <i>contains</i>) from the drop-down menu to expand or narrow your query. By default,  the system searches for current symbols/names and synonyms of the mutated gene. Clicking the down-arrow  presents two other options: you can search current symbols (no search of names) or current symbols/names only (no search of synonyms).
         </TD>
        </TR>
    
