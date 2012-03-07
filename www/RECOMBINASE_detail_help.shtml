@@ -52,8 +52,8 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
  
 <P>See also:
    <ul>
-       <LI><A HREF="RECOMBINASE_summary_help.shtml">Using Recombinase Alleles - Tissue Activity Summary Reports</A></LI>
- <LI><A HREF="ALLELE_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A> (recombinase-containing transgenes or knock-ins or floxed or frt alleles)</LI>
+       <LI><A HREF="RECOMBINASE_summary_help.shtml" target="_blank">Using Recombinase Alleles - Tissue Activity Summary Reports</A></LI>
+ <LI><A HREF="ALLELE_help.shtml" target="_blank">Using the Phenotypes, Alleles, and Disease Models Query Form</A> (recombinase-containing transgenes or knock-ins or floxed or frt alleles)</LI>
 </UL>
 
 
@@ -107,7 +107,7 @@ For example:
 <TR><th valign="top" align="right"><a name="recomb_spec"></a>Recombinase Activity<br></th>
     <td valign="top">
 	<table border="0" cellspacing="2" cellpadding="4" width="!">
-      	<tr><th valign"top"><a name="structure"></a>Structure</th><td valign="top">Recombinase activity results are associated with structures described in the <a href="http://www.informatics.jax.org/searches/AMA_form.shtml">Anatomical Dictionary</a>.  Structures appear in alphabetical order, A-Z.  Click the column name to reverse the order.</td></tr>
+      	<tr><th valign"top"><a name="structure"></a>Structure</th><td valign="top">Recombinase activity results are associated with structures described in the <a href="http://www.informatics.jax.org/searches/AMA_form.shtml" target="_blank">Anatomical Dictionary</a>.  Structures appear in alphabetical order, A-Z.  Click the column name to reverse the order.</td></tr>
 
 <tr><th valign"top"><a name="assayed_age"></a><nobr>Assayed Age</nobr></th><td valign="top">Age of the embryo at time of assay.</td></tr> 
 

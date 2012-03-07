@@ -162,7 +162,7 @@ function openHelpWindow(helpFile){
 <tr><td valign="top"><a name="combining"></a>Combining terms in a search</td><td valign="top">Quick Search does not combine whatever you enter into "meaningful" associations. Rather, it attempts to match as much of your text as possible in individual nomenclature or vocabulary terms, synonyms, or definitions.<td valign="top">A search on <i>cadherin hindbrain</i> does not return genes in the cadherin family that are expressed in the hindbrain. To perform complex searches like this, consider using MGI's advanced query forms. Click 
 <a href="<!--#include file='include/menus_url.html'-->allsearch.shtml">All Search Tools</a> for a complete list.</td></tr>
 
-<tr><td valign="top"><a name="stem_to"></a>Stemming to root words</td><td valign="top"><li>Quick Search <a href="http://en.wikipedia.org/wiki/Stemming" target="new">stems</a> words: it removes suffixes and searches using root words.</li><br> <li>Quick Search stems words even when they are enclosed in quotation marks.</li></td><td valign="top"><li>A search for <i>stem cell factor receptor binding</i> searches for  <i>stem-</i>, <i>cell-</i> (e.g.  cellular), <i>factor-,</i> <i>recept-</i> (e.g.  reception); <i>bind-</i> (e.g.  binds).</li> <li>A search for <i>cell division</i> also looks for <i>cell- divis-</i>.</li>.
+<tr><td valign="top"><a name="stem_to"></a>Stemming to root words</td><td valign="top"><li>Quick Search <a href="http://en.wikipedia.org/wiki/Stemming" target="blank">stems</a> words: it removes suffixes and searches using root words.</li><br> <li>Quick Search stems words even when they are enclosed in quotation marks.</li></td><td valign="top"><li>A search for <i>stem cell factor receptor binding</i> searches for  <i>stem-</i>, <i>cell-</i> (e.g.  cellular), <i>factor-,</i> <i>recept-</i> (e.g.  reception); <i>bind-</i> (e.g.  binds).</li> <li>A search for <i>cell division</i> also looks for <i>cell- divis-</i>.</li>.
 </ul>
 </td></tr>
 
@@ -235,7 +235,7 @@ function openHelpWindow(helpFile){
 <dt><a name="genome_features"></a><b>Genome Features</b></dt><br>
 
 <dt><ul>
-  <li>The list includes genes, QTLs, cytogenetic genome features, alleles, gene trap cell lines, and other genome features whose name, symbol, synonym, or accession ID matches some or all of your entry. See <a href="GENE_feature_types_help.shtml">Genome Feature Types</a> for a complete list.</li>
+  <li>The list includes genes, QTLs, cytogenetic genome features, alleles, gene trap cell lines, and other genome features whose name, symbol, synonym, or accession ID matches some or all of your entry. See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Types</a> for a complete list.</li>
 
   <li>The list also includes genome features associated with vocabulary terms matching your search text.</li>
   <li>Cell line ID searches return only allele matches (and not both gene and allele matches).
@@ -259,7 +259,7 @@ function openHelpWindow(helpFile){
 <li>Depending on availability, the first ten matches appear in the display. A display at the bottom of this section indicates the total number of matches found. A link provides access to the first 100 matching items.  You can paginate through the full list of all matching genome features.</li></ul>
 </dt>
 <br>
-<dd>See also <a href="QUICK_SEARCH_examples_help.shtml">Quick Search Examples and Questions</a> for additional search and match information.
+<dd>See also <a href="QUICK_SEARCH_examples_help.shtml" target="_blank">Quick Search Examples and Questions</a> for additional search and match information.
 </dd>
 
 <br>
@@ -302,7 +302,7 @@ function openHelpWindow(helpFile){
 </dd><br>
 
  <dd>This search works following Google's algorithms on versions of pages indexed from the MGI site. For example, enter: <i>skeletal dysplasia, Pax6</i>. The MGI Google Quick Search 
-<a href="http://www.google.com/search?hl=en&sitesearch=informatics.jax.org&q=skeletal+dysplasia+Pax6&btnG=Search">returns</a> a list cached MGI pages where all the terms appeared.</dd>
+<a href="http://www.google.com/search?hl=en&sitesearch=informatics.jax.org&q=skeletal+dysplasia+Pax6&btnG=Search" target="_blank">returns</a> a list cached MGI pages where all the terms appeared.</dd>
 </dl>
 </blockquote>
 
@@ -316,7 +316,7 @@ function openHelpWindow(helpFile){
 There is an exact match between what you entered and an ID, symbol, name, synonym, or vocabulary item in MGI. Genome features with nomenclature matches appear first, followed by genome features associated with vocabulary matches. </li>
 <br>
 <li><a name="three_stars"></a><b>Three stars</b> <br>All the words you entered are present in the matched item, but the matched item also contains additional words. <br>
-Search engine (<a href="http://en.wikipedia.org/wiki/Apache_Lucene" target="new">Lucene</a>) scores determine the order of this tier. Genome features with better matches are at the top, and nomenclature matches appear before vocabulary matches. The score takes into account such things as number and frequency of matching words, stemmed versus unstemmed results, and spacing. Genome features or vocabulary terms with the same Lucene score are sorted alphanumerically by symbol. 
+Search engine (<a href="http://en.wikipedia.org/wiki/Apache_Lucene" target="blank">Lucene</a>) scores determine the order of this tier. Genome features with better matches are at the top, and nomenclature matches appear before vocabulary matches. The score takes into account such things as number and frequency of matching words, stemmed versus unstemmed results, and spacing. Genome features or vocabulary terms with the same Lucene score are sorted alphanumerically by symbol. 
 </li>
 <br>
  
@@ -326,7 +326,7 @@ A single word or ID in your entry matches the nomenclature or ID of a genome fea
 
 <li><a name="one_star"></a><b>One star</b><br>Quick Search matched some but not all of your terms. 
 <br> 
-Search engine (<a href="http://en.wikipedia.org/wiki/Apache_Lucene" target="new">Lucene</a>) scores determine order in this tier. Genome features with better matches appear at the top, and nomenclature matches appear before vocabulary matches. The score takes into account such things as number and frequency of matching words, stemmed versus unstemmed results, and spacing. Genome features or vocabulary terms with the same Lucene score are alphanumerically sorted by symbol. </li>
+Search engine (<a href="http://en.wikipedia.org/wiki/Apache_Lucene" target="blank">Lucene</a>) scores determine order in this tier. Genome features with better matches appear at the top, and nomenclature matches appear before vocabulary matches. The score takes into account such things as number and frequency of matching words, stemmed versus unstemmed results, and spacing. Genome features or vocabulary terms with the same Lucene score are alphanumerically sorted by symbol. </li>
 </ul>
 </dd>
 <br>
@@ -369,7 +369,7 @@ Search engine (<a href="http://en.wikipedia.org/wiki/Apache_Lucene" target="new"
 </blockquote>
 </p>
 <h3><a name="id_examples"></a>Are there examples of the accession IDs that Quick Search can find?</a></h3>
-<p>See <a href="ACCESSION_ID_help.shtml">Querying by Accession ID - Results and Examples</a>.</p>
+<p>See <a href="ACCESSION_ID_help.shtml" target="_blank">Querying by Accession ID - Results and Examples</a>.</p>
 <font size="-1"><A HREF="#top">Top</A></font>
 
 <h3><a name="advantage"></a>When should I use  Quick Search vs. an individual MGI query form?</h3>
@@ -384,7 +384,7 @@ Search engine (<a href="http://en.wikipedia.org/wiki/Apache_Lucene" target="new"
  <tr><td valign="top">Can it cross boundaries between subject areas?<br>
 For example, can I find genes with a particular molecular function expressed in a specific tissue? <br>...combine a nomenclature query with a GO or MP term and a disease?<br>
 ...confine the search to a specific coordinate range or Theiler stage? </td>
-</td><td valign="top">No.</td><td valign="top">Yes. Click <a href="<!--#include file='include/menus_url.html'-->allsearch.shtml">All Search Tools</a> for a complete list of all available MGI query forms.</td></tr>
+</td><td valign="top">No.</td><td valign="top">Yes. Click <a href="<!--#include file='include/menus_url.html'-->allsearch.shtml" target="_blank">All Search Tools</a> for a complete list of all available MGI query forms.</td></tr>
  <tr><td valign="top">Can I choose how my results are sorted? </td><td valign="top">No.</td><td valign="top">Yes, many  MGI query forms allow you to customize your output in this way.</td></tr> 
 <tr><td valign="top">"Contains" searching?</td><td valign="top">No.</td><td valign="top">Yes.</td></tr>
 </table></p>
@@ -393,11 +393,11 @@ For example, can I find genes with a particular molecular function expressed in 
 
 <h3><a name="more"></a>More questions and examples</h3>
 
-<p>See <a href="QUICK_SEARCH_examples_help.shtml">Quick Search Examples and Questions</a>.</p>
+<p>See <a href="QUICK_SEARCH_examples_help.shtml" target="_blank">Quick Search Examples and Questions</a>.</p>
 
 
 
-<p>Use the "Your Input Welcome" button, the <a href="<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml" title="Contact user support">Contact User Support</a> form, or  call (207) 288-6445 for help locating information relevant to your research. </p>
+<p>Use the "Your Input Welcome" button, the <a href="<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml" title="Contact user support" target="_blank">Contact User Support</a> form, or  call (207) 288-6445 for help locating information relevant to your research. </p>
 
 <font size="-1"><A HREF="#top">Top</A></font>
 <!--#include file='include/templateBlankBodyStop.html'--> 
