@@ -97,7 +97,7 @@ JAMIA Symposium Supplement: 1037.
 
 
 <TR><TD VALIGN="top">+</TD><TD>A plus sign (+) following a term indicates that the term has 
-<A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=glossaryTerm&key=children">children</A>. Click on the term to see the additional paths.</TD>
+<A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=glossaryTerm&key=children" target="_blank">children</A>. Click on the term to see the additional paths.</TD>
 </TR>
 
 <TR>
@@ -160,14 +160,14 @@ JAMIA Symposium Supplement: 1037.
 <li><I>contributes to</I> appears only with molecular function terms. Curators use this annotation when a gene product contributes to a molecular function, but is not in itself sufficient for the function. Annotating individual gene products according to attributes of a complex is especially useful for molecular function annotations in cases where a complex has an activity, but not all of the individual subunits do. As an example, there may be a known catalytic subunit and one or more additional subunits, or the activity may be present only when the complex is assembled.</li><br>
 <li><i>Not colocalizes with/Not contributes to</i> implies that a gene product is expected to colocalize with/contribute to a cellular component/molecular function but is found not to do so by one of the GO evidence criteria.</li>
      </ul>
-For more details, see the <a href="http://www.geneontology.org/GO.annotation.shtml#qual">GO Annotation Guide</a>.
+For more details, see the <a href="http://www.geneontology.org/GO.annotation.conventions.shtml#qual" target="_blank">GO Annotation Conventions</a>.
    </td>
   </tr>
 
 
 
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="evidence"></A>Evidence</TH><TD>Criteria that justify the annotation. The most common GO evidence codes appear in the table below.
-For a complete list and the most current information, see <A HREF="http://www.geneontology.org/GO.evidence.shtml">Guide to GO Evidence Codes</A> at the Gene Ontology web site.
+For a complete list and the most current information, see <A HREF="http://www.geneontology.org/GO.evidence.shtml" target="_blank">Guide to GO Evidence Codes</A> at the Gene Ontology web site.
 
 <blockquote>
 <table cellpadding="2" border="0">
