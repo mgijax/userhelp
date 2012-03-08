@@ -89,7 +89,7 @@ function openHelpWindow(helpFile){
 <li><I>contributes to</I> appears only with molecular function terms. Curators use this annotation when a gene product contributes to a molecular function, but is not in itself sufficient for the function. Annotating individual gene products according to attributes of a complex is especially useful for molecular function annotations in cases where a complex has an activity, but not all of the individual subunits do. As an example, there may be a known catalytic subunit and one or more additional subunits, or the activity may only be present when the complex is assembled.</li><br>
 <li><i>Not colocalizes with/Not contributes to</i> implies that a gene product is expected to colocalize with/contribute to a cellular component/molecular function but is found not to do so by one of the GO evidence criteria.</li>
      </ul>
-For more details, see the <a href="http://www.geneontology.org/GO.annotation.conventions.shtml#qual" target="_blank">Gene Ontology Annotation Guide</a> notes on qualifiers.
+For more details, see the <a href="http://www.geneontology.org/GO.annotation.conventions.shtml#qual" target="_blank">Gene Ontology Annotation Conventions</a> notes on qualifiers.
    </td>
   </tr>
 
