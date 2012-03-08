@@ -50,14 +50,14 @@ function openHelpWindow(helpFile){
 <LI><A HREF="#entry">Enter the query sequence.</A></li>
 <LI><A HREF="#parameter">Select the number of results and alignments to show in the output.</A></li>
 </oL>
-<font size="-1">Back to <a href="mouseblast_overview_help.shtml">Using MouseBLAST - Overview</a></font>
+<font size="-1">Back to <a href="mouseblast_overview_help.shtml" target="_blank">Using MouseBLAST - Overview</a></font>
 <p></p>
 <P>Use MouseBLAST to search a sequence against a mouse, rat, rodent or human sequence database to find matching sequences.  If a matching sequence is associated to an MGI mouse gene record, then summary information about that gene and a link to MGI is inserted in the output.</P>
 <P>If any of the matching sequences are associated genes, the result is a display containing links to MGI mouse gene records.  All matching sequences have links to the sequence provider's web site. See <a href="#results">Search Results</a> for details.</p>
 <p>See also:
 <uL>
-<LI><A HREF="mouseblast_output_help.shtml">Using MouseBLAST - Interpreting the Output Report</A></li>
-<LI><A HREF="mouseblast_examples_help.shtml">Using MouseBLAST - Sample Queries</A></EM></li>
+<LI><A HREF="mouseblast_output_help.shtml" target="_blank">Using MouseBLAST - Interpreting the Output Report</A></li>
+<LI><A HREF="mouseblast_examples_help.shtml" target="_blank">Using MouseBLAST - Sample Queries</A></EM></li>
 </uL>
 </p>
 <p></p>
@@ -66,7 +66,7 @@ function openHelpWindow(helpFile){
 <!--basic step 1-->
   <ol>
     <li><A NAME="program"></A><b>Select a WU-BLAST program</b>.
-<p>All six <a href="mouseblast_blast_programs_help.shtml">WU-BLAST 2.0</a> programs are available.  Valid combinations of BLAST program with query sequence type, sequence database type, and  alignment level are:
+<p>All six <a href="mouseblast_blast_programs_help.shtml" target="_blank">WU-BLAST 2.0</a> programs are available.  Valid combinations of BLAST program with query sequence type, sequence database type, and  alignment level are:
 
 <TABLE BORDER=1 CELLPADDING=3>
 <TR>
@@ -111,7 +111,7 @@ function openHelpWindow(helpFile){
 
 <!--basic step 2-->
   <li><A NAME="database"></A><b>Select a sequence database to search against</b>.
-<p>See <a href="mouseblast_sequence_databases_help.shtml">Using MouseBLAST - Sequence Databases</a> for a list of the searchable nucleotide and protein sequence databases.
+<p>See <a href="mouseblast_sequence_databases_help.shtml" target="_blank">Using MouseBLAST - Sequence Databases</a> for a list of the searchable nucleotide and protein sequence databases.
 </li>
 
  <!--basic step 3-->
@@ -124,7 +124,7 @@ function openHelpWindow(helpFile){
   <LI>SEG - Use to mask low-complexity regions in protein sequences.
   <LI>XNU - Use to mask short tandem repeats in protein sequences.
   </UL>
-For more details, see <a href="mouseblast_masking_help.shtml">Using MouseBLAST - Masking Options</a>.
+For more details, see <a href="mouseblast_masking_help.shtml" target="_blank">Using MouseBLAST - Masking Options</a>.
 </li>
 
 </p>
@@ -137,7 +137,7 @@ For more details, see <a href="mouseblast_masking_help.shtml">Using MouseBLAST -
   <!--step 4 - option 1-->
   <LI><b>Query by sequence accession ID</b>.<br>
   To have MouseBLAST fetch your sequence from one of several sequence databases, enter the correct unique <B>Sequence ID </B> for your 
-sequence and select the respective Sequence Database from the pull-down list. For more details, see <EM><A HREF="mouseblast_fetch_help.shtml">Searching By Sequence ID</A></EM>.</li> <br>
+sequence and select the respective Sequence Database from the pull-down list. For more details, see <EM><A HREF="mouseblast_fetch_help.shtml" target="_blank">Searching By Sequence ID</A></EM>.</li> <br>
   <!--step 4 - option 2-->
   <LI><b>Query by genomic sequence interval.</b><br>
    <b>Note:</b>&nbsp;The build number appearing on the query form is that of the most current NCBI assembly sequence. <!--See <a href="http://www.ncbi.nlm.nih.gov/genome/seq/NCBIContigInfo.html">Assembling Genomic Sequences</a> for complete details.--><br>
@@ -156,7 +156,7 @@ sequence and select the respective Sequence Database from the pull-down list. Fo
  </li>
   <!--step 4 - option 3-->
   <LI><B>Enter a sequence. Most Web browsers have a limit of 20,000 letters.</B><br>
-Paste in your sequence in FASTA, GCG, or free-text format.  <!--In this release of MouseBLAST, there are limits on the size of entry in the Sequence field.  Depending on your particular combination of computer, operating system, and browser, the limit may be as low as 23,000 bp.--> For more details, see <EM><A HREF="mouseblast_sequence_format_help.shtml">Sequence Formats</A></EM>.
+Paste in your sequence in FASTA, GCG, or free-text format.  <!--In this release of MouseBLAST, there are limits on the size of entry in the Sequence field.  Depending on your particular combination of computer, operating system, and browser, the limit may be as low as 23,000 bp.--> For more details, see <EM><A HREF="mouseblast_sequence_format_help.shtml" target="_blank">Sequence Formats</A></EM>.
   </LI><br>
 <!--step 4 - option 4-->
 <LI><B>Upload a sequence file.</B><br>
@@ -175,7 +175,7 @@ To upload the file in FASTA, GCG, or free-text format, enter the local path or c
 </blockquote>
 
 </ol>
-<p>For <a name="results"></a>Search results, see <A HREF="mouseblast_output_help.shtml">Interpreting the MouseBLAST Output Report</A>.
+<p>For <a name="results"></a>Search results, see <A HREF="mouseblast_output_help.shtml" target="_blank">Interpreting the MouseBLAST Output Report</A>.
  
 </p>
 <a href="#top"><font size="-1">Top</font></a>

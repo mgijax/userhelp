@@ -48,7 +48,7 @@ function openHelpWindow(helpFile){
   <LI><A HREF="#tutorial">Where can I get additional information?</A></LI>
   <LI><A HREF="#references">References</A></LI>
 </UL>
-<p>Back to <a href="mouseblast_overview_help.shtml">Overview</a>
+<p>Back to <a href="mouseblast_overview_help.shtml" target="_blank">Overview</a>
 </p>
 
 <A NAME="blast_programs"></A><H3>Which BLAST programs can I use with MouseBLAST?</H3>
@@ -84,7 +84,7 @@ function openHelpWindow(helpFile){
 <LI><B>WU-BLAST</B>
 <BR>
 Warren Gish also optimized the BLAST programs for speed on different platforms.  The first version of WU-BLAST was released in September 1994; in 1996, he released the first "gapped" version of BLAST, <i>WU-BLAST 2.0 </i>(Gish, <em>unpublished</em>).  This version allows for gapped alignments and statistics.  It can also identify multiple regions of similarity for each sequence match.  
-See <A HREF="http://blast.wustl.edu">http://blast.wustl.edu</A> for details.</li>
+See <A HREF="http://blast.wustl.edu" target="_blank">http://blast.wustl.edu</A> for details.</li>
 <BR>
 <LI><B>NCBI BLAST</B>
 <BR>
@@ -102,7 +102,7 @@ Zhang <em>et al.</em><A HREF="#zhang1"><sup>3</sup></a> introduced PHI-BLAST (Pa
 
 
 <A NAME="tutorial"></A><h3>Where can I find additional information?</h3>
-<P>The NCBI provides <a href="http://www.ncbi.nlm.nih.gov/blast/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=FAQ">BLAST FAQs</a> and a course on the <A HREF="http://www.ncbi.nlm.nih.gov/BLAST/tutorial/Altschul-1.html">Statistics of Sequence Similarity Scores</A>.  Additional BLAST resources are available at the <a href="http://www.ncbi.nlm.nih.gov/blast/">NCBI BLAST</a> site.
+<P>The NCBI provides <a href="http://www.ncbi.nlm.nih.gov/blast/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=FAQ" target="_blank">BLAST FAQs</a> and a course on the <A HREF="http://www.ncbi.nlm.nih.gov/BLAST/tutorial/Altschul-1.html" target="_blank">Statistics of Sequence Similarity Scores</A>.  Additional BLAST resources are available at the <a href="http://www.ncbi.nlm.nih.gov/blast/" target="_blank">NCBI BLAST</a> site.
 </p>
 
 

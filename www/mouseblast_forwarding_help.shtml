@@ -65,20 +65,20 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 <H3>How do I use it?</H3>
 <p>For each sequence you want to search, do the following. Use the fields in the BLAST Program and Database column to specify MouseBLAST search options.</p>
 <uL>
-<LI>Click/unclick the option to mask the query sequence.  By default, the sequence is masked. For more information, see <A HREF="mouseblast_masking_help.shtml">Using MouseBLAST - Masking Programs</A>.</li>
-<LI>Select the BLAST program to use.  The default program is based on whether the query sequence is nucleotide or protein. For more information, see <A HREF="mouseblast_blast_programs_help.shtml">Using MouseBLAST - Available BLAST Programs</A>.</li>
-<LI>Select the sequence database to search. See <A HREF="mouseblast_sequence_databases_help.shtml">Using MouseBLAST - Sequence Databases</A>.</li>
+<LI>Click/unclick the option to mask the query sequence.  By default, the sequence is masked. For more information, see <A HREF="mouseblast_masking_help.shtml" target="_blank">Using MouseBLAST - Masking Programs</A>.</li>
+<LI>Select the BLAST program to use.  The default program is based on whether the query sequence is nucleotide or protein. For more information, see <A HREF="mouseblast_blast_programs_help.shtml" target="_blank">Using MouseBLAST - Available BLAST Programs</A>.</li>
+<LI>Select the sequence database to search. See <A HREF="mouseblast_sequence_databases_help.shtml" target="_blank">Using MouseBLAST - Sequence Databases</A>.</li>
 <LI>Click Search.  Results appear in a new browser window.</li>
 <li>Alternatively, you can search a sequence using the MouseBLAST Query Form by following the Advanced BLAST query form link.</li>
 </uL>
 
 <A NAME="output"></A>
 <H3>How do I interpret the results?</H3>
-<p>The results of each search appear in a new web browser window.  See <a href="mouseblast_output_help.shtml">Interpreting the MouseBLAST Output Report</a> for details.</p>
+<p>The results of each search appear in a new web browser window.  See <a href="mouseblast_output_help.shtml" target="_blank">Interpreting the MouseBLAST Output Report</a> for details.</p>
 
 
 <A NAME="example"></A>
 <H3>Are there any sample searches?</H3>
-<p>See <A HREF="mouseblast_examples_help.shtml">Using MouseBLAST - Sample Queries</A>.</p>
+<p>See <A HREF="mouseblast_examples_help.shtml" target="_blank">Using MouseBLAST - Sample Queries</A>.</p>
 
 <!--#include file='include/templateBlankBodyStop.html'-->

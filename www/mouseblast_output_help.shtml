@@ -49,8 +49,8 @@ This help document answers the following questions:</p>
    </ul>
    <LI><A HREF="#howdo">How do I interpret the results of my search?</A>
 <LI><A HREF="#cando">What can I do with a matching sequence?</A>
-<LI><A HREF="mouseblast_examples_help.shtml">Are there any sample searches?</A>
-<li><font size="-1"><a href="mouseblast_overview_help.shtml">Using MouseBLAST - Overview</a>
+<LI><A HREF="mouseblast_examples_help.shtml" target="_blank">Are there any sample searches?</A>
+<li><font size="-1"><a href="mouseblast_overview_help.shtml" target="_blank">Using MouseBLAST - Overview</a>
 </font>
 </UL>
 <p></p>
@@ -242,7 +242,7 @@ To do either:
 <P>
 <A NAME="example"></A>
 <H3>Are there any sample searches?</H3>
-<p>See <A HREF="mouseblast_examples_help.shtml">Using MouseBLAST - Sample Queries</A>.
+<p>See <A HREF="mouseblast_examples_help.shtml" target="_blank">Using MouseBLAST - Sample Queries</A>.
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 

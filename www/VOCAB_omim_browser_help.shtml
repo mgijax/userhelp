@@ -44,17 +44,17 @@ Using the Human Disease Vocabulary Browser</span>
  <LI><A HREF="#include">What is the difference between browsing and searching the vocabulary?</A></li>
   <li><a href="#multiple">Can I enter more than one term or accession ID? enter abbreviations for a disease? enter a synonym for a disease? enter partial words? mix and match?</a></li>
  <LI><A HREF="#details">How do I get the details about diseases with mouse models?</A></li>
-<LI><A HREF="VOCAB_omim_browser_detail_help.shtml">How do I interpret a Human Disease and Mouse Model Detail report?</A>
+<LI><A HREF="VOCAB_omim_browser_detail_help.shtml" target="_blank">How do I interpret a Human Disease and Mouse Model Detail report?</A>
 <LI><A HREF="#no_results">What should I do if I get no results? What if I get results for only one term and I entered several?</A></li>
 <LI><A HREF="#examples">Are there any examples?</A></LI>
  </UL>
 <P>See also:
 <UL>
-  <LI><A HREF="ALLELE_help.shtml">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
+  <LI><A HREF="ALLELE_help.shtml" target="_blank">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
 
-  <LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</A> for unfamiliar terms (or for how MGI defines specific terms) and acronyms. </LI>
-  <LI><A HREF="MISC_general_searching_help.shtml">General Guidelines for MGI Query Form Searches</A></LI>
-  <LI><A HREF="MISC_boolean_search_help.shtml">Full-Text Searching on MGI Query Forms</A></LI>
+  <LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A> for unfamiliar terms (or for how MGI defines specific terms) and acronyms. </LI>
+  <LI><A HREF="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</A></LI>
+  <LI><A HREF="MISC_boolean_search_help.shtml" target="_blank">Full-Text Searching on MGI Query Forms</A></LI>
 </UL>
 
 
@@ -84,7 +84,7 @@ The number of mouse models in MGI appears in parentheses next to each disease na
     </ul>
 <li>Use quotation marks to group and order terms, circumvent word stemming, and prevent partial word matching. The search mechanism cuts off some entries (word stemming) and/or retrieves hits that are close but not exact (partial word matching). For example, if you want results for <i>Factor V Deficiency</i> and you don't enclose this disease term in quotation marks, the search returns not only pages containing factor V deficiency but also those containing factor deficiency V, factor and V, and factor and deficiency (e.g., <i>Vitamin K-Dependent Clotting Factors, Deficiency of</i>; <i>Factor VII, Factor VIII,</i> and so on).
 </ul>
-<p>For complete details, see <a href="MISC_boolean_search_help.shtml">Full-Text Searching on MGI Query Forms</a> and <a href="MISC_boolean_search_help.shtml#boolean_operators">Boolean operators</a>, <a href="MISC_boolean_search_help.shtml#quotes">quotation marks</a>, <a href="MISC_boolean_search_help.shtml#partial_word_matching">partial word matching</a>, <a href="MISC_boolean_search_help.shtml#word_stemming">word stemming</a>. See <a href="#examples">Are there examples?</a> for how different query parameters yield different results.</p>
+<p>For complete details, see <a href="MISC_boolean_search_help.shtml" target="_blank">Full-Text Searching on MGI Query Forms</a> and <a href="MISC_boolean_search_help.shtml#boolean_operators" target="_blank">Boolean operators</a>, <a href="MISC_boolean_search_help.shtml#quotes">quotation marks</a>, <a href="MISC_boolean_search_help.shtml#partial_word_matching" target="_blank">partial word matching</a>, <a href="MISC_boolean_search_help.shtml#word_stemming" target="_blank">word stemming</a>. See <a href="#examples">Are there examples?</a> for how different query parameters yield different results.</p>
 
 <font size="-1"><a href="#top">Top</a></font><BR>
 
@@ -97,7 +97,7 @@ The number of mouse models in MGI appears in parentheses next to each disease na
 <H3><A NAME="include"></A>What is the difference between and browsing and searching the vocabulary?</H3>
 <P>You can either browse or search from the Human Disease Vocabulary Browser entry page. 
 <ul>
-  <li>Browsing involves clicking a letter (or numeral) to bring up a list of diseases and scrolling to find one of interest (i.e., one with mouse models). Clicking the disease link brings up a Human Disease and Mouse Detail report with relevant information about the disease, including any associated genes and mouse models. See <A HREF="VOCAB_omim_browser_detail_help.shtml">Interpreting the Human Disease and Model Detail Report</A> for specifics.</li>
+  <li>Browsing involves clicking a letter (or numeral) to bring up a list of diseases and scrolling to find one of interest (i.e., one with mouse models). Clicking the disease link brings up a Human Disease and Mouse Detail report with relevant information about the disease, including any associated genes and mouse models. See <A HREF="VOCAB_omim_browser_detail_help.shtml" target="_blank">Interpreting the Human Disease and Model Detail Report</A> for specifics.</li>
   <li>Searching involves entering something in the Vocabulary Browser query field. To search the Vocabulary Browser:
 <UL>
 <LI>Type either a term or the accession identifier (ID) (e.g., <i>168600</i>) in the box.</li>
@@ -114,8 +114,8 @@ The number of mouse models in MGI appears in parentheses next to each disease na
 <ol>
   <li>To enter more than one term or accession ID:
 <ul>
-<li>Connect terms or accession IDs with <a href="MISC_boolean_search_help.shtml#boolean_operators">Boolean operators</a> (AND, OR).</li>
-<li>Use <a href="MISC_boolean_search_help.shtml#quotes">quotation marks</a> around disease terms containing than one word, number, or numeral. (e.g., "Factor V deficiency")</li>
+<li>Connect terms or accession IDs with <a href="MISC_boolean_search_help.shtml#boolean_operators" target="_blank">Boolean operators</a> (AND, OR).</li>
+<li>Use <a href="MISC_boolean_search_help.shtml#quotes" target="_blank">quotation marks</a> around disease terms containing than one word, number, or numeral. (e.g., "Factor V deficiency")</li>
 </ul>
 <li>To enter an abbreviation or synonym for a disease, (e.g., <i>PD</i> for Parkinson disease), simply type it in the query box. This can be a good way to begin a search when you have no additional details. The resulting Query Summary lists the number of matching human disease terms, so you can refine your query from here.
 </li>
@@ -134,15 +134,15 @@ The number of mouse models in MGI appears in parentheses next to each disease na
            <li>Click a letter or number. A list of diseases beginning with that letter or number appears. 
    <li>Click a disease or syndrome on the list. If MGI has mouse models for that disease, this information appears in parentheses beside the disease name, and clicking the accession ID number will take you to the OMIM disease detail report. (The absence of this text, e.g.,<i> (3 mouse models)</i>, means that MGI currently contains no models for this disease. However, if a mouse has been shown NOT to be a model of a human disease, this is not listed here.)
 
-    <li>From the Human Disease and Mouse Model Detail report, you can click links to find additional MGI resources. (See <a href="VOCAB_omim_browser_detail_help.shtml">Interpreting a Human Disease and Mouse Model Detail Report</a>.) </li>
+    <li>From the Human Disease and Mouse Model Detail report, you can click links to find additional MGI resources. (See <a href="VOCAB_omim_browser_detail_help.shtml" target="_blank">Interpreting a Human Disease and Mouse Model Detail Report</a>.) </li>
 </ol>
  <li>Use the search box. <ol type=A><li>Enter term(s) or accession ID(s) in the box and click Search.  The Human Disease Vocabulary Browser report lists any matches found.  <b>Note:</b> If MGI has mouse models for that disease, this information appears in parentheses beside the disease name.
-<li>Click any item of interest to view its Human Disease and Mouse Model Detail report. (See <a href="VOCAB_omim_browser_detail_help.shtml">Interpreting a Human Disease and Mouse Model Detail Report</a> for how  to use this report.)
+<li>Click any item of interest to view its Human Disease and Mouse Model Detail report. (See <a href="VOCAB_omim_browser_detail_help.shtml" target="_blank">Interpreting a Human Disease and Mouse Model Detail Report</a> for how  to use this report.)
 </ol>
 </ol>
 
 <h3>How do I interpret Human Disease and Mouse Model Details?</h3>
-<p>See <A HREF="VOCAB_omim_browser_detail_help.shtml">Interpreting Human Disease and Mouse Model Details</a>.
+<p>See <A HREF="VOCAB_omim_browser_detail_help.shtml" target="_blank">Interpreting Human Disease and Mouse Model Details</a>.
 </p>
 
 
@@ -193,14 +193,14 @@ Entering the accession ID and the disease term also returns no results.<br>
 <tr><td colspan="3">* The number of matches is representative. The point of the examples is to show how to structure a query in various ways to yield different (or zero) results. If you get zero results, it may mean that MGI has no data for a query using these parameters at this time.  However, if your results are not as expected, the Browser software may be using:
 <ul>
  
- <li><a href="MISC_boolean_search_help.shtml#partial_word_matching">partial word matching</a> or </li>
-  <li><a href="MISC_boolean_search_help.shtml#word_stemming">word stemming</a> </li>
+ <li><a href="MISC_boolean_search_help.shtml#partial_word_matching" target="_blank">partial word matching</a> or </li>
+  <li><a href="MISC_boolean_search_help.shtml#word_stemming" target="_blank">word stemming</a> </li>
   </ul>
 See also <a href="MISC_boolean_search_help.shtml">Full-Text Searching on MGI Query Forms</a> for additional examples and detailed explanations of how to use:
 
 <ul>
-  <li><a href="MISC_boolean_search_help.shtml#boolean_operators">Boolean operators</a></li>
- <li><a href="MISC_boolean_search_help.shtml#quotes">quotation marks</a></li></ul>
+  <li><a href="MISC_boolean_search_help.shtml#boolean_operators" target="_blank">Boolean operators</a></li>
+ <li><a href="MISC_boolean_search_help.shtml#quotes" target="_blank">quotation marks</a></li></ul>
 </td></tr>
 </table>
 </blockquote>

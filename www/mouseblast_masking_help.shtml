@@ -49,7 +49,7 @@ The help document answers the following questions:
   <li><a href="#repeatmasker">How does RepeatMasker work?</a></li>
 <li><a href="#whatif">What about low-complexity or short-periodicity internal repeats?</a></li>
   <li><a href="#references">References</a></li>
-<li><a href="mouseblast_overview_help.shtml">Using MouseBLAST - Overview</a></li>
+<li><a href="mouseblast_overview_help.shtml" target="_blank">Using MouseBLAST - Overview</a></li>
 </ul>
 
 <h3><a name="any_repeat"></a>Should I use a repeat masking program?</h3>
@@ -74,10 +74,10 @@ You can choose from among the following programs:
 
 <h3><a name="repeatmasker"></a>How does RepeatMasker work?</h3>
 <p>RepeatMasker filters out repetitive sequences using a set of scoring matrices specific to rodent, primate, other mammals, <EM>Drosophila</EM>, or <EM>Arabidopsis thaliana</EM> repeats.  You can run RepeatMasker with one of these scoring matrices to mask repetitive sequences in your query sequence before running WU-BLAST.  If RepeatMasker finds repetitive regions in the sequence, it replaces those nucleotide symbols with N.</p>
-<P>See <A HREF="mouseblast_output_help.shtml#rmoutput">RepeatMasker Output</A> for a table describing the location and identity of repeats that RepeatMasker finds. 
+<P>See <A HREF="mouseblast_output_help.shtml#rmoutput" target="_blank">RepeatMasker Output</A> for a table describing the location and identity of repeats that RepeatMasker finds. 
 <!--<p>The Repeat Masked Sequence section contains the masked sequence in FASTA format. Any regions of the query sequence containing repeats are replaced with N characters.</p>-->
 
-<p>For more information and documentation on RepeatMasker, see <a href="http://www.repeatmasker.org/">http://www.repeatmasker.org/</a>.
+<p>For more information and documentation on RepeatMasker, see <a href="http://www.repeatmasker.org/" target="_blank">http://www.repeatmasker.org/</a>.
 </p>
 
 

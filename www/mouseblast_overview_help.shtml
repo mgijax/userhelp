@@ -59,11 +59,11 @@ This help document provides links to answers for the following questions:</p>
 
 <A NAME="howdo"></A>
 <H3>How do I use this form?</H3>
-<P>See <A HREF="mouseblast_basic_steps_help.shtml">Using MouseBLAST - Basic Steps</A>.</p>
+<P>See <A HREF="mouseblast_basic_steps_help.shtml" target="_blank">Using MouseBLAST - Basic Steps</A>.</p>
 
 <A NAME="output"></A>
 <H3>How do I interpret the results of my search?</H3>
-<P>See <A HREF="mouseblast_output_help.shtml">Using MouseBLAST - Interpreting the MouseBLAST Output Report</A>.</p>
+<P>See <A HREF="mouseblast_output_help.shtml" target="_blank">Using MouseBLAST - Interpreting the MouseBLAST Output Report</A>.</p>
 
 <A NAME="sample"></A>
 <H3>Are there any examples?</H3>
@@ -71,23 +71,23 @@ This help document provides links to answers for the following questions:</p>
 
 <A NAME="programs"></A>
 <H3>What is BLAST? What is the difference between the WU-BLAST programs? <!-- (BLASTN, BLASTX, BLASTP, TBLASTN, and TBLASTX)--></H3>
-<p>See <A HREF="mouseblast_blast_programs_help.shtml">Using MouseBLAST - Available BLAST Programs</A>.</p>
+<p>See <A HREF="mouseblast_blast_programs_help.shtml" target="_blank">Using MouseBLAST - Available BLAST Programs</A>.</p>
 
 <A NAME="databases"></A>
 <H3>Which sequence databases can I search?</H3>
-<P>See <A HREF="mouseblast_sequence_databases_help.shtml">Using MouseBLAST - Sequence Databases</A>.</p>
+<P>See <A HREF="mouseblast_sequence_databases_help.shtml" target="_blank">Using MouseBLAST - Sequence Databases</A>.</p>
 
 <A NAME="masking"></A>
 <H3>Are there different ways to mask a query sequence?</H3>
-<p>See <A HREF="mouseblast_masking_help.shtml">Using MouseBLAST - Masking Programs</A>.</p>
+<p>See <A HREF="mouseblast_masking_help.shtml" target="_blank">Using MouseBLAST - Masking Programs</A>.</p>
 
 <A NAME="formats"></A>
 <H3>Which sequence formats can I use on this form?</H3>
-<P>See <A HREF="mouseblast_sequence_format_help.shtml">Using MouseBLAST - Sequence Formats</A>.</p>
+<P>See <A HREF="mouseblast_sequence_format_help.shtml" target="_blank">Using MouseBLAST - Sequence Formats</A>.</p>
 
 <A NAME="fetch"></A>
 <H3>Can I find a sequence if I know the sequence accession ID?</H3>
-<p></p>See <A HREF="mouseblast_fetch_help.shtml">Using MouseBLAST - Searching By Sequence ID</A>.</p>
+<p></p>See <A HREF="mouseblast_fetch_help.shtml" target="_blank">Using MouseBLAST - Searching By Sequence ID</A>.</p>
 <a href="#top"><font size="-1">Top</font></a>
 
 <!--#include file='include/templateBlankBodyStop.html'-->

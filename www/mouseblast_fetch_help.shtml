@@ -45,7 +45,7 @@ function openHelpWindow(helpFile){
 <li><a href="#examples">Are there examples of sequence ID/sequence database combinations?</a></li>
 <li><a href="#retrieval">What if the MouseBLAST sequence retrieval tool is unavailable?</a></li>
   <li><a href="#invalid_ID">What if the sequence identifier is invalid?</a></li>
-<li><a href="#top"><a href="mouseblast_overview_help.shtml">Using MouseBLAST - Overview</a></li>
+<li><a href="#top"><a href="mouseblast_overview_help.shtml" target="_blank">Using MouseBLAST - Overview</a></li>
 </ul>
 
 <H3><a name="know_ID"></a>Can I search a sequence if I know the sequence accession ID?</H3>
@@ -105,7 +105,7 @@ function openHelpWindow(helpFile){
 
 
 <h3><a name="retrieval"></a>What if the MouseBLAST sequence retrieval tool is unavailable? </h3>
-<p>If the sequence retrieval tool is not working, MouseBLAST returns an error message to that effect.  Try to obtain your sequence from a web resource such <A HREF="http://www.ncbi.nlm.nih.gov/gquery/gquery.fcgi">Entrez</A> at the NCBI or <A HREF="http://au.expasy.org">ExPASy</A> at the Swiss Institute of Bioinformatics (SIB).
+<p>If the sequence retrieval tool is not working, MouseBLAST returns an error message to that effect.  Try to obtain your sequence from a web resource such <A HREF="http://www.ncbi.nlm.nih.gov/gquery/gquery.fcgi" target="_blank">Entrez</A> at the NCBI or <A HREF="http://au.expasy.org">ExPASy</A> at the Swiss Institute of Bioinformatics (SIB).
 </P>
 
 <h3><a name="invalid_ID"></a>What if the sequence identifier is invalid?</h3>
