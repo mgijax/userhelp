@@ -44,7 +44,7 @@ function openHelpWindow(helpFile){
  <UL>
    <LI><A HREF="#nucleotide">Nucleotide Sequence Databases</A></LI>
   <LI><A HREF="#protein">Protein Sequence Databases</A></LI>
-  <li><a href="mouseblast_overview_help.shtml">Using MouseBLAST - Overview</a></li>
+  <li><a href="mouseblast_overview_help.shtml" target="_blank">Using MouseBLAST - Overview</a></li>
 </ul>
 </p>
 
@@ -69,7 +69,7 @@ function openHelpWindow(helpFile){
 
 <li><a name="refseq"></a><b>RefSeq Mouse Transcripts</b> - All NCBI RefSeq Mouse transcripts (Mouse RefSeqs of type NM_, NR_, XM_, and XR_).</li><br>
 
-<li><a name="build_37"></a><b>NCBI Mouse Genome Assembly Build 37</b> -  NCBI Build 37.1 represents over 90% of the mouse genome in finished form.  See NCBI's <a href="http://www.ncbi.nlm.nih.gov/projects/genome/assembly/grc/mouse/">Mouse Genome Overview</a> for details. Click to see the <a href="http://www.ncbi.nlm.nih.gov/mapview/map_search.cgi?taxid=10090">genome view</a> or the <a href="http://www.ncbi.nlm.nih.gov/mapview/stats/BuildStats.cgi?taxid=10090&build=37&ver=1">statistics</a>. </li><br>
+<li><a name="build_37"></a><b>NCBI Mouse Genome Assembly Build 37</b> -  NCBI Build 37.1 represents over 90% of the mouse genome in finished form.  See NCBI's <a href="http://www.ncbi.nlm.nih.gov/projects/genome/assembly/grc/mouse/" target="_blank">Mouse Genome Overview</a> for details. Click to see the <a href="http://www.ncbi.nlm.nih.gov/mapview/map_search.cgi?taxid=10090" target="_blank">genome view</a> or the <a href="http://www.ncbi.nlm.nih.gov/mapview/stats/BuildStats.cgi?taxid=10090&build=37&ver=1" target="_blank">statistics</a>. </li><br>
 
 <li><a name="build_36"></a><b>NCBI Mouse Genome Assembly Build 36</b> -  The Build 36 assembly from the Mouse Genome Sequencing Consortium (MGSC) is composed largely of finished sequence  and includes approximately 2.6 Gb of sequences on chromosomes 1-19, X, Y, M (mitochondrial DNA) and Un (unmapped clone contigs). <!--See NCBI's  <a href="http://www.ncbi.nlm.nih.gov/projects/genome/assembly/grc/mouse/">Mouse Genome Overview</a> for details.--></li><br>
 
