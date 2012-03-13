@@ -1,15 +1,13 @@
 .
-
 .
 
-
 <!--#include file='include/templateHead.html'--> 
-<title>MGI-Mapping Experimental Data Records</title>
+<title>Interpreting Experimental Mapping Data Records</title>
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
 <title>
   <!--#include file="include/mgiversion.html"--> 
-Retrieving Maps and Mapping Data</title>
+Interpreting Maps and Mapping Data</title>
 <script>
 function openHelpWindow(helpFile){
   helpUrl = "./" + helpFile;
@@ -22,7 +20,7 @@ function openHelpWindow(helpFile){
 <div id="">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
-Mapping Experimental Data Records
+Experimental Mapping Data Records
  </span>
 </div>
 
@@ -55,9 +53,9 @@ Mapping Experimental Data Records
 
 <P>See also:
 <UL>
-  <LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer">MGI Glossary</a> for unfamiliar terms (or for how MGI defines familiar terms) and acronyms</LI>
-  <LI><A HREF="MISC_general_searching_help.shtml">General Guidelines for MGI Query Form Searches</A></LI>
-  <LI><A HREF="MISC_wildcard_help.shtml">Using Wildcards on MGI Query Forms</A></LI>
+  <LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</a> for unfamiliar terms (or for how MGI defines familiar terms) and acronyms</LI>
+  <LI><A HREF="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</A></LI>
+  <LI><A HREF="MISC_wildcard_help.shtml" target="_blank">Using Wildcards on MGI Query Forms</A></LI>
  </ul>
 </p>
 
