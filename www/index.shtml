@@ -45,16 +45,17 @@
   <a name="help_marker"></a> 
 <DT class="enhance">Genes & Genome Features<!--, & Maps--></dt>
   <blockquote>
-  		<dt><b>Genes & Markers</b></dt>
-		<dd><a href="GENE_help.shtml" onclick="javascript:openHelpWindow('GENE_help.shtml'); return false;">Using the Genes and Markers Query Form</a></dd>
+  	<dt><b>Genes & Markers</b></dt>
+	<dd><a href="GENE_help.shtml" onclick="javascript:openHelpWindow('GENE_help.shtml'); return false;">Using the Genes and Markers Query Form</a></dd>
   	  
 	<dd><a href="GENE_summary_help.shtml" onclick="javascript:openHelpWindow('GENE_summary_help.shtml'); return false;">Interpreting a Genes and Markers Summary</a></dd>
-  	  	<dd><a href="GENE_detail_help.shtml" onclick="javascript:openHelpWindow('GENE_detail_help.shtml'); return false;">Interpreting Gene Details</a></dd>
+  	<dd><a href="GENE_detail_help.shtml" onclick="javascript:openHelpWindow('GENE_detail_help.shtml'); return false;">Interpreting Gene Details</a></dd>
 
-<dd><a href="GENE_feature_types_help.shtml" onclick="javascript:openHelpWindow('GENE_feature_types_help.shtml'); return false;">Genome Feature Type Definitions</a></dd>
+	<dd><a href="GENE_feature_types_help.shtml" onclick="javascript:openHelpWindow('GENE_feature_types_help.shtml'); return false;">Genome Feature Type Definitions</a></dd>
+	
+	<dd><a href="mapping_experimental_data_help.shtml" onclick="javascript:openHelpWindow('mapping_experimental_data_help.shtml'); return false;">Interpreting Experimental Mapping Data Records</a></dd>
   	  	
-  	  	 
-  	  	
+  	  
   	  <dt><b>Sequences</b></dt>
 		        
   	  <dd><a href="SEQUENCE_summary_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_summary_help.shtml'); return false;"> Interpreting a Sequence Summary</a></dd>  	          
