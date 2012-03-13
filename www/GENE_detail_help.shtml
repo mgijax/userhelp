@@ -107,11 +107,7 @@ function openHelpWindow(helpFile){
 <ul>
   <li>Chromosome to which the marker is assigned. Aside from a chromosome number, other possible values include MT (mitochondrial), XY (XY pseudoautosomal), UN (chromosome assignment is not known).</li>
   <li>Marker's centimorgan position.  Centimorgan positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009)  (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PMID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.</li>
-  <li>Centimorgan position.  centiMorgan (cM) positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009). Markers without genome coordinates cannot be assigned specific cM locations are designated as "syntenic".
-<!--
-
-
-For markers whose position is known, a numeric value appears. This value is calculated from various MGI-stored values, including those derived from experimental results, Chromosome Committee Reports, and MIT Mouse Genome project downloads. For QTLs, the numeric value is the position of the peak correlated region/marker. Markers assigned to a chromosome where a position is not yet estimated appear as <I>syntenic</I>.--></li>
+  <!--For markers whose position is known, a numeric value appears. This value is calculated from various MGI-stored values, including those derived from experimental results, Chromosome Committee Reports, and MIT Mouse Genome project downloads. For QTLs, the numeric value is the position of the peak correlated region/marker. Markers assigned to a chromosome where a position is not yet estimated appear as <I>syntenic</I>.-->
 <li>Cytogenetic position.</li></TD>
 </TR>
 <TR>
