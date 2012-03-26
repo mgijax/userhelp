@@ -133,7 +133,7 @@ If you are interested in doing queries that ask what genes are expressed in some
         <TD valign="top">Genes may be described using three broad categories reflecting biological roles: Molecular Function, Biological Process, or Cellular Component. The Gene Ontology (GO) Consortium has developed structured vocabularies to specify detailed aspects within each category. MGI uses GO terms to annotate gene records. See <a href="GO_classification_fields_help.shtml" target="_blank">Using Gene Ontology Classification Fields on MGI Query Forms </a> for details.    </TD>
       </TR>-->
 
-  <td valign="top"><b>Expression</b></b></td>
+  <td valign="top"><b>Expression</b></b></td> 
           <TD valign="top">Click to limit your search to assays/assay results that expression was <A NAME="detected_in"></a>detected in, not detected in, or either. The default value is <i>either</i>.<p>
          <table>
         <TR>
