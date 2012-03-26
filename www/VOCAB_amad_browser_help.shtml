@@ -110,7 +110,7 @@ expression results from assays with differing spatial resolution in a consistent
 <TH>Field</TH><TH>Color</TH><TH>Description</TH></TR>
 <TR><TD VALIGN="top">MA term, MA ID,<BR>Definition, Synonyms,<BR>Number of paths to term</TD>
 <TD VALIGN="top">
-   <TABLE style= "background: #FFFFCC;"><TR><TD VALIGN="top">Yellow</TD></TR>
+   <TABLE> <style> {background: #FFFFCC} <TR><TD>Yellow</TD></TR> </style>
    </TABLE>
 <TD VALIGN="top">The selected anatomical term, the unique identifier (accession number) for the term, the definition of the term, any synonyms associated with the term (if available), and the number of paths to the term within the ontology.</TD></TR>
 <TR>
