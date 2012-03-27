@@ -142,7 +142,7 @@ If you are interested in doing queries that ask what genes are expressed in some
 
 <p>The anatomical structures are taken from the <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</A>. Begin typing an anatomy term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. You must choose a term from the autocomplete list (i.e., there is no free text entry in this field.)</p>
 
-<P>For each develpmental stage, the Anatomical Dictionary is organized as a hierarchy of structures. <!--You can choose to include either substructures (children), superstructures (parents), both, or neither in your search.--> The search includes substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon.</p>
+<P>For each develpmental stage, the Anatomical Dictionary is organized as a hierarchy of structures. <!--You can choose to include either substructures (children), superstructures (parents), both, or neither in your search.--> By default, the search includes substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon.</p>
 <!--<ul>
 <li>
 If you enter more than one structure in the query field, you can choose to find data for genes that match ALL specified structures (the default value). In this case, the commas are interpreted to mean "and" &#151; your query returns assays that examine the expression of genes for which <b>all</b> of the specified structures have been analyzed. </li>
@@ -154,7 +154,7 @@ If you enter more than one structure in the query field, you can choose to find 
 <a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</a>.</p> 
      </TD>
     </TR>
-    <TR>
+    <!--<TR>
      <td valign="top"><A NAME="developmental_stage"></A><b>Developmental Stage(s)</b></td>
      <TD VALIGN="TOP">Use this field and its operators (in and not in) to select one or more Theiler stages (TS) to focus your search on a particular stage of embryonic development. 
 
@@ -162,7 +162,7 @@ If you enter more than one structure in the query field, you can choose to find 
 appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc. Therefore, if you are interested in all available records for embryos of age 14.0 dpc, you will need to select both TS 21 and TS 22.
 <p>You can <A HREF="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagecriteria.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28.
        </TD>
-      </TR>
+      </TR>-->
      <!--<tr><td valign="top"><a name="exclude_mutant"></a><b>Exclude mutant specimens from query</b></td><td valign="top">
 Click the check box if you want to exclude mutant specimens from the search. <b>Note:</b> Because of the way the query is designed, knock-in embryos are considered mutants. Therefore, if you exclude mutant specimens, the query returns no expression results obtained from <i>in situ</i> reporter (knock-in) assays.</td></tr></table></td></tr>-->
      
