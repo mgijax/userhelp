@@ -159,7 +159,7 @@ Enter a text string to search for articles with abstracts/titles containing the 
 </ul>
 <p>Your search results are shown with four sections, marked by light blue banners: </p>
 <ol>
- <li><b>Click to <a name="modify_refqf">modify</a> search</b>: Click in the light blue banner in this section if you wish to modify your search. (The banner title changes to Click to Hide Search.) This section will expand to show the References Query Form with your original search parameters.</li>
+ <li><b>Click to <a name="modify_refqf">modify</a> search</b>: This option appears only after using the Reference Query Form. Click in the light blue banner in this section if you wish to modify your search. (The banner title changes to Click to Hide Search.) This section will expand to show the References Query Form with your original search parameters.</li>
  <li><b>Results</b>: The Results section contains a summary of your search parameter(s) (for example, author name) and the number of results. If you have filtered your results, the <A HREF="#filter_refqf">filters</a> used, the ability to remove filters, and the number of results after filtering will appear in the center of this section. The right hand side of this section allows you to page through your results and change the number of results viewed on a page. </li>
  <li><b>Filter references by:</b> Use this section to <A HREF="#filter_refqf">filter</a> your results, show all abstracts or create a <a href="#textfile_refqf">text file</a> of your results. </li>
  <li>The fourth banner shows the field headings for your results:</li>
