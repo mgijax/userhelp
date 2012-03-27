@@ -97,7 +97,7 @@ If you are interested in doing queries that ask what genes are expressed in some
 <h3><a name="fields"></a>What values are acceptable in each of the query form fields?</h3>
 <table width="!" cellpadding="4" class="nb" align="center">
  <tr align="center"><Td VALIGN="top"><A HREF="#gene_nomenclature">Genes</A> | <A HREF="#map_position">Chromosomal location</A> <!--|
-<A HREF="#gene_ontology">Gene Ontology classifications</A> | <A HREF="#detected_in">Expression</A> | <A HREF="#mutated_gene">Mutated gene</A>--> | <A HREF="#assay_type">Assay types</A> <!--| <a href="#output_format">Sorting & output format</a>--></td>
+<A HREF="#gene_ontology">Gene Ontology classifications</A>--> | <A HREF="#anatomical_structure">Anatomical structure or stage</A> <!--| <A HREF="#mutated_gene">Mutated gene</A>--> | <A HREF="#background">Genetic background</A> | <A HREF="#assay_type">Assay types</A> <!--| <a href="#output_format">Sorting & output format</a>--></td>
  </TR>
 </TABLE>
 
@@ -133,19 +133,22 @@ If you are interested in doing queries that ask what genes are expressed in some
         <TD valign="top">Genes may be described using three broad categories reflecting biological roles: Molecular Function, Biological Process, or Cellular Component. The Gene Ontology (GO) Consortium has developed structured vocabularies to specify detailed aspects within each category. MGI uses GO terms to annotate gene records. See <a href="GO_classification_fields_help.shtml" target="_blank">Using Gene Ontology Classification Fields on MGI Query Forms </a> for details.    </TD>
       </TR>-->
 
-  <td valign="top"><b>Expression</b></b></td> 
+  <!--<td valign="top"><b>Expression</b></b></td> 
           <TD valign="top">Click to limit your search to assays/assay results that expression was <A NAME="detected_in"></a>detected in, not detected in, or either. The default value is <i>either</i>.<p>
-         <table>
-        <TR>
-         <td valign="top"><A NAME="anatomical_structure"></A><b>Anatomical Structure(s)</b></td>
-         <TD VALIGN="TOP">The anatomical structures are taken from the <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</A>. Enter a single item or multiple items, separated by commas. Use an <a href="MISC_operators_help.shtml" target="_blank">operator</a> (the default is <i>contains</i>) to narrow or expand your search.
+         <table>-->
+<TR>
+<td valign="top"><A NAME="anatomical_structure"></A><b>Anatomical structure or stage</b></td>
+<TD VALIGN="TOP">Click to limit your search to assays/assay results that expression was detected in, not detected in, or either. The default value is <i>either</i>.
 
-<P>For each stage, the Anatomical Dictionary is organized as a hierarchy of structures. You can choose to include either substructures (children), superstructures (parents), both, or neither in your search. The default is to <i>include</i> substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon.</p>
-<ul><li>
+<p>The anatomical structures are taken from the <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</A>. Begin typing an anatomy term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. You must choose a term from the autocomplete list (i.e., there is no free text entry in this field.)</p>
+
+<P>For each develpmental stage, the Anatomical Dictionary is organized as a hierarchy of structures. <!--You can choose to include either substructures (children), superstructures (parents), both, or neither in your search.--> The search includes substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon.</p>
+<!--<ul>
+<li>
 If you enter more than one structure in the query field, you can choose to find data for genes that match ALL specified structures (the default value). In this case, the commas are interpreted to mean "and" &#151; your query returns assays that examine the expression of genes for which <b>all</b> of the specified structures have been analyzed. </li>
 <li>If you choose to find data for genes that match ANY specified structures, the query interprets the commas to mean "or" and returns assays that examine the expression of genes for which <b>any</b> of the specified structures have been analyzed.</li>
 </ul>
-<p> If you choose to include superstructures, the system, besides searching for brain, looks for structures in the hierarchy placed above brain, such as central nervous system. This can be a useful search strategy when you want to know in what structures a gene is NOT expressed.</p>
+<p> If you choose to include superstructures, the system, besides searching for brain, looks for structures in the hierarchy placed above brain, such as central nervous system. This can be a useful search strategy when you want to know in what structures a gene is NOT expressed.</p>-->
 
 <P>If you are unsure of the most appropriate structural term to use, browse the
 <a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</a>.</p> 
@@ -160,20 +163,23 @@ appearance of specific developmental features. Embryos of the same gestational a
 <p>You can <A HREF="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagecriteria.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28.
        </TD>
       </TR>
-     <tr><td valign="top"><a name="exclude_mutant"></a><b>Exclude mutant specimens from query</b></td><td valign="top">
-Click the check box if you want to exclude mutant specimens from the search. <b>Note:</b> Because of the way the query is designed, knock-in embryos are considered mutants. Therefore, if you exclude mutant specimens, the query returns no expression results obtained from <i>in situ</i> reporter (knock-in) assays.</td></tr></table></td></tr>
+     <!--<tr><td valign="top"><a name="exclude_mutant"></a><b>Exclude mutant specimens from query</b></td><td valign="top">
+Click the check box if you want to exclude mutant specimens from the search. <b>Note:</b> Because of the way the query is designed, knock-in embryos are considered mutants. Therefore, if you exclude mutant specimens, the query returns no expression results obtained from <i>in situ</i> reporter (knock-in) assays.</td></tr></table></td></tr>-->
      
 <!--<tr>
 <td valign="top"><A NAME="mutated_gene"></A><b>Mutated Gene</b></td>
   <TD>To search for expression data obtained from mutant specimens, use this field to enter the symbol or name of the mutated genetic marker. Select an <a href="MISC_operators_help.shtml" target="_blank">operator</a> (the default is <i>contains</i>) from the drop-down menu to expand or narrow your query. By default,  the system searches for current symbols/names and synonyms of the mutated gene. Clicking the down-arrow  presents two other options: you can search current symbols (no search of names) or current symbols/names only (no search of synonyms).
         </TD>
        </TR>-->
-   
+ <tr>
+	<td valign="top"><A NAME="background"></a><b>Genetic background</b></td>
+	<td valign="top">Genetic background...</td>
+ </tr>
  <tr>
    <td valign="top"><A NAME="assay_type"></A><b>Assay types</b></td>
    <td valign="top">Selection list of assay types. Use this field and its <a href="MISC_operators_help.shtml" target="_blank">operators</a>  (in and not in) to limit your search to assays of one or more selected types. The default is to search <i>Any</i> of the assay types on the list.
-       </TD>
-      </TR>
+    </TD>
+    </TR>
     
 <!--<tr><td valign="top"><a name="output_format"></a><b>Sorting and <br>output format</b></td>
     <td valign="top">
