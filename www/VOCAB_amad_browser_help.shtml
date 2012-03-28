@@ -109,9 +109,7 @@ expression results from assays with differing spatial resolution in a consistent
 <TR>
 <TH>Field</TH><TH>Color</TH><TH>Description</TH></TR>
 <TR><TD VALIGN="top">MA term, MA ID,<BR>Definition, Synonyms,<BR>Number of paths to term</TD>
-<TD VALIGN="top">
-   <TABLE> <style> {background: #FFFFCC} <TR><TD>Yellow</TD></TR> </style>
-   </TABLE>
+<TD VALIGN="top"><span style="background-color:#FFFFCC">Yellow</span></TD> 
 <TD VALIGN="top">The selected anatomical term, the unique identifier (accession number) for the term, the definition of the term, any synonyms associated with the term (if available), and the number of paths to the term within the ontology.</TD></TR>
 <TR>
 <TD VALIGN="top">Name, Unique identifier</TD><TD VALIGN="top"><FONT COLOR="#FF0000">Red</FONT></TD><TD>Name of the anatomical term selected, followed by its unique identifier. There is one identifier for each term in the Adult Mouse Anatomical Dictionary. This means that the ID is always the same regardless of how many times the term is displayed as part of a specific path to that term. The unique identifier for a given structure remains the same even if its name changes.</TD></TR>
