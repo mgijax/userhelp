@@ -49,7 +49,7 @@ function openHelpWindow(helpFile){
  <LI><A HREF="#fields">What values are acceptable in each of the query form fields?</a>
  <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</a>
  <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found" target="_blank">What if the search does not find any expression results?</a>
- <li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</li>
+ <li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</a></li>
  <LI><A HREF="#example">Are there examples of query results?</a>
 
 </UL></P>
@@ -61,10 +61,10 @@ function openHelpWindow(helpFile){
 <p>To learn more about GXD and how we acquire data, please see
 <a href="<!--#include file='include/mgihome_url.html'-->/GXD/aboutGXD.shtml" target="_blank">About GXD</a>.
 </p>
-
+<p>See also the <A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</a> for unfamiliar terms and acronyms.</p>
 
 <h3><A name="whatquery"></a>What can I use the Gene Expression Data query form to find?</h3>
-<p>The Gene Expression Data Query form allows you to ask questions that can be basic or complex. Examples of the type of questions you can ask are:
+<p>The Gene Expression Data Query form Standard Search tab allows you to ask questions that can be basic or complex. Examples of the type of questions you can ask are:
  <ul>
   <li>When and where is <b>En1</b> expressed?
   <li>What genes are expressed in the heart at E8.5?
@@ -103,13 +103,14 @@ If you are interested in doing queries that ask what genes are expressed in some
 
 <table border="1" cellpadding="3">
 <TR><td valign="top"><A NAME="gene_nomenclature"></A><b>Genes</b></td><TD>This section offers a choice of two fields. 
-<br><b>Nomenclature search.</b> Use the left hand field to search for expression data for a gene or set of genes with a similar nomenclature. 
+<p>><b>Nomenclature search.</b> Use the left hand field to search for expression data for a gene or set of genes with a similar nomenclature. 
 <ul>
 <li>The gene nomenclature field supports an asterisk as a wild card. A search for pax* finds expression data for gene symbols and names that begin with <i>pax</i>.</li>
 <li>A search for *box* looks for nomenclature that contains <i>box</i>. This search finds the arginine decarboxylase gene, homeobox genes and paired box genes.</li>
 <li>A search for <i>paired box</i> finds nomenclature containing <i>paired</i> AND <i>box</i>.</li>
 <li>This field searches only alphanumeric characters. Single and double quotes, commas and hyphens are ignored.</li>
 </ul>
+</p>
 <b>Vocabulary term search.</b> Use the right hand field to find expression data for genes defined by their function, phenotype, disease model, protein domain or family, or biological pathway. 
 <ul>
 <li>Begin typing a term of interest and an autocomplete list activates on the second character. 
@@ -123,11 +124,11 @@ If you are interested in doing queries that ask what genes are expressed in some
 <li>The autocomplete field ignores non-alphanumeric characters such as " and -.</li>
 </ul>
 </TD></TR>
-   
+<!-- 
 <TR><td valign="top"><a name="map_position"></a><b>Chromosomal location</b></td>
   <Td ALIGN="left" VALIGN="top">Use the map position parameters (<a name="chromosome"></a>Chromosomes, <a name="coordinates"></a>Genome Coordinates, <a name="cytogenetic_band"></a>Cytogenetic Band, <a name="marker_range"></a>Marker Range, and <a name="cm_offset"></a>cM Position) to limit the scope of your query. See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fields on MGI Query Forms</a> for details.
 <ul><li>When using chromosome(s), you can also define genome coordinates, cytogenetic band, or cM position.</li> <li>You cannot combine genome coordinates, cytogenetic band, and cM position with one another.</li><li>You can enter any markers with coordinates.</li></ul></td>
-</tr>
+</tr>-->
 <!--<tr>
 <td valign="top"><A NAME="gene_ontology"></A><b>Gene <br>Ontology <br>classifications</b></td>
         <TD valign="top">Genes may be described using three broad categories reflecting biological roles: Molecular Function, Biological Process, or Cellular Component. The Gene Ontology (GO) Consortium has developed structured vocabularies to specify detailed aspects within each category. MGI uses GO terms to annotate gene records. See <a href="GO_classification_fields_help.shtml" target="_blank">Using Gene Ontology Classification Fields on MGI Query Forms </a> for details.    </TD>
@@ -171,6 +172,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
   <TD>To search for expression data obtained from mutant specimens, use this field to enter the symbol or name of the mutated genetic marker. Select an <a href="MISC_operators_help.shtml" target="_blank">operator</a> (the default is <i>contains</i>) from the drop-down menu to expand or narrow your query. By default,  the system searches for current symbols/names and synonyms of the mutated gene. Clicking the down-arrow  presents two other options: you can search current symbols (no search of names) or current symbols/names only (no search of synonyms).
         </TD>
        </TR>-->
+ <!--  
  <tr>
 	<td valign="top"><A NAME="background"></a><b>Genetic background</b></td>
 	<td valign="top">Genetic background...</td>
@@ -180,7 +182,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
    <td valign="top">Selection list of assay types. Use this field and its <a href="MISC_operators_help.shtml" target="_blank">operators</a>  (in and not in) to limit your search to assays of one or more selected types. The default is to search <i>Any</i> of the assay types on the list.
     </TD>
     </TR>
-    
+ -->   
 <!--<tr><td valign="top"><a name="output_format"></a><b>Sorting and <br>output format</b></td>
     <td valign="top">
     <table border="0" cellpadding="3">
@@ -224,7 +226,58 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <a href="#top"><font size="-1">Top</font></a>
 
 <H3><A NAME="summary"></A>How do I interpret the query results summary and detail pages?</H3>
-<p>See <a href="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data Query Results</a>.</p>
+<!--<p>See <a href="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data Query Results</a>.</p>
+-->
+<p>Your search results are displayed within two tabs, each noting the number of results: <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a>.</p>
+<p></p>
+<h4><a name="genestab"></a>Genes</h4>
+<p>If you select the Genes tab, the query summary contains the following fields:<br><br>
+<blockquote> 
+<table border width="!" cellpadding="4" cellspacing="1">
+ <tr><th align="left" valign="top"><nobr><b>MGI ID</b></td>
+     <td valign="top">MGI accession ID for the Gene</td></tr> 
+ <tr><td valign="top"><b>Gene</b></td>
+     <td>Symbol of the analyzed gene, linked to its MGI marker detail record</td></tr>
+ <tr><td valign="top"><b>Gene Name </b></td>
+     <td valign="top">Name of the analyzed gene</td></tr>
+ <tr><td valign="top"><b>Type</b></td>
+ 	 <td valign="top">Marker feature type for the analyzed gene. See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a>.</td></tr>
+ <tr><td valign="top"><b>Chr </b></td>
+ 	 <td valign="top">Chromosome to which the marker is assigned. Aside from a chromosome number, other possible values include MT (mitochondrial), XY (XY pseudoautosomal), UN (chromosome assignment is not known)</td></tr>
+ <tr><td valign="top"><b>Genome Location-NCBI Build # </b></td>
+ 	 <td valign="top">Genome coordinate range in base pairs and the build number of the B57BL/6J genome</td></tr>
+ <tr><td valign="top"><b>Strand </b></td>
+     <td valign="top">Coding strand for the gene</td></tr>
+</table></p>
+</blockquote>
+
+<h4><a name="assaytab"></a>Assay Results</h4>
+<p>If you select the Assay Results tab, the query summary contains the following fields:<br><br>
+<blockquote> 
+<table border width="!" cellpadding="4" cellspacing="1">
+<tr><th align="left" valign="top"><nobr><b>Gene</b></td>
+     <td valign="top">Symbol of the analyzed gene</td></tr> 
+<tr><td valign="top"><b>Result Details </b></td>
+     <td valign="top">xxx</td></tr>
+<tr><td valign="top"><b>Assay Type </b></td>
+     <td valign="top">xxx</td></tr>
+<tr><td valign="top"><b>Anatomical System </b></td>
+     <td valign="top">xxx</td></tr>
+<tr><td valign="top"><b>Age </b></td>
+     <td valign="top">xxx</td></tr>
+<tr><td valign="top"><b>Structure </b></td>
+     <td valign="top">xxx</td></tr>
+<tr><td valign="top"><b>Detected? </b></td>
+     <td valign="top">xxx</td></tr>
+<tr><td valign="top"><b>Figure(s) </b></td>
+     <td valign="top">xxx</td></tr>
+<tr><td valign="top"><b>Mutant Allele(s) </b></td>
+     <td valign="top">xxx</td></tr>
+<tr><td valign="top"><b>Reference </b></td>
+     <td valign="top">xxx</td></tr>
+</table>
+</blockquote>
+
 <a href="#top"><font size="-1">Top</font></a>
 
 
