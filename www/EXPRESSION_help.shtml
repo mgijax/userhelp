@@ -49,7 +49,7 @@ function openHelpWindow(helpFile){
  <LI><A HREF="#fields">What values are acceptable in each of the query form fields?</a>
  <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</a>
  <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found" target="_blank">What if the search does not find any expression results?</a>
- <li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</a></li>
+ <!--<li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</a></li>-->
  <LI><A HREF="#example">Are there examples of query results?</a>
 
 </UL></P>
@@ -140,9 +140,9 @@ If you are interested in doing queries that ask what genes are expressed in some
          <table>-->
 <TR>
 <td valign="top"><A NAME="anatomical_structure"></A><b>Anatomical structure or stage</b></td>
-<TD VALIGN="TOP">Click to limit your search to assays/assay results that expression was detected in, not detected in, or either. The default value is <i>either</i>.
+<TD VALIGN="TOP"><!--Click to limit your search to assays/assay results that expression was detected in, not detected in, or either. The default value is <i>either</i>.-->
 
-<p>The anatomical structures are taken from the <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</A>. Begin typing an anatomy term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. You must choose a term from the autocomplete list (i.e., there is no free text entry in this field.)</p>
+<p>The anatomical structures are taken from the <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</A>. Begin typing an anatomy term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. You must choose a term from the autocomplete list (i.e., there is no free text entry in this field).</p>
 
 <P>For each develpmental stage, the Anatomical Dictionary is organized as a hierarchy of structures. <!--You can choose to include either substructures (children), superstructures (parents), both, or neither in your search.--> By default, the search includes substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon.</p>
 <!--<ul>
@@ -235,7 +235,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <p>If you select the Genes tab, the query summary contains the following fields:<br><br>
 <blockquote> 
 <table border width="!" cellpadding="4" cellspacing="1">
- <tr><th align="left" valign="top"><nobr><b>MGI ID</b></td>
+ <tr><td align="left" valign="top"><nobr><b>MGI ID</b></td>
      <td valign="top">MGI accession ID for the Gene</td></tr> 
  <tr><td valign="top"><b>Gene</b></td>
      <td>Symbol of the analyzed gene, linked to its MGI marker detail record</td></tr>
@@ -256,26 +256,26 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <p>If you select the Assay Results tab, the query summary contains the following fields:<br><br>
 <blockquote> 
 <table border width="!" cellpadding="4" cellspacing="1">
-<tr><th align="left" valign="top"><nobr><b>Gene</b></td>
+<tr><td align="left" valign="top"><nobr><b>Gene</b></td>
      <td valign="top">Symbol of the analyzed gene</td></tr> 
 <tr><td valign="top"><b>Result Details </b></td>
-     <td valign="top">xxx</td></tr>
+     <td valign="top">The word data links to detailed expression results; the MGI accession ID of the assay (useful for searching purposes) appears next in parentheses. If a camera icon appears, click data to view associated image(s).</td></tr>
 <tr><td valign="top"><b>Assay Type </b></td>
-     <td valign="top">xxx</td></tr>
+     <td valign="top">Name of the assay used (e.g., immunohistochemistry, Northern blot, RNA <i>in situ</i>)</td></tr>
 <tr><td valign="top"><b>Anatomical System </b></td>
      <td valign="top">xxx</td></tr>
 <tr><td valign="top"><b>Age </b></td>
      <td valign="top">xxx</td></tr>
 <tr><td valign="top"><b>Structure </b></td>
-     <td valign="top">xxx</td></tr>
+     <td valign="top">Structure examined in the assay, given as a Theiler stage (TS) and anatomical structure name <!--linked to <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">The Mouse Anatomical Dictionary Browser</A>  - term detail report showing the structure in the anatomical hierarchy.--></td></tr>
 <tr><td valign="top"><b>Detected? </b></td>
-     <td valign="top">xxx</td></tr>
+     <td valign="top">The level of expression detected. Possible results include: present, absent, weak, trace, and strong)</td></tr>
 <tr><td valign="top"><b>Figure(s) </b></td>
      <td valign="top">xxx</td></tr>
 <tr><td valign="top"><b>Mutant Allele(s) </b></td>
-     <td valign="top">xxx</td></tr>
+     <td valign="top">If the specimen is a mutant, the allele pairs describing the mutant genotype appear in this field.</td></tr>
 <tr><td valign="top"><b>Reference </b></td>
-     <td valign="top">xxx</td></tr>
+     <td valign="top">J number (MGI identifier) and short format citation for this reference linked to its MGI reference detail report.</td></tr>
 </table>
 </blockquote>
 
@@ -288,7 +288,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <a href="#top"><font size="-1">Top</font></a>
 
 
-<h3><a name="generate"></a>Which expression data query parameters generate an expression literature search? Which do not?</h3>
+<!--<h3><a name="generate"></a>Which expression data query parameters generate an expression literature search? Which do not?</h3>
 <p>The following detailed expression data query parameters generate an expression literature search:
 <ul>
   <li>gene symbol/name</li>
@@ -308,7 +308,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <p></p>
    
 <p><b>Note:</b> You can query gene expression literature content records directly using the 
-<a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Search Form</a>.</p>
+<a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Search Form</a>.</p>-->
 
 </p>
 <a href="#top"><font size="-1">Top</font></a>
@@ -319,12 +319,11 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <LI>When and where is <i>En1</i> expressed?
   <blockquote>
   <B>Genes:</B>  en1<br>
-  <b>Return data type:</b>  Assay Results
   </blockquote>
-<p>This query returns a list of results from assays examining <i>En1</i> expression. This summary report includes the gene symbol (with a link to its MGI detail page), the assay type used, result details linked to an assay record (click <i>data</i>), allele pairs describing the mutant genotype of the specimen (if applicable), the age of the specimen, the structure examined, and an indication of whether or not expression was detected.</p></li>
+<p>This query returns a list of results from assays examining <i>En1</i> expression. This summary report includes the gene symbol, result details linked to an assay record (click <i>data</i>), the assay type used, the age of the specimen, the structure examined, an indication of whether or not expression was detected the mutant allele pairs describing the mutant genotype of the specimen (if applicable), and the reference from with the data were curated, linked to its abstract.</p></li>
 
 <!--2-->
-<LI>What genes are expressed in the heart at E8.5 in wild-type mice only? 
+<!--<LI>What genes are expressed in the heart at E8.5 in wild-type mice only? 
 
 <blockquote>
 <B>Expression:</B>   <i>detected in</i><br>
@@ -335,15 +334,6 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 </blockquote>
 
 <p>This query returns a list of genes expressed in the heart at E8.5. This summary report includes the gene symbol (with a link to its MGI detail page), the assay type used, result details (linked to an assay record), and the reference (linked to an MGI data detail page). The report does not include any expression results obtained from mutant alleles. <b>Note:</b> Each developmental stage in the example includes coverage of embryonic day 8.5. See <a href="#stages">Theiler System</a> for details.</p></li>
-<!--3-->
-<li>Is <b>Htr7</b> expressed in brain?<br><br>
-<blockquote>
-<B>Gene/Marker Symbol/Name:</B>  <i>begins</i> htr7<br>
-<B>Anatomical Structure(s):</B>  <i>contains</i> brain<br>
-<b>Return data type:</b>  Assay Results
-</blockquote>
-
-<p>This query returns a summary report demonstrating that <b>Htr7</b> is expressed in the brain. Note that, by default, <b>Include substructures</b> is selected so that structures within the brain itself are included in the search.<p>
 
 <!--4-->
 <li>What genes are known NOT to be expressed in either the diencephalon or any structure containing the diencephalon?<P>
@@ -379,7 +369,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 </blockquote>
 <P>This query returns a list of transcription factors located on chromosome 5 found to be expressed in the forelimb or its substructures in the embryo but not in postnatal or adult mice.
 </ol>
-</p>
+</p> -->
 <a href="#top"><font size="-1">Top</font></a>
 
 <!--#include file='include/templateBodyStop.html'--> 
