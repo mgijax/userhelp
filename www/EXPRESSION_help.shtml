@@ -111,18 +111,19 @@ If you are interested in doing queries that ask what genes are expressed in some
 <li>This field searches only alphanumeric characters. Single and double quotes, commas and hyphens are ignored.</li>
 </ul>
 </p>
-<b>Vocabulary term search.</b> Use the right hand field to find expression data for genes defined by their function, phenotype, disease model, protein domain or family, or biological pathway. 
+<p><b>Vocabulary term search.</b> Use the right hand field to find expression data for genes defined by their function, phenotype, disease model, protein domain or family, or biological pathway. 
 <ul>
 <li>Begin typing a term of interest and an autocomplete list activates on the second character. 
     <ul>
     <li>The list shows all the vocabulary terms and their synonyms that match your search characters (shown in bold letters) and the number of genes annotated to each term.</li>
-    <li>Terms are greyed out if there are no genes annotated to the term or if there are no expression data associated with the associated genes.</li>
+    <li>Terms are greyed out if there are no genes annotated to the term or if there are no expression data associated with the genes.</li>
     <li>You can type the beginnings of multiple terms to narrow the list (example: axon guid).
     </ul>
 <li>You must select a term. There is no free text searching in this field.</li>
 <li>You can only select one term.</li>
 <li>The autocomplete field ignores non-alphanumeric characters such as " and -.</li>
 </ul>
+</p>
 </TD></TR>
 <!-- 
 <TR><td valign="top"><a name="map_position"></a><b>Chromosomal location</b></td>
