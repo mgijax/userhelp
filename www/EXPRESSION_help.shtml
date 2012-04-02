@@ -81,12 +81,12 @@ If you are interested in doing queries that ask what genes are expressed in some
 
  <h3><A name="howdo"></a>How do I use this query form?</h3>
 
-<P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following paragraphs. After entering values in the query form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help.shtml">Using MGI Query Forms</a> for answers to questions such as: 
+<P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following table. After entering values in the query form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help.shtml">Using MGI Query Forms</a> for answers to questions such as: 
 <ul>
  <li><A HREF="MISC_usingQFs_help.shtml#howdo" target="_blank">How do I submit a query?</a></li>
  <!--<li><a href="MISC_usingQFs_help.shtml#options" target="_blank">How do I select more than one item on a list?</a></li>-->
  <li><a href="MISC_usingQFs_help.shtml#casesen" target="_blank">Does it matter what case I use when I type values in the fields?</a></li>
- <LI><a href="MISC_usingQFs_help.shtml#sort" target="_blank">How do the sort options work?</a></li>
+ <!--<LI><a href="MISC_usingQFs_help.shtml#sort" target="_blank">How do the sort options work?</a></li>-->
  <!--<li><a href="MISC_usingQFs_help.shtml#maxno" target="_blank">Is there a maximum number of results I can get back all at once?</a></li>-->
  <LI><a href="MISC_usingQFs_help.shtml#speed" target="_blank">Is there a way to speed up a query?</a>
  <!--<li><A href="MISC_usingQFs_help.shtml#range_question" target="_blank">When I enter exact marker or gene symbols in the Marker Range boxes, do the query results include or exclude those markers?</a></li>-->
@@ -103,7 +103,7 @@ If you are interested in doing queries that ask what genes are expressed in some
 
 <table border="1" cellpadding="3">
 <TR><td valign="top"><A NAME="gene_nomenclature"></A><b>Genes</b></td><TD>This section offers a choice of two fields. 
-<p>><b>Nomenclature search.</b> Use the left hand field to search for expression data for a gene or set of genes with a similar nomenclature. 
+<p><b>Nomenclature search.</b> Use the left hand field to search for expression data for a gene or set of genes with a similar nomenclature. 
 <ul>
 <li>The gene nomenclature field supports an asterisk as a wild card. A search for pax* finds expression data for gene symbols and names that begin with <i>pax</i>.</li>
 <li>A search for *box* looks for nomenclature that contains <i>box</i>. This search finds the arginine decarboxylase gene, homeobox genes and paired box genes.</li>
