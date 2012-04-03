@@ -265,13 +265,24 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <tr><td valign="top"><b>Anatomical System </b></td>
      <td valign="top">xxx</td></tr>
 <tr><td valign="top"><b>Age </b></td>
-     <td valign="top">xxx</td></tr>
+     <td valign="top">Age of the specimen used in the assay</td></tr>
 <tr><td valign="top"><b>Structure </b></td>
      <td valign="top">Structure examined in the assay, given as a Theiler stage (TS) and anatomical structure name <!--linked to <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">The Mouse Anatomical Dictionary Browser</A>  - term detail report showing the structure in the anatomical hierarchy.--></td></tr>
 <tr><td valign="top"><b>Detected? </b></td>
-     <td valign="top">The level of expression detected. Possible results include: present, absent, weak, trace, and strong)</td></tr>
+     <td valign="top">The level of expression detected. Possible values include:
+    <UL>
+      <li>Absent</li>
+      <li>Ambiguous</li>
+      <li>Moderate</li>
+      <li>Not specified</li>
+      <li>Present<sup>*</sup></li>
+      <li>Strong</li>
+      <li>Trace</li>
+      <li>Weak</li>
+    </UL>
+  <P><sup>*</sup><i>Present</i> appears if expression is reported as detected but the author did not specify the level.</td></tr>
 <tr><td valign="top"><b>Figure(s) </b></td>
-     <td valign="top">xxx</td></tr>
+     <td valign="top">A link to the figure(s) illustrating the expression results, noting the appropriate pane</td></tr>
 <tr><td valign="top"><b>Mutant Allele(s) </b></td>
      <td valign="top">If the specimen is a mutant, the allele pairs describing the mutant genotype appear in this field.</td></tr>
 <tr><td valign="top"><b>Reference </b></td>
@@ -311,7 +322,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Search Form</a>.</p>-->
 
 </p>
-<a href="#top"><font size="-1">Top</font></a>
+<!--<a href="#top"><font size="-1">Top</font></a>-->
 
 <H3><A NAME="example"></A>Are there examples of query results?</H3>
 <p>The following examples list the field values to set on the Gene Expression Data Query Form to perform each query.  Leave the default values in all other fields.<br>
@@ -334,18 +345,18 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 </blockquote>
 
 <p>This query returns a list of genes expressed in the heart at E8.5. This summary report includes the gene symbol (with a link to its MGI detail page), the assay type used, result details (linked to an assay record), and the reference (linked to an MGI data detail page). The report does not include any expression results obtained from mutant alleles. <b>Note:</b> Each developmental stage in the example includes coverage of embryonic day 8.5. See <a href="#stages">Theiler System</a> for details.</p></li>
-
-<!--4-->
-<li>What genes are known NOT to be expressed in either the diencephalon or any structure containing the diencephalon?<P>
+-->
+<!--3-->
+<!--<li>What genes are known NOT to be expressed in either the diencephalon or any structure containing the diencephalon?<P>
 <blockquote>
   <B>Expression:</B>   <i>not detected in</i><br>
   <B>Anatomical Structure(s):</B>  <i>contains</i> diencephalon<br>
   <B>Include:</B>  <i>superstructures</i><br>
   <b>Return data type:</b>  Assay Results<br>
 </blockquote>
-<P>This query returns a list of genes found not to be expressed in the diencephalon or in anatomical structures containing the diencephalon, such as brain or whole embryo.<p>
-<!--5-->
-<LI>What genes involved in cell adhesion are expressed in mesenchyme?<P>
+<P>This query returns a list of genes found not to be expressed in the diencephalon or in anatomical structures containing the diencephalon, such as brain or whole embryo.<p>-->
+<!--4-->
+<!--<LI>What genes involved in cell adhesion are expressed in mesenchyme?<P>
 <blockquote>
 <B>Gene Ontology (GO) Classifications:</B> <i>contains</i>&nbsp; cell adhesion<br>
 <B>Expression:</B> <i>detected in</i><BR>
@@ -353,11 +364,11 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <B>Return data type:</B>   Assays<br>
 
 </blockquote>
-<p>This query returns a list of genes involved in cell adhesion found to be expressed in the mesenchyme.</p></li>
+<p>This query returns a list of genes involved in cell adhesion found to be expressed in the mesenchyme.</p></li>-->
 
 
-<!--6-->
-<li>What transcription factors located on chromosome 1 have been found to be expressed in the forelimb?
+<!--5-->
+<!--<li>What transcription factors located on chromosome 1 have been found to be expressed in the forelimb?
 <P>
 <blockquote>
 <B>Chromosome(s):</B> 5<br>
