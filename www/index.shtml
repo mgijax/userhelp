@@ -279,7 +279,5 @@
 
 <dd><a href="VOCAB_amad_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_amad_browser_help.shtml'); return false;">Using the Adult Mouse Anatomical Dictionary Browser</a></dd>
         </dl>
- </blockquote>
-   
-<!--#include file='include/templateBodyStop.html'--> 
-  
+ </blockquote><BR>
+<!--#include file='include/templateBlankBodyStop.html'-->
