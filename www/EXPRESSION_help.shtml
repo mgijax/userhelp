@@ -142,6 +142,8 @@ If you are interested in doing queries that ask what genes are expressed in some
 <td valign="top"><A NAME="anatomical_structure"></A><b>Anatomical structure or stage</b></td>
 <TD VALIGN="TOP"><!--Click to limit your search to assays/assay results that expression was detected in, not detected in, or either. The default value is <i>either</i>.-->
 
+You can choose to use one or both fields in this section.<br>
+<b>Anatomical Structures</b><br>
 <p>The anatomical structures are taken from the <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</A>. Begin typing an anatomy term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. You must choose a term from the autocomplete list (i.e., there is no free text entry in this field).</p>
 
 <P>For each develpmental stage, the Anatomical Dictionary is organized as a hierarchy of structures. <!--You can choose to include either substructures (children), superstructures (parents), both, or neither in your search.--> By default, the search includes substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon.</p>
@@ -154,17 +156,20 @@ If you enter more than one structure in the query field, you can choose to find 
 
 <P>If you are unsure of the most appropriate structural term to use, browse the
 <a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</a>.</p> 
-     </TD>
-    </TR>
-    <!--<TR>
-     <td valign="top"><A NAME="developmental_stage"></A><b>Developmental Stage(s)</b></td>
-     <TD VALIGN="TOP">Use this field and its operators (in and not in) to select one or more Theiler stages (TS) to focus your search on a particular stage of embryonic development. 
+ 
+ <A NAME="developmental_stage"></A><b>Developmental Stage (dpc)</b><br>
+   Use this field <!--and its operators (in and not in)--> to select one or more Theiler stages (TS) to focus your search on a particular stage of embryonic development. 
 
 <p><a name="stages"></a><b>Note</b>: The Theiler system organizes development into stages defined by the
-appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc. Therefore, if you are interested in all available records for embryos of age 14.0 dpc, you will need to select both TS 21 and TS 22.
+appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc. Therefore, if you are interested in all available records for embryos of age 14.0 dpc, you will need to select both TS 21 and TS 22.</p>
+To select multiple stages: 
+<UL>
+  <LI>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired stages; OR hold the shift key down and  click on two stages to select those and all stages in between. </li>
+  <LI>On a PC, hold the control key down and click on the desired stages; OR hold the shift key down and click on two stages to select those and all stages in between. </li>
+ </UL>
 <p>You can <A HREF="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagecriteria.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28.
        </TD>
-      </TR>-->
+      </TR>
      <!--<tr><td valign="top"><a name="exclude_mutant"></a><b>Exclude mutant specimens from query</b></td><td valign="top">
 Click the check box if you want to exclude mutant specimens from the search. <b>Note:</b> Because of the way the query is designed, knock-in embryos are considered mutants. Therefore, if you exclude mutant specimens, the query returns no expression results obtained from <i>in situ</i> reporter (knock-in) assays.</td></tr></table></td></tr>-->
      
@@ -338,8 +343,8 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 
 <blockquote>
 <B>Expression:</B>   <i>detected in</i><br>
-<B>Anatomical Structure(s):</B> <i>contains</i> heart<br>
-<B>Developmental Stage(s):</B>   TS 12, TS 13, TS 14<br>
+<B>Anatomical Structures:</B> <i>contains</i> heart<br>
+<B>Developmental Stage (dpc):</B>   TS 12, TS 13, TS 14<br>
 <b>Exclude mutant specimens from query:</b> &nbsp; <i>checked</i><br>
 <b>Return data type:</b>  Assays
 </blockquote>
@@ -355,26 +360,26 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
   <b>Return data type:</b>  Assay Results<br>
 </blockquote>
 <P>This query returns a list of genes found not to be expressed in the diencephalon or in anatomical structures containing the diencephalon, such as brain or whole embryo.<p>-->
+
 <!--4-->
 <!--<LI>What genes involved in cell adhesion are expressed in mesenchyme?<P>
 <blockquote>
-<B>Gene Ontology (GO) Classifications:</B> <i>contains</i>&nbsp; cell adhesion<br>
+<B>Genes...A set of genes defined by:</B> cell adhesion<br>
 <B>Expression:</B> <i>detected in</i><BR>
-<B>Anatomical Structure(s):</B>  <i>contains</i> mesenchyme<br>
+<B>Anatomical Structures:</B> mesenchyme<br>
 <B>Return data type:</B>   Assays<br>
 
 </blockquote>
 <p>This query returns a list of genes involved in cell adhesion found to be expressed in the mesenchyme.</p></li>-->
 
-
 <!--5-->
-<!--<li>What transcription factors located on chromosome 1 have been found to be expressed in the forelimb?
+<!--<li>What transcription factors located on chromosome 5 have been found to be expressed in the forelimb?
 <P>
 <blockquote>
 <B>Chromosome(s):</B> 5<br>
 <B>Gene Ontology (GO) Classifications:</B> <i>contains</i> transcription factor<BR>
-<B>Anatomical Structure(s):</B> <i>contains</i> embryonic forelimb<br>
-<b>Developmental Stage(s):</b>&nbsp;<i>not in</i>&nbsp; TS28 (postnatal)<br>
+<B>Anatomical Structures:</B> <i>contains</i> embryonic forelimb<br>
+<b>Developmental Stage (dpc):</b>&nbsp;<i>not in</i>&nbsp; TS28 (postnatal)<br>
 <B>Return data type:</B>  Assays<br>
 
 </blockquote>
