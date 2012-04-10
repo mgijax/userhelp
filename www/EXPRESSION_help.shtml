@@ -235,7 +235,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <!--<p>See <a href="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data Query Results</a>.</p>
 -->
 <p>Your search results are displayed within two tabs, each noting the number of results: <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a>.</p>
-<p></p>
+
 <h4><a name="genestab"></a>Genes</h4>
 <p>If you select the Genes tab, the query summary contains the following fields:<br><br>
 <blockquote> 
