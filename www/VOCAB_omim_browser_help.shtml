@@ -39,7 +39,7 @@ Using the Human Disease Vocabulary Browser</span>
  <UL>
   <li><a href="#whatis">What is the Human Disease Vocabulary and what can I use it to find?</a></li>
   <LI><A HREF="#howare">How is the Human Disease Vocabulary organized?</A></li>
-  <LI><A HREF="#boolean">What do I need to know about Boolean operators in order to use this tool? word stemming? partial word matching? quotation marks?</a></li>
+  <!--<LI><A HREF="#boolean">What do I need to know about Boolean operators in order to use this tool? word stemming? partial word matching? quotation marks?</a></li>-->
   <LI><A HREF="#whatcan">What can I use the Human Disease Vocabulary Browser to find?</A></li>
   <!--<LI><A HREF="#include">What is the difference between browsing and searching the vocabulary?</A></li>-->
   <!--<li><a href="#multiple">Can I enter more than one term or accession ID? enter abbreviations for a disease? enter a synonym for a disease? enter partial words? mix and match?</a></li>-->
