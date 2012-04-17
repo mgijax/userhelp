@@ -157,7 +157,7 @@ If you enter more than one structure in the query field, you can choose to find 
 <P>If you are unsure of the most appropriate structural term to use, browse the
 <a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</a>.</p> 
  
- <A NAME="developmental_stage"></A><b>Developmental Stage (dpc)</b><br>
+ <A NAME="developmental_stage"></A><b>Developmental Stages (dpc)</b><br>
    Use this field <!--and its operators (in and not in)--> to select one or more Theiler stages (TS) to focus your search on a particular stage of embryonic development. 
 
 <p><a name="stages"></a><b>Note</b>: The Theiler system organizes development into stages defined by the
@@ -344,7 +344,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <blockquote>
 <!--<B>Expression:</B>   <i>detected in</i><br>-->
 <B>Anatomical Structures:</B>heart<br>
-<B>Developmental Stage (dpc):</B>   TS 12, TS 13, TS 14<br>
+<B>Developmental Stages (dpc):</B>   TS 12, TS 13, TS 14<br>
 <!--<b>Exclude mutant specimens from query:</b> &nbsp; <i>checked</i><br>-->
 </blockquote>
 
@@ -356,7 +356,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <blockquote>
 <!--<B>Expression:</B>   <i>detected in</i><br>-->
 <B>Gene:</B>wnt*<br>
-<B>Developmental Stage (dpc):</B>   TS 16<br>
+<B>Developmental Stages (dpc):</B>   TS 16<br>
 <!--<b>Exclude mutant specimens from query:</b> &nbsp; <i>checked</i><br>-->
 </blockquote>
 
