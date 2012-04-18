@@ -336,14 +336,14 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
   <blockquote>
   <B>Genes:</B>  en1<br>
   </blockquote>
-<p>This query returns a list of results from assays examining <i>En1</i> expression. This summary report includes the gene symbol, result details linked to an assay record (click <i>data</i>), the assay type used, the age of the specimen, the structure examined, an indication of whether or not expression was detected, the mutant allele pairs describing the mutant genotype of the specimen (if applicable), and the reference from with the data were curated, linked to its abstract.</p></li>
+<p>This query returns a list of results from assays examining <i>En1</i> expression. This summary report includes the gene symbol, result details linked to an assay record (click <i>data</i>), the assay type used, the age of the specimen, the structure examined, an indication of whether or not expression was detected, the mutant allele pairs describing the mutant genotype of the specimen (if applicable), and the reference from which the data were curated, linked to its abstract.</p></li>
 
 <!--2-->
 <LI>What genes are expressed in the heart at E8.5<!-- in wild-type mice only-->? 
 
 <blockquote>
 <!--<B>Expression:</B>   <i>detected in</i><br>-->
-<B>Anatomical Structures:</B>heart<br>
+<B>Anatomical Structures: </B>heart<br>
 <B>Developmental Stages (dpc):</B>   TS 12, TS 13, TS 14<br>
 <!--<b>Exclude mutant specimens from query:</b> &nbsp; <i>checked</i><br>-->
 </blockquote>
@@ -355,7 +355,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 
 <blockquote>
 <!--<B>Expression:</B>   <i>detected in</i><br>-->
-<B>Gene:</B>wnt*<br>
+<B>Gene: </B>wnt*<br>
 <B>Developmental Stages (dpc):</B>   TS 16<br>
 <!--<b>Exclude mutant specimens from query:</b> &nbsp; <i>checked</i><br>-->
 </blockquote>
