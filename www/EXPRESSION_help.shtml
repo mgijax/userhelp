@@ -140,8 +140,8 @@ If you are interested in doing queries that ask what genes are expressed in some
          <table>-->
 <TR>
 <td valign="top"><A NAME="anatomical_structure"></A><b>Anatomical structure or stage</b></td>
-<TD VALIGN="TOP"><!--Click to limit your search to assays/assay results that expression was detected in, not detected in, or either. The default value is <i>either</i>.-->
-
+<TD VALIGN="TOP"><p>Click to limit your search to assay results where expression was detected in, not detected in, or either. The default value is <i>either</i>. <i>Detected in </i> and <i>not detected in</i> both return results labeled <i>Ambiguous</i> and <i>Not specified</i>.
+</p>
 You can choose to use one or both fields in this section.<br>
 <b>Anatomical Structures</b><br>
 <p>The anatomical structures are taken from the <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</A>. Begin typing an anatomy term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. You must choose a term from the autocomplete list (i.e., there is no free text entry in this field).</p>
@@ -182,10 +182,10 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
  <tr>
 	<td valign="top"><A NAME="background"></a><b>Genetic background</b></td>
 	<td valign="top">Genetic background...</td>
- </tr>
+ </tr>-->
  <tr>
    <td valign="top"><A NAME="assay_type"></A><b>Assay types</b></td>
-   <td valign="top">Selection list of assay types. Use this field and its <a href="MISC_operators_help.shtml" target="_blank">operators</a>  (in and not in) to limit your search to assays of one or more selected types. The default is to search <i>Any</i> of the assay types on the list.
+   <td valign="top">Check list of assay types. Use this section to limit your search to assays of one or more selected types. The default is to search <i>All</i> of the assay types on the list. Uncheck the first box for <i>Find expression data in any assay type</i> to quickly clear all selections. 
     </TD>
     </TR>
  -->   
