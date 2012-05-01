@@ -96,8 +96,8 @@ If you are interested in doing queries that ask what genes are expressed in some
 
 <h3><a name="fields"></a>What values are acceptable in each of the query form fields?</h3>
 <table width="!" cellpadding="4" class="nb" align="center">
- <tr align="center"><Td VALIGN="top"><A HREF="#gene_nomenclature">Genes</A> | <A HREF="#map_position">Chromosomal location</A> <!--|
-<A HREF="#gene_ontology">Gene Ontology classifications</A>--> | <A HREF="#anatomical_structure">Anatomical structure or stage</A> <!--| <A HREF="#mutated_gene">Mutated gene</A>--> | <A HREF="#background">Genetic background</A> | <A HREF="#assay_type">Assay types</A> <!--| <a href="#output_format">Sorting & output format</a>--></td>
+ <tr align="center"><Td VALIGN="top"><A HREF="#gene_nomenclature">Genes</A> | <!--<A HREF="#map_position">Chromosomal location</A> |
+<A HREF="#gene_ontology">Gene Ontology classifications</A> | --> <A HREF="#anatomical_structure">Anatomical structure or stage</A> <!--| <A HREF="#mutated_gene">Mutated gene</A> | <A HREF="#background">Genetic background</A>--> | <A HREF="#assay_type">Assay types</A> <!--| <a href="#output_format">Sorting & output format</a>--></td>
  </TR>
 </TABLE>
 
@@ -140,7 +140,7 @@ If you are interested in doing queries that ask what genes are expressed in some
          <table>-->
 <TR>
 <td valign="top"><A NAME="anatomical_structure"></A><b>Anatomical structure or stage</b></td>
-<TD VALIGN="TOP"><p>Click to limit your search to assay results where expression was detected in, not detected in, or either. The default value is <i>either</i>. <i>Detected in </i> and <i>not detected in</i> both return results labeled <i>Ambiguous</i> and <i>Not specified</i>.
+<TD VALIGN="TOP"><p>Click to limit your search to assay results where expression was detected in, not detected in, or either. The default value is <i>either</i>.  <i>Detected in </i> and <i>not detected in</i> both return results labeled <i>Ambiguous</i> and <i>Not specified</i>.
 </p>
 You can choose to use one or both fields in this section.<br>
 <b>Anatomical Structures</b><br>
@@ -342,7 +342,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <LI>What genes are expressed in the heart at E8.5<!-- in wild-type mice only-->? 
 
 <blockquote>
-<!--<B>Expression:</B>   <i>detected in</i><br>-->
+<B>Expression:</B>   <i>detected in</i><br>
 <B>Anatomical Structures: </B>heart<br>
 <B>Developmental Stages (dpc):</B>   TS 12, TS 13, TS 14<br>
 <!--<b>Exclude mutant specimens from query:</b> &nbsp; <i>checked</i><br>-->
