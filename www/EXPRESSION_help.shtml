@@ -95,9 +95,9 @@ If you are interested in doing queries that ask what genes are expressed in some
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="fields"></a>What values are acceptable in each of the query form fields?</h3>
-<table width="!" cellpadding="4" class="nb" align="center">
- <tr align="center"><Td VALIGN="top"><A HREF="#gene_nomenclature">Genes</A> | <!--<A HREF="#map_position">Chromosomal location</A> |
-<A HREF="#gene_ontology">Gene Ontology classifications</A> | --> <A HREF="#anatomical_structure">Anatomical structure or stage</A> <!--| <A HREF="#mutated_gene">Mutated gene</A> | <A HREF="#background">Genetic background</A>--> | <A HREF="#assay_type">Assay types</A> <!--| <a href="#output_format">Sorting & output format</a>--></td>
+<table width="100%" cellpadding="4" class="nb" align="center">
+ <tr align="center"><Td VALIGN="top"><A HREF="#gene_nomenclature">Genes</A> | <!--<A HREF="#map_position">Chromosomal location</A> | -->
+ <A HREF="#anatomical_structure">Anatomical structure or stage</A> <!--| <A HREF="#mutated_gene">Mutated gene</A> | <A HREF="#background">Genetic background</A>--> | <A HREF="#assay_type">Assay types</A> </td>
  </TR>
 </TABLE>
 
@@ -158,16 +158,16 @@ If you enter more than one structure in the query field, you can choose to find 
 <a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</a>.</p> 
  
  <A NAME="developmental_stage"></A><b>Developmental Stages (dpc)</b><br>
-   Use this field <!--and its operators (in and not in)--> to select one or more Theiler stages (TS) to focus your search on a particular stage of embryonic development. 
+   Use this field <!--and its operators (in and not in)--> to select one or more Theiler stages (TS) to focus your search on a particular stage of embryonic development. Alternately, you can choose the <i>Use Ages</i> tab and limit your search to the general terms, <i>Embryonic</i> or <i>Postnatal</i>, or choose days post conception (dpc).
 
 <p><a name="stages"></a><b>Note</b>: The Theiler system organizes development into stages defined by the
 appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc. Therefore, if you are interested in all available records for embryos of age 14.0 dpc, you will need to select both TS 21 and TS 22.</p>
-To select multiple stages: 
+To select multiple stages or ages: 
 <UL>
   <LI>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired stages; OR hold the shift key down and  click on two stages to select those and all stages in between. </li>
   <LI>On a PC, hold the control key down and click on the desired stages; OR hold the shift key down and click on two stages to select those and all stages in between. </li>
  </UL>
-<p>You can <A HREF="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagecriteria.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28.
+<p>If you mouse-over a stage, a pop-up will describe a few defining features of that stage, such as "first somites, late head fold" for Stage 12. You can <A HREF="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagecriteria.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28.
        </TD>
       </TR>
      <!--<tr><td valign="top"><a name="exclude_mutant"></a><b>Exclude mutant specimens from query</b></td><td valign="top">
@@ -187,8 +187,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
    <td valign="top"><A NAME="assay_type"></A><b>Assay types</b></td>
    <td valign="top">Check list of assay types. Use this section to limit your search to assays of one or more selected types. The default is to search <i>All</i> of the assay types on the list. Uncheck the first box for <i>Find expression data in any assay type</i> to quickly clear all selections. 
     </TD>
-    </TR>
- -->   
+    </TR>   
 <!--<tr><td valign="top"><a name="output_format"></a><b>Sorting and <br>output format</b></td>
     <td valign="top">
     <table border="0" cellpadding="3">
@@ -227,7 +226,6 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
    </td>
   </tr>
 </table>
-     
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 
@@ -354,13 +352,13 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <LI>What members of the Wnt gene family are expressed in TS 16? 
 
 <blockquote>
-<!--<B>Expression:</B>   <i>detected in</i><br>-->
 <B>Gene: </B>wnt*<br>
+<B>Expression:</B>   <i>detected in</i><br>
 <B>Developmental Stages (dpc):</B>   TS 16<br>
 <!--<b>Exclude mutant specimens from query:</b> &nbsp; <i>checked</i><br>-->
 </blockquote>
 
-<p>This query returns a list of assay results for Wnt family genes expressed in Theiler Stage 16. </p></li>
+<p>This query returns a list of assay results for Wnt family genes whose expression was detected in Theiler Stage 16. </p></li>
 
 <!--4-->
 <!--<li>What genes are known NOT to be expressed in either the diencephalon or any structure containing the diencephalon?<P>
