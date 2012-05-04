@@ -50,6 +50,7 @@ function openHelpWindow(helpFile){
  <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</a>
  <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found" target="_blank">What if the search does not find any expression results?</a>
  <!--<li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</a></li>-->
+ <li><a href="#excelfile_gxdqf">Can I get my results as a spreadsheet file?</a></li>
  <LI><A HREF="#example">Are there examples of query results?</a>
 
 </UL></P>
@@ -326,6 +327,11 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 
 </p>
 <!--<a href="#top"><font size="-1">Top</font></a>-->
+
+<h3><a name="excelfile_gxdqf"></a>Can I get my results as a spreadsheet file?</h3>
+<p>Yes. In your search results, <!--at the right hand edge of the Filter assays bar,--> click on the Excel icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
+
+<font size="-1"><A HREF="#top">Top</A></font>
 
 <H3><A NAME="example"></A>Are there examples of query results?</H3>
 <p>The following examples list the field values to set on the Gene Expression Data Query Form to perform each query.  Leave the default values in all other fields.<br>
