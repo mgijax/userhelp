@@ -106,7 +106,7 @@ function openHelpWindow(helpFile){
 
 <h4><a name="welcome"></a>Your Input Welcome</i></h4> 
 <p>The Your Input Welcome button appears (top right) as part of the detailed query results for an allele. Click the button to bring up a form for submitting updates and additions to the allele data on view. This provides an easy way to help keep data current.</p>
-<A HREF="#top"><font size=-1>Back to Top</font></A>
+<A HREF="#top"><font size=-1>Top</font></A>
 
 <h4><a name="image"></a>Images</h4>
 <p>If the MGI database contains multiple images for the mouse, a representative image appears on the Phenotypic Allele Detail page (top right). Click anywhere on the image to see the Image Detail page for the representative image or click Show the <b><i>#</i> image(s)</b> involving this allele</b> to view them all.</p>
