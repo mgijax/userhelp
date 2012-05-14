@@ -283,7 +283,7 @@ The following are additional types (not listed on the pulldown menu), followed b
      <li>Tab-delimited text.</li>
 	 <li>Excel</li>
 </ul>
-The results are initially returned in web format and then you can choose to Export them in Tab-delimited text or Excel formats. </li>
+The results are initially returned in web format and then you can choose to Export them in Tab-delimited text or spreadsheet formats. </li>
 </ul>
 
 </p>
@@ -321,7 +321,7 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
 <li>If you want to upload a different file:
 	<ol>
   <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title in  changes to Click to Hide Search.) The window that appears contains your original search criteria.
-<li>Click the i>Upload File</i> tab and then the Choose File button.</li>
+<li>Click the <i>Upload File</i> tab and then the Choose File button.</li>
 <li>Select the appropriate file. See <A HREF="#howfill">How do I use this tool?</A> for more information about uploading files.</li>
 	</ol>
 </ul>
