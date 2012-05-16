@@ -368,6 +368,14 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <p>This query returns a list of assay results for Wnt family genes whose expression was detected in Theiler Stage 16. </p></li>
 
 <!--4-->
+<li>When and where are genes involved in axon guidannce expressed?
+<blockquote>
+<B>Genes...A set of genes defined by:</B> axon guidance<br>
+</blockquote>
+
+<p>This query returns a list of all assay results for all genes known to be involved in mouse axon guidance. <p>
+</li>
+
 <!--<li>What genes are known NOT to be expressed in either the diencephalon or any structure containing the diencephalon?<P>
 <blockquote>
   <B>Expression:</B>   <i>not detected in</i><br>
