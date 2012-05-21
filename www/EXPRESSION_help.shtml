@@ -121,7 +121,7 @@ If you are interested in doing queries that ask what genes are expressed in some
     <li>You can type the beginnings of multiple terms to narrow the list (example: axon guid).
     </ul>
 <li>You must select a term. There is no free text searching in this field.</li>
-<li>You can only select one term.</li>
+<li>You can only select one term, though choosing a term includes results for its subterms. For example, selecting <i>decreased bone mass</i> also includes results for its subterms, decreased compact bone mass, decreased trabecular bone mass and osteoporosis.</li>
 <li>The autocomplete field ignores non-alphanumeric characters such as " and -.</li>
 </ul>
 </p>
@@ -234,7 +234,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <H3><A NAME="summary"></A>How do I interpret the query results summary and detail pages?</H3>
 <!--<p>See <a href="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data Query Results</a>.</p>
 -->
-<p>Your search results are displayed within two tabs, each noting the number of results: <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a>.</p>
+<p>Your search results are displayed within three tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a> and <a href="#assaytab">Assay Results</a>.</p>
 
 <h4><a name="genestab"></a>Genes</h4>
 <p>If you select the Genes tab, the query summary contains the following fields:<br><br>
@@ -254,6 +254,21 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
  	 <td valign="top">Genome coordinate range in base pairs and the build number of the B57BL/6J genome</td></tr>
  <tr><td valign="top"><b>Strand </b></td>
      <td valign="top">Coding strand for the gene</td></tr>
+</table></p>
+</blockquote>
+
+<h4><a name="byassay"></a>By Assay</h4>
+<p>If you select the Assays tab, the query summary contains the following fields:<br><br>
+<blockquote> 
+<table border width="!" cellpadding="4" cellspacing="1">
+ <tr><td valign="top"><b>Assay Type</b></td>
+     <td valign="top">Name of the assay used (e.g., Immunohistochemistry, Northern blot, RNA in situ, and so on). A camera icon appears when there are image data associated with the assay.</td></tr>
+ <tr><th align="left" valign="top"><nobr><b>Assay Details</b></td>
+     <td valign="top">The word <i>data</i> links to detailed expression results; the MGI accession ID of the assay (useful for searching purposes) appears in parentheses. </td></tr>
+ <tr><td valign="top"><b>Gene</b></td>
+     <td>Symbol of the analyzed gene.</td></tr>
+ <tr><td valign="top"><b>Reference</b></td>
+     <td valign="top">J number (MGI identifier) and short format citation for this reference linked to its MGI reference detail report.</td></tr>
 </table></p>
 </blockquote>
 
@@ -339,7 +354,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <OL>
 <LI>When and where is <i>En1</i> expressed?
   <blockquote>
-  <B>Genes:</B>  en1<br>
+  <B>Genes&#8230;Search for expression data for&#8230;:</B>  en1<br>
   </blockquote>
 <p>This query returns a list of results from assays examining <i>En1</i> expression. This summary report includes the gene symbol, result details linked to an assay record (click <i>data</i>), the assay type used, the age of the specimen, the structure examined, an indication of whether or not expression was detected, the mutant allele pairs describing the mutant genotype of the specimen (if applicable), and the reference from which the data were curated, linked to its abstract.</p></li>
 
@@ -359,7 +374,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <LI>What members of the Wnt gene family are expressed in TS 16? 
 
 <blockquote>
-<B>Gene: </B>wnt*<br>
+<B>Genes&#8230;Search for expression data for&#8230;:</B>wnt*<br>
 <B>Expression:</B>   <i>detected in</i><br>
 <B>Developmental Stages (dpc):</B>   TS 16<br>
 <!--<b>Exclude mutant specimens from query:</b> &nbsp; <i>checked</i><br>-->
@@ -370,7 +385,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <!--4-->
 <li>When and where are genes involved in axon guidannce expressed?
 <blockquote>
-<B>Genes...A set of genes defined by:</B> axon guidance<br>
+<B>Genes&#8230;A set of genes defined by:</B> axon guidance<br>
 </blockquote>
 
 <p>This query returns a list of all assay results for all genes known to be involved in mouse axon guidance. <p>
