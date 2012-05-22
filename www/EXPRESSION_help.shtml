@@ -261,12 +261,12 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <p>If you select the Assays tab, the query summary contains the following fields:<br><br>
 <blockquote> 
 <table border width="!" cellpadding="4" cellspacing="1">
- <tr><td valign="top"><b>Assay Type</b></td>
-     <td valign="top">Name of the assay used (e.g., Immunohistochemistry, Northern blot, RNA in situ, and so on). A camera icon appears when there are image data associated with the assay.</td></tr>
- <tr><th align="left" valign="top"><nobr><b>Assay Details</b></td>
-     <td valign="top">The word <i>data</i> links to detailed expression results; the MGI accession ID of the assay (useful for searching purposes) appears in parentheses. </td></tr>
- <tr><td valign="top"><b>Gene</b></td>
+<tr><td valign="top"><b>Gene</b></td>
      <td>Symbol of the analyzed gene.</td></tr>
+<tr><th align="left" valign="top"><nobr><b>Assay Details</b></td>
+     <td valign="top">The word <i>data</i> links to detailed expression results; the MGI accession ID of the assay (useful for searching purposes) appears in parentheses. A camera icon appears when there are image data associated with the assay.</td></tr>
+ <tr><td valign="top"><b>Assay Type</b></td>
+     <td valign="top">Name of the assay used (e.g., Immunohistochemistry, Northern blot, RNA in situ, and so on).</td></tr>
  <tr><td valign="top"><b>Reference</b></td>
      <td valign="top">J number (MGI identifier) and short format citation for this reference linked to its MGI reference detail report.</td></tr>
 </table></p>
