@@ -125,6 +125,7 @@ If you are interested in doing queries that ask what genes are expressed in some
 <li>The autocomplete field ignores non-alphanumeric characters such as " and -.</li>
 </ul>
 </p>
+<p>Note that you may not submit a search with values in the <b>Nomenclature search</b> and the <b>Vocabulary Term search</b> at the same time.</p>
 </TD></TR>
 <!-- 
 <TR><td valign="top"><a name="map_position"></a><b>Chromosomal location</b></td>
