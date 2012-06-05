@@ -240,7 +240,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <p>If you select the Genes tab, the query summary contains the following fields:<br><br>
 <blockquote> 
 <table border width="!" cellpadding="4" cellspacing="1">
- <tr><td align="left" valign="top"><nobr><b>MGI ID</b></td>
+ <tr><td align="left" valign="top"><b>MGI ID</b></td>
      <td valign="top">MGI accession ID for the Gene</td></tr> 
  <tr><td valign="top"><b>Gene</b></td>
      <td>Symbol of the analyzed gene, linked to its MGI marker detail record</td></tr>
@@ -263,7 +263,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <table border width="!" cellpadding="4" cellspacing="1">
 <tr><td valign="top"><b>Gene</b></td>
      <td>Symbol of the analyzed gene.</td></tr>
-<tr><th align="left" valign="top"><nobr><b>Assay Details</b></td>
+<tr><td align="left" valign="top"><b>Assay Details</b></td>
      <td valign="top">The word <i>data</i> links to detailed expression results; the MGI accession ID of the assay (useful for searching purposes) appears in parentheses. A camera icon appears when there are image data associated with the assay.</td></tr>
  <tr><td valign="top"><b>Assay Type</b></td>
      <td valign="top">Name of the assay used (e.g., Immunohistochemistry, Northern blot, RNA in situ, and so on).</td></tr>
@@ -276,7 +276,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <p>If you select the Assay Results tab, the query summary contains the following fields:<br><br>
 <blockquote> 
 <table border width="!" cellpadding="4" cellspacing="1">
-<tr><td align="left" valign="top"><nobr><b>Gene</b></td>
+<tr><td align="left" valign="top"><b>Gene</b></td>
      <td valign="top">Symbol of the analyzed gene</td></tr> 
 <tr><td valign="top"><b>Result Details </b></td>
      <td valign="top">The word data links to detailed expression results; the MGI accession ID of the assay (useful for searching purposes) appears next in parentheses</td></tr>
@@ -391,24 +391,23 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <p>This query returns a list of all assay results for all genes known to be involved in mouse axon guidance. <p>
 </li>
 
-<!--<li>What genes are known NOT to be expressed in either the diencephalon or any structure containing the diencephalon?<P>
+<li>What genes are known NOT to be expressed in either the diencephalon or any structure within the diencephalon?<P>
 <blockquote>
   <B>Expression:</B>   <i>not detected in</i><br>
   <B>Anatomical Structure(s):</B>  <i>contains</i> diencephalon<br>
-  <B>Include:</B>  <i>superstructures</i><br>
   <b>Return data type:</b>  Assay Results<br>
 </blockquote>
-<P>This query returns a list of genes found not to be expressed in the diencephalon or in anatomical structures containing the diencephalon, such as brain or whole embryo.<p>-->
+<P>This query returns a list of genes found not to be expressed in the diencephalon or in anatomical structures within the diencephalon, such as the hypothalamus, 3rd ventricle, or pituitary gland.<p>
 
 <!--5-->
-<!--<LI>What genes involved in cell adhesion are expressed in mesenchyme?<P>
+<LI>What genes involved in cell adhesion are expressed in stomach mesenchyme?<P>
 <blockquote>
-<B>Genes...A set of genes defined by:</B> cell adhesion<br>-->
-<!--<B>Expression:</B> <i>detected in</i><BR>-->
-<!--<B>Anatomical Structures:</B> mesenchyme<br>
+<B>Genes...A set of genes defined by:</B> cell adhesion<br>
+<B>Expression:</B> <i>detected in</i><BR>
+<B>Anatomical Structures:</B> stomach mesenchyme<br>
 
 </blockquote>
-<p>This query returns a list of genes involved in cell adhesion found to be expressed in the mesenchyme.</p></li>-->
+<p>This query returns a list of genes involved in cell adhesion found to be expressed in the stomach mesenchyme.</p></li>
 
 <!--6-->
 <!--<li>What transcription factors located on chromosome 5 have been found to be expressed in the forelimb?
@@ -422,8 +421,9 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 
 </blockquote>
 <P>This query returns a list of transcription factors located on chromosome 5 found to be expressed in the forelimb or its substructures in the embryo but not in postnatal or adult mice.
-</ol>
+
 </p> -->
+</ol>
 <a href="#top"><font size="-1">Top</font></a>
 
 <!--#include file='include/templateBodyStop.html'--> 
