@@ -94,7 +94,7 @@ expression results from assays with differing spatial resolution in a consistent
 <P>To search the Adult Mouse Anatomical Dictionary Browser:
 <OL>
  <LI>Type either a text string or an MA accession number in the Query box. </LI>
- <LI>Click <B>Submit Query</B>.  The search returns a <B>Query Results</B> page that displays all matching terms  in the vocabulary.
+ <LI>Click <B>Submit Query</B>.  The search returns a <B>Query Results</B> page that displays all matching terms in the vocabulary.
 <LI>Click the desired term to view its <B>Term Detail</B> page.
 </OL></P>
 <A HREF="#top"><font size="-1">Top</font></A><BR>
@@ -108,20 +108,18 @@ expression results from assays with differing spatial resolution in a consistent
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Field</TH><TH>Color</TH><TH>Description</TH></TR>
-<TR><TD VALIGN="top">MA term, MA id,<BR>Definition, Synonyms,<BR>Number of paths to term</TD>
-<TD VALIGN="top">
-   <TABLE BORDER="0" CELLSPACING="0" BGCOLOR="#FFFFCC"><TR><TD VALIGN="top">Yellow</TD></TR>
-   </TABLE>
+<TR><TD VALIGN="top">MA term, MA ID,<BR>Definition, Synonyms,<BR>Number of paths to term</TD>
+<TD VALIGN="top"><span style="background-color:#FFFFCC">Yellow</span></TD> 
 <TD VALIGN="top">The selected anatomical term, the unique identifier (accession number) for the term, the definition of the term, any synonyms associated with the term (if available), and the number of paths to the term within the ontology.</TD></TR>
 <TR>
 <TD VALIGN="top">Name, Unique identifier</TD><TD VALIGN="top"><FONT COLOR="#FF0000">Red</FONT></TD><TD>Name of the anatomical term selected, followed by its unique identifier. There is one identifier for each term in the Adult Mouse Anatomical Dictionary. This means that the ID is always the same regardless of how many times the term is displayed as part of a specific path to that term. The unique identifier for a given structure remains the same even if its name changes.</TD></TR>
 <TR><TD VALIGN="top">Links</TD><TD VALIGN="top"><FONT COLOR="#0000FF">Blue</FONT><TD>List of all paths to the term. Click the desired link to bring up a detail page for that term.</TD></TR>
 <TR>
-<TD VALIGN="top"><IMG SRC="<!--#include file='include/wi_url.html'-->images/shared/is-a.gif">&nbsp;"Is-a" relationship</TD>
+<TD VALIGN="top"><IMG SRC="<!--#include file='include/webshare_url.html'-->images/is-a.gif">&nbsp;"Is-a" Relationship</TD>
 <TD VALIGN="top"><FONT COLOR="#008000">Green</FONT></TD>
 <TD VALIGN="top">Indicates that the term is an instance or type of the more general term (parent or superstructure) above it in the hierarchy.</TD></TR>
 
-<TR><TD VALIGN="top"><IMG SRC="<!--#include file='include/wi_url.html'-->images/shared/part-of.gif">&nbsp;"Part-of" Relationship</TD>
+<TR><TD VALIGN="top"><IMG SRC="<!--#include file='include/webshare_url.html'-->images/part-of.gif">&nbsp;"Part-of" Relationship</TD>
 <TD VALIGN="top"><FONT COLOR="#800080">Purple</FONT><TD VALIGN="top">Indicates that the term is a component of the more general term (parent or superstructure) above it in the hierarchy.</TD></TR>
 
 <TR>
@@ -133,7 +131,7 @@ expression results from assays with differing spatial resolution in a consistent
 <A HREF="#top"><font size="-1">Top</font></A>
 
  <H3><A NAME="contribute"></A>How can I contribute to the vocabulary?</H3>
-<P>Your input is welcome. Please <A HREF="mailto:anatomy@informatics.jax.org">contact</A> us with suggestions, additions, or questions about the Anatomical Dictionary for the Adult Mouse.
+<P>Your input is welcome. Please <A HREF="mailto:MAontology@jax.org">contact</A> us with suggestions, additions, or questions about the Anatomical Dictionary for the Adult Mouse.
 </P>
 <A HREF="#top"><font size="-1">Top</font></A>
 

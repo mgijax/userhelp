@@ -104,7 +104,7 @@ Using the References Query Form </span>
 
 <h3><a name="journal_refqf"></a>How do I search by journal?</h3>
 <ol>
- <li>Begin typing a partial journal name in the entry field.  An autocomplete list appears.</li>
+ <li>Begin typing a partial journal name in the entry field. An autocomplete list of PubMed abbreviated format journal titles, MGI books, and MGI references appears.</li>
  <li>Select one item from the list. The journal name appears in the field, followed by a semicolon.</li>
  <li>To create a list of journals, repeat steps 1 and 2 as desired. </li>
  <li>Click Reset to clear this field.</li>
@@ -154,13 +154,13 @@ Enter a text string to search for articles with abstracts/titles containing the 
   <li>Modify (iterative)</li>
   <li>Filter (iterative) (by Author, Journal, Year, Data)</li>
   <li>Sort (Author, Journal, or Year columns).</li>
-<li>Show/hide all abstracts or see a single abstract.</li>
-<li>Get a text file of all the references</li>
+  <li>Show/hide all abstracts or see a single abstract.</li>
+  <li>Export a text file of all the references</li>
 </ul>
-<p>Your search results are shown with four sections, marked by light blue banners: </p>
+<p>Your References Query Form search results are shown with four sections, marked by light blue banners. If you are viewing the references by following a link, then you will see only two sections. </p>
 <ol>
- <li><b>Click to <a name="modify_refqf">modify</a> search</b>: Click in the light blue banner in this section if you wish to modify your search. (The banner title changes to Click to Hide Search.) This section will expand to show the References Query Form with your original search parameters.</li>
- <li><b>Results</b>: The Results section contains a summary of your search parameter(s) (for example, author name) and the number of results. If you have filtered your results, the <A HREF="#filter_refqf">filters</a> used, the ability to remove filters, and the number of results after filtering will appear in the center of this section. The right hand side of this section allows you to page through your results and change the number of results viewed on a page. </li>
+ <li><b>Click to <a name="modify_refqf">modify</a> search</b>: This option appears only after using the Reference Query Form. Click in the light blue banner in this section if you wish to modify your search. (The banner title changes to Click to Hide Search.) This section will expand to show the References Query Form with your original search parameters.</li>
+ <li><b>Results</b>: This option appears only after using the Reference Query Form. The Results section contains a summary of your search parameter(s) (for example, author name) and the number of results. If you have filtered your results, the <A HREF="#filter_refqf">filters</a> used, the ability to remove filters, and the number of results after filtering will appear in the center of this section. The right hand side of this section allows you to page through your results and change the number of results viewed on a page. </li>
  <li><b>Filter references by:</b> Use this section to <A HREF="#filter_refqf">filter</a> your results, show all abstracts or create a <a href="#textfile_refqf">text file</a> of your results. </li>
  <li>The fourth banner shows the field headings for your results:</li>
  </ol>
@@ -287,19 +287,9 @@ The query finds articles published in 2003 written by several authors one of who
 
 <font size="-1"><A HREF="#top">Top</A></font>
 
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-</table>
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
-<H3><A NAME="fields_refqf"></A>What values are acceptable in each of the fields?</H3>
-<P><table width="!" cellpadding="2" align="center">
-
-
-
-<tr align="center"><td valign="top"><A HREF="#author">Author</A> | <A HREF="#journal">Journal</A> | <A HREF="#year">Year</A> | <A HREF="#text">Text</A> | <A HREF="#pubmed_mgi_id">PubMed ID or MGI Reference ID</A> </TD>
+<!--<tr align="center"><td valign="top"><A HREF="#author">Author</A> | <A HREF="#journal">Journal</A> | <A HREF="#year">Year</A> | <A HREF="#text">Text</A> | <A HREF="#pubmed_mgi_id">PubMed ID or MGI Reference ID</A> </TD>
 </TR></TABLE></P>
 
 <TABLE BORDER CELLPADDING="4">
@@ -314,8 +304,6 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 </ol>
 
 
-<p>If you remember only part of a journal name, you can still use this field. Enter some text with a wildcard (%) and select one of the operators (BEGINS, CONTAINS, or LIKE). For example, to find a journal of procedings, you could enter Proc% and BEGINS or CONTAINS.</td></TR>
-
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="year"></A>Year</TH><TD>Year the article was published.  <!--The default is = (equals). Use the format <B>19XX</B> or <B>20XX</B>. --></TD> </TR>
 <!--<TR>  <TH ALIGN="left" VALIGN="top">Volume <TD><A NAME="vol"></A>Volume designation for the journal. </TR>
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="pages"></A>Pages <TD>Page or page range of an article. The default (and only operator) is begins. Examples: <i>131</i> or <i>131-%</i>. </TR>
@@ -325,20 +313,6 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
-
-In general, we would like to do the following: 
-"	Remove irrelevant, common words from our text corpus and from the user's query (e.g., "the", "a", "of"), but keep all words that are relevant.
-"	Alter words in our corpus and words in the user's query when there are different grammatical forms of the same root word (e.g., "shopping", "shopped", "shops" are all based on the root word "shop-").
-"	Break apart words in our corpus and words in the user's query that are composed of smaller pieces when it is logical to do so (e.g., "Tg(Pax6-cre)" contains the gene symbol "Pax6" and the genetic construct "cre", which are words a user might search for separately).
-"	Allow the user to search using a "wildcard" at the end of a partial word so as to find variations in spelling or variations on a word that are not considered true grammatical forms of the same root word.
-"	Allow the user to search for phrases such that their specified words must come in their specified order, with no intervening words.
-
-
-
-<TR> <TH ALIGN="left" VALIGN="top"><A NAME="jnum"></A>Pub Med ID or MGI Reference Accession ID</th> <TD>A unique ID assigned to a reference. Enter an MGI Accession ID, a <A HREF="#j_num">J number</A>, or PubMed ID.  <b>Note:</b>  Every reference stored in MGI has a J number of the form <a name="j_num_id"></a><b>J:<i>n...</i></b>.  Examples: 
-12819150, MGI:2665389, or J:84182 will all return the title, Connecting sequence and biology in the laboratory mouse. </li>
-</td>
-</TR>
 </TABLE>
 </p>
 <font size="-1"><A HREF="#top">Top</A></font> -->

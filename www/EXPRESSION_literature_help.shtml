@@ -109,18 +109,18 @@ function openHelpWindow(helpFile){
 
 <TR><td align="left" valign="top"><a name="author"></a><b>Author</b></TD>
     <TD>
-    <ol>
-<li>The default is Any Author(s). Click First Author or Last Author if desired.</li>
-  <li>Begin typing a partial name in the entry field.  An autocomplete list appears.</li>
-<li>Select one item from the list. The author's name appears in the field, followed by a semicolon.</li>
-  <li>To create a list of authors, repeat steps 2 and 3 as desired.  </li></li>
-  <li>Click Reset to clear this field.</li>
+<ol>
+ <li>The default is Any Author(s). Click First Author or Last Author if desired.</li>
+ <li>Begin typing a partial name in the entry field.  An autocomplete list appears.</li>
+ <li>Select one item from the list. The author's name appears in the field, followed by a semicolon.</li>
+ <li>To create a list of authors, repeat steps 2 and 3 as desired.</li>
+ <li>Click Reset to clear this field.</li>
 </ol>
 <p><b>Notes:</b></p>
 <ul>
   <li>The results are NOT cumulative; that is, entering Smith D; Johnson H; and Evans M returns references for each author and not for papers in which all three are authors.</li>
   <li>You must choose author names from the autocomplete list (i.e., there is no free text entry in this field.)</li>
-</ul></td>   </TR>
+</ul></td></TR>
    
     <TR>
      <td align="left" valign="top"><a name="journal"></a><b>Journal</b></TD>
@@ -131,12 +131,12 @@ function openHelpWindow(helpFile){
   <li>To create a list of journals, repeat steps 1 and 2 as desired. </li>
   <li>Click Reset to clear this field.</li>
 </ol>
-<p><b>Note:</b></p>
-
-  <ul>
+<b>Notes:</b>
+<br>
+<ul>
   <li>This field uses journal abbreviations from the National Library of Medicine (NLM). A search for <i>Developmental Biology</i> will not find any references, though a search for <i>Dev Biol</i> will. The journal abbreviations used are listed alphabetically at this <a href="ftp://ftp.ncbi.nih.gov/pubmed/J_Medline.txt">NLM web site</a>. </li>
   <li>You must choose journal names from the autocomplete list (i.e., there is no free text entry in this field.)</li>
-  </ul>
+</ul>
 </TD></TR>
 
   <TR><td align="left" valign="top"><b>Year</b></td><TD><A name="yr"></A>The year the article was published. Use in conjunction with other fields to further narrow the scope of a search. Enter a year in the format 20XX. Enter a single year, a range of years, or an open-ended query such as everything after 2009 (2009-) or everything before 2007 (-2007).</TD></TR>
