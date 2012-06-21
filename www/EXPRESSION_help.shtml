@@ -98,7 +98,7 @@ If you are interested in doing queries that ask what genes are expressed in some
 <h3><a name="fields"></a>What values are acceptable in each of the query form fields?</h3>
 <table width="100%" cellpadding="4" class="nb" align="center">
  <tr align="center"><Td VALIGN="top"><A HREF="#gene_nomenclature">Genes</A> | <!--<A HREF="#map_position">Chromosomal location</A> | -->
- <A HREF="#anatomical_structure">Anatomical structure or stage</A> <!--| <A HREF="#mutated_gene">Mutated gene</A> | <A HREF="#background">Genetic background</A>--> | <A HREF="#assay_type">Assay types</A> </td>
+ <A HREF="#anatomical_structure">Anatomical structure or stage</A> | <A HREF="#mutated_gene">Mutated gene</A> <!--| <A HREF="#background">Genetic background</A>--> | <A HREF="#assay_type">Assay types</A> </td>
  </TR>
 </TABLE>
 
@@ -149,7 +149,7 @@ If you are interested in doing queries that ask what genes are expressed in some
 <b>Anatomical Structures</b><br>
 <p>The anatomical structures are taken from the <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</A>. Begin typing an anatomy term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. You must choose a term from the autocomplete list (i.e., there is no free text entry in this field).</p>
 
-<P>For each develpmental stage, the Anatomical Dictionary is organized as a hierarchy of structures. <!--You can choose to include either substructures (children), superstructures (parents), both, or neither in your search.--> By default, the search includes substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon.</p>
+<P>For each developmental stage, the Anatomical Dictionary is organized as a hierarchy of structures. <!--You can choose to include either substructures (children), superstructures (parents), both, or neither in your search.--> By default, the search includes substructures. This means if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon.</p>
 <!--<ul>
 <li>
 If you enter more than one structure in the query field, you can choose to find data for genes that match ALL specified structures (the default value). In this case, the commas are interpreted to mean "and" &#151; your query returns assays that examine the expression of genes for which <b>all</b> of the specified structures have been analyzed. </li>
@@ -176,11 +176,13 @@ To select multiple stages or ages:
      <!--<tr><td valign="top"><a name="exclude_mutant"></a><b>Exclude mutant specimens from query</b></td><td valign="top">
 Click the check box if you want to exclude mutant specimens from the search. <b>Note:</b> Because of the way the query is designed, knock-in embryos are considered mutants. Therefore, if you exclude mutant specimens, the query returns no expression results obtained from <i>in situ</i> reporter (knock-in) assays.</td></tr></table></td></tr>-->
      
-<!--<tr>
+<tr>
 <td valign="top"><A NAME="mutated_gene"></A><b>Mutated Gene</b></td>
-  <TD>To search for expression data obtained from mutant specimens, use this field to enter the symbol or name of the mutated genetic marker. Select an <a href="MISC_operators_help.shtml" target="_blank">operator</a> (the default is <i>contains</i>) from the drop-down menu to expand or narrow your query. By default,  the system searches for current symbols/names and synonyms of the mutated gene. Clicking the down-arrow  presents two other options: you can search current symbols (no search of names) or current symbols/names only (no search of synonyms).
+  <TD>Select <i>Specimens mutated in gene</i> to search for expression data obtained from mutant specimens Use this field to enter the symbol or name of the mutated genetic marker. By default, the system searches for current symbols/names and synonyms of the mutated gene. Use this search field as you would the <A HREF="#gene_nomenclature">Genes' nomenclature</A> search at the top of the search form.
+  	<p>Select <i>Wild type specimens only</i> if you wish to exclude mutant alleles from your search. This will still include knock-in reporter genes used in <i>ins situ</i> assays. </p>
+  	<p>Select <i>All specimens</i>, the default, to include all mutant and wild type specimens in your search. </p>
         </TD>
-       </TR>-->
+       </TR>
  <!--  
  <tr>
 	<td valign="top"><A NAME="background"></a><b>Genetic background</b></td>
