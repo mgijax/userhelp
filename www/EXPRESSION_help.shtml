@@ -98,7 +98,7 @@ If you are interested in doing queries that ask what genes are expressed in some
 <h3><a name="fields"></a>What values are acceptable in each of the query form fields?</h3>
 <table width="100%" cellpadding="4" class="nb" align="center">
  <tr align="center"><Td VALIGN="top"><A HREF="#gene_nomenclature">Genes</A> | <!--<A HREF="#map_position">Chromosomal location</A> | -->
- <A HREF="#anatomical_structure">Anatomical structure or stage</A> | <A HREF="#mutated_gene">Mutated gene</A> <!--| <A HREF="#background">Genetic background</A>--> | <A HREF="#assay_type">Assay types</A> </td>
+ <A HREF="#anatomical_structure">Anatomical structure or stage</A> | <A HREF="#mutated_gene">Mutant/Wildtype</A> <!--| <A HREF="#background">Genetic background</A>--> | <A HREF="#assay_type">Assay types</A> </td>
  </TR>
 </TABLE>
 
@@ -177,7 +177,7 @@ To select multiple stages or ages:
 Click the check box if you want to exclude mutant specimens from the search. <b>Note:</b> Because of the way the query is designed, knock-in embryos are considered mutants. Therefore, if you exclude mutant specimens, the query returns no expression results obtained from <i>in situ</i> reporter (knock-in) assays.</td></tr></table></td></tr>-->
      
 <tr>
-<td valign="top"><A NAME="mutated_gene"></A><b>Mutated Gene</b></td>
+<td valign="top"><A NAME="mutated_gene"></A><b>Mutant/Wildtype</b></td>
   <TD>Select <i>Specimens mutated in gene</i> to search for expression data obtained from mutant specimens Use this field to enter the symbol or name of the mutated genetic marker. By default, the system searches for current symbols/names and synonyms of the mutated gene. Use this search field as you would the <A HREF="#gene_nomenclature">Genes' nomenclature</A> search at the top of the search form.
   	<p>Select <i>Wild type specimens only</i> if you wish to exclude mutant alleles from your search. This will still include knock-in reporter genes used in <i>ins situ</i> assays. </p>
   	<p>Select <i>All specimens</i>, the default, to include all mutant and wild type specimens in your search. </p>
