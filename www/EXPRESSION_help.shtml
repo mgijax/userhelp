@@ -179,7 +179,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <tr>
 <td valign="top"><A NAME="mutated_gene"></A><b>Mutant / wild type</b></td>
   <TD><p>Select <i>Specimens mutated in gene</i> to search for expression data obtained from mutant specimens. Use this field to enter the symbol or name of the mutated genetic marker. By default, the system searches for current symbols/names and synonyms of the mutated gene. Use this search field as you would the <A HREF="#gene_nomenclature">Genes' nomenclature</A> search at the top of the search form.</p>
-  	<p>Select <i>Wild type specimens only</i> if you wish to exclude mutant alleles from your search. This will still include knock-in reporter genes used in <i>in situ</i> assays. </p>
+  	<p>Select <i>Wild type specimens only</i> if you wish to exclude mutant alleles from your search. This search will still include knock-in reporter genes used in <i>in situ</i> assays. </p>
   	<p>Select <i>All specimens</i>, the default, to include all mutant and wild type specimens in your search. </p>
         </TD>
        </TR>
