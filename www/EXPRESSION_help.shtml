@@ -178,8 +178,8 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
      
 <tr>
 <td valign="top"><A NAME="mutated_gene"></A><b>Mutant / wild type</b></td>
-  <TD>Select <i>Specimens mutated in gene</i> to search for expression data obtained from mutant specimens Use this field to enter the symbol or name of the mutated genetic marker. By default, the system searches for current symbols/names and synonyms of the mutated gene. Use this search field as you would the <A HREF="#gene_nomenclature">Genes' nomenclature</A> search at the top of the search form.
-  	<p>Select <i>Wild type specimens only</i> if you wish to exclude mutant alleles from your search. This will still include knock-in reporter genes used in <i>ins situ</i> assays. </p>
+  <TD><p>Select <i>Specimens mutated in gene</i> to search for expression data obtained from mutant specimens. Use this field to enter the symbol or name of the mutated genetic marker. By default, the system searches for current symbols/names and synonyms of the mutated gene. Use this search field as you would the <A HREF="#gene_nomenclature">Genes' nomenclature</A> search at the top of the search form.</p>
+  	<p>Select <i>Wild type specimens only</i> if you wish to exclude mutant alleles from your search. This will still include knock-in reporter genes used in <i>in situ</i> assays. </p>
   	<p>Select <i>All specimens</i>, the default, to include all mutant and wild type specimens in your search. </p>
         </TD>
        </TR>
@@ -362,16 +362,16 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <p>This query returns a list of results from assays examining <i>En1</i> expression. This summary report includes the gene symbol, result details linked to an assay record (click <i>data</i>), the assay type used, the age of the specimen, the structure examined, an indication of whether or not expression was detected, the mutant allele pairs describing the mutant genotype of the specimen (if applicable), and the reference from which the data were curated, linked to its abstract.</p></li>
 
 <!--2-->
-<LI>What genes are expressed in the heart at E8.5<!-- in wild-type mice only-->? 
+<LI>What genes are expressed in the heart at E8.5 in wild-type mice only? 
 
 <blockquote>
 <B>Expression:</B>   <i>detected in</i><br>
 <B>Anatomical Structures: </B>heart<br>
 <B>Developmental Stages (dpc):</B>   TS 12, TS 13, TS 14<br>
-<!--<b>Exclude mutant specimens from query:</b> &nbsp; <i>checked</i><br>-->
+<b>Mutant / wild type:</b> &nbsp; <i>Wild type specimens only</i><br>
 </blockquote>
 
-<p>This query returns a list of assay results for genes expressed in the heart at E8.5. Click the Genes tab to view a summary report that includes the gene symbols (with links to MGI detail pages), gene types and genomic map coordinates. <!--the assay type used, result details (linked to an assay record), and the reference (linked to an MGI data detail page).--> <!--The report does not include any expression results obtained from mutant alleles.--> <b>Note:</b> Each developmental stage in the example includes coverage of embryonic day 8.5. See <a href="#stages">Theiler System</a> for details.</p></li>
+<p>This query returns a list of assay results for genes expressed in the heart at E8.5. Click the Genes tab to view a summary report that includes the gene symbols (with links to MGI detail pages), gene types and genomic map coordinates. <!--the assay type used, result details (linked to an assay record), and the reference (linked to an MGI data detail page).--> The report does not include any expression results obtained from mutant alleles. <b>Note:</b> Each developmental stage in the example includes coverage of embryonic day 8.5. See <a href="#stages">Theiler System</a> for details.</p></li>
 
 <!--3-->
 <LI>What members of the Wnt gene family are expressed in TS 16? 
