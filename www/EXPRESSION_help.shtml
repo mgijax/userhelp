@@ -276,7 +276,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 </blockquote>
 
 <h4><a name="assaytab"></a>Assay Results</h4>
-<p>If you select the Assay Results tab, the query summary contains the following fields:<br><br>
+<p>If you select Assay Results, the query summary contains the following fields:<br><br>
 <blockquote> 
 <table border width="!" cellpadding="4" cellspacing="1">
 <tr><td align="left" valign="top"><b>Gene</b></td>
