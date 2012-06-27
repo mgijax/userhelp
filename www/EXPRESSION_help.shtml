@@ -112,7 +112,7 @@ If you are interested in doing queries that ask what genes are expressed in some
 <li>This field searches only alphanumeric characters. Single and double quotes, commas and hyphens are ignored.</li>
 </ul>
 </p>
-<p><b>Vocabulary term search.</b> Use the right hand field to find expression data for genes defined by their function, phenotype, disease model, protein domain or family, or biological pathway. 
+<p><b>Vocabulary term search.</b> Use the right hand field to find expression data for genes defined by their function, phenotype or disease model association.<!--, protein domain or family, or biological pathway.--> 
 <ul>
 <li>Begin typing a term of interest and an autocomplete list activates on the second character. 
     <ul>
