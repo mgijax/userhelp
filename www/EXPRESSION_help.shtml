@@ -49,7 +49,8 @@ function openHelpWindow(helpFile){
  <LI><A HREF="#fields">What values are acceptable in each of the query form fields?</a>
  <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</a>
  <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found" target="_blank">What if the search does not find any expression results?</a>
- <!--<li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</a></li>-->
+ <li><A HREF="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a</li>
+ <li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</a></li>
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
  <LI><A HREF="#example">Are there examples of query results?</a>
 
@@ -321,15 +322,23 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 
+<h3><a name="gxd_lit_record"></a>Why is there a link to Gene Expression Literature records in my query summary?</h3>
+<p>At the end of the query summary, there may be a link to Gene Expression Literature content records matching the parameters of your detailed expression data search.  
+<ul>
+  <li>The first step of annotation in GXD is to create literature content records containing information on the genes and ages analyzed and assay types used in each reference. All expression papers have content records. </li>
+  <li>The next step is for the curators to extract the detailed expression data from these references. The types of data annotated at this stage include:  the anatomical structures analyzed; the authors' description of the pattern and strength of expression; and the genetic origin of the sample. Because annotation process is time-consuming, not all expression references have detailed data in the database. </li>
+</ul> 
+</p>
+<p> Thus, to ensure that your query returns all the references of interest to you, searches of the detailed expression data also include searches of the literature content records (whenever query parameters apply to both these types of data).</P>
 
-<!--<h3><a name="generate"></a>Which expression data query parameters generate an expression literature search? Which do not?</h3>
+<h3><a name="generate"></a>Which expression data query parameters generate an expression literature search? Which do not?</h3>
 <p>The following detailed expression data query parameters generate an expression literature search:
 <ul>
-  <li>gene symbol/name</li>
-  <li>map position</li>
-  <li>Gene Ontology (GO) classifications</li>
+  <li>gene symbol/name </li>
+  <!--<li>map position</li>-->
+  <li>function, phenotype or disease term</li>
   <li>developmental stage</li>
-  <li>assay type</li>
+  <li>assay type.</li>
 </ul>
    
 <p>Because of the limited annotation of content records, the following parameters do not generate an expression literature search:
@@ -342,10 +351,10 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <p></p>
    
 <p><b>Note:</b> You can query gene expression literature content records directly using the 
-<a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Search Form</a>.</p>-->
+<a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Search Form</a>.</p>
 
 </p>
-<!--<a href="#top"><font size="-1">Top</font></a>-->
+<a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="excelfile_gxdqf"></a>Can I get my results as a spreadsheet file?</h3>
 <p>Yes. In your search results, <!--at the right hand edge of the Filter assays bar,--> click on the Text File or Excel File icons. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
