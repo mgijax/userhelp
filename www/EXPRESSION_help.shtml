@@ -295,14 +295,10 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <tr><td valign="top"><b>Detected? </b></td>
      <td valign="top">The level of expression detected. Possible values include:
     <UL>
-      <li>Absent</li>
+      <li>Yes</li>
+      <li>No</li>
       <li>Ambiguous</li>
-      <li>Moderate</li>
       <li>Not specified</li>
-      <li>Present<sup>*</sup></li>
-      <li>Strong</li>
-      <li>Trace</li>
-      <li>Weak</li>
     </UL>
   <P><sup>*</sup><i>Present</i> appears if expression is reported as detected but the author did not specify the level.</td></tr>
 <tr><td valign="top"><b>Figure(s) </b></td>
@@ -351,7 +347,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <p></p>
    
 <p><b>Note:</b> You can query gene expression literature content records directly using the 
-<a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Search Form</a>.</p>
+<a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Query Form</a>.</p>
 
 </p>
 <a href="#top"><font size="-1">Top</font></a>
