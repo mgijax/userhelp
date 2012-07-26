@@ -1,7 +1,7 @@
 <!--#include file='include/templateHead.html'-->
 <title>
   <!--#include file="include/mgiversion.html"-->
- MGI-Using the Gene Expression Data Query Form</title>
+ MGI-Using the Gene Expression Data Search Form</title>
 </title>
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
@@ -21,7 +21,7 @@ function openHelpWindow(helpFile){
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
- Using the Gene Expression Data Query Form
+ Using the Gene Expression Data Search Form
  </span>
 </div>
 
@@ -47,12 +47,15 @@ function openHelpWindow(helpFile){
  <LI><A HREF="#whatquery">What can I use the Gene Expression Data Query Form to find?</a></li>
  <LI><A HREF="#howdo">How do I use this form?</a>
  <LI><A HREF="#fields">What values are acceptable in each of the query form fields?</a>
-  <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</a>
-  <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found" target="_blank">What if the search does not find any expression results?</a>
-<li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</li>
-  <LI><A HREF="#example">Are there examples of query results?</a>
+ <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</a>
+ <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found" target="_blank">What if the search does not find any expression results?</a>
+ <li><A HREF="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a</li>
+ <li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</a></li>
+ <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
+ <li><a href="#batch">Can I send the results of my search to the MGI Batch Query?</a></li>
+ <LI><A HREF="#example">Are there examples of query results?</a>
 
- </UL></P>
+</UL></P>
 
 
 
@@ -61,10 +64,10 @@ function openHelpWindow(helpFile){
 <p>To learn more about GXD and how we acquire data, please see
 <a href="<!--#include file='include/mgihome_url.html'-->/GXD/aboutGXD.shtml" target="_blank">About GXD</a>.
 </p>
+<p>See also the <A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</a> for unfamiliar terms and acronyms.</p>
 
-
- <h3><A name="whatquery"></a>What can I use the Gene Expression Data query form to find?</h3>
-<p>The Gene Expression Data Query form allows you to ask questions that can be basic or complex. Examples of the type of questions you can ask are:
+<h3><A name="whatquery"></a>What can I use the Gene Expression Data query form to find?</h3>
+<p>The Gene Expression Data Query form Standard Search tab allows you to ask questions that can be basic or complex. Examples of the type of questions you can ask are:
  <ul>
   <li>When and where is <b>En1</b> expressed?
   <li>What genes are expressed in the heart at E8.5?
@@ -81,85 +84,118 @@ If you are interested in doing queries that ask what genes are expressed in some
 
  <h3><A name="howdo"></a>How do I use this query form?</h3>
 
-<P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following paragraphs. After entering values in the query form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help.shtml">Using MGI Query Forms</a> for answers to questions such as: 
-   <ul>
-    <li><A HREF="MISC_usingQFs_help.shtml#howdo" target="_blank">How do I submit a query?</a></li>
-       <li><a href="MISC_usingQFs_help.shtml#operators" target="_blank">What are operators and how do they affect my query?</a></li>
-    <li><a href="MISC_usingQFs_help.shtml#options" target="_blank">How do I select more than one item on a list?</a></li>
-  <li><a href="MISC_usingQFs_help.shtml#casesen" target="_blank">Does it matter what case I use when I type values in the fields?</a></li>
-  <LI><a href="MISC_usingQFs_help.shtml#sort" target="_blank">How do the sort options work?</a></li>
-  
-    <li><a href="MISC_usingQFs_help.shtml#maxno" target="_blank">Is there a maximum number of results I can get back all at once?</a></li>
-      <LI><a href="MISC_usingQFs_help.shtml#speed" target="_blank">Is there a way to speed up a query?</a>
-<li><A href="MISC_usingQFs_help.shtml#range_question" target="_blank">When I enter exact marker or gene symbols in the Marker Range boxes, do the query results include or exclude those markers?</a></li>
- </UL>
- </p>
+<P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following table. After entering values in the query form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help.shtml">Using MGI Query Forms</a> for answers to questions such as: 
+<ul>
+ <li><A HREF="MISC_usingQFs_help.shtml#howdo" target="_blank">How do I submit a query?</a></li>
+ <!--<li><a href="MISC_usingQFs_help.shtml#options" target="_blank">How do I select more than one item on a list?</a></li>-->
+ <li><a href="MISC_usingQFs_help.shtml#casesen" target="_blank">Does it matter what case I use when I type values in the fields?</a></li>
+ <!--<LI><a href="MISC_usingQFs_help.shtml#sort" target="_blank">How do the sort options work?</a></li>-->
+ <!--<li><a href="MISC_usingQFs_help.shtml#maxno" target="_blank">Is there a maximum number of results I can get back all at once?</a></li>-->
+ <LI><a href="MISC_usingQFs_help.shtml#speed" target="_blank">Is there a way to speed up a query?</a>
+ <!--<li><A href="MISC_usingQFs_help.shtml#range_question" target="_blank">When I enter exact marker or gene symbols in the Marker Range boxes, do the query results include or exclude those markers?</a></li>-->
+</UL>
+</p>
 <a href="#top"><font size="-1">Top</font></a>
 
-
 <h3><a name="fields"></a>What values are acceptable in each of the query form fields?</h3>
-<table width="!" cellpadding="4" class="nb" align="center">
-<tr align="center"><Td VALIGN="top"><A HREF="#gene_nomenclature">Gene</A> | <A HREF="#map_position">Map position</A> |
-<A HREF="#gene_ontology">Gene Ontology classifications</A> | <A HREF="#detected_in">Expression</A> | <A HREF="#mutated_gene">Mutated gene</A> | <A HREF="#assay_type">Assay Type</A> | <a href="#output_format">Sorting & output format</a></td>
+<table width="100%" cellpadding="4" class="nb" align="center">
+ <tr align="center"><Td VALIGN="top"><A HREF="#gene_nomenclature">Genes</A> | <!--<A HREF="#map_position">Chromosomal location</A> | -->
+ <A HREF="#anatomical_structure">Anatomical structure or stage</A> | <A HREF="#mutated_gene">Mutant / wild type</A> <!--| <A HREF="#background">Genetic background</A>--> | <A HREF="#assay_type">Assay types</A> </td>
  </TR>
-  </TABLE>
+</TABLE>
+
 <table border="1" cellpadding="3">
-<TR><td valign="top"><A NAME="gene_nomenclature"></A><b>Gene</b></td><TD>Symbol, name, or synonym for a  mouse genetic marker.<ul><li>Enter one or more terms, separated by commas. <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
-<li>By default, the search is on current symbols/names and synonyms.  However, you can limit your search to current symbols (no search of names) or current symbols/names only (no search of synonyms)</li>
-<li> The operators present additional search options; the default operator is contains. See <a href="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</a> for more information.</li></ul></TD></TR>
-   
-<TR><td valign="top"><a name="map_position"></a><b>Map position</b></td>
+<TR><td valign="top"><A NAME="gene_nomenclature"></A><b>Genes</b></td><TD>This section offers a choice of two fields. 
+<p><b>Nomenclature search.</b> Use the left hand field to search for expression data for a gene or set of genes with a similar nomenclature. 
+<ul>
+<li>The gene nomenclature field supports an asterisk as a wild card. A search for pax* finds expression data for gene symbols and names that begin with <i>pax</i>.</li>
+<li>A search for *box* looks for nomenclature that contains <i>box</i>. This search finds the arginine decarboxylase gene, homeobox genes and paired box genes.</li>
+<li>A search for <i>paired box</i> finds nomenclature containing <i>paired</i> AND <i>box</i>.</li>
+<li>This field searches only alphanumeric characters. Single and double quotes, commas and hyphens are ignored.</li>
+</ul>
+</p>
+<p><b>Vocabulary term search.</b> Use the right hand field to find expression data for genes defined by their function, phenotype or disease model association.<!--, protein domain or family, or biological pathway.--> 
+<ul>
+<li>Begin typing a term of interest and an autocomplete list activates on the second character. 
+    <ul>
+    <li>The list shows all the vocabulary terms and their synonyms that match your search characters (shown in bold letters) and the number of genes annotated to each term.</li>
+    <li>Terms are greyed out if there are no genes annotated to the term or if there are no expression data associated with the genes.</li>
+    <li>You can type the beginnings of multiple terms to narrow the list (example: axon guid).
+    </ul>
+<li>You must select a term. There is no free text searching in this field.</li>
+<li>You can only select one term, though choosing a term includes results for its subterms. For example, selecting <i>decreased bone mass</i> also includes results for its subterms, decreased compact bone mass, decreased trabecular bone mass and osteoporosis.</li>
+<li>The autocomplete field ignores non-alphanumeric characters such as " and -.</li>
+</ul>
+</p>
+<p>Note that you may not submit a search with values in the <b>Nomenclature search</b> and the <b>Vocabulary Term search</b> at the same time.</p>
+</TD></TR>
+<!-- 
+<TR><td valign="top"><a name="map_position"></a><b>Chromosomal location</b></td>
   <Td ALIGN="left" VALIGN="top">Use the map position parameters (<a name="chromosome"></a>Chromosomes, <a name="coordinates"></a>Genome Coordinates, <a name="cytogenetic_band"></a>Cytogenetic Band, <a name="marker_range"></a>Marker Range, and <a name="cm_offset"></a>cM Position) to limit the scope of your query. See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fields on MGI Query Forms</a> for details.
 <ul><li>When using chromosome(s), you can also define genome coordinates, cytogenetic band, or cM position.</li> <li>You cannot combine genome coordinates, cytogenetic band, and cM position with one another.</li><li>You can enter any markers with coordinates.</li></ul></td>
-        </tr>
-<tr>
+</tr>-->
+<!--<tr>
 <td valign="top"><A NAME="gene_ontology"></A><b>Gene <br>Ontology <br>classifications</b></td>
         <TD valign="top">Genes may be described using three broad categories reflecting biological roles: Molecular Function, Biological Process, or Cellular Component. The Gene Ontology (GO) Consortium has developed structured vocabularies to specify detailed aspects within each category. MGI uses GO terms to annotate gene records. See <a href="GO_classification_fields_help.shtml" target="_blank">Using Gene Ontology Classification Fields on MGI Query Forms </a> for details.    </TD>
-      </TR>
+      </TR>-->
 
-  <td valign="top"><b>Expression</b></b></td>
+  <!--<td valign="top"><b>Expression</b></b></td> 
           <TD valign="top">Click to limit your search to assays/assay results that expression was <A NAME="detected_in"></a>detected in, not detected in, or either. The default value is <i>either</i>.<p>
-         <table>
-        <TR>
-         <td valign="top"><A NAME="anatomical_structure"></A><b>Anatomical Structure(s)</b></td>
-         <TD VALIGN="TOP">The anatomical structures are taken from the <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</A>. Enter a single item or multiple items, separated by commas. Use an <a href="MISC_operators_help.shtml" target="_blank">operator</a> (the default is <i>contains</i>) to narrow or expand your search.
+         <table>-->
+<TR>
+<td valign="top"><A NAME="anatomical_structure"></A><b>Anatomical structure or stage</b></td>
+<TD VALIGN="TOP"><p>Click to limit your search to assay results where expression was detected in, not detected in, or either. The default value is <i>either</i>.  <i>Detected in </i> and <i>not detected in</i> both return results labeled <i>Ambiguous</i> and <i>Not specified</i>.
+</p>
+<p>You can choose to use one or both fields in this section.
+</p>
+<b>Anatomical Structures</b><br>
+<p>The anatomical structures are taken from the <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</A>. Begin typing an anatomy term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. You must choose a term from the autocomplete list (i.e., there is no free text entry in this field).</p>
 
-<P>For each stage, the Anatomical Dictionary is organized as a hierarchy of structures. You can choose to include either substructures (children), superstructures (parents), both, or neither in your search. The default is to <i>include</i> substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon.</p>
-<ul><li>
+<P>For each developmental stage, the Anatomical Dictionary is organized as a hierarchy of structures. <!--You can choose to include either substructures (children), superstructures (parents), both, or neither in your search.--> By default, the search includes substructures. This means if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon.</p>
+<!--<ul>
+<li>
 If you enter more than one structure in the query field, you can choose to find data for genes that match ALL specified structures (the default value). In this case, the commas are interpreted to mean "and" &#151; your query returns assays that examine the expression of genes for which <b>all</b> of the specified structures have been analyzed. </li>
 <li>If you choose to find data for genes that match ANY specified structures, the query interprets the commas to mean "or" and returns assays that examine the expression of genes for which <b>any</b> of the specified structures have been analyzed.</li>
 </ul>
-<p> If you choose to include superstructures, the system, besides searching for brain, looks for structures in the hierarchy placed above brain, such as central nervous system. This can be a useful search strategy when you want to know in what structures a gene is NOT expressed.</p>
+<p> If you choose to include superstructures, the system, besides searching for brain, looks for structures in the hierarchy placed above brain, such as central nervous system. This can be a useful search strategy when you want to know in what structures a gene is NOT expressed.</p>-->
 
 <P>If you are unsure of the most appropriate structural term to use, browse the
 <a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</a>.</p> 
-     </TD>
-    </TR>
-    <TR>
-     <td valign="top"><A NAME="developmental_stage"></A><b>Developmental Stage(s)</b></td>
-     <TD VALIGN="TOP">Use this field and its operators (in and not in) to select one or more Theiler stages (TS) to focus your search on a particular stage of embryonic development. 
+ 
+ <A NAME="developmental_stage"></A><b>Developmental Stages (dpc)</b><br>
+   Use this field <!--and its operators (in and not in)--> to select one or more Theiler stages (TS) to focus your search on a particular stage of embryonic development. Alternately, you can choose the <i>Use Ages</i> tab and limit your search to the general terms, <i>Embryonic</i> or <i>Postnatal</i>, or choose days post conception (dpc).
 
 <p><a name="stages"></a><b>Note</b>: The Theiler system organizes development into stages defined by the
-appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc. Therefore, if you are interested in all available records for embryos of age 14.0 dpc, you will need to select both TS 21 and TS 22.
-<p>You can <A HREF="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagecriteria.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28.
+appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc. Therefore, if you are interested in all available records for embryos of age 14.0 dpc, you will need to select both TS 21 and TS 22.</p>
+To select multiple stages or ages: 
+<UL>
+  <LI>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired stages; OR hold the shift key down and  click on two stages to select those and all stages in between. </li>
+  <LI>On a PC, hold the control key down and click on the desired stages; OR hold the shift key down and click on two stages to select those and all stages in between. </li>
+ </UL>
+<p>If you mouse-over a stage, a pop-up will describe a few defining features of that stage, such as "first somites, late head fold" for Stage 12. You can <A HREF="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagecriteria.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28.
        </TD>
       </TR>
-     <tr><td valign="top"><a name="exclude_mutant"></a><b>Exclude mutant specimens from query</b></td><td valign="top">
-Click the check box if you want to exclude mutant specimens from the search. <b>Note:</b> Because of the way the query is designed, knock-in embryos are considered mutants. Therefore, if you exclude mutant specimens, the query returns no expression results obtained from <i>in situ</i> reporter (knock-in) assays.</td></tr></table></td></tr>
+     <!--<tr><td valign="top"><a name="exclude_mutant"></a><b>Exclude mutant specimens from query</b></td><td valign="top">
+Click the check box if you want to exclude mutant specimens from the search. <b>Note:</b> Because of the way the query is designed, knock-in embryos are considered mutants. Therefore, if you exclude mutant specimens, the query returns no expression results obtained from <i>in situ</i> reporter (knock-in) assays.</td></tr></table></td></tr>-->
      
 <tr>
-<td valign="top"><A NAME="mutated_gene"></A><b>Mutated Gene</b></td>
-  <TD>To search for expression data obtained from mutant specimens, use this field to enter the symbol or name of the mutated genetic marker. Select an <a href="MISC_operators_help.shtml" target="_blank">operator</a> (the default is <i>contains</i>) from the drop-down menu to expand or narrow your query. By default,  the system searches for current symbols/names and synonyms of the mutated gene. Clicking the down-arrow  presents two other options: you can search current symbols (no search of names) or current symbols/names only (no search of synonyms).
+<td valign="top"><A NAME="mutated_gene"></A><b>Mutant / wild type</b></td>
+  <TD><p>Select <i>Specimens mutated in gene</i> to search for expression data obtained from mutant specimens. Use this field to enter the symbol or name of the mutated genetic marker. By default, the system searches for current symbols/names and synonyms of the mutated gene. Use this search field as you would the <A HREF="#gene_nomenclature">Genes' nomenclature</A> search at the top of the search form.</p>
+  	<p>Select <i>Wild type specimens only</i> if you wish to exclude mutant alleles from your search. This search will still include knock-in reporter genes used in <i>in situ</i> assays. </p>
+  	<p>Select <i>All specimens</i>, the default, to include all mutant and wild type specimens in your search. </p>
         </TD>
        </TR>
-   
+ <!--  
  <tr>
-   <td valign="top"><A NAME="assay_type"></A><b>Assay Type</b></td>
-   <td valign="top">Selection list of assay types. Use this field and its <a href="MISC_operators_help.shtml" target="_blank">operators</a>  (in and not in) to limit your search to assays of one or more selected types. The default is to search <i>Any</i> of the assay types on the list.
-       </TD>
-      </TR>
-    
-<tr><td valign="top"><a name="output_format"></a><b>Sorting and <br>output format</b></td>
+	<td valign="top"><A NAME="background"></a><b>Genetic background</b></td>
+	<td valign="top">Genetic background...</td>
+ </tr>-->
+ <tr>
+   <td valign="top"><A NAME="assay_type"></A><b>Assay types</b></td>
+   <td valign="top">Check list of assay types. Use this section to limit your search to assays of one or more selected types. The default is to search <i>All</i> of the assay types on the list. Uncheck the first box for <i>Find expression data in any assay type</i> to quickly clear all selections. 
+    </TD>
+    </TR>   
+<!--<tr><td valign="top"><a name="output_format"></a><b>Sorting and <br>output format</b></td>
     <td valign="top">
     <table border="0" cellpadding="3">
       <tr>
@@ -185,41 +221,121 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
         <td align="left" valign="top"><b>Assay Results</b></td>
         <td valign="top">Gene Symbol; Age; Anatomical structure; Assay type</td>
                 <td valign="top">Alphabetical by marker symbol; chronological by age; hierarchical by anatomical dictionary for each stage; alphabetical by assay type.</td>
-       </tr>
+       </tr>-->
       </table>
      </td>
    </tr>
-<tr>
+<!--<tr>
    <TH VALIGN="top" ALIGN="left" class="thleft"><A NAME="max_returned"></A>Maximum Returned</th>
     <TD>Change to the desired number or click <i>No limit</i>. The intent of the default (500) is not to speed the search by limiting the scope but rather to let you restrict (or expand) your results. </TD>
-    </TR>
+    </TR>-->
   </TABLE>
    </td>
   </tr>
 </table>
-     
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 
 <H3><A NAME="summary"></A>How do I interpret the query results summary and detail pages?</H3>
-<p>See <a href="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data Query Results</a>.</p>
+<!--<p>See <a href="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data Query Results</a>.</p>
+-->
+<p>Your search results are displayed within three tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a> and <a href="#assaytab">Assay Results</a>.</p>
+
+<h4><a name="genestab"></a>Genes</h4>
+<p>If you select the Genes tab, the query summary contains the following fields:<br><br>
+<blockquote> 
+<table border width="!" cellpadding="4" cellspacing="1">
+ <tr><td align="left" valign="top"><b>MGI ID</b></td>
+     <td valign="top">MGI accession ID for the Gene</td></tr> 
+ <tr><td valign="top"><b>Gene</b></td>
+     <td>Symbol of the analyzed gene, linked to its MGI marker detail record</td></tr>
+ <tr><td valign="top"><b>Gene Name </b></td>
+     <td valign="top">Name of the analyzed gene</td></tr>
+ <tr><td valign="top"><b>Type</b></td>
+ 	 <td valign="top">Marker feature type for the analyzed gene. See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a>.</td></tr>
+ <tr><td valign="top"><b>Chr </b></td>
+ 	 <td valign="top">Chromosome to which the marker is assigned. Aside from a chromosome number, other possible values include MT (mitochondrial), XY (XY pseudoautosomal), UN (chromosome assignment is not known)</td></tr>
+ <tr><td valign="top"><b>Genome Location-NCBI Build # </b></td>
+ 	 <td valign="top">Genome coordinate range in base pairs and the build number of the B57BL/6J genome</td></tr>
+ <tr><td valign="top"><b>Strand </b></td>
+     <td valign="top">Coding strand for the gene</td></tr>
+</table></p>
+</blockquote>
+
+<h4><a name="byassay"></a>By Assay</h4>
+<p>If you select the Assays tab, the query summary contains the following fields:<br><br>
+<blockquote> 
+<table border width="!" cellpadding="4" cellspacing="1">
+<tr><td valign="top"><b>Gene</b></td>
+     <td>Symbol of the analyzed gene.</td></tr>
+<tr><td align="left" valign="top"><b>Assay Details</b></td>
+     <td valign="top">The word <i>data</i> links to detailed expression results; the MGI accession ID of the assay (useful for searching purposes) appears in parentheses. A camera icon appears when there are image data associated with the assay.</td></tr>
+ <tr><td valign="top"><b>Assay Type</b></td>
+     <td valign="top">Name of the assay used (e.g., Immunohistochemistry, Northern blot, RNA in situ, and so on).</td></tr>
+ <tr><td valign="top"><b>Reference</b></td>
+     <td valign="top">J number (MGI identifier) and short format citation for this reference linked to its MGI reference detail report.</td></tr>
+</table></p>
+</blockquote>
+
+<h4><a name="assaytab"></a>Assay Results</h4>
+<p>If you select Assay Results, the query summary contains the following fields:<br><br>
+<blockquote> 
+<table border width="!" cellpadding="4" cellspacing="1">
+<tr><td align="left" valign="top"><b>Gene</b></td>
+     <td valign="top">Symbol of the analyzed gene</td></tr> 
+<tr><td valign="top"><b>Result Details </b></td>
+     <td valign="top">The word data links to detailed expression results; the MGI accession ID of the assay (useful for searching purposes) appears next in parentheses</td></tr>
+<tr><td valign="top"><b>Assay Type </b></td>
+     <td valign="top">Name of the assay used (e.g., immunohistochemistry, Northern blot, RNA <i>in situ</i>)</td></tr>
+<tr><td valign="top"><b>Anatomical System </b></td>
+     <td valign="top">High-level term for the anatomical system assayed (e.g. Cardiovascular System, Extraembryonic Component)</td></tr>
+<tr><td valign="top"><b>Age </b></td>
+     <td valign="top">Age of the specimen used in the assay</td></tr>
+<tr><td valign="top"><b>Structure </b></td>
+     <td valign="top">Structure examined in the assay, given as a Theiler stage (TS) and anatomical structure name <!--linked to <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">The Mouse Anatomical Dictionary Browser</A>  - term detail report showing the structure in the anatomical hierarchy.--></td></tr>
+<tr><td valign="top"><b>Detected? </b></td>
+     <td valign="top">The level of expression detected. Possible values include:
+    <UL>
+      <li>Yes</li>
+      <li>No</li>
+      <li>Ambiguous</li>
+      <li>Not specified</li>
+    </UL>
+  <P><sup>*</sup><i>Present</i> appears if expression is reported as detected but the author did not specify the level.</td></tr>
+<tr><td valign="top"><b>Figure(s) </b></td>
+     <td valign="top">A link to the figure(s) illustrating the expression results, noting the appropriate pane</td></tr>
+<tr><td valign="top"><b>Mutant Allele(s) </b></td>
+     <td valign="top">If the specimen is a mutant, the allele pairs describing the mutant genotype appear in this field.</td></tr>
+<tr><td valign="top"><b>Reference </b></td>
+     <td valign="top">J number (MGI identifier) and short format citation for this reference linked to its MGI reference detail report.</td></tr>
+</table>
+</blockquote>
+
 <a href="#top"><font size="-1">Top</font></a>
 
 
 <h3>What if the search does not find any expression results?</h3>
-<p>See <a a href="EXPRESSION_query_results_help.shtml#not_found" target="_blank">Interpreting Gene Expression Data Query Results</a>.
+<p>See <a href="EXPRESSION_query_results_help.shtml#not_found" target="_blank">Interpreting Gene Expression Data Query Results</a>.
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 
+<h3><a name="gxd_lit_record"></a>Why is there a link to Gene Expression Literature records in my query summary?</h3>
+<p>At the end of the query summary, there may be a link to Gene Expression Literature content records matching the parameters of your detailed expression data search.  
+<ul>
+  <li>The first step of annotation in GXD is to create literature content records containing information on the genes and ages analyzed and assay types used in each reference. All expression papers have content records. </li>
+  <li>The next step is for the curators to extract the detailed expression data from these references. The types of data annotated at this stage include:  the anatomical structures analyzed; the authors' description of the pattern and strength of expression; and the genetic origin of the sample. Because annotation process is time-consuming, not all expression references have detailed data in the database. </li>
+</ul> 
+</p>
+<p> Thus, to ensure that your query returns all the references of interest to you, searches of the detailed expression data also include searches of the literature content records (whenever query parameters apply to both these types of data).</P>
 
 <h3><a name="generate"></a>Which expression data query parameters generate an expression literature search? Which do not?</h3>
 <p>The following detailed expression data query parameters generate an expression literature search:
 <ul>
-  <li>gene symbol/name</li>
-  <li>map position</li>
-  <li>Gene Ontology (GO) classifications</li>
+  <li>gene symbol/name </li>
+  <!--<li>map position</li>-->
+  <li>function, phenotype or disease term</li>
   <li>developmental stage</li>
-  <li>assay type</li>
+  <li>assay type.</li>
 </ul>
    
 <p>Because of the limited annotation of content records, the following parameters do not generate an expression literature search:
@@ -232,78 +348,98 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <p></p>
    
 <p><b>Note:</b> You can query gene expression literature content records directly using the 
-<a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Search Form</a>.</p>
+<a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Query Form</a>.</p>
 
 </p>
 <a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="excelfile_gxdqf"></a>Can I get my results as a spreadsheet file?</h3>
+<p>Yes. In your search results, <!--at the right hand edge of the Filter assays bar,--> click on the Text File or Excel File icons. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
+
+<font size="-1"><A HREF="#top">Top</A></font>
+
+<h3><A name="batch"></a>Can I send the results of my search to the MGI Batch Query?</h3>
+<p>Yes. Under the Genes tab you have the option of exporting your results as a text file, spreadsheet file or sending the list of genes to the MGI Batch Query. If you click the Batch Query icon, the default Batch Summary will appear for your list of genes. Use the Click to modify search button to expand your search results to include additional information such as Gene Ontology (GO) terms, Mammalian Phenotype (MP) terms or Human Diseases associated with the genes.</p>
+<p>See also <a href="BATCH_help.shtml"target="_blank">Using the MGI Batch Query</a>.</p>
+
+<font size="-1"><A HREF="#top">Top</A></font>
 
 <H3><A NAME="example"></A>Are there examples of query results?</H3>
 <p>The following examples list the field values to set on the Gene Expression Data Query Form to perform each query.  Leave the default values in all other fields.<br>
 <OL>
 <LI>When and where is <i>En1</i> expressed?
   <blockquote>
-  <B>Gene/Marker Symbol/Name:</B>  <i>begins</i> en1<br>
-  <b>Return data type:</b>  Assay Results
+  <B>Genes&#8230;Search for expression data for&#8230;:</B>  en1<br>
   </blockquote>
-<p>This query returns a list of results from assays examining <i>En1</i> expression. This summary report includes the gene symbol (with a link to its MGI detail page), the assay type used, result details linked to an assay record (click <i>data</i>), allele pairs describing the mutant genotype of the specimen (if applicable), the age of the specimen, the structure examined, and an indication of whether or not expression was detected.</p></li>
+<p>This query returns a list of results from assays examining <i>En1</i> expression. This summary report includes the gene symbol, result details linked to an assay record (click <i>data</i>), the assay type used, the age of the specimen, the structure examined, an indication of whether or not expression was detected, the mutant allele pairs describing the mutant genotype of the specimen (if applicable), and the reference from which the data were curated, linked to its abstract.</p></li>
 
 <!--2-->
 <LI>What genes are expressed in the heart at E8.5 in wild-type mice only? 
 
 <blockquote>
 <B>Expression:</B>   <i>detected in</i><br>
-<B>Anatomical Structure(s):</B> <i>contains</i> heart<br>
-<B>Developmental Stage(s):</B>   TS 12, TS 13, TS 14<br>
-<b>Exclude mutant specimens from query:</b> &nbsp; <i>checked</i><br>
-<b>Return data type:</b>  Assays
+<B>Anatomical Structures: </B>heart<br>
+<B>Developmental Stages (dpc):</B>   TS 12, TS 13, TS 14<br>
+<b>Mutant / wild type:</b> &nbsp; <i>Wild type specimens only</i><br>
 </blockquote>
 
-<p>This query returns a list of genes expressed in the heart at E8.5. This summary report includes the gene symbol (with a link to its MGI detail page), the assay type used, result details (linked to an assay record), and the reference (linked to an MGI data detail page). The report does not include any expression results obtained from mutant alleles. <b>Note:</b> Each developmental stage in the example includes coverage of embryonic day 8.5. See <a href="#stages">Theiler System</a> for details.</p></li>
+<p>This query returns a list of assay results for genes expressed in the heart at E8.5. Click the Genes tab to view a summary report that includes the gene symbols (with links to MGI detail pages), gene types and genomic map coordinates. <!--the assay type used, result details (linked to an assay record), and the reference (linked to an MGI data detail page).--> The report does not include any expression results obtained from mutant alleles. <b>Note:</b> Each developmental stage in the example includes coverage of embryonic day 8.5. See <a href="#stages">Theiler System</a> for details.</p></li>
+
 <!--3-->
-<li>Is <b>Htr7</b> expressed in brain?<br><br>
+<LI>What members of the Wnt gene family are expressed in TS 16? 
+
 <blockquote>
-<B>Gene/Marker Symbol/Name:</B>  <i>begins</i> htr7<br>
-<B>Anatomical Structure(s):</B>  <i>contains</i> brain<br>
-<b>Return data type:</b>  Assay Results
+<B>Genes&#8230;Search for expression data for&#8230;:</B>wnt*<br>
+<B>Expression:</B>   <i>detected in</i><br>
+<B>Developmental Stages (dpc):</B>   TS 16<br>
+<!--<b>Exclude mutant specimens from query:</b> &nbsp; <i>checked</i><br>-->
 </blockquote>
 
-<p>This query returns a summary report demonstrating that <b>Htr7</b> is expressed in the brain. Note that, by default, <b>Include substructures</b> is selected so that structures within the brain itself are included in the search.<p>
+<p>This query returns a list of assay results for Wnt family genes whose expression was detected in Theiler Stage 16. </p></li>
 
 <!--4-->
-<li>What genes are known NOT to be expressed in either the diencephalon or any structure containing the diencephalon?<P>
+<li>When and where are genes involved in axon guidance expressed?
+<blockquote>
+<B>Genes&#8230;A set of genes defined by:</B> axon guidance<br>
+</blockquote>
+
+<p>This query returns a list of all assay results for all genes known to be involved in mouse axon guidance. <p>
+</li>
+
+<!--5-->
+<li>What genes are known NOT to be expressed in either the diencephalon or any structure within the diencephalon?<P>
 <blockquote>
   <B>Expression:</B>   <i>not detected in</i><br>
   <B>Anatomical Structure(s):</B>  <i>contains</i> diencephalon<br>
-  <B>Include:</B>  <i>superstructures</i><br>
   <b>Return data type:</b>  Assay Results<br>
 </blockquote>
-<P>This query returns a list of genes found not to be expressed in the diencephalon or in anatomical structures containing the diencephalon, such as brain or whole embryo.<p>
-<!--5-->
-<LI>What genes involved in cell adhesion are expressed in mesenchyme?<P>
-<blockquote>
-<B>Gene Ontology (GO) Classifications:</B> <i>contains</i>&nbsp; cell adhesion<br>
-<B>Expression:</B> <i>detected in</i><BR>
-<B>Anatomical Structure(s):</B>  <i>contains</i> mesenchyme<br>
-<B>Return data type:</B>   Assays<br>
-
-</blockquote>
-<p>This query returns a list of genes involved in cell adhesion found to be expressed in the mesenchyme.</p></li>
-
+<P>This query returns a list of genes found not to be expressed in the diencephalon or in anatomical structures within the diencephalon, such as the hypothalamus, 3rd ventricle, or pituitary gland.<p>
 
 <!--6-->
-<li>What transcription factors located on chromosome 5 have been found to be expressed in the forelimb?
+<LI>What genes involved in cell adhesion are expressed in stomach mesenchyme?<P>
+<blockquote>
+<B>Genes...A set of genes defined by:</B> cell adhesion<br>
+<B>Expression:</B> <i>detected in</i><BR>
+<B>Anatomical Structures:</B> stomach mesenchyme<br>
+
+</blockquote>
+<p>This query returns a list of genes involved in cell adhesion found to be expressed in the stomach mesenchyme.</p></li>
+
+<!--7-->
+<!--<li>What transcription factors located on chromosome 5 have been found to be expressed in the forelimb?
 <P>
 <blockquote>
 <B>Chromosome(s):</B> 5<br>
 <B>Gene Ontology (GO) Classifications:</B> <i>contains</i> transcription factor<BR>
-<B>Anatomical Structure(s):</B> <i>contains</i> embryonic forelimb<br>
-<b>Developmental Stage(s):</b>&nbsp;<i>not in</i>&nbsp; TS28 (postnatal)<br>
+<B>Anatomical Structures:</B> <i>contains</i> embryonic forelimb<br>
+<b>Developmental Stage (dpc):</b>&nbsp;<i>not in</i>&nbsp; TS28 (postnatal)<br>
 <B>Return data type:</B>  Assays<br>
 
 </blockquote>
 <P>This query returns a list of transcription factors located on chromosome 5 found to be expressed in the forelimb or its substructures in the embryo but not in postnatal or adult mice.
+
+</p> -->
 </ol>
-</p>
 <a href="#top"><font size="-1">Top</font></a>
 
 <!--#include file='include/templateBodyStop.html'--> 
