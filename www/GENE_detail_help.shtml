@@ -191,7 +191,7 @@ Query Results -- Summary page: alleles with OMIM annotations to associated genot
   <li>	Theiler stage: List of all developmental stages where expression was analyzed; each summary report lists expression results from that stage.</li>
   <li>Assay Type Results: assay type used for the analyses and the number of results, linked to summary reports.</li>
   <li><a name="cdna_summary"></a>cDNA source data: the number of cDNA clones for this marker, linked to a summary page with the following columns: Nucleotide Probe/Clone AccID, Name, Clone Collection, Age, Tissue, Cell Line, and Gene. If (PUTATIVE) appears beside the gene symbol, it means that the relationship between the gene and clone is established by computation rather than experimental data.</li>
-  <li>External Resources: links to expression information for this marker in other than MGI databases. Examples: Allen Brain Atlas, GENSAT, gene microarray profile pages at GEO, Novartis, ArrayExpress.</li>
+  <li>External Resources: links to expression information for this marker in other than MGI databases. Examples: Allen Brain Atlas, GENSAT, gene microarray profile pages at GEO, ArrayExpress.</li>
  </ul>
 </TD>
 </TR>
