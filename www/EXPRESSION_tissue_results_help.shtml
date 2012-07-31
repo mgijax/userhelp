@@ -39,7 +39,7 @@ Interpreting the Gene Expression Data: Results by Tissue Summary</span>
 
 <ul>
  <li>If there are expression data about a marker in the Gene Expression Database, the word <i>Tissues</i>, followed by a number, appears in the Expression section of the Gene Detail page.  Clicking that number presents a table of all anatomical structures in the database examined when analyzing the gene expression pattern. The symbol and name of the gene whose expression was analyzed as well as its MGI accession ID appears at the top of the table.</li>
- <li>If there are expression data from a reference in the Gene Expression Database, the word <i>Tissues</i>, preceded by a number, appears in the Additional Information section of References Query Results - Details. Clicking <i>Tissues</i> presents a table of all anatomical structures examined when analyzing gene expression in this reference.  The J: number link  to the reference followed by the full list citation appears at the top of the table. </li>
+ <!--<li>If there are expression data from a reference in the Gene Expression Database, the word <i>Tissues</i>, preceded by a number, appears in the Additional Information section of References Query Results - Details. Clicking <i>Tissues</i> presents a table of all anatomical structures examined when analyzing gene expression in this reference.  The J: number link  to the reference followed by the full list citation appears at the top of the table. </li>-->
  <li>You can export your results in text or spreadsheet formats.</li>
 </ul>
 
@@ -51,7 +51,7 @@ Interpreting the Gene Expression Data: Results by Tissue Summary</span>
 <tr><th align="left" valign="top">Structure</th><td valign="top">Anatomical structures examined when analyzing expression.  Given as a Theiler stage (TS) and anatomical structure name, linked to the Anatomical Dictionary Browser-term detail page that includes the structure.</td></tr>
 <tr><th align="left" valign="top">Results</th><td valign="top">For all columns, the number links to a Gene Expression Data - Query Results Summary page listing the symbol of the gene analyzed, the assay type used, result details (given as an MGI accession ID linked to an assay record), allele pairs describing the mutant genotype of the specimen (if applicable), age of the specimen examined, the structure examined, and an indication of whether or not expression was detected.</td></tr>
 <tr><th align="left" valign="top">All</th><td valign="top">Number of times the structure was examined  whether expression was detected or not.</td></tr>
-<tr><th align="left" valign="top"><b>+</b></th><td valign="top">Number of times expression was detected in the structure.</td></tr>
+<tr><th align="left" valign="top"><b>+</b></th><td valign="top">Number of times expression was detected in the structure. This column also include specimens for which detected = ambiguous or not specified (as well as present).</td></tr>
 <tr><th align="left" valign="top"><b>-</b></th><td valign="top">Number of times expression was found to be absent in the structure.</td></tr>
 </table>
 </blockquote>
