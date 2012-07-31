@@ -69,12 +69,12 @@ function openHelpWindow(helpFile){
 <h3><A name="whatquery"></a>What can I use the Gene Expression Data query form to find?</h3>
 <p>The Gene Expression Data Query form Standard Search tab allows you to ask questions that can be basic or complex. Examples of the type of questions you can ask are:
  <ul>
-  <li>When and where is <b>En1</b> expressed?
-  <li>What genes are expressed in the heart at E8.5?
-  <li>Is <b>Htr7</b> expressed in the brain?
-  <li>What genes are known not to be expressed in either the diencephalon or any structure containing the diencephalon?
-  <li>What genes involved in cell adhesion are expressed in mesenchyme?
-  <li>What transcription factors located on chromosome 1 have been found to be expressed in the forelimb?
+  <li>When and where is <b>En1</b> expressed?</li>
+  <li>What genes are expressed in the heart at E8.5?</li>
+  <li>Is <b>Htr7</b> expressed in the brain?</li>
+  <li>What genes are known not to be expressed in either the diencephalon or any structure containing the diencephalon?</li>
+  <li>What genes involved in cell adhesion are expressed in mesenchyme?</li>
+  <!--<li>What transcription factors located on chromosome 1 have been found to be expressed in the forelimb?</li>-->
  </ul>
 <p>(See <A href="#example">Are there examples of query results?</a> for the form
 field values for these queries.)
@@ -82,7 +82,7 @@ field values for these queries.)
 If you are interested in doing queries that ask what genes are expressed in some anatomical structures and/or developmental stages but not in others, you should use the <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQFexpanded" target="_blank">Gene Expression Data Expanded Query Form</a>.</p>
 
 
- <h3><A name="howdo"></a>How do I use this query form?</h3>
+<h3><A name="howdo"></a>How do I use this query form?</h3>
 
 <P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following table. After entering values in the query form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help.shtml">Using MGI Query Forms</a> for answers to questions such as: 
 <ul>
@@ -106,7 +106,7 @@ If you are interested in doing queries that ask what genes are expressed in some
 
 <table border="1" cellpadding="3">
 <TR><td valign="top"><A NAME="gene_nomenclature"></A><b>Genes</b></td><TD>This section offers a choice of two fields. 
-<p><b>Nomenclature search.</b> Use the left hand field to search for expression data for a gene or set of genes with a similar nomenclature. 
+<p><b>Nomenclature search.</b> Use the left hand field to search for expression data for a mouse gene or set of genes with a similar nomenclature. 
 <ul>
 <li>The gene nomenclature field supports an asterisk as a wild card. A search for pax* finds expression data for gene symbols and names that begin with <i>pax</i>.</li>
 <li>A search for *box* looks for nomenclature that contains <i>box</i>. This search finds the arginine decarboxylase gene, homeobox genes and paired box genes.</li>
@@ -125,6 +125,12 @@ If you are interested in doing queries that ask what genes are expressed in some
 <li>You must select a term. There is no free text searching in this field.</li>
 <li>You can only select one term, though choosing a term includes results for its subterms. For example, selecting <i>decreased bone mass</i> also includes results for its subterms, decreased compact bone mass, decreased trabecular bone mass and osteoporosis.</li>
 <li>The autocomplete field ignores non-alphanumeric characters such as " and -.</li>
+<li>If you are unsure of the proper terms to use, use the appropriate browser to find vocabulary terms and their definitions:</li>
+	<ul>
+	<li>Function: <a href="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml" target="_blank">GO Browser</a></li>
+	<li>Phenotype: <a href="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a></li>
+	<li>Disease: <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A" target="_blank">Human Disease Vocabulary Browser</a></li>
+	</ul>
 </ul>
 </p>
 <p>Note that you may not submit a search with values in the <b>Nomenclature search</b> and the <b>Vocabulary Term search</b> at the same time.</p>
@@ -151,7 +157,7 @@ If you are interested in doing queries that ask what genes are expressed in some
 <b>Anatomical Structures</b><br>
 <p>The anatomical structures are taken from the <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</A>. Begin typing an anatomy term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. You must choose a term from the autocomplete list (i.e., there is no free text entry in this field).</p>
 
-<P>For each developmental stage, the Anatomical Dictionary is organized as a hierarchy of structures. <!--You can choose to include either substructures (children), superstructures (parents), both, or neither in your search.--> By default, the search includes substructures. This means if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon.</p>
+<P>For each developmental stage, the Anatomical Dictionary is organized as a hierarchy of structures. <!--You can choose to include either substructures (children), superstructures (parents), both, or neither in your search.--> By default, the search includes substructures. This means if you search for gene expression in, for example, brain, this searches for all terms that contain the word <i>brain</i> and the substructures to those terms in the hierarchy, such as rhombencephalon.</p>
 <!--<ul>
 <li>
 If you enter more than one structure in the query field, you can choose to find data for genes that match ALL specified structures (the default value). In this case, the commas are interpreted to mean "and" &#151; your query returns assays that examine the expression of genes for which <b>all</b> of the specified structures have been analyzed. </li>
@@ -180,8 +186,8 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
      
 <tr>
 <td valign="top"><A NAME="mutated_gene"></A><b>Mutant / wild type</b></td>
-  <TD><p>Select <i>Specimens mutated in gene</i> to search for expression data obtained from mutant specimens. Use this field to enter the symbol or name of the mutated genetic marker. By default, the system searches for current symbols/names and synonyms of the mutated gene. Use this search field as you would the <A HREF="#gene_nomenclature">Genes' nomenclature</A> search at the top of the search form.</p>
-  	<p>Select <i>Wild type specimens only</i> if you wish to exclude mutant alleles from your search. This search will still include knock-in reporter genes used in <i>in situ</i> assays. </p>
+  <TD><p>Select <i>Specimens mutated in gene</i> to search for expression data obtained from mutant specimens. Use this field to enter the symbol or name of the mutated genetic marker. The system searches for current symbols/names and synonyms of the mutated gene. Use this search field as you would the <A HREF="#gene_nomenclature">Genes' nomenclature</A> search at the top of the search form.</p>
+  	<p>Select <i>Wild type specimens only</i> if you wish to exclude mutant alleles from your search. This search will still include knock-in reporter genes used in <i>in situ</i> reporter assays. </p>
   	<p>Select <i>All specimens</i>, the default, to include all mutant and wild type specimens in your search. </p>
         </TD>
        </TR>
@@ -239,7 +245,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <H3><A NAME="summary"></A>How do I interpret the query results summary and detail pages?</H3>
 <!--<p>See <a href="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data Query Results</a>.</p>
 -->
-<p>Your search results are displayed within three tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a> and <a href="#assaytab">Assay Results</a>.</p>
+<p>Your search results are displayed within three tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a> and <a href="#assaytab">Assay Results</a>. By default, the Assay Results tab is selected.</p>
 
 <h4><a name="genestab"></a>Genes</h4>
 <p>If you select the Genes tab, the query summary contains the following fields:<br><br>
@@ -294,14 +300,14 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <tr><td valign="top"><b>Structure </b></td>
      <td valign="top">Structure examined in the assay, given as a Theiler stage (TS) and anatomical structure name <!--linked to <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">The Mouse Anatomical Dictionary Browser</A>  - term detail report showing the structure in the anatomical hierarchy.--></td></tr>
 <tr><td valign="top"><b>Detected? </b></td>
-     <td valign="top">The level of expression detected. Possible values include:
+     <td valign="top">Was expression detected? Possible values include:
     <UL>
       <li>Yes</li>
       <li>No</li>
       <li>Ambiguous</li>
       <li>Not specified</li>
     </UL>
-  <P><sup>*</sup><i>Present</i> appears if expression is reported as detected but the author did not specify the level.</td></tr>
+  <!--<P><sup>*</sup><i>Present</i> appears if expression is reported as detected but the author did not specify the level.--></td></tr>
 <tr><td valign="top"><b>Figure(s) </b></td>
      <td valign="top">A link to the figure(s) illustrating the expression results, noting the appropriate pane</td></tr>
 <tr><td valign="top"><b>Mutant Allele(s) </b></td>
@@ -354,7 +360,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="excelfile_gxdqf"></a>Can I get my results as a spreadsheet file?</h3>
-<p>Yes. In your search results, <!--at the right hand edge of the Filter assays bar,--> click on the Text File or Excel File icons. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
+<p>Yes. The <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a> tabs but not the <a href="#byassay">Assays</a> tab, provide export options. In your search results, <!--at the right hand edge of the Filter assays bar,--> click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
 
 <font size="-1"><A HREF="#top">Top</A></font>
 

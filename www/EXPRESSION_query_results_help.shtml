@@ -73,21 +73,21 @@ Interpreting Gene Expression Data Query Results</span>
 
 <H3><a name="access"></a>How can I access the Gene Expression Data Query Results Summary reports?</H3>
 <ul>
-<li>The Gene Expression Data Query Results Summary reports return the results of queries from the following forms:
+<!--<li>The Gene Expression Data Query Results Summary reports return the results of queries from the following forms:
 <UL>
   <LI>Gene Expression Data Query Form</LI>
   <LI>Gene Expression Data Expanded Query Form</LI>
   <LI>Anatomical Dictionary Browser</LI>
-  <!--<LI>Anatomical Dictionary Browser Query Refiner</LI>-->
+  <LI>Anatomical Dictionary Browser Query Refiner</LI>
 </UL>
-<P>To learn more about using these query forms, consult their help documents (click the question mark at the top of each form).
-<li>Links to the Gene Expression Data Query Results Summary reports also appear on some detail reports, including those for:
+<P>To learn more about using these query forms, consult their help documents (click the question mark at the top of each form).-->
+<li>Links to the Gene Expression Data Query Results Summary reports appear on some detail reports, including those for:
 <UL>
-  <LI>GXD Literature content records</LI>
+  <!--<LI>GXD Literature content records</LI>
   <LI>Markers</LI>
-  <LI>Tissues Summary</LI>
+  <LI>Tissues Summary</LI>-->
   <LI>Alleles</LI>
-  <LI>References</LI>
+  <!--<LI>References</LI>-->
   <LI>Molecular Probes</LI>
   <LI>Antibodies</LI>
 </UL></P>
@@ -420,16 +420,18 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
 <TR>   <td valign="top"><b><A NAME="pattern"></A>Pattern</b></td><td valign="top">Indicator of expression pattern as specified by the author. Possible values include:
     <UL>     
       <li>Diffuse</li>
-     <LI>Graded</li>
-      <LI>Homogeneous
-    <li>Non-homogeneous</li>
+      <LI>Graded</li>
+      <li>Non-uniform</li>
       <LI>Not specified
       <LI>Patchy
+      <li>Punctate</li>
       <LI>Regionally restricted
+      <li>Scattered</li>
       <LI>Single cells
       <LI>Spotted
       <li>Ubiquitous</li>
- <li>Widespread</li>
+      <li>Uniform</li>
+      <li>Widespread</li>
     </UL></TD> 
 </TR>
 <TR> <td valign="top"><b><A NAME="note"></A>Note </b></td><td valign="top">Link to note containing additional information pertaining to the assay result.   If present, the notes appear below the results table.</TD> </TR>
@@ -463,14 +465,14 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
  <tr>
    <td valign="top"><b>Caption</b></td> <td valign="top">Notes that the curators feel are necessary to orient users when viewing the image.</td></tr>
  <tr> <td valign="top"><b>Copyright</b></td> <td valign="top">Copyright statement for the images, in a format specified by the publisher of the reference.</td> </tr>
-   <tr>
-     <td valign="top"><a name="table_below"></a><b>Assays that refer to this image</b></td><td valign="top"><ul>
+ <tr>
+	<td valign="top"><a name="table_below"></a><b>Associated Assays</b></td><td valign="top">
+	<ul>
        <li>Listing of image panes referenced in the database. </li>
        <li>Each listing includes the pane label; the MGI accession ID of the assay that the pane was referenced in, linked to the assay record; and the marker (in parentheses) whose expression was examined in the assay, linked to its marker detail report.</li>
        <li>In some cases, the listing may include a link to the spatial mapping at EMAGE for expression data in the pane.</li>
      </ul></td> 
   </tr>
-
  <tr>
    <td valign="top"><b>Other Database Links</b></td><td valign="top">When present, this field displays links to information about the image in databases other than MGI (e.g. GenePaint)
 </td> </tr>
