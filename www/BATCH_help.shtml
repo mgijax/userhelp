@@ -268,7 +268,7 @@ The following are additional types (not listed on the pulldown menu), followed b
      <tr><td valign="top">Alleles</td><td valign="top">MGI allele identifier and allele symbols.</td></tr>
 
 
- <tr><td valign="top">Gene Expression</td><td valign="top">Anatomical structure (Theiler stage and tissue name), assay results (total number of times the structure was examined, number of times expression was detected in the structure, number of times expression was found to be absent in the structure).  These numbers summarize results obtained from wild type and mutant specimens.</td></tr>
+ <tr><td valign="top">Gene Expression</td><td valign="top">Anatomical structure (Theiler stage and tissue name), assay results (total number of times the structure was examined, number of times expression was detected in the structure, number of times expression was found to be absent in the structure).  These numbers summarize results obtained from wild type and mutant specimens. The detected counts also include specimens for which detected = ambiguous or not specified (as well as present).</td></tr>
 
          <tr><td valign="top">RefSNP ID</td><td valign="top">RefSNP identifiers<br>Results include RefSNPs within 2 KB of the gene/marker. </td></tr>
 <tr><td valign="top">GenBank/RefSeq ID</th><td valign="top">GenBank (nucleotide) or RefSeq (nucleotide or protein) sequence identifiers.</td></tr>
