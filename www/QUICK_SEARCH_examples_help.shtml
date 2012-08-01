@@ -157,7 +157,7 @@ See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and exa
 <table border="1" cell spacing="0" cellpadding="3" width="!%">
 <tr><th width="15%" valign="top">Acronym</th><th valign="top">Full Name</th><th valign="top">Quick Search looks for...</th></tr>
 <tr><td valign="top">AD</td><td valign="top">Anatomical Dictionary<br>
-<a href="<!--#include file='include/wi_url.html'-->/searches/anatdict_form.shtml" target="_blank">The Mouse Anatomical Dictionary Browser</a></td><td valign="top">Expression</td></tr>
+<a href="<!--#include file='include/wi_url.html'-->/searches/anatdict_form.shtml" target="_blank">The Mouse Anatomical Dictionary Browser</a></td><td valign="top">Mouse anatomical terms</td></tr>
 <tr><td valign="top">GO</td><td valign="top">Gene Ontology<br>
 <a href="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml" target="_blank">GO Browser</a></td>
 <td valign="top">Function including molecular function, biological process, and cellular component</td></tr>
