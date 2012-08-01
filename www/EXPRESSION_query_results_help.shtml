@@ -91,7 +91,7 @@ Interpreting Gene Expression Data Query Results</span>
   <LI>Molecular Probes</LI>
   <LI>Antibodies</LI>
 </UL></P>
-<li>Queries from the Search box also use these reports to summarize results.</li>
+<li>Queries from the Quick Search box also use these reports to summarize results.</li>
 </ul>
 <font size="-1"><a href="#top">Top</a>
 </font>
@@ -137,7 +137,7 @@ The number links to the Literature query results summary containing those conten
 <blockquote> 
 <table border width="!" cellpadding="4" cellspacing="1">
  <tr><th align="left" valign="top"><nobr><b>Result Details</b></td>
-     <td valign="top">The word <i>data</i> links to detailed expression results; the MGI accession ID of the assay (useful for searching purposes) appears in parentheses.  If a camera icon appears, click <u>data</u> to view associated image(s).
+     <td valign="top">The word <i>data</i> links to detailed expression results; the MGI accession ID of the assay (useful for searching purposes) appears in parentheses.  If a camera icon appears, expression data are supported by images such as those from Northern and Western blots and immunohistochemistry and <i>in situ</i> tissue sections. 
  <tr><td valign="top"><b>Gene</b></td>
      <td>Symbol of the analyzed gene, linked to its MGI marker detail record.</td></tr>
  <tr><td valign="top"><b>Assay Type</b></td>
@@ -152,7 +152,7 @@ The number links to the Literature query results summary containing those conten
 <blockquote>
  <TABLE BORDER WIDTH="!" cellspacing="1" CELLPADDING="4">
    <TR>
-   <td valign="top"><b>Result Details</b></td><td valign="top">The word <i>data</i> links to detailed expression results; the MGI accession ID of the assay (useful for searching purposes) appears next in parentheses.   If a camera icon appears, click <u>data</u> to view associated image(s).</TD>
+   <td valign="top"><b>Result Details</b></td><td valign="top">The word <i>data</i> links to detailed expression results; the MGI accession ID of the assay (useful for searching purposes) appears next in parentheses.   If a camera icon appears, click <u>data</u> to view associated image(s) and assay details.</TD>
   </TR>
   <TR><td valign="top"><b>Gene</b></td>
       <TD VALIGN="top">Symbol of the gene assayed for, linked to its marker detail record.</TD></TR>
@@ -178,8 +178,8 @@ The number links to the Literature query results summary containing those conten
  </TABLE>
 </blockquote>
 
-<P>When querying using the Gene Expression Data Query Form, the default return of search results is by <B>Assay</B>. This yields a shorter listing of search results than if you select <B>Assay Results</B> because each anatomical structure contained within an assay is displayed when you choose <B>Assay Results</B>. Since each assay usually contains more than one structure, selecting <B>Assay Results</B> returns many more lines of text than if the same search were returned by <B>Assay</B>. Thus, selecting <B>Assay</B> is often preferable because it returns a more manageable list.
-</P>
+<!--<P>When querying using the Gene Expression Data Query Form, the default return of search results is by <B>Assay</B>. This yields a shorter listing of search results than if you select <B>Assay Results</B> because each anatomical structure contained within an assay is displayed when you choose <B>Assay Results</B>. Since each assay usually contains more than one structure, selecting <B>Assay Results</B> returns many more lines of text than if the same search were returned by <B>Assay</B>. Thus, selecting <B>Assay</B> is often preferable because it returns a more manageable list.
+</P>-->
 
 <font size="-1"><A HREF="#top">Top</A></font>
 
@@ -193,15 +193,14 @@ The number links to the Literature query results summary containing those conten
 <p> Thus, to ensure that your query returns all the references of interest to you, searches of the detailed expression data also include searches of the literature content records (whenever query parameters apply to both these types of data).</P>
 
 
-<p><a name="generate"></a>The following detailed expression data query parameters generate an expression literature search:
+<!--<p><a name="generate"></a>The following detailed expression data query parameters generate an expression literature search:
 <ul>
   <li>gene symbol/name </li>
   <li>map position</li>
   <li>Gene Ontology (GO) classifications</li>
   <li>developmental stage</li>
   <li>assay type.</li>
-
-</ul>
+</ul>-->
 <p>Because of the limited annotation of  content records, the following parameters do not generate an expression literature search:
 <ul>
   <li>anatomical structure;</li>
@@ -219,7 +218,7 @@ The number links to the Literature query results summary containing those conten
  <table border cellpadding="4" cellspacing="4" width="!">
   <tr>
    <td align="center"><b>Field</b></td>       <td align="center"><b><b>Description</b></td></tr>
-  <tr><td valign="top"><b>Reference</b></td>  <td valign="top">J number, linked to the reference detail, and short format citation.</td> </tr>
+  <tr><td valign="top"><b>Reference</b></td>  <td valign="top">J number, the MGI reference identifier, linked to the reference detail, and short format citation.</td> </tr>
   <tr><td valign="top"><b>Assay Type</b></td> <td valign="top">Name of the assay type used.</td>  </tr>
   <tr><td valign="top"><b>MGI Accession ID</b></td> <td valign="top">MGI accession ID for the assay. </td> </tr>
   <tr><td valign="top"><b>Gene symbol</b></td>     <td valign="top">Symbol of the gene assayed, linked to its marker detail record.</td>  </tr>
@@ -233,7 +232,7 @@ The number links to the Literature query results summary containing those conten
 
  <h4><A name="probes"></a>Assays that use nucleotide probes</h4>
 
-<p>The description for assays that use nucleotide probes includes the following additional fields:<br><br>
+<p>The description for assays that use nucleotide probes may include the following additional fields:<br><br>
 <blockquote>
  <table border  width="!" cellspacing="1" cellpadding="4">
   <tr>
@@ -251,7 +250,7 @@ The number links to the Literature query results summary containing those conten
 
 
    <h4><a name="antibody"></a>Assays that use antibodies</h4>
-<p>The description for assays that use antibodies includes
+<p>The description for assays that use antibodies may include
 the following additional fields:<br><br>
  <blockquote>
  <table border width="!" cellpadding="4" cellspacing="1">
