@@ -43,14 +43,14 @@ function openHelpWindow(helpFile){
  <LI><A HREF="#whatdo">What can I use the MGI Batch Query to find?</a>
  <LI><A HREF="#howfill">How do I use this tool?</A></LI>
   	<ul>
- 	  <LI><A HREF="#fields">What are the accepted input identifier (ID) types?</a></li>
-  	  <LI><A HREF="#type_list">Does the input list have to be in any particular form?</a></li>
-	   <li><a href="#autodetect">What does "Search all input types" accomplish?</a></li>
-	   <li><a href="#why_constrain">When would I constrain my search to a single input type?</a></li>
-	   <li><a href="#how_many_IDs">How many IDs can I enter at one time?</a></li>
-		<li><a href="#customize">Are there choices for how to view query results?</a></li>
-		<li><a href="#why_select">Why can I select all the choices under <i>Gene Attributes</i>, but I'm limited to only one choice under <i>Additional Information</i>?</a></li>
-		<li><a href="#revise">Can I edit my original options and requery?</a></li>
+ 	  <li><A HREF="#fields">What are the accepted input identifier (ID) types?</a></li>
+  	  <li><A HREF="#type_list">Does the input list have to be in any particular form?</a></li>
+	  <li><a href="#autodetect">What does "Search all input types" accomplish?</a></li>
+	  <li><a href="#why_constrain">When would I constrain my search to a single input type?</a></li>
+	  <li><a href="#how_many_IDs">How many IDs can I enter at one time?</a></li>
+	  <li><a href="#customize">Are there choices for how to view query results?</a></li>
+	  <li><a href="#why_select">Why can I select all the choices under <i>Gene Attributes</i>, but I'm limited to only one choice under <i>Additional Information</i>?</a></li>
+	  <li><a href="#revise">Can I edit my original options and requery?</a></li>
  	</ul>
 <li><a href="#interpret">How do I interpret results?</a></li>
  <ul>
@@ -398,6 +398,7 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
   <li>the total number of assay results for this gene/tissue</li>
   <li>the number of positive assay results (&#043;)</li>
   <li>the number of negative assay results (&minus;).</li>
+  <li>the detected counts also include specimens for which detected = ambiguous or not specified (as well as present).</li>
 </ul>
 
 <p>See also <a href="#summary">MGI Batch Query results</a> for information on the other fields.</p>
