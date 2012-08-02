@@ -39,9 +39,9 @@ function openHelpWindow(helpFile){
 <p>This information document answers the following questions about an antibodies summary:
  <UL>
  <LI><A HREF="#where">Where can I find antibody records in the MGI databases?</a>
- <LI><A HREF="#summary">How do I interpret an antibody query results summary?</a>
+ <!--<LI><A HREF="#summary">How do I interpret an antibody query results summary?</a>-->
  <LI><A HREF="#detail">How do I interpret an antibody detail record?</a>
-    <LI><A HREF="#antigen">How do I interpret an antigen detail record?</a>
+ <LI><A HREF="#antigen">How do I interpret an antigen detail record?</a>
  </UL>
 <P>See also:</P>
 <UL>
@@ -54,13 +54,11 @@ function openHelpWindow(helpFile){
 <p>Antibody records are associated with gene expression assays, antigens, genes, and references in the database. In MGI, these relationships are reflected in the links provided between these different records.
 <ul>
   <li>If an assay uses an antibody, the assay detail record provides a link to the antibody record.
-  <li>If a gene is known to code for the antigen detected by an antibody, the detail record for the gene includes a link to the antibody in the molecular reagents portion of the marker detail record.
-<li>If a paper reports an antibody, the reference detail record includes a link to the antibody record.
 </ul>
 <p>You can access antibody records through these links, or, you can enter the unique MGI accession ID (e.g., MGI:1332271) in the Quick Search box located at the top of most MGI web pages.</p>
 <A HREF="#top">Top</A>
 
-<H3><A name="summary"></a>How do I interpret an antibody query results summary?</h3>
+<!--<H3><A name="summary"></a>How do I interpret an antibody query results summary?</h3>
 <p>When you select a link to an antibody, a summary description with the following fields appears:
 <p>
  <TABLE BORDER cellpadding=4>
@@ -73,7 +71,7 @@ function openHelpWindow(helpFile){
  <TR> <TH align=left valign=top>Reference <TD VALIGN=TOP><a name="jno"></a>J number (unique MGI reference accession ID) and short format citation for the reference in which this antibody is used, linked to the reference detail.
  </TR>
 </TABLE></p>
-<A HREF="#top">Top</A>
+<A HREF="#top">Top</A>-->
 
 <h3><A name="detail"></a>How do I interpret an antibody detail record?</h3>
 <!--need explanation of what to click on to get this record?-->
