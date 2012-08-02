@@ -97,7 +97,7 @@ User Help Site Map
      <dt class="enhance">Gene Expression</dt>
          
   	<blockquote>
-<dd><a href="EXPRESSION_literature_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_literature_help.shtml'); return false;">Using the Gene Expression Literature Index Query Form</a></dd>
+<dd><a href="EXPRESSION_literature_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_literature_help.shtml'); return false;">Using the Gene Expression Literature Query Form</a></dd>
 <dd><a href="EXPRESSION_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_help.shtml'); return false;">
               Using the Gene Expression Data Query Form</a></dd>
 <dd><a href="EXPRESSION_expanded_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_expanded_help.shtml'); return false;">
@@ -108,8 +108,8 @@ User Help Site Map
 <dd><a href="EXPRESSION_tissue_results_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_tissue_results_help.shtml'); return false;">Interpreting the Gene Expression Data: Results by Tissue Summary</a></dd>
   
 <dt><b>Probes & Clones</b></dt>
-	<dd><a href="EXPRESSION_probe_summary_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_probe_summary_help.shtml'); return false;">Interpreting a cDNA Clone Source Data Summary</a></dd>
-	<dd><a href="EXPRESSION_probe_detail_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_probe_detail_help.shtml'); return false;">Interpreting cDNA Clone Source Data Details</a></dd>
+	<dd><a href="EXPRESSION_probe_summary_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_probe_summary_help.shtml'); return false;">Interpreting a Probe and Clone Data Summary</a></dd>
+	<dd><a href="EXPRESSION_probe_detail_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_probe_detail_help.shtml'); return false;">Interpreting Probe and Clone Data Details</a></dd>
 
   <dt><b>Molecular Reagents</b></dt>
 		<dd><a href="EXPRESSION_affy_probe_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_affy_probe_help.shtml'); return false;">Interpreting a Microarray Probeset Summary</a></dd>
