@@ -47,11 +47,10 @@ function openHelpWindow(helpFile){
  <LI><A HREF="#howdo">How do I use this query form?</A></LI>
  <LI><A HREF="#fields">What values are acceptable in each of the fields?</A></LI>
  <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</A></LI>
-  <LI><A HREF="EXPRESSION_help.shtml#not_found">What if the search does not find any expression results?</a>
-<li><a href="EXPRESSION_help.shtml#generate">Which expression data query parameters generate an expression literature search? Which do not?</li>
-
-   <LI><A HREF="#example">Are there examples of query results?</A></LI>
- </UL>
+ <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found">What if the search does not find any expression results?</a>
+ <li><a href="EXPRESSION_help.shtml#generate">Which expression data query parameters generate an expression literature search? Which do not?</li>
+ <LI><A HREF="#example">Are there examples of query results?</A></LI>
+</UL>
 </P>
 
 <H3><A NAME="whatpurpose"></A>What is the purpose of the Gene Expression Database?</H3>
@@ -61,7 +60,7 @@ function openHelpWindow(helpFile){
 
  <H3><A NAME="whatquery"></A>What can I use this query form to find?</H3>
 <P>The Gene Expression Data Expanded Query Form is specifically designed to allow you to search for genes expressed in some anatomical structures and/or developmental stages but not in others.  This query form allows you to combine the parameters necessary for these queries with most of the query parameters available on the standard 
-<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQF" target="_blank">Gene Expression Data Query Form</A>.  Examples of the questions you can ask are:
+<a href="<!--#include file='include/fewi_url.html'-->gxd" target="_blank">Gene Expression Data Search Form</A>.  Examples of the questions you can ask are:
  <UL>
   <LI>Which genes are expressed in the forebrain and not expressed in the midbrain?</LI>
   <LI>Which genes are expressed exclusively in the eye and its substructures?</LI>
@@ -72,7 +71,7 @@ function openHelpWindow(helpFile){
  <P>See <A HREF="#example">Are there examples of query results?</A> for the form field values for these queries.
 
 <P>If you are interested in doing queries that do not involve comparing the presence and absence of expression in various structures or at various stages, you might find it easier to use the standard 
-<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQF" target="_blank">Gene Expression Data Query Form</A>.</P>
+<a href="<!--#include file='include/fewi_url.html'-->gxd" target="_blank">Gene Expression Data Search Form</A>.</P>
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><A name="howdo"></a>How do I use this query form?</h3>
@@ -149,7 +148,7 @@ function openHelpWindow(helpFile){
 
 <p><b>Note</b>: The Theiler system organizes development into stages defined by the
 appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc. Therefore, if you are interested in all available records for embryos of age 14.0 dpc, you must select both TS 21 and TS 22.
-<p>You can <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagecriteria.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28.
+<p>You can <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28.
 <tr><td valign="top"><a name="and_not"></a><b>Expression: <br>and NOT detected in:<br>
 and NOT detected or analyzed in:</b><br></td><td valign="top"><p>This portion of the form allows you to distinguish between two kinds of absence of expression. When you use:
 <ul>
