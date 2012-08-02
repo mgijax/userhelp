@@ -77,7 +77,7 @@ Using the Mouse Anatomical Dictionary Browser </span>
    <li>If you are uncertain which terms to use for the most effective searching, <a href="#browse">browse</a> the dictionary to see the standardized terms.</li>
   </ul><br>
  <li>Scroll through the list beneath the box to select the developmental stage of interest.  The
-default, ANY, lets you query all stages for the term.  You can <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagecriteria.html" target="_blank">browse Stage descriptions</a> for a listing of the defining features for each stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28. <!--A dictionary for TS 27 is not yet available.--></li>
+default, ANY, lets you query all stages for the term.  You can <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">browse Stage descriptions</a> for a listing of the defining features for each stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28. <!--A dictionary for TS 27 is not yet available.--></li>
     <p>To select two or more stages, do the following:
    <ul>
   <li>On a Macintosh, hold the command (Apple) key down and click on the desired items in the list; OR hold the shift key down and  click on two items to select those and all items in between.</li>
@@ -135,7 +135,7 @@ default, ANY, lets you query all stages for the term.  You can <a href="http://w
 
 
  <h3><A NAME="results"></a>How do I interpret the results of my search?</h3>
-<p>See <a href="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data Query Results</a>.
+<p>See <a href="EXPRESSION_help.shtml#summary" target="_blank">Interpreting Gene Expression Data Query Results</a>.
 </p>
 <A HREF="#top">Back to top</A>
 
