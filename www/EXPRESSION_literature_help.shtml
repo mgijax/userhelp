@@ -84,8 +84,8 @@ function openHelpWindow(helpFile){
 <td align="left" valign="top"><a name="sum"></a><b>Gene Symbol/Name</b></td><TD>Symbol, name, or synonym for a mouse genetic marker. <!--Enter one or more terms, separated by commas.-->  
 <ul>
 <li>Enter 3 or more characters to perform a "begins" search, e.g., pax. You can also use an asterisk to search for genes with similar nomenclature, e.g., Bmp*.</li>
-<li>To search for a phrase, put the words in quotation marks. (Example: growth factor finds marker names with growth AND factor, whereas "growth factor" finds only the phrase, growth factor.)</li>
-<li>If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
+<li>A search for <i>growth factor</i> finds nomenclature containing <i>growth</i> AND <i>factor</i>.</li>
+<li>This field searches only alphanumeric characters. Single and double quotes, commas and hyphens are ignored.</li>
 <li><a name="casesen">MGI</A> database searching is not case sensitive.</li>
 </ul>
 </td>
