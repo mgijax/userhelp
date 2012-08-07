@@ -21,7 +21,7 @@ function openHelpWindow(helpFile){
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
- Using the Gene Expression Data Search Form
+ Using the Gene Expression Data Query Form
  </span>
 </div>
 
@@ -110,7 +110,7 @@ If you are interested in doing queries that ask what genes are expressed in some
 <ul>
 <li>The gene nomenclature field supports an asterisk as a wild card. A search for pax* finds expression data for gene symbols and names that begin with <i>pax</i>.</li>
 <li>A search for *box* looks for nomenclature that contains <i>box</i>. This search finds the arginine decarboxylase gene, homeobox genes and paired box genes.</li>
-<li>A search for <i>paired box</i> finds nomenclature containing <i>paired</i> AND <i>box</i>.</li>
+<li>A search for <i>growth factor</i> finds nomenclature containing <i>growth</i> AND <i>factor</i>.</li>
 <li>This field searches only alphanumeric characters. Single and double quotes, commas and hyphens are ignored.</li>
 </ul>
 </p>
