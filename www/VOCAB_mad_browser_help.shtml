@@ -109,7 +109,7 @@ default, ANY, lets you query all stages for the term.  You can <a href="http://w
  <tr>
    <TD ALIGN="left" VALIGN="top">Structure, synonym</TD>
    <td valign="top"><table border=0 cellspacing=0 bgcolor="#FFFFCC">
-        <tr><TD ALIGN="left" VALIGN="top">Yellow</td>
+        <tr><td style= "background: ##FFFFCC;">Yellow</td>
         </tr>
        </table>
    </td>
