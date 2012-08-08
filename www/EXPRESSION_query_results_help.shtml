@@ -43,7 +43,7 @@ Interpreting Gene Expression Data Query Results</span>
     <li><A HREF="#byassay">By Assay</a></li>
     <li><A HREF="#byar">By Assay Results</a></li>
       </ul>
- <li><A HREF="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a</li>
+ <!--<li><A HREF="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a</li>-->
 <li><A HREF="#detail">How do I interpret an expression detail record?</a></li>
    <ul>
      <li><a href="#probes">Assays that use nucleotide probes</a></li>
@@ -83,11 +83,6 @@ Interpreting Gene Expression Data Query Results</span>
 <P>To learn more about using these query forms, consult their help documents (click the question mark at the top of each form).-->
 <li>Links to the Gene Expression Data Query Results Summary reports appear on some detail reports, including those for:
 <UL>
-  <!--<LI>GXD Literature content records</LI>
-  <LI>Markers</LI>
-  <LI>Tissues Summary</LI>-->
-  <LI>Alleles</LI>
-  <!--<LI>References</LI>-->
   <LI>Molecular Probes</LI>
   <LI>Antibodies</LI>
 </UL></P>
@@ -97,36 +92,8 @@ Interpreting Gene Expression Data Query Results</span>
 </font>
 
 <h3><a name="content"></a>What should the summary report contain?</h3>
-<p>At the top of the Gene Expression Data Query - Summary report is a synopsis of your query parameters. For example:</p> 
-   <pre>
-&nbsp;&nbsp;&nbsp;<u>You searched for...</u>
-   Search Scope: equals <b>assays</b>
-   Marker Symbol/Name contains <b>Pax6</b>
-   Sort: by <b>Gene symbol</b>
-   Display Limit: equals <b>500</b>      
-      </pre>
-  
-   
-   
-<p>Beneath the synopsis is a line of information about the expression results <a href="#found">found</a> or <a href="#not_found">not found.</a> </p>
-  <ul>
-  <li><a name="found"></a>When the query finds matching assays, the synopsis indicates the number and may look something like this:
-    <BLOCKQUOTE>
-    <font size="-1"> <b>95 matching assays displayed.</b></font><br>
-    <b>Note:</b> If your display limit was 100, and this sentence reads <I>100 matching items displayed</I>, you many want to go back to the query form and set the display to either <B>500</B> or <B>No limit</B> in order to see all results (or you could refine the query to yield fewer results).
-    </BLOCKQUOTE>
-  </li>
-  <li><a name="not_found"></a>When the query does <b>not</b> find expression results but does find matching GXD Literature records, the synopsis looks something like this: </p>
-    <blockquote>
-    <font size="-1">0 annotated expression results found.<br />
-    <u>4 </u>Gene Expression Literature content records match your query.
-    </font>
-    </blockquote>
-The number links to the Literature query results summary containing those content records. </li>
-  </ul><br>
+<p>At the top of the Gene Expression Data Query - Summary report is a line of information about the number of expression assays or results found. Beneath this is the table with the query summary results.</p>
 
-  <p>See <a href="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a> for details about how GXD curators annotate references and create content records, and for how expression data query parameters generate expression literature searches.</p>
-  <p>See also <a href="EXPRESSION_literature_help.shtml#summary" target="_blank">How do I interpret the query results summary?</a> for details about the GXD Literature summary.</p>
 <font size="-1"><A HREF="#top">Top</A></font>
 
 <h3><A name="summary"></a>How do I interpret the table with the query summary results?</h3>
@@ -183,7 +150,7 @@ The number links to the Literature query results summary containing those conten
 
 <font size="-1"><A HREF="#top">Top</A></font>
 
-<h3><a name="gxd_lit_record"></a>Why is there a link to Gene Expression Literature records in my query summary?</h3>
+<!--<h3><a name="gxd_lit_record"></a>Why is there a link to Gene Expression Literature records in my query summary?</h3>
 <p>At the end of the query summary, there may be a link to Gene Expression Literature content records matching the parameters of your detailed expression data search.  
 <ul>
   <li>The first step of annotation in GXD is to create literature content records containing information on the genes and ages analyzed and assay types used in each reference. All expression papers have content records. </li>
@@ -193,14 +160,14 @@ The number links to the Literature query results summary containing those conten
 <p> Thus, to ensure that your query returns all the references of interest to you, searches of the detailed expression data also include searches of the literature content records (whenever query parameters apply to both these types of data).</P>
 
 
-<!--<p><a name="generate"></a>The following detailed expression data query parameters generate an expression literature search:
+<p><a name="generate"></a>The following detailed expression data query parameters generate an expression literature search:
 <ul>
   <li>gene symbol/name </li>
   <li>map position</li>
   <li>Gene Ontology (GO) classifications</li>
   <li>developmental stage</li>
   <li>assay type.</li>
-</ul>-->
+</ul>
 <p>Because of the limited annotation of  content records, the following parameters do not generate an expression literature search:
 <ul>
   <li>anatomical structure;</li>
@@ -210,7 +177,7 @@ The number links to the Literature query results summary containing those conten
 </ul> 
 <p><b>Note:</b> You can query gene expression literature content records directly using the <a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Search Form</a>.</p>
 
-<font size="-1"><A HREF="#top">Top</A></font>
+<font size="-1"><A HREF="#top">Top</A></font>-->
 
 <h3><a name="detail"></a>How do I interpret an expression detail record?</h3>
 <P>An assay detail record provides a brief description of the assay performed, the probe used in the assay, and a tabular representation of the experimental data obtained. The information presented in the table varies depending on assay type. In all cases, the following fields are part of the detail record:</P>
