@@ -172,13 +172,13 @@ If you enter more than one structure in the query field, you can choose to find 
    Use this field <!--and its operators (in and not in)--> to select one or more Theiler stages (TS) to focus your search on a particular stage of embryonic development. Alternately, you can choose the <i>Use Ages</i> tab and limit your search to the general terms, <i>Embryonic</i> or <i>Postnatal</i>, or choose days post conception (dpc).
 
 <p><a name="stages"></a><b>Note</b>: The Theiler system organizes development into stages defined by the
-appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc. Therefore, if you are interested in all available records for embryos of age 14.0 dpc, you will need to select both TS 21 and TS 22.</p>
+appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc.</p>
 To select multiple stages or ages: 
 <UL>
   <LI>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired stages; OR hold the shift key down and  click on two stages to select those and all stages in between. </li>
   <LI>On a PC, hold the control key down and click on the desired stages; OR hold the shift key down and click on two stages to select those and all stages in between. </li>
  </UL>
-<p>If you mouse-over a stage, a pop-up will describe a few defining features of that stage, such as "first somites, late head fold" for Stage 12. You can <A HREF="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagecriteria.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28.
+<p>If you mouse-over a stage, a pop-up will describe a few defining features of that stage, such as "first somites, late head fold" for Stage 12. You can <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28.
        </TD>
       </TR>
      <!--<tr><td valign="top"><a name="exclude_mutant"></a><b>Exclude mutant specimens from query</b></td><td valign="top">
@@ -385,7 +385,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <blockquote>
 <B>Expression:</B>   <i>detected in</i><br>
 <B>Anatomical Structures: </B>heart<br>
-<B>Developmental Stages (dpc):</B>   TS 12, TS 13, TS 14<br>
+<B>Developmental Stages (dpc):</B>   Select the Ages (dpc) tab and then E8.5<br>
 <b>Mutant / wild type:</b> &nbsp; <i>Wild type specimens only</i><br>
 </blockquote>
 
@@ -413,11 +413,10 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 </li>
 
 <!--5-->
-<li>What genes are known NOT to be expressed in either the diencephalon or any structure within the diencephalon?<P>
+<li>What genes have NOT been shown to be expressed in either the diencephalon or any structure within the diencephalon?<P>
 <blockquote>
   <B>Expression:</B>   <i>not detected in</i><br>
-  <B>Anatomical Structure(s):</B>  <i>contains</i> diencephalon<br>
-  <b>Return data type:</b>  Assay Results<br>
+  <B>Anatomical Structure(s):</B>  diencephalon<br>
 </blockquote>
 <P>This query returns a list of genes found not to be expressed in the diencephalon or in anatomical structures within the diencephalon, such as the hypothalamus, 3rd ventricle, or pituitary gland.<p>
 
