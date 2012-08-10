@@ -103,7 +103,19 @@ default, ANY, lets you query all stages for the term.  You can <a href="http://w
 <A HREF="#top">Back to top</A>
 
 <h3><a name="td_page"></a>How do I interpret a term detail page?</h3>
-<table border=2 cellpadding=3 width="100%">
+<table>
+<style type="text/css">
+td { border: thin solid; 
+	vertical-align: middle;
+	}
+tr { border: thin solid;
+	text-align: left; 
+	vertical-align: middle;
+	}
+th { border: thin solid;
+	text-align: center;
+	}
+</style>
  <tr>
   <th width="15%">Field<th width="10%">Color<th width="75%">Description </tr>
  <tr>
