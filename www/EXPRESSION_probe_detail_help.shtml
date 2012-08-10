@@ -40,7 +40,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 </ul>
 <P>See also:
 <UL>
-   <LI><A HREF="EXPRESSION_probe_summary_help.shtml" target="_blank">Interpreting a cDNA Clone Source Data Summary</A></LI>
+   <LI><A HREF="EXPRESSION_probe_summary_help.shtml" target="_blank">Interpreting a Probe and Clone Data Summary</A></LI>
 </UL>
 
 
