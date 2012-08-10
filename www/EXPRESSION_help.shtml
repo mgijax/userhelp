@@ -47,6 +47,7 @@ function openHelpWindow(helpFile){
  <LI><A HREF="#whatquery">What can I use the Gene Expression Data Query Form to find?</a></li>
  <LI><A HREF="#howdo">How do I use this form?</a>
  <LI><A HREF="#fields">What values are acceptable in each of the query form fields?</a>
+ <li><a href="#revise">Can I edit my original options and requery?</a></li>
  <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</a>
  <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found" target="_blank">What if the search does not find any expression results?</a>
  <li><A HREF="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a</li>
@@ -111,6 +112,7 @@ If you are interested in doing queries that ask what genes are expressed in some
 <li>The gene nomenclature field supports an asterisk as a wild card. A search for pax* finds expression data for gene symbols and names that begin with <i>pax</i>.</li>
 <li>A search for *box* looks for nomenclature that contains <i>box</i>. This search finds the arginine decarboxylase gene, homeobox genes and paired box genes.</li>
 <li>A search for <i>growth factor</i> finds nomenclature containing <i>growth</i> AND <i>factor</i>.</li>
+<li>Synonyms (unofficial gene names used in publications and former official gene symbols) are also searched.</li>
 <li>This field searches only alphanumeric characters. Single and double quotes, commas and hyphens are ignored.</li>
 </ul>
 </p>
@@ -239,6 +241,25 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
    </td>
   </tr>
 </table>
+</p>
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="revise"></a>Can I edit my original options and requery?</h3>
+<p>Yes, you can.</p>
+<ul><li>If you want to edit a list or change output options:</li>
+<ol>
+  <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. </li>
+  <li>Make your changes.</li>
+  <li>Click Search.</li>
+  <li>Repeat until the desired results appear.</li>
+</ol>
+</ul>
+
+<b>Notes:</b> 
+<ul>
+<li>You can requery as many times as you like.</li>
+<li>Alternatively, click Reset to return to the original Gene Expression Data Query form. </li>
+</ul>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 
