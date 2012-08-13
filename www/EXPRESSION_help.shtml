@@ -317,7 +317,17 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <tr><td valign="top"><b>Anatomical System </b></td>
      <td valign="top">High-level term for the anatomical system assayed (e.g. Cardiovascular System, Extraembryonic Component)</td></tr>
 <tr><td valign="top"><b>Age </b></td>
-     <td valign="top">Age of the specimen used in the assay</td></tr>
+     <td valign="top">Age of the specimen used in the assay. Whenever possible, the age annotations are normalized according to the following conventions: noon of the day on which the vaginal plug is found is counted as embryonic (E) day 0.5. Therefore, e.g., if an author refers to the day on which the plug is found as E0, we add 0.5 to the age value(s) listed in the paper and the comment <I>Age normalized so that noon of plug day = E0.5</I> to the record. If the staging criteria are not described in the paper, we annotate to the ages given by the authors and may add the comment <I>Age of embryo at noon of plug day not specified in reference</I> to the record. The abbreviations for age annotations are as follows:
+<table border width="!" cellpadding="4" cellspacing="1">
+<TR><Td VALIGN="top"><b>E</b></td> <TD WIDTH="!">Embryonic day</TD> </TR>
+<TR>  <td valign="top"><b>P  </b></td> <td valign="top">Postnatal or postnatal day </TD> </TR>
+<TR>  <td valign="top"><b>P week</b></td> <td valign="top">Postnatal week</TD> </TR>
+<TR>  <td valign="top"><b>P month</b></td> <td valign="top">Postnatal month</TD> </TR>
+<TR>  <td valign="top"><b>P year</b></td> <td valign="top">Postnatal year</TD> </TR>
+<TR>  <td valign="top"><b>P adult</b></td> <td valign="top">Postnatal adult</TD> </TR>
+<TR>  <td valign="top"><b>P newborn</b></td> <td valign="top">Postnatal newborn</TD> </TR>
+</TABLE>
+</td></tr>
 <tr><td valign="top"><b>Structure </b></td>
      <td valign="top">Structure examined in the assay, given as a Theiler stage (TS) and anatomical structure name <!--linked to <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">The Mouse Anatomical Dictionary Browser</A>  - term detail report showing the structure in the anatomical hierarchy.--></td></tr>
 <tr><td valign="top"><b>Detected? </b></td>
@@ -330,11 +340,11 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
     </UL>
   <!--<P><sup>*</sup><i>Present</i> appears if expression is reported as detected but the author did not specify the level.--></td></tr>
 <tr><td valign="top"><b>Figure(s) </b></td>
-     <td valign="top">A link to the figure(s) illustrating the expression results, noting the appropriate pane</td></tr>
+     <td valign="top">The pane that illustrates the expression results. If we have permission from the publisher to use the images, this is linked to the figure(s)</td></tr>
 <tr><td valign="top"><b>Mutant Allele(s) </b></td>
      <td valign="top">If the specimen is a mutant, the allele pairs describing the mutant genotype appear in this field.</td></tr>
 <tr><td valign="top"><b>Reference </b></td>
-     <td valign="top">J number (MGI identifier) and short format citation for this reference linked to its MGI reference detail report.</td></tr>
+     <td valign="top">J number (MGI identifier) and short format citation for this reference linked to its MGI reference detail report</td></tr>
 </table>
 </blockquote>
 
