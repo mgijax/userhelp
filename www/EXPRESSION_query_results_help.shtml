@@ -374,15 +374,16 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
    <td valign="top"><b><A NAME="level"></A>Level</b></td><td valign="top">Refers to the strength of the signal. Possible values include:
     <UL>
       <LI>Absent
-      <LI>Ambiguous
+      <LI>Ambiguous<SUP>*</SUP>
       <LI>Moderate
+      <li>Not Specified<SUP>*</SUP>
       <LI>Present<SUP>*</SUP>
       <LI>Strong
       <LI>Trace
       <LI>Very strong
       <LI>Weak
     </UL>
-  <P><SUP>*</SUP><B>Present</B> appears if expression is reported as detected but the author did not specify the level.</TD> </TR>
+  <P><SUP>*</SUP><B>Present</B> appears if expression is reported as detected but the author did not specify the level. <b>Not specified</b> is used when the authors do not report whether a gel band is present or absent. <b>Ambiguous</b> is used when the curators cannot discern from the authors’ description whether expression is present or absent.</p></TD> </TR>
 <TR>   <td valign="top"><b><A NAME="pattern"></A>Pattern</b></td><td valign="top">Indicator of expression pattern as specified by the author. Possible values include:
     <UL>     
       <li>Diffuse</li>

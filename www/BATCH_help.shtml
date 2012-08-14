@@ -400,7 +400,7 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
   <li>the number of negative assay results (&minus;).</li>
   <li>the detected counts also include specimens for which detected = ambiguous or not specified (as well as present).</li>
 </ul>
-
+<P>Note: Present appears if expression is reported as detected but the author did not specify the level. Not specified is used when the authors do not report whether a gel band is present or absent. Ambiguous is used when the curators cannot discern from the authors’ description whether expression is present or absent.</p>
 <p>See also <a href="#summary">MGI Batch Query results</a> for information on the other fields.</p>
  <!--<p>For detailed information, see <a href="gxd_tissue_results.shtml">Interpreting the Gene Expression Data: Results by Tissue - Summary Report</a>.</p>-->
 

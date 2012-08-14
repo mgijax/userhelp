@@ -338,6 +338,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
       <li>Ambiguous</li>
       <li>Not specified</li>
     </UL>
+<p>Note: Not specified is used when the authors do not report whether a gel band is present or absent.  Ambiguous is used when the curators cannot discern from the authors’ description whether expression is present or absent.</p>
   <!--<P><sup>*</sup><i>Present</i> appears if expression is reported as detected but the author did not specify the level.--></td></tr>
 <tr><td valign="top"><b>Figure(s) </b></td>
      <td valign="top">The pane that illustrates the expression results. If we have permission from the publisher to use the images, this is linked to the figure(s)</td></tr>

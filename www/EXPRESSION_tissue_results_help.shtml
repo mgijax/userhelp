@@ -51,7 +51,8 @@ Interpreting the Gene Expression Data: Results by Tissue Summary</span>
 <tr><th align="left" valign="top">Structure</th><td valign="top">Anatomical structures examined when analyzing expression.  Given as a Theiler stage (TS) and anatomical structure name, linked to the Anatomical Dictionary Browser-term detail page that includes the structure.</td></tr>
 <tr><th align="left" valign="top">Results</th><td valign="top">For all columns, the number links to a Gene Expression Data - Query Results Summary page listing the symbol of the gene analyzed, the assay type used, result details (given as an MGI accession ID linked to an assay record), allele pairs describing the mutant genotype of the specimen (if applicable), age of the specimen examined, the structure examined, and an indication of whether or not expression was detected.</td></tr>
 <tr><th align="left" valign="top">All</th><td valign="top">Number of times the structure was examined  whether expression was detected or not.</td></tr>
-<tr><th align="left" valign="top"><b>+</b></th><td valign="top">Number of times expression was detected in the structure. This column also include specimens for which detected = ambiguous or not specified (as well as present).</td></tr>
+<tr><th align="left" valign="top"><b>+</b></th><td valign="top">Number of times expression was detected in the structure. This column also include specimens for which detected = ambiguous or not specified (as well as present).
+<P>Note: Present appears if expression is reported as detected but the author did not specify the level. Not specified is used when the authors do not report whether a gel band is present or absent. Ambiguous is used when the curators cannot discern from the authors’ description whether expression is present or absent.</p> </td></tr>
 <tr><th align="left" valign="top"><b>-</b></th><td valign="top">Number of times expression was found to be absent in the structure.</td></tr>
 </table>
 </blockquote>
