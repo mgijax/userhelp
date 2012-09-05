@@ -114,6 +114,7 @@ function openHelpWindow(helpFile){
 <tr><TH ALIGN="left" VALIGN="top"><a name="sequence_map"></a>Sequence Map</TH><TD VALIGN="Top">Appears if coordinates are assigned and includes:
        <UL>
        <LI>genome coordinate range and strand, in base pairs (provider of genomic coordinates is indicated) </LI>
+       <li>a Get FASTA button will download the genomic sequence based on the coordinates. You can also add an equal amount of flanking sequence to each end.</li>
     <LI>external links to other genomic context displays (e.g., Vega ContigView, Ensembl ContigView, UCSC Browser, NCBI Map Viewer)</LI>
    
     <li>On the right, a thumbnail image link to the MGI Mouse Genome Browser display for the marker's coordinates. You can also click <b>MGI Mouse Genome Browser</b> for a full-page display.<br>
