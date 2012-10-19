@@ -103,7 +103,7 @@ BioMart is a joint development of the Ontario Institute for Cancer Research (OIC
 
 <p>A dataset is a collection of data tables that follow a given naming convention. Each column in the table represents a variable. Each row corresponds to a member of the dataset. Examples are
 <ul>
-  <li>Mus musculus genes from the NCBI m37 mouse assembly (Ensembl and VEGA)</li>
+  <li>Mus musculus genes from the NCBI m38 mouse assembly (Ensembl and VEGA)</li>
   <li>All public markers in MGI (genes, genome features, transgenes, QTLs, and so on)
    <li> All public alleles in MGI that have been associated to a marker</li>
   <li>Gene expression data (e.g., assay type, developmental stage, anatomical structure, level of expression, pattern).</li>
@@ -204,7 +204,7 @@ BioMart is a joint development of the Ontario Institute for Cancer Research (OIC
       <tr><td valign="top">GO ID (gene ontology identifier)</td><td valign="top">GO:0006916</td></tr>
       <tr><td valign="top">GO term</td><td valign="top">protein kinase binding</td></tr>
 
-  <tr><th valign="top" rowspan="5">Genome Location <br>(NCBI Build 37)</th></tr>
+  <tr><th valign="top" rowspan="5">Genome Location <br>(NCBI Build 38)</th></tr>
         <tr><td valign="top">Chromosome</td><td valign="top">1 thru 19, X, Y, XY, MT, UN</td></tr>
 	<tr><td valign="top">Start Coordinate (bp)</td><td valign="top">143665420</td></tr>
         <tr><td valign="top">End Coordinate (bp)</td><td valign="top">143668404</td></tr>
