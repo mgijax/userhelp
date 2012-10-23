@@ -294,7 +294,7 @@ This query yields a listing of ~57  markers on Chromosome 2 ordered by cM positi
 <blockquote>
 <b>Marker Symbol/Name:</b>&nbsp;&nbsp;&nbsp; contains MIT<br>
 <b>Chromosome(s):</b> 11<br>
-<b>Genome Coordinates:</b> between 4.0-4.5 Mbp<br>
+<b>Genome Coordinates:</b> between 4.0-4.5 and change bp to Mbp<br>
 <b>Sort:</b> by cM position<br>
 This query yields a listing of ~6 MIT markers on Chromosome 11 ordered by cM
 position.
