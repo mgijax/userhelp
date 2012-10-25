@@ -204,7 +204,7 @@ BioMart is a joint development of the Ontario Institute for Cancer Research (OIC
       <tr><td valign="top">GO ID (gene ontology identifier)</td><td valign="top">GO:0006916</td></tr>
       <tr><td valign="top">GO term</td><td valign="top">protein kinase binding</td></tr>
 
-  <tr><th valign="top" rowspan="5">Genome Location <br>(NCBI Build 38)</th></tr>
+  <tr><th valign="top" rowspan="5">Genome Location <br>(GRCm38)</th></tr>
         <tr><td valign="top">Chromosome</td><td valign="top">1 thru 19, X, Y, XY, MT, UN</td></tr>
 	<tr><td valign="top">Start Coordinate (bp)</td><td valign="top">143665420</td></tr>
         <tr><td valign="top">End Coordinate (bp)</td><td valign="top">143668404</td></tr>
