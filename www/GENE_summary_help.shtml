@@ -97,12 +97,9 @@ function openHelpWindow(helpFile){
 <BLOCKQUOTE>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR><TH VALIGN="top">Field</TH><TH>Description</TH></TR>
- <TR><TH ALIGN="left" VALIGN="top">Chr</TH> <TD>If known, the chromosome to which the marker is assigned.</TD></TR>
-
- <TR><TH ALIGN="left" VALIGN="top">cM</TH><TD>Marker's centimorgan position.  Centimorgan positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009)   (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PMID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.</TD></TR>
+ <TR><TH ALIGN="left" VALIGN="top">Genetic Location</TH> <TD>If known, the chromosome and centimorgan position to which the marker is assigned. Centimorgan positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009) (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PMID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.</TD></TR>
  <TR><TH ALIGN="left" VALIGN="top">Genome Coordinate (strand)</TH><TD VALIGN="top">Marker's coordinates on the mouse genome assembly sequence map, and the strand location of the coordinates in parentheses. Plus (+) is = 5<sup>'</sup> to 3<sup>'</sup>. Minus (-) is 3<sup>'</sup> to 5<sup>'</sup>.</TD></TR>
-<tr><th align="left" valign="top">Feature Type</th><td valign="Top">Marker categories  resulting from your selection(s) on the query form. For example, if you clicked <b>Non-coding RNA gene</b>, results for rRNA, tRNA, snRNA, snoRNA, or miRNA genes may appear.</td></tr>
-
+ <tr><th align="left" valign="top">Feature Type</th><td valign="Top">Marker categories  resulting from your selection(s) on the query form. For example, if you clicked <b>Non-coding RNA gene</b>, results for rRNA, tRNA, snRNA, snoRNA, or miRNA genes may appear.</td></tr>
  <TR><TH ALIGN="left" VALIGN="top">Symbol, Name</TH><TD>Marker symbol and name, linked to the MGI marker detail page.</TD></TR>
  <TR><TH ALIGN="left" VALIGN="top">Matching Text</TH><TD>Type of information contained in the database and the text that it matches. The tool searches for items containing a match in the following order: current symbol, current name, allele symbol, allele name, withdrawn symbol, withdrawn name,
 human ortholog symbol, human ortholog name, other ortholog symbol.</TD></TR>
