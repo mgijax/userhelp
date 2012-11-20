@@ -70,9 +70,9 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
 <P>
 <TABLE BORDER="1" CELLPADDING="4"> 
 <TR><TH VALIGN="top">Field</TH><TH>Description</TH></TR> 
-<TR><Th VALIGN="top">Allele Symbol<br>Gene; Allele Name<br>[Camera icon]</Td><TD>Official symbol for the allele, linked to its Phenotypic Allele Detail Report.<br>Name for the allele. <br>If a camera icon appears, click it to view any associated image(s).</TD></TR> 
+<TR><Th VALIGN="top">Allele Symbol<br>Gene; Allele Name<br>[Camera icon]</Td><TD>Official symbol for the allele, linked to its Phenotypic Allele Detail Report.<br>Name for the allele. <br>If a camera icon appears, images are associated with the allele. Click the icon to view any associated image(s).</TD></TR> 
 <TR><TH ALIGN="left" VALIGN="top">Chr</TH><TD VALIGN="top">Chromosome of the marker that the allele is associated with.</TD></TR> 
-<TR><TH ALIGN="left" VALIGN="top">Synonyms</TH></TD> <TD VALIGN="top">Any synonyms for the allele.</TD> </TR>
+<TR><TH ALIGN="left" VALIGN="top">Synonyms</TH></TD> <TD VALIGN="top">Any synonyms (unofficial symbols and names) for the allele.</TD> </TR>
 
 <TR><a name="cat"></a><TH ALIGN="left" VALIGN="top">Category</TH></TD> <TD VALIGN="top">Specific allele type (e.g., knockout, targeted, gene trapped).  Cell line (in parentheses) indicates that there is  no information about the creation of a mouse line for the allele. Chimera (in parentheses) means that MGI has information only about the chimeric mouse.</TD></tr>
 
@@ -80,11 +80,11 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
 <TR><TH ALIGN="left" VALIGN="top">Observed Phenotypes in Mouse</TH><TD VALIGN="top"><table border="1" cellpadding="4"><tr><th align="Left" valign="Top"><nobr>Affected Anatomical Systems</nobr></th><td valign="top">High level terms chosen from the Phenotype Selection List pop-up (when you click Anatomical Systems Affected by Phenotypes on the Phenotypes, Alleles, and Disease Models Query Form).</td></tr>
 <tr><th align="Left" valign="Top">Similar Human Diseases</th><td valign="top">Human disease terms and IDs found by the query, based on your entry in the Phenotype/Disease box on the query form.</ul></TD></TR> 
 </table>
-<TR><TH ALIGN="left" VALIGN="top">Allelic Composition <BR>(Genetic Background)</TH><TD VALIGN="top">Allele pairs that contribute to the genotype and the mouse strain background. Each allele is linked to its corresponding Phenotypic Allele Detail Report. <br>
+<!--<TR><TH ALIGN="left" VALIGN="top">Allelic Composition <BR>(Genetic Background)</TH><TD VALIGN="top">Allele pairs that contribute to the genotype and the mouse strain background. Each allele is linked to its corresponding Phenotypic Allele Detail Report. <br>
  Beneath the allele pairs, in parentheses, the strain of the genetic background appears; e.g., (involves: 129/Sv * C57BL/6) or (not specified).<br>
        <table border="0" cellspacing="0" cellpadding="4">
        <tr><th valign="top">Involves</th><td valign="top">Indicates that the strains listed (separated by asterisks) contributed to the genetic background of the specimen; additional unspecified strains may also be part of the specimen's genetic background.</td></tr>
-       <tr><th valign="top">Either</th><td valign="top">Indicates that more than one genetic background appears in a reference, but the background of the specimen is unspecified.</td></tr>
+       <tr><th valign="top">Either</th><td valign="top">Indicates that more than one genetic background appears in a reference, but the background of the specimen is unspecified.</td></tr>-->
        </table>
 </td>
 </tr>
@@ -97,11 +97,11 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
 
 <H3><A NAME="usage"></A>How do I interpret an allele summary report?</H3>
 <ul>
-<li>To view the additional data for a given allele, click the allele symbol (in either the Allele or the Allelic Composition (Genetic Background) columns for access to the Phenotypic Allele Detail report.</li>
+<li>To view the additional data for a given allele, click the allele symbol in the Allele column for access to the Phenotypic Allele Detail report.</li>
 <li>The default sort order for the report is Transmission Status, Allele Symbol.</li>
 	<ul>
   	<li>Organization of allele symbols is alphabetic for the allele symbol; however, alleles available only as cell lines have a separate alpha sort and appear at the bottom of the list.</li>
-	<LI>To view the additional data for a given allele, click the allele symbol (in the Allele column) to go to its Phenotypic Allele Detail Report.</LI>
+	<LI>To view the additional data for a given allele, click the allele symbol in the Allele column to go to its Phenotypic Allele Detail Report.</LI>
 	<LI>To view the additional data for a genotype, click on either allele symbols in the Allelic Composition (Genetic Background) column for access to that report.</LI>
 	<li>After reviewing the summary information, you may want to run your query again, and change the...
 	<UL>
