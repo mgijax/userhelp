@@ -1,5 +1,6 @@
-<!--#include file='include/templateHead.html'--> 
-<title>MGI-Interpreting a Phenotypic Allele Summary</title>
+<!--#include file='include/templateHead.html'-->
+<title><!--#include file="include/mgiversion.html"-->
+MGI-Interpreting a Phenotypic Allele Summary</title>
 
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
@@ -21,6 +22,12 @@ function openHelpWindow(helpFile){
   <span class="titleBarMainTitle">Interpreting a Phenotypic Allele Summary </span>
   </div> 
 <!--titleBar-->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+    </tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
 <A NAME="top"></A>
 <P>This document answers the following questions about the allele summary report:</P>
 <UL>
@@ -116,7 +123,7 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
 <A HREF="#top">Top</A>
 
 <H3><A NAME="notcontain"></A>Why do some alleles have observed phenotypes and genotypes and some do not?</H3>
-
+<!-- This section needs to be updated -->
  <P>The vocabulary is annotated at the genotype level. If an allele either does not yet have a genotype or has a genotype with no annotations, the Observed Phenotypes in Mouse and Allelic Composition fields are blank. However, if your search terms match a combination of genotype and text in the Additional Information field, the query returns that data. <P>For example, on the Phenotypes, Alleles, and Disease Models Query Form: </P>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR><TH ALIGN="left" VALIGN="top"><NOBR>In the Phenotype/Disease box, you enter ...</TH><TH ALIGN="left" VALIGN="top">The query returns...</TH><TH>Why?</TH></TR>
