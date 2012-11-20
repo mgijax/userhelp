@@ -52,11 +52,11 @@ function openHelpWindow(helpFile){
   </ul>
 
 <li><a href="#howsortgs">What should appear in the Genotypes row? How is it sorted?</a></li>
+<li><a href="#sex">What should appear in the Sex row?</a></li>
 <li><a href="#howsortas">What should appear on the Affected Systems list? How is it sorted?</a></li>
-
-  <li><A HREF="#normalnull">What's the difference between N and &#248;? What does a blank cell indicate?</a></li>
-  <li><a href="#research">Where is the research that supports an annotation?</a></li>
-  <li><A href="#relationship">What's the relationship between the Phenotype summary table and the Phenotypic data by genotype tables?</a></li>
+<li><A HREF="#normalnull">What's the difference between N and &#248;? What does a blank cell indicate?</a></li>
+<li><a href="#research">Where is the research that supports an annotation?</a></li>
+<!--<li><A href="#relationship">What's the relationship between the Phenotype summary table and the Phenotypic data by genotype tables?</a></li>  -->
 
 <LI><A HREF="#more">More Q and A</A></Li>
 </UL>
@@ -158,16 +158,14 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li>
 </p>
 <A HREF="#top"><font size=-1>Top</font></A>
 
-
-
-<h4> <a name="image"></a>Tricolored image</h4>
+<!--<h4> <a name="image"></a>Tricolored image</h4>
 <p>A tricolored image appears when you open one or more systems (to expand a list) next to any item (except the first) in the Affected Systems column. 
 <ul>
   <li>Click the image to put a copy of the header row (genotype, color, and number) above the row. This visual aide is especially useful when several systems are expanded, making your summary table long; you won't have to scroll to the top of the Phenotype summary table to identify which genotype column is which.</li>
   <li>To remove this copy, click the image again. </li>
 </ul>
 </p>
-<A HREF="#top"><font size=-1>Top</font></A>
+<A HREF="#top"><font size=-1>Top</font></A>  -->
 
 <h4><a name="links"></a>Links</h4>
 <p>To see information for all check marked anatomical terms in a column (i.e., all the Affected Systems for <i> hm1</i>):
@@ -187,6 +185,10 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li>
 
 <h3><a name="howsortgs"></a>What should appear in the Genotypes row? How is it sorted?</h3>
 <p>The first sort is by the allele state (homozygous, heterozygous, conditional, complex, involving transgenes, other). Within states, results are alphabetized by strain name/genetic background (e.g., AK, B6, C3, MRL, NOD).</p>
+<A HREF="#top"><font size=-1>Top</font></A>
+
+<h3><a name="sex"></a>What should appear in the Sex row?</h3>
+<p>For genotypes with sex specific data, the appropriate male or female symbol appears, indicating the phenotypic sex analyzed.</p>
 <A HREF="#top"><font size=-1>Top</font></A>
 
 <h3><a name="howsortas"></a>What should appear on the Affected Systems list? How is it sorted?</h3>
@@ -213,11 +215,11 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li>
  </p>
 <A HREF="#top"><font size=-1>Top</font></A>
 
-  <h3><A name="relationship"></a>What's the relationship between the Phenotype summary and the Phenotypic data by genotype tables?</a></h3>
+<!--<h3><A name="relationship"></a>What's the relationship between the Phenotype summary and the Phenotypic data by genotype tables?</a></h3>
 
 <p>The tables present alternate views of the same data. See <a href="#interpret">How do I interpret the Phenotype summary table?</a> and <a href="ALLELE_detail_help.shtml#genotype">Phenotypic Data by Genotype</a>.</p>
 
-<A HREF="#top"><font size=-1>Top</font></A>
+<A HREF="#top"><font size=-1>Top</font></A>  -->
 
   <h3><A name="more"></a>More questions</h3>
 <ul>
@@ -313,7 +315,7 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li>
 
 
 <h3><a name="how_often"></a>How often are annotations added? </h3>
-<p>MGI curators add new annotations from the literature every day.</p>
+<p>MGI curators add new annotations from the literature every day. The MGI web site is updated with these and other new data once a week. </p>
 
 <A HREF="#top"><font size=-1>Top</font></A>
 
