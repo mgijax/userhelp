@@ -49,7 +49,7 @@ function openHelpWindow(helpFile){
     <li><a href="#gene_expression">Expression</a></li>
 <li><a href="#recombinase_activity">Recombinase activity</a></li>
     <li><a href="#summary">Phenotype summary</a></li>
-    <li><a href="#genotype">Phenotypic data by genotype</a></li>
+    <!--<li><a href="#genotype">Phenotypic data by genotype</a></li> -->
     <li><a href="#models">Disease models</a></li>
     <li><a href="#additional">Notes</a></li>
     <li><a href="#reffs">References</a></li>
@@ -149,7 +149,7 @@ The allele symbol is composed of the gene symbol and the allele designation.  If
 <A HREF="<!--#include file='include/mgihome_url.html'-->nomen/gene.shtml" target="_blank">Guidelines for Nomenclature of Genes, Genetic Markers, Alleles, & Mutations in Mouse & Rat</a> for details.</td></tr>
     <tr><td valign="top"><nobr>MGI ID</nobr></td><td valign="bottom">The MGI accession identifier for this allele.</TD></tr><tr><td valign="top">Synonyms</td><td>Other names for this allele.</td></TR>
     
-<tr><th valign="top">Gene</td><td valign="top">Some or all of the following: Gene (symbol), Location (chromosome, genome coordinates, strand), Genetic Position <!--and human ortholog of the mouse genetic marker-->.</td>
+<tr><td valign="top">Gene</td><td>Some or all of the following: Gene (symbol), Location (chromosome, genome coordinates, strand), Genetic Position <!--and human ortholog of the mouse genetic marker-->.</td>
 </tr> </table>
      </td>
 </tr>
@@ -214,7 +214,7 @@ Click &#9660; to close the  display.<br>The image that appears is a genome brows
 
 
 <TR><TH align="right" valign=top><A NAME="summary"></a>Phenotype summary<td valign="top">See <a href="ALLELE_detail_pheno_summary_help.shtml" target="_blank">Interpreting the Phenotype summary table.</a></td></tr>
-
+<!-- 
 <tr><TH align="right" VALIGN="top"><A NAME="genotype"></A>Phenotypic data by genotype</td><TD ALIGN="left" VALIGN="top">Phenotypic details for all genotypes that include at least one copy of the specified allele.<br><br><table border cellpadding=4>
 <tr><td valign="top">Colored boxes, <br>abbreviations, <br>numbers</td><td valign="top">
 <ul><li>A <a href="ALLELE_detail_pheno_summary_help.shtml#key "target="_blank">Key</a> decodes the information.</li>
@@ -237,7 +237,7 @@ Click &#9660; to close the  display.<br>The image that appears is a genome brows
 </ul>
 Click &#9660; to close the  display.</p></td>
 </tr>
-
+ -->
 <tr><TH align="right" VALIGN="top"><A NAME="models"></A>Disease models</td><TD ALIGN="left" VALIGN="top">List of all mouse genotypes annotated to a disease. Results are sorted into five categories (if there is no result, a category does not appear) for models with:<ul class="lj">
     <LI>phenotypic similarity to human disease and etiologies involving orthologs (the human ortholog of the mouse gene is associated with the same disease).  If a genotype appears in this category, it will not be associated with any of the other four categories except transgenes or other mutation types<. </LI>
     <LI>phenotypic similarity to human disease but a distinct etiology (that is, human genes are associated with this disease, but orthologs of those genes do not appear in the mouse genotype).</LI>
