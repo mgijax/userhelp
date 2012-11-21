@@ -40,18 +40,18 @@ function openHelpWindow(helpFile){
 <p>This help document describes the <b>Phenotype summary</b> section of an Allele Detail report and answers the following questions:</p>
 
 <UL>
-  <LI><A HREF="#purpose">What is the purpose of the Phenotype summary table?</a></LI>
- <LI><A HREF="#interpret">How do I interpret the Phenotype summary table?</a></li>
+  <LI><A HREF="#purpose">What is the purpose of the Phenotype summary section?</a></LI>
+ <LI><A HREF="#interpret">How do I interpret the Phenotype summary section?</a></li>
   <ul>
     <li><a href="#key">Key: genotypes, colors, and symbols</li>
   <li><a href="#numbers">Key:  numbers</a></li>
   <li><a href="#show_hide">Show or hide all annotated terms</a></li>
   <li><a href="#affected_systems">Affected Systems</a></li>
-   <li> <a href="#image">Tricolored image</a</li>
+   <!--<li> <a href="#image">Tricolored image</a</li>-->
 <li><a href="#links">Links</a></li>
   </ul>
 
-<li><a href="#howsortgs">What should appear in the Genotypes row? How is it sorted?</a></li>
+<!--<li><a href="#howsortgs">What should appear in the Genotypes row? How is it sorted?</a></li>  -->
 <li><a href="#sex">What should appear in the Sex row?</a></li>
 <li><a href="#howsortas">What should appear on the Affected Systems list? How is it sorted?</a></li>
 <li><A HREF="#normalnull">What's the difference between N and &#248;? What does a blank cell indicate?</a></li>
@@ -72,13 +72,13 @@ function openHelpWindow(helpFile){
 
 </UL>
 
-<h3><a name="purpose"></a>What is the purpose of the Phenotype summary table?</h3>
-<p>The purpose of the <b>Phenotype summary</b> table is to display all genotypes involving an allele with annotations in affected anatomical systems. 
+<h3><a name="purpose"></a>What is the purpose of the Phenotype summary section?</h3>
+<p>The purpose of the <b>Phenotype summary</b> section is to display all genotypes involving an allele with annotations in affected anatomical systems. 
 In this table, you can:
  
 <ul>
-<li>view data ordered by Mammalian Phenotype term (see the <b>Phenotypic data by genotype</b> section below it for an alternative view)</li>
-<li>associate a genotype with a color when interpreting this and subsequent tables (<b>Phenotypic data by genotype, Disease models</b>) on the Allele Detail report </li>
+<li>view data ordered by Mammalian Phenotype term </li>
+<li>associate a genotype with a color when interpreting this and the <b>Disease models</b> section on the Allele Detail report </li>
 <li>show or hide all annotated terms</li>
  <li>open a new window displaying each genotype's annotations (by clicking a genotype abbreviation (e.g. <i>hm1</i>)
 <li>compare genotypic details side by side (by opening subsequent windows)</li>
@@ -91,8 +91,9 @@ In this table, you can:
 <A HREF="#top"><font size=-1>Top</font></A>
 
  
-<h3><a name="interpret"></a>How do I interpret the Phenotype summary table?</h3>
-<b>Note:</b> The <b>Phenotype summary</b> table contains the same information as the <b>Phenotypic data by genotype</b> section (below it), but the data is presented as a matrix rather than as a list. You may find it easier to work with one form of the data than the other. For example, when your query finds many phenotypes, you must scroll left/right in the <b>Phenotype summary</b> versus up/down for the <b>Phenotypic details by genotype </b>section to see all the results.</p>
+<h3><a name="interpret"></a>How do I interpret the Phenotype summary section?</h3>
+<b>Note:</b> The <b>Phenotype summary</b> section begins with a Key that explains the abbreviations used in this section, the Allelic Composition, Genetic Background and Cell Lines associated with each Genotype containing the featured allele. These are followed by a matrix of the Affected Systems examined for the genotypes.
+ </p>
   
 
 <h4><a name="key">Key: genotypes, colors, and symbols</a></h4>
@@ -144,15 +145,20 @@ th { border: thin solid;
 <tr><th>hide</th><td>Click to contract or close the annotation list.</td></tr>
 </table>
 </p>
+<table> 
+<tr><td> valign="top"  align="left"><a name="genotype"></a>Genotype,</td> <TD VALIGN="top" COLSPAN="2">Genotype abbreviation (e.g., hm1, ht4) used in this web page.</TD></tr>
+<TR><td valign="top"  align="left"><a name="al_comp"></a>Allelic Composition</td><TD VALIGN="top" COLSPAN="2">Genotype of each allele, linked to its MGI Allele Detail report.</TD></TR>
+<TR><Td VALIGN="top" align="left"><nobr>Genetic Background</nobr></td><TD VALIGN="top" COLSPAN="2">Mouse strains  involved, if known.</TD></tr>
+<tr><td> VALIGN="top" align="left">Cell Line(s)</td><td>Cell line(s)</td></tr>
+</table>
 
 <h4><a name="affected_systems"></a>Affected Systems</h4>
 <p>The <b>Affected Systems</b> column lists anatomical terms from the Mammalian Phenotypes Browser for which there are phenotypic annotations. <ul>
   <li>If a term you are interested in does not appear, it means that, currently, there are no annotations to the term for this allele.</li>
   <li>The sort order is alphabetical (e.g., behavioral/neurological before cardiovascular, skeleton before skin/coat/nails). </li>
-<li>To expand or collapse  <b>all</b> annotated terms, click  <b>show</b>
-or <b>hide</b> (above the Affected System column, to the left of the Key).</li>
+<!--<li>To expand or collapse  <b>all</b> annotated terms, click  <b>show</b>
+or <b>hide</b> (above the Affected System column, to the left of the Key).</li> -->
 <li>To expand or collapse a <b>single</b> system, click the &#9658; or &#9660; beside it.</li>
-
 
 </ul>
 </p>
@@ -183,9 +189,9 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li>
 </p>
 <A HREF="#top"><font size=-1>Top</font></A>
 
-<h3><a name="howsortgs"></a>What should appear in the Genotypes row? How is it sorted?</h3>
+<!-- <h3><a name="howsortgs"></a>What should appear in the Genotypes row? How is it sorted?</h3>
 <p>The first sort is by the allele state (homozygous, heterozygous, conditional, complex, involving transgenes, other). Within states, results are alphabetized by strain name/genetic background (e.g., AK, B6, C3, MRL, NOD).</p>
-<A HREF="#top"><font size=-1>Top</font></A>
+<A HREF="#top"><font size=-1>Top</font></A> -->
 
 <h3><a name="sex"></a>What should appear in the Sex row?</h3>
 <p>For genotypes with sex specific data, the appropriate male or female symbol appears, indicating the phenotypic sex analyzed.</p>
