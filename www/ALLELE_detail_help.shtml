@@ -238,17 +238,17 @@ Click &#9660; to close the  display.<br>The image that appears is a genome brows
 Click &#9660; to close the  display.</p></td>
 </tr>
  -->
-<tr><TH align="right" VALIGN="top"><A NAME="models"></A>Disease models</td><TD ALIGN="left" VALIGN="top">List of all mouse genotypes annotated to a disease. Results are sorted into five categories (if there is no result, a category does not appear) for models with:<ul class="lj">
-    <LI>phenotypic similarity to human disease and etiologies involving orthologs (the human ortholog of the mouse gene is associated with the same disease).  If a genotype appears in this category, it will not be associated with any of the other four categories except transgenes or other mutation types<. </LI>
+<tr><TH align="right" VALIGN="top"><A NAME="models"></A>Disease models</td><TD ALIGN="left" VALIGN="top">List of all mouse genotypes annotated to a disease. These annotations may be of the following types:<ul class="lj">
+    <LI>phenotypic similarity to human disease and etiologies involving orthologs (the human ortholog of the mouse gene is associated with the same disease).  <!--If a genotype appears in this category, it will not be associated with any of the other four categories except transgenes or other mutation types. --> </LI>
     <LI>phenotypic similarity to human disease but a distinct etiology (that is, human genes are associated with this disease, but orthologs of those genes do not appear in the mouse genotype).</LI>
     <LI>phenotypic similarity to human diseases with unknown etiology or involving genes where the human ortholog is unknown.</LI>
     <LI>transgenes or other mutation types (appears only if there are diseases annotated to an allele of a non-gene marker). </LI>
     <LI>no similarity to the expected human disease phenotype (that is, one or more human genes may be associated with the human disease; the mouse genotype may involve mutations in orthologous genes; but the phenotype does not resemble the human disease).</LI></ul>
 
 <TABLE BORDER="1" CELLPADDING="4">
-  <TR><td valign="top">Mouse Models of <br>Human Disease</td><TD ALIGN="left" VALIGN="top">All human diseases annotated to any mouse genotype containing the allele. Full disease term (e.g., Aniridia, TypeII; Peters Anomaly; Frasier Syndrome; Wilms Tumor 1), linked to the (MGI) Human Disease and Mouse Model Detail report. The OMIM accession identifier appears beneath the term (e.g., 106210; 60387), linked to its OMIM record.</TD></TR>
+  <TR><td valign="top"><!--Mouse Models of <br> -->Human Disease</td><TD ALIGN="left" VALIGN="top">All human diseases annotated to any mouse genotype containing the allele. Full disease term (e.g., Aniridia, TypeII; Peters Anomaly; Frasier Syndrome; Wilms Tumor 1), linked to the (MGI) Human Disease and Mouse Model Detail report. The OMIM accession identifier appears beneath the term (e.g., 106210; 60387), linked to its OMIM record.</TD></TR>
 
-<TR><td valign="top"><a name="notes"></a>Note</td><TD VALIGN="top">Column containing a number if there is additional information about the disease or model. This information appears below the table, beside the number.  If the word <i>Not</i> appears, it means that the reference's author(s) looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified.</TD></tr>
+<!--<TR><td valign="top"><a name="notes"></a>Note</td><TD VALIGN="top">Column containing a number if there is additional information about the disease or model. This information appears below the table, beside the number.  If the word <i>Not</i> appears, it means that the reference's author(s) looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified.</TD></tr> -->
 
 <tr><td valign="top">Colored boxes, <br>abbreviations, <br>numbers</td><td valign="top">
 <ul><li>A <a href="ALLELE_detail_pheno_summary_help.shtml#key target="_blank"">Key</a> decodes the information.</li>
@@ -257,14 +257,14 @@ Click &#9660; to close the  display.</p></td>
 <li>Abbreviations are "shorthand" for those states (e.g., hm stands for homozygous). </li>
 <li>Numbers are sequential; there is one for each genotype.</li>
 <li>The colors make it easy to distinguish genotypes from one another, especially when the summary extends horizontally. </li>
-<li>Identical colors, abbreviations, and numbers appear in the <b>Phenotypic data by genotype</b> and <b>Disease models</b> sections, offering alternate (or more specific) views of the data.</li>
+<!--<li>Identical colors, abbreviations, and numbers appear in the <b>Phenotypic data by genotype</b> and <b>Disease models</b> sections, offering alternate (or more specific) views of the data.</li> -->
 </ul></td></tr>
 
- <TR><td valign="top">Genotype</td><TD VALIGN="top"><TABLE BORDER="1" CELLPADDING="2">
+ <!--<TR><td valign="top">Genotype</td><TD VALIGN="top"><TABLE BORDER="1" CELLPADDING="2">
 <TR><td valign="top"><nobr>Allelic Composition</td><TD VALIGN="top">Allele pairs present in the genotype. Each allele is linked to its corresponding Phenotypic Allele Detail report.</TD></tr>
  <TR><td valign="top"><nobr>Genetic Background</nobr></td><TD VALIGN="top">Mouse strains involved, if known.</TD></tr>
 </TABLE></td></tr>
- <TR><td valign="top">Ref(s)</td><TD VALIGN="top">The supporting reference linked by its MGI reference number to the MGI Reference Detail report containing the full citation. </TD></tr>
+ <TR><td valign="top">Ref(s)</td><TD VALIGN="top">The supporting reference linked by its MGI reference number to the MGI Reference Detail report containing the full citation. </TD></tr> -->
 </TABLE></td></tr>
 <tr><TH align="right" VALIGN="top"><A NAME="additional"></A>Notes</td>
 <td valign="top">Miscellaneous data about the allele that does not appear in the above categories such as:
