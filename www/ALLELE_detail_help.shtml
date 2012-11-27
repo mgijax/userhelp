@@ -213,7 +213,7 @@ Click &#9660; to close the  display.<br>The image that appears is a genome brows
 
 
 
-<TR><TH align="right" valign=top><A NAME="summary"></a>Phenotype summary<td valign="top">See <a href="ALLELE_detail_pheno_summary_help.shtml" target="_blank">Interpreting the Phenotype summary table.</a></td></tr>
+<TR><TH align="right" valign=top><A NAME="summary"></a>Phenotypes<td valign="top">See <a href="ALLELE_detail_pheno_summary_help.shtml" target="_blank">Interpreting the Phenotype summary table.</a></td></tr>
 <!-- 
 <tr><TH align="right" VALIGN="top"><A NAME="genotype"></A>Phenotypic data by genotype</td><TD ALIGN="left" VALIGN="top">Phenotypic details for all genotypes that include at least one copy of the specified allele.<br><br><table border cellpadding=4>
 <tr><td valign="top">Colored boxes, <br>abbreviations, <br>numbers</td><td valign="top">
