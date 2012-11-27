@@ -146,10 +146,10 @@ th { border: thin solid;
 </table>
 </p>
 <table> 
-<tr><td> valign="top"  align="left"><a name="genotype"></a>Genotype,</td> <TD VALIGN="top" COLSPAN="2">Genotype abbreviation (e.g., hm1, ht4) used in this web page.</TD></tr>
-<TR><td valign="top"  align="left"><a name="al_comp"></a>Allelic Composition</td><TD VALIGN="top" COLSPAN="2">Genotype of each allele, linked to its MGI Allele Detail report.</TD></TR>
-<TR><Td VALIGN="top" align="left"><nobr>Genetic Background</nobr></td><TD VALIGN="top" COLSPAN="2">Mouse strains  involved, if known.</TD></tr>
-<tr><td> VALIGN="top" align="left">Cell Line(s)</td><td>Cell line(s)</td></tr>
+<tr><th valign="top"  align="left"><a name="genotype"></a>Genotype,</th> <TD VALIGN="top" COLSPAN="2">Genotype abbreviation (e.g., hm1, ht4) used in this web page.</TD></tr>
+<TR><th valign="top"  align="left"><a name="al_comp"></a>Allelic Composition</th><TD VALIGN="top" COLSPAN="2">Genotype of each allele, linked to its MGI Allele Detail report.</TD></TR>
+<TR><th VALIGN="top" align="left"><nobr>Genetic Background</nobr></th><td VALIGN="top" COLSPAN="2">Mouse strains  involved, if known.</TD></tr>
+<tr><th VALIGN="top" align="left">Cell Line(s)</th><td>Cell line(s)</td></tr>
 </table>
 
 <h4><a name="affected_systems"></a>Affected Systems</h4>
@@ -256,7 +256,7 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
     <li>Each system term with an abnormality assertion (e.g., <i>brain inflammation</i>) appears, linked to its term detail report in the Mammalian Phenotype Browser. </li>
     <li>Reference identifiers  (e.g., <i>J:120427</i>)  appear in parentheses next to the term, linked to the References Query Results -- Details report. </li>
   </ul></p>
-  <p><b>Note:</b> You can access identical information by scrolling down to the <b>Phenotypic details by genotype</b> section on this detail report, clicking <b>show</b> to expand, following links, and  clicking <b>hide</b> to contract the data.</p>
+  <!--<p><b>Note:</b> You can access identical information by scrolling down to the <b>Phenotypic details by genotype</b> section on this detail report, clicking <b>show</b> to expand, following links, and  clicking <b>hide</b> to contract the data.</p> -->
 
 <A HREF="#top"><font size=-1>Top</font></A>
 
