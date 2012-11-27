@@ -243,7 +243,7 @@ Click &#9660; to close the  display.</p></td>
     <LI>phenotypic similarity to human disease but a distinct etiology (that is, human genes are associated with this disease, but orthologs of those genes do not appear in the mouse genotype).</LI>
     <LI>phenotypic similarity to human diseases with unknown etiology or involving genes where the human ortholog is unknown.</LI>
     <LI>transgenes or other mutation types (appears only if there are diseases annotated to an allele of a non-gene marker). </LI>
-    <LI>no similarity to the expected human disease phenotype (that is, one or more human genes may be associated with the human disease; the mouse genotype may involve mutations in orthologous genes; but the phenotype does not resemble the human disease).</LI></ul>
+    <LI>no similarity to the expected human disease phenotype (that is, one or more human genes may be associated with the human disease; the mouse genotype may involve mutations in orthologous genes; but the phenotype does not resemble the human disease). These are noted by the &#8709; symbol.</LI></ul>
 
 <TABLE BORDER="1" CELLPADDING="4">
   <TR><td valign="top"><!--Mouse Models of <br> -->Human Disease</td><TD ALIGN="left" VALIGN="top">All human diseases annotated to any mouse genotype containing the allele. Full disease term (e.g., Aniridia, TypeII; Peters Anomaly; Frasier Syndrome; Wilms Tumor 1), linked to the (MGI) Human Disease and Mouse Model Detail report. The OMIM accession identifier appears beneath the term (e.g., 106210; 60387), linked to its OMIM record.</TD></TR>
