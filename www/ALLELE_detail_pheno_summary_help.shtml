@@ -37,11 +37,11 @@ function openHelpWindow(helpFile){
 <a name="top"></A>
 
 
-<p>This help document describes the <b>Phenotype summary</b> section of an Allele Detail report and answers the following questions:</p>
+<p>This help document describes the <b>Phenotypes</b> section of an Allele Detail report and answers the following questions:</p>
 
 <UL>
-  <LI><A HREF="#purpose">What is the purpose of the Phenotype summary section?</a></LI>
- <LI><A HREF="#interpret">How do I interpret the Phenotype summary section?</a></li>
+  <LI><A HREF="#purpose">What is the purpose of the Phenotypes section?</a></LI>
+ <LI><A HREF="#interpret">How do I interpret the Phenotypes section?</a></li>
   <ul>
     <li><a href="#key">Key: genotypes, colors, and symbols</li>
   <li><a href="#numbers">Key:  numbers</a></li>
@@ -72,8 +72,8 @@ function openHelpWindow(helpFile){
 
 </UL>
 
-<h3><a name="purpose"></a>What is the purpose of the Phenotype summary section?</h3>
-<p>The purpose of the <b>Phenotype summary</b> section is to display all genotypes involving an allele with annotations in affected anatomical systems. 
+<h3><a name="purpose"></a>What is the purpose of the Phenotypes section?</h3>
+<p>The purpose of the <b>Phenotypes</b> section is to display all genotypes involving an allele with annotations in affected anatomical systems. 
 In this table, you can:
  
 <ul>
@@ -91,8 +91,8 @@ In this table, you can:
 <A HREF="#top"><font size=-1>Top</font></A>
 
  
-<h3><a name="interpret"></a>How do I interpret the Phenotype summary section?</h3>
-<b>Note:</b> The <b>Phenotype summary</b> section begins with a Key that explains the abbreviations used in this section, the Allelic Composition, Genetic Background and Cell Lines associated with each Genotype containing the featured allele. These are followed by a matrix of the Affected Systems examined for the genotypes.
+<h3><a name="interpret"></a>How do I interpret the Phenotypes section?</h3>
+<b>Note:</b> The <b>Phenotypes</b> section begins with a Key that explains the abbreviations used in this section, the Allelic Composition, Genetic Background and Cell Lines associated with each Genotype containing the featured allele. These are followed by a matrix of the Affected Systems examined for the genotypes.
  </p>
   
 
@@ -121,7 +121,7 @@ th { border: thin solid;
  <tr><th style= "background: #E3C8AC;">ot&nbsp; (brown)</th><td valign="Top">other: hemizygous, indeterminate...</td></tr> 
  
  <tr><th style= "background: FFFFCC;">N</th><td>Normal phenotype. Current annotations for this genotype and term indicate absence of abnormality. </td></tr> 
- <tr><th style= "background: FFFFCC;">&#248;</th><td>NOT a model for this disease, contrary to expectation. See <a href="ALLELE_detail_help.shtml#reffs">References</a> for details.</td></tr> 
+ <tr><th style= "background: FFFFCC;">&#8709;</th><td>NOT a model for this disease, contrary to expectation. See <a href="ALLELE_detail_help.shtml#reffs">References</a> for details.</td></tr> 
 
 <!--checkmark-->
  <tr><th style= "background: FFFFCC;">&#x2713;</th><td>There is an abnormal phenotype in the affected system.  Click &#9658; in the <b>Affected Systems</b> column to see the specific column annotated. Click the term name to view it in the  Mammalian Phenotype Browser. </td></tr> 
@@ -201,12 +201,12 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 <p>The Affected Systems list contains annotation terms from the Mammalian Phenotypes Browser. If a term does not appear, it means that, at this time, the MGI database does not contain annotations for this allele to the term. The sort order in the summary table is always alphabetical (e.g., behavioral/neurological before cardiovascular, skeleton before skin/coat/nails). </p>
 <A HREF="#top"><font size=-1>Top</font></A>
 
-<h3><A name="normalnull"></a>What's the difference between N  and &#248;? What does a blank cell indicate?</h3>
+<h3><A name="normalnull"></a>What's the difference between N  and &#8709;;? What does a blank cell indicate?</h3>
 <ul>
   <li><b>N</b> means that phenotypic analysis has occurred, and there is a report of no abnormality for part or all of the system although an abnormality was expected. 
 <li>If an <b>N</b> is visible when the system is closed (i.e., <b>hide</b>;), then only unexpected normals are annotated for that system.</li>
 <li>Click <b>show</b> or <b>hide</b> to investigate all research results for this (any) genotype/affected system.</li>
-  <li>&#248; means that, contrary to expectation, this genotype is not a model for a specific disease or diseases..</li>
+  <li>&#8709; means that, contrary to expectation, this genotype is not a model for a specific disease or diseases..</li>
   <li>A blank cell indicates that, in MGI, the genotype in the column has not been annotated to the term in the row.</li>
 </ul>
 <A HREF="#top"><font size=-1>Top</font></A>
@@ -315,7 +315,7 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 <h3><a name="why_diff"></a>Why is the order of systems different in the summary table versus the genotype detail table?</h3>
 
 
-<p>Items in the <b>Affected Systems</b> list on the <b>Phenotype summary</b> table are ordered alphabetically. </p>
+<p>Items in the <b>Affected Systems</b> list on the <b>Phenotypes</b> table are ordered alphabetically. </p>
 <p>For any annotated subterms beneath these systems, the order is weighted by importance as specified by MGI curators.</p>
 <A HREF="#top"><font size=-1>Top</font></A>
 
