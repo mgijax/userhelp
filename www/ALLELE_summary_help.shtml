@@ -37,9 +37,9 @@ function openHelpWindow(helpFile){
 <P>This document answers the following questions about the allele summary report:</P>
 <UL>
   <LI><A HREF="#access">When does an allele summary report appear?</A></LI>
-<LI><A HREF="#contain">What should show up in this report?</A></LI>
+  <LI><A HREF="#contain">What should show up in this report?</A></LI>
   <LI><A HREF="#usage">How do I interpret an allele summary report?</A></LI>
-<LI><A HREF="#notcontain">Why do some alleles have observed phenotypes and genotypes and some do not?</A></LI>
+  <LI><A HREF="#notcontain">Why do some alleles have observed phenotypes and genotypes and some do not?</A></LI>
   <LI><A HREF="#no_results">What if my query returns no results?</A></LI>
 </UL>
 <P>See also:
@@ -58,10 +58,10 @@ function openHelpWindow(helpFile){
 <P>A search for alleles results in a summary listing of any "hits" with links to detail records.
 The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Results summary reiterates the search parameters that produced the report and contains items such as:</p>
 <ul>
-<li>the term(s) searched for (e.g., marker/symbol name, MP terms, synonyms  IDs, and notes; human disease terms and IDs)
-<li>the chosen allele category (e.g., gene trapped)</li>
-<li>the sort order (e.g., transmission status, allele symbol, allele name, category, chromosome)</LI>
-<li>the display limit (the number next to Maximum Returned on the query form) (<b>Note:</b> you can change this number for a subsequent query, if your results seem too large or small).
+ <li>the term(s) searched for (e.g., marker/symbol name, MP terms, synonyms  IDs, and notes; human disease terms and IDs)
+ <li>the chosen allele category (e.g., gene trapped)</li>
+ <li>the sort order (e.g., transmission status, allele symbol, allele name, category, chromosome)</LI>
+ <li>the display limit (the number next to Maximum Returned on the query form) (<b>Note:</b> you can change this number for a subsequent query, if your results seem too large or small).
 </ul>
 
 <p>When you access the allele summary from a gene/marker detail report, the marker symbol, name and, MGI identifier appear in a box at the top of the page.</p>
@@ -77,22 +77,17 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
 
 <p>Table columns summarize information about the alleles matching your query. Your sort option (from the query form) determines the presentation order. The results appear in some or all of the following fields (depending on your query form choices).</p>
 
-
-
 <P>
 <body>
 <body>
 <TABLE BORDER="1" CELLPADDING="4"> 
-<TR><TH VALIGN="top">Field</TH><TH>Description</TH></TR> 
-<TR><Th ALIGN="left" VALIGN="top"><nobr>Allele Symbol<nobr><br> Gene; Allele Name <br>[Camera icon]</Td><TD>Official symbol for the allele, linked to its Phenotypic Allele Detail Report.<br>Name for the allele. <br>If a camera icon appears, images are associated with the allele. Click the icon to view any associated image(s).</TD></TR> 
-<TR><TH ALIGN="left" VALIGN="top">Chr</TH><TD VALIGN="top">Chromosome of the marker that the allele is associated with.</TD></TR> 
-<TR><TH ALIGN="left" VALIGN="top">Synonyms</TH></TD> <TD VALIGN="top">Any synonyms (unofficial symbols and names) for the allele.</TD> </TR>
-
-<TR><a name="cat"></a><TH ALIGN="left" VALIGN="top">Category</TH></TD> <TD VALIGN="top">Specific allele type (e.g., knockout, targeted, gene trapped).  Cell line (in parentheses) indicates that there is  no information about the creation of a mouse line for the allele. Chimera (in parentheses) means that MGI has information only about the chimeric mouse.</TD></tr>
-
-
-<TR><TH ALIGN="left" VALIGN="top"><nobr>Affected Anatomical Systems</nobr></th><td valign="top">All high level terms from the Mammalian Phenotype (MP) Ontology annotated to the allele. See the <A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A>. These high level terms are also found in the Phenotype Selection List pop-up (when you click Anatomical Systems Affected by Phenotypes on the <A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A>). Phenotypes that are only annotated to complex genotypes—those involving more than one genome feature—are not listed in this summary but can be found in the Phenotypic Allele Detail Report.</td></tr>
-<tr><th align="Left" valign="Top">Similar Human Diseases</th><td valign="top">Human disease terms and OMIM IDs annotated to the allele. Diseases that are only annotated to complex genotypes—those involving more than one genome feature—are not listed in this summary but can be found in the Phenotypic Allele Detail Report. See the <A HREF="<!--#include file='include/java_url.html'-->WIFetch?page=omimVocab&subset=A" target="_blank">Human Disease Vocabulary Browser</A>.</ul></TD></TR> 
+ <TR><TH VALIGN="top">Field</TH><TH>Description</TH></TR> 
+ <TR><Th ALIGN="left" VALIGN="top"><nobr>Allele Symbol<nobr><br> Gene; Allele Name <br>[Camera icon]</Td><TD>Official symbol for the allele, linked to its Phenotypic Allele Detail Report.<br>Name for the allele. <br>If a camera icon appears, images are associated with the allele. Click the icon to view any associated image(s).</TD></TR> 
+ <TR><TH ALIGN="left" VALIGN="top">Chr</TH><TD VALIGN="top">Chromosome of the marker that the allele is associated with.</TD></TR> 
+ <TR><TH ALIGN="left" VALIGN="top">Synonyms</TH></TD> <TD VALIGN="top">Any synonyms (unofficial symbols and names) for the allele.</TD> </TR>
+ <TR><a name="cat"></a><TH ALIGN="left" VALIGN="top">Category</TH></TD> <TD VALIGN="top">Specific allele type (e.g., knockout, targeted, gene trapped).  Cell line (in parentheses) indicates that there is  no information about the creation of a mouse line for the allele. Chimera (in parentheses) means that MGI has information only about the chimeric mouse.</TD></tr>
+ <TR><TH ALIGN="left" VALIGN="top"><nobr>Affected Anatomical Systems</nobr></th><td valign="top">All high level terms from the Mammalian Phenotype (MP) Ontology annotated to the allele. See the <A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A>. These high level terms are also found in the Phenotype Selection List pop-up (when you click Anatomical Systems Affected by Phenotypes on the <A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A>). Phenotypes that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report.</td></tr>
+ <tr><th align="Left" valign="Top">Human Disease Models</th><td valign="top">Human disease terms and OMIM IDs annotated to the allele. Diseases that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report. See the <A HREF="<!--#include file='include/java_url.html'-->WIFetch?page=omimVocab&subset=A" target="_blank">Human Disease Vocabulary Browser</A>.</ul></TD></TR> 
 </table> 
 <!--<TR><TH ALIGN="left" VALIGN="top">Allelic Composition <BR>(Genetic Background)</TH><TD VALIGN="top">Allele pairs that contribute to the genotype and the mouse strain background. Each allele is linked to its corresponding Phenotypic Allele Detail Report. <br>
  Beneath the allele pairs, in parentheses, the strain of the genetic background appears; e.g., (involves: 129/Sv * C57BL/6) or (not specified).<br>
@@ -132,11 +127,9 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
 <!-- This section needs to be updated -->
  <P>The vocabulary is annotated at the genotype level. If an allele either does not yet have a genotype or has a genotype with no annotations, the Affected Anatomical Systems and Human Diseases fields are blank. However, if your search terms match a combination of genotype and text in the Additional Information field, the query returns that data. <P>For example, on the Phenotypes, Alleles, and Disease Models Query Form: </P>
 <TABLE BORDER="1" CELLPADDING="4">
-<TR><TH ALIGN="left" VALIGN="top"><NOBR>In the Phenotype/Disease box, you enter ...</TH><TH ALIGN="left" VALIGN="top">The query returns...</TH><TH>Why?</TH></TR>
+  <TR><TH ALIGN="left" VALIGN="top"><NOBR>In the Phenotype/Disease box, you enter ...</TH><TH ALIGN="left" VALIGN="top">The query returns...</TH><TH>Why?</TH></TR>
   <TR><TD VALIGN="top">superimposed aqueductal stenosis</TD><TD VALIGN="top">One allele (<i>oh</i>) with no observed effects or allelic composition (genetic background).</SUP><TD VALIGN="top">The match is in the Additional Information section.</TD></TR>
-
- <TR><TD VALIGN="top">aqueductal stenosis</TD><TD VALIGN="top">Three alleles (<i>hhy</i>, <i>Dlg5<sup>tm1Vv</sup></i>, and <i>oh</i>). <i>Hhy</i> returns data in the Observed Phenotypes in Mouse and Allelic Composition (Genetic Background) columns.<TD VALIGN="top"><i>Hhy</i> and <i>Dlg5<sup>tm1Vv</sup></i> are annotated to the term.</TD></TR>
-
+  <TR><TD VALIGN="top">aqueductal stenosis</TD><TD VALIGN="top">Three alleles (<i>hhy</i>, <i>Dlg5<sup>tm1Vv</sup></i>, and <i>oh</i>). <i>Hhy</i> returns data in the Observed Phenotypes in Mouse and Allelic Composition (Genetic Background) columns.<TD VALIGN="top"><i>Hhy</i> and <i>Dlg5<sup>tm1Vv</sup></i> are annotated to the term.</TD></TR>
 </TABLE></P><br>
 <A HREF="#top">Top</A>
  
