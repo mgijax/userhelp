@@ -132,21 +132,30 @@ th { border: thin solid;
 
 <h4><a name="numbers"></a>Key: numbers</h4>
 <p>There is a number for each genotype involving this allele with annotations in affected anatomical systems.  Numbers increase sequentially across the <b>Genotypes:</b> bar.  If the number of genotypes in MGI involving this allele is 29, there will be 29 columns in the table (e.g., <i>hm1...ht15...cx20...tg29</i>).  You may need to scroll horizontally to see all the entries. <!--A glance at the results in the  <b>Allele Composition (Genetic Background)</b> column on the <b>Phenotypic Alleles Query Results Summary</b> alerts you to the width of the <b>Phenotype Summary</b> table.--></p>
+<p>
+<blockquote> 
 <table> 
  <tr><th valign="top"  align="left"><a name="genotype"></a>Genotype</th> <TD VALIGN="top" COLSPAN="2">Genotype abbreviation (e.g., hm1, ht4) used in this web page.</TD></tr>
  <TR><th valign="top"  align="left"><a name="al_comp"></a>Allelic Composition</th><TD VALIGN="top" COLSPAN="2">Genotype of each allele, linked to its MGI Allele Detail report.</TD></TR>
  <TR><th VALIGN="top" align="left"><nobr>Genetic Background</nobr></th><td VALIGN="top" COLSPAN="2">Mouse strains  involved, if known.</TD></tr>
  <tr><th VALIGN="top" align="left">Cell Line(s)</th><td>Cell line(s)</td></tr>
 </table>
+</blockquote>
+</p>
 
 <A HREF="#top"><font size=-1>Top</font></A>
 
 <h4><a name="show_hide"></a>Show or hide all annotated terms</h4>
-<p><table border="1" cellspacing="2" cellpadding="3" width="!">
+<p>
+<blockquote>
+<table border="1" cellspacing="2" cellpadding="3" width="!">
  <tr><th>show</th><td>Click to expand or open a view of all annotations for this allele.</td></tr>
  <tr><th>hide</th><td>Click to contract or close the annotation list.</td></tr>
 </table>
+</blockquote>
 </p>
+
+<A HREF="#top"><font size=-1>Top</font></A>
 
 <h4><a name="affected_systems"></a>Affected Systems</h4>
 <p>The <b>Affected Systems</b> column lists anatomical terms from the Mammalian Phenotypes Browser for which there are phenotypic annotations. 
@@ -183,6 +192,9 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
  </ol> (<b>Note:</b> Context-sensitive help is available by hovering with your mouse over any color/number in the Genotype column.)  You can also find out whether there is a disease model identified for this genotype. --></li>
 </ul>
 </p>
+<p>Click <b>View</b> phenotypes for all genotypes (concatenated display) to see all genotypes and phenotypic annotations in a single browser window.
+</p>
+
 <A HREF="#top"><font size=-1>Top</font></A>
 
 <!-- <h3><a name="howsortgs"></a>What should appear in the Genotypes row? How is it sorted?</h3>
@@ -276,9 +288,9 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 
 <A HREF="#top"><font size=-1>Top</font></A>
 
-  <h3><a name="what_if"></a>What if I'm only interested in disease models?</h3>
-<p>A check mark appears in any Genotypes column where there is phenotypic evidence of a disease model. Click the colored box at the top of that column (e.g., <i>hm9</i>)to access the new window. Scroll down to locate <b>Mouse Models of Human Disease</b> table.</p>
-<p>You can also scroll down the Allele Detail report to the <b>Disease Models</b> table which displays data for all genotypes.</p>
+<h3><a name="what_if"></a>What if I'm only interested in disease models?</h3>
+<p>Scroll down the Allele Detail report to the <b>Disease Models</b> section. A check mark appears in any Genotypes column where there is phenotypic evidence of a disease model. Click the colored box at the top of that column (e.g., <i>cn1</i>)to access phenotypic details.</p>
+
 <A HREF="#top"><font size=-1>Top</font></A>
 
 
