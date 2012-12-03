@@ -45,12 +45,12 @@ function openHelpWindow(helpFile){
  <li><a href="#nomenclature">Nomenclature</a></li>
  <li><a href="#origin">Mutation/Variant/Vector/Transgene origin</a></li>
  <li><a href="#description">Mutation/Variant/Vector/Transgene description</a></li>
- <li><a href="#find_mice">Find Mice (IMSR)</a></li>
- <li><a href="#gene_expression">Expression</a></li>
+ <!--<li><a href="#gene_expression">Expression</a></li>-->
  <li><a href="#recombinase_activity">Recombinase activity</a></li>
  <li><a href="#summary">Phenotype summary</a></li>
  <!--<li><a href="#genotype">Phenotypic data by genotype</a></li> -->
  <li><a href="#models">Disease models</a></li>
+ <li><a href="#find_mice">Find Mice (IMSR)</a></li>
  <li><a href="#additional">Notes</a></li>
  <li><a href="#reffs">References</a></li>
  </ul>
@@ -121,7 +121,7 @@ function openHelpWindow(helpFile){
 <table border="0" cellspacing="2" cellpadding="4" width="!">
   
 <tr><td align="center"><font size="-1"><a href="#nomenclature">Nomenclature</a> | <a href="#origin">origin</a> |
-<a href="#description">description</a> | <a href="#find_mice">Find Mice (IMSR)</a> | <a href="#gene_expression">Expression</a> |  <a href="#recombinase_activity">Recombinase activity</a> | <a href="#summary">Phenotypes</a> <!--| <nobr><a href="#genotype">Phenotypic data by genotype</a></nobr>--> | <a href="#models">Disease models</a> | <a href="#additional">Additional information</a> | <a href="#reffs">References</a></font></td></tr>
+<a href="#description">description</a> | <!--<a href="#gene_expression">Expression</a> |  -->  <a href="#recombinase_activity">Recombinase activity</a> | <a href="#summary">Phenotypes</a> <!--| <nobr><a href="#genotype">Phenotypic data by genotype</a></nobr>--> | <a href="#models">Disease models</a> | <a href="#find_mice">Find Mice (IMSR)</a> | <a href="#additional">Additional information</a> | <a href="#reffs">References</a></font></td></tr>
 </table>
 <table border="1" cellspacing="2" cellpadding="4" width="100%">
 
