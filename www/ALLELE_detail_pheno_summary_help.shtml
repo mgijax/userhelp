@@ -202,11 +202,11 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 <A HREF="#top"><font size=-1>Top</font></A> -->
 
 <h3><a name="sex"></a>What should appear in the Sex row?</h3>
-<p>For genotypes with sex specific data, the appropriate male or female symbol appears, indicating the phenotypic sex analyzed. If this row is missing, then either sex specific data were not reported or there were no sex differences.</p>
+<p>For genotypes with sex specific data, the appropriate male or female symbol appears, indicating the phenotypic sex analyzed. If this row is missing, either sex specific data were not reported or there were no sex differences.</p>
 <A HREF="#top"><font size=-1>Top</font></A>
 
 <h3><a name="source"></a>What should appear in the Source row?</h3>
-<p>When one of the genotypes has data from one of the high-throughput phenotyping projects, the curation source is displayed for all genotypes. WTSI (Wellcome Trust Sanger Institute) and Euro (Europhenome) are examples. If no source is shown, then MGI is the curation source.</p>
+<p>When one of the genotypes has data from one of the high-throughput phenotyping projects, the curation source is displayed for all genotypes. WTSI (Wellcome Trust Sanger Institute) and Euro (Europhenome) are examples. If no source is shown, MGI is the curation source.</p>
 <A HREF="#top"><font size=-1>Top</font></A>
 
 <h3><a name="howsortas"></a>What should appear on the Affected Systems list? How is it sorted?</h3>
@@ -218,14 +218,14 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
   <li><b>N</b> means that phenotypic analysis has occurred, and there is a report of no abnormality for part or all of the system although an abnormality was expected. 
   <li>If an <b>N</b> is visible when the system is closed (i.e., <b>hide</b>;), then only unexpected normals are annotated for that system.</li>
   <li>Click <b>show</b> or <b>hide</b> to investigate all research results for this (any) genotype/affected system.</li>
-  <li>&#8709; means that, contrary to expectation, this genotype is not a model for a specific disease or diseases..</li>
+  <li>&#8709; means that, contrary to expectation, this genotype is not a model for a specific disease or diseases.</li>
   <li>A blank cell indicates that, in MGI, the genotype in the column has not been annotated to the term in the row.</li>
 </ul>
 <A HREF="#top"><font size=-1>Top</font></A>
 
 
 <h3><a name="research"></a>Where is the research that supports an annotation?</h3>
-<p>Click the column header in the Genotypes row (e.g., <i>hm1, ht15, cx19</i>). In the window that appears, J-numbered citations (e.g., <i>J:7454</i>) appear after each Mammalian Phenotype Browser term (in parentheses). Clicking a citation brings up its MGI References Query Results -- Details report. Here you will find publication details, an abstract, and links to additional MGI information.</p>
+<p>Click the column header in the Genotypes row (e.g., <i>hm1, ht15, cx19</i>). In the window that appears, J-numbered citations (e.g., <i>J:7454</i>) appear after each Mammalian Phenotype Browser term (in parentheses). Clicking a citation brings up its MGI References report. Here you will find publication details, an abstract, and links to additional MGI information.</p>
 <p>When there is more than one reference paper, bullet items beneath the Mammalian Phenotype vocabulary terms differentiate which paper goes with which note. </p>
 <p>Bullet items provide additional information about the phenotype and may or may not be present, regardless of the number of papers.</p>
  
@@ -266,7 +266,7 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
   <li>When available, images associated with this genotype appear in the top right corner. </li>
   <li>Each affected system (e.g., <i>nervous system</i>) identified by a check mark in the genotype column appears.</li>
   <li>Each system term with an abnormality assertion (e.g., <i>brain inflammation</i>) appears, linked to its term detail report in the Mammalian Phenotype Browser. </li>
-  <li>Reference identifiers  (e.g., <i>J:120427</i>)  appear in parentheses next to the term, linked to the References Query Results -- Details report. </li>
+  <li>Reference identifiers  (e.g., <i>J:120427</i>)  appear in parentheses next to the term, linked to the References report. </li>
  </ul></p>
   <!--<p><b>Note:</b> You can access identical information by scrolling down to the <b>Phenotypic details by genotype</b> section on this detail report, clicking <b>show</b> to expand, following links, and  clicking <b>hide</b> to contract the data.</p> -->
 
@@ -283,7 +283,7 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 <li>You can open as many windows as desired (there is one for every item in the  <b>Genotypes</b> row) for data comparisons.<br> <b>Note: </b>The windows have no "Back" button, so when you want them out of the way, you must close them.</li>
   <li>You can resize the windows.<br> <b>Note:</b> When available, a table featuring mouse models of human diseases appears last in the display, so if this is your area of interest, be sure to expand (or scroll to the bottom of) genotype windows.</li>
   <li>You can follow <b>Affected system </b>links to the MGI Mammalian Phenotype Browser and see terms represented  within the context of phenotype ontology.<br> <b>Note:</b> This opens a new window.</li>
-  <li>You can follow MGI J: numbers to MGI Reference Detail reports to find the research that supports the annotations.<br> <b>Note:</b> This opens a new window.</li>
+  <li>You can follow MGI J: numbers to MGI Reference reports to find the research that supports the annotations.<br> <b>Note:</b> This opens a new window.</li>
 </ul>
 
 <A HREF="#top"><font size=-1>Top</font></A>
