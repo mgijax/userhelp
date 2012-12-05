@@ -232,7 +232,7 @@ Click &#9660; to close the  display.</p></td>
     <LI>no similarity to the expected human disease phenotype (that is, one or more human genes may be associated with the human disease; the mouse genotype may involve mutations in orthologous genes; but the phenotype does not resemble the human disease). These are noted by the &#8709; symbol.</LI></ul>
 
 <TABLE BORDER="1" CELLPADDING="4">
-  <TR><td valign="top"><!--Mouse Models of <br> -->Human Disease</td><TD ALIGN="left" VALIGN="top">All human diseases annotated to any mouse genotype containing the allele. Full disease term (e.g., Aniridia, TypeII; Peters Anomaly; Frasier Syndrome; Wilms Tumor 1), linked to the (MGI) Human Disease and Mouse Model Detail report. The OMIM accession identifier appears beneath the term (e.g., 106210; 60387), linked to its OMIM record.</TD></TR>
+  <TR><td valign="top"><!--Mouse Models of <br> -->Human Disease</td><TD ALIGN="left" VALIGN="top">All human diseases annotated to any mouse genotype containing the allele. Full disease term (e.g., Aniridia, TypeII; Peters Anomaly; Frasier Syndrome; Wilms Tumor 1), linked to the (MGI) Human Disease and Mouse Model Detail report. The OMIM accession identifier follows the term (e.g., 106210; 60387) and is linked to its OMIM record.</TD></TR>
 
 <!--<TR><td valign="top"><a name="notes"></a>Note</td><TD VALIGN="top">Column containing a number if there is additional information about the disease or model. This information appears below the table, beside the number.  If the word <i>Not</i> appears, it means that the reference's author(s) looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified.</TD></tr> -->
 
