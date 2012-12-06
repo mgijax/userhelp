@@ -173,7 +173,7 @@ Click &#9660; to close the  display.
   		<tr><td valign="top">Tag ID</td><td>Cell line sequence tag identifier, assigned by the creator. The link goes to the external resource for this sequence (for example, IGTC, dbGSS). </td></tr>
 		<tr><td valign="top">GenBank ID</td><td>The dbGSS identifier assigned to this sequence tag.</td></tr>
 		<tr><td valign="top">Method<A NAME="method"><td>Sequencing technique.</td></tr>
-		<tr><td valign="top">Tag Location (strand)</td><td><A NAME="location">Chromosome location, genome coordinates in base pairs, and the indicator of how the strand is oriented to the genome (+ or -), based on NCBI build 37.</td></tr>
+		<tr><td valign="top">Tag Location (strand)</td><td><A NAME="location">Chromosome location, genome coordinates in base pairs, and the indicator of how the strand is oriented to the genome (+ or -), based on the current NCBI build.</td></tr>
 		<tr><td valign="top">Select</td><td><A NAME="select">Click the check box to select a sequence for downloading in FASTA format or forwarding to MGI MouseBLAST.</td></tr>
 	  	</table>
 		</TD></TR>
