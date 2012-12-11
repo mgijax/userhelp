@@ -289,7 +289,7 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 <A HREF="#top"><font size=-1>Top</font></A>
 
 <h3><a name="what_if"></a>What if I'm only interested in disease models?</h3>
-<p>Scroll down the Allele Detail report to the <b>Disease Models</b> section. A check mark appears in any Genotypes column where there is phenotypic evidence of a disease model. Click the colored box at the top of that column (e.g., <i>cn1</i>)to access phenotypic details.</p>
+<p>Scroll down the Allele Detail report to the <b>Disease Models</b> section. A check mark appears in any Genotypes column where there is phenotypic evidence of a disease model. Click the colored box at the top of that column (e.g., <i>cn1</i>) to access phenotypic details.</p>
 
 <A HREF="#top"><font size=-1>Top</font></A>
 
@@ -323,7 +323,7 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 <A HREF="#top"><font size=-1>Top</font></A>  -->
 
 <h3><a name="how_tell"></a>How can I tell, without opening every window, what alleles and strains are involved with a genotype?</h3>
-<p>Scroll down to below the <b>Affected Systems</b> table and click the link to <b>View</b> phenotypes for all genotypes (concatenated display). All genotypes listed in the <b>Phenotypes</b> section appear, paired with their allelic composition and genetic background data. The view of the genotype data is vertical rather than horizontal (as with the <b>PAffected Systems</b> table).</p>
+<p>Scroll down to below the <b>Affected Systems</b> table and click the link to <b>View</b> phenotypes for all genotypes (concatenated display). All genotypes listed in the <b>Phenotypes</b> section appear, paired with their allelic composition and genetic background data. The view of the genotype data is vertical rather than horizontal (as in the <b>Affected Systems</b> table).</p>
 
 <A HREF="#top"><font size=-1>Top</font></A>
 
