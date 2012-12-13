@@ -131,7 +131,7 @@ th { border: thin solid;
 
 
 <h4><a name="numbers"></a>Key: numbers</h4>
-<p>There is a number for each genotype involving this allele with annotations in affected anatomical systems.  Numbers increase sequentially across the <b>Genotypes:</b> bar.  If the number of genotypes in MGI involving this allele is 29, there will be 29 columns in the table (e.g., <i>hm1...ht15...cx20...tg29</i>).  You may need to scroll horizontally to see all the entries. <!--A glance at the results in the  <b>Allele Composition (Genetic Background)</b> column on the <b>Phenotypic Alleles Query Results Summary</b> alerts you to the width of the <b>Phenotype Summary</b> table.--></p>
+<p>There is a number for each genotype involving this allele with annotations in affected anatomical systems.  Numbers increase sequentially<!--across the <b>Genotypes:</b> bar-->.  If the number of genotypes in MGI involving this allele is 29, there will be 29 rows in the Key table (e.g., <i>hm1...ht15...cx20...tg29</i>) and 29 columns in the <b>Affected Systems</b> table.  <!--You may need to scroll horizontally to see all the entries. A glance at the results in the  <b>Allele Composition (Genetic Background)</b> column on the <b>Phenotypic Alleles Query Results Summary</b> alerts you to the width of the <b>Phenotype Summary</b> table.--></p>
 <p>
 <blockquote> 
 <table> 
@@ -274,7 +274,7 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 
 <h3><a name="how_many"></a>How many new windows can I open?</h3>
 <p>As many as desired.</p>
-<p>Clicking any of the numbered genotypes opens a new window. <br><b>Note:</b> The first click may open the window in front of your current browser window. Subsequent (or all) clicks may open windows <i>behind</i> your current window.</p>
+<p>Clicking any of the numbered genotypes opens a new window. <br><b>Note:</b> Each click will open a new window in front of your current browser window. <!--Subsequent (or all) clicks may open windows <i>behind</i> your current window.--></p>
 
 <A HREF="#top"><font size=-1>Top</font></A>
 
