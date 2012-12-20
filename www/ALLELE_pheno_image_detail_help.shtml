@@ -84,13 +84,13 @@ function openHelpWindow(helpFile){
 <TABLE BORDER=1 cellpadding=4 > 
 
 <TR><TH VALIGN="top">Field</TH><TH VALIGN="top">Description</TH></TR>
-<TR><TH align="left" valign="top"><A NAME="image"></a>Image<TD VALIGN="top">An image of a mouse (or mice) displaying the phenotype caused by the mutation of interest and, if available, the control mouse.</td></tr>
+<TR><TD align="left" valign="top"><A NAME="image"></a>Image<TD VALIGN="top">An image of a mouse (or mice) displaying the phenotype caused by the mutation of interest and, if available, the control mouse.</td></tr>
 
-<TR><Td align="left" valign="top"><A NAME="caption"></a><b>Caption</b><br>(This section may not appear if the image is not associated with any genotypes.)</td><TD VALIGN="top">Details about the genotypic evidence or allelic affect on the mouse/mice displayed in the image; designation of the control  mouse, if one appears.</td></tr>
+<TR><TD align="left" valign="top"><A NAME="caption"></a><b>Caption</b><br>(This section may not appear if the image is not associated with any genotypes.)</td><TD VALIGN="top">Details about the genotypic evidence or allelic affect on the mouse/mice displayed in the image; designation of the control  mouse, if one appears.</td></tr>
 
-<tr><TH align="left" valign="top"><A NAME="credits"></a>Credits</th><td VALIGN="TOP">Includes image origin, copyright, photo credit, and permission-to-display information.</td></tr>
+<tr><TD align="left" valign="top"><A NAME="credits"></a>Copyright</th><td VALIGN="TOP">Includes image origin, copyright, photo credit, and permission-to-display information.</td></tr>
 
-<tr><th align="left" Valign="top"><A NAME="associated_alleles"></a>Associated Alleles</th><td align="top">A list of alleles that this image is associated with, arranged alphabetically by allele symbol. 
+<tr><td align="left" Valign="top"><A NAME="associated_alleles"></a>Associated Alleles</th><td align="top">A list of alleles that this image is associated with, arranged alphabetically by allele symbol. 
 <table border=0 cellpadding="4"><tr><th valign="left" align="top">Symbol</th><td valign="top">Allele symbol, linked to its Phenotypic Allele Detail report. Example:<i> <u>Mitf<sup>Mi-wh</sup></u></i></td></TR><tr><th align="left" valign="top">Name</th><td valign="top">Gene name, semicolon, allele name.  Example: <i>microphthalmia-associated transcription factor; white</i></ul></td></tr></table></td></tr>
 
 <tr><Td align="left" valign="top"><A NAME="associated_genotypes"></a><b>Associated Genotypes</b><br>(This section may not appear if the image is not associated with any genotypes.)</td>
