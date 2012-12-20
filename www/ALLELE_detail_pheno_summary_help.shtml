@@ -96,7 +96,7 @@ In this table, you can:
 
 <h4><a name="key">Key: genotypes, colors, and symbols</a></h4>
 <p>The key at the top of the Phenotype Summary by Mammalian Phenotype terms</b> table contains one color bar for each different allelic "state" (e.g., homozygous, heterozygous). 
-Each column has a color, an abbreviation for the state (e.g., <i>hm</i> for homozygous, <i>ht</i> for heterozygous, and so on) and a number (arrayed sequentially) for each search result. <!--The colors make it easy to identify  each entity, especially when the Phenotype summary extends horizontally, or when you are viewing data from a <b>Phenotypic details by genotype</b> or <b>Disease model</b> perspective.</p>-->
+Each state has a color, an abbreviation for the state (e.g., <i>hm</i> for homozygous, <i>ht</i> for heterozygous, and so on) and a number (arrayed sequentially) for each search result. <!--The colors make it easy to identify  each entity, especially when the Phenotype summary extends horizontally, or when you are viewing data from a <b>Phenotypic details by genotype</b> or <b>Disease model</b> perspective.</p>-->
 <blockquote>
 <table>
 <style type="text/css">
