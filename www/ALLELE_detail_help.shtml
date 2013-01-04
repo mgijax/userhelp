@@ -165,7 +165,7 @@ The allele symbol is composed of the gene symbol and the allele designation.  If
    <td>
     <table border="0" cellspacing="2" cellpadding="4" width="100%">
            	<tr><td valign="top">Allele Type</td><td>Type of allele by mode of origin.</td></tr>
-	<tr><td valign="top">Mutation</td><td>Method that produced this mutation and methodology. When available, a description appears. Any molecular references are linked to MGI Reference Detail reports.</td></tr>
+	<tr><td valign="top">Mutation</td><td>Method that produced this mutation and methodology. When available, a description appears. Any molecular references are linked to MGI Reference Detail reports. Long molecular descriptions are hidden. Click the &#9658; to view them. </td></tr>
 	<tr><td valign="top">Inheritance</td><td>Phenotypic effect of the allele when heterozygous with the wild type allele. <b>Note:</b> This information is primarily entered for spontaneous and chemically or radiation-induced alleles and QTLs.</td></tr>		
 <tr><td valign="top">Sequence tag</td><td>Click &#9658; to open the display.
 Click &#9660; to close the  display.
@@ -190,7 +190,7 @@ Click &#9660; to close the  display.<br>The image that appears is a genome brows
      </tr> -->
 
 <tr><TR><th valign="top" align="right"><a name="recombinase_activity"></a>Recombinase activity</td>
-    <Td><table border="1" cellspacing="1" cellpadding="2" width="95%">
+    <Td><table border="1" cellspacing="1" cellpadding="2" width="100%">
       <tr><td valign="top">Activity in</td><td valign="top">Recombinase activity was assayed and detected for this allele in all (the high-level terms for the) anatomical systems listed.</td></tr>
  <tr><td valign="top"><nobr>Not Detected in</nobr></td><td valign="Top">Recombinase activity was assayed and not detected for this allele in all (the high-level terms for the) anatomical systems listed.</td></tr>
  <tr><td valign="top">Driver</td><td valign="Top">Name of promoter and a link to a summary of all recombinase alleles driven by this promoter.</td></tr>
