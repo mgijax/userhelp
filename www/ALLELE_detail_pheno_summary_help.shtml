@@ -249,7 +249,7 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
   <li><a href="#how_do">How do I get rid of additional windows or headers or subsystem views?</a></li>
   <li><a href="#why_no">Why aren't all the systems in the Mammalian Phenotype vocabulary listed?</a></li>
   <!--<li><a href="#help">Help! I've expanded subsystems, scrolled through data, and can't see the header row any more. Is there a visual aid?</a></li>-->
-  <li><a href="#how_tell">How can I tell, without opening every window, what alleles and strains are involved with a genotype?</a></li>
+  <li><a href="#how_tell">How can I tell, without opening every window, what alleles and strains are involved with all genotypes?</a></li>
   <li><a href="#why_diff">Why is the order of systems different in the summary table versus the genotype detail table?</a></li>
   <li><a href="#how_often">How often are annotations added?</a></li>
   <li><a href="#examples">Are there examples?</a></li>
@@ -297,7 +297,6 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 <h3><a name="how_do"></a>How do I get rid of extra windows, headers, or subsystem views?</h3>
 <ul>
  <li>There is no Back button on the additional (genotype) windows. You must close them to get rid of them. </li>
- <li>To remove an extra header row, click the tricolored bar again. </li>
  <li>Click <b>show</b> or <b>hide</b> to expand or collapse data views.</li>
  <li>Click &#9658; or &#9660; to open or close just one system. <b>Note:</b> Closing a system also hides the additional labels that appear.</li>
 </ul>
@@ -322,7 +321,7 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 
 <A HREF="#top"><font size=-1>Top</font></A>  -->
 
-<h3><a name="how_tell"></a>How can I tell, without opening every window, what alleles and strains are involved with a genotype?</h3>
+<h3><a name="how_tell"></a>How can I tell, without opening every window, what alleles and strains are involved with all genotypes?</h3>
 <p>Scroll down to below the <b>Affected Systems</b> table and click the link to <b>View</b> phenotypes for all genotypes (concatenated display). All genotypes listed in the <b>Phenotypes</b> section appear, paired with their allelic composition and genetic background data. The view of the genotype data is vertical rather than horizontal (as in the <b>Affected Systems</b> table).</p>
 
 <A HREF="#top"><font size=-1>Top</font></A>
