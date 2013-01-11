@@ -225,9 +225,9 @@ Click &#9660; to close the  display.</p></td>
 </tr>
  -->
 <tr><TH align="right" VALIGN="top"><A NAME="models"></A>Disease models</td><TD ALIGN="left" VALIGN="top">List of all mouse genotypes annotated to a disease. These annotations may be of the following types:<ul class="lj">
-    <LI>phenotypic similarity to human disease and etiologies involving orthologs (the human ortholog of the mouse gene is associated with the same disease).  <!--If a genotype appears in this category, it will not be associated with any of the other four categories except transgenes or other mutation types. --> </LI>
+    <LI>phenotypic similarity to human disease. <!--and etiologies involving orthologs (the human ortholog of the mouse gene is associated with the same disease).</LI>
     <LI>phenotypic similarity to human disease but a distinct etiology (that is, human genes are associated with this disease, but orthologs of those genes do not appear in the mouse genotype).</LI>
-    <LI>phenotypic similarity to human diseases with unknown etiology or involving genes where the human ortholog is unknown.</LI>
+    <LI>phenotypic similarity to human diseases with unknown etiology or involving genes where the human ortholog is unknown.--></LI>
     <LI>transgenes or other mutation types (appears only if there are diseases annotated to an allele of a non-gene marker). </LI>
     <LI>no similarity to the expected human disease phenotype (that is, one or more human genes may be associated with the human disease; the mouse genotype may involve mutations in orthologous genes; but the phenotype does not resemble the human disease). These are noted by the &#8709; symbol.</LI></ul>
 
