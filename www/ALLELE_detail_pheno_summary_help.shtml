@@ -206,7 +206,7 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 <A HREF="#top"><font size=-1>Top</font></A>
 
 <h3><a name="source"></a>What should appear in the Source row?</h3>
-<p>When one of the genotypes has data from one of the high-throughput phenotyping projects, the curation source is displayed for all genotypes. WTSI (Wellcome Trust Sanger Institute) and EuPh (Europhenome) are examples. If this row is missing, MGI is the curation source.</p>
+<p>When one of the genotypes has data from one of the high-throughput phenotyping projects, the curation source is displayed for all genotypes. WTSI (Wellcome Trust Sanger Institute) and EuPh (Europhenome Mouse Phenotyping Resource) are examples. If this row is missing, MGI is the curation source.</p>
 <A HREF="#top"><font size=-1>Top</font></A>
 
 <h3><a name="howsortas"></a>What should appear on the Affected Systems list? How is it sorted?</h3>
