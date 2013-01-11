@@ -109,7 +109,7 @@ For example:
 <p><ul>
   <li>The MGI database contains all dbGSS mouse gene traps from the following cell line creators: BayGenomics, CMHD, EGTC, ESDB, FHCRC, GGTC, SIGTR, TIGEM, and TIGM, as well as from Lexicon Genetics.</li>
   <li>The database also contains targeted mutant cell lines from organizations such as Velocigene. </li>
-  <li>The following table lists these creators/organizations, their abbreviations and associated ILAR lab codes, and provides an example of cell line ID, sequence tag ID, dbGSS (GenBank) sequence ID, and allele or mutant cell line nomenclature for a gene trap from each creator. </li>
+  <li>The following table lists the major creators/organizations, their abbreviations and associated ILAR lab codes, and provides an example of cell line ID, sequence tag ID, dbGSS (GenBank) sequence ID, and allele or mutant cell line nomenclature for a gene trap from each creator. </li>
 <li>There are no sequence tag or GenBenk sequence identifiers for the Velocigene targeted KOMP alleles. </li>
 </ul>
 
