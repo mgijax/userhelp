@@ -57,7 +57,7 @@ function openHelpWindow(helpFile){
 <P>Depending on data availability and the marker type, this detail report contains information in some or all of the following categories:</P>
 
 <P><table width="!" cellpadding="2" cellspacing="2">
-<tr align="center"><td><font size="-1"><a href="#sym_detail">Symbol/Name/ID</a> | <a href="#synonym">Synonyms</a> | <a href="#sts">STS</a> | <a href="#feature_type">Feature Type</a> | <a href="#genetic_map">Genetic Map</a> | <a href="#sequence_map">Sequence Map</a> | <a href="#orthology">Vertebrate homology</a> | <a href="#humanortho">Human ortholog</a>  | <a href="#phenotypes_detail">Alleles & Phenotypes</a> | <a href="#GO_detail">Gene Ontology (GO) Classifications</a> | <a href="#expression_detail">Expression</a> | <a href="#molecular_reagents">Molecular reagents</a> | <a href="#other_database_links">Other database links</a> | <a href="#sequences">Sequences</a> | <a href="#polymorphisms">Polymorphisms</a> | <a href="#protein_domains_detail">Protein-related information</a> | <a href="#references">References</a> | <a href="#other">Other accession IDs</a></font></TD>
+<tr align="center"><td><font size="-1"><a href="#sym_detail">Symbol/Name/ID</a> | <a href="#synonym">Synonyms</a> | <a href="#sts">STS</a> | <a href="#feature_type">Feature Type</a> | <a href="#genetic_map">Genetic Map</a> | <a href="#sequence_map">Sequence Map</a> | <a href="#orthology">Vertebrate homology</a> | <a href="#humanortho">Human homologs</a>  | <a href="#phenotypes_detail">Alleles & Phenotypes</a> | <a href="#GO_detail">Gene Ontology (GO) Classifications</a> | <a href="#expression_detail">Expression</a> | <a href="#molecular_reagents">Molecular reagents</a> | <a href="#other_database_links">Other database links</a> | <a href="#sequences">Sequences</a> | <a href="#polymorphisms">Polymorphisms</a> | <a href="#protein_domains_detail">Protein-related information</a> | <a href="#references">References</a> | <a href="#other">Other accession IDs</a></font></TD>
 </TR>
 </TABLE>
 
@@ -140,8 +140,8 @@ homology</TH>
 
 <tr>
 <th ALIGN="left" VALIGN="top"><A NAME="humanortho"></A>Human<BR>
-ortholog</TH>
-<TD VALIGN="top">Human ortholog records for this marker, if available, as follows:
+homologs</TH>
+<TD VALIGN="top">Human homolog records for this marker, if available, as follows:
 <UL>
 <li>Official human gene symbol (linked to EntrezGene), name and NCBI EntrezGene ID </li>
 <li>Human Synonyms: Names or symbols for a given marker that may appear in the literature but which are not approved names or symbols</li>
