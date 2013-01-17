@@ -57,7 +57,7 @@ function openHelpWindow(helpFile){
 <P>Depending on data availability and the marker type, this detail report contains information in some or all of the following categories:</P>
 
 <P><table width="!" cellpadding="2" cellspacing="2">
-<tr align="center"><td><font size="-1"><a href="#sym_detail">Symbol/Name/ID</a> | <a href="#synonym">Synonyms</a> | <a href="#sts">STS</a> | <a href="#feature_type">Feature Type</a> | <a href="#genetic_map">Genetic Map</a> | <a href="#sequence_map">Sequence Map</a> | <a href="#orthology">Mammalian homology</a> | <a href="#humanortho">Human ortholog</a>  | <a href="#phenotypes_detail">Alleles & Phenotypes</a> | <a href="#GO_detail">Gene Ontology (GO) Classifications</a> | <a href="#expression_detail">Expression</a> | <a href="#molecular_reagents">Molecular reagents</a> | <a href="#other_database_links">Other database links</a> | <a href="#sequences">Sequences</a> | <a href="#polymorphisms">Polymorphisms</a> | <a href="#protein_domains_detail">Protein-related information</a> | <a href="#references">References</a> | <a href="#other">Other accession IDs</a></font></TD>
+<tr align="center"><td><font size="-1"><a href="#sym_detail">Symbol/Name/ID</a> | <a href="#synonym">Synonyms</a> | <a href="#sts">STS</a> | <a href="#feature_type">Feature Type</a> | <a href="#genetic_map">Genetic Map</a> | <a href="#sequence_map">Sequence Map</a> | <a href="#orthology">Vertebrate homology</a> | <a href="#humanortho">Human ortholog</a>  | <a href="#phenotypes_detail">Alleles & Phenotypes</a> | <a href="#GO_detail">Gene Ontology (GO) Classifications</a> | <a href="#expression_detail">Expression</a> | <a href="#molecular_reagents">Molecular reagents</a> | <a href="#other_database_links">Other database links</a> | <a href="#sequences">Sequences</a> | <a href="#polymorphisms">Polymorphisms</a> | <a href="#protein_domains_detail">Protein-related information</a> | <a href="#references">References</a> | <a href="#other">Other accession IDs</a></font></TD>
 </TR>
 </TABLE>
 
@@ -125,12 +125,13 @@ function openHelpWindow(helpFile){
 </TR>
 
 <TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="orthology"></A>Mammalian<BR>
+<TH ALIGN="left" VALIGN="top"><A NAME="orthology"></A>Vertebrate<BR>
 homology</TH>
-<TD VALIGN="top">Mammalian homology records for this marker, as follows (depending on availability):
+<TD VALIGN="top">Vertebrate homology records for this marker, as follows (depending on availability):
 <UL>
-<LI>A list of species with curated orthology relationships with (in parentheses) a link to the MGI Mammalian Orthology Query Results page of curated orthology relationships</LI>
-<LI>A link to a mouse/human comparative map display of the area plus or minus 2 cM around the marker</LI>
+<li>The HomoloGene ID for this genomic feature and a link to the MGI Vertebrate Homology Class page of homology relationships</li>
+<LI>A list of species with curated homology relationships and the number of related markers for each species.</li>
+<!--<LI>A link to a mouse/human comparative map display of the area plus or minus 2 cM around the marker</LI>-->
 <LI>A link to this marker's MGI Protein Superfamily Detail page if it can be annotated to a Protein Information Resource SuperFamily (PIRSF) classification name</LI>
 <li>A link to the Gene Tree View at Ensembl (phylogenetic trees of animal genes). </li>
 </UL>
