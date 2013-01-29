@@ -60,7 +60,7 @@ function openHelpWindow(helpFile){
 <a href="#top">Top</A><br>
 
  <h3><a name="broad_narrow"></a>What's the difference between the narrow search and the broad search?</h3>
-<P>The <i>narrow</i> search is on current gene symbols or names. The <i>broad</i> search includes current as well as old symbols or names, plus any synonyms, alleles, or orthologs.</p>
+<P>The <i>narrow</i> search is on current gene symbols or names. The <i>broad</i> search includes current as well as old symbols or names, plus any synonyms, alleles, or homologs.</p>
 
 <a href="#top">Top</A><br>
 
@@ -105,7 +105,7 @@ function openHelpWindow(helpFile){
 
  <TR><TH ALIGN="left" VALIGN="top">Symbol, Name</TH><TD>Marker symbol and name, linked to the MGI marker detail page.</TD></TR>
  <TR><TH ALIGN="left" VALIGN="top">Matching Text</TH><TD>Type of information contained in the database and the text that it matches. The tool searches for items containing a match in the following order: current symbol, current name, allele symbol, allele name, withdrawn symbol, withdrawn name,
-human ortholog symbol, human ortholog name, other ortholog symbol.</TD></TR>
+human homolog symbol, human homolog name, other homolog symbol.</TD></TR>
 </TABLE>
 
 <P>Note: If you use the narrow search (gene symbols/names), the <B>Matching Text</B> field does not appear on the Genes and Markers Query Results - Summary report.</P>
@@ -131,9 +131,9 @@ human ortholog symbol, human ortholog name, other ortholog symbol.</TD></TR>
      <LI>old (withdrawn) symbols </LI>
      <LI>old (withdrawn) names </LI>
      <LI>synonyms </LI>
-     <LI>human ortholog symbols </LI>
-     <LI>human ortholog names </LI>
-     <LI>other orthologs </LI>
+     <LI>human homolog symbols </LI>
+     <LI>human homolog names </LI>
+     <LI>other homologs </LI>
     </OL> </li>
  </uL><br>
 
