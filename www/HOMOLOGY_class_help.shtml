@@ -42,7 +42,8 @@ function openHelpWindow(helpFile){
  <li><A HREF="#contain">What's in the Vertebrate Homology Class Report?</A></li>
  <li><a href="#source">What is the source of the homology assertions?</a></li>
  <li><a href="#field">Which fields should show up in the Homology Class table?</a></li>
- <li><A href="#single">How do I view resources for genes or sequences?</A></li>
+ <li><A href="#acc_ID">How do I view resources for genes?</A></li>
+ <li><A href="#sequence">How do I view resources for sequences?</A></li>
  <li><a href="#align">Can I view a multiple sequence alignment?</a></li>
  <li><A HREF="#fasta">How do I download sequences in FASTA format?</A></li>
  <LI><A HREF="#mouseblast">How do I forward sequences to MouseBLAST?</A></LI>
@@ -85,7 +86,7 @@ function openHelpWindow(helpFile){
 
 <A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
 
-<h3><A NAME="fields"></A>Which fields should show up in the Homology Class table?</h3>
+<h3><A NAME="field"></A>Which fields should show up in the Homology Class table?</h3>
 <p>For each homolog in a class, the record shows some or all information in the following table, depending on the information available.
 </p>
 <table class="nb" width="!" align="center">
