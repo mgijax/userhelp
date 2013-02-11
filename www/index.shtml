@@ -88,7 +88,7 @@ User Help Site Map
 		<dd><a href="ALLELE_pheno_image_summary_help.shtml" onclick="javascript:openHelpWindow('ALLELE_pheno_image_summary_help.shtml'); return false;">Interpreting All Phenotype Images for a Gene</a></dd>
 	         <DD><a href="ALLELE_phenotype_highlevel_help.shtml" onclick="javascript:openHelpWindow('ALLELE_phenotype_highlevel_help.shtml'); return false;">Using the Phenotypes Selection List</a></dd>	
 	<dt><b>Diseases</b></dt> 
-		 <dd><a href="ALLELE_associated_human_diseases_help.shtml" onclick="javascript:openHelpWindow('ALLELE_associated_human_diseases_help.shtml'); return false;">Interpreting the Associated Human Disease Report</a></dd>		
+		 <dd><a href="VOCAB_omim_browser_detail_help.shtml" onclick="javascript:openHelpWindow('VOCAB_omim_browser_detail_help.shtml'); return false;">Interpreting Human Disease and Mouse Model Details</a></dd>		
 	
 	</blockquote>
 	
