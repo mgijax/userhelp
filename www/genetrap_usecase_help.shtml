@@ -376,11 +376,11 @@ For example:
   			<li>In the <b>Nomenclature & location</b> section, click the chromosome of the associated marker and enter additional information as desired in the <b>Cytogenetic Band, cM Position</b>, or <b>Genome Coordinates</b> boxes.</li>
   			<li>In the <b>Categories</b> section, click </b><b>gene trapped</b>.</li>
   			<li>Click <b>Search.</b></li>
-<b>Note:</b> The MGI gene trap algorithm restricts the search to gene traps with marker associations; a chromosomal location search therefore cannot return gene traps without those associations. Thus, when there is no marker association for the gene trap, a search by location from  the <a href="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, & Disease Models Query Form</a> does not yield a result. However, if you know a landmark or a region, try entering this location in MGI's <a href="http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current/" target="_blank">GBrowse</a> and clicking the <b>GeneTraps_RNA_tags</b> and <b>GeneTraps_DNA_tags</b> tracks. (See <a href="#how_know_gt">How can I tell if a given gene trap has trapped a gene?</a> and <a href="#interpret_gbrowse">How do I interpret GBrowse gene trap tracks?</a> for additional information about GBrowse.)
+<b>Note:</b> The MGI gene trap algorithm restricts the search to gene traps with marker associations; a chromosomal location search therefore cannot return gene traps without those associations. Thus, when there is no marker association for the gene trap, a search by location from  the <a href="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, & Disease Models Query Form</a> does not yield a result. However, if you know a landmark or a region, try entering this location in MGI's <a href="http://gbrowse.informatics.jax.org/cgi-bin/gb2/gbrowse/mousebuild38/" target="_blank">GBrowse</a> and clicking the <b>GeneTraps_RNA_tags</b> and <b>GeneTraps_DNA_tags</b> tracks. (See <a href="#how_know_gt">How can I tell if a given gene trap has trapped a gene?</a> and <a href="#interpret_gbrowse">How do I interpret GBrowse gene trap tracks?</a> for additional information about GBrowse.)
 
 			</ol>
 <br>
-		<li><a name="category"></a>By category</li>
+		<li><a name="category"></a>By category
 			<ol>
    			<li>In the <b>Categories</b> section, click <b>gene trapped</b>.</li>
  			<li>By default, this query queries returns <i><b>all</b></i> gene traps (cell line and mouse line). If you want to limit this search to cell lines made into mice, click <b>Exclude allele records present only in cell lines.</b></li>
@@ -420,7 +420,7 @@ For example:
   <li>There is no gene-trap-to-gene association for the gene trap.</li>
 </ol>
 </p>
-<p>If you are using the Quick Search tool, a link to the allele detail may appear in the Other Results by ID section of the Quick Search Results. You can also try entering a landmark or a region in  <a href="http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current/" target="_blank">GBrowse</a> and clicking the <b>GeneTraps_RNA_tags</b> and <b>GeneTraps_DNA_tags</b> tracks. (See <a href="#how_know_gt">How can I tell if a given gene trap has trapped a gene?</a> and <a href="#interpret_gbrowse">How do I interpret GBrowse gene trap tracks?</a> for additional information.)
+<p>If you are using the Quick Search tool, a link to the allele detail may appear in the Other Results by ID section of the Quick Search Results. You can also try entering a landmark or a region in  <a href="http://gbrowse.informatics.jax.org/cgi-bin/gb2/gbrowse/mousebuild38/" target="_blank">GBrowse</a> and clicking the <b>GeneTraps_RNA_tags</b> and <b>GeneTraps_DNA_tags</b> tracks. (See <a href="#how_know_gt">How can I tell if a given gene trap has trapped a gene?</a> and <a href="#interpret_gbrowse">How do I interpret GBrowse gene trap tracks?</a> for additional information.)
 </p>
 <p>See <a href="#no_association">Why aren't all gene traps associated with a gene?</a> for more details.
 </p>
