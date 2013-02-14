@@ -272,7 +272,6 @@ For example:
 
 <A HREF="#top"><font size="-1">Top</font></A>
 
-
 <!--2nd group-->
 <h2><a name="searching"></a>Searching for gene trap or cell line data</h2>
 
@@ -594,8 +593,8 @@ MCL	     Indicates Mutant Cell Line identity.
 <h3><a name="use_marker_detail"></a>Can I use a marker detail report to determine how many gene traps are available as ES cell lines only, as both cell lines and mice, or as mice only?</h3>
 <p>Not currently. This may be available in the future in a public report.
 </p>
-<A HREF="#top"><font size="-1">Top of the page</font></A>
-
+<A HREF="#top"><font size="-1">Top</font></A>
+<br>
 <!--4th group-->
 <h2><a name="sfgi"></a>Searching for sequence information</h2>
 <ul>
