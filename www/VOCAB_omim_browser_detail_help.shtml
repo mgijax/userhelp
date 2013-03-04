@@ -82,9 +82,9 @@ Interpreting Human Disease and Mouse Model Details</span>
 
 <TR><Th align="left" VALIGN="top"><a name="transgenes"></a>Transgenes and other mutation types</th><TD VALIGN="top">If there are transgenes or other mutation types (in mouse) associated with this human disease phenotype, this row appears, listing the transgene(s).</TD></TR>
 <tr>
-<TH align="left" VALIGN="top"><A NAME="mouse_models"></a>Mouse models</th><TD ALIGN="left" VALIGN="top">List of all mouse genotypes annotated to the disease. Results are sorted into five categories (if there is no result, a category does not appear) for models with:
+<TH align="left" VALIGN="top"><A NAME="mouse_models"></a>Mouse models</th><TD ALIGN="left" VALIGN="top">List of all mouse genotypes annotated to the disease. Genotypes may be of the following types:
   <OL>
-    <LI>Phenotypic similarity to human disease and etiologies involving orthologs (the human homolog of the mouse gene is associated with the same disease).  The mouse model genotypes listed include mutations in the homologs of these human genes. If a genotype appears in this category, it is not associated with any of the other four categories except <i>transgenes or other mutation types</i>. </LI>
+    <LI>Phenotypic similarity to human disease and etiologies involving homologs (a human homolog of the mouse gene is associated with the same disease). The mouse model genotypes listed include mutations in the homologs of these human genes. <!--If a genotype appears in this category, it is not associated with any of the other four categories except <i>transgenes or other mutation types</i>. --> </LI>
     <LI>Phenotypic similarity to human disease but a distinct etiology <I>i.e.,</I> human genes are associated with this disease. The mouse model genotypes listed do not include mutations in the homologs of these human genes.</LI>
    	<LI>Phenotypic similarity to human diseases with unknown etiology or involving genes where the human homolog is unknown.</LI>
     <LI>Transgenes or other mutation types (appears only if there are human diseases annotated to an allele of a non-gene marker). </LI>
@@ -92,7 +92,7 @@ Interpreting Human Disease and Mouse Model Details</span>
   </OL>
 <TABLE BORDER="1" CELLPADDING="4">
 
-<TR><TH ALIGN="left" VALIGN="top"><nobr>Allelic Composition</TH><TD VALIGN="top">Allele pairs that contribute to the genotype and the mouse strain background. Each allele is linked to its corresponding Phenotypic Allele Detail report.</TD></tr>
+<TR><TH ALIGN="left" VALIGN="top"><nobr>Allelic Composition</TH><TD VALIGN="top">Allele pairs that contribute to the genotype.<!--  and the mouse strain background --> Each allele is linked to its corresponding Phenotypic Allele Detail report.</TD></tr>
  <TR><TH ALIGN="left" VALIGN="top"><nobr>Genetic Background</nobr></TH><TD VALIGN="top">Mouse strains involved, if known. <!--Any numerical character following the strain indicates that additional information appears  at the bottom of the table.--> <B>Not</B> indicates that the reference's author(s) looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified.  
  </td></tr>
  <TR><TH ALIGN="left" VALIGN="top">Ref(s)</TH><TD VALIGN="top">The supporting reference linked by its MGI reference number to the MGI Reference Detail report containing the full citation. </TD></tr>
