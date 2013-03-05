@@ -49,7 +49,7 @@ Interpreting Human Disease and Mouse Model Details</span>
 <H3><A NAME="how_interpret"></A>How do I interpret a disease detail report?</H3>
 <P>Some or all of the following information appears in a Human Disease and Mouse Model Detail report. If there is no information, the sentence <i>There are currently no human or mouse genes associated with this disease in the MGI database</i> appears.</p>
 <table width="!" class="nb" cellpadding="2" align="center">
-<tr align="center"><td><a href="#human_disease">Human Disease</a> | <a href="#syn">Synonyms</a> | <a href="#assoc_genes">Associated Genes</a> | <a href="#transgenes">Transgenes and other mutation types</a> | <a href="#mouse_models">Mouse models</a></td>
+<tr align="center"><td><a href="#human_disease">Human Disease</a> | <a href="#syn">Synonyms</a> | <a href="#assoc_genes">Associated Genes</a> | <a href="#transgenes">Transgenes and other mutation types</a> | <a href="#mouse_models">Mouse Models</a></td>
   </tr>
    </table>
 
@@ -76,13 +76,14 @@ Interpreting Human Disease and Mouse Model Details</span>
    		<LI>The Mouse Homologs link to the MGI Gene Detail reports for each gene listed. There you can find data about everything known about the marker in the MGI database: synonyms, genetic and sequence maps (including the MGI Mouse Genome Browser), vertebrate homology, representative sequences, phenotypes, gene ontology classifications, expression, references, protein domains, references, as well as links to related databases.</LI>
   		<li>The <a href="#mouse_models">Mouse Models</a> shows the number of mouse models of the human disease and links to a pop-up window with more information.</li>
    		<LI>The Mouse : Human Homology Class links to the MGI Vertebrate Homology Class report where you can view homology and mapping information for several species and follow additional links (in the Gene Links column) to databases such as OMIM, Entrez Gene, HGNC.</LI>
+   		<li>An asterisk next to a gene symbol means the gene is associated with the disease in that species.</li>
   		<LI><I>None identified</I> appears in the Human Homologs column when no human genes are annotated with this disease; however, the Mouse Homologs link (to the MGI Gene Detail report) is active.</li> 
    		<LI><I>None identified</I> appears in the Mouse Homologs column when there are no mouse genes annotated with this disease, and there is no link to the Vertebrate Homology Class report.</li>
    	</ul></td></TR>
 
 <TR><Th align="left" VALIGN="top"><a name="transgenes"></a>Transgenes and other mutation types</th><TD VALIGN="top">If there are transgenes or other mutation types (in mouse) associated with this human disease phenotype, this row appears, listing the transgene(s).</TD></TR>
 <tr>
-<TH align="left" VALIGN="top"><A NAME="mouse_models"></a>Mouse models</th><TD ALIGN="left" VALIGN="top">List of all mouse genotypes annotated to the disease. Genotypes may be of the following types:
+<TH align="left" VALIGN="top"><A NAME="mouse_models"></a>Mouse Models</th><TD ALIGN="left" VALIGN="top">Clicking the <i>View</i> link produces a list of all mouse genotypes annotated to the disease. Genotypes may be of the following types:
   <OL>
     <LI>Phenotypic similarity to human disease and etiologies involving homologs (a human homolog of the mouse gene is associated with the same disease). The mouse model genotypes listed include mutations in the homologs of these human genes. <!--If a genotype appears in this category, it is not associated with any of the other four categories except <i>transgenes or other mutation types</i>. --> </LI>
     <LI>Phenotypic similarity to human disease but a distinct etiology <I>i.e.,</I> human genes are associated with this disease. The mouse model genotypes listed do not include mutations in the homologs of these human genes.</LI>
