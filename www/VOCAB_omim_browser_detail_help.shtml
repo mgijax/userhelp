@@ -64,7 +64,7 @@ Interpreting Human Disease and Mouse Model Details</span>
  <TR><th align="left" valign="top">ID:</TH><td>OMIM accession identifier, linked to OMIM record for the disease (e.g., 168600)</td></TR>
 </TABLE></td></tr>
 <TR><th align="left" valign="top"><a name="syn"></a>Synonyms</TH><TD VALIGN="top">A semicolon delimited list of any synonyms for the disease (e.g., Parkinsonism)</TD></TR>
-<TR><th align="left" valign="top"><a name="view_all"></a>View all models</TH><TD VALIGN="top">The total number of mouse models for this disease, linked to a list of their genotypes, references and phenotypes. See: <a href="#mouse_models">Mouse Models</a>.</TD></TR>
+<TR><th align="left" valign="top"><a name="view_all"></a>View all models</TH><TD VALIGN="top">The total number of mouse models for this disease, linked to a list of their genotypes, references and phenotypes. See: <a href="#mouse_models">Mouse Models</a> below.</TD></TR>
 <tr><th align="left" valign="top"><a name="assoc_genes"></a>Genes and mouse models</Th>
 <td>A list of all mouse and human markers where mutations in one or both species are associated with phenotypes characteristic of this human disease. Mouse and human icons appear, categorized by one of the following conditions, when met: 
     <ul>
@@ -75,16 +75,16 @@ Interpreting Human Disease and Mouse Model Details</span>
 	<P>Links:</p>
  	<UL>
    		<LI>The Mouse Homologs link to the MGI Gene Detail reports for each gene listed. There you can find data about everything known about the marker in the MGI database: synonyms, genetic and sequence maps (including the MGI Mouse Genome Browser), vertebrate homology, representative sequences, phenotypes, gene ontology classifications, expression, references, protein domains, references, as well as links to related databases.</LI>
-  		<li>The <a href="#mouse_models">Mouse Models</a> shows the number of mouse models of the human disease using that row's mouse homologs and links to a pop-up window with more information.</li>
+  		<li>The <a href="#mouse_models">Mouse Models</a> column shows the number of mouse models of the human disease using that row's mouse homologs and links to a pop-up window with more information.</li>
    		<LI>The Mouse : Human Homology Class links to the MGI Vertebrate Homology Class report where you can view homology and mapping information for several species and follow additional links (in the Gene Links column) to databases such as OMIM, Entrez Gene, HGNC.</LI>
    		<li>An asterisk next to a gene symbol means the gene is associated with the disease in that species.</li>
   		<!--<LI><I>None identified</I> appears in the Human Homologs column when no human genes are annotated with this disease; however, the Mouse Homologs link (to the MGI Gene Detail report) is active.</li> 
    		<LI><I>None identified</I> appears in the Mouse Homologs column when there are no mouse genes annotated with this disease, and there is no link to the Vertebrate Homology Class report.</li>-->
    	</ul></td></TR>
 
-<TR><Th align="left" VALIGN="top"><a name="transgenes"></a>Transgenes and other genome features</th><TD VALIGN="top">If there are transgenes or other mutation types (in mouse) associated with this human disease phenotype, this section appears, listing the transgene(s). The <a href="#mouse_models">Mouse Models</a> shows the number of mouse models of the human disease using that row's transgene or other genome feature and links to a pop-up window with more information.</li></TD></TR>
+<TR><Th align="left" VALIGN="top"><a name="transgenes"></a>Transgenes and other genome features</th><TD VALIGN="top">If there are transgenes or other mutation types (in mouse) associated with this human disease phenotype, this section appears, listing the transgene(s). The <a href="#mouse_models">Mouse Models</a> column shows the number of mouse models of the human disease using that row's transgene or other genome feature and links to a pop-up window with more information.</li></TD></TR>
 <tr>
-<TH align="left" VALIGN="top"><A NAME="mouse_models"></a>Mouse Models</th><TD ALIGN="left" VALIGN="top">Clicking the <i>View</i> link produces a list of all mouse genotypes annotated to the disease. Genotypes may be of the following types:
+<TH align="left" VALIGN="top"><A NAME="mouse_models"></a>Mouse Models</th><TD ALIGN="left" VALIGN="top">Clicking the <i>View</i> link produces a list of mouse genotypes. Genotypes may be of the following types:
   <OL>
     <LI>Phenotypic similarity to human disease and etiologies involving homologs (a human homolog of the mouse gene is associated with the same disease). The mouse model genotypes listed include mutations in the homologs of these human genes. <!--If a genotype appears in this category, it is not associated with any of the other four categories except <i>transgenes or other mutation types</i>. --> </LI>
     <LI>Phenotypic similarity to human disease but a distinct etiology <I>i.e.,</I> human genes are associated with this disease. The mouse model genotypes listed do not include mutations in the homologs of these human genes.</LI>
@@ -95,7 +95,7 @@ Interpreting Human Disease and Mouse Model Details</span>
 <TABLE BORDER="1" CELLPADDING="4">
 
 <TR><TH ALIGN="left" VALIGN="top"><nobr>Allelic Composition</TH><TD VALIGN="top">Allele pairs that contribute to the genotype.<!--  and the mouse strain background --> Each allele is linked to its corresponding Phenotypic Allele Detail report.</TD></tr>
- <TR><TH ALIGN="left" VALIGN="top"><nobr>Genetic Background</nobr></TH><TD VALIGN="top">Mouse strains involved, if known. <!--Any numerical character following the strain indicates that additional information appears  at the bottom of the table.--> 
+ <TR><TH ALIGN="left" VALIGN="top"><nobr>Genetic Background</nobr></TH><TD VALIGN="top">Mouse strains involved, if described. <!--Any numerical character following the strain indicates that additional information appears  at the bottom of the table.--> 
  </td></tr>
  <TR><TH ALIGN="left" VALIGN="top">Reference</TH><TD VALIGN="top">The supporting reference linked by its MGI reference number to the MGI Reference Detail report containing the full citation. </TD></tr>
  <TR><TH ALIGN="left" VALIGN="top">Phenotypes</TH><TD VALIGN="top">Links to the phenotypic details for the genotype.</TD></tr>
