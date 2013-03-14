@@ -49,7 +49,7 @@ Interpreting Human Disease and Mouse Model Details</span>
 <H3><A NAME="how_interpret"></A>How do I interpret a disease detail report?</H3>
 <P>Some or all of the following information appears in a Human Disease and Mouse Model Detail report. If there is no information, the sentence <i>There are currently no human or mouse genes associated with this disease in the MGI database</i> appears.</p>
 <table width="!" class="nb" cellpadding="2" align="center">
-<tr align="center"><td><a href="#human_disease">Human Disease</a> | <a href="#syn">Synonyms</a> | <a href="#view_all">View all models</a> | <a href="#assoc_genes">Associated Genes</a> | <a href="#transgenes">Transgenes</a> | <a href="#mouse_models">Mouse Models</a> | <a href="#complex">Complex models</a></td>
+<tr align="center"><td><a href="#human_disease">Human Disease</a> | <a href="#syn">Synonyms</a> | <a href="#view_all">View all models</a> | <a href="#assoc_genes">Associated Genes</a> | <a href="#transgenes">Transgenes</a> | <a href="#mouse_models">Mouse Models</a> | <a href="#complex">Complex Models</a></td>
   </tr>
    </table>
 
@@ -102,6 +102,8 @@ Interpreting Human Disease and Mouse Model Details</span>
 </TABLE></td></tr>
 <TR><Th align="left" VALIGN="top"><a name="complex"></a>Additional Complex Models</th><TD VALIGN="top">This section may be present if there models for which there are no endogenous disease-associated mouse or human genes. For each allelic combination, the genetic background, references and link to phenotypic details are provided. </TD></TR>
 <tr>
+<TR><Th align="left" VALIGN="top"><a name="not_models"></a>Disease phenotype
+not observed</th><TD VALIGN="top">This section may be present if the reference's authors looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified. For each allelic combination, the genetic background, references and link to phenotypic details are provided. </TD></TR>
 </TABLE>
 
 </P>
