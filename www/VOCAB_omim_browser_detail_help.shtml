@@ -100,10 +100,9 @@ Interpreting Human Disease and Mouse Model Details</span>
  <TR><TH ALIGN="left" VALIGN="top">Reference</TH><TD VALIGN="top">The supporting reference linked by its MGI reference number to the MGI Reference Detail report containing the full citation. </TD></tr>
  <TR><TH ALIGN="left" VALIGN="top">Phenotypes</TH><TD VALIGN="top">Links to the phenotypic details for the genotype.</TD></tr>
 </TABLE></td></tr>
-<TR><Th align="left" VALIGN="top"><a name="complex"></a>Additional Complex Models</th><TD VALIGN="top">This section may be present if there models for which there are no endogenous disease-associated mouse or human genes. For each allelic combination, the genetic background, references and link to phenotypic details are provided. </TD></TR>
+<TR><Th align="left" VALIGN="top"><a name="complex"></a>Additional Complex Models</th><TD VALIGN="top">This section may be present if there are models for which there are no endogenous disease-associated mouse or human genes. For each allelic combination, the genetic background, references and link to phenotypic details are provided. </TD></TR>
 <tr>
-<TR><Th align="left" VALIGN="top"><a name="not_models"></a>Disease phenotype
-not observed</th><TD VALIGN="top">This section may be present if the reference's authors looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified. For each allelic combination, the genetic background, references and link to phenotypic details are provided. </TD></TR>
+<TR><Th align="left" VALIGN="top"><a name="not_models"></a>Disease phenotype not observed</th><TD VALIGN="top">This section may be present if the reference's authors looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified. For each allelic combination, the genetic background, references and link to phenotypic details are provided. </TD></TR>
 </TABLE>
 
 </P>
