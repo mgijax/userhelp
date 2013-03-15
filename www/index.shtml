@@ -157,7 +157,7 @@ User Help Site Map
  
   <!-- orthology -->
    <a name="help_mammortho"></a>
-        <dt class="enhance">Mammalian Homology</dt>
+        <dt class="enhance">Vertebrate Homology</dt>
    <blockquote>
           
      <!--<dd> <a href="linkmap_help.shtml" onclick="javascript:openHelpWindow('linkmap_help.shtml'); return false;">
