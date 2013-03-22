@@ -65,7 +65,7 @@ function openHelpWindow(helpFile){
 	  <li><a href="#referencez">References</a></li>
 	  <li><a href="#probez">Probes</a></li>
 	  <li><a href="#expimage">Expression Image</a></li>
-	<li><a href="#snp">SNP</a></li>
+	<!--<li><a href="#snp">SNP</a></li>-->
  	<li><a href="#mapping">Mapping</a></li>
 	</ul>
 	
@@ -188,10 +188,10 @@ function openHelpWindow(helpFile){
 <dt><a name="expimage"></a><b>Expression Image</b></dt>
    <dd>MGI:3501363 :  MGI</dd>
 <br>
-
+<!--
 <dt><a name="snp"></a><b>SNP</b></dt>
    <dd>rs3021544   ss1275070 :  dbSNP</dd>
-<br>
+<br>-->
 <dt><a name="mapping"></a><b>Mapping</b></dt>
   <dd>MGD-CREX-2231 :  MGI</dd>
  
@@ -267,11 +267,11 @@ function openHelpWindow(helpFile){
   <TD VALIGN="top">Alphanumeric with colon</td>
 </TR>
 
-<tr>
+<<!--
   <td valign=top>RefSeq ID</td>
   <TD VALIGN="top">NM_09118</TD>
   <TD VALIGN="top">Alphanumeric with underscore</td>
-</TR>
+</TR> -->tr>
  <tr>
  <TD VALIGN="top">VEGA ID</td>
  <TD VALIGN="top">OTTMUSG00000010935</td>
@@ -332,9 +332,9 @@ td><td align=center valign=top>Markers</td><TD VALIGN="top">1FRB</TD><TD VALIGN=
   <TD VALIGN="top">GenBank/EMBL/DDBJ ID</td>
   <td align=center valign=top>Markers, Probes/Clones, Sequences</td>
   <TD VALIGN="top">S40294</td><TD VALIGN="top">Alphanumeric</td></tr>
-<tr>
+<!--<tr>
   <TD VALIGN="top">RefSeq ID</td>
-  <td align=center valign=top rowspan=10>Markers & Sequences</td><TD VALIGN="top">NM_0211099</td><TD VALIGN="top">Alphanumeric with underscore</td></tr>
+  <td align=center valign=top rowspan=10>Markers & Sequences</td><TD VALIGN="top">NM_0211099</td><TD VALIGN="top">Alphanumeric with underscore</td></tr> -->
 <tr>
   <td valign=top>Ensembl ID</td>
   <td align=top>ENSMUSG00000005672<br>ENSMUSP00000080991</td>
