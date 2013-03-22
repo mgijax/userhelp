@@ -323,9 +323,9 @@ td><td align=center valign=top>Markers</td><TD VALIGN="top">1FRB</TD><TD VALIGN=
 <tr><TD VALIGN="top">J number<br> (Every MGI stored reference has a number of the form J:<i>nnnnn..</i>).</td><TD VALIGN="top">J:14135</TD>
 <TD VALIGN="top">Alphanumeric with colon</td></TR>
 
-<TR><th colspan=4 align=left>SNPs</th></tr>
+<!-- <TR><th colspan=4 align=left>SNPs</th></tr>
 <tr><td valign="top">dbSNP</td><td align="center" valign="top">RefSNPs & assay IDs</td><td valign="top">rs3021544<br>ss12750703
-</td><TD VALIGN="top">Alphanumeric</td></TR>
+</td><TD VALIGN="top">Alphanumeric</td></TR> -->
 
 <TR><th colspan=4 align=left>Sequences</th></tr>
 <tr>
