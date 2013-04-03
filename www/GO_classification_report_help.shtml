@@ -55,22 +55,22 @@ function openHelpWindow(helpFile){
     </tr>
    <tr><th align="left" valign="top">Middle</th>
        <td valign="top">
-         <ul>
-         <li>GO Annotations Summary Text - details about the gene/marker/genome feature with links to related MGI gene, sequence, Gene Ontology Browser Term detail, and/or reference pages which place this feature in a variety of contexts.</li>
-     <li>Tabular View - A link to this data in table format. GO evidence code abbreviations are defined at the bottom of this page.</li>
-     <li>Go Graph - A link to GO Annotations in graphical format, for visualizing this data.</li>
-   </ul></td></tr>
+      <ul>
+       <li>GO Annotations Summary Text - details about the gene/marker/genome feature with links to related MGI gene, sequence, Gene Ontology Browser Term detail, and/or reference pages which place this feature in a variety of contexts.</li>
+       <li>Tabular View - A link to this data in table format. GO evidence code abbreviations are defined at the bottom of this page.</li>
+       <li>Go Graph - A link to GO Annotations in graphical format, for visualizing this data.</li>
+      </ul></td></tr>
    <tr><th align="left" valign="top">Bottom</th>
-       <td valign="top">
-        <ul>
-          <li>GO annotation of the gene record in tabular form, sorted first by category (molecular function, cellular component, biological process), second by classification term, and finally by evidence code. </li>
-          <li>Links to the Gene Ontology Browser term detail pages (from the Classification Term column). If a gene record is annotated with multiple terms, browse the GO vocabulary from this section to narrow the selection.</li>
-          <li>Links from Ref(s) column to MGI Reference Detail about the annotation </li>
-          <li>Link (back) to summary text in middle section</li>
-		  <li>Link to GO Graph, for visualizing this the data</li>
-		  <li>The ability to Export the table in Text (.txt) or Spreadsheet (.xlsx) formats.</li>
+      <td valign="top">
+       <ul>
+         <li>GO annotation of the gene record in tabular form, sorted first by category (molecular function, cellular component, biological process), second by classification term, and finally by evidence code. </li>
+         <li>Links to the Gene Ontology Browser term detail pages (from the Classification Term column). If a gene record is annotated with multiple terms, browse the GO vocabulary from this section to narrow the selection.</li>
+         <li>Links from Ref(s) column to MGI Reference Detail about the annotation </li>
+         <li>Link (back) to summary text in middle section</li>
+		 <li>Link to GO Graph, for visualizing this the data</li>
+		 <li>The ability to Export the table in Text (.txt) or Spreadsheet (.xlsx) formats.</li>
 		</ul>
-		  </td></tr>
+	</td></tr>
 </table>
 <h3>Field Descriptions: GO Annotations in Tabular Form </h3>
 <blockquote>
@@ -80,13 +80,14 @@ function openHelpWindow(helpFile){
     <tr><th align=left valign=top><a name="category"></a>Category</th> <td>One of three major categories into which all GO terms are organized: Molecular Function, Cellular Component, Biological Process.</td></tr>
     <tr><th align=left valign=top><a name="classterm"></a><nobr>Classification Term</th>
         <td>Specific GO term used to describe the given gene, linked to the GO Browser.
-          <ul>
-<li><i>Not</i> can appear before a term from any of the three ontologies. Curators use it to note explicitly that the gene product is not associated with the GO term.</li>
+    <ul>
+	<li><i>Not</i> can appear before a term from any of the three ontologies. Curators use it to note explicitly that the gene product is not associated with the GO term.</li>
  <br>
-<li><I>colocalizes with</I> appears only with cellular component terms. Curators use it:
+	<li><I>colocalizes with</I> appears only with cellular component terms. Curators use it:
     <ol>
-   <li>to annotate gene products transiently or peripherally associated with an organelle or complex to the relevant cellular component term;</li>
-   <li>in cases where the resolution of an assay is not accurate enough to say that the gene product is a bona fide component member. </li></ol>
+    <li>to annotate gene products transiently or peripherally associated with an organelle or complex to the relevant cellular component term;</li>
+    <li>in cases where the resolution of an assay is not accurate enough to say that the gene product is a bona fide component member. </li>
+    </ol>
    As an example, <I>colocalizes with</I> would appear when light microscope evidence localizes a gene product to i.e., a cellular complex, but there is no evidence that the gene product is a part of that complex.</li><br>
 
 <li><I>contributes to</I> appears only with molecular function terms. Curators use this annotation when a gene product contributes to a molecular function, but is not in itself sufficient for the function. Annotating individual gene products according to attributes of a complex is especially useful for molecular function annotations in cases where a complex has an activity, but not all of the individual subunits do. As an example, there may be a known catalytic subunit and one or more additional subunits, or the activity may only be present when the complex is assembled.</li><br>
