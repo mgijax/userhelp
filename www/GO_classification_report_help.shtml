@@ -48,8 +48,8 @@ function openHelpWindow(helpFile){
    <tr><th align="left" valign="top" width="5%">Top</th>
        <td valign="top">
         <ul>
-         <li>Symbol of the mouse genetic marker, linked to its detail page.</li>
-         <li>Name of the gene/marker/genome feature.</li>
+         <li>Symbol of the mouse genetic marker, linked to its detail page</li>
+         <li>Name of the gene/marker/genome feature</li>
          <li>ID: MGI accession identifier.</li>
         </ul>
     </tr>
@@ -65,9 +65,12 @@ function openHelpWindow(helpFile){
         <ul>
           <li>GO annotation of the gene record in tabular form, sorted first by category (molecular function, cellular component, biological process), second by classification term, and finally by evidence code. </li>
           <li>Links to the Gene Ontology Browser term detail pages (from the Classification Term column). If a gene record is annotated with multiple terms, browse the GO vocabulary from this section to narrow the selection.</li>
-           <li>Links from Ref(s) column to MGI Reference Detail about the annotation.
-          <li>Link (back) to summary text in middle section.</li>
-<li>Link to GO Graph, for visualizing this the data.</td></tr>
+          <li>Links from Ref(s) column to MGI Reference Detail about the annotation </li>
+          <li>Link (back) to summary text in middle section</li>
+		  <li>Link to GO Graph, for visualizing this the data</li>
+		  <li>The ability to Export the table in Text (.txt) or Spreadsheet (.xlsx) formats.</li>
+		</ul>
+		  </td></tr>
 </table>
 <h3>Field Descriptions: GO Annotations in Tabular Form </h3>
 <blockquote>
