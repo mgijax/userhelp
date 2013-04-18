@@ -52,7 +52,7 @@ Using the Genes and Markers Query Form</span>
 <h3><a name="whatdo"></a>What can I  use the Genes and Markers Query Form to find?</h3>
  <p>Use this query form to search for detailed information on various types of mouse markers. You can:
 <ul>
-<li>search for gene/marker details by entering a current or old symbol, name, allele, or ortholog; or you can restrict the search to look for only a current symbol or name.
+<li>search for gene/marker details by entering a current or old symbol, name, allele, or homolog; or you can restrict the search to look for only a current symbol or name.
   <li>query by feature type and thereby confine the search to protein coding genes, to individual non-coding RNA genes,  or to a variety of other categories. See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a> for a complete list of feature types, descriptions, and corresponding SO IDs (if available/pertinent).</li>
   <li>retrieve lists of markers sorted by nomenclature, genome coordinates, or  cM position.</li>
 <li>include GO classifications, InterPro domains, phenotype terms, or clone collections in your search parameters.
@@ -90,7 +90,7 @@ Using the Genes and Markers Query Form</span>
      <td align="top">Symbol, name, or synonym for a genetic marker.
 	     <ul>
   <li>Enter one or more symbols/names/synonyms (separated by commas). <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
-   <li>By default, the search is on current and old symbols/names, synonyms, alleles, and orthologs.  However, you can limit the search to current symbols or names.  </li>
+   <li>By default, the search is on current and old symbols/names, synonyms, alleles, and homologs.  However, you can limit the search to current symbols or names.  </li>
   <li>The <a href="MISC_operators_help.shtml">operators</a> (begins, = , ends, contains, like) present additional search options. The default is <i>contains</i>.</li>
 	</ul>
 	</td></tr>        
@@ -182,8 +182,8 @@ See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fi
        <th align="left" valign="top"><a name="sort_by"></a>Sort by</th>
        <td valign="top">Click one of the choices (Nomenclature, Genome Coordinates, or cM Position) to determine the order of any results on the summary page. <br>
 The combination of sort option and search parameter affects the order and type of results listed on this summary page.<ul>
-<li>If you search using <i>current & old symbols/names, synonyms, alleles, orthologs,</i> the summary page columns are  Chr, cM, Genome Coordinates, Symbol/Name and Matching Text.
-<li>If you search on <i>current symbols/names</i>, the summary page column headings are Chr, cM, Genome Coordinates, and Symbol/Name. </td>
+<li>If you search using <i>current & old symbols/names, synonyms, alleles, homologs,</i> the summary page columns are Genetic Location, Genome Coordinates, Feature Type, Symbol/Name and Matching Text.
+<li>If you search on <i>current symbols/names</i>, the summary page column headings are Genetic Location, Genome Coordinates, Feature Type and Symbol/Name. </td>
       </tr>
         <tr>
       <th valign="top" align="left"><a name="max_returned"></a>Maximum Returned</th><td>The default is 500.  You can change this number to whatever you wish or you can click <i>no limit</i>. </td>
