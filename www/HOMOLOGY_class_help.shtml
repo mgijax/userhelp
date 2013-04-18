@@ -61,11 +61,11 @@ function openHelpWindow(helpFile){
 
 <ul>
  <li>the <a href="#source">source</a> of the homology assertions and its homology class ID, linked to HomoloGene.</li>
- <li>a <a href="#field">table</a> summarizing homology information on the gene</LI>
+ <li>a <a href="#field">table</a> summarizing homology information for the class</LI>
  <li>the ability to select sequences from that table for downloading in FASTA format or forwarding to MouseBlast</LI>
  <li>links via the database accession identifier to the sequence source</LI>
  <li>a link to the HomoloGene Multiple Sequence <a href="#align">Alignment</a> for the class</li>
- <li>a link to a Comparative GO <a href="#graph">Graph.</a></li>
+ <li>a link to a Comparative GO <a href="#graph">Graph when GO annotations are present.</a></li>
 </ul>
 
 <A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
@@ -82,7 +82,7 @@ function openHelpWindow(helpFile){
  <li>chicken</li>
  <li>chimpanzee</li>
  <li>dog</li>
- <li>rhesus monkey</li>
+ <li>rhesus macaque</li>
  <li>zebrafish</li>
 </ul>
 <p>These are just a subset of the total species represented in HomoloGene Classes at NCBI.</p> 
@@ -120,7 +120,7 @@ to and the cM position or cytogenetic band. Location information varies dependin
 <p><A HREF="#top"><FONT SIZE="-1">Top</FONT></A></p>
 
 <H3><A NAME="align">Can I view a multiple sequence alignment?</a></H3>
-<p>Yes. Just above the table is a link to a Multiple Sequence Alignment of protein sequences at Homologene. 
+<p>Yes. Just above the table is a link to a Multiple Sequence Alignment of protein sequences at HomoloGene. 
 </p>
 
 <H3><A NAME="fasta"></A>How do I download sequences in FASTA format?</H3>
