@@ -245,7 +245,7 @@ There are several ways to use the map position parameters (<A HREF="#chromosome"
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="allele"></A>Allele</TH><TD>You can search on any <I>approved</I> mouse allele symbol, name, or synonym.<ul><li>Enter one or more terms, separated by commas. <b>Note:</b>&nbsp; If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "interleukin 10 receptor, beta" or "Alpha1,4Gal-T").</li><li> The operators (the default is <I>contains</I>) present additional search options. See <A HREF="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</A> for more details.</li></ul></TD></TR>
 
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="gene_marker"></A>Gene/Marker</TH><TD><ul><li>Symbol, name, or synonym for a mouse genetic marker.</li><li>Enter one or more terms, separated by commas.  <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
-<li>By default, the search is on current symbols/names and synonyms.  However, you can limit your search to current symbols (no search of names) or current symbols/names only (no search of synonyms)</li>
+<li>By default, the search is on current symbols/names, synonyms and homologs.</li>
 <li> The operators present additional search options; the default operator is contains. See <a href="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</a> for more information.</li></ul></TD></TR>
 </td>        </TR>
 
