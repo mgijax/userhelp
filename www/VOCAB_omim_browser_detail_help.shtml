@@ -83,6 +83,9 @@ Interpreting Human Disease and Mouse Model Details</span>
    	</ul></td></TR>
 
 <TR><Th align="left" VALIGN="top"><a name="transgenes"></a>Transgenes and other genome features</th><TD VALIGN="top">If there are transgenes or other mutation types (in mouse) associated with this human disease phenotype, this section appears, listing the transgene(s). The <a href="#mouse_models">Mouse Models</a> column shows the number of mouse models of the human disease using that row's transgene or other genome feature and links to a pop-up window with more information.</li></TD></TR>
+</table>
+<p>The following sections appear as a pop-up window when you click on a link to View models associated with a mouse gene or as a new page when you click the link to <a href="#view_all">View all models</a>.</p>
+<TABLE BORDER CELLPADDING="4">
 <tr>
 <TH align="left" VALIGN="top"><A NAME="mouse_models"></a>Mouse Models</th><TD ALIGN="left" VALIGN="top">Clicking the <i>View</i> link produces a list of mouse genotypes. Genotypes may be of the following types:
   <OL>
@@ -100,11 +103,10 @@ Interpreting Human Disease and Mouse Model Details</span>
  <TR><TH ALIGN="left" VALIGN="top">Reference</TH><TD VALIGN="top">The supporting reference linked by its MGI reference number to the MGI Reference Detail report containing the full citation. </TD></tr>
  <TR><TH ALIGN="left" VALIGN="top">Phenotypes</TH><TD VALIGN="top">Links to the phenotypic details for the genotype.</TD></tr>
 </TABLE></td></tr>
-<TR><Th align="left" VALIGN="top"><a name="complex"></a>Additional Complex Models</th><TD VALIGN="top">This section may be present if there are models for which there are no endogenous disease-associated mouse or human genes. For each allelic combination, the genetic background, references and link to phenotypic details are provided. </TD></TR>
+<TR><Th align="left" VALIGN="top"><a name="complex"></a>Additional Complex Models</th><TD VALIGN="top">This section appears only when clicking the link to <a href="#view_all">View all models</a> and will only be present if there are models for which there are no endogenous disease-associated mouse or human genes. For each allelic combination, the genetic background, references and a link to phenotypic details are provided. </TD></TR>
 <tr>
 <TR><Th align="left" VALIGN="top"><a name="not_models"></a>Disease phenotype not observed</th><TD VALIGN="top">This section may be present if the reference's authors looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified. For each allelic combination, the genetic background, references and link to phenotypic details are provided. </TD></TR>
 </TABLE>
-
 </P>
 <font size="-1"><A HREF="#top">Top</A></font>
 
