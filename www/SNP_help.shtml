@@ -253,7 +253,7 @@ See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fi
   <LI>Pick an <A HREF="operators.shtml">operator</A> from the selection list. The default is <I>equals</I>.</LI>
 
 <li>Enter the mouse gene symbol/name/synonym. <b>Note:</b> If the symbol/name or synonym contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
-  <LI>Use the default search (current symbols &#151; no search of names or synonyms) or make another choice from the selection list: current symbols/names &#151; no search of synonyms or current symbols/names and synonyms.</LI>
+  <LI>Use the default search (current symbols &#151; no search of names or synonyms) or make another choice from the selection list: current symbols/names &#151; no search of synonyms or current symbols/names, synonyms and homologs.</LI>
  </uL>
 </TD></TR>
 <TR><TH ALIGN="left" VALIGN="top">SNPs Located Near Genes</TH><TD>
