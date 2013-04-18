@@ -43,7 +43,7 @@ Interpreting Human Disease and Mouse Model Details</span>
 
 
 <H3><A NAME="disease_detail"></A>What information is in a disease detail report?</H3>
-<P>Searching or browsing on a term returns information in the Human Disease and Mouse Model Detail report for any disease, synonym, or accession identifier in the Vocabulary. </P>
+<P>The Human Disease and Mouse Model Detail lists genes in human and/or mouse homologs that may be associated with this disease. </P>
 
 
 <H3><A NAME="how_interpret"></A>How do I interpret a disease detail report?</H3>
