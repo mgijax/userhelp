@@ -69,8 +69,8 @@ Interpreting Human Disease and Mouse Model Details</span>
 <td>A list of all mouse and human markers where mutations in one or both species are associated with phenotypes characteristic of this human disease. Mouse and human icons appear, categorized by one of the following conditions, when met: 
     <ul>
         <li><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif"><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">Mutations in both mouse and homologous human genes are associated with this human disease phenotype.</li>
-        <LI><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif">Mutations in the mouse but not in the human gene are associated with this human disease phenotype. (OMIM data currently do not associate this disease with the orthologous human gene.)</LI>
- 		<LI><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">Mutations in the human gene.  MGI may not contain evidence that a mutation in a mouse gene presents a model for a disease, yet if the mouse gene is homologous to a human gene associated with a disease, it is listed as a disease homolog.</LI>
+        <LI><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif">Mutations in the mouse but not in the human gene are associated with this human disease phenotype. (OMIM and NCBI data currently do not associate this disease with the homologous human gene.)</LI>
+ 		<LI><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">Mutations in the human gene are associated with this human disease phenotype. MGI may not contain evidence that a mutation in a mouse gene presents a model for a disease, yet if the mouse gene is homologous to a human gene associated with a disease, it is listed as a disease homolog.</LI>
    	 </ul>
 	<P>Links:</p>
  	<UL>
@@ -89,11 +89,13 @@ Interpreting Human Disease and Mouse Model Details</span>
 <tr>
 <TH align="left" VALIGN="top"><A NAME="mouse_models"></a>Mouse Models</th><TD ALIGN="left" VALIGN="top">Clicking the <i>View</i> link produces a list of mouse genotypes. Genotypes may be of the following types:
   <OL>
-    <LI>Phenotypic similarity to human disease and etiologies involving homologs (a human homolog of the mouse gene is associated with the same disease). The mouse model genotypes listed include mutations in the homologs of these human genes. <!--If a genotype appears in this category, it is not associated with any of the other four categories except <i>transgenes or other mutation types</i>. --> </LI>
-    <LI>Phenotypic similarity to human disease but a distinct etiology <I>i.e.,</I> human genes are associated with this disease. The mouse model genotypes listed do not include mutations in the homologs of these human genes.</LI>
-   	<LI>Phenotypic similarity to human diseases with unknown etiology or involving genes where the human homolog is unknown.</LI>
-    <LI>Transgenes or other mutation types (appears only if there are human diseases annotated to an allele of a non-gene marker). </LI>
-    <LI>NOT Models. This section appears when the reference's authors looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified. </LI>
+    <LI><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif"><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif"> Mouse models where at least one of the mouse markers and its homologous human gene are associated with this human disease.
+	</LI>
+    <LI><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif">Mouse models where at least one of the mouse markers is associated to the disease but the human homolog is not currently associated with this human disease.</LI>
+   	<LI><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">Mouse models where none of the mouse markers are associated to the disease but at least one of the human homologs is associated with this human disease.</LI>
+    <LI>Transgenes or other mutation types appears when at least one of the non-gene mouse markers is associated with this human disease.
+). </LI>
+    <!--<LI>NOT Models. This section appears when the reference's authors looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified. </LI>-->
   </OL>
 <TABLE BORDER="1" CELLPADDING="4">
 
