@@ -43,7 +43,7 @@ function openHelpWindow(helpFile){
 
 <a name="top"></a>
 
-<p>This help document answers questions about the  top, middle, and bottom sections of the Gene Ontology Classifications report and describes the fields in the linked GO Annotations in Tabular Form page.  Access to this report is from an MGI Gene Detail page.</p>
+<p>This help document answers questions about the  top, middle, and bottom sections of the Gene Ontology Classifications report and describes the fields in the linked GO Annotations in Tabular Form page. Access to this report is from an MGI Gene Detail page or from a reference's Curated Data Functional annotations (GO) link.</p>
 <table>
    <tr><th align="left" valign="top" width="5%">Top</th>
        <td valign="top">
@@ -58,7 +58,7 @@ function openHelpWindow(helpFile){
       <ul>
        <li>GO Annotations Summary Text - details about the gene/marker/genome feature with links to related MGI gene, sequence, Gene Ontology Browser Term detail, and/or reference pages which place this feature in a variety of contexts.</li>
        <li>Tabular View - A link to this data in table format. GO evidence code abbreviations are defined at the bottom of this page.</li>
-       <li>Go Graph - A link to GO Annotations in graphical format, for visualizing this data.</li>
+       <li>GO Graph - A link to GO Annotations in graphical format, for visualizing this data.</li>
       </ul></td></tr>
    <tr><th align="left" valign="top">Bottom</th>
       <td valign="top">
@@ -72,13 +72,15 @@ function openHelpWindow(helpFile){
 		</ul>
 	</td></tr>
 </table>
-<h3>Field Descriptions: GO Annotations in Tabular Form </h3>
+<h3><a name="tabular"></a>Field Descriptions: GO Annotations in Tabular Form </h3>
+<p>Depending upon how you accessed this page, the following fields may be present. You can Export the table in Text (.txt) or Spreadsheet (.xlsx) formats.</p>
 <blockquote>
 <table cellpadding=4 border=1>
   <tr><th valign="Top">Field</th><th valign="top">Description</th></tr>
- 
-    <tr><th align=left valign=top><a name="category"></a>Category</th> <td>One of three major categories into which all GO terms are organized: Molecular Function, Cellular Component, Biological Process.</td></tr>
-    <tr><th align=left valign=top><a name="classterm"></a><nobr>Classification Term</th>
+  	<tr><th align=left valign=top><a name="symbol"></a>Symbol,Name</th> <td>The official mouse marker symbol and name for which the Gene Ontology annotation has been applied.</td></tr>
+  	<tr><th align=left valign=top><a name="Chr"></a>Chr</th> <td>The mouse Chromosome to which the marker has been mapped.</td></tr>
+	<tr><th align=left valign=top><a name="category"></a>Category</th> <td>One of three major categories into which all GO terms are organized: Molecular Function, Cellular Component, Biological Process.</td></tr>
+    <tr><th align=left valign=top><a name="classterm"></a><nobr>Classification/Annotated Term</th>
         <td>Specific GO term used to describe the given gene, linked to the GO Browser.
     <ul>
 	<li><i>Not</i> can appear before a term from any of the three ontologies. Curators use it to note explicitly that the gene product is not associated with the GO term.</li>
