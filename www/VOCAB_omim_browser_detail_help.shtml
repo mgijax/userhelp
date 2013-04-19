@@ -38,6 +38,7 @@ Interpreting Human Disease and Mouse Model Details</span>
  <UL>
 <li><A href="#disease_detail">What information is in a disease detail report?</A></li>
 <li><A href="#how_interpret">How do I interpret a disease detail report?</A></li>
+<li><A href="#how_assoc">How are Gene to Disease associations made?</A></li>
 </ul>
 </p>
 
@@ -94,7 +95,7 @@ Interpreting Human Disease and Mouse Model Details</span>
     <LI><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif">Mouse models where at least one of the mouse markers is associated to the disease but the human homolog is not currently associated with this human disease.</LI>
    	<LI><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">Mouse models where none of the mouse markers are associated to the disease but at least one of the human homologs is associated with this human disease.</LI>
     <LI>Transgenes or other mutation types appears when at least one of the non-gene mouse markers is associated with this human disease.
-). </LI>
+	</LI>
     <!--<LI>NOT Models. This section appears when the reference's authors looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified. </LI>-->
   </OL>
 <TABLE BORDER="1" CELLPADDING="4">
@@ -110,6 +111,11 @@ Interpreting Human Disease and Mouse Model Details</span>
 <TR><Th align="left" VALIGN="top"><a name="not_models"></a>Disease phenotype not observed</th><TD VALIGN="top">This section may be present if the reference's authors looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified. For each allelic combination, the genetic background, references and link to phenotypic details are provided. </TD></TR>
 </TABLE>
 </P>
+<font size="-1"><A HREF="#top">Top</A></font>
+
+<H3><A NAME="how_assoc"></A>How are Gene to Disease associations made?</H3>
+<p>Human disease associations to human genes are from the NCBI mim2gene_medgen file and include annotations from OMIM and NCBI. Human disease associations to mouse genes are from MGI curated data and are only made when the genotype of at least one mouse model allows for a clear gene to disease relationship to be determined. </p>
+
 <font size="-1"><A HREF="#top">Top</A></font>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
