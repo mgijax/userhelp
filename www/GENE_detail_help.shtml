@@ -155,15 +155,15 @@ homologs</TH>
 
 <TR>
 <TH ALIGN="left" VALIGN="top"><A NAME="phenotypes_detail"></A>Alleles and Phenotypes</TH>
-<TD VALIGN="top">Depending on availability, the display includes some or all of the following links or information. Numbers in parentheses indicate how many items each linked report contains.
+<TD VALIGN="top">Depending on availability, the display includes some or all of the following links or information. The numbers in parentheses indicate how many items in each linked report.
 <UL>
-<LI>Counts of and links to <i>All alleles</i> and to any other phenotypic allele category associated with this marker </LI>
-<LI>A short summary of phenotypes produced by mutant alleles</LI>
-<li>The number of human diseases associated with this mouse gene in MGI. When you click on this number a pop-up window appears listing the associated diseases (linked to the MGI Human Disease and Mouse Model Detail page) and the OMIM ID (linked to the OMIM entry for that disease). <!--An asterisk appears if that disease is associated with mutations in the mouse gene. At the bottom of the window is a link to a list of all mutant alleles of that gene that are associated with human disease models. (This does not necessarily mean that mutations in this gene contribute to or are causative of the disease.)--></li>
-<li><b>Alleles Annotated to Human Diseases</b>: a link to the Phenotypic Alleles
-Query Results -- Summary page: alleles with OMIM annotations to associated genotypes</li>
+<LI>Counts of <i>All alleles</i> and phenotypic allele categories of mutant alleles</LI>
+<LI>A short summary of phenotypes observed in mice with mutant alleles</LI>
+<li>The number of human diseases associated with this mouse gene in MGI. When you click on this number a pop-up window appears listing the associated diseases (linked to the MGI Human Disease and Mouse Model Detail page) and the OMIM ID (linked to the OMIM entry for that disease). </li>
+<li><b>Alleles Annotated to Human Diseases</b>: links to the Phenotypic Alleles
+Query Results -- Summary page for alleles with OMIM annotations to associated genotypes</li>
 <!--removed per TR7518 & 3.44 <LI>A link to the Mouse Locus Catalog if it contains a record for this phenotype. <B>Note:</B> The MLC records are being phased out and are available for only a subset  of MGI markers.</LI>-->
-<li> <b>Phenotype Images</b>: Click the number to bring up the <b>All Phenotype Images for Gene</b> report and view  every phenotype image that MGI has for this gene.</p></li>
+<li> <b>Phenotype Images</b>: links to the <b>All Phenotype Images for Gene</b> report  with every phenotype image in MGI for the gene.</p></li>
 </UL>
  </TD>
 </TR>

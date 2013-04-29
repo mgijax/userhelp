@@ -47,7 +47,7 @@ function openHelpWindow(helpFile){
  <li><a href="#align">Can I view a multiple sequence alignment?</a></li>
  <li><A HREF="#fasta">How do I download sequences in FASTA format?</A></li>
  <LI><A HREF="#mouseblast">How do I forward sequences to MouseBLAST?</A></LI>
- <li><a href="#graph">Are there Gene Ontology (GO) annotations for genes in this homology class?</a></li>
+ <li><a href="#graph">Are there curated Gene Ontology (GO) annotations for mouse, human, or rat genes in this homology class?</a></li>
 </ul>
 
 <P>See also:</P>
@@ -78,11 +78,11 @@ function openHelpWindow(helpFile){
  <li>human</li>
  <li>mouse</li>
  <li>rat</li>
- <li>cattle</li>
- <li>chicken</li>
  <li>chimpanzee</li>
- <li>dog</li>
  <li>rhesus macaque</li>
+ <li>cattle</li>
+ <li>dog</li>
+ <li>chicken</li>
  <li>zebrafish</li>
 </ul>
 <p>These are just a subset of the total species represented in HomoloGene Classes at NCBI.</p> 
@@ -142,13 +142,13 @@ to and the cM position or cytogenetic band. Location information varies dependin
 
 <p>For additional information, see:</p>
 <ul>
-   <li><a href="mouseblast_forwarding_help.shtml" target="_blank">Using the Forward to MouseBLAST Form</a> </LI>
+ <li><a href="mouseblast_forwarding_help.shtml" target="_blank">Using the Forward to MouseBLAST Form</a> </LI>
  <li><a href="mouseblast_output_help.shtml" target="_blank">Interpreting the MouseBLAST Output Report</a></li>  
 </ul>
 
 <p><A HREF="#top"><FONT SIZE="-1">Top</FONT></A></p>
 
-<H3><A NAME="graph">Are there Gene Ontology (GO) annotations for genes in this homology class?</a></H3>
+<H3><A NAME="graph">Are there curated Gene Ontology (GO) annotations for mouse, human, or rat genes in this homology class?</a></H3>
 <p>If available, there will be a link to a Comparative GO Graph of curated mouse, human and rat annotations of the molecular functions, biological processes and cellular components of the gene products in this homology class. 
 </p>
 
