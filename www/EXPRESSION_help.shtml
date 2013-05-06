@@ -152,7 +152,7 @@ If you are interested in doing queries that ask what genes are expressed in some
          <table>-->
 <TR>
 <td valign="top"><A NAME="anatomical_structure"></A><b>Anatomical structure or stage</b></td>
-<TD VALIGN="TOP"><p>Click to limit your search to assay results where expression was detected in, not detected in, or either. The default value is <i>either</i>.  <i>Detected in </i> and <i>not detected in</i> both return results labeled <i>Ambiguous</i> and <i>Not specified</i>.
+<TD VALIGN="TOP"><p>Click to limit your search to assay results where expression was detected in, not detected in, or either. The default value is <i>either</i>.  <i>Detected in </i> <!--and <i>not detected in</i> both--> also returns results labeled <i>Ambiguous</i> and <i>Not specified</i>.
 </p>
 <p>You can choose to use one or both fields in this section.
 </p>
@@ -266,7 +266,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <H3><A NAME="summary"></A>How do I interpret the query results summary and detail pages?</H3>
 <!--<p>See <a href="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data Query Results</a>.</p>
 -->
-<p>Your search results are displayed within three tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a> and <a href="#assaytab">Assay Results</a>. By default, the Assay Results tab is selected.</p>
+<p>Your search results are displayed within four tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a>, <a href="#assaytab">Assay Results</a> and <a href="#imagetab">Images</a>. By default, the Assay Results tab is selected.</p>
 
 <h4><a name="genestab"></a>Genes</h4>
 <p>If you select the Genes tab, the query summary contains the following fields:<br><br>
@@ -289,7 +289,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 </table></p>
 </blockquote>
 
-<h4><a name="byassay"></a>By Assay</h4>
+<h4><a name="byassay"></a>Assay</h4>
 <p>If you select the Assays tab, the query summary contains the following fields:<br><br>
 <blockquote> 
 <table border width="!" cellpadding="4" cellspacing="1">
@@ -347,6 +347,21 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <tr><td valign="top"><b>Reference </b></td>
      <td valign="top">J number (MGI identifier) and short format citation for this reference linked to its MGI reference detail report</td></tr>
 </table>
+</blockquote>
+
+<h4><a name="imagetab"></a>Images</h4>
+<p>If you select the Images tab, the query summary contains the following fields:<br><br>
+<blockquote> 
+<table border width="!" cellpadding="4" cellspacing="1">
+<tr><td valign="top"><b>Figure</b></td>
+     <td>?.</td></tr>
+<tr><td valign="top"><b>Gene</b></td>
+     <td>Symbol of the analyzed gene.</td></tr>
+ <tr><td valign="top"><b>Assay Type</b></td>
+     <td valign="top">Name of the assay used (e.g., Immunohistochemistry, Northern blot, RNA in situ, and so on).</td></tr>
+ <tr><td valign="top"><b>Result Details</b></td>
+     <td valign="top">?.</td></tr>
+</table></p>
 </blockquote>
 
 <a href="#top"><font size="-1">Top</font></a>
