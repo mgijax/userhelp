@@ -53,7 +53,7 @@ function openHelpWindow(helpFile){
 <ul>
   <li>Search for a genome feature by name, symbol, synonym, ortholog, allele, or accession ID</li>
 <li>Search using keywords or a text phrase</li>
-  <li>View the <a href="#best_match">best matches</a>, separated into <a href="#genome_features">Genome Features</a>, <a href="#vocabulary">Vocabulary Terms</a>, and <a href="#other_by_ID">Other Results by ID</a> (e.g. sequences, orthologies, references)</li>
+  <li>View the <a href="#best_match">best matches</a>, separated into <a href="#genome_features">Genome Features</a>, <a href="#vocabulary">Vocabulary Terms</a>, and <a href="#other_by_ID">Other Results by ID</a> (e.g. sequences, homologies, references)</li>
   <li>Follow links to MGI data: genes, alleles, genome features, vocabulary, other objects</li>
   <li>Forward lists of genome features to the MGI Batch Query tool (to access and download additional MGI data such as genome location, phenotype, expression, genome attributes)</li>
 <li>Iterate your query to find ever more relevant results</li>
@@ -73,7 +73,7 @@ function openHelpWindow(helpFile){
 
 <p>These three approaches compare your input text to:</p>
  <ul>
-  <li>individual mouse genome features by name (including mutant cell line name), symbol, synonym, ortholog, allele, accession ID</li>
+  <li>individual mouse genome features by name (including mutant cell line name), symbol, synonym, homolog, allele, accession ID</li>
   <li>individual nomenclature for mouse orthologs in other organisms (human, rat, and so on)</li>
   <li>individual vocabulary terms, synonyms, and definitions in six of MGI's controlled vocabularies:</li>
     <ul>
@@ -284,7 +284,7 @@ function openHelpWindow(helpFile){
 
 <!--3-->
 <dt><a name="other_by_ID"></a><b>Other Results by ID</b></dt><br>
-<dd>If your query contains one or more accession IDs for a non-genome feature or non-vocabulary object, such matches appear in this section. Results are linked to the sequence, orthology relationship, SNP, or other accession identifier matching a Quick Search box entry.</li><br>
+<dd>If your query contains one or more accession IDs for a non-genome feature or non-vocabulary object, such matches appear in this section. Results are linked to the sequence, homology class or other accession identifier matching a Quick Search box entry.</li><br>
 
 </dd><br>
 
