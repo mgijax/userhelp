@@ -38,21 +38,21 @@ function openHelpWindow(helpFile){
 <p>This help document answers the following questions:
  <UL>
  <LI><A HREF="#whatdo">What can I use the Mouse SNP Query Form to find?</A></LI>
-<LI><A HREF="SNP_discrepancy_help.shtml" target="_blank">How does genome coordinate discrepancy affect a query?</A></LI>
+ <LI><A HREF="SNP_discrepancy_help.shtml" target="_blank">How does genome coordinate discrepancy affect a query?</A></LI>
   <LI><A HREF="#seqattribute">How do I use this form to find SNPs?</A></LI>
-<li><a href="#specifics">Are there specific requirements for this form?</a></li>
-<li><a href="#date">How do I know which dbSNP build I'm querying against?</a></li>
-  <LI><A HREF="#accession_id">How do I query using a SNP accession ID?</A></LI>
-<li><a href="#sasc">How do I use the strain and strain comparison lists (Available Strains, Selected Strains, Reference Strain)?</a></li>
-<li><a href="#reference">What is a reference strain?</a></li>
-<li><A href="#no_strain">Why isn't my strain on the Available Strains list?</A></li>
-<li><A href="#available_strain_sort">What determines the sort order on the Available Strains list?</A></li>
-<LI><A HREF="#field">What values are acceptable in the each of the query form fields?</A></LI>
-<li><A HREF="#location">If I enter a marker in the SNPs Located Near Genes field, do the query results include or exclude that marker?</A></LI>
-<li><A HREF="#include_QTL">Do SNPs Located Near Genes include QTLs in the summary results?</A></LI>
-<li><A HREF="#include_QTL">Can I change the strain order in the query results?
+ <li><a href="#specifics">Are there specific requirements for this form?</a></li>
+ <li><a href="#date">How do I know which dbSNP build I'm querying against?</a></li>
+  <!--<LI><A HREF="#accession_id">How do I query using a SNP accession ID?</A></LI>-->
+ <li><a href="#sasc">How do I use the strain and strain comparison lists (Available Strains, Selected Strains, Reference Strain)?</a></li>
+ <li><a href="#reference">What is a reference strain?</a></li>
+ <li><A href="#no_strain">Why isn't my strain on the Available Strains list?</A></li>
+ <li><A href="#available_strain_sort">What determines the sort order on the Available Strains list?</A></li>
+ <LI><A HREF="#field">What values are acceptable in the each of the query form fields?</A></LI>
+ <li><A HREF="#location">If I enter a marker in the SNPs Located Near Genes field, do the query results include or exclude that marker?</A></LI>
+ <li><A HREF="#include_QTL">Do SNPs Located Near Genes include QTLs in the summary results?</A></LI>
+ <li><A HREF="#include_QTL">Can I change the strain order in the query results?
  <li><A href="#results">How do I interpret query results?</A></li>
-<LI><A HREF="SNP_no_results_help.shtml" target="_blank">My query returned no results. Why?</A></LI>
+ <LI><A HREF="SNP_no_results_help.shtml" target="_blank">My query returned no results. Why?</A></LI>
 <!--<A HREF="#example">Are there any sample queries?</A></LI>-->
 
 </UL>
@@ -120,7 +120,7 @@ function openHelpWindow(helpFile){
 <A HREF="#top"<font size-"-1">Top</font></A>
 
 
-  <h3><A name="accession_id"></A>How do I query using a SNP accession ID?</h3>
+<!--<h3><A name="accession_id"></A>How do I query using a SNP accession ID?</h3>
 <p>The easiest way to query using a SNP accession ID is to:
 <ol>
   <li>Type or paste the SNP accession ID into the <b>Quick Search</b> box (top right on most MGI web pages).</li>
@@ -128,7 +128,7 @@ function openHelpWindow(helpFile){
  
 <li> If MGI contains this SNP accession ID, it appears on a Quick Search Results page. Click <b>SNP</b> to access the MGI SNP Detail page.  
 </li>
-</ol>
+</ol>-->
 
 <A HREF="#top"<font size-"-1">Top</font></A>
 <h3>How do I use the strain and strain comparison lists (Available Strains, Selected Strains, Reference Strain)?</h3>
