@@ -32,9 +32,10 @@ function openHelpWindow(helpFile){
   </tr>
 </table>
 <!--#include file='include/templateBlankBodyStart.html'-->
-<a name="top"></A>
-<P>This help document describes Phenotypic Allele Details. 
 
+<a name="top"></A>
+
+<P>This help document describes Phenotypic Allele Details. 
 </P> 
 
 <ul>
@@ -165,7 +166,7 @@ The allele symbol is composed of the gene symbol and the allele designation.  If
    <td>
     <table border="0" cellspacing="2" cellpadding="4" width="100%">
            	<tr><td valign="top">Allele Type</td><td>Type of allele by mode of origin.</td></tr>
-	<tr><td valign="top">Mutation</td><td>Method that produced this mutation and methodology. When available, a description appears. Any molecular references are linked to MGI Reference Detail reports. Long molecular descriptions are hidden. Click the &#9658; to view them. </td></tr>
+	<tr><td valign="top">Mutation</td><td>Method that produced this mutation and methodology. When available, click the &#9658; to view a description. Any molecular references are linked to MGI Reference Detail reports. </td></tr>
 	<tr><td valign="top">Inheritance</td><td>Phenotypic effect of the allele when heterozygous with the wild type allele. <b>Note:</b> This information is primarily entered for spontaneous and chemically or radiation-induced alleles and QTLs.</td></tr>		
 <tr><td valign="top">Sequence tag</td><td>Click &#9658; to open the display.
 Click &#9660; to close the  display.

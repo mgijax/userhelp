@@ -383,7 +383,7 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
       <LI>Very strong
       <LI>Weak
     </UL>
-  <P><SUP>*</SUP><B>Present</B> appears if expression is reported as detected but the author did not specify the level. <b>Not specified</b> is used when the authors do not report whether a gel band is present or absent. <b>Ambiguous</b> is used when the curators cannot discern from the authors’ description whether expression is present or absent.</p></TD> </TR>
+  <P><SUP>*</SUP><B>Present</B> appears if expression is reported as detected but the author did not specify the level. <b>Not specified</b> is used when the authors do not report whether a gel band is present or absent. <b>Ambiguous</b> is used when the curators cannot discern from the authors‚Äô description whether expression is present or absent.</p></TD> </TR>
 <TR>   <td valign="top"><b><A NAME="pattern"></A>Pattern</b></td><td valign="top">Indicator of expression pattern as specified by the author. Possible values include:
     <UL>     
       <li>Diffuse</li>
@@ -401,8 +401,8 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
       <li>Widespread</li>
     </UL></TD> 
 </TR>
+<TR> <td valign="top"><b><A NAME="image"></A>Image</b></td> <td valign="top">Figure illustrating the result in the reference. The figure label links to a detail report containing an image of the original data.</TD> </TR>
 <TR> <td valign="top"><b><A NAME="note"></A>Note </b></td><td valign="top">Link to note containing additional information pertaining to the assay result.   If present, the notes appear below the results table.</TD> </TR>
-<TR>  <td valign="top"><b><A NAME="image"></A>Image</b></td> <td valign="top">Figure illustrating the result in the reference. If a camera icon appears, the figure label links to a detail report containing an image of the original data.</TD> </TR>
 </TABLE>
 </BLOCKQUOTE>
 <font size="-1"><A HREF="#top">Top</A></font>

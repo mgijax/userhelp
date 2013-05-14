@@ -43,22 +43,21 @@ function openHelpWindow(helpFile){
 
 <P>This help document answers the following questions:
 <UL>
- <LI><A HREF="#whatpurpose">What is the purpose of the Gene Expression Database?</a>
+ <LI><A HREF="#whatpurpose">What is the purpose of the Gene Expression Database?</a></li>
  <LI><A HREF="#whatquery">What can I use the Gene Expression Data Query Form to find?</a></li>
- <LI><A HREF="#howdo">How do I use this form?</a>
- <LI><A HREF="#fields">What values are acceptable in each of the query form fields?</a>
+ <LI><A HREF="#howdo">How do I use this form?</a></li>
+ <LI><A HREF="#fields">What values are acceptable in each of the query form fields?</a></li>
+ <li><A HREF="#whatdiffer">What is the purpose of the Differential Expression Search?</A></li>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
- <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</a>
- <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found" target="_blank">What if the search does not find any expression results?</a>
- <li><A HREF="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a</li>
+ <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</a></li>
+ <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found" target="_blank">What if the search does not find any expression results?</a></li>
+ <li><A HREF="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a></li>
  <li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</a></li>
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
  <li><a href="#batch">Can I send the results of my search to the MGI Batch Query?</a></li>
- <LI><A HREF="#example">Are there examples of query results?</a>
+ <LI><A HREF="#example">Are there examples of query results?</a></li>
 
 </UL></P>
-
-
 
 <h3><A name="whatpurpose"></a>What is the purpose of the Gene Expression Database?</h3>
 <p>The Gene Expression Database (GXD) is designed to integrate many different types of endogenous gene expression data from the mouse in formats appropriate for comprehensive analysis.   Query results, such as the developmental stage and tissue of expression (or non-expression), the genetic origin of the sample, and the numbers and sizes of detected bands, are described together with the molecular probe, the expression assay type, and the experimental conditions used.  Expression patterns are described using an extensive, hierarchical dictionary of standardized anatomical terms, making it possible to record expression results from assays with differing spatial resolution in a consistent and integrated manner and to analyze expression patterns at differing levels of detail. Whenever possible, text annotations are complemented by digitized images of the original expression data.
@@ -81,7 +80,6 @@ function openHelpWindow(helpFile){
 field values for these queries.)
 <p>
 If you are interested in doing queries that ask what genes are expressed in some anatomical structures and/or developmental stages but not in others, you should use the <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQFexpanded" target="_blank">Gene Expression Data Expanded Query Form</a>.</p>
-
 
 <h3><A name="howdo"></a>How do I use this query form?</h3>
 
@@ -152,7 +150,7 @@ If you are interested in doing queries that ask what genes are expressed in some
          <table>-->
 <TR>
 <td valign="top"><A NAME="anatomical_structure"></A><b>Anatomical structure or stage</b></td>
-<TD VALIGN="TOP"><p>Click to limit your search to assay results where expression was detected in, not detected in, or either. The default value is <i>either</i>.  <i>Detected in </i> and <i>not detected in</i> both return results labeled <i>Ambiguous</i> and <i>Not specified</i>.
+<TD VALIGN="TOP"><p>Click to limit your search to assay results where expression was detected in, not detected in, or either. The default value is <i>either</i>.  <i>Detected in </i> <!--and <i>not detected in</i> both--> also returns results labeled <i>Ambiguous</i> and <i>Not specified</i>.
 </p>
 <p>You can choose to use one or both fields in this section.
 </p>
@@ -244,6 +242,17 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 
+<h3><a name="whatdiffer"></a>What is the purpose of the Differential Expression Search?</h3>
+<p>The Differential Expression Search is specifically designed to allow you to search for genes expressed in some anatomical structures or developmental stages but not in others. Examples of the questions you can ask are:
+ <UL>
+  <LI>Which genes are expressed in the forebrain and not expressed in the midbrain?</LI>
+  <!--<LI>Which genes are expressed exclusively in the eye and its substructures?</LI>-->
+  <LI>Which genes are expressed only at Theiler Stage 15?</LI>
+  <LI>Which genes are expressed at Theiler Stage 10 but either are not expressed or have not been analyzed in the adult?</LI>
+  </UL></p>
+  
+<a href="#top"><font size="-1">Top</font></a>
+
 <h3><a name="revise"></a>Can I edit my original options and requery?</h3>
 <p>Yes, you can.</p>
 <ul><li>If you want to edit a list or change output options:</li>
@@ -266,7 +275,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <H3><A NAME="summary"></A>How do I interpret the query results summary and detail pages?</H3>
 <!--<p>See <a href="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data Query Results</a>.</p>
 -->
-<p>Your search results are displayed within three tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a> and <a href="#assaytab">Assay Results</a>. By default, the Assay Results tab is selected.</p>
+<p>Your search results are displayed within four tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a>, <a href="#assaytab">Assay Results</a> and <a href="#imagetab">Images</a>. By default, the Assay Results tab is selected.</p>
 
 <h4><a name="genestab"></a>Genes</h4>
 <p>If you select the Genes tab, the query summary contains the following fields:<br><br>
@@ -284,12 +293,14 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
  	 <td valign="top">Chromosome to which the marker is assigned. Aside from a chromosome number, other possible values include MT (mitochondrial), XY (XY pseudoautosomal), UN (chromosome assignment is not known)</td></tr>
  <tr><td valign="top"><b>Genome Location-NCBI Build # </b></td>
  	 <td valign="top">Genome coordinate range in base pairs and the build number of the B57BL/6J genome</td></tr>
+ <tr><td valign="top"><b>cM</b></td>
+ 	 <td valign="top">Cytogenetic position</td></tr>
  <tr><td valign="top"><b>Strand </b></td>
      <td valign="top">Coding strand for the gene</td></tr>
 </table></p>
 </blockquote>
 
-<h4><a name="byassay"></a>By Assay</h4>
+<h4><a name="byassay"></a>Assay</h4>
 <p>If you select the Assays tab, the query summary contains the following fields:<br><br>
 <blockquote> 
 <table border width="!" cellpadding="4" cellspacing="1">
@@ -338,7 +349,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
       <li>Ambiguous</li>
       <li>Not specified</li>
     </UL>
-<p>Note: Not specified is used when the authors do not report whether a gel band is present or absent.  Ambiguous is used when the curators cannot discern from the authors’ description whether expression is present or absent.</p>
+<p>Note: Not specified is used when the authors do not report whether a gel band is present or absent.  Ambiguous is used when the curators cannot discern from the authors‚Äô description whether expression is present or absent.</p>
   <!--<P><sup>*</sup><i>Present</i> appears if expression is reported as detected but the author did not specify the level.--></td></tr>
 <tr><td valign="top"><b>Figure(s) </b></td>
      <td valign="top">The pane that illustrates the expression results. If we have permission from the publisher to use the images, this is linked to the figure(s)</td></tr>
@@ -347,6 +358,21 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <tr><td valign="top"><b>Reference </b></td>
      <td valign="top">J number (MGI identifier) and short format citation for this reference linked to its MGI reference detail report</td></tr>
 </table>
+</blockquote>
+
+<h4><a name="imagetab"></a>Images</h4>
+<p>If you select the Images tab, the query summary contains the following fields:<br><br>
+<blockquote> 
+<table border width="!" cellpadding="4" cellspacing="1">
+<tr><td valign="top"><b>Figure</b></td>
+     <td>?.</td></tr>
+<tr><td valign="top"><b>Gene</b></td>
+     <td>Symbol of the analyzed gene.</td></tr>
+ <tr><td valign="top"><b>Assay Type</b></td>
+     <td valign="top">Name of the assay used (e.g., Immunohistochemistry, Northern blot, RNA in situ, and so on).</td></tr>
+ <tr><td valign="top"><b>Result Details</b></td>
+     <td valign="top">Links to detailed expression assay results.</td></tr>
+</table></p>
 </blockquote>
 
 <a href="#top"><font size="-1">Top</font></a>

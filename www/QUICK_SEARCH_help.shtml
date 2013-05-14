@@ -284,7 +284,7 @@ function openHelpWindow(helpFile){
 
 <!--3-->
 <dt><a name="other_by_ID"></a><b>Other Results by ID</b></dt><br>
-<dd>If your query contains one or more accession IDs for a non-genome feature or non-vocabulary object, such matches appear in this section. Results are linked to the sequence, orthology relationship, SNP, or other accession identifier matching a Quick Search box entry.</li><br>
+<dd>If your query contains one or more accession IDs for a non-genome feature or non-vocabulary object, such matches appear in this section. Results are linked to the sequence, orthology relationship, or other accession identifier matching a Quick Search box entry.</li><br>
 
 </dd><br>
 
