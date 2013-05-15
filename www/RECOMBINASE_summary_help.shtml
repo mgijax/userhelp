@@ -128,7 +128,7 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <tr><th class="thleft"> <a name="csh_driver"></a>Driver</th><td valign="top">Gene, genetic element, or construct that promotes recombination. 
 </td></tr> 
 
-<tr><th class="thleft"> <a name="asgan"></a>Allele Symbol, linked to the MGI Detail Report for this allele. Note that the detail page has a <b>Recombinase Activity</b> row listing every system examined where activity has been detected or not detected. Each system links to its activity detail page. <br>Gene; Allele Name</th><td>Official symbol for the allele.<br>Gene name; allele name.</td></tr> 
+<tr><th class="thleft"> <a name="asgan"></a>Allele Symbol<br>Gene; Allele Name</th><td>Official symbol for the allele, linked to the MGI Detail Report for this allele. Note that the detail page has a <b>Recombinase Activity</b> row listing every system examined where activity has been detected or not detected. Each system links to its activity detail page. <br>Gene name; allele name.</td></tr> 
 
 <tr><th class="thleft"> <a name="recomb_data"></a><nobr>Recombinase Activity Detected</nobr></th><td>Information about anatomical systems where recombinase activity data was detected<ul>
 <li>Click any list item to display a detail page with allele and tissue information, images, activity particulars, and references.</li>
