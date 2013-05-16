@@ -48,6 +48,7 @@ function openHelpWindow(helpFile){
  <LI><A HREF="#howdo">How do I use this form?</a></li>
  <LI><A HREF="#fields">What values are acceptable in each of the query form fields?</a></li>
  <li><A HREF="#whatdiffer">What is the purpose of the Differential Expression Search?</A></li>
+ <li><A HREF="#EXPRESSION_expanded_help.shtml#howdiffer">How do I use the Differential Expression Search?</A></li>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
  <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</a></li>
  <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found" target="_blank">What if the search does not find any expression results?</a></li>
@@ -253,6 +254,11 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
   
 <a href="#top"><font size="-1">Top</font></a>
 
+<h3>How do I use the Differential Expression Search?</h3>
+<p>See <a href="EXPRESSION_expanded_help.shtml#howdiffer" target="_blank">Using the Differential Expression Search</a>.
+</p>
+<a href="#top"><font size="-1">Top</font></a>
+
 <h3><a name="revise"></a>Can I edit my original options and requery?</h3>
 <p>Yes, you can.</p>
 <ul><li>If you want to edit a list or change output options:</li>
@@ -365,7 +371,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <blockquote> 
 <table border width="!" cellpadding="4" cellspacing="1">
 <tr><td valign="top"><b>Figure</b></td>
-     <td>?.</td></tr>
+     <td>A thumbnail image, linked to the MGI Image Detail page.</td></tr>
 <tr><td valign="top"><b>Gene</b></td>
      <td>Symbol of the analyzed gene.</td></tr>
  <tr><td valign="top"><b>Assay Type</b></td>
