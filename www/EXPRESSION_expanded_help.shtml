@@ -71,7 +71,7 @@ function openHelpWindow(helpFile){
   </UL></p>
  <P>See <A HREF="#example">Are there examples of query results?</A> for the form field values for these queries.
 
-<P>If you are interested in doing queries that do not involve comparing the presence and absence of expression in various structures or at various stages, you might find it easier to use the standard tab on the 
+<P>If you are interested in doing queries that do not involve comparing the presence and absence of expression in various structures or at various stages, use the Standard Search tab on the 
 <a href="<!--#include file='include/fewi_url.html'-->gxd" target="_blank">Gene Expression Data Search Form</A>.</P>
 
 <a href="#top"><font size="-1">Top</font></a>
@@ -81,7 +81,7 @@ function openHelpWindow(helpFile){
 <P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following paragraphs. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help.shtml">Using MGI Query Forms</a> for answers to questions such as: 
    <ul>
     <li><A HREF="MISC_usingQFs_help.shtml#howdo" target="_blank">How do I submit a query?</a></li>
-       <li><a href="MISC_operators_help.shtml#operators" target="_blank">What are operators and how do they affect my query?</a></li>
+    <!--<li><a href="MISC_operators_help.shtml#operators" target="_blank">What are operators and how do they affect my query?</a></li>-->
     <li><a href="MISC_usingQFs_help.shtml#options" target="_blank">How do I select more than one item on a list?</a></li>
   <li><a href="MISC_usingQFs_help.shtml#casesen" target="_blank">Does it matter what case I use when I type values in the fields?</a></li>
   <LI><a href="MISC_usingQFs_help.shtml#sort" target="_blank">How do the sort options work?</a></li>
@@ -106,27 +106,27 @@ function openHelpWindow(helpFile){
   
 <TR><td valign="top"><a name="detected_in"></a><b>Expression</b></Td><td valign="top">This portion of the form lets you query for genes expressed in some anatomical structures and/or developmental stages but not in others.
 <UL>
-<LI>To specify structure(s), type an entry in the field or make stage selections from the list.  You may use both fields simultaneously.</LI>
+<LI>To specify structure(s), type an entry in the field or make stage selections from the list.  <!--You may use both fields simultaneously.--></LI>
 <LI>Structures or stages entered in the top box query the database for assay results demonstrating the expression of genes in those structures or stages.</LI>
 <LI>Structures or stages entered in the lower box query for the absence of expression of genes in those structures or stages.  <B>Note:</B> If the structure or stage in the lower box has conflicting expression results annotated to it, i.e., results showing both the presence and absence of expression of a particular gene, that gene is considered to be expressed and is not returned by this query.</LI>
 </UL>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
   <tr>
 
-  <td valign="top"><a name="anatomical_structure"></a><b>Anatomical Structure(s)</b></td>
-  <td valign="top">The anatomical structures are taken from the <a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</a>. Enter a single item or multiple items separated by commas. Use an <a href="MISC_operators_help.shtml" target="_blank">operator</a> (the default is <i>contains</i>)  to narrow or expand your search.
+  <td valign="top"><a name="anatomical_structure"></a><b>Anatomical Structure</b></td>
+  <td valign="top">The anatomical structures are taken from the <a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</a>. Begin typing a term of interest and an autocomplete list activates on the second character. 
 
-<p>For each stage, the Anatomical Dictionary is organized as a hierarchy of structures. You can choose to include either substructures (children), superstructures (parents), both, or neither in your search. The default is to Include substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon. If you choose to include superstructures, the system, besides searching for brain, looks for structures in the hierarchy placed above brain, such as central nervous system.
+<p>For each stage, the Anatomical Dictionary is organized as a hierarchy of structures. By default the search includes substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon. <!--If you choose to include superstructures, the system, besides searching for brain, looks for structures in the hierarchy placed above brain, such as central nervous system.-->
 <p>Please note: 
-<ul><li>If you enter more than one structure in the upper box, results demonstrating expression of a particular gene must exist for <b>all</b> the structures you specified in order for the query to return that gene.
+<!--<ul><li>If you enter more than one structure in the upper box, results demonstrating expression of a particular gene must exist for <b>all</b> the structures you specified in order for the query to return that gene.
 <li>If you enter more than one structure in the lower box, the query returns genes with an absence of expression in any of the specified structures.
 <li>If you click Any other structure, the query returns genes with expression in the specified structures but nowhere else.
-</ul>
+</ul>-->
 <p>If you are unsure of the most appropriate structural term to use, browse the
 <a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</a>. </td>
 </tr>
 
-<tr><td valign="top"><a name="developmental_stage"></a><b>Developmental Stage(s)</b></td>
+<tr><td valign="top"><a name="developmental_stage"></a><b>Developmental Stage</b></td>
     <td valign="top">Use this field to select <a href="MISC_usingQFs_help.shtml#options" target="_blank">one or more</a> Theiler stages (TS) to focus your search on a particular stage of embryonic development. <ul>
     <li>The default for the upper box is <i>Any</i> stage.</li>
     <li>The default for the lower box is <i>All stages not selected above</i>. </li>
@@ -138,16 +138,18 @@ function openHelpWindow(helpFile){
 <p><b>Note</b>: The Theiler system organizes development into stages defined by the
 appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc. Therefore, if you are interested in all available records for embryos of age 14.0 dpc, you must select both TS 21 and TS 22.
 <p>You can <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28.
-<tr><td valign="top"><a name="and_not"></a><b>Expression: <br>and NOT detected in:<br>
+<!--<tr><td valign="top"><a name="and_not"></a><b>Expression: <br>and NOT detected in:<br>
 and NOT detected or analyzed in:</b><br></td><td valign="top"><p>This portion of the form allows you to distinguish between two kinds of absence of expression. When you use:
 <ul>
 <li><b>and NOT detected in</b>, the query is for results where expression is <i>absent</i> in the specified structures or stages.</li>
 <li><b>and NOT detected or analyzed in</b>, the query is for genes with no positive expression results in the specified structures or stages. The result is genes whose expression has not been examined (not analyzed) in the specified structures and stages, as well those genes whose expression was <i>absent</i> (not detected).  This is particularly useful because authors tend to emphasize where a particular gene is expressed but often do not explicitly discuss where it was not expressed.</li>
-</ul></td></tr>
+</ul></td></tr>-->
 
-<tr><td valign="top"><b>Exclude mutant specimens from query</b></td><td align="left" valign="top">
+<!--<tr><td valign="top"><b>Exclude mutant specimens from query</b></td><td align="left" valign="top">
 Since mutants often have aberrant expression patterns, by default, expression results obtained from specimens containing one or more mutant alleles are excluded from the query.  To include expression results obtained from mutants in your query, click to deselect this option.  <b>Note:</b> Because of the way the query is designed, knock-in embryos are considered mutants.  Therefore, if you exclude mutant specimens, the query returns no expression results 
-obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table></td></tr>
+obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table></td></tr>-->
+
+<tr><td valign="top"><b>Structure and Stage</b></td><td align="left" valign="top">More stuff here. </td></tr></table></td></tr>
 </blockquote>
 
    </td>

@@ -22,7 +22,7 @@ function openHelpWindow(helpFile){
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
- Interpreting a Recombinase Alleles Tissue Activity Summary
+ Interpreting a Recombinase Alleles Tissue Summary
  </span>
 </div>
 
@@ -40,11 +40,11 @@ function openHelpWindow(helpFile){
 
 <A NAME="top"></A>
 
-<P>This document answers the following questions about the Recombinase Alleles - Tissue Activity Summary page:</P>
+<P>This document answers the following questions about the Recombinase Alleles - Tissue Summary page:</P>
 <UL>
   <li><a href="#manipulate">What are the ways of creating different views of the data on this page?</a></li>
 
-  <LI><A HREF="#access">When does a Recombinase Alleles - Tissue Activity Summary appear?</A></LI>
+  <LI><A HREF="#access">When does a Recombinase Alleles - Tissue Summary appear?</A></LI>
 <LI><A HREF="#contain">What should show up on this page?</A></LI>
   <LI><A HREF="#usage">How do I interpret the information on this page?</A></LI>
 <!--<li><a href="#no_result">How can I find recombinase data if the structure or driver is not listed on the Recombinase (cre) Activity search lists?</a></li>
@@ -71,7 +71,7 @@ function openHelpWindow(helpFile){
 
 
 
-<h3><a name="access"></a>When does a Recombinase Alleles - Tissue Activity Summary appear?</h3>
+<h3><a name="access"></a>When does a Recombinase Alleles - Tissue Summary appear?</h3>
 <p>The Recombinase Alleles Summary presents a table of transgenic and targeted knock-out recombinase alleles contained in the MGI database. It appears when you select either a driver or a system from the boxes on the <a href="http://www.creportal.org" target="_blank">Recombinase (cre) Activity</a> page and click <b>Go</b>.
 
 
@@ -111,8 +111,8 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <table class="nb">
 <tr><td><font size="-1"><a href="#csh_driver">Driver</a> |
 <a href="#asgan">Allele Symbol/Gene;Allele Name</a> | 
-<a href="#recomb_data">Recombinase Data</a> | 
-<a href="#anatom_system"><i> system</i></a> |
+<a href="#recomb_data">Recombinase Activity</a> | 
+<!--<a href="#anatom_system"><i> system</i></a> |-->
 <a href="#allele_syn">Allele Synonym</a> | 
 <a href="#allele_type">Allele Type</a> | 
 <a href="#inducible">Inducible</a> |  
@@ -130,17 +130,17 @@ When the specimen's genotype involves a recombinase allele, the results of these
 
 <tr><th class="thleft"> <a name="asgan"></a>Allele Symbol<br>Gene; Allele Name</th><td>Official symbol for the allele, linked to the MGI Detail Report for this allele. Note that the detail page has a <b>Recombinase Activity</b> row listing every system examined where activity has been detected or not detected. Each system links to its activity detail page. <br>Gene name; allele name.</td></tr> 
 
-<tr><th class="thleft"> <a name="recomb_data"></a><nobr>Recombinase Activity Detected</nobr></th><td>Information about anatomical systems where recombinase activity data was detected<ul>
+<tr><th class="thleft"> <a name="recomb_data"></a><nobr>Recombinase Activity Detected</nobr></th><td>Information about anatomical systems where recombinase activity data was assayed and detected<ul>
 <li>Click any list item to display a detail page with allele and tissue information, images, activity particulars, and references.</li>
 <li>This field will be empty when data showing activity are absent.</li>
 <li>Click the column heading to sort by anatomical system.</li>
-<tr><th class="thleft"> <a name="recomb_data"></a><nobr>Recombinase Activity Not Detected</nobr></th><td>Information about anatomical systems where recombinase activity data was not detected<ul>
+<tr><th class="thleft"><nobr>Recombinase Activity Not Detected</nobr></th><td>Information about anatomical systems where recombinase activity data was assayed and not detected<ul>
 <li>Click any list item to display a detail page with allele and tissue information, images, activity particulars, and references.</li>
 <li>This field will be empty when data failing to show activity are absent.</li>
 <li>Click the column heading to sort by anatomical system.</li>
 </ul></td></tr> 
 
-<tr><th class="thleft"> <a name="anatom_system"></a><nobr><i>system</i></nobr></th> <td valign="top"><ul>
+<!--<tr><th class="thleft"> <a name="anatom_system"></a><nobr><i>system</i></nobr></th> <td valign="top"><ul>
   <li>When you search for recombinase activity by selecting an anatomical system from the list on the Recombinase (cre) Activity page, a column containing information about that system appears in the results; the system name appears in the column header.</li>
   <li>Any links go to the Recombinase Activity Detail page for the listed system. Use the check boxes at the top of the page to add/remove additional systems.</li>
   <li>Other information in this column:
@@ -150,7 +150,7 @@ When the specimen's genotype involves a recombinase allele, the results of these
 	<tr><th class="thleft"> Not Detected</th><td valign="top">Recombinase activity was assayed but not found for this driver and system/tissue.</td></tr>
 	<tr><th class="thleft">blank</th><td valign="top">MGI contains no information.</td></tr>
 		</table>
-	</td></tr>
+	</td></tr>-->
 
 <tr><th class="thleft"> <a name="allele_syn"></a>Allele Synonym</th> <td valign="top">Any additional designations for the allele.</td></tr>
 

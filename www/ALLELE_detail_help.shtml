@@ -192,12 +192,34 @@ Click &#9660; to close the  display.<br>The image that appears is a genome brows
 
 <tr><TR><th valign="top" align="right"><a name="recombinase_activity"></a>Recombinase activity</td>
     <Td><table border="1" cellspacing="1" cellpadding="2" width="100%">
-      <tr><td valign="top">Activity in</td><td valign="top">Recombinase activity was assayed and detected for this allele in all (the high-level terms for the) anatomical systems listed.</td></tr>
- <tr><td valign="top"><nobr>Not Detected in</nobr></td><td valign="Top">Recombinase activity was assayed and not detected for this allele in all (the high-level terms for the) anatomical systems listed.</td></tr>
+      <tr><td valign="top">Activity</td><td valign="top">Recombinase activity was assayed  for this allele in all (the high-level terms for the) anatomical systems listed.</td></tr>
+ <p>Recombinase activity is displayed in a table of Systems/Structures and ages assayed. The <b>Activity in Systems/Structures</b> column lists anatomical Systems/Structures assayed for recombinase activity. 
+<ul>
+  <li>If a structure you are interested in does not appear, it means that currently there are no assay data for this allele in that structure.</li>
+  <li>The sort order is alphabetical (e.g., behavioral/neurological before cardiovascular, skeleton before skin/coat/nails). </li>
+  <li>To expand or collapse  <b>all</b> structures, click  <b>show</b>
+or <b>hide</b> (at the top of the Activity in Systems/Structures column).</li>
+  <li>To expand or collapse a <b>single</b> system, click the &#9658; or &#9660; beside it.</li>
+  <li>A check mark (&#10003;) means recombinase activity was assayed and detected in the system/structure and age. A minus sign (-) means recombinase activity was assayed and not detected in the system/structure and age.</li>
+</ul>
+</p>
+<p>The age ranges are as follows: 
+	<blockquote>
+		<table border="1" cellspacing="2" cellpadding="3" width="!">
+ 		<tr><th>E 0-8.9</th><td>Embryonic age from conception to 8.9 days</td></tr>
+ 		<tr><th>E 9.0-13.9</th><td>Embryonic age from 9 to 13.9 days</td></tr>
+ 		<tr><th>E 14-19.5</th><td>Embryonic age from 14 to 19.5 days</td></tr>
+ 		<tr><th>P 0-21</th><td>Postnatal age from birth to 21 days</td></tr>
+		 <tr><th>Post-weaning</th><td>Postnatal age from 22 to 42 days</td></tr>
+ 		<tr><th>Adult</th><td>Older than 43 days</td></tr>
+		</table>
+	</blockquote>
+</p>
  <tr><td valign="top">Driver</td><td valign="Top">Name of promoter and a link to a summary of all recombinase alleles driven by this promoter.</td></tr>
-
-    </table>
-    Each listed system links to a Recombinase Activity Detail page associating expression assays of type <b>Recombinase reporter</b>,  <b>In situ reporter (knock in)</b> and <b>In situ reporter (transgene)</b> with genotypes. </td></tr>
+	</table>
+<p>Each listed system links to a Recombinase Activity Detail page associating expression assays of type <b>Recombinase reporter</b>,  <b>In situ reporter (knock in)</b> and <b>In situ reporter (transgene)</b> with genotypes. </p>
+<p>If you have information about this allele that is not displayed on this Allele Detail page, such as ectopic activity observed for the allele or constitutive activity for an inducible allele, click the <b>Your Observations Welcome</b> button to have this information included in MGI.</p>
+</td></tr>
 
 
 <TR><TH align="right" valign=top><A NAME="summary"></a>Phenotypes<td valign="top">See <a href="ALLELE_detail_pheno_summary_help.shtml" target="_blank">Interpreting the Phenotype summary table.</a></td></tr>

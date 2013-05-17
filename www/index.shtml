@@ -97,12 +97,11 @@ User Help Site Map
      <dt class="enhance">Gene Expression</dt>
          
   	<blockquote>
-<dd><a href="EXPRESSION_literature_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_literature_help.shtml'); return false;">Using the Gene Expression Literature Query Form</a></dd>
 <dd><a href="EXPRESSION_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_help.shtml'); return false;">
               Using the Gene Expression Data Query Form</a></dd>
-<!--<dd><a href="EXPRESSION_expanded_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_expanded_help.shtml'); return false;">
-              Using the Gene Expression Data Expanded Query Form</a></dd>-->
-
+<dd><a href="EXPRESSION_expanded_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_expanded_help.shtml'); return false;">
+              Using the Differential Expression Search</a></dd>
+<dd><a href="EXPRESSION_literature_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_literature_help.shtml'); return false;">Using the Gene Expression Literature Query Form</a></dd>
 <dd><a href="EXPRESSION_query_results_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_query_results_help.shtml'); return false;">Interpreting Gene Expression Data Query Results</a>  	</dd>
 <dd><a href="EXPRESSION_image_summary_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_image_summary_help.shtml'); return false;">Interpreting the Gene Expression Data Images Query by Gene Summary</a></dd>
 <dd><a href="EXPRESSION_tissue_results_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_tissue_results_help.shtml'); return false;">Interpreting the Gene Expression Data: Results by Tissue Summary</a></dd>
