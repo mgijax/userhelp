@@ -48,7 +48,7 @@ function openHelpWindow(helpFile){
  <LI><A HREF="#howdo">How do I use this form?</a></li>
  <LI><A HREF="#fields">What values are acceptable in each of the query form fields?</a></li>
  <li><A HREF="#whatdiffer">What is the purpose of the Differential Expression Search?</A></li>
- <li><A HREF="#EXPRESSION_expanded_help.shtml#howdiffer">How do I use the Differential Expression Search?</A></li>
+ <li><A HREF="#howdiffer">How do I use the Differential Expression Search?</A></li>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
  <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</a></li>
  <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found" target="_blank">What if the search does not find any expression results?</a></li>
@@ -254,8 +254,8 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
   
 <a href="#top"><font size="-1">Top</font></a>
 
-<h3>How do I use the Differential Expression Search?</h3>
-<p>See <a href="EXPRESSION_expanded_help.shtml#howdiffer" target="_blank">Using the Differential Expression Search</a>.
+<h3><a name="howdiffer"></a>How do I use the Differential Expression Search?</h3>
+<p>See <a href="EXPRESSION_expanded_help.shtml" target="_blank">Using the Differential Expression Search</a>.
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 

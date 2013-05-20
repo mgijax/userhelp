@@ -114,7 +114,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
       </UL>
       </TD>
   </TR>
-  <TR><TH ALIGN="left" VALIGN="top">Additional Information: <BR>Gene Expression Data <BR>(X results in Y assay)</TH><TD VALIGN="top">Expression assays that use the probe.</TD></TR></TABLE>
+  <TR><TH ALIGN="left" VALIGN="top">Additional Information: <BR>Gene Expression Data </TH><TD VALIGN="top">Links to expression results derived using the probe. </TD></TR></TABLE>
 </TABLE></P>
 <A HREF="#top">Top</A>
 
