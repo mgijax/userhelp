@@ -64,7 +64,7 @@ function openHelpWindow(helpFile){
 <ul>
 <!--<li>Click an anatomical system in the top table to see a column containing information about this system appear in the bottom table.</li>
 <li>Click to uncheck any of the items under <b>Other columns</b> to eliminate that column from the bottom table.</li> <li>Click <b>Reset Page</b> to return to a default setting.</li> -->
-<li>Click column headings to sort table data. The initial sort is alphabetical, A-Z (for most columns) . Click the column heading or the arrows to reverse the sort. The exception is the Recombinase Data column which sorts by the total number of systems with data. Again, click the heading to reverse the sort (least to most).</li>
+<li>Click column headings to sort table data. The initial sort is alphabetical, A-Z (for most columns). Click the column heading or the arrows to reverse the sort. The exception is the Recombinase Data column which sorts by the total number of systems with data. Again, click the heading to reverse the sort (least to most).</li>
 <li>Click and hold down the mouse on any of the column headings in the lower table to drag that column to the left or right and thereby rearrange the data order. You could, for example, place the <b>Driver</b> column all the way to the right of the lower table.</li>
   </ul>
 </p>
