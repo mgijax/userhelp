@@ -105,14 +105,13 @@ User Help Site Map
 <dd><a href="EXPRESSION_query_results_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_query_results_help.shtml'); return false;">Interpreting Gene Expression Data Query Results</a>  	</dd>
 <dd><a href="EXPRESSION_image_summary_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_image_summary_help.shtml'); return false;">Interpreting the Gene Expression Data Images Query by Gene Summary</a></dd>
 <dd><a href="EXPRESSION_tissue_results_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_tissue_results_help.shtml'); return false;">Interpreting the Gene Expression Data: Results by Tissue Summary</a></dd>
-  
-<dt><b>Probes & Clones</b></dt>
-	<dd><a href="EXPRESSION_probe_summary_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_probe_summary_help.shtml'); return false;">Interpreting a Probe and Clone Data Summary</a></dd>
-	<dd><a href="EXPRESSION_probe_detail_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_probe_detail_help.shtml'); return false;">Interpreting Probe and Clone Data Details</a></dd>
 
-  <dt><b>Molecular Reagents</b></dt>
+  
+	<dt><b>Molecular Reagents</b></dt>
+		<dd><a href="EXPRESSION_probe_summary_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_probe_summary_help.shtml'); return false;">Interpreting a Probe and Clone Data Summary</a></dd>
+		<dd><a href="EXPRESSION_probe_detail_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_probe_detail_help.shtml'); return false;">Interpreting Probe and Clone Data Details</a></dd>
 		<dd><a href="EXPRESSION_affy_probe_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_affy_probe_help.shtml'); return false;">Interpreting a Microarray Probeset Summary</a></dd>
-	<!--<dd><a href="EXPRESSION_antibody_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_antibody_help.shtml'); return false;">Interpreting an Antibodies Summary</a></dd>-->
+		<dd><a href="EXPRESSION_antibody_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_antibody_help.shtml'); return false;">Interpreting an Antibodies Summary</a></dd>
 </blockquote>
  
   <!-- cre -->
