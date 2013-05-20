@@ -90,7 +90,7 @@ function openHelpWindow(helpFile){
   <TR><TH align=left valign=top>Reference <TD VALIGN=TOP>Reference for a paper that uses the antibody. J number (unique MGI reference accession ID) linked to the reference detail, and short format citation.</TR>
   <TR><TH align=left valign=top>Genes (Chromosome) <TD VALIGN=TOP>Symbol for the gene that encodes for the antigen. The chromosome</a> if known, appears in parentheses. </TR>
   <TR><TH align=left valign=top>Aliases (Reference)<TD VALIGN=TOP>Other names for the antibody, followed by the J number (unique MGI reference accession ID) of the reference the name is used in, linked to the reference detail.</TR>
-  <TR> <TH align=left valign=top>Additional information <TD VALIGN=TOP>Links to gene expression records of assays that use the antibody.
+  <TR> <TH align=left valign=top>Additional Information: <BR>Gene Expression Data <TD VALIGN=TOP>Links to expression results derived using the antibody.
   </TR>
   </TABLE></p>
 <A HREF="#top">Top</A>
