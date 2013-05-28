@@ -149,7 +149,7 @@ and NOT detected or analyzed in:</b><br></td><td valign="top"><p>This portion of
 Since mutants often have aberrant expression patterns, by default, expression results obtained from specimens containing one or more mutant alleles are excluded from the query.  To include expression results obtained from mutants in your query, click to deselect this option.  <b>Note:</b> Because of the way the query is designed, knock-in embryos are considered mutants.  Therefore, if you exclude mutant specimens, the query returns no expression results 
 obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table></td></tr>-->
 
-<tr><td valign="top"><a name="structurestage"></a><b>Structure and Stage</b></td><td align="left" valign="top">Use this section when you want to query for genes expressed in some structures and stages but not in other structures and stages. This section combines the query fields for the <a name="anatomical_structure"></a><b>Anatomical Structure</b> and <a name="developmental_stage"></a><b>Developmental Stage</b> fields. </td></tr></table></td></tr>
+<tr><td valign="top"><a name="structurestage"></a><b>Structure and Stage</b></td><td align="left" valign="top">Use this section when you want to query for genes expressed in some structures and stages but not in other structures and stages. This section combines the query fields for the <a href="#anatomical_structure">Anatomical Structure</a> and <a href="#developmental_stage">Developmental Stage</a> fields. </td></tr></table></td></tr>
 </blockquote>
 
    </td>
