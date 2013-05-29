@@ -215,6 +215,7 @@ The age ranges are as follows:
 		</table>
 	</blockquote></td></tr>
  <tr><td valign="top">Driver</td><td valign="Top">Name of promoter and a link to a summary of all recombinase alleles driven by this promoter.</td></tr>
+ <tr><td valign="top">User Notes</td><td valign="Top">If researchers have submitted additional information to MGI regarding the tissue activity of this allele, this section will be present. Toggle the &#9658; to view the information.</td></tr>
 	</table>
 <p>Each listed system links to a Recombinase Activity Detail page associating expression assays of type <b>Recombinase reporter</b>,  <b>In situ reporter (knock in)</b> and <b>In situ reporter (transgene)</b> with genotypes. </p>
 <p>If you have information about this allele that is not displayed on this Allele Detail page, such as ectopic activity observed for the allele or constitutive activity for an inducible allele, click the <b>Your Observations Welcome</b> button to have this information included in MGI.</p>
