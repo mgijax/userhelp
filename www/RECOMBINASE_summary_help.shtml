@@ -69,10 +69,8 @@ function openHelpWindow(helpFile){
   </ul>
 </p>
 
-
-
 <h3><a name="access"></a>When does a Recombinase Alleles - Tissue Summary appear?</h3>
-<p>The Recombinase Alleles Summary presents a table of transgenic and targeted knock-out recombinase alleles contained in the MGI database. It appears when you select either a driver or a system from the boxes on the <a href="http://www.creportal.org" target="_blank">Recombinase (cre) Activity</a> page and click <b>Go</b>.
+<p>The Recombinase Alleles Summary presents a table of transgenic and targeted knock-out recombinase alleles contained in the MGI database. It appears when you select either a driver or an anatomical structure from the boxes on the <a href="http://www.creportal.org" target="_blank">Recombinase (cre) Activity</a> page and click <b>Go</b>.
 
 
 <h3><A name="contain"></a>What should show up on this page?</h3>
