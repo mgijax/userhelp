@@ -102,9 +102,10 @@ User Help Site Map
 <dd><a href="EXPRESSION_expanded_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_expanded_help.shtml'); return false;">
               Using the Differential Expression Search</a></dd>
 <dd><a href="EXPRESSION_literature_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_literature_help.shtml'); return false;">Using the Gene Expression Literature Query Form</a></dd>
-<dd><a href="EXPRESSION_query_results_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_query_results_help.shtml'); return false;">Interpreting Gene Expression Data Query Results</a>  	</dd>
-<dd><a href="EXPRESSION_image_summary_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_image_summary_help.shtml'); return false;">Interpreting the Gene Expression Data Images Query by Gene Summary</a></dd>
+<!--<dd><a href="EXPRESSION_query_results_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_query_results_help.shtml'); return false;">Interpreting Gene Expression Data Query Results</a> </dd>-->
+<!--<dd><a href="EXPRESSION_image_summary_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_image_summary_help.shtml'); return false;">Interpreting the Gene Expression Data Images Query by Gene Summary</a></dd>-->
 <dd><a href="EXPRESSION_tissue_results_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_tissue_results_help.shtml'); return false;">Interpreting the Gene Expression Data: Results by Tissue Summary</a></dd>
+<dd><a href="VOCAB_amad_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_amad_browser_help.shtml'); return false;">Using the Adult Mouse Anatomical Dictionary Browser</a></dd>
 
   
 	<dt><b>Molecular Reagents</b></dt>
@@ -207,9 +208,6 @@ User Help Site Map
 	<dd><a href="mouseblast_forwarding_help.shtml" onclick="javascript:openHelpWindow('mouseblast_forwarding_help.shtml'); return false;">Using the Forward to MouseBLAST Form</a></dd>
 
 
-
-
-
 	<dt><b>Gene Trap Help</b></dt>
 		<dd><a href="genetrap_usecase_help.shtml" onclick="javascript:openHelpWindow('genetrap_usecase_help.shtml'); return false;">Gene Trap Questions and Answers</a></dd> 
 
@@ -239,8 +237,6 @@ User Help Site Map
 <dd><a href="GO_classification_fields_help.shtml" onclick="javascript:openHelpWindow('GO_classification_fields_help.shtml'); return false;">Using Gene Ontology Classification Fields on MGI Query Forms</a></dd>		
 
 
-
-
 <dt class="enhance">Vocabularies        
 
  		<dd><a href="VOCAB_go_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_go_browser_help.shtml'); return false;">Using the Gene Ontology (GO) Browser</a>
@@ -249,16 +245,13 @@ User Help Site Map
 		<dd><a href="GO_classification_report_help.shtml" onclick="javascript:openHelpWindow('GO_classification_report_help.shtml'); return false;">Interpreting the Gene Ontology Classifications Report</a>
                     </dd>		
 
-
 <dd><a href="VOCAB_omim_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_omim_browser_help.shtml'); return false;">Using the Human Disease Vocabulary Browser</a></dd>
 		
 <dd><a href="VOCAB_omim_browser_detail_help.shtml" onclick="javascript:openHelpWindow('VOCAB_omim_browser_detail_help.shtml'); return false;">Interpreting Human Disease and Mouse Model Details</a></dd>
 		
-
 <dd><a href="VOCAB_mp_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_mp_browser_help.shtml'); return false;">Using the Mammalian Phenotype (MP) Browser</a></dd>		
 
 <dd><a href="VOCAB_mad_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_mad_browser_help.shtml'); return false;">Using the Mouse Anatomical Dictionary Browser</a></dd>		
-
 
 <dd><a href="VOCAB_amad_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_amad_browser_help.shtml'); return false;">Using the Adult Mouse Anatomical Dictionary Browser</a></dd>
         </dl>
