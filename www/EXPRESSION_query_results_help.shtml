@@ -1,7 +1,7 @@
 <!--#include file='include/templateHead.html'-->
 <title>
   <!--#include file="include/mgiversion.html"-->
-MGI-Interpreting Gene Expression Data Query Results</title>
+MGI-Interpreting Gene Expression Data and Image Details</title>
 
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
@@ -17,7 +17,7 @@ function openHelpWindow(helpFile){
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
-Interpreting Gene Expression Data Query Results</span>
+Interpreting Gene Expression Data and Image Details</span>
 </div>
 
 <!-- Container Table -->
@@ -71,32 +71,7 @@ Interpreting Gene Expression Data Query Results</span>
 <p>To learn more about GXD and how we acquire data, please see
 <a href="<!--#include file='include/mgihome_url.html'-->/GXD/aboutGXD.shtml" target="_blank">About GXD</a>.</p>
 
-<H3><a name="access"></a>How can I access the Gene Expression Data Query Results Summary reports?</H3>
-<ul>
-<!--<li>The Gene Expression Data Query Results Summary reports return the results of queries from the following forms:
-<UL>
-  <LI>Gene Expression Data Query Form</LI>
-  <LI>Gene Expression Data Expanded Query Form</LI>
-  <LI>Anatomical Dictionary Browser</LI>
-  <LI>Anatomical Dictionary Browser Query Refiner</LI>
-</UL>
-<P>To learn more about using these query forms, consult their help documents (click the question mark at the top of each form).-->
-<li>Links to the Gene Expression Data Query Results Summary reports appear on some detail reports, including those for:
-<UL>
-  <LI>Molecular Probes</LI>
-  <LI>Antibodies</LI>
-</UL></P>
-<li>Queries from the Quick Search box also use these reports to summarize results.</li>
-</ul>
-<font size="-1"><a href="#top">Top</a>
-</font>
-
-<h3><a name="content"></a>What should the summary report contain?</h3>
-<p>At the top of the Gene Expression Data Query - Summary report is a line of information about the number of expression assays or results found. Beneath this is the table with the query summary results.</p>
-
-<font size="-1"><A HREF="#top">Top</A></font>
-
-<h3><A name="summary"></a>How do I interpret the table with the query summary results?</h3>
+<!--<h3><A name="summary"></a>How do I interpret the table with the query summary results?</h3>
 <p>The table of results contains a row for each item matching your query. Expression information is contained in assays. Each assay contains some number of experimental results. Query results return either by <b>Assay</b> or by <b> Assay Results</b>.</p>
 
 <h4><a name="byassay"></a>By Assay</h4>
@@ -145,12 +120,12 @@ Interpreting Gene Expression Data Query Results</span>
  </TABLE>
 </blockquote>
 
-<!--<P>When querying using the Gene Expression Data Query Form, the default return of search results is by <B>Assay</B>. This yields a shorter listing of search results than if you select <B>Assay Results</B> because each anatomical structure contained within an assay is displayed when you choose <B>Assay Results</B>. Since each assay usually contains more than one structure, selecting <B>Assay Results</B> returns many more lines of text than if the same search were returned by <B>Assay</B>. Thus, selecting <B>Assay</B> is often preferable because it returns a more manageable list.
-</P>-->
+<P>When querying using the Gene Expression Data Query Form, the default return of search results is by <B>Assay</B>. This yields a shorter listing of search results than if you select <B>Assay Results</B> because each anatomical structure contained within an assay is displayed when you choose <B>Assay Results</B>. Since each assay usually contains more than one structure, selecting <B>Assay Results</B> returns many more lines of text than if the same search were returned by <B>Assay</B>. Thus, selecting <B>Assay</B> is often preferable because it returns a more manageable list.
+</P>
 
 <font size="-1"><A HREF="#top">Top</A></font>
 
-<!--<h3><a name="gxd_lit_record"></a>Why is there a link to Gene Expression Literature records in my query summary?</h3>
+<h3><a name="gxd_lit_record"></a>Why is there a link to Gene Expression Literature records in my query summary?</h3>
 <p>At the end of the query summary, there may be a link to Gene Expression Literature content records matching the parameters of your detailed expression data search.  
 <ul>
   <li>The first step of annotation in GXD is to create literature content records containing information on the genes and ages analyzed and assay types used in each reference. All expression papers have content records. </li>
@@ -180,11 +155,16 @@ Interpreting Gene Expression Data Query Results</span>
 <font size="-1"><A HREF="#top">Top</A></font>-->
 
 <h3><a name="detail"></a>How do I interpret an expression detail record?</h3>
-<P>An assay detail record provides a brief description of the assay performed, the probe used in the assay, and a tabular representation of the experimental data obtained. The information presented in the table varies depending on assay type. In all cases, the following fields are part of the detail record:</P>
+<P>An assay detail record provides a brief description of the assay performed, the probe used in the assay, a tabular representation of the experimental data obtained and, when available, an image of the primary expression data. The information presented in the table varies depending on assay type. In all cases, the following fields are part of the detail record:</P>
 <blockquote>
- <table border cellpadding="4" cellspacing="4" width="!">
+ <TABLE BORDER WIDTH="!" cellspacing="1" CELLPADDING="4">
+   <TR>
+   <td valign="top"><b>Assay</b></td>
+   <td>
+<table border cellpadding="4" cellspacing="4" width="!">
   <tr>
-   <td align="center"><b>Field</b></td>       <td align="center"><b><b>Description</b></td></tr>
+   <td align="center"><b>Field</b></td>       
+   <td align="center"><b><b>Description</b></td></tr>
   <tr><td valign="top"><b>Reference</b></td>  <td valign="top">J number, the MGI reference identifier, linked to the reference detail, and short format citation.</td> </tr>
   <tr><td valign="top"><b>Assay Type</b></td> <td valign="top">Name of the assay type used.</td>  </tr>
   <tr><td valign="top"><b>MGI Accession ID</b></td> <td valign="top">MGI accession ID for the assay. </td> </tr>
@@ -192,6 +172,8 @@ Interpreting Gene Expression Data Query Results</span>
   <tr><td valign="top"><b>Gene name</b></td>     <td valign="top">Full name of the gene assayed. </td> </tr>
  <tr><td valign="top"><b>Modification Date </b></td><td valign="top">Date the assay was last modified.</td> </tr>
 </table>
+</td></tr>
+<td valign="top"><b>Results</b></td>  <td valign="top">Image, Structure analyzed, Level of expression, Pattern of expression, a link to the full-sized image and Notes.</td>  </tr>
 </blockquote>
 
 </p>
