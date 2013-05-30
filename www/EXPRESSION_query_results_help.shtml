@@ -174,12 +174,13 @@ Interpreting Gene Expression Data and Image Details</span>
 </table>
 </td></tr>
 <td valign="top"><b>Results</b></td>  <td valign="top">Image, Structure analyzed, Level of expression, Pattern of expression, a link to the full-sized image and Notes.</td>  </tr>
+</table>
 </blockquote>
 
 </p>
 <font size="-1"><A HREF="#top">Top</A></font>
 
- <h4><A name="probes"></a>Assays that use nucleotide probes</h4>
+<h4><A name="probes"></a>Assays that use nucleotide probes</h4>
 
 <p>The description for assays that use nucleotide probes may include the following additional fields:<br><br>
 <blockquote>
