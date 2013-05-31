@@ -151,7 +151,7 @@ If you are interested in doing queries that ask what genes are expressed in some
          <table>-->
 <TR>
 <td valign="top"><A NAME="anatomical_structure"></A><b>Anatomical structure or stage</b></td>
-<TD VALIGN="TOP"><p>Click to limit your search to assay results where expression was detected in, not detected in, or either. The default value is <i>either</i>.  <i>Detected in </i> <!--and <i>not detected in</i> both--> also returns results labeled <i>Ambiguous</i> and <i>Not specified</i>.
+<TD VALIGN="TOP"><p>Click to limit your search to assay results where expression was detected in, not detected in, or either. The default value is <i>either</i>.
 </p>
 <p>You can choose to use one or both fields in this section.
 </p>
@@ -189,7 +189,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <td valign="top"><A NAME="mutated_gene"></A><b>Mutant / wild type</b></td>
   <TD><p>Select <i>Specimens mutated in gene</i> to search for expression data obtained from mutant specimens. Use this field to enter the symbol or name of the mutated genetic marker. The system searches for current symbols/names and synonyms of the mutated gene. Use this search field as you would the <A HREF="#gene_nomenclature">Genes' nomenclature</A> search at the top of the search form.</p>
   	<p>Select <i>Wild type specimens only</i> if you wish to exclude mutant alleles from your search. This search will still include knock-in reporter genes used in <i>in situ</i> reporter assays. </p>
-  	<p>Select <i>All specimens</i>, the default, to include all mutant and wild type specimens in your search. </p>
+  	<p>Select <i>All specimens</i>, the default, to include all heterozygous mutant and wild type specimens in your search. Homozygous mutant specimens are not included in this search.</p>
         </TD>
        </TR>
  <!--  
@@ -281,7 +281,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <H3><A NAME="summary"></A>How do I interpret the query results summary and detail pages?</H3>
 <!--<p>See <a href="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data Query Results</a>.</p>
 -->
-<p>Your search results are displayed within four tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a>, <a href="#assaytab">Assay Results</a> and <a href="#imagetab">Images</a>. By default, the Assay Results tab is selected.</p>
+<p>Your search results are displayed within four tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a>, <a href="#assaytab">Assay Results</a> and <a href="#imagetab">Images</a>. With the Standard search, the Assay Results tab is selected by default. For Differential Expression searches, the Genes tab is the default selection.</p>
 
 <h4><a name="genestab"></a>Genes</h4>
 <p>If you select the Genes tab, the query summary contains the following fields:<br><br>
@@ -355,10 +355,10 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
       <li>Ambiguous</li>
       <li>Not specified</li>
     </UL>
-<p>Note: Not specified is used when the authors do not report whether a gel band is present or absent.  Ambiguous is used when the curators cannot discern from the authors‚Äô description whether expression is present or absent.</p>
+<p>Note: Not specified is used when the authors do not report whether a gel band is present or absent.  Ambiguous is used when the curators cannot discern from the author's description whether expression is present or absent.</p>
   <!--<P><sup>*</sup><i>Present</i> appears if expression is reported as detected but the author did not specify the level.--></td></tr>
-<tr><td valign="top"><b>Figure(s) </b></td>
-     <td valign="top">The pane that illustrates the expression results. If we have permission from the publisher to use the images, this is linked to the figure(s)</td></tr>
+<tr><td valign="top"><b>Images</b></td>
+     <td valign="top">Name of the specimen or pane with associated images, linked to the appropriate section of the assay detail. Note: Images are shown only when we have permission from the publishers. </td></tr>
 <tr><td valign="top"><b>Mutant Allele(s) </b></td>
      <td valign="top">If the specimen is a mutant, the allele pairs describing the mutant genotype appear in this field.</td></tr>
 <tr><td valign="top"><b>Reference </b></td>
@@ -373,11 +373,11 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <tr><td valign="top"><b>Figure</b></td>
      <td>A thumbnail image, linked to the MGI Image Detail page.</td></tr>
 <tr><td valign="top"><b>Gene</b></td>
-     <td>Symbol of the analyzed gene.</td></tr>
+     <td>Symbol of the analyzed gene(s).</td></tr>
  <tr><td valign="top"><b>Assay Type</b></td>
-     <td valign="top">Name of the assay used (e.g., Immunohistochemistry, Northern blot, RNA in situ, and so on).</td></tr>
+     <td valign="top">Name of the assay(s) used (e.g., Immunohistochemistry, Northern blot, RNA in situ, and so on).</td></tr>
  <tr><td valign="top"><b>Result Details</b></td>
-     <td valign="top">Links to detailed expression assay results.</td></tr>
+     <td valign="top">Links to image and expression assay result details.</td></tr>
 </table></p>
 </blockquote>
 
@@ -413,7 +413,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
   <li>anatomical structure</li>
   <li>detected in (expression present)</li>
   <li>not detected in (expression absent)</li>
-  <li>mutated gene symbol/name</li>
+  <li>mutated gene symbol/name.</li>
 </ul>
 <p></p>
    
@@ -477,7 +477,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 </li>
 
 <!--5-->
-<li>What genes have NOT been shown to be expressed in either the diencephalon or any structure within the diencephalon?<P>
+<li>What genes have been shown NOT to be expressed in either the diencephalon or any structure within the diencephalon?<P>
 <blockquote>
   <B>Expression:</B>   <i>not detected in</i><br>
   <B>Anatomical Structure(s):</B>  diencephalon<br>
