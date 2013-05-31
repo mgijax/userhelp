@@ -36,13 +36,11 @@ Interpreting Gene Expression Data and Image Details</span>
 <P>This help document answers the following questions:
 <ul>
 <li><A HREF="#purpose">What is the purpose of the Gene Expression Database?</a></li>
-<li><A HREF="#access">How can I access the Gene Expression Data Query Results Summary reports?</a></li>
-<li><a href="#content">What should the summary report contain?</a></li>
-<li><A HREF="#summary">How do I interpret the table with the query summary results?</a></li>
+<!--<li><A HREF="#summary">How do I interpret the table with the query summary results?</a></li>
   <ul>
     <li><A HREF="#byassay">By Assay</a></li>
     <li><A HREF="#byar">By Assay Results</a></li>
-      </ul>
+      </ul>-->
  <!--<li><A HREF="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a</li>-->
 <li><A HREF="#detail">How do I interpret an expression detail record?</a></li>
    <ul>
@@ -58,7 +56,6 @@ Interpreting Gene Expression Data and Image Details</span>
 <LI><A HREF="#click">What happens if I click  <I>Your Input Welcome</I>?</A></LI>
 
    </ul>
-
 </p>
 
 <p>See also the <A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</a> for unfamiliar terms and acronyms.</p>
@@ -173,7 +170,11 @@ Interpreting Gene Expression Data and Image Details</span>
  <tr><td valign="top"><b>Modification Date </b></td><td valign="top">Date the assay was last modified.</td> </tr>
 </table>
 </td></tr>
-<td valign="top"><b>Results</b></td>  <td valign="top">Image, Structure analyzed, Level of expression, Pattern of expression, a link to the full-sized image and Notes.</td>  </tr>
+<tr>
+<td valign="top"><b>Results</b></td>  <td valign="top">The results will vary with the type of data. Currently we have two main types of expression data, <i>in situ</i> data of specimens and gel blot data. Specific types of data results are explained below.</td> </tr>
+<td>
+
+</td></tr>
 </table>
 </blockquote>
 
