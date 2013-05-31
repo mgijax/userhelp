@@ -190,20 +190,20 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table></td><
 <font size="-1"><A HREF="#top">Top</A></font>
 
 <H3><A NAME="example"></A>Are there examples of query results?</H3>
-<P>The following examples give the field values required for each query when using the Gene Expression Data Expanded Query Form.  Default values for other fields in the form are assumed.  For the greatest chance of success when learning how to use this form, we recommend that you return your queries by Assay Results and sort by Gene symbol.</P>
+<P>The following examples give the field values required for each query when using the Differential Expression Search.</P>
 
 <OL>
 <LI>What genes are expressed in the forebrain and not expressed in the midbrain?<BR><BR>
 <B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; CONTAINS forebrain<BR>
 <B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(lower box)&nbsp;&nbsp;&nbsp; CONTAINS midbrain
 
-<P>This query returns a summary page listing assay results for genes that have been shown to be expressed (detected=yes) in the forebrain (and its substructures) and whose assay results for the midbrain (and its substructures) were <B>all</B> reported as lacking expression (detected=no).  Each listing includes the gene symbol (with a link to its detail page), assay type used, results details (given as an MGI accession ID with the word, data, linked to an assay detail record), allele pairs describing the mutant genotype of the specimen (if applicable), age of the specimen, structure examined, and an indication of whether or not expression was detected.</LI>
+<P>This query returns a summary page listing assay results for genes that have been shown to be expressed (detected=yes) in the forebrain (and its substructures) and whose assay results for the midbrain (and its substructures) were either lacking expression (detected=no) or have not been analyzed. By default, the summary opens with the list of genes. You can use the Assay results tab to distinguish between those genes for which expression has been demonstrated to be lacking and those that have not been analyzed. </LI>
 
-<LI> Which genes are expressed exclusively in the eye and its substructures?<BR><BR>
+<!--<LI> Which genes are expressed exclusively in the eye and its substructures?<BR><BR>
 <B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; CONTAINS eye<BR>
 <B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(lower box)&nbsp;&nbsp;&nbsp; (click to put a check mark next to) Any other structure 
 
-<P>This query returns genes shown to be expressed exclusively in the eye and its substructures.  For those genes, expression results for any other structures analyzed must be Not detected (absent).</LI>
+<P>This query returns genes shown to be expressed exclusively in the eye and its substructures.  For those genes, expression results for any other structures analyzed must be Not detected (absent).</LI>-->
 
 <LI> Which genes are expressed only at Theiler Stage 15?<BR><BR>
 <B>Developmental Stage(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; TS 15<BR>
