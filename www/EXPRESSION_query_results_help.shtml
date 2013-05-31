@@ -244,7 +244,7 @@ direct detection includes the following additional fields:</p>
 <p>Data records also present details of experimental results in a tabular format that varies depending on assay type.
 
 <h4><A name="gels"></a>Tabular display for gel assays</h4>
-<p>For gel assays, a Gel Data section is provided. Note that the information for each gel lane runs horizontally on the display. If the reference includes an image of the gel, the figure name appears in the Image field above the table. If a camera icon appears, the label links to a detail report containing an image of this gel. Notes may appear below the table, providing further information about the tissues analyzed, age of the specimens, or details about the bands.</p>
+<p>For gel assays, a Gel Data section is provided. Note that the information for each gel lane runs horizontally on the display. If the database includes an image of the gel, the image appears above the table and links to its detail page. If we do not have the publisher's permission to display the image, only the figure label will be displayed. Notes may appear below the table, providing further information about the age of the specimens or details about the bands.</p>
 <table width="!" class="nb" cellpadding="4" align="center">
 <tr align="center"><Td VALIGN="top"><A HREF="#lane">Lane</A> | 
 <A HREF="#age">Sample Information: Age</A> | 
@@ -253,7 +253,8 @@ direct detection includes the following additional fields:</p>
 <A HREF="#amount">Other Sample Information: Amount</A> | 
 <A HREF="#strain">Genetic Background</A> | 
 <A HREF="#mutations">Mutant Allele(s)</A> | 
-<A HREF="#sex">Sex</A></TD>
+<A HREF="#sex">Sex</A> |
+<a href="#note">Notes</a></td>
  </TR>
   </TABLE>
 
@@ -301,6 +302,7 @@ direct detection includes the following additional fields:</p>
    <td valign="top"><A NAME="strain"></A><b>Genetic Background</b></td><td valign="top">Strain information for the specimen, if specified.  Use of <EM>involves:</EM> in the annotation indicates that the strains listed (separated by asterisks) contributed to the genetic background of the specimen; additional unspecified strains may also be part of the specimen's genetic background.  &nbsp; <EM>Either:</EM> appears when the authors use more than one genetic background in a reference but do not specify which one is the background of the specimen.</td></TR>
   <TR><td valign="top"><A NAME="mutations"></A><b>Mutant Allele(s) </b></td><td valign="top">If the specimen is a mutant, the allele pairs describing the mutant genotype appear in this field, linked to the Phenotypic Allele Detail report.</td></TR>
   <TR><td valign="top"><A NAME="sex"></A><b>Sex </b></td><td valign="top">Sex of the specimen, if specified. </TR>
+  <TR><td valign="top"><A NAME="note"></A><b>Notes</b></td><td valign="top">Additional information about the tissue analyzed. </TR>
 </TABLE>
 
 <p><b>Note:</b>&nbsp;We do not include information from gel lanes containing material from
@@ -345,7 +347,7 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
 
 
 <h4><A NAME="results"></A>Results tables for each specimen</h4>
-<P>For each specimen, a results table appears with the following columns in the display.</P>
+<P>There is a results table for each specimen. Above the results table are images of the specimen, linked to a detail page with further information about the image. </P>
 <BLOCKQUOTE>
 
  <TABLE BORDER WIDTH="!" CELLPADDING="4" cellspacing="1">
@@ -359,33 +361,34 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
       <LI>Absent
       <LI>Ambiguous<SUP>*</SUP>
       <LI>Moderate
-      <li>Not Specified<SUP>*</SUP>
+      <!--<li>Not Specified<SUP>*</SUP>-->
       <LI>Present<SUP>*</SUP>
       <LI>Strong
       <LI>Trace
       <LI>Very strong
       <LI>Weak
     </UL>
-  <P><SUP>*</SUP><B>Present</B> appears if expression is reported as detected but the author did not specify the level. <b>Not specified</b> is used when the authors do not report whether a gel band is present or absent. <b>Ambiguous</b> is used when the curators cannot discern from the authors‚Äô description whether expression is present or absent.</p></TD> </TR>
+  <P><SUP>*</SUP><B>Present</B> appears if expression is reported as detected but the author did not specify the level. <b>Ambiguous</b> is used when the curators cannot discern from the author's description whether expression is present or absent.</p></TD> </TR>
 <TR>   <td valign="top"><b><A NAME="pattern"></A>Pattern</b></td><td valign="top">Indicator of expression pattern as specified by the author. Possible values include:
     <UL>     
       <li>Diffuse</li>
       <LI>Graded</li>
       <li>Non-uniform</li>
-      <LI>Not specified
-      <LI>Patchy
+      <LI>Not specified</li>
+      <LI>Not applicable</li>
+      <LI>Patchy</li>
       <li>Punctate</li>
-      <LI>Regionally restricted
+      <LI>Regionally restricted</li>
       <li>Scattered</li>
       <LI>Single cells
-      <LI>Spotted
+      <LI>Spotted</li>
       <li>Ubiquitous</li>
       <li>Uniform</li>
       <li>Widespread</li>
     </UL></TD> 
 </TR>
 <TR> <td valign="top"><b><A NAME="image"></A>Image</b></td> <td valign="top">Figure illustrating the result in the reference. The figure label links to a detail report containing an image of the original data.</TD> </TR>
-<TR> <td valign="top"><b><A NAME="note"></A>Note </b></td><td valign="top">Link to note containing additional information pertaining to the assay result.   If present, the notes appear below the results table.</TD> </TR>
+<TR> <td valign="top"><b><A NAME="note"></A>Note </b></td><td valign="top">Additional information pertaining to the assay result. </TD> </TR>
 </TABLE>
 </BLOCKQUOTE>
 <font size="-1"><A HREF="#top">Top</A></font>
