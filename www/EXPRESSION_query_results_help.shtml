@@ -314,7 +314,7 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
 <p>The detail record for RNA <i>in situ</i>,  immunohistochemistry, and <i>in situ</i> reporter (knock in) assays includes a section describing the specimens used in the experiment and a section describing the experimental results.</p>
 
 <h4>Specimens Used</h4>
-<P>In the tabular display, each column represents a specimen discussed in the reference. The attributes of the specimen appear as rows in the table. The heading in each column is linked to the results obtained for each specimen.  Notes providing additional details about the specimen may appear below the table.
+<P>In the tabular display, each column represents a specimen discussed in the reference. To view specimen details such as specimen age and fixation method, use the more &#9658; toggle. The attributes of the specimen appear as rows in the table. <!--The heading in each column is linked to the results obtained for each specimen. Notes providing additional details about the specimen may appear below the table.-->
 </P>
 
 <BLOCKQUOTE>
@@ -335,8 +335,9 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
 
 </TABLE>
 </TD></TR>
-  <TR><td valign="top"><b><A NAME="sex2"></A>Sex</b></td> <td valign="top">Sex of the specimen, if specified.  </TD></TR>
-  <TR><td valign="top"><b><A NAME="type"></A>Type</b></td><td valign="top">Refers to type of <I>in situ</I> hybridization (whole mount, section, or section from whole mount).  </TR>
+<TR><td valign="top"><b><A NAME="age_note"></A>Age Note</b></td><td valign="top"> Additional information that defines the age, such as the number of somites. <td valign="top"> </TD></TR>
+<TR><td valign="top"><b><A NAME="sex2"></A>Sex</b></td> <td valign="top">Sex of the specimen, if specified. </TD></TR>
+<TR><td valign="top"><b><A NAME="type"></A>Type</b></td><td valign="top">Refers to type of <I>in situ</I> hybridization (whole mount, section, or section from whole mount).  </TR>
 <TR><td valign="top"><b><A NAME="fixation"></A>Fixation <td valign="top">Chemical fixative used to prepare the specimen. </TD></TR>
 <TR><Td VALIGN="top"><A NAME="embedding"></A><b>Embedding</b></td><td valign="top">Method used to embed the specimen, if applicable.</TD></TR>
  </TABLE>
@@ -430,8 +431,13 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
    <td valign="top"><b>Other Database Links</b></td><td valign="top">When present, this field displays links to information about the image in databases other than MGI (e.g. GenePaint)
 </td> </tr>
   </table>
-
 </blockquote>
+
+<font size="-1"><A HREF="#top">Top</A></font>
+
+<h3><A name="not_found"></a>What if my query produces no results?</h3>
+<p>Your search may have been too specific. Try searching for a less specific anatomical structure, more Theiler Stages or more assay types. 
+</p>
 <font size="-1"><A HREF="#top">Top</A></font>
 
 <h3><A name="click"></a>What happens if I click <I>Your Input Welcome</I>?</h3>
