@@ -90,17 +90,17 @@ function openHelpWindow(helpFile){
 
 <H3><A NAME="fields"></A>What values are acceptable in each of the fields?</H3>
 <table width="!" cellpadding="4" class="nb" align="center">
-<tr align="center"><font size="-1"><td valign="top"><a href="#anatomical_structure">Anatomical Structure</a> |  <a href="#developmental_stage">Developmental Stage</a> | <a href="#structurestage">Structure & Stage</a> </a></font>
+<tr align="center"><td valign="top"><font size="-1"><a href="#anatomical_structure">Anatomical Structure</a> |  <a href="#developmental_stage">Developmental Stage</a> | <a href="#structurestage">Structure & Stage</a> </font>
 </TD>
   </TR>
  </TABLE>
 
-This form lets you query for genes expressed in some anatomical structures and/or developmental stages but not in others.
+This form lets you query for genes expressed in some anatomical structures and/or developmental stages but not in others. Use the &#9658; toggle to open one of the three sections. Only the open section is active. 
 <UL>
 <!--<LI>To specify structure(s), type an entry in the field or make stage selections from the list.  You may use both fields simultaneously.</LI>-->
 <LI>Structures and/or stages entered in the top field query the database for assay results demonstrating the expression of genes in those structures or stages.</LI>
 <LI>Structures or stages entered in the lower box query for the absence of expression of genes in those structures or stages.  <B>Note:</B> If the structure or stage in the lower box has conflicting expression results annotated to it, i.e., results showing both the presence and absence of expression of a particular gene, that gene is considered to be expressed and is not returned by this query.</LI>
-<li>These searches will return a list of genes whose expression was shown to be absent (not detected) in the specified structures and stages.</li>
+<li>These searches will return a list of genes whose expression was shown to be absent (not detected), as well as genes whose expression has not been analyzed or recorded in the database for the specified structures and stages.</li>
 <li>The search is limited to results from wild-type specimens.</li>  
 </UL>
 
@@ -127,7 +127,6 @@ This form lets you query for genes expressed in some anatomical structures and/o
     <li>If you enter more than one stage in the upper box, for the query to return a particular gene, results demonstrating its expression must exist for at least one of the specified stages.
 	<li>If you enter more than one stage in the lower box, the query returns those genes for which there was an absence of expression in <i>All stages not selected above</i>.
 </ul>
-  <p>If you want to see, for example, genes expressed in brain at a particular stage but not expressed in the heart at any stage, change the default in the lower box to <i>Any</i>. </p>
 
 <p><b>Note</b>: The Theiler system organizes development into stages defined by the
 appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc. Therefore, if you are interested in all available records for embryos of age 14.0 dpc, you must select both TS 21 and TS 22.
@@ -209,7 +208,7 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table></td><
 <B>Developmental Stage(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; TS 15<BR>
 <B>Developmental Stage(s)</B>: &nbsp;&nbsp;(lower box)&nbsp;&nbsp;&nbsp; ALL stages not selected above
 
-<P>This query returns genes shown to be expressed exclusively at TS  15.  For those genes, expression results obtained at any other Theiler stage must be Not detected (absent).</LI>
+<P>This query returns genes shown to be expressed exclusively at TS  15.  For those genes, expression results obtained at any other Theiler stage must be Not detected (absent) or not analyzed.</LI>
 
 <LI> Which genes are expressed at Theiler Stage 10 but either are not expressed or have not been analyzed in the postnatal animal?<BR><BR>
 <B>Developmental Stage(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; TS  10<BR>
