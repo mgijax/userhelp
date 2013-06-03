@@ -53,27 +53,23 @@ function openHelpWindow(helpFile){
 <UL>
 <li><a name="gb_mouse"></a><b>GenBank Mouse</b> - Subset of GenBank containing mouse sequences from rodent, high-throughput cDNAs (HTC), and patent divisions. Mouse sequences are parsed from these divisions by examining the phylogeny lines for entries containing "mus." Does not include ESTs, genome survey sequences (GSS), and high-throughput genomic sequences (HTGS).</li><br>
 
-<li><a name="gb_mouse_mgi"></a><b>GenBank Mouse associated with genes in MGI</b> - Subset of GenBank containing mouse sequences from all divisions (including EST) associated with MGI mouse genes. Mouse sequences are parsed from these divisions by examining the phylogeny lines for entries containing "mus."</li><br>
+<!--<li><a name="gb_mouse_mgi"></a><b>GenBank Mouse associated with genes in MGI</b> - Subset of GenBank containing mouse sequences from all divisions (including EST) associated with MGI mouse genes. Mouse sequences are parsed from these divisions by examining the phylogeny lines for entries containing "mus."</li><br>-->
 
 <li><a name="gb_gss_mouse"></a><b>GenBank GSS Mouse</b> - Subset of GenBank containing mouse genome survey sequences (GSS). All mouse sequences are parsed from the GSS division by examining the phylogeny lines for those entries containing "mus."</li><br>
 
-<li><a name="gb_gss_mousegt"></a><b>Mouse Gene Traps from GSS in MGI</b> -  Subset of Genome Survey Sequences (GSS) of mouse origin that are parsed for the class, <i>Gene Trap</i>, and contact information of the provider.</li><br>
+<!--<li><a name="gb_gss_mousegt"></a><b>Mouse Gene Traps from GSS in MGI</b> -  Subset of Genome Survey Sequences (GSS) of mouse origin that are parsed for the class, <i>Gene Trap</i>, and contact information of the provider.</li><br>-->
 
-<li><a name="gb_htg_mouse"></a><b>GenBank HTG Mouse</b> - Subset of GenBank containing mouse high-throughput genomic sequences (HTG). All mouse sequences are parsed from the GSS division by examining the phylogeny lines for those entries containing "mus."</li><br>
+<!--<li><a name="gb_htg_mouse"></a><b>GenBank HTG Mouse</b> - Subset of GenBank containing mouse high-throughput genomic sequences (HTG). All mouse sequences are parsed from the GSS division by examining the phylogeny lines for those entries containing "mus."</li><br>-->
 
 <li><a name="gb_human"></a><b>GenBank Human</b> - Subset of GenBank containing human sequences from primate, high-throughput cDNAs (HTC), and patent divisions. Human sequences are parsed from these divisions by examining the phylogeny lines for entries containing "sapiens." Does not include ESTs, genome survey sequences (GSS), and high-throughput genomic sequences (HTGS).</li><br>
 
-<li><a name="gb_rat"></a><b>GenBank Rat</b> - Subset of GenBank containing rat sequences from rodent, high-throughput cDNAs (HTC), and patent divisions. Rat sequences are parsed from these divisions by examining the phylogeny lines for entries containing "rattus." Does not include ESTs, genome survey sequences (GSS), and high-throughput genomic sequences (HTGS). </li><br>
+<!--<li><a name="gb_rat"></a><b>GenBank Rat</b> - Subset of GenBank containing rat sequences from rodent, high-throughput cDNAs (HTC), and patent divisions. Rat sequences are parsed from these divisions by examining the phylogeny lines for entries containing "rattus." Does not include ESTs, genome survey sequences (GSS), and high-throughput genomic sequences (HTGS). </li><br>-->
 
 <li><a name="gb_rodent"></a><b>GenBank Rodent</b> - Subset of GenBank containing rodent sequences from rodent, high-throughput cDNAs (HTC), and patent divisions. Rodent sequences are parsed from these divisions by examining the phylogeny lines for entries containing "rodentia." Does not include ESTs, genome survey sequences (GSS), and high-throughput genomic sequences (HTGS).</li><br>
 
 <li><a name="refseq"></a><b>RefSeq Mouse Transcripts</b> - All NCBI RefSeq Mouse transcripts (Mouse RefSeqs of type NM_, NR_, XM_, and XR_).</li><br>
 
-<li><a name="build_37"></a><b>NCBI Mouse Genome Assembly Build 37</b> -  NCBI Build 37.1 represents over 90% of the mouse genome in finished form.  See NCBI's <a href="http://www.ncbi.nlm.nih.gov/projects/genome/assembly/grc/mouse/" target="_blank">Mouse Genome Overview</a> for details. Click to see the <a href="http://www.ncbi.nlm.nih.gov/mapview/map_search.cgi?taxid=10090" target="_blank">genome view</a> or the <a href="http://www.ncbi.nlm.nih.gov/mapview/stats/BuildStats.cgi?taxid=10090&build=37&ver=1" target="_blank">statistics</a>. </li><br>
-
-<li><a name="build_36"></a><b>NCBI Mouse Genome Assembly Build 36</b> -  The Build 36 assembly from the Mouse Genome Sequencing Consortium (MGSC) is composed largely of finished sequence  and includes approximately 2.6 Gb of sequences on chromosomes 1-19, X, Y, M (mitochondrial DNA) and Un (unmapped clone contigs). <!--See NCBI's  <a href="http://www.ncbi.nlm.nih.gov/projects/genome/assembly/grc/mouse/">Mouse Genome Overview</a> for details.--></li><br>
-
-<li><a name="build_34"></a><b>NCBI Mouse Genome Assembly Build 34</b> - NCBI Mouse Build 34 represents a fourth generation composite assembly. In this build, chromosomes 1,3,5,6,7,8,9,10, and 12-19 were automatically assembled. </li><br>
+<!--<li><a name="build_37"></a><b>NCBI Mouse Genome Assembly Build 37</b> -  NCBI Build 37.1 represents over 90% of the mouse genome in finished form.  See NCBI's <a href="http://www.ncbi.nlm.nih.gov/projects/genome/assembly/grc/mouse/" target="_blank">Mouse Genome Overview</a> for details. Click to see the <a href="http://www.ncbi.nlm.nih.gov/mapview/map_search.cgi?taxid=10090" target="_blank">genome view</a> or the <a href="http://www.ncbi.nlm.nih.gov/mapview/stats/BuildStats.cgi?taxid=10090&build=37&ver=1" target="_blank">statistics</a>. </li><br>
 
 <li><a name="DFCI_mouse"></a><b>DFCI Mouse Gene Index</b> - Tentative consensus transcript sequences from DFCI's Mouse Gene Index (MGI).</li><br>
 
@@ -81,7 +77,7 @@ function openHelpWindow(helpFile){
 
 <li><a name="DFCI_rat"></a><b>DFCI Rat Gene Index</b> - Tentative consensus transcript sequences from DFCI's Rat Gene Index (RGI).</li><br>
 
-<li><a name="fantom"></a><b>RIKEN FANTOM cDNAs</b> - Mouse cDNAs from the RIKEN FANTOM project.</li>
+<li><a name="fantom"></a><b>RIKEN FANTOM cDNAs</b> - Mouse cDNAs from the RIKEN FANTOM project.</li>-->
 </UL>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
@@ -89,7 +85,7 @@ function openHelpWindow(helpFile){
 
 <h3><a name="protein"></a>Protein Sequence Databases</h3>
 <UL>
-<li><b>UniProt</b> -  All protein sequences from the "non-redundant" set of sequences from SwissProt and TrEMBL (SP_TR_NRDB from SIB/EBI).</li> <br> 
+<!--<li><b>UniProt</b> -  All protein sequences from the "non-redundant" set of sequences from SwissProt and TrEMBL (SP_TR_NRDB from SIB/EBI).</li> <br> -->
 
 <li><b>UniProt Mouse</b> - All mouse protein sequences from the "non-redundant" set of sequences from SwissProt and TrEMBL (SP_TR_NRDB from SIB/EBI). Mouse sequences are defined as those entries containing "mus" in the phylogeny lines or "mouse" in the species lines.</li><br> 
 
@@ -97,7 +93,7 @@ function openHelpWindow(helpFile){
 
 <li><b>UniProt Rat</b> - All rat protein sequences from the "non-redundant" set of sequences from SwissProt and TrEMBL (SP_TR_NRDB from SIB/EBI). Rat sequences are defined as those entries containing "rattus" in the phylogeny lines or "rat" in the species lines.</li><br> 
 
-<li><b>UniProt Rodent</b> - All rodent protein sequences from the "non-redundant" set of sequences from SwissProt and TrEMBL (SP_TR_NRDB from SIB/EBI). Rodent sequences are parsed from these sequences as entries containing "rodentia" in the phylogeny lines or "mus" or "rattus" in the species lines.</li>
+<!--<li><b>UniProt Rodent</b> - All rodent protein sequences from the "non-redundant" set of sequences from SwissProt and TrEMBL (SP_TR_NRDB from SIB/EBI). Rodent sequences are parsed from these sequences as entries containing "rodentia" in the phylogeny lines or "mus" or "rattus" in the species lines.</li>-->
 </ul>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
