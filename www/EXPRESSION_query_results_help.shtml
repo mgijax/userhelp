@@ -171,8 +171,7 @@ Interpreting Gene Expression Data and Image Details</span>
 </table>
 </td></tr>
 <tr>
-<td valign="top"><b>Results</b></td>  <td valign="top">The results will vary with the type of data. Currently we have two main types of expression data, <i>in situ</i> data of specimens and gel blot data. Specific types of data results are explained below.</td> </tr>
-<td>
+<td valign="top"><b>Results</b></td>  <td valign="top">The results will vary with the type of data. Currently we have two main types of expression data, <i>in situ</i> data of specimens and gel blot data. The specific types of data results, such as assays that use <a href="#probes">nucleotide probes</a>, a href="#antibody">antibodies</a>, <a href="#directdet">direct detection</a>, <a href="#gels">gel assays</a> and <a href="#insitu"><i>in situ</i> assays</a>, are explained below.</td> </tr>
 
 </td></tr>
 </table>
