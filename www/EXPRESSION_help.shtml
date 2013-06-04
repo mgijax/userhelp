@@ -80,7 +80,7 @@ function openHelpWindow(helpFile){
 <p>(See <A href="#example">Are there examples of query results?</a> for the form
 field values for these queries.)
 <p>
-If you are interested in doing queries that ask what genes are expressed in some anatomical structures and/or developmental stages but not in others, you should use the <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQFexpanded" target="_blank">Gene Expression Data Expanded Query Form</a>.</p>
+If you are interested in doing queries that ask what genes are expressed in some anatomical structures and/or developmental stages but not in others, you should use the Differential Expression Search tab on this form.</p>
 
 <h3><A name="howdo"></a>How do I use this query form?</h3>
 
