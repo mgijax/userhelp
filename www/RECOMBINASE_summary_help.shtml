@@ -70,7 +70,7 @@ function openHelpWindow(helpFile){
 </p>
 
 <h3><a name="access"></a>When does a Recombinase Alleles - Tissue Summary appear?</h3>
-<p>The Recombinase Alleles Summary presents a table of transgenic and targeted knock-out recombinase alleles contained in the MGI database. It appears when you select either a driver or an anatomical structure from the boxes on the <a href="http://www.creportal.org" target="_blank">Recombinase (cre) Activity</a> page and click <b>Go</b>.
+<p>The Recombinase Alleles Summary presents a table of transgenic and targeted knock-out recombinase alleles contained in the MGI database. It appears when you select either a driver or enter an anatomical structure from the boxes on the <a href="http://www.creportal.org" target="_blank">Recombinase (cre) Activity</a> page and click <b>Go</b>.
 
 
 <h3><A name="contain"></a>What should show up on this page?</h3>
@@ -78,7 +78,7 @@ function openHelpWindow(helpFile){
 
 <ul>
   <li>every recombinase allele in the MGI database for the selected <b>driver</b>, whether it has tissue activity data or not.</li>
-  <li>only those recombinase alleles in the MGI database having data for the queried <b>anatomical system</b>.</li>
+  <li>only those recombinase alleles in the MGI database having data for the queried <b>anatomical structure</b>.</li>
 </ul>
 </p>
 <p>The data on the Recombinase Alleles - Tissue Activity Summary are information about  expression assays demonstrating the activity of the recombination allele in particular tissues, at or prior to the time when the mouse tissue is assayed. This is referred to as <i>tissue activity</i> or <i>recombinase activity</i> data.
@@ -86,7 +86,7 @@ function openHelpWindow(helpFile){
 <p>Once the recombinase has acted upon the target gene by removing or rearranging part of its sequence, all descendent tissues will carry the recombined target gene. 
 </p>
 
-<p>Careful analysis of Cre activity in the Cre transgenic mouse lines is important because low levels of excision early in development may produce only a few cells with Cre excision, but all the descendents of those cells will carry the Cre-induced genomic alteration.</p>
+<p>Careful analysis of cre activity in the cre transgenic mouse lines is important because low levels of excision early in development may produce only a few cells with cre excision, but all the descendents of those cells will carry the cre-induced genomic alteration.</p>
 
 <p>Expression assays of type <i>In situ reporter (transgenic)</i> and <i>In situ reporter (knock in)</i> are correctly referred to as expression data because they demonstrate the expression of the recombinase allele at the age when the allele is producing its protein for assays with antibody detection or its mRNA for assays with nucleotide probes.
 When the specimen's genotype involves a recombinase allele, the results of these expression assays are included in the summary table.</p>
@@ -112,7 +112,7 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <a href="#recomb_data">Recombinase Activity</a> | 
 <!--<a href="#anatom_system"><i> system</i></a> |-->
 <a href="#allele_syn">Allele Synonym</a> | 
-<a href="#allele_type">Allele Type</a> | 
+<!--<a href="#allele_type">Allele Type</a> | -->
 <a href="#inducible">Inducible</a> |  
 <a href="#find_mice">Find Mice</a> | 
 <a href="#refz">Refs</a> </font> 
@@ -134,7 +134,7 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <li>Click the column heading to sort by anatomical system.</li>
 <tr><th class="thleft"><nobr>Recombinase Activity Not Detected</nobr></th><td>Information about anatomical systems where recombinase activity data was assayed and not detected<ul>
 <li>Click any list item to display a detail page with allele and tissue information, images, activity particulars, and references.</li>
-<li>This field will be empty when data failing to show activity are absent.</li>
+<li>This field will be populated only when the absence of activity has been shown.</li>
 <li>Click the column heading to sort by anatomical system.</li>
 </ul></td></tr> 
 
@@ -154,11 +154,11 @@ When the specimen's genotype involves a recombinase allele, the results of these
 
 <!-- <tr><th class="thleft"> <a name="allele_type"></a>Allele Type</th><td valign="top">Specific allele type; for example, Transgenic (Cre/Flp),  Targeted (knock-in). </td></tr> -->
 
-<tr><th class="thleft"> <a name="inducible"></a>Inducible</th> <td valign="top">Indicates whether or not  treatment (of mice carrying a cre allele) is required to activate recombinase activity. If <i>YES</i> appears, hover over the word to see a pop-up window containing a description of the induction agent (e.g. tamoxifen). </td></tr>
+<tr><th class="thleft"> <a name="inducible"></a>Inducible</th> <td valign="top">Indicates whether or not  treatment (of mice carrying a cre allele) is required to activate recombinase activity. If <i>YES</i> appears, hover over the word to see a pop-up window containing a description of the inducing agent (e.g. tamoxifen). </td></tr>
 
 <tr><th class="thleft"> <a name="find_mice"></a>Find Mice (IMSR)</th><td valign="top">Information about the availability of mouse strains and/or cell lines of this allele in the International Mouse Strain Resource (IMSR).</td></tr>
 
-<tr><th class="thleft"> <a name="refz"></a>Refs</th> <td valign="top">Links to MGI Reference reports for all references annotated to the allele. In parentheses is the total number of reports.</td></tr>
+<tr><th class="thleft"> <a name="refz"></a>Refs</th> <td valign="top">Links to MGI Reference reports for all references indexed for the allele.</td></tr>
  </table>
 
 <p class="space"></p>
