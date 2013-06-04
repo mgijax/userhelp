@@ -115,7 +115,7 @@ For example:
 
         <tr><th valign"top"><a name="pattern"></a>Pattern</th><td valign="top">As specified by the author(s), possibilities are: Homogenous, Non-Homogenous, Diffuse, Graded, Patchy, Regionally Restricted, Scattered, Single Cells, Spotted, Ubiquitous, Widespread, Not Specified, Not Applicable.</td></tr> 
 
-        <tr><th valign"top"><a name="reference_source"></a>Reference, Source</th><td valign="top">The J number (MGI ID) of the paper with the data, linked to the MGI <b>References Query Results -- Details </b> for the abstract and additional information; the figure number of the <a href="#image">Image</a>; a thumbnail of the image which, when clicked, outlines the larger image above it in the <a href="#image">Images</a> row.</td></tr> 
+        <tr><th valign"top"><a name="reference_source"></a>Reference, Source</th><td valign="top">The J number (MGI ID) of the paper with the data, linked to the MGI <b>References Query Results -- Details </b> for the abstract and additional information, the figure number of the <a href="#image">Image</a> and a thumbnail of the image. If images and/or data are available from an external web resource, a link will be provided here. </td></tr> 
 	 </table>
 
 <tr><th valign="top" align="right"><a name="assay_detailz"></a>Assays</th>

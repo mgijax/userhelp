@@ -78,12 +78,12 @@ function openHelpWindow(helpFile){
 
 <h3><A name="howdo"></a>How do I use this query form?</h3>
 
-<P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following paragraphs. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help.shtml">Using MGI Query Forms</a> for answers to questions such as: 
+<P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following paragraphs. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. <!--See <a href="MISC_usingQFs_help.shtml">Using MGI Query Forms</a> for answers to questions such as: 
    <ul>
     <li><A HREF="MISC_usingQFs_help.shtml#howdo" target="_blank">How do I submit a query?</a></li>
-    <!--<li><a href="MISC_operators_help.shtml#operators" target="_blank">What are operators and how do they affect my query?</a></li>-->
+    <li><a href="MISC_operators_help.shtml#operators" target="_blank">What are operators and how do they affect my query?</a></li>
     <li><a href="MISC_usingQFs_help.shtml#options" target="_blank">How do I select more than one item on a list?</a></li>
- </UL>
+ </UL>-->
  </p>
 <a href="#top"><font size="-1">Top</font></a>
 
