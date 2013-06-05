@@ -44,12 +44,10 @@ function openHelpWindow(helpFile){
 <UL>
  <LI><A HREF="#whatpurpose">What is the purpose of the Gene Expression Database?</A></LI>
  <LI><A HREF="#whatquery">What can I use this query form to find?</A></LI>
- <LI><A HREF="#howdo">How do I use the Differential Expression Search?</A></LI>
  <LI><A HREF="#fields">What values are acceptable in each of the fields?</A></LI>
-  <li><a href="#revise">Can I edit my original options and requery?</a></li>
+ <li><a href="#revise">Can I edit my original options and requery?</a></li>
  <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</A></LI>
- <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found">What if the search does not find any expression results?</a>
- <li><a href="EXPRESSION_help.shtml#generate">Which expression data query parameters generate an expression literature search? Which do not?</li>
+ <!--<li><a href="EXPRESSION_help.shtml#generate">Which expression data query parameters generate an expression literature search? Which do not?</li>-->
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
  <li><a href="#batch">Can I send the results of my search to the MGI Batch Query?</a></li>
  <LI><A HREF="#example">Are there examples of query results?</A></LI>
@@ -123,9 +121,9 @@ This form lets you query for genes expressed in some anatomical structures and/o
 <tr><td valign="top"><a name="developmental_stage"></a><b>Developmental Stage</b></td>
     <td valign="top">Use this field to select <a href="MISC_usingQFs_help.shtml#options" target="_blank">one or more</a> Theiler stages (TS) to focus your search on a particular stage of embryonic development. 
 <ul>
-	<li>The default for the lower box is <i>All stages not selected above</i>. </li>
+	<li>The default for the lower box is <i>Any stages not selected above</i>. </li>
     <li>If you enter more than one stage in the upper box, for the query to return a particular gene, results demonstrating its expression must exist for at least one of the specified stages.
-	<li>If you enter more than one stage in the lower box, the query returns those genes for which there was an absence of expression in <i>All stages not selected above</i>.
+	<li>If you enter more than one stage in the lower box, the query returns those genes for which there was an absence of expression in <i>Any stages not selected above</i>.
 </ul>
 
 <p><b>Note</b>: The Theiler system organizes development into stages defined by the
@@ -177,7 +175,7 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table></td><
 <P>See <A HREF="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data Query Results</A>.</P>
 <a href="#top"><font size="-1">Top</font></a>
 
-<h3><a name="excelfile_gxdqf"></a>Can I get my results as a spreadsheet file?</h3>
+<h3><a name="excelfile_gxdqf"></a>Can I get my results as tab-delimited text or spreadsheet files?</h3>
 <p>Yes. The <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a> tabs but not the <a href="#byassay">Assays</a> tab, provide export options. In your search results, <!--at the right hand edge of the Filter assays bar,--> click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
 
 <font size="-1"><A HREF="#top">Top</A></font>
@@ -206,14 +204,13 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table></td><
 
 <LI> Which genes are expressed only at Theiler Stage 15?<BR><BR>
 <B>Developmental Stage(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; TS 15<BR>
-<B>Developmental Stage(s)</B>: &nbsp;&nbsp;(lower box)&nbsp;&nbsp;&nbsp; ALL stages not selected above
+<B>Developmental Stage(s)</B>: &nbsp;&nbsp;(lower box)&nbsp;&nbsp;&nbsp; Any stages not selected above
 
 <P>This query returns genes shown to be expressed exclusively at TS  15.  For those genes, expression results obtained at any other Theiler stage must be Not detected (absent) or not analyzed.</LI>
 
 <LI> Which genes are expressed at Theiler Stage 10 but either are not expressed or have not been analyzed in the postnatal animal?<BR><BR>
 <B>Developmental Stage(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; TS  10<BR>
 <B>Developmental Stage(s)</B>: &nbsp;&nbsp;(lower box)&nbsp;&nbsp;&nbsp; TS  28<BR>
-<B>AND NOT detected or analyzed in: </B> selected
 
 <P>This query returns genes that have been shown to be expressed in the TS  10 embryo but for which there are no positive (detected=yes) expression results at TS  28.  For those genes, this is either because the results present in the database for the postnatal animal were either Not detected (absent) or did not exist (not analyzed).
 </P>
