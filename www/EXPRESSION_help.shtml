@@ -71,10 +71,12 @@ function openHelpWindow(helpFile){
 <p>The Gene Expression Data Query form Standard Search tab allows you to ask questions that can be basic or complex. Examples of the type of questions you can ask are:
  <ul>
   <li>When and where is <b>En1</b> expressed?</li>
-  <li>What genes are expressed in the heart at E8.5?</li>
+  <li>What genes are expressed in the heart at E8.5 in wild-type mice only?</li>
   <li>Is <b>Htr7</b> expressed in the brain?</li>
-  <li>What genes are known not to be expressed in either the diencephalon or any structure containing the diencephalon?</li>
-  <li>What genes involved in cell adhesion are expressed in mesenchyme?</li>
+  <li>What members of the Wnt gene family are expressed in TS 16?</li>
+  <li>When and where are genes involved in axon guidance expressed?</li>
+  <li>What genes have been shown NOT to be expressed in either the diencephalon or any structure within the diencephalon?</li>
+  <li>What genes involved in cell adhesion are expressed in stomach mesenchyme?</li>
   <!--<li>What transcription factors located on chromosome 1 have been found to be expressed in the forelimb?</li>-->
  </ul>
 <p>(See <A href="#example">Are there examples of query results?</a> for the form
@@ -186,8 +188,8 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <tr>
 <td valign="top"><A NAME="mutated_gene"></A><b>Mutant / wild type</b></td>
   <TD><p>Select <i>Specimens mutated in gene</i> to search for expression data obtained from mutant specimens. Use this field to enter the symbol or name of the mutated genetic marker. The system searches for current symbols/names and synonyms of the mutated gene. Use this search field as you would the <A HREF="#gene_nomenclature">Genes' nomenclature</A> search at the top of the search form.</p>
-  	<p>Select <i>Wild type specimens only</i> if you wish to exclude mutant alleles from your search. This search will still include knock-in reporter genes used in <i>in situ</i> reporter assays. </p>
-  	<p>Select <i>All specimens</i>, the default, to include all heterozygous mutant and wild type specimens in your search. Homozygous mutant specimens are not included in this search.</p>
+  	<p>Select <i>Wild type specimens only</i> if you wish to exclude mutant alleles from your search. This search will still include knock-in reporter genes used in <i>in situ</i> reporter assays. Homozygous mutant specimens are not included in this search.</p>
+  	<p>Select <i>All specimens</i>, the default, to include all mutant and wild type specimens in your search. </p>
         </TD>
        </TR>
  <!--  
@@ -336,9 +338,9 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <table border width="!" cellpadding="4" cellspacing="1">
 <TR><Td VALIGN="top"><b>E</b></td> <TD WIDTH="!">Embryonic day</TD> </TR>
 <TR>  <td valign="top"><b>P  </b></td> <td valign="top">Postnatal or postnatal day </TD> </TR>
-<TR>  <td valign="top"><b>P week</b></td> <td valign="top">Postnatal week</TD> </TR>
-<TR>  <td valign="top"><b>P month</b></td> <td valign="top">Postnatal month</TD> </TR>
-<TR>  <td valign="top"><b>P year</b></td> <td valign="top">Postnatal year</TD> </TR>
+<TR>  <td valign="top"><b>P w</b></td> <td valign="top">Postnatal week</TD> </TR>
+<TR>  <td valign="top"><b>P m</b></td> <td valign="top">Postnatal month</TD> </TR>
+<TR>  <td valign="top"><b>P y</b></td> <td valign="top">Postnatal year</TD> </TR>
 <TR>  <td valign="top"><b>P adult</b></td> <td valign="top">Postnatal adult</TD> </TR>
 <TR>  <td valign="top"><b>P newborn</b></td> <td valign="top">Postnatal newborn</TD> </TR>
 </TABLE>
@@ -421,7 +423,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 
-<h3><a name="excelfile_gxdqf"></a>Can I get my results as a spreadsheet file?</h3>
+<h3><a name="excelfile_gxdqf"></a>Can I get my results as tab-delimited text or spreadsheet files?/h3>
 <p>Yes. The <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a> tabs but not the <a href="#byassay">Assays</a> tab, provide export options. In your search results, <!--at the right hand edge of the Filter assays bar,--> click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
 
 <font size="-1"><A HREF="#top">Top</A></font>
@@ -454,7 +456,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <p>This query returns a list of assay results for genes expressed in the heart at E8.5. Click the Genes tab to view a summary report that includes the gene symbols (with links to MGI detail pages), gene types and genomic map coordinates. <!--the assay type used, result details (linked to an assay record), and the reference (linked to an MGI data detail page).--> The report does not include any expression results obtained from mutant alleles. <b>Note:</b> Each developmental stage in the example includes coverage of embryonic day 8.5. See <a href="#stages">Theiler System</a> for details.</p></li>
 
 <!--3-->
-<LI>What members of the Wnt gene family are expressed in TS 16? 
+<LI>What members of the Wnt gene family are expressed in TS 16?
 
 <blockquote>
 <B>Genes&#8230;Search for expression data for&#8230;:</B>wnt*<br>

@@ -268,9 +268,9 @@ direct detection includes the following additional fields:</p>
 <table border width="!" cellpadding="4" cellspacing="1">
 <TR><td VALIGN="top"><b>E</b></td> <TD WIDTH="!">Embryonic day</TD> </TR>
 <TR><td valign="top"><b>P  </b></td> <td valign="top">Postnatal or postnatal day </TD> </TR>
-<TR> <td valign="top"><b>P week</b></td> <td valign="top">Postnatal week</TD> </TR>
-<TR> <td valign="top"><b>P month</b></td> <td valign="top">Postnatal month</TD> </TR>
-<TR> <td valign="top"><b>P year</b></td> <td valign="top">Postnatal year</TD> </TR>
+<TR> <td valign="top"><b>P w</b></td> <td valign="top">Postnatal week</TD> </TR>
+<TR> <td valign="top"><b>P m</b></td> <td valign="top">Postnatal month</TD> </TR>
+<TR> <td valign="top"><b>P y</b></td> <td valign="top">Postnatal year</TD> </TR>
 <TR> <td valign="top"><b>P adult</b></td> <td valign="top">Postnatal adult</TD> </TR>
 <TR> <td valign="top"><b>P newborn</b></td> <td valign="top">Postnatal newborn</TD> </TR>
 
@@ -323,18 +323,18 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
   <TR> <td align="center" valign="top"><b>Field </b></td> <td align="center" valign="top"><b>Description </b></td></TR>
   <TR><td valign="top"><b><A NAME="strain2"></A>Genetic Background</b></td> <td valign="top">Strain information for the specimen, if specified.  Use of <EM>involves:</EM> in the annotation indicates that the strains listed (separated by asterisks) contributed to the genetic background of the specimen; additional unspecified strains may also be part of the specimen's genetic background. <EM>Either:</EM> appears when the authors use more than one genetic background in a reference but do not specify which one is the background of the specimen.</TD></TR>
   <TR><td valign="top"><b><A NAME="mutations2"></A>Mutant Allele(s)</b></td> <td valign="top">If the specimen is a mutant, the allele pairs describing the mutant genotype</A> appear in this field, linked to the Allele Detail report. </TD></TR>
-  <TR><td valign="top"><b><A NAME="age2"></A>Age </b></td><td valign="top">Age of the specimen used in the assay. Whenever possible, the age annotations are normalized according to the following conventions: noon of the day on which the vaginal plug is found is counted as embryonic (E) day 0.5. Therefore, e.g., if an author refers to the day on which the plug is found as E0, we add 0.5 to the age value(s) listed in the paper and to the <a href="#age_note">Age Note</a> field, <I>Age normalized so that noon of plug day = E0.5</I> to the record. If the staging criteria are not described in the paper, we annotate to the ages given by the authors and may add the comment <I>Age of embryo at noon of plug day not specified in reference</I> to the record. The abbreviations for age annotations are as follows:
+  <TR><td valign="top"><b><A NAME="age2"></A>Age </b></td><td valign="top">Age of the specimen used in the assay. Whenever possible, the age annotations are normalized according to the following conventions: noon of the day on which the vaginal plug is found is counted as embryonic (E) day 0.5. Therefore, e.g., if an author refers to the day on which the plug is found as E0, we add 0.5 to the age value(s) listed in the paper and to the <a href="#age_note">Age Note</a> field, <I>Age normalized so that noon of plug day = E0.5</I> to the record. If the staging criteria are not described in the paper, we annotate to the ages given by the authors and may add the comment <I>Age of embryo at noon of plug day not specified in reference</I> to the record. <!--The abbreviations for age annotations are as follows:
 <table border width="!" cellpadding="4" cellspacing="1">
 <TR><Td VALIGN="top"><b>E</b></td> <TD WIDTH="!">Embryonic day</TD> </TR>
 <TR>  <td valign="top"><b>P  </b></td> <td valign="top">Postnatal or postnatal day </TD> </TR>
-<TR>  <td valign="top"><b>P week</b></td> <td valign="top">Postnatal week</TD> </TR>
-<TR>  <td valign="top"><b>P month</b></td> <td valign="top">Postnatal month</TD> </TR>
-<TR>  <td valign="top"><b>P year</b></td> <td valign="top">Postnatal year</TD> </TR>
+<TR>  <td valign="top"><b>P w</b></td> <td valign="top">Postnatal week</TD> </TR>
+<TR>  <td valign="top"><b>P m</b></td> <td valign="top">Postnatal month</TD> </TR>
+<TR>  <td valign="top"><b>P y</b></td> <td valign="top">Postnatal year</TD> </TR>
 <TR>  <td valign="top"><b>P adult</b></td> <td valign="top">Postnatal adult</TD> </TR>
 <TR>  <td valign="top"><b>P newborn</b></td> <td valign="top">Postnatal newborn</TD> </TR>
 
 </TABLE>
-</TD></TR>
+</TD></TR>-->
 <TR><td valign="top"><b><A NAME="age_note"></A>Age Note</b></td><td valign="top"> Additional information that defines the age, such as the number of somites.</TD></TR>
 <TR><td valign="top"><b><A NAME="sex2"></A>Sex</b></td> <td valign="top">Sex of the specimen, if specified. </TD></TR>
 <TR><td valign="top"><b><A NAME="type"></A>Type</b></td><td valign="top">Refers to type of <I>in situ</I> hybridization (whole mount, section, or section from whole mount).  </TR>
