@@ -423,7 +423,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 
-<h3><a name="excelfile_gxdqf"></a>Can I get my results as tab-delimited text or spreadsheet files?/h3>
+<h3><a name="excelfile_gxdqf"></a>Can I get my results as tab-delimited text or spreadsheet files?</h3>
 <p>Yes. The <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a> tabs but not the <a href="#byassay">Assays</a> tab, provide export options. In your search results, <!--at the right hand edge of the Filter assays bar,--> click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
 
 <font size="-1"><A HREF="#top">Top</A></font>
