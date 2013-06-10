@@ -103,6 +103,7 @@ function openHelpWindow(helpFile){
 <tr><th align="left" valign="top">Contig-Reference</th><td valign="top">Identical to the contig nucleotide.</td></tr>
 <tr><th align="left" valign="top">Coding</th><td valign="top">In the coding region; specific function class unknown.</td></tr>
 <tr><th align="left" valign="top">Coding-Exception</th><td align="left">In the coding region; function class unknown due to exon alignment error.</td></tr>
+<tr><th align="left" valign="top">Non-coding-Transcript-Variant</th><td align="left">In a non-coding transcript.</td></tr>
 </table>
 </blockquote>
 
