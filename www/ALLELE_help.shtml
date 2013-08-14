@@ -82,25 +82,25 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <H3><A NAME="glossary"></a>How does MGI define <I>phenotype, disease</I>, and <I>allele</I>?
 </H3>
 <P><table border="0" cellspacing="0" cellpadding="0" width="!%">
- <tr><td valign="top"><i>phenotype</i></td><td>A description of the observable state of an individual with respect to some inherited characteristic. Often, individuals with different genotypes display the same phenotype. See also <I>dominant</I> and <I>recessive</I> in the <A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A>.<br>
+ <tr><td valign="top"><i>phenotype</i></td><td>A description of the observable state of an individual with respect to some inherited characteristic. Often, individuals with different genotypes display the same phenotype. See also <I>dominant</I> and <I>recessive</I> in the <A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A>.<br>
  <!--In MGI, the specific vocabulary of the Mammalian Phenotype Ontology.--></td></tR>
 
 <tr><td valign="top"><i>disease</i></td><tD> A human disease, syndrome, or condition listed in the OMIM (Online Mendelian Inheritance in Man) database.</tD></tR>
 
 <tr><td valign="top"><i>allele</i></td><td>One of the variant forms of a gene, differing from other forms in its nucleotide sequence. <i>Allele category, allele combination</i> and <i>allele pair</i> also appear in the 
-<A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A>.</tD></tR>
+<A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A>.</tD></tR>
 
-<tr><td valign="top"><i>allele name</i></td><tD>In MGI, an allele name is a word or phrase that uniquely identifies an allele of a given gene. The allele name has an abbreviation that is the allele symbol added as a superscript to the gene symbol. See also <I>Gene Name</I> in the <A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A>.</tD></tr>
+<tr><td valign="top"><i>allele name</i></td><tD>In MGI, an allele name is a word or phrase that uniquely identifies an allele of a given gene. The allele name has an abbreviation that is the allele symbol added as a superscript to the gene symbol. See also <I>Gene Name</I> in the <A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A>.</tD></tr>
 
-<tr><td valign="top"><i>allele symbol</i></td><td valign="top">In MGI, an allele symbol is a unique abbreviation for the allele name of a given gene. Allele symbols take the form of superscripts added to the gene symbol. See also <I>Gene Name</I> and <I>Gene Symbol</I> in the  <A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A>.</tD></tr>
+<tr><td valign="top"><i>allele symbol</i></td><td valign="top">In MGI, an allele symbol is a unique abbreviation for the allele name of a given gene. Allele symbols take the form of superscripts added to the gene symbol. See also <I>Gene Name</I> and <I>Gene Symbol</I> in the  <A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A>.</tD></tr>
 
-<tr><td valign="top"><nobr><i>allelic composition</i><br> (genetic background)</td><td valign="top">See <i>Allele Combination, Compound Allele Combination</i>, in the <A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A>.</tD>
+<tr><td valign="top"><nobr><i>allelic composition</i><br> (genetic background)</td><td valign="top">See <i>Allele Combination, Compound Allele Combination</i>, in the <A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A>.</tD>
 </tr></table>
 
 
 <p><b>Note:</b> Some terms may have unique definitions in the context of MGI queries and results. For more information, see:
 <ul>
-<li><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A> for how MGI defines terms such as allele type and compound allele combination</li>
+<li><A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> for how MGI defines terms such as allele type and compound allele combination</li>
 <li>User documentation for the <a href="ALLELE_summary_help.shtml" target="_blank">summary</a> and <a href="ALLELE_detail_help.shtml" target="_blank">detail</a> reports resulting from your searches.</li>
 </ul> 
 </P>
@@ -374,7 +374,7 @@ gene trapped, targeted (all, Floxed/Frt, Reporter, knock-out, knock-in). See
 <ul> 
 <li><A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype (MP) Browser</a></li>
 <li><A HREF="VOCAB_mp_browser_help.shtml" target="_blank">Using the Mammalian Phenotype (MP) Browser</a></li>
-<li><a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A" target="_blank">Human Disease Vocabulary Browser</a></li>
+<li><a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</a></li>
 <li><A HREF="VOCAB_omim_browser_help.shtml" target="_blank">Using the Human Disease Vocabulary Browser</a></li>
 <li><A HREF="MISC_boolean_search_help.shtml" target="_blank">Using Boolean Operators in MGI</a></li> 
 <li><A HREF="<!--#include file='include/mgihome_url.html'-->/nomen/allmut_quickhelp.shtml" target="_blank">Quick Guide to Nomenclature for Alleles and Mutations</a></li>
