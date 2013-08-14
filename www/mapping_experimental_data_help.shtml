@@ -53,7 +53,7 @@ Experimental Mapping Data Records
 
 <P>See also:
 <UL>
-  <LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</a> for unfamiliar terms (or for how MGI defines familiar terms) and acronyms</LI>
+  <LI><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a> for unfamiliar terms (or for how MGI defines familiar terms) and acronyms</LI>
   <LI><A HREF="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</A></LI>
   <LI><A HREF="MISC_wildcard_help.shtml" target="_blank">Using Wildcards on MGI Query Forms</A></LI>
  </ul>
