@@ -63,8 +63,8 @@ function openHelpWindow(helpFile){
  <li><A HREF="ALLELE_detail_pheno_summary_help.shtml" target="_blank">Interpreting the Phenotype Summary in Allele Details</a></li>
  <li><a href="genetrap_usecase_help.shtml" target="_blank">Gene Trap Questions and Answers</a></li>
  <li><a href="RECOMBINASE_summary_help.shtml" target="_blank">Using Recombinase Alleles -- Tissue Activity Summary Reports</a></li>
- <LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer"target="_blank">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
- <li> <A HREF="<!--#include file='include/mgihome_url.html'-->nomen/gene.shtml" target="_blank">Guidelines for Nomenclature of Genes, Genetic Markers, Alleles, & Mutations in Mouse & Rat</a></li>
+ <li><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
+ <li><A HREF="<!--#include file='include/mgihome_url.html'-->nomen/gene.shtml" target="_blank">Guidelines for Nomenclature of Genes, Genetic Markers, Alleles, & Mutations in Mouse & Rat</a></li>
 </UL>
 
 <h4><a name="title"></a>Title</h4>
