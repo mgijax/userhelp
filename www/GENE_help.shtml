@@ -44,7 +44,7 @@ Using the Genes and Markers Query Form</span>
 </ul>
 <p>See also:
 <ul style="padding-left:30px">
-  <li><a href="<!--#include file='include/fewi_url.html'-->/mgi/glossary"target="_blank">MGI Glossary</a> for unfamiliar terms (or for how MGI defines and uses familiar terms) and acronyms</li>
+  <li><a href="<!--#include file='include/fewi_url.html'-->/mgi/glossary" target="_blank">MGI Glossary</a> for unfamiliar terms (or for how MGI defines and uses familiar terms) and acronyms</li>
   <li><a href="MISC_general_searching_help" target="_blank">General Guidelines for MGI Query Form Searches</a></li>
   <li><a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a></li>
 </ul>
