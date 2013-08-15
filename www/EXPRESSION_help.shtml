@@ -65,7 +65,7 @@ function openHelpWindow(helpFile){
 <p>To learn more about GXD and how we acquire data, please see
 <a href="<!--#include file='include/mgihome_url.html'-->/GXD/aboutGXD.shtml" target="_blank">About GXD</a>.
 </p>
-<p>See also the <A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</a> for unfamiliar terms and acronyms.</p>
+<p>See also the <a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">>MGI Glossary</a> for unfamiliar terms and acronyms.</p>
 
 <h3><A name="whatquery"></a>What can I use the Gene Expression Data query form to find?</h3>
 <p>The Gene Expression Data Query form Standard Search tab allows you to ask questions that can be basic or complex. Examples of the type of questions you can ask are:

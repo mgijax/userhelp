@@ -45,7 +45,7 @@ function openHelpWindow(helpFile){
  </UL>
 <P>See also:</P>
 <UL>
-  <LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</a> (for any unfamiliar terms or acronyms)</LI>
+  <LI><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">>MGI Glossary</a> (for any unfamiliar terms or acronyms)</LI>
   <LI><A HREF="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</A></LI>
 </UL></p>
 
