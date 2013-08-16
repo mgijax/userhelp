@@ -51,19 +51,18 @@ Interpreting a Protein Superfamily Detail Page </span>
 
 <h3><A name="disease_detail"></A>What information is in a Protein Superfamily Detail report?</h3>
 <p><P>The Protein Superfamily Detail report displays protein classification sets obtained from the Protein Information Resource SuperFamily 
-(<a href="http://pir.georgetown.edu/pirwww/dbinfo/pirsf.shtml">PIRSF</a>) site for a homeomorphic superfamily with mouse, human, and rat relationships from HomoloGene Class data. Each row contains links to the representative  sequence (if present) of the mouse, human, and rat orthologs. You can select them by row and download them in FASTA format or forward them to MouseBLAST.</p>
+(<a href="http://pir.georgetown.edu/pirwww/dbinfo/pirsf.shtml">PIRSF</a>) site for a homeomorphic superfamily with mouse, human, and rat relationships from HomoloGene Class data. Each row contains links to the representative  sequences (if present) of the mouse, human, and rat homologs. You can select them by row and download them in FASTA format or forward them to MouseBLAST.</p>
 
 
 <H3><A NAME="interpret"></A>How do I interpret the Protein Superfamily Detail report resulting from my query?</H3>
 
-<P>The table is divided into three sections, horizontally, providing symbol, sequence, and chromosome information for the <ol>
-  <li>Mouse Superfamily Member</li>
-  <li>MGI Human Ortholog</li>
-  <li>MGI Rat Ortholog</li>
-</ol>
-<p>If the human or rat ortholog is unknown, these fields (<b>Symbol, Sequence, Chr</b>) are blank. </p>
-See <A href="#buttons">How do the buttons work? What does <i>Invert</i> do?</a> for additional viewing options.</p>
+<p>Mouse superfamily members are shown with links to their corresponding HomoloGene Classes. Note that pseudogenes are included in PIRSF families but not in orthology sets used here. You can select a given mouse superfamily member and download (or forward to MouseBLAST) FASTA formatted protein sequences of that mouse gene and its mouse, human and rat homologs, as defined in the corresponding HomoloGene Class. 
+</p>
+<p>The numbers of mouse, human and rat genes in the HomoloGene Class are shown. You can also "Select all" mouse superfamily members to obtain their protein sequences and the protein sequences for all mouse, human and rat homologs of the mouse superfamily members.
+The number of protein sequences returned does not always match the numbers of homologs shown, because the same protein sequence can be associated with multiple homologs. For mouse superfamily members not included in any HomoloGene Class, only the mouse protein sequence is returned.
+</p>
 
+See <A href="#buttons">How do the buttons work? What does <i>Invert</i> do?</a> for additional viewing options.</p>
 
 <a name="field_details"></a>
 <TABLE WIDTH="100%" BORDER="1" CELLPADDING="4" CELLSPACING="2">
@@ -73,15 +72,7 @@ See <A href="#buttons">How do the buttons work? What does <i>Invert</i> do?</a> 
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="chromosome"></A>Chr</TH> <TD>Chromosomal assignment of the mouse marker.</td></tr>
 <TR><TH ALIGN="left" VALIGN="top">Homology Class</TH> <TD>The Homology Class ID from Homologene, linked to the MGI Vertebrate Homology Class page.</td></tr>
 <TR><TH ALIGN="left" VALIGN="top">Mouse : Human : Rat Homology Class</TH> <TD>Shows the number of members in this Homology Class for mouse, human and rat.</td></tr>
-<TR><TH ALIGN="left" VALIGN="top">Sequence</TH>
-
-<TD VALIGN="top"><ol>
-  <li>The sequence identifier (as assigned by SwissProt) (i.e., Q61501).</li>
-  <li>Name of and link to the sequence provider's detail page. </li>
-  <li>In the Mouse Superfamily Member column, an additional link to the MGI Sequence Detail page (containing additional sequence information such as description, library, organism, strain, sex, age, tissue, cell line, GO terms, expression assays, orthologs, phenotypic alleles, references, and so on).<br>
-<b>Note:</b> If the link (for mouse, human, or rat) does not appear, it means that as yet there is no sequence affiliated with this marker .
-</ol></TD></TR>
- <TR><TH ALIGN="left" VALIGN="top"><A NAME="chromosome"></A>Chr</TH> <TD>Chromosomal assignment of the marker associated to the sequence.</td></tr>
+<TR><TH ALIGN="left" VALIGN="top">Select Proteins (mouse, human, rat)</TH><TD>A check box is provided to allow you to select homology classes for downloading in FASTA format or to be forwarded to MouseBLAST.</td></tr>
 </TABLE>
 </p>
 
@@ -90,36 +81,34 @@ See <A href="#buttons">How do the buttons work? What does <i>Invert</i> do?</a> 
 <P>There are several ways to use the detail reports. You can:</P>
 
 <OL>
-<LI>view sequence details for a single sequence by clicking either the <B>MGI Sequence Detail</B> or the provider name (e.g., SwissProt) link.</LI>
-<LI>download one or more sequences in <A HREF="#fasta">FASTA</A> format.</LI>
-<LI>forward one or more sequences to <A HREF="#mouseblast">MouseBLAST</A>.</LI>
+<LI>view Vertebrate Homology Class pages for the different PIRSF members of this Superfamily.</LI>
+<LI>download mouse, human and rat protein sequences for one or more homology classes in <A HREF="#fasta">FASTA</A> format.</LI>
+<LI>forward one or more sets of protein sequences to <A HREF="#mouseblast">MouseBLAST</A>.</LI>
 </OL>
 
-<H3><A NAME="single"></A>How do I view details for a single sequence?</H3>
+<!-- <H3><A NAME="single"></A>How do I view details for a single sequence?</H3>
 <P>You can elect to view the sequence details in the provider's database or in MGI.</P>
 <OL>
 <LI>Click the provider link (e.g., SwissProt).<BR>
 The provider's sequence record appears.</LI>
 <LI>Click <B>MGI Sequence Detail</B>.<BR>
 The detail record for that sequence as stored in MGI appears. See <A HREF="#interpret">How do I interpret a Protein Superfamily Detail report resulting from my query?</A>.</LI>
-</OL>
+</OL> -->
 
 <H3><A NAME="fasta"></A>How do I download sequences in FASTA format?</H3>
 <P>To download sequences in FASTA format:</P>
 <OL>
-<LI>Click to put a check mark in the <B>Select</B> column next to one or more sequences.</LI>
-<LI>Click the arrow in the box beneath the text <i>For the selected sequences</i> (above the table)</i></LI>
-<LI>Click <B>download in FASTA format</B> (this is the default).</LI>
+<LI>Click to put a check mark in the <B>Select Proteins</B> column for to one or more Homology Classes.</LI>
+<LI>Just above the table, <i>For the selected sequences</i>, toggle <B>download in FASTA format</B> (this is the default).</LI>
 <LI>Click <B>GO</B>.</LI>
 </OL>
 
 <H3><A NAME="mouseblast"></A>How do I forward sequences to MouseBLAST?</H3>
 <P>To forward sequences to MouseBLAST:</P>
 <OL>
-<LI>Click to put a check mark in the Select column next one or more sequences.</LI>
-<LI>Click the arrow in the box beside the text <i>For the selected sequences</i> (above the table)</i></LI>
-<LI>Click <i>forward to MouseBLAST</i>.</LI>
-<LI>Click GO.</LI>
+<LI>Click to put a check mark in the <B>Select Proteins</B> column for to one or more Homology Classes.</LI>
+<LI>Just above the table, <i>For the selected sequences</i>, toggle <B>download in FASTA format</B> (this is the default) to <i>forward to MouseBLAST</i>.</LI>
+<LI>Click <B>GO</B>.</LI>
 </OL>
 
 <p>For additional information, see:<ul>
@@ -132,7 +121,7 @@ The detail record for that sequence as stored in MGI appears. See <A HREF="#inte
 <p>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR><TH VALIGN="top">Button</TH><TH>Action</TH><TH>Use this when...</TH></TR>
-<TR><TH ALIGN="left" VALIGN="top"><nobr>Select all</nobr></TH><TD>Selects all the sequences on the list.</TD><TD VALIGN="top">You want to examine every sequence.</TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><nobr>Select all</nobr></TH><TD>Selects all the Homology Classes on the list.</TD><TD VALIGN="top">You want to examine every protein sequence.</TD></TR>
 <TR><TH ALIGN="left" VALIGN="top">Invert</TH><TD VALIGN="top">Toggles to remove check marks from selected boxes and put them in boxes not selected.</TD><TD ALIGN="left" VALIGN="top">You don't want the action of Reset (which removes all check marks) or when the list of sequences you want to see is longer than the list you do not want to see.<br> To use it, click Select all, click boxes beside any undesired sequences, then click Invert. Only the desired sequences remain.</TD></TR>
 <TR><TH ALIGN="left" VALIGN="top">Reset</TH><TD VALIGN="top">Removes any check marks from boxes.</TD>
 <TD>You want to start over and make all new selections.</TD></TR>
