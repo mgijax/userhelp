@@ -38,6 +38,7 @@ Experimental Mapping Data Records
 <A NAME="top"></A>
 <p>This document provides a brief description of the fields and values in the query results for:
 <UL>
+ <li><A href="#mapsum">Marker Mapping Data Summaries</A></li>
  <li><A href="#map">Mapping Data Records</A></li>
  <li><A href="#con">Experiment Type: CONTIG</A></li>
  <li><A href="#crs">Experiment Type: CROSS</A></li>
@@ -60,8 +61,28 @@ Experimental Mapping Data Records
  </ul>
 </p>
 
+<H3><A name="mapsum"></A>Marker Mapping Data Summaries</H3>
+<p>These pages summarize the mapping data for a marker by experimental type. MGI Marker Mapping Data Summaries have the following fields:
+<P>
+<TABLE border cellpadding=4>
+ <TBODY>
+  <TR>
+   <TH>FIELD</th><TH>DESCRIPTION</th> </TR>
+  <TR>
+    <TH align=left valign=top>Experiment Type</th> <TD>Experiment types include <i>Cross, RI, Hybrid, 
+      In Situ (including FISH), Contig,  TEXT: Physical Mapping, TEXT: QTL, and TEXT: Radiation Hybrid.</td>
+    </TR>
+<TR><TH ALIGN=LEFT VALIGN=TOP>Experiment </th><TD>The mapping experiment type linked to the experimental data details</td>  </TR>
+<TR><TH ALIGN=LEFT VALIGN=TOP>Chr </th><TD>Chromosome</td>  </TR>
+<TR><TH ALIGN=LEFT VALIGN=TOP>Reference</th><TD>J number (MGI accession ID format for references), Primary author, Journal, Date, Issue, Pages)</td></TR>
+</TBODY>
+</TABLE>
+<P>The experimental data details are described below. 
+</p>
+<font size="-1"><a href="#top">Top</a></font>
+
 <H3><A name="map"></A>Mapping Data Records</H3>
-<p>MGD contains genetic mapping and linkage data, including haplotype data for linkage crosses,
+<p>MGI contains genetic mapping and linkage data, including haplotype data for linkage crosses,
 recombinant inbred (RI) strain distribution patterns, in-situ hybridization data, deletion mapping information, translocation breakpoint mapping, somatic cell hybrids, concordance tables, congenic strain information, and physical mapping information. Genetic Mapping Data records have the following fields:
 <P>
 <TABLE border cellpadding=4>
