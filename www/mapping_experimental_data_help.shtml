@@ -47,7 +47,8 @@ Experimental Mapping Data Records
  <li><A href="#hyb">Experiment Type: HYBRID</A></li>
  <li><A href="#txt">Experiment Type: TEXT: Physical Mapping</A></li>
  <li><A href="#txt2">Experiment Type: TEXT: QTL</A></li>
- <li><A href="#txt3">Experiment Type: TEXT: Radiation Hybrid</A></li>
+ <li><A href="#txt3">Experiment Type: TEXT: QTL-Candidate Genes</A></li>
+ <li><A href="#txt4">Experiment Type: TEXT: Radiation Hybrid</A></li>
  </UL>
 </p>
 
@@ -232,7 +233,21 @@ distances between markers in a tabular representation which includes the followi
 included in the report. In the case of QTL experiments, the experimental results are described in the Notes field.
 </P>
 
-<H4><A name="txt3"></a>Experiment Type: TEXT: Radiation Hybrid</H4>
+<H4><A name="txt3"></A>Experiment Type: TEXT: QTL-Candidate Genes</H4> 
+<P>This record contains the following fields:
+<ul>
+<LI>Reference</li>
+<LI>Experiment (type)</li>
+<LI><a name="chromosome"></a>Chromosome</li>
+<li>Modification date</li>
+<LI><a name="marker"></a>Markers</li>
+<LI>Notes </LI>
+</UL>
+<P>Experimental results may be discussed in a paper but the actual data are not
+included in the report. Potential candidate genes reported by the authors are described in the Notes field.
+</P>
+
+<H4><A name="txt4"></a>Experiment Type: TEXT: Radiation Hybrid</H4>
 <P>This record contains the following fields:
 <UL>
 <LI>Reference</LI>
