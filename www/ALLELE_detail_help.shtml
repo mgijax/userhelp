@@ -288,7 +288,7 @@ Click &#9660; to close the  display.</p></td>
  <li>GenBank accession identifier for the mutation.</li>
  <LI>Other origin information.</LI> 
  <li>Additional information for the parent cell line.</li>
- <li>Mapping data for QTL variants.</li>
+ <li>Mapping data for QTL variants and candidate genes within the QTL interval.</li>
 </ul>
 If this field is not present, it means that there is currently no information of this type in the MGI database for this allele.</td></tr>
 
