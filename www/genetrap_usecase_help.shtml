@@ -563,7 +563,7 @@ MCL	     Indicates Mutant Cell Line identity.
 <h3><a name="interest_gene"></a>How can I find gene traps not associated with a gene but that are near a gene of interest?</h3>
 <p>
 <ul>         
-  <li>Use the <A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF" target="_blank">Genes and Markers Query Form</a> to locate the gene of interest. The Genes and Markers Query Results -- Summary appears.</li>
+  <li>Use the <A HREF="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a> to locate the gene of interest. The Genes and Markers Query Results -- Summary appears.</li>
   <li>Click the gene symbol on the summary report. The Gene Detail report appears.</b></li>
   <li>If the <b>Sequence Map</b> row (on the Gene Detail report) displays a genome browser link, you can view the gene relative to genome coordinates.</li>
    <ul>
