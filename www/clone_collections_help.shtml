@@ -96,7 +96,7 @@ The RIKEN Genome Exploration Research (GER) group organized an international mee
 <P>The <B>Clone Collection</B> field appears on these MGI query forms:
 <UL>
 
-<LI><a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF">Genes and Markers Query Form</a></LI>
+<LI><a href="<!--#include file='include/fewi_url.html'-->marker">Genes and Markers Query Form</a></LI>
 <LI><a href="<!--#include file='include/wi_url.html'-->searches/sequence_form.shtml">Mouse Sequence Query Form</a></LI>
  </UL></p>
 <A HREF="#top">Top</A>
