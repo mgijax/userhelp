@@ -114,10 +114,10 @@ See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type 
   <td align="left" valign="top">Use the map position parameters (
   <a name="chromosome"></a><a href="MISC_map_position_help.shtml#chromosome" target="_blank">Chromosome(s)</a>, 
   <a name="coordinates"></a><a href="MISC_map_position_help.shtml#coordinates" target="_blank">Genome Coordinates</a>, 
-  <a name="cytogenetic_band"></a><a href="MISC_map_position_help.shtml#cytogenetic_band" target="_blank">Cytogenetic Band</a>, 
+  <!--<a name="cytogenetic_band"></a><a href="MISC_map_position_help.shtml#cytogenetic_band" target="_blank">Cytogenetic Band</a>,--> 
   <a name="marker_range"></a><a href="MISC_map_position_help.shtml#marker_range" target="_blank">Marker Range</a>, and 
   <a name="cm_offset"></a><a href="MISC_map_position_help.shtml#cm_offset" target="_blank">cM Position</a>) to limit the scope of your query.<ul>
-      <li>When using chromosome(s), you can also define genome coordinates, cytogenetic band, or cM position.</li> <li>You cannot combine genome coordinates, cytogenetic band, and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) &#151; except QTL(s) &#151;  with coordinates.</li></ul>
+      <li>When using chromosome(s), you can also define genome coordinates or cM position.</li> <li>You cannot combine genome coordinates and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) &#151; except QTL(s) &#151;  with coordinates.</li></ul>
 See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fields on MGI Query Forms</a> for further details about entering values in these fields.</td>
 </tr>
 
@@ -203,7 +203,7 @@ The combination of sort option and search parameter affects the order and type o
 <TR><TH ALIGN="left" VALIGN="top">Web (default)</TH><TD VALIGN="top">Web page with MGI toolbar and all the selected items. </TD></TR>
 <TR><TH ALIGN="left" VALIGN="top">Excel</TH><TD VALIGN="top">Comma-delimited text in an Excel spreadsheet with a .csv (comma separated values) extension. (See <a href="http://en.wikipedia.org/wiki/Comma-separated_values" target="_blank">http://en.wikipedia.org/wiki/Comma-separated_values</a> for details.</TD></TR>
 <TR><TH ALIGN="left" VALIGN="top">Tab-delimited</TH><TD VALIGN="top">Tab-delimited text returned to your browser with all the selected fields.</TD></TR>
-<TR><TH ALIGN="left" VALIGN="top">Tab-delimited text to ftp site</TH><TD VALIGN="top">Tab-delimited text saved on our public FTP site available for 72 hours. Be sure to save the URL or print the page with the information for later access.  
+<!--<TR><TH ALIGN="left" VALIGN="top">Tab-delimited text to ftp site</TH><TD VALIGN="top">Tab-delimited text saved on our public FTP site available for 72 hours. Be sure to save the URL or print the page with the information for later access.-->  
 </TABLE>
     </td>
     </tr>
