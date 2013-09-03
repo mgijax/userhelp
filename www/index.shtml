@@ -233,7 +233,7 @@ User Help Site Map
             </dd>
 <!--7-->
                   <dd><a href="MISC_map_position_help.shtml" onclick="javascript:openHelpWindow('MISC_map_position_help.shtml'); return false;">Using Map Position Fields on MGI Query Forms</a></dd>
-     <dd><a href="MISC_clone_collection_help.shtml" onclick="javascript:openHelpWindow('MISC_clone_collection_help.shtml'); return false;">Using the Clone Collection Field on MGI Query Forms</a></dd>
+     <!--<dd><a href="MISC_clone_collection_help.shtml" onclick="javascript:openHelpWindow('MISC_clone_collection_help.shtml'); return false;">Using the Clone Collection Field on MGI Query Forms</a></dd>-->
 <dd><a href="GO_classification_fields_help.shtml" onclick="javascript:openHelpWindow('GO_classification_fields_help.shtml'); return false;">Using Gene Ontology Classification Fields on MGI Query Forms</a></dd>		
 
 
