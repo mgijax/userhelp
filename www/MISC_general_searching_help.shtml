@@ -71,8 +71,8 @@ query options in an easy-to-use format. Help documentation is available on-line 
 <LI>Select the query form to use depending on the type of information you want to search for. The following forms are available:
 <UL>
  <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/AMA_form.shtml" target="_blank">Adult Mouse Anatomical Dictionary Browser</A></LI>
- <!--<LI>Anatomical Dictionary Browser Query Refiner (accessible via searches from the <A HREF="<!--#include file='include/wi_url.html'-->searches/AMA_form.shtml">Adult Mouse Anatomical Dictionary Browser</A>)
- <LI><A HREF="<!--#include file='include/fewi_url.html'-->marker">Genes and Markers Query Form</A></LI>-->
+ <!--<LI>Anatomical Dictionary Browser Query Refiner (accessible via searches from the <A HREF="<!--#include file='include/wi_url.html'-->searches/AMA_form.shtml">Adult Mouse Anatomical Dictionary Browser</A>)-->
+ <LI><A HREF="<!--#include file='include/fewi_url.html'-->marker">Genes and Markers Query Form</A></LI>
  <LI><a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Query Form</A></LI>
  <LI><a href="<!--#include file='include/fewi_url.html'-->gxd" target="_blank">Gene Expression Data Query Form</A></LI>
  <!--<LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQFexpanded" target="_blank">Gene Expression Data Expanded Query Form</A></LI>-->
