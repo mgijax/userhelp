@@ -112,7 +112,7 @@ The Field Description - Term Detail report appears.</P>
 <TR><TD VALIGN="top">Unique identifier</TD><TD><FONT COLOR="#FF0000">Red</FONT></TD><TD>Name of the phenotype term selected, followed by the a unique identifier. There is one identifier for each term in the MP Browser. This means that no matter how many times the term appears, the ID is always the same. This is also true if the term changes. For example, if  "anophthalmia" becomes simply "absent eyes," the Mammalian Phenotype identifier does not change.</TD>
 </TR>
 <TR>
-<TD VALIGN="top"><IMG SRC="<!--#include file='include/wi_url.html'-->images/shared/is-a.gif"> "Is-a" Relationship</TD><TD VALIGN="top"><FONT COLOR="#008000">Green</FONT></TD><TD VALIGN="top">Indicates that the term is an instance or type of the more general term above it in the tree. For example, anophthalmia is a type of eye abnormality.</TD>
+<TD VALIGN="top"><img src="<!--#include file='include/webshare_url.html'-->images/is-a.gif"> "Is-a" Relationship</TD><TD VALIGN="top"><FONT COLOR="#008000">Green</FONT></TD><TD VALIGN="top">Indicates that the term is an instance or type of the more general term above it in the tree. For example, anophthalmia is a type of eye abnormality.</TD>
 </TR>
 <TR>
 <TD VALIGN="top"><FONT COLOR="#0000FF">+</FONT></TD><TD><FONT COLOR="#0000FF">Blue</FONT></TD><TD>A plus sign (+) following a term indicates that the term has children. Click to see the additional paths to the term.</TD>
