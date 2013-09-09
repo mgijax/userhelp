@@ -59,7 +59,7 @@ Use the Adult Mouse Anatomical Dictionary Browser to view the anatomical terms a
 </p>
 <P>See also:</p>
 <ul>
-  <li><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A> for any unfamiliar terms or acronyms.</li>
+  <li><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> for any unfamiliar terms or acronyms.</li>
 
 </ul>
 

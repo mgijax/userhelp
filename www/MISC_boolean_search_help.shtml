@@ -62,7 +62,7 @@ function openHelpWindow(helpFile){
  
 <P>See also:</P>
 <UL>
-<LI><a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A> for unfamiliar terms (or for how MGI defines familiar terms) and acronyms</LI>
+<LI><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> for unfamiliar terms (or for how MGI defines familiar terms) and acronyms</LI>
   <LI><A HREF="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</A></LI>
     <LI><A HREF="MISC_wildcard_help.shtml" target="_blank">Using Wildcards on MGI Query Forms</a></LI>
   
@@ -76,7 +76,7 @@ function openHelpWindow(helpFile){
 <h3><A name="whatis"></a>Which fields on MGI query forms support a full-text search?</h3>
 <P>The following MGI query forms support full-text searches:</P>
 <UL>
-  <LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF" target="_blank">Genes and Markers Query Form</A> (phenotype/disease field)</LI>
+  <LI><A HREF="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</A> (phenotype/disease field)</LI>
  <LI><a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Search</A> (Text field)</LI>
   <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A></LI>
   <!--<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/sequence_form.shtml">Mouse Sequence Query Form</a> (Phenotype/Disease field)</LI>-->

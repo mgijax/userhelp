@@ -38,6 +38,7 @@ Experimental Mapping Data Records
 <A NAME="top"></A>
 <p>This document provides a brief description of the fields and values in the query results for:
 <UL>
+ <li><A href="#mapsum">Marker Mapping Data Summaries</A></li>
  <li><A href="#map">Mapping Data Records</A></li>
  <li><A href="#con">Experiment Type: CONTIG</A></li>
  <li><A href="#crs">Experiment Type: CROSS</A></li>
@@ -47,20 +48,41 @@ Experimental Mapping Data Records
  <li><A href="#hyb">Experiment Type: HYBRID</A></li>
  <li><A href="#txt">Experiment Type: TEXT: Physical Mapping</A></li>
  <li><A href="#txt2">Experiment Type: TEXT: QTL</A></li>
- <li><A href="#txt3">Experiment Type: TEXT: Radiation Hybrid</A></li>
+ <li><A href="#txt3">Experiment Type: TEXT: QTL-Candidate Genes</A></li>
+ <li><A href="#txt4">Experiment Type: TEXT: Radiation Hybrid</A></li>
  </UL>
 </p>
 
 <P>See also:
 <UL>
-  <LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</a> for unfamiliar terms (or for how MGI defines familiar terms) and acronyms</LI>
+  <LI><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a> for unfamiliar terms (or for how MGI defines familiar terms) and acronyms</LI>
   <LI><A HREF="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</A></LI>
   <LI><A HREF="MISC_wildcard_help.shtml" target="_blank">Using Wildcards on MGI Query Forms</A></LI>
  </ul>
 </p>
 
+<H3><A name="mapsum"></A>Marker Mapping Data Summaries</H3>
+<p>These pages summarize the mapping data for a marker by experimental type. MGI Marker Mapping Data Summaries have the following fields:
+<P>
+<TABLE border cellpadding=4>
+ <TBODY>
+  <TR>
+   <TH>FIELD</th><TH>DESCRIPTION</th> </TR>
+  <TR>
+    <TH align=left valign=top>Experiment Type</th> <TD>Experiment types include <i>Cross, RI, Hybrid, 
+      In Situ (including FISH), Contig,  TEXT: Physical Mapping, TEXT: QTL, and TEXT: Radiation Hybrid.</td>
+    </TR>
+<TR><TH ALIGN=LEFT VALIGN=TOP>Experiment </th><TD>The mapping experiment type linked to the experimental data details</td>  </TR>
+<TR><TH ALIGN=LEFT VALIGN=TOP>Chr </th><TD>Chromosome</td>  </TR>
+<TR><TH ALIGN=LEFT VALIGN=TOP>Reference</th><TD>J number (MGI accession ID format for references), Primary author, Journal, Date, Issue, Pages)</td></TR>
+</TBODY>
+</TABLE>
+<P>The experimental data details are described below. 
+</p>
+<font size="-1"><a href="#top">Top</a></font>
+
 <H3><A name="map"></A>Mapping Data Records</H3>
-<p>MGD contains genetic mapping and linkage data, including haplotype data for linkage crosses,
+<p>MGI contains genetic mapping and linkage data, including haplotype data for linkage crosses,
 recombinant inbred (RI) strain distribution patterns, in-situ hybridization data, deletion mapping information, translocation breakpoint mapping, somatic cell hybrids, concordance tables, congenic strain information, and physical mapping information. Genetic Mapping Data records have the following fields:
 <P>
 <TABLE border cellpadding=4>
@@ -232,7 +254,21 @@ distances between markers in a tabular representation which includes the followi
 included in the report. In the case of QTL experiments, the experimental results are described in the Notes field.
 </P>
 
-<H4><A name="txt3"></a>Experiment Type: TEXT: Radiation Hybrid</H4>
+<H4><A name="txt3"></A>Experiment Type: TEXT: QTL-Candidate Genes</H4> 
+<P>This record contains the following fields:
+<ul>
+<LI>Reference</li>
+<LI>Experiment (type)</li>
+<LI><a name="chromosome"></a>Chromosome</li>
+<li>Modification date</li>
+<LI><a name="marker"></a>Markers</li>
+<LI>Notes </LI>
+</UL>
+<P>Experimental results may be discussed in a paper but the actual data are not
+included in the report. Potential candidate genes reported by the authors are described in the Notes field.
+</P>
+
+<H4><A name="txt4"></a>Experiment Type: TEXT: Radiation Hybrid</H4>
 <P>This record contains the following fields:
 <UL>
 <LI>Reference</LI>

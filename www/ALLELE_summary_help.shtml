@@ -44,7 +44,7 @@ function openHelpWindow(helpFile){
 </UL>
 <P>See also:
 <UL>
-  <LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
+  <LI><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
   <LI><A HREF="ALLELE_help.shtml" target="_blank">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
   <LI><A HREF="ALLELE_detail_help.shtml" target="_blank">Understanding Phenotypic Allele Detail Reports</A></LI>
 </UL></P>
@@ -87,7 +87,7 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
  <TR><TH ALIGN="left" VALIGN="top">Synonyms</TH></TD> <TD VALIGN="top">Any synonyms (unofficial symbols and names) for the allele.</TD> </TR>
  <TR><a name="cat"></a><TH ALIGN="left" VALIGN="top">Category</TH></TD> <TD VALIGN="top">Specific allele type (e.g., knockout, targeted, gene trapped).  Cell line (in parentheses) indicates that there is  no information about the creation of a mouse line for the allele. Chimera (in parentheses) means that MGI has information only about the chimeric mouse.</TD></tr>
  <TR><TH ALIGN="left" VALIGN="top"><nobr>Abnormal Phenotypes Reported</nobr> in these Systems</th><td valign="top">High level terms from the Mammalian Phenotype (MP) Ontology annotated to the allele. See the <A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A>. These high level terms are also found in the Phenotype Selection List pop-up (when you click Anatomical Systems Affected by Phenotypes on the <A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A>). Phenotypes that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report.</td></tr>
- <tr><th align="Left" valign="Top">Human Disease Models</th><td valign="top">Human disease terms and OMIM IDs annotated to the allele. Diseases that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report. See the <A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A" target="_blank">Human Disease Vocabulary Browser</A>.</ul></TD></TR> 
+ <tr><th align="Left" valign="Top">Human Disease Models</th><td valign="top">Human disease terms and OMIM IDs annotated to the allele. Diseases that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report. See the <a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</A>.</ul></TD></TR> 
 </table> 
 <!--<TR><TH ALIGN="left" VALIGN="top">Allelic Composition <BR>(Genetic Background)</TH><TD VALIGN="top">Allele pairs that contribute to the genotype and the mouse strain background. Each allele is linked to its corresponding Phenotypic Allele Detail Report. <br>
  Beneath the allele pairs, in parentheses, the strain of the genetic background appears; e.g., (involves: 129/Sv * C57BL/6) or (not specified).<br>

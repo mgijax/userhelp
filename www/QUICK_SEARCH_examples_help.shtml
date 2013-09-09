@@ -164,7 +164,7 @@ See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and exa
 <tr><td valign="top">MP</td><td valign="top">Mammalian Phenotype<br>
 <a href="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a></td><td valign="top">Phenotype</td></tr>
 <tr><td valign="top">OMIM</td><td valign="top">Online Mendelian Inheritance in Man<br>
-<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A" target="_blank">Human Disease Vocabulary Browser</a></td><td valign="top">Disease (model or ortholog)</td></tr>
+<a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</a></td><td valign="top">Disease (model or ortholog)</td></tr>
 <tr><td valign="top">PIRSF</td><td valign="top">Protein Information Resource SuperFamily </td><td valign="top">Protein families</td></tr>
 <tr><td valign="top">InterPro</td><td valign="top">Protein data from  EBI's <a href="http://www.ebi.ac.uk/interpro/" target="_blank">InterPro</a> database</td><td valign="top">Protein domain</td></tr>
 </table><br>
@@ -282,7 +282,7 @@ Protein kinase ATP binding, conserved site</td><td valign="top"><a href="ftp://f
 <a href="<!--#include file='include/wi_url.html'-->/searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a></td></td></tr>   
 
   <tr><td valign="top">human genes and genetic disorders; diseases</td><td valign="top">607822<br>breast cancer</td><td valign="top">
-<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A" target="_blank">Human Disease Vocabulary Browser</a></td></tr> 
+<a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</a></td></tr> 
    
    </table>
 

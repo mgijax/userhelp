@@ -404,7 +404,7 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
 <p>See also <a href="#summary">MGI Batch Query results</a> for information on the other fields.</p>
  <!--<p>For detailed information, see <a href="gxd_tissue_results.shtml">Interpreting the Gene Expression Data: Results by Tissue - Summary Report</a>.</p>-->
 
-<p>Use the <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF" target="_blank">Genes and Markers Query Form</a> to find a gene of interest and  view additional expression results (e.g., Literature Summary, Data Summary, Theiler Stages, Assay Types, cDNA source data, External Resources).</p>
+<p>Use the <a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a> to find a gene of interest and  view additional expression results (e.g., Literature Summary, Data Summary, Theiler Stages, Assay Types, cDNA source data, External Resources).</p>
 
 </blockquote>
 

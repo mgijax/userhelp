@@ -119,7 +119,7 @@ For example:
 	 </table>
 
 <tr><th valign="top" align="right"><a name="assay_detailz"></a>Assays</th>
-	<td>Click the <b>Assays</b> tab (at the top of the table) to show columns with the assay type; the  detection method; the reporter gene, probe or antibody; and notes about the assay.<table border="0" cellspacing="2" cellpadding="4">
+	<td>Click the <b>Assays</b> tab (at the top of the table) to show columns with the assay type; the  detection method; the <a href="<!--#include file='include/fewi_url.html'-->glossary/reporter_gene" target="_blank">reporter gene</a>, probe or antibody; and notes about the assay.<table border="0" cellspacing="2" cellpadding="4">
   	<tr><th valign"top"><a name="assay_type"></a>Assay Type</th><td valign="top">In situ reporter (knock in), in situ reporter (transgenic), or Recombinase reporter.</td></tr> 
 	<tr><th valign"top"><a name="reporter_gene"></a>Reporter Gene</th><td valign="top">Gene assayed for.</td></tr>
 	<tr><th valign"top"><a name="detection_method"><nobr>Detection Method</nobr></a></th><td valign="top">Assay method. Examples: direct detection, probe, antibody.</td></tr> 

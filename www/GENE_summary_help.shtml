@@ -55,7 +55,7 @@ function openHelpWindow(helpFile){
 </p>
 <h3><a name="summary_sort"></a>What determines the content of this report?</h3>
 <P>The marker summary content depends on the button you click on the
-<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF" target="_blank">Genes and Markers Query Form</a> (cM, Nomenclature, or Genome Coordinates) and your choice in the Search box next to the Symbol/Name field. There are two types of searches: narrow and broad.</p>
+<a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a> (cM, Nomenclature, or Genome Coordinates) and your choice in the Search box next to the Symbol/Name field. There are two types of searches: narrow and broad.</p>
 
 <a href="#top">Top</A><br>
 

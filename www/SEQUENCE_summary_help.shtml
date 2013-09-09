@@ -62,7 +62,7 @@ Interpreting a Sequence Summary </span>
 
 <P>See also:</P>
 <UL>
-<LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
+<LI><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
 <!--<LI><A HREF="SEQUENCE_help.shtml">Using the Mouse Sequence Query Form</A></LI>-->
 <LI><A HREF="SEQUENCE_detail_help.shtml" target="_blank">Interpreting Sequence Detail Reports</A></LI>
 <!--<LI><A HREF="SEQUENCE_query_tips_help.shtml">Sequence Query Tips</A></LI>-->
