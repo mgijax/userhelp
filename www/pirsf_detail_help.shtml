@@ -51,7 +51,7 @@ Interpreting a Protein Superfamily Detail Page </span>
 
 <h3><A name="disease_detail"></A>What information is in a Protein Superfamily Detail report?</h3>
 <p><P>The Protein Superfamily Detail report displays protein classification sets obtained from the Protein Information Resource SuperFamily 
-(<a href="http://pir.georgetown.edu/pirwww/dbinfo/pirsf.shtml">PIRSF</a>) site for a homeomorphic superfamily with mouse, human, and rat relationships from HomoloGene Class data. You can select representative protein sequences for mouse, human, and rat by row and download them in FASTA format or forward them to MouseBLAST.</p>
+(<a href="http://pir.georgetown.edu/pirwww/dbinfo/pirsf.shtml">PIRSF</a>) site for a homeomorphic superfamily with mouse, human, and rat relationships from HomoloGene Class data. You can select representative protein sequences for mouse, human and rat by row and download them in FASTA format or forward them to MouseBLAST.</p>
 
 
 <H3><A NAME="interpret"></A>How do I interpret the Protein Superfamily Detail report resulting from my query?</H3>
