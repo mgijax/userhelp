@@ -116,12 +116,10 @@ See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type 
   <!--<a name="cytogenetic_band"></a><a href="MISC_map_position_help.shtml#cytogenetic_band" target="_blank">Cytogenetic Band</a>,--> 
   <a name="marker_range"></a><a href="MISC_map_position_help.shtml#marker_range" target="_blank">Marker Range</a>, and 
   <a name="cm_offset"></a><a href="MISC_map_position_help.shtml#cm_offset" target="_blank">cM Position</a>) to limit the scope of your query.<ul>
-<<<<<<< GENE_help.shtml
+
       <li>When using chromosome(s), you can also define genome coordinates or cM position.</li> 
       <li>You cannot combine genome coordinates and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) &#151; except QTL(s) &#151;  with coordinates.</li></ul>
-=======
       <li>When using chromosome(s), you can also define genome coordinates or cM position.</li> <li>You cannot combine genome coordinates and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) &#151; except QTL(s) &#151;  with coordinates.</li></ul>
->>>>>>> 1.12
 See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fields on MGI Query Forms</a> for further details about entering values in these fields.</td>
 </tr>
 
