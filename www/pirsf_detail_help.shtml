@@ -51,15 +51,15 @@ Interpreting a Protein Superfamily Detail Page </span>
 
 <h3><A name="disease_detail"></A>What information is in a Protein Superfamily Detail report?</h3>
 <p><P>The Protein Superfamily Detail report displays protein classification sets obtained from the Protein Information Resource SuperFamily 
-(<a href="http://pir.georgetown.edu/pirwww/dbinfo/pirsf.shtml">PIRSF</a>) site for a homeomorphic superfamily with mouse, human, and rat relationships from HomoloGene Class data. Each row contains links to the representative  sequences (if present) of the mouse, human, and rat homologs. You can select them by row and download them in FASTA format or forward them to MouseBLAST.</p>
+(<a href="http://pir.georgetown.edu/pirwww/dbinfo/pirsf.shtml">PIRSF</a>) site for a homeomorphic superfamily with mouse, human, and rat relationships from HomoloGene Class data. You can select representative protein sequences for mouse, human, and rat by row and download them in FASTA format or forward them to MouseBLAST.</p>
 
 
 <H3><A NAME="interpret"></A>How do I interpret the Protein Superfamily Detail report resulting from my query?</H3>
 
-<p>Mouse superfamily members are shown with links to their corresponding HomoloGene Classes. Note that pseudogenes are included in PIRSF families but not in orthology sets used here. You can select a given mouse superfamily member and download (or forward to MouseBLAST) FASTA formatted protein sequences of that mouse gene and its mouse, human and rat homologs, as defined in the corresponding HomoloGene Class. 
+<p>Mouse superfamily members are shown with links to their corresponding Homology Classes. Note that pseudogenes are included in PIRSF families but not in orthology sets used here. You can select a given mouse superfamily member and download (or forward to MouseBLAST) FASTA formatted protein sequences of that mouse gene and its mouse, human and rat homologs, as defined in the corresponding Homology Class. 
 </p>
-<p>The numbers of mouse, human and rat genes in the HomoloGene Class are shown. You can also "Select all" mouse superfamily members to obtain their protein sequences and the protein sequences for all mouse, human and rat homologs of the mouse superfamily members.
-The number of protein sequences returned does not always match the numbers of homologs shown, because the same protein sequence can be associated with multiple homologs. For mouse superfamily members not included in any HomoloGene Class, only the mouse protein sequence is returned.
+<p>The numbers of mouse, human and rat genes in the Homology Class are shown. You can also "Select all" mouse superfamily members to obtain their protein sequences and the protein sequences for all mouse, human and rat homologs of the mouse superfamily members.
+The number of protein sequences returned does not always match the numbers of homologs shown, because the same protein sequence can be associated with multiple homologs. For mouse superfamily members not included in any Homology Class, only the mouse protein sequence is returned.
 </p>
 
 See <A href="#buttons">How do the buttons work? What does <i>Invert</i> do?</a> for additional viewing options.</p>
@@ -68,11 +68,11 @@ See <A href="#buttons">How do the buttons work? What does <i>Invert</i> do?</a> 
 <TABLE WIDTH="100%" BORDER="1" CELLPADDING="4" CELLSPACING="2">
  <TR>
    <TH>FIELD </TH><TH>DESCRIPTION</TH> </TR>
-<TR><TH ALIGN="left" VALIGN="top">Mouse PIRSF Members</TH><TD>The official gene symbol for the mouse genetic marker.</TD></tr>
+<TR><TH ALIGN="left" VALIGN="top">Mouse PIRSF Members</TH><TD>The official gene symbol for the mouse genetic marker, linked to the MGI Gene Detail page.</TD></tr>
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="chromosome"></A>Chr</TH> <TD>Chromosomal assignment of the mouse marker.</td></tr>
-<TR><TH ALIGN="left" VALIGN="top">Homology Class</TH> <TD>The Homology Class ID from Homologene, linked to the MGI Vertebrate Homology Class page.</td></tr>
+<TR><TH ALIGN="left" VALIGN="top">Homology Class</TH> <TD>The Homology Class ID from HomoloGene, linked to the MGI Vertebrate Homology Class page.</td></tr>
 <TR><TH ALIGN="left" VALIGN="top">Mouse : Human : Rat Homology Class</TH> <TD>Shows the number of members in this Homology Class for mouse, human and rat.</td></tr>
-<TR><TH ALIGN="left" VALIGN="top">Select Proteins (mouse, human, rat)</TH><TD>A check box is provided to allow you to select homology classes for downloading in FASTA format or to be forwarded to MouseBLAST.</td></tr>
+<TR><TH ALIGN="left" VALIGN="top">Select Proteins (mouse, human, rat)</TH><TD>A check box is provided to allow you to select homology classes for downloading representative protein sequences in FASTA format or to be forwarded to MouseBLAST.</td></tr>
 </TABLE>
 </p>
 
@@ -98,7 +98,7 @@ The detail record for that sequence as stored in MGI appears. See <A HREF="#inte
 <H3><A NAME="fasta"></A>How do I download sequences in FASTA format?</H3>
 <P>To download sequences in FASTA format:</P>
 <OL>
-<LI>Click to put a check mark in the <B>Select Proteins</B> column for to one or more Homology Classes.</LI>
+<LI>Click to put a check mark in the <B>Select Proteins</B> column for one or more Homology Classes.</LI>
 <LI>Just above the table, <i>For the selected sequences</i>, toggle <B>download in FASTA format</B> (this is the default).</LI>
 <LI>Click <B>GO</B>.</LI>
 </OL>
@@ -106,8 +106,8 @@ The detail record for that sequence as stored in MGI appears. See <A HREF="#inte
 <H3><A NAME="mouseblast"></A>How do I forward sequences to MouseBLAST?</H3>
 <P>To forward sequences to MouseBLAST:</P>
 <OL>
-<LI>Click to put a check mark in the <B>Select Proteins</B> column for to one or more Homology Classes.</LI>
-<LI>Just above the table, <i>For the selected sequences</i>, toggle <B>download in FASTA format</B> (this is the default) to <i>forward to MouseBLAST</i>.</LI>
+<LI>Click to put a check mark in the <B>Select Proteins</B> column for one or more Homology Classes.</LI>
+<LI>Just above the table, <i>For the selected sequences</i>, toggle <B>download in FASTA format</B> (this is the default) to <b>forward to MouseBLAST</b>.</LI>
 <LI>Click <B>GO</B>.</LI>
 </OL>
 
