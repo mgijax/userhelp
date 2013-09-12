@@ -83,10 +83,10 @@ function openHelpWindow(helpFile){
   <TR><TH align=left valign=top>Type <TD VALIGN=TOP>Type of antibody (polyclonal, monoclonal), or Not specified.</TR>
   <TR><TH align=left valign=top>Class <TD VALIGN=TOP>Immunoglobulin class to which the antibody belongs (applies only to monoclonal antibodies). </TD> </TR>
   <TR><TH align=left valign=top>Note <TD VALIGN=TOP>Additional information about the antibody, if available.</TR>
-  <TR><TH align=left valign=top>Recognizes product in Western blot<TD VALIGN=TOP>Yes, No, or Not Specified.</TR>
-  <TR><TH align=left valign=top>Recognizes product in Immunoprecipitation  <TD VALIGN=TOP>Yes, No, or Not Specified.</TR>
+  <!--<TR><TH align=left valign=top>Recognizes product in Western blot<TD VALIGN=TOP>Yes, No, or Not Specified.</TR>
+  <TR><TH align=left valign=top>Recognizes product in Immunoprecipitation  <TD VALIGN=TOP>Yes, No, or Not Specified.</TR>-->
   <TR><TH align=left valign=top>Antigen <TD VALIGN=TOP>Name of the protein or protein fragment against which the antibody was raised, linked to the antigen record.</TR>
-  <TR><TH align=left valign=top>Antigen recognition note <TD VALIGN=TOP>Additional information regarding the specificity of the antibody, if available.</TR>
+  <!--<TR><TH align=left valign=top>Antigen recognition note <TD VALIGN=TOP>Additional information regarding the specificity of the antibody, if available.</TR>-->
   <TR><TH align=left valign=top>Genes (Chromosome) <TD VALIGN=TOP>Symbol for the gene that encodes for the antigen. The chromosome</a> if known, appears in parentheses. </TR>
   <TR><TH align=left valign=top>Aliases (Reference)<TD VALIGN=TOP>Other names for the antibody, followed by the J number (unique MGI reference accession ID) of the reference the name is used in, linked to the reference detail.</TR>
   <TR> <TH align=left valign=top>Additional Information: <BR>Gene Expression Data <TD VALIGN=TOP>Links to expression results derived using the antibody.</TR>
