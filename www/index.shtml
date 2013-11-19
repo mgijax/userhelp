@@ -77,7 +77,7 @@ User Help Site Map
 	<blockquote>
 	<dt><b>Phenotypes & Alleles</b></dt>     
 	     <dd><a href="ALLELE_help.shtml" onclick="javascript:openHelpWindow('ALLELE_help.shtml'); return false;">Using the Phenotypes, Alleles, and Disease Models Query Form</a></dd>
-	     <!--<dd><a href="disease_connection_help.shtml" onclick="javascript:openHelpWindow('disease_connection_help.shtml'); return false;">Using the Human&mdash;Mouse Disease Connection</a></dd>-->
+	     <!--<dd><a href="disease_connection_help.shtml" onclick="javascript:openHelpWindow('disease_connection_help.shtml'); return false;">Using the Human&mdash;Mouse: Disease Connection</a></dd>-->
 		 <dd><a href="ALLELE_phenotypic_categories_help.shtml" onclick="javascript:openHelpWindow('ALLELE_phenotypic_categories_help.shtml'); return false;">  Selecting Phenotypic Allele Categories</a></dd>
 		<dd><a href="ALLELE_summary_help.shtml" onclick="javascript:openHelpWindow('ALLELE_summary_help.shtml'); return false;">Interpreting a Phenotypic Allele Summary</a></dd>
 	         <DD><a href="ALLELE_detail_help.shtml" onclick="javascript:openHelpWindow('ALLELE_detail_help.shtml'); return false;">Interpreting Phenotypic Allele Details</a></dd>			  
@@ -88,7 +88,7 @@ User Help Site Map
 	         <DD><a href="ALLELE_phenotype_highlevel_help.shtml" onclick="javascript:openHelpWindow('ALLELE_phenotype_highlevel_help.shtml'); return false;">Using the Phenotypes Selection List</a></dd>	
 	<dt><b>Diseases</b></dt> 
 		 <dd><a href="VOCAB_omim_browser_detail_help.shtml" onclick="javascript:openHelpWindow('VOCAB_omim_browser_detail_help.shtml'); return false;">Interpreting Human Disease and Mouse Model Details</a></dd>		
-		 <dd><a href="disease_connection_help.shtml" onclick="javascript:openHelpWindow('disease_connection_help.shtml'); return false;">Using the Human-Mouse Disease Connection</a></dd>	
+		 <dd><a href="disease_connection_help.shtml" onclick="javascript:openHelpWindow('disease_connection_help.shtml'); return false;">Using the Human&mdash;Mouse: Disease Connection</a></dd>	
 	
 	</blockquote>
 	
