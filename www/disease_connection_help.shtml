@@ -197,9 +197,10 @@ VCF files are processed in the following manner:
 	<li>Lines starting with "#" (the comment character for this file format) are ignored.</li>
 	<li>The software looks in Column 1 for the chromosome and Column 2 for the coordinate position.</li>
 	<li>The data are processed based on the column position, not the column label.</li>
-	<li>If Column 3 (ID) contains an RS ID (refSNP ID), that line is removed from the file and not used for the search.</li>
+	<li>If Column 3 (ID) contains an RS ID (refSNP ID), that line is removed from the file and not used for the search. If you wish to include these lines, then do not include this ID column in the file you upload.</li>
 	<li>If Column 7 (FILTER) contains any value other than "PASS" (case-insensitive), no value, or a dot, that line is removed from the file and not used for the search (i.e. only rows in Column 7 with "PASS" or "or" or "." are used).</li>
 	<li>Only the first 200,000 lines are processed.</li>
+	<li>Only standard format VCF files and tab-delimited text files can be processed. Microsoft Excel and Apple Numbers files should be saved as tab-delimited text before uploading.</li>
 </ul>
 <p>An error message is generated if:</p>
 <ul>
@@ -216,7 +217,7 @@ VCF files are processed in the following manner:
 <p>Your search results are displayed within three tabs: <a href="#t&mtab">Traits & Models</a>, <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a>. With all searches, the Traits & Models tab is the default selection.</p>
 
 <h4><a name="t&mtab"></a>Traits & Models</h4>
-<p>If you select the Traits & Models tab, the query summary contains the following fields:<br><br>
+<p>The Traits & Models tab, the default selection, provides an overview of your results in a grid format. The query summary contains the following fields:<br><br>
 <blockquote> 
 <table border width="!" cellpadding="4" cellspacing="1">
 	<tr><td align="left" valign="top"><b>Human Marker </b></td>
@@ -225,7 +226,9 @@ VCF files are processed in the following manner:
     <td valign="top">Symbol of the marker, linked to its MGI marker detail record.</td></tr> 
     <tr><td align="left" valign="top"><b>Phenotypes And Diseases </b></td>
     <td valign="top">Starting from the left are high level terms from the Mammalian Phenotype (MP) Ontology annotated to alleles of the gene. See the <A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A>. Phenotypes that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report. Listed to the right, after a vertical grey bar, are human diseases associated with the human gene in OMIM or through mouse models described in publications.
+    <p>Some of the human disease terms have been shorted and end with an elipsis. If you  hover your cursor over the the term, a pop-up will display the full term name.</p>
     <p>The colors, blue for <strong style="background-color: #49648B; color:#FFF; font-size:12px;">mouse data</strong> and tan for <strong style="background-color:#ffdab3; color:#000; font-size:12px;">human data</strong>, get progressively darker when there are more supporting annotations. The lightest color represents one annotation. 2-5 annotations results in a darker shade, 6-99 annotations is darker still and more than 100 annotations results in the darkest color.</p>
+    <p>You can hover your cursor over a colored square to see that row's markers and column heading in a pop-up.</p>
     </td></tr> 
 </table></p>
 </blockquote>
@@ -281,7 +284,7 @@ Reported in these Systems</b></td>
 <p>Yes.
 <ul>
 <li>You can filter the <a href="#t&mtab">Traits & Models</a> grid to show only specified columns and rows by checking the appropriate boxes and clicking the Submit Filters button.</li> 
-<li>Both the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> results sections permit sorting of some columns by clicking the up/down arrow icons and the results for these two tabs can be exported in tab-delimited text format.</li>
+<li>Both the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> results sections permit sorting of some columns by clicking the column headings or the up/down arrowheads ( &#9660; &#9650;). Your results for these two tabs can be exported in <a href="#hdp_tabfile">tab-delimited text</a> format.</li>
 </ul>
 </p>
 
