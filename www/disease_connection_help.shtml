@@ -1,7 +1,7 @@
 <!--#include file='include/templateHead.html'-->
 <title>
   <!--#include file="include/mgiversion.html"-->
-MGI-Using the Human-Mouse Disease Connection</title>
+MGI-Using the Human-Mouse: Disease Connection</title>
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
 <script>
@@ -37,16 +37,16 @@ Using the Human&mdash;Mouse Disease Connection </span>
 <!-- Body of User Help -->
 
 <a name="top"></a>
+
 <p>This help document answers the following questions:</p>
  <ul>
- <li><A HREF="#whatuse">What can I use the Human&mdash;Mouse Disease Connection Form to find?</A></li>
+ <li><A HREF="#whatuse">What can I use the Human&mdash;Mouse: Disease Connection Form to find?</A></li>
  <li><A HREF="#glossary">How does MGI define <I>phenotype, disease,</i> and <I>allele</I>? </a></li>
  <li><A HREF="#howfill">How do I fill in this query form?</A></li>
 	<ul>
 	<li><A HREF="#field">What values are acceptable in each of the fields?</A></li>
     <li><a href="#mp_ontology">Is there a list of phenotype terms to select from?</a></li>
     <li><a href="#disease_ontology">Is there a list of disease terms to select from?</a></li>
-    <li><A href="#multiple">How do I select more than one item on a list?</a></li>
     <li><a href="#relationship">Can I query using both a phenotype term and a disease term?</a></li>
 	</ul>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
@@ -60,9 +60,9 @@ Using the Human&mdash;Mouse Disease Connection </span>
  <li><A HREF="#examples">What are some examples of queries?</A></li>
  </ul>
 
-<H3><A NAME="whatuse"></A>What can I use the Human&mdash;Mouse Disease Connection Form to find?</H3>
+<H3><A NAME="whatuse"></A>What can I use the Human&mdash;Mouse: Disease Connection Form to find?</H3>
 
-<p>Use this query form to find phenotype and disease associations by human and mouse genes and genome regions. You can enter a combination of phenotype terms, disease terms, gene symbols, accession identifiers (IDs) and genome coordinates. ***Can't enter genes and coordinates?***
+<p>Use this query form to find phenotype and disease associations for human and mouse genes and genome regions. You can enter a combination of phenotype terms, disease terms, gene symbols, accession identifiers (IDs) and genome coordinates.
  </P>
 <a href="#top"><font size="-1">Top</font></a>
 <H3><A NAME="glossary"></a>How does MGI define <I>phenotype, disease</I>, and <I>allele</I>?
@@ -95,7 +95,7 @@ Using the Human&mdash;Mouse Disease Connection </span>
 
 <P><ol>
   <li>Enter or select values in one or more of the fields described <a href="#field">below</a>. </li>
-  <li>Search to submit the query. </li>
+  <li>Click GO to submit the query. </li>
   <li>Click Reset to clear the fields and return any default values.</li>
 </ol>
 </P>   
@@ -105,12 +105,23 @@ Using the Human&mdash;Mouse Disease Connection </span>
 
 <p>
 <table width="!" cellpadding="8" align="center">
-<tr align="center"><Td VALIGN="top"><A HREF="#phenotypes">Phenotypes and Diseases</A> | <A HREF="#genes">Genes</a> | <A HREF="#region">Region</a></Td></TR>
+<tr align="center"><Td VALIGN="top">Search by <A HREF="#genes">Genes</a> | <A HREF="#region">Genome Locations</a> | <A HREF="#phenotypes">Disease or Phenotype Terms</A>  </Td></TR>
 </TABLE>
 <TABLE BORDER="1" CELLSPACING="6" CELLPADDING="4"> 
 <TR><TH>FIELD <TH>DESCRIPTION</TR>
 
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="phenotypes"></A>Phenotypes and Diseases </TH><TD>The <b>Phenotypes and Diseases</b> box is a full-text search field.
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="genes"></A>Search by genes</TH><TD>
+<ul><li>Symbol, name, synonym or homolog for a human or mouse genetic marker.</li>
+<li>Enter one or more markers, separated by commas.  <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
+<li>The asterisk (*) is supported as a wild-card. As an example, use fbn* to find phenotypes and diseases associated with fibrillins.</li>
+<li>By default, the search is on current symbols/names, synonyms and homologs.</li>
+</ul></TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="region"></A>Search by genome locations</TH><TD>You can enter a list of mouse or human genomic regions (e.g. 2:105668896-108698410, 13:22210730-22311689) and use the radio button to specify the species (Mouse or Human). 
+</td> </TR>
+
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="phenotypes"></A>Search by disease
+or phenotype terms </TH><TD>The <b>Search by disease
+or phenotype terms</b> section is a full-text search field.
 <ul>
 <li>Begin typing a term of interest and an autocomplete list activates on the second character. 
     <ul>
@@ -130,13 +141,7 @@ Using the Human&mdash;Mouse Disease Connection </span>
 </ul>
 </p>
 </TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="genes"></A>Genes</TH><TD><ul><li>Symbol, name, synonym or homolog for a human or mouse genetic marker.</li>
-<li>Enter one or more markers, separated by commas.  <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
-<li>The asterisk (*) is supported as a wild-card. As an example, use fbn* to find phenotypes and diseases associated with fibrillins.</li>
-<li>By default, the search is on current symbols/names, synonyms and homologs.</li>
-</ul></TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="region"></A>Region</TH><TD>You can enter a list of mouse or human genomic regions (e.g. 2:105668896-108698410, 13:22210730-22311689) and use the radio button to specify the species (Mouse or Human). 
-</td> </TR>
+
 </TABLE>
 </p>
 
@@ -153,13 +158,8 @@ Using the Human&mdash;Mouse Disease Connection </span>
 
 <a href="#top"><font size="-1">Top</font></a>
 
-<H3><A name="#multiple"></A>How do I select more than one item on a list?</H3> ***different for phenotypes and genes/regions searches***
-<P>You can only select one term from a list at time. After you select a term, you can add a new term by starting to type in  </P>
-
-<a href="#top"><font size="-1">Top</font></a>
-
 <h3><a name="relationship"></a>Can I query using both a phenotype term and a disease term?</h3>
-<p>Yes, you can use the Phenotype and Disease box to search for phenotypes <i>or</i> diseases<!--or phenotypes <i>and</i> diseases-->. 
+<p>Yes, you can use the Phenotype and Disease term box to search for phenotypes <i>or</i> diseases<!--or phenotypes <i>and</i> diseases-->. 
 </P>
 
 <a href="#top"><font size="-1">Top</font></a>
@@ -170,7 +170,7 @@ Using the Human&mdash;Mouse Disease Connection </span>
 <ol>
   <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. </li>
   <li>Make your changes.</li>
-  <li>Click Search.</li>
+  <li>Click GO.</li>
   <li>Repeat until the desired results appear.</li>
 </ol>
 </ul>
@@ -178,7 +178,7 @@ Using the Human&mdash;Mouse Disease Connection </span>
 <b>Notes:</b> 
 <ul>
 <li>You can requery as many times as you like.</li>
-<li>Alternatively, click Reset to return to the original HDP form. </li>
+<li>Alternatively, click Reset to return to the original form. </li>
 </ul>
 </p>
 
@@ -205,7 +205,7 @@ VCF files are processed in the following manner:
 <ul>
 <li>the pre-processing described above leaves no lines with chromosome and coordinate data</li>
 <li>the file size is greater than 20MB</li>
-<li>Excel quirk ***</li>
+<li>Text files generated by Excel in the Unicode Text format cannot be processed. Files generated by Excel in the Tab delimited, Macintosh and MS-DOS Text formats can be processed.</li>
 </ul>
 <p>The form has been tested only with VCF v4.0 and higher standard formats.</p> 
 
@@ -213,7 +213,7 @@ VCF files are processed in the following manner:
 
 <H3><a name="hdp_results"></a>How do I interpret the query results?</H3>
 
-<p>Your search results are displayed within three tabs, each noting the number of results: <a href="#t&mtab">Traits & Models</a>, <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a>. With all searches, the Traits & Models tab is the default selection.</p>
+<p>Your search results are displayed within three tabs: <a href="#t&mtab">Traits & Models</a>, <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a>. With all searches, the Traits & Models tab is the default selection.</p>
 
 <h4><a name="t&mtab"></a>Traits & Models</h4>
 <p>If you select the Traits & Models tab, the query summary contains the following fields:<br><br>
@@ -230,7 +230,7 @@ VCF files are processed in the following manner:
 </table></p>
 </blockquote>
 
-<p>You can filter the grid to show only specified columns and rows by clicking the appropriate boxes and clicking the Submit Filters button.</p>
+<p>You can filter the grid to show only specified columns and rows by checking the appropriate boxes and clicking the Submit Filters button.</p>
 
 <h4><a name="genestab"></a>Genes</h4>
 <p>If you select the Genes tab, the query summary contains the following fields:<br><br>
@@ -252,7 +252,7 @@ Reported in these Systems</b></td>
     <tr><td align="left" valign="top"><b>References</b></td>
     <td valign="top">For mouse markers, a link to all the references for the marker is provided. A separate link may be present that links to the just the disease relevant references. The reference summary provides the abstract and links to MGI curated data. </td></tr> 
      <tr><td align="left" valign="top"><b>Find Mice (IMSR)</b></td>
-     <td valign="top">Shows the number of stocks in the International Mouse Strain Resource (IMSR) that contain an allele of the gene and links to the IMSR which provides access to stock repositories. </td></tr> 
+     <td valign="top">Shows the number of stocks in the International Mouse Strain Resource (IMSR) that contain an allele of the gene. The number links to the IMSR which provides access to stock repositories. </td></tr> 
 </table></p>
 </blockquote>
 
@@ -261,22 +261,29 @@ Reported in these Systems</b></td>
 <blockquote> 
 <table border width="!" cellpadding="4" cellspacing="1">
 	<tr><td align="left" valign="top"><b>Disease </b></td>
-    <td valign="top">***</td></tr> 
+    <td valign="top">The OMIM disease term linked to the MGI Human Disease and Mouse Model Detail page</td></tr> 
     <tr><td align="left" valign="top"><b>OMIM ID </b></td>
     <td valign="top">The Online Inheritance In Man (OMIM) accession ID </td></tr>
     <tr><td align="left" valign="top"><b>Mouse Models </b></td>
-    <td valign="top">***</td></tr>
+    <td valign="top">The number of mouse models for this disease</td></tr>
     <tr><td align="left" valign="top"><b>Associated Mouse Markers </b></td>
-    <td valign="top">***</td></tr>
+    <td valign="top">The mouse markers used to create the various models of this disease</td></tr>
     <tr><td align="left" valign="top"><b>Associated Human Markers</b></td>
-    <td valign="top">***</td></tr>
+    <td valign="top">Human markers associated with the disease in OMIM</td></tr>
+    <tr><td align="left" valign="top"><b>References</b></td>
+    <td valign="top">The number of references describing mouse models of the disease, linked to reference details and curated data</td></tr>
 </table></p>
 </blockquote>
 
 <a href="#top"><font size="-1">Top</font></a>
 
 <H3><A name="output"></A>Are there different ways to view the output of my query?</H3>
-<P>Yes. </P>
+<p>Yes.
+<ul>
+<li>You can filter the <a href="#t&mtab">Traits & Models</a> grid to show only specified columns and rows by checking the appropriate boxes and clicking the Submit Filters button.</li> 
+<li>Both the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> results sections permit sorting of some columns by clicking the up/down arrow icons and the results for these two tabs can be exported in tab-delimited text format.</li>
+</ul>
+</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
