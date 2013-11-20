@@ -104,19 +104,23 @@ Using the Human&mdash;Mouse Disease Connection </span>
 <H3><A NAME="field"></A>What values are acceptable in each of the fields?</H3>
 
 <p>
-<table width="!" cellpadding="8" align="center">
-<tr align="center"><Td VALIGN="top">Search by <A HREF="#genes">Genes</a> | <A HREF="#region">Genome Locations</a> | <A HREF="#phenotypes">Disease or Phenotype Terms</A>  </Td></TR>
-</TABLE>
+<p>
+<table width="100%" cellpadding="8" align="center">
+<tr align="center"><td VALIGN="top">Search by <A HREF="#genes">Genes</a> | <A HREF="#region">Genome Locations</a> | <A HREF="#phenotypes">Disease or Phenotype Terms</A>  </td></tr>
+</table>
 <TABLE BORDER="1" CELLSPACING="6" CELLPADDING="4"> 
 <TR><TH>FIELD <TH>DESCRIPTION</TR>
 
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="genes"></A>Search by genes</TH><TD>
-<ul><li>Symbol, name, synonym or homolog for a human or mouse genetic marker.</li>
-<li>Enter one or more markers, separated by commas.  <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
+Symbol, name, synonym, homolog or ID for a human or mouse genetic marker.
+<ul><li>Enter one or more markers, separated by commas or returns. <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
 <li>The asterisk (*) is supported as a wild-card. As an example, use fbn* to find phenotypes and diseases associated with fibrillins.</li>
-<li>By default, the search is on current symbols/names, synonyms and homologs.</li>
-</ul></TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="region"></A>Search by genome locations</TH><TD>You can enter a list of mouse or human genomic regions (e.g. 2:105668896-108698410, 13:22210730-22311689) and use the radio button to specify the species (Mouse or Human). 
+</ul>
+</TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="region"></A>Search by genome locations</TH><TD>You can enter a list of mouse or human genomic regions (e.g. 2:105668896-108698410, 13:22210730-22311689) and use the radio button to specify the species (Mouse or Human). You can enter multiple regions separated by commas, spaces and/or returns.
+<ul>
+<li>You can search with a Chromosome (e.g. 19 or 19: or chr19) but not by chromosome arms or bands. So human chr:7p22 won't return any results. The form will only accept a digit following the chromosome. </li>
+</ul>
 </td> </TR>
 
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="phenotypes"></A>Search by disease
@@ -129,11 +133,11 @@ or phenotype terms</b> section is a full-text search field.
     <!--<li>Terms are greyed out if there are no genes annotated to the term.</li>-->
     <li>You can type the beginnings of multiple terms to narrow the list (example: congest heart).
     </ul>
-<li>You must select a term. There is no free text searching in this field.</li>
 <li>Choosing a term includes results for its subterms. For example, selecting <i>abnormal pulmonary pressure</i> also includes results for its subterms, increased pulmonary artery pressure and decreased pulmonary artery pressure.</li>
 <li>After you select a term, you can repeat the process to add additional terms. Multiple entries in a single field does an 'OR' search. As an example, you can find microcephaly OR microphthalmia phenotypes.</li>
 <li>The autocomplete field ignores non-alphanumeric characters such as " and -.</li>
-<li>If you are unsure of the proper terms to use, use the appropriate browser to find vocabulary terms and their definitions:</li>
+<li>You do not have to select a term. Free text searching is permitted in this field.</li>
+<li>If you are unsure of the proper terms to use, use free text (don't select a term) or the appropriate browser to find vocabulary terms and their definitions:</li>
 	<ul>
 	<li>Phenotype: <a href="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a></li>
 	<li>Disease: <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A" target="_blank">Human Disease Vocabulary Browser</a></li>
@@ -197,7 +201,7 @@ VCF files are processed in the following manner:
 	<li>Lines starting with "#" (the comment character for this file format) are ignored.</li>
 	<li>The software looks in Column 1 for the chromosome and Column 2 for the coordinate position.</li>
 	<li>The data are processed based on the column position, not the column label.</li>
-	<li>If Column 3 (ID) contains an RS ID (refSNP ID), that line is removed from the file and not used for the search. If you wish to include these lines, then do not include this ID column in the file you upload.</li>
+	<li>If Column 3 (ID) contains an RS ID (refSNP ID), that line is removed from the file and not used for the search. If you wish to include these lines, then remove those IDs from this column in the file you upload.</li>
 	<li>If Column 7 (FILTER) contains any value other than "PASS" (case-insensitive), no value, or a dot, that line is removed from the file and not used for the search (i.e. only rows in Column 7 with "PASS" or "or" or "." are used).</li>
 	<li>Only the first 200,000 lines are processed.</li>
 	<li>Only standard format VCF files and tab-delimited text files can be processed. Microsoft Excel and Apple Numbers files should be saved as tab-delimited text before uploading.</li>
@@ -229,6 +233,8 @@ VCF files are processed in the following manner:
     <p>Some of the human disease terms have been shorted and end with an elipsis. If you  hover your cursor over the the term, a pop-up will display the full term name.</p>
     <p>The colors, blue for <strong style="background-color: #49648B; color:#FFF; font-size:12px;">mouse data</strong> and tan for <strong style="background-color:#ffdab3; color:#000; font-size:12px;">human data</strong>, get progressively darker when there are more supporting annotations. The lightest color represents one annotation. 2-5 annotations results in a darker shade, 6-99 annotations is darker still and more than 100 annotations results in the darkest color.</p>
     <p>You can hover your cursor over a colored square to see that row's markers and column heading in a pop-up.</p>
+    <p>Click on a colored square for information on mouse genotypes and lower level phenotype terms. The mouse genotypes link to even more detailed phenotype information.</p>
+    <p>A bold <b>N</b> in a phenotype column indicates that no abnormal phenotypes of that type were observed in any allele of the gene.</p>
     </td></tr> 
 </table></p>
 </blockquote>
@@ -248,7 +254,7 @@ VCF files are processed in the following manner:
     <tr><td valign="top"><b>Genome Coordinates </b></td>
     <td valign="top">The marker's chromosome basepair coordinates, strand and genome build are shown if known.</td></tr><tr>
     <td align="left" valign="top"><b>Associated Human Diseases </b></td>
-    <td valign="top">Lists any human diseases described in Online Inheritance In Man (OMIM) that are associated with the marker. Disease associations for human markers are from OMIM. Mouse markers are associated with human diseases through genotypes described in publications. </td></tr> 
+    <td valign="top">Lists any human diseases described in Online Inheritance In Man (OMIM) that are associated with the marker. Disease associations for human markers are from the NCBI mim2gene_medgen file and include annotations from OMIM, NCBI curation, Gene Reviews, and Gene Tests. Mouse markers are associated with human diseases through genotypes described in publications. </td></tr> 
     <tr><td align="left" valign="top"><b>Abnormal Mouse Phenotypes
 Reported in these Systems</b></td>
     <td valign="top">High level terms from the Mammalian Phenotype (MP) Ontology annotated to the allele. See the <A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A>. Phenotypes that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report.</td></tr> 
@@ -272,7 +278,7 @@ Reported in these Systems</b></td>
     <tr><td align="left" valign="top"><b>Associated Mouse Markers </b></td>
     <td valign="top">The mouse markers used to create the various models of this disease</td></tr>
     <tr><td align="left" valign="top"><b>Associated Human Markers</b></td>
-    <td valign="top">Human markers associated with the disease in OMIM</td></tr>
+    <td valign="top">Human markers associated with the disease. Disease associations for human markers are from the NCBI mim2gene_medgen file and include annotations from OMIM, NCBI curation, Gene Reviews, and Gene Tests.</td></tr>
     <tr><td align="left" valign="top"><b>References</b></td>
     <td valign="top">The number of references describing mouse models of the disease, linked to reference details and curated data</td></tr>
 </table></p>
@@ -283,7 +289,7 @@ Reported in these Systems</b></td>
 <H3><A name="output"></A>Are there different ways to view the output of my query?</H3>
 <p>Yes.
 <ul>
-<li>You can filter the <a href="#t&mtab">Traits & Models</a> grid to show only specified columns and rows by checking the appropriate boxes and clicking the Submit Filters button.</li> 
+<li>You can filter the <a href="#t&mtab">Traits & Models</a> grid to show only specified columns and rows by checking the appropriate boxes and clicking the Submit Filters button. These filters are applied to your results in the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs.</li> 
 <li>Both the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> results sections permit sorting of some columns by clicking the column headings or the up/down arrowheads ( &#9660; &#9650;). Your results for these two tabs can be exported in <a href="#hdp_tabfile">tab-delimited text</a> format.</li>
 </ul>
 </p>
