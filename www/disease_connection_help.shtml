@@ -139,7 +139,7 @@ or phenotype terms</b> section is a full-text search field.
 <li>If you are unsure of the proper terms to use, use free text (don't select a term) or the appropriate browser to find vocabulary terms and their definitions:</li>
 	<ul>
 	<li>Phenotype: <a href="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a></li>
-	<li>Disease: <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A" target="_blank">Human Disease Vocabulary Browser</a></li>
+	<li>Disease: <a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</a></li>
 	</ul>
 </ul>
 </p>
@@ -265,6 +265,8 @@ Reported in these Systems</b></td>
 </table></p>
 </blockquote>
 
+<p>The default sort for this tab is by Marker Symbol, though you can choose to sort by Organism or Genome Coordinates by clicking the column headings or the up/down arrowheads ( &#9660; &#9650;).</p>
+
 <h4><a name="diseasetab"></a>Diseases</h4>
 <p>If you select the Diseases tab, the query summary contains the following fields:<br><br>
 <blockquote> 
@@ -312,7 +314,7 @@ Paste your list as a column or separated by commas or spaces into the <b>Search 
 APP, PLAU, PSEN1, CAV1, NOS3, 10513<br></br>
 Click the GO button.<br></br>
 </blockquote>
-<p>The search finds matching mouse and human genes and synonyms and their homologs and associated mouse transgenes and shows phenotypes associated with alleles of the mouse genes and transgenes and diseases associated with both the human and mouse markers.</p></li> 
+<p>The search finds matching mouse and human genes and synonyms and their homologs and associated mouse transgenes and shows phenotypes associated with allele pairs of the mouse genes and transgenes, and diseases associated with both the human and mouse markers.</p></li> 
 
 <!--2-->
 <li>I have genome locations for some human SNPs. How can I see if there are any mouse phenotypes associated with homologs of the human gene?
@@ -337,9 +339,20 @@ Type <i>alzheimer</i> in the <b>Search by disease or phenotype terms</b> section
 </p></li>
 
 <!--4-->
-<li>I have filtered my search results and now have a list of interesting mouse and human genes. How can I find functional information for the mouse genes? 
-
-</p></li>
+<li>I have filtered my search results and now have a list of interesting mouse genes. How can I find functional information for the mouse genes? 
+<blockquote>
+	<ol>
+	<!--<li>After you have filtered your results in the grid, click on the Genes tab. The default sort for this tab is by Marker Symbol, though you can choose to sort by Organism or Genome Coordinates by clicking the column headings or the up/down arrowheads ( &#9660; &#9650;).</li>-->
+	<li>Click the Export: <b>Text File</b> button.</li>
+	<li>Open the file in your spreadsheet software application and copy either the Marker Symbols or IDs.</li>
+	<li>Direct your web browser to the <a href="<!--#include file='include/fewi_url.html'-->batch" target="_blank">MGI Batch Query</a> and paste the markers into the text field.</li>
+	<li>Check the Gene Attributes you wish to see in your results.</li>
+	<li>In the Additional Information section, select <i>Gene Ontology (GO)</i> to find functional information.</li> 
+	<li>Click the Search button.</li> 
+	</ol>
+</blockquote>
+<p>The results show GO IDs and terms that describe the biological processes, molecular functions and cellular components of the gene products. The Batch Query only provides data for mouse genes. If you searched with human gene symbols, synonyms or IDs, the search will return data for their mouse homologs.</p>
+</li>
 
 </ol>
 
