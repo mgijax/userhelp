@@ -202,7 +202,7 @@ VCF files are processed in the following manner:
 	<li>The software looks in Column 1 for the chromosome and Column 2 for the coordinate position.</li>
 	<li>The data are processed based on the column position, not the column label.</li>
 	<li>If Column 3 (ID) contains an RS ID (refSNP ID), that line is removed from the file and not used for the search. If you wish to include these lines, then remove those IDs from this column in the file you upload.</li>
-	<li>If Column 7 (FILTER) contains any value other than "PASS" (case-insensitive), no value, or a dot, that line is removed from the file and not used for the search (i.e. only rows in Column 7 with "PASS" or "." are used).</li>
+	<li>If Column 7 (FILTER) contains any value other than "PASS" (case-insensitive), no value, or a dot, that line is removed from the file and not used for the search (i.e. only rows in Column 7 with "PASS" or "." or are empty are used).</li>
 	<li>Only the first 200,000 lines are processed.</li>
 	<li>Only standard format VCF files and tab-delimited text files can be processed. Microsoft Excel and Apple Numbers files should be saved as tab-delimited text before uploading.</li>
 </ul>
@@ -229,7 +229,7 @@ VCF files are processed in the following manner:
     <tr><td align="left" valign="top"><b>Mouse Marker </b></td>
     <td valign="top">Symbol of the marker, linked to its MGI marker detail record.</td></tr> 
     <tr><td align="left" valign="top"><b>Phenotypes And Diseases </b></td>
-    <td valign="top">Starting from the left are high level terms from the Mammalian Phenotype (MP) Ontology annotated to alleles of the gene. See the <A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A>. Phenotypes that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report. Listed to the right, after a vertical grey bar, are human diseases associated with the human gene in OMIM or through mouse models described in publications.
+    <td valign="top">Starting from the left are high level terms from the Mammalian Phenotype (MP) Ontology annotated to alleles of the mouse gene. (See also the <A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A>). Phenotypes that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report. Listed to the right, after a vertical grey bar, are human diseases associated with the human gene in OMIM or through mouse models described in publications.
     <p>Some of the human disease terms have been shorted and end with an elipsis. If you  hover your cursor over the the term, a pop-up will display the full term name.</p>
     <p>The colors, blue for <strong style="background-color: #49648B; color:#FFF; font-size:12px;">mouse data</strong> and tan for <strong style="background-color:#ffdab3; color:#000; font-size:12px;">human data</strong>, get progressively darker when there are more supporting annotations. The lightest color represents one annotation. 2-5 annotations results in a darker shade, 6-99 annotations is darker still and more than 100 annotations results in the darkest color.</p>
     <p>You can hover your cursor over a colored square to see that row's markers and column heading in a pop-up.</p>
@@ -239,7 +239,7 @@ VCF files are processed in the following manner:
 </table></p>
 </blockquote>
 
-<p>You can filter the grid to show only specified columns and rows by checking the appropriate boxes and clicking the Submit Filters button.</p>
+<p>You can filter the grid to show only specified columns and rows by checking the appropriate boxes and clicking the Submit Filters button or the filter icon.</p>
 
 <h4><a name="genestab"></a>Genes</h4>
 <p>If you select the Genes tab, the query summary contains the following fields:<br><br>
@@ -248,7 +248,7 @@ VCF files are processed in the following manner:
 	<tr><td align="left" valign="top"><b>Organism</b></td>
     <td valign="top">States whether the corresponding marker is human or mouse</td></tr> 
  	<tr><td valign="top"><b>Marker Symbol</b></td>
-    <td>Symbol of the marker. Mouse markers are linked to their MGI marker detail records. Human markers are linked to their Vertebrate Homology Class pages.</td></tr>
+    <td>Symbol of the marker. Mouse markers are linked to their MGI marker detail records. Human markers are linked to their Vertebrate Homology Class pages. Vertebrate Homology Class pages provide links to Entrez Gene and the ability to download sequences in FASTA format for several vertebrate species.</td></tr>
  	<tr><td valign="top"><b>Genetic Location </b></td>
     <td valign="top">The chromosome and genetic map position for the marker are shown if known.</td></tr>
     <tr><td valign="top"><b>Genome Coordinates </b></td>
@@ -257,7 +257,7 @@ VCF files are processed in the following manner:
     <td valign="top">Lists any human diseases described in Online Inheritance In Man (OMIM) that are associated with the marker. Disease associations for human markers are from the NCBI mim2gene_medgen file and include annotations from OMIM, NCBI curation, Gene Reviews, and Gene Tests. Mouse markers are associated with human diseases through genotypes described in publications. </td></tr> 
     <tr><td align="left" valign="top"><b>Abnormal Mouse Phenotypes
 Reported in these Systems</b></td>
-    <td valign="top">High level terms from the Mammalian Phenotype (MP) Ontology annotated to the allele. See the <A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A>. Phenotypes that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report.</td></tr> 
+    <td valign="top">High level terms from the Mammalian Phenotype (MP) Ontology annotated to alleles of the mouse gene. See also the <A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A>. Phenotypes that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report.</td></tr> 
     <tr><td align="left" valign="top"><b>References</b></td>
     <td valign="top">For mouse markers, a link to all the references for the marker is provided. A separate link may be present that links to the just the disease relevant references. The reference summary provides the abstract and links to MGI curated data and when possible, links to PubMed and Journals.</td></tr> 
      <tr><td align="left" valign="top"><b>Find Mice (IMSR)</b></td>
@@ -291,14 +291,14 @@ Reported in these Systems</b></td>
 <H3><A name="output"></A>Are there different ways to view the output of my query?</H3>
 <p>Yes.
 <ul>
-<li>You can filter the <a href="#t&mtab">Traits & Models</a> grid to show only specified columns and rows by checking the appropriate boxes and clicking the Submit Filters button. These filters are applied to your results in the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs.</li> 
+<li>You can filter the <a href="#t&mtab">Traits & Models</a> grid to show only specified columns and rows by checking the appropriate boxes and clicking the Submit Filters button or the Filter icon. These filters are applied to your results in the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs. Note: if you filter by phenotypes, then the Genes tab will only show mouse genes because currently MGI only has phenotype data for mouse genes. Phenotype data for human genes will be available in a future release.</li> 
 <li>Both the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> results sections permit sorting of some columns by clicking the column headings or the up/down arrowheads ( &#9660; &#9650;). Your results for these two tabs can be exported in <a href="#hdp_tabfile">tab-delimited text</a> format.</li>
 </ul>
 </p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
-<H3><a name="#hdp_tabfile"></a>Can I get my results as tab-delimited text file?</H3>
+<H3><a name="hdp_tabfile"></a>Can I get my results as tab-delimited text file?</H3>
 
 <p>Yes. The <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs but not the <a href="#t&mtab">Traits & Models</a> tab, provide a tab-delimited text export option. In your search results, click on the Text File icon. Your web browser will download a file of the results.</p>
 
@@ -314,16 +314,16 @@ Paste your list as a column or separated by commas or spaces into the <b>Search 
 APP, PLAU, PSEN1, CAV1, NOS3, 10513<br></br>
 Click the GO button.<br></br>
 </blockquote>
-<p>The search finds matching mouse and human genes and synonyms and their homologs and associated mouse transgenes and shows phenotypes associated with allele pairs of the mouse genes and transgenes, and diseases associated with both the human and mouse markers.</p></li> 
+<p>The search finds matching mouse and human genes and synonyms, and their homologs and associated mouse transgenes, and displays phenotypes associated with allele pairs of the mouse genes and transgenes, and diseases associated with both the human and mouse markers.</p></li> 
 
 <!--2-->
 <li>I have genome locations for some human SNPs. How can I see if there are any mouse phenotypes associated with homologs of the human gene?
 <blockquote>
-Paste your genomic coordinates for human build GRCh37 in the center, <i>Search by genome locations</i>, section of the form: <br>
+Paste your genomic coordinates for human build GRCh37 in the center, <b>Search by genome locations</b>, section of the form: <br>
 	<blockquote>
-	chr22:18217079<br></br>
-	chr22:18220831<br></br>
-	chr22:18229556<br></br>
+	chr22:18217079<br>
+	chr22:18220831<br>
+	chr22:18229556<br>
 	<p>This format also works: chr22:18217079,chr22:18220831,chr22:18229556</p>
 	</blockquote>
 Check <i>Human(GRCh37)</i> and click the GO button.	
