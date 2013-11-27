@@ -53,6 +53,7 @@ Using the Human&mdash;Mouse Disease Connection </span>
  <li><A href="#vcf">How can I search with a VCF file?</a></li>
  	<ul>
  		<li><a href="#process">How are VCF files processed?</a></li>
+ 		<li><a href="#vcfexamples">Are there example VCF files?</a></li>
  	</ul>
  <li><a href="#hdp_results">How do I interpret the query results?</a></li>
  <li><A href="#output">Are there different ways to view the output of my query?</A></li>
@@ -183,7 +184,7 @@ or phenotype terms</b> section is a full-text search field.
 <ul>
 <li>You can requery as many times as you like.</li>
 <li>Alternatively, click Reset to return to the original form.</li>
-<li>In addition to running a new, more restrictive query, you can modify your results by filtering the <a href="#t&mtab">Traits & Models</a> grid to show only specified columns and rows by checking the appropriate boxes and clicking the Submit Filters button. These filters are applied to your results in the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs.</li>
+<li>In addition to running a new, more restrictive query, you can modify your results by filtering the <a href="#t&mtab">Gene Homologs x Phenotypes/Diseases</a> grid to show only specified columns and rows by checking the appropriate boxes and clicking the Submit Filters button. These filters are applied to your results in the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs.</li>
 </ul>
 </p>
 
@@ -217,12 +218,18 @@ VCF files are processed in the following manner:
 
 <a href="#top"><font size="-1">Top</font></a>
 
+<h3><a name="vcfexamples"></a>Are there example VCF files?</h3>
+
+<p>Yes. You can test the form by downloading a sample <a href="<!--#include file='include/mgihome_url.html'-->other/exampleMouseData.vcf">mouse</a> or <a href="<!--#include file='include/mgihome_url.html'-->other/exampleHumanData.vcf">human</a> data file.</p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
 <H3><a name="hdp_results"></a>How do I interpret the query results?</H3>
 
-<p>Your search results are displayed within three tabs: <a href="#t&mtab">Traits & Models</a>, <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a>. With all searches, the Traits & Models tab is the default selection.</p>
+<p>Your search results are displayed within three tabs: <a href="#t&mtab">Gene Homologs x Phenotypes/Diseases</a>, <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a>. With all searches, the Gene Homologs x Phenotypes/Diseases tab is the default selection.</p>
 
-<h4><a name="t&mtab"></a>Traits & Models</h4>
-<p>The Traits & Models tab, the default selection, provides an overview of your results in a grid format. The query summary contains the following fields:<br><br>
+<h4><a name="t&mtab"></a>Gene Homologs x Phenotypes/Diseases</h4>
+<p>The Gene Homologs x Phenotypes/Diseases tab, the default selection, provides an overview of your results in a grid format. The query summary contains the following fields:<br><br>
 <blockquote> 
 <table border width="!" cellpadding="4" cellspacing="1">
 	<tr><td align="left" valign="top"><b>Human Marker </b></td>
@@ -241,7 +248,7 @@ VCF files are processed in the following manner:
 </table></p>
 </blockquote>
 
-<p>You can filter the grid to show only specified columns and rows by checking the appropriate boxes and clicking the Submit Filters button or the filter icon.</p>
+<p>You can filter the grid to show only specified columns and rows by checking the appropriate boxes and clicking the Apply Filters button or the filter icon.</p>
 
 <h4><a name="genestab"></a>Genes</h4>
 <p>If you select the Genes tab, the query summary contains the following fields:<br><br>
@@ -293,7 +300,7 @@ Reported in these Systems</b></td>
 <H3><A name="output"></A>Are there different ways to view the output of my query?</H3>
 <p>Yes.
 <ul>
-<li>You can filter the <a href="#t&mtab">Traits & Models</a> grid to show only specified columns and rows by checking the appropriate boxes and clicking the Submit Filters button or the Filter icon. These filters are applied to your results in the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs. Note: if you filter by phenotypes, then the Genes tab will only show mouse genes because currently MGI only has phenotype data for mouse genes. Phenotype data for human genes will be available in a future release.</li> 
+<li>You can filter the <a href="#t&mtab">Gene Homologs x Phenotypes/Diseases</a> grid to show only specified columns and rows by checking the appropriate boxes and clicking the Apply Filters button or the Filter icon. These filters are applied to your results in the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs. Note: if you filter by phenotypes, then the Genes tab will only show mouse genes because currently MGI only has phenotype data for mouse genes. Phenotype data for human genes will be available in a future release.</li> 
 <li>Both the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> results sections permit sorting of some columns by clicking the column headings or the up/down arrowheads ( &#9660; &#9650;). Your results for these two tabs can be exported in <a href="#hdp_tabfile">tab-delimited text</a> format.</li>
 </ul>
 </p>
@@ -302,7 +309,7 @@ Reported in these Systems</b></td>
 
 <H3><a name="hdp_tabfile"></a>Can I get my results as tab-delimited text file?</H3>
 
-<p>Yes. The <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs but not the <a href="#t&mtab">Traits & Models</a> tab, provide a tab-delimited text export option. In your search results, click on the Text File icon. Your web browser will download a file of the results.</p>
+<p>Yes. The <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs but not the <a href="#t&mtab">Gene Homologs x Phenotypes/Diseases</a> tab, provide a tab-delimited text export option. In your search results, click on the Text File icon. Your web browser will download a file of the results.</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
@@ -337,7 +344,7 @@ Check <i>Human(GRCh37)</i> and click the GO button.
 <blockquote>
 Type <i>alzheimer</i> in the <b>Search by disease or phenotype terms</b> section of the form. If you are interested in a particular type of Alzheimer Disease, then select it from the list that appears. Repeat the process if you wish to include more types. For the broadest search, don't select anything, just click out of the field and click the GO button.  
 </blockquote>
-<p>The broadest search finds all diseases and their synonyms that contain the word, Alzheimer, and returns all human genes <a href="#assocdisease">associated with the disease</a> and mouse genes and transgenes used to model the disease. The grid also displays phenotypes and diseases associated with these mouse genotypes, some of these will have no association with Alzheimer Disease. You can filter the grid to phenotypes and diseases and markers that interest you by checking the appropriate row and column boxes and clicking the <b>Submit Filters</b> button. This applies the filters to both the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> Tabs. 
+<p>The broadest search finds all diseases and their synonyms that contain the word, Alzheimer, and returns all human genes <a href="#assocdisease">associated with the disease</a> and mouse genes and transgenes used to model the disease. The grid also displays phenotypes and diseases associated with these mouse genotypes, some of these will have no association with Alzheimer Disease. You can filter the grid to phenotypes and diseases and markers that interest you by checking the appropriate row and column boxes and clicking the <b>Apply Filters</b> button. This applies the filters to both the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> Tabs. 
 </p></li>
 
 <!--4-->
