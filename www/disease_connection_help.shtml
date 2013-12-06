@@ -158,13 +158,13 @@ or phenotype terms</b> section is a full-text search field.
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="disease_ontology"></a>Is there a list of disease terms to select from?</h3>
-<p>Yes.  The disease vocabulary contains human disease, syndrome, and condition terms from Online Mendelian Inheritance in Man (OMIM). You can browse the vocabulary and find links to full OMIM records and mouse model information by using the <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A" target="_blank">Human Disease Vocabulary Browser</a>.  Navigate the vocabulary until you find the term you are looking for.  See <a href="VOCAB_omim_browser_help.shtml" target="_blank">Using the Human Disease Vocabulary Browser</a> for additional help.
+<p>Yes.  The disease vocabulary contains human disease, syndrome, and condition terms from Online Mendelian Inheritance in Man (OMIM). You can browse the vocabulary and find links to full OMIM records and mouse model information by using the <a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</a>.  Navigate the vocabulary until you find the term you are looking for.  See <a href="VOCAB_omim_browser_help.shtml" target="_blank">Using the Human Disease Vocabulary Browser</a> for additional help.
 </p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="relationship"></a>Can I query using both a phenotype term and a disease term?</h3>
-<p>Yes, you can use the Phenotype and Disease term box to search for phenotypes <i>or</i> diseases<!--or phenotypes <i>and</i> diseases-->. 
+<p>Yes, you can use the disease or phenotype terms box to search for phenotypes <i>OR</i> diseases. 
 </P>
 
 <a href="#top"><font size="-1">Top</font></a>
@@ -300,7 +300,7 @@ Reported in these Systems</b></td>
 <H3><A name="output"></A>Are there different ways to view the output of my query?</H3>
 <p>Yes.
 <ul>
-<li>You can filter the <a href="#t&mtab">Gene Homologs x Phenotypes/Diseases</a> grid to show only specified columns and rows by checking the appropriate boxes and clicking the Apply Filters button or the Filter icon. These filters are applied to your results in the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs. Note: if you filter by phenotypes, then the Genes tab will only show mouse genes because currently MGI only has phenotype data for mouse genes. Phenotype data for human genes will be available in a future release.</li> 
+<li>You can filter the <a href="#t&mtab">Gene Homologs x Phenotypes/Diseases</a> grid to show only specified columns and rows by checking the appropriate boxes and clicking the Apply Filters button or the Filter icon. These filters are also applied to your results in the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs. Note: if you filter by phenotypes, then the Genes tab will only show mouse genes because currently MGI only has phenotype data for mouse genes. Phenotype data for human genes will be available in a future release.</li> 
 <li>Both the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> results sections permit sorting of some columns by clicking the column headings or the up/down arrowheads ( &#9660; &#9650;). Your results for these two tabs can be exported in <a href="#hdp_tabfile">tab-delimited text</a> format.</li>
 </ul>
 </p>
@@ -332,7 +332,7 @@ Paste your genomic coordinates for human build GRCh37 in the center, <b>Search b
 	<blockquote>
 	chr22:18217079<br>
 	chr22:18220831<br>
-	chr22:18229556<br>
+	chr22:18229556<br></br>
 	<p>This format also works: chr22:18217079,chr22:18220831,chr22:18229556</p>
 	</blockquote>
 Check <i>Human(GRCh37)</i> and click the GO button.	
@@ -344,7 +344,7 @@ Check <i>Human(GRCh37)</i> and click the GO button.
 <blockquote>
 Type <i>alzheimer</i> in the <b>Search by disease or phenotype terms</b> section of the form. If you are interested in a particular type of Alzheimer Disease, then select it from the list that appears. Repeat the process if you wish to include more types. For the broadest search, don't select anything, just click out of the field and click the GO button.  
 </blockquote>
-<p>The broadest search finds all diseases and their synonyms that contain the word, Alzheimer, and returns all human genes <a href="#assocdisease">associated with the disease</a> and mouse genes and transgenes used to model the disease. The grid also displays phenotypes and diseases associated with these mouse genotypes, some of these will have no association with Alzheimer Disease. You can filter the grid to phenotypes and diseases and markers that interest you by checking the appropriate row and column boxes and clicking the <b>Apply Filters</b> button. This applies the filters to both the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> Tabs. 
+<p>The broadest search finds all diseases and their synonyms that contain the word, Alzheimer, and returns all human genes <a href="#assocdisease">associated with the disease</a> and mouse genes and transgenes used to model the disease. The grid also displays phenotypes and diseases associated with these mouse genotypes, some of these will have no association with Alzheimer Disease. You can filter the grid to phenotypes and diseases and markers that interest you by checking the appropriate row and column boxes and clicking the <b>Apply Filters</b> button. This also applies the filters to both the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> Tabs. 
 </p></li>
 
 <!--4-->
