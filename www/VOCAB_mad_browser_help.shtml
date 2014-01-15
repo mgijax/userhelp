@@ -82,7 +82,7 @@ expression results from assays with differing spatial resolution in a consistent
 <A HREF="#top">Back to top</A>
 
 <h3><a name="search"></a>How do I search the Developmental Anatomy Ontology?</h3>
-<p>You can search by term to determine where a particular structure exists in the Anatomical Dictionary and whether there is any gene expression data associated with the structure. To do this:
+<p>You can search by term to determine where a particular structure exists in the Anatomical Dictionary and whether there are any gene expression data associated with the structure. To do this:
 <ol>
  <li>Enter a term in the Search box.</li>
   <ul>
@@ -97,7 +97,7 @@ expression results from assays with differing spatial resolution in a consistent
 
 <h3><a name="browse"></a>How do I browse the Developmental Anatomy Ontology?</b></h3>
 <p>To examine the hierarchy of anatomical structures at any or specific developmental stages and to determine which structures have gene expression results attached to them, select one of the developmental stages or click on the parent term in the Anatomical Term Detail section. If you mouse over a term in the drop-down Developmental stages selection list, you will see a summary of the defining features of that stage, You can also follow the link to <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">browse stage descriptions</a> for a graphical listing of the defining features for each stage. Selecting a stage or clicking on a parent term updates the Anatomical Tree View.</p>
-<p>In the Anatomical Tree View you can collapse or expand branches by clicking on the blue &#9660; or &#9658;. Click on a term to view the number of expression results for the structure. This also updates the Anatomical Term Detail section.</p>
+<p>In the Anatomical Tree View you can expand or collapse branches by clicking on the blue &#9660; or &#9658;. Click on a term to view the number of expression results for the structure. This also updates the Anatomical Term Detail section.</p>
 
 <A HREF="#top">Back to top</A>
 
