@@ -81,7 +81,7 @@ query options in an easy-to-use format. Help documentation is available on-line 
  <!--<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/homology_form.shtml">Mammalian Orthology Query Form</A> </LI>-->
  <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A> </LI>
  <LI><a href="<!--#include file='include/fewi_url.html'-->batch" target="_blank">MGI Batch Query</A> </LI>
- <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">The Mouse Anatomical Dictionary Browser</A></LI>
+ <LI><A HREF="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</A></LI>
  <!--<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/sequence_form.shtml">Mouse Sequence Query Form</A> </LI>-->
 <LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF" target="_blank">Mouse SNP Query Form</A> (Single Nucleotide Polymorphisms) </LI>
 <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A></LI>

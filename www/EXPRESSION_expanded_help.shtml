@@ -105,7 +105,7 @@ This form lets you query for genes expressed in some anatomical structures and/o
 <TABLE BORDER=1 CELLPADDING="4" width="100%">
 <TR> <TH>Field</TH> <TH>Description</TH> </TR>
 <td valign="top"><a name="anatomical_structure"></a><b>Anatomical Structure</b></td>
-<td valign="top">The anatomical structures are taken from the <a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</a>. Begin typing a term of interest and an autocomplete list activates on the second character. 
+<td valign="top">The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. Begin typing a term of interest and an autocomplete list activates on the second character. 
 
 <p>For each stage, the Anatomical Dictionary is organized as a hierarchy of structures. For the first field, <i>Find genes where expression is detected in</i>, the search includes substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon. <!--If you choose to include superstructures, the system, besides searching for brain, looks for structures in the hierarchy placed above brain, such as central nervous system.-->
 <p>You must enter a structure in both fields. </p>
@@ -115,7 +115,7 @@ This form lets you query for genes expressed in some anatomical structures and/o
 <li>If you click Any other structure, the query returns genes with expression in the specified structures but nowhere else.
 </ul>-->
 <p>If you are unsure of the most appropriate structural term to use, browse the
-<a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</a>. </td>
+<a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. </td>
 </tr>
 
 <tr><td valign="top"><a name="developmental_stage"></a><b>Developmental Stage</b></td>
