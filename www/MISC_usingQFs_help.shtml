@@ -94,7 +94,7 @@ and the following question about specific query forms:</p>
  <P>Sort options let you determine the order in which the summarized results appear.  
 <ul>
   <li>In general, results are sorted alphanumerically: the order is, for example (depending on the query form), by marker symbol or assay type or the last name of first author. </li>
-  <li>If the sort is on anatomical structure, results follow the hierarchy of the anatomical dictionary for each stage, with structures and substructures grouped together.</li>
+  <li>If the sort is on anatomical structure, results follow the hierarchy of the Mouse Developmental Anatomy Ontology for each stage, with structures and substructures grouped together.</li>
   <li>If the sort is on age, results are sorted chronologically.</li>
 </ul>  </p>
 <a href="#top"><font size="-1">Top</font></a>
