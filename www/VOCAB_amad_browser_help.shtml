@@ -112,7 +112,7 @@ expression results from assays with differing spatial resolution in a consistent
 <TD VALIGN="top"><span style="background-color:#FFFFCC">Yellow</span></TD> 
 <TD VALIGN="top">The selected anatomical term, the unique identifier (accession number) for the term, the definition of the term, any synonyms associated with the term (if available), and the number of paths to the term within the ontology.</TD></TR>
 <TR>
-<TD VALIGN="top">Name, Unique identifier</TD><TD VALIGN="top"><FONT COLOR="#FF0000">Red</FONT></TD><TD>Name of the anatomical term selected, followed by its unique identifier. There is one identifier for each term in the Adult Mouse Anatomical Dictionary. This means that the ID is always the same regardless of how many times the term is displayed as part of a specific path to that term. The unique identifier for a given structure remains the same even if its name changes.</TD></TR>
+<TD VALIGN="top">Name, Unique identifier</TD><TD VALIGN="top"><FONT COLOR="#FF0000">Red</FONT></TD><TD>Name of the anatomical term selected, followed by its unique identifier. There is one identifier for each term in the Adult Mouse Anatomy Ontology. This means that the ID is always the same regardless of how many times the term is displayed as part of a specific path to that term. The unique identifier for a given structure remains the same even if its name changes.</TD></TR>
 <TR><TD VALIGN="top">Links</TD><TD VALIGN="top"><FONT COLOR="#0000FF">Blue</FONT><TD>List of all paths to the term. Click the desired link to bring up a detail page for that term.</TD></TR>
 <TR>
 <TD VALIGN="top"><IMG SRC="<!--#include file='include/webshare_url.html'-->images/is-a.gif">&nbsp;"Is-a" Relationship</TD>
@@ -131,10 +131,10 @@ expression results from assays with differing spatial resolution in a consistent
 <A HREF="#top"><font size="-1">Top</font></A>
 
  <H3><A NAME="contribute"></A>How can I contribute to the vocabulary?</H3>
-<P>Your input is welcome. Please <A HREF="mailto:MAontology@jax.org">contact</A> us with suggestions, additions, or questions about the Anatomical Dictionary for the Adult Mouse.
+<P>Your input is welcome. Please <A HREF="mailto:MAontology@jax.org">contact</A> us with suggestions, additions, or questions about the Adult Mouse Anatomy Ontology.
 </P>
 <A HREF="#top"><font size="-1">Top</font></A>
 
 <HR>
-<P>Terry Hayamizu, Mary Mangan, John Corradi, and Martin Ringwald developed the Anatomical Dictionary for the Adult Mouse as part of the Gene Expression Database (GXD) project. GXD is funded by NIH grant HD062499. Postdoctoral fellowships F32 HD08435-01 and F32 HG00215-01 supported M.M. and J.C.
+<P>Terry Hayamizu, Mary Mangan, John Corradi, and Martin Ringwald developed the Adult Mouse Anatomy Ontology as part of the Gene Expression Database (GXD) project. GXD is funded by NIH grant HD062499. Postdoctoral fellowships F32 HD08435-01 and F32 HG00215-01 supported M.M. and J.C.
 <!--#include file='include/templateBlankBodyStop.html'--> 
