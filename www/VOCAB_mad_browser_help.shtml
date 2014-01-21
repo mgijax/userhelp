@@ -61,7 +61,7 @@ background-color: #EBCA6D;
 </UL></p>
 
  <h3><A name="whatcan"></a>What can I find in the Mouse Developmental Anatomy Browser?</h3>
-<p> The traditional way to describe space within the embryo is to use anatomical terms. The Mouse Developmental Anatomy Ontology provides a standardized nomenclature for these anatomical terms and the developmental stages when the structures are present. The staging system is as defined by Theiler.</p>
+<p> The traditional way to describe space within the embryo is to use anatomical terms. The Mouse Developmental Anatomy Ontology provides a standardized nomenclature for these anatomical terms and the developmental stages when the structures are present. In MGI, "ontology" refers to a controlled vocabulary, or set of such vocabularies, used to describe biological features. The staging system is as defined by Theiler.</p>
 
 <A HREF="#top">Back to top</A>
 
@@ -71,7 +71,7 @@ background-color: #EBCA6D;
 <p>Modeling the anatomy hierarchically makes it possible to record
 expression results from assays with differing spatial resolution in a consistent and integrated manner. Organizing the anatomical terms as a Directed Acyclic Graph (DAG), i.e., in which a term can have more than one parent, allows presentation of the anatomy from multiple perspectives.</p>
 
-<p>The Mouse Developmental Anatomy Browser lets you navigate the extensive dictionary hierarchies for the different developmental stages, locate specific anatomical structures within those hierarchies, and see the expression results associated with those structures.</p>
+<p>The Mouse Developmental Anatomy Browser lets you navigate the extensive ontology hierarchies for the different developmental stages, locate specific anatomical structures within those hierarchies, and see the expression results associated with those structures.</p>
 
 <A HREF="#top">Back to top</A>
 
@@ -83,14 +83,17 @@ expression results from assays with differing spatial resolution in a consistent
 
 <h3><a name="search"></a>How do I search the Developmental Anatomy Ontology?</h3>
 <p>You can search by term to determine where a particular structure exists in the Anatomical Dictionary and whether there are any gene expression data associated with the structure. To do this:
-<ol>
- <li>Enter a term in the Search box.</li>
-  <ul>
-   <li>The query form field accepts any text string and searches for all structures and their synonyms containing that string.</li>
-   <li>If you are uncertain which terms to use for the most effective searching, <a href="#browse">browse</a> the ontology to see the standardized terms.</li>
-  </ul><br>
- <li>Click <b>Search</b>. The search finds all structures in all stages that contain any of your search terms and displays a list of those structures along with the developmental stages for which the structure is present.</li>
-</ol>
+<ul>
+	<li>Begin typing a structure of interest and an autocomplete list activates on the second character. 
+    <ul>
+    	<li>The list shows all the anatomy terms and their synonyms that match your search characters.</li>
+    	<li>You can type the beginnings of multiple terms to narrow the list (example: fore skel will limit the list to variations on forelimb and forearm and skeleton and skeletal).
+    </ul>
+	<li>You must select a term. There is no free text searching in this field.</li>
+	<li>You can only select one term, though choosing a term includes results for other terms that contain that structure. For example, selecting <i>node</i> also includes results for other structures that contain the word, node, such as lymph node and sinoatrial node.</li>
+	<li>If you are uncertain which terms to use for the most effective searching, <a href="#browse">browse</a> the ontology to see the standardized terms.</li>
+	<li>Click <b>Search</b>. The search finds all structures in all stages that contain any of your search terms and displays a list of those structures along with the developmental stages for which the structure is present.</li>
+</ul>
 <p>Click on a term in your search results to refresh the Anatomical Term Detail and Tree View with the selected structure and developmental stages.</p>
  
 <A HREF="#top">Back to top</A><br>
