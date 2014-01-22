@@ -82,19 +82,19 @@ expression results from assays with differing spatial resolution in a consistent
 <A HREF="#top">Back to top</A>
 
 <h3><a name="search"></a>How do I search the Developmental Anatomy Ontology?</h3>
-<p>You can search by term to determine where a particular structure exists in the Anatomical Dictionary and whether there are any gene expression data associated with the structure. To do this:
+<p>You can search by anatomy term to determine where a particular structure exists in the Anatomy Ontology and see, in the Anatomical Tree View section, whether there are any gene expression data associated with the structure. To do this:
 <ul>
 	<li>Begin typing a structure of interest and an autocomplete list activates on the second character. 
     <ul>
     	<li>The list shows all the anatomy terms and their synonyms that match your search characters.</li>
-    	<li>You can type the beginnings of multiple terms to narrow the list (example: fore skel will limit the list to variations on forelimb and forearm and skeleton and skeletal).
+    	<li>You can type the beginnings of multiple terms to narrow the list (example: <i>fore skel</i> will limit the list to variations on forelimb and forearm and skeleton and skeletal).
     </ul>
 	<li>You must select a term. There is no free text searching in this field.</li>
 	<li>You can only select one term, though choosing a term includes results for other terms that contain that structure. For example, selecting <i>node</i> also includes results for other structures that contain the word, node, such as lymph node and sinoatrial node.</li>
 	<li>If you are uncertain which terms to use for the most effective searching, <a href="#browse">browse</a> the ontology to see the standardized terms.</li>
 	<li>Use the return/enter key on your keyboard to activate a search. The search finds all structures in all stages that contain any of your search terms and displays a list of those structures along with the developmental stages for which the structure is present.</li>
 </ul>
-<p>Click on a term in your search results to refresh the Anatomical Term Detail and Tree View with the selected structure and developmental stages.</p>
+<p>The first term listed in your search results is automatically selected and updates the Anatomical Term Detail and Anatomical Tree View sections on the right. Click on a different term in your search results to refresh the Anatomical Term Detail and Tree View with the selected structure and developmental stages.</p>
  
 <A HREF="#top">Back to top</A><br>
 
