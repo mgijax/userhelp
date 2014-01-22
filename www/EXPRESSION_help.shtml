@@ -511,4 +511,4 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 </ol>
 <a href="#top"><font size="-1">Top</font></a>
 
-<!--#include file='include/templateBodyStop.html'--> 
+<!--#include file='include/templateBlankBodyStop.html'-->
