@@ -282,7 +282,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <!--<p>See <a href="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data Query Results</a>.</p>
 -->
 <p>Your search results are displayed within four tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a>, <a href="#assaytab">Assay Results</a> and <a href="#imagetab">Images</a>. With the Standard search, the Assay Results tab is selected by default. For Differential Expression searches, the Genes tab is the default selection.</p>
-
+<p>If you accessed the expression results from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>, the page header shows the Structure, the Theiler Stage(s) and the unique structure ID.</p>
 <h4><a name="genestab"></a>Genes</h4>
 <p>If you select the Genes tab, the query summary contains the following fields:<br><br>
 <blockquote> 

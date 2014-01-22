@@ -77,7 +77,7 @@ expression results from assays with differing spatial resolution in a consistent
 
 <h3><A name="include"></a>What is the difference between searching and browsing the Developmental Anatomy Ontology?</h3>
 <p>You can either browse or search the Mouse Developmental Anatomy Ontology. You can initiate a search on the left, <A HREF="#search">Anatomy Search</a>, side or browse using the Anatomical Term Detail and Anatomical Tree View sections on the right.</p>
-<p>The three sections of the form interact with each other. <A HREF="#search">Search</a> by entering a text string in the Search field. Click on a term in your search results to update the Anatomical Term Detail and Tree View to the selected structure. <A HREF="#browse">Browse</a> by clicking on term or selecting a developmental stage in the Anatomical Term Detail section or by expanding or collapsing the sections or selecting a term in the Anatomical Tree View.</p>
+<p>The three sections of the form interact with each other. <A HREF="#search">Search</a> by entering a text string in the Search field. Click on a term in your search results to update the Anatomical Term Detail and Tree View sections to the selected structure. <A HREF="#browse">Browse</a> by clicking on term or selecting a developmental stage in the Anatomical Term Detail section or by expanding or collapsing the sections or selecting a term in the Anatomical Tree View.</p>
 
 <A HREF="#top">Back to top</A>
 
@@ -87,7 +87,7 @@ expression results from assays with differing spatial resolution in a consistent
 	<li>Begin typing a structure of interest and an autocomplete list activates on the second character. 
     <ul>
     	<li>The list shows all the anatomy terms and their synonyms that match your search characters.</li>
-    	<li>You can type the beginnings of multiple terms to narrow the list (example: <i>fore skel</i> will limit the list to variations on forelimb and forearm and skeleton and skeletal).
+    	<li>You can type the beginnings of multiple terms to narrow the list (example: <i>fore skel</i> will limit the list to variations on forelimb and forearm, and skeleton and skeletal).
     </ul>
 	<li>You must select a term. There is no free text searching in this field.</li>
 	<li>You can only select one term, though choosing a term includes results for other terms that contain that structure. For example, selecting <i>node</i> also includes results for other structures that contain the word, node, such as lymph node and sinoatrial node.</li>
@@ -99,8 +99,8 @@ expression results from assays with differing spatial resolution in a consistent
 <A HREF="#top">Back to top</A><br>
 
 <h3><a name="browse"></a>How do I browse the Developmental Anatomy Ontology?</b></h3>
-<p>To examine the hierarchy of anatomical structures at any or specific developmental stages and to determine which structures have gene expression results attached to them, select one of the developmental stages or click on the parent term in the Anatomical Term Detail section. If you mouse over a term in the drop-down Developmental stages selection list, you will see a summary of the defining features of that stage, You can also follow the link to <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">browse stage descriptions</a> for a graphical listing of the defining features for each stage. Selecting a stage or clicking on a parent term updates the Anatomical Tree View.</p>
-<p>In the Anatomical Tree View you can expand or collapse branches by clicking on the blue &#9660; or &#9658;. Click on a term to view the number of expression results for the structure. This also updates the Anatomical Term Detail section.</p>
+<p>To examine the hierarchy of anatomical structures at any or specific developmental stages and to determine which structures have gene expression results attached to them, select one of the developmental stages or click on the parent term in the Anatomical Term Detail section. If you mouse over a term in the drop-down Developmental stages selection list, you will see a summary of the defining features of that stage, You can also view a graphical listing of the defining features for each stage <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">here</a>. Selecting a stage or clicking on a parent term updates the Anatomical Tree View.</p>
+<p>In the Anatomical Tree View you can expand or collapse branches by clicking on the blue &#9658; or &#9660;. Click on a term to view the number of expression results for the structure. This also updates the Anatomical Term Detail section.</p>
 
 <A HREF="#top">Back to top</A>
 
@@ -115,7 +115,7 @@ expression results from assays with differing spatial resolution in a consistent
 
 <table border="1" cellpadding="3" width="!">
 <tr><th align="left" valign="top"><a name="anatomy_search"></a>Anatomy Search</th>
-     <td align="top">The search finds all structures in all stages that contain any of your search terms and displays a ranked list of those structures along with the developmental stages for which the structure is present. Click on a term to update the Anatomical Term Detail and Tree View sections of the page with the appropriate stages and the term highlighted in gold.</td></tr>        
+     <td align="top">The search finds all structures in all stages that contain any of your search terms and displays a ranked list of those structures along with the developmental stages for which the structure is present. Click on a term to update the Anatomical Term Detail and Tree View sections of the page with the appropriate stages and the selected term highlighted in gold.</td></tr>        
 <tr><th align="left" valign="top"><a name="tree_view"></a>Anatomical Term Detail</th>
     <td valign="top">
      <table border="0" cellpadding="3">
@@ -132,7 +132,7 @@ expression results from assays with differing spatial resolution in a consistent
       </tr>
      </table>
 <tr><th align="left" valign="top"><a name="tree_view"></a>Anatomical Tree View</th>
-     <td align="top">The Theiler stages displayed are shown beneath the section header. Structures present at the selected stage or stage range are shown in the tree view. You can collapse or expand branches by clicking on the blue &#9660; or &#9658;. Click on a term to view the number of expression results for the structure. When you select a new term, it is <span class="highlight"><b>highlighted in gold</b></span> and the Term Detail section is updated. The yellow highlights make it easy to see if a term appears on multiple branches of the tree. <br></br>Click on the number of expression results to view gene expression data, images and assay details related to the selected structure. </td></tr>  
+     <td align="top">The Theiler stages displayed are shown beneath the section header. Structures present at the selected stage or stage range are shown in the tree view. You can collapse or expand branches by clicking on the blue &#9660; or &#9658;. Click on a term to view the number of expression results for the structure. When you select a new term, it is <span class="highlight"><b>highlighted in gold</b></span> and the Term Detail section is updated. The gold highlights make it easy to see if a term appears on multiple branches of the tree. <br></br>Click on the number of expression results to view gene expression data, images and assay details related to the selected structure. </td></tr>  
       </td>
      </tr>
 </table>
@@ -141,7 +141,7 @@ expression results from assays with differing spatial resolution in a consistent
 
 
  <h3><A NAME="results"></a>How do I interpret the gene expression results of my search?</h3>
-<p>See <a href="EXPRESSION_help.shtml#summary" target="_blank">Interpreting Gene Expression Data Query Results</a>.
+<p>When you click on the number of expression results in the Anatomical Tree View, a search returns all gene expression data, images and assay details associated with the selected structure. See <a href="EXPRESSION_help.shtml#summary" target="_blank">Interpreting Gene Expression Data Query Results</a>.
 </p>
 <A HREF="#top">Back to top</A>
 
