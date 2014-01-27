@@ -82,17 +82,17 @@ function openHelpWindow(helpFile){
     <li>Human Disease (OMIM)</li>
     <li>InterPro</li>
     <li>Protein Superfamily (PIRSF)</li>
-    <li>Mouse Anatomical Dictionary (AD)</li>
+    <li>Mouse Developmental Anatomy Ontology</li>
     </ul>
   <li>accession IDs from MGI and other data resources (e.g., Entrez Gene, NCBI, Ensembl, VEGA, RefSeq) for many types of data objects</li>
    <ul>
-     <li>genome features (e.g., gene, QTL, Heritable Phenotype Marker, miRNA gene)</li>
-     <li>alleles</li>
-<li>mutant cell lines</li>
-     <li>sequences</li>
-   <li>references</li>
-     <li>expression images</li>
-     <li>and more...</li>
+    <li>genome features (e.g., gene, QTL, Heritable Phenotype Marker, miRNA gene)</li>
+    <li>alleles</li>
+	<li>mutant cell lines</li>
+    <li>sequences</li>
+   	<li>references</li>
+    <li>expression images</li>
+    <li>and more...</li>
    </ul>
    
  </ul>

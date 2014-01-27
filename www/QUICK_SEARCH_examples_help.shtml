@@ -272,7 +272,7 @@ See <a href="http://en.wikipedia.org/wiki/Stop_words" target="_blank">stop words
     <tr><td valign="top">Gene expression</td><td valign="top">during development, from assays, in structures, during developmental stages, in cell-line or tissue</td><td valign="top">
 <a href="<!--#include file='include/mgihome_url.html'-->homepages/expression.shtml" target="_blank">Gene Expression Database (GXD)</a> </td></tr>
     <tr><td valign="top">Embryonic development, postnatal mouse, anatomical structures, Theiler stages</td><td valign="top">somite pair<br>pigmented retinal epithelium</td><td valign="top">
-<a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">The Mouse Anatomical Dictionary Browser</a></td></tr>
+<a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a></td></tr>
     <tr><td valign="top">Functional annotations for mouse gene products</td><td valign="top">GO:0004699<br>calcium-independent protein kinase C activity<br>regulation of signal transduction </td><td valign="top">
 <a href="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml" target="_blank">GO Browser</a></td></tr>
     <tr><td valign="top">Protein domains</td><td valign="top">IPR016243<br>Immunoglobulin-like fold<br>Tyrosine-protein kinase, CSF-1/PDGF receptor<br>
