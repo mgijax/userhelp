@@ -136,7 +136,7 @@ expression results from assays with differing spatial resolution in a consistent
 
 
  <h3><A NAME="results"></a>How do I interpret the gene expression results of my search?</h3>
-<p>When you click on the number of expression results in the Anatomical Tree View, a search returns all gene expression data, images and assay details annotated to the selected structure. See <a href="EXPRESSION_help.shtml#summary" target="_blank">Interpreting Gene Expression Data Query Results</a> for more information about this page.
+<p>When you click on the number of expression results in the Anatomical Tree View, a search returns all gene expression data, images and assay details annotated to the selected structure. See <a href="EXPRESSION_help.shtml#summary" target="_blank">Interpreting Gene Expression Data Query Results</a> for more information about the results.
 </p>
 <A HREF="#top">Back to top</A>
 
