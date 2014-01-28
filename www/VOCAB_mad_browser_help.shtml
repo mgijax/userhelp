@@ -46,13 +46,12 @@ background-color: #EBCA6D;
 <A name="top"></A>
 <p>This help document answers the following questions:
  <UL>
- <LI><A HREF="#whatcan">What can I find in the Mouse Developmental Anatomy Browser?</a>
-  <LI><A HREF="#howis">How is the Mouse Developmental Anatomy Ontology organized?</a>
- <LI><A HREF="#include">What is the difference between searching and browsing the Developmental Anatomy Ontology?</a>
-  <li><A HREF="#search">How do I search the Developmental Anatomy Ontology?</a>
-  <li><A HREF="#browse">How do I browse the Developmental Anatomy Ontology?</a>
- <li><A HREF="#td_page">How do I interpret my results?</a>
- <li><A HREF="#results">How do I interpret the gene expression results of my search?</a>
+  <li><A HREF="#whatcan">What can I find in the Mouse Developmental Anatomy Browser?</a></li>
+  <li><A HREF="#howis">How is the Mouse Developmental Anatomy Ontology organized?</a></li>
+  <li><A HREF="#search">How do I search the Developmental Anatomy Ontology?</a></li>
+  <li><A HREF="#browse">How do I browse the Developmental Anatomy Ontology?</a></li>
+  <li><A HREF="#td_page">How do I interpret my results?</a></li>
+  <li><A HREF="#results">How do I interpret the gene expression results of my search?</a></li>
  </UL>
 <P>See also:</P>
 <UL>
@@ -72,12 +71,8 @@ background-color: #EBCA6D;
 expression results from assays with differing spatial resolution in a consistent and integrated manner. Organizing the anatomical terms as a Directed Acyclic Graph (DAG), i.e., in which a term can have more than one parent, allows presentation of the anatomy from multiple perspectives.</p>
 
 <p>The Mouse Developmental Anatomy Browser lets you navigate the extensive ontology hierarchies for the different developmental stages, locate specific anatomical structures within those hierarchies, and see the expression results associated with those structures.</p>
-
-<A HREF="#top">Back to top</A>
-
-<h3><A name="include"></a>What is the difference between searching and browsing the Developmental Anatomy Ontology?</h3>
-<p>You can either browse or search the Mouse Developmental Anatomy Ontology. You can initiate a search on the left, <A HREF="#search">Anatomy Search</a>, side or browse using the Anatomical Term Detail and Anatomical Tree View sections on the right.</p>
-<p>The three sections of the form interact with each other. <A HREF="#search">Search</a> by entering a text string in the Search field. Click on a term in your search results to update the Anatomical Term Detail and Tree View sections to the selected structure. <A HREF="#browse">Browse</a> by clicking on term or selecting a developmental stage in the Anatomical Term Detail section, or by expanding or collapsing the sections or selecting a term in the Anatomical Tree View.</p>
+<p>You can either browse or search the Mouse Developmental Anatomy Ontology. You can initiate an <A HREF="#search">Anatomy Search</a> on the left side or browse using the Anatomical Term Detail and Anatomical Tree View sections on the right.</p>
+<p>The three sections of the form interact with each other. <!--<A HREF="#search">Search</a> by entering a text string in the Search field. Click on a term in your search results to update the Anatomical Term Detail and Tree View sections to the selected structure. <A HREF="#browse">Browse</a> by clicking on term or selecting a developmental stage in the Anatomical Term Detail section, or by expanding or collapsing the sections or selecting a term in the Anatomical Tree View.--></p>
 
 <A HREF="#top">Back to top</A>
 
@@ -91,10 +86,10 @@ expression results from assays with differing spatial resolution in a consistent
     </ul>
 	<li>You must select a term. There is no free text searching in this field.</li>
 	<li>You can only select one term, though choosing a term includes results for other terms that contain that structure. For example, selecting <i>node</i> also includes results for other structures that contain the word, node, such as lymph node and sinoatrial node.</li>
-	<li>If you are uncertain which terms to use for the most effective searching, <a href="#browse">browse</a> the ontology to see the standardized terms.</li>
 	<li>Use the return/enter key on your keyboard to activate a search. The search finds all structures in all stages that contain any of your search terms and displays a list of those structures along with the developmental stages for which the structure is present.</li>
+	<li>If you are uncertain which terms to use for the most effective searching, <a href="#browse">browse</a> the ontology to see the standardized terms.</li>
 </ul>
-<p>The first term listed in your search results is automatically selected and updates the Anatomical Term Detail and Anatomical Tree View sections on the right. Click on a different term in your search results to refresh the Anatomical Term Detail and Tree View with the selected structure and developmental stages.</p>
+<p>The first term listed in your search results is automatically selected and updates the Anatomical Term Detail and Anatomical Tree View sections on the right. Click on a different term in your search results to refresh the Anatomical Term Detail and Tree View with the selected structure and developmental stages. Use the Clear button to start a new search.</p>
  
 <A HREF="#top">Back to top</A><br>
 
@@ -121,18 +116,18 @@ expression results from assays with differing spatial resolution in a consistent
      <table border="0" cellpadding="3">
       <tr>
        <th align="left" valign="top">Term</th>
-       <td valign="top">The selected term <span class="highlight"><b>highlighted in gold</b></span>. If you accessed this page by clicking on a structure on a Gene Expression Data Assay Detail page, the appropriate structure is highlighted. Otherwise, before you initiate a search or browse, the default term is <i>embryo</i>.</td>
+       <td valign="top">The selected term <span class="highlight"><b>highlighted in gold</b></span>. If you accessed this page by clicking on a structure on another page, the appropriate structure is highlighted. Otherwise, before you initiate a search or browse, the default term is <i>embryo</i>.</td>
       </tr>
         <tr>
       <th valign="top" align="left">Present at</th><td>The Theiler stages for which the structure is present. You have the option to limit this to a single stage by clicking on Select developmental stage.</td>
       </tr>
       <th valign="top" align="left">ID</th><td>The unique accession ID for the structure</td>
       </tr>
-      <th valign="top" align="left">Parent Terms</th><td>The immediate parent terms for the selected structure. Because the Anatomy Ontology is built on a DAG framework, a structure may have more than one parent term.</td>
+      <th valign="top" align="left">Parent Terms</th><td>The immediate parent terms for the selected structure. Because the Anatomy Ontology is built on a DAG framework, a structure may have more than one parent term. The term has either an "is a" or "part of" relationship to the parent term.</td>
       </tr>
      </table>
 <tr><th align="left" valign="top"><a name="tree_view"></a>Anatomical Tree View</th>
-     <td align="top">The Theiler stages displayed are shown beneath the section header. Structures present at the selected stage or stage range are shown in the tree view. You can collapse or expand branches by clicking on the blue &#9660; or &#9658;. Click on a term to view the number of expression results for the structure. When you select a new term, it is <span class="highlight"><b>highlighted in gold</b></span> and the Term Detail section is updated. The gold highlights make it easy to see if a term appears on multiple branches of the tree. <br></br>Click on the number of expression results to view gene expression data, images and assay details related to the selected structure. </td></tr>  
+     <td align="top">The Theiler stages displayed are shown beneath the section header. Structures present at the selected stage or stage range are shown in the tree view. You can collapse or expand branches by clicking on the blue &#9660; or &#9658;. Click on a term to view the number of expression results for the structure. When you select a new term, it is <span class="highlight"><b>highlighted in gold</b></span> and the Term Detail section is updated. The gold highlights make it easy to see if a term appears on multiple branches of the tree. <br></br>Click on the number of expression results to view gene expression data, images and assay details annotated to the selected structure. </td></tr>  
       </td>
      </tr>
 </table>
@@ -141,7 +136,7 @@ expression results from assays with differing spatial resolution in a consistent
 
 
  <h3><A NAME="results"></a>How do I interpret the gene expression results of my search?</h3>
-<p>When you click on the number of expression results in the Anatomical Tree View, a search returns all gene expression data, images and assay details associated with the selected structure. See <a href="EXPRESSION_help.shtml#summary" target="_blank">Interpreting Gene Expression Data Query Results</a>.
+<p>When you click on the number of expression results in the Anatomical Tree View, a search returns all gene expression data, images and assay details annotated to the selected structure. See <a href="EXPRESSION_help.shtml#summary" target="_blank">Interpreting Gene Expression Data Query Results</a> for more information about this page.
 </p>
 <A HREF="#top">Back to top</A>
 
