@@ -207,7 +207,7 @@ VCF files are processed in the following manner:
 	<li>If Column 7 (FILTER) contains any value other than "PASS" (case-insensitive), no value, or a dot, that line is removed from the file and not used for the search (i.e. only rows in Column 7 with "PASS" or "." or are empty are used).</li>
 	<li>Files with more than 100,000 lines are likely to time out. We suggest breaking up these files into smaller ones. Files larger than 100,000 lines should be permitted in a future release.</li>
 	<li>Only standard format VCF files and tab-delimited text files can be processed. Microsoft Excel and Apple Numbers files should be saved as tab-delimited text before uploading.</li>
-	<li>When you upload a VCF file, we discard all information in it except for the markers that match genes in MGI. These matching markers are discarded when your browser ends the session. We do not store the file. </li>
+	<li>When you upload a VCF file, we discard all information in it except for the markers that match human or mouse genes in MGI. These matching markers are discarded when your browser ends the session. We do not store the file. </li>
 </ul>
 <p>An error message is generated if:</p>
 <ul>
