@@ -426,7 +426,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="gxdfilter"></a>How do I filter my results?</h3>
-<p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for Wild type or mutant specimens. In the banner above your results, after Filter expression data by: click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>a>. If you reached this page by using the Gene Expression Data Query form, then when you <a href="#revise">modify</a> your search, the filters are automatically applied to your modified results.</p>
+<p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for Wild type or mutant specimens. In the banner above your results, after Filter expression data by: click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>. If you reached this page by using the Gene Expression Data Query form, then when you <a href="#revise">modify</a> your search, the filters are automatically applied to your modified results.</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
