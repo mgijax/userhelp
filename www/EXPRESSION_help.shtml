@@ -54,6 +54,7 @@ function openHelpWindow(helpFile){
  <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found" target="_blank">What if the search does not find any expression results?</a></li>
  <li><A HREF="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a></li>
  <li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</a></li>
+ <li><a href="#gxdfilter">How do I filter my results?</a></li>
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
  <li><a href="#batch">Can I send the results of my search to the MGI Batch Query?</a></li>
  <LI><A HREF="#example">Are there examples of query results?</a></li>
@@ -421,6 +422,11 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Query Form</a>.</p>
 
 </p>
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="gxdfilter"></a>How do I filter my results?</h3>
+<p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for Wild type or mutant specimens. In the banner above your results, after Filter expression data by: click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you export.</p>
+
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="excelfile_gxdqf"></a>Can I get my results as tab-delimited text or spreadsheet files?</h3>
