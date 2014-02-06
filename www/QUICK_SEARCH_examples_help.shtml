@@ -36,7 +36,6 @@ function openHelpWindow(helpFile){
 <!-- Body of User Help -->
 <a name="top"></A>
 
-
 <p>This help document answers the following questions:</p>
 
 <UL>
@@ -75,7 +74,6 @@ function openHelpWindow(helpFile){
 <p>See also <a href="QUICK_SEARCH_help.shtml#advantage" target="_blank">When should I use Quick Search vs. an individual MGI query form?</a> for more information about advanced searches.</p>
 
 <a href="#top"><font size="-1">Top</font></a>
-
 
 <h3><a name="more"></a>I got more than one result when I searched by accession ID. Why?</h3>
 <p>Accession IDs associated directly and only with a genome feature appear as an exact match under <b>Genome Features</b>. Accession IDs associated with one or more genome features <b>and</b> with another object (for example, a sequence ID) return the associated features as exact matches and accessioned objects in  <b>Other Results by ID</b>. These include:
@@ -145,18 +143,16 @@ See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and exa
 <p>Allele synonyms will not return associated genome feature records as exact matches.</p>
 <a href="#top"><font size="-1">Top</font></a>-->
 
-
 <h3><a name="need_to_know"></a>Do I have to know vocabulary keywords or could I enter a vocabulary definition or synonym instead?</h3>
 <p>Quick Search looks for terms (that is, <a href="http://en.wikipedia.org/wiki/Keyword" target="blank">keywords</a>), synonyms, and definitions from the vocabularies. If you want an exact match, put the word or phrase in quotation marks to find a complete term, synonym, or definition.
+</p>
+<a href="#top"><font size="-1">Top</font></a>
 
-</p><a href="#top"><font size="-1">Top</font></a>
-
-
-<h3><a name="acronym"></a>What do the vocabulary acronyms stand for? Which one does Quick Search query?</h3>
+<h3><a name="acronym"></a>Which controlled vocabularies does Quick Search query?</h3>
 <blockquote>
 <table border="1" cell spacing="0" cellpadding="3" width="!%">
-<tr><th width="15%" valign="top">Acronym</th><th valign="top">Full Name</th><th valign="top">Quick Search looks for...</th></tr>
-<tr><td valign="top">AD</td><td valign="top">Anatomical Dictionary<br>
+<tr><th width="15%" valign="top">Acronym</th><th valign="top">Ontology</th><th valign="top">Quick Search looks for...</th></tr>
+<tr><td valign="top">AD</td><td valign="top">Mouse Developmental Anatomy Ontology<br>
 <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a></td><td valign="top">Mouse anatomical terms</td></tr>
 <tr><td valign="top">GO</td><td valign="top">Gene Ontology<br>
 <a href="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml" target="_blank">GO Browser</a></td>
@@ -170,16 +166,14 @@ See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and exa
 </table><br>
 <b>Note:</b> Adult Mouse Anatomy (MA) matches do not appear beneath <a href="QUICK_SEARCH_help.shtml#vocabulary" target="_blank">Vocabulary Terms</a>, but (when available) do appear beneath <b>Other Results by ID</b>.
 </blockquote>
-
 </p>
-</p><a href="#top"><font size="-1">Top</font></a>
 
+</p><a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="how_many"></a>How many items can I search for at once?</h3>
 <p>You can enter as many as 32 words, IDs, or other text items. Each piece of text in a phrase, even when enclosed in quotation marks, counts as a word. 
 </p>
 <a href="#top"><font size="-1">Top</font></a>
-
 
 <h3><a name="wild"></a>Are wild cards allowed?</h3>
 <p>The only wild card allowed is the asterisk and you can only use it at the end of a word or symbol or term.</p>
@@ -190,24 +184,20 @@ See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and exa
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 
-
 <h3><a name="q_mark">Do I have to use quotation marks?</h3>
 <p>No, but they are helpful when you want Quick Search to match an exact word, term, or phrase.
-</p><a href="#top"><font size="-1">Top</font></a>
-
+</p>
+<a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="mistype"></a>Does Quick Search offer an alternative spelling if I mistype something?</h3>
 <p>No. However, at the top of the Quick Search Results, anything that it does not find is highlighted in red, next to <i>See Details for this Search</i>. Frequently, this is a clue that a term is misspelled.
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 
-
-
 <h3><a name="which_id">Are there any examples of the accession IDs that Quick Search can find?</h3>
 <p>Yes. See <a href="ACCESSION_ID_help.shtml" target="_blank">Querying by Accession ID - Results and Examples</a> for list of providers, sample IDs, and where to look for any matches in the Quick Search Results.
 </p>
 <a href="#top"><font size="-1">Top</font></a>
-
 
 <h3><a name="stemming">What is stemming? Are there examples of words that Quick Search stems?</h3>
 <p>Quick Search identifies the "root" of a word by removing common suffixes. This is called <i>stemming</i>. (For more information, see <a href="http://en.wikipedia.org/wiki/Stemming" target="blank">stemming</a> in Wikipedia.)
@@ -258,7 +248,6 @@ See <a href="http://en.wikipedia.org/wiki/Stop_words" target="_blank">stop words
   <li>If Quick Search doesn't return appropriate matches, or if you want more specific results, try using  one of the MGI query forms accessible from the <b>Search</b> tab in the top menu bar. Click <b>Search-->All Search Tools</b> (on the MGI homepage) to see everything available. (<a href="http://www.informatics.jax.org/allsearch.shtml" target="_blank">http://www.informatics.jax.org/allsearch.shtml</a>)</li>
   <li>Consult the user documentation for detailed information about searches. As examples, see 
 <A HREF="GENE_help.shtml" target="_blank">Using the Genes and Markers Query Form</A> for information about searches on genes or genome features and <A HREF="ACCESSION_ID_help.shtml" target="_blank">Querying by Accession ID - Results and Examples</A> for the types of accession ID cross-referenced in MGI.
-
 
 <blockquote>
 <table border="1" cellspacing="1" cellpadding="3" width="!">
