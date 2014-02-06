@@ -152,7 +152,7 @@ See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and exa
 <blockquote>
 <table border="1" cell spacing="0" cellpadding="3" width="!%">
 <tr><th width="15%" valign="top">Acronym</th><th valign="top">Ontology</th><th valign="top">Quick Search looks for...</th></tr>
-<tr><td valign="top">AD</td><td valign="top">Mouse Developmental Anatomy Ontology<br>
+<tr><td valign="top">EMAPA</td><td valign="top">Mouse Developmental Anatomy Ontology<br>
 <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a></td><td valign="top">Mouse anatomical terms</td></tr>
 <tr><td valign="top">GO</td><td valign="top">Gene Ontology<br>
 <a href="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml" target="_blank">GO Browser</a></td>
