@@ -237,7 +237,7 @@ function openHelpWindow(helpFile){
 <dt><ul>
   <li>The list includes genes, QTLs, cytogenetic genome features, alleles, gene trap cell lines, and other genome features whose name, symbol, synonym, or accession ID matches some or all of your entry. See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Types</a> for a complete list.</li>
 
-  <li>The list also includes genome features associated with vocabulary terms matching your search text.</li>
+  <li>The list also includes genome features associated with vocabulary terms matching your search text. A search with a mouse anatomy term will return genome features whose expression has been detected in the structure.</li>
   <li>Cell line ID searches return only allele matches (and not both gene and allele matches).
 <!--<li>Gene trap cell line IDs  associated with a marker return two records: 
  <ol>
@@ -266,7 +266,7 @@ function openHelpWindow(helpFile){
 
 <!--2-->
 <dt><a name="vocabulary"></a><b>Vocabulary Terms</b></dt><br>
-<dd>This area of <b>Quick Search Results</b> identifies and gives the best reason for any matches found in the MGI vocabularies (GO, MA, MP, InterPro, OMIM, PIRSF), provides a link (when available) to that term in the given vocabulary, and to any associated MGI data (when available). </dd><br>
+<dd>This area of <b>Quick Search Results</b> identifies and gives the best reason for any matches found in the MGI vocabularies (GO, EMAPA, MP, InterPro, OMIM, PIRSF), provides a link (when available) to that term in the given vocabulary, and to any associated MGI data (when available). </dd><br>
 <dd>Use the <b>Vocabulary Terms </b> section to:<br>
    <ul>
      <li>learn MGI's official terms</li>
