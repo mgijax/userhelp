@@ -82,17 +82,17 @@ function openHelpWindow(helpFile){
     <li>Human Disease (OMIM)</li>
     <li>InterPro</li>
     <li>Protein Superfamily (PIRSF)</li>
-    <li>Mouse Anatomical Dictionary (AD)</li>
+    <li>Mouse Developmental Anatomy Ontology</li>
     </ul>
   <li>accession IDs from MGI and other data resources (e.g., Entrez Gene, NCBI, Ensembl, VEGA, RefSeq) for many types of data objects</li>
    <ul>
-     <li>genome features (e.g., gene, QTL, Heritable Phenotype Marker, miRNA gene)</li>
-     <li>alleles</li>
-<li>mutant cell lines</li>
-     <li>sequences</li>
-   <li>references</li>
-     <li>expression images</li>
-     <li>and more...</li>
+    <li>genome features (e.g., gene, QTL, Heritable Phenotype Marker, miRNA gene)</li>
+    <li>alleles</li>
+	<li>mutant cell lines</li>
+    <li>sequences</li>
+   	<li>references</li>
+    <li>expression images</li>
+    <li>and more...</li>
    </ul>
    
  </ul>
@@ -237,7 +237,7 @@ function openHelpWindow(helpFile){
 <dt><ul>
   <li>The list includes genes, QTLs, cytogenetic genome features, alleles, gene trap cell lines, and other genome features whose name, symbol, synonym, or accession ID matches some or all of your entry. See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Types</a> for a complete list.</li>
 
-  <li>The list also includes genome features associated with vocabulary terms matching your search text.</li>
+  <li>The list also includes genome features associated with vocabulary terms matching your search text. A search with a mouse anatomy term will return genome features whose expression has been detected in the structure.</li>
   <li>Cell line ID searches return only allele matches (and not both gene and allele matches).
 <!--<li>Gene trap cell line IDs  associated with a marker return two records: 
  <ol>
@@ -266,7 +266,7 @@ function openHelpWindow(helpFile){
 
 <!--2-->
 <dt><a name="vocabulary"></a><b>Vocabulary Terms</b></dt><br>
-<dd>This area of <b>Quick Search Results</b> identifies and gives the best reason for any matches found in the MGI vocabularies (GO, MA, MP, InterPro, OMIM, PIRSF), provides a link (when available) to that term in the given vocabulary, and to any associated MGI data (when available). </dd><br>
+<dd>This area of <b>Quick Search Results</b> identifies and gives the best reason for any matches found in the MGI vocabularies (GO, EMAPA, MP, InterPro, OMIM, PIRSF), provides a link (when available) to that term in the given vocabulary, and to any associated MGI data (when available). </dd><br>
 <dd>Use the <b>Vocabulary Terms </b> section to:<br>
    <ul>
      <li>learn MGI's official terms</li>
@@ -379,7 +379,7 @@ Search engine (<a href="http://en.wikipedia.org/wiki/Apache_Lucene" target="blan
 
  <tr><td valign="top">Are any results dependent upon established relationships among MGI data?</td><td valign="top">Yes. MGI's vocabularies are DAG structures or hierarchies.</td><td valign="top">Yes. (DAG,  hierarchy)</td></tr> 
  <tr><td valign="top">Does it provide a quick view of all MGI data related to a term or phrase?</td><td valign="top">Yes. (Quick Search Results + linked data)</td><td valign="top">No.</td></tr> 
- <tr><td valign="top">Does it search all MGI vocabularies?</td><td valign="top">Yes.<br>Any AD, GO, InterPro, OMIM, MP, or PIRSF results appear under <a href="#vocabulary">Vocabulary Terms</a>; Adult Mouse Anatomy results appear in <a href="#other_by_ID">Other Results by ID</a>.</td><td valign="top">No.<br>You must use the individual vocabulary query forms or separate vocabulary search boxes on the Genes & Markers; Phenotypes, Alleles & Disease Models; or Mouse Sequence query forms.</td><td valign="top"></td></tr> 
+ <tr><td valign="top">Does it search all MGI vocabularies?</td><td valign="top">Yes.<br>Any Developmental Anatomy, GO, InterPro, OMIM, MP, or PIRSF results appear under <a href="#vocabulary">Vocabulary Terms</a>; Adult Mouse Anatomy results appear in <a href="#other_by_ID">Other Results by ID</a>.</td><td valign="top">No.<br>You must use the individual vocabulary query forms or separate vocabulary search boxes on the Genes & Markers; Phenotypes, Alleles & Disease Models; or Mouse Sequence query forms.</td><td valign="top"></td></tr> 
  <tr><td valign="top">Does it find mouse orthologs for human disease genes? <br>(possible research candidates)</td><td valign="top">Yes (Quick Search Results</b> + linked data)</td><td valign="top">No.</td><td valign="top"></td></tr>
  <tr><td valign="top">Can it cross boundaries between subject areas?<br>
 For example, can I find genes with a particular molecular function expressed in a specific tissue? <br>...combine a nomenclature query with a GO or MP term and a disease?<br>

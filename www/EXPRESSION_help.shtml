@@ -54,6 +54,7 @@ function openHelpWindow(helpFile){
  <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found" target="_blank">What if the search does not find any expression results?</a></li>
  <li><A HREF="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a></li>
  <li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</a></li>
+ <li><a href="#gxdfilter">How do I filter my results?</a></li>
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
  <li><a href="#batch">Can I send the results of my search to the MGI Batch Query?</a></li>
  <LI><A HREF="#example">Are there examples of query results?</a></li>
@@ -156,7 +157,7 @@ If you are interested in doing queries that ask what genes are expressed in some
 <p>You can choose to use one or both fields in this section.
 </p>
 <b>Anatomical Structures</b><br>
-<p>The anatomical structures are taken from the <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</A>. Begin typing an anatomy term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. You must choose a term from the autocomplete list (i.e., there is no free text entry in this field).</p>
+<p>The anatomical structures are taken from the <A HREF="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Ontology</A>. Begin typing an anatomy term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. You must choose a term from the autocomplete list (i.e., there is no free text entry in this field).</p>
 
 <P>For each developmental stage, the Anatomical Dictionary is organized as a hierarchy of structures. <!--You can choose to include either substructures (children), superstructures (parents), both, or neither in your search.--> By default, the search includes substructures. This means if you search for gene expression in, for example, brain, this searches for all terms that contain the word <i>brain</i> and the substructures to those terms in the hierarchy, such as rhombencephalon.</p>
 <!--<ul>
@@ -167,7 +168,7 @@ If you enter more than one structure in the query field, you can choose to find 
 <p> If you choose to include superstructures, the system, besides searching for brain, looks for structures in the hierarchy placed above brain, such as central nervous system. This can be a useful search strategy when you want to know in what structures a gene is NOT expressed.</p>-->
 
 <P>If you are unsure of the most appropriate structural term to use, browse the
-<a href="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">Anatomical Dictionary</a>.</p> 
+<a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Ontology</a>.</p> 
  
  <A NAME="developmental_stage"></A><b>Developmental Stages (dpc)</b><br>
    Use this field <!--and its operators (in and not in)--> to select one or more Theiler stages (TS) to focus your search on a particular stage of embryonic development. Alternately, you can choose the <i>Use Ages</i> tab and limit your search to the general terms, <i>Embryonic</i> or <i>Postnatal</i>, or choose days post conception (dpc).
@@ -179,7 +180,7 @@ To select multiple stages or ages:
   <LI>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired stages; OR hold the shift key down and  click on two stages to select those and all stages in between. </li>
   <LI>On a PC, hold the control key down and click on the desired stages; OR hold the shift key down and click on two stages to select those and all stages in between. </li>
  </UL>
-<p>If you mouse-over a stage, a pop-up will describe a few defining features of that stage, such as "first somites, late head fold" for Stage 12. You can <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28.
+<p>If you mouse-over a stage, a pop-up will describe a few defining features of that stage, such as "first somites, late head fold" for Stage 12. You can <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage.
        </TD>
       </TR>
      <!--<tr><td valign="top"><a name="exclude_mutant"></a><b>Exclude mutant specimens from query</b></td><td valign="top">
@@ -273,6 +274,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <b>Notes:</b> 
 <ul>
 <li>You can requery as many times as you like.</li>
+<li>If you had <a href="#gxdfilter">filtered</a> your search results, when you modify your search, the filters are automatically applied to your modified results.</li>
 <li>Alternatively, click Reset to return to the original Gene Expression Data Query form. </li>
 </ul>
 </p>
@@ -282,7 +284,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <!--<p>See <a href="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data Query Results</a>.</p>
 -->
 <p>Your search results are displayed within four tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a>, <a href="#assaytab">Assay Results</a> and <a href="#imagetab">Images</a>. With the Standard search, the Assay Results tab is selected by default. For Differential Expression searches, the Genes tab is the default selection.</p>
-
+<p>If you accessed the expression results from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>, the page header shows the Structure, the Theiler Stage(s) and the unique structure ID.</p>
 <h4><a name="genestab"></a>Genes</h4>
 <p>If you select the Genes tab, the query summary contains the following fields:<br><br>
 <blockquote> 
@@ -423,6 +425,11 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 
+<h3><a name="gxdfilter"></a>How do I filter my results?</h3>
+<p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for Wild type or mutant specimens. In the banner above your results, after Filter expression data by: click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>. If you reached this page by using the Gene Expression Data Query form, then if you <a href="#revise">modify</a> your search, the filters are automatically applied to your modified results.</p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
 <h3><a name="excelfile_gxdqf"></a>Can I get my results as tab-delimited text or spreadsheet files?</h3>
 <p>Yes. The <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a> tabs but not the <a href="#byassay">Assays</a> tab, provide export options. In your search results, <!--at the right hand edge of the Filter assays bar,--> click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
 
@@ -511,4 +518,4 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 </ol>
 <a href="#top"><font size="-1">Top</font></a>
 
-<!--#include file='include/templateBodyStop.html'--> 
+<!--#include file='include/templateBlankBodyStop.html'-->

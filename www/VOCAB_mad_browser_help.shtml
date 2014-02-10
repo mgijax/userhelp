@@ -1,7 +1,7 @@
 <!--#include file='include/templateHead.html'-->
 <title>
   <!--#include file="include/mgiversion.html"-->
-MGI-Using the Mouse Anatomical Dictionary Browser</title>
+MGI-Using the Mouse Developmental Anatomy Browser</title>
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
 <script>
@@ -20,7 +20,7 @@ function openHelpWindow(helpFile){
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
-Using the Mouse Anatomical Dictionary Browser </span>
+Using the Mouse Developmental Anatomy Browser </span>
 </div>
 
 <!-- Container Table -->
@@ -37,118 +37,108 @@ Using the Mouse Anatomical Dictionary Browser </span>
 
 <!-- Body of User Help -->
 
+<style>
+.highlight {
+background-color: #EBCA6D;
+}
+</style>
+
 <A name="top"></A>
 <p>This help document answers the following questions:
  <UL>
- <LI><A HREF="#whatcan">What can I find in the Mouse Anatomical Dictionary?</a>
-  <LI><A HREF="#howis">How is the Dictionary organized?</a>
- <LI><A HREF="#include">What is the difference between searching and browsing the Dictionary?</a>
-  <li><A HREF="#search">How do I search the Dictionary?</a>
-  <li><A HREF="#browse">How do I browse the Dictionary?</a>
- <li><A HREF="#td_page">How do I interpret a term detail page?</a>
- <li><A HREF="#results">How do I interpret the results of my search?</a>
+  <li><A HREF="#whatcan">What can I find in the Mouse Developmental Anatomy Browser?</a></li>
+  <li><A HREF="#howis">How is the Mouse Developmental Anatomy Ontology organized?</a></li>
+  <li><A HREF="#search">How do I search the Developmental Anatomy Ontology?</a></li>
+  <li><A HREF="#browse">How do I browse the Developmental Anatomy Ontology?</a></li>
+  <li><A HREF="#td_page">How do I interpret my results?</a></li>
+  <li><A HREF="#results">How do I interpret the gene expression results of my search?</a></li>
  </UL>
 <P>See also:</P>
 <UL>
   <LI><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a> (for unfamiliar terms or acronyms)</LI>
-  <LI><A HREF="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</A></LI>
+  <!--<LI><A HREF="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</A></LI>-->
 </UL></p>
 
- <h3><A name="whatcan"></a>What can I find in the Mouse Anatomical Dictionary?</h3>
-<p> The traditional way to describe space within the embryo is to use anatomical terms. The Mouse Anatomical Dictionary provides a standardized nomenclature for these anatomical terms.</p>
+ <h3><A name="whatcan"></a>What can I find in the Mouse Developmental Anatomy Browser?</h3>
+<p> The traditional way to describe space within the embryo is to use anatomical terms. The Mouse Developmental Anatomy Ontology provides a standardized nomenclature for these anatomical terms and the developmental stages when the structures are present. In MGI, "ontology" refers to a controlled vocabulary, or set of such vocabularies, used to describe biological features. The staging system is as defined by Theiler.</p>
 
 <A HREF="#top">Back to top</A>
 
-<h3><A name="howis"></a>How is the Dictionary organized?</h3>
-<p>For each developmental stage (using the staging system defined by Theiler), the Anatomical Dictionary organizes the terms hierarchically from body region or system to tissue to tissue substructure. Modeling the anatomy hierarchically makes it possible to record expression results from assays with differing spatial resolution in a consistent and integrated manner. The Mouse Anatomical Dictionary Browser lets you navigate the extensive dictionary hierarchies for the different developmental stages, locate specific anatomical structures within those hierarchies, and see the expression results associated with those structures.</p>
+<h3><A name="howis"></a>How is the Mouse Developmental Anatomy Ontology organized?</h3>
+<p>The Mouse Developmental Anatomy Ontology is organized spatially and functionally, using "is a" and "part of" relationships. Anatomical terms are arranged as a hierarchy from body region or organ system to tissue substructure.</p>
+
+<p>Modeling the anatomy hierarchically makes it possible to record
+expression results from assays with differing spatial resolution in a consistent and integrated manner. Organizing the anatomical terms as a Directed Acyclic Graph (DAG), i.e., in which a term can have more than one parent, allows presentation of the anatomy from multiple perspectives.</p>
+
+<p>The Mouse Developmental Anatomy Browser lets you navigate the extensive ontology hierarchies for the different developmental stages, locate specific anatomical structures within those hierarchies, and see the expression results associated with those structures.</p>
+<p>You can either browse or search the Mouse Developmental Anatomy Ontology. You can initiate an <A HREF="#search">Anatomy Search</a> on the left side or browse using the Anatomical Term Detail and Anatomical Tree View sections on the right.</p>
+<p>The three sections of the form interact with each other. <!--<A HREF="#search">Search</a> by entering a text string in the Search field. Click on a term in your search results to update the Anatomical Term Detail and Tree View sections to the selected structure. <A HREF="#browse">Browse</a> by clicking on term or selecting a developmental stage in the Anatomical Term Detail section, or by expanding or collapsing the sections or selecting a term in the Anatomical Tree View.--></p>
+
 <A HREF="#top">Back to top</A>
 
-<h3><A name="include"></a>What is the difference between searching and browsing the Dictionary?</h3>
-<p>You can either browse or search from the Mouse Anatomical Dictionary Browser entry page. Browsing brings up a <b>Term Detail</b> page displaying the highest level terms in the hierarchy at that stage, providing a starting point for navigating the ontology to locate specific anatomical structures. Clicking an individual term on a <b>Term Detail</b> page displays the specified anatomical structure, together with its parents (superstructures), siblings (structures at the same level), and children (substructures).</p>
-<p>Searching by entering a text string in the <b>Query</b> field and selecting a developmental stage brings up a <b>Query Results</b> page displaying all structures that match the query.</p>
-<A HREF="#top">Back to top</A>
-
-<h3><a name="search"></a>How do I search the Dictionary?</h3>
-<p>You can search by term to determine where a particular structure exists in the Anatomical Dictionary and whether there is any gene expression data associated with the structure. To do this:
-<ol>
- <li>Enter a term in the Query box.</li>
-  <ul>
-   <li>The query form field accepts any text string and searches for all structures and their synonyms containing that string. You can also use the percent (%) wildcard, which can stand for any number of characters within your search term. For instance, entering <b>di%culum</b> returns structures containing the word <b>diverticulum</b>.
-   <li>If you are uncertain which terms to use for the most effective searching, <a href="#browse">browse</a> the dictionary to see the standardized terms.</li>
-  </ul><br>
- <li>Scroll through the list beneath the box to select the developmental stage of interest.  The
-default, ANY, lets you query all stages for the term.  You can <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">browse Stage descriptions</a> for a listing of the defining features for each stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28. <!--A dictionary for TS 27 is not yet available.--></li>
-    <p>To select two or more stages, do the following:
-   <ul>
-  <li>On a Macintosh, hold the command (Apple) key down and click on the desired items in the list; OR hold the shift key down and  click on two items to select those and all items in between.</li>
-  <li>On a PC, hold the control key down and click on the desired items in the list; OR hold the shift key down and click on two items to select those and all items in between.</li>
- </ul>
-   <br>
- <li>When your choices are complete, click <b>Search</b>.  The search returns an <b>AD Browser-query results</b> page; it displays all matches for your query that exist in the vocabulary. The following table describes the information on that page.</li>
-</ol>
- <table border=2 cellpadding=3 width="95%">
-  <tr><th width="15%">Appearance</th><th width="65%">Description</th></tr>
-  <tr><td valign="top">Text: <font color=black><b>Bold, black</b></font></td><td>Number of entries found per Theiler Stage(s)</A> (TS). For example, <b>5 Theiler stage 16</b> means there are five anatomical structures that match or include your query term at TS 16. If you select more than one stage or ALL, the stages with terms matching your query appear in chronological order. </td>
-  </tr>
-  <tr>
-    <td valign="top">Links: <font color=blue>Blue</font></td> <td>A list of structures that match or include the term queried.</td>
-  </tr>
-</table>
-<p>Click the desired structure from the query results list to get its <b>AD Browser-term detail</b> page.  The
-<a href="#td_page">table</a> below describes the fields on the AD Browser-term detail page.</p>
+<h3><a name="search"></a>How do I search the Developmental Anatomy Ontology?</h3>
+<p>You can search by anatomy term to determine where a particular structure exists in the Anatomy Ontology and see, in the Anatomical Tree View section, whether there are any gene expression data associated with the structure. To do this:
+<ul>
+	<li>Begin typing a structure of interest and an autocomplete list activates on the second character. 
+    <ul>
+    	<li>The list shows all the anatomy terms and their synonyms that match your search characters.</li>
+    	<li>You can type the beginnings of multiple terms to narrow the list (example: <i>fore skel</i> will limit the list to terms with variations on forelimb and forearm, and skeleton and skeletal).
+    </ul>
+	<li>You must select a term. There is no free text searching in this field.</li>
+	<li>You can only select one term, though choosing a term includes results for other terms that contain that structure. For example, selecting <i>node</i> also includes results for other structures that contain the word, node, such as lymph node and sinoatrial node.</li>
+	<li>Use the return/enter key on your keyboard to activate a search. The search finds all structures in all stages that contain any of your search terms and displays a list of those structures along with the developmental stages for which the structure is present.</li>
+	<li>If you are uncertain which terms to use for the most effective searching, <a href="#browse">browse</a> the ontology to see the standardized terms.</li>
+</ul>
+<p>The first term listed in your search results is automatically selected and updates the Anatomical Term Detail and Anatomical Tree View sections on the right. Click on a different term in your search results to refresh the Anatomical Term Detail and Tree View with the selected structure and developmental stages. Use the Clear button to start a new search.</p>
+ 
 <A HREF="#top">Back to top</A><br>
 
-<h3><a name="browse"></a>How do I browse the Dictionary?</b></h3>
-<p>To examine the hierarchy of anatomical structures at each stage and to determine which structures have gene expression results attached to them, click on one of the Theiler stages highlighted in blue on the AD Browser page.  The search returns an <b>AD Browser-term detail</b> page; the table below describes the information on that page. Click on structures to navigate progressively through the hierarchy to locate specific anatomical terms.</p>
+<h3><a name="browse"></a>How do I browse the Developmental Anatomy Ontology?</b></h3>
+<p>To examine the hierarchy of anatomical structures at any or specific developmental stages and to determine which structures have gene expression results attached to them, select one of the developmental stages or click on the parent term in the Anatomical Term Detail section. If you mouse over a TS stage in the drop-down Developmental stages selection list, you will see a summary of the defining features of that stage, You can also view a graphical listing of the defining features for each stage <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">here</a>. Selecting a stage or clicking on a parent term updates the Anatomical Tree View.</p>
+<p>In the Anatomical Tree View you can expand or collapse branches by clicking on the blue &#9658; or &#9660;. Click on a term to view the number of expression results for the structure. This also updates the Anatomical Term Detail section.</p>
+
 <A HREF="#top">Back to top</A>
 
-<h3><a name="td_page"></a>How do I interpret a term detail page?</h3>
-<table>
-<style type="text/css">
-td { border: thin solid; 
-	vertical-align: middle;
-	}
-tr { border: thin solid;
-	text-align: left; 
-	vertical-align: middle;
-	}
-th { border: thin solid;
-	text-align: center;
-	}
-</style>
- <tr>
-  <th width="15%">Field<th width="10%">Color<th width="75%">Description </tr>
- <tr>
-   <TD ALIGN="left" VALIGN="top">Structure, synonym</TD>
-   <td valign="top"><table border=0 cellspacing=0 bgcolor="#FFFFCC">
-        <tr><td style= "background: ##FFFFCC;">Yellow</td>
-        </tr>
-       </table>
-   </td>
-   <td>Name of the selected anatomical structure and its synonyms. <!--In this field, there is also a link to the <b>full anatomical hierarchy</b>. Clicking this link opens a window displaying the anatomical hierarchy for that stage with the selected structure highlighted in yellow. You can examine the chosen structure within the context of all structures present at a particular stage.<B> Note:</B> Some browsers open the anatomical hierarchy file at the top. To see the highlighted structure, either refresh the window or scroll the hierarchy to locate it.--></td>
- </tr>
-  <tr>
-   <TD ALIGN="left" VALIGN="top">Selected structure</td>
-   <TD ALIGN="left" VALIGN="top"><font color="#FF0000">Red</font></td>
-   <td>The selected anatomical structure appears, highlighted in red. If there are any gene expression results associated with this structure, the number appears in parentheses following this term. To see a summary listing of the results, click <b>show all</b>.</td>
-  </tr>
-  <tr>
-   <TD ALIGN="left" VALIGN="top">Links</td>
-   <TD ALIGN="left" VALIGN="top"><font color="#0000FF">Blue</font></td>
-   <TD ALIGN="left" VALIGN="top">List of all paths to the term. Click on the desired link to bring up the detail page for that term. The AD Browser displays terms in a hierarchy to indicate the parents (superstructures), siblings (structures at the same level), and children (substructures) of the selected structure.
+<h3><a name="td_page"></a>How do I interpret my results?</h3>
+<p>Your initial views of the Mouse Developmental Anatomy Browser will vary depending upon how you accessed the page. The table below explains the views.</p>
+<p><table width="!" cellpadding="2" class="nb">
+<tr>
+<td align="center"><a href="#anatomy_search"><font size="-1">Anatomy Search</a> |
+<a href="#term_detail">Anatomical Term Detail</a> |
+<a href="#tree_view">Anatomical Tree View</a> </font></td></tr>
+</table>
 
-   <TABLE ALIGN="left" BGCOLOR="#FFFFFF" BORDER="0" CELLSPACING="0" CELLPADDING="4" WIDTH="100%">
-   <tr><th align=left valign=top>&#043;</th><td>indicates that a term has substructures.  Click on the term to see the immediate substructures of that structure.</td></tr>
-
-</table></td>
-</tr>
-</table></p>
+<table border="1" cellpadding="3" width="!">
+<tr><th align="left" valign="top"><a name="anatomy_search"></a>Anatomy Search</th>
+     <td align="top">The search finds all structures in all stages that contain any of your search terms and displays a ranked list of those structures along with the developmental stages for which the structure is present. Click on a term to update the Anatomical Term Detail and Tree View sections of the page with the appropriate stages and the selected term highlighted in gold.</td></tr>        
+<tr><th align="left" valign="top"><a name="tree_view"></a>Anatomical Term Detail</th>
+    <td valign="top">
+     <table border="0" cellpadding="3">
+      <tr>
+       <th align="left" valign="top">Term</th>
+       <td valign="top">The selected term <span class="highlight"><b>highlighted in gold</b></span>. If you accessed this page by clicking on a structure on another page, the appropriate structure is highlighted. Otherwise, before you initiate a search or browse, the default term is <i>embryo</i>.</td>
+      </tr>
+        <tr>
+      <th valign="top" align="left">Present at</th><td>The Theiler stages for which the structure is present. You have the option to limit this to a single stage by clicking on Select developmental stage.</td>
+      </tr>
+      <th valign="top" align="left">ID</th><td>The unique accession ID for the structure</td>
+      </tr>
+      <th valign="top" align="left">Parent Terms</th><td>The immediate parent terms for the selected structure. Because the Anatomy Ontology is built on a DAG framework, a structure may have more than one parent term. The term has either an "is a" or "part of" relationship to the parent term.</td>
+      </tr>
+     </table>
+<tr><th align="left" valign="top"><a name="tree_view"></a>Anatomical Tree View</th>
+     <td align="top">The Theiler stages displayed are shown beneath the section header. Structures present at the selected stage or stage range are shown in the tree view. You can collapse or expand branches by clicking on the blue &#9660; or &#9658;. Click on a term to view the number of expression results for the structure. When you select a new term, it is <span class="highlight"><b>highlighted in gold</b></span> and the Term Detail section is updated. The gold highlights make it easy to see if a term appears on multiple branches of the tree. <br></br>Click on the number of expression results to view gene expression data, images and assay details annotated to the selected structure. </td></tr>  
+      </td>
+     </tr>
+</table>
+<br>
 <A HREF="#top">Back to top</A>
 
 
- <h3><A NAME="results"></a>How do I interpret the results of my search?</h3>
-<p>See <a href="EXPRESSION_help.shtml#summary" target="_blank">Interpreting Gene Expression Data Query Results</a>.
+ <h3><A NAME="results"></a>How do I interpret the gene expression results of my search?</h3>
+<p>When you click on the number of expression results in the Anatomical Tree View, a search returns all gene expression data, images and assay details annotated to the selected structure. See <a href="EXPRESSION_help.shtml#summary" target="_blank">Interpreting Gene Expression Data Query Results</a> for more information about the results.
 </p>
 <A HREF="#top">Back to top</A>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
+

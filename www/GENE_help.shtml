@@ -115,14 +115,16 @@ See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type 
   <a name="coordinates"></a><a href="MISC_map_position_help.shtml#coordinates" target="_blank">Genome Coordinates</a>, 
   <!--<a name="cytogenetic_band"></a><a href="MISC_map_position_help.shtml#cytogenetic_band" target="_blank">Cytogenetic Band</a>,--> 
   <a name="marker_range"></a><a href="MISC_map_position_help.shtml#marker_range" target="_blank">Marker Range</a>, and 
-  <a name="cm_offset"></a><a href="MISC_map_position_help.shtml#cm_offset" target="_blank">cM Position</a>) to limit the scope of your query.<ul>
-
-      <li>When using chromosome(s), you can also define genome coordinates or cM position.</li> 
-      <li>You cannot combine genome coordinates and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) &#151; except QTL(s) &#151;  with coordinates.</li></ul>
-      <li>When using chromosome(s), you can also define genome coordinates or cM position.</li> <li>You cannot combine genome coordinates and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) &#151; except QTL(s) &#151;  with coordinates.</li></ul>
+  <a name="cm_offset"></a><a href="MISC_map_position_help.shtml#cm_offset" target="_blank">cM Position</a>) to limit the scope of your query.
+  <ul>
+	<li>When using chromosome(s), you can also define genome coordinates or cM position.</li> 
+    <li>You cannot combine genome coordinates and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) &#151; except QTL(s) &#151;  with coordinates.</li></ul>
+    <li>When using chromosome(s), you can also define genome coordinates or cM position.</li> <li>You cannot combine genome coordinates and cM position with one another.</li>
+    <li>For Marker Range, you can enter any marker(s) &#151; except QTL(s) &#151;  with coordinates.</li>
+    <li>If you wish to search with multiple regions, or search with human regions instead of mouse, you can do this with the <a href="<!--#include file='include/homepages_url.html'-->humanDisease.shtml">Human&mdash;Mouse: Disease Connection</a>.</li>
+   </ul>
 See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fields on MGI Query Forms</a> for further details about entering values in these fields.</td>
 </tr>
-
 <tr>
    <th align="left" valign="top"><a name="gene_ontology"></a>Gene <br>Ontology <br>classification</th>
         <td valign="top">Genes may be described using three broad categories reflecting biological roles: Molecular Function, Biological Process, or Cellular Component. The Gene Ontology (GO) Consortium has developed structured vocabularies to specify detailed aspects within each category. MGI uses GO terms to annotate gene records. See <a href="GO_classification_fields_help.shtml" target="_blank">Using Gene Ontology Classification Fields on MGI Query Forms </a> for details.
