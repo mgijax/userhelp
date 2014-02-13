@@ -50,13 +50,13 @@ function openHelpWindow(helpFile){
  <li><A HREF="#whatdiffer">What is the purpose of the Differential Expression Search?</A></li>
  <li><A HREF="#howdiffer">How do I use the Differential Expression Search?</A></li>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
+ <li><a href="#gxdfilter">How do I filter my results?</a></li>
  <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</a></li>
+  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
+ <li><a href="#batch">Can I send the results of my search to the MGI Batch Query?</a></li>
  <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found" target="_blank">What if the search does not find any expression results?</a></li>
  <li><A HREF="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a></li>
  <li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</a></li>
- <li><a href="#gxdfilter">How do I filter my results?</a></li>
- <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
- <li><a href="#batch">Can I send the results of my search to the MGI Batch Query?</a></li>
  <LI><A HREF="#example">Are there examples of query results?</a></li>
 
 </UL></P>
@@ -171,7 +171,7 @@ If you enter more than one structure in the query field, you can choose to find 
 <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Ontology</a>.</p> 
  
  <A NAME="developmental_stage"></A><b>Developmental Stages (dpc)</b><br>
-   Use this field <!--and its operators (in and not in)--> to select one or more Theiler stages (TS) to focus your search on a particular stage of embryonic development. Alternately, you can choose the <i>Use Ages</i> tab and limit your search to the general terms, <i>Embryonic</i> or <i>Postnatal</i>, or choose days post conception (dpc).
+   Use this field <!--and its operators (in and not in)--> to select one or more Theiler stages (TS) to focus your search on a particular stage of embryonic development. Alternately, you can choose the <i>Use Ages</i> tab and limit your search to the general terms, <i>Embryonic</i> or <i>Postnatal</i>, or choose specific days post conception (dpc).
 
 <p><a name="stages"></a><b>Note</b>: The Theiler system organizes development into stages defined by the
 appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc.</p>
@@ -280,11 +280,16 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 
+<h3><a name="gxdfilter"></a>How do I filter my results?</h3>
+<p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for Wild type or mutant specimens. In the banner above your results, after Filter expression data by: click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>. If you reached this page by using the Gene Expression Data Query form, then if you <a href="#revise">modify</a> your search, the filters are automatically applied to your modified results.</p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
 <H3><A NAME="summary"></A>How do I interpret the query results summary and detail pages?</H3>
 <!--<p>See <a href="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data Query Results</a>.</p>
 -->
 <p>Your search results are displayed within four tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a>, <a href="#assaytab">Assay Results</a> and <a href="#imagetab">Images</a>. With the Standard search, the Assay Results tab is selected by default. For Differential Expression searches, the Genes tab is the default selection.</p>
-<p>If you accessed the expression results from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>, the page header shows the Structure, the Theiler Stage(s) and the unique structure ID.</p>
+<!--<p>If you accessed the expression results from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>, the page header shows the Structure, the Theiler Stage(s) and the unique structure ID. (Also J#, marker, allele)</p>-->
 <h4><a name="genestab"></a>Genes</h4>
 <p>If you select the Genes tab, the query summary contains the following fields:<br><br>
 <blockquote> 
@@ -336,7 +341,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <tr><td valign="top"><b>Anatomical System </b></td>
      <td valign="top">High-level term for the anatomical system assayed (e.g. Cardiovascular System, Extraembryonic Component)</td></tr>
 <tr><td valign="top"><b>Age </b></td>
-     <td valign="top">Age of the specimen used in the assay. Whenever possible, the age annotations are normalized according to the following conventions: noon of the day on which the vaginal plug is found is counted as embryonic (E) day 0.5. Therefore, e.g., if an author refers to the day on which the plug is found as E0, we add 0.5 to the age value(s) listed in the paper and the comment <I>Age normalized so that noon of plug day = E0.5</I> to the record. If the staging criteria are not described in the paper, we annotate to the ages given by the authors and may add the comment <I>Age of embryo at noon of plug day not specified in reference</I> to the record. The abbreviations for age annotations are as follows:
+     <td valign="top">Age of the specimen used in the assay. <!--Whenever possible, the age annotations are normalized according to the following conventions: noon of the day on which the vaginal plug is found is counted as embryonic (E) day 0.5. Therefore, e.g., if an author refers to the day on which the plug is found as E0, we add 0.5 to the age value(s) listed in the paper and the comment <I>Age normalized so that noon of plug day = E0.5</I> to the record. If the staging criteria are not described in the paper, we annotate to the ages given by the authors and may add the comment <I>Age of embryo at noon of plug day not specified in reference</I> to the record. -->The abbreviations for age annotations are as follows:
 <table border width="!" cellpadding="4" cellspacing="1">
 <TR><Td VALIGN="top"><b>E</b></td> <TD WIDTH="!">Embryonic day</TD> </TR>
 <TR>  <td valign="top"><b>P  </b></td> <td valign="top">Postnatal or postnatal day </TD> </TR>
@@ -357,7 +362,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
       <li>Ambiguous</li>
       <li>Not specified</li>
     </UL>
-<p>Note: Not specified is used when the authors do not report whether a gel band is present or absent.  Ambiguous is used when the curators cannot discern from the author's description whether expression is present or absent.</p>
+<p>Note: Not specified is used when the authors do not report whether a gel band is present or absent.  Ambiguous is used when the authors specify it or our curators cannot discern from the author's description whether expression is present or absent.</p>
   <!--<P><sup>*</sup><i>Present</i> appears if expression is reported as detected but the author did not specify the level.--></td></tr>
 <tr><td valign="top"><b>Images</b></td>
      <td valign="top">Name of the specimen or pane with associated images, linked to the appropriate section of the assay detail. Note: Images are shown only when we have permission from the publishers. </td></tr>
@@ -385,6 +390,16 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 
 <a href="#top"><font size="-1">Top</font></a>
 
+<h3><a name="excelfile_gxdqf"></a>Can I get my results as tab-delimited text or spreadsheet files?</h3>
+<p>Yes. The <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a> tabs but not the <a href="#byassay">Assays</a> tab, provide export options. In your search results, <!--at the right hand edge of the Filter assays bar,--> click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
+
+<font size="-1"><A HREF="#top">Top</A></font>
+
+<h3><A name="batch"></a>Can I send the results of my search to the MGI Batch Query?</h3>
+<p>Yes. Under the Genes tab you have the option of exporting your results as a text file, spreadsheet file or sending the list of genes to the MGI Batch Query. If you click the Batch Query icon, the default Batch Summary will appear for your list of genes. Use the Click to modify search button to expand your search results to include additional information such as Gene Ontology (GO) terms, Mammalian Phenotype (MP) terms or Human Diseases associated with the genes.</p>
+<p>See also <a href="BATCH_help.shtml"target="_blank">Using the MGI Batch Query</a>.</p>
+
+<font size="-1"><A HREF="#top">Top</A></font>
 
 <h3>What if the search does not find any expression results?</h3>
 <p>See <a href="EXPRESSION_query_results_help.shtml#not_found" target="_blank">Interpreting Gene Expression Data Query Results</a>.
@@ -398,7 +413,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
   <li>The next step is for the curators to extract the detailed expression data from these references. The types of data annotated at this stage include:  the anatomical structures analyzed; the authors' description of the pattern and strength of expression; and the genetic origin of the sample. Because annotation process is time-consuming, not all expression references have detailed data in the database. </li>
 </ul> 
 </p>
-<p> Thus, to ensure that your query returns all the references of interest to you, searches of the detailed expression data also include searches of the literature content records (whenever query parameters apply to both these types of data).</P>
+<p> Thus, to ensure that your query returns all the references of interest to you, searches of the detailed expression data also include searches of the literature content records (whenever query parameters apply to both these types of data). <a href="#gxdfilter">Filtering</a> your query summary will not affect the number of literature records returned, whereas <a href="#revise">modifying</a> your query will.</p>
 
 <h3><a name="generate"></a>Which expression data query parameters generate an expression literature search? Which do not?</h3>
 <p>The following detailed expression data query parameters generate an expression literature search:
@@ -424,22 +439,6 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 
 </p>
 <a href="#top"><font size="-1">Top</font></a>
-
-<h3><a name="gxdfilter"></a>How do I filter my results?</h3>
-<p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for Wild type or mutant specimens. In the banner above your results, after Filter expression data by: click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>. If you reached this page by using the Gene Expression Data Query form, then if you <a href="#revise">modify</a> your search, the filters are automatically applied to your modified results.</p>
-
-<a href="#top"><font size="-1">Top</font></a>
-
-<h3><a name="excelfile_gxdqf"></a>Can I get my results as tab-delimited text or spreadsheet files?</h3>
-<p>Yes. The <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a> tabs but not the <a href="#byassay">Assays</a> tab, provide export options. In your search results, <!--at the right hand edge of the Filter assays bar,--> click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
-
-<font size="-1"><A HREF="#top">Top</A></font>
-
-<h3><A name="batch"></a>Can I send the results of my search to the MGI Batch Query?</h3>
-<p>Yes. Under the Genes tab you have the option of exporting your results as a text file, spreadsheet file or sending the list of genes to the MGI Batch Query. If you click the Batch Query icon, the default Batch Summary will appear for your list of genes. Use the Click to modify search button to expand your search results to include additional information such as Gene Ontology (GO) terms, Mammalian Phenotype (MP) terms or Human Diseases associated with the genes.</p>
-<p>See also <a href="BATCH_help.shtml"target="_blank">Using the MGI Batch Query</a>.</p>
-
-<font size="-1"><A HREF="#top">Top</A></font>
 
 <H3><A NAME="example"></A>Are there examples of query results?</H3>
 <p>The following examples list the field values to set on the Gene Expression Data Query Form to perform each query.  Leave the default values in all other fields.<br>
