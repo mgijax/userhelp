@@ -46,6 +46,7 @@ function openHelpWindow(helpFile){
  <LI><A HREF="#whatquery">What can I use this query form to find?</A></LI>
  <LI><A HREF="#fields">What values are acceptable in each of the fields?</A></LI>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
+ <li><a href="#gxdfilter">How do I filter my results?</a></li>
  <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</A></LI>
  <!--<li><a href="EXPRESSION_help.shtml#generate">Which expression data query parameters generate an expression literature search? Which do not?</li>-->
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
@@ -99,7 +100,7 @@ This form lets you query for genes expressed in some anatomical structures and/o
 <LI>Structures and/or stages entered in the top field query the database for assay results demonstrating the expression of genes in those structures or stages.</LI>
 <LI>Structures or stages entered in the lower box query for the absence of expression of genes in those structures or stages.  <B>Note:</B> If the structure or stage in the lower box has conflicting expression results annotated to it, i.e., results showing both the presence and absence of expression of a particular gene, that gene is considered to be expressed and is not returned by this query.</LI>
 <li>These searches will return a list of genes whose expression was shown to be absent (not detected), as well as genes whose expression has not been analyzed or recorded in the database for the specified structures and stages.</li>
-<li>The search is limited to results from wild-type specimens.</li>  
+<li>The search is limited to results from wild-type specimens. <B>Note:</B> Results from <i>in situ</i> reporter (knock-in) experiments will be returned if the results are from a heterozygote.</li>  
 </UL>
 
 <TABLE BORDER=1 CELLPADDING="4" width="100%">
@@ -128,7 +129,7 @@ This form lets you query for genes expressed in some anatomical structures and/o
 
 <p><b>Note</b>: The Theiler system organizes development into stages defined by the
 appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc. Therefore, if you are interested in all available records for embryos of age 14.0 dpc, you must select both TS 21 and TS 22.
-<p>You can <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage. Please note that in GXD all annotations of postnatal animals use Theiler Stage 28.
+<p>You can <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage.
 <!--<tr><td valign="top"><a name="and_not"></a><b>Expression: <br>and NOT detected in:<br>
 and NOT detected or analyzed in:</b><br></td><td valign="top"><p>This portion of the form allows you to distinguish between two kinds of absence of expression. When you use:
 <ul>
@@ -138,7 +139,7 @@ and NOT detected or analyzed in:</b><br></td><td valign="top"><p>This portion of
 
 <!--<tr><td valign="top"><b>Exclude mutant specimens from query</b></td><td align="left" valign="top">
 Since mutants often have aberrant expression patterns, by default, expression results obtained from specimens containing one or more mutant alleles are excluded from the query.  To include expression results obtained from mutants in your query, click to deselect this option.  <b>Note:</b> Because of the way the query is designed, knock-in embryos are considered mutants.  Therefore, if you exclude mutant specimens, the query returns no expression results 
-obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table></td></tr>-->
+obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></td></tr>
 
 <tr><td valign="top"><a name="structurestage"></a><b>Structure and Stage</b></td><td align="left" valign="top">Use this section when you want to query for genes expressed in some structures and stages but not in other structures and stages. This section combines the query fields for the <a href="#anatomical_structure">Anatomical Structure</a> and <a href="#developmental_stage">Developmental Stage</a> fields. 
 <p>You must enter a structure in both fields.</p>
@@ -169,6 +170,11 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table></td><
 <li>Alternatively, click Reset to clear the fields. </li>
 </ul>
 </p>
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="gxdfilter"></a>How do I filter my results?</h3>
+<p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for Wild type or mutant specimens. In the banner above your results, after Filter expression data by: click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>. If you reached this page by using the Gene Expression Data Query form, then if you <a href="#revise">modify</a> your search, the filters are automatically applied to your modified results.</p>
+
 <a href="#top"><font size="-1">Top</font></a>
 
 <H3><A NAME="summary"></A>How do I interpret the query results summary and detail pages?</H3>
