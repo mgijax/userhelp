@@ -64,9 +64,10 @@ function openHelpWindow(helpFile){
 	<ul>
 	  <li><a href="#referencez">References</a></li>
 	  <li><a href="#probez">Probes</a></li>
-	  <li><a href="#expimage">Expression Image</a></li>
+	  <li><a href="#expression">Expression Image</a></li>
 	<!--<li><a href="#snp">SNP</a></li>-->
  	<li><a href="#mapping">Mapping</a></li>
+ 	<li><a href="#expression">Adult Mouse Anatomy</a></li>
 	</ul>
 	
 </ul>
@@ -95,7 +96,7 @@ function openHelpWindow(helpFile){
   <dd>IPR003599 :   Interpro</dd>
   <dd>PIRSF015599 :   Protein Information Resource SuperFamily</dd>
   <dd>MP:0005392 :   Mammalian Phenotype (MP Browser)</dd>
-  <dd>GO:0004713  :   Gene Ontology</dd>
+  <dd>EMAPA:17337  :   Mouse Developmental Anatomy</dd>
  <br>
 
 <dt><a name="sequencez"></a><b>Sequences</b></dt>
@@ -148,8 +149,9 @@ function openHelpWindow(helpFile){
   <dd>MP:0005392 :  Mammalian Phenotype Vocabulary (MP Browser)</dd>
   <dd>GO:00047131 :  Gene Ontology (GO Browser)</dd>
   <dd>172800 :  OMIM (Human Disease Browser)</dd>
- <dd>IPR003599 :  InterPro Protein Database</dd>
+  <dd>IPR003599 :  InterPro Protein Database</dd>
   <dd>PIRSF015599 :  Protein Information Resource SuperFamily</dd>
+  <dd>EMAPA:17337  :  Mouse Developmental Anatomy Ontology</dd>
 </dl>
 
 </blockquote>
@@ -182,19 +184,12 @@ function openHelpWindow(helpFile){
  <dd>MA:0002769 :  Adult Mouse Anatomy</dd>
  <dd>MGI:1339360 :  Antibody</dd>
  <dd>MGI:1339359 :  Antigen</dd>
-<dd><dd>MGI:1934267 :  Expression assay</dd>
+ <dd>MGI:1934267 :  Expression Assay</dd>
+ <dd>MGI:3501363 :  Expression Image</dd>
 <br>
 
-<dt><a name="expimage"></a><b>Expression Image</b></dt>
-   <dd>MGI:3501363 :  MGI</dd>
-<br>
-<!--
-<dt><a name="snp"></a><b>SNP</b></dt>
-   <dd>rs3021544   ss1275070 :  dbSNP</dd>
-<br>-->
 <dt><a name="mapping"></a><b>Mapping</b></dt>
   <dd>MGD-CREX-2231 :  MGI</dd>
- 
  
 </dl> 
 
