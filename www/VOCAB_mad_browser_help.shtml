@@ -85,7 +85,7 @@ expression results from assays with differing spatial resolution in a consistent
     	<li>You can type the beginnings of multiple terms to narrow the list (example: <i>fore skel</i> will limit the list to terms with variations on forelimb and forearm, and skeleton and skeletal).
     </ul>
 	<li>You must select a term. There is no free text searching in this field.</li>
-	<li>You can only select one term, though choosing a term includes results for other terms that contain that structure. For example, selecting <i>node</i> also includes results for other structures that contain the word, node, such as lymph node and sinoatrial node.</li>
+	<li>You can only select one term, though choosing a term will return results for other terms that also contain your search term. For example, selecting <i>node</i> also includes results for other structures that contain the word, node, such as lymph node and sinoatrial node.</li>
 	<li>Use the return/enter key on your keyboard to activate a search. The search finds all structures in all stages that contain any of your search terms and displays a list of those structures along with the developmental stages for which the structure is present.</li>
 	<li>If you are uncertain which terms to use for the most effective searching, <a href="#browse">browse</a> the ontology to see the standardized terms.</li>
 </ul>
@@ -94,7 +94,7 @@ expression results from assays with differing spatial resolution in a consistent
 <A HREF="#top">Back to top</A><br>
 
 <h3><a name="browse"></a>How do I browse the Developmental Anatomy Ontology?</b></h3>
-<p>To examine the hierarchy of anatomical structures at any or specific developmental stages and to determine which structures have gene expression results attached to them, select one of the developmental stages or click on the parent term in the Anatomical Term Detail section. If you mouse over a TS stage in the drop-down Developmental stages selection list, you will see a summary of the defining features of that stage, You can also view a graphical listing of the defining features for each stage <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">here</a>. Selecting a stage or clicking on a parent term updates the Anatomical Tree View.</p>
+<p>To examine the hierarchy of anatomical structures at any, or specific, developmental stages and to determine which structures have gene expression results attached to them, select one of the developmental stages or click on the parent term in the Anatomical Term Detail section. If you mouse over a TS stage in the drop-down Developmental stages selection list, you will see a summary of the defining features of that stage, You can also view a graphical listing of the defining features for each stage <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">here</a>. Selecting a stage or clicking on a parent term updates the Anatomical Tree View.</p>
 <p>In the Anatomical Tree View you can expand or collapse branches by clicking on the blue &#9658; or &#9660;. Click on a term to view the number of expression results for the structure. This also updates the Anatomical Term Detail section.</p>
 
 <A HREF="#top">Back to top</A>
