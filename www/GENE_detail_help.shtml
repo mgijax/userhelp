@@ -101,7 +101,7 @@ function openHelpWindow(helpFile){
 <TH ALIGN="left" VALIGN="top"><A NAME="sts"></A>STS</TH>
 <TD VALIGN="top">If applicable, symbols for sequence tag sites (STS) with the same DNA sequence (or a portion of that sequence) as the marker, linked to the DNA Detail Segment Detail page. For example, D7Mit19 and D7Mit31 are said to be STSs of Tyr.</TD>
 </TR>
-<tr><th align="left" valign="top"><a name="feature_type"></a>Feature Type</th><td valign="top">Genetic feature type(s) annotated to the marker (e.g, snoRNA gene, rRNA gene and so on). Hovering over each term produces a pop-up window containing the definition associated with each term. See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a> for a complete list.</td></tr>
+<tr><th align="left" valign="top"><a name="feature_type"></a>Feature Type</th><td valign="top">Genetic feature type(s) annotated to the marker (e.g, snoRNA gene, rRNA gene and so on). See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a> for a complete list of Feature Types used in MGI and their definitions.</td></tr>
 <TR>
 <TH ALIGN="left" VALIGN="top"><a name="genetic_map"></a>Genetic Map</TH>
 <Td ALIGN="left" VALIGN="top">As much as is known for this marker of the following: 
@@ -182,7 +182,8 @@ Query Results -- Summary page for alleles with OMIM annotations to associated ge
 
 <TR>
 <TH ALIGN="left" VALIGN="top"><A NAME="expression_detail"></A>Expression</TH>
-<td valign="top">Depending on availability, some or all of the following information may appear:
+<td valign="top">The Gene Expression Database (GXD) logo appears in the left hand column. Click on the logo for more information on GXD and its tools.
+<p>Depending on availability, some or all of the following information may appear:</p>
 <ul>
   <li>Literature Summary: number of references analyzing expression for this gene; links to a table of the ages and assay types analyzed.</li>
   <li>Data Summary - each number links to a summary report: 
@@ -193,7 +194,7 @@ Query Results -- Summary page for alleles with OMIM annotations to associated ge
      </ul>
   <li>	Theiler stage: List of all developmental stages where expression was analyzed; each summary report lists expression results from that stage.</li>
   <li>Assay Type Results: assay type used for the analyses and the number of results, linked to summary reports.</li>
-  <li><a name="cdna_summary"></a>cDNA source data: the number of cDNA clones for this marker, linked to a summary page with the following columns: Nucleotide Probe/Clone AccID, Name, Clone Collection, Age, Tissue, Cell Line, and Gene. If (PUTATIVE) appears beside the gene symbol, it means that the relationship between the gene and clone is established by computation rather than experimental data.</li>
+  <li><a name="cdna_summary"></a>cDNA source data: the number of cDNA clones for this marker.</li>
   <li>External Resources: links to expression information for this marker in other than MGI databases. Examples: Allen Brain Atlas, GENSAT, gene microarray profile pages at GEO, ArrayExpress.</li>
  </ul>
 </TD>
@@ -201,11 +202,10 @@ Query Results -- Summary page for alleles with OMIM annotations to associated ge
 
 <TR>
 <TH ALIGN="left" VALIGN="top"><A NAME="molecular_reagents"></A>Molecular reagents</TH>
-<TD VALIGN="top">Links to summary pages of MGI molecular reagent information for the marker grouped by All nucleic, Genomic, cDNA, Primer pair, Other (i.e., other nucleic acid probes), Antibodies and Microarray probesets. Note that <I>Genomic, cDNA, Primer pair</I> and <I>Other</I> are subsets of All nucleic. The number in parentheses indicates the total number of items listed in the summary. If you select:
+<TD VALIGN="top">Links to summary pages of MGI molecular reagent information for the marker grouped by All nucleic, Genomic, cDNA, Primer pair, Other (i.e., other nucleic acid probes) and Microarray probesets. Note that <I>Genomic, cDNA, Primer pair</I> and <I>Other</I> are subsets of All nucleic. The number in parentheses indicates the total number of items listed in the summary. If you select:
 
 <UL STYLE="padding-left:30px">
-<LI>All nucleic, Genomic, cDNA, Primer pair, Other:  link is to Molecular Probes and Clones Query Results -- Summary.</LI>
-<LI>Antibodies: link is to Antibodies Query Results -- Summary.</LI>
+<li>All nucleic, Genomic, cDNA, Primer pair, Other:  link is to Molecular Probes and Clones Query Results -- Summary.</li>
 <li>Microarray probeset: link is to Microarray Probeset Summary.</li>
 </UL>
 </TD>
