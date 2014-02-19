@@ -372,8 +372,10 @@ Search engine (<a href="http://en.wikipedia.org/wiki/Apache_Lucene" target="blan
 <p>See <a href="ACCESSION_ID_help.shtml" target="_blank">Querying by Accession ID - Results and Examples</a>.</p>
 <font size="-1"><A HREF="#top">Top</A></font>
 
-<h3><a name="advantage"></a>When should I use  Quick Search vs. an individual MGI query form?</h3>
-<p>It depends on what you are looking for and the depth of information you need.</p>
+<h3><a name="advantage"></a>When should I use Quick Search vs. an individual MGI query form?</h3>
+<p>It depends on what you are looking for and the depth of information you need. In general, use the Quick Search when you are looking for something specific or are expecting only a few results. You can also use the Quick Search to run a broad search to explore MGI and see the depth of our data. Like using Google to search the Internet, your Quick Search results can be hit or miss. You will get results you weren't expecting, though the best results will sort to the top.</p>
+<p>The query forms give you more power over your search. One of the strengths of MGI is data integration. This allows you to search across multiple data sets. For example, you can use the <a href=<!--#include file='include/fewi_url.html'-->marker">Genes & Markers Query</a> to find all the protein coding genes and microRNAs mapped to mouse Chromosome 2, whose products are involved in axon guidance and have alleles that show an eye phenotype. In this example you narrowed the mapping search to Chr 2, the Feature Types to just protein coding genes and microRNAs, the Gene Ontology to just axon guidance and its subterms, and the phenotype to just eye phenotypes.</p>
+<p>The table summarizes the differences.</p>
 <table border="1" cellspacing="1" cellpadding="3" width="!%">
 <tr><th valign="top">&nbsp;</th><th valign="top">Should I use MGI Quick Search?</th><th valign="top">or an MGI query form?</th></tr>
 
