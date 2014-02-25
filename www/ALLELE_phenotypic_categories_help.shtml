@@ -49,11 +49,11 @@ function openHelpWindow(helpFile){
 <table border="1" cellspacing="1" cellpadding="3" width="100%">
  <tr>
   <th valign="top"><a name="method"></a><nobr>Generation Method</nobr></th>
-  <th align="center">Search is for alleles where.../Query results include...</th></tr>
+  <th align="center">Definitions for the origination of the allele</th></tr>
  
  <tr><th align="left" valign="top">Chemically induced (ENU)</th><td valign="top">Exposure of mice to the N-ethyl-N-nitrosourea (ENU) chemical mutagen results in germline-transmissible mutations. </td></tr>
 
- <tr><th align="left" valign="top"><nobr>Chemically induced (other)</nobr></th><td valign="top">Exposure of mice to a chemical mutagen &#151; including ENU and other common chemical agents such as ethyl methanesulfonate (EMS), bleomycin, and chlorambucil &#151; results in germ-line transmissible mutations. Also included are mutations produced by a combination of chemical and radiation exposure.</td></tr>
+ <tr><th align="left" valign="top"><nobr>Chemically induced (other)</nobr></th><td valign="top">Exposure of mice to a chemical mutagen &#151; excluding ENU and other common chemical agents such as ethyl methanesulfonate (EMS), bleomycin, and chlorambucil &#151; results in germ-line transmissible mutations. Also included are mutations produced by a combination of chemical and radiation exposure.</td></tr>
  
  <tr><th align="left" valign="top">Chemically and Radiation induced</th>
 <td valign="top">Exposure of mice to X-ray or other types of radiation result in germ-line transmissible mutations. Also included are mutations produced by a combination of chemical and radiation exposure.</td></tr>
@@ -103,18 +103,32 @@ function openHelpWindow(helpFile){
     <li>Knocking in sequence to create a fusion gene.</li></ul>
  </td></tr>
 </table>
-
+<p>
 <table border="1" cellspacing="1" cellpadding="3" width="100%">
  <tr>
   <th valign="top"><a name="attributes"></a><nobr>Allele Attributes</nobr></th>
-  <th align="center">Search is for alleles where.../Query results include...</th></tr>
+  <th align="center">Definitions for the allele subtypes of the ><a href="#method">Generation Methods</a></th></tr>
   <tr><th align="left" valign="top">Conditional ready</th><td valign="top">Has conditional potential... </td></tr>
-</table>
-
+  <tr><th align="left" valign="top">RMCE-Ready</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">Inserted expressed sequence</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">Humanized sequence</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">Reporter</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">Transposase</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">Transposon concatemer</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">Constitutively active</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">Dominant negative</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">Hypomorph</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">Inducible</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">Knockdown</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">Modified isoform(s)</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">Null/knockout</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">No functional change</th><td valign="top">*** </td></tr>
+</table></p>
+<p>
 <table border="1" cellspacing="1" cellpadding="3" width="100%">
  <tr>
   <th valign="top"><a name="collection"></a><nobr>Collections</nobr></th>
-  <th align="center">Use this section to limit your search to alleles from specific large scale projects.</th></tr>
-</table>
+  <td align="center">Use this section to limit your search to alleles from specific large scale projects.</td></tr>
+</table></p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
