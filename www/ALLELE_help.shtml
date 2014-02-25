@@ -117,7 +117,6 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <p>See also:
    <ul>
     <li><A HREF="MISC_usingQFs_help.shtml#howdo" target="_blank">How do I submit a query?</a></li>
-       <li><a href="MISC_operators_help.shtml#operators" target="_blank">What are operators and how do they affect my query?</a></li>
     <li><a href="MISC_usingQFs_help.shtml#options" target="_blank">How do I select more than one item on a list?</a></li>
   <li><a href="MISC_boolean_search_help.shtml#case" target="_blank">Does it matter what case I use when I type values in the fields?</a></li>
   
@@ -239,7 +238,7 @@ The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkin
 </P>
 
 <TR><TH ALIGN="left" VALIGN="top"><a name="nomenclature"></a>Nomenclature & location</TH><TD ALIGN="left" VALIGN="top">Search by symbol, name, or chromosome position. Use these parameters to expand or limit the scope of retrieved information. 
-There are several ways to use the map position parameters (<A HREF="#chromosome">Chromosome</A>, <A HREF="#cyt">Cytogenetic Band</A>, <A HREF="#cmp">cM Position</A>, <A HREF="#coordinates">Genome Coordinates</A>). If you use <B>Chromosome</B>, you may also define a cytogenetic band, cM position, or genome coordinate. However, you cannot combine <B>Cytogenetic Band, cM Position</B>, and <B>Genome Coordinate</B> with one another AND must select a chromosome (except when using "within"). <BR><BR>
+There are several ways to use the map position parameters (<A HREF="#chromosome">Chromosome</A>, <A HREF="#cmp">cM Position</A>, <A HREF="#coordinates">Genome Coordinates</A>). If you use <B>Chromosome</B>, you may also define a cytogenetic band, cM position, or genome coordinate. However, you cannot combine <B>Cytogenetic Band, cM Position</B>, and <B>Genome Coordinate</B> with one another AND must select a chromosome (except when using "within"). <BR><BR>
 
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="6" WIDTH="100%">
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="allele"></A>Allele</TH><TD>You can search on any <I>approved</I> mouse allele symbol, name, or synonym.<ul><li>Enter one or more terms, separated by commas. <b>Note:</b>&nbsp; If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "interleukin 10 receptor, beta" or "Alpha1,4Gal-T").</li><li> The operators (the default is <I>contains</I>) present additional search options. See <A HREF="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</A> for more details.</li></ul></TD></TR>
@@ -249,10 +248,9 @@ There are several ways to use the map position parameters (<A HREF="#chromosome"
 <li> The operators present additional search options; the default operator is contains. See <a href="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</a> for more information.</li></ul></TD></TR>
 </td>        </TR>
 
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="chromosome"></A>Chromosome</TH><TD VALIGN="top"><ul><LI>Choose an operator (on/not on). (See <a href="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</A> for more details.)
-<LI>Select one or more items from the chromosome selection list.</LI></ul></TD></TR>
-
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="cyt"></A>Cytogenetic Band</TH><TD VALIGN="top"><ul><LI>Specify all or a portion of a cytogenetic band offset. The default is <I>equals</I> (=), which limits the search to exact matches.</li> <LI>Select an alternative operator if you want to search using part of a cytogenetic band offset. See <A HREF="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</A> for more details.</li><LI>Click the NOT box to exclude whatever you type in the box.</LI></ul> </TD> </TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="chromosome"></A>Chromosome</TH><TD VALIGN="top">
+<ul>
+<li>Select one or more items from the chromosome selection list Use the Command key (Apple) or control key (PC) to select multiple chromosomes. Use the Shift key to make a contiguous selection, such as Chromosomes 4 - 7. </li></ul></TD></TR>
 
 <TR></A><TH VALIGN="top" ALIGN="left"><A NAME="cmp">cM Position</TH><TD VALIGN="top"><ul> <LI>Specify a chromosomal region BETWEEN two points on one chromosome selected from the Chromosome list by entering the cM values to begin and end the region, separated by <I>and</I> (for example, <I>50 and 75</I>).</li><LI>Establish a relationship between values: between, equal, less than, greater than, less than or equal to, greater than or equal to, < >, is null, is not null.</LI> <LI>Specify a region WITHIN an area surrounding a marker by entering the current, approved symbol and the number of cM on either side of the marker. For this option, you do not need to not select a chromosome.</li></ul></TD> </TR>
 
