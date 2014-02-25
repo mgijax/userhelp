@@ -53,7 +53,7 @@ function openHelpWindow(helpFile){
  
  <tr><th align="left" valign="top">Chemically induced (ENU)</th><td valign="top">Exposure of mice to the N-ethyl-N-nitrosourea (ENU) chemical mutagen results in germline-transmissible mutations. </td></tr>
 
- <tr><th align="left" valign="top"><nobr>Chemically induced (other)</nobr></th><td valign="top">Exposure of mice to a chemical mutagen &#151; excluding ENU and other common chemical agents such as ethyl methanesulfonate (EMS), bleomycin, and chlorambucil &#151; results in germ-line transmissible mutations. Also included are mutations produced by a combination of chemical and radiation exposure.</td></tr>
+ <tr><th align="left" valign="top"><nobr>Chemically induced (other)</nobr></th><td valign="top">Exposure of mice to a chemical mutagen &#151; excluding ENU and other common chemical agents such as ethyl methanesulfonate (EMS), bleomycin, and chlorambucil &#151; results in germ-line transmissible mutations.</td></tr>
  
  <tr><th align="left" valign="top">Chemically and Radiation induced</th>
 <td valign="top">Exposure of mice to X-ray or other types of radiation result in germ-line transmissible mutations. Also included are mutations produced by a combination of chemical and radiation exposure.</td></tr>
@@ -63,7 +63,7 @@ function openHelpWindow(helpFile){
  <tr><th align="left" valign="top">Gene trapped</th>
 <td valign="top">The integration of a reporter construct into a putative gene is selected by virtue of its expression. The trapped gene is usually (though not necessarily) mutated by the integration.  Gene trapped alleles differ from targeted mutations in that the integration event is random (as opposed to targeted through homologous recombination).  Gene trapped alleles usually have nomenclature that includes a traditional <i>Gt</i> prefix and cell line ID of the creator in the superscripted portion  of the allele symbol. Gene trapped alleles are <b>not</b> included in the <i>transgenic (all)</i> search.</td></tr>
  
- <tr><th align="left" valign="top">QTL</th><td valign="top">A polymorphic locus having alleles that differentially affect the expression of a continuously distributed phenotypic trait. Usually, a QTL is a marker described by statistical association to quantitative variation in the particular phenotypic trait thought to be controlled by the cumulative action of alleles at multiple loci. <b>Note:</b> MGI does not define major modifier loci as QTL, although the literature often refers to these as QTL.</td></tr>
+ <tr><th align="left" valign="top">QTL</th><td valign="top">Quantitative Trait Locus. A polymorphic locus having alleles that differentially affect the expression of a continuously distributed phenotypic trait. Usually, a QTL is a marker described by statistical association to quantitative variation in the particular phenotypic trait thought to be controlled by the cumulative action of alleles at multiple loci. <b>Note:</b> MGI does not define major modifier loci as QTL, although the literature often refers to these as QTL.</td></tr>
  
  <tr><th align="left" valign="top">Radiation induced</th>
 <td valign="top">Exposure of mice to X-ray or other types of radiation result in germ-line transmissible mutations.</td></tr>
@@ -107,7 +107,7 @@ function openHelpWindow(helpFile){
 <table border="1" cellspacing="1" cellpadding="3" width="100%">
  <tr>
   <th valign="top"><a name="attributes"></a><nobr>Allele Attributes</nobr></th>
-  <th align="center">Definitions for the allele subtypes of the ><a href="#method">Generation Methods</a></th></tr>
+  <th align="center">Definitions for the allele subtypes of the <a href="#method">Generation Methods</a></th></tr>
   <tr><th align="left" valign="top">Conditional ready</th><td valign="top">Has conditional potential... </td></tr>
   <tr><th align="left" valign="top">RMCE-Ready</th><td valign="top">*** </td></tr>
   <tr><th align="left" valign="top">Inserted expressed sequence</th><td valign="top">*** </td></tr>

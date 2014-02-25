@@ -185,7 +185,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <p>
 <table width="!" cellpadding="8" align="center">
 <tr align="center"><Td VALIGN="top"><A HREF="#m_phenotypes">Mouse phenotypes</A> | <A HREF="#nomenclature">Nomenclature & location</a> |
-<A HREF="#allele">Allele</a> | <A HREF="#gene_marker">Gene/Marker</a>  | <A HREF="#chromosome">Chromosome</a> |  <A HREF="#cyt">Cytogenetic Band</a>  | <A HREF="#cmp">cM Position</a> | <A HREF="#coordinates">Coordinates</a>  | <A HREF="#categories">Categories</A>  | <A HREF="#phenotypic_alleles">Phenotypic Alleles</A> | <A HREF="#QTL">QTL</A> | <A HREF="#clear_all">Clear All</A> | <A HREF="#invert">Invert selected</A> | <A HREF="#saof">Sorting & output</A></Td></TR>
+<A HREF="#allele">Allele</a> | <A HREF="#gene_marker">Gene/Marker</a>  | <A HREF="#chromosome">Chromosome</a> |  <A HREF="#cmp">cM Position</a> | <A HREF="#coordinates">Coordinates</a>  | <A HREF="#categories">Categories</A>  | <A HREF="#phenotypic_alleles">Phenotypic Alleles</A> | <A HREF="#clear_all">Clear All</A> | <A HREF="#invert">Invert selected</A> | <A HREF="#saof">Sorting & output</A></Td></TR>
 </TABLE>
 <TABLE BORDER="1" CELLSPACING="6" CELLPADDING="4"> 
 <TR><TH>FIELD <TH>DESCRIPTION</TR>
@@ -281,8 +281,6 @@ gene trapped, targeted (all, Floxed/Frt, Reporter, knock-out, knock-in). See
 <a href="ALLELE_phenotypic_categories_help.shtml" target="_blank">Allele Types</a> for how MGI differentiates these categories.</li>
   <li>You can exclude cell-line-only alleles from your search. See <a href="genetrap_usecase_help.shtml#distinguish">Gene Trap Questions and Answers</a> for how to do this.</li>
 </ul></TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="QTL"></A>QTL</TH><TD ALIGN="left" VALIGN="top">Quantitative Trait Locus.  A  polymorphic locus with alleles that differentially affect the expression of a continuously distributed phenotypic trait. Usually, a QTL is a marker described by statistical association to quantitative variation in the particular phenotypic trait, thought to be controlled by the cumulative action of alleles at multiple loci. <b> Note:</b> Traditionally, MGI does not define major modifier loci as QTL although the literature often refers to these as QTL.
-</TD>
 <TR><TH>&nbsp;</TH><TH>&nbsp;</TH></TR>
 
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="clear_all"></a>Clear all</TH><td valign="top">Removes check marks from all boxes in this section of the query form. </TD></TR>
