@@ -290,7 +290,7 @@ For example:
 <h3><a name="where_find_gt_data"></a>Where can I find gene trap and/or cell line data?</h3>
 <p>MGI incorporates mouse cell line and gene trap sequences for almost all gene traps in <a href="http://www.ncbi.nlm.nih.gov/dbGSS" target="_blank">dbGSS</a> including IGTC and Lexicon Genetics gene traps, and TIGM. The <a href="http://www.genetrap.org/" target="_blank">International Gene Trap Consortium</a> (IGTC) houses publicly available gene trap cell lines available upon request.</p>
 <ul>
-<li>You can use the <a href="<!--#include file='include/wi_url.html'-->/searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, & Disease Models Query Form</a> to search for gene trap or cell line data.
+<li>You can use the <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, & Disease Models Query Form</a> to search for gene trap or cell line data.
 <blockquote>
 <img src="images/gene_trapped_categories.jpg" width="834" height="275" border="0" alt="">
 </blockquote>
@@ -309,7 +309,7 @@ For example:
 
 
 <h3><a name="how_find_dbgss"></a>How can I find all the available sequence-tagged gene traps from a specific creator?</h3>
-<p>Use the MGI <a href="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, & Disease Models Query Form</a>. 
+<p>Use the MGI <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, & Disease Models Query Form</a>. 
 <ol>
   <li>Enter the provider's ILAR-designated lab code in the <b>Allele</b> field (in the <b>Nomenclature & Location</b> section). Examples: Imeg (Institute of Molecular Embryology and Genetics - EGTC) or Wtsi (Wellcome Trust Sanger Institute).  Leave the default (<b>contains</b>).</li>
 
@@ -327,7 +327,7 @@ For example:
 <p>Both searches are possible. You can customize your search to include all gene traps or only those made into mice.
 <p>To include all gene traps:</p>
 <ul>
-  <li>On the MGI <a href="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, & Disease Models Query Form</a>:</li>
+  <li>On the MGI <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, & Disease Models Query Form</a>:</li>
    <ol>
      <li>Click <b>gene trapped</b> (in the <b>Categories</b> section).</li>
      <li>Click <b>Search</b>.</li>
@@ -337,7 +337,7 @@ For example:
 
 <p><a name="made_into_mice"></a>To include only gene traps made into mice:</p>
 <ul>
-  <li>On the MGI <a href="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles & Disease Models Query Form</a>:</li>
+  <li>On the MGI <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles & Disease Models Query Form</a>:</li>
    	<ol>
      	<li>In the top center of the Categories section, click <b>Exclude allele records present only as cell lines.</b></li>
   	<li>At the bottom of this section, click <b>gene trapped</b> (in the <b>Categories</b> section).</li>
@@ -352,7 +352,7 @@ For example:
 <h3><a name="ways"></a>What are the ways of searching for gene trap insertions?</h3>
 <p>
 <ol>
-	<li>You can use the <a href="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, & Disease Models Query Form</a> to search for gene trap insertions:
+	<li>You can use the <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, & Disease Models Query Form</a> to search for gene trap insertions:
 		<ul>
  		<li><a name="phenotype"></a>By phenotype
 			<ol>
@@ -454,7 +454,7 @@ For example:
 </blockquote>
 
 
-<li>You can use the MGI <a href="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, & Disease Models Query Form</a>. Enter the gene nomenclature and follow the appropriate links.</li>
+<li>You can use the MGI <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, & Disease Models Query Form</a>. Enter the gene nomenclature and follow the appropriate links.</li>
 <li>You can look through the <a href="ftp://ftp.informatics.jax.org/pub/reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs</a> report to locate the gene and its traps.</li>
 </ol>
 </p>
@@ -781,18 +781,6 @@ If the method is 3' RACE or 5' RACE, the tag defining the insertion site is RNA-
 then the gene trap has trapped a gene.
    
 </p>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
