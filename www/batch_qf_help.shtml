@@ -384,7 +384,7 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
 <p>See below <a href="#summary">General results</a> for information on the other fields.</</p>
 
 <p>For detailed information, use the 
-<a href="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml">Phenotypes, Alleles & Disease Models Query Form</a> to find your gene of interest and Mammalian Phenotype terms associated with specific genotypes and strains.</p>
+<a href="<!--#include file='include/fewi_url.html'-->allele">Phenotypes, Alleles & Disease Models Query Form</a> to find your gene of interest and Mammalian Phenotype terms associated with specific genotypes and strains.</p>
 
 <!--The list of Mammalian Phenotype Ontology terms associated with a gene is a combination of all terms  associated with all mutant alleles of that gene. The mice analyzed may have been heterozygotes or homozygotes for the mutant allele, or the mouse may have carried other mutations in addition to those in this gene alone. Further, strain background can have a profound effect on phenotype. Thus, the appearance of a Mammalian Phenotype term here does not mean that mutations in this gene necessarily contribute to or are causative of the phenotype. For detailed information, use the Phenotypes, Alleles & Disease Models Query Form and query for your gene of interest to view Mammalian Phenotype terms as they are associated with specific genotypes and strains.-->
 
