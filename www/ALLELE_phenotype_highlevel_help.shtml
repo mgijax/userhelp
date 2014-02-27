@@ -40,7 +40,7 @@ function openHelpWindow(helpFile){
 <UL> 
 <LI><A href="#whatis">How do I make choices on the Anatomical Systems Affected by Phenotypes list?</A></LI>
 <LI><A href="#noterm">What if my term is not on that list?</a></li>
-<li><a href="#options">How do I select more than one item from this list?</a></li>
+<!--<li><a href="#options">How do I select more than one item from this list?</a></li>-->
 <LI><A href="#strange">After I make my selection, strange things appear in the box. Why?</a></li>
 <LI><A href="#examples">Are there examples of what shows up in the box?</A></LI> 
 <LI><A href="#edit">Can I edit what's in the box? Add more terms?</A></LI> 
@@ -80,14 +80,14 @@ See <A HREF="MISC_boolean_search_help.shtml" target="_blank">Using Full-Text Sea
 <p>See <a href="VOCAB_mp_browser_help.shtml" target="_blank">Using the Mammalian Phenotype (MP) Browser</a> for additional help.
 </P>
 
- <h3><A name="options"></a>How do I select more than one item from this list?</h3>
+ <!--<h3><A name="options"></a>How do I select more than one item from this list?</h3>
 <p>To pick two or more items from a selection list, do the following:
      <UL style="padding-left:30px">
   <li>On a PC, hold the control key down and click the desired items, or hold the shift key down and click two items to select them and all items in between.
   <li>On a Macintosh, hold the command (Apple) key down and click the desired items, or hold the shift key down and click two items to select them and all the items in between.
- </ul></p>
-<A HREF="#top">Top</A>
+ </ul></p> -->
 
+<A HREF="#top">Top</A>
 
 <H3><A name="strange"></a>After I make my selection, strange things appear in the box. Why?</H3>
 <P>When you click <b>Anatomical Systems Affected by Phenotypes</b>, select terms, and add them to your query, the system populates the Phenotype/Disease query box with your choices. 
