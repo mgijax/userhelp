@@ -153,8 +153,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 
 <p>
 <table width="!" cellpadding="8" align="center">
-<tr align="center"><Td VALIGN="top"><A HREF="#m_phenotypes">Mouse phenotypes</A> | <A HREF="#nomenclature">Nomenclature & location</a> |
-<A HREF="#allele">Allele</a> | <A HREF="#gene_marker">Gene/Marker</a>  | <A HREF="#chromosome">Chromosome</a> |  <A HREF="#cmp">cM Position</a> | <A HREF="#coordinates">Coordinates</a>  | <A HREF="#categories">Categories</A>  | <A HREF="#phenotypic_alleles">Phenotypic Alleles</A> | <A HREF="#clear_all">Clear All</A> | <A HREF="#invert">Invert selected</A> | <A HREF="#saof">Sorting & output</A></Td></TR>
+<tr align="center"><Td VALIGN="top"><A HREF="#m_phenotypes">Mouse phenotypes</A> | <A HREF="#nomenclature">Nomenclature & location</a> | <A HREF="#gene_marker">Gene/Marker or Allele</a>  | <A HREF="#chromosome">Chromosome</a> |  <A HREF="#cmp">cM Position</a> | <A HREF="#coordinates">Coordinates</a>  | <A HREF="#categories">Categories</A>  | <A HREF="#phenotypic_alleles">Phenotypic Alleles</A> | <A HREF="#clear_all">Clear All</A> | <A HREF="#invert">Invert selected</A> | <A HREF="#saof">Sorting & output</A></Td></TR>
 </TABLE>
 <TABLE BORDER="1" CELLSPACING="6" CELLPADDING="4"> 
 <TR><TH>FIELD <TH>DESCRIPTION</TR>
@@ -210,21 +209,12 @@ The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkin
 There are three ways to use the map position parameters (<A HREF="#chromosome">Chromosome</A>, <A HREF="#cmp">cM Position</A>, <A HREF="#coordinates">Genome Coordinates</A>). If you use <B>Chromosome</B>, you may also define a cM position, or genome coordinate. However, you cannot combine <B>cM Position</B> and <B>Genome Coordinate</B> with one another AND must select a chromosome when you define a chromosomal region. <BR><BR>
 
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="6" WIDTH="100%">
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="allele"></A>Allele</TH><TD>You can search on any <I>approved</I> mouse allele symbol, name, or synonym.
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="gene_marker"></A>Gene/Marker or Allele</TH><TD>You can search on any <I>approved</I> mouse gene or allele symbol, name, or synonym.
 <ul>
 <li>Enter one or more terms, separated by commas. <b>Note:</b>&nbsp; If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "interleukin 10 receptor, beta" or "Alpha1,4Gal-T").</li>
-<li> The operators (the default is <I>contains</I>) present additional search options. See <A HREF="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</A> for more details.</li>
+<li>By default, the search is on current symbols/names and synonyms.</li>
 </ul>
 </TD></TR>
-
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="gene_marker"></A>Gene/Marker</TH><TD>
-<ul>
-<li>Symbol, name, synonym or homolog for a mouse genetic marker.</li><li>Enter one or more terms, separated by commas.  <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
-<li>By default, the search is on current symbols/names, synonyms and homologs.</li>
-<li> The operators present additional search options; the default operator is contains. See <a href="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</a> for more information.</li>
-</ul>
-</TD></TR>
-</td>        </TR>
 
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="chromosome"></A>Chromosome</TH><TD VALIGN="top">
 <ul>
@@ -235,7 +225,7 @@ There are three ways to use the map position parameters (<A HREF="#chromosome">C
 <TR></A><TH VALIGN="top" ALIGN="left"><A NAME="cmp">cM Position</TH><TD VALIGN="top">
 <ul> 
 <li>Make a selection on the <A HREF="#chromosome">Chromosome</A> list.</li>
-<LI>Specify a chromosomal region BETWEEN two points on one chromosome selected from the Chromosome list by entering the cM values to begin and end the region, separated by a hyphen (for example, <I>50 - 75</I>).</li>
+<LI>Specify a chromosomal region between two points on one chromosome selected from the Chromosome list by entering the cM values to begin and end the region, separated by a hyphen (for example, <I>50 - 75</I>).</li>
 <li>To limit your search to a region starting with the centromeric end, use 0 (for example, 0 - 35). To limit the region towards the distal telomere, use a large number (for example, 70 - 120).</li>
 </ul>
 </TD></TR>
@@ -244,17 +234,16 @@ There are three ways to use the map position parameters (<A HREF="#chromosome">C
 <ul>
 <LI>Make a selection on the <A HREF="#chromosome">Chromosome</A> list.</LI>
 <LI>Click the other down arrow and select either bp (base pairs) or Mbp (mega base pairs) as the unit of measurement. (The default is base pairs.)</LI>
-<LI>Enter the coordinate(s):</LI>
+<LI>Enter the coordinates as a range between two coordinates:</LI>
 </ul><BR>
 
 <blockquote> 
-<p><b>Examples:</b> (be sure to select the proper unit: Mbp or bp)
+<b>Examples:</b> (be sure to select the proper unit: Mbp or bp)
  <ul>
  	<li>125618206 - 125622026 </li>
  	<li>125.618 - 125.622 </li>
  	<li>1-125618206</li>
  </ul>
-</p>
 </blockquote>
             
 <P><B>Note:</B>&nbsp;The build number appearing on the query form is that of the most current NCBI assembly sequence. <!--See the <A HREF="http://www.ncbi.nlm.nih.gov/genome/assembly/grc/mouse/">Genome Reference Consortium</A> for details  about assembling genomic sequences.--></P></TD> </TR>
@@ -274,7 +263,7 @@ gene trapped, targeted (all, Floxed/Frt, Reporter, knock-out, knock-in). See
   <li>You can exclude cell-line-only alleles from your search. See <a href="genetrap_usecase_help.shtml#distinguish">Gene Trap Questions and Answers</a> for how to do this.</li>
 </ul>
 </TD></TR>
-<TR><TH>&nbsp;</TH><TH>&nbsp;</TH></TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="attributes"></A>Allele Attributes</TH><TD VALIGN="top">***</TR>
 
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="clear_all"></a>Clear all</TH><td valign="top">Removes check marks from all boxes in this section of the query form. </TD></TR>
 <TR><TH ALIGN="left" VALIGN="top"><a name="invert"></a>Invert selected</TH><td valign="top">This toggle switch removes any check marks and puts them in boxes not previously selected. Example usage: you want all but three of the categories. Click those three, and then click <B>Invert selected</B>. All the unchecked boxes are now checked and the three previously checked boxes are unchecked.</TD></TR>
