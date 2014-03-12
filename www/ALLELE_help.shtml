@@ -236,29 +236,29 @@ There are three ways to use the map position parameters (<A HREF="#chromosome">C
 <ul> 
 <li>Make a selection on the <A HREF="#chromosome">Chromosome</A> list.</li>
 <LI>Specify a chromosomal region BETWEEN two points on one chromosome selected from the Chromosome list by entering the cM values to begin and end the region, separated by a hyphen (for example, <I>50 - 75</I>).</li>
-<li>To limit your search to a region starting with the centromeric end, use 0 (for example, 0 - 35). To limit the region to the distal telomere, use a large number (for example, 70 - 120).</li>
+<li>To limit your search to a region starting with the centromeric end, use 0 (for example, 0 - 35). To limit the region towards the distal telomere, use a large number (for example, 70 - 120).</li>
 </ul>
 </TD></TR>
 
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="coordinates"></A>Genome Coordinates</TH><TD VALIGN="top">
 <ul>
 <LI>Make a selection on the <A HREF="#chromosome">Chromosome</A> list.</LI>
-<LI>Enter the genome assembly coordinate(s) for a mapped gene or marker.</LI>
-<LI>Use the default (Between) or click the down arrow to select the &lt;= (less than or equal to) or &gt;= (greater than or equal to) operator (see <a href="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</a> for more details.) </li>
 <LI>Click the other down arrow and select either bp (base pairs) or Mbp (mega base pairs) as the unit of measurement. (The default is base pairs.)</LI>
 <LI>Enter the coordinate(s):</LI>
 </ul><BR>
 
-<TABLE ALIGN="center" BORDER="1" CELLSPACING="0" CELLPADDING="4" WIDTH="100%">
-              <TR><TH ALIGN="left" VALIGN="top" NOWRAP>If you use...</TH><TH ALIGN="left" WIDTH="30%" VALIGN="top">Type or paste in the box...</TH><Td ALIGN="left"><b>Examples:</b> (be sure to select the proper unit: Mbp or bp)</Td></TR>
-               <TR><TD ALIGN="left" VALIGN="top">Between</TD><TD VALIGN="top">Coordinates indicating the area that includes the marker of interest, separated by either AND or -&nbsp; The maximum number of characters is 23. </TD>
-                  <td valign="top">125618206 AND 125622026 <BR>125618206 - 125622026 <BR>125.618 AND 125.622<BR> 125.618 - 125.622</TD></TR>
-                <TR><td valign="top">&lt; =</TD><TD VALIGN="top">A single coordinate less than or equal to that of a mapped gene or marker.</TD>  <td valign="top">125618205<BR> 125.61 </TD></TR>
-  <TR><td valign="top">&gt; =</TD><TD VALIGN="top">A single coordinate greater than or equal to a mapped gene or marker. </TD><td valign="top">125622026<BR> 125.63 </TD></TR>
-               </TABLE>
-             </OL>
+<blockquote> 
+<p><b>Examples:</b> (be sure to select the proper unit: Mbp or bp)
+ <ul>
+ 	<li>125618206 - 125622026 </li>
+ 	<li>125.618 - 125.622 </li>
+ 	<li>1-125618206</li>
+ </ul>
+</p>
+</blockquote>
+            
 <P><B>Note:</B>&nbsp;The build number appearing on the query form is that of the most current NCBI assembly sequence. <!--See the <A HREF="http://www.ncbi.nlm.nih.gov/genome/assembly/grc/mouse/">Genome Reference Consortium</A> for details  about assembling genomic sequences.--></P></TD> </TR>
-</TABLE>
+
 </TD></TR>
 
 
