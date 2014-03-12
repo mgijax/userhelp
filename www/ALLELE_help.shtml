@@ -47,7 +47,6 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
    <li><a href="#disease_ontology">Is there a list of disease terms to select from?</a></li>
    <li><a href="ALLELE_phenotype_highlevel_help.shtml#whatis" target="_blank">How do I make choices on the Anatomical Systems Affected by Phenotypes list?</a></li>
    <li><a href="#relationship">Can I query using both a phenotype term and a disease term?</a></li>
-   <li><a href="#sort">How do the sort options work?</a></li>
      </ul>
  <LI><A HREF="#field">What values are acceptable in each of the fields?</A></LI>
 <LI><A HREF="#invert_selected">What does Invert selected do?</A></LI>
@@ -141,25 +140,11 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
   <li>After the initial term, enclose any subsequent multi-word terms in quotation marks (for example, diabetes and &quot;insulin resistance&quot;).</li>
 </ul>
 </P>
-<a href="#top"><font size="-1">Top</font></a>
-<H3><a name="sort"></a>How do the sort options work?</H3>
-<P>The Sorting and output format section appears at the bottom of the Phenotypes, Alleles, and Disease Models Query Form. The options affect the order in which summary results appear. 
-
-<BLOCKQUOTE>
-<TABLE BORDER="1" WIDTH="!%" CELLPADDING="3">
-<TR><TH ALIGN="left" VALIGN="top">Option</TH><TH ALIGN="left" VALIGN="top">The sort order is:</TH></TR>
-<tr><td valign="top"><nobr>Transmission Status, Allele Symbol (default)</td><td valign="top">Alphabetic by allele symbol;  however, alleles available only as cell lines have a separate alpha sort and appear at the bottom of the list. </td></tr>
-<TR><TD VALIGN="top">Allele Symbol</TD><TD VALIGN="top">Alphabetic by allele symbol.</TD></TR>
-<TR><TD VALIGN="top">Allele Name</TD><TD>Alphabetically by allele name.</TD></TR>
-<TR><TD VALIGN="top">Category</TD><TD VALIGN="top">Alphabetic by allele category choices.</TD></TR>
-<TR><TD VALIGN="top">Chromosome</TD><TD>Numeric by chromosome (1-19), X, Y, Mitochondrial, XY (pseudoautosomal), Unknown.</TD></TR>
-</TABLE>
-</BLOCKQUOTE>
 
 <a href="#top"><font size="-1">Top</font></a>
 
 <H3><A name="output"></A>Are there different ways to view the output of my query?</H3>
-<P>Yes. Change the default at the bottom of the query form (in the Sorting and output format section) from Transmission Status, Allele Symbol to one of the other choices: Allele Symbol</b> Allele Name, Category (i.e. spontaneous, induced, transgenic, targeted, QTL, and so on), or Chromosome. See <a href="#sort">How do the sort options work?</H3></a> for details.</P>
+<P>Yes. *** See <a href="#sort">How do the sort options work?</H3></a> for details.</P>
 <a href="#top"><font size="-1">Top</font></a>
 
 <H3><A NAME="field"></A>What values are acceptable in each of the fields?</H3>
@@ -186,13 +171,13 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <OL>
   <LI>Click <B>Anatomical Systems Affected by Phenotypes</B>. The Phenotypes Selection List appears.</LI>
   <LI>Click high-level terms relevant to your search, such as <I>behavior OR neurological</I>, <I>craniofacial</I>, and so on. You can make multiple choices. </LI>
-<LI>Click <B>OK</B>. The selections you made appear in the <B>Phenotype/Disease</B> box on the query form. You can edit the terms.<br>
+<LI>Click <B>Add To Query</B>. The selections you made appear in the <B>Phenotype/Disease</B> box on the query form. You can edit the terms.<br>
  <br><b>Note:</b> For details on selecting multiple terms, editing terms, and for why your selections appear as they do when they populate the Phenotype/Disease box, see <a href="ALLELE_phenotype_highlevel_help.shtml" target="_blank">Using the Phenotypes Selection List</a>.</li>
 </OL>
 <P>To select MP terms:
  <OL>
   <LI>Click <B>Full Mammalian Phenotype (MP) Ontology</B>. The MP ontology appears.
-  <LI>Browse the ontology for  a predefined list of Mammalian Phenotype terms and identifiers to use in your query.</B></LI>
+  <LI>Browse the ontology for a predefined list of Mammalian Phenotype terms and identifiers to use in your query.</B></LI>
       <LI>Copy and paste selections from the list Mammalian Phenotype Ontology and/or identifiers. <B>Note: </B> When using MP identifiers, be sure to include <B>MP:</B>. Example: <B>MP:0005380,</B> not <B>0005380</B>.<br><br></LI>
 
 <B>Note:</B> Your search term will return all genotypes annotated to a matching Mammalian Phenotype term and the related children of that matching term. For example, querying for <I>enlarged heart</I> returns genotypes annotated to cardiac hypertrophy, dilated atria, and so on.
@@ -201,8 +186,8 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <p>To find mouse models associated with human diseases:
 <OL>
   <LI>enter human disease terms from the vocabulary </LI>
-  <LI>enter OMIM accession IDs <!--from the vocabulary pick list--> </LI>
-  <LI>type in terms and operators for a full-text search <!--on ?--></LI>
+  <LI>enter OMIM accession IDs </LI>
+  <LI>type in terms and operators for a full-text search </LI>
   <LI>combine the options with entries in the Phenotypes box (above).<br><br>
 
 <b>Note:</b> Do not use OMIM's prefix characters as part of the OMIM ID number(*, #, %, +).<br>
@@ -251,8 +236,7 @@ There are three ways to use the map position parameters (<A HREF="#chromosome">C
 <ul> 
 <li>Make a selection on the <A HREF="#chromosome">Chromosome</A> list.</li>
 <LI>Specify a chromosomal region BETWEEN two points on one chromosome selected from the Chromosome list by entering the cM values to begin and end the region, separated by a hyphen (for example, <I>50 - 75</I>).</li>
-<LI>Establish a relationship between values: between, equal, less than, greater than, less than or equal to, greater than or equal to, < >, is null, is not null.</LI> 
-<LI>Specify a region WITHIN an area surrounding a marker by entering the current, approved symbol and the number of cM on either side of the marker. For this option, you do not need to not select a chromosome.</li>
+<li>To limit your search to a region starting with the centromeric end, use 0 (for example, 0 - 35). To limit the region to the distal telomere, use a large number (for example, 70 - 120).</li>
 </ul>
 </TD></TR>
 
@@ -280,7 +264,7 @@ There are three ways to use the map position parameters (<A HREF="#chromosome">C
 
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="categories"></A>Categories</TH><TD VALIGN="top">Use these check boxes to search by phenotypic allele categories and/or QTL for alleles or variants resulting in phenotypic change. <br><br>
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="2" WIDTH="100%">
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="phenotypic_alleles"></A>Generation Method</TH><TD VALIGN="top">Mode of origin of a new allelic state. The default is to search all types. For example, selecting <I>Targeted (knock-out)</I> may yield over 5000 alleles; if you want to narrow your search to return only those targeted mutations involved in conditional mutations, click the check box next to Return conditionally targeted genotypes only.<BR><br>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="phenotypic_alleles"></A>Generation Method</TH><TD VALIGN="top">Mode of origin of a new allelic state. The default is to search all types. For example, selecting <I>Targeted</i> and <i>Null/knockout</i> may yield over 5000 alleles; if you want to narrow your search to return only those targeted mutations involved in conditional mutations, click the check box next to Return conditionally targeted genotypes only.<BR><br>
 <B>Notes:</B> 
 <ul>
   <li>A conditionally targeted genotype is dependent on the presence of some other factor (often a DNA sequence that expresses a protein functioning in specific recombination events). In MGI, <I>conditional</I> is a genotype attribute, and this is most commonly used to represent Cre-mediated excision of genomic sequences flanked by loxP sites; in most instances, this is accompanied by simultaneous insertion of some selectable marker (<I>e.g.</I> neomycin). The excised genotype, often associated with a phenotype, is dependent (or conditional) on the presence of the Cre-expressing construct.</li>
