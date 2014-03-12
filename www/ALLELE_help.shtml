@@ -50,7 +50,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
      </ul>
  <LI><A HREF="#field">What values are acceptable in each of the fields?</A></LI>
  <LI><A HREF="#invert_selected">What does Invert selected do?</A></LI>
- <LI><A HREF="allele_summary_help.shtml" target="_blank">Where can I find answers to questions about the summary report resulting from my query?</A></LI>
+ <LI><A HREF="ALLELE_summary_help.shtml" target="_blank">Where can I find answers to questions about the summary report resulting from my query?</A></LI>
  <LI><A HREF="#link">How can I find more detail on my query?</A></LI>
  <LI><A HREF="ALLELE_detail_help.shtml" target="_blank">Where can I find answers to questions about the detail report resulting from my query?</A></LI>
  <li><A href="#no_results">What if my query returns no results?</a></li>
@@ -153,7 +153,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 
 <p>
 <table width="!" cellpadding="8" align="center">
-<tr align="center"><Td VALIGN="top"><A HREF="#m_phenotypes">Mouse phenotypes</A> | <A HREF="#nomenclature">Nomenclature & location</a> | <A HREF="#gene_marker">Gene/Marker or Allele</a>  | <A HREF="#chromosome">Chromosome</a> |  <A HREF="#cmp">cM Position</a> | <A HREF="#coordinates">Coordinates</a>  | <A HREF="#categories">Categories</A>  | <A HREF="#phenotypic_alleles">Phenotypic Alleles</A> | <A HREF="#clear_all">Clear All</A> | <A HREF="#invert">Invert selected</A> | <A HREF="#saof">Sorting & output</A></Td></TR>
+<tr align="center"><Td VALIGN="top"><A HREF="#m_phenotypes">Mouse phenotypes</A> | <A HREF="#nomenclature">Nomenclature & location</a> | <A HREF="#gene_marker">Gene/Marker or Allele</a>  | <A HREF="#chromosome">Chromosome</a> |  <A HREF="#cmp">cM Position</a> | <A HREF="#coordinates">Coordinates</a>  | <A HREF="#categories">Categories</A>  | <A HREF="#clear_all">Clear All</A> | <A HREF="#invert">Invert selected</A> | <A HREF="#saof">Sorting & output</A></Td></TR>
 </TABLE>
 <TABLE BORDER="1" CELLSPACING="6" CELLPADDING="4"> 
 <TR><TH>FIELD <TH>DESCRIPTION</TR>
@@ -295,23 +295,10 @@ gene trapped, targeted (all, Floxed/Frt, Reporter, knock-out, knock-in). See
 
 <h3><A name="invert_selected"></a>What does Invert Selected do?</h3>
 <p>See <b>Invert selected</b>, at the bottom of <a href="#categories">Categories</a>.</p>
+
 <P><a href="#top"><font size="-1">Top</font></a></P>
 
-<h3><A name="gt_alleles"></a>Can I use this query form to find all gene trapped alleles?</h3>
-<p>Yes. Click the <b>gene trapped</b> box in the Categories section of the query form.</p>
-<ul>
-<li>The MGI database contains dbGSS mouse gene traps from IGTC creators  and from Lexicon, whether or not they have marker associations.</li>
-  <li>For each unique gene trap, MGI represents the mutant (and parent) cell line and the gene trap allele.</li>
-  <li>Gene trap alleles are associated with genotypes when (and only when) a mouse has been made.</li>
-  <li>When multiple mouse lines are generated from the same mutant cell line, each line derived from different strains for the F1 cross is represented by a different genotype.</li>
-</ul>
-<p>
-<a href="#top"><font size="-1">Top</font></a>
-
-
-<h3>Where can I find answers to questions about gene trapped alleles?</h3>
-<p>See <a href="genetrap_usecase_help.shtml" target="_blank">Gene Trap Questions and Answers</a>.</p>
-<a href="#top"><font size="-1">Top</font></a>
+<h3>Where can I find answers to questions about the summary report resulting from my query?</h3>
 
 
 <H3>Where can I find answers to questions about the summary report resulting from my query?</H3>
@@ -323,11 +310,11 @@ gene trapped, targeted (all, Floxed/Frt, Reporter, knock-out, knock-in). See
 <P>On the Phenotypic Allele Query Results -- Summary page, each allele symbol and each member of an allele pair is linked to a detailed record. Click the item of interest in either the <B>Allele</B> column or the <B>Allelic Composition (Genetic Background)</B> column to see its <B>Phenotypic Alleles Query Results -- Details</B> page.   
 </P>
 <a href="#top"><font size="-1">Top</font></a>
+
 <H3><A NAME="detail"></A>Where can I find answers to questions about the detail report resulting from my query?</H3>
 <P>See <A HREF="ALLELE_detail_help.shtml" target="_blank">Understanding Phenotypic Allele Detail Pages.</A>
 </p>
 <a href="#top"><font size="-1">Top</font></a></P>
-
 
  <H3><A NAME="no_results"></A>What if my query returns no results?</H3>
 
@@ -360,6 +347,23 @@ gene trapped, targeted (all, Floxed/Frt, Reporter, knock-out, knock-in). See
 </UL>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
+
+<h3><A name="gt_alleles"></a>Can I use this query form to find all gene trapped alleles?</h3>
+<p>Yes. Click the <b>gene trapped</b> box in the Categories section of the query form.</p>
+<ul>
+<li>The MGI database contains dbGSS mouse gene traps from IGTC creators  and from Lexicon, whether or not they have marker associations.</li>
+  <li>For each unique gene trap, MGI represents the mutant (and parent) cell line and the gene trap allele.</li>
+  <li>Gene trap alleles are associated with genotypes when (and only when) a mouse has been made.</li>
+  <li>When multiple mouse lines are generated from the same mutant cell line, each line derived from different strains for the F1 cross is represented by a different genotype.</li>
+</ul>
+<p>
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3>Where can I find answers to questions about gene trapped alleles?</h3>
+<p>See <a href="genetrap_usecase_help.shtml" target="_blank">Gene Trap Questions and Answers</a>.
+</p>
+<a href="#top"><font size="-1">Top</font></a>
+
 <H3><A NAME="example"></a>What are some examples of queries using phenotypic terms?</H3>
 <P>See <A HREF="MISC_boolean_search_help.shtml#examples" target="_blank">Using Full-Text Searches on MGI Query Forms</A>.</P>
  <a href="#top"><font size="-1">Top</font></a>
