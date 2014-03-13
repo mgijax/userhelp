@@ -73,21 +73,21 @@ function openHelpWindow(helpFile){
 <blockquote>
 [<b><i>allele symbol</i></b>]<br> [<b><i>allele type</i></b>] <b>Detail</b>
 </BLOCKQUOTE>
-[allele type] is the <a href="ALLELE_help.shtml#categories" target="_blank">category </a> used to narrow the allele search. The category can be spontaneous, induced (chemically, radiation, or transposon), transgenic (random, expressed; random, gene disruption; Cre/Flp; transposase), gene trapped, targeted (floxed/frt, reporte, knock-out, knock-in) or QTL. </i> 
+[allele type] is the <a href="ALLELE_help.shtml#categories" target="_blank">category </a> used to narrow the allele search. The category can be spontaneous, induced (chemically, radiation, or transposon), transgenic (random, expressed; random, gene disruption; Cre/Flp; transposase), gene trapped, targeted (floxed/frt, reporter, knock-out, knock-in) or QTL. </i> 
 <p>As examples:
 
 <blockquote>
 <table border="0" cellspacing="1" cellpadding="2" width="75%">
  <tr><th valign="top">Allele type</th><th valign="top">Title example</th></tr>
- <tr><td>spontaneous</td><th class="thleft"><i>Apoe<sup>shi</sup></i> Spontaneous Allele Detail</td></tr>
- <tr><td>chemically induced</td><th class="thleft"><i>Edn3<sup>tmgc48</sup></i> Chemically induced Allele Detail</th></tr>
- <tr><td>radiation induced</td><th class="thleft"><i>Cryge<sup>nz</sup></i> Radiation induced Allele Detail</th></tr>
- <tr><td>transposon induced</td><th class="thleft"><i>Mdc1<sup>Tn(pb-ZG-s)1.1Mrc</sup></i>Transposon induced Allele Detail</th></tr>
- <tr><td>transgenic</td><th class="thleft"><i>Tg<sup>(CAG-sb10)1Dla</sup></i> Transgene Allele Detail</th></tr>
- <tr><td>transgenic (Transposae)</td><th class="thleft"><i>Tg(aP2-SREBF1c)9884Reh</i> Transgenic Allele Detail</th></tr>
- <tr><td>targeted allele</td><th class="thleft"><i>Ahr<sup>tm1(AHR)Mym</i></sup> Targeted Allele Detail</th></tr>
- <tr><td>gene trapped</td><th class="thleft"><i>Alms1<sup>Gt(XH152)Byg</sup></i> Gene trapped Allele Detail</th></tr>
- <tr><td><nobr>Gene trapped/no gene nomenclature*</td><th class="thleft"><i>Gt(pU21)102lmeg </i> Gene trapped Allele Detail</th></tr>
+ <tr><td>Spontaneous</td><th class="thleft"><i>Apoe<sup>shl</sup></i> Spontaneous Allele Detail</td></tr>
+ <tr><td>Chemically induced (ENU)</td><th class="thleft"><i>Edn3<sup>tmgc48</sup></i> Chemically induced Allele Detail</th></tr>
+ <tr><td>Radiation induced</td><th class="thleft"><i>Cryge<sup>nz</sup></i> Radiation induced Allele Detail</th></tr>
+ <tr><td>Transposon induced</td><th class="thleft"><i>Mdc1<sup>Tn(pb-ZG-s)1.1Mrc</sup></i> Transposon induced Allele Detail</th></tr>
+ <tr><td>Transgenic</td><th class="thleft"><i>Tg<sup>(CAG-sb10)1Dla</sup></i> Transgene Allele Detail</th></tr>
+ <tr><td>Transgenic (random, expressed)</td><th class="thleft"><i>Tg(aP2-SREBF1c)9884Reh</i> Transgene Detail</th></tr>
+ <tr><td>Targeted (knock-in)</td><th class="thleft"><i>Ahr<sup>tm1(AHR)Mym</i></sup> Targeted Allele Detail</th></tr>
+ <tr><td>Gene trapped</td><th class="thleft"><i>Alms1<sup>Gt(XH152)Byg</sup></i> Gene trapped Allele Detail</th></tr>
+ <!--<tr><td><nobr>Gene trapped/no gene nomenclature*</td><th class="thleft"><i>Gt(pU21)102lmeg </i> Gene trapped Allele Detail</th></tr>-->
  <tr><td>QTL</td><th class="thleft"><i>Ap7q<sup>C57BL/6ByJ</sup></i> QTL Variant Detail</th></tr>
 </table>
 
