@@ -41,6 +41,7 @@ function openHelpWindow(helpFile){
   <LI><A HREF="#usage">How do I interpret an allele summary report?</A></LI>
   <LI><A HREF="#notcontain">Why do some alleles have observed phenotypes and genotypes and some do not?</A></LI>
   <LI><A HREF="#no_results">What if my query returns no results?</A></LI>
+  <li><a href="#sort">Can I sort my results?</a></li>
 </UL>
 <P>See also:
 <UL>
@@ -58,10 +59,9 @@ function openHelpWindow(helpFile){
 <P>A search for alleles results in a summary listing of any "hits" with links to detail records.
 The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Results summary reiterates the search parameters that produced the report and contains items such as:</p>
 <ul>
- <li>the term(s) searched for (e.g., marker/symbol name, MP terms, synonyms  IDs, and notes; human disease terms and IDs)
- <li>the chosen allele category (e.g., gene trapped)</li>
- <li>the sort order (e.g., transmission status, allele symbol, allele name, category, chromosome)</LI>
- <li>the display limit (the number next to Maximum Returned on the query form) (<b>Note:</b> you can change this number for a subsequent query, if your results seem too large or small).
+ <li>the term(s) searched for (e.g., marker/symbol name, MP terms, synonyms  IDs, and notes; human disease terms and IDs)</li>
+ <li>the Chromosome(s) and regions (e.g. on Chromosome: any of [2] AND Genome Coordinates: 20-40 Mbp)</li>
+ <li>the chosen allele category (e.g., Spontaneous)</li>
 </ul>
 
 <p>When you access the allele summary from a gene/marker detail report, the marker symbol, name and, MGI identifier appear in a box at the top of the page.</p>
@@ -69,13 +69,13 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
 <p>You'll also find a line of text near the top that reports the number of unique alleles matching your query, and, in parentheses, the number of genes or markers represented by those alleles. For example, if a query returns three different alleles of the same marker, this line would read
 
 <blockquote>
-<font face="courier New, Courier" size=-1>3 matching Alleles (1 Gene/Marker represented)</font>
+<font face="courier New, Courier" size=-1>3 matching Alleles (1 Gene/Marker represented)</font>***
 
 </blockquote>
 </li>
  </UL>
 
-<p>Table columns summarize information about the alleles matching your query. Your sort option (from the query form) determines the presentation order. The results appear in some or all of the following fields (depending on your query form choices).</p>
+<p>Table columns summarize information about the alleles matching your query. The results appear in some or all of the following fields (depending on your query form choices).</p>
 
 <P>
 <body>
@@ -136,6 +136,10 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
 <h3><A name="no_results">What if my query returns no results?</A></h3>
 <p>See <a href="ALLELE_help.shtml#no_results" target="_blank">What if my query returns no results?</a> in <i>Using the Phenotypes, Alleles, and Disease Models Query Form</i>.
 </p>
+
+<A HREF="#top">Top</A>
+
+<h3><a name="sort"></a>Can I sort my results?</h3>
 
 <A HREF="#top">Top</A>
 
