@@ -107,8 +107,8 @@ function openHelpWindow(helpFile){
  <tr>
   <th valign="top"><a name="attributes"></a><nobr>Allele Attributes</nobr></th>
   <th align="center">Definitions for the allele subtypes of the <a href="#method">Generation Methods</a></th></tr>
-  <tr><th align="left" valign="top">Conditional ready</th><td valign="top">Has conditional potential...*** </td></tr>
-  <tr><th align="left" valign="top">RMCE-Ready</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">Conditional ready</th><td valign="top">Has conditional potential...***</td></tr>
+  <tr><th align="left" valign="top">RMCE-Ready</th><td valign="top">recombinase mediated cassette exchange (RMCE) ***</td></tr>
   <tr><th align="left" valign="top">Inserted expressed sequence</th><td valign="top">*** </td></tr>
   <tr><th align="left" valign="top">Humanized sequence</th><td valign="top">*** </td></tr>
   <tr><th align="left" valign="top">Reporter</th><td valign="top">*** </td></tr>
@@ -143,9 +143,9 @@ either as live or cryopreserved stock.</td></tr>
   <tr><th align="left" valign="top"><a href="http://www.credrivermice.org">Neuroscience Blueprint cre</a></th><td valign="top">C57BL6/J mouse strains for the tissue and cell-type-specific perturbation of gene function in the nervous system</td></tr>
   <tr><th align="left" valign="top"><a href="http://www.norcomm.org/index.htm">NorCOMM</a></th><td valign="top">The North American Conditional Mouse Mutagenesis project develops and distributes a library of mouse embryonic stem (ES) cell lines carrying single gene trapped or targeted mutations.</td></tr>
   <tr><th align="left" valign="top"><a href="http://www.pleiades.org/">Pleiades Promoter Project</a></th><td valign="top">Human MiniPromoters that drive region- and cell-specific gene expression in the mouse brain</td></tr>
-  <tr><th align="left" valign="top"><a href="https://www.brc.riken.jp/lab/gsc/mouse/">RIKEN GSC ENU Project</a></th><td valign="top">*** </td></tr>
-  <tr><th align="left" valign="top">Sanger Inst. Gene Trap Res.</th><td valign="top">*** </td></tr>
-  <tr><th align="left" valign="top">Sanger miRNA knockouts</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top"><a href="https://www.brc.riken.jp/lab/gsc/mouse/">RIKEN GSC ENU Project</a></th><td valign="top">ENU induced mouse mutants</td></tr>
+  <tr><th align="left" valign="top"><a href="http://www.sanger.ac.uk/resources/mouse/sigtr/">Sanger Inst. Gene Trap Res.</a></th><td valign="top">The Sanger Institute Gene Trap Resource (SIGTR) characterized reporter-tagged, loss of function gene trapped mouse embryonic stem (ES) cell lines.</td></tr>
+  <tr><th align="left" valign="top"><a href="http://www.sanger.ac.uk/about/press/2011/110808.html">Sanger miRNA knockouts</a></th><td valign="top">microRNA reporter knockouts in ES cell lines created using recombinase mediated cassette exchange (RMCE)</td></tr>
   
 </table></p>
 
