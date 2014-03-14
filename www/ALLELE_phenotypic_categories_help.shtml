@@ -58,7 +58,7 @@ function openHelpWindow(helpFile){
  <tr><th align="left" valign="top">Chemically and radiation induced</th>
   <td valign="top">Exposure of mice to X-ray or other types of radiation result in germ-line transmissible mutations. Also included are mutations produced by a combination of chemical and radiation exposure.</td></tr>
 
- <tr><th align="left" valign="top">Endonuclease-mediated</th><td valign="top">New definition needed.</td></tr>
+ <tr><th align="left" valign="top">Endonuclease-mediated</th><td valign="top">These are targeted mutations generated in pluripotent or totipotent cells by an endonuclease joined to sequence-specific DNA binding domains. The mutation is introduced during homology-directed or non-homologous end-joining repair of the induced DNA break(s).</td></tr>
  
  <tr><th align="left" valign="top">Gene trapped</th>
   <td valign="top">The integration of a reporter construct into a putative gene is selected by virtue of its expression. The trapped gene is usually (though not necessarily) mutated by the integration.  Gene trapped alleles differ from targeted mutations in that the integration event is random (as opposed to targeted through homologous recombination).  Gene trapped alleles usually have nomenclature that includes a traditional <i>Gt</i> prefix and cell line ID of the creator in the superscripted portion  of the allele symbol. Gene trapped alleles are <b>not</b> included in the <i>transgenic (all)</i> search.</td></tr>
@@ -107,7 +107,7 @@ function openHelpWindow(helpFile){
  <tr>
   <th valign="top"><a name="attributes"></a><nobr>Allele Attributes</nobr></th>
   <th align="center">Definitions for the allele subtypes of the <a href="#method">Generation Methods</a></th></tr>
-  <tr><th align="left" valign="top">Conditional ready</th><td valign="top">Has conditional potential... </td></tr>
+  <tr><th align="left" valign="top">Conditional ready</th><td valign="top">Has conditional potential...*** </td></tr>
   <tr><th align="left" valign="top">RMCE-Ready</th><td valign="top">*** </td></tr>
   <tr><th align="left" valign="top">Inserted expressed sequence</th><td valign="top">*** </td></tr>
   <tr><th align="left" valign="top">Humanized sequence</th><td valign="top">*** </td></tr>
@@ -127,7 +127,26 @@ function openHelpWindow(helpFile){
 <table border="1" cellspacing="1" cellpadding="3" width="100%">
  <tr>
   <th valign="top"><a name="collection"></a><nobr>Collections</nobr></th>
-  <td align="center">Use this section to limit your search to alleles from specific large scale projects.</td></tr>
+  <td align="center">Use this section to limit your search to alleles from specific large scale projects and repositories.</td></tr>
+  <tr><th align="left" valign="top"><a href="http://pb.apf.edu.au/phenbank/homePage.html">Australian PhenomeBank</a></th><td valign="top">A repository of genetically modified mouse strains held in Australia
+either as live or cryopreserved stock.</td></tr>
+  <tr><th align="left" valign="top"><a href="http://www.benchtobassinet.com/CvDCcenters.asp">B2B/CvDC</a></th><td valign="top">The National Heart, Lung, and Blood Institute (NHLBI) Bench to Bassinet (B2B) Program of translational research in pediatric cardiovascular disease</td></tr>
+  <tr><th align="left" valign="top"><a href="https://mutagenetix.utsouthwestern.edu">Beutler Mutagenix</a></th><td valign="top">Resource of phenotypes and mutations produced through random germline mutagenesis with ENU</td></tr>
+  <tr><th align="left" valign="top"><a href="http://www.deltagen.com">Deltagen</a></th><td valign="top">Deltagen targeted knock-outs</td></tr>
+  <tr><th align="left" valign="top"><a href="http://www.mousephenotype.org/martsearch_ikmc_project/about/eucomm">EUCOMM</a></th><td valign="top">The European Conditional Mouse Mutagenesis Program contributes conditionally trapped and targeted genes in mouse C57BL/6N embryonic stem (ES) cells to the International Knockout Mouse Consortium (IKMC).</td></tr>
+  <tr><th align="left" valign="top"><a href="http://www.gensat.org/index.html">GENSAT</a></th><td valign="top">Gene Expression Nervous System Atlas of the developing and adult central nervous system of the mouse reporter and recombinase lines</td></tr>
+  <tr><th align="left" valign="top"><a href="http://www.har.mrc.ac.uk/research/functional-genomics-section/disease-model-discovery-and-translation/mutagenesis">Harwell ENU Mutagenesis</a></th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">KOMP-CSD</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">KOMP-Regeneron</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">Lexicon</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">Mutagenesis for Dev. Defects</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">Neuroscience Blueprint cre</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">NorCOMM</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">Pleiades Promoter Project</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">RIKEN GSC ENU Project</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">Sanger Inst. Gene Trap Res.</th><td valign="top">*** </td></tr>
+  <tr><th align="left" valign="top">Sanger miRNA knockouts</th><td valign="top">*** </td></tr>
+  
 </table></p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
