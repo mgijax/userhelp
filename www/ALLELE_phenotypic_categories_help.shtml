@@ -55,7 +55,7 @@ function openHelpWindow(helpFile){
  
  <tr><th align="left" valign="top"><nobr>Chemically induced (other)</nobr></th><td valign="top">Exposure of mice to a chemical mutagen &#151; excluding ENU and other common chemical agents such as ethyl methanesulfonate (EMS), bleomycin, and chlorambucil &#151; results in germ-line transmissible mutations.</td></tr>
  
- <tr><th align="left" valign="top">Chemically and Radiation induced</th>
+ <tr><th align="left" valign="top">Chemically and radiation induced</th>
   <td valign="top">Exposure of mice to X-ray or other types of radiation result in germ-line transmissible mutations. Also included are mutations produced by a combination of chemical and radiation exposure.</td></tr>
 
  <tr><th align="left" valign="top">Endonuclease-mediated</th><td valign="top">New definition needed.</td></tr>
@@ -70,9 +70,9 @@ function openHelpWindow(helpFile){
  
  <tr><th align="left" valign="top">Spontaneous</th><td valign="top">No laboratory manipulation took place to generate the mutations or mutant phenotypes. Annotations are to naturally occurring mutants displaying abnormal phenotypes. <b>Note:</b> Naturally occurring variants, such as alleles  identified based on electrophoretic mobility differences, antigen specificity, and noted polymorphisms, are annotated to <i>Not applicable</i> and these types of variants do not usually have an associated phenotype. </td></tr>
 
- <tr><th align="left" valign="top">Targeted (all)</th><td valign="top">Includes five targeted types (<i>floxed/frt, reporter, knock-out, knock-in,</i>and <i>Targeted (other)</i> (whereby the process of homologous recombination in ES cell lines results in an allele that does not fall with <i>within</i> the defined limits of the targeted mutations in this list).</td></tr>
+ <tr><th align="left" valign="top">Targeted</th><td valign="top">Includes several targeted types  such as <i>floxed/frt, reporter, knock-out</i> and <i>knock-in</i>, whereby the process of homologous recombination in ES cell lines results in an allele.</td></tr>
  
- <tr><th align="left" valign="top">Transgenic (all)</th><td valign="top">All transgenic types (random, expressed; random, gene disruption; Cre/Flp; and reporter transgenes) appear in query results.</td></tr>
+ <tr><th align="left" valign="top">Transgenic</th><td valign="top">These alleles involve DNA that has been stably introduced into the germline. All transgenic types (such as random, expressed, gene disruptions and reporter transgenes) appear in query results.</td></tr>
 
  <tr><th align="left" valign="top">Transposon induced</th><td valign="top">The random insertion of a transposable element induced by the expression of transposase in any mouse tissue that results in a germline transmissible mutation.</td></tr>
 
