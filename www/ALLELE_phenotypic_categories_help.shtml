@@ -77,8 +77,6 @@ function openHelpWindow(helpFile){
 
  <tr><th valign="top">Transposon induced</th><td valign="top">The random insertion of a transposable element induced by the expression of transposase in any mouse tissue that results in a germline transmissible mutation.</td></tr>
 
- <tr><th valign="top">Return conditionally targeted genotypes only</th><td valign="top">Only targeted mutations involved in conditional mutations appear in query results.</td></tr>
-
  <tr><th valign="top">Transgenic (random, expressed)</th><td valign="top">A construct carrying any number of DNA components for the purpose of expression has randomly integrated into a portion of the genome. The introduction method is usually through injection into fertilized oocytes although random integration through electroporation of ES cells is sometimes done.  Transgenes have nomenclature that includes a traditional <i>Tg</i> prefix.</td></tr>
 
  <tr><th valign="top">Transgenic (random, gene disruption)</th><td valign="top">A construct carrying any number of DNA components for the purpose of expression randomly integrates into the genome and inserts into the coding sequence of a gene.  The transgene insertion into the coding sequence alters the endogenous function of the gene. Transgene insertions that disrupt gene function are sometimes accompanied by complex genomic rearrangements such as deletions or inversions.</td></tr>
