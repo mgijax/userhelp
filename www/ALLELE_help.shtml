@@ -49,7 +49,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
    <li><a href="#relationship">Can I query using both a phenotype term and a disease term?</a></li>
      </ul>
  <LI><A HREF="#field">What values are acceptable in each of the fields?</A></LI>
- <LI><A HREF="#invert_selected">What does Invert selected do?</A></LI>
+ <LI><A HREF="#invert_selected">*** What does Invert selected do?</A></LI>
  <LI><A HREF="ALLELE_summary_help.shtml" target="_blank">Where can I find answers to questions about the summary report resulting from my query?</A></LI>
  <LI><A HREF="#link">How can I find more detail on my query?</A></LI>
  <LI><A HREF="ALLELE_detail_help.shtml" target="_blank">Where can I find answers to questions about the detail report resulting from my query?</A></LI>
@@ -153,7 +153,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 
 <p>
 <table width="!" cellpadding="8" align="center">
-<tr align="center"><Td VALIGN="top"><A HREF="#m_phenotypes">Mouse phenotypes</A> | <A HREF="#nomenclature">Nomenclature & location</a> | <A HREF="#gene_marker">Gene/Marker or Allele</a>  | <A HREF="#chromosome">Chromosome</a> |  <A HREF="#cmp">cM Position</a> | <A HREF="#coordinates">Coordinates</a>  | <A HREF="#categories">Categories</A>  | <A HREF="#clear_all">Clear All</A> | <A HREF="#invert">Invert selected</A> | <A HREF="#saof">Sorting & output</A></Td></TR>
+<tr align="center"><Td VALIGN="top"><A HREF="#m_phenotypes">Mouse phenotypes</A> | <A HREF="#nomenclature">Nomenclature & location</a> | <A HREF="#gene_marker">Gene/Marker or Allele</a>  | <A HREF="#chromosome">Chromosome</a> |  <A HREF="#cmp">cM Position</a> | <A HREF="#coordinates">Coordinates</a>  | <A HREF="#categories">Categories</A>  | <A HREF="#clear_all">Clear All</A> | <A HREF="#invert">Invert selected</A></Td></TR>
 </TABLE>
 <TABLE BORDER="1" CELLSPACING="6" CELLPADDING="4"> 
 <TR><TH>FIELD <TH>DESCRIPTION</TR>
@@ -190,7 +190,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
   <LI>combine the options with entries in the Phenotypes box (above).<br><br>
 
 <b>Note:</b> Do not use OMIM's prefix characters as part of the OMIM ID number(*, #, %, +).<br>
-The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkinson OR PD).  If there are no results, a page containing a link to Human Disease Vocabulary Browser appears.</LI>
+The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkinson OR PD).  <!--If there are no results, a page containing a link to Human Disease Vocabulary Browser appears.--></LI>
 </OL>
 
 <P>How Boolean operators work:
