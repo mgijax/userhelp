@@ -39,6 +39,7 @@ Using the Genes and Markers Query Form</span>
  <li><a href="GENE_summary_help.shtml" target="_blank">How do I interpret the summary results of my query?</a>
  <li><a href="GENE_detail_help.shtml" target="_blank">How do I interpret the detail results of my query?</a>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
+ <li><a href="#sort">How do I sort my results?</a></li>
  <!--<li><a href="#filter">How do I filter my results?</a></li>  -->
  <li><a href="#tabfile">How do I retrieve my results as tab-delimited text or spreadsheet files?</a></li>
  <li><a href="#example">Are there any sample queries?</a>
@@ -165,34 +166,6 @@ See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fi
  </td>
 </tr>
 
-<!--<tr>
-  <th align="left" valign="top">Clone collection</th>
-  <td valign="top">
-    <table border="0"cellpadding="3">
-      <tr>
-       <th align="left" valign="top"><a name="clone_collection"></a>Clone Collection</th>
-       <td>Use this field to search for markers with at least one associated molecular segment record with an <i>encodes</i> or <i>putative</i> relationship to the marker.
-         <ul style="padding-left:30px">
-           <li>To restrict your search to markers with a clone ID, select one or more of the clone collections from the drop-down list. (For details such as the differences between the sets on this list, see <a href="clone_collections_help.shtml" target="_blank">MGI Clone Collections</a>.)</li>
-           <li>Select ANY if you do not want to restrict the search by clone collection. If you select multiple clone collections, the search returns markers with associated clones from any of the selected collections.</li>
-           <li>To make multiple selections, see <a href="MISC_general_searching_help.shtml#options" target="_blank">How do I select more than one item on a list?</a></li>
-         </ul>
-       </td>
-      </tr>
-     </table>
-    </td>
-   </tr>-->
-<tr><th align="left" valign="top">Sorting and <br>output format</th>
-    <td valign="top">
-     <table border="0" cellpadding="3">
-      <tr>
-       <th align="left" valign="top"><a name="sort_by"></a>Sort by</th>
-       <td valign="top">Click one of the choices (Nomenclature or Genome Coordinates) to determine the order of any results on the summary page. <br>
-The combination of sort option and search parameter affects the order and type of results listed on this summary page.<ul>
-<li>If you search using <i>current & old symbols/names, synonyms, alleles, homologs,</i> the summary page columns are Genetic Location, Genome Coordinates, Feature Type, Symbol/Name and Matching Text.
-<li>If you search on <i>current symbols/names</i>, the summary page column headings are Genetic Location, Genome Coordinates, Feature Type and Symbol/Name. </td>
-      </tr>
-     </table>
 
       </td>
      </tr>
@@ -237,6 +210,12 @@ The combination of sort option and search parameter affects the order and type o
 <li>Alternatively, click Reset to return to the original Genes and Markers Query form. </li>
 </ul>
 </p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="sort"></a>How do I sort my results?</h3>
+
+<p>Click on the *** column headings or the up/down arrowheads ( &#9660; &#9650;) to change the sort order of your results. </p>
 
 <a href="#top"><font size="-1">Top</font></a>
 

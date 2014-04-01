@@ -189,7 +189,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
   <LI>type in terms and operators for a full-text search </LI>
   <LI>combine the options with entries in the Phenotypes box (above).<br><br>
 
-<b>Note:</b> Do not use OMIM's prefix characters as part of the OMIM ID number(*, #, %, +).<br>
+<b>Note:</b> Do not use OMIM's prefix characters as part of the OMIM ID number (*, #, %, +).<br>
 The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkinson OR PD).  <!--If there are no results, a page containing a link to Human Disease Vocabulary Browser appears.--></LI>
 </OL>
 
@@ -203,6 +203,8 @@ The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkin
   </UL>
 <LI>See <A HREF="MISC_boolean_search_help.shtml" target="_blank">Using Full-Text Searches on MGI Query Forms</A> for using quotation marks, parentheses, and white space with search terms.</P>
 </UL>
+</LI>
+</OL>
 </P>
 
 <TR><TH ALIGN="left" VALIGN="top"><a name="nomenclature"></a>Nomenclature & location</TH><TD ALIGN="left" VALIGN="top">Search by symbol, name, or chromosome position. Use these parameters to expand or limit the scope of retrieved information. 
@@ -269,6 +271,11 @@ gene trapped, targeted (all, Floxed/Frt, Reporter, knock-out, knock-in). See
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="clear_all"></a>Clear all</TH><td valign="top">Removes check marks from all boxes in this section of the query form. </TD></TR>
 <TR><TH ALIGN="left" VALIGN="top"><a name="invert"></a>Invert selected</TH><td valign="top">This toggle switch removes any check marks and puts them in boxes not previously selected. Example usage: you want all but three of the categories. Click those three, and then click <B>Invert selected</B>. All the unchecked boxes are now checked and the three previously checked boxes are unchecked.</TD></TR>
 </TABLE></TD></TR>
+</TABLE>
+</TD></TR>
+</TD>
+</TR>
+
 
 <!--<TR><TH ALIGN="left" VALIGN="top"><A NAME="saof"></A>Sorting and output format</TH> 
     <td valign="top">
