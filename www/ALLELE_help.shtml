@@ -49,7 +49,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
    <li><a href="#relationship">Can I query using both a phenotype term and a disease term?</a></li>
      </ul>
  <LI><A HREF="#field">What values are acceptable in each of the fields?</A></LI>
- <LI><A HREF="#invert_selected">*** What does Invert selected do?</A></LI>
+ <!--<LI><A HREF="#invert_selected">*** What does Invert selected do?</A></LI>-->
  <LI><A HREF="ALLELE_summary_help.shtml" target="_blank">Where can I find answers to questions about the summary report resulting from my query?</A></LI>
  <LI><A HREF="#link">How can I find more detail on my query?</A></LI>
  <LI><A HREF="ALLELE_detail_help.shtml" target="_blank">Where can I find answers to questions about the detail report resulting from my query?</A></LI>
@@ -287,16 +287,15 @@ gene trapped, targeted (all, Floxed/Frt, Reporter, knock-out, knock-in). See
       </TABLE>
       </td>
      </tr>-->
-</TD></TR>
 </TABLE>
 <P>
 <a href="#top"><font size="-1">Top</font></a></P>
 
 
-<h3><A name="invert_selected"></a>What does Invert Selected do?</h3>
+<!--<h3><A name="invert_selected"></a>What does Invert Selected do?</h3>
 <p>See <b>Invert selected</b>, at the bottom of <a href="#categories">Categories</a>.</p>
 
-<P><a href="#top"><font size="-1">Top</font></a></P>
+<P><a href="#top"><font size="-1">Top</font></a></P> -->
 
 <h3>Where can I find answers to questions about the summary report resulting from my query?</h3>
 <P>See <A HREF="ALLELE_summary_help.shtml" target="_blank">Understanding Phenotypic Allele Query Summary Reports</A>.</P>

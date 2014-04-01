@@ -38,7 +38,9 @@ Using the Genes and Markers Query Form</span>
  <li><a href="#fields">What values are acceptable in each of the query form fields?</a>
  <li><a href="GENE_summary_help.shtml" target="_blank">How do I interpret the summary results of my query?</a>
  <li><a href="GENE_detail_help.shtml" target="_blank">How do I interpret the detail results of my query?</a>
-  <li><a href="#textfile_markerqf">How do I retrieve my results as a text file?</a></li>
+ <li><a href="#revise">Can I edit my original options and requery?</a></li>
+ <!--<li><a href="#filter">How do I filter my results?</a></li>  -->
+ <li><a href="#tabfile">How do I retrieve my results as tab-delimited text or spreadsheet files?</a></li>
  <li><a href="#example">Are there any sample queries?</a>
 </ul>
 <p>See also:
@@ -86,15 +88,16 @@ Using the Genes and Markers Query Form</span>
 
 <table border="1" cellpadding="3" width="!">
 <tr><th align="left" valign="top"><a name="gene_nomenclature"></a>Gene/Marker</th>
-     <td align="top">Symbol, name, or synonym for a genetic marker.
-	     <ul>
-  <li>Enter one or more symbols/names/synonyms (separated by commas). <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
-   <li>By default, the search is on current and old symbols/names, synonyms, alleles, and homologs.  However, you can limit the search to current symbols or names.  </li>
-  <li>The <a href="MISC_operators_help.shtml">operators</a> (begins, = , contains) present additional search options. The default is <i>contains</i>.</li>
-	</ul>
+    <td>Gene/Marker Symbol/Name: Use this field to search for a mouse genetic marker or set of markers with a similar nomenclature. 
+		<ul>
+		<li>The gene nomenclature field supports an asterisk as a wild card. A search for pax* finds gene symbols and names that begin with <i>pax</i>.</li>
+		<li>A search for *box* looks for nomenclature that contains <i>box</i>. This search finds the arginine decarboxylase gene, homeobox genes and paired box genes.</li>
+		<li>A search for <i>growth factor</i> finds nomenclature containing <i>growth</i> AND <i>factor</i>.</li>
+		<li>Synonyms (unofficial gene names used in publications and former official gene symbols) are also searched.</li>
+		<li>This field searches only alphanumeric characters. Single and double quotes, commas and hyphens are ignored.</li>
+		</ul>
 	</td></tr>        
-    
-<tr>
+ <tr>
         <th align="left" valign="top"><a name="marker_type"></a>Feature Type</th>
         <td>Use this field to query for features in a selected category. Numbers in parentheses next to each feature type indicate MGI marker totals per category.
 
@@ -189,26 +192,10 @@ The combination of sort option and search parameter affects the order and type o
 <li>If you search using <i>current & old symbols/names, synonyms, alleles, homologs,</i> the summary page columns are Genetic Location, Genome Coordinates, Feature Type, Symbol/Name and Matching Text.
 <li>If you search on <i>current symbols/names</i>, the summary page column headings are Genetic Location, Genome Coordinates, Feature Type and Symbol/Name. </td>
       </tr>
-        <tr>
-      <th valign="top" align="left"><a name="max_returned"></a>Maximum Returned</th><td>The default is 500. You can increase this by clicking <i>no limit</i>. </td>
-      </tr>
      </table>
 
       </td>
      </tr>
-
-<p>
-</ul>
-    <tr>
-    <th align="left" valign="top"><a name="output_format"></a>Output</th>
-    <td valign="top">Choose from the list depending on how you wish to view the report.
-     <TR><TH ALIGN="left" VALIGN="top"><A NAME="format"></A>Output format</TH><TD VALIGN="top">Choose from the list depending on how you wish to view the results.
-<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="4">
-<TR><TH ALIGN="left" VALIGN="top">Web (default)</TH><TD VALIGN="top">Web page with MGI toolbar and all the selected items. </TD></TR>
-<TR><TH ALIGN="left" VALIGN="top">Excel</TH><TD VALIGN="top">Comma-delimited text in an Excel spreadsheet with a .csv (comma separated values) extension. (See <a href="http://en.wikipedia.org/wiki/Comma-separated_values" target="_blank">http://en.wikipedia.org/wiki/Comma-separated_values</a> for details.</TD></TR>
-<TR><TH ALIGN="left" VALIGN="top">Tab-delimited</TH><TD VALIGN="top">Tab-delimited text returned to your browser with all the selected fields.</TD></TR>
-<!--<TR><TH ALIGN="left" VALIGN="top">Tab-delimited text to ftp site</TH><TD VALIGN="top">Tab-delimited text saved on our public FTP site available for 72 hours. Be sure to save the URL or print the page with the information for later access.-->  
-</TABLE>
     </td>
     </tr>
   </table>
@@ -231,8 +218,34 @@ The combination of sort option and search parameter affects the order and type o
 <p>The Your Input Welcome button appears at the top right of your screen as part of the detailed query results.  Clicking the button brings up a dialogue box to use for submitting updates and corrections to the data you are viewing. Our User Support staff will review your comments and make sure the appropriate changes are made.  This provides an easy way for you to help us keep data current.</p>
 <a href="#top"><font size="-1">Top</font></a>
 
-<h3><a name="textfile_markerqf"></a>How do I retrieve my results as a text file?</h3>
-<p>At the bottom of the form, in the Sorting and output format section, change the <a href="#output_format">Output</a> from Web (the default) to Tab-delimited. </p>
+<h3><a name="revise"></a>Can I edit my original options and requery?</h3>
+
+<p>Yes, you can.</p>
+<ul><li>If you want to edit a list or change output options:</li>
+<ol>
+  <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. </li>
+  <li>Make your changes.</li>
+  <li>Click Search.</li>
+  <li>Repeat until the desired results appear.</li>
+</ol>
+</ul>
+
+<b>Notes:</b> 
+<ul>
+<li>You can requery as many times as you like.</li>
+<!--<li>If you had <a href="#filter">filtered</a> your search results, when you modify your search, the filters are automatically applied to your modified results.</li>-->
+<li>Alternatively, click Reset to return to the original Genes and Markers Query form. </li>
+</ul>
+</p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
+<!--<h3><a name="filter"></a>How do I filter my results?</h3>
+
+<a href="#top"><font size="-1">Top</font></a>  -->
+
+<h3><a name="tabfile"></a>How do I retrieve my results as tab-delimited text or spreadsheet files?</h3>
+<p>In your search results, <!--at the right hand edge of the Filter assays bar,--> click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
 
 <h3><a name="example"></a>Are there any sample queries?</h3>
 <p>The following examples show the field values that produce the given results. Default values for other fields are assumed.</p>
