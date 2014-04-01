@@ -86,7 +86,7 @@ For example:
     <table border="0" cellspacing="1" cellpadding="4" width="!%">
     <tr><th valign="top">Allele</th><td valign="top">The allele symbol is composed of the gene symbol and the allele designation.  If the gene is unknown, only the allele designation appears.</td></tr>
     <tr><th valign="top">Driver</th><td valign="top">The gene, gene promoter, or construct.</td></tr>
-    <tr><th valign="top">Type</th><td valign="top">Specific allele category: e.g., Targeted (knock-in), Transgenic (Cre/Flp)</td></tr>
+    <tr><th valign="top">Type</th><td valign="top">Specific allele category: e.g., Targeted (Recombinase), Targeted (Inducible, Recombinase), Transgenic (Recombinase), Transgenic (Inducible, Recombinase)</td></tr>
  <tr><TH VALIGN="top">Synonym</td><td valign="top">Other names for the allele.</td></tr>
     <tr><TH VALIGN="top">Molecular description</td><td>Details of allele generation. Molecular references cited link to MGI Reference Detail reports. </td></tr>
 

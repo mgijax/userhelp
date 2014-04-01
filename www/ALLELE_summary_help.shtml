@@ -113,7 +113,7 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
   	<li>Organization of allele symbols is alphabetic for the allele symbol; however, alleles available only as cell lines have a separate alpha sort and appear at the bottom of the list.</li>
 	<LI>To view the additional data for a given allele, click the allele symbol in the Allele column to go to its Phenotypic Allele Detail Report.</LI>
 	<!--<LI>To view the additional data for a genotype, click on either allele symbols in the Allelic Composition (Genetic Background) column for access to that report.</LI> -->
-	<li>After reviewing the summary information, you may want to alter your query again. If so, click the banner at the top of the page (<b>Click to <a href="#revise">modify</a> search</b>).</li>
+	<li>After reviewing the summary information, you may want to alter your query. If so, click the banner at the top of the page (<b>Click to <a href="#revise">modify</a> search</b>).</li>
 	</ul>
 </ul>
 </P>
