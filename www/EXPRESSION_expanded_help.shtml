@@ -49,6 +49,7 @@ function openHelpWindow(helpFile){
  <li><a href="#gxdfilter">How do I filter my results?</a></li>
  <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</A></LI>
  <!--<li><a href="EXPRESSION_help.shtml#generate">Which expression data query parameters generate an expression literature search? Which do not?</li>-->
+ <li><a href="#distinguish">How do I distinguish genes whose expression was not detected from those that have not been analyzed?</a></li>
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
  <li><a href="#batch">Can I send the results of my search to the MGI Batch Query?</a></li>
  <LI><A HREF="#example">Are there examples of query results?</A></LI>
@@ -173,12 +174,20 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></t
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="gxdfilter"></a>How do I filter my results?</h3>
-<p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for Wild type or mutant specimens. In the banner above your results, after Filter expression data by: click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>. If you reached this page by using the Gene Expression Data Query form, then if you <a href="#revise">modify</a> your search, the filters are automatically applied to your modified results.</p>
+<p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected. In the banner above your results, after Filter expression data by: click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>. If you <a href="#revise">modify</a> your search, the filters are automatically applied to your modified results.</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
 <H3><A NAME="summary"></A>How do I interpret the query results summary and detail pages?</H3>
 <P>See <A HREF="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data Query Results</A>.</P>
+
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="distinguish"></a>How do I distinguish genes whose expression was not detected from those that have not been analyzed?</h3>
+
+<p>A differential expression search returns a list of genes whose expression was shown to be absent (not detected), as well as genes whose expression has not been analyzed or recorded in the database for the specified structures and stages. If you <a href="#gxdfilter">filter</a> for <i>Detected?: No</i>, the gene list will be limited to those genes whose expression was shown to be absent. <b>Note:</b> the filters apply to all data tabs.
+</p>
+
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="excelfile_gxdqf"></a>Can I get my results as tab-delimited text or spreadsheet files?</h3>
