@@ -116,9 +116,7 @@ and the following question about specific query forms:</p>
 <p>The query is inclusive of the markers you enter. 
 <ul>
   <li>The markers you enter must be current symbols and they must be on the same chromosome (e.g., Hoxd1 AND Pax6). </li>
-  <li>The marker <i>type</i> may not be <i>QTL</i>. The results would be too large.</li>
   <li>Markers must have coordinates.</li>
-
   <li>Markers are returned if they have at least one base pair (bp) overlapping the range you specify.</li>
 </ul>
 </p>
