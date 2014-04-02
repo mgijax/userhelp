@@ -43,6 +43,10 @@ function openHelpWindow(helpFile){
  <LI><A href="#summary_sort">What determines the content of this report?</a></LI>
  <li><a href="#content">What should the summary report contain?</a></li>
  <LI><A HREF="#hierarchy">What determines the sort order on a summary page?</A></LI>
+ <li><a href="#revise">Can I edit my original options and requery?</a></li>
+ <li><a href="#sort">How do I sort my results?</a></li>
+ <!--<li><a href="#filter">How do I filter my results?</a></li>  -->
+ <li><a href="#tabfile">How do I retrieve my results as tab-delimited text or spreadsheet files?</a></li>
 </ul>
 <p>See also:
 <ul>
@@ -52,8 +56,8 @@ function openHelpWindow(helpFile){
 </ul>
 </p>
 <h3><a name="summary_sort"></a>What determines the content of this report?</h3>
-<P>The marker summary content depends on the button you click on the
-<a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a> (cM, Nomenclature, or Genome Coordinates) and your choice in the Search box next to the Symbol/Name field. There are two types of searches: narrow and broad.</p>
+<P>The marker summary content depends on how you filled out the fields on the 
+<a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a>.</p>
 
 <a href="#top">Top</A><br>
 
@@ -64,44 +68,34 @@ function openHelpWindow(helpFile){
    <BLOCKQUOTE>
 	<dl>
 	  <dt><font size="-1"><u><b>You searched for...</b></u></font></dt>
-	 <dt><font size="-1"><b>Feature Type: gene</b></font></dt>
-	<dt><font size="-1"><b>Chromosome:</b> equals <b><i>X</i></b></font></dt>
-	  <dt><font size="-1"><b>Genome Coordinates:</b> between <b>7.4 and 7.9</b> Mbp</font></dt>
-	  
-	  <dt><font size="-1"><b>Sort:</b> by <b>Nomenclature</b></font></dt>
-          <dt><font size="-1"><b>Display Limit:</b> equals <b>500</b></font></dt>
-
-	</dl>
-     
-      </BLOCKQUOTE>
+	  <dt><font size="-1">on Chromosome: any of [<b>2</b>]</font></dt>
+	  <dt><font size="-1">AND Genome Coordinates: <b>4.4 -10.9</b> Mbp</font></dt>
+	  <dt><font size="-1">AND Marker Type: any of [<b>protein coding gene, miRNA gene</b>]</font></dt>
+   </dl>
+  </BLOCKQUOTE>
     <br>  
-  <li>Beneath the summary is an option to change your parameters. Click <b>Modify Search</b> to return to the Genes and Markers Query Form. You may wish to include/remove parameters or change the sorting and output defaults.</li><br>  
-
-<LI>Beneath the <b>Modify Search</b> option is information about the amount of data found. For example:
+ <li>Above the summary is an option to change your parameters. Use <b>Click to modify search</b> to view to the Genes and Markers Query Form with your search parameters.</li><br>  
+ <LI>To the far right of the search summary is information about the amount of data found. For example:
   
-    <BLOCKQUOTE>
-<font size="-1"> 25 matching items displayed.</font>
+<BLOCKQUOTE>
+<font size="-1">Showing markers 1 - 100 of 153.</font>
 </BLOCKQUOTE><br>
-    If you expected more results than are displayed, click <b>Modify Search</b>, and change the default to <B>No limit</B>. Alternatively, you can type in a number that will yield fewer results.
-
- </li><br>
+   By default, 100 items are displayed on the web page. You can use the toggle to change the number of items displayed or page through the results.
+</li><br>
   <LI>Beneath the statement are the following columns, with a row for each matching item. </li></ul>
 
 <BLOCKQUOTE>
 <TABLE BORDER="1" CELLPADDING="4">
-<TR><TH VALIGN="top">Field</TH><TH>Description</TH></TR>
- <TR><TH ALIGN="left" VALIGN="top">Chr</TH> <TD>If known, the chromosome to which the marker is assigned.</TD></TR>
-
- <TR><TH ALIGN="left" VALIGN="top">cM</TH><TD>Marker's centimorgan position.  Centimorgan positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009)   (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PMID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.</TD></TR>
- <TR><TH ALIGN="left" VALIGN="top">Genome Coordinate (strand)</TH><TD VALIGN="top">Marker's coordinates on the mouse genome assembly sequence map, and the strand location of the coordinates in parentheses. Plus (+) is = 5<sup>'</sup> to 3<sup>'</sup>. Minus (-) is 3<sup>'</sup> to 5<sup>'</sup>.</TD></TR>
-<tr><th align="left" valign="top">Feature Type</th><td valign="Top">Marker categories  resulting from your selection(s) on the query form. For example, if you clicked <b>Non-coding RNA gene</b>, results for rRNA, tRNA, snRNA, snoRNA, or miRNA genes may appear.</td></tr>
+ <TR><TH VALIGN="top">Field</TH><TH>Description</TH></TR>
+ <TR><TH ALIGN="left" VALIGN="top">Genetic Location</TH> <TD>If known, the Chromosome to which the marker is assigned and the marker's centimorgan position.  Centimorgan positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009)   (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PMID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>..</TD></TR>
+ <TR><TH ALIGN="left" VALIGN="top">Genome Coordinates (strand)</TH><TD VALIGN="top">Marker's coordinates on the mouse genome assembly sequence map, and the strand location of the coordinates in parentheses. Plus (+) is = 5<sup>'</sup> to 3<sup>'</sup>. Minus (-) is 3<sup>'</sup> to 5<sup>'</sup>.</TD></TR>
+ <tr><th align="left" valign="top">Feature Type</th><td valign="Top">Marker categories  resulting from your selection(s) on the query form. For example, if you clicked <b>Non-coding RNA gene</b>, results for rRNA, tRNA, snRNA, snoRNA, or miRNA genes may appear.</td></tr>
 
  <TR><TH ALIGN="left" VALIGN="top">Symbol, Name</TH><TD>Marker symbol and name, linked to the MGI marker detail page.</TD></TR>
  <TR><TH ALIGN="left" VALIGN="top">Matching Text</TH><TD>Type of information contained in the database and the text that it matches. The tool searches for items containing a match in the following order: current symbol, current name, allele symbol, allele name, withdrawn symbol, withdrawn name,
 human homolog symbol, human homolog name, other homolog symbol.</TD></TR>
 </TABLE>
 
-<P>Note: If you use the narrow search (gene symbols/names), the <B>Matching Text</B> field does not appear on the Genes and Markers Query Results - Summary report.</P>
 </BLOCKQUOTE>
 <p><a href="#top">Top</A>
 
@@ -147,6 +141,43 @@ human homolog symbol, human homolog name, other homolog symbol.</TD></TR>
 </ol>
 </p>
 <a href="#top">Top</A><br>
+
+<h3><a name="revise"></a>Can I edit my original options and requery?</h3>
+
+<p>Yes, you can.</p>
+<ul><li>If you want to edit a list or change output options:</li>
+<ol>
+  <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. </li>
+  <li>Make your changes.</li>
+  <li>Click Search.</li>
+  <li>Repeat until the desired results appear.</li>
+</ol>
+</ul>
+
+<b>Notes:</b> 
+<ul>
+<li>You can requery as many times as you like.</li>
+<!--<li>If you had <a href="#filter">filtered</a> your search results, when you modify your search, the filters are automatically applied to your modified results.</li>-->
+<li>Alternatively, click Reset to return to the original Genes and Markers Query form. </li>
+</ul>
+</p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="sort"></a>How do I sort my results?</h3>
+
+<p>Click on the *** column headings or the up/down arrowheads ( &#9660; &#9650;) to change the sort order of your results. </p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
+<!--<h3><a name="filter"></a>How do I filter my results?</h3>
+
+<a href="#top"><font size="-1">Top</font></a>  -->
+
+<h3><a name="tabfile"></a>How do I retrieve my results as tab-delimited text or spreadsheet files?</h3>
+<p>In your search results, <!--at the right hand edge of the Filter assays bar,--> click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
+
+<a href="#top"><font size="-1">Top</font></a>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
 
