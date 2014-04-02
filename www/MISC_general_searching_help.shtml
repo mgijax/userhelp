@@ -139,6 +139,7 @@ These options are useful when your query retrieves a large number of results, or
 <B>Year </B> &nbsp; &nbsp;<I>2010-</I>
 </BLOCKQUOTE>
 to further focus your search.
+</BLOCKQUOTE>
  <BR>
 <p>Many query results now allow you to modify your search and requery. Use the <i>Click to modify search</i> button to view your previous search parameters and make refinements.
 </p>
@@ -155,16 +156,13 @@ detailed information on the mechanics of working with forms.-->
 <P>Yes. <!-- MGI uses the Glimpse application for full-text searching.  <em>See</em>
 <A HREF="boolean_search_tips.shtml">Full-text Searching Help</A>.--> The following query forms have fields that provide full-text search options:
 <UL>
-<LI><EM>Genes and Markers, Phenotypes and Alleles, Sequences</EM><BR> Use the  Phenotype/Disease  box to find potential mouse models for human diseases and phenotypic allele data in the MGI databases associated with any of the fields on the Genes and Markers Query Form.</LI><BR>
+<LI><EM>Genes and Markers, Phenotypes and Alleles</EM><BR> Use the Phenotype/Disease  box to find potential mouse models for human diseases and phenotypic allele data in the MGI databases associated with any of the fields on the Genes and Markers Query Form.</LI><BR>
 
 <LI><EM>References</EM><BR> Use the  Abstract  field to search for abstracts in MGI bibliographic records.</LI><BR>
 
 
 <LI><EM>Gene Expression Literature</EM><BR> The  Abstract  field is for full-text searching of abstracts in MGI bibliographic records. It functions the same way as the Abstract field on the References Query Form.</LI><BR>
-<LI><EM>Mouse Sequences</EM><BR>
-The Mouse Sequence Query Form allows full-text searching in two fields:  Description from Sequence Provider and Phenotype/Disease.</LI><BR>
-
-<LI><EM> Combined Mouse/Human Phenotypes Integrated MLC/OMIM Search - Integrated MLC/OMIM Search</EM><BR> The text entry box at the end of the form is a searchable index. <!-- Enter search keywords: ) is for full-text searching in  both MLC and OMIM datasets.  Note that OMIM uses WAIS, a text searching tool with a somewhat different logic than Glimpse--></LI><BR>
+<BR>
 
 </UL></P>
 <A HREF="#top">Top</A>
@@ -186,10 +184,9 @@ The Mouse Sequence Query Form allows full-text searching in two fields:  Descrip
 <A HREF="#top">Top</A>
 
 <H3><A NAME="selection"></A>Selection lists</H3>
-<P> A selection list consists of a pre-defined list of values from which you may select one or more items. An example is the list of species on the Orthology query form.  To specify a search for orthology information for a particular
-species, you select that species from the list.  How you make the selection depends upon the browser you use.
+<P> A selection list consists of a pre-defined list of values from which you may select one or more items. An example is the list of Chromosomes on some query forms.  To limit your search to specific chromosomes, you make your selections from the list.  How you make the selection depends upon the browser you use.
 
-<P>Some selection lists allow you to specify more than one value.  For example, you may wish to search for orthologies in species human or cat. In this
+<P>Some selection lists allow you to specify more than one value.  For example, you may wish to search for multiple chromosomes. In this
 case, you would select several options from the selection list. Again, the exact mechanism for doing this depends on your implementation.
 <UL>
   <LI>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired items in the list; OR hold the shift key down and  click on two items to select those and all items in between. </li>
@@ -206,7 +203,7 @@ case, you would select several options from the selection list. Again, the exact
 
 
 <H3><A NAME="oper"></A>Comparison operators</H3>
-<P>Comparison operators provide a means to focus your search on a range or subset of records in the database. The following table describes the set of comparison operators used with numeric fields:
+<P>Comparison operators are found only on the Mouse SNP Query Form and provide a means to focus your search on a range or subset of records in the database. The following table describes the set of comparison operators used with numeric fields:
 
 <TABLE BORDER CELLPADDING="4">
 <TR> <TH>Operator <TH>Description</TR>
@@ -221,7 +218,7 @@ case, you would select several options from the selection list. Again, the exact
 
 
 <H3><A NAME="text"></A>Text fields with comparison operators</H3>
-<P>Text fields accept alphanumeric characters.  The table below lists the set of comparison operators for text fields:
+<P>Text fields on the Mouse SNP Query Form accept alphanumeric characters.  The table below lists the set of comparison operators for text fields:
 <P>
 <TABLE BORDER CELLPADDING="4">
 <TR> <TH>Operator </TH> <TH>Description</TH></TR>
