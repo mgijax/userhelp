@@ -40,11 +40,9 @@ function openHelpWindow(helpFile){
 <A NAME="top"></A>
 <P>This Help document answers the following questions about the genes and markers summary:</P>
 <UL>
-<LI><A href="#summary_sort">What determines the content of this report?</a></LI>
- <li><a href="#broad_narrow">What's the difference between the narrow search and the broad search?</a></li>
+ <LI><A href="#summary_sort">What determines the content of this report?</a></LI>
  <li><a href="#content">What should the summary report contain?</a></li>
-
-<LI><A HREF="#hierarchy">What determines the sort order on a summary page?</A></LI>
+ <LI><A HREF="#hierarchy">What determines the sort order on a summary page?</A></LI>
 </ul>
 <p>See also:
 <ul>
@@ -56,11 +54,6 @@ function openHelpWindow(helpFile){
 <h3><a name="summary_sort"></a>What determines the content of this report?</h3>
 <P>The marker summary content depends on the button you click on the
 <a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a> (cM, Nomenclature, or Genome Coordinates) and your choice in the Search box next to the Symbol/Name field. There are two types of searches: narrow and broad.</p>
-
-<a href="#top">Top</A><br>
-
- <h3><a name="broad_narrow"></a>What's the difference between the narrow search and the broad search?</h3>
-<P>The <i>narrow</i> search is on current gene symbols or names. The <i>broad</i> search includes current as well as old symbols or names, plus any synonyms, alleles, or homologs.</p>
 
 <a href="#top">Top</A><br>
 

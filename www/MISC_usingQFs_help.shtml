@@ -56,14 +56,12 @@ and the following question about specific query forms:</p>
 <h3><a name="howdo"></a>How do I submit a query?</h3>
 <p>To query:
 <uL>
-   <li>Enter values in any required fields on the query form.</li>
-   <li>Check that any provided default field values are acceptable. If not, type (or select from a pull-down menu) alternate values. </li>
- <LI>Fill in additional fields to further narrow (or expand) your search.</LI>
-   <li>If there is a "maximum returned" field on the form, check that the default value is adequate (if not, select revise it or click <i>no limit</i> if not) </li>
- <LI>Click the desired <a href="#sort">sort</a> option. </LI>
+  <li>Enter values in any required fields on the query form.</li>
+  <li>Check that any provided default field values are acceptable. If not, type (or select from a pull-down menu) alternate values. </li>
+  <LI>Fill in additional fields to further narrow (or expand) your search.</LI>
   <li>Select an output option (if available).</li>
-    <LI>Click Search to submit the query.</LI>
-<li> Click Reset to clear the fields and return any default values.</li>
+  <LI>Click Search to submit the query.</LI>
+  <li>Click Reset to clear the fields and return any default values.</li>
 </ul>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
