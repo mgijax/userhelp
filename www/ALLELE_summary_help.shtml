@@ -68,14 +68,13 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
 
 <p>When you access the allele summary from a gene/marker detail report, the marker symbol, name and, MGI identifier appear in a box at the top of the page.</p>
  
-<p>You'll also find a line of text near the top that reports the number of unique alleles matching your query, and, in parentheses, the number of genes or markers represented by those alleles. For example, if a query returns three different alleles of the same marker, this line would read
+<p>You'll also find a line of text near the top that reports the number of unique alleles matching your query. For example, if a query returns 122 different alleles, this line would read
 
 <blockquote>
-<font face="courier New, Courier" size=-1>3 matching Alleles (1 Gene/Marker represented)</font>***
-
+<font face="courier New, Courier" size=-1>Showing alleles 1 - 100 of 122</font>
 </blockquote>
-</li>
- </UL>
+<p>You can use the toggle to change the number of items displayed or page through the results.
+</p>
 
 <p>Table columns summarize information about the alleles matching your query. The results appear in some or all of the following fields (depending on your query form choices).</p>
 
