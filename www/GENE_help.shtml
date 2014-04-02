@@ -54,13 +54,13 @@ Using the Genes and Markers Query Form</span>
 <h3><a name="whatdo"></a>What can I  use the Genes and Markers Query Form to find?</h3>
  <p>Use this query form to search for detailed information on various types of mouse markers. You can:
 <ul>
-<li>search for gene/marker details by entering a current or old symbol, name, allele, or homolog; or you can restrict the search to look for only a current symbol or name.
+  <li>search for gene/marker details by entering a current or old symbol, name, allele, or homolog; or you can restrict the search to look for only a current symbol or name.
   <li>query by feature type and thereby confine the search to protein coding genes, to individual non-coding RNA genes,  or to a variety of other categories. See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a> for a complete list of feature types, descriptions, and corresponding SO IDs (if available/pertinent).</li>
   <li>retrieve lists of markers sorted by nomenclature or genome coordinates.</li>
-<li>include GO classifications, InterPro domains, or phenotype terms in your search parameters.
-<li>limit or expand the amount of items returned.</li>
-<li>modify search parameters until you are satisfied with the results. </li>
-<li>view results in web, tab-delimited or spreadsheet formats.</li>
+  <li>include GO classifications, InterPro domains, or phenotype terms in your search parameters.
+  <li>limit or expand the amount of items returned.</li>
+  <li>modify search parameters until you are satisfied with the results. </li>
+  <li>view results in web, tab-delimited or spreadsheet formats.</li>
 </ul>
 <a href="#top"><font size="-1">Top</font></a>
 
@@ -90,13 +90,13 @@ Using the Genes and Markers Query Form</span>
 <table border="1" cellpadding="3" width="!">
 <tr><th align="left" valign="top"><a name="gene_nomenclature"></a>Gene/Marker</th>
     <td>Gene/Marker Symbol/Name: Use this field to search for a mouse genetic marker or set of markers with a similar nomenclature. 
-		<ul>
+	<ul>
 		<li>The gene nomenclature field supports an asterisk as a wild card. A search for pax* finds gene symbols and names that begin with <i>pax</i>.</li>
 		<li>A search for *box* looks for nomenclature that contains <i>box</i>. This search finds the arginine decarboxylase gene, homeobox genes and paired box genes.</li>
 		<li>A search for <i>growth factor</i> finds nomenclature containing <i>growth</i> AND <i>factor</i>.</li>
 		<li>Synonyms (unofficial gene names used in publications and former official gene symbols) are also searched.</li>
 		<li>This field searches only alphanumeric characters. Single and double quotes, commas and hyphens are ignored.</li>
-		</ul>
+	</ul>
 	</td></tr>        
  <tr>
         <th align="left" valign="top"><a name="marker_type"></a>Feature Type</th>
@@ -122,9 +122,8 @@ See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type 
   <a name="cm_offset"></a><a href="MISC_map_position_help.shtml#cm_offset" target="_blank">cM Position</a>) to limit the scope of your query.
   <ul>
 	<li>When using chromosome(s), you can also define genome coordinates or cM position.</li> 
-    <li>You cannot combine genome coordinates and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) &#151; except QTL(s) &#151;  with coordinates.</li></ul>
+    <li>You cannot combine genome coordinates and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) with coordinates. The query is inclusive of the markers you enter.</li></ul>
     <li>When using chromosome(s), you can also define genome coordinates or cM position.</li> <li>You cannot combine genome coordinates and cM position with one another.</li>
-    <li>For Marker Range, you can enter any marker(s) &#151; except QTL(s) &#151;  with coordinates.</li>
     <li>If you wish to search with multiple regions, or search with human regions instead of mouse, you can do this with the <a href="<!--#include file='include/homepages_url.html'-->humanDisease.shtml">Human&mdash;Mouse: Disease Connection</a>.</li>
    </ul>
 See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fields on MGI Query Forms</a> for further details about entering values in these fields.</td>
