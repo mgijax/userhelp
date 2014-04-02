@@ -37,7 +37,6 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
  <LI><A HREF="#operators">What are operators and how do they affect my query?</a></li>
  <LI><A HREF="#beeclo">Begins, equals, ends, contains, and like operators</a></li>
  <LI><A HREF="#beltgt">"Ballpark" operators (between, less than, greater than)</a></li>
- <li><A href="#iniono">In/not in, on/not operators</a></li>
 </ul>
 </p>
 <!--<p>See also:
@@ -49,7 +48,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 
 
 <H3><A NAME="operators"></A>What are operators and how do they affect my query?</H3>
-<P>Operators narrow or expand the effect of a search. They usually appear on selection lists located next to a field. Examples are: begins, equals, ends, contains, less than, greater than, and so on. When a selection list is available, click the arrow beside it to see all the options available.
+<P>Operators are found only on the Mouse SNP Query Form and can be used to narrow or expand the effect of a search. They usually appear on selection lists located next to a field. Examples are: begins, equals, ends, contains, less than, greater than, and so on. When a selection list is available, click the arrow beside it to see all the options available.
 <UL>
   <LI>Once you pick an operator, it applies to any value you enter or select for the field. </LI>
   <LI>The default operator is the one that appears when you open a query form or when you click Reset.</LI>
@@ -70,9 +69,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 <h3><a name="beltgt"></a>"Ballpark" operators (between, less than, greater than, equal to)</h3>
  <P>Another set of operators lets you establish a relationship among values: between, equal to (&#061;), less than (&lt;), greater than (&gt;), less than or equal to (&lt;&#061;), greater than or equal to (&gt;&#061;), not equal to (&lt;&gt;). These operators are useful for defining a ballpark search region when you are entering genome coordinates on MGI query forms (Genes and Markers, Alleles, SNPs, Sequences, Gene Expression, Probes, and so on).  The <i>is null</i> operator defines an empty list; the <i>is not null</i> defines a set in which the contents are unknown.
 </P>
-<h3><a name="iniono"></a>In/not in, on/not on operators</h3>
-  <P>The operators <I>in/not in</I> or <I>on/not on</I>, let you specify the presence or absence of values. As examples, you can use them to include or exclude specific chromosomes when searching for SNPs annotated to mapped markers or to include/exclude developmental stages when searching for gene expression</P>
-</p>
+
 
 <font size="-1"><A HREF="#top">Top</A></font><BR>
 
