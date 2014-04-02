@@ -228,7 +228,7 @@ See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fi
 <h3><a name="example"></a>Are there any sample queries?</h3>
 <p>The following examples show the field values that produce the given results. Default values for other fields are assumed.</p>
 <ol>
-<li>How do I find genes with symbols/names containing <i>cd2</i> mapped to Chr. 3 between 30 and 50 cM?
+<li>***How do I find genes with symbols/names containing <i>cd2</i> mapped to Chr. 3 between 30 and 50 cM?
 <blockquote>
 <b>Gene/Marker Symbol/Name:</b>&nbsp;&nbsp;&nbsp; cd2 <br>
 <b>Chromosome(s):</b>&nbsp;&nbsp;&nbsp;3<br>
@@ -240,13 +240,10 @@ The search yields a list of at least 3 markers containing the alphanumeric <i>cd
 
 <li>Which histocompatibility markers are located on Chromosome 4?
 <blockquote>
-<b>Gene/Marker Symbol/Name:</b> CONTAINS histoc<br>
+<b>Gene/Marker Symbol/Name:</b>histoc*<br>
 <b>Chromosome(s):</b> 4 <br>
 The search yields a list of at least 5 histocompatibility markers on Chromosome 4.
 </blockquote></li>
-
-
-
 
 <!--Examples for OMIM QF
 abnormal AND cardiovascular
@@ -254,8 +251,6 @@ abnormal AND cardiovascular
 Query Summary
 Phenotypes: contains (abnormal AND cardiovascular) searching MP terms, synonyms, IDs and notes.
 Human Diseases: contains (168600 OR Parkinson OR PD) searching Human Disease terms, synonyms, and IDs.
-Sort: by Allele Symbol
-Display Limit: equals 500
 
 <LI>Which genes on Chromosome 16 are related to Parkinson's Disease and what phenotypic
 information about them is available?
@@ -277,8 +272,6 @@ markers for which the symbol or name begins with the characters <i>chrng</i>).
 <blockquote>
 <b>Chromosome(s): </b>2<br>
 <b>cM Position</b> BETWEEN: 10.0-15.0 <br>
-<b>Maximum returned:</b> no limit<br>
-<b>Sort by:</b> Genome Coordinates<br>
 This query yields a listing of  markers on Chromosome 2 ordered by genome coordinates.
 </blockquote></li>
 
@@ -287,7 +280,6 @@ This query yields a listing of  markers on Chromosome 2 ordered by genome coordi
 <b>Marker Symbol/Name:</b>&nbsp;&nbsp;&nbsp; contains MIT<br>
 <b>Chromosome(s):</b> 11<br>
 <b>Genome Coordinates:</b> between 4.0-4.5 and change bp to Mbp<br>
-<b>Sort:</b> by Genome Coordinates<br>
 This query yields a listing of ~6 MIT markers on Chromosome 11 ordered by genome coordinates.
 </blockquote>
 </li>
@@ -298,8 +290,6 @@ This query yields a listing of ~6 MIT markers on Chromosome 11 ordered by genome
 <b>Feature Type:</b>&nbsp;&nbsp;&nbsp;non-coding RNA gene<br>
 <b>Chromosome(s):</b> 7<br>
 <b>cM Position</b> between 43-57<br>
-<b>Sort:</b> by <b>Genome Coordinates</b><br>
-<b>Display limit </b> equals <b>500</b><br>
 This query returns the current symbols for at least 26 matching items that include lincRNA, miRNA, rRNA, snoRNA, and unclassified non-coding RNA gene feature types.
 </blockquote>
 </li>
