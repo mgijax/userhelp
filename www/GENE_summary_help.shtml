@@ -74,7 +74,7 @@ function openHelpWindow(helpFile){
    </dl>
   </BLOCKQUOTE>
     <br>  
- <li>Above the summary is an option to change your parameters. Use <b>Click to modify search</b> to view to the Genes and Markers Query Form with your search parameters.</li><br>  
+ <li>Above the summary is an option to change your parameters. Use <b>Click to modify search</b> to view to the Genes and Markers Query Form with your previous search parameters.</li><br>  
  <LI>To the far right of the search summary is information about the amount of data found. For example:
   
 <BLOCKQUOTE>
