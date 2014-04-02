@@ -32,7 +32,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 <!-- Body of User Help -->
 
 <A NAME="top"></A> 
-<p>This help document answers the following questions about using operators on MGI query forms:
+<p>This help document answers the following questions about using operators on the MGI Mouse SNP Query Form:
 <UL>
  <LI><A HREF="#operators">What are operators and how do they affect my query?</a></li>
  <LI><A HREF="#beeclo">Begins, equals, ends, contains, and like operators</a></li>
