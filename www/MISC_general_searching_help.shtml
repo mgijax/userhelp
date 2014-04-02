@@ -48,8 +48,7 @@ General Guidelines for MGI Query Form Searches
  <LI><A HREF="#parts">What are the parts of a query form?</A></li>
  <LI><A HREF="#sort">Can I view the results of a query in different ways?</A></li>
  <LI><A HREF="#print">Can I print or save the results of my query?</A></li>
- <LI><A HREF="#email">Can I e-mail the results of my query?</A></li>
-  <LI><A HREF="#change_font">Can I change font sizes to make query forms and Help documents easier to read?</a></LI>
+ <LI><A HREF="#change_font">Can I change font sizes to make query forms and Help documents easier to read?</a></LI>
  </UL>
 
  <p><A NAME="see_also"></A>See also:</p>
@@ -156,15 +155,11 @@ detailed information on the mechanics of working with forms.-->
 <P>Yes. <!-- MGI uses the Glimpse application for full-text searching.  <em>See</em>
 <A HREF="boolean_search_tips.shtml">Full-text Searching Help</A>.--> The following query forms have fields that provide full-text search options:
 <UL>
-<LI><EM>Genes and Markers, Phenotypes and Alleles</EM><BR> Use the Phenotype/Disease  box to find potential mouse models for human diseases and phenotypic allele data in the MGI databases associated with any of the fields on the Genes and Markers Query Form.</LI><BR>
-
-<LI><EM>References</EM><BR> Use the  Abstract  field to search for abstracts in MGI bibliographic records.</LI><BR>
-
-
-<LI><EM>Gene Expression Literature</EM><BR> The  Abstract  field is for full-text searching of abstracts in MGI bibliographic records. It functions the same way as the Abstract field on the References Query Form.</LI><BR>
-<BR>
-
-</UL></P>
+	<LI><EM>Genes and Markers, Phenotypes and Alleles</EM><BR> Use the Phenotype/Disease  box to find potential mouse models for human diseases and phenotypic allele data in the MGI databases associated with any of the fields on the Genes and Markers Query Form.</LI><BR>
+	<LI><EM>References</EM><BR> Use the  Abstract  field to search for abstracts in MGI bibliographic records.</LI><BR>
+	<LI><EM>Gene Expression Literature</EM><BR> The  Abstract  field is for full-text searching of abstracts in MGI bibliographic records. It functions the same way as the Abstract field on the References Query Form.</LI><BR>
+</UL>
+</P>
 <A HREF="#top">Top</A>
 
 <H3><A NAME="parts"></A>What are the parts of a query form?</H3>
@@ -179,8 +174,8 @@ detailed information on the mechanics of working with forms.-->
     <LI><A HREF="#wildcard">Wild card and text</A>
     <LI><A HREF="#wildlit">Wild card as literal</A>
    </UL>
- <LI><A HREF="#button">Button-activated options</A>
-</UL></P>
+</UL>
+</P>
 <A HREF="#top">Top</A>
 
 <H3><A NAME="selection"></A>Selection lists</H3>
@@ -262,12 +257,7 @@ wild cards)
 <H3><A NAME="wildlit"></A>Wild card as literal</H3>
 <P> If the string you are searching for contains a wild card character (%, _,[a,b,c]), you can still use the LIKE operator and treat the embedded wild card character as a <I>literal</I>, i.e., as ordinary text. To do so, enclose the embedded wild card character in square brackets [ ].  For example, suppose you want to search for strings containing the [ character. You could use LIKE and enter the search string %[[]%. (Translation: any string of characters, followed by a [, followed by any string of characters. Of course, for this example, you could also use the CONTAINS operator, with the search string [[].)</P>
 
-
-<H3><A NAME="button"></A>Button-activated options</H3>
-<P> There are selectable options, such as sort options and formatting options, that
-are used to modify the display of query results. You can click on the appropriate "button" to select an option.
-<P> For example, on the  Genes and Markers  Query Form, you have two SORT options for query results:  by cM position or by Nomenclature.  Click the appropriate button to select the option.</P>
-
+<a href="#top"><font size="-1">Top</font></a>
 
 <H3><A NAME="sort"></A>Can I view the results of a query in different ways?</H3>
 <P>The query forms offer several options for ordering query returns. For example, on the  Genes and Markers  Query Form you can specify that the returned list of markers be sorted by cM position or by Nomenclature. Choose the sort order by selecting the appropriate option from the list. For more details, refer to the documentation for specific forms. At the present time, multilevel sorting is not an option.</P>
@@ -278,12 +268,7 @@ are used to modify the display of query results. You can click on the appropriat
 <P>Options for printing and saving files vary with computer platform and browser. Refer to your browser and system documentation for information on how to print results or save them to a file.</P>
  <a href="#top"><font size="-1">Top</font></a>
 
-<H3><A NAME="email"></A>Can I e-mail the results of my query?</H3>
-<P>Some browsers provide a Web e-mail option so you can  easily send query results to a colleague.  The e-mail functions are browser and computer platform-dependent and usually require some configuration of browser preferences. See your system administrator for details.
-</P>
- <a href="#top"><font size="-1">Top</font></a>
-
-  <h3><A name="change_font"></a>Can I change font sizes to make query forms and Help documents easier to read?</h3>
+<h3><A name="change_font"></a>Can I change font sizes to make query forms and Help documents easier to read?</h3>
 <P>Yes. The setting for the font size on MGI web pages is specified in a style sheet. If you use Internet Explorer (IE), you can override this by doing the following:
 <oL>
   <LI>Click  Tools  (on the IE Toolbar). A menu appears.</LI>
