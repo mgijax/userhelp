@@ -39,17 +39,14 @@ Using Map Position Fields on MGI Query Forms
 <A NAME="top"></A>
 <P><A NAME="top"></A>This help document describes how to use the Map Position fields on an MGI Query Form. Depending on the query form, some or all of the following fields are available: 
 <table align="center" border="0" cellpadding="8" width="100%">
-  <tr class="nb"><td align="center"><font size="-1"><a href="#chromosome">Chromosome(s)</a> | <a href="#coordinates">Genome Coordinates</a> | <a href="#cytogenetic_band">Cytogenetic Band</a> | <a href="#marker_range">Marker Range</a> | <a href="#cm_offset">cM Position</a></font></td></tr>
+  <tr class="nb"><td align="center"><font size="-1"><a href="#chromosome">Chromosome(s)</a> | <a href="#coordinates">Genome Coordinates</a> | <a href="#marker_range">Marker Range</a> | <a href="#cm_offset">cM Position</a></font></td></tr>
 </table>
      <table>
           <tr>
           <th align="left" valign="top"><a name="chromosome"></a>Chromosome(s)</th>
           <td valign="top">
-            <ul>
-            <li>Choose an <a href="MISC_operators_help.shtml" target="_blank">operator</a> (on/not on)</li>
-            <li>Select <a href="MISC_usingQFs_help.shtml#options" target="_blank">one or more items</a> from the chromosome selection list.</li>
-            </ul>
-          </td>
+            Select <a href="MISC_usingQFs_help.shtml#options" target="_blank">one or more items</a> from the chromosome selection list.
+           </td>
           </tr>
     
        <tr>
@@ -57,9 +54,6 @@ Using Map Position Fields on MGI Query Forms
         <td valign="top">
          <ul>
           <li>Make a selection on the <a href="#chromosome">Chromosome(s)</a> list.</li>
-         <!--<li>Enter the genome assembly coordinate(s) for a mapped gene or marker. </li>-->
-          <li>Use the default (between) or click the down arrow to select the &lt;= (less than or equal to) or &gt;= (greater than or equal to) 
-<a href="MISC_operators_help.shtml" target="_blank">operator</a>.
           <li>Click the other down arrow and select either bp (base pairs) or Mbp (mega base pairs) as the unit of measurement. (The default is base pairs.)</li>
           <li>Enter the coordinate(s):</li><br>
            <table align="center" border="1" cellspacing="0" cellpadding="4" width="100%">
