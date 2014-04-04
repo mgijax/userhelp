@@ -73,7 +73,7 @@ function openHelpWindow(helpFile){
 <blockquote>
 [<b><i>allele symbol</i></b>]<br> [<b><i>allele type</i></b>] <b>Detail</b>
 </BLOCKQUOTE>
-[allele type] is the <a href="ALLELE_help.shtml#categories" target="_blank">category </a> used to narrow the allele search. The category can be spontaneous, induced (chemically, radiation, or transposon), transgenic (random, expressed; random, gene disruption; Cre/Flp; transposase), gene trapped, targeted (floxed/frt, reporter, knock-out, knock-in) or QTL. </i> 
+[allele type] is the <a href="ALLELE_help.shtml#categories" target="_blank">category </a> used to narrow the allele search. ***The category can be spontaneous, induced (chemically, radiation, or transposon), transgenic (random, expressed; random, gene disruption; Cre/Flp; transposase), gene trapped, targeted (floxed/frt, reporter, knock-out, knock-in) or QTL. </i> 
 <p>As examples:
 
 <blockquote>
