@@ -260,16 +260,17 @@ High-throughput projects have generated a large number of alleles that still exi
 <B>Notes:</B> 
 <ul>
   <li>A conditionally targeted genotype is dependent on the presence of some other factor (often a DNA sequence that expresses a protein functioning in specific recombination events). In MGI, <I>conditional</I> is a genotype attribute, and this is most commonly used to represent Cre-mediated excision of genomic sequences flanked by loxP sites; in most instances, this is accompanied by simultaneous insertion of some selectable marker (<I>e.g.</I> neomycin). The excised genotype, often associated with a phenotype, is dependent (or conditional) on the presence of the Cre-expressing construct.</li>
-  <li>Options for searching by allele type include spontaneous, chemically induced (all, ENU), radiation induced, transgenic (all; random, expressed; random, gene disruption; Cre/Flp),
-gene trapped, targeted (all, Floxed/Frt, Reporter, knock-out, knock-in). See 
+  <li>Options for searching by these allele types include spontaneous, chemically induced (ENU or other types), radiation induced, transgenic, endonuclease-mediated,
+gene trapped, targeted and transposon induced. See 
 <a href="ALLELE_phenotypic_categories_help.shtml" target="_blank">Allele Types</a> for how MGI differentiates these categories.</li>
-  <li>You can exclude cell-line-only alleles from your search. See <a href="genetrap_usecase_help.shtml#distinguish">Gene Trap Questions and Answers</a> for how to do this.</li>
+  <li>You can exclude cell-line-only alleles from your search. <!--See <a href="genetrap_usecase_help.shtml#distinguish">Gene Trap Questions and Answers</a> for how to do this. --></li>
 </ul>
 </TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="attributes"></A>Allele Attributes</TH><TD VALIGN="top">***</TR>
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="collections"></A>Collections</TH><TD VALIGN="top">***</TR>
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="clear_all"></a>Clear all</TH><td valign="top">Removes check marks from all boxes in this section of the query form. </TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><a name="invert"></a>Invert selected</TH><td valign="top">This toggle switch removes any check marks and puts them in boxes not previously selected. Example usage: you want all but three of the categories. Click those three, and then click <B>Invert selected</B>. All the unchecked boxes are now checked and the three previously checked boxes are unchecked.</TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="attributes"></A>Allele Attributes</TH><TD VALIGN="top">These alleles are sub-types of the various generation methods. A given allele may have more than one attribute. For example ***. See 
+<a href="ALLELE_phenotypic_categories_help.shtml" target="_blank">Allele Types</a> for how MGI differentiates these categories.</li></TR>
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="collections"></A>Collections</TH><TD VALIGN="top">Use this section if you want to limit your search to alleles produced by particular institutions/projects.</TR>
+<!-- <TR><TH ALIGN="left" VALIGN="top"><A NAME="clear_all"></a>Clear all</TH><td valign="top">Removes check marks from all boxes in this section of the query form. </TD></TR>
+<TR><TH ALIGN="left" VALIGN="top"><a name="invert"></a>Invert selected</TH><td valign="top">This toggle switch removes any check marks and puts them in boxes not previously selected. Example usage: you want all but three of the categories. Click those three, and then click <B>Invert selected</B>. All the unchecked boxes are now checked and the three previously checked boxes are unchecked.</TD></TR>-->
 </TABLE></TD></TR>
 </TABLE>
 </TD></TR>
