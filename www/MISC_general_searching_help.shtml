@@ -48,8 +48,7 @@ General Guidelines for MGI Query Form Searches
  <LI><A HREF="#parts">What are the parts of a query form?</A></li>
  <LI><A HREF="#sort">Can I view the results of a query in different ways?</A></li>
  <LI><A HREF="#print">Can I print or save the results of my query?</A></li>
- <LI><A HREF="#email">Can I e-mail the results of my query?</A></li>
-  <LI><A HREF="#change_font">Can I change font sizes to make query forms and Help documents easier to read?</a></LI>
+ <LI><A HREF="#change_font">Can I change font sizes to make query forms and Help documents easier to read?</a></LI>
  </UL>
 
  <p><A NAME="see_also"></A>See also:</p>
@@ -84,7 +83,7 @@ query options in an easy-to-use format. Help documentation is available on-line 
  <LI><A HREF="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</A></LI>
  <!--<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/sequence_form.shtml">Mouse Sequence Query Form</A> </LI>-->
 <LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF" target="_blank">Mouse SNP Query Form</A> (Single Nucleotide Polymorphisms) </LI>
-<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A></LI>
+<LI><A HREF="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A></LI>
  <LI><a href="<!--#include file='include/fewi_url.html'-->reference" target="_blank">References Query Form</A> </LI>
  <!--<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/polymorphism_form.shtml"> RFLP/PCR Polymorphism Query Form</A></LI>
  <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/cytomap_form.shtml">Cytogenetic Map (Using Information from MGD)</A> </LI>
@@ -100,10 +99,10 @@ See also
 fields to use as search criteria. Use more descriptive fields</A> (for example,  <I>Author</I> or <I>Title</I> in the References Query Form) as primary search criteria.  Use the general fields (for example, <I>Year</I> and <I>Journal</I> in the References Query Form) to further limit the scope of your search. Note that the search finds
 records that match <B>all</B> the criteria you enter as, for example,when you make the following choices on the Genes and Markers Query Form:
 <BLOCKQUOTE>
-<B>Symbol/Name</B> &nbsp;&nbsp; begins &nbsp;&nbsp; <I>ak</I> <BR>
-<B>Chromosome</B> &nbsp;&nbsp; = &nbsp;&nbsp; <I>4</I>
+<B>Symbol/Name</B> &nbsp;&nbsp; <I>hox*</I> <BR>
+<B>Chromosome</B> &nbsp;&nbsp; <I>6</I>
 </BLOCKQUOTE>
-<P>The query returns any marker on Chr. 4 whose symbol or name begins with <I>ak</I>.</P>
+<P>The query returns any marker on Chr. 6 whose symbol, name or synonym begins with <I>hox</I>.</P>
 </li>
 
 <LI>Select output format and sort options for your results.<BR>
@@ -123,35 +122,28 @@ These options are useful when your query retrieves a large number of results, or
 <UL><A NAME="operators"></A>
 <LI>Enter values in the search fields that specify the kind of information you are looking for.  For example, on the Genes and Markers Query Form, if you are interested in data about the Histone gene complex on Chromosome 13, you might fill in the field and make a selection as follows:
 <BLOCKQUOTE>
-<B>Symbol/Name</B>&nbsp;&nbsp;   begins <I>his</I><BR>
-<B>Chromosome</B>&nbsp;&nbsp;   in&nbsp;&nbsp;   <I>13</I>
+<B>Symbol/Name</B>&nbsp;&nbsp;  <I>hist*</I><BR>
+<B>Chromosome</B>&nbsp;&nbsp;  <I>13</I>
 </BLOCKQUOTE>
 <P>When you use multiple fields, the interpretation is "Search for all records that contain attribute <I>A</I> AND attribute <I>B</I> AND ...." <P>
 </P>
-<LI>Make your task easier by using appropriate comparison operators, especially for text fields. It is easier to use CONTAINS and type <I>immunom</I> than to type  <I>immunomodulation</I>. <P>
+<P>
 
-<LI>Use a less-specific field along with a more descriptive field. For example, on the References Query Form,  if you are interested only in more recent articles by Nadeau, then use <I>Year</I> along with <I>Author</I>.
+<LI>Use a less-specific field along with a more descriptive field. For example, on the References Query Form,  if you are interested only in more recent articles by Joseph H. Nadeau, then use <I>Year</I> along with <I>Author</I>.
 <BLOCKQUOTE>
-<B>Author</B> = <I>Nadeau</I>
+<B>Author</B> &nbsp;&nbsp; <I>Nadeau JH</I>
 </BLOCKQUOTE>
  and specify <BR>
 <BLOCKQUOTE>
-<B>Year </B> &nbsp;&nbsp; &gt;&nbsp; &nbsp;<I>2004</I>
+<B>Year </B> &nbsp; &nbsp;<I>2010-</I>
 </BLOCKQUOTE>
 to further focus your search.
- <BR>
-<LI>Be wary of the NOT operator.  Use it only when your search criteria include more than one search field and at least one descriptive field without the NOT operator.  For example, if you want to retrieve mapping information on a particular gene but exclude work by a certain prolific author, use
-<BLOCKQUOTE>
-<B>Marker Symbol/Name</B> &nbsp;&nbsp;=&nbsp;&nbsp;<I>cftr</I><BR>
-<B>Author</B>&nbsp;&nbsp;NOT&nbsp;&nbsp;begins&nbsp;&nbsp;<I>chapman</I>
 </BLOCKQUOTE>
-<BR>
-<LI>Remember that there is a default in the field that determines the maximum number of items to return (for example, Max no of returns, or Maximum Returned; this field is usually located either at the top or the bottom of the query form near the sorting options.) Setting your own limit is useful when a query does not retrieve the results you want.
-  <UL>
-  <LI>Set this to No limit (or type in a large number), for example, when you want a list of all genes in a chromosome.</LI>
-  <LI>Set this to a low number (if the query form allows this) when you have a rough idea of how many items your query might return but want a quick confirmation. For example, on the Mouse Sequence Query form, you could enter <I>20</I> as the limit; the summary report will display the total number of sequences your query actually found. If <I>20 of sequences 20 displayed</I> appears, your search criteria are probably good. If <I>20 sequences of 600 displayed</I> appears, you may want to refine these criteria.</LI>
-  </UL>
-
+ <BR>
+<p>Many query results now allow you to modify your search and requery. Use the <i>Click to modify search</i> button to view your previous search parameters and make refinements.
+</p>
+<p>Alternately, many Query Forms allow you to filter your results. So in the previous search, you could filter JH Nadeau's publications to just those published in Mamm Genome.
+</p>
 </UL>
 </P>
 <A HREF="#top">Top</A>
@@ -163,18 +155,11 @@ detailed information on the mechanics of working with forms.-->
 <P>Yes. <!-- MGI uses the Glimpse application for full-text searching.  <em>See</em>
 <A HREF="boolean_search_tips.shtml">Full-text Searching Help</A>.--> The following query forms have fields that provide full-text search options:
 <UL>
-<LI><EM>Genes and Markers, Phenotypes and Alleles, Sequences</EM><BR> Use the  Phenotype/Disease  box to find potential mouse models for human diseases and phenotypic allele data in the MGI databases associated with any of the fields on the Genes and Markers Query Form.</LI><BR>
-
-<LI><EM>References</EM><BR> Use the  Abstract  field to search for abstracts in MGI bibliographic records.</LI><BR>
-
-
-<LI><EM>Gene Expression Literature</EM><BR> The  Abstract  field is for full-text searching of abstracts in MGI bibliographic records. It functions the same way as the Abstract field on the References Query Form.</LI><BR>
-<LI><EM>Mouse Sequences</EM><BR>
-The Mouse Sequence Query Form allows full-text searching in two fields:  Description from Sequence Provider and Phenotype/Disease.</LI><BR>
-
-<LI><EM> Combined Mouse/Human Phenotypes Integrated MLC/OMIM Search - Integrated MLC/OMIM Search</EM><BR> The text entry box at the end of the form is a searchable index. <!-- Enter search keywords: ) is for full-text searching in  both MLC and OMIM datasets.  Note that OMIM uses WAIS, a text searching tool with a somewhat different logic than Glimpse--></LI><BR>
-
-</UL></P>
+	<LI><EM>Genes and Markers, Phenotypes and Alleles</EM><BR> Use the Phenotype/Disease  box to find potential mouse models for human diseases and phenotypic allele data in the MGI databases associated with any of the fields on the Genes and Markers Query Form.</LI><BR>
+	<LI><EM>References</EM><BR> Use the  Abstract  field to search for abstracts in MGI bibliographic records.</LI><BR>
+	<LI><EM>Gene Expression Literature</EM><BR> The  Abstract  field is for full-text searching of abstracts in MGI bibliographic records. It functions the same way as the Abstract field on the References Query Form.</LI><BR>
+</UL>
+</P>
 <A HREF="#top">Top</A>
 
 <H3><A NAME="parts"></A>What are the parts of a query form?</H3>
@@ -185,21 +170,18 @@ The Mouse Sequence Query Form allows full-text searching in two fields:  Descrip
    <UL>
     <LI><A HREF="#numeric">Numeric fields</A>
     <LI><A HREF="#oper">Comparison operators</A>
-    <LI><A HREF="#not">The NOT operator</A>
     <LI><A HREF="#text">Text fields with comparison operators</A>
-   <LI><A HREF="#wildandlike">Wild card with LIKE operator</A></LI>
     <LI><A HREF="#wildcard">Wild card and text</A>
     <LI><A HREF="#wildlit">Wild card as literal</A>
    </UL>
- <LI><A HREF="#button">Button-activated options</A>
-</UL></P>
+</UL>
+</P>
 <A HREF="#top">Top</A>
 
 <H3><A NAME="selection"></A>Selection lists</H3>
-<P> A selection list consists of a pre-defined list of values from which you may select one or more items. An example is the list of species on the Orthology query form.  To specify a search for orthology information for a particular
-species, you select that species from the list.  How you make the selection depends upon the browser you use.
+<P> A selection list consists of a pre-defined list of values from which you may select one or more items. An example is the list of Chromosomes on some query forms.  To limit your search to specific chromosomes, you make your selections from the list.  How you make the selection depends upon the browser you use.
 
-<P>Some selection lists allow you to specify more than one value.  For example, you may wish to search for orthologies in species human or cat. In this
+<P>Some selection lists allow you to specify more than one value.  For example, you may wish to search for multiple chromosomes. In this
 case, you would select several options from the selection list. Again, the exact mechanism for doing this depends on your implementation.
 <UL>
   <LI>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired items in the list; OR hold the shift key down and  click on two items to select those and all items in between. </li>
@@ -216,7 +198,7 @@ case, you would select several options from the selection list. Again, the exact
 
 
 <H3><A NAME="oper"></A>Comparison operators</H3>
-<P>Comparison operators provide a means to focus your search on a range or subset of records in the database. The following table describes the set of comparison operators used with numeric fields:
+<P>Comparison operators are found only on the Mouse SNP Query Form and provide a means to focus your search on a range or subset of records in the database. The following table describes the set of comparison operators used with numeric fields:
 
 <TABLE BORDER CELLPADDING="4">
 <TR> <TH>Operator <TH>Description</TR>
@@ -230,14 +212,8 @@ case, you would select several options from the selection list. Again, the exact
 </TABLE></P>
 
 
- <H3><A NAME="not"></A>The NOT operator</H3>
-<P>You can use the NOT operator to exclude a value or set of values. However, NOT also can be interpreted as EVERYTHING ELSE BUT..., and therein lies the danger of using the NOT operator. <P>Use NOT only when you put values in multiple fields on the query form. Use at least one descriptive field without NOT. <!-- For example, in References, you might be interested in finding articles where <UL> Author BEGINS Chapman<BR> Year = 1994<BR> Journal NOT BEGINS Genom<BR></UL> </P>
-
-<P>This search yields the list of articles by Chapman written in 1994 appearing in any journal except Genomics (or any others with titles beginning <I>Genom</I>). <P>Click the NOT box next to the field to which you want to apply the negation. --></P>
-
-
 <H3><A NAME="text"></A>Text fields with comparison operators</H3>
-<P>Text fields accept alphanumeric characters.  The table below lists the set of comparison operators for text fields:
+<P>Text fields on the Mouse SNP Query Form accept alphanumeric characters.  The table below lists the set of comparison operators for text fields:
 <P>
 <TABLE BORDER CELLPADDING="4">
 <TR> <TH>Operator </TH> <TH>Description</TH></TR>
@@ -281,12 +257,7 @@ wild cards)
 <H3><A NAME="wildlit"></A>Wild card as literal</H3>
 <P> If the string you are searching for contains a wild card character (%, _,[a,b,c]), you can still use the LIKE operator and treat the embedded wild card character as a <I>literal</I>, i.e., as ordinary text. To do so, enclose the embedded wild card character in square brackets [ ].  For example, suppose you want to search for strings containing the [ character. You could use LIKE and enter the search string %[[]%. (Translation: any string of characters, followed by a [, followed by any string of characters. Of course, for this example, you could also use the CONTAINS operator, with the search string [[].)</P>
 
-
-<H3><A NAME="button"></A>Button-activated options</H3>
-<P> There are selectable options, such as sort options and formatting options, that
-are used to modify the display of query results. You can click on the appropriate "button" to select an option.
-<P> For example, on the  Genes and Markers  Query Form, you have two SORT options for query results:  by cM position or by Nomenclature.  Click the appropriate button to select the option.</P>
-
+<a href="#top"><font size="-1">Top</font></a>
 
 <H3><A NAME="sort"></A>Can I view the results of a query in different ways?</H3>
 <P>The query forms offer several options for ordering query returns. For example, on the  Genes and Markers  Query Form you can specify that the returned list of markers be sorted by cM position or by Nomenclature. Choose the sort order by selecting the appropriate option from the list. For more details, refer to the documentation for specific forms. At the present time, multilevel sorting is not an option.</P>
@@ -297,12 +268,7 @@ are used to modify the display of query results. You can click on the appropriat
 <P>Options for printing and saving files vary with computer platform and browser. Refer to your browser and system documentation for information on how to print results or save them to a file.</P>
  <a href="#top"><font size="-1">Top</font></a>
 
-<H3><A NAME="email"></A>Can I e-mail the results of my query?</H3>
-<P>Some browsers provide a Web e-mail option so you can  easily send query results to a colleague.  The e-mail functions are browser and computer platform-dependent and usually require some configuration of browser preferences. See your system administrator for details.
-</P>
- <a href="#top"><font size="-1">Top</font></a>
-
-  <h3><A name="change_font"></a>Can I change font sizes to make query forms and Help documents easier to read?</h3>
+<h3><A name="change_font"></a>Can I change font sizes to make query forms and Help documents easier to read?</h3>
 <P>Yes. The setting for the font size on MGI web pages is specified in a style sheet. If you use Internet Explorer (IE), you can override this by doing the following:
 <oL>
   <LI>Click  Tools  (on the IE Toolbar). A menu appears.</LI>

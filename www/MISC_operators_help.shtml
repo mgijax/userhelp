@@ -32,15 +32,11 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 <!-- Body of User Help -->
 
 <A NAME="top"></A> 
-<p>This help document answers the following questions about using operators on MGI query forms:
+<p>This help document answers the following questions about using operators on the MGI Mouse SNP Query Form:
 <UL>
  <LI><A HREF="#operators">What are operators and how do they affect my query?</a></li>
- <LI><A HREF="#not">Maybe this is obvious, but what is the effect of the NOT operator?</a></li>
-
  <LI><A HREF="#beeclo">Begins, equals, ends, contains, and like operators</a></li>
-      <LI><A HREF="#beltgt">"Ballpark" operators (between, less than, greater than)</a></li>
-     <li><A href="#iniono">In/not in, on/not operators</a></li>
-    <li><A href="#canb">Check marks </a></li>
+ <LI><A HREF="#beltgt">"Ballpark" operators (between, less than, greater than)</a></li>
 </ul>
 </p>
 <!--<p>See also:
@@ -52,42 +48,28 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 
 
 <H3><A NAME="operators"></A>What are operators and how do they affect my query?</H3>
-<P>Operators narrow or expand the effect of a search. They usually appear on selection lists located next to a field. Examples are: begins, equals, ends, contains, less than, greater than, and so on. When a selection list is available, click the arrow beside it to see all the options available.
+<P>Operators are found only on the Mouse SNP Query Form and can be used to narrow or expand the effect of a search. They usually appear on selection lists located next to a field. Examples are: begins, equals, ends, contains, less than, greater than, and so on. When a selection list is available, click the arrow beside it to see all the options available.
 <UL>
   <LI>Once you pick an operator, it applies to any value you enter or select for the field. </LI>
   <LI>The default operator is the one that appears when you open a query form or when you click Reset.</LI>
-  <LI>Sometimes you activate an operator by clicking a check mark as, for example, when there is a <i>NOT</i> box next to a field (so you can exclude items from your search).
- </UL>
+</UL>
 </p>
-
- <h3><A name="not"></a>Maybe this is obvious, but what is the effect of the NOT operator?</h3>
-<ul>
-  <li>Clicking the NOT checkbox and selecting/entering a value (in an adjacent field) means that you want to exclude that value from your search.  
-  <li>Sometimes the search turns up items that are in apparent contradiction of your intent. For example: the default setting for all MGI query forms with a Gene/Marker Symbol/Name field is to search on current symbols/names and synonyms.  A gene should appear if <i>any</i> of its symbols (including withdrawns and synonyms) do <i>not</i> match the query, but some genes whose current symbol matches the query will also appear. To avoid this, change the selector to just <i>current symbols</i> when using the NOT operator.  </li></ul></TR>
-
-
 
 <h3><a name="beeclo"></a>Begins, equals, ends, contains, and like operators</h3>
 <P>One set of operators  is comprised of <i>begins</i>, = (equals), <i> ends, contains</i>, and <i>like</i>; you can use these, for example, to filter what you are looking for.
-    <UL>
+  <UL>
    <LI>The <i>begins</i> operator returns only items beginning with the characters you typed in. </LI>
    <LI>The<i> =</I> operator finds exact matches.
-  <LI>The <I>ends</I> operator returns items ending with the characters you typed in. </LI>
-    <LI>The <I>contains</I> operator returns only items containing the  characters you typed in. </LI>
-    <LI>The <i>like</i> operator lets you use the percent (%) wild card within specified characters to find items (e.g., <I>d%mit</I>).</LI>
-   </UL>
+   <LI>The <I>ends</I> operator returns items ending with the characters you typed in. </LI>
+   <LI>The <I>contains</I> operator returns only items containing the  characters you typed in. </LI>
+   <LI>The <i>like</i> operator lets you use the percent (%) wild card within specified characters to find items (e.g., <I>d%mit</I>).</LI>
+ </UL>
 </p>
 
 <h3><a name="beltgt"></a>"Ballpark" operators (between, less than, greater than, equal to)</h3>
  <P>Another set of operators lets you establish a relationship among values: between, equal to (&#061;), less than (&lt;), greater than (&gt;), less than or equal to (&lt;&#061;), greater than or equal to (&gt;&#061;), not equal to (&lt;&gt;). These operators are useful for defining a ballpark search region when you are entering genome coordinates on MGI query forms (Genes and Markers, Alleles, SNPs, Sequences, Gene Expression, Probes, and so on).  The <i>is null</i> operator defines an empty list; the <i>is not null</i> defines a set in which the contents are unknown.
 </P>
-<h3><a name="iniono"></a>In/not in, on/not on operators</h3>
-  <P>The operators <I>in/not in</I> or <I>on/not on</I>, let you specify the presence or absence of values. As examples, you can use them to include or exclude specific chromosomes when searching for SNPs annotated to mapped markers or to include/exclude developmental stages when searching for gene expression</P>
-</p>
 
-<h3><a name="canb"></a>Check marks <!--and NOT boxes--></h3>
-<p>Sometimes operators are activated by check marks: for example, clicking a NOT box puts a check mark beside a field or a list to choose items from to exclude from your search.
-</p>
 
 <font size="-1"><A HREF="#top">Top</A></font><BR>
 

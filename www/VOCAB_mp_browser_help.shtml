@@ -68,7 +68,7 @@ Using the Mammalian Phenotype (MP) Browser</span>
 
  <H3><A NAME="whatcan"></A>What can I use the Mammalian Phenotype Browser to find?</H3>
 <P>Use the Browser to find vocabulary terms that may be used in annotations of phenotypic data.  You can choose a term here to search, using the <B>Phenotype/Disease</B> box on the
-<A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A>.</P>
+<A HREF="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A>.</P>
 <font size="-1"><a href="#top">Top</a>
 </font>
 <H3><A NAME="include"></A>What is the difference between and browsing and searching the vocabulary?</H3>

@@ -37,12 +37,12 @@ function openHelpWindow(helpFile){
 <P>This help document answers the following general questions about using MGI query forms:
  <UL>
   <li><A HREF="#howdo">How do I submit a query?</a></li>
-  <li><A href="#operators">What are operators and how do they affect my query?</a></li>
   <li><a href=""#options">How do I select more than one item on a list?</a></li>
- <li><a href="MISC_boolean_search_help.shtml" target="_blank">When should I use Boolean operators (ANDs, ORs) and/or quotation marks?</a></li>
-   <li><A href="#casesen">Does it matter what case I use when I type values in the fields?</a></li>
+  <li><a href="MISC_boolean_search_help.shtml" target="_blank">When should I use Boolean operators (ANDs, ORs) and/or quotation marks?</a></li>
+  <li><A href="#casesen">Does it matter what case I use when I type values in the fields?</a></li>
   <LI><A HREF="#sort">How do the sort options work?</a></li>
   <li><A href="#maxno">Is there a maximum number of results I can get back all at once?</a></li>
+  <li><A href="#operators">What are operators and how do they affect my query?</a></li>
   <LI><A HREF="#speed">Is there a way to speed up a query?</a></li> 
   </ul>
 <br>
@@ -56,24 +56,15 @@ and the following question about specific query forms:</p>
 <h3><a name="howdo"></a>How do I submit a query?</h3>
 <p>To query:
 <uL>
-   <li>Enter values in any required fields on the query form.</li>
-   <li>Check that any provided default field values are acceptable. If not, type (or select from a pull-down menu) alternate values. </li>
- <LI>Fill in additional fields to further narrow (or expand) your search.</LI>
-   <li>If there is a "maximum returned" field on the form, check that the default value is adequate (if not, select revise it or click <i>no limit</i> if not) </li>
- <LI>Click the desired <a href="#sort">sort</a> option. </LI>
+  <li>Enter values in any required fields on the query form.</li>
+  <li>Check that any provided default field values are acceptable. If not, type (or select from a pull-down menu) alternate values. </li>
+  <LI>Fill in additional fields to further narrow (or expand) your search.</LI>
   <li>Select an output option (if available).</li>
-    <LI>Click Search to submit the query.</LI>
-<li> Click Reset to clear the fields and return any default values.</li>
+  <LI>Click Search to submit the query.</LI>
+  <li>Click Reset to clear the fields and return any default values.</li>
 </ul>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
-
-<h3><A name="operators"></a>What are operators and how do they affect my query?</h3>
-<P>Operators expand or narrow the effect of a search. Usually, they appear on a selection list beside a field. Click the down arrow to see all the available options.(See <a href="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</a> for additional details.)
-</p>
-
-<a href="#top"><font size="-1">Top</font></a>
-
 
  <h3><A name="options"></a>How do I select more than one item on a list?</h3>
 <p>To pick two or more items from a selection list, do the following:
@@ -104,6 +95,12 @@ and the following question about specific query forms:</p>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
 
+<h3><A name="operators"></a>What are operators and how do they affect my query?</h3>
+<P>Operators are found only on the MGI Mouse SNP Query Form and expand or narrow the effect of a search. Usually, they appear on a selection list beside a field. Click the down arrow to see all the available options.(See <a href="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</a> for additional details.)
+</p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
 
 <h3><A name="speed"></a>Is there a way to speed up a query?</h3>
 <p>Yes. Reduce the number in the <i>Maximum Returned</i> field. However, if the amount of time to return your query is prohibitive, consider narrowing your search rather than limiting the number of results returned.
@@ -119,9 +116,7 @@ and the following question about specific query forms:</p>
 <p>The query is inclusive of the markers you enter. 
 <ul>
   <li>The markers you enter must be current symbols and they must be on the same chromosome (e.g., Hoxd1 AND Pax6). </li>
-  <li>The marker <i>type</i> may not be <i>QTL</i>. The results would be too large.</li>
   <li>Markers must have coordinates.</li>
-
   <li>Markers are returned if they have at least one base pair (bp) overlapping the range you specify.</li>
 </ul>
 </p>
