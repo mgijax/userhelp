@@ -79,7 +79,7 @@ function openHelpWindow(helpFile){
 
 <TABLE BORDER=1 cellpadding=4> 
 <TR><TH VALIGN="top">Field</TH><TH VALIGN="top">Description</TH></TR>
-<TR><TH align="left" valign="top">Allele</th>
+<TR><TH align="left" valign="top">Nomenclature</th>
     <TD VALIGN="top">
      <table align="left" border="0" cellpadding="4">
      <tr>
@@ -88,12 +88,15 @@ function openHelpWindow(helpFile){
      </tr>
      <tr>
      <TH align="left" valign="top">Name</th>
-     <td valign="top">Approved name for the allele.</td>
+     <td valign="top">Approved name for the allele. See 
+<A HREF="<!--#include file='include/mgihome_url.html'-->nomen/gene.shtml" target="_blank">Guidelines for Nomenclature of Genes, Genetic Markers, Alleles, & Mutations in Mouse & Rat</a> for details.</td>
      </tr>
      <tr>
      <TH align="left" valign="top">ID</th>
      <td valign="top">MGI identifier of the allele.</td>
      </tr>
+     <tr><th valign="top">Synonyms</th>
+     <td>Unofficial names for this allele.</td></TR>
      </table>
     </td>
 </tr>
@@ -122,6 +125,6 @@ function openHelpWindow(helpFile){
 </table>
 </table>
 </p>
-<font size="-2"><A HREF="#top">Top</A></font>
+<font size="-1"><A HREF="#top">Top</A></font>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
