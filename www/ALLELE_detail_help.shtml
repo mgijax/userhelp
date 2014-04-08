@@ -140,9 +140,9 @@ The allele symbol is composed of the gene symbol and the allele designation.  If
 
    <tr><td valign="top">Name</td><td>The allele name appears beneath the symbol.  See 
 <A HREF="<!--#include file='include/mgihome_url.html'-->nomen/gene.shtml" target="_blank">Guidelines for Nomenclature of Genes, Genetic Markers, Alleles, & Mutations in Mouse & Rat</a> for details.</td></tr>
-    <tr><td valign="top"><nobr>MGI ID</nobr></td><td valign="bottom">The MGI accession identifier for this allele.</TD></tr><tr><td valign="top">Synonyms</td><td>Other names for this allele.</td></TR>
-    
-<tr><td valign="top">Gene</td><td>Some or all of the following: Gene (symbol), Location (chromosome, genome coordinates, strand), Genetic Position<!--and human ortholog of the mouse genetic marker-->.</td>
+    <tr><td valign="top"><nobr>MGI ID</nobr></td><td valign="bottom">The MGI accession identifier for this allele.</TD></tr>
+    <tr><td valign="top">Synonyms</td><td>Unofficial names for this allele.</td></TR>
+    <tr><td valign="top">Gene</td><td>Some or all of the following: Gene (symbol), Location (chromosome, genome coordinates, strand), Genetic Position<!--and human ortholog of the mouse genetic marker-->.</td>
 </tr> </table>
      </td>
 </tr>
