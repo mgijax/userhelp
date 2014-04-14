@@ -158,7 +158,7 @@ See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fi
     <table border="0" cellpadding="3">
      <tr>
      <th align="left" valign="top"><a name="phenotype"></a>Phenotype/<br>Human Disease</th>
-     <td>See <a href="ALLELE_help.shtml#phenotypes">Phenotype/Disease</a>.<br>Note: The query returns a marker only if at least one associated allele satisfies whatever you enter in this section.
+     <td>See <a href="ALLELE_help.shtml#m_phenotypes">Phenotype/Disease</a>.<br>Note: The query returns a marker only if at least one associated allele satisfies whatever you enter in this section.
      </td>
    </tr>
   </table>
