@@ -227,13 +227,14 @@ See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fi
 
 <h3><a name="example"></a>Are there any sample queries?</h3>
 <p>The following examples show the field values that produce the given results. Default values for other fields are assumed.</p>
+
 <ol>
-<li>***How do I find genes with symbols/names containing <i>cd2</i> mapped to Chr. 3 between 30 and 50 cM?
+<li>How do I find homeobox genes mapped to Chr. 6 between 20 and 30 cM?
 <blockquote>
-<b>Gene/Marker Symbol/Name:</b>&nbsp;&nbsp;&nbsp; cd2 <br>
-<b>Chromosome(s):</b>&nbsp;&nbsp;&nbsp;3<br>
-<b>cM Position:</b> &nbsp;&nbsp;&nbsp;between 30.0-50.0<br>
-The search yields a list of at least 3 markers containing the alphanumeric <i>cd2</i> on Chromosome 3.
+<b>Gene/Marker Symbol/Name:</b>&nbsp;&nbsp;&nbsp; homeobox <br>
+<b>Chromosome(s):</b>&nbsp;&nbsp;&nbsp;6<br>
+<b>cM Position:</b> &nbsp;&nbsp;&nbsp;between 20.0-30.0<br>
+The search yields a list of at least 11 markers containing the word <i>homeobox</i> in their names and mapped to this region of Chromosome 6.
 
 </blockquote></li>
 
@@ -263,7 +264,7 @@ information related to diabetes.
 
 <li>What information does MGI have on the <i>Chrng</i> marker?
 <blockquote>
-<b>Gene/Marker Symbol/Name: </b> BEGINS chrng <br>
+<b>Gene/Marker Symbol/Name: </b> chrng <br>
 This search yields a link to the marker record for <i>Chrng</i> (and any other
 markers for which the symbol or name begins with the characters <i>chrng</i>).
 </blockquote></li>
@@ -272,15 +273,15 @@ markers for which the symbol or name begins with the characters <i>chrng</i>).
 <blockquote>
 <b>Chromosome(s): </b>2<br>
 <b>cM Position</b> BETWEEN: 10.0-15.0 <br>
-This query yields a listing of  markers on Chromosome 2 ordered by genome coordinates.
+This query yields a listing of  markers on Chromosome 2 ordered by nomenclature.
 </blockquote></li>
 
 <li>How can I find which MIT markers are located within a specific range on Chromosome 11?
 <blockquote>
-<b>Marker Symbol/Name:</b>&nbsp;&nbsp;&nbsp; contains MIT<br>
+<b>Marker Symbol/Name:</b>&nbsp;&nbsp;&nbsp; *mit*<br>
 <b>Chromosome(s):</b> 11<br>
 <b>Genome Coordinates:</b> between 4.0-4.5 and change bp to Mbp<br>
-This query yields a listing of ~6 MIT markers on Chromosome 11 ordered by genome coordinates.
+This query yields a listing of ~5 MIT markers on Chromosome 11 ordered by nomenclature.
 </blockquote>
 </li>
 
