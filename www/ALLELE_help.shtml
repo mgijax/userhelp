@@ -118,7 +118,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <h3><a name="mp_ontology"></a>Is there a list of phenotype terms to select from?</h3>
 <p>Yes. There are two ways to get phenotype lists from the Phenotypes, Alleles, and Disease Models Query Form:
    <ol>
-     <li>Click  Anatomical Systems Affected by Phenotypes to bring up an abbreviated list, organized  roughly by system (cardiovascular, hematopoietic, and so on). The list is in alphabetical order and you can select as many terms as desired. Once you click OK, the terms populate the query box. The default relationship between the terms is AND (see <A HREF="MISC_boolean_search_help.shtml#examples" target="_blank">What are some examples of queries and results?</A> and <a href="MISC_boolean_search_help.shtml" target="_blank">Using Full-Text Searches on MGI Query Forms</a>).</LI>
+     <li>Click  Anatomical Systems Affected by Phenotypes to bring up an abbreviated list, organized  roughly by system (cardiovascular, hematopoietic, and so on). The list is in alphabetical order and you can select as many terms as desired. Once you click OK, the terms populate the query box. The default relationship between the terms is OR (see <A HREF="MISC_boolean_search_help.shtml#examples" target="_blank">What are some examples of queries and results?</A> and <a href="MISC_boolean_search_help.shtml" target="_blank">Using Full-Text Searches on MGI Query Forms</a>).</LI>
 
 <li>Click Full Mammalian Phenotype (MP) Ontology to activate the Mammalian Phenotype Browser. Click to navigate the MP hierarchy until you find the term you are looking for. See <a href="VOCAB_mp_browser_help.shtml" target="_blank">Using the Mammalian Phenotype (MP) Browser</a> for additional help.</li>
    </ol>
@@ -136,8 +136,8 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <h3><a name="relationship"></a>Can I query using both a phenotype term and a disease term?</h3>
 <p>Yes, you can use the Phenotype/Disease box to search for phenotypes <i>or</i> diseases or phenotypes <i>and</i> diseases. Note the following:
 <ul>
-  <li>Spaces between terms are interpreted as an AND. Therefore HHHH Syndrome is treated as HHHH and Syndrome.</li>
-  <li>After the initial term, enclose any subsequent multi-word terms in quotation marks (for example, diabetes and &quot;insulin resistance&quot;).</li>
+  <li>Spaces between terms are interpreted as an OR. Therefore Alagille Syndrome is treated as Alagille OR Syndrome.</li>
+  <li>After the initial term, enclose any subsequent multi-word terms in quotation marks (for example, diabetes AND &quot;insulin resistance&quot;).</li>
 </ul>
 </P>
 
@@ -208,7 +208,7 @@ The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkin
 </P>
 
 <TR><TH ALIGN="left" VALIGN="top"><a name="nomenclature"></a>Nomenclature & location</TH><TD ALIGN="left" VALIGN="top">Search by symbol, name, or chromosome position. Use these parameters to expand or limit the scope of retrieved information. 
-There are three ways to use the map position parameters (<A HREF="#chromosome">Chromosome</A>, <A HREF="#cmp">cM Position</A>, <A HREF="#coordinates">Genome Coordinates</A>). If you use <B>Chromosome</B>, you may also define a cM position, or genome coordinate. However, you cannot combine <B>cM Position</B> and <B>Genome Coordinate</B> with one another AND must select a chromosome when you define a chromosomal region. <BR><BR>
+There are three ways to use the map position parameters (<A HREF="#chromosome">Chromosome</A>, <A HREF="#cmp">cM Position</A>, <A HREF="#coordinates">Genome Coordinates</A>). If you use <B>Chromosome</B>, you may also define a cM position, or genome coordinate. However, you cannot combine <B>cM Position</B> and <B>Genome Coordinate</B> with one another ***AND must select a chromosome when you define a chromosomal region. <BR><BR>
 
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="6" WIDTH="100%">
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="gene_marker"></A>Gene/Marker or Allele</TH><TD>You can search on any mouse gene or allele symbol, name, or synonym.
