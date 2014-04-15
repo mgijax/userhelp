@@ -39,24 +39,26 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <a name="top"></a>
 <p>This help document answers the following questions:</p>
  <UL>
- <LI><A HREF="#whatuse">What can I use the Phenotypes, Alleles, and Disease Models Query Form to find?</A></LI>
- <LI><A HREF="#glossary">How does MGI define <I>phenotype, disease,</i> and <I>allele</I>? </a></LI>
- <LI><A HREF="#howfill">How do I fill in this query form?</A></LI>
+  <LI><A HREF="#whatuse">What can I use the Phenotypes, Alleles, and Disease Models Query Form to find?</A></LI>
+  <LI><A HREF="#glossary">How does MGI define <I>phenotype, disease,</i> and <I>allele</I>? </a></LI>
+  <LI><A HREF="#howfill">How do I fill in this query form?</A></LI>
      <ul>
-   <li><a href="#mp_ontology">Is there a list of phenotype terms to select from?</a></li>
-   <li><a href="#disease_ontology">Is there a list of disease terms to select from?</a></li>
-   <li><a href="ALLELE_phenotype_highlevel_help.shtml#whatis" target="_blank">How do I make choices on the Anatomical Systems Affected by Phenotypes list?</a></li>
-   <li><a href="#relationship">Can I query using both a phenotype term and a disease term?</a></li>
+		<li><a href="#mp_ontology">Is there a list of phenotype terms to select from?</a></li>
+   		<li><a href="#disease_ontology">Is there a list of disease terms to select from?</a></li>
+   		<li><a href="ALLELE_phenotype_highlevel_help.shtml#whatis" target="_blank">How do I make choices on the Anatomical Systems Affected by Phenotypes list?</a></li>
+   		<li><a href="#relationship">Can I query using both a phenotype term and a disease term?</a></li>
      </ul>
- <LI><A HREF="#field">What values are acceptable in each of the fields?</A></LI>
+   <LI><A HREF="#field">What values are acceptable in each of the fields?</A></LI>
  <!--<LI><A HREF="#invert_selected">*** What does Invert selected do?</A></LI>-->
- <LI><A HREF="ALLELE_summary_help.shtml" target="_blank">Where can I find answers to questions about the summary report resulting from my query?</A></LI>
- <LI><A HREF="#link">How can I find more detail on my query?</A></LI>
- <LI><A HREF="ALLELE_detail_help.shtml" target="_blank">Where can I find answers to questions about the detail report resulting from my query?</A></LI>
- <li><A href="#no_results">What if my query returns no results?</a></li>
- <li><A href="#gt_alleles">Can I use this query form to find all gene trapped alleles?</a></li>
- <li><A HREF="genetrap_usecase_help.shtml" target="_blank">Where can I find answers to questions about gene trapped alleles?</li>
- <LI><A HREF="MISC_boolean_search_help.shtml#examples" target="_blank">What are some examples of queries using phenotypic terms?</A></LI>
+   <LI><A HREF="ALLELE_summary_help.shtml" target="_blank">Where can I find answers to questions about the summary report resulting from my query?</A></LI>
+   <li><A href="#output">Are there different ways to view the output of my query?</a></li>
+   <LI><A HREF="#link">How can I find more detail on my query?</A></LI>
+   <LI><A HREF="ALLELE_detail_help.shtml" target="_blank">Where can I find answers to questions about the detail report resulting from my query?</A></LI>
+   <li><A href="#no_results">What if my query returns no results?</a></li>
+   <li><a href="#revise">Can I edit my original options and requery?</a></li>
+   <li><A href="#gt_alleles">Can I use this query form to find all gene trapped alleles?</a></li>
+   <li><A HREF="genetrap_usecase_help.shtml" target="_blank">Where can I find answers to questions about gene trapped alleles?</li>
+   <LI><A HREF="MISC_boolean_search_help.shtml#examples" target="_blank">What are some examples of queries using phenotypic terms?</A></LI>
  </UL>
 <!--<P>See also:
 <UL>
@@ -143,10 +145,6 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 
 <a href="#top"><font size="-1">Top</font></a>
 
-<H3><A name="output"></A>Are there different ways to view the output of my query?</H3>
-<P>Yes. *** See <a href="#sort">How do the sort options work?</H3></a> for details.</P>
-<a href="#top"><font size="-1">Top</font></a>
-
 <H3><A NAME="field"></A>What values are acceptable in each of the fields?</H3>
 <!--Search by phenotype and/or human disease vocabularies.Phenotype /Disease: </P>
 <a href="#top"><font size="-1">Top</font></a>	Enter any combination of phenotype terms, disease terms, or IDs	Hints for:quotes, partial word matching, using AND and OR...  	Select: Browse: Full Mammalian Phenotype (PM) Ontology	Browse: Human Disease (OMIM) Vocabulary-->
@@ -195,7 +193,7 @@ The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkin
 
 <P>How Boolean operators work:
      <OL>
-       <LI>Enter a single search term or multiple terms separated by AND or OR.<BR>             
+       <LI>Enter a single search term or multiple terms separated by AND or OR. Boolean operators must be in all capital letters.<BR>             
         The distinction between an AND and an OR text search is as follows:
 <UL>
   <LI>AND finds text that includes <B>both</B> the term before it and the term after it; for example, <I>heart and defect</I> finds <I>heart defect</I> but not <I>heart </I>and not <I>defect</I>.</LI>
@@ -266,7 +264,7 @@ gene trapped, targeted and transposon induced. See
   <li>You can exclude cell-line-only alleles from your search. <!--See <a href="genetrap_usecase_help.shtml#distinguish">Gene Trap Questions and Answers</a> for how to do this. --></li>
 </ul>
 </TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="attributes"></A>Allele Attributes</TH><TD VALIGN="top">These alleles are sub-types of the various generation methods. A given allele may have more than one attribute. For example ***. See 
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="attributes"></A>Allele Attributes</TH><TD VALIGN="top">These alleles are sub-types of the various generation methods. A given allele may have more than one attribute (example: Targeted (Null/knockout, Reporter)). See 
 <a href="ALLELE_phenotypic_categories_help.shtml" target="_blank">Allele Types</a> for how MGI differentiates these categories.</li></TR>
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="collections"></A>Collections</TH><TD VALIGN="top">Use this section if you want to limit your search to alleles produced by particular institutions/projects.</TR>
 <!-- <TR><TH ALIGN="left" VALIGN="top"><A NAME="clear_all"></a>Clear all</TH><td valign="top">Removes check marks from all boxes in this section of the query form. </TD></TR>
@@ -307,8 +305,14 @@ gene trapped, targeted and transposon induced. See
 
 <h3>Where can I find answers to questions about the summary report resulting from my query?</h3>
 <P>See <A HREF="ALLELE_summary_help.shtml" target="_blank">Understanding Phenotypic Allele Query Summary Reports</A>.</P>
+
 <a href="#top"><font size="-1">Top</font></a>
 
+<H3><A name="output"></A>Are there different ways to view the output of my query?</H3>
+<p>Yes. Click on the Allele Symbol, Chr, Category or Human Disease Models column headings or the up/down arrowheads ( &#9660; &#9650;) to change the sort order of your results.</p>
+<p>The results summary also allows you to export your results as tab-delimited text and spreadsheet file formats. In your search results, click on the Text File or Excel File icon. Your web browser will download a file of the results.</p>
+
+<a href="#top"><font size="-1">Top</font></a>
 
 <H3><A NAME="link"></A>How can I find more detail on my query?</H3>
 <P>On the Phenotypic Allele Query Results -- Summary page, each allele symbol and each member of an allele pair is linked to a detailed record. Click the item of interest in either the <B>Allele</B> column or the <B>Allelic Composition (Genetic Background)</B> column to see its <B>Phenotypic Alleles Query Results -- Details</B> page.   
@@ -351,6 +355,29 @@ gene trapped, targeted and transposon induced. See
 </UL>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="revise"></a>Can I edit my original options and requery?</h3>
+
+<p>Yes, you can.</p>
+<ul><li>If you want to edit a list or change output options:</li>
+<ol>
+  <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. </li>
+  <li>Make your changes.</li>
+  <li>Click Search.</li>
+  <li>Repeat until the desired results appear.</li>
+</ol>
+</ul>
+
+<b>Notes:</b> 
+<ul>
+<li>You can requery as many times as you like.</li>
+<!--<li>If you had <a href="#filter">filtered</a> your search results, when you modify your search, the filters are automatically applied to your modified results.</li>-->
+<li>Alternatively, click Reset to return to the original Phenotypes, Alleles, and Disease Models Query form. </li>
+</ul>
+</p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
 
 <h3><A name="gt_alleles"></a>Can I use this query form to find all gene trapped alleles?</h3>
 <p>Yes. Click the <b>gene trapped</b> box in the Categories section of the query form.</p>
