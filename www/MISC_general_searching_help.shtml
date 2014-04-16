@@ -85,13 +85,7 @@ query options in an easy-to-use format. Help documentation is available on-line 
 <LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF" target="_blank">Mouse SNP Query Form</A> (Single Nucleotide Polymorphisms) </LI>
 <LI><A HREF="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A></LI>
  <LI><a href="<!--#include file='include/fewi_url.html'-->reference" target="_blank">References Query Form</A> </LI>
- <!--<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/polymorphism_form.shtml"> RFLP/PCR Polymorphism Query Form</A></LI>
- <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/cytomap_form.shtml">Cytogenetic Map (Using Information from MGD)</A> </LI>
- <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/linkmap_form.shtml">Linkage Map (Using Information from MGD)</A></LI>
- <li><a href="/http://www.informatics.jax.org/reports/mitmap/">Physical Maps (Integrated Whitehead/MIT Linkage and Physical Maps)</a></li>
- <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/riset_form.shtml">Recombinant Inbred Strain Distribution Patterns Query Form</A> </LI>
- <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/rcset_form.shtml">Recombinant Congenic Strain Distribution Patterns Query Form</A></LI>-->
-</UL><br>
+ </UL><br>
 See also
 <A HREF="<!--#include file='include/wi_url.html'-->menus/allsearch.shtml" target="_blank">All Search Tools</A> for a list of query forms arranged by function.</li><br>
 
@@ -104,13 +98,9 @@ records that match <B>all</B> the criteria you enter as, for example,when you ma
 </BLOCKQUOTE>
 <P>The query returns any marker on Chr. 6 whose symbol, name or synonym begins with <I>hox</I>.</P>
 </li>
-
-<LI>Select output format and sort options for your results.<BR>
-These options are useful when your query retrieves a large number of results, or if you want to generate a listing organized in a certain way.  For example, you might want to see markers on a chromosome in linkage order.</li>
-<P>
-<LI>If you think a search may be too broad, select a maximum number of items to return.  Check these results to ensure you are getting the desired information. If not, expand or narrow your search, either by entering more parameters, or by being more specific in the ones you do enter, or by changing the number of records to return. </li>
-
 <LI>Execute searches by clicking Search.</li>
+<li>Your search results may offer sort options. Click on the column headings or the up/down arrowheads ( &#9660; &#9650;) to change the sort order of your results. For example, you might want to see markers on a chromosome in the order of their genome coordinates.</li>
+<li>If your search was too broad or narrow, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. You can then expand or narrow your search, either by entering more parameters, or by being more specific in the ones you do enter. </li>
 </uL>
 <P> The query results are usually a list of records in an abbreviated format. The display contains links to related information in the MGI database.
  </P>
