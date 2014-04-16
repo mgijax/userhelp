@@ -78,7 +78,7 @@ function openHelpWindow(helpFile){
 <UL>
   <LI><A HREF="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</A> (phenotype/disease field)</LI>
   <LI><a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Search</A> (Text field)</LI>
-  <LI><A HREF="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A>(phenotype/disease field)</LI>
+  <LI><A HREF="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A> (phenotype/disease field)</LI>
 </UL>
 </p>
 <A HREF="#top">Top</A>
@@ -107,7 +107,7 @@ function openHelpWindow(helpFile){
 <A HREF="#top">Top</A>
 
 <H3><A NAME="boolean_operators"></A>Which Boolean operators are allowed? How do they work? Is there a default operator?</H3>
-<p>&nbsp;Two operators are allowed: AND and OR.  NOT is currently unsupported but may be added at a future time. By default, a space between terms is interpreted as an OR. <br>&nbsp;The format is:
+<p>&nbsp;Four operators are allowed: AND, OR, NOT, or AND NOT in all-uppercase. By default, a space between terms is interpreted as an OR. <br>&nbsp;The format is:
 
 <BLOCKQUOTE>
  <I>term</I> OPERATOR <I>term</I>  ...<br>
@@ -130,7 +130,7 @@ function openHelpWindow(helpFile){
 
 <h3><a name="multiple"></a>How do I construct a query using multiple terms?</h3>
 <p>By default, the search tool interprets a space between terms as OR. Therefore, if you want results for something containing <i>term1</i> <i>and</i> <i>term2</i> and <i>term3</i>, be sure to enter <b>AND</b> between the terms.
-<li>When diseases names contain multiple word, numeral or letter designations, enclose expressions that go together in quotation marks; for example, entering <i>diabetes and insulin resistance</i> returns approximately 171 matches whereas entering <i>diabetes and "insulin resistance"</i> returns 36 matches.
+<li>When diseases names contain multiple word, numeral or letter designations, enclose expressions that go together in quotation marks; for example, entering insulin resistance returns over 7000 matches whereas entering "insulin resistance" returns over 300 matches.
 </ul>
 </p>
 <A HREF="#top">Top</A>
@@ -143,17 +143,15 @@ itself contains a comma and you want to search on the exact phrase, enclose put 
 </p>
 <A HREF="#top">Top</A>
 
-
-
 <H3><A name="case"></A>Does case matter?</H3>
-<P>No. The search engine is not case sensitive. Terms and operators may be uppercase, lowercase, or any mixture of the two. 
+<P>The MGI search engine is not case sensitive. Terms may be uppercase, lowercase, or any mixture of the two. Boolean operators, however, are the one exception. Operators must be upper case. A lower case <i>and</i> is ignored. 
 </P>
 <A HREF="#top">Top</A>
 
 <H3><A name="rules"></A>What are the rules for full-text searching?</H3>
 <p><UL>
-<LI>Enter one or more terms or multi-word terms (e.g., <I>circulatory</I>, &nbsp; <I>immune system</I>).</LI>
-<LI>Separate words or phrases with one of the <A HREF="#boolean_operators">operators</A>: AND or OR. Example: <i>liver and pancreas</i></LI>
+<LI>Enter one or more terms or multi-word terms (e.g., <I>circulatory</I>, &nbsp; <I>"immune system"</I>).</LI>
+<LI>Separate words or phrases with one of the <A HREF="#boolean_operators">operators</A>: AND or OR. Example: <i>liver AND pancreas</i></LI>
  <LI>Add "whitespace" (space or tab) on either side of any operator. Example:<i> embryogenesis &nbsp;AND&nbsp; defect</i></LI>
 <LI>Enclose text in quotation marks if you want the search to return only items containing that phrase; e.g., <i>"endocrine system"</i></LI>
 <LI>Enclose terms in quotation marks if you want the search to return only exact matches on that term; e.g., if you want  <I>regulation</I> and not related words such as <I>regulatory</I>, put quotes around it. See <A HREF="#quotes">How do I use quotation marks?</A></LI>
@@ -163,7 +161,7 @@ itself contains a comma and you want to search on the exact phrase, enclose put 
 
 <h3><A name="word_stemming"></A>What is  word stemming and how does it work?</h3>
 
-<P>The MGI search engine stems (i.e., cuts off) at the word level to retrieve matches that are close yet not exact. For example, you can enter <i>diabetic</i> or <i>diabetes</i> and get the same results because the system truncates your entry to <I> diabet</I>. 
+<P>The MGI Quick Search engine stems (i.e., cuts off) at the word level to retrieve matches that are close yet not exact. For example, you can enter <i>diabetic</i> or <i>diabetes</i> and get the same results because the system truncates your entry to <I> diabet</I>. The Query Form text fields do not support stemming and the Quick Search does not support boolean operators. See <a href="QUICK_SEARCH_help.shtml" target="_blank">Using the Quick Search Tool</a> for more information.
 </P>
 <A HREF="#top">Top</A>
 
@@ -205,14 +203,13 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
  <h3><A name="restrictions"></a>Are there any restrictions on full-text searching?</h3>
 <ul>
 <LI>Wildcards are not allowed.</LI>
-<LI>The NOT operator is not allowed. </li>
-<LI>If you do not enter an operator, the default is AND between terms.</li>
+<LI>If you do not enter an operator, the default is OR between terms.</li>
 <LI>The system ignores variations in punctuation and spacing. The results for each of the following entries are the same.</li>
  <blockquote>
  
       <i>heart, defect</i><br>
       <i>heart defect</i> <br>
-      <i>heart and defect</i>  
+      <i>heart OR defect</i>  
 
 </blockquote>
 
