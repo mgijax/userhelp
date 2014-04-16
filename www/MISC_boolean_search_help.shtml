@@ -77,9 +77,8 @@ function openHelpWindow(helpFile){
 <P>The following MGI query forms support full-text searches:</P>
 <UL>
   <LI><A HREF="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</A> (phenotype/disease field)</LI>
- <LI><a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Search</A> (Text field)</LI>
-  <LI><A HREF="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A></LI>
-  <!--<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/sequence_form.shtml">Mouse Sequence Query Form</a> (Phenotype/Disease field)</LI>-->
+  <LI><a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Search</A> (Text field)</LI>
+  <LI><A HREF="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A>(phenotype/disease field)</LI>
 </UL>
 </p>
 <A HREF="#top">Top</A>
@@ -108,7 +107,7 @@ function openHelpWindow(helpFile){
 <A HREF="#top">Top</A>
 
 <H3><A NAME="boolean_operators"></A>Which Boolean operators are allowed? How do they work? Is there a default operator?</H3>
-<p>&nbsp;Two operators are allowed: AND and OR.  NOT is currently unsupported but may be added at a future time. By default, a space between terms is interpreted as an AND. <br>&nbsp;The format is:
+<p>&nbsp;Two operators are allowed: AND and OR.  NOT is currently unsupported but may be added at a future time. By default, a space between terms is interpreted as an OR. <br>&nbsp;The format is:
 
 <BLOCKQUOTE>
  <I>term</I> OPERATOR <I>term</I>  ...<br>
@@ -123,14 +122,14 @@ function openHelpWindow(helpFile){
 <TR><th align=width="15%">If you enter...</TH><TH>the search tool returns...</TH></TR>
   <TR><td VALIGN="top"><nobr>heart AND defect</Td><TD VALIGN="top">Entries for <I>heart defect</I> but not for <I>heart</I> by itself or for <I>defect</I> by itself. Both expressions must appear in any matching terms. </TD></TR>
   <TR><td valign="top">heart OR defect</Td><TD VALIGN="top">Entries for either <I>heart</I> or <I> defect</I>. </TD></TR>
- <TR><td valign="top">heart defect</Td><TD VALIGN="top">Entries for <I>heart defect</I> but not for <I>heart</I> by itself or for <I>defect</I> by itself. (Same results as <i>heart</i> and <i>defect</i>, above.)</TD></TR>
+ <TR><td valign="top">heart defect</Td><TD VALIGN="top">Entries for either <I>heart</I> or <I> defect</I>. (Same results as <i>heart</i> OR <i>defect</i>, above.)</TD></TR>
 </TABLE>
 </BLOCKQUOTE>
 <A HREF="#top">Top</A>
 
 
 <h3><a name="multiple"></a>How do I construct a query using multiple terms?</h3>
-<p>By default, the search tool interprets a space between terms as AND. Therefore, if you do not want results for something containing <i>term1</i> <i>and</i> <i>term2</i> and <i>term3</i>, be sure to enter <b>or</b> between terms: entering <i>diabetes and Parkinsonism</i>, for example, (probably) yields zero results because there are (currently in MGI) no diseases containing both terms.
+<p>By default, the search tool interprets a space between terms as OR. Therefore, if you want results for something containing <i>term1</i> <i>and</i> <i>term2</i> and <i>term3</i>, be sure to enter <b>AND</b> between the terms.
 <li>When diseases names contain multiple word, numeral or letter designations, enclose expressions that go together in quotation marks; for example, entering <i>diabetes and insulin resistance</i> returns approximately 171 matches whereas entering <i>diabetes and "insulin resistance"</i> returns 36 matches.
 </ul>
 </p>
@@ -223,7 +222,7 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
 <A HREF="#top">Top</A><br>
 
 <H3><a name="examples"></a>Are there examples?</H3>
-<p>See also <a href="VOCAB_omim_browser_help.shtml#examples" target="_blank">examples</a> (with results specific to the Human Disease Vocabulary Browser).
+<br>
 
  <table border=1 cellpadding=4>
   <TR><TH ALIGN="left" VALIGN="top">If you enter...</TH><TH ALIGN="left" VALIGN="top">you'll get results for...</TH><TH ALIGN="left" VALIGN="top">Why?</TH></TR>
