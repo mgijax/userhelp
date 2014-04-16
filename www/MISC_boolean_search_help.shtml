@@ -296,7 +296,6 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
 <li>Check the punctuation in your search string and make sure that all necessary quotation marks and parentheses are present and balanced.</li>
 <LI>Check your spelling and the sections on <A href="#partial_word_matching">partial word matching</A> and <A href="#word_stemming">word stemming</A> again.</LI>
 <LI>Retry your query, using more (or fewer, more specific) parameters.</LI>
-<LI>Change the number next to <B>Maximum Returned.</b>
 </ul>
 <A HREF="#top">Top</A>
 
@@ -319,7 +318,6 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
 <LI>There is an error in the text search string in the Phenotypes/Diseases box. For example, did you enclose multi-word terms in quotation marks? See <a href="#examples">examples</a> for help.</LI>
   <LI>The allele nomenclature is incorrect (see 
 <a href="<!--#include file='include/mgihome_url.html'-->/nomen/allmut_quickhelp.shtml" target="_blank">Quick Guide to Nomenclature for Alleles and Mutations).</a></LI>
-<LI>The number in <b>Maximum Returned</b> is zero.</LI>
 <LI>The database does not contain your term yet. </LI>
 
 </UL>
