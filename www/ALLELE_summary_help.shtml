@@ -145,6 +145,7 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
 <li>You can requery as many times as you like.</li>
 <!--<li>If you had <a href="#gxdfilter">filtered</a> your search results, when you modify your search, the filters are automatically applied to your modified results.</li>-->
 <li>Alternatively, click Reset to return to the original Phenotypes, Alleles & Disease Models Query form. </li>
+<LI>See <A HREF="ALLELE_help.shtml" target="_blank">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
 </ul>
 </p>
 <a href="#top"><font size="-1">Top</font></a>
