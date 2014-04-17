@@ -93,6 +93,7 @@ Using the Genes and Markers Query Form</span>
 	<ul>
 		<li>The gene nomenclature field supports an asterisk as a wild card. A search for pax* finds gene symbols and names that begin with <i>pax</i>.</li>
 		<li>A search for *box* looks for nomenclature that contains <i>box</i>. This search finds the arginine decarboxylase gene, homeobox genes and paired box genes.</li>
+		<li>A search for *apoe* finds not only the Apoe gene but transgenes containing APOE.</li>
 		<li>A search for <i>growth factor</i> finds nomenclature containing <i>growth</i> AND <i>factor</i>.</li>
 		<li>Synonyms (unofficial gene names used in publications and former official gene symbols) are also searched.</li>
 		<li>This field searches only alphanumeric characters. Single and double quotes, commas and hyphens are ignored.</li>
