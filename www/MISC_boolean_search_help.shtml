@@ -50,13 +50,13 @@ function openHelpWindow(helpFile){
 <li><a href="#terms_with_commas">What if a term contains commas?</a></li>
 <li><A HREF="#case">Does case matter?</A></li>
 <li><A HREF="#rules">What are the rules for full-text searching?</a></li>
-<li><A HREF="#word_stemming">What is word stemming and how does it work?</A></li>
-<li><A HREF="#partial_word_matching">What is partial word matching and how does it work?</A></li>
+<!--<li><A HREF="#word_stemming">What is word stemming and how does it work?</A></li>
+<li><A HREF="#partial_word_matching">What is partial word matching and how does it work?</A></li>-->
 <li><A HREF="#quotes">How do I use quotation marks?</A></li>
-<li><A HREF="#parentheses">How do I use parentheses?</A></li>
- <LI><A HREF="#restrictions">Are there any restrictions on full-text searching?</a></li>
- <LI><A HREF="#examples">Are there examples?</a></li>
-<LI><A HREF="#error">What should I do if I get an error message?</A></LI>
+<!--<li><A HREF="#parentheses">How do I use parentheses?</A></li>-->
+<LI><A HREF="#restrictions">Are there any restrictions on full-text searching?</a></li>
+<LI><A HREF="#examples">Are there examples?</a></li>
+<!--<LI><A HREF="#error">What should I do if I get an error message?</A></LI>-->
 <li> <a href="#no_results">What happens if my query returns no results?</a></li>
  </UL>
  
@@ -153,13 +153,13 @@ itself contains a comma and you want to search on the exact phrase, enclose put 
 <LI>Enter one or more terms or multi-word terms (e.g., <I>circulatory</I>, &nbsp; <I>"immune system"</I>).</LI>
 <LI>Separate words or phrases with one of the <A HREF="#boolean_operators">operators</A>: AND or OR. Example: <i>liver AND pancreas</i></LI>
  <LI>Add "whitespace" (space or tab) on either side of any operator. Example:<i> embryogenesis &nbsp;AND&nbsp; defect</i></LI>
-<LI>Enclose text in quotation marks if you want the search to return only items containing that phrase; e.g., <i>"endocrine system"</i></LI>
-<LI>Enclose terms in quotation marks if you want the search to return only exact matches on that term; e.g., if you want  <I>regulation</I> and not related words such as <I>regulatory</I>, put quotes around it. See <A HREF="#quotes">How do I use quotation marks?</A></LI>
+<LI>Enclose text in quotation marks if you want the search to return only items containing that phrase; e.g., <i>"endocrine system"</i>. See <A HREF="#quotes">How do I use quotation marks?</A></LI>
+<!--<LI>Enclose terms in quotation marks if you want the search to return only exact matches on that term; e.g., if you want  <I>regulation</I> and not related words such as <I>regulatory</I>, put quotes around it. See <A HREF="#quotes">How do I use quotation marks?</A></LI>-->
  </UL>
 </p>
 <A HREF="#top">Top</A>
 
-<h3><A name="word_stemming"></A>What is  word stemming and how does it work?</h3>
+<!--<h3><A name="word_stemming"></A>What is  word stemming and how does it work?</h3>
 
 <P>The MGI Quick Search engine stems (i.e., cuts off) at the word level to retrieve matches that are close yet not exact. For example, you can enter <i>diabetic</i> or <i>diabetes</i> and get the same results because the system truncates your entry to <I> diabet</I>. The Query Form text fields do not support stemming and the Quick Search does not support boolean operators. See <a href="QUICK_SEARCH_help.shtml" target="_blank">Using the Quick Search Tool</a> for more information.
 </P>
@@ -171,14 +171,13 @@ itself contains a comma and you want to search on the exact phrase, enclose put 
 </P>
 <P>Therefore, be sure to put a space in front of any term that begins, ends, or is contained in another term and enclose the term in quotation marks. For example, if you want results for <i>eye</i>, you must enter <i>&#147;&nbsp;&nbsp;eye&#148;</i>.  If you don't, the system stems <I>eye</I> to <I>ey</I> and matches <I>ey</I> any where in a word, thus returning results for e.g., kidn<b>ey</b> as well as <b>eye</b>.</li>
 </ul></p>
-<A HREF="#top">Top</A><br>
+<A HREF="#top">Top</A><br>-->
 
 <h3><A name="quotes"</A>How do I use quotation marks?</h3>
 <ul>
-  <li>Enclose anything that you do not want reduced to a stem in quotation marks (quotation marks "turn off" <A href="#word_stemming">word stemming</A>).  For example, if you want results for <I>cardiac</I> but not <I>cardiovascular</I>, enclose the former in quotes to prevent a return of everything beginning with <I>cardio</I>.
+  <!--<li>Enclose anything that you do not want reduced to a stem in quotation marks (quotation marks "turn off" <A href="#word_stemming">word stemming</A>).  For example, if you want results for <I>cardiac</I> but not <I>cardiovascular</I>, enclose the former in quotes to prevent a return of everything beginning with <I>cardio</I>.
 
-<br>On the other hand, if you want to look at every allele or phenotype involved in immunity, simply enter the stem, <I>immun</I> without the quotation marks.</li>
-
+<br>On the other hand, if you want to look at every allele or phenotype involved in immunity, simply enter the stem, <I>immun</I> without the quotation marks.</li>-->
   <li>If the term you are entering contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: <i>&#147;cyclin B1, related sequence&#148;</i>).</li></li>
   <li>Be sure that all quotation marks are balanced. There must be one pair before and after each search term (e.g., <I>&#147;abnormal morphology&#148;</I>).</LI>
 <LI>Use only double quotation marks (single quotation marks - i.e, &#145;<i>cardio</i>&#146; - are invalid.</LI>
@@ -188,7 +187,7 @@ itself contains a comma and you want to search on the exact phrase, enclose put 
 
 <A HREF="#top">Top</A><br>
 
-<h3><A name="parentheses"></A>How do I use parentheses?</h3>
+<!--<h3><A name="parentheses"></A>How do I use parentheses?</h3>
 <p>Parentheses tell the search engine the order in which it should interpret your terms. Consider two examples:
 <blockquote>
  a or b and c &nbsp;&nbsp;&nbsp;e.g., cord or column and spinal <br>
@@ -198,11 +197,10 @@ By default, the engine interprets AND first, and so evaluates the first example 
 The second example returns results for <I>spinal cord</I> or <I>spinal column</I>.
 </p>
 <P>See <A href="#boolean_operators">Which Boolean operators are allowed? How do they work? Is there a default operator?</A> for how the search engine interprets AND and OR.</P>
-<A HREF="#top">Top</A><br>
+<A HREF="#top">Top</A><br>-->
 
  <h3><A name="restrictions"></a>Are there any restrictions on full-text searching?</h3>
 <ul>
-<LI>Wildcards are not allowed.</LI>
 <LI>If you do not enter an operator, the default is OR between terms.</li>
 <LI>The system ignores variations in punctuation and spacing. The results for each of the following entries are the same.</li>
  <blockquote>
@@ -228,7 +226,7 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
 
  <TR><td valign="top">hearing</td> <TD VALIGN="top">hear</td><td valign="top"> <A href="#word_stemming">Word stemming.</a></TD></tr>
 
- <TR><td valign="top">hearing</td> <TD VALIGN="top">hearing, heard, hears, heart</td><td valign="top"><A href="#partial_word_matching">Partial word matching.</a></TD></tr>
+ <!--<TR><td valign="top">hearing</td> <TD VALIGN="top">hearing, heard, hears, heart</td><td valign="top"><A href="#partial_word_matching">Partial word matching.</a></TD></tr>
 
  <TR><td valign="top">"hearing"</td> <TD VALIGN="top">hearing<br>shearing</td><td valign="top">Full word match<br><A href="#partial_word_matching">Partial word matching.</a> </TD></tr>
 
@@ -237,19 +235,18 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
  <TR><td valign="top">" ear"</td> <TD VALIGN="top">ear, ears, early</td>
 <td valign="top"><a href="#quotes">Quotation mark</a> and white space at beginning eliminates <A href="#partial_word_matching">partial word matches</a> on hear, heart.</TD></tr>
 
- <TR><td valign="top">" ear "</td> <TD VALIGN="top">Only ear</td><td valign="top">Leading and trailing quotation marks and white spaces prevent <A href="#partial_word_matching">partial word matching</a> at either end; no returns for early, hear, ears, or heart. </TD></tr>
+ <TR><td valign="top">" ear "</td> <TD VALIGN="top">Only ear</td><td valign="top">Leading and trailing quotation marks and white spaces prevent <A href="#partial_word_matching">partial word matching</a> at either end; no returns for early, hear, ears, or heart. </TD></tr>-->
 
- <TR><td valign="top">spinal cord</td> <TD VALIGN="top">spinal cord</td><td valign="top">Implicit <a href="#boolean_operators">AND</a> operator.</TD></tr>
-
- <TR><td valign="top">"spinal cord"</td> <TD VALIGN="top">spinal cord</td><td valign="top"><a href="#quotes">Quotation marks.</a></TD></tr>
-   <tr><td valign="top">spinal or cord</td><TD VALIGN="top">Anything containing either spinal or cord</td>
+ <TR><td valign="top">spinal cord</td> <TD VALIGN="top">Anything containing either spinal or cord</td><td valign="top">Implicit <a href="#boolean_operators">OR</a> operator.</TD></tr>
+	<TR><td valign="top">"spinal cord"</td> <TD VALIGN="top">spinal cord</td><td valign="top"><a href="#quotes">Quotation marks.</a></TD></tr>
+   <tr><td valign="top">spinal OR cord</td><TD VALIGN="top">Anything containing either spinal or cord</td>
 <td valign="top"><a href="#boolean_operators">OR</a> operator.</TD></tr>
-   <tr><td valign="top">spinal and cord</td> 
+   <tr><td valign="top">spinal AND cord</td> 
        <TD VALIGN="top">Anything containing both <I>spinal</I> and cord </td>
        <td valign="top"><a href="#boolean_operators">AND</a> operator.</TD>  </tr>
 
   <tr><td valign="top">spinal, cord</td>
-       <td valign="top">Anything containing both <I>spinal</I> and  <I>cord</I> </td>
+       <td valign="top">Anything containing either <I>spinal</I> or  <I>cord</I> </td>
        <td valign="top"><a href="#boolean_operators">AND</a> operator. System ignores extraneous punctuation.</tr>
 
   <tr><td valign="top">spinal and (cord or column)</td>
@@ -291,13 +288,13 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
 </table></p>
 <A HREF="#top">Top</A><br>
 
-<H3><a name="error"></a>What should I do if I get an error message?</H3>
+<!--<H3><a name="error"></a>What should I do if I get an error message?</H3>
 <ul>
-<li>Check the punctuation in your search string and make sure that all necessary quotation marks and parentheses are present and balanced.</li>
-<LI>Check your spelling and the sections on <A href="#partial_word_matching">partial word matching</A> and <A href="#word_stemming">word stemming</A> again.</LI>
+<li>Check the punctuation in your search string and make sure that all necessary quotation marks are present and balanced.</li>
+<LI>Check your spelling.</LI>
 <LI>Retry your query, using more (or fewer, more specific) parameters.</LI>
 </ul>
-<A HREF="#top">Top</A>
+<A HREF="#top">Top</A>-->
 
   <h3><A name="no_results"></a>What happens if my query returns no results?</h3>
 
