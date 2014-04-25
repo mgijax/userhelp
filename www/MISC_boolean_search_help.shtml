@@ -69,7 +69,7 @@ function openHelpWindow(helpFile){
 </UL>
 
 <h3><A name="full_text"></a>What is a full-text searching?</h3>
-<p>In full-text searching, the system takes the term you enter, looks for that text in all database records of the appropriate type, and returns a list of <strong>all</strong> records containing the term in the search string.</p><P>Note: If you enter more than one term, you will get back records that contain <B>all</B> the terms. See <A HREF="#boolean_operators">Which Boolean operators are allowed? How do they work? Is there a default operator?</A>.
+<p>In full-text searching, the system takes the term you enter, looks for that text in all database records of the appropriate type, and returns a list of <strong>all</strong> records containing the term in the search string.</p><P>Note: If you enter more than one term, you will get back records that contain <B>either</B> term. See <A HREF="#boolean_operators">Which Boolean operators are allowed? How do they work? Is there a default operator?</A>.
 </P>
 <A HREF="#top">Top</A><br>
 
@@ -137,7 +137,7 @@ function openHelpWindow(helpFile){
 
 
 <h3><a name="terms_with_commas"></a>What if a term contains commas?</h3>
-<p>Commas between terms (or within terms) are interpreted as ORs. Therefore, if the term 
+<p>Commas between terms (or within terms) are ignored. Therefore, if the term 
 itself contains a comma and you want to search on the exact phrase, enclose put the entire term in quotation marks (example: <i>"cyclin B1, related sequence"</i>).
 </p>
 </p>
@@ -222,9 +222,9 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
  <table border=1 cellpadding=4>
   <TR><TH ALIGN="left" VALIGN="top">If you enter...</TH><TH ALIGN="left" VALIGN="top">you'll get results for...</TH><TH ALIGN="left" VALIGN="top">Why?</TH></TR>
 
- <TR><td valign="top">membrane</td><td valign="top">membrane, membranous; transmembrane anything containing <I>membran</I></I></td><TD VALIGN="top"> <A href="#word_stemming">Word stemming</a> and <A href="#partial_word_matching">partial word matching.</a></TD></tr>
+ <!--<TR><td valign="top">membrane</td><td valign="top">membrane, membranous; transmembrane anything containing <I>membran</I></I></td><TD VALIGN="top"> <A href="#word_stemming">Word stemming</a> and <A href="#partial_word_matching">partial word matching.</a></TD></tr>-->
 
- <TR><td valign="top">hearing</td> <TD VALIGN="top">hear</td><td valign="top"> <A href="#word_stemming">Word stemming.</a></TD></tr>
+ <TR><td valign="top">hearing</td> <TD VALIGN="top">hear, hearing</td><td valign="top"> <A href="#word_stemming">Word stemming.</a></TD></tr>
 
  <!--<TR><td valign="top">hearing</td> <TD VALIGN="top">hearing, heard, hears, heart</td><td valign="top"><A href="#partial_word_matching">Partial word matching.</a></TD></tr>
 
@@ -247,7 +247,7 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
 
   <tr><td valign="top">spinal, cord</td>
        <td valign="top">Anything containing either <I>spinal</I> or  <I>cord</I> </td>
-       <td valign="top"><a href="#boolean_operators">AND</a> operator. System ignores extraneous punctuation.</tr>
+       <td valign="top"><a href="#boolean_operators">OR</a> operator. System ignores extraneous punctuation.</tr>
 
   <tr><td valign="top">spinal and (cord or column)</td>
        <td valign="top">Anything containing both <I>spinal</I> and  <I>cord</I> or <I>column</I></td>
@@ -265,11 +265,11 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
        <td valign="top">abnormal spinal cord morphology results</td>
        <td valign="top">System ignores extraneous punctuation.
       </tr>
- <tr><td valign="top">Factor V Deficiency</td>
+ <tr><td valign="top">Factor VII Deficiency</td>
        <td valign="top">results for Factor V, VI, VII, etc.</td>
        <td valign="top"><a href="#partial_word_matching">Partial match</a> on V.
       </tr>
- <tr><td valign="top">"Factor V Deficiency"</td>
+ <tr><td valign="top">"Factor VII Deficiency"</td>
        <td valign="top">Factor V alone</td>
        <td valign="top">Quotation marks turn off <a href="#word_stemming">stemming.</a></td>
       </tr>
