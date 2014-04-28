@@ -115,8 +115,10 @@ Using the Human&mdash;Mouse: Disease Connection </span>
 
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="genes"></A>Search by genes</TH><TD>
 Symbol, name, synonym, homolog or ID for a human or mouse genetic marker.
-<ul><li>Enter one or more markers, separated by commas or returns. <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
+<ul>
+<li>Enter one or more markers, separated by commas or returns. <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
 <li>The asterisk (*) is supported as a wild-card. As an example, use fbn* to find phenotypes and diseases associated with fibrillins.</li>
+<li>This section also offers the option of uploading a text (.txt) file of a column or comma separated list gene symbols or IDs. </li>
 </ul>
 </TD></TR>
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="region"></A>Search by genome locations</TH><TD>You can enter a list of mouse or human genomic regions (e.g. 2:105668896-108698410, 13:22210730-22311689) and use the radio button to specify the species (Mouse or Human). You can enter multiple regions separated by commas, spaces and/or returns.
@@ -203,7 +205,7 @@ VCF files are processed in the following manner:
 	<li>Lines starting with "#" (the comment character for this file format) are ignored.</li>
 	<li>The software looks in Column 1 for the chromosome and Column 2 for the coordinate position.</li>
 	<li>The data are processed based on the column position, not the column label.</li>
-	<li>If Column 3 (ID) contains an RS ID (refSNP ID), that line is removed from the file and not used for the search. If you wish to include these lines, then remove those IDs from this column in the file you upload.</li>
+	<li>If Column 3 (ID) contains an RS ID (refSNP ID), that line is removed from the file and not used for the search. If you wish to include these lines, then remove those IDs from this column in the file you upload or uncheck <i>Apply filters</i>.</li>
 	<li>If Column 7 (FILTER) contains any value other than "PASS" (case-insensitive), no value, or a dot, that line is removed from the file and not used for the search (i.e. only rows in Column 7 with "PASS" or "." or are empty are used).</li>
 	<li>Files with more than 100,000 lines are likely to time out. We suggest breaking up these files into smaller ones. Files larger than 100,000 lines should be permitted in a future release.</li>
 	<li>Only standard format VCF files and tab-delimited text files can be processed. Microsoft Excel and Apple Numbers files should be saved as tab-delimited text before uploading.</li>
@@ -329,7 +331,7 @@ Click the GO button.<br></br>
 <!--2-->
 <li>I have genome locations for some human SNPs. How can I see if there are any mouse phenotypes associated with homologs of the human gene?
 <blockquote>
-Paste your genomic coordinates for human build GRCh37 in the center, <b>Search by genome locations</b>, section of the form: <br>
+Paste your genomic coordinates for human build GRCh38 in the center, <b>Search by genome locations</b>, section of the form: <br>
 	<blockquote>
 	chr22:18217079<br>
 	chr22:18220831<br>
