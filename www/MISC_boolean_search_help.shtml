@@ -173,7 +173,7 @@ itself contains a comma and you want to search on the exact phrase, enclose put 
 </ul></p>
 <A HREF="#top">Top</A><br>-->
 
-<h3><A name="quotes"</A>How do I use quotation marks?</h3>
+<h3><A name="quotes"></A>How do I use quotation marks?</h3>
 <ul>
   <!--<li>Enclose anything that you do not want reduced to a stem in quotation marks (quotation marks "turn off" <A href="#word_stemming">word stemming</A>).  For example, if you want results for <I>cardiac</I> but not <I>cardiovascular</I>, enclose the former in quotes to prevent a return of everything beginning with <I>cardio</I>.
 
