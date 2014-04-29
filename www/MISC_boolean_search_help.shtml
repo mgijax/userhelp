@@ -238,7 +238,7 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
  <TR><td valign="top">" ear "</td> <TD VALIGN="top">Only ear</td><td valign="top">Leading and trailing quotation marks and white spaces prevent <A href="#partial_word_matching">partial word matching</a> at either end; no returns for early, hear, ears, or heart. </TD></tr>-->
 
  <TR><td valign="top">spinal cord</td> <TD VALIGN="top">Anything containing either spinal or cord</td><td valign="top">Implicit <a href="#boolean_operators">OR</a> operator.</TD></tr>
-	<TR><td valign="top">"spinal cord"</td> <TD VALIGN="top">spinal cord</td><td valign="top"><a href="#quotes">Quotation marks.</a></TD></tr>
+	<TR><td valign="top">"spinal cord"</td> <TD VALIGN="top">Anything containing the phrase, <i>spinal cord</i></td><td valign="top"><a href="#quotes">Quotation marks.</a></TD></tr>
    <tr><td valign="top">spinal OR cord</td><TD VALIGN="top">Anything containing either spinal or cord</td>
 <td valign="top"><a href="#boolean_operators">OR</a> operator.</TD></tr>
    <tr><td valign="top">spinal AND cord</td> 
@@ -249,41 +249,26 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
        <td valign="top">Anything containing either <I>spinal</I> or  <I>cord</I> </td>
        <td valign="top"><a href="#boolean_operators">OR</a> operator. System ignores extraneous punctuation.</tr>
 
-  <tr><td valign="top">spinal and (cord or column)</td>
+  <tr><td valign="top">spinal AND (cord OR column)</td>
        <td valign="top">Anything containing both <I>spinal</I> and  <I>cord</I> or <I>column</I></td>
        <td valign="top"><a href="#boolean_operators">AND</a> <a href="#parentheses">parentheses</a>, <a href="#boolean_operators">OR</a>.
       </tr>
-  <tr><td valign="top">spinal and (cord or column</td>
-       <td valign="top">Error</td>
-       <td valign="top">Opening parenthesis is present; closing parenthesis is missing.
+  <tr><td valign="top">spinal and cord</td>
+       <td valign="top">Anything containing either spinal or cord</td>
+       <td valign="top">Implicit <a href="#boolean_operators">OR</a> operator. Lower case boolean operators are ignored. 
       </tr>
   <tr><td valign="top">"abnormal spinal cord morphology </td>
-       <td valign="top">Error</td>
-       <td valign="top">Missing quotation mark.
+       <td valign="top">Anything containing abnormal OR spinal OR cord OR morphology</td>
+       <td valign="top">Missing quotation mark. System ignores extraneous punctuation.
       </tr>
- <tr><td valign="top">'abnormal spinal cord morphology </td>
-       <td valign="top">abnormal spinal cord morphology results</td>
-       <td valign="top">System ignores extraneous punctuation.
+ <tr><td valign="top">MP:0001463 </td>
+       <td valign="top">Anything annotated to the term, "abnormal spatial learning"</td>
+       <td valign="top">MP:0001463 is the ID for the term, "abnormal spatial learning."
       </tr>
- <tr><td valign="top">Factor VII Deficiency</td>
-       <td valign="top">results for Factor V, VI, VII, etc.</td>
-       <td valign="top"><a href="#partial_word_matching">Partial match</a> on V.
+ <tr><td valign="top">MP:0001463 AND NOT Alzheimers/td>
+       <td valign="top">Anything annotated to the term, "abnormal spatial learning" and is NOT an Alzheimers disease model.</td>
+       <td valign="top"><a href="#partial_word_matching">AND NOT operator.
       </tr>
- <tr><td valign="top">"Factor VII Deficiency"</td>
-       <td valign="top">Factor V alone</td>
-       <td valign="top">Quotation marks turn off <a href="#word_stemming">stemming.</a></td>
-      </tr>
-
- <tr><td valign="top">cytochrome c, somatic (gene/marker symbol/name field)</td>
-       <td valign="top"><i>cytochrome c</i> <b>or</b> <i>somatic</i> (~43 matches)</td>
-       <td valign="top">Quotation marks needed if desired search is on entire term (searching on <i>&#147;cytochrome c, somatic&#148;</i> results in ~1 match). </a></td>
-      </tr>
-
- 
-<TR><TD VALIGN="top">superimposed aqueductal stenosis</td><TD VALIGN="top">One allele with an allele name, chromosome and category information, but no observed effects or allelic composition (genetic background) data</td><TD VALIGN="top">The Mammalian Phenotype (MP) Ontology is annotated at the genotype level. The allele appears because of a match in the Additional Notes Field but it has no genotypes that contribute to the query result. </TD></tr>
-<!--
-<TR><TD VALIGN="top">obstructive hydrocephalus</td><td valign="top">Three alleles</td><TD VALIGN="top">Observed effects or allelic composition (genetic background)<br>All alleles and every genotype appear because the query is at the allele level.</TD></tr>
--->
 
 </table></p>
 <A HREF="#top">Top</A><br>
