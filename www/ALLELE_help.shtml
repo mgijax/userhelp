@@ -168,18 +168,18 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <OL>
   <LI>Click <B>Anatomical Systems Affected by Phenotypes</B>. The Phenotypes Selection List appears.</LI>
   <LI>Click high-level terms relevant to your search, such as <I>behavior OR neurological</I>, <I>craniofacial</I>, and so on. You can make multiple choices. </LI>
-<LI>Click <B>Add To Query</B>. The selections you made appear in the <B>Phenotype/Disease</B> box on the query form. You can edit the terms.<br>
- <br><b>Note:</b> For details on selecting multiple terms, editing terms, and for why your selections appear as they do when they populate the Phenotype/Disease box, see <a href="ALLELE_phenotype_highlevel_help.shtml" target="_blank">Using the Phenotypes Selection List</a>.</li>
+  <LI>Click <B>Add To Query</B>. The selections you made appear in the <B>Phenotype/Disease</B> box on the query form. You can edit the terms.<br>
+  <br><b>Note:</b> For details on selecting multiple terms, editing terms, and for why your selections appear as they do when they populate the Phenotype/Disease box, see <a href="ALLELE_phenotype_highlevel_help.shtml" target="_blank">Using the Phenotypes Selection List</a>.</li>
 </OL>
 <P>To select MP terms:
- <OL>
+<OL>
   <LI>Click <B>Full Mammalian Phenotype (MP) Ontology</B>. The MP ontology appears.
   <LI>Browse the ontology for a predefined list of Mammalian Phenotype terms and identifiers to use in your query.</B></LI>
-      <LI>Copy and paste selections from the list Mammalian Phenotype Ontology and/or identifiers. <B>Note: </B> When using MP identifiers, be sure to include <B>MP:</B>. Example: <B>MP:0005380,</B> not <B>0005380</B>.<br><br></LI>
+  <LI>Copy and paste selections from the list Mammalian Phenotype Ontology and/or identifiers. <B>Note: </B> When using MP identifiers, be sure to include <B>MP:</B>. Example: <B>MP:0005380,</B> not <B>0005380</B>.<br><br></LI>
+</ol>
 
 <B>Note:</B> Your search term will return all genotypes annotated to a matching Mammalian Phenotype term and the related children of that matching term. For example, querying for <I>"enlarged heart"</I> returns genotypes annotated to cardiac hypertrophy, dilated atria, and so on.
-</ol>
- 
+
 <p>To find mouse models associated with human diseases:
 <OL>
   <LI>enter human disease terms from the vocabulary </LI>
@@ -188,11 +188,11 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
   <LI>combine the options with entries in the Phenotypes box (above).<br><br>
 
 <b>Note:</b> Do not use OMIM's prefix characters as part of the OMIM ID number (*, #, %, +).<br>
-The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkinson OR PD).  <!--If there are no results, a page containing a link to Human Disease Vocabulary Browser appears.--></LI>
+The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkinson OR PD).</LI>
 </OL>
 
 <P>How Boolean operators work:
-<OL>
+<UL>
     <LI>Enter a single search term or multiple terms separated by AND or OR. Boolean operators must be in all capital letters.<BR>             
         The distinction between an AND and an OR text search is as follows:
 		<UL>
@@ -200,7 +200,7 @@ The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkin
   		<LI>OR finds text that includes either the term before it or the one after; for example,  <I>heart</I> OR <I>defect</I> finds any text containing either <I>heart</I> or <I>defect</I>. </LI>
   		</UL>
 	<LI>See <A HREF="MISC_boolean_search_help.shtml" target="_blank">Using Full-Text Searches on MGI Query Forms</A> for using quotation marks, parentheses, and white space with search terms.</LI></P>
-</OL>
+</UL>
 </P>
 
 <TR><TH ALIGN="left" VALIGN="top"><a name="nomenclature"></a>Nomenclature & location</TH><TD ALIGN="left" VALIGN="top">Search by symbol, name, or chromosome position. Use these parameters to expand or limit the scope of retrieved information. 
@@ -247,6 +247,7 @@ There are three ways to use the map position parameters (<A HREF="#chromosome">C
 <P><B>Note:</B>&nbsp;The build number appearing on the query form is that of the most current NCBI assembly sequence. <!--See the <A HREF="http://www.ncbi.nlm.nih.gov/genome/assembly/grc/mouse/">Genome Reference Consortium</A> for details  about assembling genomic sequences.--></P></TD> </TR>
 
 </TD></TR>
+</tr>
 
 
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="categories"></A>Categories</TH><TD VALIGN="top"><p>Use these check boxes to search by phenotypic allele categories and/or QTL for alleles or variants resulting in phenotypic change. <br><br>
@@ -262,7 +263,7 @@ gene trapped, targeted and transposon induced. See
 </ul>
 </TD></TR>
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="attributes"></A>Allele Attributes</TH><TD VALIGN="top">These alleles are sub-types of the various generation methods. A given allele may have more than one attribute (example: Targeted (Null/knockout, Reporter)). See 
-<a href="ALLELE_phenotypic_categories_help.shtml" target="_blank">Allele Types</a> for how MGI differentiates these categories.<br>
+<a href="ALLELE_phenotypic_categories_help.shtml" target="_blank">Allele Types</a> for how MGI differentiates these categories.<br></br>
 <p><B>Note:</B> A conditionally targeted genotype is dependent on the presence of some other factor (often a DNA sequence that expresses a protein functioning in specific recombination events). In MGI, <I>conditional</I> is a genotype attribute, and this is most commonly used to represent Cre-mediated excision of genomic sequences flanked by loxP sites; in most instances, this is accompanied by simultaneous insertion of some selectable marker (<I>e.g.</I> neomycin). The excised genotype, often associated with a phenotype, is dependent (or conditional) on the presence of the Cre-expressing construct.</p>
 </TR>
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="collections"></A>Collections</TH><TD VALIGN="top">Use this section if you want to limit your search to alleles produced by particular institutions/projects.</TR>
