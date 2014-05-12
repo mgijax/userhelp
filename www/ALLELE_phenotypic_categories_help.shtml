@@ -77,29 +77,7 @@ function openHelpWindow(helpFile){
 
  <tr><th valign="top">Transposon induced</th><td valign="top">The random insertion of a transposable element induced by the expression of transposase in any mouse tissue that results in a germline transmissible mutation.</td></tr>
 
- <tr><th valign="top">Transgenic (random, expressed)</th><td valign="top">A construct carrying any number of DNA components for the purpose of expression has randomly integrated into a portion of the genome. The introduction method is usually through injection into fertilized oocytes although random integration through electroporation of ES cells is sometimes done.  Transgenes have nomenclature that includes a traditional <i>Tg</i> prefix.</td></tr>
-
- <tr><th valign="top">Transgenic (random, gene disruption)</th><td valign="top">A construct carrying any number of DNA components for the purpose of expression randomly integrates into the genome and inserts into the coding sequence of a gene.  The transgene insertion into the coding sequence alters the endogenous function of the gene. Transgene insertions that disrupt gene function are sometimes accompanied by complex genomic rearrangements such as deletions or inversions.</td></tr>
-
- <tr><th valign="top">Transgenic (Cre/Flp)</th>
-  <td valign="top">A subclass of expressed transgenes where a construct carrying a cre or flp recombinase gene is expressed under the control of a promoter.  The promoter may be tissue specific or ubiquitous.</td></tr>
-
- <tr><th valign="top">Transgenic (transposase)</th><td valign="top">A sub-class of expressed transgenes where a construct carrying a transposase gene is expressed under the control of a promoter. The promoter may be tissue-specific or ubiquitous.</td></tr>
-
- <tr><th valign="top">Targeted (Floxed/Frt):</th><td valign="top">loxP or frt sites are engineered by homologous recombination to flank coding sequence of a gene for the purpose of future Cre- or Flp-mediated recombination in a time-dependent or tissue-specific manner.  These are usually, but not always, silent mutations.  <b>Note:</b> Floxed selection cassettes (such as neomycin) are engineered for the purpose of ES cell selection; they are not considered floxed alleles. </td></tr>
-
- <tr><th valign="top">Targeted (Reporter)</th>
-<td valign="top">The process of homologous recombination in ES cell lines inserts an in-frame reporter gene sequence such as a lacZ or GFP gene to follow endogenous expression. Reporter constructs often include the following terms in their constructs: lacZ, beta galactosidase, beta gal, GFP, eGFP, and variations of such terms.  <b> Note:</b> Although the insertion of a lacZ can result in a functional knock-out, functional lacZ insertions are of type <i>Targeted (reporter)</i> except when the reporter gene inserts but fails to express.  In this case, the allele is considered a knock-out.</td></tr>
-
- <tr><th valign="top">Targeted (knock-out)</th>
-<td valign="top">The process of homologous recombination in ES cell lines disrupts the coding sequence of a gene, resulting in the loss of mRNA and detectable functional protein.  The most common example is the insertion/replacement of sequence with a neo cassette. <b>Note:</b> Although the insertion of a lacZ can result in a functional knock-out, functional lacZ insertions should be considered of type <i>Targeted (reporter)</i>. The exception is when the author notes that the reporter gene inserts but fails to express.  In this case, the allele is considered a knock-out.</td></tr>
  
- <tr><th valign="top">Targeted (knock-in)</th><td valign="top">The process of homologous recombination in ES cell lines generates any of the following events: 
-  <ul class="lj">
-    <li>Replacement of all or part of the coding sequence with another gene; for example, knocking in gene <i>Abc </i>into the <i>Sox9 </i>locus.</li>
-    <li>Altering the current sequence by knocking in a mutation; for example, engineering a point mutation into the<i> CFTR</i> gene.</li>
-    <li>Knocking in sequence to create a fusion gene.</li></ul>
- </td></tr>
 </table>
 </p>
 <p>
@@ -107,21 +85,21 @@ function openHelpWindow(helpFile){
  <tr>
   <th valign="top"><a name="attributes"></a><nobr>Allele Attributes</nobr></th>
   <th align="center">Definitions for the allele subtypes of the <a href="#method">Generation Methods</a></th></tr>
-  <tr><th valign="top">Conditional ready</th><td valign="top">Has conditional potential...***</td></tr>
-  <tr><th valign="top">RMCE-Ready</th><td valign="top">recombinase mediated cassette exchange (RMCE) ***</td></tr>
-  <tr><th valign="top">Inserted expressed sequence</th><td valign="top">*** </td></tr>
-  <tr><th valign="top">Humanized sequence</th><td valign="top">*** </td></tr>
-  <tr><th valign="top">Reporter</th><td valign="top">*** </td></tr>
-  <tr><th valign="top">Transposase</th><td valign="top">*** </td></tr>
-  <tr><th valign="top">Transposon concatemer</th><td valign="top">*** </td></tr>
-  <tr><th valign="top">Constitutively active</th><td valign="top">*** </td></tr>
-  <tr><th valign="top">Dominant negative</th><td valign="top">*** </td></tr>
-  <tr><th valign="top">Hypomorph</th><td valign="top">*** </td></tr>
-  <tr><th valign="top">Inducible</th><td valign="top">*** </td></tr>
-  <tr><th valign="top">Knockdown</th><td valign="top">*** </td></tr>
-  <tr><th valign="top">Modified isoform(s)</th><td valign="top">*** </td></tr>
-  <tr><th valign="top">Null/knockout</th><td valign="top">*** </td></tr>
-  <tr><th valign="top">No functional change</th><td valign="top">*** </td></tr>
+  <tr><th valign="top">Conditional ready</th><td valign="top">Mutations in which a region of DNA is flanked with recombinase recognition sites, so that subsequent interaction with a recombinase will remove or invert the region resulting in a change in expression of the target gene or transgene.</td></tr>
+  <tr><th valign="top">RMCE-Ready</th><td valign="top">Recombinase mediated cassette exchange (RMCE) may occur at a genomic site that contains acceptor recombination sites ("RMCE-ready") in order to target expression constructs to a defined genomic region and avoid the consequences of positional effects on transgene expression.</td></tr>
+  <tr><th valign="top">Inserted expressed sequence</th><td valign="top">Expression of a gene whose product is not ordinarily present, or is altered in form, in a cell type under study that is introduced experimentally. This set includes only those genes that are not included in other sets (i.e. Reporter, Transposase, Recombinase).</td></tr>
+  <tr><th valign="top">Humanized sequence</th><td valign="top">The alteration of a non-human gene to introduce one or more sequence changes intended to make the sequence closer to the sequence of the same gene in humans.</td></tr>
+  <tr><th valign="top">Reporter</th><td valign="top">Expression of a gene whose product is easily detected and not ordinarily present in an organism or cell type under study that is introduced experimentally. Bacterial beta-galactosidase, whose activity can be detected using a staining reaction, is a commonly used reporter gene, as is green fluorescent protein, detected by immunofluorescence.</td></tr>
+  <tr><th valign="top">Transposase</th><td valign="top">Expression of an enzyme that binds to the ends of a transposon and catalyzes the transposition of the DNA segment to another part of the genome.</td></tr>
+  <tr><th valign="top">Transposon concatemer</th><td valign="top">Insertion of multiple copies of transposon sequences at a single site. Concatamer lines serve as donor sites in transposase mutagenesis experiments.</td></tr>
+  <tr><th valign="top">Constitutively active</th><td valign="top">A form of an enzyme or protein whose activity is constant and independent from normal regulatory controls.</td></tr>
+  <tr><th valign="top">Dominant negative</th><td valign="top">Mutations leading to mutant gene products that disrupt the activity of the wild-type gene when coexpressed. These mutations result in an altered molecular function (usually inactive) and result in a dominant or semi-dominant phenotype.</td></tr>
+  <tr><th valign="top">Hypomorph</th><td valign="top">A type of mutation in which the altered gene product possesses a reduced level of activity, or in which the wild-type gene product is expressed at a reduced level.</td></tr>
+  <tr><th valign="top">Inducible</th><td valign="top">Activation or expression of a protein or enzyme either in the presence of a particular stimulus, or by the removal of a stimulus.</td></tr>
+  <tr><th valign="top">Knockdown</th><td valign="top">A state in which the expression of a gene is reduced but not eliminated without directly modifying the target gene's DNA sequence. Usually associated with a technique used to knock out a gene's expression but does not knock out expression completely. RNAi is often used to knockdown a gene's expression.</td></tr>
+  <tr><th valign="top">Modified isoform(s)</th><td valign="top">Alteration of one or more, but not all of multiple different forms of the same gene product that are produced by alternative splicing.</td></tr>
+  <tr><th valign="top">Null/knockout</th><td valign="top">A type of mutation in which an amorphic (complete loss-of-function) allele is produced.</td></tr>
+  <tr><th valign="top">No functional change</th><td valign="top">A type of mutation in which no discernible effect on the expression or function of the gene is shown. An example includes the introduction of loxP sites to flank a critical exon, which usually has no effect on gene expression or function until cre recombinase is applied.</td></tr>
 </table></p>
 <p>
 <table border="1" cellspacing="1" cellpadding="3" width="100%">
