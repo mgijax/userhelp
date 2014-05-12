@@ -49,6 +49,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
    		<li><a href="#relationship">Can I query using both a phenotype term and a disease term?</a></li>
      </ul>
    <LI><A HREF="#field">What values are acceptable in each of the fields?</A></LI>
+   <li><A HREF="#definitions">How can I find definitions for the allele categories?</a></li>
  <!--<LI><A HREF="#invert_selected">*** What does Invert selected do?</A></LI>-->
    <LI><A HREF="ALLELE_summary_help.shtml" target="_blank">Where can I find answers to questions about the summary report resulting from my query?</A></LI>
    <li><A href="#output">Are there different ways to view the output of my query?</a></li>
@@ -247,8 +248,7 @@ There are three ways to use the map position parameters (<A HREF="#chromosome">C
 <P><B>Note:</B>&nbsp;The build number appearing on the query form is that of the most current NCBI assembly sequence. <!--See the <A HREF="http://www.ncbi.nlm.nih.gov/genome/assembly/grc/mouse/">Genome Reference Consortium</A> for details  about assembling genomic sequences.--></P></TD> </TR>
 
 </TD></TR>
-</tr>
-
+</table>
 
 <TR><TH ALIGN="left" VALIGN="top"><A NAME="categories"></A>Categories</TH><TD VALIGN="top"><p>Use these check boxes to search by phenotypic allele categories and/or QTL for alleles or variants resulting in phenotypic change. <br><br>
 High-throughput projects have generated a large number of alleles that still exist only as cell lines. If you are interested in phenotypic alleles, then check <i>Exclude alleles existing only as cell lines</i> to reduce the number of results without known phenotypes.</p>
@@ -297,6 +297,11 @@ gene trapped, targeted and transposon induced. See
 <P>
 <a href="#top"><font size="-1">Top</font></a></P>
 
+<h3><a name="definitions"></a>How can I find definitions for the allele categories?</h3>
+
+<p>See <a href="ALLELE_phenotypic_categories_help.shtml" target="_blank">Selecting Phenotypic Allele Categories</a>.</p>
+
+<a href="#top"><font size="-1">Top</font></a>
 
 <!--<h3><A name="invert_selected"></a>What does Invert Selected do?</h3>
 <p>See <b>Invert selected</b>, at the bottom of <a href="#categories">Categories</a>.</p>
