@@ -78,7 +78,7 @@ Using the Genes and Markers Query Form</span>
 <tr>
 <td align="center"><a href="#gene_nomenclature"><font size="-1">Gene/Marker</a> |
 <a href="#marker_type">Feature Type</a> |
-<a href="#map_position">Map position</a> |
+<a href="#map_position">Genome Location</a> |
 
 <nobr><a href="#gene_ontology">Gene Ontology classifications</a> |</nobr>
 <nobr><a href="#interpro">Protein domains</a> |</nobr>
@@ -114,7 +114,7 @@ Using the Genes and Markers Query Form</span>
            </ul>
 See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a> for a table describing all choices. </td>
         </tr>
-<tr><th align="left" valign="top"><a name="map_position"></a>Map position</th>
+<tr><th align="left" valign="top"><a name="map_position"></a>Genome location</th>
   <td align="left" valign="top">Use the map position parameters (
   <a name="chromosome"></a><a href="MISC_map_position_help.shtml#chromosome" target="_blank">Chromosome(s)</a>, 
   <a name="coordinates"></a><a href="MISC_map_position_help.shtml#coordinates" target="_blank">Genome Coordinates</a>, 
