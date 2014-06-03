@@ -169,7 +169,7 @@ Query Results -- Summary page for alleles with OMIM annotations to associated ge
  </TD>
 </TR>
 
-<tr><th align="left" valign="top"><a name="interactions"></a>Interactions</th><td valign="top">The total number of markers with which the gene is known to interact, along with links to up to three of those markers detail pages and a link to View All the markers. Currently MGI only displays microRNA targeting type interactions, though more types will be added. See <a href="INTERACTION_explorer_help.shtml" target="_blank">for more information on MGI interaction data.</td></tr>
+<tr><th align="left" valign="top"><a name="interactions"></a>Interactions</th><td valign="top">***The total number of markers with which the gene is known to interact, along with links to up to three of those markers detail pages and a link to View All the markers. Currently MGI only displays microRNA targeting type interactions, though more types will be added. See <a href="INTERACTION_explorer_help.shtml" target="_blank">Using the Interaction Explorer</a> for more information on MGI interaction data.</td></tr>
 
 <TR>
 <TH ALIGN="left" VALIGN="top"><A NAME="GO_detail"></A>Gene Ontology (GO)<BR>
