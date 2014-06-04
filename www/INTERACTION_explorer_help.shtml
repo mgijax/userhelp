@@ -47,8 +47,11 @@ function openHelpWindow(helpFile){
 </ul></p>
 
 <h3><A name="iewhat"></A>What should show up on this report?</h3>
-<p>
-</p>
+<ul>
+	<li>The official marker symbol and name for the marker and the marker feature type</li>
+	<li>A <a href="#graph">graph</a> showing the ***specified marker surrounded by the markers with which it interacts</li>
+	<li>A <a href="#table">table</a> listing the interacting features, the type of interaction, validation, data source and score.  </li>
+</ul>
 
 <a href="#top"><font size="-1">Top</font></a>
 
@@ -79,7 +82,8 @@ function openHelpWindow(helpFile){
 <a href="#top"><font size="-1">Top</font></a>
 
 <!--<h3><a name="tabfile"></a>How do I retrieve my results as tab-delimited text or spreadsheet files?</h3>
-<p><!--at the right hand edge of the Filter interactions bar,--> Click on the Text File or Excel File icon. Your web browser will download a file of the results that remain after any filtering you may have performed.</p>
-<A HREF="#top"><FONT SIZE="-1">Top</FONT></A>-->
+<p>***Above the table, click on the Text File or Excel File icon. Your web browser will download a file of the results that remain after any filtering you may have performed.</p>
+
+<a href="#top"><font size="-1">Top</font></a>-->
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
