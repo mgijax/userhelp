@@ -71,12 +71,13 @@ function openHelpWindow(helpFile){
 
 <TR>
 <TH ALIGN="left" VALIGN="top"><A NAME="sym_detail"></A>Symbol<BR><br>
- Name<BR><br>ID</TH>
+ Name<BR><br>ID<br><br>Cluster members/<br>Member of</TH>
 <TD VALIGN="top">Official gene symbol for the mouse genetic marker. If the symbol is unofficial, the word <I>interim</I> follows the symbol name, in parentheses, to indicate that the nomenclature is being reviewed by the Mouse Genomic Nomenclature Committee.
 
 <P>The name for this marker appears beneath the symbol. A symbol may be a gene, DNA segment, QTL, cytogenetic marker, pseudogene, BAC/YAC end, complex/cluster/region, or one of the other genome features including endogenous viruses, retrotransposons, integration sites, and repetitive elements. An additional class of such features includes genomic segments that function or are biologically significant as DNA elements.</P>
 
 <P>The MGI accession identifier appears beneath the name.</P>
+<p>For complex/cluster/region feature types, this section will provide link to up to three of the cluster member detail pages, along with a link to a list of all the cluster members. This appears as a pop-up window and offers the option of getting "More data for these features" by forwarding the list to the MGI Batch Query. If the marker is a member of a cluster, a link is provided to the cluster detail page.</p>
 <p><b>BioType Conflict</b>
 	<ul><li>When different annotation groups disagree as to the marker type (e.g., protein coding versus pseudogene), click <b>Biotype Conflict</b> to see details about the conflict.</li>
 	  <li>Identifiers in the Gene ID column link to the database source of the annotation(i.e., VEGA, Ensembl, NCBI).</li>
