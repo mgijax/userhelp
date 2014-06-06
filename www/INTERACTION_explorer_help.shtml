@@ -57,7 +57,7 @@ function openHelpWindow(helpFile){
 
 <h3><a name="graph"></a>How do I use the graph?</h3>
 
-<p>The graph shows the selected marker at the center, surrounded by the makers with which it is known to interact. The first 500 markers are shown based on how the table is sorted. The default sort is by validation type and then score. 
+<p>The graph shows the selected marker at the center, surrounded by the makers with which it is known to interact. Blue lines link validated interactions and pink lines connect predicted interactions. The first 500 markers are shown based on how the table is sorted. The default sort is by validation type and then score. 
 </p>
 <p>Click the plus sign to zoom in (2X) on the graph and the minus sign to zoom out (50%).
 </p>
