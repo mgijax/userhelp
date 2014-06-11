@@ -77,7 +77,7 @@ function openHelpWindow(helpFile){
 	<tr><td align="left" valign="top"><b>Interaction</b></td>
     <td valign="top">***</td></tr> 
     <tr><td align="left" valign="top"><b>Feature 2</b></td>
-    <td valign="top">***</td></tr> 
+    <td valign="top">The object acted on by Feature 1. For example, Feature 1 targets Feature 2.</td></tr> 
     <tr><td align="left" valign="top"><b>Validation</b></td>
     <td valign="top">Indicates whether the interaction was validated or predicted</td></tr> 
     <tr><td align="left" valign="top"><b>Data Source</b></td>
