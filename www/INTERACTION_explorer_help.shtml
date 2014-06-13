@@ -49,7 +49,7 @@ function openHelpWindow(helpFile){
 <h3><A name="iewhat"></A>What should show up on this report?</h3>
 <ul>
 	<li>The official marker symbol and name for the marker and the marker feature type</li>
-	<li>A <a href="#graph">graph</a> showing the ***specified marker surrounded by the markers with which it interacts</li>
+	<li>A <a href="#graph">graph</a> showing the selected marker surrounded by the markers with which it interacts</li>
 	<li>A <a href="#table">table</a> listing the interacting features, the type of interaction, validation, data source and score.  </li>
 </ul>
 
@@ -75,13 +75,14 @@ function openHelpWindow(helpFile){
 	<tr><td align="left" valign="top"><b>Feature 1</b></td>
     <td valign="top">Symbol of the interacting feature</td></tr> 
 	<tr><td align="left" valign="top"><b>Interaction</b></td>
-    <td valign="top">***</td></tr> 
+    <td valign="top">The type of relationship between Feature 1 and 2</td></tr> 
     <tr><td align="left" valign="top"><b>Feature 2</b></td>
     <td valign="top">The object acted on by Feature 1. For example, Feature 1 targets Feature 2.</td></tr> 
     <tr><td align="left" valign="top"><b>Validation</b></td>
     <td valign="top">Indicates whether the interaction was validated or predicted</td></tr> 
     <tr><td align="left" valign="top"><b>Data Source</b></td>
-    <td valign="top">***</td></tr> 
+    <td valign="top">Examples: <a href="http://mirtarbase.mbc.nctu.edu.tw">miRTarBase</a>: the experimentally validated microRNA-target interactions database<br>
+microt-cds</td></tr> 
     <tr><td align="left" valign="top"><b>Score</b></td>
     <td valign="top">Predicted interactions are represented by score. Scores from different sources vary in both scale and range. MGI scales these score values to a common range (0 - 1) to permit filtering by source and score. Users are advised to consult algorithm details before comparing interaction scores from different algorithms. Algorithms used for the predicted interactions can be obtained by downloading the table data. Information about the data sources and algorithms can be found in the associated references.</td></tr> 
     <tr><td align="left" valign="top"><b>Reference</b></td>
