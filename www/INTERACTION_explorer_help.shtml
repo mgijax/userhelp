@@ -93,7 +93,7 @@ microt-cds</td></tr>
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="iefilter"></a>How do I filter my results?</h3>
-<p>You can filter results by Type of Interaction, Level of Validation, Data Source or Score. In the banner above the graph, after Filter interactions by, click the desired box. ***This will reduce your results to only those containing the checked items. To filter by Score, drag the slider to set the minimum score.</p>
+<p>You can filter results by Type of Interaction, Level of Validation, Data Source or Score. In the banner above the graph, after Filter interactions by, click the desired box. This will reduce your results to only those containing the checked items or above the desired score. To filter by Score, drag the slider to set the minimum score.</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
