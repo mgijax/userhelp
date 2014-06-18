@@ -59,6 +59,8 @@ function openHelpWindow(helpFile){
 
 <p>The graph shows the selected marker at the center, surrounded by the makers with which it is known to interact. Blue lines link validated interactions and pink lines connect predicted interactions. The first 500 markers are shown based on how the table is sorted. The default sort is by validation type and then score. 
 </p>
+<p>Apply <a href="#iefilter">filters</a> to reduce the number of results.
+</p>
 <p>Click the plus sign to zoom in (2X) on the graph and the minus sign to zoom out (50%).
 </p>
 <p>Click and hold to drag and reposition the graph.
