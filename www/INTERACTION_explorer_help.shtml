@@ -50,7 +50,8 @@ function openHelpWindow(helpFile){
 <ul>
 	<li>The official marker symbol and name for the marker and the marker feature type</li>
 	<li>A <a href="#graph">graph</a> showing the selected marker surrounded by the markers with which it interacts</li>
-	<li>A <a href="#table">table</a> listing the interacting features, the type of interaction, validation, data source and score.  </li>
+	<li>A <a href="#table">table</a> listing the interacting features, the type of interaction, validation, data source and score.</li>
+	<li>The option to forward the list of interacting markers to the MGI Batch Query. This will  provide markers symbols, names, accession IDs, feature types and genome coordinates, download options and the ability to add additional data.</li>
 </ul>
 
 <a href="#top"><font size="-1">Top</font></a>
