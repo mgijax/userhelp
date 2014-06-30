@@ -107,7 +107,7 @@ microt-cds</td></tr>
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="tabfile"></a>How do I retrieve my results as tab-delimited text or spreadsheet files?</h3>
-<p>Above the graph, click on the Batch Query icon. This will forward the list of interacting markers that remain after filtering to the MGI Batch Query. The Batch Query provides markers symbols, names, accession IDs, feature types and genome coordinates, the ability to add additional data and options to download your results as tab-delimited text or spreadsheet files. <!--Your web browser will download a file of the results that remain after any filtering you may have performed.</p>-->
+<p>Above the graph, click on the Batch Query icon. This will forward the list of interacting markers that remain after filtering to the MGI Batch Query. The Batch Query provides markers symbols, names, accession IDs, feature types, genome coordinates, the ability to add additional data and options to download your results as tab-delimited text or spreadsheet files. <!--Your web browser will download a file of the results that remain after any filtering you may have performed.</p>-->
 
 <a href="#top"><font size="-1">Top</font></a>
 
