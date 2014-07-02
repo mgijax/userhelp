@@ -199,7 +199,7 @@ Query Results -- Summary page for alleles with OMIM annotations to associated ge
   <li>	Theiler stage: List of all developmental stages where expression was analyzed; each summary report lists expression results from that stage.</li>
   <li>Assay Type Results: assay type used for the analyses and the number of results, linked to summary reports.</li>
   <li><a name="cdna_summary"></a>cDNA source data: the number of cDNA clones for this marker, linked to summary report.</li>
-  <li>External Resources: links to expression information for this marker in other than MGI databases. Examples: Allen Brain Atlas, GENSAT, gene microarray profile pages at GEO, ArrayExpress.</li>
+  <li>External Resources: links to expression information for this marker in other than MGI databases. Examples: Allen Brain Atlas, GENSAT, gene microarray profile pages at GEO, Expression Atlas.</li>
  </ul>
 </TD>
 </TR>
