@@ -44,6 +44,7 @@ function openHelpWindow(helpFile){
 	<li><a href="#iefilter">How do I filter my results?</a></li>
 	<li><a href="#sort">How do I sort my results?</a></li>
 	<li><a href="#tabfile">How do I retrieve my results as tab-delimited text or spreadsheet files?</a></li>
+	<li><a href="#rawdata">Can I download the entire raw data set?</a></li>
 </ul></p>
 
 <h3><A name="iewhat"></A>What should show up on this report?</h3>
@@ -96,7 +97,7 @@ microt-cds</td></tr>
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="iefilter"></a>How do I filter my results?</h3>
-<p>You can filter results by Type of Interaction, Level of Validation, Data Source or Score. In the banner above the graph, after Filter interactions by, click the desired box. This will reduce your results to only those containing the checked items or above the desired score. To filter by Score, drag the slider to set the minimum score. Filtering by score only affects the predicted interactions. Validated interactions are unaffected by the score filter.</p>
+<p>You can filter results by Type of Interaction, Level of Validation, Data Source or Score. In the top center of the page, after <i>Filter interactions by</i>, click the desired box. This will reduce your results to only those containing the checked items or above the desired score. To filter by Score, drag the slider to set the minimum score. Filtering by score only affects the predicted interactions. Validated interactions are unaffected by the score filter.</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
@@ -107,7 +108,13 @@ microt-cds</td></tr>
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="tabfile"></a>How do I retrieve my results as tab-delimited text or spreadsheet files?</h3>
-<p>Above the graph, click on the Batch Query icon. This will forward the list of interacting markers that remain after filtering to the MGI Batch Query and preserve the table's current sort order. The Batch Query provides markers symbols, names, accession IDs, feature types, genome coordinates, the ability to add additional data and options to download your results as tab-delimited text or spreadsheet files. <!--Your web browser will download a file of the results that remain after any filtering you may have performed.</p>-->
+<p>Above the graph, click on the Batch Query icon above the graph. This will forward the list of interacting markers that remain after filtering to the MGI Batch Query and preserve the table's current sort order. The Batch Query provides markers symbols, names, accession IDs, feature types, genome coordinates, the ability to add additional data and options to download your results as tab-delimited text or spreadsheet files. </p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="rawdata"></a>Can I download the entire raw data set?</h3>
+
+<p>Yes. Click on the Download Data button above the graph. This will take you to our FTP site where you can download the entire data set. If you only wish to download the table's data, see the previous question.</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
