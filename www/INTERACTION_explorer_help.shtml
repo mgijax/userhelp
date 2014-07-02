@@ -49,7 +49,7 @@ function openHelpWindow(helpFile){
 <h3><A name="iewhat"></A>What should show up on this report?</h3>
 <ul>
 	<li>The official marker symbol and name for the marker and the marker feature type</li>
-	<li>A <a href="#graph">graph</a> showing the selected marker surrounded by the markers with which it interacts</li>
+	<li>A <a href="#graph">graph</a> showing the selected marker surrounded by the markers for which there is evidence of an interaction</li>
 	<li>A <a href="#table">table</a> listing the interacting features, the type of interaction, validation, data source and score.</li>
 	<li>The option to forward the list of interacting markers to the MGI Batch Query. This will  provide markers symbols, names, accession IDs, feature types and genome coordinates, download options and the ability to add additional data.</li>
 </ul>
@@ -58,7 +58,7 @@ function openHelpWindow(helpFile){
 
 <h3><a name="graph"></a>How do I use the graph?</h3>
 
-<p>The graph shows the selected marker at the center, surrounded by the makers with which it is known to interact. Blue lines link validated interactions and pink lines connect predicted interactions. The first 500 markers are shown based on how the table is sorted. The default sort is by validation type and then score. 
+<p>The graph shows the selected marker at the center, surrounded by the markers for which there is evidence of an interaction. Blue lines connect validated interactions and red lines connect predicted interactions. The first 500 markers are shown based on how the table is sorted. The default sort is by validation type and then score. 
 </p>
 <p>Apply <a href="#iefilter">filters</a> to reduce the number of results.
 </p>
