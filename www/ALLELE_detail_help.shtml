@@ -166,7 +166,8 @@ The allele symbol is composed of the gene symbol and the allele designation.  If
 <TR><th valign="top" align="right"><a name="description"></a>Mutation/Variant/Vector/Transgene description</td>
    <td>
     <table border="0" cellspacing="2" cellpadding="4" width="100%">
-           	<tr><td valign="top">Allele Type</td><td>Type of allele by mode of origin.</td></tr>
+    <tr><td valign="top">Allele Type</td><td>Type of allele by mode of origin.</td></tr>
+    <tr><td valign="top">Inducer</td><td>For inducible alleles, the agent that initiates expression of the allele is given (e.g., induced by tamoxifen, induced by doxycycline).</td></tr>
 	<tr><td valign="top">Mutation</td><td>Method that produced this mutation and methodology. When available, click the &#9658; to view a description. Any molecular references are linked to MGI Reference Detail reports. For some chemically induced mutations, the mutation causing the phenotype may be described and there may also be a link to a file of other, incidental mutations, in the stock that may or may not have phenotypic affects. 
 	<p>For alleles that involve multiple genes, links to up to three of the affected genes will be provided in this section, along with the option to <i>View all</i> the affected genes, their feature types, genome coordinates and associated references and curatorial notes.</p></td></tr>
 	<tr><td valign="top">Inheritance</td><td>Phenotypic effect of the allele when heterozygous with the wild type allele. <b>Note:</b> This information is primarily entered for spontaneous and chemically or radiation-induced alleles and QTLs.</td></tr>		
