@@ -292,9 +292,7 @@ MGI Representative Sequences provide users quick access to a single genomic, tra
 
 <UL STYLE="padding-left:30px">
 <LI>Details of one selected reference, linked to its detail page.</LI>
-
 <LI>Details of the earliest and latest references, linked to their detail pages.</LI>
-
 <LI>All references, linked to a listing on the summary report page. The number in parentheses indicates the total of the references on the summary.</LI>
 <li>Disease annotation references, linked to a listing of just those references with human disease model annotations. The number in parentheses indicates the number of these references on the summary.</li>
 </UL>
