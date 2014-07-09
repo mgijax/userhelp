@@ -44,16 +44,14 @@ User Help Site Map
   <blockquote>
   	<dt><b>Genes & Markers</b></dt>
 	<dd><a href="GENE_help.shtml" onclick="javascript:openHelpWindow('GENE_help.shtml'); return false;">Using the Genes and Markers Query Form</a></dd>
-  	  
-	<dd><a href="GENE_summary_help.shtml" onclick="javascript:openHelpWindow('GENE_summary_help.shtml'); return false;">Interpreting a Genes and Markers Summary</a></dd>
+  	<dd><a href="GENE_summary_help.shtml" onclick="javascript:openHelpWindow('GENE_summary_help.shtml'); return false;">Interpreting a Genes and Markers Summary</a></dd>
   	<dd><a href="GENE_detail_help.shtml" onclick="javascript:openHelpWindow('GENE_detail_help.shtml'); return false;">Interpreting Gene Details</a></dd>
-
 	<dd><a href="GENE_feature_types_help.shtml" onclick="javascript:openHelpWindow('GENE_feature_types_help.shtml'); return false;">Genome Feature Type Definitions</a></dd>
-	
 	<dd><a href="mapping_experimental_data_help.shtml" onclick="javascript:openHelpWindow('mapping_experimental_data_help.shtml'); return false;">Interpreting Experimental Mapping Data Records</a></dd>
+	<dd><a href="INTERACTION_explorer_help.shtml" onclick="javascript:openHelpWindow('INTERACTION_explorer_help.shtml'); return false;">Interpreting Interaction Explorer Results</a></dd>
   	  	
   	  
-  	  <dt><b>Sequences</b></dt>
+  	 <dt><b>Sequences</b></dt>
 		        
   	  <dd><a href="SEQUENCE_summary_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_summary_help.shtml'); return false;"> Interpreting a Sequence Summary</a></dd>  	          
   	  <dd><a href="SEQUENCE_detail_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_detail_help.shtml'); return false;">Interpreting Sequence Details</a></dd>
@@ -67,8 +65,6 @@ User Help Site Map
 
 .shtml'); return false;">Using the Linkage Maps Query Form</a></dd>-->
   	</blockquote>
-
-
 
   	
   <!-- Phenotypes -->
