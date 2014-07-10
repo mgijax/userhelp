@@ -72,7 +72,7 @@ function openHelpWindow(helpFile){
 <TR>
 <TH ALIGN="left" VALIGN="top"><A NAME="sym_detail"></A>Symbol<BR><br>
  Name<BR><br>ID<br><br>Cluster members/<br>Member of</TH>
-<TD VALIGN="top">Official gene symbol for the mouse genetic marker. If the symbol is unofficial, the word <I>interim</I> follows the symbol name, in parentheses, to indicate that the nomenclature is being reviewed by the Mouse Genomic Nomenclature Committee.
+<TD VALIGN="top">Official gene symbol for the mouse genetic marker. 
 
 <P>The name for this marker appears beneath the symbol. A symbol may be a gene, DNA segment, QTL, cytogenetic marker, pseudogene, BAC/YAC end, complex/cluster/region, or one of the other genome features including endogenous viruses, retrotransposons, integration sites, and repetitive elements. An additional class of such features includes genomic segments that function or are biologically significant as DNA elements.</P>
 
@@ -155,10 +155,10 @@ homologs</TH>
 </tr>
 
 <TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="phenotypes_detail"></A>Alleles and Phenotypes</TH>
+<TH ALIGN="left" VALIGN="top"><A NAME="phenotypes_detail"></A>Mutations, alleles, and phenotypes</TH>
 <TD VALIGN="top">Depending on availability, the display includes some or all of the following links or information. The numbers in parentheses indicate how many items in each linked report.
 <UL>
-<LI>Counts of <i>All alleles</i> and phenotypic allele categories of mutant alleles</LI>
+<LI>Counts of <i>All mutations/alleles</i> and phenotypic allele categories of mutant alleles</LI>
 <LI>A short summary of phenotypes observed in mice with mutant alleles</LI>
 <li>Incidental mutations with links to data from the mutagenesis projects. <a href="<!--#include file='include/fewi_url.html'-->glossary/incidental_mutations.shtml" target="_blank">Incidental mutations</a> have been detected via sequencing but have not yet been confirmed. They may or may not affect the phenotype. Click on one of the project links, such as Mutagenetix or APF (The Australian Phenomic Facility), to access the provider's data. Stocks can be ordered from the providers. See <a href="ALLELE_phenotypic_categories_help.shtml#collection" target="_blank">Selecting Phenotypic Allele Categories</a> for a list of mutagenesis projects.</li>
 <li>The number of human diseases associated with this mouse gene in MGI. When you click on this number a pop-up window appears listing the associated diseases (linked to the MGI Human Disease and Mouse Model Detail page) and the OMIM ID (linked to the OMIM entry for that disease). </li>
