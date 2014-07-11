@@ -86,7 +86,9 @@ function openHelpWindow(helpFile){
     <td valign="top">Indicates whether the interaction was validated or predicted</td></tr> 
     <tr><td align="left" valign="top"><b>Data Source</b></td>
     <td valign="top">Examples: <a href="http://mirtarbase.mbc.nctu.edu.tw">miRTarBase</a>: the experimentally validated microRNA-target interactions database<br>
-microt-cds</td></tr> 
+	 <a href="http://diana.imis.athena-innovation.gr/DianaTools/index.php?r=microT_CDS/index">microT-CDS</a><br>
+	 <a href="http://mirdb.org/miRDB/">miRDB</a><br>
+	 <a href="http://pictar.mdc-berlin.de/">Pictar</a><br></td></tr> 
     <tr><td align="left" valign="top"><b>Score</b></td>
     <td valign="top">Predicted interactions are represented by score. Scores from different sources vary in both scale and range. MGI scales these score values to a common range (0 - 1) to permit filtering by source and score. Users are advised to consult algorithm details before comparing interaction scores from different algorithms. Algorithms used for the predicted interactions can be obtained by downloading the table data. Information about the data sources and algorithms can be found in the associated references.</td></tr> 
     <tr><td align="left" valign="top"><b>Reference</b></td>
