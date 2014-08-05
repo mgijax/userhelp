@@ -83,6 +83,7 @@ function openHelpWindow(helpFile){
  <li>cattle</li>
  <li>dog</li>
  <li>chicken</li>
+ <li>western clawed frog</li>
  <li>zebrafish</li>
 </ul>
 <p>These are just a subset of the total species represented in HomoloGene Classes at NCBI.</p> 
