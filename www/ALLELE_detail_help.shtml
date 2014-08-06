@@ -159,6 +159,8 @@ The allele symbol is composed of the gene symbol and the allele designation.  If
 	<tr><th align="right" valign="top">Parent Cell Line</td><td valign="top">Parent name, and, in parentheses, the cell type (for example, ES Cell). If Parent Cell Line appears as <i>Other (see notes)</i>, there is more information in the <a href="#additional">Additional information</a> section of this report.</td></tr>
 	<TR><TH ALIGN="right" VALIGN="top"><a name=""></a>Strain of Origin</td>
 <Td ALIGN="left" VALIGN="top">Mouse strain that the allele originated from.</td></tr>
+<tr><th ALIGN="right" VALIGN="top"><a name=""></a>Project Collection</td>
+<td ALIGN="left" VALIGN="top">For alleles from large scale projects and repositories, the source is indicated. </td></tr>
 	</td>
 	</tr>
 	</table>
