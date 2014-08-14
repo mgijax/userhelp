@@ -66,8 +66,8 @@ Using the Genes and Markers Query Form</span>
 
 <h3><a name="howdo"></a>How do I use this query form?</h3>
 
-<p>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following paragraphs. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</a> for answers to questions about submitting queries, using operators, choosing sort orders, speeding up queries, and similar help topics.  
- </p>
+<p>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following paragraphs. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. 
+</p>
 <a href="#top"><font size="-1">Top</font></a>
 
 
@@ -82,9 +82,8 @@ Using the Genes and Markers Query Form</span>
 
 <nobr><a href="#gene_ontology">Gene Ontology classifications</a> |</nobr>
 <nobr><a href="#interpro">Protein domains</a> |</nobr>
-<nobr><a href="#phenotype">Mouse phenotypes & mouse models of human disease</a> |
-<!--<a href="#clone_collection">Clone collection</a> |</nobr>-->
-<a href="#sort_by">Sorting & output format</a></font></td></tr>
+<nobr><a href="#phenotype">Mouse phenotypes & mouse models of human disease</a> 
+</font></td></tr>
 </table>
 
 <table border="1" cellpadding="3" width="!">
@@ -109,22 +108,20 @@ Using the Genes and Markers Query Form</span>
 <li>Mouse over a feature type to view its definition.</li>
 <li>Clicking the box beside a major category (any item that opens to subcategories, e.g., <i>all feature types, gene, non-coding RNA gene</i>) selects all items beneath it. </li>
  <li>A minus in a box beside a category indicates that discrete items beneath it are selected (and not the entire category or subcategory, e.g. <i>miRNA gene</i> and <i>lincRNA gene</i> and not all non-coding RNA genes).</li>
- <li>Checking all categories has the same effect as checking none of the categories. If you do not click any category, the search includes them all. </li>
-<li>An empty box indicates no choices in an entire category/subcategory.</li>         
-           </ul>
+ <li>Checking all categories has the same effect as checking none of the categories. If you do not click any category, the search includes them all. </li>         
+ </ul>
 See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a> for a table describing all choices. </td>
         </tr>
 <tr><th align="left" valign="top"><a name="map_position"></a>Genome location</th>
   <td align="left" valign="top">Use the map position parameters (
-  <a name="chromosome"></a><a href="MISC_map_position_help.shtml#chromosome" target="_blank">Chromosome(s)</a>, 
+<a name="chromosome"></a><a href="MISC_map_position_help.shtml#chromosome" target="_blank">Chromosome(s)</a>, 
   <a name="coordinates"></a><a href="MISC_map_position_help.shtml#coordinates" target="_blank">Genome Coordinates</a>, 
   <!--<a name="cytogenetic_band"></a><a href="MISC_map_position_help.shtml#cytogenetic_band" target="_blank">Cytogenetic Band</a>,--> 
   <a name="marker_range"></a><a href="MISC_map_position_help.shtml#marker_range" target="_blank">Marker Range</a>, and 
   <a name="cm_offset"></a><a href="MISC_map_position_help.shtml#cm_offset" target="_blank">cM Position</a>) to limit the scope of your query.
   <ul>
 	<li>When using chromosome(s), you can also define genome coordinates or cM position.</li> 
-    <li>You cannot combine genome coordinates and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) with coordinates. The query is inclusive of the markers you enter.</li></ul>
-    <li>When using chromosome(s), you can also define genome coordinates or cM position.</li> <li>You cannot combine genome coordinates and cM position with one another.</li>
+    <li>You cannot combine genome coordinates and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) with known coordinates. The query is inclusive of the markers you enter.</li></ul>
     <li>If you wish to search with multiple regions, or search with human regions instead of mouse, you can do this with the <a href="<!--#include file='include/homepages_url.html'-->humanDisease.shtml">Human&mdash;Mouse: Disease Connection</a>.</li>
    </ul>
 See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fields on MGI Query Forms</a> for further details about entering values in these fields.</td>
