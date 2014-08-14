@@ -239,7 +239,7 @@ The search yields a list of at least 11 markers containing the word <i>homeobox<
 
 <li>Which histocompatibility markers are located on Chromosome 4?
 <blockquote>
-<b>Gene/Marker Symbol/Name:</b>histoc*<br>
+<b>Gene/Marker Symbol/Name:</b>&nbsp;&nbsp;histoc*<br>
 <b>Chromosome(s):</b> 4 <br>
 The search yields a list of at least 5 histocompatibility markers on Chromosome 4.
 </blockquote></li>
@@ -293,7 +293,14 @@ This query returns the current symbols for at least 26 matching items that inclu
 </blockquote>
 </li>
 
-
+<li>How can I find genes mapped to Chr 2 whose products are involved in axon guidance and that have alleles associated with seizures? 
+<blockquote>
+<b>Chromosome(s):</b> &nbsp; 2<br>
+<b>Gene Ontology (GO) classifications:</b>&nbsp;&nbsp; axon guidance<br>
+<b>Phenotype / Disease:</b>&nbsp;&nbsp; seizure<br>
+This query returns at least 14 genes mapped to mouse Chromosome 2 with GO annotations for biological processes involving axon guidance and with alleles annotated to seizure phenotypes. 
+</blockquote>
+</li>
 
 </ol>
 <!-- 	39590978 on 17-->
