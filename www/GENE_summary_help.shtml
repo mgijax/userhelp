@@ -86,70 +86,21 @@ function openHelpWindow(helpFile){
 
 <BLOCKQUOTE>
 <TABLE BORDER="1" CELLPADDING="4">
-<<<<<<< GENE_summary_help.shtml
 <TR><TH VALIGN="top">Field</TH><TH>Description</TH></TR>
  <TR><TH ALIGN="left" VALIGN="top">Genetic Location</TH> <TD>If known, the chromosome and centimorgan position to which the marker is assigned. Centimorgan positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009) (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PMID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.</TD></TR>
 
  <TR><TH ALIGN="left" VALIGN="top">Genome Coordinates (strand)</TH><TD VALIGN="top">Marker's coordinates on the mouse genome assembly sequence map, and the strand location of the coordinates in parentheses. Plus (+) is = 5<sup>'</sup> to 3<sup>'</sup>. Minus (-) is 3<sup>'</sup> to 5<sup>'</sup>.</TD></TR>
 
 <tr><th align="left" valign="top">Feature Type</th><td valign="Top">Marker categories  resulting from your selection(s) on the query form. For example, if you clicked <b>Non-coding RNA gene</b>, results for rRNA, tRNA, snRNA, snoRNA, or miRNA genes may appear.</td></tr>
-=======
- <TR><TH VALIGN="top">Field</TH><TH>Description</TH></TR>
- <TR><TH ALIGN="left" VALIGN="top">Genetic Location</TH> <TD>If known, the Chromosome to which the marker is assigned and the marker's centimorgan position.  Centimorgan positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009)   (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PMID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>..</TD></TR>
- <TR><TH ALIGN="left" VALIGN="top">Genome Coordinates (strand)</TH><TD VALIGN="top">Marker's coordinates on the mouse genome assembly sequence map, and the strand location of the coordinates in parentheses. Plus (+) is = 5<sup>'</sup> to 3<sup>'</sup>. Minus (-) is 3<sup>'</sup> to 5<sup>'</sup>.</TD></TR>
- <tr><th align="left" valign="top">Feature Type</th><td valign="Top">Marker categories  resulting from your selection(s) on the query form. For example, if you clicked <b>Non-coding RNA gene</b>, results for rRNA, tRNA, snRNA, snoRNA, or miRNA genes may appear.</td></tr>
->>>>>>> 1.8
 
- <TR><TH ALIGN="left" VALIGN="top">Symbol, Name</TH><TD>Marker symbol and name, linked to the MGI marker detail page.</TD></TR>
- <TR><TH ALIGN="left" VALIGN="top">Matching Text</TH><TD>Type of information contained in the database and the text that it matches. The tool searches for items containing a match in the following order: current symbol, current name, allele symbol, allele name, withdrawn symbol, withdrawn name,
-human homolog symbol, human homolog name, other homolog symbol.</TD></TR>
+ <TR><TH ALIGN="left" VALIGN="top">Symbol</TH><TD>Marker symbol and name, linked to the MGI marker detail page.</TD></TR>
+ <!--<TR><TH ALIGN="left" VALIGN="top">Matching Text</TH><TD>Type of information contained in the database and the text that it matches. The tool searches for items containing a match in the following order: current symbol, current name, allele symbol, allele name, withdrawn symbol, withdrawn name,
+human homolog symbol, human homolog name, other homolog symbol.</TD></TR>-->
 </TABLE>
 
 </BLOCKQUOTE>
+
 <p><a href="#top">Top</A>
-
-<!--<H3><A name="hierarchy"></a>What determines the sort order on a summary page?</H3>
-<ol>
-<li>The <b>Nomenclature</b> sort (the default) is the result of  the interaction of two hierarchies: primary and secondary. The first items to appear in the summary report are any results that equal your search criteria, in secondary hierarchy order. Next all results that begin with your search  criteria appear, in the same order. Finally, all results containing your criteria appear, again in the same order.
-  <ul>
-  <LI>Primary
-    <OL>
-      <LI>equals </LI>
-      <LI>begins </LI>
-      <LI>contains </LI>
-     </OL>  </LI>
-  <LI>Secondary:
-    <OL>
-     <LI>current symbols </LI>
-     <LI>current names </LI>
-     <LI>allele symbols </LI>
-     <LI>allele names </LI>
-     <LI>old (withdrawn) symbols </LI>
-     <LI>old (withdrawn) names </LI>
-     <LI>synonyms </LI>
-     <LI>human homolog symbols </LI>
-     <LI>human homolog names </LI>
-     <LI>other homologs </LI>
-    </OL> </li>
- </uL><br>
-
-
-<LI>The <b>cM</b> sort order is:
-    <ul>
-     <li>First by chromosome.</li>
-     <LI>Second by cM position in ascending order.  Markers with a syntenic cM position (or with no cM position value) appear at the end of each chromosome's list, ordered alphabetically by symbol. <!--The cM position value (at peak LOD score) for a QTL determines its placement in the list, but this value does not appear in the display.--></li>
-    </ul><br>
-
-<li><b>Genome coordinates</b> sort order is:
-    <ul>
-     <li>First by chromosome. </li>
-     <LI>Second by genome coordinates.</LI>
-     <LI>Third by symbol/name.</LI>
-    </ol>
-
-</ol>
-</p>
-<a href="#top">Top</A><br>-->
 
 <h3><a name="revise"></a>Can I edit my original options and requery?</h3>
 
