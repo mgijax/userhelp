@@ -212,7 +212,7 @@ See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fi
 
 <h3><a name="sort"></a>How do I sort my results?</h3>
 
-<p>On the Marker Query Summary page, click on the Genome Coordinates, Feature Types or Symbol column headings or the up/down arrowheads ( &#9660; &#9650;) to change the sort order of your results. </p>
+<p>On the Marker Query Summary page, click on the Genome Coordinates, Feature Types or Symbol column headings or the up/down arrowheads ( &#9660; &#9650;) to change or reverse the sort order of your results. </p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
@@ -227,7 +227,7 @@ See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fi
 <p>The following examples show the field values that produce the given results. Default values for other fields are assumed.</p>
 
 <ol>
-<li>How do I find homeobox genes mapped to Chr. 6 between 20 and 30 cM?
+<li>How do I find homeobox genes mapped to Chr 6 between 20 and 30 cM?
 <blockquote>
 <b>Gene/Marker Symbol/Name:</b>&nbsp;&nbsp;&nbsp; homeobox <br>
 <b>Chromosome(s):</b>&nbsp;&nbsp;&nbsp;6<br>
@@ -283,9 +283,9 @@ This query yields a listing of ~5 MIT markers on Chromosome 11 ordered by nomenc
 </blockquote>
 </li>
 
-<li>I want to find the current symbols of all non-coding RNA genes on  Chr. 7 between 43 and 57 cM.
+<li>I want to find the current symbols of all non-coding RNA genes on  Chr 7 between 43 and 57 cM.
 <blockquote>
-<b>Gene/Marker Symbol/Name</b>&nbsp;&nbsp;&nbsp; search in current symbols/names<br>
+<b>Gene/Marker Symbol/Name:</b>&nbsp;&nbsp;&nbsp; search in current symbols/names<br>
 <b>Feature Type:</b>&nbsp;&nbsp;&nbsp;non-coding RNA gene<br>
 <b>Chromosome(s):</b> 7<br>
 <b>cM Position</b> between 43-57<br>
