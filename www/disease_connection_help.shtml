@@ -266,7 +266,7 @@ VCF files are processed in the following manner:
     <tr><td valign="top"><b>Genome Coordinates </b></td>
     <td valign="top">The marker's chromosome basepair coordinates, strand and genome build are shown if known.</td></tr><tr>
     <td align="left" valign="top"><b>Associated Human Diseases </b></td>
-    <td valign="top">Lists any human diseases described in Online Inheritance In Man (OMIM) that are associated with the marker. Disease associations for human markers are from the NCBI mim2gene_medgen file and include annotations from OMIM, NCBI curation, Gene Reviews, and Gene Tests. Mouse markers are associated with human diseases through genotypes described in publications. </td></tr> 
+    <td valign="top">Lists any human diseases described in Online Mendelian Inheritance In Man (OMIM) that are associated with the marker. Disease associations for human markers are from the NCBI mim2gene_medgen file and include annotations from OMIM, NCBI curation, Gene Reviews, and Gene Tests. Mouse markers are associated with human diseases through genotypes described in publications. </td></tr> 
     <tr><td align="left" valign="top"><b>Abnormal Mouse Phenotypes
 Reported in these Systems</b></td>
     <td valign="top">High level terms from the Mammalian Phenotype (MP) Ontology annotated to alleles of the mouse gene. See also the <A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A>. Phenotypes that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report.</td></tr> 
@@ -286,7 +286,7 @@ Reported in these Systems</b></td>
 	<tr><td align="left" valign="top"><b>Disease </b></td>
     <td valign="top">The OMIM disease term linked to the MGI Human Disease and Mouse Model Detail page</td></tr> 
     <tr><td align="left" valign="top"><b>OMIM ID </b></td>
-    <td valign="top">The Online Inheritance In Man (OMIM) accession ID </td></tr>
+    <td valign="top">The Online Mendelian Inheritance In Man (OMIM) accession ID </td></tr>
     <tr><td align="left" valign="top"><b>Mouse Models </b></td>
     <td valign="top">The number of mouse models for this disease</td></tr>
     <tr><td align="left" valign="top"><b>Associated Mouse Markers </b></td>
