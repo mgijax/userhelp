@@ -43,7 +43,7 @@ function openHelpWindow(helpFile){
 <p>If you do not check any of the boxes (in the Categories section of the Phenotypes, Alleles, and Disease Models Query Form), the search includes every allele type in the list. You can limit your search by making selections in any or all of the three category sections. Category definitions for the three sections are as follows:  </p>
 <p>
 <table width="!" cellpadding="8" align="center">
-<tr align="center"><td valign="top"><a href="#method">Generation Method</a> | <a href="#attributes">Allele Attributes</a> | <a href="#collection">Collections</a> </td></tr>
+<tr align="center"><td valign="top"><a href="#method">Generation Method</a> | <a href="#attributes">Allele Attributes</a> | <a href="#collection">Project Collections</a> </td></tr>
 </table>
 </p>
 <p>
