@@ -50,32 +50,32 @@ function openHelpWindow(helpFile){
 <table border="1" cellspacing="1" cellpadding="3" width="100%">
  <tr>
   <th valign="top"><a name="method"></a><nobr>Generation Method</nobr></th>
-  <th align="center">Definitions for the origination of the allele</th></tr>
+  <th align="center">Definitions for the origin of the allele</th></tr>
  
- <tr><th valign="top">Chemically induced (ENU)</th><td valign="top">Exposure of mice to the N-ethyl-N-nitrosourea (ENU) chemical mutagen results in germline-transmissible mutations. </td></tr>
+ <tr><th valign="top">Chemically induced (ENU)</th><td valign="top">The exposure of mice to the chemical mutagen N-ethyl-N-nitrosourea (ENU) results in germline transmissible mutations.</td></tr>
  
- <tr><th valign="top"><nobr>Chemically induced (other)</nobr></th><td valign="top">Exposure of mice to a chemical mutagen &#151; excluding ENU and other common chemical agents such as ethyl methanesulfonate (EMS), bleomycin, and chlorambucil &#151; results in germ-line transmissible mutations.</td></tr>
+ <tr><th valign="top"><nobr>Chemically induced (other)</nobr></th><td valign="top">The exposure of mice to a chemical mutagen other than ENU, including common chemical agents such as ethyl methanesulfonate (EMS), bleomycin, and chlorambucil, results in germline transmissible mutations.</td></tr>
  
  <tr><th valign="top">Chemically and radiation induced</th>
-  <td valign="top">Exposure of mice to X-ray or other types of radiation result in germ-line transmissible mutations. Also included are mutations produced by a combination of chemical and radiation exposure.</td></tr>
+  <td valign="top">The exposure of mice to a combination of chemicals and X-ray or other types of radiation results in germline transmissible mutations.</td></tr>
 
- <tr><th valign="top">Endonuclease-mediated</th><td valign="top">These are targeted mutations generated in pluripotent or totipotent cells by an endonuclease joined to sequence-specific DNA binding domains. The mutation is introduced during homology-directed or non-homologous end-joining repair of the induced DNA break(s).</td></tr>
+ <tr><th valign="top">Endonuclease-mediated</th><td valign="top">Mutations are generated in pluripotent or totipotent cells by an endonuclease joined to sequence-specific DNA binding domains. The mutation is introduced during homology-directed or non-homologous end-joining repair of the induced DNA break(s). Methods include TALENS, CRISPRs, zinc finger nucleases and similar technologies.</td></tr>
  
  <tr><th valign="top">Gene trapped</th>
-  <td valign="top">The integration of a reporter construct into a putative gene is selected by virtue of its expression. The trapped gene is usually (though not necessarily) mutated by the integration.  Gene trapped alleles differ from targeted mutations in that the integration event is random (as opposed to targeted through homologous recombination).  Gene trapped alleles usually have nomenclature that includes a traditional <i>Gt</i> prefix and cell line ID of the creator in the superscripted portion  of the allele symbol. Gene trapped alleles are <b>not</b> included in the <i>transgenic (all)</i> search.</td></tr>
+  <td valign="top">The integration of a reporter construct into a putative gene is selected by virtue of its expression. The trapped gene is usually mutated by the integration. Gene trapped alleles differ from targeted mutations in that the integration event is random.</td></tr>
  
- <tr><th valign="top">QTL</th><td valign="top">Quantitative Trait Locus. A polymorphic locus having alleles that differentially affect the expression of a continuously distributed phenotypic trait. Usually, a QTL is a marker described by statistical association to quantitative variation in the particular phenotypic trait thought to be controlled by the cumulative action of alleles at multiple loci. <b>Note:</b> MGI does not define major modifier loci as QTL, although the literature often refers to these as QTL.</td></tr>
+ <tr><th valign="top">QTL</th><td valign="top">Quantitative Trait Locus. A polymorphic locus has alleles that differentially affect the expression of a continuously distributed phenotypic trait. Usually, a QTL is a marker described by statistical association to quantitative variation in the particular phenotypic trait thought to be controlled by the cumulative action of alleles at multiple loci.</td></tr>
  
  <tr><th valign="top">Radiation induced</th>
-  <td valign="top">Exposure of mice to X-ray or other types of radiation result in germ-line transmissible mutations.</td></tr>
+  <td valign="top">Exposure of mice to X-rays or other types of radiation results in germline transmissible mutations.</td></tr>
  
- <tr><th valign="top">Spontaneous</th><td valign="top">No laboratory manipulation took place to generate the mutations or mutant phenotypes. Annotations are to naturally occurring mutants displaying abnormal phenotypes. <b>Note:</b> Naturally occurring variants, such as alleles  identified based on electrophoretic mobility differences, antigen specificity, and noted polymorphisms, are annotated to <i>Not applicable</i> and these types of variants do not usually have an associated phenotype. </td></tr>
+ <tr><th valign="top">Spontaneous</th><td valign="top">No laboratory manipulation took place to generate the mutations or mutant phenotypes. Phenotype annotations are to naturally occurring mutants displaying abnormal phenotypes.</td></tr>
 
- <tr><th valign="top">Targeted</th><td valign="top">Includes several targeted types  such as <i>floxed/frt, reporter, knock-out</i> and <i>knock-in</i>, whereby the process of homologous recombination in ES cell lines results in an allele.</td></tr>
+ <tr><th valign="top">Targeted</th><td valign="top">Targeted mutations are generated by the process of homologous recombination in stem cell lines at a specific genomic location.</td></tr>
  
- <tr><th valign="top">Transgenic</th><td valign="top">These alleles involve DNA that has been stably introduced into the germline. All transgenic types (such as random, expressed, gene disruptions and reporter transgenes) appear in query results.</td></tr>
+ <tr><th valign="top">Transgenic</th><td valign="top">Random integration of foreign DNA into the genome results in a germline transmissible mutation.</td></tr>
 
- <tr><th valign="top">Transposon induced</th><td valign="top">The random insertion of a transposable element induced by the expression of transposase in any mouse tissue that results in a germline transmissible mutation.</td></tr>
+ <tr><th valign="top">Transposon induced</th><td valign="top">he random insertion of a transposable element is induced by the expression of transposase resuling in a germline transmissible mutation. These can be generated by the Sleeping Beauty, PiggyBac and similar mutagenesis systems.</td></tr>
 
  
 </table>
@@ -85,26 +85,27 @@ function openHelpWindow(helpFile){
  <tr>
   <th valign="top"><a name="attributes"></a><nobr>Allele Attributes</nobr></th>
   <th align="center">Definitions for the allele subtypes of the <a href="#method">Generation Methods</a></th></tr>
-  <tr><th valign="top">Conditional ready</th><td valign="top">Conditional ready alleles are those in which a region of DNA is flanked with recombinase recognition sites sites (e.g. LoxP, FRT). Subsequent interaction with a recombinase will remove or invert the flanked region, resulting in a deletion or alteration in expression of the target gene or transgene.</td></tr>
-  <tr><th valign="top">RMCE-Ready</th><td valign="top">Recombinase Mediated Cassette Exchange (RMCE)-Ready mutations contain acceptor recombination sites for targeting expression constructs to a defined genomic region, thus avoiding possible positional effects of transgene expression.</td></tr>
+  <tr><th valign="top">Conditional ready</th><td valign="top">Conditional ready alleles contain at least one region of DNA flanked by recombinase recognition sites (e.g. loxP, frt). Subsequent interaction with a recombinase (e.g. cre, FRT) will remove or invert the flanked region, resulting in a deletion or alteration in expression of the target gene or transgene.</td></tr>
+   <tr><th valign="top">Constitutively active</th><td valign="top">A constitutively active allele produces an enzyme or protein product whose activity level is constant over time and independent from normal regulatory controls.</td></tr>
+  <tr><th valign="top">Dominant negative</th><td valign="top">Dominant negative alleles produce mutant gene products that disrupt the activity of the wild-type gene when co-expressed. These mutations result in an altered molecular function (usually inactivity) and a dominant or semi-dominant phenotype.</td></tr>
+  <tr><th valign="top">Humanized sequence</th><td valign="top">Humanized sequences are alleles or transgenes that have been engineered to make a non-human sequence closer to that of human.</td></tr>
+  <tr><th valign="top">Hypomorph</th><td valign="top">A hypomorphic mutation results in reduced gene expression and/or reduced gene product activity.</td></tr>
+  <tr><th valign="top">Inducible</th><td valign="top">A mutation is inducible if its activation or expression occurs with addition or removal of an external stimulus.</td></tr>
   <tr><th valign="top">Inserted expressed sequence</th><td valign="top">Inserted expressed sequences are experimentally introduced and expressed in at least one cell type. This categorical set includes only those mutations that are not included in other sets of introduced sequences (i.e. Reporter, Transposase, Recombinase).</td></tr>
-  <tr><th valign="top">Humanized sequence</th><td valign="top">Humanized sequences are non-human sequences that have been altered to introduce one or more changes intended to make the sequence closer to that of the homologous gene in humans.</td></tr>
+  <tr><th valign="top">Knockdown</th><td valign="top">A knockdown is a specific class of hypomorph in which the affected gene’s DNA sequence is not directly modified (e.g. RNAi).</td></tr>
+  <tr><th valign="top">Modified isoform(s)</th><td valign="top">Alleles that produce modified isoform(s) (e.g. different gene products encoded by the same gene sequence as a result of alternative splicing) are those in which at least one wild-type isoform is produced, while others are mutant or missing.</td></tr>
+  <tr><th valign="top">No functional change</th><td valign="top">No functional change describes a mutation in which no discernible effect on the expression or function of the gene has been demonstrated. An example is the introduction of loxP sites to flank a critical exon, which usually has no effect on gene expression or function until cre recombinase is applied. This set also includes inserted expressed sequences, such as reporter alleles, when the endogenous gene product activity is not affected.</td></tr>
+  <tr><th valign="top">Null/knockout</th><td valign="top">A null or knockout mutation is amorphic, producing no gene product, or produces a gene product with complete loss-of-function.</td></tr>
+  <tr><th valign="top">Recombinase</th><td valign="top">A recombinase (e.g. cre, flp) is an experimentally introduced expressed gene whose product has the activity to remove or invert a region of DNA that is flanked with recombinase recognition sites sites (e.g. loxP, frt).</td></tr>
   <tr><th valign="top">Reporter</th><td valign="top">A reporter is an experimentally introduced expressed gene whose product is easily detected and not ordinarily present in the organism or cell type under study. Bacterial beta-galactosidase (LacZ), whose activity can be detected using a staining reaction, is a commonly used reporter gene; as is green fluorescent protein (GFP), which is detected by immunofluorescence.</td></tr>
-  <tr><th valign="top">Transposase</th><td valign="top">Transposases are expressed enzymes that bind to the ends of a <a href="<!--#include file='include/fewi_url.html'-->glossary/transposon">transposon</a> and catalyze the transposition of the transposon DNA segment to another part of the genome.</td></tr>
+  <tr><th valign="top">RMCE-Ready</th><td valign="top">Recombinase Mediated Cassette Exchange (RMCE)-Ready mutations contain acceptor recombination sites for targeting expression constructs to a defined genomic region for targeted cassette exchange., thus avoiding possible positional effects of transgene expression.</td></tr>
+  <tr><th valign="top">Transposase</th><td valign="top">Transposases are enzymes that bind to the ends of a <a href="<!--#include file='include/fewi_url.html'-->glossary/transposon">transposon</a> and catalyze the transposition of a transposon from one part of the genome to another.</td></tr>
   <tr><th valign="top">Transposon concatemer</th><td valign="top">Transposon concatemers are multiple copies of transposon sequences inserted at a single site. Transposon concatamers serve as donor sites in transposase mutagenesis.</td></tr>
-  <tr><th valign="top">Constitutively active</th><td valign="top">An enzyme or protein product is constitutively active if its activity level is constant over time and independent from normal regulatory controls.</td></tr>
-   <tr><th valign="top">Dominant negative</th><td valign="top">Dominant negative alleles produce mutant gene products that disrupt the activity of the wild-type gene when co-expressed. These mutations result in an altered molecular function (usually inactivity) and result in a dominant or semi-dominant phenotype.</td></tr>
-  <tr><th valign="top">Hypomorph</th><td valign="top">A hypomorphic mutation has reduced gene expression and/or reduced gene product activity.</td></tr>
-  <tr><th valign="top">Inducible</th><td valign="top">An allele is inducible if its activation or expression occurs in the presence of a particular external stimulus, or by the removal of a particular external stimulus.</td></tr>
-  <tr><th valign="top">Knockdown</th><td valign="top">A knockdown is a specific class of hypomorph in which the affected gene’s DNA sequence is not directly modified. A common technique to knockdown a gene’s expression is through RNA interference (RNAi).</td></tr>
-  <tr><th valign="top">Modified isoform(s)</th><td valign="top">Isoforms are different gene products encoded by the same gene sequence as a result of alternative splicing.  Alleles with modified isoform(s) are those in which at least one wild-type isoform is produced, while others are mutant or missing.</td></tr>
-  <tr><th valign="top">Null/knockout</th><td valign="top">A null or knockout mutation is amorphic, producing no gene product, or one with complete loss-of-function.</td></tr>
-  <tr><th valign="top">No functional change</th><td valign="top">No functional change describes a mutation in which no discernible effect on the expression or function of the gene has been demonstrated. An example is the introduction of loxP sites to flank a critical exon, which usually has no effect on gene expression or function until cre recombinase is applied. This set also includes reporter alleles when the endogenous gene product is not modified.</td></tr>
 </table></p>
 <p>
 <table border="1" cellspacing="1" cellpadding="3" width="100%">
  <tr>
-  <th valign="top"><a name="collection"></a><nobr>Collections</nobr></th>
+  <th valign="top"><a name="collection"></a><nobr>Project Collections</nobr></th>
   <th align="center">Use this section to limit your search to alleles from specific large scale projects and repositories.</th></tr>
   <tr><th align="left" valign="top"><a href="http://pb.apf.edu.au/phenbank/homePage.html">Australian PhenomeBank</a></th><td valign="top">A repository of genetically modified mouse strains held in Australia
 either as live or cryopreserved stock.</td></tr>
