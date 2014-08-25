@@ -51,6 +51,7 @@ function openHelpWindow(helpFile){
  <li><A HREF="#howdiffer">How do I use the Differential Expression Search?</A></li>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
  <li><a href="#gxdfilter">How do I filter my results?</a></li>
+ <li><a href="#whattabs">What are the advantages of the different results tabs?</a></li>
  <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</a></li>
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
  <li><a href="#batch">Can I send the results of my search to the MGI Batch Query?</a></li>
@@ -100,7 +101,7 @@ If you are interested in doing queries that ask what genes are expressed in some
 
 <h3><a name="fields"></a>What values are acceptable in each of the query form fields?</h3>
 <table width="100%" cellpadding="4" class="nb" align="center">
- <tr align="center"><Td VALIGN="top"><A HREF="#gene_nomenclature">Genes</A> | <!--<A HREF="#map_position">Chromosomal location</A> | -->
+ <tr align="center"><Td VALIGN="top"><A HREF="#gene_nomenclature">Genes</A> | <A HREF="#map_position">Genome location</A> | 
  <A HREF="#anatomical_structure">Anatomical structure or stage</A> | <A HREF="#mutated_gene">Mutant / wild type</A> <!--| <A HREF="#background">Genetic background</A>--> | <A HREF="#assay_type">Assay types</A> </td>
  </TR>
 </TABLE>
@@ -137,21 +138,16 @@ If you are interested in doing queries that ask what genes are expressed in some
 </p>
 <p>Note that you may not submit a search with values in the <b>Nomenclature search</b> and the <b>Vocabulary Term search</b> at the same time.</p>
 </TD></TR>
-<!-- 
-<TR><td valign="top"><a name="map_position"></a><b>Chromosomal location</b></td>
-  <Td ALIGN="left" VALIGN="top">Use the map position parameters (<a name="chromosome"></a>Chromosomes, <a name="coordinates"></a>Genome Coordinates, <a name="cytogenetic_band"></a>Cytogenetic Band, <a name="marker_range"></a>Marker Range, and <a name="cm_offset"></a>cM Position) to limit the scope of your query. See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fields on MGI Query Forms</a> for details.
-<ul><li>When using chromosome(s), you can also define genome coordinates, cytogenetic band, or cM position.</li> <li>You cannot combine genome coordinates, cytogenetic band, and cM position with one another.</li><li>You can enter any markers with coordinates.</li></ul></td>
-</tr>-->
-<!--<tr>
-<td valign="top"><A NAME="gene_ontology"></A><b>Gene <br>Ontology <br>classifications</b></td>
-        <TD valign="top">Genes may be described using three broad categories reflecting biological roles: Molecular Function, Biological Process, or Cellular Component. The Gene Ontology (GO) Consortium has developed structured vocabularies to specify detailed aspects within each category. MGI uses GO terms to annotate gene records. See <a href="GO_classification_fields_help.shtml" target="_blank">Using Gene Ontology Classification Fields on MGI Query Forms </a> for details.    </TD>
-      </TR>-->
 
-  <!--<td valign="top"><b>Expression</b></b></td> 
-          <TD valign="top">Click to limit your search to assays/assay results that expression was <A NAME="detected_in"></a>detected in, not detected in, or either. The default value is <i>either</i>.<p>
-         <table>-->
-<TR>
-<td valign="top"><A NAME="anatomical_structure"></A><b>Anatomical structure or stage</b></td>
+<TR><td valign="top"><a name="map_position"></a><b>Genome location</b></td>
+  <td ALIGN="left" VALIGN="top">You can enter a list of mouse genomic regions (e.g. 2:105668896-108698410, 13:22210730-22311689). 
+<ul>
+ <li>You can enter multiple regions separated by commas, spaces and/or returns.</li>
+ <li>You can search with a Chromosome (e.g. 19 or 19: or chr19). The form will only accept a digit following the chromosome.</li>
+</ul></td>
+</tr>
+
+<TR><td valign="top"><A NAME="anatomical_structure"></A><b>Anatomical structure or stage</b></td>
 <TD VALIGN="TOP"><p>Click to limit your search to assay results where expression was detected in, not detected in, or either. The default value is <i>either</i>.
 </p>
 <p>You can choose to use one or both fields in this section.
@@ -233,10 +229,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
       </table>
      </td>
    </tr>
-<!--<tr>
-   <TH VALIGN="top" ALIGN="left" class="thleft"><A NAME="max_returned"></A>Maximum Returned</th>
-    <TD>Change to the desired number or click <i>No limit</i>. The intent of the default (500) is not to speed the search by limiting the scope but rather to let you restrict (or expand) your results. </TD>
-    </TR>-->
+
   </TABLE>
    </td>
   </tr>
@@ -285,11 +278,17 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 
 <a href="#top"><font size="-1">Top</font></a>
 
+<h3><A name="whattabs"></a>What are the advantages of the different results tabs?</h3>
+
+<a href="#top"><font size="-1">Top</font></a>
+
 <H3><A NAME="summary"></A>How do I interpret the query results summary and detail pages?</H3>
 <!--<p>See <a href="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data Query Results</a>.</p>
 -->
-<p>Your search results are displayed within four tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a>, <a href="#assaytab">Assay Results</a> and <a href="#imagetab">Images</a>. With the Standard search, the Assay Results tab is selected by default. For Differential Expression searches, the Genes tab is the default selection.</p>
+<p>Your search results are displayed within six tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a>, <a href="#assaytab">Assay Results</a>, <a href="#imagetab">Images</a>, <a href="#tissuematrix">Tissue x Stage Matrix</a> and <a href="#genematrix">Tissue x Gene Matrix</a>. With the Standard search, the Assay Results tab is selected by default. For Differential Expression searches, the Genes tab is the default selection.
+See <a href="#whattabs">What are the advantages of the different results tabs?</a> for a guide to choosing results tabs.</p>
 <!--<p>If you accessed the expression results from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>, the page header shows the Structure, the Theiler Stage(s) and the unique structure ID. (Also J#, marker, allele)</p>-->
+
 <h4><a name="genestab"></a>Genes</h4>
 <p>If you select the Genes tab, the query summary contains the following fields:<br><br>
 <blockquote> 
@@ -387,6 +386,12 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
      <td valign="top">Links to image and expression assay result details.</td></tr>
 </table></p>
 </blockquote>
+
+<h4><a name="tissuematrix"></a>Tissue x Stage Matrix</h4>
+<p>If you select the Tissue x Stage Matrix, the query summary contains a grid of the following fields:<br><br>
+
+<h4><a name="genematrix"></a>Tissue x Gene Matrix</h4>
+<p>If you select the Tissue x Gene Matrix, the query summary contains a grid of the following fields:<br><br>
 
 <a href="#top"><font size="-1">Top</font></a>
 
