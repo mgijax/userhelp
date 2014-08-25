@@ -199,34 +199,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
    <td valign="top">Check list of assay types. Use this section to limit your search to assays of one or more selected types. The default is to search <i>All</i> of the assay types on the list. Uncheck the first box for <i>Find expression data in any assay type</i> to quickly clear all selections. 
     </TD>
     </TR>   
-<!--<tr><td valign="top"><a name="output_format"></a><b>Sorting and <br>output format</b></td>
-    <td valign="top">
-    <table border="0" cellpadding="3">
-      <tr>
-      <th valign="top" class="thleft"><A NAME="return_type"></A>Return data type</th>
-      <TD VALIGN="top">Click one of the  choices,  depending on whether you want to see Assays or Assay Results in the summary report for your query (the default is to summarize by Assays).</TD><td>&nbsp;</td>
-      </TR>
-      
-<tr>
-  <td valign="top"><A NAME="sort_by"></A><b>Sort by</b></td>
-   <TD VALIGN="top">
-     <table border="1" cellspacing="0" cellpadding="3">
-       <tr>
-         <th valign="top">Choose...</b></td>
-         <th valign="Top">To sort by...</b></td>
-         <th valign="top">The sort order is...</b></td>
-        </tr>
-        <tr>
-         <th class="thleft" valign="top">Assays</th>
-         <td valign="top">Gene Symbol; Assay type; Author</td>
-                 <td valign="top">Alphabetical by marker symbol; alphabetical by assay type; alphabetical by last name of first author.</td>
-       </tr>
-       <tr>
-        <td align="left" valign="top"><b>Assay Results</b></td>
-        <td valign="top">Gene Symbol; Age; Anatomical structure; Assay type</td>
-                <td valign="top">Alphabetical by marker symbol; chronological by age; hierarchical by anatomical dictionary for each stage; alphabetical by assay type.</td>
-       </tr>-->
-      </table>
+   </table>
      </td>
    </tr>
 
