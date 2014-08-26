@@ -143,7 +143,7 @@ If you are interested in doing queries that ask what genes are expressed in some
   <td ALIGN="left" VALIGN="top">You can enter a list of mouse genomic regions (e.g. 2:105668896-108698410, 13:22210730-22311689). 
 <ul>
  <li>You can enter multiple regions separated by commas, spaces and/or returns.</li>
- <li>You can search with a Chromosome (e.g. 19 or 19: or chr19). Use MT for the mitochondrial chromsome. The form will only accept a digit following the chromosome.</li>
+ <li>You can search with a Chromosome (e.g. 19 or 19: or chr19). Use MT for the mitochondrial chromosome.</li>
 </ul></td>
 </tr>
 
@@ -256,15 +256,15 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <table border width="!" cellpadding="4" cellspacing="1">
 <tr><td valign="top"><a href="#genestab">Genes</a></td>
      <td>blah</td></tr>
-<tr><td align="left" valign="top"><a href="#byassay">Assays</a></td>
+<tr><td align="left" valign="top"><b><a href="#byassay">Assays</a></b></td>
      <td valign="top">blah</td></tr>
- <tr><td valign="top"><a href="#assaytab">Assay Results</a></td>
+ <tr><td valign="top"><b><a href="#assaytab">Assay Results</a></b></td>
      <td valign="top">blah</td></tr>
  <tr><td valign="top"><b><a href="#imagetab">Images</a></b></td>
      <td valign="top">blah</td></tr>
- <tr><td valign="top"><a href="#tissuematrix">Tissue x Stage Matrix</a></td>
+ <tr><td valign="top"><b><a href="#tissuematrix">Tissue x Stage Matrix</a></b></td>
      <td>blah</td></tr>
- <tr><td valign="top"><a href="#genematrix">Tissue x Gene Matrix</a></td>
+ <tr><td valign="top"><b><a href="#genematrix">Tissue x Gene Matrix</a></b></td>
      <td>blah</td></tr>
 </table>
 
@@ -376,10 +376,11 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
 </blockquote>
 
 <h4><a name="tissuematrix"></a>Tissue x Stage Matrix</h4>
-<p>If you select the Tissue x Stage Matrix, the query summary contains a grid of the following fields:<br><br>
+<p>If you select the Tissue x Stage Matrix, the query summary contains a grid view of the query results. The columns show developmental, Theiler, stages (TS) where expression was examined in the tissues displayed in the rows. For each stage, the age of the mouse is given in days beneath the stage number (For example, TS4: E2 - 4, means Theiler Stage 4 covers the embryonic age of 2 to 4 days.) The Theiler Stages are defined <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html">here</a>. The tissues consist of high level anatomy terms from the <a href="VOCAB_mad_browser_help.shtml">The Mouse Developmental Anatomy Ontology</a>. You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;.</p>
+
 
 <h4><a name="genematrix"></a>Tissue x Gene Matrix</h4>
-<p>If you select the Tissue x Gene Matrix, the query summary contains a grid of the following fields:<br><br>
+<p>If you select the Tissue x Gene Matrix, the query summary contains a grid view of the query results. The columns show genes whose expression was examined in the tissues displayed in the rows. The tissues consist of high level anatomy terms from the <a href="VOCAB_mad_browser_help.shtml">The Mouse Developmental Anatomy Ontology</a>. You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;.</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
