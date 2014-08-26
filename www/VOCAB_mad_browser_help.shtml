@@ -65,7 +65,7 @@ background-color: #EBCA6D;
 <A HREF="#top">Back to top</A>
 
 <h3><A name="howis"></a>How is the Mouse Developmental Anatomy Ontology organized?</h3>
-<p>The Mouse Developmental Anatomy Ontology is organized spatially and functionally, using "is a" and "part of" relationships. Anatomical terms are arranged as a hierarchy from body region or organ system to tissue substructure. Terms in the ontology can be non-stage specific or “abstract,” meaning that each anatomical entity is presented as a single term together with the range of Theiler stages at which the entity is considered to be present. Stage-specific representations of each term are also included in the ontology.</p>
+<p>The Mouse Developmental Anatomy Ontology is organized spatially and functionally, using "is a" and "part of" relationships. Anatomical terms are arranged as a hierarchy from body region or organ system to tissue substructure. Terms in the ontology can be non-stage specific or “abstract,” meaning that each anatomical entity is presented as a single term together with the range of Theiler stages (TS) at which the entity is considered to be present. Stage-specific representations of each term are also included in the ontology.</p>
 
 <p>Modeling the anatomy hierarchically makes it possible to record
 expression results from assays with differing spatial resolution in a consistent and integrated manner. Organizing the anatomical terms as a Directed Acyclic Graph (DAG), i.e., in which a term can have more than one parent, allows presentation of the anatomy from multiple perspectives.</p>
