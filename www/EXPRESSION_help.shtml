@@ -252,10 +252,10 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><A name="whattabs"></a>What are the advantages of the different results tabs?</h3>
-
+<p>Some of the benefits of the different tabs are summarized in the table below. 
 <table border width="!" cellpadding="4" cellspacing="1">
 <tr><td valign="top"><b><a href="#genestab">Genes</a></b></td>
-     <td>blah</td></tr>
+     <td>The Genes tab provides a list of the genes that match your query along with the options to export your results as text files or to send the list to our Batch Query where you can search for additional information about the genes. See <a href="BATCH_help.shtml">Using the MGI Batch Query</a>.</td></tr>
 <tr><td align="left" valign="top"><b><a href="#byassay">Assays</a></b></td>
      <td valign="top">blah</td></tr>
  <tr><td valign="top"><b><a href="#assaytab">Assay Results</a></b></td>
@@ -267,6 +267,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
  <tr><td valign="top"><b><a href="#genematrix">Tissue x Gene Matrix</a></b></td>
      <td>blah</td></tr>
 </table>
+</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
@@ -274,7 +275,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <!--<p>See <a href="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data Query Results</a>.</p>
 -->
 <p>Your search results are displayed within six tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a>, <a href="#assaytab">Assay Results</a>, <a href="#imagetab">Images</a>, <a href="#tissuematrix">Tissue x Stage Matrix</a> and <a href="#genematrix">Tissue x Gene Matrix</a>. With the Standard search, the Assay Results tab is selected by default. For Differential Expression searches, the Genes tab is the default selection.
-See <a href="#whattabs">What are the advantages of the different results tabs?</a> for a guide to choosing results tabs.</p>
+See <a href="#whattabs">What are the advantages of the different results tabs?</a> for a brief guide to choosing results tabs.</p>
 <!--<p>If you accessed the expression results from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>, the page header shows the Structure, the Theiler Stage(s) and the unique structure ID. (Also J#, marker, allele)</p>-->
 
 <h4><a name="genestab"></a>Genes</h4>
@@ -377,13 +378,14 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
 
 <h4><a name="tissuematrix"></a>Tissue x Stage Matrix</h4>
 <p>If you select the Tissue x Stage Matrix, the query summary contains a grid view of the query results. The columns show developmental, Theiler, stages (TS) where expression was examined in the tissues displayed in the rows. For each stage, the age of the mouse is given in days beneath the stage number (For example, TS4: E2 - 4, means Theiler Stage 4 covers the embryonic age of 2 to 4 days.) The Theiler Stages are defined <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html">here</a>. The tissues consist of high level anatomy terms from the <a href="VOCAB_mad_browser_help.shtml">The Mouse Developmental Anatomy Ontology</a>. You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;.</p>
-
+<p>The colors, <strong style="background-color: #D7E4FF; color:#000; font-size:12px;">blues</strong> for expression detected and <strong style="background-color:#FF6767; color:#000; font-size:12px;">reds</strong> for expression not detected</strong>, get progressively darker when there are more supporting annotations. The darker colors do not denote higher or lower levels of expression, just more evidence. <strong style="background-color: #BFBFBF; color:#000; font-size:12px;">Grey</strong> squares indicate expression was examined but the results were ambiguous. Squares with two colors indicate conflicting results.
+A square with a <strong style="background-color: #FADD6D; color:#000; font-size:12px;">gold</strong> corner indicates there are expression results in substructures of the tissue that are either not specified or absent.</p>
+<p>A circle in an uncolored square indicates the tissue exists at that Theiler Stage but we have no expression data, whereas an uncolored square with no circle indicates the tissue does not exist at that stage.</p>
 
 <h4><a name="genematrix"></a>Tissue x Gene Matrix</h4>
 <p>If you select the Tissue x Gene Matrix, the query summary contains a grid view of the query results. The columns show genes whose expression was examined in the tissues displayed in the rows. The tissues consist of high level anatomy terms from the <a href="VOCAB_mad_browser_help.shtml">The Mouse Developmental Anatomy Ontology</a>. You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;.</p>
-<p>The colors, <strong style="background-color: #D7E4FF; color:#000; font-size:12px;">blues</strong> for expression detected and <strong style="background-color:#FF6767; color:#000; font-size:12px;">reds</strong> for expression not detected</strong>, get progressively darker when there are more supporting annotations. The darker colors do not denote higher or lower expression, just more evidence. <strong style="background-color: #BFBFBF; color:#000; font-size:12px;">Grey</strong> squares indicate expression was examined but the results were ambiguous. Squares with two colors indicate conflicting results.
-A square with a <strong style="background-color: #FADD6D; color:#000; font-size:12px;">gold</strong> corner indicates there are expression results in substructures of the tissue that are either not specified or absent.</p>
-<p>A circle in an uncolored square indicates the tissue exists at that Theiler Stage but we have no expression data, whereas an uncolored square with no circle indicates the tissue does not exist at that stage.</p>
+<p>The colors, <strong style="background-color: #D7E4FF; color:#000; font-size:12px;">blues</strong> for expression detected and <strong style="background-color:#FF6767; color:#000; font-size:12px;">reds</strong> for expression not detected</strong>, get progressively darker when there are more supporting annotations. The darker colors do not denote higher or lower levels of expression, just more evidence. <strong style="background-color: #BFBFBF; color:#000; font-size:12px;">Grey</strong> squares indicate expression was examined but the results were ambiguous. Squares with two colors indicate conflicting results.
+A square with a <strong style="background-color: #FADD6D; color:#000; font-size:12px;">gold</strong> corner indicates there are expression results in substructures of the tissue that are either not specified or absent. An uncolored square means we have no expression data for that gene in that tissue.</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
