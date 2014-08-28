@@ -305,7 +305,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
  <tr><td valign="top"><b>Chr </b></td>
  	 <td valign="top">Chromosome to which the marker is assigned. Aside from a chromosome number, other possible values include MT (mitochondrial), XY (XY pseudoautosomal), UN (chromosome assignment is not known)</td></tr>
  <tr><td valign="top"><b>Genome Location-NCBI Build # </b></td>
- 	 <td valign="top">Genome coordinate range in base pairs and the build number of the B57BL/6J genome</td></tr>
+ 	 <td valign="top">Genome coordinate range in base pairs and the build number of the C57BL/6J genome</td></tr>
  <tr><td valign="top"><b>cM</b></td>
  	 <td valign="top">Cytogenetic position</td></tr>
  <tr><td valign="top"><b>Strand </b></td>
