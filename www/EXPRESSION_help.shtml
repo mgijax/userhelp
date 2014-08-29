@@ -252,14 +252,14 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><A name="whattabs"></a>What are the advantages of the different results tabs?</h3>
-<p>The Genes, Assays and Assay Results tabs offer progressively detailed views of your expression search results. The 2 matrices provide interactive high-level overviews of spatiotemporal expression patterns and offer the ability to drill down to more detail. Some of the benefits of the different tabs are summarized in the table below. 
+<p>The Genes, Assays and Assay Results tabs offer progressively detailed views of your expression search results. The 2 matrices provide interactive high-level overviews of spatio-temporal expression patterns and offer the ability to drill down to more detail. Some of the benefits of the different tabs are summarized in the table below. 
 <table border width="!" cellpadding="4" cellspacing="1">
 <tr><td valign="top"><b><a href="#genestab">Genes</a></b></td>
      <td>The Genes tab provides a list of the genes that match your query along with the options to export your results as text files or to send the list to our Batch Query where you can search for additional information about the genes. See <a href="BATCH_help.shtml">Using the MGI Batch Query</a>.</td></tr>
 <tr><td align="left" valign="top"><b><a href="#byassay">Assays</a></b></td>
-     <td valign="top">blah</td></tr>
+     <td valign="top">The Assays tab associates the genes assayed with the types of assays and their references.</td></tr>
  <tr><td valign="top"><b><a href="#assaytab">Assay Results</a></b></td>
-     <td valign="top">blah</td></tr>
+     <td valign="top">The Assay Results tab provides the most detailed summary and adds details on the structures assayed and whether expression was detected to the information in the 2 previous tabs.</td></tr>
  <tr><td valign="top"><b><a href="#imagetab">Images</a></b></td>
      <td valign="top">blah</td></tr>
  <tr><td valign="top"><b><a href="#tissuematrix">Tissue x Stage Matrix</a></b></td>
