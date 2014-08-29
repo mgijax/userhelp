@@ -261,7 +261,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
  <tr><td valign="top"><b><a href="#assaytab">Assay Results</a></b></td>
      <td valign="top">The Assay Results tab provides the most detailed summary and adds details on the structures assayed and whether expression was detected to the information in the 2 previous tabs.</td></tr>
  <tr><td valign="top"><b><a href="#imagetab">Images</a></b></td>
-     <td valign="top">blah</td></tr>
+     <td valign="top">The Images tab makes it easy to see all the assay images.</td></tr>
  <tr><td valign="top"><b><a href="#tissuematrix">Tissue x Stage Matrix</a></b></td>
      <td>blah</td></tr>
  <tr><td valign="top"><b><a href="#genematrix">Tissue x Gene Matrix</a></b></td>
