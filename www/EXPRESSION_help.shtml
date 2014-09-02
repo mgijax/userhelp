@@ -263,9 +263,9 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
  <tr><td valign="top"><b><a href="#imagetab">Images</a></b></td>
      <td valign="top">The Images tab makes it easy to see all the assay images.</td></tr>
  <tr><td valign="top"><b><a href="#tissuematrix">Tissue x Stage Matrix</a></b></td>
-     <td>blah</td></tr>
+     <td>The Tissue x Stage Matrix tab offers a "when (developmental stage/age) and where (anatomy)" overview of your gene expression results.</td></tr>
  <tr><td valign="top"><b><a href="#genematrix">Tissue x Gene Matrix</a></b></td>
-     <td>blah</td></tr>
+     <td>The Tissue x Gene Matrix tab offers an overview of gene expression results by anatomical system and permits quick access to more detailed anatomical results.</td></tr>
 </table>
 </p>
 
