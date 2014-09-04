@@ -248,6 +248,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 
 <h3><a name="gxdfilter"></a>How do I filter my results?</h3>
 <p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for Wild type or mutant specimens. In the banner above your results, after <i>Filter expression data by:</i> click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>. If you reached this page by using the Gene Expression Data Query form, then if you <a href="#revise">modify</a> your search, the filters are automatically applied to your modified results.</p>
+<p>Both Matrix tabs offer easy filtering by tissue, and the Tissue x Stage Matrix also offers filtering by developmental stage/age and the Tissue x Gene Matrix permits filtering by gene symbol. Check the rows or columns you wish to retain and then click the blue filter icon in the grid to apply the filters. These filters are also applied to all grids.</p> 
 
 <a href="#top"><font size="-1">Top</font></a>
 
@@ -265,7 +266,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
  <tr><td valign="top"><b><a href="#tissuematrix">Tissue x Stage Matrix</a></b></td>
      <td>The Tissue x Stage Matrix tab offers a "when (developmental stage/age) and where (anatomy)" overview of your gene expression results.</td></tr>
  <tr><td valign="top"><b><a href="#genematrix">Tissue x Gene Matrix</a></b></td>
-     <td>The Tissue x Gene Matrix tab offers an overview of gene expression results by anatomical system and permits quick access to more detailed anatomical results.</td></tr>
+     <td>The Tissue x Gene Matrix tab offers an overview of gene expression results by anatomical system and permits quick access to more detailed anatomical results. This tab also allows you to <a href="#gxdfilter">filter</a> by gene.</td></tr>
 </table>
 </p>
 
