@@ -263,7 +263,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
      <td valign="top">The Assay Results tab provides the most detailed summary. It lists the structures assayed and whether or not expression was detected, in addition to the information provided in the 2 previous tabs.</td></tr>
  <tr><td valign="top"><b><a href="#imagetab">Images</a></b></td>
      <td valign="top">The Images tab allows you to quickly view images of expression results that match your search parameters.</td></tr>
- <tr><td valign="top"><b><a href="#tissuematrix">Tissue x Stage Matrix</a></b></td>
+ <tr><td valign="top"><b><a href="#tissuematrix">Tissue x Stage&nbsp;Matrix</a></b></td>
      <td>The Tissue x Stage Matrix tab offers an overview of gene expression results by tissue and developmental stage. Toggles allow you to expand the anatomy hierarchy to reveal greater levels of detail in areas of interest. This tab also allows you to <a href="#gxdfilter">filter</a> results by tissue and developmental stage.</td></tr>
  <tr><td valign="top"><b><a href="#genematrix">Tissue x Gene Matrix</a></b></td>
      <td>The Tissue x Gene Matrix tab offers an overview of gene expression results by anatomical system. As with the tissue x stage matrix, toggles allow you to expand the anatomy hierarchy to reveal greater levels of detail in areas of interest. This tab also allows you to <a href="#gxdfilter">filter</a> by gene.</td></tr>
