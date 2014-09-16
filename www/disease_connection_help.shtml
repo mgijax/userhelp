@@ -121,7 +121,7 @@ Symbol, name, synonym, homolog or ID for a human or mouse genetic marker.
 <li>This section also offers the option of uploading a text (.txt) file of a column or comma separated list gene symbols or IDs. </li>
 </ul>
 </TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="region"></A>Search by genome locations</TH><TD>You can enter a list of mouse or human genomic regions (e.g. 2:105668896-108698410, 13:22210730-22311689) and use the radio button to specify the species (Mouse or Human). You can enter multiple regions separated by commas, spaces and/or returns.
+<TR><TH ALIGN="left" VALIGN="top"><A NAME="region"></A>Search by genome locations</TH><TD>You can enter a list of mouse or human genomic regions (e.g. 2:105668896-108698410, 13:22210730-22311689) and use the radio button to specify the species (Mouse or Human). You can enter multiple regions separated by commas, spaces and/or returns. Use MT for the mouse mitochondrial chromosome.
 <ul>
 <li>You can search with a Chromosome (e.g. 19 or 19: or chr19) but not by chromosome arms or bands. So human chr:7p22 won't return any results. The form will only accept a digit following the chromosome. </li>
 </ul>
