@@ -140,6 +140,12 @@ or phenotype terms</b> section is a full-text search field.
 <li>Choosing a term includes results for its subterms. For example, selecting <i>abnormal pulmonary pressure</i> also includes results for its subterms, increased pulmonary artery pressure and decreased pulmonary artery pressure.</li>
 <li>After you select a term, you can repeat the process to add additional terms. Multiple entries in a single field does an 'OR' search. As an example, you can find microcephaly OR microphthalmia phenotypes.</li>
 <li>You do not have to select a term. Free text searching is permitted in this field.</li>
+<li>The Effective Phenotype Query displays how the text you enter in the "Search by disease or phenotype terms" box will be interpreted for the search. This display is on by default but may be turned off by removing the check from the box. For example, if you want to find Autism models that have abnormalities in social behavior you can type:<br>
+209850, AND, "social behavior" <br>
+The Effective Phenotype Query display for this would be: <br>
+(Autism - 209850 AND "social behavior") <br>
+Note, the commas are inserted to facilitate the function of the auto-complete tool are removed prior to running your search. <br>
+The Effective Phenotype Query shows only what you type in the Search by disease or phenotype terms. Entries in the Search by genes and Search by genome locations boxes are not displayed in this area but will be Boolean "ANDed" to your criteria entered in the "Search by disease or phenotype terms" box. </li>
 <li>If you are unsure of the proper terms to use, use free text (don't select a term) or the appropriate browser to find vocabulary terms and their definitions:</li>
 	<ul>
 	<li>Phenotype: <a href="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a></li>
