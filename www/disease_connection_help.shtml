@@ -138,7 +138,7 @@ or phenotype terms</b> section is a full-text search field.
     <li>You can type the beginnings of multiple terms to narrow the list (example: congest heart).
     </ul>
 <li>Choosing a term includes results for its subterms. For example, selecting <i>abnormal pulmonary pressure</i> also includes results for its subterms, increased pulmonary artery pressure and decreased pulmonary artery pressure.</li>
-<li>After you select a term, you can repeat the process to add additional terms. Multiple entries in a single field does an 'OR' search. As an example, you can find microcephaly OR microphthalmia phenotypes.</li>
+<li>After you select a term, you can repeat the process to add additional terms. Multiple entries in a single field does an 'OR' search by default. As an example, you can find microcephaly OR microphthalmia phenotypes. Use 'AND' to find microcephaly AND microphthalmia phenotypes.</li>
 <li>You do not have to select a term. Free text searching is permitted in this field.</li>
 <li>The Effective Phenotype Query displays how the text you enter in the "Search by disease or phenotype terms" box will be interpreted for the search. This display is on by default but may be turned off by removing the check from the box. For example, if you want to find Autism models that have abnormalities in social behavior you can type:<br>
 209850, AND, "social behavior" <br>
@@ -241,10 +241,10 @@ VCF files are processed in the following manner:
 <p>The Gene Homologs x Phenotypes/Diseases tab, the default selection, provides an overview of your results in a grid format. The query summary contains the following fields:<br><br>
 <blockquote> 
 <table border width="!" cellpadding="4" cellspacing="1">
-	<tr><td align="left" valign="top"><b>Human Marker </b></td>
-    <td valign="top">Symbol of the marker, linked to its Vertebrate Homology Class page.</td></tr> 
-    <tr><td align="left" valign="top"><b>Mouse Marker </b></td>
-    <td valign="top">Symbol of the marker, linked to its MGI marker detail record.</td></tr> 
+	<tr><td align="left" valign="top"><b>Human Gene </b></td>
+    <td valign="top">Symbol of the gene, linked to its Vertebrate Homology Class page.</td></tr> 
+    <tr><td align="left" valign="top"><b>Mouse Gene </b></td>
+    <td valign="top">Symbol of the gene, linked to its MGI gene detail record.</td></tr> 
     <tr><td align="left" valign="top"><b>Phenotypes And Diseases </b></td>
     <td valign="top">Starting from the left are high level terms from the Mammalian Phenotype (MP) Ontology annotated to alleles of the mouse gene. (See also the <A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A>). Phenotypes that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report. Listed to the right, after a vertical grey bar, are human diseases associated with the human gene in OMIM or through mouse models described in publications.</p>
     <p>Currently only mouse phenotypes are returned. Human phenotype data will be available in a future release.</p>
@@ -265,8 +265,8 @@ VCF files are processed in the following manner:
 <table border width="!" cellpadding="4" cellspacing="1">
 	<tr><td align="left" valign="top"><b>Organism</b></td>
     <td valign="top">States whether the corresponding marker is human or mouse</td></tr> 
- 	<tr><td valign="top"><b>Marker Symbol</b></td>
-    <td>Symbol of the marker. Mouse markers are linked to their MGI marker detail records. Human markers are linked to their Vertebrate Homology Class pages. Vertebrate Homology Class pages provide links to Entrez Gene and the ability to download sequences in FASTA format for several vertebrate species.</td></tr>
+ 	<tr><td valign="top"><b>Gene Symbol</b></td>
+    <td>Symbol of the gene. Mouse genes are linked to their MGI gene detail records. Human genes are linked to their Vertebrate Homology Class pages. Vertebrate Homology Class pages provide links to Entrez Gene and the ability to download sequences in FASTA format for several vertebrate species.</td></tr>
  	<tr><td valign="top"><b>Genetic Location </b></td>
     <td valign="top">The chromosome and genetic map position for the marker are shown if known.</td></tr>
     <tr><td valign="top"><b>Genome Coordinates </b></td>
@@ -278,7 +278,7 @@ Reported in these Systems</b></td>
     <td valign="top">High level terms from the Mammalian Phenotype (MP) Ontology annotated to alleles of the mouse gene. See also the <A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A>. Phenotypes that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report.</td></tr> 
     <tr><td align="left" valign="top"><b>References</b></td>
     <td valign="top">For mouse markers, a link to all the references for the marker is provided. A separate link may be present that links to the just the disease relevant references. The reference summary provides the abstract and links to MGI curated data and when possible, links to PubMed and Journals.</td></tr> 
-     <tr><td align="left" valign="top"><b>Find Mice (IMSR)</b></td>
+     <tr><td align="left" valign="top"><b>Mice With Mutations In this Gene (IMSR)</b></td>
      <td valign="top">Shows the number of stocks in the International Mouse Strain Resource (IMSR) that contain an allele of the gene. The number links to the IMSR which provides access to stock repositories. </td></tr> 
 </table></p>
 </blockquote>
@@ -295,11 +295,11 @@ Reported in these Systems</b></td>
     <td valign="top">The Online Mendelian Inheritance In Man (OMIM) accession ID </td></tr>
     <tr><td align="left" valign="top"><b>Mouse Models </b></td>
     <td valign="top">The number of mouse models for this disease</td></tr>
-    <tr><td align="left" valign="top"><b>Associated Mouse Markers </b></td>
+    <tr><td align="left" valign="top"><b>Associated Genes from Mouse Models </b></td>
     <td valign="top">The mouse markers used to create the various models of this disease</td></tr>
-    <tr><td align="left" valign="top"><b>Associated Human Markers</b></td>
-    <td valign="top">Human markers associated with the disease. Disease associations for human markers are from the NCBI mim2gene_medgen file and include annotations from OMIM, NCBI curation, Gene Reviews, and Gene Tests.</td></tr>
-    <tr><td align="left" valign="top"><b>References</b></td>
+    <tr><td align="left" valign="top"><b>Associated Human Genes</b></td>
+    <td valign="top">Human genes associated with the disease. Disease associations for human genes are from the NCBI mim2gene_medgen file and include annotations from OMIM, NCBI curation, Gene Reviews, and Gene Tests.</td></tr>
+    <tr><td align="left" valign="top"><b>References using Mouse Models</b></td>
     <td valign="top">The number of references describing mouse models of the disease, linked to reference details and curated data</td></tr>
 </table></p>
 </blockquote>
@@ -344,7 +344,7 @@ Paste your genomic coordinates for human build GRCh38 in the center, <b>Search b
 	chr22:18229556<br></br>
 	<p>This format also works: chr22:18217079,chr22:18220831,chr22:18229556</p>
 	</blockquote>
-Check <i>Human(GRCh37)</i> and click the GO button.	
+Check <i>Human(GRCh38)</i> and click the GO button.	
 </blockquote>
 <p>This query returns the human and mouse <i>BID</i> and <i>Bid</i> genes and phenotypes associated with the mouse gene.</p></li>
 
