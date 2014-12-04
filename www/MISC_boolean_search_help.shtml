@@ -266,7 +266,7 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
        <td valign="top">MP:0001463 is the ID for the term, "abnormal spatial learning."
       </tr>
  <tr><td valign="top">MP:0001463 AND NOT Alzheimer</td>
-       <td valign="top">Anything annotated to the term, "abnormal spatial learning" and is NOT an Alzheimer's disease model.</td>
+       <td valign="top">Anything annotated to the term, "abnormal spatial learning" and is NOT an Alzheimer disease model.</td>
        <td valign="top">AND NOT operator.
       </tr>
 
