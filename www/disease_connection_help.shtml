@@ -141,7 +141,7 @@ or phenotype terms</b> section is a full-text search field.
 <li>Choosing a term includes results for its subterms. For example, selecting <i>abnormal pulmonary pressure</i> also includes results for its subterms, increased pulmonary artery pressure and decreased pulmonary artery pressure.</li>
 <li>After you select a term, you can repeat the process to add additional terms. Multiple entries in a single field does an 'OR' search by default. As an example, you can find microcephaly OR microphthalmia phenotypes. Use 'AND' to find microcephaly AND microphthalmia phenotypes.</li>
 <li>You do not have to select a term. Free text searching is permitted in this field.</li>
-<li>The Effective Phenotype Query displays how the text you enter in the "Search by disease or phenotype terms" box will be interpreted for the search. This display is on by default but may be turned off by removing the check from the box. For example, if you want to find Autism models that have abnormalities in social behavior you can type:<br>
+<li>The <b>Effective Phenotype Query</b> displays how the text you enter in the "Search by disease or phenotype terms" box will be interpreted for the search. This display is on by default but may be turned off by removing the check from the box. For example, if you want to find Autism models that have abnormalities in social behavior you can type:<br>
 209850, AND, "social behavior" <br>
 The Effective Phenotype Query display for this would be: <br>
 (Autism - 209850 AND "social behavior") <br>
@@ -364,6 +364,15 @@ Type <i>alzheimer</i> in the <b>Search by disease or phenotype terms</b> section
 </p></li>
 
 <!--4-->
+<li>I am interested in finding mouse genes associated with a learning impairment but I don't want to see Alzheimer Disease models with impaired learning. How can I do this? 
+<blockquote>
+Type <i>MP:0012315 AND NOT Alzheimer</i> in the <b>Search by disease or phenotype terms</b> section of the form. The <b>Effective Phenotype Query</b> will show: <br>
+(impaired learning - MP:0012315 AND (NOT Alzheimer))
+</blockquote>
+<p>The search finds mouse genes with alleles annotated to the term, impaired learning, and its subterms and shows the genes' human homologs and all high level terms and human diseases also annotated to the alleles. 
+</p></li>
+
+<!--5-->
 <li>I have filtered my search results and now have a list of interesting mouse genes. How can I find functional information for the mouse genes? 
 <blockquote>
 	<ol>
