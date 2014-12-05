@@ -169,15 +169,6 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 
 <A HREF="#top"><font size=-1>Top</font></A>
 
-<!--<h4> <a name="image"></a>Tricolored image</h4>
-<p>A tricolored image appears when you open one or more systems (to expand a list) next to any item (except the first) in the Affected Systems column. 
-<ul>
-  <li>Click the image to put a copy of the header row (genotype, color, and number) above the row. This visual aide is especially useful when several systems are expanded, making your summary table long; you won't have to scroll to the top of the Phenotype summary table to identify which genotype column is which.</li>
-  <li>To remove this copy, click the image again. </li>
-</ul>
-</p>
-<A HREF="#top"><font size=-1>Top</font></A>  -->
-
 <h4><a name="links"></a>Links</h4>
 <p>To see information for all check marked anatomical terms in a column (i.e., all the Affected Systems for <i> hm1</i>):
 </p>
@@ -206,14 +197,14 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 <A HREF="#top"><font size=-1>Top</font></A>
 
 <h3><a name="source"></a>What should appear in the Source row?</h3>
-<p>When one of the genotypes has data from one of the high-throughput phenotyping projects, the curation source is displayed for all genotypes. WTSI (Wellcome Trust Sanger Institute) and EuPh (Europhenome Mouse Phenotyping Resource) are examples. When two sources are displayed in a column heading, such as IMPC-WTSI, the first one (in this case, the International Mouse Phenotyping Center) is the Data Interpretation Center and the second one is the Phenotyping Center that generated the data. The Interpretation Center decides whether the trait is significantly different from normal and assigns the appropriate phenotype terms. When only one high-throughput phenotyping project is given, the source generated the data and made the interpretations. If the Source row is missing, MGI is the curation source.</p>
+<p>When one of the genotypes has data from one of the high-throughput phenotyping projects, the curation source is displayed for all genotypes. WTSI (Wellcome Trust Sanger Institute) and EuPh (Europhenome Mouse Phenotyping Resource) are examples. When two sources are displayed in a column heading, such as IMPC-WTSI, the first one (in this case, the International Mouse Phenotyping Center) is the Data Interpretation Center and the second one is the Phenotyping Center that generated the data. The Interpretation Center decides whether the measured trait is significantly different from normal and assigns the appropriate phenotype terms. When only one high-throughput phenotyping project is given, the source generated the data and made the interpretations. If the Source row is missing, MGI is the curation source.</p>
 <A HREF="#top"><font size=-1>Top</font></A>
 
 <h3><a name="howsortas"></a>What should appear on the Affected Systems list? How is it sorted?</h3>
 <p>The Affected Systems list contains annotation terms from the Mammalian Phenotypes Browser. If a term does not appear, it means that, at this time, the MGI database does not contain annotations for this allele to the term. The sort order in the summary table is always alphabetical (e.g., behavioral/neurological before cardiovascular, skeleton before skin/coat/nails). </p>
 <A HREF="#top"><font size=-1>Top</font></A>
 
-<h3><A name="normalnull"></a>What's the difference between N  and &#8709;;? What does a blank cell indicate?</h3>
+<h3><A name="normalnull"></a>What's the difference between N  and &#8709;? What does a blank cell indicate?</h3>
 <ul>
   <li><b>N</b> means that phenotypic analysis has occurred, and there is a report of no abnormality for part or all of the system although an abnormality was expected. 
   <li>If an <b>N</b> is visible when the system is closed (i.e., <b>hide</b>;), then only unexpected normals are annotated for that system.</li>
