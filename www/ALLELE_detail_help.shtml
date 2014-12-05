@@ -174,10 +174,10 @@ The allele symbol is composed of the gene symbol and the allele designation.  If
 	<p>Alleles that involve multiple genes display links to up to three of the affected genes in this section along with the option to <i>View all</i> the affected genes with their feature types, genome coordinates, associated references and curatorial notes.</p>
 	<p>If the allele is a knock-in with an expressed component, this section will show the allele symbol followed by the number of expressed genes. Click the blue &#9658; to see a table of the expressed genes. 
 		<table border="1" cellspacing="2" cellpadding="4" width="!">
-  		<tr><td valign="top">Organism</td><td>***</td></tr>
+  		<tr><td valign="top">Organism</td><td>The species of origin for the expressed gene.</td></tr>
 		<tr><td valign="top">Expressed Gene</td><td>The gene symbol for the expressed gene. Mouse genes link to their MGI Gene Detail Pages. For other organisms, there is a link to EntrezGene.</td></tr>
 		<tr><td valign="top">Homolog in Mouse</td><td>If the expressed gene is from an organism other than mouse, this column will show its mouse homolog, linked to its MGI Gene Detail page.</td></tr>
-		<tr><td valign="top">Note</td><td>Any clarifying details from MGI curators</td></tr>
+		<tr><td valign="top">Note</td><td>Any clarifying details from MGI curators.</td></tr>
 	  	</table></p></td></td></tr>
 	<tr><td valign="top">Inheritance</td><td>Phenotypic effect of the allele when heterozygous with the wild type allele. <b>Note:</b> This information is primarily entered for spontaneous and chemically or radiation-induced alleles and QTLs.</td></tr>		
 <tr><td valign="top">Sequence tag</td><td>Click &#9658; to open the display.
