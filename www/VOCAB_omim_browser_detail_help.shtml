@@ -68,8 +68,8 @@ Interpreting Human Disease and Mouse Model Details</span>
 <tr><th align="left" valign="top"><a name="assoc_genes"></a>Genes and mouse models</Th>
 <td>A list of all mouse and human genes where mutations in one or both species are associated with phenotypes characteristic of this human disease. Mouse and human icons categorize the associated genes by the following conditions: 
     <ul>
-        <li><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif"><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">Mutations in both mouse and homologous human genes are associated with this human disease phenotype.</li>
-        <LI><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif">Mutations in the mouse but not in the human gene are associated with this human disease phenotype. (OMIM and NCBI data currently do not associate this disease with the homologous human gene.)</LI>
+        <li><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif"><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">The disease is associated with both the mouse and human homologs of the same gene. Mouse genes may appear in this section based on disease models that express homologs of the mouse gene.</li>
+        <LI><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif">Mouse models involving mutations in the mouse gene or expressing homologs of the mouse gene are associated with this human disease. (OMIM and NCBI data currently do not associate this disease with the homologous human gene.)</LI>
  		<LI><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">Mutations in the human gene are associated with this human disease phenotype. MGI may not contain evidence that a mutation in the mouse gene represents a model for this disease, if the mouse gene is homologous to a human gene associated with a disease, it is listed as a disease homolog.</LI>
    	 </ul>
 	<P>Links to additional information on genes, genotypes and phenotypes:</p>
