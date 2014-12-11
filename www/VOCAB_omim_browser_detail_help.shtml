@@ -91,9 +91,9 @@ Interpreting Human Disease and Mouse Model Details</span>
 <tr>
 <TH align="left" VALIGN="top"><A NAME="mouse_models"></a>Mouse Models</th><TD ALIGN="left" VALIGN="top">Clicking the <i>View ALL</i> link produces a list of all mouse genotypes associated with the human disease. Genotypes are organized into the following categories:
   <OL>
-    <LI><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif"><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif"> Mouse models where at least one of the mouse markers and its homologous human gene are associated with this human disease.
+    <LI><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif"><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif"> Mouse models where at least one of the mouse genes and its homologous human gene are associated with this human disease. Mouse genes may appear in this section based on disease models that express homologs of the mouse gene.
 	</LI>
-    <LI><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif">Mouse models where at least one of the mouse markers is associated to the disease but the human homolog is not currently associated with this human disease.</LI>
+    <LI><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif">Mouse models involving mutations in the mouse gene or  expressing homologs of the mouse gene are associated with this human disease. (OMIM and NCBI data currently do not associate this disease with the homologous human gene.)</LI>
    	<LI><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">Mouse models where none of the mouse markers are associated to the disease but at least one of the human homologs is associated with this human disease.</LI>
     <LI>Transgenes or other mutation types appears when at least one of the non-gene mouse markers is associated with this human disease.
 	</LI>
