@@ -69,7 +69,7 @@ function openHelpWindow(helpFile){
 </UL>
 
 <h3><A name="full_text"></a>What is a full-text searching?</h3>
-<p>In full-text searching, the system takes the term you enter, looks for that text in all database records of the appropriate type, and returns a list of <strong>all</strong> records containing the term in the search string.</p><P>Note: If you enter more than one term, you will get back records that contain <B>either</B> term. See <A HREF="#boolean_operators">Which Boolean operators are allowed? How do they work? Is there a default operator?</A>.
+<p>In full-text searching, the system takes the term you enter, looks for that text in all database records of the appropriate type, and returns a list of <strong>all</strong> records containing the term in the search string.</p><P>Note: If you enter more than one term, you will get back records that contain <B>either</B> term. See <A HREF="#boolean_operators">Which Boolean operators are allowed? How do they work? Is there a default operator?</A>
 </P>
 <A HREF="#top">Top</A><br>
 
@@ -180,7 +180,7 @@ itself contains a comma and you want to search on the exact phrase, enclose put 
 <br>On the other hand, if you want to look at every allele or phenotype involved in immunity, simply enter the stem, <I>immun</I> without the quotation marks.</li>-->
   <li>If the term you are entering contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: <i>&#147;cyclin B1, related sequence&#148;</i>).</li></li>
   <li>Be sure that all quotation marks are balanced. There must be one pair before and after each search term (e.g., <I>&#147;abnormal morphology&#148;</I>).</LI>
-<LI>Use only double quotation marks (single quotation marks - i.e, &#145;<i>cardio</i>&#146; - are invalid.</LI>
+<LI>Use only double quotation marks (single quotation marks - i.e, &#145;<i>cardio</i>&#146; - are invalid).</LI>
 
 </ul>
 <p>See <A href="#examples">Are there examples?</A> for additional entries and results.</p>
@@ -190,10 +190,10 @@ itself contains a comma and you want to search on the exact phrase, enclose put 
 <!--<h3><A name="parentheses"></A>How do I use parentheses?</h3>
 <p>Parentheses tell the search engine the order in which it should interpret your terms. Consider two examples:
 <blockquote>
- a or b and c &nbsp;&nbsp;&nbsp;e.g., cord or column and spinal <br>
-(a or b) and c &nbsp;&nbsp;&nbsp;e.g., (cord or column) and spinal
+ a OR b AND c &nbsp;&nbsp;&nbsp;e.g., cord OR column AND spinal <br>
+(a OR b) AND c &nbsp;&nbsp;&nbsp;e.g., (cord OR column) AND spinal
 </blockquote>
-By default, the engine interprets AND first, and so evaluates the first example as if you had put parentheses around b and c. The result is a return of anything containing  <I>spinal column</i>, or <I>cord</I>, including accordance, record, and so on.
+By default, the engine interprets OR first, and so evaluates the first example as if you had put parentheses around a and b. The result is a return of anything containing  <I>spinal column</i>, or <I>cord</I>, including accordance, record, and so on.
 The second example returns results for <I>spinal cord</I> or <I>spinal column</I>.
 </p>
 <P>See <A href="#boolean_operators">Which Boolean operators are allowed? How do they work? Is there a default operator?</A> for how the search engine interprets AND and OR.</P>
@@ -202,7 +202,7 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
  <h3><A name="restrictions"></a>Are there any restrictions on full-text searching?</h3>
 <ul>
 <LI>If you do not enter an operator, the default is OR between terms.</li>
-<LI>The system ignores variations in punctuation and spacing. The results for each of the following entries are the same.</li>
+<LI>The system ignores variations in punctuation and spacing. The results for each of the following entries are the same:</li>
  <blockquote>
  
       <i>heart, defect</i><br>
@@ -237,21 +237,21 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
 
  <TR><td valign="top">" ear "</td> <TD VALIGN="top">Only ear</td><td valign="top">Leading and trailing quotation marks and white spaces prevent <A href="#partial_word_matching">partial word matching</a> at either end; no returns for early, hear, ears, or heart. </TD></tr>-->
 
- <TR><td valign="top">spinal cord</td> <TD VALIGN="top">Anything containing either spinal or cord</td><td valign="top">Implicit <a href="#boolean_operators">OR</a> operator.</TD></tr>
-	<TR><td valign="top">"spinal cord"</td> <TD VALIGN="top">Anything containing the phrase, <i>spinal cord</i></td><td valign="top"><a href="#quotes">Quotation marks.</a></TD></tr>
+ <TR><td valign="top">spinal cord</td> <TD VALIGN="top">Anything containing either spinal or cord</td><td valign="top">Implicit <a href="#boolean_operators">OR</a> operator</TD></tr>
+	<TR><td valign="top">"spinal cord"</td> <TD VALIGN="top">Anything containing the phrase, <i>spinal cord</i></td><td valign="top"><a href="#quotes">Quotation marks</a></TD></tr>
    <tr><td valign="top">spinal OR cord</td><TD VALIGN="top">Anything containing either spinal or cord</td>
-<td valign="top"><a href="#boolean_operators">OR</a> operator.</TD></tr>
+<td valign="top"><a href="#boolean_operators">OR</a> operator</TD></tr>
    <tr><td valign="top">spinal AND cord</td> 
        <TD VALIGN="top">Anything containing both <I>spinal</I> and cord </td>
-       <td valign="top"><a href="#boolean_operators">AND</a> operator.</TD>  </tr>
+       <td valign="top"><a href="#boolean_operators">AND</a> operator</TD>  </tr>
 
   <tr><td valign="top">spinal, cord</td>
        <td valign="top">Anything containing either <I>spinal</I> or  <I>cord</I> </td>
-       <td valign="top"><a href="#boolean_operators">OR</a> operator. System ignores extraneous punctuation.</tr>
+       <td valign="top"><a href="#boolean_operators">OR</a> operator. System ignores extraneous punctuation</tr>
 
-  <tr><td valign="top">spinal AND (cord OR column)</td>
+  <tr><td valign="top">spinal AND cord OR column</td>
        <td valign="top">Anything containing both <I>spinal</I> and  <I>cord</I> or <I>column</I></td>
-       <td valign="top"><a href="#boolean_operators">AND</a> <a href="#parentheses">parentheses</a>, <a href="#boolean_operators">OR</a>.
+       <td valign="top"><a href="#boolean_operators">AND</a>, <a href="#boolean_operators">OR</a>. By default, OR is interpreted first. 
       </tr>
   <tr><td valign="top">spinal and cord</td>
        <td valign="top">Anything containing either spinal or cord</td>
@@ -259,15 +259,15 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
       </tr>
   <tr><td valign="top">"abnormal spinal cord morphology </td>
        <td valign="top">Anything containing abnormal OR spinal OR cord OR morphology</td>
-       <td valign="top">Missing quotation mark. System ignores extraneous punctuation.
+       <td valign="top">Missing quotation mark. System ignores extraneous punctuation
       </tr>
  <tr><td valign="top">MP:0001463 </td>
        <td valign="top">Anything annotated to the term, "abnormal spatial learning"</td>
-       <td valign="top">MP:0001463 is the ID for the term, "abnormal spatial learning."
+       <td valign="top">MP:0001463 is the ID for the term, "abnormal spatial learning"
       </tr>
  <tr><td valign="top">MP:0001463 AND NOT Alzheimer</td>
-       <td valign="top">Anything annotated to the term, "abnormal spatial learning" and is NOT an Alzheimer disease model.</td>
-       <td valign="top">AND NOT operator.
+       <td valign="top">Anything annotated to the term, "abnormal spatial learning" and is NOT an Alzheimer disease model</td>
+       <td valign="top">AND NOT operator
       </tr>
 
 </table></p>
@@ -292,7 +292,7 @@ The second example returns results for <I>spinal cord</I> or <I>spinal column</I
 </P>
 <P>The probable causes are: </P>
 <UL>
-  <LI>There is something wrong with your selection from one of the browsers (i.e., did you copy and paste the entire term/ID?) See the following help documentation for clarification:
+  <LI>There is something wrong with your selection from one of the browsers (i.e., did you copy and paste the entire term/ID?). See the following help documentation for clarification:
 <ul>
   <li><a href="VOCAB_mp_browser_help.shtml" target="_blank">Using the Mammalian Phenotype (MP) Browser</a></li>
   <li><a href="VOCAB_omim_browser_help.shtml" target="_blank">Using the Human Disease Vocabulary Browser</a>.</li>
