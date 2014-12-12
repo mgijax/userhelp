@@ -58,7 +58,7 @@ Using the Human&mdash;Mouse: Disease Connection </span>
  <li><a href="#hdp_results">How do I interpret the query results?</a></li>
  <li><a href="#hmdcfilter">How do I filter my results?</a></li>
  <li><A href="#output">Are there different ways to view the output of my query?</A></li>
- <li><a href="#hdp_tabfile">Can I get my results as tab-delimited text file?</a></li>
+ <li><a href="#hdp_tabfile">Can I get my results as a tab-delimited text file?</a></li>
  <li><A HREF="#examples">What are some examples of queries?</A></li>
  </ul>
 
@@ -70,7 +70,7 @@ Using the Human&mdash;Mouse: Disease Connection </span>
 <H3><A NAME="glossary"></a>How does MGI define <I>phenotype, disease</I>, and <I>allele</I>?
 </H3>
 <P><table border="0" cellspacing="0" cellpadding="0" width="!%">
- <tr><td valign="top"><i>phenotype</i></td><td>A description of the observable state of an individual with respect to some inherited characteristic. Often, individuals with different genotypes display the same phenotype. See also <I>dominant</I> and <I>recessive</I> in the <A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A>.<br>
+ <tr><td valign="top"><i>phenotype</i></td><td>A description of the observable state of an individual with respect to some inherited characteristic. See also <I>dominant</I> and <I>recessive</I> in the <A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A>.<br>
  <!--In MGI, the specific vocabulary of the Mammalian Phenotype Ontology.--></td></tR>
 
 <tr><td valign="top"><i>disease</i></td><tD> A human disease, syndrome, or condition listed in the OMIM (Online Mendelian Inheritance in Man) database.</tD></tR>
@@ -182,7 +182,7 @@ The Effective Phenotype Query shows only what you type in the Search by disease 
 <p>Yes, you can.</p>
 <ul><li>If you want to edit a list or change output options:</li>
 <ol>
-  <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. </li>
+  <li>When your results appear, click the banner at the top of the page: <b>Click to modify search</b>. The banner title changes to <b>Click to hide search</b>. The window that appears contains your original search criteria. </li>
   <li>Make your changes.</li>
   <li>Click GO.</li>
   <li>Repeat until the desired results appear.</li>
@@ -191,7 +191,7 @@ The Effective Phenotype Query shows only what you type in the Search by disease 
 
 <b>Notes:</b> 
 <ul>
-<li>You can requery as many times as you like.</li>
+<li>You can re-query as many times as you like.</li>
 <li>Alternatively, click Reset to return to the original form.</li>
 <li>In addition to running a new, more restrictive query, you can modify your results by filtering the <a href="#t&mtab">Gene Homologs x Phenotypes/Diseases</a> grid to show only specified columns and rows by checking the appropriate boxes and clicking the Submit Filters button. These filters are applied to your results in the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs.</li>
 </ul>
@@ -247,10 +247,10 @@ VCF files are processed in the following manner:
     <tr><td align="left" valign="top"><b>Mouse Gene </b></td>
     <td valign="top">Symbol of the gene, linked to its MGI gene detail record.</td></tr> 
     <tr><td align="left" valign="top"><b>Phenotypes And Diseases </b></td>
-    <td valign="top">Starting from the left are high level terms from the Mammalian Phenotype (MP) Ontology annotated to alleles of the mouse gene. (See also the <A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A>). Phenotypes that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report. Listed to the right, after a vertical grey bar, are human diseases associated with the human gene in OMIM or through mouse models described in publications.</p>
+    <td valign="top">Starting from the left are high level terms from the Mammalian Phenotype (MP) Ontology annotated to alleles of the mouse gene. See also the <A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A>. Phenotypes that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary. Phenotypes to all the genotypes associated with an allele can be viewed by following allele symbol links to Allele Detail pages. Listed to the right, after a vertical grey bar, are human diseases associated with the human gene in OMIM or through mouse models described in publications.</p>
     <p>Currently only mouse phenotypes are returned. Human phenotype data will be available in a future release.</p>
-    <p>Some of the human disease terms have been shortened and end with an elipsis. If you hover your cursor over the the term, a pop-up will display the full term name. <mark style="background-color:#D6C4E7; ">Highlighted column titles</mark> indicate which columns contain phenotype or disease terms that match one or more terms in the search. Highlighting is only displayed on column titles, and only when a phenotype or disease term is used in the search. Columns that are not highlighted contain additional phenotypes and/or disease terms associated with the mouse model or human gene that is connected to the searched term(s). </p>
-    <p>The colors, blue for <strong style="background-color: #49648B; color:#FFF; font-size:12px;">mouse data</strong> and tan for <strong style="background-color:#ffdab3; color:#000; font-size:12px;">human data</strong>, get progressively darker when there are more supporting annotations. The lightest color represents one annotation. 2-5 annotations results in a darker shade, 6-99 annotations is darker still and more than 100 annotations results in the darkest color.</p>
+    <p>Some of the human disease terms have been shortened and end with an elipsis. If you hover your cursor over the term, a pop-up will display the full term name. <mark style="background-color:#D6C4E7; ">Highlighted column titles</mark> indicate which columns contain phenotype or disease terms that match one or more terms in the search. Highlighting is only displayed on column titles, and only when a phenotype or disease term is used in the search. Columns that are not highlighted contain additional phenotypes and/or disease terms associated with the mouse model or human gene that is connected to the searched term(s). </p>
+    <p>The colors, blue for <strong style="background-color: #49648B; color:#FFF; font-size:12px;">mouse data</strong> and tan for <strong style="background-color:#ffdab3; color:#000; font-size:12px;">human data</strong>, get progressively darker with more supporting annotations. The lightest color represents one annotation. 2-5 annotations is represented by a darker shade, 6-99 annotations darker still and more than 100 annotations by the darkest color.</p>
     <p>You can hover your cursor over a colored square to see that row's markers and column heading in a pop-up.</p>
     <p>Click on a colored square for information on mouse genotypes and lower level phenotype terms. The mouse genotypes link to even more detailed phenotype information.</p>
     <p>A bold <b>N</b> in a phenotype column indicates that no abnormal phenotypes of that type were observed in any allele of the gene.</p>
@@ -323,7 +323,7 @@ Reported in these Systems</b></td>
 
 <a href="#top"><font size="-1">Top</font></a>
 
-<H3><a name="hdp_tabfile"></a>Can I get my results as tab-delimited text file?</H3>
+<H3><a name="hdp_tabfile"></a>Can I get my results as a tab-delimited text file?</H3>
 
 <p>Yes. The <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs but not the <a href="#t&mtab">Gene Homologs x Phenotypes/Diseases</a> tab, provide a tab-delimited text export option. In your search results, click on the Text File icon. Your web browser will download a file of the results.</p>
 
