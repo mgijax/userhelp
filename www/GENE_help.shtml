@@ -47,18 +47,17 @@ Using the Genes and Markers Query Form</span>
 <p>See also:
 <ul style="padding-left:30px">
   <li><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a> for unfamiliar terms (or for how MGI defines and uses familiar terms) and acronyms</li>
-  <li><a href="MISC_general_searching_help" target="_blank">General Guidelines for MGI Query Form Searches</a></li>
+  <li><a href="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</a></li>
   <li><a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a></li>
 </ul>
 
 <h3><a name="whatdo"></a>What can I  use the Genes and Markers Query Form to find?</h3>
  <p>Use this query form to search for detailed information on various types of mouse markers. You can:
 <ul>
-  <li>search for gene/marker details by entering a current or old symbol, name, allele, or homolog; or you can restrict the search to look for only a current symbol or name.
+  <li>search for gene/marker details by entering a current or former symbol, name, allele, or homolog.
   <li>query by feature type and thereby confine the search to protein coding genes, to individual non-coding RNA genes,  or to a variety of other categories. See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a> for a complete list of feature types, descriptions, and corresponding SO IDs (if available/pertinent).</li>
-  <li>retrieve lists of markers sorted by nomenclature or genome coordinates.</li>
+  <li>retrieve lists of markers and sort your results by nomenclature, genome coordinates or feature types.</li>
   <li>include GO classifications, InterPro domains, or phenotype terms in your search parameters.
-  <li>limit or expand the amount of items returned.</li>
   <li>modify search parameters until you are satisfied with the results. </li>
   <li>view results in web, tab-delimited or spreadsheet formats.</li>
 </ul>
@@ -270,7 +269,7 @@ markers for which the symbol or name begins with the characters <i>chrng</i>).
 <li>List all the genes on any chromosome between cM position 10 and 15.
 <blockquote>
 <b>Chromosome(s): </b>2<br>
-<b>cM Position</b> BETWEEN: 10.0-15.0 <br>
+<b>cM Position</b> Between: 10.0-15.0 <br>
 This query yields a listing of  markers on Chromosome 2 ordered by nomenclature.
 </blockquote></li>
 
@@ -298,7 +297,7 @@ This query returns the current symbols for at least 26 matching items that inclu
 <b>Chromosome(s):</b> &nbsp; 2<br>
 <b>Gene Ontology (GO) classifications:</b>&nbsp;&nbsp; axon guidance<br>
 <b>Phenotype / Disease:</b>&nbsp;&nbsp; seizure<br>
-This query returns at least 14 genes mapped to mouse Chromosome 2 with GO annotations for biological processes involving axon guidance and with alleles annotated to seizure phenotypes. 
+This query returns at least 15 genes mapped to mouse Chromosome 2 with GO annotations for biological processes involving axon guidance and with alleles annotated to seizure phenotypes. 
 </blockquote>
 </li>
 
