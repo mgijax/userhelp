@@ -50,6 +50,7 @@ fructose catabolism [GO:0006001]. Using this example, copy and paste either:  fr
 </UL>
 
 <P><B>Note:</B> GO vocabularies are hierarchical. Consequently, a search returns gene records annotated not only to terms matching your query but also genes annotated to more detailed terms (related to your query term but not necessarily containing the text you enter). As an example,
+<blockquote>
 <ol>
   <li>Click <b>Browse Gene Ontology (GO)</b>.</li>
   <li>Enter <I>trypsin</I> in the Query box, and  click <B>Search</B> to get the list of molecular function terms matching this query.</li>
@@ -61,6 +62,7 @@ fructose catabolism [GO:0006001]. Using this example, copy and paste either:  fr
   <li>Repeat steps 2 and 3, using serine-type endopeptidase.</li>
   <li> Click <i>serine-type endopeptidase activity</i>. <br> Note that the result is a greater number of number of genes and annotations (than in step 3) because it includes not only the subterm (or child),<i> trypsin activity</i>, but also annotations to all other types of serine-type endopeptidases as well as genes annotated to the term <I>serine-type endopeptidase activity</I> itself. </li>
 </ol>  
+</blockquote>
 
 <A HREF="#top">Top</A>
 
