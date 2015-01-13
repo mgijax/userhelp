@@ -57,15 +57,15 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
 
 <tr><th valign="top" align="left"><font size="-1">rRNA gene</th><td valign="top"><font size="-1">A gene that encodes ribosomal RNA.</td><td valign="top"><font size="-1">SO:0001637</font></td></tr>
 
-<tr><th align="left" valign="top"><font size="-1">tRNA gene</font></th><td valign="top"><font size="-1">A gene that encodes Transfer RNA. </td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
+<tr><th align="left" valign="top"><font size="-1">tRNA gene</font></th><td valign="top"><font size="-1">A gene that encodes Transfer RNA. </td><td valign="top"><font size="-1">SO:0001272</font></td></tr>
 
-<tr><th valign="top" align="left"><font size="-1">snRNA gene</th><td valign="top"><font size="-1">A gene that encodes a Small Nuclear RNA.</td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
+<tr><th valign="top" align="left"><font size="-1">snRNA gene</th><td valign="top"><font size="-1">A gene that encodes a Small Nuclear RNA.</td><td valign="top"><font size="-1">SO:0001268</font></td></tr>
 
-<tr><th valign="top" align="left"><font size="-1">snoRNA gene</th><td valign="top"><font size="-1">A gene that encodes for Small Nucleolar RNA.</td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
+<tr><th valign="top" align="left"><font size="-1">snoRNA gene</th><td valign="top"><font size="-1">A gene that encodes for Small Nucleolar RNA.</td><td valign="top"><font size="-1">SO:0001267</font></td></tr>
 
-<tr><th valign="top" align="left"><font size="-1">miRNA gene</th><td valign="top"><font size="-1">A gene that encodes for microRNA. </td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
+<tr><th valign="top" align="left"><font size="-1">miRNA gene</th><td valign="top"><font size="-1">A gene that encodes for microRNA. </td><td valign="top"><font size="-1">SO:0001265</font></td></tr>
 
-<tr><th valign="top" align="left"><font size="-1">scRNA gene</th><td valign="top"><font size="-1">A gene that encodes for Small Cytoplasmic RNA.</td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
+<tr><th valign="top" align="left"><font size="-1">scRNA gene</th><td valign="top"><font size="-1">A gene that encodes for Small Cytoplasmic RNA.</td><td valign="top"><font size="-1">SO:0001266</font></td></tr>
 
 <tr><th valign="top" align="left"><font size="-1">lincRNA gene</th><td valign="top"><font size="-1">A gene that encodes large intervening non-coding RNA. </td><td valign="top"><font size="-1">SO:0001641</font></td></tr>
 
