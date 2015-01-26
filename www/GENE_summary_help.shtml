@@ -70,7 +70,7 @@ function openHelpWindow(helpFile){
 	  <dt><font size="-1"><u><b>You searched for...</b></u></font></dt>
 	  <dt><font size="-1">on Chromosome: any of [<b>2</b>]</font></dt>
 	  <dt><font size="-1">AND Genome Coordinates: <b>4.4 -10.9</b> Mbp</font></dt>
-	  <dt><font size="-1">AND Marker Type: any of [<b>protein coding gene, miRNA gene</b>]</font></dt>
+	  <dt><font size="-1">AND Feature Type: any of [<b>protein coding gene, miRNA gene</b>]</font></dt>
    </dl>
   </BLOCKQUOTE>
     <br>  
