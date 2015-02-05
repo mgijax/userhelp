@@ -128,7 +128,7 @@ For more details, see the <a href="http://www.geneontology.org/GO.annotation.con
 </blockquote>
 
 <tr><th align="left" valign="top"><a name="infer"></a>Inferred From</th><td>GenBank, UniProt, RefSeq, or MGI Gene or Allele Accession ID. For most IDs, a mouse-over will reveal the source species for the annotation.</td></tr>
-   <tr><th align="left" valign="top">Ref(s)</th><td>J number (every reference stored in MGI has a number with the format J:<i>nnnnnn</i>) of the supporting reference for the classification, linked to a  References Query Results -- Details page. Note: If there are more than 3 references, that numeral replaces the J number, and the link goes to the  References Query Results -- Summary page. </td></tr>
+   <tr><th align="left" valign="top">References(s)</th><td>J number (every reference stored in MGI has a number with the format J:<i>nnnnnn</i>) of the supporting reference for the classification, linked to a  References Query Results -- Details page. The reference's PubMed ID is also shown when possible and it links to PubMed. Mouse over either ID to view the reference summary. Note: If there are more than 3 references, that numeral replaces the J number, and the link goes to the  References Query Results -- Summary page. </td></tr>
   </table>
 
 </p><br>
