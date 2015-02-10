@@ -62,8 +62,8 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
  	 <li><a href="#all_accession_ids">Is there a list of all gene trap cell line accession IDs?</a></li>
 	<li><a href="#stat_report">Is there a list of all IDs and nomenclature associated with gene traps in MGI?</a></li>
 	</UL>
-<A HREF="#top"><font size="-1">Top</font></A>
 
+<A HREF="#top"><font size="-1">Top</font></A>
 
 <h3><a name="what_is_gt"></a>What is gene trapping?</h3>
 <p>Gene trapping is a high-throughput approach used to introduce genome-wide insertional mutations. </p>
@@ -103,6 +103,7 @@ For example:
 </li>
 </ul>
 </p>
+
 <A HREF="#top"><font size="-1">Top</font></A>
 
 <h3><a name="who_are"></a>Who are the cell line creators?</h3>
@@ -243,8 +244,8 @@ For example:
 <img src="images/imsr.jpg" width="710" height="60" border="0" alt="">
 </blockquote>
 </p>
-<A HREF="#top"><font size="-1">Top</font></A>
 
+<A HREF="#top"><font size="-1">Top</font></A>
 
 <h3><a name="mutant_cell_line_id"></a>How can I identify a gene trap mutant ES cell line ID?</h3>
 <ul>
@@ -304,9 +305,8 @@ For example:
 </ul>
 
 </p>
+
 <A HREF="#top"><font size="-1">Top</font></A>
-
-
 
 <h3><a name="how_find_dbgss"></a>How can I find all the available sequence-tagged gene traps from a specific creator?</h3>
 <p>Use the MGI <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, & Disease Models Query Form</a>. 
@@ -343,9 +343,8 @@ For example:
    	</ol>
 </ul>
 </p>
+
 <A HREF="#top"><font size="-1">Top</font></A>
-
-
 
 <h3><a name="ways"></a>What are the ways of searching for gene trap insertions?</h3>
 <p>
@@ -404,6 +403,7 @@ For example:
 <img src="images/vector.jpg"></a>
 </blockquote>
 </p>
+
 <A HREF="#top"><font size="-1">Top</font></A>
 
 <h3><a name="batch_qf"></a>Can I use the MGI Batch Query to find gene traps?</h3>
@@ -422,9 +422,8 @@ For example:
 </p>
 <p>See <a href="#no_association">Why aren't all gene traps associated with a gene?</a> for more details.
 </p>
+
 <A HREF="#top"><font size="-1">Top</font></A>
-
-
 
 <h2><a name="fga"></a>Finding gene associations</a></h2>
 	<ul>
@@ -451,16 +450,15 @@ For example:
 <img  src="images/marker_detail_gene_trapped.png" width="527" height="48" border="0" alt="">
 </blockquote>
 
-
 <li>You can use the MGI <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, & Disease Models Query Form</a>. Enter the gene nomenclature and follow the appropriate links.</li>
 <li>You can look through the <a href="ftp://ftp.informatics.jax.org/pub/reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs</a> report to locate the gene and its traps.</li>
 </ol>
 </p>
+
 <A HREF="#top"><font size="-1">Top</font></A>
 
-
-
 <h3><a name="identify"></a>How can I find all genes associated with gene trap insertions?</h3>
+
 <p><p>Click  <b>Download-->MGI Data and Statistical Reports--></b> to access   <a href="ftp://ftp.informatics.jax.org/pub/reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs (tab-delimited) for this list.</a></p>
 </p>
 <ol>
@@ -469,12 +467,11 @@ For example:
 <li>Click <b>Search</b>. A Phenotypic Alleles Summary report appears, identifying the number and name of all genes associated with gene trap insertions.</li>
 </ol>
 </p>
+
 <A HREF="#top"><font size="-1">Top</font></A>
 
-
-
-
 <h3><a name="no_association"></a>Why aren't all gene traps associated with a gene?</h3>
+
 <p>MGI does not establish gene trap-to-gene associations:
 <ol>
   <li>where sequence tags for a gene trap allele overlap multiple genes in the trapped gene orientation:
@@ -525,7 +522,6 @@ For example:
       </pre></li>
    </ol>   
 
-
 <blockquote>
 <pre>
 <b>Legend:</b>
@@ -537,11 +533,9 @@ MCL	     Indicates Mutant Cell Line identity.
 </pre>
 
 </blockquote>
-
 </p>
+
 <A HREF="#top"><font size="-1">Top</font></A>
-
-
 
 <h3><a name="near_gene"></a>How can I find genes near a gene trap not associated with a gene?</h3>
 <p>If the Gene-trapped Allele Detail report displays a genome browser link, you can view gene trap sequence tag positions relative to genome coordinates.
@@ -556,6 +550,7 @@ MCL	     Indicates Mutant Cell Line identity.
 <img src="images/no_gene.jpg" width="615" height="223" border="0" alt="">
 </blockquote>
 </p> 
+
 <A HREF="#top"><font size="-1">Top</font></A>
 
 <h3><a name="interest_gene"></a>How can I find gene traps not associated with a gene but that are near a gene of interest?</h3>
@@ -572,18 +567,14 @@ MCL	     Indicates Mutant Cell Line identity.
 </ul>
 <blockquote>
 <img src="images/genome_context2.jpg" width="664" height="401" border="0" alt="genome context">
-
 </blockquote>
 </p>
+
 <A HREF="#top"><font size="-1">Top</font></A>
-
-
 
 <h3><a name="no_genes_exist"></a>Can I search for gene traps where no known genes exist?</h3>
 <p>No. However, MGI's GBrowse provides views of gene trap sequence tag positions relative to genome coordinates. See <a href="#gt_locations">Can I view the approximate locations of gene trap insertions?</a> for how to access this genome browser. See <a href="#how_know_gt">How can I tell if a given gene trap has trapped a gene?</a> and <a href="#interpret_gbrowse">How do I interpret GBrowse gene trap tracks?</a> for additional GBrowse information.
 </p>
-
-
 
 <p><b>Note:</b> You can find any gene trap, regardless of gene association, by using its mutant cell line ID, provider tag ID, or GenBank sequence tag ID.</p>
 
@@ -622,8 +613,8 @@ The sequence tag's GenBank identifier (<b>GenBank ID</b>), the sequencing techni
 <img src="images/sequence_tag.jpg" width="491" height="86"></a>
 </blockquote>
 </p>
-<A HREF="#top"><font size="-1">Top</font></A>
 
+<A HREF="#top"><font size="-1">Top</font></A>
 
 <h3><a name="orientation"></a>Is there a way to determine sequence tag orientation?</h3>
 <p>Yes. 
@@ -636,12 +627,10 @@ The sequence tag's GenBank identifier (<b>GenBank ID</b>), the sequencing techni
   </ol>
 <img src="images/orientation.jpg" width="492" height="243" border="0" alt="">
 
-
 <li>You can click  <b>View all gene trap sequence tags ...</b> to see a full-page genome browser view of the gene trap insertion. Use the <b>Scroll/Zoom</b> feature in GBrowse to find additional details. (Scroll/Zoom is located in the middle of the screen, next to <i>Show 10.28kbp</i>, in the image below).</i></li>
 </ul>
 <blockquote>
 <img src="images/gbrowse.jpg" width=544"" height="266" border="0" alt="">
-
 
 </blockquote>
 
@@ -715,7 +704,6 @@ If the method is 3' RACE or 5' RACE, the tag defining the insertion site is RNA-
 <A HREF="#top"><font size="-1">Top</font></A>
 
 
-
 <h3><a name="interpret_gbrowse"></a>How do I interpret GBrowse gene trap tracks?</h3>
 <h4>GeneTraps_per_Gene track</h4>
 
@@ -754,7 +742,6 @@ If the method is 3' RACE or 5' RACE, the tag defining the insertion site is RNA-
 		</table>
 	</blockquote>
 	
-	
 </p>
 
  <h4>GeneTraps_DNA_tags track</h4>
@@ -772,22 +759,12 @@ If the method is 3' RACE or 5' RACE, the tag defining the insertion site is RNA-
 <p>If the MGI allele_detail page has an association for the gene, and in MGI GBrowse, 
    <ul>
 	<li> the sequence tag location overlaps a gene and</li>
-     
-     <li>the direction of the arrow is the same as that of the transcript with respect to the gene model</li>
+    <li>the direction of the arrow is the same as that of the transcript with respect to the gene model</li>
    </ul>
 
 then the gene trap has trapped a gene.
    
 </p>
-
-
-
-
-
-
-
-
-
 
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
