@@ -206,13 +206,13 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></t
 
 <OL>
 <LI>What genes are expressed in the forebrain and not expressed in the midbrain?<BR><BR>
-<B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; CONTAINS forebrain<BR>
-<B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(lower box)&nbsp;&nbsp;&nbsp; CONTAINS midbrain
+<B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; forebrain<BR>
+<B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(lower box)&nbsp;&nbsp;&nbsp; midbrain
 
 <P>This query returns a summary page listing assay results for genes that have been shown to be expressed (detected=yes) in the forebrain (and its substructures) and whose assay results for the midbrain (and its substructures) were either lacking expression (detected=no) or have not been analyzed. By default, the summary opens with the list of genes. You can use the Assay results tab to distinguish between those genes for which expression has been demonstrated to be lacking and those that have not been analyzed. </LI>
 
 <!--<LI> Which genes are expressed exclusively in the eye and its substructures?<BR><BR>
-<B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; CONTAINS eye<BR>
+<B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; eye<BR>
 <B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(lower box)&nbsp;&nbsp;&nbsp; (click to put a check mark next to) Any other structure 
 
 <P>This query returns genes shown to be expressed exclusively in the eye and its substructures.  For those genes, expression results for any other structures analyzed must be Not detected (absent).</LI>-->
@@ -230,8 +230,8 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></t
 <P>This query returns genes that have been shown to be expressed in the TS  10 embryo but for which there are no positive (detected=yes) expression results at TS  28.  For those genes, this is either because the results present in the database for the postnatal animal were either Not detected (absent) or did not exist (not analyzed).
 </P>
 <!--<LI>Excluding results obtained using RT-PCR, which genes are expressed in the forelimb and not expressed in the hindlimb?<BR><BR>
-<B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; CONTAINS forelimb<BR>
-<B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(lower box)&nbsp;&nbsp;&nbsp; CONTAINS hindlimb<BR>
+<B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(upper box)&nbsp;&nbsp; forelimb<BR>
+<B>Anatomical Structure(s)</B>: &nbsp;&nbsp;(lower box)&nbsp;&nbsp;&nbsp; hindlimb<BR>
 <B>Assay Type(s):</B> not in RT-PCR
 
 <P>This query returns genes that have been shown to be expressed in the forelimb and not expressed in the hindlimb, excluding results obtained using the very sensitive technique of RT-PCR.
