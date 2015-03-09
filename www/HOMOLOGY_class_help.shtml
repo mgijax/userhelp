@@ -1,7 +1,7 @@
 <!--#include file='include/templateHead.html'-->
 <title>
   <!--#include file="include/mgiversion.html"-->
-MGI-Interpreting Vertebrate Homology Class Reports</title>
+MGI-Interpreting Homology Reports</title>
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
 <script>
@@ -18,7 +18,7 @@ function openHelpWindow(helpFile){
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
-  Interpreting Vertebrate Homology Class Reports
+  Interpreting Homology Reports
  </span>
 </div>
 
@@ -35,13 +35,13 @@ function openHelpWindow(helpFile){
 <!--#include file='include/templateBlankBodyStart.html'-->
 
 <!-- Body of User Help -->
-<A NAME="top"></A> <p>This help document answers the following questions about the Vertebrate Homology Class Report.
+<A NAME="top"></A> <p>This help document answers the following questions about the Homology Reports.
 </p>
 
 <ul>
- <li><A HREF="#contain">What's in the Vertebrate Homology Class Report?</A></li>
- <li><a href="#source">What is the source of the homology assertions?</a></li>
- <li><a href="#field">Which fields should show up in the Homology Class table?</a></li>
+ <li><A HREF="#contain">What's in the Homology Report?</A></li>
+ <li><a href="#source">What are the sources of the homology assertions?</a></li>
+ <li><a href="#field">Which fields should show up in the Homology table?</a></li>
  <li><A href="#acc_ID">How do I view resources for genes?</A></li>
  <li><A href="#sequence">How do I view resources for sequences?</A></li>
  <li><a href="#align">Can I view a multiple sequence alignment?</a></li>
@@ -55,23 +55,23 @@ function openHelpWindow(helpFile){
 <LI><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> (for unfamiliar terms or acronyms)</LI>
 </ul>
 
-<H3><A NAME="contain"></A>What's in the Vertebrate Homology Class Report?</H3>
-<p>The Vertebrate Homology Class Report contains:
+<H3><A NAME="contain"></A>What's in the Homology Report?</H3>
+<p>The  Homology Report contains:
 </p>
 
 <ul>
- <li>the <a href="#source">source</a> of the homology assertions and its homology class ID, linked to HomoloGene.</li>
+ <li>the <a href="#source">source</a> of the homology assertions and for HomoloGene asssertions, its homology class ID, linked to HomoloGene.</li>
  <li>a <a href="#field">table</a> summarizing homology information for the class</LI>
  <li>the ability to select sequences from that table for downloading in FASTA format or forwarding to MouseBlast</LI>
  <li>links via the database accession identifier to the sequence source</LI>
- <li>a link to the HomoloGene Multiple Sequence <a href="#align">Alignment</a> for the class</li>
+ <li>***a link to the HomoloGene Multiple Sequence <a href="#align">Alignment</a> for the class</li>
  <li>a link to a Comparative GO <a href="#graph">Graph when GO annotations are present.</a></li>
 </ul>
 
 <A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
 
-<H3><A NAME="source">What is the source of the homology assertions?</a></H3>
-<p>MGI loads sequence based vertebrate homology assertions from NCBI <a href="http://www.ncbi.nlm.nih.gov/homologene">HomoloGene</a>. HomoloGene programmatically detects homologs among the genome features of several completely sequenced eukaryotic genomes.
+<H3><A NAME="source">What are the sources of the homology assertions?</a></H3>
+<p>MGI loads sequence based vertebrate homology assertions from NCBI <a href="http://www.ncbi.nlm.nih.gov/homologene">HomoloGene</a> and Human/Mouse homology assertions from the HUGO Gene Nomenclature Committee (<a href="http://www.genenames.org">HGNC</a>). HomoloGene programmatically detects homologs among the genome features of several completely sequenced eukaryotic genomes.
 </p>
 <p>MGI includes homology for the following selected vertebrate species from HomoloGene:</p>
 <ul>
@@ -90,7 +90,7 @@ function openHelpWindow(helpFile){
 
 <A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
 
-<h3><A NAME="field"></A>Which fields should show up in the Homology Class table?</h3>
+<h3><A NAME="field"></A>Which fields should show up in the Homology table?</h3>
 <p>For each homolog in a class, the record shows some or all information in the following table, depending on the information available.
 </p>
 <table class="nb" width="!" align="center">
@@ -121,7 +121,7 @@ to and the cM position or cytogenetic band. Location information varies dependin
 <p><A HREF="#top"><FONT SIZE="-1">Top</FONT></A></p>
 
 <H3><A NAME="align">Can I view a multiple sequence alignment?</a></H3>
-<p>Yes. Just above the table is a link to a Multiple Sequence Alignment of protein sequences at HomoloGene. 
+<p>On HomoloGene Vertebrate Homology pages, just above the table is a link to a Multiple Sequence Alignment of protein sequences at HomoloGene.
 </p>
 
 <H3><A NAME="fasta"></A>How do I download sequences in FASTA format?</H3>
@@ -149,7 +149,7 @@ to and the cM position or cytogenetic band. Location information varies dependin
 
 <p><A HREF="#top"><FONT SIZE="-1">Top</FONT></A></p>
 
-<H3><A NAME="graph">Are there curated Gene Ontology (GO) annotations for mouse, human, or rat genes in this homology class?</a></H3>
+<H3><A NAME="graph">(***Only on homologene pages?)Are there curated Gene Ontology (GO) annotations for mouse, human, or rat genes in this homology class?</a></H3>
 <p>If available, there will be a link to a Comparative GO Graph of curated mouse, human and rat annotations of the molecular functions, biological processes and cellular components of the gene products in this homology class. 
 </p>
 

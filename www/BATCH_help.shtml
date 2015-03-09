@@ -61,6 +61,7 @@ function openHelpWindow(helpFile){
   </ul>
 <!--<li><a href="#why_listed">Why is a gene listed multiple times in a report?</a></li>-->
 <li><a href="#go_codes">What do the acronyms in the Gene Ontology "code" column mean?</a></li>
+<li><a href="#MouseMine">Can I send the results of my search to MouseMine?</a></li>
 <!--<li><a href="#lost_file">I clicked Back and when I returned to my query, the file I was uploading disappeared.</a></li>-->
 <li><a href="#speed">What can I do to speed up my query?</a></li>
 <li><a href="#no_results">My query returned no results or <i>No associated gene</i> in one of the report columns. Why?</a></li>
@@ -305,8 +306,10 @@ The results are initially returned in web format and then you can choose to Expo
   </table>
 </blockquote>
 </p>
- <a href="#top"><font size="-1">Top</font></a>
 
+<p>If you would like to add more than one additional information type, you can do this with <a href="#MouseMine">MouseMine</a>. 
+
+ <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="revise"></a>Can I edit my original options and requery?</h3>
 <p>Yes, you can.</p>
@@ -420,8 +423,14 @@ See <a href="#example">Are there examples?</a> for a sample of a query modificat
 <h3><a name="go_codes"></a>What do the acronyms in the Gene Ontology <b>Code</b> column mean?</a></h3>
 <p>See <A HREF="http://www.geneontology.org/GO.evidence.shtml" target="_blank">Guide to GO Evidence Codes</a> at the Gene Ontology website. 
 </p>
- <a href="#top"><font size="-1">Top</font></a>
 
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><A name="MouseMine"></a>Can I send the results of my search to MouseMine?</h3>
+<p>Yes. Above the column headings for your results you have the option of exporting your results as a text file, spreadsheet file or sending the list of genome features to MouseMine. If you select the MouseMine icon, MouseMine will run several default searches and enrichments on your list of features.</p>
+<p>See also the MouseMine <a href="http://www.mousemine.org/blog/?page_id=52">FAQ</a>.</p>
+
+<a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="speed"></a>What can I do to speed up my query?</h3>
 <p>There are several options for speeding up a query.</p>

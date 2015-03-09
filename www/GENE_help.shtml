@@ -42,6 +42,7 @@ Using the Genes and Markers Query Form</span>
  <li><a href="#sort">How do I sort my results?</a></li>
  <!--<li><a href="#filter">How do I filter my results?</a></li>  -->
  <li><a href="#tabfile">How do I retrieve my results as tab-delimited text or spreadsheet files?</a></li>
+ <li><a href="#batch">Can I send the results of my search to the MGI Batch Query or MouseMine?</a></li>
  <li><a href="#example">Are there any sample queries?</a>
 </ul>
 <p>See also:
@@ -221,6 +222,14 @@ See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fi
 
 <h3><a name="tabfile"></a>How do I retrieve my results as tab-delimited text or spreadsheet files?</h3>
 <p>In your search results, <!--at the right hand edge of the Filter assays bar,--> click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><A name="batch"></a>Can I send the results of my search to the MGI Batch Query or MouseMine?</h3>
+<p>Yes. Above the column headings for your results you have the option of exporting your results as a text file, spreadsheet file or sending the list of genome features to the MGI Batch Query or MouseMine. If you click the Batch Query icon, the default Batch Summary will appear for your list of genes. Use the Click to modify search button to expand your search results to include additional information such as Gene Ontology (GO) terms, Mammalian Phenotype (MP) terms or Human Diseases associated with the genes. If you select the MouseMine icon, MouseMine will run several default searches and enrichments on your list of genes.</p>
+<p>See also <a href="BATCH_help.shtml"target="_blank">Using the MGI Batch Query</a> and the MouseMine <a href="http://www.mousemine.org/blog/?page_id=52">FAQ</a>.</p>
+
+<a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="example"></a>Are there any sample queries?</h3>
 <p>The following examples show the field values that produce the given results. Default values for other fields are assumed.</p>

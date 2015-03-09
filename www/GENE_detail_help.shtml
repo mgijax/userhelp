@@ -133,6 +133,7 @@ homology</TH>
 <UL>
 <li>The HomoloGene ID for this genomic feature and a link to the MGI Vertebrate Homology Class page of homology relationships</li>
 <LI>A list of species with curated homology relationships and the number of related markers for each species</li>
+<li>A link to HCOP (HGNC Comparison of Orthology Predictions)</li>
 <!--<LI>A link to a mouse/human comparative map display of the area plus or minus 2 cM around the marker</LI>-->
 <LI>A link to this marker's MGI Protein Superfamily Detail page if it can be annotated to a Protein Information Resource SuperFamily (PIRSF) classification name</LI>
 <li>A link to the Gene Tree View at Ensembl (phylogenetic trees of animal genes). </li>

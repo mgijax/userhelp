@@ -55,7 +55,7 @@ function openHelpWindow(helpFile){
  <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</a></li>
  <li><a href="#matrixcolors">What do the colors in a Matrix mean?</a></li>
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
- <li><a href="#batch">Can I send the results of my search to the MGI Batch Query?</a></li>
+ <li><a href="#batch">Can I send the results of my search to the MGI Batch Query or MouseMine?</a></li>
  <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found" target="_blank">What if the search does not find any expression results?</a></li>
  <li><A HREF="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a></li>
  <li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</a></li>
@@ -413,9 +413,9 @@ Individual cells have the ability to filter as well. Clicking on a cell displays
 
 <font size="-1"><A HREF="#top">Top</A></font>
 
-<h3><A name="batch"></a>Can I send the results of my search to the MGI Batch Query?</h3>
-<p>Yes. Under the Genes tab you have the option of exporting your results as a text file, spreadsheet file or sending the list of genes to the MGI Batch Query. If you click the Batch Query icon, the default Batch Summary will appear for your list of genes. Use the Click to modify search button to expand your search results to include additional information such as Gene Ontology (GO) terms, Mammalian Phenotype (MP) terms or Human Diseases associated with the genes.</p>
-<p>See also <a href="BATCH_help.shtml"target="_blank">Using the MGI Batch Query</a>.</p>
+<h3><A name="batch"></a>Can I send the results of my search to the MGI Batch Query or MouseMine?</h3>
+<p>Yes. Under the Genes tab you have the option of exporting your results as a text file, spreadsheet file or sending the list of genes to the MGI Batch Query or MouseMine. If you click the Batch Query icon, the default Batch Summary will appear for your list of genes. Use the Click to modify search button to expand your search results to include additional information such as Gene Ontology (GO) terms, Mammalian Phenotype (MP) terms or Human Diseases associated with the genes. If you select the MouseMine icon, MouseMine will run several default searches and enrichments on your list of genes.</p>
+<p>See also <a href="BATCH_help.shtml"target="_blank">Using the MGI Batch Query</a> and the MouseMine <a href="http://www.mousemine.org/blog/?page_id=52">FAQ</a>.</p>
 
 <font size="-1"><A HREF="#top">Top</A></font>
 
