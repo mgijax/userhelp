@@ -142,7 +142,7 @@ human homolog symbol, human homolog name, other homolog symbol.</TD></TR>-->
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><A name="batch"></a>Can I send the results of my search to the MGI Batch Query or MouseMine?</h3>
-<p>Yes. Above the column headings for your results you have the option of exporting your results as a text file, spreadsheet file or sending the list of genome features to the MGI Batch Query or MouseMine. If you click the Batch Query icon, the default Batch Summary will appear for your list of genes. Use the Click to modify search button to expand your search results to include additional information such as Gene Ontology (GO) terms, Mammalian Phenotype (MP) terms or Human Diseases associated with the genes. If you select the MouseMine icon, MouseMine will run several default searches and enrichments on your list of genes.</p>
+<p>Yes. Above the column headings for your results you have the options of exporting your results as a text file, spreadsheet file or sending the list of genome features to the MGI Batch Query or MouseMine. If you click the Batch Query icon, the default Batch Summary will appear for your list of genes. Use the <i>Click to modify search</i> button to expand your search results to include additional information such as Gene Ontology (GO) terms, Mammalian Phenotype (MP) terms or Human Diseases associated with the genes. If you select the MouseMine icon, MouseMine will run several default searches and enrichments on your list of genes.</p>
 <p>See also <a href="BATCH_help.shtml"target="_blank">Using the MGI Batch Query</a> and the MouseMine <a href="http://www.mousemine.org/blog/?page_id=52">FAQ</a>.</p>
 
 <a href="#top"><font size="-1">Top</font></a>

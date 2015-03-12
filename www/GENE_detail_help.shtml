@@ -146,9 +146,8 @@ homology</TH>
 homologs</TH>
 <TD VALIGN="top">Human homolog records for this marker, if available, as follows:
 <UL>
-<li>Official human gene symbol, name and NCBI Gene ID </li>
-<li>Links to the HUGO Gene Nomenclature Committee (HGNC) and the HGNC Comparison of Orthology Predictions (HCOP)</li>
-<li>A link to human protein data at <a href="http://www.nextprot.org/db/" target="_blank">neXtProt</a></li>
+<li>Official human gene symbol and name</li>
+<li>Links to human gene information at HUGO Gene Nomenclature Committee (HGNC), NCBI and to human protein data at <a href="http://www.nextprot.org/db/" target="_blank">neXtProt</a></li>
 <li>Human Synonyms: Names or symbols for a given marker that may appear in the literature but which are not approved names or symbols</li>
 <li>Human chromosome, cytogenetic band position, and genome coordinate range and strand, in base pairs, from NCBI</li>
 <li>The number of human diseases associated with this gene in OMIM. When you click on this number a pop-up window appears listing the associated diseases (linked to the MGI Human Disease and Mouse Model Detail page) and the OMIM ID (linked to the OMIM entry for that disease). An asterisk appears if a mouse model of that disease is associated with mutations in the orthologous mouse gene. <b>Note:</b>  Inclusion in this report does not necessarily mean that mutations in the gene of interest contribute to or cause the disease listed in the Human Disease column. The gene may have an allele that is part of a complex genotype that includes other causative genes.</LI>

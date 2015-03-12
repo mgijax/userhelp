@@ -64,7 +64,7 @@ function openHelpWindow(helpFile){
  <li>a <a href="#field">table</a> summarizing homology information for the class</LI>
  <li>the ability to select sequences from that table for downloading in FASTA format or forwarding to MouseBlast</LI>
  <li>links via the database accession identifier to the sequence source</LI>
- <li>***a link to the HomoloGene Multiple Sequence <a href="#align">Alignment</a> for the class</li>
+ <li>for HomoloGene classes, a link to the HomoloGene Multiple Sequence <a href="#align">Alignment</a> for the class</li>
  <li>a link to a Comparative GO <a href="#graph">Graph when GO annotations are present.</a></li>
 </ul>
 
