@@ -112,6 +112,10 @@ either as live or cryopreserved stock.</td></tr>
   <tr><th valign="top"><a href="https://mutagenetix.utsouthwestern.edu">Beutler Mutagenix</a></th><td valign="top">Resource of phenotypes and mutations produced through random germline mutagenesis with ENU</td></tr>
   <tr><th valign="top"><a href="http://www.deltagen.com">Deltagen</a></th><td valign="top">Deltagen targeted knock-outs</td></tr>
   <tr><th valign="top"><a href="http://www.mousephenotype.org/martsearch_ikmc_project/about/eucomm">EUCOMM</a></th><td valign="top">The European Conditional Mouse Mutagenesis Program contributes conditionally trapped and targeted genes in mouse C57BL/6N embryonic stem (ES) cells to the International Knockout Mouse Consortium (IKMC).</td></tr>
+  <tr><th valign="top"><a href="http://www.mousephenotype.org/about-ikmc/eucommtools">EUCOMMTOOLS</a></th><td valign="top">EUCOMMTOOLS created new inducible Cre knock-in ES cell lines into genes
+with useful expression patterns. Mouse lines are generated from many of
+these cells and the Cre expression patterns are documented at day P14
+and P56.</td></tr>
   <tr><th valign="top"><a href="http://www.gensat.org/index.html">GENSAT</a></th><td valign="top">Gene Expression Nervous System Atlas of the developing and adult central nervous system of the mouse reporter and recombinase lines</td></tr>
   <tr><th valign="top"><a href="http://www.har.mrc.ac.uk/research/functional-genomics-section/disease-model-discovery-and-translation/mutagenesis">Harwell ENU Mutagenesis</a></th><td valign="top">Stocks with random ENU-induced mutations</td></tr>
   <tr><th valign="top"><a href="https://www.komp.org">KOMP-CSD</a></th><td valign="top">CSD: CHORI (Children's Hospital Oakland Research Institute), the Wellcome Trust Sanger Institute, and the University of California at Davis. Knockout-first alleles created in C57BL/6N embryonic stem cells.</td></tr>
