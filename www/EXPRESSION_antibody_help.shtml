@@ -18,7 +18,7 @@ function openHelpWindow(helpFile){
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
-  Interpreting Antibody and Antigen Details
+  Interpreting Antibody Details
  </span>
 </div>
 <!-- Container Table -->
@@ -41,7 +41,6 @@ function openHelpWindow(helpFile){
  <LI><A HREF="#where">Where can I find antibody records in the MGI databases?</a>
  <!--<LI><A HREF="#summary">How do I interpret an antibody query results summary?</a>-->
  <LI><A HREF="#detail">How do I interpret an antibody detail record?</a>
- <LI><A HREF="#antigen">How do I interpret an antigen detail record?</a>
  </UL>
 <P>See also:</P>
 <UL>
@@ -58,64 +57,42 @@ function openHelpWindow(helpFile){
 <p>You can access antibody records through these links, or, you can enter the unique MGI accession ID (e.g., MGI:1332271) in the Quick Search box located at the top of most MGI web pages.</p>
 <A HREF="#top">Top</A>
 
-<!--<H3><A name="summary"></a>How do I interpret an antibody query results summary?</h3>
-<p>When you select a link to an antibody, a summary description with the following fields appears:
-<p>
- <TABLE BORDER cellpadding=4>
-  <TR><TH>Field <TH>Description  </TR>
-  <TR><TH align=left valign=top>Antibody details<TD VALIGN=TOP>MGI Accession ID of the antibody, linked to its detail record. </TR>
- <TR><TH align=left valign=top>Name <TD VALIGN=TOP>Antibody name.</TR>
- <TR><TH align=left valign=top>Type <TD VALIGN=TOP>Type of antibody (polyclonal, monoclonal, or Not specified).
-</TR>
-<TR><TH align=left valign=top>Genes <TD VALIGN=TOP>Symbols for genes that encode for the antigen detected by the antibody, linked to its marker detail record.</TR>
- <TR> <TH align=left valign=top>Reference <TD VALIGN=TOP><a name="jno"></a>J number (unique MGI reference accession ID) and short format citation for the reference in which this antibody is used, linked to the reference detail.
- </TR>
-</TABLE></p>
-<A HREF="#top">Top</A>-->
-
 <h3><A name="detail"></a>How do I interpret an antibody detail record?</h3>
 <!--need explanation of what to click on to get this record?-->
- <TABLE BORDER cellpadding=4>
-  <TR><TH> Field<TH>Description</tr>
-  <TR> <TH align=left valign=top>Name <TD VALIGN=TOP>Antibody name</TD></TR>
-  <TR> <TH align=left valign=top>MGI Accession ID <TD VALIGN=TOP>MGI Accession ID for the antibody.</TR>
-  <TR><TH align=left valign=top>Raised in <TD VALIGN=TOP>Organism in which the antibody was raised.</TR>
-  <TR><TH align=left valign=top>Type <TD VALIGN=TOP>Type of antibody (polyclonal, monoclonal), or Not specified.</TR>
-  <TR><TH align=left valign=top>Class <TD VALIGN=TOP>Immunoglobulin class to which the antibody belongs (applies only to monoclonal antibodies). </TD> </TR>
-  <TR><TH align=left valign=top>Note <TD VALIGN=TOP>Additional information about the antibody, if available.</TR>
-  <!--<TR><TH align=left valign=top>Recognizes product in Western blot<TD VALIGN=TOP>Yes, No, or Not Specified.</TR>
-  <TR><TH align=left valign=top>Recognizes product in Immunoprecipitation  <TD VALIGN=TOP>Yes, No, or Not Specified.</TR>-->
-  <TR><TH align=left valign=top>Antigen <TD VALIGN=TOP>Name of the protein or protein fragment against which the antibody was raised, linked to the antigen record.</TR>
-  <!--<TR><TH align=left valign=top>Antigen recognition note <TD VALIGN=TOP>Additional information regarding the specificity of the antibody, if available.</TR>-->
-  <TR><TH align=left valign=top>Genes (Chromosome) <TD VALIGN=TOP>Symbol for the gene that encodes for the antigen. The chromosome</a> if known, appears in parentheses. </TR>
-  <TR><TH align=left valign=top>Aliases (Reference)<TD VALIGN=TOP>Other names for the antibody, followed by the J number (unique MGI reference accession ID) of the reference the name is used in, linked to the reference detail.</TR>
-  <TR> <TH align=left valign=top>Additional Information: <BR>Gene Expression Data <TD VALIGN=TOP>Links to expression results derived using the antibody.</TR>
-  <TR><TH align=left valign=top>References <TD VALIGN=TOP>References for publications that used the antibody. J number (unique MGI reference accession ID) linked to the reference details.</TR>
+ 
+ <table border="0" cellspacing="2" cellpadding="4" width="!">
   
-  </TABLE></p>
-<A HREF="#top">Top</A>
-
-<H3><A NAME="antigen"></a>How do I interpret an antigen detail record?</H3>
-<p>
-Antigen descriptions are linked to antibody detail records. You can access antigen information by the antigen link in the antibody detail record, or you can use the Quick Search too to look for an antigen by its MGI Accession ID.
-</p>
+<tr><td align="center"><font size="-1"><a href="#antibody">Antibody</a> | <a href="#antigen">Antigen</a> | <a href="#gene">Gene</a> | <a href="#expression">Expression</a> |<a href="#refs">References</a> 
+</font></td></tr>
+</table>
 <TABLE BORDER cellpadding=4>
  <TR><TH>Field</th><TH>Description</th></TR>
- <TR><TH align=left valign=top>Name</th> <TD VALIGN=TOP>Antigen name.</td></TR>
- <TR><TH align=left valign=top>MGI Accession ID</th><TD VALIGN=TOP>MGI accession ID for the antigen.</td></TR>
- <TR><TH align=left valign=top>Species</th><TD VALIGN=TOP>Species from which the antigen was isolated.</td></TR>
- <TR><TH align=left valign=top>Strain</th><TD VALIGN=TOP>Strain of mouse from which the antigen was isolated, if specified.</TR>
- <TR><TH align=left valign=top>Sex</th><TD VALIGN=TOP>Sex of the animal from which the antigen was isolated, if specified. </TR>
- <TR><TH align=left valign=top>Age</th><TD VALIGN=TOP>Age of the animal from which the antigen was isolated, if specified.  </TR>
- <TR><TH align=left valign=top>Tissue</th> <TD VALIGN=TOP>Tissue from which the antigen was isolated, if specified. </TR>
- <TR><TH align=left valign=top>Tissue description</th><TD VALIGN=TOP>Treatment of the tissue from which the antigen was isolated, if applicable. </TR>
- <TR><TH align=left valign=top>Cell Line</th><TD VALIGN=TOP>Cell line from which the antigen was isolated, if specified.</TR>
- <TR><TH align=left valign=top>Region covered</th><TD VALIGN=TOP>Region of the protein corresponding to the antigen. </TR>
- <TR><TH align=left valign=top>Notes</th> <TD VALIGN=TOP>Additional information about the antigen, if available. </TR>
- <TR><TH align=left valign=top>Modification Date</th><TD VALIGN=TOP>Date record was last modified.</TR>
- <TR>  <TH align=left valign=top>Antibodies</th> <TD VALIGN=TOP>Names of antibodies that recognize the antigen, linked to the antibody records.</TR>
- </TABLE>
-</p>
+ <TR><TH align=left valign=top><a name="antibody"></a>Antibody</td> 
+ <td>
+    <table border="0" cellspacing="2" cellpadding="4" width="!">
+     <tr><td valign="top">Name</td><td valign="top">The name of the antibody.</td>
+     <tr><td valign="top">Host</td><td valign="top">Organism in which the antibody was raised.</td>
+     <tr><td valign="top">Type</td><td valign="top">Type of antibody (polyclonal, monoclonal), or Not specified.</td>
+     <tr><td valign="top">Class</td><td valign="top">Immunoglobulin class to which the antibody belongs (applies only to monoclonal antibodies).</td>
+     <tr><td valign="top">Note</td><td valign="top">Additional information about the antibody, if available.</td>
+     <tr><td valign="top">MGI Accession ID</td><td valign="top">The unique MGI accession ID for the antibody. You can use this ID in the MGI Quick Search to always find this page.</td></tr>
+    </table>
+ <TR><TH align=left valign=top><a name="antigen"></a>Antigen</td>
+ <td>
+    <table border="0" cellspacing="2" cellpadding="4" width="!">
+     <tr><td valign="top">Name</td><td valign="top">Name of the protein or protein fragment against which the antibody was raised, linked to the antigen record.</td>
+     <tr><td valign="top">Species</td><td valign="top">Species from which the antigen was isolated.</td>
+     <tr><td valign="top">Strain</td><td valign="top">Strain of mouse from which the antigen was isolated, if specified.</td>
+     <tr><td valign="top">Cell Line</td><td valign="top">Cell line from which the antigen was isolated, if specified.</td></tr>
+    </table>
+  <TR><TH align=left valign=top><a name="gene"></a>Gene</td> 
+  <td>Symbol for the gene that encodes for the antigen, linked to its Gene Detail page.</td></tr>
+  <TR><TH align=left valign=top><a name="expression"></a>Expression</td> 
+  <td>Links to expression results derived using the antibody.</td></tr>
+  <TR><TH align=left valign=top><a name="refs"></a>References</td> 
+  <td>References for publications that used the antibody. J number (unique MGI reference accession ID) linked to the reference details.</td>
+</table>
+ 
 <A HREF="#top">Top</A>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
