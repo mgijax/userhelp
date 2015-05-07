@@ -92,7 +92,7 @@ function openHelpWindow(helpFile){
   <TR><TH align=left valign=top><a name="refs"></a>References</td> 
   <td>References for publications that used the antibody. J number (unique MGI reference accession ID) linked to the reference details.</td>
 </table>
- 
+ <br>
 <A HREF="#top">Top</A>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
