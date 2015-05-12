@@ -50,10 +50,9 @@ function openHelpWindow(helpFile){
 
 
 <H3><A name="where"></a>Where can I find antibody records in the MGI databases?</h3>
-<p>Antibody records are associated with gene expression assays, antigens, genes, and references in the database. In MGI, these relationships are reflected in the links provided between these different records.
-<ul>
-  <li>If an assay uses an antibody, the assay detail record provides a link to the antibody record.
-</ul>
+
+<p>If an assay uses an antibody, the assay detail record provides a link to the antibody record.
+</p>
 <p>You can access antibody records through these links, or, you can enter the unique MGI accession ID (e.g., MGI:1332271) in the Quick Search box located at the top of most MGI web pages.</p>
 <A HREF="#top">Top</A>
 
@@ -83,10 +82,16 @@ function openHelpWindow(helpFile){
      <tr><td valign="top">Name</td><td valign="top">Name of the protein or protein fragment against which the antibody was raised, linked to the antigen record.</td>
      <tr><td valign="top">Species</td><td valign="top">Species from which the antigen was isolated.</td>
      <tr><td valign="top">Strain</td><td valign="top">Strain of mouse from which the antigen was isolated, if specified.</td>
+     <tr><td valign="top">Sex</td><td valign="top">Sex of the animal from which the antigen was isolated, if specified.</td>
+	<tr><td valign="top">Age</td><td valign="top">Age of the animal from which the antigen was isolated, if specified.</td>
+	<tr><td valign="top">Tissue</td><td valign="top">Tissue from which the antigen was isolated, if specified.</td>
+	<tr><td valign="top">Tissue description</td><td valign="top">Treatment of the tissue from which the antigen was isolated, if applicable.</td>
      <tr><td valign="top">Cell Line</td><td valign="top">Cell line from which the antigen was isolated, if specified.</td></tr>
+     <tr><td valign="top">Region covered</td><td valign="top">Region of the protein corresponding to the antigen.</td>
+	<tr><td valign="top">Notes</td><td valign="top">Additional information about the antigen, if available.</td>
     </table>
   <TR><TH align=left valign=top><a name="gene"></a>Gene</td> 
-  <td>Symbol for the gene that encodes for the antigen, linked to its Gene Detail page.</td></tr>
+  <td>Symbol for the gene(s) that encodes for the antigen, linked to its Gene Detail page(s).</td></tr>
   <TR><TH align=left valign=top><a name="expression"></a>Expression</td> 
   <td>Links to expression results derived using the antibody.</td></tr>
   <TR><TH align=left valign=top><a name="refs"></a>References</td> 
