@@ -344,7 +344,7 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
 </TABLE>
 </td></tr>
 <tr><td valign="top"><b>Structure </b></td>
-     <td valign="top">Structure examined in the assay, given as a Theiler stage (TS) and anatomical structure name <!--linked to <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">The Mouse Anatomical Dictionary Browser</A>  - term detail report showing the structure in the anatomical hierarchy.--></td></tr>
+     <td valign="top">Structure examined in the assay, given as a Theiler stage (TS) and anatomical structure name linked to the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>  Term Detail report showing the structure in the anatomical hierarchy.</td></tr>
 <tr><td valign="top"><b>Detected? </b></td>
      <td valign="top">Was expression detected? Possible values include:
     <UL>
