@@ -278,7 +278,7 @@ direct detection includes the following additional fields:</p>
 
 </TR>
   <TR>
-  <td valign="top"><A NAME="structure"></A><b>Sample Information: Structure</b></td> <td valign="top">Structure examined in the assay. Given as a Theiler Stage and anatomical structure name, linked to the <A HREF="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">The Mouse Developmental Anatomy Browser - term detail</a> report which shows the structure in the anatomical hierarchy.</A></td> </TR>
+  <td valign="top"><A NAME="structure"></A><b>Sample Information: Structure</b></td> <td valign="top">Structure examined in the assay. Given as a Theiler Stage and anatomical structure name, linked to the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a> Term Detail report report which shows the structure in the anatomical hierarchy.</A></td> </TR>
   <TR>
    <td valign="top"><A NAME="bands"></A><b>Bands</b></td><td valign="top">Each band in the assay results is represented by a column.  If the gel is a nucleic acid gel, the size of the band (if reported) is given in bases (b), base pairs (bp), or kilobases (kb). If the gel is a protein gel, the size of the band (if reported) is given as Daltons (Da) or kiloDaltons (kDa). There may be multiple bands per assay.
 <p> The strength of the signal is reported. Possible values include:
