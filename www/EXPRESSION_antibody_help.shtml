@@ -59,10 +59,9 @@ function openHelpWindow(helpFile){
 <h3><A name="detail"></a>How do I interpret an antibody detail record?</h3>
 <!--need explanation of what to click on to get this record?-->
  
- <table border="0" cellspacing="2" cellpadding="4" width="!">
-  
-<tr><td align="center"><font size="-1"><a href="#antibody">Antibody</a> | <a href="#antigen">Antigen</a> | <a href="#gene">Gene</a> | <a href="#expression">Expression</a> |<a href="#refs">References</a> 
-</font></td></tr>
+<table width="100%" cellpadding="4" class="nb" align="center">
+<tr align="center"><td valign="top"><a href="#antibody">Antibody</a> | <a href="#antigen">Antigen</a> | <a href="#gene">Gene</a> | <a href="#expression">Expression</a> |<a href="#refs">References</a> 
+</td></tr>
 </table>
 <TABLE BORDER cellpadding=4>
  <TR><TH>Field</th><TH>Description</th></TR>
