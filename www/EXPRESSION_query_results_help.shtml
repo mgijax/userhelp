@@ -344,7 +344,7 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
   <TR>
  <th>Field</th><TH>Description</td> </TR>
   <TR>
-   <td valign="top"><b><A NAME="structure2"></A>Structure</b></td> <td valign="top">Structure examined in the assay. Given as a Theiler stage and anatomical structure name, linked to <A HREF="<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml" target="_blank">The Mouse Anatomical Dictionary Browser - term detail</A> report which shows the structure in the anatomical hierarchy.</A></TD> </TR>
+   <td valign="top"><b><A NAME="structure2"></A>Structure</b></td> <td valign="top">Structure examined in the assay. Given as a Theiler stage and anatomical structure name, linked to <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a> which shows the structure in the anatomical hierarchy.</A></TD> </TR>
  <TR>
    <td valign="top"><b><A NAME="level"></A>Level</b></td><td valign="top">Refers to the strength of the signal. Possible values include:
     <UL>
