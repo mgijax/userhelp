@@ -1,0 +1,233 @@
+TAG: userhelp-tr11726-BP
+DATE: 07/09/2015
+STAFF: jsb
+CHANGES: branch point for Gene View release (TR11726)
+
+TAG: userhelp-5-2-2-3
+DATE: 6/17/2015
+STAFF: lnh
+CHANGES: Updates from David Shaw - Post 5.22 release
+
+TAG: userhelp-5-2-2-2
+DATE: 5/13/2015
+STAFF: lnh
+CHANGES: Updates from David Shaw - 5.22 release
+
+TAG: userhelp-5-2-2-1
+DATE: 5/7/2015
+STAFF: dbm
+CHANGES: 5.22 release
+
+TAG: userhelp-5-2-1-5
+DATE: 4/6/2015
+STAFF: dbm
+CHANGES: Updates from David Shaw
+
+TAG: userhelp-5-2-1-4
+DATE: 3/13/2015
+STAFF: dbm
+CHANGES: Updates from David Shaw
+
+TAG: userhelp-tr11886-BP
+DATE: 02/04/2015
+STAFF: oblod
+CHANGES: branch point tag for tr11886 release
+
+TAG: userhelp-5-2-1-1
+DATE: 12/3/14
+STAFF: oblod
+CHANGES: alpha build tags
+
+TAG: userhelp-tr11674-BP
+DATE: 11/20/14
+STAFF: oblod
+CHANGES: branch point tag for tr11674 release
+
+TAG: userhelp-5-2-0-3
+TAG: userhelp-5-2-0-2
+TAG: userhelp-5-2-0-1
+DATE: 9/19/14
+STAFF: pf
+CHANGES: release tags for MGI 5.2
+
+TAG: userhelp-5-1-9-4
+DATE: 9/02/2014
+STAFF: lnh
+CHANGES: changes from david
+
+TAG: userhelp-tr11654-BP
+DATE: 8/21/14
+STAFF: pf
+Branch point for tr11654 development
+
+TAG: userhelp-5-1-9-3
+DATE: 8/19/2014
+STAFF: dbm
+CHANGES: changes for xenopus release (TR11662)
+
+TAG: userhelp-5-1-9-2
+DATE: 7/22/2014
+STAFF: dbm
+CHANGES: Tag for 5.19 release
+
+TAG: userhelp-tr11560-BP
+DATE: 06/02/14
+STAFF: oblod
+CHANGES: branch point tag for tr11560 release
+
+TAG: userhelp-5-1-8-3
+TAG: userhelp-5-1-8-2
+DATE: 5/13/14
+STAFF: dbm
+PURPOSE: 5.18 release tag
+
+TAG: userhelp-5-1-8-1
+DATE: 4/30/14
+STAFF: pf
+PURPOSE: 5.18 merge and release tags
+
+TAG: userhelp-tr11515-BP
+DATE: 2/24/14
+STAFF: pf
+PURPOSE: branch point tag for tr11515 work
+
+TAG: userhelp-5-1-7-4
+DATE: 2/21/2014
+STAFF: lnh
+CHANGES: Tag for 5.17 release
+
+TAG: userhelp-5-1-7-3
+TAG: userhelp-5-1-7-2
+DATE: 2/19/2014
+STAFF: dbm
+CHANGES: Tag for 5.17 release
+
+TAG: userhelp-5-1-7-1
+DATE: 02/10/2014
+STAFF: jsb
+CHANGES: merged tr11468 branch (GXD Anatomy) to trunk
+
+TAG: userhelp-tr11468-BP
+DATE: 12/12/2013
+STAFF: jsb
+CHANGES: branch point for TR11468 (GXD anatomy) release, team scrum-bob
+
+TAG: userhelp-5-1-6-3
+DATE: 12/6/2013
+STAFF: dbm
+CHANGES: Tag for 5.16 release
+
+TAG: userhelp-5-1-6-2
+TAG: userhelp-5-1-6-1
+DATE: 11/20/13
+STAFF: pf
+CHANGES: Tag for 5.16 release
+
+TAG: userhelp-5-1-5-4
+DATE: 9/18/2013
+STAFF: dbm
+CHANGES: Tag for 5.15 release
+
+TAG: userhelp-5-1-5-3
+DATE: 9/11/2013
+STAFF: jsb
+CHANGES: more corrections from David
+
+TAG: userhelp-5-1-5-2
+DATE: 9/11/2013
+STAFF: jsb
+CHANGES: two corrections from David
+
+TAG: userhelp-5-1-5-1
+DATE: 9/09/2013
+STAFF: jsb
+CHANGES: merged tr11353 branch back to trunk
+
+TAG: userhelp-tr11353-BP
+DATE: 8/13/2013
+STAFF: jsb
+CHANGES: branch point for infrastructure release
+
+TAG: userhelp-5-1-4-2
+TAG: userhelp-5-1-4-1
+DATE: 6/3/13
+STAFF: pf
+CHANGES: Dave Shaw's latest updates
+
+TAG: userhelp-5-1-3-4
+TAG: userhelp-5-1-3-3
+TAG: userhelp-5-1-3-2
+DATE: 5/3/2013
+STAFF: dbm
+CHANGES: Tag for 5.13 release
+
+TAG: userhelp-5-1-3-1
+DATE: 04/16/2013
+STAFF: sc
+CHANGES: N2MO merge tr6519 changes to trunk
+
+TAG: userhelp-tr6519-BP
+DATE: 1/16/13
+STAFF: marka
+CHANGES: userhelp-tr6519-BP - n-m ortholog project
+
+TAG: userhelp-5-1-2-2
+TAG: userhelp-5-1-2-1
+DATE: 1/6/2013
+STAFF: pf
+CHANGE: Release tags for HT-MP project
+
+TAG: userhelp-5-1-1-3
+TAG: userhelp-5-1-1-2
+DATE: 11/07/12
+STAFF: marka
+CHANGES: C4AM release sprint tag
+
+TAG: userhelp-5-1-1-1
+DATE: 10/31/12
+STAFF: marka
+CHANGES: merging tr7106 to trunk
+
+TAG: userhelp-tr7106-BP
+DATE: 9/10/12
+STAFF: marka
+CHANGES: userhelp-tr7106-BP
+
+TAG: userhelp-5-1-0-4
+TAG: userhelp-5-1-0-3
+TAG: userhelp-5-1-0-2
+TAG: userhelp-5-1-0-1
+DATE: 8/8/12
+STAFF: pf
+CHANGES: Tag for 5.1 alpha build
+
+TAG: userhelp-5-0-1-3
+DATE: 07/13/2012
+STAFF: dbm
+CHANGES: Tag for MGI Home release
+
+TAG: userhelp-5-0-1-2
+TAG: userhelp-5-0-1-1
+DATE: 5/13/12
+STAFF: pf
+CHANGES: 5.01 tags
+
+TAG: userhelp-5-0-0-15
+DATE: 03/30/2012
+STAFF: dbm
+CHANGES: 5.0 beta tag
+
+TAG: userhelp-5-0-0-13
+DATE: 03/28/2012
+STAFF: marka
+CHANGES: 5.0 beta tag
+
+TAG: userhelp-5-0-0-x  1->12
+DATE: 1/4/2012 -> 3/7/2012
+STAFF: pf
+CHANGES: Updates for Alpha builds
+
+TAG: userhelp-initialTag 
+Date: 12/24/10
+STAFF: pf
+RELEASE: initial tag of the product
