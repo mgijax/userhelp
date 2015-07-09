@@ -61,14 +61,26 @@ function openHelpWindow(helpFile){
 </TABLE>
 
 
-<TABLE BORDER="1" CELLPADDING="4">
-<TR>
-<TH>Field</TH>
-<TH>Description</TH>
-</TR>
-
-<tr>
-<TH ALIGN="left" VALIGN="top"><A NAME="sym_detail"></A>Symbol</th><td VALIGN="top">Official gene symbol for the mouse genetic marker. A symbol may be a gene, DNA segment, QTL, cytogenetic marker, pseudogene, BAC/YAC end, complex/cluster/region, or one of the other genome features including endogenous viruses, retrotransposons, integration sites, and repetitive elements. An additional class of such features includes genomic segments that function or are biologically significant as DNA elements.</td></tr>
+<style>
+table {border-collapse: collapse;
+}
+table, th, dt, dd {border: 1px solid black; padding: 4px;
+}
+th { text-align: center; vertical-align: top;
+}
+dt { text-align: left; font-style: bold;
+}
+</style>
+<table>
+<tr><th>Heading</th> 
+	<th>Descriptions</th>
+</tr>
+<tr><th>Summary</th>
+	<td><table>
+	<tr><th>Symbol</th>
+		<td>Official gene symbol for the mouse genetic marker. A symbol may be a gene, DNA segment, QTL, cytogenetic marker, pseudogene, BAC/YAC end, complex/cluster/region, or one of the other genome features including endogenous viruses, retrotransposons, integration sites, and repetitive elements. An additional class of such features includes genomic segments that function or are biologically significant as DNA elements.
+		</td>
+		</tr>
 
 <tr>
 <th ALIGN="left" VALIGN="top">Name</th><td>The name for this marker appears beneath the symbol.</td></tr>
@@ -200,8 +212,13 @@ Query Results -- Summary page for alleles with OMIM annotations to associated ge
   <!--<li>Theiler stage: List of all developmental stages where expression was analyzed; each summary report lists expression results from that stage.</li>-->
   <li>Assay Type Results: assay type used for the analyses and the number of results, linked to summary reports.</li>
   <li><a name="cdna_summary"></a>cDNA source data: the number of cDNA clones for this marker, linked to summary report.</li>
+<<<<<<< GENE_detail_help.shtml
+  <li>Other mouse links: links to mouse expression information for this marker in external databases. Examples: Allen Brain Atlas, GENSAT, gene microarray profile pages at GEO, Expression Atlas.</li>
+  <li>Other vertebrate links: links to expression data for homologous genes for chicken at GEISHA, frog at Xenbase, and zebrafish at ZFIN. These homology associations are made by the external resource.</li>
+=======
   <li>Other mouse links: links to expression information for this marker in other than MGI databases. Examples: Allen Brain Atlas, GENSAT, gene microarray profile pages at GEO, Expression Atlas.</li>
   <li>Other vertebrate links: links to expression information for chicken homologs at GEISHA, frog homologs at Xenbase, and zebrafish homologs at ZFIN.</li>
+>>>>>>> 1.29
  </ul>
 </TD>
 </TR>
