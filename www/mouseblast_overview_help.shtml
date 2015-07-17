@@ -44,7 +44,7 @@ function openHelpWindow(helpFile){
 <ul>
 	<li>DNA queries will, by default, use the megablast program and will filter for rodent-specific repeats, though the first time you access the program the filtering options may be hidden. They should appear on subsequent visits.</li> 
 	<li>Protein queries will be forwarded to NCBI's Standard Protein BLAST with the blastp algorithm set by default.</li> 
-	<li>If you send SNP reference flanking sequence to NCBI BLAST, <i>Mus musculus</i> genomes will be searched by default.</li>
+	<li>If you send SNP reference flanking sequence or gene trap sequence tags to NCBI BLAST, <i>Mus musculus</i> genomes will be searched by default.</li>
 	<li>At NCBI's BLAST page you have the ability to alter the default settings.</li>
 </ul>
 </p>
