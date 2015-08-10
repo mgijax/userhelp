@@ -48,7 +48,7 @@ Interpreting a Sequence Summary </span>
    <UL>
    <LI><A HREF="#single">How do I view details for a single sequence?</A></LI>
    <LI><A HREF="#fasta">How do I download sequences in FASTA format?</A></LI>
-   <LI><A HREF="#mouseblast">How do I forward sequences to MouseBLAST?</A></LI>
+   <LI><A HREF="#mouseblast">How do I forward sequences to NCBI BLAST?</A></LI>
    <!--<LI><A HREF="#buttons">How do the buttons work? What does <i>Invert</i> do?</A></LI>-->
    </UL>
 </LI>
@@ -154,7 +154,7 @@ There is no further sort by the division (for example,<i>Rodent</i> or <i>HTC</i
 
 <LI>download <!--one or more--> a sequence in <A HREF="#fasta">FASTA</A> format.</LI>
 
-<LI>forward <!--one or more--> a sequence to <A HREF="#mouseblast">MouseBLAST</A>.</LI>
+<LI>forward <!--one or more--> a sequence to <A HREF="#mouseblast">NCBI BLAST</A>.</LI>
 </OL>
 </p>
 
@@ -191,16 +191,16 @@ The detail record for that sequence as stored in MGI appears. See <A HREF="SEQUE
 
 <font size="-1"><a href="#top">Top</a>
 </font>
-<H3><A NAME="mouseblast"></A>How do I forward a sequence to MouseBLAST?</H3>
+<H3><A NAME="mouseblast"></A>How do I forward a sequence to NCBI BLAST?</H3>
 
-<P>To forward a sequence to MouseBLAST:</P>
+<P>To forward a sequence to NCBI BLAST:</P>
 
 <ul>
-<LI>Click the MouseBLAST link in the <B>Select</B> column for the sequence.</LI>
+<LI>Click the <i>BLAST at NCBI</i> link in the <B>Select</B> column for the sequence.</LI>
 
 <!--<LI>Click the arrow next to <B>For the selected sequences.</B></LI>
 
-<LI>Click <B>forward to MouseBLAST</B>.</LI>
+<LI>Click <B>forward to NCBI BLAST</B>.</LI>
 
 <LI>Click <B>GO</B>.</LI>-->
 </ul>
@@ -345,7 +345,7 @@ Print or save this page to save the URL to your results.
 <UL>
 <LI>Click either <B>MGI Sequence Detail</B> or one of the provider links in the report to view sequence details.</LI>
 
-<LI>Choose a sequence to download in FASTA format or forward to MouseBLAST. See <A HREF="#fasta">FASTA</A> or <A HREF="#mouseblast">MouseBlast</A> for details.</LI>
+<LI>Choose a sequence to download in FASTA format or forward to NCBI BLAST. See <A HREF="#fasta">FASTA</A> or <A HREF="#mouseblast">MouseBlast</A> for details.</LI>
 </UL>
 
 <P>See <A HREF="#fields">What can I do with sequence summary information?</A> for more details.</P>
@@ -361,7 +361,7 @@ Print or save this page to save the URL to your results.
 <UL>
 <LI>Click either <B>MGI Sequence Detail</B> or one of the provider links in the report to view sequence details.</LI>
 
-<LI>Choose a sequence to download in FASTA format or forward to MouseBLAST. See <A HREF="#fasta">FASTA</A> or <A HREF="#mouseblast">MouseBlast</A> for details.</LI>
+<LI>Choose a sequence to download in FASTA format or forward to NCBI BLAST. See <A HREF="#fasta">FASTA</A> or <A HREF="#mouseblast">MouseBlast</A> for details.</LI>
 </UL>
 
 <P>See <A HREF="#fields">What can I do with sequence summary information?</A> for more details.</P>
