@@ -57,7 +57,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 	<li><a href="#buy_mouse">How can I tell if a cell line or a mouse strain carrying the mutation is available for purchase?</a></li>
 	<li><a href="#mutant_cell_line_id">How can I identify a gene trap mutant ES cell line ID?</a></li>
 <li><a href="#how_know_gt">How can I tell if a given gene trap has trapped a gene?</a></li>
-<li><a href="#interpret_gbrowse">How do I interpret GBrowse gene trap tracks?</a></li>
+<li><a href="#interpret_gbrowse">How do I interpret JBrowse gene trap tracks?</a></li>
 
  	 <li><a href="#all_accession_ids">Is there a list of all gene trap cell line accession IDs?</a></li>
 	<li><a href="#stat_report">Is there a list of all IDs and nomenclature associated with gene traps in MGI?</a></li>
@@ -435,8 +435,7 @@ For example:
 	<li><a href="#no_association">Why aren't all gene traps associated with a gene?</a></li>
 	<li><a href="#near_gene">How can I find genes near a gene trap not associated with a gene?</a></li>
 	<li><a href="#interest_gene">How can I find gene traps not associated with a gene but that are near a gene of interest?</a></li>
-  
-	<li><a href="#no_genes_exist">Can I search for gene traps where no known genes exist?</a></li>
+  	<li><a href="#no_genes_exist">Can I search for gene traps where no known genes exist?</a></li>
 	<li><a href="#use_marker_detail">Can I use a marker detail report to determine how many gene traps are available as ES cell lines only, as both cell lines and mice, or as mice only?</a></li>
 	</ul>
 <A HREF="#top"><font size="-1">Top</font></A>
@@ -550,8 +549,8 @@ MCL	     Indicates Mutant Cell Line identity.
 
 <ul><li>In the <b>Mutation description</b> section, click the icon 
 (<img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Genome Context</b>. </li>
-<li>Click <b>View all gene trap sequence tags within a 10kb region</b> (bottom of the thumbnail). The MGI Genome Browser application (GBrowse) appears. </li>
-<li>Use the <b>Scroll/Zoom</b> feature in GBrowse to modify the coordinate range.</li>
+<li>Click <b>View all gene trap sequence tags within a 10kb region</b> (bottom of the thumbnail). The MGI Genome Browser application (JBrowse) appears. </li>
+<li>Use the <b>Scroll/Zoom</b> feature in JBrowse to modify the coordinate range.</li>
 </ul>
 
 <blockquote>
@@ -569,7 +568,7 @@ MCL	     Indicates Mutant Cell Line identity.
    <ul>
      <li>Click <b>Mouse Genome Browser</b>.</li>
      <li>Confirm that the gene trap allele tracks are selected (GeneTraps_DNA_tags, GeneTraps_RNA_tags, GeneTraps_per_Gene).</li>
-     <li>Use the GBrowse <b>Scroll/Zoom</b> feature to modify the coordinate range. All gene traps, regardless of gene association, will appear. </li>
+     <li>Use the JBrowse <b>Scroll/Zoom</b> feature to modify the coordinate range. All gene traps, regardless of gene association, will appear. </li>
    </ul>   
 </ul>
 <blockquote>
@@ -582,7 +581,7 @@ MCL	     Indicates Mutant Cell Line identity.
 
 
 <h3><a name="no_genes_exist"></a>Can I search for gene traps where no known genes exist?</h3>
-<p>No. However, MGI's GBrowse provides views of gene trap sequence tag positions relative to genome coordinates. See <a href="#gt_locations">Can I view the approximate locations of gene trap insertions?</a> for how to access this genome browser. See <a href="#how_know_gt">How can I tell if a given gene trap has trapped a gene?</a> and <a href="#interpret_gbrowse">How do I interpret GBrowse gene trap tracks?</a> for additional GBrowse information.
+<p>No. However, MGI's JBrowse provides views of gene trap sequence tag positions relative to genome coordinates. See <a href="#gt_locations">Can I view the approximate locations of gene trap insertions?</a> for how to access this genome browser. See <a href="#how_know_gt">How can I tell if a given gene trap has trapped a gene?</a> and <a href="#interpret_gbrowse">How do I interpret JBrowse gene trap tracks?</a> for additional JBrowse information.
 </p>
 
 
@@ -604,7 +603,7 @@ MCL	     Indicates Mutant Cell Line identity.
 <li><a href="#possible">Is it possible to tell whether a sequence tag defines the insertion site (is a genomic- or DNA-based tag) or not (is an RNA-based tag)?</a></li>
 <li><a href="#coordinates">Where can I find the coordinates and strand for a given gene trap sequence tag?</a></li>
 <li><a href="#multiple_locations">Can I view coordinates/strands for all significant sequence tag BLAST hits for mixed cell line gene traps that map to multiple locations?</a></li>
-<li><a href="#send_away">Can I download the sequence tag for a gene trap insertion in FASTA format? Can I send it to MouseBLAST?</a></li>
+<li><a href="#send_away">Can I download the sequence tag for a gene trap insertion in FASTA format? Can I send it to NCBI BLAST?</a></li>
 <li><a href="#sequence_similarity">Can I find gene trap insertions by BLASTing against gene trap sequences and searching by sequence similarity?</a></li>
 <li><a href="#gt_locations">Can I view the approximate locations of gene trap insertions?</a></li>
 </UL>
@@ -618,7 +617,7 @@ MCL	     Indicates Mutant Cell Line identity.
 <li>Click the icon (<img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Sequence Tags</b>.<br>
 In the table that appears, the  <b>GenBank ID</b> column lists the GenBank sequence tag ID  for each gene trap insertion.<br>
 The <b>Tag ID</b> column contains the sequence tag identifiers.<br>
-The sequence tag's GenBank identifier (<b>GenBank ID</b>), the sequencing technique (<b>Method</b>), and chromosome, map position, and strand  (<b>Tag Location</b>) also appear. Note that you can <b>select</b> sequences here to download in FASTA format or forward to MGI's MouseBLAST program.</li>
+The sequence tag's GenBank identifier (<b>GenBank ID</b>), the sequencing technique (<b>Method</b>), and chromosome, map position, and strand  (<b>Tag Location</b>) also appear. Note that you can <b>select</b> sequences here to download in FASTA format or forward to NCBI's BLAST program.</li>
 </ol>
 <blockquote>
 <img src="images/sequence_tag.jpg" width="491" height="86"></a>
@@ -639,7 +638,7 @@ The sequence tag's GenBank identifier (<b>GenBank ID</b>), the sequencing techni
 <img src="images/orientation.jpg" width="492" height="243" border="0" alt="">
 
 
-<li>You can click  <b>View all gene trap sequence tags ...</b> to see a full-page genome browser view of the gene trap insertion. Use the <b>Scroll/Zoom</b> feature in GBrowse to find additional details. (Scroll/Zoom is located in the middle of the screen, next to <i>Show 10.28kbp</i>, in the image below).</i></li>
+<li>You can click  <b>View all gene trap sequence tags ...</b> to see a full-page genome browser view of the gene trap insertion. Use the <b>Scroll/Zoom</b> feature in JBrowse to find additional details. (Scroll/Zoom is located in the middle of the screen, next to <i>Show 10.28kbp</i>, in the image below).</i></li>
 </ul>
 <blockquote>
 <img src="images/gbrowse.jpg" width=544"" height="266" border="0" alt="">
@@ -679,13 +678,13 @@ If the method is 3' RACE or 5' RACE, the tag defining the insertion site is RNA-
 <ul>
   <li>Click the icon (<img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Sequence Tags</b>.</li>
   <li>In the table that appears, click the sequence tag listed beneath <b>Select</b> (in the last column).</li>
-  <li>Click the down icon next to <b>Selected Tags:</b> and select <b>MouseBLAST</b>.</li>
-<li>Click <b>Go</b>. The MGI MouseBLAST query form appears with the relevant fields filled in. Adjust as desired (e.g., you may prefer different <b>Output options</b>.)</li>
-  <li>Click <b>Search</b>.  The MouseBLAST Query Results page displays all coordinates and strands for any significant hits.</li>
+  <li>Click the down icon next to <b>Selected Tags:</b> and select <b>NCBI BLAST</b>.</li>
+<li>Click <b>Go</b>. The NCBI <abbr title=" Basic Local Alignment Search Tool">BLAST</abbr> query form appears with the relevant fields filled in. Adjust as desired (e.g., you may prefer different <b>Output options</b>.)</li>
+  <li>Click the <b>BLAST</b> button.</li>
 </ul>
 </font><A HREF="#top"><font size="-1">Top</font></A>
 
-<h3><a name="send_away"></a>Can I download the sequence tag for a gene trap insertion in FASTA? Can I send it to MouseBLAST?</h3>
+<h3><a name="send_away"></a>Can I download the sequence tag for a gene trap insertion in FASTA? Can I send it to NCBI <abbr title=" Basic Local Alignment Search Tool">BLAST</abbr>?</h3>
 <p>Yes. This option is available on the following MGI reports:
 <ul>
   <li>Gene-trapped Allele Detail</li>
@@ -696,29 +695,29 @@ If the method is 3' RACE or 5' RACE, the tag defining the insertion site is RNA-
 
 
 <h3><a name="sequence_similarity"></a>Can I find gene trap insertions by BLASTing against gene trap sequences and searching by sequence similarity?</h3>
-<p>Yes. Use MGI's MouseBLAST. BLAST results link to corresponding MGI Alleles and Genes. See <a href="mouseblast_overview_help.shtml">Using MouseBLAST - Overview</a> for how to use this tool.
+<p>Yes. Use NCBI's <abbr title=" Basic Local Alignment Search Tool">BLAST</abbr>. See <a href="http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs" target="_blank">NCBI BLAST Help</a> for how to use this tool.
 </p>
 <A HREF="#top"><font size="-1">Top</font></A>
 
 
 <h3><a name="gt_locations"></a>Can I view the approximate locations of gene trap insertions?</h3>
-<p>Yes. Both the Gene-trapped Allele Detail report and the MGI genome browser (GBrowse) provide views of gene trap sequence tag positions relative to representative gene transcripts. 
+<p>Yes. Both the Gene-trapped Allele Detail report and the MGI genome browser (JBrowse) provide views of gene trap sequence tag positions relative to representative gene transcripts. 
 
-<p>In the <b>Mutation description</b> section, click the icon (click the icon (<img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Genome Context</b>. To access the GBrowse view, click <b>View all gene trap sequence tags in this region</b> at the bottom of the image that appears.</p>
+<p>In the <b>Mutation description</b> section, click the icon (click the icon (<img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Genome Context</b>. To access the JBrowse view, click <b>View all gene trap sequence tags in this region</b> at the bottom of the image that appears.</p>
 
-<p>See <a href="#how_know_gt">How can I tell if a given gene trap has trapped a gene?</a> and <a href="#interpret_gbrowse">How do I interpret GBrowse gene trap tracks?</a> for additional information.</p>
+<p>See <a href="#how_know_gt">How can I tell if a given gene trap has trapped a gene?</a> and <a href="#interpret_gbrowse">How do I interpret JBrowse gene trap tracks?</a> for additional information.</p>
 
 <blockquote>
 <img src="images/genome_context.jpg" width="643" height="233" border="0" alt="">
 </blockquote>
 </p>
 <br>
-<p>For gene trap alleles not associated with markers, click <b>View all gene trap sequence tags within a 10kb region</b> to access the GBrowse view. The display shows a 5kb region on either side of the gene trap sequence tag.  </p>
+<p>For gene trap alleles not associated with markers, click <b>View all gene trap sequence tags within a 10kb region</b> to access the JBrowse view. The display shows a 5kb region on either side of the gene trap sequence tag.  </p>
 <A HREF="#top"><font size="-1">Top</font></A>
 
 
 
-<h3><a name="interpret_gbrowse"></a>How do I interpret GBrowse gene trap tracks?</h3>
+<h3><a name="interpret_gbrowse"></a>How do I interpret JBrowse gene trap tracks?</h3>
 <h4>GeneTraps_per_Gene track</h4>
 
 <p>This color-coded gene trap frequency track for MGI genes indicates the number of insertions per gene. Only insertions that "trap" a gene (i.e., overlap the gene's coordinates in the correct transcriptional orientation) are counted. </p>
@@ -771,7 +770,7 @@ If the method is 3' RACE or 5' RACE, the tag defining the insertion site is RNA-
 
 
 <h3><a name="how_know_gt"></a>How can I tell if a given gene trap has trapped a gene?</h3>
-<p>If the MGI allele_detail page has an association for the gene, and in MGI GBrowse, 
+<p>If the MGI allele_detail page has an association for the gene, and in MGI JBrowse, 
    <ul>
 	<li> the sequence tag location overlaps a gene and</li>
      
@@ -781,14 +780,6 @@ If the method is 3' RACE or 5' RACE, the tag defining the insertion site is RNA-
 then the gene trap has trapped a gene.
    
 </p>
-
-
-
-
-
-
-
-
 
 
 

@@ -243,7 +243,7 @@ VCF files are processed in the following manner:
 <blockquote> 
 <table border width="!" cellpadding="4" cellspacing="1">
 	<tr><td align="left" valign="top"><b>Human Gene </b></td>
-    <td valign="top">Symbol of the gene, linked to its Vertebrate Homology Class page.</td></tr> 
+    <td valign="top">Symbol of the gene, linked to homology information.</td></tr> 
     <tr><td align="left" valign="top"><b>Mouse Gene </b></td>
     <td valign="top">Symbol of the gene, linked to its MGI gene detail record.</td></tr> 
     <tr><td align="left" valign="top"><b>Phenotypes And Diseases </b></td>

@@ -48,12 +48,9 @@ Interpreting a Sequence Summary </span>
    <UL>
    <LI><A HREF="#single">How do I view details for a single sequence?</A></LI>
    <LI><A HREF="#fasta">How do I download sequences in FASTA format?</A></LI>
-   <LI><A HREF="#mouseblast">How do I forward sequences to NCBI BLAST?</A></LI>
-   <!--<LI><A HREF="#buttons">How do the buttons work? What does <i>Invert</i> do?</A></LI>-->
+   <LI><A HREF="#ncbiblast">How do I forward sequences to NCBI BLAST?</A></LI>
    </UL>
 </LI>
-<!--<LI><A HREF="#ftp">I got a summary with a "Link to Results on FTP Site" message. What do I do now?</A></LI>-->
-<!--<LI><A HREF="#msqf">I filled in fields on the Mouse Sequence Query Form and got this information. What does it tell me?</A></LI>-->
 <LI><A HREF="#marker_detail">I clicked a link on an MGI Gene Detail report and got this information. What does it tell me?</A></LI>
 <LI><A HREF="#reference_detail">I clicked a link on an MGI Reference Detail report and got this information. What does it tell me?</A></LI>
 <LI><A HREF="#fields">What can I do with sequence summary information?</A></LI>
@@ -63,10 +60,8 @@ Interpreting a Sequence Summary </span>
 <P>See also:</P>
 <UL>
 <LI><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
-<!--<LI><A HREF="SEQUENCE_help.shtml">Using the Mouse Sequence Query Form</A></LI>-->
 <LI><A HREF="SEQUENCE_detail_help.shtml" target="_blank">Interpreting Sequence Detail Reports</A></LI>
-<!--<LI><A HREF="SEQUENCE_query_tips_help.shtml">Sequence Query Tips</A></LI>-->
-<LI><A HREF="mouseblast_basic_steps_help.shtml" target="_blank">Using MouseBLAST - Basic Steps</A></LI>
+<li><a href="http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs" target="_blank">NCBI BLAST Help</a></li>
 </UL>
 
 
@@ -80,11 +75,6 @@ Interpreting a Sequence Summary </span>
 <TH ALIGN="left" VALIGN="top">When you search for sequences...</TH>
 <TH ALIGN="left" VALIGN="top">For field details, see...</TH>
 </TR>
-
-<!--<TR>
-<TD VALIGN="top">using the Web option in the Output Format field</TD>
-<TD VALIGN="top"><A HREF="#msqf">I filled in fields on the Mouse Sequence Query Form...</A></TD>
-</TR>-->
 
 <TR>
 <TD VALIGN="top">from a Gene Detail report</TD>
@@ -118,32 +108,10 @@ Interpreting a Sequence Summary </span>
 <LI>Summary information about the sequences matching your query, in columns. Columns headings are: Select<!--(for your check marks)-->, Sequence, Type, Length, Strain/Species, Description from Sequence Provider, Clone Collection and Marker Symbol. </LI>
 </UL>
 
-<P>You can view MGI sequence details (see <A HREF="SEQUENCE_detail_help.shtml" target="_blank">Using Sequence Detail Reports</A>), or you can download it in <A HREF="#fasta">FASTA</A> format or forward it to <A HREF="#mouseblast">MouseBLAST</A>.
+<P>You can view MGI sequence details (see <A HREF="SEQUENCE_detail_help.shtml" target="_blank">Using Sequence Detail Reports</A>), or you can download it in <A HREF="#fasta">FASTA</A> format or forward it to <A HREF="#ncbiblast">NCBI BLAST</A>.
 </P>
 
-<font size="-1"><a href="#top">Top</a>
-</font>
-
-<!--<h3><a name="sort"></a>How is this report sorted?</h3> 
-
-<p>The default sort for the Sequence summary is <i>Type</i> which translates to the following order:
-<blockquote>
-<table border="1" cellspacing="2" cellpadding="3" width="!">
-<tr><th valign="top">Sort </th><th valign="top">Sequence attribute</th></th></tr>
-  <tr><td valign="top">First</td><td valign="top">Type </td></tr>
-  <tr><td valign="top">Second</td><td valign="top">Provider </td></tr>
-  <tr><td valign="top">Third</td><td valign="top">Length (descending)</td></tr>
-</table>
-
-</blockquote>
-</p>
-<p>
-There is no further sort by the division (for example,<i>Rodent</i> or <i>HTC</i> within the sequence provider. All GenBank sequences, regardless of division, undergo a single sort. See also <A HREF="SEQUENCE_help.shtml#sort">Sorting and output format</A> for more sort options on the Mouse Sequence Query Form.
-</p>
-<font size="-1"><a href="#top">Top</a>
-</font>-->
-
-
+<font size="-1"><a href="#top">Top</a></font>
 
 <H3><A NAME="usage"></A>How do I use a sequence summary?</H3>
 
@@ -154,7 +122,7 @@ There is no further sort by the division (for example,<i>Rodent</i> or <i>HTC</i
 
 <LI>download <!--one or more--> a sequence in <A HREF="#fasta">FASTA</A> format.</LI>
 
-<LI>forward <!--one or more--> a sequence to <A HREF="#mouseblast">NCBI BLAST</A>.</LI>
+<LI>forward <!--one or more--> a sequence to <A HREF="#ncbiblast">NCBI BLAST</A>.</LI>
 </OL>
 </p>
 
@@ -181,158 +149,23 @@ The detail record for that sequence as stored in MGI appears. See <A HREF="SEQUE
 
 <ul>
 <LI>Click the FASTA link in the <B>Select</B> column for the sequence.</LI>
-
-<!--<LI>Click the arrow next to <B>For the selected sequences.</B></LI>
-
-<LI>Click <B>download in FASTA format</B>.</LI>
-
-<LI>Click <B>GO</B>.</LI>-->
 </ul>
 
 <font size="-1"><a href="#top">Top</a>
 </font>
-<H3><A NAME="mouseblast"></A>How do I forward a sequence to NCBI BLAST?</H3>
+<H3><A NAME="ncbiblast"></A>How do I forward a sequence to NCBI BLAST?</H3>
 
-<P>To forward a sequence to NCBI BLAST:</P>
+<P>To forward a sequence to NCBI <abbr title=" Basic Local Alignment Search Tool">BLAST</abbr>:</P>
 
 <ul>
 <LI>Click the <i>BLAST at NCBI</i> link in the <B>Select</B> column for the sequence.</LI>
-
-<!--<LI>Click the arrow next to <B>For the selected sequences.</B></LI>
-
-<LI>Click <B>forward to NCBI BLAST</B>.</LI>
-
-<LI>Click <B>GO</B>.</LI>-->
 </ul>
 </p>
-<p>For additional information, see:
-<ul>
-   <li><a href="mouseblast_forwarding_help.shtml" target="_blank">Using the Forward to MouseBLAST Form</a></li>
- <li><a href="mouseblast_output_help.shtml" target="_blank">Interpreting the MouseBLAST Output Report</a></li>  
-</ul>
+<p>For additional information, see <a href="http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs" target="_blank">NCBI BLAST Help</a> for how to use this tool.
+
 </p>
+
 <font size="-1"><a href="#top">Top</a></font>
-
-<!--<H3><A NAME="ftp"></A>I got a summary with a "Link to Results on FTP Site" message. What do I do now?</H3>
-
-<P>The Mouse Sequence Summary with the FTP link summarizes your query parameters at the top of the page and beneath this, lists the number of items that matched your query.</P>
-
-<UL>
-<LI>If you want to retrieve those matches right now, click the link (i.e., <I>ftp://ftp.informatics.jax.org/wirequests/nnnnnn</I>).</LI>
-
-<LI>If you want to access your results later, copy or save the URL to the MGI FTP site and make a note of how long they will be retained. If you don't retrieve your results within 72 hours, you'll have to rerun this query.</LI>
-</UL>
-
-
-<h4>Example: FASTA summary with link to MGI FTP site</h4>
-<H4 ALIGN="center"><FONT FACE="arial, Helvetica, Sans Serif">Mouse Sequences<BR>
-Query Results -- Summary</FONT></H4>
-<!--
-<BLOCKQUOTE>
-<ALIGN LEFT=""><font face="courier New, Courier" size="-1"><U>Query Summary</U><BR>
- Type: equals RNA<BR>
-Chromosome: on 2<BR>
- Marker Symbol/Name: contains kit searching current symbols/names and synonyms.<BR>
-Sort: by Type<BR>
- 71 of 71 sequences displayed<BR>
-Link to Results on FTP Site<BR>
-<BR>
- ftp://ftp.informatics.jax.org/pub/custom/generated/@22394.1/queryResults<BR>
-<BR>
- Results will be available for 72 hours. Your results will be available until<BR>
- 05/09/2004 at 04:46 pm EDT.<BR>
-<BR>
- Print or save this page to save the URL to your results.<BR>
-Results Summary<BR>
-20 of 20 sequences were successfully retrieved in FASTA format.<BR>
-
-Mouse Sequences<br>
-Query Results Summary <br>	 
-Query Summary<br>
-Marker symbol/name:= Ggn searching current symbols/names & synonyms<br>
-Display limit:equals 100<br>
-Display format:equals Tab-delimited text to ftp site 5 matching reference SNPs displayed<br>
-Link to Results on FTP Site<br><br>
-
-ftp://ftp.informatics.jax.org/pub/custom/wi_generated/@26713.1/queryResults<br>
-
-Results will be available for 72 hours. Your results will be available until 08/25/2005 at 01:35 am EDT.<br>
-
-Print or save this page to save the URL to your results.
-
-</FONT></ALIGN>
-</BLOCKQUOTE>
-
-<font size="-1"><a href="#top">Top</a>
-</font>-->
-
-<!--<H3><A NAME="buttons"></A>How do the buttons work? What does <i>Invert</i> do?</H3>
-<p>
-<blockquote>
-<table border="1" cellpadding="4">
-<tr>
-<th valign="top">Button</th>
-<th>Action</th>
-<th>Use this when...</th>
-</tr>
-
-<tr>
-<th align="left" valign="top">Select all</th>
-<td>Selects all the sequences on the list.</td>
-<td valign="top">You want to examine every sequence.</td>
-</tr>
-
-<tr>
-<th align="left" valign="top">Invert</th>
-<td valign="top">A toggle switch. Removes any check marks and puts them in any boxes not previously selected.</td>
-<td align="left" valign="top">
-<ul>
-<li>the list of sequences you want to see is longer than the list you do not want to see. Click <b>Select All</b>, click the <b>undesired</b> sequences, click <b>Invert</b>.</li>
-
-<li>you don't want the action of <b>Reset</b>.</li>
-</ul>
-</td>
-</tr>
-
-<tr>
-<th align="left" valign="top">Reset</th>
-<td valign="top">Removes any check marks from boxes.</td>
-<td>You want to start over and make all new selections.</td>
-</tr>
-
-<tr>
-<th align="left" valign="top">Go</th>
-<td>Activates your choice (or the default) from the selection menu.</td>
-<td>You are ready to download a sequence in FASTA format or forward it to MouseBLAST. See <a href="#fasta">How do I download sequences in FASTA format?</a> or <a href="#mouseblast">How do I forward sequences to MouseBLAST?</a> for details.</td>
-</tr>
-</table>
-</blockquote>
-</p>
-
-<font size="-1"><a href="#top">Top</a>
-</font>-->
-<!--<H3><A NAME="msqf"></A>I filled in fields on the Mouse Sequence Query Form and got this information. What does it tell me?</H3>
-
-<UL>
-<LI>At the top of the page is a list of the query parameters that produced this report.</LI>
-
-<LI>The table below identifies and provides information about the sequences matching your search criteria.<BR>
-<BR>
-</LI>
-</UL>
-
-<P>Examine this information, and, if it is not what you expect, return to the Query Form and change your parameters. See <A HREF="SEQUENCE_query_hints">Sequence Query Hints</A> for suggestions on how to do this.</P>
-
-<UL>
-<LI>Click either <B>MGI Sequence Detail</B> or one of the provider links in the report to view sequence details.</LI>
-
-<LI>Select one or more sequences to download in FASTA format or forward to MouseBLAST. See <A HREF="#fasta">FASTA</A> or <A HREF="#mouseblast">MouseBlast</A> for details.</LI>
-</UL>
-
-<P>See <A HREF="#fields">What can I do with sequence summary information?</A> for more details.</P>
-
-<font size="-1"><a href="#top">Top</a>
-</font>-->
 
 <H3><A NAME="marker_detail"></A>I clicked a link on a Marker Detail report and got this information. What does it tell me?</H3>
 
@@ -345,7 +178,7 @@ Print or save this page to save the URL to your results.
 <UL>
 <LI>Click either <B>MGI Sequence Detail</B> or one of the provider links in the report to view sequence details.</LI>
 
-<LI>Choose a sequence to download in FASTA format or forward to NCBI BLAST. See <A HREF="#fasta">FASTA</A> or <A HREF="#mouseblast">MouseBlast</A> for details.</LI>
+<LI>Choose a sequence to download in FASTA format or forward to NCBI BLAST. See <A HREF="#fasta">FASTA</A> or <A HREF="#ncbiblast">NCBI Blast</A> for details.</LI>
 </UL>
 
 <P>See <A HREF="#fields">What can I do with sequence summary information?</A> for more details.</P>
@@ -361,7 +194,7 @@ Print or save this page to save the URL to your results.
 <UL>
 <LI>Click either <B>MGI Sequence Detail</B> or one of the provider links in the report to view sequence details.</LI>
 
-<LI>Choose a sequence to download in FASTA format or forward to NCBI BLAST. See <A HREF="#fasta">FASTA</A> or <A HREF="#mouseblast">MouseBlast</A> for details.</LI>
+<LI>Choose a sequence to download in FASTA format or forward to NCBI <abbr title=" Basic Local Alignment Search Tool">BLAST</abbr>. See <A HREF="#fasta">FASTA</A> or <A HREF="#ncbiblast">NCBI Blast</A> for details.</LI>
 </UL>
 
 <P>See <A HREF="#fields">What can I do with sequence summary information?</A> for more details.</P>
@@ -369,18 +202,6 @@ Print or save this page to save the URL to your results.
 <font size="-1"><a href="#top">Top</a>
 </font>
 <H3><A NAME="fields"></A>What can I do with sequence summary information?</H3>
-
-<!--<P>After reviewing this information, you may want to run your query again, and change the...</P>
-
-<UL>
-<LI><A HREF="SEQUENCE_help.shtml#max_no">maximum number of items returned</A> (for example, when the number of query results available is greater than the number appearing in your browser).</LI>
-
-<LI>columns to <A HREF="SEQUENCE_help.shtml#show">Show in results</A> or the <A HREF="SEQUENCE_help.shtml#sortby">Sort by</A> order of those results.</LI>
-
-<LI><A HREF="SEQUENCE_help.shtml#output_format">output format</A> (for example, to display tab-delimited text for use in a spreadsheet or FASTA format for use with a BLAST tool).</LI>
-
-<LI>query parameters so that you can narrow (or expand) your results. See <A HREF="SEQUENCE_query_hints.shtml">Sequence Query Hints</A> for suggestions on how to do this.</LI>
-</UL>-->
 
 <P>On the sequence summary, you can follow links to:</P>
 
