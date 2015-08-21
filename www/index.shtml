@@ -190,19 +190,17 @@ User Help Site Map
             </dd>
     
     
-	<dt><b>MouseBLAST Help</b></dt>	       
+	<!--<dt><b>MouseBLAST Help</b></dt>	       
  	<dd><a href="mouseblast_overview_help.shtml" onclick="javascript:openHelpWindow('mouseblast_overview_help.shtml'); return false;">Using MouseBLAST - Overview</a></dd>
-
- 	<dd><a href="mouseblast_basic_steps_help.shtml" onclick="javascript:openHelpWindow('mouseblast_basic_steps_help.shtml'); return false;">Using MouseBLAST - Basic Steps</a></dd>
+	<dd><a href="mouseblast_basic_steps_help.shtml" onclick="javascript:openHelpWindow('mouseblast_basic_steps_help.shtml'); return false;">Using MouseBLAST - Basic Steps</a></dd>
 	<dd><a href="mouseblast_output_help.shtml" onclick="javascript:openHelpWindow('mouseblast_output_help.shtml'); return false;">Using MouseBLAST - Interpreting the MouseBLAST Output Report</a></dd>
-
- 	<dd><a href="mouseblast_examples_help.shtml" onclick="javascript:openHelpWindow('mouseblast_examples_help.shtml'); return false;">Using MouseBLAST - Sample Queries</a></dd>
- <dd>	<a href="mouseblast_blast_programs_help.shtml" onclick="javascript:openHelpWindow('mouseblast_blast_programs_help.shtml'); return false;">Using MouseBLAST - Available BLAST Programs</a></dd>
+	<dd><a href="mouseblast_examples_help.shtml" onclick="javascript:openHelpWindow('mouseblast_examples_help.shtml'); return false;">Using MouseBLAST - Sample Queries</a></dd>
+ 	<dd><a href="mouseblast_blast_programs_help.shtml" onclick="javascript:openHelpWindow('mouseblast_blast_programs_help.shtml'); return false;">Using MouseBLAST - Available BLAST Programs</a></dd>
 	<dd><a href="mouseblast_sequence_databases_help.shtml" onclick="javascript:openHelpWindow('mouseblast_sequence_databases_help.shtml'); return false;">Using MouseBLAST - Sequence Databases</a></dd>
 	<dd><a href="mouseblast_masking_help.shtml" onclick="javascript:openHelpWindow('mouseblast_masking_help.shtml'); return false;">Using MouseBLAST - Masking Programs</a></dd>
 	<dd><a href="mouseblast_sequence_format_help.shtml" onclick="javascript:openHelpWindow('mouseblast_sequence_format_help.shtml'); return false;">Using MouseBLAST - Sequence Formats</a></dd>
 	<dd><a href="mouseblast_fetch_help.shtml" onclick="javascript:openHelpWindow('mouseblast_fetch_help.shtml'); return false;">Using MouseBLAST - Searching by Sequence ID</a></dd>
-	<dd><a href="mouseblast_forwarding_help.shtml" onclick="javascript:openHelpWindow('mouseblast_forwarding_help.shtml'); return false;">Using the Forward to MouseBLAST Form</a></dd>
+	<dd><a href="mouseblast_forwarding_help.shtml" onclick="javascript:openHelpWindow('mouseblast_forwarding_help.shtml'); return false;">Using the Forward to MouseBLAST Form</a></dd>-->
 
 
 	<dt><b>Gene Trap Help</b></dt>
