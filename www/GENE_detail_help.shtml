@@ -58,7 +58,7 @@ table { border-style: none; align: center
 </style>
 
 <h3><A NAME="field"></A>Which fields should show up on this report?</h3>
-<p>Depending on data availability and the marker type, this detail report contains information in some or all of the categories described in the table below. Some sections of the results initially display only a summary. Use ***<img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif"> to expand the section to see more information and ***<img src="<!--#include file='include/webshare_url.html'-->images/downArrow.gif"> to collapse the view to just the summary???. </p>
+<p>Depending on data availability and the marker type, this detail report contains information in some or all of the categories described in the table below. Some sections of the results initially display only a summary. Use <img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif"> to expand the section to see more information and ***<img src="<!--#include file='include/webshare_url.html'-->images/downArrow.gif"> to collapse the view to just the summary???. </p>
 
 <p><table>
 <tr><td><font size="-1"><a href="#summary">Summary</a> | <a href="#maps">Locations & Maps</a> | <a href="#orthology">Homology</a> | <a href="#diseases">Human Diseases</a> | <a href="#alleles">Mutations, Alleles, And Phenotypes</a> | <a href="#GO_detail">Gene Ontology (GO) Classifications</a> | <a href="#expression_detail">Expression</a> | <a href="#interactions">Interactions</a> | <a href="#molecular_reagents">Molecular Reagents</a> | <a href="#other_database_links">Other Database Links</a> | <a href="#sequences">Sequences</a> | <a href="#polymorphisms">Polymorphisms</a> | <a href="#protein_domains_detail">Protein-related Information</a> | <a href="#references">References</a> | <a href="#other">Other Accession IDs</a></font></td>
@@ -178,9 +178,9 @@ dt { text-align: left; font-style: bold;
 <ul>
 <li>A <b>Phenotype Summary</b> of all alleles and annotations and counts of phenotypic allele categories of mutant alleles</li>
 <li> <b>Phenotype Images</b>: links to the <i>Phenotype Images associated with this Gene</i> report with every phenotype image in MGI for the gene.</li>
-<li>A <b>Phenotype Overview</b> displays the highest-level terms from the Mammalian Phenotype (MP) Ontology and uses blue cells to mark those with phenotypic annotations to genotypes with alleles of the gene. Click on a blue cell to see ***</li>
+<li>A <b>Phenotype Overview</b> displays the highest-level terms from the Mammalian Phenotype (MP) Ontology and uses blue cells to mark those with phenotypic annotations to genotypes with alleles of the gene. Click on a blue cell to see the genotypes annotated to the term and the corresponding lower-level terms. You can find even more detail by then clicking on a genetype's blue cell. This will show curator notes and the appropriate reference. Darker blue cells on the genotype grid indicate more supporting evidence.</li>
 <li>A short summary of phenotypes observed in mice with mutant alleles of the gene</li>
-<li>Allele categories***</li>
+<li>Counts of <i>All mutations and alleles</i> and phenotypic allele categories of mutant alleles</li>
 <li>Incidental mutations with links to data from the mutagenesis projects. <a href="<!--#include file='include/fewi_url.html'-->glossary/incidental_mutations.shtml" target="_blank">Incidental mutations</a> have been detected via sequencing but have not yet been confirmed. They may or may not affect the phenotype. Click on one of the project links, such as Mutagenetix or APF (The Australian Phenomic Facility), to access the provider's data. Stocks can be ordered from the providers. See <a href="ALLELE_phenotypic_categories_help.shtml#collection" target="_blank">Selecting Phenotypic Allele Categories</a> for a list of mutagenesis projects.</li>
 </ul></td></tr>
 <tr><th><a name="GO_detail"></a>Gene Ontology (GO) Classifications</th>
@@ -218,7 +218,7 @@ dt { text-align: left; font-style: bold;
 	<td>The total number of markers with which the gene is known or suspected of interacting, along with links to up to three of those markers' detail pages and a link to View All the markers. <!--Currently MGI only displays microRNA targeting type interactions, though more types will be added.--> See <a href="INTERACTION_explorer_help.shtml" target="_blank">Interpreting Interaction Explorer Results</a> for more information on MGI interaction data.</td></tr>
 
 <TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="molecular_reagents"></A>Molecular reagents</TH>
+<TH ALIGN="left" VALIGN="top"><A NAME="molecular_reagents"></A>Molecular Reagents</TH>
 <TD VALIGN="top">Links to summary pages of MGI molecular reagent information for the marker grouped by All nucleic, Genomic, cDNA, Primer pair, Other (i.e., other nucleic acid probes) and Microarray probesets. Note that <I>Genomic, cDNA, Primer pair</I> and <I>Other</I> are subsets of All nucleic. The number in parentheses indicates the total number of items listed in the summary. If you select:
 
 <UL STYLE="padding-left:30px">
@@ -229,10 +229,10 @@ dt { text-align: left; font-style: bold;
 </TR>
 
 <TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="other_database_links"></A>Other database links</TH>
+<TH ALIGN="left" VALIGN="top"><A NAME="other_database_links"></A>Other Database Links</TH>
 <TD VALIGN="top"><ul>
-  <li>List of and links to external resources with database accession IDs associated to this marker. Examples are EC, Ensembl Gene Model, DoTS, DFCI,
-NIA Mouse Gene Index, Entrez Gene, <!--dbGSS (for Gene Traps),--> International Mouse Knockout Project Consortium Status.</li>
+  <li>List of and links to external resources with database accession IDs associated to this marker. Examples are <abbr title="Enzyme Commission">EC</abbr>, Ensembl Gene Model, <abbr title="Protein Data Bank">PDB</abbr>, DFCI,
+NIA Mouse Gene Index, Entrez Gene, International Mouse Knockout Project Consortium Status.</li>
  
  <li>Additionally, there may be links to the sequence evidence underlying gene predictions provided by NCBI, Ensembl, and VEGA.</li>
 </ul>
@@ -252,7 +252,7 @@ NIA Mouse Gene Index, Entrez Gene, <!--dbGSS (for Gene Traps),--> International 
 <LI>a link to the MGI Sequence Detail page</LI>
 <LI>Length: the sequence length</LI>
 <LI>Strain/Species: the sequence strain (or species, if other than laboratory mouse)</LI>
-<LI>Flank: If the marker has genome coordinates, you can add an equal amount of flanking sequence to either end when forwarding to MouseBLAST.</LI>
+<LI>Flank: If the marker has genome coordinates, you can add an equal amount of flanking sequence to either end when forwarding to NCBI <abbr title=" Basic Local Alignment Search Tool">BLAST</abbr>.</LI>
 </UL>
 </TD>
 </TR>
@@ -284,14 +284,14 @@ MGI Representative Sequences provide users quick access to a single genomic, tra
 <TR>
 <TH ALIGN="left" VALIGN="top"><A NAME="polymorphisms"></A>Polymorphisms</TH>
 <TD VALIGN="top">Links to the following MGI summary reports (the number available appears in parentheses):<ul>
-  <li>Polymorphisms Query Results -- Summary  for any RFLPs/PCRs for this marker:  </li>
+  <li>Polymorphisms Query Results -- Summary  for any <abbr title="Restriction Fragment Length Polymorphism">RFLPs</abbr>/PCRs for this marker:  </li>
 <li>Mouse SNPs Query Results -- Summary for any SNPs within 2 kb of this marker.  <b>Note:</b> If MGI gene and marker genome coordinates are out of sync with the SNP data, <b>within 2 kb of this marker</b> does not appear, and the summary report indicates the discrepancy. See <a href="SNP_discrepancy_help.shtml">Understanding Mouse SNP Coordinate Discrepancies</a> for details.
 </ul>
 </TD>
 </TR>
 
 <TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="protein_domains_detail"></A>Protein-related information</TH>
+<TH ALIGN="left" VALIGN="top"><A NAME="protein_domains_detail"></A>Protein-related Information</TH>
 <TD VALIGN="top"><ul>
   <li>List of InterPro domain IDs & descriptions for protein sequences encoded by the gene. The ID links to the InterPro detail page for the domain at the EBI. If there is a SWISS-PROT sequence associated to the marker, click <I>Graphical View of Protein Domain Structure</I> to view the protein domain structure of the SWISS-PROT sequence at InterPro web.</li>
   <li>Links to Protein Ontology for those genes with mappings to PRO IDs.</li>
@@ -306,15 +306,14 @@ MGI Representative Sequences provide users quick access to a single genomic, tra
 <UL STYLE="padding-left:30px">
 <LI>Details of one selected reference, linked to its detail page.</LI>
 <LI>Details of the earliest and latest references, linked to their detail pages.</LI>
-<LI>All references, linked to a listing on the summary report page. The number in parentheses indicates the total of the references on the summary.</LI>
-<li>Disease annotation references, linked to a listing of just those references with human disease model annotations. The number in parentheses indicates the number of these references on the summary.</li>
-</UL>
+<LI>All the references for the marker, linked to a listing on the summary report page.</LI>
+<li>The Disease, Expression, Gene Ontology and Phenotypes annotation references, linked to a summary listing of just those references.</li>
 
 References on the detail and summary pages include a J number (an MGI reference ID) and a short citation, linked to the full citation.</TD>
 </TR>
 <TR>
 <TH ALIGN="left" VALIGN="top"><A NAME="other"></A>Other<BR>
-accession IDs</TH>
+Accession IDs</TH>
 <TD VALIGN="top">List of any other MGI accession IDs associated with this marker.</TD>
 </TR>
 </TABLE>
