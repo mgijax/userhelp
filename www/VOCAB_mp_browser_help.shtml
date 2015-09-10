@@ -125,13 +125,13 @@ The Field Description - Term Detail report appears.</P>
 
 
 <H3><A NAME="mp_summary"></A>How do I interpret the Mammalian Phenotype Ontology Annotations Query Results?</H3>
-<P>The summary report presents a list of MGI genotypes annotated to a term or its descendents. You access this report  by clicking the text displaying the number of genotypes and  annotations for a featured term in the MP browser.
+<P>The summary report presents a list of MGI genotypes annotated to a term or its descendants. You access this report  by clicking the text displaying the number of genotypes and  annotations for a featured term in the MP browser or the number of phenotypes in the Mutations, Alleles, and Phenotypes section of a Gene Detail page. Depending upon how you reached the results, you may be offered the option of exporting the results in a spreadsheet format. 
 <TABLE BORDER CELLPADDING="4">
 <TR><TH>Field</TH><TH>Description</TH>
 
-<TR><TD VALIGN="top">Allelic Composition (Genetic Background)</TD><TD>The genotype composed of the mutation, linked to the MGI Allele Detail report, and the mouse strain background.</TD></TR>
+<TR><TD VALIGN="top">Genotype/Allelic Composition (Genetic Background)</TD><TD>The genotype composed of the mutation, linked to the MGI Allele Detail report, and the mouse strain background.</TD></TR>
 <TR><TD VALIGN="top">Annotated Term</TD><TD VALIGN="top">Specific MP term used to describe the given genotype, linked to its Mammalian Phenotype Ontology Term  Detail report.</TD></TR>
-<TR><TD VALIGN="top">Reference</TD><TD VALIGN="top">A listing of the supporting MGI references, linked to the References Detail report containing the full citation.</TD></TR>
+<TR><TD VALIGN="top">Reference</TD><TD VALIGN="top">A listing of the supporting MGI references, linked to the References Detail report containing the full citation, with links to the Journal (if available) and data curated from the reference.</TD></TR>
 </TABLE>
 </P>
 <font size="-1"><a href="#top">Top</a>
