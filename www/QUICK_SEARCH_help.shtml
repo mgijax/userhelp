@@ -51,7 +51,7 @@ function openHelpWindow(helpFile){
 <p>The Quick Search tool provides a swift overview of MGI data with linked results to deeper layers of information. <br>
  You can:
 <ul>
-  <li>Search for a genome feature by name, symbol, synonym, ortholog, allele, or accession ID</li>
+  <li>Search for a genome feature by name, symbol, synonym, homolog, allele, or accession ID</li>
 <li>Search using keywords or a text phrase</li>
   <li>View the <a href="#best_match">best matches</a>, separated into <a href="#genome_features">Genome Features</a>, <a href="#vocabulary">Vocabulary Terms</a>, and <a href="#other_by_ID">Other Results by ID</a> (e.g. sequences, orthologies, references)</li>
   <li>Follow links to MGI data: genes, alleles, genome features, vocabulary, other objects</li>
@@ -73,8 +73,8 @@ function openHelpWindow(helpFile){
 
 <p>These three approaches compare your input text to:</p>
  <ul>
-  <li>individual mouse genome features by name (including mutant cell line name), symbol, synonym, ortholog, allele, accession ID</li>
-  <li>individual nomenclature for mouse orthologs in other organisms (human, rat, and so on)</li>
+  <li>individual mouse genome features by name (including mutant cell line name), symbol, synonym, homolog, allele, accession ID</li>
+  <li>individual nomenclature for mouse homologs (from HomoloGene and HGNC) in other organisms (human, rat, and so on)</li>
   <li>individual vocabulary terms, synonyms, and definitions in six of MGI's controlled vocabularies:</li>
     <ul>
     <li>Gene Ontology (GO)</li>
@@ -150,7 +150,7 @@ function openHelpWindow(helpFile){
 
 <p>Entries can be:
        <ul>
-         <li>All of one type  (e.g. identifiers such as accession IDs/Entrez Gene IDs; gene or allele symbols/synonyms/orthologs)</li>
+         <li>All of one type  (e.g. identifiers such as accession IDs/Entrez Gene IDs; gene or allele symbols/synonyms/homologs)</li>
          <li>A mixed list of IDs and text (e.g. accession ID, gene synonym, allele symbol, 
 <a href="http://en.wikipedia.org/wiki/Keyword_(Internet_search)">keywords</a> from an MGI vocabulary)</li>
 </ul>
@@ -224,8 +224,6 @@ function openHelpWindow(helpFile){
   <li>review the details for your search.</li>
 </ul>
 </p>
-
-
 
 <p>
 <h4>Sections on the Quick Search Results page</h4>

@@ -93,7 +93,7 @@ Using the Genes and Markers Query Form</span>
 		<li>A search for *box* looks for nomenclature that contains <i>box</i>. This search finds the arginine decarboxylase gene, homeobox genes and paired box genes.</li>
 		<li>A search for *apoe* finds not only the <i>Apoe</i> gene but transgenes containing <i>APOE</i>.</li>
 		<li>A search for <i>growth factor</i> finds nomenclature containing <i>growth</i> AND <i>factor</i>.</li>
-		<li>Synonyms (unofficial gene names used in publications and former official gene symbols) are also searched.</li>
+		<li>Synonyms (unofficial gene names used in publications and former official gene symbols) and symbols and names for homologous genes for other vertebrate species are also searched. </li>
 		<li>This field searches only alphanumeric characters. Single and double quotes, commas and hyphens are ignored.</li>
 	</ul>
 	</td></tr>        
