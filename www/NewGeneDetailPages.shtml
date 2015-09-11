@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<!--#include file='include/templateHead.html'-->
+	<title>
+	<!--#include file="include/mgiversion.html"-->
+	MGI - New Gene Detail Page Features</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+
+</style>
+
+</head>
+
+<body>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+  New Gene Detail Page Features
+ </span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+
+
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+    </tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+<!-- Body of User Help -->
+
+<table cellpadding="10">
+	<tr>
+		<td valign="top"><br>
+			<a href="images/Brca1Top.png" target="_blank">
+			<img src="images/Brca1Top.png"
+			width="650px" height="605px" alt="Gene Detail page for Brca1" style="padding:5px;" border="1" margins="5px"></a> <br>
+			<a href="images/Brca1References.png" target="_blank">
+			<img src="images/Brca1References.png"
+			width="650px" height="17px" alt="Gene Detail page references for Brca1" style="padding:5px;" border="1" margins="5px"></a>
+		</td>
+		<td valign="top"><p>MGI Gene Detail pages have always provided links to all the information we have on the mouse gene. With this release, the Detail pages display more information and provide more ways to view subsets of data and to access details. New graphical displays provide a synopsis of a gene’s functions, where it is expressed and the phenotypes of mutant alleles. The Gene Detail page for <a href="<!--#include file='include/fewi_url.html'-->marker/MGI:104537 "> Brca1</a> is shown on the left.
+			<ol>
+			<li>Some sections of the Detail Page initially display only a summary. Use <img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif"> to expand the section to see more information and <img src="<!--#include file='include/webshare_url.html'-->images/downArrow.gif"> to collapse the view.</li>
+			<li>A new section, Human Diseases, provides a table of human diseases the Online Mendelian Inheritance in Man (OMIM) database has associated with the human gene as well human diseases modeled in mice with mutations in the gene.</li>
+			<li>Grids ***</li>
+			<li>The References section now lets you view just the Disease, Expression, Gene Ontology and Phenotype annotation references, linked to a summary listing of just those references. Reference summaries provide text export and filtering capabilities.</li>
+			</ol>
+		<p> See also <a href="<!--#include file='include/mgihome_url.html'-->other/homepage_usingMGI.shtml#geneDetail" target="_blank">How to use MGI Gene Detail pages</a> and <a href="GENE_detail_help.shtml" target="_blank">Interpreting Gene Details</a>. </p>
+		</td>
+	</tr>
+</table>
+<!--#include file='include/templateBlankBodyStop.html'--> 
+
+</body>
+</html>
