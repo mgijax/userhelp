@@ -178,10 +178,7 @@ User Help Site Map
 
   <dt><b>Batch Querying / Interpreting Results</b></dt>
          <dd><a href="BATCH_help.shtml" onclick="javascript:openHelpWindow('BATCH_help.shtml'); return false;">Using the MGI Batch Query</a></dd>
-  <dt><b>Biomart</b></dt>
-         <dd><a href="biomart_help.shtml" onclick="javascript:openHelpWindow('biomart_help.shtml'); return false;">Using the MGI BioMart Datasets</a></dd>
-
-
+ 
     	<dt><b>Using & Interpreting Accession IDs </b>
             <dd>
               <a href="ACCESSION_ID_help.shtml" onclick="javascript:openHelpWindow('ACCESSION_ID_help.shtml'); return false;">
