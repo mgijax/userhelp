@@ -131,6 +131,16 @@ User Help Site Map
                   
           </blockquote> 
      
+ <!-- orthology -->
+   <a name="help_mammortho"></a>
+        <dt class="enhance">Vertebrate Homology</dt>
+   <blockquote>
+          
+     <dd> <a href="HOMOLOGY_class_help.shtml"
+     onclick="javascript:openHelpWindow('HOMOLOGY_class_help.shtml'); return false;">Interpreting Vertebrate Homology Class Reports</a></dd>
+    </blockquote>
+ 
+ 
   <!-- pathways -->
 <a name="help_strain"></a>
 
@@ -150,24 +160,11 @@ User Help Site Map
      <dd><a href="SNP_no_results_help.shtml" onclick="javascript:openHelpWindow('SNP_no_results_help.shtml'); return false;">My SNP query returned no results. Why?</a></dd>          
         
   </blockquote>   
- 
-  <!-- orthology -->
-   <a name="help_mammortho"></a>
-        <dt class="enhance">Vertebrate Homology</dt>
-   <blockquote>
-          
-     <!--<dd> <a href="linkmap_help.shtml" onclick="javascript:openHelpWindow('linkmap_help.shtml'); return false;">
-     Using the Linkage Maps Query Form</a> </dd>-->
-     <dd> <a href="HOMOLOGY_class_help.shtml"
-     onclick="javascript:openHelpWindow('HOMOLOGY_class_help.shtml'); return false;">Interpreting Vertebrate Homology Class Reports</a></dd>
-          </blockquote>
       
- 
   
   <a name="help_other_searches"></a>
           <dt class="enhance">Other Searches</dt>
 
-    
           <blockquote>
 <dt><b>Quick Search</b></dt>
 	<dd><a href="QUICK_SEARCH_help.shtml" onclick="javascript:openHelpWindow('QUICK_SEARCH_help.shtml'); return false;">Using the Quick Search Tool</a></dd>
