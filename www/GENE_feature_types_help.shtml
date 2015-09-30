@@ -55,6 +55,14 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
 
 <tr><th align="left" valign="top"><font size="-1">non-coding RNA gene</th><td valign="top"><font size="-1">A gene that produces an RNA transcript that functions as the gene product.</td><td valign="top"><font size="-1">&nbsp;</td></tr>
 
+<tr><th valign="top" align="left"><font size="-1">lncRNA gene</th><td valign="top"><font size="-1">A gene that encodes a non-coding RNA over 200 nucleotides in length. </td><td valign="top"><font size="-1">SO:0001877</font></td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">antisense lncRNA gene</th><td valign="top"><font size="-1">A gene that encodes a non-coding RNA transcribed from the opposite DNA strand compared with other transcripts and overlap in part with sense RNA. </td><td valign="top"><font size="-1">SO:0001904</font></td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">lincRNA gene</th><td valign="top"><font size="-1">A gene that encodes large intervening non-coding RNA. </td><td valign="top"><font size="-1">SO:0001641</font></td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">intronic lncRNA gene</th><td valign="top"><font size="-1">A gene that encodes a lncRNA totally contained within an intron. </td><td valign="top"><font size="-1">SO:0001903</font></td></tr>
+
 <tr><th valign="top" align="left"><font size="-1">rRNA gene</th><td valign="top"><font size="-1">A gene that encodes ribosomal RNA.</td><td valign="top"><font size="-1">SO:0001637</font></td></tr>
 
 <tr><th align="left" valign="top"><font size="-1">tRNA gene</font></th><td valign="top"><font size="-1">A gene that encodes Transfer RNA. </td><td valign="top"><font size="-1">SO:0001272</font></td></tr>
@@ -67,18 +75,15 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
 
 <tr><th valign="top" align="left"><font size="-1">scRNA gene</th><td valign="top"><font size="-1">A gene that encodes for Small Cytoplasmic RNA.</td><td valign="top"><font size="-1">SO:0001266</font></td></tr>
 
-<tr><th valign="top" align="left"><font size="-1">lincRNA gene</th><td valign="top"><font size="-1">A gene that encodes large intervening non-coding RNA. </td><td valign="top"><font size="-1">SO:0001641</font></td></tr>
-
 <tr><th valign="top" align="left"><font size="-1">SRP RNA gene</th><td valign="top"><font size="-1">A gene that encodes the signal recognition particle RNA. </td><td valign="top"><font size="-1">SO:0000590</font></td></tr>
 
 <tr><th valign="top" align="left"><font size="-1">RNase P RNA gene</th><td valign="top"><font size="-1">A gene that encodes RNase P RNA, the RNA component of Ribonuclease P (RNase P).</td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
 
 <tr><th valign="top" align="left"><font size="-1">RNase MRP RNA gene</th><td valign="top"><font size="-1">A gene that encodes RNase MRP RNA.</td><td valign="top"><font size="-1">SO:0001640</font></td></tr>
 
-
 <tr><th valign="top" align="left"><font size="-1">telomerase RNA gene</th><td valign="top"><font size="-1">A non-coding RNA gene, the RNA product of which is a component of telomerase. </td><td valign="top"><font size="-1">SO:0001643</font></td></tr>
 
-<tr><th valign="top" align="left"><font style="white-space:nowrap;" size="-1">Unclassified non-coding RNA gene</th><td valign="top"><font size="-1">A non-coding RNA gene not classified The RNA product of this non-coding is a component of telomerase.</td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
+<tr><th valign="top" align="left"><font style="white-space:nowrap;" size="-1">unclassified non-coding RNA gene</th><td valign="top"><font size="-1">A non-coding RNA gene not classified The RNA product of this non-coding is a component of telomerase.</td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
 
 <tr><th valign="top" align="left"><font style="white-space:nowrap;" size="-1">heritable phenotypic marker</th><td valign="top"><font size="-1">A biological region characterized as a single heritable trait in a phenotype screen. The heritable phenotype may be mapped to a chromosome but generally has not been characterized to a specific gene locus. </td><td valign="top"><font size="-1">SO:0001500</font></td></tr>
 
@@ -117,6 +122,18 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
 <tr><th valign="top" align="left"><font size="-1">BAC/YAC end</th><td valign="top"><font size="-1">A region of sequence from the end of a BAC or YAC clone used as a reagent in mapping and genome assembly. </td><td valign="top">&nbsp;</td></tr>
 
 <tr><th valign="top" align="left"><font size="-1"><font size="-1"><nobr>other genome feature</th><td valign="top"><font size="-1">A region of the genome associated with biological interest (includes regulatory regions, conserved regions and related sequences, repetitive sequences, and viral integrations). </td><td valign="top">&nbsp;</td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">retrotransposon</th><td valign="top"><font size="-1">A transposable element that is incorporated into a chromosome by a mechanism that requires reverse transcriptase. </td><td valign="top"><font size="-1">SO:0000180</font></td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">telomere</th><td valign="top"><font size="-1">A specific structure at the end of a linear chromosome, required for the integrity and maintenance of the end. </td><td valign="top"><font size="-1">SO:0000624</font></td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">minisatellite</th><td valign="top"><font size="-1">A repeat region containing tandemly repeated sequences having a unit length of 10 to 40 bp. </td><td valign="top"><font size="-1">SO:0000643</font></td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">unclassified other genome feature</th><td valign="top"><font size="-1">A genome feature that cannot be classified in any currently recognized genome category. </td><td valign="top"><font size="-1"></font></td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">endogenous retroviral region</th><td valign="top"><font size="-1">A region derived from viral infection of germ cells that has been stably integrated into the host genome and is passed on from generation to generation. </td><td valign="top"><font size="-1"></font></td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">promoter</th><td valign="top"><font size="-1">A regulatory_region composed of the TSS(s) and binding sites for TF_complexes of the basal transcription machinery. </td><td valign="top"><font size="-1">SO:0000167</font></td></tr>
 
 <tr><th valign="top" align="left"><font size="-1">DNA segment</th><td valign="top"><font size="-1">A region of the genome associated with experimental interest, often used as a reagent for genetic mapping. Includes RFLP and other hybridization probes, sequence-tagged sites (STS), and regions defined by PCR primer pairs such as microsatellite markers). </td><td valign="top"><font size="-1"></font></td></tr>
 
