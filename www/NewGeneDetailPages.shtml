@@ -59,11 +59,12 @@ function openHelpWindow(helpFile){
 			<li>Some sections of the Detail Page initially display only a summary. Use <img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif"> to expand the section to see more information and <img src="<!--#include file='include/webshare_url.html'-->images/downArrow.gif"> to collapse the view.</li>
 			<li>A new section, <b>Human Diseases</b>, provides a table of human diseases <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr> has associated with the human gene as well human diseases modeled in mice with mutations in the gene.</li>
 			<li>Grids now highlight gene function and phenotype annotations and expression data. 
-				<ol type="A">
-				<li>A <b>Phenotype Overview</b> displays the highest-level terms from the Mammalian Phenotype (MP) Ontology and uses blue cells to mark those with phenotypic annotations to genotypes with alleles of the gene. Click on a blue cell to see lower-level terms and annotations.</li>
-				<li>New graphical representation of <b>Gene Ontology (GO)</b> annotations to select ontology terms. Click on a blue cell to see more specific, lower-level, annotations and supporting references.</li>
-				<li>The <b>Expression Overview</b> summarizes expression annotations using terms from early development and physiological/organ systems. The mouseover for grid cells reports the total number of annotations to that term or its substructures. Click on a cell to open a tissue x stage matrix that displays an overview of these annotations.</li>
-				</ol></li>
+				<blockquote>
+				A. &nbsp; <b>Phenotype Overview</b> displays the highest-level terms from the Mammalian Phenotype (MP) Ontology and uses blue cells to mark those with phenotypic annotations to genotypes with alleles of the gene. Click on a blue cell to see lower-level terms and annotations.<br>
+				B. &nbsp; New graphical representation of <b>Gene Ontology (GO)</b> annotations to select ontology terms. Click on a blue cell to see more specific, lower-level, annotations and supporting references.<br>
+				C. &nbsp; The <b>Expression Overview</b> summarizes expression annotations using terms from early development and physiological/organ systems. The mouseover for grid cells reports the total number of annotations to that term or its substructures. Click on a cell to open a tissue x stage matrix that displays an overview of these annotations.<br>
+				</blockquote>
+			</li>
 			<li>The <b>References</b> section now lets you view summaries of just the Disease, Expression, Gene Ontology and Phenotype annotation references. Reference summaries provide text export and filtering capabilities.</li>
 			</ol>
 		<p> See also <a href="<!--#include file='include/mgihome_url.html'-->other/homepage_usingMGI.shtml#geneDetail" target="_blank">How to use MGI Gene Detail pages</a> and <a href="GENE_detail_help.shtml" target="_blank">Interpreting Gene Details</a>. </p>
