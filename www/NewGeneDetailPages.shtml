@@ -49,7 +49,7 @@ function openHelpWindow(helpFile){
 		<td valign="top"><br>
 			<a href="images/Brca1Top.png" target="_blank">
 			<img src="images/Brca1Top.png"
-			width="650px" height="605px" alt="Gene Detail page for Brca1" style="padding:5px;" border="1" margins="5px"></a> <br>
+			width="650px" height="677px" alt="Gene Detail page for Brca1" style="padding:5px;" border="1" margins="5px"></a> <br>
 			<a href="images/Brca1References.png" target="_blank">
 			<img src="images/Brca1References.png"
 			width="650px" height="17px" alt="Gene Detail page references for Brca1" style="padding:5px;" border="1" margins="5px"></a>
