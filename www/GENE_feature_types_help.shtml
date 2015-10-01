@@ -121,6 +121,12 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
 
 <tr><th valign="top" align="left"><font size="-1">BAC/YAC end</th><td valign="top"><font size="-1">A region of sequence from the end of a BAC or YAC clone used as a reagent in mapping and genome assembly. </td><td valign="top">&nbsp;</td></tr>
 
+<tr><th valign="top" align="left"><font size="-1">BAC end</th><td valign="top"><font size="-1">A region of sequence from the end of a BAC clone that may provide a highly specific marker. </td><td valign="top"><font size="-1">SO:0000999</font></td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">YAC end</th><td valign="top"><font size="-1">A region of sequence from the end of a YAC clone that may provide a highly specific marker. </td><td valign="top"><font size="-1">SO:0001498</font></td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">PAC end</th><td valign="top"><font size="-1">A region of sequence from the end of a PAC clone that may provide a highly specific marker. </td><td valign="top"><font size="-1">SO:0001480</font></td></tr>
+
 <tr><th valign="top" align="left"><font size="-1"><font size="-1"><nobr>other genome feature</th><td valign="top"><font size="-1">A region of the genome associated with biological interest (includes regulatory regions, conserved regions and related sequences, repetitive sequences, and viral integrations). </td><td valign="top">&nbsp;</td></tr>
 
 <tr><th valign="top" align="left"><font size="-1">retrotransposon</th><td valign="top"><font size="-1">A transposable element that is incorporated into a chromosome by a mechanism that requires reverse transcriptase. </td><td valign="top"><font size="-1">SO:0000180</font></td></tr>
@@ -132,6 +138,10 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
 <tr><th valign="top" align="left"><font size="-1">unclassified other genome feature</th><td valign="top"><font size="-1">A genome feature that cannot be classified in any currently recognized genome category. </td><td valign="top"><font size="-1"></font></td></tr>
 
 <tr><th valign="top" align="left"><font size="-1">endogenous retroviral region</th><td valign="top"><font size="-1">A region derived from viral infection of germ cells that has been stably integrated into the host genome and is passed on from generation to generation. </td><td valign="top"><font size="-1"></font></td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">mutation defined region</th><td valign="top"><font size="-1">A genomic region, containing multiple genes/genome features, within which a mutation event resulted in complex genomic changes affecting multiple features (e.g. not a simple regional deletion). </td><td valign="top"><font size="-1"></font></td></tr>
+
+<tr><th valign="top" align="left"><font size="-1">CpG island</th><td valign="top"><font size="-1">Regions of a few hundred to a few thousand bases in vertebrate genomes that are relatively GC and CpG rich; they are typically unmethylated and often found near the 5' ends of genes. </td><td valign="top"><font size="-1">SO:0000307</font></td></tr>
 
 <tr><th valign="top" align="left"><font size="-1">promoter</th><td valign="top"><font size="-1">A regulatory_region composed of the TSS(s) and binding sites for TF_complexes of the basal transcription machinery. </td><td valign="top"><font size="-1">SO:0000167</font></td></tr>
 
