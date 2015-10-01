@@ -119,11 +119,11 @@ dt { text-align: left; font-style: bold;
 		<tr><th>Sequence Map</th>
 			<td>Appears if coordinates are assigned and includes:
        <ul>
-       <li>genome coordinate range and strand, in base pairs (provider of genomic coordinates is indicated) </LI>
-       <li>a Get FASTA button will download the genomic sequence based on the coordinates. You can also add an equal amount of flanking sequence to each end.</li>
-    	<li>external links to other genomic context displays (e.g., VEGA ContigView, Ensembl ContigView, UCSC Browser, NCBI Map Viewer)</li>
-   		<li>On the right, a thumbnail image link to the MGI Mouse Genome Browser display for the marker's coordinates. You can also click <b>MGI Mouse Genome Browser</b> for a full-page display.<br>
+       <li>Genome coordinate range and strand, in base pairs (provider of genomic coordinates is indicated) </LI>
+       <li>A thumbnail image link to the MGI Mouse Genome Browser display for the marker's coordinates. You can also click <b>MGI Mouse Genome Browser</b> for a full-page display.<br>
 <b>Note:</b>&nbsp;If the information you expect to see does not appear in the Mouse Genome Browser (or other browser) display, you may need to turn on (i.e., click) the viewing aides (i.e., tracks, features, maps) in the various displays.</li>
+       <li>a Get FASTA button will download the genomic sequence based on the coordinates. You can also add an equal amount of flanking sequence to each end.</li>
+    	<li>External links to other genomic context displays (e.g., VEGA ContigView, Ensembl ContigView, UCSC Browser, NCBI Map Viewer)</li>
 		</ul>
 		</td>
 		</tr>
@@ -132,7 +132,8 @@ dt { text-align: left; font-style: bold;
 			<ul>
   			<li>Chromosome to which the marker is assigned. Aside from a chromosome number, other possible values include MT (mitochondrial), XY (XY pseudoautosomal), UN (chromosome assignment is not known).</li>
   			<li>Marker's centimorgan position. Centimorgan positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009)  (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PMID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.</li>
-  			<li>Cytogenetic position.</li>
+  			<li>Cytogenetic position</li>
+  			<li>Links to cytogenetic Mapping Data.</li>
   			</ul>
   			</td>
   		</tr>
@@ -180,9 +181,9 @@ dt { text-align: left; font-style: bold;
 <li><b>Phenotype Images</b>: links to the <i>Phenotype Images associated with this Gene</i> report with every phenotype image in MGI for the gene.</li>
 <li><b>Phenotype References</b>: links to a summary listing of all the references curated to alleles of the gene.</li>
 <li>A <b>Phenotype Overview</b> displays the highest-level terms from the Mammalian Phenotype (MP) Ontology and uses blue cells to mark those with phenotypic annotations to genotypes with alleles of the gene. Click on a blue cell to see the genotypes annotated to the term and the corresponding lower-level terms. You can find even more detail by then clicking on a genotype's blue cell. This will show curator notes and the appropriate reference. Darker blue cells on the genotype grid indicate more supporting evidence.</li>
-<li>A short summary of phenotypes observed in mice with mutant alleles of the gene</li>
 <li>Counts of <i>All mutations and alleles</i> and phenotypic allele categories of mutant alleles. See <a href="ALLELE_phenotypic_categories_help.shtml#method" target="_blank">Selecting Phenotypic Allele Categories</a> for definitions of allele types. </li>
 <li>Incidental mutations with links to data from the mutagenesis projects. <a href="<!--#include file='include/fewi_url.html'-->glossary/incidental_mutations.shtml" target="_blank">Incidental mutations</a> have been detected via sequencing but have not yet been confirmed. They may or may not affect the phenotype. Click on one of the project links, such as Mutagenetix or APF (The Australian Phenomic Facility), to access the provider's data. Stocks can be ordered from the providers. See <a href="ALLELE_phenotypic_categories_help.shtml#collection" target="_blank">Selecting Phenotypic Allele Categories</a> for a list of mutagenesis projects.</li>
+<li>A short summary of phenotypes observed in mice with mutant alleles of the gene</li>
 </ul></td></tr>
 <tr><th><a name="GO_detail"></a>Gene Ontology (GO) Classifications</th>
 	<td><ul>
@@ -313,10 +314,10 @@ MGI Representative Sequences provide users quick access to a single genomic, tra
 <TD VALIGN="top">Some or all of the following, depending on availability:
 
 <UL STYLE="padding-left:30px">
-<LI>Details of one selected reference, linked to its detail page.</LI>
-<LI>Details of the earliest and latest references, linked to their detail pages.</LI>
 <LI>All the references for the marker, linked to a listing on the summary report page.</LI>
 <li>The Disease, Expression, Gene Ontology and Phenotype annotation references, linked to a summary listing of just those references.</li>
+<LI>Details of one selected reference, linked to its detail page.</LI>
+<LI>Details of the earliest and latest references, linked to their detail pages.</LI>
 
 References on the detail and summary pages include a J number (an MGI reference ID) and a short citation, linked to the full citation. Reference summaries provide text export and filtering capabilities. </TD>
 </TR>
