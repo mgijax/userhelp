@@ -233,13 +233,10 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
   <h3><A name="more"></a>More questions</h3>
 <ul>
   <li><a href="#see_annot">Can I see annotations for every checkmarked item in a Genotypes column? </a></li>
-<li><a href="#how_many">How many new windows can I open?</a></h3>
-
   <li><a href="#what_else">What else is there to know about genotype windows?</a></li>
   <li><a href="#what_if">What if I'm only interested in disease models?</li>
-  <li><a href="#how_do">How do I get rid of additional windows or headers or subsystem views?</a></li>
+  <li><a href="#how_do">How do I get rid of headers or subsystem views?</a></li>
   <li><a href="#why_no">Why aren't all the systems in the Mammalian Phenotype vocabulary listed?</a></li>
-  <!--<li><a href="#help">Help! I've expanded subsystems, scrolled through data, and can't see the header row any more. Is there a visual aid?</a></li>-->
   <li><a href="#how_tell">How can I tell, without opening every window, what alleles and strains are involved with all genotypes?</a></li>
   <li><a href="#why_diff">Why is the order of systems different in the summary table versus the genotype detail table?</a></li>
   <li><a href="#how_often">How often are annotations added?</a></li>
@@ -249,30 +246,27 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 <h3><a name="see_annot"></a>Can I see annotations for every checkmarked item in a Genotypes column? </h3>
 <p>Yes. Click the colored box at the head of the Genotypes row (i.e., <u>hm1</u>, <u>ht4</u>). A new window appears, containing all available phenotypic details by genotype. 
 <ul>
-  <li>A small MGI logo appears in the top left corner.</li>
   <li>The color assigned to the genotype appears in a small box. The genotype abbreviation appears beneath the box (e.g., <i>hm1</i>). This enables quick identification of genotypes, particularly when opening several windows for comparison.</li>
-  <li>The nomenclature and genetic background appear in the header. Clicking any underlined symbol brings up its Phenotypic Allele Detail report.</li>
-  <li>A <b>Print</b> button allows you to send the screen content to a printer.</li>
+  <li>The Allelic Composition and Genetic Background appear in the header. Clicking any allele symbol brings up its Phenotypic Allele Detail report.</li>
+  <li>Find Mice: 
+  	<ul>
+  		<li>A link to the International Mouse Strain Resource (<a href="http://www.findmice.org/" target="_blank">IMSR</a>) where you can search for stocks available from multiple repositores</li>
+  		<li>Links to stocks listed in the IMSR that contain any of the alleles or transgenes in this genotype, if available</li>
+  		<li> Links to stocks listed in the IMSR that contain any allele of the gene<li>
+  	</ul>
   <li><i>Mouse Models of Human Disease</i> appears if relevant for this genotype. </li>
   <li>When available, images associated with this genotype appear in the top right corner. </li>
   <li>Each affected system (e.g., <i>nervous system</i>) identified by a check mark in the genotype column appears.</li>
   <li>Each system term with an abnormality assertion (e.g., <i>brain inflammation</i>) appears, linked to its term detail report in the Mammalian Phenotype Browser. </li>
   <li>Reference identifiers  (e.g., <i>J:120427</i>)  appear in parentheses next to the term, linked to the References report. </li>
  </ul></p>
-  <!--<p><b>Note:</b> You can access identical information by scrolling down to the <b>Phenotypic details by genotype</b> section on this detail report, clicking <b>show</b> to expand, following links, and  clicking <b>hide</b> to contract the data.</p> -->
-
-<A HREF="#top"><font size=-1>Top</font></A>
-
-<h3><a name="how_many"></a>How many new windows can I open?</h3>
-<p>As many as desired.</p>
-<p>Clicking any of the numbered genotypes opens a new window. <br><b>Note:</b> Each click will open a new window in front of your current browser window. <!--Subsequent (or all) clicks may open windows <i>behind</i> your current window.--></p>
 
 <A HREF="#top"><font size=-1>Top</font></A>
 
 <h3><a name="what_else"></a>What else is there to know about genotype windows?</h3>
 <ul>
-  <li>You can open as many windows as desired (there is one for every item in the  <b>Genotypes</b> row) for data comparisons.<br> <b>Note: </b>The windows have no "Back" button, so when you want them out of the way, you must close them.</li>
-  <li>You can resize the windows.<br> <b>Note:</b> When available, a table featuring mouse models of human diseases appears last in the display, so if this is your area of interest, be sure to expand (or scroll to the bottom of) genotype windows.</li>
+  <li>You can open as many windows as desired (there is one for every item in the  <b>Genotypes</b> row) for data comparisons.</li>
+  <li>When available, a table featuring mouse models of human diseases appears last in the display, so if this is your area of interest, be sure to expand (or scroll to the bottom of) genotype windows.</li>
   <li>You can follow <b>Affected system </b>links to the MGI Mammalian Phenotype Browser and see terms represented  within the context of phenotype ontology.<br> <b>Note:</b> This opens a new window.</li>
   <li>You can follow MGI J: numbers to MGI Reference reports to find the research that supports the annotations.<br> <b>Note:</b> This opens a new window.</li>
 </ul>
@@ -285,9 +279,8 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 <A HREF="#top"><font size=-1>Top</font></A>
 
 
-<h3><a name="how_do"></a>How do I get rid of extra windows, headers, or subsystem views?</h3>
+<h3><a name="how_do"></a>How do I get rid of extra headers, or subsystem views?</h3>
 <ul>
- <li>There is no Back button on the additional (genotype) windows. You must close them to get rid of them. </li>
  <li>Click <b>show</b> or <b>hide</b> to expand or collapse data views.</li>
  <li>Click &#9658; or &#9660; to open or close just one system. <b>Note:</b> Closing a system also hides the additional labels that appear.</li>
 </ul>
@@ -298,20 +291,6 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 <p>Only those systems with at least one annotation appear in the table.</p>
 <A HREF="#top"><font size=-1>Top</font></A>
 
-<!--<h3><a name="help"></a>Help! I've expanded subsystems, scrolled through data, and can't see the header row any more. I need a visual aid.</h3>
-
-<p>When you open a system (by clicking &#9658;), a tricolor bar appears beside the first subsystem on the expanded list. The bar is a toggle that inserts or removes a copy of the header row above that subsystem name. To use this visual aide:</p>
-<ul>
-  <li>Find a check mark in a column of interest.</li>
-  <li>Locate the affected system in the column on the right.</li>
-  <li>Click <b>show</b> to open the list. The tricolor bar appears.</li>
-  <li>Click the  bar. A header row identifying the color, abbreviation, and number of each genotype appears above the affected system.</li>
-  <li>Click the bar again to hide the additional copy of the header row.
-</ul>
-</p>
-
-<A HREF="#top"><font size=-1>Top</font></A>  -->
-
 <h3><a name="how_tell"></a>How can I tell, without opening every window, what alleles and strains are involved with all genotypes?</h3>
 <p>Scroll down to below the <b>Affected Systems</b> table and click the link to <b>View</b> phenotypes for all genotypes (concatenated display). All genotypes listed in the <b>Phenotypes</b> section appear, paired with their allelic composition and genetic background data. The view of the genotype data is vertical rather than horizontal (as in the <b>Affected Systems</b> table).</p>
 
@@ -321,6 +300,7 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 
 <p>Items in the <b>Affected Systems</b> list on the <b>Phenotypes</b> table are ordered alphabetically. </p>
 <p>For any annotated subterms beneath these systems, the order is weighted by importance as specified by MGI curators.</p>
+
 <A HREF="#top"><font size=-1>Top</font></A>
 
 <h3><a name="how_often"></a>How often are annotations added? </h3>
