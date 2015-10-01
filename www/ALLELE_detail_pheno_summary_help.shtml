@@ -252,7 +252,7 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
   	<ul>
   		<li>A link to the International Mouse Strain Resource (<a href="http://www.findmice.org/" target="_blank">IMSR</a>) where you can search for stocks available from multiple repositores</li>
   		<li>Links to stocks listed in the IMSR that contain any of the alleles or transgenes in this genotype, if available</li>
-  		<li> Links to stocks listed in the IMSR that contain any allele of the gene<li>
+  		<li>Links to stocks listed in the IMSR that contain any allele of the gene</li>
   	</ul>
   <li><i>Mouse Models of Human Disease</i> appears if relevant for this genotype. </li>
   <li>When available, images associated with this genotype appear in the top right corner. </li>
