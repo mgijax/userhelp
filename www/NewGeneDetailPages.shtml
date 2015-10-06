@@ -54,9 +54,9 @@ function openHelpWindow(helpFile){
 			<img src="images/Brca1References.png"
 			width="650px" height="17px" alt="Gene Detail page references for Brca1" style="padding:5px;" border="1" margins="5px"></a>
 		</td>
-		<td valign="top"><p>MGI Gene Detail pages have always provided links to all the information we have on the mouse gene. With this release, the Detail pages display more information and provide more ways to view subsets of data and access details. New graphical displays provide a synopsis of a gene’s functions, where it is expressed and the phenotypes of mutant alleles. The Gene Detail page for <a href="<!--#include file='include/fewi_url.html'-->marker/MGI:104537 "> <i>Brca1</i></a> is shown on the left.
+		<td valign="top"><p>MGI Gene Detail pages have always provided links to all the information we have on the mouse gene. With this release, the Detail pages display more information and provide more ways to view subsets of data and access details. New graphical displays provide a synopsis of a gene's functions, where it is expressed and the phenotypes of mutant alleles. The Gene Detail page for <a href="<!--#include file='include/fewi_url.html'-->marker/MGI:104537 "> <i>Brca1</i></a> is shown on the left.
 			<ol>
-			<li>Some sections of the Detail Page initially display only a summary. Use <img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif"> to expand the section to see more information and <img src="<!--#include file='include/webshare_url.html'-->images/downArrow.gif"> to collapse the view.</li>
+			<li>Some sections of the Detail Page initially display only a summary. Use <img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif"> to expand the section to see more information and <img src="<!--#include file='include/webshare_url.html'-->images/downArrow.gif"> to collapse the view. Sections will be absent when we have no data of of that type.</li>
 			<li>A new section, <b>Human Diseases</b>, provides a table of human diseases <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr> has associated with the human gene as well human diseases modeled in mice with mutations in the gene.</li>
 			<li>Grids now highlight gene function and phenotype annotations and expression data. 
 				<blockquote>
