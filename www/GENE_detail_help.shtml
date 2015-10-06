@@ -58,7 +58,7 @@ table { border-style: none; align: center
 </style>
 
 <h3><A NAME="field"></A>Which fields should show up on this report?</h3>
-<p>Depending on data availability and the marker type, this detail report contains information in some or all of the categories described in the table below. Some sections of the Detail Page initially display only a summary. Use <img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif"> to expand the section to see more information and <img src="<!--#include file='include/webshare_url.html'-->images/downArrow.gif"> to collapse the view. </p>
+<p>Depending on data availability and the marker type, this detail report contains information in some or all of the categories described in the table below. Some sections of the Detail Page initially display only a summary. Use <img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif"> to expand the section to see more information and <img src="<!--#include file='include/webshare_url.html'-->images/downArrow.gif"> to collapse the view. Sections will be absent when we have no data of of that type.</p>
 
 <p><table>
 <tr><td><font size="-1"><a href="#summary">Summary</a> | <a href="#maps">Locations & Maps</a> | <a href="#orthology">Homology</a> | <a href="#diseases">Human Diseases</a> | <a href="#alleles">Mutations, Alleles, And Phenotypes</a> | <a href="#GO_detail">Gene Ontology (GO) Classifications</a> | <a href="#expression_detail">Expression</a> | <a href="#interactions">Interactions</a> | <a href="#molecular_reagents">Molecular Reagents</a> | <a href="#other_database_links">Other Database Links</a> | <a href="#sequences">Sequences</a> | <a href="#polymorphisms">Polymorphisms</a> | <a href="#protein_domains_detail">Protein-related Information</a> | <a href="#references">References</a> | <a href="#other">Other Accession IDs</a></font></td>
@@ -180,7 +180,7 @@ dt { text-align: left; font-style: bold;
 <li>A <b>Phenotype Summary</b> of all alleles and annotations and counts of phenotypic allele categories of mutant alleles</li>
 <li><b>Phenotype Images</b>: links to the <i>Phenotype Images associated with this Gene</i> report with every phenotype image in MGI for the gene.</li>
 <li><b>Phenotype References</b>: links to a summary listing of all the references curated to alleles of the gene.</li>
-<li>A <b>Phenotype Overview</b> displays the highest-level terms from the Mammalian Phenotype (MP) Ontology and uses blue cells to mark those with phenotypic annotations to genotypes with alleles of the gene. Click on a blue cell to see the genotypes annotated to the term and the corresponding lower-level terms. You can find even more detail by then clicking on a genotype's blue cell. This will show curator notes and the appropriate reference. Darker blue cells on the genotype grid indicate more supporting evidence.</li>
+<li>A <b>Phenotype Overview</b> displays the highest-level terms from the Mammalian Phenotype (MP) Ontology and uses blue cells to mark those with phenotypic annotations to genotypes with alleles of the gene. Some high-level terms such as normal phenotype, other phenotype, and no phenotypic analysis aren't represented in this Overview but annotations to those terms and their subterms will be displayed in the Phenotype Summaries and Allele Detail pages. Click on a blue cell to see the genotypes annotated to the term and the corresponding lower-level terms. You can find even more detail by then clicking on a genotype's blue cell. This will show curator notes and the appropriate reference. Darker blue cells on the genotype grid indicate more supporting evidence.</li>
 <li>Counts of <i>All mutations and alleles</i> and phenotypic allele categories of mutant alleles. See <a href="ALLELE_phenotypic_categories_help.shtml#method" target="_blank">Selecting Phenotypic Allele Categories</a> for definitions of allele types. </li>
 <li>Incidental mutations with links to data from the mutagenesis projects. <a href="<!--#include file='include/fewi_url.html'-->glossary/incidental_mutations.shtml" target="_blank">Incidental mutations</a> have been detected via sequencing but have not yet been confirmed. They may or may not affect the phenotype. Click on one of the project links, such as Mutagenetix or APF (The Australian Phenomic Facility), to access the provider's data. Stocks can be ordered from the providers. See <a href="ALLELE_phenotypic_categories_help.shtml#collection" target="_blank">Selecting Phenotypic Allele Categories</a> for a list of mutagenesis projects.</li>
 <li>A short summary of phenotypes observed in mice with mutant alleles of the gene</li>
@@ -196,13 +196,13 @@ dt { text-align: left; font-style: bold;
 	<td>The Gene Expression Database (GXD) logo appears in the left hand column. Click on the logo for more information on GXD and its tools.
 <p>Depending on availability, some or all of the following information may appear:</p>
 <ul>
-<li>An <b>Expression Overview</b> is displayed when there is detailed data associated with the gene and the grid header in the database. The grid headers are derived from the EMAPA ontology used for expression annotations. 
+<li>The <b>Expression Overview</b> provides a high-level summary of expression data associated with the gene.  It is displayed when there are detailed data associated with the gene and the grid headers in the database. The grid headers are select EMAPA terms from early development and physiological/organ systems.   
 	<ul>
 	<li>The mouse over for grid cells reports the total number of annotations to that term or its substructures. Click on a grid cell to open a tissue x stage matrix in a new browser window. This matrix will display an overview of all the annotations to that header term and its children.</li>
-	<li>Note: There are some genes with detailed expression results which do not have an expression overview grid. This is because none of the expression annotations use terms that are either headers or their substructures.</li>
 	<li>Blue cells indicate there is at least one positive, wild type result annotated to the EMAPA header term (or its substructures).</li>
 	<li>A gray triangle indicates there are annotations associated with the term or its substructures in the database but that none of these results show expression in wild-type mice. Specifically, the expression level of these results is either absent/not specified/ambiguous and/or the results were derived from mutant specimens. [Note: for <i>in situ</i> reporter (knock in) assays, heterozygotic specimens carrying the reporter allele are considered wild type.]</li>
 	<li>White cells indicate no annotations of any kind to that header or its substructures.</li>
+	<li>Note: Note: There are some genes with detailed expression results which do not have an expression overview grid. This is because none of its expression annotations use terms that are among the headers or their substructures. This happens most frequently when few details are provided about the tissue analyzed and the curators use the highest level terms in EMAPA (embryo or mouse) for the annotations.</li>
 	</ul>
 <li><b>Data Summaries</b> - each number links to a summary report: 
 	<ul>
@@ -213,7 +213,7 @@ dt { text-align: left; font-style: bold;
     <li>Images - images associated with results; summary report displays thumbnails of any associated figures; links to full-size images</li>
     <li>Tissue x Stage Matrix - displays a grid with a spatio-temporal overview of the expression pattern of this gene.</li>
      </ul>
-<li><a href="<!--#include file='include/mgihome_url.html'-->/homepages/tabContents/GXD_Resources.shtml">Other Mouse links</a>: links to expression information for this marker in other databases: Allen Brain Atlas, <abbr title="Gene Expression Nervous System Atlas">GENSAT</abbr>, gene microarray profile pages at <abbr title="Gene Expression Omnibus">GEO</abbr>, and Expression Atlas at EBI.</li>
+<li><a href="<!--#include file='include/mgihome_url.html'-->/homepages/tabContents/GXD_Resources.shtml">Other Mouse links</a>: links to expression information for this marker in other databases: Allen Brain Atlas, <abbr title="Gene Expression Nervous System Atlas">GENSAT</abbr>, gene microarray profile pages at <abbr title="Gene Expression Omnibus">GEO</abbr>, and Expression Atlas at ArrayExpress.</li>
   <li><a href="<!--#include file='include/mgihome_url.html'-->/homepages/tabContents/GXD_Resources.shtml">Other Vertebrate links</a>: links to expression information for chicken homologs at <abbr title="Gallus Expression in Situ Hybridization Analysis">GEISHA</abbr>, frog homologs at Xenbase, and zebrafish homologs at <abbr title="Zebrafish Information Network">ZFIN</abbr>.</li>
 </ul>
 </td></tr>
@@ -304,9 +304,14 @@ MGI Representative Sequences provide users quick access to a single genomic, tra
 <TH ALIGN="left" VALIGN="top"><A NAME="other_database_links"></A>Other Database Links</TH>
 <TD VALIGN="top"><ul>
   <li>List of and links to external resources with database accession IDs associated to this marker, such as miRBase for miRNAs.</li>
- 
-</ul>
+ </ul>
 </TD>
+</TR>
+
+<TR>
+<TH ALIGN="left" VALIGN="top"><A NAME="other"></A>Other<BR>
+Accession IDs</TH>
+<TD VALIGN="top">List of any other MGI accession IDs associated with this marker.</TD>
 </TR>
 
 <TR>
@@ -320,11 +325,6 @@ MGI Representative Sequences provide users quick access to a single genomic, tra
 <LI>Details of the earliest and latest references, linked to their detail pages.</LI>
 
 References on the detail and summary pages include a J number (an MGI reference ID) and a short citation, linked to the full citation. Reference summaries provide text export and filtering capabilities. </TD>
-</TR>
-<TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="other"></A>Other<BR>
-Accession IDs</TH>
-<TD VALIGN="top">List of any other MGI accession IDs associated with this marker.</TD>
 </TR>
 </TABLE>
 
