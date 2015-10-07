@@ -122,7 +122,7 @@ dt { text-align: left; font-style: bold;
        <li>Genome coordinate range and strand, in base pairs (provider of genomic coordinates is indicated) </LI>
        <li>A thumbnail image link to the MGI Mouse Genome Browser display for the marker's coordinates. You can also click <b>MGI Mouse Genome Browser</b> for a full-page display.<br>
 <b>Note:</b>&nbsp;If the information you expect to see does not appear in the Mouse Genome Browser (or other browser) display, you may need to turn on (i.e., click) the viewing aides (i.e., tracks, features, maps) in the various displays.</li>
-       <li>a Get FASTA button will download the genomic sequence based on the coordinates. You can also add an equal amount of flanking sequence to each end.</li>
+       <li>a Get FASTA button will download the genomic sequence based on the coordinates in the current build, GRCm38. You can also add an equal amount of flanking sequence to each end.</li>
     	<li>External links to other genomic context displays (e.g., VEGA ContigView, Ensembl ContigView, UCSC Browser, NCBI Map Viewer)</li>
 		</ul>
 		</td>
