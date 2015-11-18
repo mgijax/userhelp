@@ -104,7 +104,7 @@ For more details, see the <a href="http://www.geneontology.org/GO.annotation.con
    </td>
   </tr>
   <tr><th align=left valign=top><a name="aspect"></a>Additional Term Context</th> 
-		<td>***Enhances the classification term by detailing the conditions or refining the tissue.</td></tr>
+		<td>***Adds value to the classification term by detailing the conditions or refining the tissue.</td></tr>
 <tr><th align=left valign=top><a name="evidence"></a>Evidence</th><td>Criteria that justify the annotation. GO evidence codes appearing on the MGI Gene Ontology Classifications and how they are used are listed below. For additional details, see the <A HREF="http://www.geneontology.org/GO.evidence.shtml" target="_blank">Guide to GO Evidence Codes</a> at the Gene Ontology web site.
 <blockquote>
 <table cellpadding="2" border="0">
