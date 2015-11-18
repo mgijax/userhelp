@@ -156,7 +156,7 @@ When the specimen's genotype involves a recombinase allele, the results of these
 
 <!-- <tr><th class="thleft"> <a name="allele_type"></a>Allele Type</th><td valign="top">Specific allele type; for example, Transgenic (Cre/Flp),  Targeted (knock-in). </td></tr> -->
 
-<tr><th class="thleft"> <a name="inducible"></a>Inducible</th> <td valign="top">Indicates whether or not  treatment (of mice carrying a cre allele) is required to activate recombinase activity. If <i>YES</i> appears, hover over the word to see a pop-up window containing a description of the inducing agent (e.g. tamoxifen). </td></tr>
+<tr><th class="thleft"> <a name="inducible"></a>Inducible</th> <td valign="top">If treatment (of mice carrying a cre allele) is required to activate recombinase activity, then the inducing agent (e.g. tamoxifen) is shown. </td></tr>
 
 <tr><th class="thleft"> <a name="find_mice"></a>Find Mice (IMSR)</th><td valign="top">Information about the availability of mouse strains and/or cell lines of this allele in the International Mouse Strain Resource (IMSR).</td></tr>
 
