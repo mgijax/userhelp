@@ -110,7 +110,7 @@ function openHelpWindow(helpFile){
 </tr>
 <tr>
 <th align="left" valign="top">BLAST SNP flanking sequence against the mouse Genome</th>
-<td valign="top">If you click GO to send this flanking sequence to MouseBLAST, it appears on a MouseBLAST Query submission form, configured to BLAST against the mouse genome assembly.</td>
+<td valign="top">If you click GO to send this flanking sequence to NCBI BLAST, it appears on an NCBI BLAST Query submission form, configured to BLAST against the mouse genome assembly.</td>
 </tr>
 </table>
 </td>

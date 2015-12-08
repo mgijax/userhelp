@@ -51,8 +51,8 @@ function openHelpWindow(helpFile){
  <tr>
   
       <td class="enhance">
-        <a href='<!--#include file='include/homepages_url.html'-->recombinase.shtml'
-        onclick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->recombinase.shtml');
+        <a href='<!--#include file='include/fewi_url.html'-->home/recombinase'
+        onclick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->home/recombinase');
         return false;">
         Recombinases</a>
       </td>

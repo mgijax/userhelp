@@ -78,9 +78,9 @@ function openHelpWindow(helpFile){
 <table cellpadding=4 border=1>
   <tr><th valign="Top">Field</th><th valign="top">Description</th></tr>
   	<!--<tr><th align=left valign=top><a name="symbol"></a>Symbol,Name</th> 
-  		<td>The official mouse marker symbol and name for which the Gene Ontology annotation has been applied.</td></tr>
-  	<tr><th align=left valign=top><a name="Chr"></a>Chr</th> 
-  		<td>The mouse Chromosome to which the marker has been mapped.</td></tr>-->
+  		<td>The official mouse marker symbol and name for which the Gene Ontology annotation has been applied.</td></tr>-->
+  	<tr><th align=left valign=top><a name="proteoform"></a>Proteoform</th> 
+  		<td>Isoforms of the protein. These may be different proteins of a gene derived by alternative splicing, alternative start site, modified protein forms, functional protein fragments and combinations of the above.</td></tr>
 	<tr><th align=left valign=top><a name="aspect"></a>Aspect</th> 
 		<td>One of three major groups into which all GO terms are organized: Molecular Function, Cellular Component, Biological Process.</td></tr>
 		<tr><th align=left valign=top><a name="category"></a>Category</th> 
@@ -103,7 +103,8 @@ function openHelpWindow(helpFile){
 For more details, see the <a href="http://www.geneontology.org/GO.annotation.conventions.shtml#qual" target="_blank">Gene Ontology Annotation Conventions</a> notes on qualifiers.
    </td>
   </tr>
-
+  <tr><th align=left valign=top><a name="aspect"></a>Additional Term Context</th> 
+		<td>***Adds value to the classification term by detailing the conditions or refining the tissue.</td></tr>
 <tr><th align=left valign=top><a name="evidence"></a>Evidence</th><td>Criteria that justify the annotation. GO evidence codes appearing on the MGI Gene Ontology Classifications and how they are used are listed below. For additional details, see the <A HREF="http://www.geneontology.org/GO.evidence.shtml" target="_blank">Guide to GO Evidence Codes</a> at the Gene Ontology web site.
 <blockquote>
 <table cellpadding="2" border="0">
