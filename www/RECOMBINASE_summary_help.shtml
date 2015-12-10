@@ -45,8 +45,9 @@ function openHelpWindow(helpFile){
   <li><a href="#manipulate">What are the ways of creating different views of the data on this page?</a></li>
 
   <LI><A HREF="#access">When does a Recombinase Alleles - Tissue Summary appear?</A></LI>
-<LI><A HREF="#contain">What should show up on this page?</A></LI>
+  <LI><A HREF="#contain">What should show up on this page?</A></LI>
   <LI><A HREF="#usage">How do I interpret the information on this page?</A></LI>
+  <li><a href="#crefilter">How do I filter my results?</a></li>
 <!--<li><a href="#no_result">How can I find recombinase data if the structure or driver is not listed on the Recombinase (cre) Activity search lists?</a></li>
 <li><a href="#nomenclature">Where can I find more information about recombinase-containing transgene and knock-in alleles?</a></li>-->
 </UL>
@@ -165,4 +166,8 @@ When the specimen's genotype involves a recombinase allele, the results of these
 
 <p class="space"></p>
 <A HREF="#top">Top</A><p>
+
+<h3><a name="crefilter"></a>How do I filter my results?</h3> 
+<a href="#top">Top</a><p>
+
 <!--#include file='include/templateBlankBodyStop.html'-->
