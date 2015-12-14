@@ -169,6 +169,7 @@ When the specimen's genotype involves a recombinase allele, the results of these
 
 <h3><a name="crefilter"></a>How do I filter my results?</h3> 
 <p>You can filter results by Driver, Inducer, Detected in System, or Not Detected in System. In the banner above your results, after Filter alleles by: click the desired box. This will reduce your results to only those containing the checked items.</p>
+<p>If you select more than one system in the <i>Detected in System</i> and <i>Not Detected in System</i> filters, the filtered results will display <i>any</i> result that contains one of the checked systems (the boolean <i>OR</i> result). The results between the different filters apply the boolean <i>AND</i>. For example, if you checked <i>liver and biliary system</i> and <i>renal and urinary system</i> for recombinase <i>Detected in System</i> and <i>endocrine system</i> and <i>hemolymphoid system</i> for recombinase <i> Not Detected in System</i>, this will return results where recombinase was detected in either <i>liver and biliary system</i> OR <i>renal and urinary system</i> AND also Not detected in either <i>endocrine system</i> OR <i>hemolymphoid system</i>.</p>
 
 <a href="#top">Top</a><p>
 
