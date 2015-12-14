@@ -168,6 +168,8 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <A HREF="#top">Top</A><p>
 
 <h3><a name="crefilter"></a>How do I filter my results?</h3> 
+<p>You can filter results by Driver, Inducer, Detected in System, or Not Detected in System. In the banner above your results, after Filter alleles by: click the desired box. This will reduce your results to only those containing the checked items.</p>
+
 <a href="#top">Top</a><p>
 
 <!--#include file='include/templateBlankBodyStop.html'-->
