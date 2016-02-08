@@ -42,14 +42,16 @@ function openHelpWindow(helpFile){
   <LI><A HREF="#seqattribute">How do I use this form to find SNPs?</A></LI>
  <li><a href="#specifics">Are there specific requirements for this form?</a></li>
  <li><a href="#date">How do I know which dbSNP build I'm querying against?</a></li>
-  <!--<LI><A HREF="#accession_id">How do I query using a SNP accession ID?</A></LI>-->
+ <LI><A HREF="#accession_id">How do I query using a SNP accession ID?</A></LI>
  <li><a href="#sasc">How do I use the strain and strain comparison lists (Available Strains, Selected Strains, Reference Strain)?</a></li>
  <li><a href="#reference">What is a reference strain?</a></li>
  <li><A href="#no_strain">Why isn't my strain on the Available Strains list?</A></li>
  <li><A href="#available_strain_sort">What determines the sort order on the Available Strains list?</A></li>
  <LI><A HREF="#field">What values are acceptable in the each of the query form fields?</A></LI>
  <li><A HREF="#location">If I enter a marker in the SNPs Located Near Genes field, do the query results include or exclude that marker?</A></LI>
+ <li><a href="#revise">Can I edit my original options and requery?</a></li>
  <li><A HREF="#include_QTL">Do SNPs Located Near Genes include QTLs in the summary results?</A></LI>
+ <li><a href="#multiple_loc">Are SNPs with multiple locations shown in my search results?</a></li>
  <li><A HREF="#include_QTL">Can I change the strain order in the query results?
  <li><A href="#results">How do I interpret query results?</A></li>
  <LI><A HREF="SNP_no_results_help.shtml" target="_blank">My query returned no results. Why?</A></LI>
@@ -75,7 +77,7 @@ function openHelpWindow(helpFile){
 <p>You can use the Mouse SNP Query Form to search for mouse single nucleotide polymorphisms represented in dbSNP (including IN-DELS), using some or all of these criteria:
 <UL>
 <LI>strains and strain comparisons</li> 
-<LI>dbSNP attributes (variation type and function class)</li>
+<!-- <LI>dbSNP attributes (variation type and function class)</li> -->
 <LI>mapped position of a marker</li>
 <li>marker range</li>
 <li>associated genes</li>
@@ -83,8 +85,8 @@ function openHelpWindow(helpFile){
 <b>Note:</b> The query searches for RefSNP consensus information, <b>not</b> submitted SNP assay information, and only RefSNP consensus information data are returned. See <a href="SNP_terms_help.shtml" target="_blank">SNP Terms and Concepts</a> for details about RefSNPs, submitted SNP assays, and consensus data.
 <!--
 <p>Strain queries consider the <A href="SNP_terms_help.shtml#strain_allele">rs consensus strain allele</a> set for each SNP (the union of the majority allele calls for each strain of a SNP). Only data from <a href="SNP_terms_help.shtml#SNP_assay">ss assays with strain/alleles</a> contribute to the rs consensus strain alleles and <a href="SNP_terms_help.shtml#variation_type">rs variation type</a>.</p>-->
-<P>The query retrieves the first 1000 (the default) SNPs that match your criteria. See <A HREF="#limit">Is there a limit on the number of SNPs that a query returns?</A> for more details. <B>Note:</B> The number of results in a query report is never more than the number indicated in <A HREF="#max_no">Maximum number of items returned</A>. Thus, if you want to ensure that you see every result, check the <i>no limit</i> box in the <a href="#sort">Output options</a> section.</P>
-<P>You can determine how your results are displayed.
+<!--<P>The query retrieves the first 1000 (the default) SNPs that match your criteria. See <A HREF="#limit">Is there a limit on the number of SNPs that a query returns?</A> for more details. <B>Note:</B> The number of results in a query report is never more than the number indicated in <A HREF="#max_no">Maximum number of items returned</A>. Thus, if you want to ensure that you see every result, check the <i>no limit</i> box in the <a href="#sort">Output options</a> section.</P>-->
+<P>You can modify how your results are displayed. See: ***
 </P>
 <A HREF="#top"<font size-"-1">Top</font></A>
 
@@ -95,7 +97,7 @@ function openHelpWindow(helpFile){
 
 
 <H3><A NAME="seqattribute"></A>How do I use this form to find SNPs?</A></H3>
-<P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in <A HREF="#field">What values are acceptable in the each of the query form fields?</A>. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help.shtml" target="_blank">Using MGI Query Forms</a> for additional information.
+<P>The form has two tabs. One for searching with gene symbols and strains and the other for searching with coordinates and strains. To search for detailed data using this query form, enter or select values in one or more of the query form fields described in <A HREF="#field">What values are acceptable in the each of the query form fields?</A>. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help.shtml" target="_blank">Using MGI Query Forms</a> for additional information.
 
  </UL>
  </p>
@@ -103,24 +105,22 @@ function openHelpWindow(helpFile){
 
 <h3><a name="specifics"></a>Are there specific requirements for using this form?</h3>
 <p>Yes. </p>
-<UL><li>You must choose, select, or enter a value for at least one of the following on the Mouse SNPs Query Form: <a href="#chromosome">Chromosome</a>, <a href="#marker_range">Marker range</a>, or Gene Symbol/Name</a>. 
-    <LI>You may choose values within the other sections to narrow your search: strains and strain comparisons, SNP attributes,  genome coordinates, and SNPs located near genes. Each value that you enter restricts the results returned.
-<LI>If you do not enter or select values in a given section, the search uses that section's  defaults. These defaults do not restrict or cancel values you set in other sections.
-</LI>
-  <LI>Select what to show in your results and an output option (Web, Excel, Tab-delimited, Tab-delimited to ftp site)
-<LI>Click <B>Search</B> to submit your query (or click <B>Reset</B> to clear the fields, return any default values, and start over).
+<UL><li>For both search tabs, you must have at least one strain checked.</li> 
+    <LI>You must choose values within the other sections to narrow your search for each tab: genome coordinates or SNPs located  in or near genes. Each value that you enter restricts the results returned.</LI>
+	<LI>Click <B>Search</B> to submit your query (or click <B>Reset</B> to clear the fields, return any default values, and start over).
 </UL>
-<P>The result is a Mouse SNPs Summary report listing all the SNPs found. The summary report opens a new browser window to facilitate the exchange between query parameters and results. </p>
+<P>The result is a Mouse SNPs Summary report listing all the SNPs found.  </p>
 
 <A HREF="#top"<font size-"-1">Top</font></A>
 
 
 <h3><a name="date"></a>How do I know which dbSNP build I'm querying against?</h3>
-<p>The dbSNP build number appears beneath the question mark, at the top of the Mouse SNP Query Form.</p>
+<p>The dbSNP build number appears at the top of the Mouse SNP Query Form.</p>
+
 <A HREF="#top"<font size-"-1">Top</font></A>
 
 
-<!--<h3><A name="accession_id"></A>How do I query using a SNP accession ID?</h3>
+<h3><A name="accession_id"></A>How do I query using a SNP accession ID?</h3>
 <p>The easiest way to query using a SNP accession ID is to:
 <ol>
   <li>Type or paste the SNP accession ID into the <b>Quick Search</b> box (top right on most MGI web pages).</li>
@@ -128,7 +128,7 @@ function openHelpWindow(helpFile){
  
 <li> If MGI contains this SNP accession ID, it appears on a Quick Search Results page. Click <b>SNP</b> to access the MGI SNP Detail page.  
 </li>
-</ol>-->
+</ol>
 
 <A HREF="#top"<font size-"-1">Top</font></A>
 <h3>How do I use the strain and strain comparison lists (Available Strains, Selected Strains, Reference Strain)?</h3>
@@ -149,23 +149,24 @@ function openHelpWindow(helpFile){
 </p>
 <A HREF="#top"<font size-"-1">Top</font></A>
 
-<h3><A name="no_strain"></a>Why isn't my strain on the Available Strains list?</h3>
-<p>The Available Strains list contains two sets of mouse strains: the first set consists of 23 of the most common inbred strains; the second set consists of any other mouse strains with strain allele data in dbSNP. Both sets are in alphanumeric order so if your strain does not show up on the first set, be sure to check the second set as well. If a strain does not appear in the second set, it is because the current dbSNP build does not contain strain allele data for it.
-<p><b>Note:</b> Once you've moved a strain from the Selected Strains list back to the Available Strains list, it is placed at the bottom, so be sure to check the entire list for your strain each time.
-</P><A HREF="#top"<font size-"-1">Top</font></A>
+<h3><A name="no_strain"></a>Why isn't my strain in the Strains list?</h3>
+<p>If the strain that interests you isn't listed, then there are no alleles for that strain in dbSNP. 
+</P>
+<A HREF="#top"<font size-"-1">Top</font></A>
 
-<H3><A NAME="available_strain_sort"></A>What determines the sort order on the Available Strains list?</H3>
-<ul>
-  <li>The Available Strains list contains 23 of the most common inbred strains in alphanumeric order.</li>
-  <li>Following the most common strains is another list, again in alphanumeric order, of all other mouse strains with strain allele data in dbSNP.</li>
- <li>Once you move a strain from the Selected Strains list back to the Available Strains list, it appears at the bottom of the list.
-</ul>
-</P><A HREF="#top"<font size-"-1">Top</font></A>
+<H3><A NAME="available_strain_sort"></A>What determines the sort order of the Strains?</H3>
+
+<p>The SNPs Involving these Strains list and the Reference Strain for Comparison list each contains 88 of the most common inbred strains in alphanumeric order.</p>
+ 
+
+<A HREF="#top"<font size-"-1">Top</font></A>
 
 
 <H3><A NAME="limit"></A>Is there a limit on the number of SNPs that a query returns?</H3>
-<P>No. The default is to return a maximum of 1000 SNPs. You can change the number in the box beside Maximum number of items returned (under <A HREF="#sort">Output options</A>) or you can click the <i>no limit</i> box. </P>
+
+<P>No. The query will return a paginated list of all SNPs that meet the search criteria.
 </P>
+
 <A HREF="#top"<font size-"-1">Top</font></A>
 
 <H3><A NAME="field"></A>What values are acceptable in each of the query form fields?</H3>
@@ -177,74 +178,38 @@ function openHelpWindow(helpFile){
 </ul>
 <p>When you do not select a strain (or strains) (i.e., by transfer to the Selected Strains box), the query behaves as if you selected <b>all</b> the strains in the <b>Available Strains</b> list and they appear in the results in that list.</p>
 <table width="!" cellpadding="2" class="nb" align="center">
-<tr align="center"><td><A HREF="#sasc">Strains and strain comparisons</A> | 
-<A HREF="#attributes">SNP attributes</A> | <A HREF="#map_position">Map position and marker range</A> | <A HREF="#associated_genes">Associated genes</A> | <A HREF="#sort">Output options</A></TD>
+<tr align="center"><td><A HREF="#sasc">Strains and Strain Comparisons</A> | <!-- <A HREF="#attributes">SNP attributes</A> | --> <A HREF="#map_position">Genome Region</A> | <A HREF="#associated_genes">Associated Genes</A> </TD>
  </TR>
  </TABLE>
 
  <TABLE BORDER="1" CELLPADDING="4">
    <TR><TH>Field </TH><TH>Description</TH></TR>
-   <TR><TD VALIGN="top"><B><a name="sasc"></a>Strains and strain comparisons</B></TD><TD VALIGN="top">Use this section to add strains from the <a name="available_strains"></a><b>Available Strains</b> list to the <a name="selected_strains"></a><b>Selected Strains</b> list, select a strain sort order (for the search results), determine a <a name="reference_strain"></a><b>reference strain</b> to return by comparison (if desired), and to determine the <a name="snps_returned"></a><b>SNPs Returned</b> (same as or different from the reference strain, or all SNPs). 
+   <TR><TD VALIGN="top"><B><a name="sasc"></a>Strains and Strain Comparisons</B></TD><TD VALIGN="top">Use this section to add strains from the <a name="available_strains"></a><b>Available Strains</b> list to the <a name="selected_strains"></a><b>Selected Strains</b> list, select a strain sort order (for the search results), determine a <a name="reference_strain"></a><b>reference strain</b> to return by comparison (if desired), and to determine the <a name="snps_returned"></a><b>SNPs Returned</b> (same as or different from the reference strain, or all SNPs). 
 
 <p>Default/disallowed</p>
 <ul>
-  <li>There is no default strain.</li>
+  <li>All strains are selected by default.</li>
+  <li>By default, no Reference Strain is selected. See: <a href="#reference">What is a reference strain?</a></li>
   <li>There are no disallowed combinations of strain and reference strain (except when they are the same). </li>
   <li>When you supply both a selected and a reference strain, the SNPs Returned default is to display all SNPs (both the same as and different from the reference strain allele).
-<li>If you do not select a strain, the default is to consider all strains for the query. Strains returned are sorted in their order of appearance in the Available Strains list.</li>
-<li>If you do not send a strain to a box, it is the same as choosing <b>All</b> strains. However, because there is a default limitation, not choosing means that a SNP is returned only if the RefSNP has allele values for rows with at least two strains.</li>
+<li>If you do not select a strain, the default is to consider all strains for the query. Strains returned are sorted in their order of appearance in the Strains list.</li>
 </ul>
 <p>Reference Strains</p>
 <ul>
   <li>If you select a reference strain, by default, the query returns only RefSNPs with an allele value for the reference strain.</li>
 <li>If you do not select a reference strain, the allele values of any selected strains are not compared against one another in the query results.</li> 
 </ul>
-<p>Activating selections</p>
-<ul>
-  <li>You must move the strain name from the list in the Available Strains box to the Selected Strains box to activate your selection. </li>
-  <li>The same is true if you select a reference stain (you must add this name to the Reference Strain box). </li>
-</ul>
-<p>To add strains to the Selected Strains list:
-     <ul>
-     <li>Click one or more items from the  Available Strains list. </li>
-     <li>Click the <b>Add</b> arrow beside the Selected Strain(s): box. The strain name moves out of the Available Strains box and into the Selected Strain(s) box.</li><br>
-   
-<b>Note:</b> If you move a strain from the Selected Strains list back to the Available Strains list, it moves to the bottom of that list.
-</ul>
 
-<p>To arrange strain comparison order in query results:</li>
-     <ul>
-      <li>Click any strain on the Selected Strains list.</li>
-      <li>Click the up or down arrow until the strain moves to the desired position on this list.</li>
-      </ul>
-      <p>To add a reference strain:
-    <ul>
-      <li>Click a single item on the Available Strains: list. </li>
-      <li>Click the Add arrow beside the Reference Strain box. The strain name moves from the Available Strains list to the Reference strain box. Note: only one choice is allowed.</li>
-     </ul>
-        <p>To remove a strain from the Selected Strain(s) box:
-   <ul>
-     <li>Highlight the strain name you wish to remove. </li>
-     <li>Click the Remove arrow beside the Selected Strain(s) box. <br><b>Note: </b>The strain name moves to the bottom of the Available Strains list.</li>
-   </ul>
-    <p>To remove a strain from the Reference Strain box:
-<ul>
-  <li>Click the Remove arrow below the Reference stain box. <br><b>Note:</b> The strain name moves to the bottom of the Available Strains list.</ul>
-  </ul>
-</p>
-<p>You can also set the results to return all SNPs relative to the reference strain allele, only those which are the same, or only those which are different. To do this, click the arrow beside <b>SNPs returned</b> and highlight your choice.
+<p>You can also set the results to return all SNPs relative to the reference strain allele (Not compared to the Reference Strain), only those which are the same, or only those which are different. 
 </p></TD></TR>
 
-   <TR><TH ALIGN="left" VALIGN="top"><A NAME="attributes"></a>SNP attributes</th><td valign="top">Use these boxes to determine the types and case of SNPs to return. To make selections, click one or more items on the lists.  The default is to return SNPs from <B>Any</B> type or class on the list. See <a name="variation_type"></a><a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">Variation Types</a> and <a name="function_class"></a><a href="SNP_terms_help.shtml#dbsnp_fc" target="_blank">Function Class</a> for additional details about list items on these lists.</td></tr>
+<!-- <TR><TH ALIGN="left" VALIGN="top"><A NAME="attributes"></a>SNP attributes</th><td valign="top">Use these boxes to determine the types and case of SNPs to return. To make selections, click one or more items on the lists.  The default is to return SNPs from <B>Any</B> type or class on the list. See <a name="variation_type"></a><a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">Variation Types</a> and <a name="function_class"></a><a href="SNP_terms_help.shtml#dbsnp_fc" target="_blank">Function Class</a> for additional details about list items on these lists.</td></tr> -->
     
 
-<TR><th align=left valign="top"><a name="map_position"></a>Map position</th>
-  <Td ALIGN="left" VALIGN="top">Use the map position parameters (<a name="chromosome"></a>Chromosome(s), <a name="genome_coordinates"></a></a>Genome Coordinates, <a name="cytogenetic_band"></a>Cytogenetic Band, <a name="marker_range"></a>Marker Range, and              <a name="cm_offset"></a>cM Position) to limit the scope of your query. <li>When using chromosome(s), you can also define genome coordinates, cytogenetic band, or cM position.</li> <li>You cannot combine genome coordinates, cytogenetic band, and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) &#151; except QTL(s) &#151; with coordinates.</li>
-
-See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fields on MGI Query Forms</a> for further details about entering values in these fields.</td>
+<TR><th align=left valign="top"><a name="map_position"></a>Genome Region</th>
+  <Td ALIGN="left" VALIGN="top">You must select a Chromosome and enter a range of genome coordinates (Examples: 125.618-125.622 Mbp; 1-125618205 bp; 125618205 - 999999999 bp) to use the Search by Region tab. You can toggle between bp and Mbp ranges.</td>
         </tr>
      
-
 <TR><Th align=left VALIGN="top"><A NAME="associated_genes"></A><nobr>Associated genes</B></Th><TD>Use these parameters to locate SNPs within or near genes/markers. </a> 
 
     <TABLE>
@@ -305,15 +270,42 @@ See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fi
 
 
 <h3><A name="location"></a>If I enter a marker in the SNPs Located Near Genes field, do the query results include or exclude that marker?</h3>
-<p>The SNPs Located near Genes function returns SNPs located within the specified distance/orientation of the marker or markers that match the Gene Symbol/Name query.
+<p>The SNPs Located near Genes function returns SNPs located within the specified distance/orientation of the marker or markers that match the Gene Symbol/Name query.</p>
 
-</P><A HREF="#top"<font size-"-1">Top</font></A>
-
-<h3><A name="include_QTL"></a>Do SNPs Located Near Genes include QTLs in the summary results?</h3>
-<p>No.  SNPs are never associated with markers of <i>type</i> QTL.</p>
 <A HREF="#top"<font size-"-1">Top</font></A>
 
+<h3><a name="revise"></a>Can I edit my original options and requery?</h3>
 
+<p>Yes, you can.</p>
+<ul><li>If you want to edit a list or change output options:</li>
+<ol>
+  <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. </li>
+  <li>Make your changes.</li>
+  <li>Click Search.</li>
+  <li>Repeat until the desired results appear.</li>
+</ol>
+</ul>
+
+<b>Notes:</b> 
+<ul>
+<li>You can requery as many times as you like.</li>
+<!--<li>If you had <a href="#filter">filtered</a> your search results, when you modify your search, the filters are automatically applied to your modified results.</li>-->
+<li>Alternatively, click Reset to return to the original Genes and Markers Query form. </li>
+</ul>
+</p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><A name="include_QTL"></a>Do SNPs Located Near Genes include QTLs in the summary results?</h3>
+<p>No.  SNPs are not associated with markers of <i>type</i> QTL.</p>
+
+<A HREF="#top"<font size-"-1">Top</font></A>
+
+<h3><a name="multiple_loc"</a>Are SNPs with multiple locations shown in my search results?</h3>
+
+<p>No. Some SNPs in dbSNP have more than one location. These are not returned by the search form but the locations for the SNP can be found on the SNP Detail page which you can reach by searching for the SNP ID in the Quick Search field at the top of most MGI web pages.</p>
+
+<a href="#top"><font size="-1">Top</font></a>
 
 <H3><A NAME="summary_sort"></A>Can I change the sort order of strains on the summary report?</H3>
 <p>Yes, you can use the arrows to move the strains up or down the Selected Strain(s) list. The order that remains once you click Search is the order in which they appear on the summary list. This can be useful when sorting SNP results by strains which share a common phenotype.
