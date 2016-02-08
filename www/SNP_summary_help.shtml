@@ -46,6 +46,8 @@ function openHelpWindow(helpFile){
 <LI><A HREF="#not_contain">Will QTLs show up in a Mouse SNP summary?</A></LI>
 <LI><A HREF="#usage">How do I use a Mouse SNP summary?</A></LI>
 <LI><A HREF="SNP_legend_help.shtml" target="_blank">How do I interpret the legend?</A></LI>
+<li><a href="#revise">Can I edit my original options and requery?</a></li>
+<li><a href="#tabfile">How do I retrieve my results as tab-delimited text or spreadsheet files?</a></li>
 <LI><A HREF="SNP_discrepancy_help.shtml" target="_blank">How does genome coordinate discrepancy affect my results?</A></LI>
 <LI><A HREF="SNP_no_results_help.shtml" target="_blank">My query returned no results. Why?</A></LI>
 <li><A href="#ftp">I got a summary report with a "Link to Results on FTP Site" message. What do I do now?</A></li>
@@ -89,8 +91,9 @@ function openHelpWindow(helpFile){
 </p>
 
  <h3><a name="date"></a>How can I tell which database build I'm querying against?</h3>
-<p>In the <b>Legend</b> section of the summary report:</p>
-<ul><li>The dbSNP build number appears (in parentheses) at the top of the SNP ID column.</li>
+<p>In the column headings of the summary report:</p>
+<ul>
+<li>The dbSNP build number appears (in parentheses) at the top of the SNP ID column.</li>
 <li>The NCBI build number appears (in parentheses) at the top of the Map Position column.</li>
 </ul>
 </p>
@@ -101,7 +104,6 @@ function openHelpWindow(helpFile){
 <uL>
 <LI>Select and view details about individual SNPs at dbSNP (NCBI) or MPD (Mouse Phenome Database) or on the MGI SNP Detail page.</LI>
 <li>Return to the query page and <UL>
-<LI>Increase or decrease the maximum number of items returned (for example, when the display limit is less than the number of matching SNPs found).</LI>
 <LI>Change the allele display mode (Same, Different, All).</LI>
 <LI>Add or change selected strains or the reference strain.</LI>
 <li>Change the marker range (genome coordinate discrepancies have a less severe effect on marker range searches when the distance between your flanking markers increases).
@@ -114,7 +116,32 @@ function openHelpWindow(helpFile){
 <h3>How do I interpret the legend?</h3>
 <p>Results are sorted by chromosome and then coordinate value. Chromosome transitions are marked by blank rows. See <A HREF="SNP_legend_help.shtml">Interpreting the MGI Mouse SNPs Legend</a> for details about the data appearing in the table columns and rows.</p>
 
+<h3><a name="revise"></a>Can I edit my original options and requery?</h3>
 
+<p>Yes, you can.</p>
+<ul><li>If you want to edit a list or change output options:</li>
+<ol>
+  <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. </li>
+  <li>Make your changes.</li>
+  <li>Click Search.</li>
+  <li>Repeat until the desired results appear.</li>
+</ol>
+</ul>
+
+<b>Notes:</b> 
+<ul>
+<li>You can requery as many times as you like.</li>
+<!--<li>If you had <a href="#filter">filtered</a> your search results, when you modify your search, the filters are automatically applied to your modified results.</li>-->
+<li>Alternatively, click Reset to return to the original Genes and Markers Query form. </li>
+</ul>
+</p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><a name="tabfile"></a>How do I retrieve my results as tab-delimited text or spreadsheet files?</h3>
+<p>In your search results, <!--at the right hand edge of the Filter assays bar,--> click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
+
+<font size="-1"> <a href="#top">Top</a></font>
 
 <h3><a name="discrepancy"></a>How does genome coordinate discrepancy affect my results?</h3>
 <p>When there is genome coordinate discrepancy, the summary section with links to associated genes from any returned coordinate regions does not appear.<!--When the discrepancy exists, a message indicating that the Associated Genes section is   temporarily disabled appears in the query summary report and you cannot click either the MGI Mouse Genome Browser or the MGI genes/markers links to view any returned coordinate ranges.--> This is because genome coordinates for mouse genes and markers in MGI are derived from the current NCBI mouse genome build but the coordinates for mouse SNPs are derived from an earlier NCBI mouse genome build (as, for example, when MGI genome coordinates are derived from NCBI build 34 but the dbSNP data references NCBI build 33).  See <A href="SNP_discrepancy_help.shtml" target="_blank">Understanding Mouse SNP Coordinate Discrepancies</a> for further information.

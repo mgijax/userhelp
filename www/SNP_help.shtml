@@ -238,35 +238,11 @@ function openHelpWindow(helpFile){
 </td></tr>
 </table></td></tr>
 
-<TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="sort"></A>Output options</TH><TD VALIGN="top">Use this field to limit/expand your search results and to choose what items to view in your SNP Summary report.
-<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="4">
-
-<TH VALIGN="top" ALIGN="left"><A NAME="max_no"></A>Maximum number of items returned</TH><TD>If you want to limit the number of SNPs returned, type in a number. The default is 1000. You can change this number to whatever you wish or you can click <i>No limit</i>. The intent of the default is not to speed the search by limiting the scope but rather to let you restrict (or expand) your results.</TD></TR>
-  <TR><TH ALIGN="left" VALIGN="top"><A NAME="show_results"></A>Show in results</TH><TD VALIGN="top">Choose from the following:
-<table border="0" cellpadding="4">
-<tr><th align="left" valign="top"><a name="display"></a>Allele Display Mode</th><td valign="top">Show labels: 'S' or 'D' (Same/Different as Reference Strain allele): When I select a Reference Strain, show whether the compared strain values are the same or different.</td></tr>
-<tr><th align="left" valign="top"><a name="restriction"></a>Strain Restriction</th><td valign="top">Include SNPs with alleles for any Selected Strains or the Reference Strain: Display SNPs with allele calls for any selected strains or any SNP with an allele call for the Reference Strain. 
-</td></tr>
-<tr><th align="left" valign="top"><a name="multiple_locations"></a>Multiple Locations</th><td valign="top">Include SNPs that map to multiple locations. (Note: Multiple locations means SNPs that map to two different locations on the same chromosome. SNPs that map to more than one chromosome and SNPs that map to the same chromosome in more than two locations are not loaded.)
-</td></tr>
-<tr><th align="left" valign="top"><a name="columns"></a><nobr>Columns to Show</th><td valign="top">Click to select. If an item is grayed-out, it means that it always appears in the results.</td></tr>
-
-
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="format"></A>Output format</TH><TD VALIGN="top">Choose from the list depending on how you wish to view the SNP Summary report columns you've selected.
-<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="4">
-<TR><TH ALIGN="left" VALIGN="top">Web (default)</TH><TD VALIGN="top">Web page with MGI toolbar and all the selected columns. </TD></TR>
-<TR><TH ALIGN="left" VALIGN="top">Excel</TH><TD VALIGN="top">Comma-delimited text in an Excel spreadsheet with a .csv extension.</TD></TR>
-<TR><TH ALIGN="left" VALIGN="top">Tab-delimited</TH><TD VALIGN="top">Tab-delimited text returned to your browser with all the selected fields.</TD></TR>
-<TR><TH ALIGN="left" VALIGN="top">Tab-delimited text to ftp site</TH><TD VALIGN="top">Tab-delimited text saved on our public FTP site available for 72 hours. Be sure to save the URL or print the page with the information for later access.  
-</TABLE>
-</TD>
- <tr><td colspan="2">If your query times out or you get an error message before it completes, <A HREF="<!--#include file='include/mgihome_url.html'-->/support/mgi_inbox.shtml" target="_blank">Contact User Support</A>.
-</td></tr>
 </TR></TABLE>
 </td></tr></table>
 </td></tr></table>
-</P><A HREF="#top"<font size-"-1">Top</font></A>
+</P>
+<A HREF="#top"<font size-"-1">Top</font></A>
 
 
 <h3><A name="location"></a>If I enter a marker in the SNPs Located Near Genes field, do the query results include or exclude that marker?</h3>
@@ -308,10 +284,9 @@ function openHelpWindow(helpFile){
 <a href="#top"><font size="-1">Top</font></a>
 
 <H3><A NAME="summary_sort"></A>Can I change the sort order of strains on the summary report?</H3>
-<p>Yes, you can use the arrows to move the strains up or down the Selected Strain(s) list. The order that remains once you click Search is the order in which they appear on the summary list. This can be useful when sorting SNP results by strains which share a common phenotype.
 
+<p>Yes. You can drag strain and other column headings at the top of the page to rearrange them. </p>
 
-<p>If you do not select a strain (or strains) or specify a sort order (in the Selected Strain(s) box on the query form), strains appear on the SNPs summary and detail reports in the original Available Strains order. Note, however, that if you move a strain from the Selected Strains or Reference Strain list back to the Available Strains list, it goes to the bottom of that list.</p>
 </P><A HREF="#top"<font size-"-1">Top</font></A>
 
 <H3><A NAME="results"></A>How do I interpret SNP query results?</H3>
