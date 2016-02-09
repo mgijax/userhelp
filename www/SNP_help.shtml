@@ -188,10 +188,9 @@ function openHelpWindow(helpFile){
 
     <TABLE>
       <TR><TH ALIGN="left" VALIGN="top"><A NAME="marker_name"></A>Gene Symbol/Name</A></TH>
-<TD><uL>
-  <LI>Pick an <A HREF="operators.shtml">operator</A> from the selection list. The default is <I>equals</I>.</LI>
-
-<li>Enter the mouse gene symbol/name/synonym. <b>Note:</b> If the symbol/name or synonym contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
+<TD>
+ <uL>
+  <li>Enter the mouse gene symbol/name/synonym. <b>Note:</b> *** [current symbols only?] If the symbol/name or synonym contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
   <LI>Use the default search (current symbols &#151; no search of names or synonyms) or make another choice from the selection list: current symbols/names &#151; no search of synonyms or current symbols/names, synonyms and homologs.</LI>
  </uL>
 </TD></TR>

@@ -58,8 +58,8 @@ function openHelpWindow(helpFile){
 <p>The Mouse RefSNPs Detail provides comprehensive information about each RefSNP including the reference flanking sequence, assays that comprise the SNP, gene/marker associations with their corresponding function class annotations, and links to popular gene browsers such as the MGI Mouse Genome Browser and its transcript, gene model, and MGI-curated phenotype and allele tracks.</p>
 <p><b>Note:</b>&nbsp;If the information you expect to see does not appear in the Mouse Genome Browser (or other browser) display, you may need to turn on (i.e., click) the viewing aides (i.e., tracks, features, maps) in the various displays.</p>
 <P><table width="!" cellpadding="2" align="center" class="nb">
-<tr align="center"><td align="center"><a href="#id">ID/version</a> | <a href="#additional_resources">Additional resources</a> |<a href="#variation">Variation</a> | <a href="#genome_location">Genome location & flanking sequence</a> | 
-<a href="#snp_assays">SNP assays& RefSNP consensus</a> | <a href="#gene_marker">Gene/Marker associations& Function Classes</a></td>
+<tr align="center"><td align="center"><a href="#id">ID/version</a> | <a href="#additional_resources">Additional resources</a> |<a href="#variation">Variation</a> | <a href="#genome_location">Genome Location & Flanking Sequence</a> | 
+<a href="#snp_assays">SNP Assays & SNP Consensus</a> | <a href="#gene_marker">Gene/Marker Associations & Function Classes</a></td>
 </tr>
 </table>
 </p>
@@ -68,32 +68,25 @@ function openHelpWindow(helpFile){
 <th>FIELD</th>
 <th>DESCRIPTION</th>
 </tr>
+<tr><th><a name="summary"></a>Summary</th>
+	<td><table>
+		<tr><th>ID</th>
+		  <td>The RefSNP identifier appears on the left. The name of the provider (dbSNP) is beside the ID, linked to the rs detail page at the dbSNP web site.</td></tr>
+		<tr><th>Variation Type</th>
+		  <td>rs consensus variation type (calculated by MGI).</td></tr>
+		<tr><th>Alleles</th>
+		  <td> The union of all ss-level allele values for a RefSNP, considering only ss assays that have defined strain/alleles. (Calculated by MGI).</td></tr>
+	    <tr><th>Created in dbSNP Build</th>
+	      <td>The first dbSNP build to include this SNP</td></tr>
+	    <tr><th>Last Updated in dbSNP Build</th>
+	      <td>The most recent dbSNP build with an update for this SNP</td></tr>
+	    <tr><th>Additional Resources</th>
+	      <td>Names of and links to additional SNP information and genome browsers: Mouse Phenome Database (MPD), the MGI Mouse Genome Browser, Ensembl SNPView, UCSC Browser, and the NCBI Map Viewer.</td></tr>
+	</td>
+	</tr>
+	</table>
 <tr>
-<th align="left" valign="top"><a name="id"></a>ID/Version</th>
-<td>The RefSNP identifier appears on the left. The name of the provider (dbSNP) is beside the ID, linked to the rs detail page at the dbSNP web site. On the right are build creation and update information from this provider.</td>
-</tr>
-<tr>
-<th align="left" valign="top"><a name="additional_resources"></a>Additional Resources</th>
-<td>Names of and links to additional SNP information and genome browsers: Mouse Phenome Database (MPD), the MGI Mouse Genome Browser, Ensembl SNPView, UCSC Browser, and the NCBI Map Viewer.</td>
-</tr>
-<tr>
-<th align="left" valign="top"><a name="variation"></a>Variation</th>
-<td valign="top">The following, calculated from all ss assays with strain/alleles:
-<table border="1" cellpadding="4">
-<tr>
-<th align="left" valign="top">Type:</th>
-<td valign="top">rs consensus variation type (calculated by MGI).</td>
-</tr>
-<tr>
-<th align="left" valign="top">Alleles:</th>
-<td valign="top">The union of all ss-level allele values for a RefSNP, considering only ss assays that have defined strain/alleles. (Calculated by MGI).</td>
-</tr>
-
-</table>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top"><a name="genome_location"></a>Genome location and flanking sequence</th>
+<th align="left" valign="top"><a name="genome_location"></a>Genome Location and Flanking Sequence</th>
 <td valign="top">
 <table border="1" cellpadding="4">
 <tr>
@@ -101,11 +94,11 @@ function openHelpWindow(helpFile){
 <td valign="top">Map position (RefSNPs may have multiple positions): chromosome, coordinate (in base pairs). In parentheses, the NCBI sequence build number.</td>
 </tr>
 <tr>
-<th align="left" valign="top">SNP orientation to the genome:</th>
+<th align="left" valign="top">SNP Orientation to the Genome:</th>
 <td valign="top">Forward or reverse: orientation of the rs flanking sequence relative to the mouse genome sequence.</td>
 </tr>
 <tr>
-<th align="left" valign="top">SNP reference flanking sequence:</th>
+<th align="left" valign="top">SNP Reference Flanking Sequence:</th>
 <td valign="top">Display of 5' and 3' flanking sequence configured relative to the polymorphism position. IUPAC nucleotide ambiguity codes represent the polymorphism; these codes are calculated from the SNP Allele Summary (where only strain/alleles are considered).</td>
 </tr>
 <tr>
@@ -116,7 +109,7 @@ function openHelpWindow(helpFile){
 </td>
 </tr>
 <tr>
-<th align="left" valign="top"><a name="snp_assays"></a>SNP assays and RefSNP consensus</th>
+<th align="left" valign="top"><a name="snp_assays"></a>SNP Assays and SNP Consensus</th>
 <td align="left" valign="top">Strain alleles of submitted assays and consensus values for this RefSNP; ss assays with strain alleles appear separately from ss assays without strain alleles. The ss assays without strain alleles have no Population column and have an allele summary rather than a list of strains. See <a href="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Legend</a> for additional details about RefSNPs versus submitted SNPs, dbSNP and MGI function classes, variation types, rs and ss orientation, strain alleles and allele value conflict information, and SNP assay IDs.
 <table border="1" cellspacing="1" cellpadding="3">
 <tr>
@@ -158,7 +151,7 @@ function openHelpWindow(helpFile){
 </table>
 </td>
 </tr>
-<tr><th align="left" valign="top">Gene/Marker associations and Function Classes</th>
+<tr><th align="left" valign="top">Gene/Marker Associations and Function Classes</th>
 <td valign="top">Data about any MGI genes and markers associated with the RefSNP.
   <table border="1" cellspacing="1" cellpadding="3">
   <tr>
