@@ -48,14 +48,20 @@ function openHelpWindow(helpFile){
 <table border="1" cellspacing="1" cellpadding="3" width="100%">
   
 <tr><th valign="top">Field</th><th valign="top">Possible reason for no result</th><th valign="top">Resource suggestion</th></tr>
-<tr><td valign="top"><b>Variation Type</b></td><td valign="top">Some variation types (such as MNP and Named) are very rare in dbSNP. There may be no SNPs of these types in the chromosomal region you selected.</td><td valign="top">Select ANY (the default) under Variation Type. See <a href="SNP_legend_help.shtml">Interpreting the MGI Mouse SNPs Legend</a> for a description of dbSNP variation types and other SNP information.</td></tr>
-<tr><td valign="top" rowspan="2"><b>Gene Symbol/Name</b></td><td valign="top">The default action is to search for exact gene symbol matches.</td><td valign="top"><ul>
+<tr><td valign="top" rowspan="2"><b>Associated Genes</b></td>
+<td valign="top">The default action is to search for official gene symbol matches.</td><td valign="top"><ul>
  <li>Use the MGI 
-<a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a> to find official marker/gene symbols or ...</li><li>Choose an operator other than = (equals) to broaden your search or ...</li><li>Choose current symbols/names & synonyms rather than the default (current & old symbols/names, synonyms, alleles, orthologs) (click the down-arrow beneath <i>search in</i>).</li></td></tr>
+<a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a> to find official marker/gene symbols or ...</li>
+<li>Choose an operator other than = (equals) to broaden your search or ...</li>
+<li>Choose Current symbols/names, synonyms & homologs rather than the default (current symbols) (click the down-arrow).</li></td></tr>
 <tr><td valign="top">There may be SNPs that map close to your gene of interest but that are not in the transcribed region.</td><td valign="top">Try using the <b>SNPs Located Near Genes</b> section of the query form. Pick a range to find SNPs within a specified distance from your gene and select upstream, downstream or either.</ul></td></tr>
 
-<tr><td valign="top"><b>Marker Range</b></td><td valign="top">You must enter exact official marker/gene symbols and the markers/genes must be on the same chromosome.</td><td valign="top">Use the MGI <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF" target="_blank">Genes and Markers Query Form</a>  to find official marker/gene symbols.</ul></td></tr>
-
+<tr><td valign="top"><b>Genome Region</b></td><td valign="top">***You must enter exact official marker/gene symbols and the markers/genes must be on the same chromosome.</td>
+<td valign="top">Use the MGI <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF" target="_blank">Genes and Markers Query Form</a>  to find official marker/gene symbols.</ul></td></tr>
+<tr><td><b>Strains and Strain Comparisons</b></td>
+    <td>***</td>
+    <td>***</td>
+</tr>
 </table>
 </p>
 
