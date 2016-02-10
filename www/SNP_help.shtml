@@ -45,7 +45,7 @@ function openHelpWindow(helpFile){
  <LI><A HREF="#accession_id">How do I query using a SNP accession ID?</A></LI>
  <li><a href="#sasc">How do I use the strain and strain comparison lists (Available Strains, Selected Strains, Reference Strain)?</a></li>
  <li><a href="#reference">What is a reference strain?</a></li>
- <li><A href="#no_strain">Why isn't my strain on the Available Strains list?</A></li>
+ <li><A href="#no_strain">Why isn't my strain on the Strains lists?</A></li>
  <li><A href="#available_strain_sort">What determines the sort order on the Available Strains list?</A></li>
  <LI><A HREF="#field">What values are acceptable in the each of the query form fields?</A></LI>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
@@ -148,7 +148,7 @@ function openHelpWindow(helpFile){
 </p>
 <A HREF="#top"<font size-"-1">Top</font></A>
 
-<h3><A name="no_strain"></a>Why isn't my strain in the Strains list?</h3>
+<h3><A name="no_strain"></a>Why isn't my strain in the Strains lists?</h3>
 <p>If the strain that interests you isn't listed, then there are no alleles for that strain in dbSNP. 
 </P>
 <A HREF="#top"<font size-"-1">Top</font></A>
