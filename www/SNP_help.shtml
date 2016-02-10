@@ -48,7 +48,6 @@ function openHelpWindow(helpFile){
  <li><A href="#no_strain">Why isn't my strain on the Available Strains list?</A></li>
  <li><A href="#available_strain_sort">What determines the sort order on the Available Strains list?</A></li>
  <LI><A HREF="#field">What values are acceptable in the each of the query form fields?</A></LI>
- <li><A HREF="#location">If I enter a marker in the SNPs Located Near Genes field, do the query results include or exclude that marker?</A></LI>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
  <li><A HREF="#include_QTL">Do SNPs Located Near Genes include QTLs in the summary results?</A></LI>
  <li><a href="#multiple_loc">Are SNPs with multiple locations shown in my search results?</a></li>
@@ -193,12 +192,9 @@ function openHelpWindow(helpFile){
   <LI>Use the default search (current symbols &#151; no search of names or synonyms) or make another choice from the selection list: current symbols/names &#151; no search of synonyms or current symbols/names, synonyms and homologs.</LI>
  </uL>
 </TD></TR>
-<TR><TH ALIGN="left" VALIGN="top">SNPs Located Near Genes</TH><TD>
-<ol>
-  <li>Click <i>within coordinates of</i> and select one item from the list of distances.</li>
-  <li>Click <i>upstream, downstream</i> or <i>either</i>.<br>
-</li>
-</ol>
+<TR><TH ALIGN="left" VALIGN="top">SNPs Located Near Genes</TH>
+<TD>When searching by gene symbol, SNPs within 2 kb of the gene(s) are returned by default. You can choose to limit your search to just within the gene(s) or to expand the range to within 10 kb of the gene(s).
+<br>
 <b>Note:</b> For microsatellite markers that are not transcribed (e.g., MIT markers), <i>strands</i> have an arbitrary definition of <i>+</i>. Selecting <i>upstream</i> returns SNPs with higher coordinate values than the microsatellite value. Selecting <i>downstream</i> returns SNPs with lower coordinate values.
 <p>The SNPs Located near Genes function returns SNPs located within the specified distance/orientation of the marker or markers that match the Gene Symbol/Name query.
 <ul>
@@ -242,11 +238,6 @@ function openHelpWindow(helpFile){
 </P>
 <A HREF="#top"<font size-"-1">Top</font></A>
 
-
-<h3><A name="location"></a>If I enter a marker in the SNPs Located Near Genes field, do the query results include or exclude that marker?</h3>
-<p>The SNPs Located near Genes function returns SNPs located within the specified distance/orientation of the marker or markers that match the Gene Symbol/Name query.</p>
-
-<A HREF="#top"<font size-"-1">Top</font></A>
 
 <h3><a name="revise"></a>Can I edit my original options and requery?</h3>
 
