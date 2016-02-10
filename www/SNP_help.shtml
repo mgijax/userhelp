@@ -131,8 +131,8 @@ function openHelpWindow(helpFile){
 </ol>
 
 <A HREF="#top"<font size-"-1">Top</font></A>
-<h3>How do I use the strain and strain comparison lists (Available Strains, Selected Strains, Reference Strain)?</h3>
-<p>See <a href="#sasc">Strains and strain comparisons</a>.
+<h3>How do I use the Strains and Strain Comparison lists?</h3>
+<p>See <a href="#sasc">Strains and Strain Comparisons</a>.
 </p>
 <A HREF="#top"<font size-"-1">Top</font></A>
 
@@ -172,11 +172,10 @@ function openHelpWindow(helpFile){
 <H3><A NAME="field"></A>What values are acceptable in each of the query form fields?</H3>
 <p>You must select or type a value for at least one of the following:
 <ul>
-  <li>Chromosome </li>
-  <li>Marker range </li>
-  <li>Gene Symbol/Name </li>
+  <li>Gene Symbol/Name in the Search by Gene tab</li>
+  <li>Chromosome and Genome Coordinates in the Search by Region tab.</li>
 </ul>
-<p>When you do not select a strain (or strains) (i.e., by transfer to the Selected Strains box), the query behaves as if you selected <b>all</b> the strains in the <b>Available Strains</b> list and they appear in the results in that list.</p>
+<p>You must have at least one strain checked in the Find SNPs Involving these Strains section for either search tab.</p>
 <table width="!" cellpadding="2" class="nb" align="center">
 <tr align="center"><td><A HREF="#sasc">Strains and Strain Comparisons</A> | <!-- <A HREF="#attributes">SNP attributes</A> | --> <A HREF="#map_position">Genome Region</A> | <A HREF="#associated_genes">Associated Genes</A> </TD>
  </TR>
