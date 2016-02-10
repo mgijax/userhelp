@@ -139,11 +139,11 @@ function openHelpWindow(helpFile){
 <h3><a name="reference"></a>What is a reference strain?</h3>
 <p>A reference strain is the comparison strain to use for determining whether the <b>SNPs Returned</b> are the <i>same as</i> or <i>different from</i> your selected strain. 
 <ul>
-  <li>The Reference Strain box can accept only one strain. </li>
-  <li>If you select a reference stain and later move it back to the Available Strains list (using the arrow), it goes to the bottom of that list.</li>
-  <li>If you add a reference strain but do not put anything in the Selected Strains box, all remaining strains are considered as selected strains and compared against the reference strain.</li>
-<li>If you select a reference strain, by default, the query returns only RefSNPs with an allele value for that strain.</li>
-</li>
+  <li>The Reference Strain selection list can accept only one strain. </li>
+  <li>If you add a reference strain you must also have at least one strain checked in the Find SNPs Involving these Strains section.</li>
+  <li>If you select a reference strain, by default, the query returns only RefSNPs with an allele value for that strain.</li>
+  <li>You can choose to return only SNPs that are different or the same as your reference strain.</li>
+  <li>By default, the reference strain is the first strain listed in your results.</li>
 </ul>
 <p>See <a href="#sasc">Strains and strain comparisons</a> for additional details.</p>
 </p>
