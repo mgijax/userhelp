@@ -74,24 +74,25 @@ function openHelpWindow(helpFile){
 <ul>
   <li>gene/marker attributes
 	<ul>
-	  <li>nomenclature</li>
+	  <li>gene nomenclature. including synonyms and vertebrate homologs</li>
 	  <li>genome location</li>
 	  <li>Ensembl IDs</li>
 	  <li>Entrez Gene IDs</li>
-	   <li>VEGA IDs</li>
+	  <li>VEGA IDs</li>
 	</ul>
   <li>annotations 
 	<ul>
-	  <li>gene ontology terms</li>
-	  <li>mammalian phenotype terms</li>
-	  <li>gene expression tissue/assay data</li>
+	  <li>gene ontology (GO) terms </li>
+	  <li>mammalian phenotype (MP) terms</li>
+	  <li>human disease (OMIM) terms</li>
 	  <li>MGI allele IDs</li>
-  	  <li>GenBank IDs</li>
-  	  <li>RefSeq IDs</li>
-	  <li>RefSNP IDs</li>
-	   <li>UniProt IDs</li>
+	  <li>gene expression tissue/assay data</li>
+	  <li>GenBank/RefSeq IDs</li>
+  	  <li>RefSNP IDs</li>
+	  <li>UniProt IDs</li>
+	</ul>
 </ul>
-</ul>
+
 <p>Future versions may include additional options.</p>
 
 <a href="#top"><font size="-1">Top</font></a>
@@ -194,18 +195,13 @@ The following are additional types (not listed on the pulldown menu), followed b
 
 <table border="1" cellpadding="4" width="!">
 <tr><th valign="top">Input identifier type</th><th valign="top">Representative example</th></tr>
-<tr><td valign="top">BayGenomics</td><td valign="top">LST083</td></tr>
-<tr><td valign="top">DoTS<br>(Database Of Transcribed Sequences)</td><td valign="top">DT.529646</td></tr>
-<tr><td valign="top">DCFI <br>(Dana-Farber Cancer Institute)</td><td valign="top">TC1572427</td></tr>
+<!--<tr><td valign="top">BayGenomics</td><td valign="top">LST083</td></tr>-->
 <tr><td valign="top">EC <br>(Enzyme Commission)</td><td valign="top">2.7.10.1</td></tr>
-<tr><td valign="top">FHCRC<BR>(Fred Hutchinson Cancer Research Center)</td><td valign="top">FHCRC-GT-S15-11C1</td></tr>
 <tr><td valign="top">Homologene</td><td valign="top">20151</td></tr>
-<tr><td valign="top">Lexicon</td><td valign="top">OST128284</td></tr>
+<!--<tr><td valign="top">Lexicon</td><td valign="top">OST128284</td></tr>-->
 <tr><td valign="top">NIA Mouse Gene Index</td><td valign="top">U167412</td></tr>
-
 <tr><td valign="top">PDB<br>(Protein Data Bank)</td><td valign="top">1HU8</td></tr>
-<!--<tr><td valign="top">TIGEM<br>(Telethon Institute of Genetics and Medicine)</td><td valign="top">GC0196</td></tr>
-<tr><td valign="top">TreeFam</td><td valign="top">TF320146</td></tr>-->
+<!--<tr><td valign="top">TreeFam</td><td valign="top">TF320146</td></tr>-->
 </table>
 </blockquote></li>
 </ul>
