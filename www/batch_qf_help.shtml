@@ -67,7 +67,7 @@ function openHelpWindow(helpFile){
 <ul>
   <li>gene/marker attributes
 	<ul>
-	  <li>nomenclature</li>
+	  <li>gene nomenclature. including synonyms and vertebrate homologs</li>
 	  <li>genome location</li>
 	  <li>Ensembl IDs</li>
 	  <li>Entrez Gene IDs</li>
