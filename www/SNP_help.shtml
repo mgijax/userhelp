@@ -51,8 +51,10 @@ function openHelpWindow(helpFile){
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
  <li><A HREF="#include_QTL">Do SNPs Located Near Genes include QTLs in the summary results?</A></LI>
  <li><a href="#multiple_loc">Are SNPs with multiple locations shown in my search results?</a></li>
- <li><A HREF="#include_QTL">Can I change the strain order in the query results?
  <li><A href="#results">How do I interpret query results?</A></li>
+ <li><A HREF="#summary_sort">Can I change the strain order in the query results?</A></li>
+ <li><a href="#snpfilter">How do I filter my results?</a></li>
+ <li><a href="#tabfile">How do I retrieve my results as a tab-delimited text file?</a></li>
  <LI><A HREF="SNP_no_results_help.shtml" target="_blank">My query returned no results. Why?</A></LI>
 <!--<A HREF="#example">Are there any sample queries?</A></LI>-->
 
@@ -78,10 +80,10 @@ function openHelpWindow(helpFile){
 <LI>strains and strain comparisons</li> 
 <!-- <LI>dbSNP attributes (variation type and function class)</li> -->
 <LI>mapped position of a marker</li>
-<li>marker range</li>
+<li>genomic region</li>
 <li>associated genes</li>
 </UL>
-<b>Note:</b> The query searches for RefSNP consensus information, <b>not</b> submitted SNP assay information, and only RefSNP consensus information data are returned. See <a href="SNP_terms_help.shtml" target="_blank">SNP Terms and Concepts</a> for details about RefSNPs, submitted SNP assays, and consensus data.
+<p><b>Note:</b> The query searches for RefSNP consensus information, <b>not</b> submitted SNP assay information, and only RefSNP consensus information data are returned. See <a href="SNP_terms_help.shtml" target="_blank">SNP Terms and Concepts</a> for details about RefSNPs, submitted SNP assays, and consensus data.</p>
 <!--
 <p>Strain queries consider the <A href="SNP_terms_help.shtml#strain_allele">rs consensus strain allele</a> set for each SNP (the union of the majority allele calls for each strain of a SNP). Only data from <a href="SNP_terms_help.shtml#SNP_assay">ss assays with strain/alleles</a> contribute to the rs consensus strain alleles and <a href="SNP_terms_help.shtml#variation_type">rs variation type</a>.</p>-->
 <!--<P>The query retrieves the first 1000 (the default) SNPs that match your criteria. See <A HREF="#limit">Is there a limit on the number of SNPs that a query returns?</A> for more details. <B>Note:</B> The number of results in a query report is never more than the number indicated in <A HREF="#max_no">Maximum number of items returned</A>. Thus, if you want to ensure that you see every result, check the <i>no limit</i> box in the <a href="#sort">Output options</a> section.</P>-->
@@ -272,12 +274,6 @@ function openHelpWindow(helpFile){
 
 <a href="#top"><font size="-1">Top</font></a>
 
-<H3><A NAME="summary_sort"></A>Can I change the sort order of strains on the summary report?</H3>
-
-<p>Yes. You can drag strain and other column headings at the top of the page to rearrange them. </p>
-
-</P><A HREF="#top"<font size-"-1">Top</font></A>
-
 <H3><A NAME="results"></A>How do I interpret SNP query results?</H3>
 <p>
 <ul>
@@ -285,8 +281,25 @@ function openHelpWindow(helpFile){
   <li>See <a href="SNP_detail_help.shtml" target="_blank">Interpreting SNP Details</a> for this information.</li>
 </ul>
 </p>
+
 <A HREF="#top"<font size-"-1">Top</font></A>
 
+
+<H3><A NAME="summary_sort"></A>Can I change the strain order in the query results?</H3>
+
+<p>Yes. You can drag strain and other column headings at the top of the page to rearrange them. </p>
+
+<A HREF="#top"<font size-"-1">Top</font></A>
+
+<h3><a name="snpfilter"></a>How do I filter my results?</h3>
+<p>You can filter results by dbSNP Function Class. Function Classes are assigned by dbSNP. Click <a href="SNP_legend_help.shtml#dbSNP_classes" target="_blank">here</a> for a description of the dbSNP Function Classes. Click the "Filter SNPs by: dbSNP Function Class" button above your results and check the classes you wish to retain after filtering. If you have reordered columns, filtering will reset to the original order. </p> 
+
+<font size="-1"> <a href="#top">Top</a></font>
+
+<h3><a name="tabfile"></a>How do I retrieve my results as a tab-delimited text file?</h3>
+<p>In your search results, click on the SNPs to Text File icon. Your web browser will download a file of the results that remain after any filtering you may have performed.</p>
+
+<font size="-1"> <a href="#top">Top</a></font>
 
  <H3>My query returned no results. Why? </H3>
 <P>See <A HREF="SNP_no_results_help.shtml" target="_blank">My SNP query returned no results. Why? </A> for help reformulating a Mouse SNP query.</P>
