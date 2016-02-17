@@ -183,7 +183,7 @@ The following are representative examples for each type listed on the pulldown m
 <tr><td valign="top">UniProt ID</td><td valign="top">P48356<br>A2AKJ2</td></tr>
 <tr><td valign="top">GO (Gene Ontology)</td><td valign="top">GO:0019221</td></tr>
 <tr><td valign="top">RefSNP ID</td><td valign="top">rs3021544</td></tr>
-<tr><td valign="top">Probeset ID</td><td valign="top">10379153</td></tr>
+<tr><td valign="top">Affy Probeset ID</td><td valign="top">10379153</td></tr>
 
  <table border="0" cellspacing="0" cellpadding="4">
   <tr><td valign="top">*</td><td valign="top">GenBank IDs are for nucleotide sequences only. RefSeq IDs are for either nucleotide or protein sequences.</td></tr>
