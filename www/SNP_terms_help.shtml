@@ -55,7 +55,7 @@ function openHelpWindow(helpFile){
   <li><a href="SNP_load_help.shtml" target="_blank">Interpreting the SNP Data in MGI</a></li>
   <li><a href="SNP_summary_help.shtml" target="_blank">Interpreting a Mouse SNP Summary</a></li>
    <li><a href="SNP_detail_help.shtml" target="_blank">Interpreting Mouse SNP Details</a> </li>
-  <li><a href="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Legend</a></li>
+  <li><a href="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Results Table</a></li>
   <li><a href="SNP_discrepancy_help.shtml" target="_blank">Understanding Mouse SNP Coordinate Discrepancies</a></li>
 </ul>
 </p>
@@ -75,7 +75,7 @@ function openHelpWindow(helpFile){
 </p>
 
 <h3><a name="dbSNP_fc"></a>How are the dbSNP function classes defined?</h3>
-<p>See <a href="SNP_legend_help.shtml" target="_blank">Understanding the MGI Mouse SNPs Legend</a>.</p>
+<p>See <a href="SNP_legend_help.shtml" target="_blank">Understanding the MGI Mouse SNPs Results Table</a>.</p>
 <a href="#top">Top</A>
 
 
