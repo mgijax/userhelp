@@ -18,7 +18,7 @@ function openHelpWindow(helpFile){
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
-  Interpreting the MGI Mouse SNPs Legend
+  Interpreting the MGI Mouse SNPs Results Table
  </span>
 </div>
 <!-- Container Table -->
@@ -37,7 +37,7 @@ function openHelpWindow(helpFile){
 
 <a NAME="top"></a>
 
-<P>This help document describes the following sections of the MGI Mouse SNPs legend:
+<P>This help document describes the following sections of the MGI Mouse SNPs Results Table:
  <UL>
 <li><a href="#refss">RefSNPs (rs) vs. Submitted SNPs (ss)</a></li>
 <li><a href="#function_class">Function Classes</a></li>
@@ -57,7 +57,7 @@ function openHelpWindow(helpFile){
   <li><a href="SNP_terms_help.shtml" target="_blank">SNP Terms and Concepts</a> </li>
   <li><a href="SNP_summary_help.shtml" target="_blank">Interpreting a Mouse SNP Summary</a></li>
    <li><a href="SNP_detail_help.shtml" target="_blank">Interpreting Mouse SNP Details</a> </li>
-  <li><a href="SNP_load_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Legend</a></li>
+  <li><a href="SNP_load_help.shtml" target="_blank">Interpreting the SNP Data in MGI</a></li>
   <!--<li><a href="SNP_legend_help.shtml">Understanding Mouse SNPs in MGI</a></li>-->
   <li><a href="SNP_discrepancy_help.shtml" target="_blank">Understanding Mouse SNP Coordinate Discrepancies</a> </li>
   <li><a href="SNP_no_results_help.shtml" target="_blank">My query returned no results. Why?</a> </li>

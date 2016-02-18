@@ -54,7 +54,7 @@ function openHelpWindow(helpFile){
 <ul>
 <LI><A HREF="SNP_summary_help.shtml" target="_blank">Interpreting a Mouse SNP Summary</A></LI>
 <LI><A HREF="SNP_detail_help.shtml" target="_blank">Interpreting Mouse SNP Details</A></LI>
-<LI><A HREF="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Legend</A> <i><font size="-1">(RefSNPs vs submitted SNPs, dbSNP & MGI function classes, variation types, rs & ss orientation, strain alleles & allele value conflicts, SNP assay IDs)</i></font></LI>
+<LI><A HREF="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Results Table</A> <i><font size="-1">(RefSNPs vs submitted SNPs, dbSNP & MGI function classes, variation types, rs & ss orientation, strain alleles & allele value conflicts, SNP assay IDs)</i></font></LI>
 </UL>
 
 
@@ -67,7 +67,6 @@ function openHelpWindow(helpFile){
 <li>MGI loads SNPs that map to multiple locations only if all locations for the SNP map to the same chromosome. (SNPs that map to more than one chromosome and SNPs that map to the same chromosome in more than two locations are not loaded).</li>
 </ul>
 </p>
-
 
 <h3><A name="whatnot"></a>What SNP data does the MGI database <b>NOT</b> contain?</h3>
 

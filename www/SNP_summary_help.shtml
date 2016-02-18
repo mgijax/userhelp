@@ -45,7 +45,7 @@ function openHelpWindow(helpFile){
 <li><a href="#date">How can I tell which database build I'm querying against?</a></li>
 <LI><A HREF="#not_contain">Will QTLs show up in a Mouse SNP summary?</A></LI>
 <LI><A HREF="#usage">How do I use a Mouse SNP summary?</A></LI>
-<LI><A HREF="SNP_legend_help.shtml" target="_blank">How do I interpret the legend?</A></LI>
+<LI><A HREF="SNP_legend_help.shtml" target="_blank">How do I Interpret the Results Table</A></LI>
 <li><a href="#revise">Can I edit my original options and requery?</a></li>
 <li><A HREF="#summary_sort">Can I change the strain order in the query results?</A></li>
 <li><a href="#snpfilter">How do I filter my results?</a></li>
@@ -59,7 +59,7 @@ function openHelpWindow(helpFile){
 <ul>
  <LI><A HREF="#discrepancy">Understanding Mouse SNP Coordinate Discrepancies</A></LI>
 <LI><A HREF="SNP_detail_help.shtml" target="_blank">Interpreting Mouse SNP Details</A></LI>
-<LI><A HREF="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Legend</A></LI>
+<LI><A HREF="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Results Table</A></LI>
 <li><a href="SNP_load_help.shtml" target="_blank">Interpreting the SNP Data in MGI</a></li>
 </UL>
 

@@ -50,7 +50,7 @@ function openHelpWindow(helpFile){
 <li><a href="SNP_load_help.shtml" target="_blank">Interpreting the SNP Data in MGI Report</a></li>
 <li><a href="SNP_terms_help.shtml" target="_blank">SNP Terms and Concepts</a></li>
 <li><a href="SNP_discrepancy_help.shtml" target="_blank">Understanding Mouse RefSNP Coordinate Discrepancies</a></li>
-<li><a href="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Legend</a></li>
+<li><a href="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Results Table</a></li>
 <li><a href="SNP_no_results_help.shtml" target="_blank">My query returned no results. Why?</a></li>
 </ul></p>
 <h3><a name="interpret"></a>How do I interpret the SNP detail report resulting from my query?</h3>
