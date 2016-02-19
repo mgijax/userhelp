@@ -67,26 +67,37 @@ function openHelpWindow(helpFile){
 <H3><A NAME="contain"></A>What's in a Mouse SNP summary?</H3>
 <P>The Mouse SNP summary provides a general description of each Mouse SNP that your query returns. The page contains:
 <UL>
-<LI>A <b>Query Summary</b> at the top listing your selections and any defaults from the Mouse SNP Query Form; for example, the strain(s) you chose to compare, the chromosome location(s), the starting and ending coordinates, the maximum number to display, and the output format.</LI>
-
-<li>Links to Mouse Genome Browser and MGI Genes/Markers (if you query by marker range or genome coordinates)
+<LI>At the top of the Mouse SNP Summary Results is a display of your query parameters. For example:
+   <BLOCKQUOTE>
+	<dl>
+	  <dt><font size="-1"><u><b>You Searched for...</b></u></font></dt>
+	  <dt><font size="-1">Genome Region: <b>Chr2:125618205 - 999999999</b> bp</font></dt>
+	  <dt><font size="-1">Selected Strains: <b>ALL</b></font></dt>
+	  <dt><font size="-1">Sorted by genome location</font></dt>
+   </dl>
+  </BLOCKQUOTE>
+    <br>  
+ <li>Above the summary is an option to change your parameters. Use <b>Click to modify search</b> to view to the Mouse dbSNP Query form with your previous search parameters.</li><br>  
+ <LI>To the far right of the search summary is information about the amount of data found. For example:
+  
+<BLOCKQUOTE>
+<font size="-1">Showing markers 1 - 100 of 377269.</font>
+</BLOCKQUOTE><br>
+   By default, 100 items are displayed on the web page. You can use the toggle to change the number of items displayed or page through the results.</li>
+   <br>
+<li>Links to <b>Mouse Genome Browser</b> and a <b>Marker Query Summary</b>.
   <ul>
     <li>The former link lets you view SNPs within the coordinate range from your query in the MGI Mouse Genome Browser.</li>
-    <li>The latter link takes you to the MGI Genes and Markers Query Results -- Summary where all MGI genes/markers within range appear, sorted by coordinates. </li>
+    <li>The latter link takes you to the Marker Query Summary where all MGI genes/markers within your search parameters appear, sorted by coordinates.</li>
   </ul>
   <b>Note:</b> If no SNPs are returned, these links do not appear, even though there may be markers in your range.
-<LI>A link to a legend (see <a href="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Legend</a>) which decodes the data in the box below it).</LI>
+  <li>By default, the results <b>Show only selected strains with alleles</b> but you have the option to <b>Show all selected strains</b>. </li>
 <LI>A table containing additional information about the Mouse SNPs matching your query. 
-<ul>
-  <li>The table headings always include SNP ID, Map Position, and strain names. </li>
-  <li>Other data to appear depends on items checked in the <A HREF="SNP_help.shtml#sort">Output options</A> section of the Mouse SNP Query Form. </li>
-  <li>Data  may include reference SNP orientation to the mouse genome, associated gene and dbSNP function class, number of ss assays, variation type, and an allele summary of all strains selected. </li>
-</ul>
-<li>An option to view all MGI genes or markers within the coordinate range from your query. </li>
-<li>The number of matching Mouse SNPs displayed in the report.</LI>
+  <ul>
+  <li>The table headings always include SNP ID, Map Position, Genes & Category, Variation Type, Allele Summary, and strain names. </li>
+  </ul>
 </ul>
 </p>
-
 
 <h3><a name="not_contain"></a>Will QTLs show up in a Mouse SNP summary report?</h3>
 <p>No. SNPs are not associated with markers of type <i>QTL</i>.
@@ -104,19 +115,17 @@ function openHelpWindow(helpFile){
 <H3><A NAME="usage"></A>How do I use a Mouse SNP summary?</H3>
 <P>There are several ways to use the summary reports. You can:</P>
 <uL>
-<LI>Select and view details about individual SNPs at dbSNP (NCBI) or MPD (Mouse Phenome Database) or on the MGI SNP Detail page.</LI>
-<li>Return to the query page and <UL>
-<LI>Change the allele display mode (Same, Different, All).</LI>
-<LI>Add or change selected strains or the reference strain.</LI>
-<li>Change the marker range (genome coordinate discrepancies have a less severe effect on marker range searches when the distance between your flanking markers increases).
-</UL>
-<li>Click the Back button to return to the results of a previous query. Here you can modify that query and run it again, or you can click Reset to empty all fields, restore default values, and then requery.</li>
+<LI>Select and view details about individual SNPs at dbSNP (NCBI) or MPD (Mouse Phenome Database) or on the MGI SNP Detail page from the SNP ID column.</LI>
+<li>Follow links to marker details from the Genes & Category column.
+<li>Rearrange columns. See <a href="#summary_sort">Can I change the strain order in the query results?</a>
+<li>Modify your search. See <a href="#revise">Can I edit my original options and requery?</a></li>
+<li>Export your results as a tab-delimited file. See <a href="#tabfile">How do I retrieve my results as a tab-delimited text file?</a>
 </uL>
 </p>
 <font size="-1"> <a href="#top">Top</a>
 </font>
-<h3>How do I interpret the legend?</h3>
-<p>Results are sorted by chromosome and then coordinate value. Chromosome transitions are marked by blank rows. See <A HREF="SNP_legend_help.shtml">Interpreting the MGI Mouse SNPs Legend</a> for details about the data appearing in the table columns and rows.</p>
+<h3>How do I interpret the Results Table?</h3>
+<p>Results are sorted by chromosome and then coordinate value. <!--Chromosome transitions are marked by blank rows.--> See <A HREF="SNP_legend_help.shtml">Interpreting the MGI Mouse SNPs Results Table</a> for details about the data appearing in the table columns and rows.</p>
 
 <h3><a name="revise"></a>Can I edit my original options and requery?</h3>
 
