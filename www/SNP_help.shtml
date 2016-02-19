@@ -87,8 +87,9 @@ function openHelpWindow(helpFile){
 <!--
 <p>Strain queries consider the <A href="SNP_terms_help.shtml#strain_allele">rs consensus strain allele</a> set for each SNP (the union of the majority allele calls for each strain of a SNP). Only data from <a href="SNP_terms_help.shtml#SNP_assay">ss assays with strain/alleles</a> contribute to the rs consensus strain alleles and <a href="SNP_terms_help.shtml#variation_type">rs variation type</a>.</p>-->
 <!--<P>The query retrieves the first 1000 (the default) SNPs that match your criteria. See <A HREF="#limit">Is there a limit on the number of SNPs that a query returns?</A> for more details. <B>Note:</B> The number of results in a query report is never more than the number indicated in <A HREF="#max_no">Maximum number of items returned</A>. Thus, if you want to ensure that you see every result, check the <i>no limit</i> box in the <a href="#sort">Output options</a> section.</P>-->
-<P>You can modify how your results are displayed. See: ***
+<P>You can modify how your results are displayed and filter by dbSNP Function Class. See: <A HREF="#summary_sort">Can I change the strain order in the query results?</A> and <a href="#snpfilter">How do I filter my results?</a>.
 </P>
+
 <A HREF="#top"<font size-"-1">Top</font></A>
 
 <h3><A name="discrepancy"><a/>How does genome coordinate discrepancy affect a query?</h3>
@@ -96,13 +97,11 @@ function openHelpWindow(helpFile){
 </P><A HREF="#top"<font size-"-1">Top</font></A>
 
 
-
 <H3><A NAME="seqattribute"></A>How do I use this form to find SNPs?</A></H3>
-<P>The form has two tabs. One for searching with gene symbols and strains and the other for searching with coordinates and strains. To search for detailed data using this query form, enter or select values in one or more of the query form fields described in <A HREF="#field">What values are acceptable in the each of the query form fields?</A>. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help.shtml" target="_blank">Using MGI Query Forms</a> for additional information.
-
- </UL>
+<P>The form has two tabs. One for searching with gene symbols and strains and the other for searching with coordinates and strains. To search for detailed data using this query form, enter or select values in one or more of the query form fields described in <A HREF="#field">What values are acceptable in the each of the query form fields?</A>  After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help.shtml" target="_blank">Using MGI Query Forms</a> for additional information.
  </p>
-<a href="#top"><font size="-1">Back to top</font></a>
+ 
+<a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="specifics"></a>Are there specific requirements for using this form?</h3>
 <p>Yes. </p>
@@ -132,9 +131,12 @@ function openHelpWindow(helpFile){
 </ol>
 
 <A HREF="#top"<font size-"-1">Top</font></A>
+
 <h3>How do I use the Strains and Strain Comparison lists?</h3>
+
 <p>See <a href="#sasc">Strains and Strain Comparisons</a>.
 </p>
+
 <A HREF="#top"<font size-"-1">Top</font></A>
 
 <h3><a name="reference"></a>What is a reference strain?</h3>
@@ -148,6 +150,7 @@ function openHelpWindow(helpFile){
 </ul>
 <p>See <a href="#sasc">Strains and strain comparisons</a> for additional details.</p>
 </p>
+
 <A HREF="#top"<font size-"-1">Top</font></A>
 
 <h3><A name="no_strain"></a>Why isn't my strain in the Strains lists?</h3>
@@ -173,8 +176,8 @@ function openHelpWindow(helpFile){
 <H3><A NAME="field"></A>What values are acceptable in each of the query form fields?</H3>
 <p>You must select or type a value for at least one of the following:
 <ul>
-  <li>Gene Symbol/Name in the Search by Gene tab</li>
-  <li>Chromosome and Genome Coordinates in the Search by Region tab.</li>
+  <li>Gene Symbol/Name in the <b>Search by Gene</b> tab</li>
+  <li>Chromosome and Genome Coordinates in the <b>Search by Region</b> tab.</li>
 </ul>
 <p>You must have at least one strain checked in the Find SNPs Involving these Strains section for either search tab.</p>
 <table width="!" cellpadding="2" class="nb" align="center">
@@ -190,8 +193,10 @@ function openHelpWindow(helpFile){
       <TR><TH ALIGN="left" VALIGN="top"><A NAME="marker_name"></A>Gene Symbol/Name</A></TH>
 <TD>
  <uL>
-  <li>Enter the mouse gene symbol/name/synonym. <b>Note:</b> *** [current symbols only?] If the symbol/name or synonym contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
-  <LI>Use the default search (current symbols &#151; no search of names or synonyms) or make another choice from the selection list: current symbols/names &#151; no search of synonyms or current symbols/names, synonyms and homologs.</LI>
+  <li>Enter the mouse gene symbol/name/synonym. </li>
+  <li>This field supports the * (asterisk) as a wild-card. See <a href="MISC_wildcard_help.shtml" target="_blank">Using Wild Cards on MGI Query Forms</a></li>
+  <li>You can search for multiple genes by entering a comma-separated list.</li>
+  <LI>Use the default search (current symbols &#151; no search of names or synonyms) or make another choice from the selection list: current symbols/names &#151; no search of synonyms or current symbols/names, synonyms and homologs. <b>Note:</b> If the symbol/name or synonym contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</LI>
  </uL>
 </TD></TR>
 <TR><TH ALIGN="left" VALIGN="top">SNPs Located Near Genes</TH>
