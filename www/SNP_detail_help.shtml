@@ -172,7 +172,7 @@ function openHelpWindow(helpFile){
  </tr>
  <tr>
   <th align="left" valign="top"><a name="gene_marker"></a>Function class, Allele, Residue,<br> Codon Position, AA Position</th>
-  <td valign="top">For Function class, see <a href="SNP_legend_help.shtml">Interpreting the MGI Mouse SNPs Legend</a>.
+  <td valign="top">For Function class, see <a href="SNP_legend_help.shtml">Interpreting the MGI Mouse SNPs Results Table</a>.
 <br>Residue: Abbreviation for the amino acid. See <a href="http://en.wikipedia.org/wiki/Amino_acid#Table_of_standard_amino_acid_abbreviations_and_side_chain_properties" target="_blank">table</a>.
 </td>
  </tr>
