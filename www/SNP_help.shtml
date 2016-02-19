@@ -201,34 +201,32 @@ function openHelpWindow(helpFile){
 </TD></TR>
 <TR><TH ALIGN="left" VALIGN="top">SNPs Located Near Genes</TH>
 <TD>When searching by gene symbol, SNPs within 2 kb of the gene(s) are returned by default. You can choose to limit your search to just within the gene(s) or to expand the range to within 10 kb of the gene(s).
-<br>
-<b>Note:</b> For microsatellite markers that are not transcribed (e.g., MIT markers), <i>strands</i> have an arbitrary definition of <i>+</i>. Selecting <i>upstream</i> returns SNPs with higher coordinate values than the microsatellite value. Selecting <i>downstream</i> returns SNPs with lower coordinate values.
 <p>The SNPs Located near Genes function returns SNPs located within the specified distance/orientation of the marker or markers that match the Gene Symbol/Name query.
 <ul>
   <li>You must enter a Gene Symbol/Name to use this function.</li>
   <li>The query is inclusive of the marker.</li>
-  <li>You may <b>not</b> use QTL symbols. SNPs are not associated with markers of <i>type</i> QTL.</li>
+  <li>You may <b>not</b> use QTL symbols. SNPs are not associated with markers of <i>type</i> QTL. If you wish to search for SNPs within a QTL, use the <b>Search by Region</b> tab and search with coordinates that define the QTL.</li>
 </ul>
 <b>Note:</b> When there is a discrepancy between the genome coordinates of SNPs and MGI genes, this field is disabled. For more information, see <a href="SNP_discrepancy_help.shtml" target="_blank">How does genome coordinate discrepancy affect my query?
 </td></tr>
 </table></td></tr>
-   <TR><TD VALIGN="top"><B><a name="sasc"></a>Strains and Strain Comparisons</B></TD><TD VALIGN="top">Use this section to add strains from the <a name="available_strains"></a><b>Available Strains</b> list to the <a name="selected_strains"></a><b>Selected Strains</b> list, select a strain sort order (for the search results), determine a <a name="reference_strain"></a><b>reference strain</b> to return by comparison (if desired), and to determine the <a name="snps_returned"></a><b>SNPs Returned</b> (same as or different from the reference strain, or all SNPs). 
+   <TR><TD VALIGN="top"><B><a name="sasc"></a>Strains and Strain Comparisons</B></TD><TD VALIGN="top">Use this section to select strains to search, determine a <a name="reference_strain"></a><b>reference strain</b> to return by comparison (if desired), and to determine the <a name="snps_returned"></a><b>SNPs Returned</b> (same as or different from the reference strain, or all SNPs). 
 
 <p>Default/disallowed</p>
 <ul>
   <li>All strains are selected by default.</li>
   <li>By default, no Reference Strain is selected. See: <a href="#reference">What is a reference strain?</a></li>
-  <li>There are no disallowed combinations of strain and reference strain (except when they are the same). </li>
+  <li>There are no disallowed combinations of strain and reference strain (except when they are the same).</li>
   <li>When you supply both a selected and a reference strain, the SNPs Returned default is to display all SNPs (both the same as and different from the reference strain allele).
-<li>If you do not select a strain, the default is to consider all strains for the query. Strains returned are sorted in their order of appearance in the Strains list.</li>
+<li>If you do not select a strain, the default is to consider all strains for the query. Strains returned are initially sorted in alphanumeric order, except if a reference strain is chosen, it will be listed first.</li>
 </ul>
 <p>Reference Strains</p>
 <ul>
   <li>If you select a reference strain, by default, the query returns only RefSNPs with an allele value for the reference strain.</li>
-<li>If you do not select a reference strain, the allele values of any selected strains are not compared against one another in the query results.</li> 
+  <li>If you do not select a reference strain, the allele values of any selected strains are not compared against one another in the query results.</li> 
 </ul>
 
-<p>You can also set the results to return all SNPs relative to the reference strain allele (Not compared to the Reference Strain), only those which are the same, or only those which are different. 
+<p>The default selection is to return all SNPs relative to the reference strain allele (Not compared to the Reference Strain), though you can choose to return only those which are the same, or only those which are different. 
 </p></TD></TR>
 
 <!-- <TR><TH ALIGN="left" VALIGN="top"><A NAME="attributes"></a>SNP attributes</th><td valign="top">Use these boxes to determine the types and case of SNPs to return. To make selections, click one or more items on the lists.  The default is to return SNPs from <B>Any</B> type or class on the list. See <a name="variation_type"></a><a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">Variation Types</a> and <a name="function_class"></a><a href="SNP_terms_help.shtml#dbsnp_fc" target="_blank">Function Class</a> for additional details about list items on these lists.</td></tr> -->
@@ -262,14 +260,14 @@ function openHelpWindow(helpFile){
 <ul>
 <li>You can requery as many times as you like.</li>
 <!--<li>If you had <a href="#filter">filtered</a> your search results, when you modify your search, the filters are automatically applied to your modified results.</li>-->
-<li>Alternatively, click Reset to return to the original Genes and Markers Query form. </li>
+<li>Alternatively, click Reset to return to the original Mouse dbSNP Query form. </li>
 </ul>
 </p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><A name="include_QTL"></a>Do SNPs Located Near Genes include QTLs in the summary results?</h3>
-<p>No.  SNPs are not associated with markers of <i>type</i> QTL.</p>
+<p>No.  SNPs are not associated with markers of <i>type</i> QTL. If you wish to search for SNPs within a QTL, use the <b>Search by Region</b> tab and search with coordinates that define the QTL.</p>
 
 <A HREF="#top"<font size-"-1">Top</font></A>
 
