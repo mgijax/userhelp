@@ -279,7 +279,7 @@ The following are additional types (not listed on the pulldown menu), followed b
      <li>Tab-delimited text.</li>
 	 <li>Excel</li>
 </ul>
-The results are initially returned in web format and then you can choose to Export them in Tab-delimited text or spreadsheet formats. </li>
+The results are initially returned in web format and then you can choose to Export them in Tab-delimited text or spreadsheet formats. You also have the option to forward your results to <a href= "http://www.mousemine.org/mousemine/begin.do">MouseMine</a> and query for additional data.</li>
 </ul>
 
 </p>
@@ -313,7 +313,7 @@ The results are initially returned in web format and then you can choose to Expo
   <li>Click Search.</li>
 <li>Repeat steps 1 and 2 until the desired results appear.</li>
 </ol>
-See <a href="#example">Are there examples?</a> for a sample of a query modification.
+<p>See <a href="#example">Are there examples?</a> for a sample of a query modification.</p>
 <li>If you want to upload a different file:
 	<ol>
   <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title in  changes to Click to Hide Search.) The window that appears contains your original search criteria.
