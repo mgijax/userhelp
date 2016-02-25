@@ -218,24 +218,6 @@ th { border: thin solid;
          </table>
        <td valign="top">Reference Strain Selected (SNP results summary pages only).</td>
     </tr>
-    <tr>
-      <td align="center" valign="top">
-        <table border="1" cellpadding="0" cellspacing="1" valign="top">
-          <tr>
-           <td style= "background: #DC143C;"><font color="white">&nbsp;S&nbsp;</td>
-          </tr>
-        </table>
-      <td valign="top">Same allele value as in the reference strain (SNP results summary pages only).</td>
-   </tr>
-    <tr>
-     <td align="center" valign="top">
-       <table border="1" cellpadding="0" cellspacing="1" valign="top">
-        <tr>
-         <td style= "background: #2F4F4F;"><font color="white">&nbsp;D&nbsp;</td>
-        </tr>
-       </table>
-     <td valign="top">Different allele value from that in the reference strain (SNP results summary pages only).</td>
-    </tr>
     <tr><td align="center" valign="top">
         <table border="1" cellpadding="0" cellspacing="1" width="100%">
 <tr><td style= "background: #FF8787;">&nbsp;<u>A</u>&nbsp;   </td>

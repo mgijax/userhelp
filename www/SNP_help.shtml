@@ -226,7 +226,12 @@ function openHelpWindow(helpFile){
   <li>If you do not select a reference strain, the allele values of any selected strains are not compared against one another in the query results.</li> 
 </ul>
 
-<p>The default selection is to return all SNPs relative to the reference strain allele (Not compared to the Reference Strain), though you can choose to return only those which are the same, or only those which are different. 
+<p>The default selection is to return all SNPs relative to the reference strain allele (Not compared to the Reference Strain), though you can choose to return only those which are the same, or only those which are different. SNPs with conflicts are noted by underlining the allele or if there is not a consensus value, then a ? is displayed. See: <a href="SNP_legend_help.shtml#strain_alleles">Interpreting the MGI Mouse SNPs Results Table/a> for more details on SNP alleles. 
+<ul>  
+  <li>If you select Same (or Different) from a reference strain, SNPs with conflicts are not returned.</li>
+  <li>If you select more than one strain to compare to a reference strain and also choose to return only SNPs that are the Same (or Different), then only alleles that are the Same (or Different) for all strains will be returned. 
+</ul>
+
 </p></TD></TR>
 
 <!-- <TR><TH ALIGN="left" VALIGN="top"><A NAME="attributes"></a>SNP attributes</th><td valign="top">Use these boxes to determine the types and case of SNPs to return. To make selections, click one or more items on the lists.  The default is to return SNPs from <B>Any</B> type or class on the list. See <a name="variation_type"></a><a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">Variation Types</a> and <a name="function_class"></a><a href="SNP_terms_help.shtml#dbsnp_fc" target="_blank">Function Class</a> for additional details about list items on these lists.</td></tr> -->
