@@ -44,7 +44,7 @@ function openHelpWindow(helpFile){
  <li><a href="#date">How do I know which dbSNP build I'm querying against?</a></li>
  <LI><A HREF="#accession_id">How do I query using a SNP accession ID?</A></LI>
  <li><a href="#sasc">How do I use the strain and strain comparison lists (Available Strains, Selected Strains, Reference Strain)?</a></li>
- <li><a href="#reference">What is a reference strain?</a></li>
+ <li><a href="#reference">What is a Reference Strain?</a></li>
  <li><A href="#no_strain">Why isn't my strain on the Strains lists?</A></li>
  <li><A href="#available_strain_sort">What determines the sort order on the Available Strains list?</A></li>
  <LI><A HREF="#field">What values are acceptable in the each of the query form fields?</A></LI>
@@ -98,7 +98,7 @@ function openHelpWindow(helpFile){
 
 
 <H3><A NAME="seqattribute"></A>How do I use this form to find SNPs?</A></H3>
-<P>The form has two tabs. One for searching with gene symbols and strains and the other for searching with coordinates and strains. To search for detailed data using this query form, enter or select values in one or more of the query form fields described in <A HREF="#field">What values are acceptable in the each of the query form fields?</A>  After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help.shtml" target="_blank">Using MGI Query Forms</a> for additional information.
+<P>The form has two tabs. One for searching with gene symbols and strains and the other for searching with genome coordinates and strains. To search for detailed data using this query form, enter or select values in one or more of the query form fields described in <A HREF="#field">What values are acceptable in the each of the query form fields?</A>  After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help.shtml" target="_blank">Using MGI Query Forms</a> for additional information.
  </p>
  
 <a href="#top"><font size="-1">Top</font></a>
@@ -139,8 +139,8 @@ function openHelpWindow(helpFile){
 
 <A HREF="#top"<font size-"-1">Top</font></A>
 
-<h3><a name="reference"></a>What is a reference strain?</h3>
-<p>A reference strain is the comparison strain to use for determining whether the <b>SNPs Returned</b> are the <i>same as</i> or <i>different from</i> your selected strain. 
+<h3><a name="reference"></a>What is a Reference Strain?</h3>
+<p>A reference strain is the comparison strain to use for determining whether the <b>SNPs Returned</b> are the <i>same as</i> or <i>different from</i> your selected strain or to limit your search to RefSNPs with an allele value for that strain.
 <ul>
   <li>The Reference Strain selection list can accept only one strain. </li>
   <li>If you add a reference strain you must also have at least one strain checked in the Find SNPs Involving these Strains section.</li>
@@ -160,7 +160,7 @@ function openHelpWindow(helpFile){
 
 <H3><A NAME="available_strain_sort"></A>What determines the sort order of the Strains?</H3>
 
-<p>The SNPs Involving these Strains list and the Reference Strain for Comparison list each contains 88 of the most common inbred strains in alphanumeric order.</p>
+<p>The <b>SNPs Involving these Strains</b> list and the <b>Reference Strain for Comparison</b> list each contains 88 of the most common inbred strains in alphanumeric order.</p>
  
 
 <A HREF="#top"<font size-"-1">Top</font></A>
@@ -179,9 +179,9 @@ function openHelpWindow(helpFile){
   <li>Gene Symbol/Name in the <b>Search by Gene</b> tab</li>
   <li>Chromosome and Genome Coordinates in the <b>Search by Region</b> tab.</li>
 </ul>
-<p>You must have at least one strain checked in the Find SNPs Involving these Strains section for either search tab.</p>
+<p>You must have at least one strain checked in the <b>Find SNPs Involving these Strains</b> section for either search tab.</p>
 <table width="!" cellpadding="2" class="nb" align="center">
-<tr align="center"><td><A HREF="#sasc">Strains and Strain Comparisons</A> | <!-- <A HREF="#attributes">SNP attributes</A> | --> <A HREF="#map_position">Genome Region</A> | <A HREF="#associated_genes">Associated Genes</A> </TD>
+<tr align="center"><td>  <A HREF="#associated_genes">Associated Genes</A> | <A HREF="#sasc">Strains and Strain Comparisons</A> | <!-- <A HREF="#attributes">SNP attributes</A> | --> <A HREF="#map_position">Genome Region</A> </TD>
  </TR>
  </TABLE>
 
@@ -196,7 +196,7 @@ function openHelpWindow(helpFile){
   <li>Enter the mouse gene symbol/name/synonym. </li>
   <li>This field supports the * (asterisk) as a wild-card. See <a href="MISC_wildcard_help.shtml" target="_blank">Using Wild Cards on MGI Query Forms</a></li>
   <li>You can search for multiple genes by entering a comma-separated list.</li>
-  <LI>Use the default search (current symbols &#151; no search of names or synonyms) or make another choice from the selection list: current symbols/names &#151; no search of synonyms or current symbols/names, synonyms and homologs. <b>Note:</b> If the symbol/name or synonym contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</LI>
+  <LI>Use the default search (current symbols &#151; no search of names or synonyms) or toggle the choice to current symbols/names, synonyms and homologs to expand your search to symbols for other vertebrates and unofficial symbols. <b>Note:</b> If the symbol/name or synonym contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</LI>
  </uL>
 </TD></TR>
 <TR><TH ALIGN="left" VALIGN="top">SNPs Located Near Genes</TH>
@@ -204,21 +204,19 @@ function openHelpWindow(helpFile){
 <p>The SNPs Located near Genes function returns SNPs located within the specified distance/orientation of the marker or markers that match the Gene Symbol/Name query.
 <ul>
   <li>You must enter a Gene Symbol/Name to use this function.</li>
-  <li>The query is inclusive of the marker.</li>
   <li>You may <b>not</b> use QTL symbols. SNPs are not associated with markers of <i>type</i> QTL. If you wish to search for SNPs within a QTL, use the <b>Search by Region</b> tab and search with coordinates that define the QTL.</li>
 </ul>
-<b>Note:</b> When there is a discrepancy between the genome coordinates of SNPs and MGI genes, this field is disabled. For more information, see <a href="SNP_discrepancy_help.shtml" target="_blank">How does genome coordinate discrepancy affect my query?
+<b>Note:</b> When there is a discrepancy between the genome coordinates of SNPs and MGI genes, this section of the field is disabled. For more information, see <a href="SNP_discrepancy_help.shtml" target="_blank">How does genome coordinate discrepancy affect my query?
 </td></tr>
 </table></td></tr>
-   <TR><TD VALIGN="top"><B><a name="sasc"></a>Strains and Strain Comparisons</B></TD><TD VALIGN="top">Use this section to select strains to search, determine a <a name="reference_strain"></a><b>reference strain</b> to return by comparison (if desired), and to determine the <a name="snps_returned"></a><b>SNPs Returned</b> (same as or different from the reference strain, or all SNPs). 
+   <TR><TD VALIGN="top"><B><a name="sasc"></a>Strains and Strain Comparisons</B></TD><TD VALIGN="top">Use this section to select strains to search, determine a <a name="reference_strain"></a><b>Reference Strain</b> to return by comparison (if desired), and to determine the <a name="snps_returned"></a><b>SNPs Returned</b> (same as or different from the reference strain, or all SNPs). 
 
-<p>Default/disallowed</p>
 <ul>
   <li>All strains are selected by default.</li>
-  <li>By default, no Reference Strain is selected. See: <a href="#reference">What is a reference strain?</a></li>
+  <li>By default, no Reference Strain is selected. See: <a href="#reference">What is a Reference Strain?</a></li>
   <li>There are no disallowed combinations of strain and reference strain (except when they are the same).</li>
   <li>When you supply both a selected and a reference strain, the SNPs Returned default is to display all SNPs (both the same as and different from the reference strain allele).
-<li>If you do not select a strain, the default is to consider all strains for the query. Strains returned are initially sorted in alphanumeric order, except if a reference strain is chosen, it will be listed first.</li>
+<li>If you do not select a strain, the default is to consider all strains for the query. Strains returned are initially sorted in alphanumeric order, except if a reference strain is chosen, then it will be listed first.</li>
 </ul>
 <p>Reference Strains</p>
 <ul>
@@ -229,7 +227,7 @@ function openHelpWindow(helpFile){
 <p>The default selection is to return all SNPs relative to the reference strain allele (Not compared to the Reference Strain), though you can choose to return only those which are the same, or only those which are different. SNPs with conflicts are noted by underlining the allele or if there is not a consensus value, then a ? is displayed. See: <a href="SNP_legend_help.shtml#strain_alleles">Interpreting the MGI Mouse SNPs Results Table/a> for more details on SNP alleles. 
 <ul>  
   <li>If you select Same (or Different) from a reference strain, SNPs with conflicts are not returned.</li>
-  <li>If you select more than one strain to compare to a reference strain and also choose to return only SNPs that are the Same (or Different), then only alleles that are the Same (or Different) for all strains will be returned. 
+  <li>If you select more than one strain to compare to a reference strain and also choose to return only SNPs that are the Same (or Different), then only alleles that are the Same (or Different) for all the selected comparison strains and the reference strain will be returned. 
 </ul>
 
 </p></TD></TR>
@@ -295,7 +293,7 @@ function openHelpWindow(helpFile){
 
 <H3><A NAME="summary_sort"></A>Can I change the strain order in the query results?</H3>
 
-<p>Yes. You can drag strain and other column headings at the top of the page to rearrange them. </p>
+<p>Yes. You can drag strain and other column headings at the top of the results table to rearrange them. </p>
 
 <A HREF="#top"<font size-"-1">Top</font></A>
 
@@ -305,7 +303,7 @@ function openHelpWindow(helpFile){
 <font size="-1"> <a href="#top">Top</a></font>
 
 <h3><a name="tabfile"></a>How do I retrieve my results as a tab-delimited text file?</h3>
-<p>In your search results, click on the SNPs to Text File icon. Your web browser will download a file of the results that remain after any filtering you may have performed.</p>
+<p>In your search results, click on the <b>Export:</b> <i>SNPs to Text File</i> icon. Your web browser will download a file of the results that remain after any filtering you may have performed.</p>
 
 <font size="-1"> <a href="#top">Top</a></font>
 
