@@ -236,7 +236,7 @@ function openHelpWindow(helpFile){
     
 
 <TR><th align=left valign="top"><a name="map_position"></a>Genome Region</th>
-  <Td ALIGN="left" VALIGN="top">You must select a Chromosome and enter a range of genome coordinates (Examples: 125.618-125.622 Mbp; 1-125618205 bp; 125618205 - 999999999 bp) to use the Search by Region tab. You can toggle between bp and Mbp ranges.</td>
+  <Td ALIGN="left" VALIGN="top">You must select a Chromosome and enter a range of genome coordinates (Examples: 125.618-125.622 Mbp; 1-125618205 bp; 125618205 - 200000000 bp; Use 0 - 200 Mbp for an entire Chr) to use the Search by Region tab. You can toggle between bp and Mbp ranges.</td>
         </tr>
 
 
