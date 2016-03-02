@@ -115,15 +115,18 @@ function openHelpWindow(helpFile){
 <blockquote>
 <table border="1" cellpadding="4" cellspacing="1">
 <tr align="left" valign="top"><th valign="top">Class</th><th valign="top">The variation ...</th></tr>
-<tr><td valign="top"><b>Locus region (upstream)</b><sup>1</sup></td><td valign="top">Is an annotation that falls upstream of the annotated gene.</td></tr>
-<tr><td valign="top"><b>Locus region (downstream)</b><sup>1</sup></td><td valign="top">Is an annotation that falls downstream of the annotated gene.</td></tr>
-<tr><th align="left" valign="top">within X kb upstream</th><td valign="top">Lies within the distance indicated, upstream from the gene's 5' coordinate.</td></tr>
-<tr><th align="left" valign="top"><nobr>within X kb downstream</th><td valign="top">Lies within the distance indicated, downstream from the gene's 3' coordinate.</td></tr>
-<tr><th align="left" valign="top">within coordinates</th><td valign="top">Lies within the MGI coordinate range of the gene and has no dbSNP annotation.</td></tr>
+<tr><td><b>Locus-Region upstream</b></td><td>Is an annotation that falls upstream of the annotated gene.</td></tr>
+<tr><td><b>Locus-Region downstream</b></td><td>Is an annotation that falls downstream of the annotated gene.</td></tr>
+<tr><th>x bp upstream</th><td>Lies within the distance indicated, upstream from the gene's 5' coordinate.</td></tr>
+<tr><th><nobr>x bp downstream</th><td>Lies within the distance indicated, downstream from the gene's 3' coordinate.</td></tr>
+<tr><th>within coordinates of</th><td>Lies within the MGI coordinate range of the gene and has no dbSNP annotation.</td></tr>
+<tr><th>x bp proximal</th><td>Lies within the distance indicated, in the proximal direction from the feature's most proximal coordinate. Applies only to SNPs associated with genome features that do not have a defined transcriptional orientation (strand).</td></tr>
+<tr><th>x bp distal</th><td>Lies within the distance indicated, in the distal direction from the feature's most distal coordinate. Applies only to SNPs associated with genome features that do not have a defined transcriptional orientation (strand).</td></tr>
+<tr><th>Locus-Region proximal</th><td>Is an annotation that falls near a genome feature in the proximal direction. Applies only to SNPs with dbSNP-assigned Locus-Region annotations to genome features that do not have a defined transcriptional orientation (strand).</td></tr>
+<tr><th>Locus-Region distal</th><td>Is an annotation that falls near a genome feature in the distal direction.  Applies only to SNPs with dbSNP-assigned Locus-Region annotations to genome features that do not have a defined transcriptional orientation (strand).</td></tr>
 </table>
 </blockquote>
 
-<sup>1</sup> <b>Note:</b> If a SNP has the <a href="#dbSNP_classes">dbSNP Function Class</a> annotation of <i>Locus-Region</i> for a gene and the coordinates for that SNP fall <i>within</i> the MGI coordinate range of this gene, then the MGI Function Class is <i>Locus region</i>, without (upstream) or (downstream) qualifiers.
 </p>
 <a href="#top">Top</a>
 
@@ -141,7 +144,8 @@ function openHelpWindow(helpFile){
 </table>
 </blockquote>
 
-<b>Note:</b> MGI queries display only the dbSNP variation types present in the mouse SNP data.<br> See <a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">SNP Terms and Concepts</a> for definitions of the dbSNP variation types.
+<b>Note:</b> Note: MGI SNP queries return only RefSNPs with Variation Type = "SNP".  RefSNPs with other variation types can be accessed by searching with the RefSNP ID using the Quick Search tool.<br> 
+See <a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">SNP Terms and Concepts</a> for definitions of the dbSNP variation types.
 </p>
 
 <a href="#top">Top</a>
