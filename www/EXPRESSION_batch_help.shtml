@@ -131,7 +131,7 @@ The following are additional types (not listed on the pulldown menu), followed b
 
 <h3><a name="column"></a>Can I upload a particular column of IDs/Symbols from a file?</h3>
 
-<p>Yes you can. In the <b>Use IDs from a File</b> section of the form: 
+<p>Yes, you can. In the <b>Use IDs from a File</b> section of the form: 
 <ol>
 	<li>Select your file type: tab-delimited or comma separated.</li> 
 	<li>Click the <i>Choose File</i> button to browse for your file.</li>
