@@ -92,6 +92,7 @@ function openHelpWindow(helpFile){
     <li>sequences</li>
    	<li>references</li>
     <li>expression images</li>
+    <li>RefSNPs</li>
     <li>and more...</li>
    </ul>
    
