@@ -74,24 +74,25 @@ function openHelpWindow(helpFile){
 <ul>
   <li>gene/marker attributes
 	<ul>
-	  <li>nomenclature</li>
+	  <li>gene nomenclature. including synonyms and vertebrate homologs</li>
 	  <li>genome location</li>
 	  <li>Ensembl IDs</li>
 	  <li>Entrez Gene IDs</li>
-	   <li>VEGA IDs</li>
+	  <li>VEGA IDs</li>
 	</ul>
   <li>annotations 
 	<ul>
-	  <li>gene ontology terms</li>
-	  <li>mammalian phenotype terms</li>
-	  <li>gene expression tissue/assay data</li>
+	  <li>gene ontology (GO) terms </li>
+	  <li>mammalian phenotype (MP) terms</li>
+	  <li>human disease (OMIM) terms</li>
 	  <li>MGI allele IDs</li>
-  	  <li>GenBank IDs</li>
-  	  <li>RefSeq IDs</li>
-	  <li>RefSNP IDs</li>
-	   <li>UniProt IDs</li>
+	  <li>gene expression tissue/assay data</li>
+	  <li>GenBank/RefSeq IDs</li>
+  	  <li>RefSNP IDs</li>
+	  <li>UniProt IDs</li>
+	</ul>
 </ul>
-</ul>
+
 <p>Future versions may include additional options.</p>
 
 <a href="#top"><font size="-1">Top</font></a>
@@ -182,7 +183,7 @@ The following are representative examples for each type listed on the pulldown m
 <tr><td valign="top">UniProt ID</td><td valign="top">P48356<br>A2AKJ2</td></tr>
 <tr><td valign="top">GO (Gene Ontology)</td><td valign="top">GO:0019221</td></tr>
 <tr><td valign="top">RefSNP ID</td><td valign="top">rs3021544</td></tr>
-<tr><td valign="top">Probeset ID</td><td valign="top">10379153</td></tr>
+<tr><td valign="top">Affy Probeset ID</td><td valign="top">10379153</td></tr>
 
  <table border="0" cellspacing="0" cellpadding="4">
   <tr><td valign="top">*</td><td valign="top">GenBank IDs are for nucleotide sequences only. RefSeq IDs are for either nucleotide or protein sequences.</td></tr>
@@ -194,18 +195,13 @@ The following are additional types (not listed on the pulldown menu), followed b
 
 <table border="1" cellpadding="4" width="!">
 <tr><th valign="top">Input identifier type</th><th valign="top">Representative example</th></tr>
-<tr><td valign="top">BayGenomics</td><td valign="top">LST083</td></tr>
-<tr><td valign="top">DoTS<br>(Database Of Transcribed Sequences)</td><td valign="top">DT.529646</td></tr>
-<tr><td valign="top">DCFI <br>(Dana-Farber Cancer Institute)</td><td valign="top">TC1572427</td></tr>
+<!--<tr><td valign="top">BayGenomics</td><td valign="top">LST083</td></tr>-->
 <tr><td valign="top">EC <br>(Enzyme Commission)</td><td valign="top">2.7.10.1</td></tr>
-<tr><td valign="top">FHCRC<BR>(Fred Hutchinson Cancer Research Center)</td><td valign="top">FHCRC-GT-S15-11C1</td></tr>
 <tr><td valign="top">Homologene</td><td valign="top">20151</td></tr>
-<tr><td valign="top">Lexicon</td><td valign="top">OST128284</td></tr>
+<!--<tr><td valign="top">Lexicon</td><td valign="top">OST128284</td></tr>-->
 <tr><td valign="top">NIA Mouse Gene Index</td><td valign="top">U167412</td></tr>
-
 <tr><td valign="top">PDB<br>(Protein Data Bank)</td><td valign="top">1HU8</td></tr>
-<!--<tr><td valign="top">TIGEM<br>(Telethon Institute of Genetics and Medicine)</td><td valign="top">GC0196</td></tr>
-<tr><td valign="top">TreeFam</td><td valign="top">TF320146</td></tr>-->
+<!--<tr><td valign="top">TreeFam</td><td valign="top">TF320146</td></tr>-->
 </table>
 </blockquote></li>
 </ul>
@@ -283,7 +279,7 @@ The following are additional types (not listed on the pulldown menu), followed b
      <li>Tab-delimited text.</li>
 	 <li>Excel</li>
 </ul>
-The results are initially returned in web format and then you can choose to Export them in Tab-delimited text or spreadsheet formats. </li>
+The results are initially returned in web format and then you can choose to Export them in Tab-delimited text or spreadsheet formats. You also have the option to forward your results to <a href= "http://www.mousemine.org/mousemine/begin.do">MouseMine</a> and query for additional data.</li>
 </ul>
 
 </p>
@@ -317,7 +313,7 @@ The results are initially returned in web format and then you can choose to Expo
   <li>Click Search.</li>
 <li>Repeat steps 1 and 2 until the desired results appear.</li>
 </ol>
-See <a href="#example">Are there examples?</a> for a sample of a query modification.
+<p>See <a href="#example">Are there examples?</a> for a sample of a query modification.</p>
 <li>If you want to upload a different file:
 	<ol>
   <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title in  changes to Click to Hide Search.) The window that appears contains your original search criteria.

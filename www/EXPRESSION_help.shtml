@@ -56,7 +56,8 @@ function openHelpWindow(helpFile){
  <li><a href="#matrixcolors">What do the colors in a Matrix mean?</a></li>
  <li><a href="#absent">How are absent results displayed through the matrix anatomy hierarchy?</a></li>
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
- <li><a href="#batch">Can I send the results of my search to the MGI Batch Query?</a></li>
+ <li><a href="#column">Can I upload a particular column of IDs/Symbols from a file?</li>
+ <li><a href="#batch">Can I send the results of my search to the MGI Batch Query or MouseMine?</a></li>
  <LI><A HREF="EXPRESSION_query_results_help.shtml#not_found" target="_blank">What if the search does not find any expression results?</a></li>
  <li><A HREF="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a></li>
  <li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</a></li>
@@ -114,6 +115,7 @@ If you are interested in doing queries that ask what genes are expressed in some
 <ul>
 <li>The gene nomenclature field supports an asterisk as a wild card. A search for pax* finds expression data for gene symbols and names that begin with <i>pax</i>.</li>
 <li>A search for *box* looks for nomenclature that contains <i>box</i>. This search finds the arginine decarboxylase gene, homeobox genes and paired box genes.</li>
+<li>You can also search with a comma-separated list of genes. Use the Batch Search tab for a column of genes or IDs. See: <a href="EXPRESSION_batch_help.shtml">Using the Gene Expression Batch Search</a> for details.</li>
 <li>A search for <i>growth factor</i> finds nomenclature containing <i>growth</i> AND <i>factor</i>.</li>
 <li>Synonyms (unofficial gene names used in publications and former official gene symbols) are also searched.</li>
 <li>This field searches only alphanumeric characters. Single and double quotes, commas and hyphens are ignored.</li>
@@ -249,7 +251,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="gxdfilter"></a>How do I filter my results?</h3>
-<p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for Wild type or mutant specimens. In the banner above your results, after <i>Filter expression data by:</i> click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>.</p>
+<p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for Wild type or mutant specimens. In the banner above your results, after <i>Filter expression data by:</i> click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>. Note: Filtering out mutants will retain heterozygous <i>in situ</i> knockin mutants.</p>
 <p>Both Matrix tabs offer easy filtering by tissue, and the Tissue x Stage Matrix also offers filtering by developmental stage/age and the Tissue x Gene Matrix permits filtering by gene symbol. Check the rows or columns you wish to retain and then click the Filter (<img image width="13" height="13" src="<!--#include file='include/webshare_url.html'-->images/filter.png">) button in the grid to apply the filters. These filters are also applied to all tabs.</p> 
 
 <a href="#top"><font size="-1">Top</font></a>
@@ -420,8 +422,15 @@ Individual cells have the ability to filter as well. Clicking on a cell displays
 
 <font size="-1"><A HREF="#top">Top</A></font>
 
-<h3><A name="batch"></a>Can I send the results of my search to the MGI Batch Query?</h3>
-<p>Yes. Under the Genes tab you have the option of exporting your results as a text file, spreadsheet file or sending the list of genes to the MGI Batch Query. If you click the Batch Query icon, the default Batch Summary will appear for your list of genes. Use the Click to modify search button to expand your search results to include additional information such as Gene Ontology (GO) terms, Mammalian Phenotype (MP) terms or Human Diseases associated with the genes.</p>
+<h3><a name="column"></a>Can I upload a particular column of IDs/Symbols from a file?</h3>
+
+<p>Yes you can. 
+</p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><A name="batch"></a>Can I send the results of my search to the MGI Batch Query or MouseMine?</h3>
+<p>Yes. Under the Genes tab you have the option of exporting your results as a text file, spreadsheet file or sending the list of genes to the MGI <a href="<!--#include file='include/fewi_url.html'-->batch">Batch Query</a> or <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a>. If you click the Batch Query icon, the default Batch Summary will appear for your list of genes. Use the Click to modify search button to expand your search results to include additional information such as Gene Ontology (GO) terms, Mammalian Phenotype (MP) terms or Human Diseases associated with the genes. MouseMine offers flexible querying, numerous predefined query templates, iterative refinement of results, and linking to other model organism Mines.</p>
 <p>See also <a href="BATCH_help.shtml"target="_blank">Using the MGI Batch Query</a>.</p>
 
 <font size="-1"><A HREF="#top">Top</A></font>

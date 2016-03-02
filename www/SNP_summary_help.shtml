@@ -45,17 +45,21 @@ function openHelpWindow(helpFile){
 <li><a href="#date">How can I tell which database build I'm querying against?</a></li>
 <LI><A HREF="#not_contain">Will QTLs show up in a Mouse SNP summary?</A></LI>
 <LI><A HREF="#usage">How do I use a Mouse SNP summary?</A></LI>
-<LI><A HREF="SNP_legend_help.shtml" target="_blank">How do I interpret the legend?</A></LI>
+<LI><A HREF="SNP_legend_help.shtml" target="_blank">How do I Interpret the Results Table</A></LI>
+<li><a href="#revise">Can I edit my original options and requery?</a></li>
+<li><A HREF="#summary_sort">Can I change the strain order in the query results?</A></li>
+<li><a href="#snpfilter">How do I filter my results?</a></li>
+<li><a href="#tabfile">How do I retrieve my results as a tab-delimited text file?</a></li>
 <LI><A HREF="SNP_discrepancy_help.shtml" target="_blank">How does genome coordinate discrepancy affect my results?</A></LI>
 <LI><A HREF="SNP_no_results_help.shtml" target="_blank">My query returned no results. Why?</A></LI>
-<li><A href="#ftp">I got a summary report with a "Link to Results on FTP Site" message. What do I do now?</A></li>
+<!--<li><A href="#ftp">I got a summary report with a "Link to Results on FTP Site" message. What do I do now?</A></li>-->
 </UL>
 
 <P>See also:</P>
 <ul>
  <LI><A HREF="#discrepancy">Understanding Mouse SNP Coordinate Discrepancies</A></LI>
 <LI><A HREF="SNP_detail_help.shtml" target="_blank">Interpreting Mouse SNP Details</A></LI>
-<LI><A HREF="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Legend</A></LI>
+<LI><A HREF="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Results Table</A></LI>
 <li><a href="SNP_load_help.shtml" target="_blank">Interpreting the SNP Data in MGI</a></li>
 </UL>
 
@@ -63,34 +67,46 @@ function openHelpWindow(helpFile){
 <H3><A NAME="contain"></A>What's in a Mouse SNP summary?</H3>
 <P>The Mouse SNP summary provides a general description of each Mouse SNP that your query returns. The page contains:
 <UL>
-<LI>A <b>Query Summary</b> at the top listing your selections and any defaults from the Mouse SNP Query Form; for example, the strain(s) you chose to compare, the chromosome location(s), the starting and ending coordinates, the maximum number to display, and the output format.</LI>
-
-<li>Links to Mouse Genome Browser and MGI Genes/Markers (if you query by marker range or genome coordinates)
+<LI>At the top of the Mouse SNP Summary Results is a display of your query parameters. For example:
+   <BLOCKQUOTE>
+	<dl>
+	  <dt><font size="-1"><u><b>You Searched for...</b></u></font></dt>
+	  <dt><font size="-1">Genome Region: <b>Chr2:125618205 - 999999999</b> bp</font></dt>
+	  <dt><font size="-1">Selected Strains: <b>ALL</b></font></dt>
+	  <dt><font size="-1">Sorted by genome location</font></dt>
+   </dl>
+  </BLOCKQUOTE>
+    <br>  
+ <li>Above the summary is an option to change your parameters. Use <b>Click to modify search</b> to view to the Mouse dbSNP Query form with your previous search parameters.</li><br>  
+ <LI>To the far right of the search summary is information about the amount of data found. For example:
+  
+<BLOCKQUOTE>
+<font size="-1">Showing markers 1 - 100 of 377269.</font>
+</BLOCKQUOTE><br>
+   By default, 100 items are displayed on the web page. You can use the toggle to change the number of items displayed or page through the results.</li>
+   <br>
+<!--<li>Links to <b>Mouse Genome Browser</b> and a <b>Marker Query Summary</b>.
   <ul>
     <li>The former link lets you view SNPs within the coordinate range from your query in the MGI Mouse Genome Browser.</li>
-    <li>The latter link takes you to the MGI Genes and Markers Query Results -- Summary where all MGI genes/markers within range appear, sorted by coordinates. </li>
+    <li>The latter link takes you to the Marker Query Summary where all MGI genes/markers within your search parameters appear, sorted by coordinates.</li>
   </ul>
   <b>Note:</b> If no SNPs are returned, these links do not appear, even though there may be markers in your range.
-<LI>A link to a legend (see <a href="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Legend</a>) which decodes the data in the box below it).</LI>
+  <li>By default, the results <b>Show only selected strains with alleles</b> but you have the option to <b>Show all selected strains</b>. </li>
 <LI>A table containing additional information about the Mouse SNPs matching your query. 
-<ul>
-  <li>The table headings always include SNP ID, Map Position, and strain names. </li>
-  <li>Other data to appear depends on items checked in the <A HREF="SNP_help.shtml#sort">Output options</A> section of the Mouse SNP Query Form. </li>
-  <li>Data  may include reference SNP orientation to the mouse genome, associated gene and dbSNP function class, number of ss assays, variation type, and an allele summary of all strains selected. </li>
-</ul>
-<li>An option to view all MGI genes or markers within the coordinate range from your query. </li>
-<li>The number of matching Mouse SNPs displayed in the report.</LI>
+  <ul>  -->
+  <li>The table headings always include SNP ID, Map Position, Genes & Category, Variation Type, Allele Summary, and strain names. </li>
+  </ul>
 </ul>
 </p>
-
 
 <h3><a name="not_contain"></a>Will QTLs show up in a Mouse SNP summary report?</h3>
 <p>No. SNPs are not associated with markers of type <i>QTL</i>.
 </p>
 
  <h3><a name="date"></a>How can I tell which database build I'm querying against?</h3>
-<p>In the <b>Legend</b> section of the summary report:</p>
-<ul><li>The dbSNP build number appears (in parentheses) at the top of the SNP ID column.</li>
+<p>In the column headings of the summary report:</p>
+<ul>
+<li>The dbSNP build number appears (in parentheses) at the top of the SNP ID column.</li>
 <li>The NCBI build number appears (in parentheses) at the top of the Map Position column.</li>
 </ul>
 </p>
@@ -99,28 +115,61 @@ function openHelpWindow(helpFile){
 <H3><A NAME="usage"></A>How do I use a Mouse SNP summary?</H3>
 <P>There are several ways to use the summary reports. You can:</P>
 <uL>
-<LI>Select and view details about individual SNPs at dbSNP (NCBI) or MPD (Mouse Phenome Database) or on the MGI SNP Detail page.</LI>
-<li>Return to the query page and <UL>
-<LI>Increase or decrease the maximum number of items returned (for example, when the display limit is less than the number of matching SNPs found).</LI>
-<LI>Change the allele display mode (Same, Different, All).</LI>
-<LI>Add or change selected strains or the reference strain.</LI>
-<li>Change the marker range (genome coordinate discrepancies have a less severe effect on marker range searches when the distance between your flanking markers increases).
-</UL>
-<li>Click the Back button to return to the results of a previous query. Here you can modify that query and run it again, or you can click Reset to empty all fields, restore default values, and then requery.</li>
+<LI>Select and view details about individual SNPs at dbSNP (NCBI) or MPD (Mouse Phenome Database) or on the MGI SNP Detail page from the SNP ID column.</LI>
+<li>Follow links to marker details from the Genes & Category column.
+<li>Rearrange columns. See <a href="#summary_sort">Can I change the strain order in the query results?</a>
+<li>Modify your search. See <a href="#revise">Can I edit my original options and requery?</a></li>
+<li>Export your results as a tab-delimited file. See <a href="#tabfile">How do I retrieve my results as a tab-delimited text file?</a>
 </uL>
 </p>
 <font size="-1"> <a href="#top">Top</a>
 </font>
-<h3>How do I interpret the legend?</h3>
-<p>Results are sorted by chromosome and then coordinate value. Chromosome transitions are marked by blank rows. See <A HREF="SNP_legend_help.shtml">Interpreting the MGI Mouse SNPs Legend</a> for details about the data appearing in the table columns and rows.</p>
+<h3>How do I interpret the Results Table?</h3>
+<p>Results are sorted by chromosome and then coordinate value. <!--Chromosome transitions are marked by blank rows.--> See <A HREF="SNP_legend_help.shtml">Interpreting the MGI Mouse SNPs Results Table</a> for details about the data appearing in the table columns and rows.</p>
 
+<h3><a name="revise"></a>Can I edit my original options and requery?</h3>
 
+<p>Yes, you can.</p>
+<ul><li>If you want to edit a list or change output options:</li>
+<ol>
+  <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. </li>
+  <li>Make your changes.</li>
+  <li>Click Search.</li>
+  <li>Repeat until the desired results appear.</li>
+</ol>
+</ul>
+
+<b>Notes:</b> 
+<ul>
+<li>You can requery as many times as you like.</li>
+<!--<li>If you had <a href="#filter">filtered</a> your search results, when you modify your search, the filters are automatically applied to your modified results.</li>-->
+<li>Alternatively, click Reset to return to the original Genes and Markers Query form. </li>
+</ul>
+</p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
+<H3><A NAME="summary_sort"></A>Can I change the strain order in the query results?</H3>
+
+<p>Yes. You can drag strain and other column headings at the top of the results table to rearrange them. </p>
+
+<A HREF="#top"<font size-"-1">Top</font></A>
+
+<h3><a name="snpfilter"></a>How do I filter my results?</h3>
+<p>You can filter results by dbSNP Function Class. Function Classes are assigned by dbSNP. Click <a href="SNP_legend_help.shtml#dbSNP_classes" target="_blank">here</a> for a description of the dbSNP Function Classes. Click the "Filter SNPs by: dbSNP Function Class" button above your results and check the classes you wish to retain after filtering. If you have reordered columns, filtering will reset to the original order. </p> 
+
+<font size="-1"> <a href="#top">Top</a></font>
+
+<h3><a name="tabfile"></a>How do I retrieve my results as a tab-delimited text file?</h3>
+<p>In your search results, click on the <i>SNPs to Text File</i> icon. Your web browser will download a file of the results that remain after any filtering you may have performed.</p>
+
+<font size="-1"> <a href="#top">Top</a></font>
 
 <h3><a name="discrepancy"></a>How does genome coordinate discrepancy affect my results?</h3>
 <p>When there is genome coordinate discrepancy, the summary section with links to associated genes from any returned coordinate regions does not appear.<!--When the discrepancy exists, a message indicating that the Associated Genes section is   temporarily disabled appears in the query summary report and you cannot click either the MGI Mouse Genome Browser or the MGI genes/markers links to view any returned coordinate ranges.--> This is because genome coordinates for mouse genes and markers in MGI are derived from the current NCBI mouse genome build but the coordinates for mouse SNPs are derived from an earlier NCBI mouse genome build (as, for example, when MGI genome coordinates are derived from NCBI build 34 but the dbSNP data references NCBI build 33).  See <A href="SNP_discrepancy_help.shtml" target="_blank">Understanding Mouse SNP Coordinate Discrepancies</a> for further information.
 </p>
 
-<H3><A NAME="ftp"></A>I got a summary report with a "Link to Results on FTP Site" message. What do I do now?</H3>
+<!--<H3><A NAME="ftp"></A>I got a summary report with a "Link to Results on FTP Site" message. What do I do now?</H3>
 
 <P>The Mouse SNP Summary Report with the FTP link summarizes your query parameters at the top of the page and beneath this, lists the number of items that matched your query.</P>
 
@@ -128,7 +177,7 @@ function openHelpWindow(helpFile){
 <LI>If you want to retrieve those matches right now, click the link (i.e., <I>ftp://ftp.informatics.jax.org/pub/custom/wi_generated/@26713.1/queryResults</i>).
 
 <LI>If you want to access your results later, copy or save the URL to the MGI FTP site and make a note of how long they will be retained. If you don't retrieve your results within 72 hours, you'll have to rerun this query.</LI>
-</UL></p>
+</UL></p>-->
 <font size="-1"> <a href="#top">Top</a>
 </font>
 <!--#include file='include/templateBlankBodyStop.html'--> 

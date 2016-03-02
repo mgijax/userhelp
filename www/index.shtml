@@ -97,6 +97,8 @@ User Help Site Map
               Using the Gene Expression Data Query Form</a></dd>
 <dd><a href="EXPRESSION_expanded_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_expanded_help.shtml'); return false;">
               Using the Differential Expression Search</a></dd>
+<dd><a href="EXPRESSION_batch_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_batch_help.shtml'); return false;">
+              Using the Gene Expression Batch Search</a></dd>
 <dd><a href="EXPRESSION_literature_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_literature_help.shtml'); return false;">Using the Gene Expression Literature Query Form</a></dd>
 <dd><a href="EXPRESSION_query_results_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_query_results_help.shtml'); return false;">Interpreting Gene Expression Data and Image Details</a> </dd>
 <!--<dd><a href="EXPRESSION_image_summary_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_image_summary_help.shtml'); return false;">Interpreting the Gene Expression Data Images Query by Gene Summary</a></dd>-->
@@ -150,18 +152,16 @@ User Help Site Map
 	 <dd><a href="STRAINS_polymorphism_help.shtml" onclick="javascript:openHelpWindow('STRAINS_polymorphism_help.shtml'); return false;">Using the RFLP/PCR Polymorphism Query Form</a></dd>-->
 	
 	<dt><b>SNPs</b></dt>         
-           <dd><a href="SNP_help.shtml" onclick="javascript:openHelpWindow('SNP_help.shtml'); return false;">Using the Mouse SNP Query Form</a></dd>
-	<dd><a href="SNP_summary_help.shtml" onclick="javascript:openHelpWindow('SNP_summary_help.shtml'); return false;">Interpreting a Mouse SNP Summary</a></dd>
-	<dd> <a href="SNP_detail_help.shtml" onclick="javascript:openHelpWindow('SNP_detail_help.shtml'); return false;">Interpreting SNP Details</a></dd>
-           <dd><a href="SNP_discrepancy_help.shtml" onclick="javascript:openHelpWindow('SNP_discrepancy_help.shtml'); return false;">Understanding Mouse SNP Coordinate Discrepancies</a></dd>
-     <dd><a href="SNP_legend_help.shtml" onclick="javascript:openHelpWindow('SNP_legend_help.shtml'); return false;">Interpreting the MGI Mouse SNPs Legend</a></dd>
-     <dd><a href="SNP_load_help.shtml" onclick="javascript:openHelpWindow('SNP_load_help.shtml'); return false;">Interpreting the SNP Data in MGI</a></dd>
-<dd><a href="SNP_terms_help.shtml" onclick="javascript:openHelpWindow('SNP_terms_help.shtml'); return false;">SNP Terms and Concepts</a></dd>
-     <dd><a href="SNP_no_results_help.shtml" onclick="javascript:openHelpWindow('SNP_no_results_help.shtml'); return false;">My SNP query returned no results. Why?</a></dd>          
-        
-  </blockquote>   
+        <dd><a href="SNP_help.shtml" onclick="javascript:openHelpWindow('SNP_help.shtml'); return false;">Using the Mouse SNP Query Form</a></dd>
+	    <dd><a href="SNP_summary_help.shtml" onclick="javascript:openHelpWindow('SNP_summary_help.shtml'); return false;">Interpreting a Mouse SNP Summary</a></dd>
+	    <dd><a href="SNP_detail_help.shtml" onclick="javascript:openHelpWindow('SNP_detail_help.shtml'); return false;">Interpreting SNP Details</a></dd>
+        <dd><a href="SNP_discrepancy_help.shtml" onclick="javascript:openHelpWindow('SNP_discrepancy_help.shtml'); return false;">Understanding Mouse SNP Coordinate Discrepancies</a></dd>
+        <dd><a href="SNP_legend_help.shtml" onclick="javascript:openHelpWindow('SNP_legend_help.shtml'); return false;">Interpreting the MGI Mouse SNPs Results Table</a></dd>
+        <!--<dd><a href="SNP_load_help.shtml" onclick="javascript:openHelpWindow('SNP_load_help.shtml'); return false;">Interpreting the SNP Data in MGI</a></dd>-->
+        <dd><a href="SNP_terms_help.shtml" onclick="javascript:openHelpWindow('SNP_terms_help.shtml'); return false;">SNP Terms and Concepts</a></dd>
+        <dd><a href="SNP_no_results_help.shtml" onclick="javascript:openHelpWindow('SNP_no_results_help.shtml'); return false;">My SNP query returned no results. Why?</a></dd>          
+     </blockquote>   
       
-  
   <a name="help_other_searches"></a>
           <dt class="enhance">Other Searches</dt>
 

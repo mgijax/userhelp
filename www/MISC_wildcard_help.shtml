@@ -101,7 +101,7 @@ link to Adp because its gene name is <B>acr</B>odysplasia.</P>
 
 <P>For most queries, you can use the * (asterisk) for text field searches. You can place the wild card symbol only after the text in the search field. 
 </p>
-<p>The table below lists all the wild cards you can use on the MGI Mouse SNP Query Form. 
+<!--<p>The table below lists all the wild cards you can use on the MGI Mouse SNP Query Form. 
 </P>
 <p>
 <blockquote>
@@ -113,7 +113,7 @@ space)</td> </tr>
 
 <tr> <td valign="top">[abc]</td> <td valign="top">Matches any one of a, b, or c</td> </tr> </table>
 
-</blockquote>
+</blockquote>-->
 
 <BR> <BR>  <a href="#top"><font size="-1">Top</font></a>
 
