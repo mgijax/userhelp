@@ -115,8 +115,8 @@ function openHelpWindow(helpFile){
 <blockquote>
 <table border="1" cellpadding="4" cellspacing="1">
 <tr align="left" valign="top"><th valign="top">Class</th><th valign="top">The variation ...</th></tr>
-<tr><td><b>Locus-Region upstream</b></td><td>Is an annotation that falls upstream of the annotated gene.</td></tr>
-<tr><td><b>Locus-Region downstream</b></td><td>Is an annotation that falls downstream of the annotated gene.</td></tr>
+<tr><th><b>Locus-Region upstream</b></th><td>Is an annotation that falls upstream of the annotated gene.</td></tr>
+<tr><th><b>Locus-Region downstream</b></th><td>Is an annotation that falls downstream of the annotated gene.</td></tr>
 <tr><th>x bp upstream</th><td>Lies within the distance indicated, upstream from the gene's 5' coordinate.</td></tr>
 <tr><th><nobr>x bp downstream</th><td>Lies within the distance indicated, downstream from the gene's 3' coordinate.</td></tr>
 <tr><th>within coordinates of</th><td>Lies within the MGI coordinate range of the gene and has no dbSNP annotation.</td></tr>
