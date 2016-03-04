@@ -130,12 +130,14 @@ The following are additional types (not listed on the pulldown menu), followed b
 
 <h3><a name="column"></a>Can I upload a particular column of IDs/Symbols from a file?</h3>
 
-<p>Yes, you can. In the <b>Use IDs from a File</b> section of the form: 
+<p>Yes, you can import a column from a text file. In the <b>Use IDs from a File</b> section of the form: 
 <ol>
 	<li>Select your file type: tab-delimited or comma separated.</li> 
 	<li>Click the <i>Choose File</i> button to browse for your file.</li>
 	<li>In the <i>ID/Symbols column:</i> field, type the column number that you wish to import.</li>
 </ol>
+</p>
+<p><b>Note:</b> To import a column of symbols or IDs from a spreadsheet, first export the file as text or CSV (Comma Separated Values) and then import the column or copy and paste a column directly from the spreadsheet.
 </p>
 
 <a href="#top"><font size="-1">Top</font></a>
