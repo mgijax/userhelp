@@ -146,7 +146,7 @@ For example:
     <td valign=top>
 	<table border="0" cellspacing="1" cellpadding="2" width="!">
 	  
-	  <tr><th align="left" valign="top"><nobr>All for this allele: |</nobr></th>
+	  <tr><th align="left" valign="top"><nobr>All for this allele: </nobr></th>
 	      <td valign="top">  Number of and link to the References Query Results -- Summary of all the MGI papers  for this allele.</td></tr>
   	</table>
     </td>
