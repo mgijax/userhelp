@@ -88,7 +88,7 @@ MI0000248
 </blockquote>
 
   <li>When all the items on your input list are of the same type and you wish to constrain the query, click the arrow to the right of the Type box and select that type from the list. (See <a href="#why_constrain">When would I constrain my search to a single input type?</a> for more details.)</li>
-  <li>To search with gene names, put the name in quotes. For example, to search for the kit ligand gene, use, "kit ligand" to find expression for Kitl. A search for kit ligand, without the quotes, will search for <i>kit</i> and <i>ligand</i> and only return results for the Kit gene.</li>
+  <!--<li>To search with gene names, put the name in quotes. For example, to search for the kit ligand gene, use, "kit ligand" to find expression for Kitl. A search for kit ligand, without the quotes, will search for <i>kit</i> and <i>ligand</i> and only return results for the Kit gene.</li>-->
  </ul><br>
 
 The following are representative examples for each type listed on the pulldown menu:
@@ -98,12 +98,12 @@ The following are representative examples for each type listed on the pulldown m
 <tr><td valign="top">MGI Gene/Marker ID</td><td valign="top">MGI:96677</td></tr>
 <tr><td valign="top">Current Symbols Only</td><td valign="top">Trp53 <br>Pax6<br>D11Mit10</td> </tr>
 
-<tr><td valign="top">All Symbols/Synonyms/Orthologs<br>(includes both current and old symbols)<td valign="top">Pax6<br>Pax-6<br>Trp53<br>P53</td></tr>
+<tr><td valign="top">All Symbols/Synonyms/Homologs<br>(includes both current and old symbols)<td valign="top">Pax6<br>Pax-6<br>Trp53<br>P53</td></tr>
 <tr><td valign="top">Entrez Gene ID</td><td valign="top">16590</td></tr>
 <tr><td valign="top">Ensembl ID </td><td valign="top">ENSMUSG00000028530</td></tr>
 <tr><td valign="top">VEGA ID</td><td valign="top">OTTMUSG00000015949</td></tr>
 <tr><td valign="top">UniGene ID</td><td valign="top">247073</td></tr>
-<tr><td valign="top">MiRBase ID</td><td valign="top">MI0000248</td></tr>
+<tr><td valign="top">miRBase ID</td><td valign="top">MI0000248</td></tr>
 <tr><td valign="top">GenBank/RefSeq ID*</td><td valign="top">NM_001122899<br> AK033644<br>NP_666257</td></tr>
 <tr><td valign="top">UniProt ID</td><td valign="top">P48356<br>A2AKJ2</td></tr>
 <tr><td valign="top">GO (Gene Ontology)</td><td valign="top">GO:0019221</td></tr>
@@ -167,8 +167,8 @@ The following are additional types (not listed on the pulldown menu), followed b
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="gxdfilter"></a>How do I filter my results?</h3>
-<p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for Wild type or mutant specimens. In the banner above your results, after <i>Filter expression data by:</i> click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>. Note: Filtering out mutants will retain heterozygous <i>in situ</i> knockin mutants.</p>
-<p>Both Matrix tabs offer easy filtering by tissue, and the Tissue x Stage Matrix also offers filtering by developmental stage/age and the Tissue x Gene Matrix permits filtering by gene symbol. Check the rows or columns you wish to retain and then click the Filter (<img image width="13" height="13" src="<!--#include file='include/webshare_url.html'-->images/filter.png">) button in the grid to apply the filters. These filters are also applied to all tabs.</p> 
+<p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for Wild type or mutant specimens. In the banner above your results, after <i>Filter expression data by:</i> click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>. Note: Filtering out mutants will retain heterozygous <i>in situ</i> knock-in mutants.</p>
+<p>Both Matrix tabs offer easy filtering by tissue. The Tissue x Stage Matrix also offers filtering by developmental stage/age and the Tissue x Gene Matrix permits filtering by gene symbol. Check the rows or columns you wish to retain and then click the Filter (<img image width="13" height="13" src="<!--#include file='include/webshare_url.html'-->images/filter.png">) button in the grid to apply the filters. These filters are also applied to all tabs.</p> 
 
 <a href="#top"><font size="-1">Top</font></a>
 
@@ -180,7 +180,7 @@ The following are additional types (not listed on the pulldown menu), followed b
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="excelfile_gxdqf"></a>Can I get my results as tab-delimited text or spreadsheet files?</h3>
-<p>Yes. The <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a> tabs but not the others, provide export options. In your search results, click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
+<p>Yes. The <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a> tabs provide export options. In your search results, click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
 
 <font size="-1"><A HREF="#top">Top</A></font>
 
