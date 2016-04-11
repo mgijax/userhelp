@@ -160,7 +160,7 @@ The following are additional types (not listed on the pulldown menu), followed b
 <b>Notes:</b> 
 <ul>
 <li>You can requery as many times as you like.</li>
-<li>If you had <a href="#gxdfilter">filtered</a> your search results, when you modify your search, the filters are automatically applied to your modified results.</li>
+<li>If you had <a href="#gxdfilter">filtered</a> your search results, when you modify your search, the filters are reset.</li>
 <li>Alternatively, click Reset to clear the fields. </li>
 </ul>
 </p>
