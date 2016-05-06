@@ -97,7 +97,7 @@ function openHelpWindow(helpFile){
     <TD><A name="dpc"></A>Days post conception of the specimen used in the reference. In addition to specific age values available on the drop-down list, there are also <b>E</b> and <B>A</B>.
 <ul>
 <li><B>E</B> is the abbreviation for <I>embryonic</I> and means that an author indicated that embryonic expression was analyzed but did not indicate the exact age of the tissue examined. Using E returns only this type of expression data; it does not return data for all embryonic stages.</li>
-<li><B>A</B> is the abbreviation for <I>adult</I>; you can use it to search for studies of postnatal expression.</li>
+<li><B>P</B> is the abbreviation for <I>postnatal</I>; you can also use it to search for studies of adult expression.</li>
 <li>The default age value is ANY.</li>
 <li>To select more than one value: 
 <ul>
@@ -181,7 +181,7 @@ function openHelpWindow(helpFile){
 <p>The Summary by Age and Assay table groups search criteria matches according to the age of the specimen analyzed and the assay type used for the analysis.</p>
 <ul>
 <li><b>E</b> is the abbreviation for embryonic.  An E without a subsequent number indicates a reference with embryonic expression analysis where exact the tissue age was unreported.</li>
-<li><b>A</b> is the abbreviation for Adult and indicates that postnatal expression was analyzed.</li>
+<li><b>P</b> is the abbreviation for Postnatal and indicates that postnatal expression was analyzed.</li>
 <li>The numbers in the columns are linked to result details.
    <ul>
    <li> A 1 links directly to the detail record. </li>
@@ -212,7 +212,7 @@ function openHelpWindow(helpFile){
 
 <table border=0 cellpadding="4" cellspacing="0">
    <tr><td valign="top"><b>E</b></td><td valign="top">Embryonic expression analyzed, exact age of tissue not specified in reference</td></tr>
-   <tr><td valign="top"><b>A</b></td><td valign="top">Adult (i.e., postnatal) expression analyzed.</td></tr>
+   <tr><td valign="top"><b>P</b></td><td valign="top">Postnatal (i.e., adult) expression analyzed.</td></tr>
 </table>
 
 </blockquote>
