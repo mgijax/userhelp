@@ -180,15 +180,15 @@ function openHelpWindow(helpFile){
 <h4><a name="irbaa"></a>Summary by Age and Assay</h4>
 <p>The Summary by Age and Assay table groups search criteria matches according to the age of the specimen analyzed and the assay type used for the analysis.</p>
 <ul>
-<li><b>E</b> is the abbreviation for embryonic.  An E without a subsequent number indicates a reference with embryonic expression analysis where exact the tissue age was unreported.</li>
+<li><b>E</b> is the abbreviation for embryonic.  An E without a subsequent number indicates a reference with embryonic expression analysis where the exact age of the tissue was unreported.</li>
 <li><b>P</b> is the abbreviation for Postnatal and indicates that postnatal expression was analyzed.</li>
 <li>The numbers in the columns are linked to result details.
    <ul>
-   <li> A 1 links directly to the detail record. </li>
-   <li> A number greater than 1 links to a summary result, grouped by gene and reference, where you can follow links tp additional details.</li>
+   <li> If the number is 1, it links directly to the detail record. </li>
+   <li> If the number is greater than 1, it links to a summary result, grouped by gene and reference, where you can follow links to additional details.</li>
   </ul>
-<li>The Summmary by Age and Assay table does not appear on pages accessed from the links within this table.</li>
 </ul></p>
+
 <h4><a name="irbgr"></a>Summary by Gene and Reference</h4>
   <ul>
   <li>This listing groups results from matching content records by gene. </li>
