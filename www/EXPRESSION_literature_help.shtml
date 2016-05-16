@@ -94,7 +94,7 @@ function openHelpWindow(helpFile){
     <TD>Selection list of assay types. Use this field to limit your search to assays of one or more selected types. The default operator is ANY. </td></tr>
 
 <TR><td valign="top"><a name="age"></a><b>Age</b></Td>
-    <TD><A name="dpc"></A>Days post conception of the specimen used in the reference. In addition to specific age values available on the drop-down list, there are also <b>E</b> and <B>A</B>.
+    <TD><A name="dpc"></A>Days post conception of the specimen used in the reference. In addition to specific age values available on the drop-down list, there are also <b>E</b> and <B>P</B>.
 <ul>
 <li><B>E</B> is the abbreviation for <I>embryonic</I> and means that an author indicated that embryonic expression was analyzed but did not indicate the exact age of the tissue examined. Using E returns only this type of expression data; it does not return data for all embryonic stages.</li>
 <li><B>P</B> is the abbreviation for <I>postnatal</I>; you can also use it to search for studies of adult expression.</li>
@@ -212,7 +212,7 @@ function openHelpWindow(helpFile){
 
 <table border=0 cellpadding="4" cellspacing="0">
    <tr><td valign="top"><b>E</b></td><td valign="top">Embryonic expression analyzed, exact age of tissue not specified in reference</td></tr>
-   <tr><td valign="top"><b>P</b></td><td valign="top">Postnatal (i.e., adult) expression analyzed.</td></tr>
+   <tr><td valign="top"><b>P</b></td><td valign="top">Postnatal (includes adult) expression analyzed.</td></tr>
 </table>
 
 </blockquote>
