@@ -48,6 +48,17 @@ function openHelpWindow(helpFile){
  
 <h3><a name="gene"></a>How to search with gene symbols</h3>
 
+<a href="#top">Top</a>
+
+<h3><a name="disease"></a>How to search with disease or phenotype terms</h3>
+
+<a href="#top">Top</a>
+
+<h3><a name="IDs"></a>How to search with disease or phenotype IDs</h3>
+
+<a href="#top">Top</a>
+
+<h3><a name="genome"></a>How to search with genome locations</h3>
 
 <a href="#top">Top</a>
 
