@@ -63,7 +63,7 @@ function openHelpWindow(helpFile){
 </UL>
 <P>See also:
 <UL>
-  <LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
+  <LI><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a> (unfamiliar terms or acronyms)</LI>
   <LI><A HREF="ALLELE_help.shtml" target="_blank">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
   <LI><A HREF="ALLELE_summary_help.shtml" target="_blank">Understanding Phenotypic Allele Summary Reports</A></LI>
   <LI><A HREF="ALLELE_detail_help.shtml" target="_blank">Understanding Phenotypic Allele Detail Reports</a></li>
