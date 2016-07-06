@@ -50,7 +50,7 @@ Using the Clone Collection Field on MGI Query Forms</span>
 
 <H3><A NAME="clone_collection"></A>What are clone collections in MGI?</H3>
 <P>Clone collections in MGI refer to designated sets of clones from specific clone libraries. In some cases, the designated set of clones includes all clones from the specified libraries (for example, the IMAGE clone collection is the group of clones from all I.M.A.G.E. consortium clone libraries). In other cases, the designated set of clones includes a well-defined subset of clones from the specified libraries (for example, the NIA 15K clone set is a subset of clones derived from NIA libraries). Clone data in MGI include sequence associations and clone library molecular source information. For all MGI clone collections, molecular source information is mapped to MGI 
-<A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=glossaryTerm&key=controlled_vocabulary">controlled vocabularies</A>. </p>
+<a href="<!--#include file='include/fewi_url.html'-->glossary/controlled_vocabularies">controlled vocabularies</a>. </p>
 <A HREF="#top">Top</A>
 
 <H3><A NAME="which_clone"></A>Which clone collections does MGI contain?</H3>

@@ -59,8 +59,7 @@ function openHelpWindow(helpFile){
 
 <P>See also:</P>
 <UL>
-<LI><A HREF="<!--#include file='include/javawi_url.html'-->/WIFetch?page=glossaryIndex&printFormat=footer" target="_blank">MGI Glossary</A> (for unfamiliar terms or acronyms)</LI>
-<LI><A HREF="mouseblast_basic_steps_help.shtml" target="_blank">Using MouseBLAST - Basic Steps</A></LI>
+<LI><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a> (for unfamiliar terms or acronyms)</LI>
 </UL>
 
 <H3><A NAME="contain"></A>What's in the Mammalian Orthology Query Results?</H3>

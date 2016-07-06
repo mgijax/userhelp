@@ -53,7 +53,6 @@ function openHelpWindow(helpFile){
     <li>the Phenotypes, Alleles, & Disease Models Query Form for locating recombinase-containing transgene or knock-in alleles or for flox or frt alleles.</li>
   <li>the Gene Expression Data Query Form to find endogenous gene expression.</li>
   </ul>
-<!--<li><a href="http://www.informatics.jax.org/javawi2/servlet/WIFetch?page=expressionQF">Gene Expression Data Query Form</li>-->
 </UL></P>
 
 

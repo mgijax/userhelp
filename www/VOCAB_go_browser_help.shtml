@@ -97,7 +97,7 @@ JAMIA Symposium Supplement: 1037.
 
 
 <TR><TD VALIGN="top">+</TD><TD>A plus sign (+) following a term indicates that the term has 
-<A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=glossaryTerm&key=children" target="_blank">children</A>. Click on the term to see the additional paths.</TD>
+<a href="<!--#include file='include/fewi_url.html'-->glossary/children">children</a>. Click on the term to see the additional paths.</TD>
 </TR>
 
 <TR>
