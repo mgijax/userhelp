@@ -130,7 +130,7 @@ If you are interested in doing queries that ask what genes are expressed in some
 	<ul>
 	<li>Function: <a href="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml" target="_blank">GO Browser</a></li>
 	<li>Phenotype: <a href="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a></li>
-	<li>Disease: <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A" target="_blank">Human Disease Vocabulary Browser</a></li>
+	<li>Disease: <a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</a></li>
 	</ul>
 </ul>
 </p>
@@ -367,6 +367,8 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
      <td>Symbol of the analyzed gene(s).</td></tr>
  <tr><td valign="top"><b>Assay Type</b></td>
      <td valign="top">Name of the assay(s) used (e.g., Immunohistochemistry, Northern blot, RNA in situ, and so on).</td></tr>
+     <tr><td valign="top"><b>Specimen Type</b></td>
+     <td valign="top">Describes whether the sample is a whole mount, section, or section from a whole mount. This column can be sorted.</td></tr>
  <tr><td valign="top"><b>Result Details</b></td>
      <td valign="top">Links to image and expression assay result details.</td></tr>
 </table></p>
