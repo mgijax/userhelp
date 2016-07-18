@@ -50,11 +50,11 @@ Using the Human&mdash;Mouse: Disease Connection </span>
     <li><a href="#relationship">Can I query using both a phenotype term and a disease term?</a></li>
 	</ul>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
- <li><A href="#vcf">How can I search with a VCF file?</a></li>
+ <!--<li><A href="#vcf">How can I search with a VCF file?</a></li>
  	<ul>
  		<li><a href="#process">How are VCF files processed?</a></li>
  		<li><a href="#vcfexamples">Are there example VCF files?</a></li>
- 	</ul>
+ 	</ul>-->
  <li><a href="#hdp_results">How do I interpret the query results?</a></li>
  <li><a href="#hmdcfilter">How do I filter my results?</a></li>
  <li><A href="#output">Are there different ways to view the output of my query?</A></li>
@@ -199,7 +199,7 @@ The Effective Phenotype Query shows only what you type in the Search by disease 
 
 <a href="#top"><font size="-1">Top</font></a>
 
-<h3><a name="vcf"></a>How can I search with a VCF file?</h3>
+<!--<h3><a name="vcf"></a>How can I search with a VCF file?</h3>
 
 <p>Use the radio buttons to specify the species and click <i>Choose File</i> to browse for your VCF (Variant Call Format) file.</p> 
 
@@ -232,7 +232,7 @@ VCF files are processed in the following manner:
 
 <p>Yes. You can test the form by downloading a sample <a href="<!--#include file='include/mgihome_url.html'-->other/exampleMouseData.vcf">mouse</a> or <a href="<!--#include file='include/mgihome_url.html'-->other/exampleHumanData.vcf">human</a> data file.</p>
 
-<a href="#top"><font size="-1">Top</font></a>
+<a href="#top"><font size="-1">Top</font></a>-->
 
 <H3><a name="hdp_results"></a>How do I interpret the query results?</H3>
 
