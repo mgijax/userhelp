@@ -43,6 +43,7 @@ function openHelpWindow(helpFile){
 	<li><a href="#disease">How to search with disease or phenotype terms</a></li>
 	<li><a href="#IDs">How to search with disease or phenotype IDs</a></li>
 	<li><a href="#genome">How to search with genome locations</a></li>
+	<li><a href="#phenoRegion">How to search with a genomic region and a phenotype</a></li>
  </ul>
 </p>
  
@@ -64,6 +65,20 @@ function openHelpWindow(helpFile){
    <li>Click the Search button.</li>
 </ol>
 
+<p>You can also upload a file of gene symbols or IDs: 
+<ol> 
+	<li>Toggle "Please select a field" to "Gene File Upload."</li>
+  	<blockquote>
+<img src="images/SelectField.png"  border="0" width="274" height="81" alt="select a field">
+   	</blockquote>
+   	<li>Click the Choose File button to browse your computer and select a file to upload.</li>
+   	<li>Toggle the Column Number to choose the column of gene symbols or IDs in your file that you wish to use to search the HMDC.</li>
+   	<li>Indicate the Delimiter for your file: Tab, Semicolon, or comma.</li>
+   	<li>You can check the box to Ignore the Header Row.</li> 
+   	<li>Click the Search button.</li>
+</ol>
+</p>
+   
 <a href="#top">Top</a>
 
 <h3><a name="disease"></a>How to search with disease or phenotype terms</h3>
@@ -80,11 +95,17 @@ function openHelpWindow(helpFile){
   <li>Toggle "Please select a field" to "Genome Location."</li>
   <li>Select the species and build. In this example: Human (GRCh38).</li>
   <li>Enter the region: 19:43341000-44910000 <br>
-      (This format is also supported: Chr19:43341000-44910000</li> 
+      (This format is also supported: Chr19:43341000-44910000)</li> 
   <li>Click the Search button.</li>
 </ol>
 
 <p>The HMDC uses coordinates from the latest builds of the the mouse and human genome assemblies. If your coordinates are from earlier assemblies, you can convert them to the current assembly coordinates with the <a href="http://www.ncbi.nlm.nih.gov/genome/tools/remap#tab=asm">NCBI Genome Remapping Service</a> tool.</p>
+
+<a href="#top">Top</a>
+
+<h3><a name="phenoRegion"></a>>How to search with a genomic region and a phenotype</h3>
+
+
 
 <a href="#top">Top</a>
 
