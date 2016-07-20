@@ -41,7 +41,6 @@ function openHelpWindow(helpFile){
  <ul>
 	<li><a href="#gene">How to search with gene symbols</a></li>
 	<li><a href="#disease">How to search with disease or phenotype terms</a></li>
-	<li><a href="#IDs">How to search with disease or phenotype IDs</a></li>
 	<li><a href="#genome">How to search with genome locations</a></li>
 	<li><a href="#phenoRegion">How to search with a genomic region and a phenotype</a></li>
  </ul>
@@ -65,29 +64,51 @@ function openHelpWindow(helpFile){
    <li>Click the Search button.</li>
 </ol>
 
+<p>Note: Unlike most MGI search forms, the HMDC does not support wildcards. To find information about a family of genes, you can use the "Gene Name" field as in the next example which finds information on the bone morphogenetic proteins. 
+
+<ol>
+	<li>Toggle "Please select a field" to "Gene Name."</li>
+	<li>Enter: bone morphogenetic</li>
+	<blockquote>
+<img src="images/hmdc_bmp.png"  border="0" width="454" height="82" alt="search by gene name">
+   </blockquote>
+	<li>Click the Search button.</li>
+</ol>
+
+As an alternative, you can use the <a href="<!--#include file='include/fewi_url.html'-->marker">Genes & Markers Query's</a> Export options to create a file of bone morphogenetic protein gene symbols or IDs to upload, as in the next example. 
+</p>
+
+<p>See <a href="GENE_help.shtml" target="_blank">Using the Genes and Markers Query Form</a> for additional help.
+</p> 
+
 <p>You can also upload a file of gene symbols or IDs: 
 <ol> 
 	<li>Toggle "Please select a field" to "Gene File Upload."</li>
-  	<blockquote>
-<img src="images/SelectField.png"  border="0" width="274" height="81" alt="select a field">
-   	</blockquote>
    	<li>Click the Choose File button to browse your computer and select a file to upload.</li>
    	<li>Toggle the Column Number to choose the column of gene symbols or IDs in your file that you wish to use to search the HMDC.</li>
    	<li>Indicate the Delimiter for your file: Tab, Semicolon, or comma.</li>
    	<li>You can check the box to Ignore the Header Row.</li> 
+   	<blockquote>
+<img src="images/hmdc_upload.png"  border="0" width="785" height="216" alt="upload a list of genes">
+   	</blockquote>
    	<li>Click the Search button.</li>
 </ol>
+</p>
+<p>Note: The maximum number of markers you can upload at one time is currently 565. If you have files larger than this, then break them up into separate searches.
 </p>
    
 <a href="#top">Top</a>
 
 <h3><a name="disease"></a>How to search with disease or phenotype terms</h3>
 
-<a href="#top">Top</a>
-
-<h3><a name="IDs"></a>How to search with disease or phenotype IDs</h3>
-
-<a href="#top">Top</a>
+<ol>
+  <li>Toggle "Please select a field" to "Phenotype or Disease Name."</li>
+  <li>Start typing charcot-marie and then select Charcot-Marie-Tooth from the list that appears. The selection list also shows specific Charcot-Marie-Tooth Disease types. If you are interested in a specific type, then select that instead. To select multiple types, use the Add button.<li>
+  <blockquote>
+<img src="images/hmdc_charcot.png"  border="0" width="453" height="78" alt="search by disease">
+   	</blockquote>
+  <li>Click the Search button.</li>
+</ol>
 
 <h3><a name="genome"></a>How to search with genome locations</h3>
 
@@ -105,8 +126,22 @@ function openHelpWindow(helpFile){
 
 <h3><a name="phenoRegion"></a>>How to search with a genomic region and a phenotype</h3>
 
+<p>To find information on genes linked to ataxia for a region of mouse Chromosome 2:
 
-
+<ol>
+  <li>Toggle "Please select a field" to "Genome Location."</li>
+  <li>Select Mouse (GRCm38) (the default selection).</li>
+  <li>Enter the region: 2:18677000-136783000</li>
+  <li>Click the Add button.</li>
+  <li>Toggle "Please select a field" to "Phenotype or Disease Name."<li>
+  <li>Enter: ataxia and select it from the list that appears.</li>
+  <li>Use the default boolean to "AND the above fields together."</li>
+  <blockquote>
+<img src="images/hmdc_phenoRegion.png"  border="0" width="467" height="244" alt="search by genomic region and phenotype">
+   	</blockquote>
+  <li>Click the Search button.</li>
+</ol>
+  
 <a href="#top">Top</a>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
