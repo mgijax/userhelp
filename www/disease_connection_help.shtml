@@ -21,7 +21,7 @@ function openHelpWindow(helpFile){
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
-Using the Human&mdash;Mouse: Disease Connection </span>
+Using the Human - Mouse: Disease Connection </span>
 </div>
 
 <!-- Container Table -->
@@ -40,9 +40,9 @@ Using the Human&mdash;Mouse: Disease Connection </span>
 
 <p>This help document answers the following questions:</p>
  <ul>
- <li><A HREF="#whatuse">What can I use the Human&mdash;Mouse: Disease Connection Form to find?</A></li>
+ <li><A HREF="#whatuse">What can I use the Human - Mouse: Disease Connection, (HMDC) Form to find?</A></li>
  <li><A HREF="#glossary">How does MGI define <I>phenotype, disease,</i> and <I>allele</I>? </a></li>
- <li><A HREF="#howfill">How do I fill in this query form?</A></li>
+ <li><A HREF="#howfill">How do I use this query form?</A></li>
 	<ul>
 	<li><A HREF="#field">What values are acceptable in each of the fields?</A></li>
     <li><a href="#mp_ontology">Is there a list of phenotype terms to select from?</a></li>
@@ -62,10 +62,10 @@ Using the Human&mdash;Mouse: Disease Connection </span>
  <li><A HREF="#examples">What are some examples of queries?</A></li>
  </ul>
 
-<H3><A NAME="whatuse"></A>What can I use the Human&mdash;Mouse: Disease Connection Form to find?</H3>
+<H3><A NAME="whatuse"></A>What can I use the Human - Mouse: Disease Connection (HMDC) Form to find?</H3>
 
 <p>Use this query form to find phenotype and disease associations for human and mouse genes and genome regions. You can enter a combination of multiple phenotype terms, disease terms, gene symbols, accession identifiers (IDs) and genome coordinates.
- </P>
+ </p>
 <a href="#top"><font size="-1">Top</font></a>
 <H3><A NAME="glossary"></a>How does MGI define <I>phenotype, disease</I>, and <I>allele</I>?
 </H3>
@@ -93,14 +93,16 @@ Using the Human&mdash;Mouse: Disease Connection </span>
 </P>
 <a href="#top"><font size="-1">Top</font></a>
 
-<H3><A NAME="howfill"></a>How do I fill in this query form?</H3> 
+<H3><A NAME="howfill"></a>How do I use this query form?</H3> 
 
-<P><ol>
-  <li>Enter or select values in one or more of the fields described <a href="#field">below</a>. </li>
-  <li>Click GO to submit the query. </li>
+<p><ul>
+  <li>Enter or select values in one or more of the fields described <a href="#field">below</a>.</li>
+  <li>Click Add to add a new field.</li>
+  <li>Click Remove to remove a field.</li>
+  <li>Click Search to submit the query.</li>
   <li>Click Reset to clear the fields and return any default values.</li>
-</ol>
-</P>   
+</ul>
+</p>   
 <a href="#top"><font size="-1">Top</font></a>
 
 <H3><A NAME="field"></A>What values are acceptable in each of the fields?</H3>
@@ -108,62 +110,80 @@ Using the Human&mdash;Mouse: Disease Connection </span>
 <p>
 <table width="!" cellpadding="2" class="nb" align="center">
 <tr>
-<td align="center">Search by <A HREF="#genes">Genes</a> | <A HREF="#region">Genome Locations</a> | <A HREF="#phenotypes">Disease or Phenotype Terms</A>  </td></tr>
+<td align="center"><b>Search by:</b> <a href="#genes">Gene Symbol(s) or ID(s)</a> | <a href="#genename">Gene Name</a> | <a href="#phenotypes">Phenotype or Disease Name</a> | <a href="#phenoIDs">Phenotype or Disease ID(s)</a> | <a href="#region">Genome Location</a> | <a href="#upload">Gene File Upload</a> </td></tr>
 </table>
 </p>
 <TABLE BORDER="1" CELLSPACING="6" CELLPADDING="4"> 
-<TR><TH>FIELD <TH>DESCRIPTION</TR>
+<tr><th>FIELD</th> <th>DESCRIPTION</th></tr>
 
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="genes"></A>Search by genes</TH><TD>
-Symbol, name, synonym, homolog or ID for a human or mouse genetic marker.
-<ul>
-<li>Enter one or more markers, separated by commas or returns. <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</li>
-<li>The asterisk (*) is supported as a wild-card. As an example, use fbn* to find phenotypes and diseases associated with fibrillins.</li>
-<li>This section also offers the option of uploading a text (.txt) file of a column or comma separated list gene symbols or IDs. </li>
-</ul>
-</TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="region"></A>Search by genome locations</TH><TD>You can enter a list of mouse or human genomic regions (e.g. 2:105668896-108698410, 13:22210730-22311689) and use the radio button to specify the species (Mouse or Human). You can enter multiple regions separated by commas, spaces and/or returns. Use MT for the mouse mitochondrial chromosome.
-<ul>
-<li>You can search with a Chromosome (e.g. 19 or 19: or chr19) but not by chromosome arms or bands. So human chr:7p22 won't return any results. The form will only accept a digit following the chromosome. </li>
-</ul>
-</td> </TR>
+<tr><th><a name="genes"></a>Gene Symbol(s) or ID(s)</th>
+<td>Symbol, synonym, homolog or ID for a human or mouse genetic marker.
+  <ul>
+  <li>Enter one or more markers, separated by commas.</li>
+  <li>Unlike most MGI search forms, the asterisk (*) is NOT supported as a wild card. To find phenotypes and diseases associated with a family of genes, such as fibrillins, use the <a href="#genename">Gene Name</a> field.</li>
+  <li>If you wish to upload a file of a column of comma, semicolon or tab separated list gene symbols or IDs, use the <a href="#upload">Gene File Upload</a> field.</li>
+  </ul>
+</td></tr>
 
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="phenotypes"></A>Search by disease
-or phenotype terms </TH><TD>The <b>Search by disease
+<tr><th><a name="genename"></a>Gene Name</th>
+<td>*** <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</td>
+</tr>
+
+<tr><th><a name="phenotypes"></a>Phenotype or Disease Name</th>
+<td>The <b>Search by disease
 or phenotype terms</b> section is a full-text search field.
-<ul>
-<li>Begin typing a term of interest and an autocomplete list activates on the second character. 
+  <ul>
+  <li>Begin typing a term of interest and an autocomplete list activates on the second character. 
     <ul>
-    <li>The list shows all the OMIM and Mammalian Phenotype (MP) vocabulary terms and their synonyms that match your search characters<!--(shown in bold letters) and the number of genes annotated to each term-->.</li>
+    <li>The list shows all the OMIM, Human Phenotype Ontology (HPO) and Mammalian Phenotype (MP) vocabulary terms and their synonyms that match your search characters<!--(shown in bold letters) and the number of genes annotated to each term-->.</li>
     <!--<li>Terms are greyed out if there are no genes annotated to the term.</li>-->
     <li>You can type the beginnings of multiple terms to narrow the list (example: congest heart).
     </ul>
-<li>Choosing a term includes results for its subterms. For example, selecting <i>abnormal pulmonary pressure</i> also includes results for its subterms, increased pulmonary artery pressure and decreased pulmonary artery pressure.</li>
-<li>After you select a term, you can repeat the process to add additional terms. Multiple entries in a single field does an 'OR' search by default. As an example, you can find microcephaly OR microphthalmia phenotypes. Use 'AND' to find microcephaly AND microphthalmia phenotypes.</li>
-<li>You do not have to select a term. Free text searching is permitted in this field.</li>
-<li>The <b>Effective Phenotype Query</b> displays how the text you enter in the "Search by disease or phenotype terms" box will be interpreted for the search. This display is on by default but may be turned off by removing the check from the box. For example, if you want to find Autism models that have abnormalities in social behavior you can type:<br>
+  <li>Choosing a term includes results for its subterms. For example, selecting <i>abnormal pulmonary pressure</i> also includes results for its subterms, increased pulmonary artery pressure and decreased pulmonary artery pressure.</li>
+  <li>After you select a term, you can click the Add button to repeat the process to add additional terms. Multiple entries in a single field does an 'OR' search by default. As an example, you can find microcephaly OR microphthalmia phenotypes. Use 'AND' to find microcephaly AND microphthalmia phenotypes.</li>
+  <li>You do not have to select a term. Free text searching is permitted in this field.</li>
+  <!--<li>The <b>Effective Phenotype Query</b> displays how the text you enter in the "Search by disease or phenotype terms" box will be interpreted for the search. This display is on by default but may be turned off by removing the check from the box. For example, if you want to find Autism models that have abnormalities in social behavior you can type:<br>
 209850, AND, "social behavior" <br>
 The Effective Phenotype Query display for this would be: <br>
 (Autism - 209850 AND "social behavior") <br>
 Note, the commas are inserted to facilitate the function of the auto-complete tool are removed prior to running your search. <br>
-The Effective Phenotype Query shows only what you type in the Search by disease or phenotype terms. Entries in the Search by genes and Search by genome locations boxes are not displayed in this area but will be Boolean "ANDed" to your criteria entered in the "Search by disease or phenotype terms" box. </li>
-<li>If you are unsure of the proper terms to use, use free text (don't select a term) or the appropriate browser to find vocabulary terms and their definitions:</li>
+The Effective Phenotype Query shows only what you type in the Search by disease or phenotype terms. Entries in the Search by genes and Search by genome locations boxes are not displayed in this area but will be Boolean "ANDed" to your criteria entered in the "Search by disease or phenotype terms" box. </li>-->
+  <li>If you are unsure of the proper terms to use, use free text (don't select a term) or use the appropriate browser to find vocabulary terms and their definitions:</li>
 	<ul>
-	<li>Phenotype: <a href="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a></li>
+	<li>Mouse Phenotype: <a href="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a></li>
 	<li>Disease: <a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</a></li>
+	<li>Human Phenotype: <a href="http://compbio.charite.de/hpoweb/showterm?id=HP:0001197">Human Phenotype Ontology (HPO) web browser</a></li>
 	</ul>
-</ul>
+  </ul>
 </p>
-</TD></TR>
+</td></tr>
 
-</TABLE>
+<tr><th><a name="phenoIDs"></a>Phenotype or Disease ID(s)</th>
+<td>***</td>
+</tr>
+
+<tr><th><a name="region"></a>Genome Location</th>
+<td>You can enter a mouse or human genomic region (e.g. 2:105668896-108698410 or chr13:22210730-22311689) and use the radio button to specify the species (Mouse or Human). <!--You can enter multiple regions separated by commas, spaces and/or returns.--> Use MT for the mouse mitochondrial chromosome.
+  <ul>
+  <li>You can search with a Chromosome (e.g. 19 or 19: or chr19) but not by chromosome arms or bands. So human chr:7p22 won't return any results. The form will only accept a digit following the chromosome.</li>
+  <li>*** to search for multiple regions... Note the default Boolean, AND, will return results for genes that are shared in all your search regions. To return results for genes in each region, toggle AND to OR.</li>
+  </ul>
+</td></tr>
+
+<tr><th><a name="upload"></a>Gene File Upload</th>
+<td>***</td>
+</tr>
+
+</table>
 </p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="mp_ontology"></a>Is there a list of phenotype terms to select from?</h3>
 <p>Yes. The mammalian phenotype terms are from the Mammalian Phenotype (MP) Ontology, a community effort to provide standard terms for annotating phenotypic data. The Mammalian Phenotype Ontology has a hierarchical structure that permits a range of detail from high-level, broadly descriptive terms to very low-level, highly specific terms. This range is useful for annotating phenotypic data to the level of detail known and for searching for this information using either broad or specific terms as search criteria. You can either browse or search the Ontology with the <a href="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a>. You can use this browser to view terms, definitions, and term relationships in a hierarchical display. Links to summary annotated phenotype data at MGI are provided in Term Detail reports. See <a href="VOCAB_mp_browser_help.shtml" target="_blank">Using the Mammalian Phenotype (MP) Browser</a> for additional help.
-</P>
+</p>
+<p>The HMDC also searches the Human Phenotype Ontology (<a href="http://human-phenotype-ontology.github.io">HPO</a>). The HPO provides a standardized vocabulary of phenotypic abnormalities encountered in human disease. You can search the HPO vocabulary directly with the <a href="http://compbio.charite.de/hpoweb/showterm?id=HP:0001197">HPO web browser</a>.</p>
+
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="disease_ontology"></a>Is there a list of disease terms to select from?</h3>
@@ -184,7 +204,7 @@ The Effective Phenotype Query shows only what you type in the Search by disease 
 <ol>
   <li>When your results appear, click the banner at the top of the page: <b>Click to modify search</b>. The banner title changes to <b>Click to hide search</b>. The window that appears contains your original search criteria. </li>
   <li>Make your changes.</li>
-  <li>Click GO.</li>
+  <li>Click Search.</li>
   <li>Repeat until the desired results appear.</li>
 </ol>
 </ul>
@@ -248,7 +268,7 @@ VCF files are processed in the following manner:
     <td valign="top">Symbol of the gene, linked to its MGI gene detail record.</td></tr> 
     <tr><td align="left" valign="top"><b>Phenotypes And Diseases </b></td>
     <td valign="top">Starting from the left are high level terms from the Mammalian Phenotype (MP) Ontology annotated to alleles of the mouse gene. See also the <A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A>. Phenotypes that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary. Phenotypes to all the genotypes associated with an allele can be viewed by following allele symbol links to Allele Detail pages. Listed to the right, after a vertical grey bar, are human diseases associated with the human gene in OMIM or through mouse models described in publications.</p>
-    <p>Currently only mouse phenotypes are returned. Human phenotype data will be available in a future release.</p>
+    <p>Human and mouse phenotype annotations are returned and are indicated by the colors, blue for <strong style="background-color: #49648B; color:#FFF; font-size:12px;">mouse data</strong> and tan for <strong style="background-color:#ffdab3; color:#000; font-size:12px;">human data</strong>.</p>
     <p>Some of the human disease terms have been shortened and end with an elipsis. If you hover your cursor over the term, a pop-up will display the full term name. <mark style="background-color:#D6C4E7; ">Highlighted column titles</mark> indicate which columns contain phenotype or disease terms that match one or more terms in the search. Highlighting is only displayed on column titles, and only when a phenotype or disease term is used in the search. A column is highlighted when at least one of the genes has an annotation matching your search. So if you search for a general term such as fibrosis, the cardiovascular system column may be highlighted because one gene is associated with cardiac fibrosis. Another gene may not have cardiac fibrosis but is returned because it is associated with pulmonary fibrosis, causing the respiratory system column to be highlighted. Columns that are not highlighted contain additional phenotypes and/or disease terms associated with the mouse model or human gene that is connected to the searched term(s). </p>
     <p>The colors, blue for <strong style="background-color: #49648B; color:#FFF; font-size:12px;">mouse data</strong> and tan for <strong style="background-color:#ffdab3; color:#000; font-size:12px;">human data</strong>, get progressively darker with more supporting annotations. The lightest color represents one annotation. 2-5 annotations is represented by a darker shade, 6-99 annotations darker still and more than 100 annotations by the darkest color.</p>
     <p>You can hover your cursor over a colored square to see that row's markers and column heading in a pop-up.</p>
@@ -337,7 +357,7 @@ Reported in these Systems</b></td>
 <blockquote>
 Paste your list as a column or separated by commas or spaces into the <b>Search by genes</b> field. For example: 
 APP, PLAU, PSEN1, CAV1, NOS3, 10513<br></br>
-Click the GO button.<br></br>
+Click the Search button.<br></br>
 </blockquote>
 <p>The search finds matching mouse and human genes and synonyms, and their homologs and associated mouse transgenes, and displays phenotypes associated with allele pairs of the mouse genes and transgenes, and diseases associated with both the human and mouse markers.</p></li> 
 
@@ -351,7 +371,7 @@ Paste your genomic coordinates for human build GRCh38 in the center, <b>Search b
 	chr22:18229556<br></br>
 	<p>This format also works: chr22:18217079,chr22:18220831,chr22:18229556</p>
 	</blockquote>
-Check <i>Human(GRCh38)</i> and click the GO button.	
+Check <i>Human(GRCh38)</i> and click the Search button.	
 </blockquote>
 <p>This query returns the human and mouse <i>BID</i> and <i>Bid</i> genes and phenotypes associated with the mouse gene.</p></li>
 
