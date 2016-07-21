@@ -85,7 +85,7 @@ User Help Site Map
 	<dt><b>Diseases</b></dt> 
 		 <dd><a href="VOCAB_omim_browser_detail_help.shtml" onclick="javascript:openHelpWindow('VOCAB_omim_browser_detail_help.shtml'); return false;">Interpreting Human Disease and Mouse Model Details</a></dd>		
 		 <dd><a href="disease_connection_help.shtml" onclick="javascript:openHelpWindow('disease_connection_help.shtml'); return false;">Using the Human - Mouse: Disease Connection</a></dd>
-		 <dd><a href="HMDC_examples.shtml" onclick="javascript:openHelpWindow('disease_connection_help.shtml'); return false;">Human - Mouse: Disease Connection (HMDC) Search Examples</a></dd>	
+		 <dd><a href="HMDC_examples.shtml" onclick="javascript:openHelpWindow('HMDC_examples.shtml'); return false;">Human - Mouse: Disease Connection (HMDC) Search Examples</a></dd>	
 	
 	</blockquote>
 	
