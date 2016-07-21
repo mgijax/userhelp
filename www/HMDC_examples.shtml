@@ -37,7 +37,7 @@ function openHelpWindow(helpFile){
 
 <a NAME="top"></a>
 
-<p>This help document contains HMDC search examples:  
+<p>This help document contains <abbr title="Human - Mouse: Disease Connection">HMDC</abbr> search examples:  
  <ul>
 	<li><a href="#gene">How to search with gene symbols</a></li>
 	<li><a href="#disease">How to search with disease or phenotype terms</a></li>
@@ -67,7 +67,7 @@ function openHelpWindow(helpFile){
    <li>Click the Search button.</li>
 </ol>
 <br>
-<p><b>Note:</b> Unlike most MGI search forms, the HMDC does not support wildcards. To find information about a family of genes, you can use the "Gene Name" field as in the next example which finds information on the bone morphogenetic proteins.
+<p><b>Note:</b> Unlike most MGI search forms, the <abbr title="Human - Mouse: Disease Connection">HMDC</abbr> does not support wild cards. To find information about a family of genes, you can use the "Gene Name" field as in the next example which finds information on the bone morphogenetic proteins.
 
 <ol>
 	<li>Toggle "Please select a field" to "Gene Name."</li>
@@ -88,7 +88,7 @@ As an alternative, you can use the <a href="<!--#include file='include/fewi_url.
 <ol> 
 	<li>Toggle "Please select a field" to "Gene File Upload."</li>
    	<li>Click the Choose File button to browse your computer and select a file to upload.</li>
-   	<li>Toggle the Column Number to choose the column of gene symbols or IDs in your file that you wish to use to search the HMDC.</li>
+   	<li>Toggle the Column Number to choose the column of gene symbols or IDs in your file that you wish to use to search the <abbr title="Human - Mouse: Disease Connection">HMDC</abbr>.</li>
    	<li>Indicate the Delimiter for your file: Tab, Semicolon, or comma.</li>
    	<li>You can check the box to Ignore the Header Row.</li> 
    	<blockquote>
@@ -123,7 +123,7 @@ As an alternative, you can use the <a href="<!--#include file='include/fewi_url.
   <li>Click the Search button.</li>
 </ol>
 
-<p>The HMDC uses coordinates from the latest builds of the the mouse and human genome assemblies. If your coordinates are from earlier assemblies, you can convert them to the current assembly coordinates with the <a href="http://www.ncbi.nlm.nih.gov/genome/tools/remap#tab=asm">NCBI Genome Remapping Service</a> tool.</p>
+<p>The <abbr title="Human - Mouse: Disease Connection">HMDC</abbr> uses coordinates from the latest builds of the the mouse and human genome assemblies. If your coordinates are from earlier assemblies, you can convert them to the current assembly coordinates with the <a href="http://www.ncbi.nlm.nih.gov/genome/tools/remap#tab=asm">NCBI Genome Remapping Service</a> tool.</p>
 
 <a href="#top">Top</a>
 
@@ -138,7 +138,7 @@ As an alternative, you can use the <a href="<!--#include file='include/fewi_url.
   <li>Click the Add button.</li>
   <li>Toggle "Please select a field" to "Phenotype or Disease Name."</li>
   <li>Enter: ataxia and select it from the list that appears.</li>
-  <li>Use the default boolean to "AND the above fields together."</li>
+  <li>Use the default Boolean to "AND the above fields together."</li>
   <blockquote>
 <img src="images/hmdc_phenoRegion.png"  border="0" width="467" height="244" alt="search by genomic region and phenotype">
    	</blockquote>

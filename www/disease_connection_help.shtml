@@ -95,7 +95,10 @@ Using the Human - Mouse: Disease Connection </span>
 
 <H3><A NAME="howfill"></a>How do I use this query form?</H3> 
 
-<p><ul>
+<p>
+Choose a field to search by toggling "Please select a field."
+<br>
+<ul>
   <li>Enter or select values in one or more of the fields described <a href="#field">below</a>.</li>
   <li>Click Add to add a new field.</li>
   <li>Click Remove to remove a field.</li>
@@ -126,21 +129,21 @@ Using the Human - Mouse: Disease Connection </span>
 </td></tr>
 
 <tr><th><a name="genename"></a>Gene Name</th>
-<td>*** <b>Note:</b>&nbsp;If the term itself contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</td>
+<td>Name or synonym for human or mouse genetic marker. If you enter more than one word, this field automatically ANDs them. A search for <i>paired box</i> finds genes with names that contain both <i>paired</i> and <i>box</i>.</td>
 </tr>
 
 <tr><th><a name="phenotypes"></a>Phenotype or Disease Name</th>
 <td>The <b>Search by disease
 or phenotype terms</b> section is a full-text search field.
   <ul>
-  <li>Begin typing a term of interest and an autocomplete list activates on the second character. 
+  <li>Begin typing a term of interest and an autocomplete list activates on the first character. 
     <ul>
-    <li>The list shows all the OMIM, Human Phenotype Ontology (HPO) and Mammalian Phenotype (MP) vocabulary terms and their synonyms that match your search characters<!--(shown in bold letters) and the number of genes annotated to each term-->.</li>
+    <li>The list shows all the <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr>, Human Phenotype Ontology (HPO) and Mammalian Phenotype (MP) vocabulary terms and their synonyms that match your search characters<!--(shown in bold letters) and the number of genes annotated to each term-->.</li>
     <!--<li>Terms are greyed out if there are no genes annotated to the term.</li>-->
     <li>You can type the beginnings of multiple terms to narrow the list (example: congest heart).
     </ul>
   <li>Choosing a term includes results for its subterms. For example, selecting <i>abnormal pulmonary pressure</i> also includes results for its subterms, increased pulmonary artery pressure and decreased pulmonary artery pressure.</li>
-  <li>After you select a term, you can click the Add button to repeat the process to add additional terms. Multiple entries in a single field does an 'OR' search by default. As an example, you can find microcephaly OR microphthalmia phenotypes. Use 'AND' to find microcephaly AND microphthalmia phenotypes.</li>
+  <li>After you select a term, you can click the Add button to repeat the process to add additional terms. The default Boolean will AND the terms together. Use the toggle if you wish to OR the terms.</li>
   <li>You do not have to select a term. Free text searching is permitted in this field.</li>
   <!--<li>The <b>Effective Phenotype Query</b> displays how the text you enter in the "Search by disease or phenotype terms" box will be interpreted for the search. This display is on by default but may be turned off by removing the check from the box. For example, if you want to find Autism models that have abnormalities in social behavior you can type:<br>
 209850, AND, "social behavior" <br>
@@ -152,26 +155,36 @@ The Effective Phenotype Query shows only what you type in the Search by disease 
 	<ul>
 	<li>Mouse Phenotype: <a href="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a></li>
 	<li>Disease: <a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</a></li>
-	<li>Human Phenotype: <a href="http://compbio.charite.de/hpoweb/showterm?id=HP:0001197">Human Phenotype Ontology (HPO) web browser</a></li>
+	<li>Human Phenotype: <a href="http://compbio.charite.de/hpoweb/showterm?id=HP:0001197" target="_blank">Human Phenotype Ontology (HPO) web browser</a></li>
 	</ul>
   </ul>
 </p>
 </td></tr>
 
 <tr><th><a name="phenoIDs"></a>Phenotype or Disease ID(s)</th>
-<td>***</td>
+<td>IDs from the Mammalian Phenotype (MP) Ontology, Human Phenotype Ontology (HPO) or Online Mendelian Inheritance in Man (OMIM). Be aware that the MP and HPO IDs use the prefixes: MP: and HP:.</td>
 </tr>
 
 <tr><th><a name="region"></a>Genome Location</th>
 <td>You can enter a mouse or human genomic region (e.g. 2:105668896-108698410 or chr13:22210730-22311689) and use the radio button to specify the species (Mouse or Human). <!--You can enter multiple regions separated by commas, spaces and/or returns.--> Use MT for the mouse mitochondrial chromosome.
   <ul>
   <li>You can search with a Chromosome (e.g. 19 or 19: or chr19) but not by chromosome arms or bands. So human chr:7p22 won't return any results. The form will only accept a digit following the chromosome.</li>
-  <li>*** to search for multiple regions... Note the default Boolean, AND, will return results for genes that are shared in all your search regions. To return results for genes in each region, toggle AND to OR.</li>
+  <li>To search for multiple regions, use the Add button. Note the default Boolean, AND, will return results for genes that are shared in all your search regions. To return results for genes in each region, toggle AND to OR.</li>
   </ul>
 </td></tr>
 
 <tr><th><a name="upload"></a>Gene File Upload</th>
-<td>***</td>
+<td>Upload a column of gene symbols and/or their IDs. To do so, follow these steps: 
+<ol> 
+	<li>Toggle "Please select a field" to "Gene File Upload."</li>
+   	<li>Click the Choose File button to browse your computer and select a file to upload.</li>
+   	<li>Toggle the Column Number to choose the column of gene symbols or IDs in your file that you wish to use to search the <abbr title="Human - Mouse: Disease Connection">HMDC</abbr>.</li>
+   	<li>Indicate the Delimiter for your file: Tab, Semicolon, or comma.</li>
+   	<li>You can check the box to Ignore the Header Row.</li> 
+   	<blockquote>
+   	<li>Click the Search button.</li>
+</ol>
+</td>
 </tr>
 
 </table>
@@ -182,19 +195,19 @@ The Effective Phenotype Query shows only what you type in the Search by disease 
 <h3><a name="mp_ontology"></a>Is there a list of phenotype terms to select from?</h3>
 <p>Yes. The mammalian phenotype terms are from the Mammalian Phenotype (MP) Ontology, a community effort to provide standard terms for annotating phenotypic data. The Mammalian Phenotype Ontology has a hierarchical structure that permits a range of detail from high-level, broadly descriptive terms to very low-level, highly specific terms. This range is useful for annotating phenotypic data to the level of detail known and for searching for this information using either broad or specific terms as search criteria. You can either browse or search the Ontology with the <a href="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a>. You can use this browser to view terms, definitions, and term relationships in a hierarchical display. Links to summary annotated phenotype data at MGI are provided in Term Detail reports. See <a href="VOCAB_mp_browser_help.shtml" target="_blank">Using the Mammalian Phenotype (MP) Browser</a> for additional help.
 </p>
-<p>The HMDC also searches the Human Phenotype Ontology (<a href="http://human-phenotype-ontology.github.io">HPO</a>). The HPO provides a standardized vocabulary of phenotypic abnormalities encountered in human disease. You can search the HPO vocabulary directly with the <a href="http://compbio.charite.de/hpoweb/showterm?id=HP:0001197">HPO web browser</a>.</p>
+<p>The <abbr title="Human - Mouse: Disease Connection">HMDC</abbr> also searches the Human Phenotype Ontology (<a href="http://human-phenotype-ontology.github.io" target="_blank">HPO</a>). The HPO provides a standardized vocabulary of phenotypic abnormalities encountered in human disease. You can search the HPO vocabulary directly with the <a href="http://compbio.charite.de/hpoweb/showterm?id=HP:0001197" target="_blank">HPO web browser</a>.</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="disease_ontology"></a>Is there a list of disease terms to select from?</h3>
-<p>Yes.  The disease vocabulary contains human disease, syndrome, and condition terms from Online Mendelian Inheritance in Man (OMIM). You can browse the vocabulary and find links to full OMIM records and mouse model information by using the <a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</a>.  Navigate the vocabulary until you find the term you are looking for.  See <a href="VOCAB_omim_browser_help.shtml" target="_blank">Using the Human Disease Vocabulary Browser</a> for additional help.
+<p>Yes. The disease vocabulary contains human disease, syndrome, and condition terms from Online Mendelian Inheritance in Man (OMIM). You can browse the vocabulary and find links to full OMIM records and mouse model information by using the <a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</a>.  Navigate the vocabulary until you find the term you are looking for.  See <a href="VOCAB_omim_browser_help.shtml" target="_blank">Using the Human Disease Vocabulary Browser</a> for additional help.
 </p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
 <h3><a name="relationship"></a>Can I query using both a phenotype term and a disease term?</h3>
-<p>Yes, you can use the disease or phenotype terms box to search for phenotypes <i>OR</i> diseases. 
-</P>
+<p>Yes, you can use the Phenotype or Disease Name or the Phenotype or Disease ID(s) fields  to search for phenotypes and/or diseases. Choose the appropriate Boolean term, AND or OR, for your search. 
+</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
@@ -213,7 +226,7 @@ The Effective Phenotype Query shows only what you type in the Search by disease 
 <ul>
 <li>You can re-query as many times as you like.</li>
 <li>Alternatively, click Reset to return to the original form.</li>
-<li>In addition to running a new, more restrictive query, you can modify your results by filtering the <a href="#t&mtab">Gene Homologs x Phenotypes/Diseases</a> grid to show only specified columns and rows by checking the appropriate boxes and clicking the Submit Filters button. These filters are applied to your results in the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs.</li>
+<li>In addition to running a new, more restrictive query, you can modify your results by <a href="#hmdcfilter">filtering</a> the <a href="#t&mtab">Gene Homologs x Phenotypes/Diseases</a> grid to show only specified columns and rows by checking the appropriate criteria and clicking the Apply Filters button. These filters are applied to your results in the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs. For more details, see <a href="#hmdcfilter">How do I filter my results?</a> below.</li>
 </ul>
 </p>
 
@@ -267,18 +280,19 @@ VCF files are processed in the following manner:
     <tr><td align="left" valign="top"><b>Mouse Gene </b></td>
     <td valign="top">Symbol of the gene, linked to its MGI gene detail record.</td></tr> 
     <tr><td align="left" valign="top"><b>Phenotypes And Diseases </b></td>
-    <td valign="top">Starting from the left are high level terms from the Mammalian Phenotype (MP) Ontology annotated to alleles of the mouse gene. See also the <A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A>. Phenotypes that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary. Phenotypes to all the genotypes associated with an allele can be viewed by following allele symbol links to Allele Detail pages. Listed to the right, after a vertical grey bar, are human diseases associated with the human gene in OMIM or through mouse models described in publications.</p>
+    <td valign="top">Starting from the left are high level terms from the Mammalian Phenotype (MP) Ontology for which there are either annotated alleles of the mouse gene or human genes associated with with similar phenotypes through the Human Phenotype Ontology (HPO). See also the <A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A> and the <a href="http://compbio.charite.de/hpoweb/showterm?id=HP:0001197" target="_blank">HPO web browser</a>. Phenotypes that are only annotated to complex mouse genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary. Phenotypes to all the genotypes associated with an allele can be viewed by following allele symbol links to Allele Detail pages. Listed to the right, after a vertical grey bar, are human diseases associated with the human gene in OMIM or through mouse models described in publications.</p>
     <p>Human and mouse phenotype annotations are returned and are indicated by the colors, blue for <strong style="background-color: #49648B; color:#FFF; font-size:12px;">mouse data</strong> and tan for <strong style="background-color:#ffdab3; color:#000; font-size:12px;">human data</strong>.</p>
-    <p>Some of the human disease terms have been shortened and end with an elipsis. If you hover your cursor over the term, a pop-up will display the full term name. <mark style="background-color:#D6C4E7; ">Highlighted column titles</mark> indicate which columns contain phenotype or disease terms that match one or more terms in the search. Highlighting is only displayed on column titles, and only when a phenotype or disease term is used in the search. A column is highlighted when at least one of the genes has an annotation matching your search. So if you search for a general term such as fibrosis, the cardiovascular system column may be highlighted because one gene is associated with cardiac fibrosis. Another gene may not have cardiac fibrosis but is returned because it is associated with pulmonary fibrosis, causing the respiratory system column to be highlighted. Columns that are not highlighted contain additional phenotypes and/or disease terms associated with the mouse model or human gene that is connected to the searched term(s). </p>
+    <p>Some of the human disease terms have been shortened but if you hover your cursor over the term, a pop-up will display the full term name. <mark style="background-color:#D6C4E7; ">Highlighted column titles</mark> indicate which columns contain phenotype or disease terms that match one or more terms in the search. Highlighting is only displayed on column titles, and only when a phenotype or disease term is used in the search. A column is highlighted when at least one of the genes has an annotation matching your search. So if you search for a general term such as fibrosis, the cardiovascular system column may be highlighted because one gene is associated with cardiac fibrosis. Another gene may not have cardiac fibrosis but is returned because it is associated with pulmonary fibrosis, causing the respiratory system column to be highlighted. Columns that are not highlighted contain additional phenotypes and/or disease terms associated with the mouse model or human gene that is connected to the searched term(s). </p>
     <p>The colors, blue for <strong style="background-color: #49648B; color:#FFF; font-size:12px;">mouse data</strong> and tan for <strong style="background-color:#ffdab3; color:#000; font-size:12px;">human data</strong>, get progressively darker with more supporting annotations. The lightest color represents one annotation. 2-5 annotations is represented by a darker shade, 6-99 annotations darker still and more than 100 annotations by the darkest color.</p>
     <p>You can hover your cursor over a colored square to see that row's markers and column heading in a pop-up.</p>
-    <p>Click on a colored square for information on mouse genotypes and lower level phenotype terms. The mouse genotypes link to even more detailed phenotype information.</p>
+    <p>The grid contains its own scroll bars, though you may have to move your cursor to the bottom or right edges to make them appear.</p>
+    <p>Click on a blue colored square for information on mouse genotypes and lower level phenotype terms. The mouse genotypes link to even more detailed phenotype information. Click on a tan colored square for information on the human disease and human phenotypes associated with the human gene.</p>
     <p>A bold <b>N</b> in a phenotype column indicates that no abnormal phenotypes of that type were observed in any allele of the gene.</p>
     </td></tr> 
 </table></p>
 </blockquote>
 
-<p>You can filter the grid to show only specified columns and rows by checking the appropriate boxes and clicking the Apply Filters button or the filter icon.</p>
+<p>You can <a href="#hmdcfilter">filter</a> the grid to show only specified columns and rows by clicking on the <i>Filter by Genes</i> or <i>Filter by Phenotypes</i> button and checking the appropriate criteria and clicking the <i>Apply Filters</i> button.</p>
 
 <h4><a name="genestab"></a>Genes</h4>
 <p>If you select the Genes tab, the query summary contains the following fields:<br><br>
@@ -304,18 +318,18 @@ Reported in these Systems</b></td>
 </table></p>
 </blockquote>
 
-<p>The default sort for this tab is by Marker Symbol, though you can choose to sort by Organism or Genome Coordinates by clicking the column headings or the up/down arrowheads ( &#9660; &#9650;).</p>
+<p>The default sort for this tab is by Marker Symbol, though you can choose to sort by any column by clicking the column headings or the up/down arrowheads ( &#9660; &#9650;).</p>
 
 <h4><a name="diseasetab"></a>Diseases</h4>
 <p>If you select the Diseases tab, the query summary contains the following fields:<br><br>
 <blockquote> 
 <table border width="!" cellpadding="4" cellspacing="1">
 	<tr><td align="left" valign="top"><b>Disease </b></td>
-    <td valign="top">The OMIM disease term linked to the MGI Human Disease and Mouse Model Detail page</td></tr> 
+    <td valign="top">The <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr> disease term linked to the MGI Human Disease and Mouse Model Detail page</td></tr> 
     <tr><td align="left" valign="top"><b>OMIM ID </b></td>
     <td valign="top">The Online Mendelian Inheritance In Man (OMIM) accession ID </td></tr>
     <tr><td align="left" valign="top"><b>Mouse Models </b></td>
-    <td valign="top">The number of mouse models for this disease</td></tr>
+    <td valign="top">The number of mouse models for this disease, linked to Mouse Model details.</td></tr>
     <tr><td align="left" valign="top"><b>Associated Genes from Mouse Models </b></td>
     <td valign="top">The mouse markers used to create the various models of this disease</td></tr>
     <tr><td align="left" valign="top"><b>Associated Human Genes</b></td>
@@ -329,15 +343,16 @@ Reported in these Systems</b></td>
 
 <h3><a name="hmdcfilter"></a>How do I filter my results?</h3>
 
-<p>You can filter by Genome Feature Type. In your results, click Filter results by: <i>Genome Feature Type</i> and check the desired types. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#hdp_tabfile">export</a>.</p>
+<p>You can filter any of the tabbed result views. In your results, click the <i>Filter by Genes</i> and <i>Filter by Phenotypes/Disease(s)</i> and check the desired criteria by clicking on them. For long lists of results, you can use the Search field within the Filter. This will launch an autocomplete on the second character. When you have finished making your selections, Click the <i>Apply Filters</i> button.  This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#hdp_tabfile">export</a>. Use the <i>Remove Filters</i> button to remove all filters and return to your original results.</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
 <H3><A name="output"></A>Are there different ways to view the output of my query?</H3>
 <p>Yes.
 <ul>
-<li>You can filter the <a href="#t&mtab">Gene Homologs x Phenotypes/Diseases</a> grid to show only specified columns and rows by checking the appropriate boxes and clicking the Apply Filters button or the Filter icon. These filters are also applied to your results in the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs. Note: if you filter by phenotypes, then the Genes tab will only show mouse genes because currently MGI only has phenotype data for mouse genes. Phenotype data for human genes will be available in a future release.</li> 
-<li>Both the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> results sections permit sorting of some columns by clicking the column headings or the up/down arrowheads ( &#9660; &#9650;). Your results for these two tabs can be exported in <a href="#hdp_tabfile">tab-delimited text</a> format.</li>
+<li>Your search results are displayed within three tabbed views: Gene Homologs x Phenotypes/Diseases, Genes, and Diseases. With all searches, the Gene Homologs x Phenotypes/Diseases tab is the default selection.
+<li>You can <a href="#hmdcfilter">filter</a> the different tabbed views to show only specified columns and rows by clicking on the <i>Filter by Genes</i> or <i>Filter by Phenotypes</i> button and checking the appropriate criteria and clicking the <i>Apply Filters</i> button. These filters are also applied to your results in the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs.</li> 
+<li>Both the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> results sections permit sorting by clicking the column headings or the up/down arrowheads ( &#9660; &#9650;). Your results for these two tabs can be exported in <a href="#hdp_tabfile">tab-delimited text</a> format.</li>
 </ul>
 </p>
 
@@ -351,31 +366,19 @@ Reported in these Systems</b></td>
 
 <h3><a name="examples"></A>What are some examples of queries?</h3>
 
+<p>For some basic searches, see <a href="HMDC_examples.shtml" target="_blank">Human - Mouse: Disease Connection (HMDC) Search Examples</a></p>
+
 <ol>
 <!--1-->
 <li>I have a list of human genes and Entrez Gene IDs of interest. How can I find phenotypes and diseases associated with their mouse homologs?
 <blockquote>
-Paste your list as a column or separated by commas or spaces into the <b>Search by genes</b> field. For example: 
+Paste your list as a column or separated by commas or spaces into the Search by:<i> Gene Symbol(s) or ID(s)</i> field. For example: 
 APP, PLAU, PSEN1, CAV1, NOS3, 10513<br></br>
 Click the Search button.<br></br>
 </blockquote>
-<p>The search finds matching mouse and human genes and synonyms, and their homologs and associated mouse transgenes, and displays phenotypes associated with allele pairs of the mouse genes and transgenes, and diseases associated with both the human and mouse markers.</p></li> 
+<p>The search finds matching mouse and human genes and synonyms, and their homologs and associated mouse transgenes, and displays phenotypes associated with allele pairs of the mouse genes and transgenes, phenotypes associated with the human gene and diseases associated with both the human and mouse markers.</p></li> 
 
 <!--2-->
-<li>I have genome locations for some human SNPs. How can I see if there are any mouse phenotypes associated with homologs of the human gene?
-<blockquote>
-Paste your genomic coordinates for human build GRCh38 in the center, <b>Search by genome locations</b>, section of the form: <br>
-	<blockquote>
-	chr22:18217079<br>
-	chr22:18220831<br>
-	chr22:18229556<br></br>
-	<p>This format also works: chr22:18217079,chr22:18220831,chr22:18229556</p>
-	</blockquote>
-Check <i>Human(GRCh38)</i> and click the Search button.	
-</blockquote>
-<p>This query returns the human and mouse <i>BID</i> and <i>Bid</i> genes and phenotypes associated with the mouse gene.</p></li>
-
-<!--3-->
 <li>I am interested in finding genes associated with Alzheimer Disease in humans and in the mice used to model the disease. How can I do this? 
 <blockquote>
 Type <i>alzheimer</i> in the <b>Search by disease or phenotype terms</b> section of the form. If you are interested in a particular type of Alzheimer Disease, then select it from the list that appears. Repeat the process if you wish to include more types. For the broadest search, don't select anything, just click out of the field and click the GO button.  
@@ -383,7 +386,7 @@ Type <i>alzheimer</i> in the <b>Search by disease or phenotype terms</b> section
 <p>The broadest search finds all diseases and their synonyms that contain the word, Alzheimer, and returns all human genes <a href="#assocdisease">associated with the disease</a> and mouse genes and transgenes used to model the disease. The grid also displays phenotypes and diseases associated with these mouse genotypes, some of these will have no association with Alzheimer Disease. You can filter the grid to phenotypes and diseases and markers that interest you by checking the appropriate row and column boxes and clicking the <b>Apply Filters</b> button. This also applies the filters to both the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> Tabs. 
 </p></li>
 
-<!--4-->
+<!--3-->
 <li>I am interested in finding mouse genes associated with a learning impairment but I don't want to see Alzheimer Disease models with impaired learning. How can I do this? 
 <blockquote>
 Type <i>MP:0012315 AND NOT Alzheimer</i> in the <b>Search by disease or phenotype terms</b> section of the form. The <b>Effective Phenotype Query</b> will show: <br>
@@ -392,11 +395,10 @@ Type <i>MP:0012315 AND NOT Alzheimer</i> in the <b>Search by disease or phenotyp
 <p>The search finds mouse genes with alleles annotated to the term, impaired learning, and its subterms and shows the genes' human homologs and all high level terms and human diseases also annotated to the alleles. 
 </p></li>
 
-<!--5-->
+<!--4-->
 <li>I have filtered my search results and now have a list of interesting mouse genes. How can I find functional information for the mouse genes? 
 <blockquote>
 	<ol>
-	<!--<li>After you have filtered your results in the grid, click on the Genes tab. The default sort for this tab is by Marker Symbol, though you can choose to sort by Organism or Genome Coordinates by clicking the column headings or the up/down arrowheads ( &#9660; &#9650;).</li>-->
 	<li>Click the Export: <b>Text File</b> button.</li>
 	<li>Open the file in your spreadsheet software application and copy either the Marker Symbols or IDs.</li>
 	<li>Direct your web browser to the <a href="<!--#include file='include/fewi_url.html'-->batch" target="_blank">MGI Batch Query</a> and paste the markers into the text field.</li>
