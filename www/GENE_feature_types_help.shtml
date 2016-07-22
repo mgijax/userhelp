@@ -83,7 +83,9 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
 
 <tr><th valign="top" align="left"><font size="-1">telomerase RNA gene</th><td valign="top"><font size="-1">A non-coding RNA gene, the RNA product of which is a component of telomerase. </td><td valign="top"><font size="-1">SO:0001643</font></td></tr>
 
-<tr><th valign="top" align="left"><font style="white-space:nowrap;" size="-1">unclassified non-coding RNA gene</th><td valign="top"><font size="-1">A non-coding RNA gene not classified The RNA product of this non-coding is a component of telomerase.</td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
+<tr><th valign="top" align="left"><font style="white-space:nowrap;" size="-1">unclassified non-coding RNA gene</th><td valign="top"><font size="-1">A Non-Coding RNA gene not classified with established ncRNA functional subcategories.</td><td valign="top"><font size="-1">&nbsp;</font></td></tr>
+
+<tr><th valign="top" align="left"><font style="white-space:nowrap;" size="-1">ribozyme gene</th><td valign="top"><font size="-1">A gene that encodes an RNA with catalytic activity.</td><td valign="top"><font size="-1">SO:0000374</font></td></tr>
 
 <tr><th valign="top" align="left"><font style="white-space:nowrap;" size="-1">heritable phenotypic marker</th><td valign="top"><font size="-1">A biological region characterized as a single heritable trait in a phenotype screen. The heritable phenotype may be mapped to a chromosome but generally has not been characterized to a specific gene locus. </td><td valign="top"><font size="-1">SO:0001500</font></td></tr>
 
