@@ -56,6 +56,7 @@ Using the Human - Mouse: Disease Connection </span>
  		<li><a href="#vcfexamples">Are there example VCF files?</a></li>
  	</ul>-->
  <li><a href="#hdp_results">How do I interpret the query results?</a></li>
+ <li><a href="#what_search">What phenotypes and diseases are searched and displayed in the HMDC?</a></li>
  <li><a href="#hmdcfilter">How do I filter my results?</a></li>
  <li><A href="#output">Are there different ways to view the output of my query?</A></li>
  <li><a href="#hdp_tabfile">Can I get my results as a tab-delimited text file?</a></li>
@@ -101,6 +102,7 @@ Choose a field to search by toggling "Please select a field."
 <ul>
   <li>Enter or select values in one or more of the fields described <a href="#field">below</a>.</li>
   <li>Click Add to add a new field.</li>
+  <li>Use the appropriate Boolean term, AND or OR, to join multiple fields.</li>
   <li>Click Remove to remove a field.</li>
   <li>Click Search to submit the query.</li>
   <li>Click Reset to clear the fields and return any default values.</li>
@@ -183,14 +185,11 @@ The Effective Phenotype Query shows only what you type in the Search by disease 
    	<li>You can check the box to Ignore the Header Row.</li> 
    	<li>Click the Search button.</li>
 </ol>
-<p><b>Note:</b> The maximum number of markers you can upload at one time is currently 565. <!--With 570, grid cell popups don’t work.--> If you have files larger than this, then break them up into separate searches.
-</p>
 </td>
 </tr>
 
 </table>
 </p>
-<p>The full details of how the query works are published in: <b>Bello SM, Eppig JT</b>, and the MGI Software Group. 2016. Inferring Gene-to-Phenotype and Gene-to-Disease Relationships at Mouse Genome Informatics: Challenges and Solutions. <a href="http://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-016-0054-4">J Biomed Semantics</a> 2016. 7:14.</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
@@ -343,9 +342,15 @@ Reported in these Systems</b></td>
 
 <a href="#top"><font size="-1">Top</font></a>
 
+<h3><a name="what_search"></a>What phenotypes and diseases are searched and displayed in the <abbr title="Human - Mouse: Disease Connection">HMDC</abbr>?</h3>
+
+<p>Phenotypes and diseases for mouse genes are limited to those where mutations in only a single gene or introduction of a single transgene are believed to be causing the phenotype. Phenotypes and diseases resulting from multiple mutations or transgenes are excluded. For details, see: <b>Bello SM, Eppig JT</b>, and the MGI Software Group. 2016. Inferring Gene-to-Phenotype and Gene-to-Disease Relationships at Mouse Genome Informatics: Challenges and Solutions. <a href="http://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-016-0054-4">J Biomed Semantics</a> 2016. 7:14. Human diseases are limited to those in <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr>. Human phenotype annotations are limited to those in the <abbr title="Human Phenotype Ontology">HPO</abbr>-to-OMIM annotation set. Phenotypes and diseases without gene associations may be searched but will not be displayed on the Gene Homologs x Phenotypes/Diseases tab.</p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
 <h3><a name="hmdcfilter"></a>How do I filter my results?</h3>
 
-<p>You can filter any of the tabbed result views. In your results, click the <i>Filter by Genes</i> and <i>Filter by Phenotypes/Disease(s)</i> and check the desired criteria by clicking on them. For long lists of results, you can use the Search field within the Filter. This will launch an autocomplete on the second character. When you have finished making your selections, Click the <i>Apply Filters</i> button.  This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#hdp_tabfile">export</a>. Use the <i>Remove Filters</i> button to remove all filters and return to your original results.</p>
+<p>You can filter any of the tabbed result views. In your results, click the <i>Filter by Genes</i> and <i>Filter by Phenotypes/Disease(s)</i> and check the desired criteria by clicking on them. For long lists of results, you can use the Search field within the Filter. This will launch an autocomplete on the second character. When you have finished making your selections, Click the <i>Apply Filters</i> button. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#hdp_tabfile">export</a>. Your filter options are limited to those displayed in the Gene Homologs x Phenotypes/Diseases tab. Use the <i>Remove Filters</i> button to remove all filters and return to your original results.</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
@@ -389,7 +394,7 @@ Click the Search button.<br></br>
   <li>Click the Search button.</li>
 </ol>
 </blockquote>
-<p>The broadest search finds all diseases and their synonyms that contain the word, Alzheimer, and returns all human genes <a href="#assocdisease">associated with the disease</a> and mouse genes and transgenes used to model the disease. The grid also displays phenotypes and diseases associated with these mouse genotypes, some of these will have no association with Alzheimer Disease. You can <a href="#hmdcfilter">filter</a> the grid to show only specified columns and rows by clicking on the <i>Filter by Genes</i> or <i>Filter by Phenotypes</i> button and checking the appropriate criteria and clicking the <i>Apply Filters</i> button. This also applies the filters to both the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> Tabs. 
+<p>The broadest search finds all diseases and their synonyms that contain the word, Alzheimer, and returns all human genes associated with the disease</a> and mouse genes and transgenes used to model the disease. The grid also displays phenotypes and diseases associated with these mouse genotypes, some of these will have no association with Alzheimer Disease. You can <a href="#hmdcfilter">filter</a> the grid to show only specified columns and rows by clicking on the <i>Filter by Genes</i> or <i>Filter by Phenotypes</i> button and checking the appropriate criteria and clicking the <i>Apply Filters</i> button. This also applies the filters to both the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> Tabs. 
 </p></li>
 
 <!--3-->
