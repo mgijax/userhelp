@@ -58,7 +58,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
    <li><A href="#no_results">What if my query returns no results?</a></li>
    <li><a href="#revise">Can I edit my original options and requery?</a></li>
    <li><A href="#gt_alleles">Can I use this query form to find all gene trapped alleles?</a></li>
-   <li><A HREF="genetrap_usecase_help.shtml" target="_blank">Where can I find answers to questions about gene trapped alleles?</li>
+   <li><A HREF="genetrap_usecase_help.shtml" target="_blank">Where can I find answers to questions about gene trapped alleles?</a></li>
    <LI><A HREF="MISC_boolean_search_help.shtml#examples" target="_blank">What are some examples of queries using phenotypic terms?</A></LI>
  </UL>
 <!--<P>See also:
@@ -91,7 +91,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 
 <tr><td valign="top"><i>allele symbol</i></td><td valign="top">In MGI, an allele symbol is a unique abbreviation for the allele name of a given gene. Allele symbols take the form of superscripts added to the gene symbol. See also <I>Gene Name</I> and <I>Gene Symbol</I> in the  <A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A>.</tD></tr>
 
-<tr><td valign="top"><nobr><i>allelic composition</i><br> (genetic background)</td><td valign="top">See <i>Allele Combination, Compound Allele Combination</i>, in the <A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A>.</tD>
+<tr><td valign="top"><span style="white-space: nowrap"><i>allelic composition</i></span><br> (genetic background)</td><td valign="top">See <i>Allele Combination, Compound Allele Combination</i>, in the <A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A>.</tD>
 </tr></table>
 
 
@@ -127,6 +127,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
    </ol>
 </P>
 <a href="#top"><font size="-1">Top</font></a>
+
 <h3><a name="disease_ontology"></a>Is there a list of disease terms to select from?</h3>
 <p>Yes.  To get a list of disease terms from the Phenotypes, Alleles, and Disease Models Query Form, click Human Disease (OMIM) Vocabulary to activate the Human Disease Vocabulary Browser.  Navigate the vocabulary until you find the term you are looking for.  See <a href="VOCAB_omim_browser_help.shtml" target="_blank">Using the Human Disease Vocabulary Browser</a> for additional help.
 </p>
@@ -157,7 +158,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <TABLE BORDER="1" CELLSPACING="6" CELLPADDING="4"> 
 <TR><TH>FIELD <TH>DESCRIPTION</TR>
 
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="m_phenotypes"></A>Mouse phenotypes & mouse models of human disease </TH><TD>The <b>Phenotype/Disease</b> box is a full-text search field. There are 5 options for entries. You can:
+<TR><TH VALIGN="top"><A NAME="m_phenotypes"></A>Mouse phenotypes &amp; mouse models of human disease </TH><TD>The <b>Phenotype/Disease</b> box is a full-text search field. There are 5 options for entries. You can:
 <OL>
   <LI>select from the pick list of anatomical systems affected by phenotypes.</LI>
   <LI>browse and select Mammalian Phenotype (MP) terms or accession IDs from the full, hierarchical ontology.</LI>
@@ -204,7 +205,7 @@ The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkin
 </UL>
 </P>
 
-<TR><TH ALIGN="left" VALIGN="top"><a name="nomenclature"></a>Nomenclature & location</TH><TD ALIGN="left" VALIGN="top">Search by symbol, name, or chromosome position. Use these parameters to expand or limit the scope of retrieved information. 
+<TR><TH VALIGN="top"><a name="nomenclature"></a>Nomenclature &amp; location</TH><TD VALIGN="top">Search by symbol, name, or chromosome position. Use these parameters to expand or limit the scope of retrieved information. 
 There are three ways to use the map position parameters (<A HREF="#chromosome">Chromosome</A>, <A HREF="#cmp">cM Position</A>, <A HREF="#coordinates">Genome Coordinates</A>). If you use <B>Chromosome</B>, you may also define a cM position, or genome coordinate. However, you cannot combine <B>cM Position</B> and <B>Genome Coordinate</B> with one another. <BR><BR>
 
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="6" WIDTH="100%">
@@ -215,13 +216,13 @@ There are three ways to use the map position parameters (<A HREF="#chromosome">C
 </ul>
 </TD></TR>
 
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="chromosome"></A>Chromosome</TH><TD VALIGN="top">
+<TR><TH VALIGN="top"><A NAME="chromosome"></A>Chromosome</TH><TD VALIGN="top">
 <ul>
 <li>Select one or more items from the chromosome selection list Use the Command key (Apple) or control key (PC) to select multiple chromosomes. Use the Shift key to make a contiguous selection, such as Chromosomes 4 - 7. </li>
 </ul>
 </TD></TR>
 
-<TR></A><TH VALIGN="top" ALIGN="left"><A NAME="cmp">cM Position</TH><TD VALIGN="top">
+<TR><TH VALIGN="top" ALIGN="left"><A NAME="cmp">cM Position</a></TH><TD VALIGN="top">
 <ul> 
 <li>Make a selection on the <A HREF="#chromosome">Chromosome</A> list.</li>
 <LI>Specify a chromosomal region between two points on one chromosome selected from the Chromosome list by entering the cM values to begin and end the region, separated by a hyphen (for example, <I>50 - 75</I>).</li>
@@ -229,7 +230,7 @@ There are three ways to use the map position parameters (<A HREF="#chromosome">C
 </ul>
 </TD></TR>
 
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="coordinates"></A>Genome Coordinates</TH><TD VALIGN="top">
+<TR><TH VALIGN="top"><A NAME="coordinates"></A>Genome Coordinates</TH><TD VALIGN="top">
 <ul>
 <LI>Make a selection on the <A HREF="#chromosome">Chromosome</A> list.</LI>
 <LI>Click the other down arrow and select either bp (base pairs) or Mbp (mega base pairs) as the unit of measurement. (The default is base pairs.)</LI>
@@ -245,15 +246,15 @@ There are three ways to use the map position parameters (<A HREF="#chromosome">C
  </ul>
 </blockquote>
             
-<P><B>Note:</B>&nbsp;The build number appearing on the query form is that of the most current NCBI assembly sequence. <!--See the <A HREF="http://www.ncbi.nlm.nih.gov/genome/assembly/grc/mouse/">Genome Reference Consortium</A> for details  about assembling genomic sequences.--></P></TD> </TR>
+<P><B>Note:</B>&nbsp;The build number appearing on the query form is that of the most current NCBI assembly sequence.<!--See the <A HREF="http://www.ncbi.nlm.nih.gov/genome/assembly/grc/mouse/">Genome Reference Consortium</A> for details  about assembling genomic sequences.--></P></TD> </TR>
 
 </TD></TR>
 </table>
 
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="categories"></A>Categories</TH><TD VALIGN="top"><p>Use these check boxes to search by phenotypic allele categories and/or QTL for alleles or variants resulting in phenotypic change. <br><br>
+<TR><TH VALIGN="top"><A NAME="categories"></A>Categories</TH><TD VALIGN="top"><p>Use these check boxes to search by phenotypic allele categories and/or QTL for alleles or variants resulting in phenotypic change. <br><br>
 High-throughput projects have generated a large number of alleles that still exist only as cell lines. If you are interested in phenotypic alleles, then check <i>Exclude alleles existing only as cell lines</i> to reduce the number of results without known phenotypes.</p>
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="2" WIDTH="100%">
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="phenotypic_alleles"></A>Generation Method</TH><TD VALIGN="top">Mode of origin of a new allelic state.<BR><br>
+<TR><TH VALIGN="top"><A NAME="phenotypic_alleles"></A>Generation Method</TH><TD VALIGN="top">Mode of origin of a new allelic state.<BR><br>
 <B>Notes:</B> 
 <ul>
   <li>Options for searching by these allele types include spontaneous, chemically induced (ENU or other types), radiation induced, transgenic, endonuclease-mediated,
@@ -262,11 +263,11 @@ gene trapped, targeted and transposon induced. See
   <li>You can exclude cell-line-only alleles from your search. <!--See <a href="genetrap_usecase_help.shtml#distinguish">Gene Trap Questions and Answers</a> for how to do this. --></li>
 </ul>
 </TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="attributes"></A>Allele Attributes</TH><TD VALIGN="top">These alleles are sub-types of the various generation methods. A given allele may have more than one attribute (example: Targeted (Null/knockout, Reporter)). See 
+<TR><TH VALIGN="top"><A NAME="attributes"></A>Allele Attributes</TH><TD VALIGN="top">These alleles are sub-types of the various generation methods. A given allele may have more than one attribute (example: Targeted (Null/knockout, Reporter)). See 
 <a href="ALLELE_phenotypic_categories_help.shtml" target="_blank">Allele Types</a> for how MGI differentiates these categories.<br></br>
 <p><B>Note:</B> A conditionally targeted genotype is dependent on the presence of some other factor (often a DNA sequence that expresses a protein functioning in specific recombination events). In MGI, <I>conditional</I> is a genotype attribute, and this is most commonly used to represent Cre-mediated excision of genomic sequences flanked by loxP sites; in most instances, this is accompanied by simultaneous insertion of some selectable marker (<I>e.g.</I> neomycin). The excised genotype, often associated with a phenotype, is dependent (or conditional) on the presence of the Cre-expressing construct.</p>
 </TR>
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="collections"></A>Project Collections</TH><TD VALIGN="top">Use this section if you want to limit your search to alleles produced by particular institutions/projects.</TR>
+<TR><TH VALIGN="top"><A NAME="collections"></A>Project Collections</TH><TD VALIGN="top">Use this section if you want to limit your search to alleles produced by particular institutions/projects.</TR>
 <!-- <TR><TH ALIGN="left" VALIGN="top"><A NAME="clear_all"></a>Clear all</TH><td valign="top">Removes check marks from all boxes in this section of the query form. </TD></TR>
 <TR><TH ALIGN="left" VALIGN="top"><a name="invert"></a>Invert selected</TH><td valign="top">This toggle switch removes any check marks and puts them in boxes not previously selected. Example usage: you want all but three of the categories. Click those three, and then click <B>Invert selected</B>. All the unchecked boxes are now checked and the three previously checked boxes are unchecked.</TD></TR>-->
 </TABLE></TD></TR>
@@ -364,14 +365,14 @@ gene trapped, targeted and transposon induced. See
 <h3><a name="revise"></a>Can I edit my original options and requery?</h3>
 
 <p>Yes, you can.</p>
-<ul><li>If you want to edit a list or change output options:</li>
+<p>If you want to edit a list or change output options:
 <ol>
   <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. </li>
   <li>Make your changes.</li>
   <li>Click Search.</li>
   <li>Repeat until the desired results appear.</li>
 </ol>
-</ul>
+</p>
 
 <b>Notes:</b> 
 <ul>
@@ -379,7 +380,6 @@ gene trapped, targeted and transposon induced. See
 <!--<li>If you had <a href="#filter">filtered</a> your search results, when you modify your search, the filters are automatically applied to your modified results.</li>-->
 <li>Alternatively, click Reset to return to the original Phenotypes, Alleles, and Disease Models Query form. </li>
 </ul>
-</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
