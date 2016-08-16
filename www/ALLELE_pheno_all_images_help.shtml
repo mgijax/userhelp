@@ -60,7 +60,7 @@ function openHelpWindow(helpFile){
 <h3><A name="howdo"></a>How do I access this report?</h3>
 <p>To access an All Images for Allele  report:
 <ol>
-  <li>Use the <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</a> to search for an allele. The Phenotypic Alleles Query Results -- Summary</b> report appears. </li>
+  <li>Use the <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</a> to search for an allele. The Phenotypic Alleles Query Results -- Summary report appears. </li>
   <li>Click an allele on the Summary report. The Phenotypic Allele Detail report appears.</li>
   <li>If there are multiple images for this allele or phenotype, the phrase <i>Show all images  involving this allele</i> appears at the bottom left of the (primary) image. Click <u>all images</u> to access the All Images for Allele report.</li>
 
@@ -75,7 +75,7 @@ function openHelpWindow(helpFile){
 </UL>
 
 
- <h3><A name="detail">How do I interpret this information in this report?</h3>
+ <h3><A name="detail"></a>How do I interpret this information in this report?</h3>
 
 <TABLE BORDER=1 cellpadding=4> 
 <TR><TH VALIGN="top">Field</TH><TH VALIGN="top">Description</TH></TR>
@@ -113,11 +113,11 @@ function openHelpWindow(helpFile){
 <td align="top">
   <table border=0 cellpadding=4>
    <tr>
-   <th align="left" valign="top"><nobr>Allelic Composition</nobr>
+   <th align="left" valign="top"><span style="white-space: nowrap">Allelic Composition</span>
 </th>
    <td valign="Top">Allele pairs that contribute to the genotype and the mouse strain background. Each allele is linked to its corresponding Phenotypic Allele Detail report.</td>
 </TR>
-<tr><th align=left valign="Top"><nobr>Genetic Background</nobr></th>
+<tr><th align=left valign="Top"><span style="white-space: nowrap">Genetic Background</span></th>
 <td valign="top">Strain(s) involved in the genotype, if known. 
 </td>
 </tr>
