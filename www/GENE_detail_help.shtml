@@ -61,9 +61,9 @@ table { border-style: none; align: center
 <p>Depending on data availability and the marker type, this detail report contains information in some or all of the categories described in the table below. Some sections of the Detail Page initially display only a summary. Use <img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif"> to expand the section to see more information and <img src="<!--#include file='include/webshare_url.html'-->images/downArrow.gif"> to collapse the view. Sections will be absent when we have no data of of that type.</p>
 
 <p><table>
-<tr><td><font size="-1"><a href="#summary">Summary</a> | <a href="#maps">Locations & Maps</a> | <a href="#orthology">Homology</a> | <a href="#diseases">Human Diseases</a> | <a href="#alleles">Mutations, Alleles, And Phenotypes</a> | <a href="#GO_detail">Gene Ontology (GO) Classifications</a> | <a href="#expression_detail">Expression</a> | <a href="#interactions">Interactions</a> | <a href="#molecular_reagents">Molecular Reagents</a> | <a href="#other_database_links">Other Database Links</a> | <a href="#sequences">Sequences</a> | <a href="#polymorphisms">Polymorphisms</a> | <a href="#protein_domains_detail">Protein-related Information</a> | <a href="#references">References</a> | <a href="#other">Other Accession IDs</a></font></td>
+<tr><td><font size="-1"><a href="#summary">Summary</a> | <a href="#maps">Locations &amp; Maps</a> | <a href="#orthology">Homology</a> | <a href="#diseases">Human Diseases</a> | <a href="#alleles">Mutations, Alleles, And Phenotypes</a> | <a href="#GO_detail">Gene Ontology (GO) Classifications</a> | <a href="#expression_detail">Expression</a> | <a href="#interactions">Interactions</a> | <a href="#molecular_reagents">Molecular Reagents</a> | <a href="#other_database_links">Other Database Links</a> | <a href="#sequences">Sequences</a> | <a href="#polymorphisms">Polymorphisms</a> | <a href="#protein_domains_detail">Protein-related Information</a> | <a href="#references">References</a> | <a href="#other">Other Accession IDs</a></font></td>
 </tr>
-</table>
+</table></p>
 
 
 <style>
@@ -93,7 +93,7 @@ dt { text-align: left; font-style: bold;
 		<tr><th>Feature Type</th>
 			<td>Genetic feature type(s) annotated to the marker (e.g, snoRNA gene, rRNA gene and so on). See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a> for a complete list of Feature Types used in MGI and their definitions.</td>
 			<tr>
-			<th>&nbsp</th><td>
+			<th>&nbsp;</th><td>
 			<p><b>BioType Conflict</b>
 			<ul><li>When different annotation groups disagree as to the marker type (e.g., protein coding versus pseudogene), click <b>Biotype Conflict</b> to see details about the conflict.</li>
 	  			<li>Identifiers in the Gene ID column link to the database source of the annotation (i.e., VEGA, Ensembl, NCBI).</li>
@@ -117,7 +117,7 @@ dt { text-align: left; font-style: bold;
 		<tr>
 		</td>
 		</table>
-<tr><th><a name="maps"></a>Location & Maps</th>
+<tr><th><a name="maps"></a>Location &amp; Maps</th>
 	<td><table>
 		<tr><th>Sequence Map</th>
 			<td>Appears if coordinates are assigned and includes:
@@ -224,7 +224,7 @@ dt { text-align: left; font-style: bold;
 	<td>The total number of markers with which the gene is known or suspected of interacting, along with links to up to three of those markers' detail pages and a link to View All the markers. <!--Currently MGI only displays microRNA targeting type interactions, though more types will be added.--> See <a href="INTERACTION_explorer_help.shtml" target="_blank">Interpreting Interaction Explorer Results</a> for more information on MGI interaction data.</td></tr>
 
 <TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="sequences"></A>Sequences & Gene Models</TH>
+<TH ALIGN="left" VALIGN="top"><A NAME="sequences"></A>Sequences &amp; Gene Models</TH>
 <TD VALIGN="top">
 <TABLE BORDER="1" CELLPADDING="2" WIDTH="100%">
 <TR>
@@ -236,6 +236,7 @@ dt { text-align: left; font-style: bold;
 <li>Links to <abbr title="Consensus CDS">CCDS</abbr> and UniGene</li>
 <li>Links to Gene Models at VEGA, Ensembl and NCBI</li>
 <li>Additionally, there may be links to the sequence evidence underlying gene predictions provided by NCBI, Ensembl, and VEGA.</li>
+</ul>
 </TD>
 </TR>
 <tr>
@@ -326,6 +327,7 @@ Accession IDs</TH>
 <li>The Disease, Expression, Gene Ontology and Phenotype annotation references, linked to a summary listing of just those references.</li>
 <LI>Details of one selected reference, linked to its detail page.</LI>
 <LI>Details of the earliest and latest references, linked to their detail pages.</LI>
+</ul>
 
 References on the detail and summary pages include a J number (an MGI reference ID) and a short citation, linked to the full citation. Reference summaries provide text export and filtering capabilities. </TD>
 </TR>
