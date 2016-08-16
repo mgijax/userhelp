@@ -36,217 +36,215 @@ Interpreting a Sequence Summary </span>
 <!-- Body of User Help -->
 
 
-<A NAME="top"></A> 
+<a id="top"></a> 
 
-<P>This document answers the following questions about a sequence summary:</P>
+<p>This document answers the following questions about a sequence summary:</p>
 
-<UL>
-<LI><A HREF="#access">When does a sequence summary appear?</A></LI>
-<LI><A HREF="#contain">What's in a sequence summary?</A></LI>
+<ul>
+<li><a href="#access">When does a sequence summary appear?</a></li>
+<li><a href="#contain">What's in a sequence summary?</a></li>
 <!--<li><a href="#sort">How is this report sorted?</a></li>-->
-<LI><A HREF="#usage">How do I use a sequence summary?</A></LI>
-   <UL>
-   <LI><A HREF="#single">How do I view details for a single sequence?</A></LI>
-   <LI><A HREF="#fasta">How do I download sequences in FASTA format?</A></LI>
-   <LI><A HREF="#ncbiblast">How do I forward sequences to NCBI BLAST?</A></LI>
-   </UL>
-</LI>
-<LI><A HREF="#marker_detail">I clicked a link on an MGI Gene Detail report and got this information. What does it tell me?</A></LI>
-<LI><A HREF="#reference_detail">I clicked a link on an MGI Reference Detail report and got this information. What does it tell me?</A></LI>
-<LI><A HREF="#fields">What can I do with sequence summary information?</A></LI>
-<LI><A HREF="#resolved">What does it mean if a value cannot be resolved to an MGI controlled vocabulary?</A></LI>
+<li><a href="#usage">How do I use a sequence summary?</a></li>
+   <ul>
+   <li><a href="#single">How do I view details for a single sequence?</a></li>
+   <li><a href="#fasta">How do I download sequences in FASTA format?</a></li>
+   <li><a href="#ncbiblast">How do I forward sequences to NCBI BLAST?</a></li>
+   </ul>
+<li><a href="#marker_detail">I clicked a link on an MGI Gene Detail report and got this information. What does it tell me?</a></li>
+<li><a href="#reference_detail">I clicked a link on an MGI Reference Detail report and got this information. What does it tell me?</a></li>
+<li><a href="#fields">What can I do with sequence summary information?</a></li>
+<li><a href="#resolved">What does it mean if a value cannot be resolved to an MGI controlled vocabulary?</a></li>
 </ul>
 
-<P>See also:</P>
-<UL>
-<LI><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
-<LI><A HREF="SEQUENCE_detail_help.shtml" target="_blank">Interpreting Sequence Detail Reports</A></LI>
+<p>See also:</p>
+<ul>
+<li><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a> (unfamiliar terms or acronyms)</li>
+<li><a href="SEQUENCE_detail_help.shtml" target="_blank">Interpreting Sequence Detail Reports</a></li>
 <li><a href="http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs" target="_blank">NCBI BLAST Help</a></li>
-</UL>
+</ul>
 
 
-<H3><A NAME="access"></A>When does a sequence summary appear?</H3>
+<H3><a id="access"></a>When does a sequence summary appear?</H3>
 
-<P>A sequence summary appears:</P>
+<p>A sequence summary appears:</p>
 
 <BLOCKQUOTE>
 <TABLE BORDER="1" CELLPADDING="4" WIDTH="100%">
-<TR>
-<TH ALIGN="left" VALIGN="top">When you search for sequences...</TH>
-<TH ALIGN="left" VALIGN="top">For field details, see...</TH>
-</TR>
+<tr>
+<th>When you search for sequences...</th>
+<th>For field details, see...</th>
+</tr>
 
-<TR>
-<TD VALIGN="top">from a Gene Detail report</TD>
-<TD VALIGN="top"><A HREF="#marker_detail">I clicked a link on a Gene Detail report...</A> </TD>
-</TR>
+<tr>
+<td>from a Gene Detail report</TD>
+<td><a href="#marker_detail">I clicked a link on a Gene Detail report...</a> </TD>
+</tr>
 
-<TR>
-<TD VALIGN="top">from on a Reference Detail report</TD>
-<TD VALIGN="top"><A HREF="#reference_detail">I clicked a link on a Reference Detail report...</A></TD>
-</TR>
+<tr>
+<td>from on a Reference Detail report</TD>
+<td><a href="#reference_detail">I clicked a link on a Reference Detail report...</a></TD>
+</tr>
 </TABLE>
 </BLOCKQUOTE>
 </p>
 
 
-<H3><A NAME="contain"></A>What's in a sequence summary?</H3>
+<H3><a id="contain"></a>What's in a sequence summary?</H3>
 
-<P>The Mouse Sequences Query Results summary appears when you select the All sequences, RefSeq or UniProt links in the Sequences section of a marker detail page. The summary provides a general description of each sequence that your query returns. The summary lists:</P>
+<p>The Mouse Sequences Query Results summary appears when you select the All sequences, RefSeq or UniProt links in the Sequences section of a marker detail page. The summary provides a general description of each sequence that your query returns. The summary lists:</p>
 
-<UL>
-<LI>Marker Symbol, Name and MGI accession ID.</LI>
-
-<LI STYLE="list-style: none"><BR>
-</LI>
-
-<LI>Number of matching sequences displayed out of number found (e.g.,  1 - 25 of 171 sequences displayed)</LI>
+<ul>
+<li>Marker Symbol, Name and MGI accession ID.</li>
 
 <LI STYLE="list-style: none"><BR>
-</LI>
+</li>
 
-<LI>Summary information about the sequences matching your query, in columns. Columns headings are: Select<!--(for your check marks)-->, Sequence, Type, Length, Strain/Species, Description from Sequence Provider, Clone Collection and Marker Symbol. </LI>
-</UL>
+<li>Number of matching sequences displayed out of number found (e.g.,  1 - 25 of 171 sequences displayed)</li>
 
-<P>You can view MGI sequence details (see <A HREF="SEQUENCE_detail_help.shtml" target="_blank">Using Sequence Detail Reports</A>), or you can download it in <A HREF="#fasta">FASTA</A> format or forward it to <A HREF="#ncbiblast">NCBI BLAST</A>.
-</P>
+<LI STYLE="list-style: none"><BR>
+</li>
+
+<li>Summary information about the sequences matching your query, in columns. Columns headings are: Select<!--(for your check marks)-->, Sequence, Type, Length, Strain/Species, Description from Sequence Provider, Clone Collection and Marker Symbol. </li>
+</ul>
+
+<p>You can view MGI sequence details (see <a href="SEQUENCE_detail_help.shtml" target="_blank">Using Sequence Detail Reports</a>), or you can download it in <a href="#fasta">FASTA</a> format or forward it to <a href="#ncbiblast">NCBI BLAST</a>.
+</p>
 
 <font size="-1"><a href="#top">Top</a></font>
 
-<H3><A NAME="usage"></A>How do I use a sequence summary?</H3>
+<H3><A NAME="usage"></a>How do I use a sequence summary?</H3>
 
-<P>There are several ways to use a sequence summary. You can:</P>
+<p>There are several ways to use a sequence summary. You can:</p>
 
-<OL>
-<LI>view sequence details for a single sequence by clicking either the <B>MGI Sequence Detail</B> or the provider (e.g., GenBank, RefSeq, and so on) link.</LI>
+<ol>
+<li>view sequence details for a single sequence by clicking either the <B>MGI Sequence Detail</B> or the provider (e.g., GenBank, RefSeq, and so on) link.</li>
 
-<LI>download <!--one or more--> a sequence in <A HREF="#fasta">FASTA</A> format.</LI>
+<li>download <!--one or more--> a sequence in <a href="#fasta">FASTA</a> format.</li>
 
-<LI>forward <!--one or more--> a sequence to <A HREF="#ncbiblast">NCBI BLAST</A>.</LI>
-</OL>
+<li>forward <!--one or more--> a sequence to <a href="#ncbiblast">NCBI BLAST</a>.</li>
+</ol>
 </p>
 
 
 <font size="-1"><a href="#top">Top</a>
 </font>
-<H3><A NAME="single"></A>How do I view details for a single sequence?</H3>
+<H3><A NAME="single"></a>How do I view details for a single sequence?</H3>
 
-<P>You can elect to view the sequence details in the provider's database or in MGI.</P>
+<p>You can elect to view the sequence details in the provider's database or in MGI.</p>
 
-<OL>
-<LI>Click the desired provider link (e.g., GenBank |EMBL |DDBJ).<BR>
-The provider's sequence record appears.</LI>
+<ol>
+<li>Click the desired provider link (e.g., GenBank |EMBL |DDBJ).<BR>
+The provider's sequence record appears.</li>
 
-<LI>Click <B>MGI Sequence Detail</B>.<BR>
-The detail record for that sequence as stored in MGI appears. See <A HREF="SEQUENCE_detail_help.shtml" target="_blank">Using Sequence Detail Reports</A>.</LI>
-</OL>
+<li>Click <B>MGI Sequence Detail</B>.<BR>
+The detail record for that sequence as stored in MGI appears. See <a href="SEQUENCE_detail_help.shtml" target="_blank">Using Sequence Detail Reports</a>.</li>
+</ol>
 
 <font size="-1"><a href="#top">Top</a>
 </font>
-<H3><A NAME="fasta"></A>How do I download a sequence in FASTA format?</H3>
+<H3><A NAME="fasta"></a>How do I download a sequence in FASTA format?</H3>
 
-<P>To download a sequence in FASTA format:</P>
+<p>To download a sequence in FASTA format:</p>
 
 <ul>
-<LI>Click the FASTA link in the <B>Select</B> column for the sequence.</LI>
+<li>Click the FASTA link in the <B>Select</B> column for the sequence.</li>
 </ul>
 
 <font size="-1"><a href="#top">Top</a>
 </font>
-<H3><A NAME="ncbiblast"></A>How do I forward a sequence to NCBI BLAST?</H3>
+<H3><a id="ncbiblast"></a>How do I forward a sequence to NCBI BLAST?</H3>
 
-<P>To forward a sequence to NCBI <abbr title=" Basic Local Alignment Search Tool">BLAST</abbr>:</P>
+<p>To forward a sequence to NCBI <abbr title=" Basic Local Alignment Search Tool">BLAST</abbr>:</p>
 
 <ul>
-<LI>Click the <i>BLAST at NCBI</i> link in the <B>Select</B> column for the sequence.</LI>
+<li>Click the <i>BLAST at NCBI</i> link in the <B>Select</B> column for the sequence.</li>
 </ul>
-</p>
 <p>For additional information, see <a href="http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs" target="_blank">NCBI BLAST Help</a> for how to use this tool.
-
 </p>
 
 <font size="-1"><a href="#top">Top</a></font>
 
-<H3><A NAME="marker_detail"></A>I clicked a link on a Marker Detail report and got this information. What does it tell me?</H3>
+<H3><a id="marker_detail"></a>I clicked a link on a Marker Detail report and got this information. What does it tell me?</H3>
 
-<P>You were looking for sequences associated with a gene and clicked <B>All Sequences</B> from the <B>Sequences</B> section of a gene detail report.</P>
+<p>You were looking for sequences associated with a gene and clicked <B>All Sequences</B> from the <B>Sequences</B> section of a gene detail report.</p>
 
-<P>Below the header of the Mouse Sequence Summary is the marker symbol, name, and ID, followed by the number of items displayed out of the number found.</P>
+<p>Below the header of the Mouse Sequence Summary is the marker symbol, name, and ID, followed by the number of items displayed out of the number found.</p>
 
-<P>The table provides information about the sequences associated with the marker. If a sequence is from the genome assembly, the coordinates appear in the Description from Sequence Provider column.</P>
+<p>The table provides information about the sequences associated with the marker. If a sequence is from the genome assembly, the coordinates appear in the Description from Sequence Provider column.</p>
 
-<UL>
-<LI>Click either <B>MGI Sequence Detail</B> or one of the provider links in the report to view sequence details.</LI>
+<ul>
+<li>Click either <B>MGI Sequence Detail</B> or one of the provider links in the report to view sequence details.</li>
 
-<LI>Choose a sequence to download in FASTA format or forward to NCBI BLAST. See <A HREF="#fasta">FASTA</A> or <A HREF="#ncbiblast">NCBI Blast</A> for details.</LI>
-</UL>
+<li>Choose a sequence to download in FASTA format or forward to NCBI BLAST. See <a href="#fasta">FASTA</a> or <a href="#ncbiblast">NCBI Blast</a> for details.</li>
+</ul>
 
-<P>See <A HREF="#fields">What can I do with sequence summary information?</A> for more details.</P>
+<p>See <a href="#fields">What can I do with sequence summary information?</a> for more details.</p>
 
-<font size="-1"><a href="#top">Top</a>
-</font>
-<H3><A NAME="reference_detail"></A>I clicked a link on a Reference Detail report and got this information. What does it tell me?</H3>
+<font size="-1"><a href="#top">Top</a></font>
 
-<P>You were looking for sequences associated with a reference and used the <B>Sequences</B> link on a Reference Detail report. The Sequence Summary provides the J number and citation of the reference.</P>
+<H3><A NAME="reference_detail"></a>I clicked a link on a Reference Detail report and got this information. What does it tell me?</H3>
 
-<P>The table provides information about the sequences associated with the reference.</P>
+<p>You were looking for sequences associated with a reference and used the <B>Sequences</B> link on a Reference Detail report. The Sequence Summary provides the J number and citation of the reference.</p>
 
-<UL>
-<LI>Click either <B>MGI Sequence Detail</B> or one of the provider links in the report to view sequence details.</LI>
+<p>The table provides information about the sequences associated with the reference.</p>
 
-<LI>Choose a sequence to download in FASTA format or forward to NCBI <abbr title=" Basic Local Alignment Search Tool">BLAST</abbr>. See <A HREF="#fasta">FASTA</A> or <A HREF="#ncbiblast">NCBI Blast</A> for details.</LI>
-</UL>
+<ul>
+<li>Click either <B>MGI Sequence Detail</B> or one of the provider links in the report to view sequence details.</li>
 
-<P>See <A HREF="#fields">What can I do with sequence summary information?</A> for more details.</P>
+<li>Choose a sequence to download in FASTA format or forward to NCBI <abbr title=" Basic Local Alignment Search Tool">BLAST</abbr>. See <a href="#fasta">FASTA</a> or <a href="#ncbiblast">NCBI Blast</a> for details.</li>
+</ul>
 
-<font size="-1"><a href="#top">Top</a>
-</font>
-<H3><A NAME="fields"></A>What can I do with sequence summary information?</H3>
+<p>See <a href="#fields">What can I do with sequence summary information?</a> for more details.</p>
 
-<P>On the sequence summary, you can follow links to:</P>
+<font size="-1"><a href="#top">Top</a></font>
 
-<UL>
-<LI>the MGI Sequence Detail report or the provider's sequence record</LI>
+<H3><a id="fields"></a>What can I do with sequence summary information?</H3>
 
-<LI>an MGI Gene Detail report containing more information about the marker.</LI>
-</UL>
+<p>On the sequence summary, you can follow links to:</p>
 
-<P>Depending on how you access this summary and your sort choices, some or all of the following fields and links appear:</P>
-<P><table width="!" cellpadding="2" align="center">
+<ul>
+<li>the MGI Sequence Detail report or the provider's sequence record</li>
+
+<li>an MGI Gene Detail report containing more information about the marker.</li>
+</ul>
+
+<p>Depending on how you access this summary and your sort choices, some or all of the following fields and links appear:</p>
+<p><table width="!" cellpadding="2" align="center">
 <tr align="center"><td><a href="#select">Select</a> | <a href="#sequence">Sequence</a> | <a href="#version">Version</a> | 
 <a href="#type">Type</a> | <a href="#length">Length</a> | <a href="#desc">Description from sequence provider</a> | <a href="#strain">Strain</a> | <a href="#tissue">Tissue</a> | <a href="#library">Library</a> | <a href="#marker_symbol">Marker symbol</a> | <a href="#marker_name">Marker name</a> | <a href="#position">Map position</a> | <a href="#coord">Genome Coordinates</a></td></tr>
    </table>
-  </P>
+  </p>
 
 <TABLE BORDER="1" CELLPADDING="4">
-<TR><TH>Field</TH><TH>Description</TH></TR>
-<TR><TH ALIGN="left" VALIGN="top"><a name="select"></a>Select</TH><TD ALIGN="top" VALIGN="left">Check boxes for selecting sequences for downloading, or forwarding.</TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="sequence"></A>Sequence</TH><TD><UL><LI>Sequence identifier</LI>
-<LI>Name of the sequence provider, linked to the associated sequence in the provider's database.</LI>
-<LI>Link to the MGI sequence detail report</LI></UL></TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="version"></A>Version</TH><TD ALIGN="top" VALIGN="left">Number assigned by the provider to this update of the sequence information. If blank, the provider does not furnish this information.</TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="type"></A>Type</TH><TD ALIGN="top" VALIGN="left">Type of sequence: RNA, DNA, or polypeptide. <!--Sorting order is as follows:--></TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><a name="length"></a>Length</TH><TD ALIGN="top" VALIGN="left">Length of the sequence, in base pairs (RNA, DNA) or amino acids (polypeptides).</TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><a name="desc"></a>Description from Sequence Provider</TH><TD ALIGN="top" VALIGN="left">Information about the sequence from the provider you selected (RefSeq, GenBank, and so on.)</TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="strain"></A>Strain/Species</TH><TD>Mouse strain (or species if other than laboratory mouse) from which the sequence was derived. If the strain/species cannot be resolved to an MGI controlled vocabulary a message to this effect appears, marked with an asterisk. See <A HREF="#resolved">What does it mean if a value cannot be resolved to an MGI controlled vocabulary?</A></TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="tissue"></A>Source Tissue</TH>
-<TD>Mouse tissue from which the sequence was derived.</TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="library"></A>Library</TH><TD>Mouse library from which the sequence was derived.</TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><A NAME="clone_collection"></A>Clone Collection</TH><TD>Name of clone collections from which the sequence was derived. (<B>Not Applicable</B> appears for RefSeq, UniProt, DFCI, DoTS,  NIA sequences)</TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><a name="marker_symbol"></a>Marker Symbol</TH><TD>Gene/marker symbol associated with the sequence(s), linked to the MGI Gene Detail report.</TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><a name="marker_name"></a>Marker Name</TH><TD>Name of the gene/marker associated with the sequence.</TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><a href="#position"></a>Map Position</TH><TD>Chromosome(s) and cM position(s) of the markers each sequence is associated with.</TD></TR>
-<TR><TH ALIGN="left" VALIGN="top"><a name="coord"></a>Genome Coordinates</TH><TD>Assembly sequence coordinates for the mapped gene/marker. Format is <I>Chromosome# (beginning coordinate - end coordinate)</I></TD></TR>
+<tr><th>Field</th><th>Description</th></tr>
+<tr><th><a id="select"></a>Select</th><td>Check boxes for selecting sequences for downloading, or forwarding.</TD></tr>
+<tr><th><a id="sequence"></a>Sequence</th><td>
+<ul><li>Sequence identifier</li>
+<li>Name of the sequence provider, linked to the associated sequence in the provider's database.</li>
+<li>Link to the MGI sequence detail report</li>
+</ul></TD></tr>
+<tr><th><a id="version"></a>Version</th><td>Number assigned by the provider to this update of the sequence information. If blank, the provider does not furnish this information.</TD></tr>
+<tr><th><a id="type"></a>Type</th><td>Type of sequence: RNA, DNA, or polypeptide. <!--Sorting order is as follows:--></TD></tr>
+<tr><th><a id="length"></a>Length</th><td>Length of the sequence, in base pairs (RNA, DNA) or amino acids (polypeptides).</TD></tr>
+<tr><th><a id="desc"></a>Description from Sequence Provider</th><td>Information about the sequence from the provider you selected (RefSeq, GenBank, and so on.)</TD></tr>
+<tr><th><a id="strain"></a>Strain/Species</th><td>Mouse strain (or species if other than laboratory mouse) from which the sequence was derived. If the strain/species cannot be resolved to an MGI controlled vocabulary a message to this effect appears, marked with an asterisk. See <a href="#resolved">What does it mean if a value cannot be resolved to an MGI controlled vocabulary?</a></TD></tr>
+<tr><th><a id="tissue"></a>Source Tissue</th>
+<td>Mouse tissue from which the sequence was derived.</TD></tr>
+<tr><th><a id="library"></a>Library</th><td>Mouse library from which the sequence was derived.</TD></tr>
+<tr><th><a id="clone_collection"></a>Clone Collection</th><td>Name of clone collections from which the sequence was derived. (<B>Not Applicable</B> appears for RefSeq, UniProt, DFCI, DoTS,  NIA sequences)</TD></tr>
+<tr><th><a id="marker_symbol"></a>Marker Symbol</th><td>Gene/marker symbol associated with the sequence(s), linked to the MGI Gene Detail report.</TD></tr>
+<tr><th><a id="marker_name"></a>Marker Name</th><td>Name of the gene/marker associated with the sequence.</TD></tr>
+<tr><th><a id="position"></a>Map Position</th><td>Chromosome(s) and cM position(s) of the markers each sequence is associated with.</TD></tr>
+<tr><th><a id="coord"></a>Genome Coordinates</th><td>Assembly sequence coordinates for the mapped gene/marker. Format is <I>Chromosome# (beginning coordinate - end coordinate)</I></TD></tr>
 </TABLE>
 </p>
 
-<font size="-1"><a href="#top">Top</a>
-</font>
-<H3><A NAME="resolved"></A>What does it mean if a value cannot be resolved to an MGI controlled vocabulary?</H3>
+<p style="font-size: 0.875em;"><a href="#top">Top</a></p>
 
-<P>Providers describe sequence attributes (strains/species, tissues, libraries, clone collections, and so on) in their reports. MGI captures these original values, converts them to MGI controlled vocabularies if possible, and stores them in the MGI databases. Once captured, values are called <I>resolved</I>, and you can use them as search terms on the Mouse Sequence Query Form. If the original value is not resolved to a controlled vocabulary term, it does not produce results if queried upon; a message to this effect, marked with an asterisk, appears on your query report.</P>
+<H3><a id="resolved"></a>What does it mean if a value cannot be resolved to an MGI controlled vocabulary?</H3>
 
-<font size="-1"><a href="#top">Top</a></font>
+<p>Providers describe sequence attributes (strains/species, tissues, libraries, clone collections, and so on) in their reports. MGI captures these original values, converts them to MGI controlled vocabularies if possible, and stores them in the MGI databases. Once captured, values are called <I>resolved</I>, and you can use them as search terms on the Mouse Sequence Query Form. If the original value is not resolved to a controlled vocabulary term, it does not produce results if queried upon; a message to this effect, marked with an asterisk, appears on your query report.</p>
 
+<p style="font-size: 0.875em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
