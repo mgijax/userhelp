@@ -49,12 +49,12 @@ function openHelpWindow(helpFile){
 <p>
 <table border="1" cellspacing="1" cellpadding="3" width="100%">
  <tr>
-  <th valign="top"><a name="method"></a><nobr>Generation Method</nobr></th>
+  <th valign="top"><a name="method"></a><span style="white-space: nowrap">Generation Method</span></th>
   <th align="center">Definitions for the origin of the allele</th></tr>
  
  <tr><th valign="top">Chemically induced (ENU)</th><td valign="top">The exposure of mice to the chemical mutagen N-ethyl-N-nitrosourea (ENU) results in germline transmissible mutations.</td></tr>
  
- <tr><th valign="top"><nobr>Chemically induced (other)</nobr></th><td valign="top">The exposure of mice to a chemical mutagen other than ENU, including common chemical agents such as ethyl methanesulfonate (EMS), bleomycin, and chlorambucil, results in germline transmissible mutations.</td></tr>
+ <tr><th valign="top"><span style="white-space: nowrap">Chemically induced (other)</span></th><td valign="top">The exposure of mice to a chemical mutagen other than ENU, including common chemical agents such as ethyl methanesulfonate (EMS), bleomycin, and chlorambucil, results in germline transmissible mutations.</td></tr>
  
  <tr><th valign="top">Chemically and radiation induced</th>
   <td valign="top">The exposure of mice to a combination of chemicals and X-ray or other types of radiation results in germline transmissible mutations.</td></tr>
@@ -105,7 +105,7 @@ function openHelpWindow(helpFile){
 <p>
 <table border="1" cellspacing="1" cellpadding="3" width="100%">
  <tr>
-  <th valign="top"><a name="collection"></a><nobr>Project Collections</nobr></th>
+  <th valign="top"><a name="collection"></a><span style="white-space: nowrap">Project Collections</span></th>
   <th align="center">Use this section to limit your search to alleles from specific large scale projects and repositories.</th></tr>
   <tr><th align="left" valign="top"><a href="http://pb.apf.edu.au/phenbank/homePage.html">Australian PhenomeBank</a></th><td valign="top">A repository of genetically modified mouse strains held in Australia
 either as live or cryopreserved stock.</td></tr>
