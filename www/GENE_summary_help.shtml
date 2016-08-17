@@ -47,6 +47,7 @@ function openHelpWindow(helpFile){
  <li><a href="#sort">How do I sort my results?</a></li>
  <!--<li><a href="#filter">How do I filter my results?</a></li>  -->
  <li><a href="#tabfile">How do I retrieve my results as tab-delimited text or spreadsheet files?</a></li>
+ <li><a href="#batch">Can I forward my results to batch queries?</li>
 </ul>
 <p>See also:
 <ul>
@@ -56,7 +57,7 @@ function openHelpWindow(helpFile){
 </ul>
 </p>
 <h3><a name="summary_sort"></a>What determines the content of this report?</h3>
-<P>The marker summary content depends on how you filled out the fields on the 
+<p>The marker summary content depends on how you filled out the fields on the 
 <a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a>.</p>
 
 <a href="#top">Top</A><br>
@@ -86,16 +87,16 @@ function openHelpWindow(helpFile){
 
 <BLOCKQUOTE>
 <TABLE BORDER="1" CELLPADDING="4">
-<TR><TH VALIGN="top">Field</TH><TH>Description</TH></TR>
- <TR><TH ALIGN="left" VALIGN="top">Genetic Location</TH> <TD>If known, the chromosome and centimorgan position to which the marker is assigned. Centimorgan positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009) (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PMID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.</TD></TR>
+<tr><th>Field</th><th>Description</th></tr>
+ <tr><th>Genetic Location</th> <td>If known, the chromosome and centimorgan position to which the marker is assigned. Centimorgan positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009) (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PubMed ID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.</td></tr>
 
- <TR><TH ALIGN="left" VALIGN="top">Genome Coordinates (strand)</TH><TD VALIGN="top">Marker's coordinates on the mouse genome assembly sequence map, and the strand location of the coordinates in parentheses. Plus (+) is = 5<sup>'</sup> to 3<sup>'</sup>. Minus (-) is 3<sup>'</sup> to 5<sup>'</sup>.</TD></TR>
+ <tr><th>Genome Coordinates (strand)</th><td>Marker's coordinates on the mouse genome assembly sequence map, and the strand location of the coordinates in parentheses. Plus (+) is = 5<sup>'</sup> to 3<sup>'</sup>. Minus (-) is 3<sup>'</sup> to 5<sup>'</sup>.</td></tr>
 
-<tr><th align="left" valign="top">Feature Type</th><td valign="Top">Marker categories  resulting from your selection(s) on the query form. For example, if you clicked <b>Non-coding RNA gene</b>, results for rRNA, tRNA, snRNA, snoRNA, or miRNA genes may appear.</td></tr>
+<tr><th>Feature Type</th><td>Marker categories  resulting from your selection(s) on the query form. For example, if you clicked <b>Non-coding RNA gene</b>, results for rRNA, tRNA, snRNA, snoRNA, or miRNA genes may appear. See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a> for a complete list of Feature Types used in MGI and their definitions.</td></tr>
 
- <TR><TH ALIGN="left" VALIGN="top">Symbol</TH><TD>Marker symbol and name, linked to the MGI marker detail page.</TD></TR>
- <!--<TR><TH ALIGN="left" VALIGN="top">Matching Text</TH><TD>Type of information contained in the database and the text that it matches. The tool searches for items containing a match in the following order: current symbol, current name, allele symbol, allele name, withdrawn symbol, withdrawn name,
-human homolog symbol, human homolog name, other homolog symbol.</TD></TR>-->
+ <tr><th>Symbol</th><td>Marker symbol and name, linked to the MGI marker detail page.</td></tr>
+ <!--<tr><TH ALIGN="left" VALIGN="top">Matching Text</th><td>Type of information contained in the database and the text that it matches. The tool searches for items containing a match in the following order: current symbol, current name, allele symbol, allele name, withdrawn symbol, withdrawn name,
+human homolog symbol, human homolog name, other homolog symbol.</td></tr>-->
 </TABLE>
 
 </BLOCKQUOTE>
@@ -105,14 +106,14 @@ human homolog symbol, human homolog name, other homolog symbol.</TD></TR>-->
 <h3><a name="revise"></a>Can I edit my original options and requery?</h3>
 
 <p>Yes, you can.</p>
-<ul><li>If you want to edit a list or change output options:</li>
+<p>If you want to edit a list or change output options:
 <ol>
   <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. </li>
   <li>Make your changes.</li>
   <li>Click Search.</li>
   <li>Repeat until the desired results appear.</li>
 </ol>
-</ul>
+</p>
 
 <b>Notes:</b> 
 <ul>
@@ -121,7 +122,6 @@ human homolog symbol, human homolog name, other homolog symbol.</TD></TR>-->
 <li>Alternatively, click Reset to return to the original Genes and Markers Query form.</li>
 <li>See <a href="GENE_help.shtml" target="_blank">Using the Genes and Markers Query Form</a></li>
 </ul>
-</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
@@ -136,7 +136,14 @@ human homolog symbol, human homolog name, other homolog symbol.</TD></TR>-->
 <a href="#top"><font size="-1">Top</font></a>  -->
 
 <h3><a name="tabfile"></a>How do I retrieve my results as tab-delimited text or spreadsheet files?</h3>
-<p>In your search results, <!--at the right hand edge of the Filter assays bar,--> click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
+<p>Above the table of your search results, click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
+
+<a href="#top"><font size="-1">Top</font></a>
+
+<h3><a id="batch"></a>Can I forward my results to batch queries?</h3>
+
+<p>Yes, you can.</p>
+<p>Above the table of your search results, click on the <a href="<!--#include file='include/fewi_url.html'-->batch" target="_blank">Batch Query</a> or <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a> icons. The Batch Query will allow you to easily associate GO, phenotype and expression data to your list of results and MouseMine offers flexible querying, numerous predefined query templates, iterative refinement of results, and built-in enrichment analysis.</p>
 
 <a href="#top"><font size="-1">Top</font></a>
 
