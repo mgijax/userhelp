@@ -169,15 +169,6 @@ function openHelpWindow(helpFile){
 <p>When there is genome coordinate discrepancy, the summary section with links to associated genes from any returned coordinate regions does not appear.<!--When the discrepancy exists, a message indicating that the Associated Genes section is   temporarily disabled appears in the query summary report and you cannot click either the MGI Mouse Genome Browser or the MGI genes/markers links to view any returned coordinate ranges.--> This is because genome coordinates for mouse genes and markers in MGI are derived from the current NCBI mouse genome build but the coordinates for mouse SNPs are derived from an earlier NCBI mouse genome build (as, for example, when MGI genome coordinates are derived from NCBI build 34 but the dbSNP data references NCBI build 33).  See <A href="SNP_discrepancy_help.shtml" target="_blank">Understanding Mouse SNP Coordinate Discrepancies</a> for further information.
 </p>
 
-<!--<H3><A NAME="ftp"></A>I got a summary report with a "Link to Results on FTP Site" message. What do I do now?</H3>
-
-<P>The Mouse SNP Summary Report with the FTP link summarizes your query parameters at the top of the page and beneath this, lists the number of items that matched your query.</P>
-
-<UL>
-<LI>If you want to retrieve those matches right now, click the link (i.e., <I>ftp://ftp.informatics.jax.org/pub/custom/wi_generated/@26713.1/queryResults</i>).
-
-<LI>If you want to access your results later, copy or save the URL to the MGI FTP site and make a note of how long they will be retained. If you don't retrieve your results within 72 hours, you'll have to rerun this query.</LI>
-</UL></p>-->
 <font size="-1"> <a href="#top">Top</a>
 </font>
 <!--#include file='include/templateBlankBodyStop.html'--> 

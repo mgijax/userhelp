@@ -262,12 +262,12 @@ For example:
 <A HREF="#top"><font size="-1">Top</font></A>
 
 <h3><a name="all_accession_ids"></a>Is there a list of all gene trap cell line accession IDs?</h3>
-<p>Yes. Click  <b>Download-->MGI Data and Statistical Reports--></b> to access   <a href="ftp://ftp.informatics.jax.org/pub/reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs (tab-delimited).</a></p>
+<p>Yes. Click  <b>Download-->MGI Data and Statistical Reports--></b> to access   <a href="http://www.informatics.jax.org/downloads/reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs (tab-delimited).</a></p>
 <A HREF="#top"><font size="-1">Top</font></A>
 
 <h3><a name="stat_report"></a>Is there a list of all IDs and nomenclature associated with gene traps in MGI?</h3>
 
-<p>Yes. Click <b>Download-->All MGI Reports--></b> to see all <a href="ftp://ftp.informatics.jax.org/pub/reports/MRK_GeneTrap.rpt" target="_blank">gene traps associated with markers</a>. 
+<p>Yes. Click <b>Download-->All MGI Reports--></b> to see all <a href="http://www.informatics.jax.org/downloads/reports/MRK_GeneTrap.rpt" target="_blank">gene traps associated with markers</a>. 
 </p>
 
 <A HREF="#top"><font size="-1">Top</font></A>
@@ -454,7 +454,7 @@ For example:
 
 
 <li>You can use the MGI <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, & Disease Models Query Form</a>. Enter the gene nomenclature and follow the appropriate links.</li>
-<li>You can look through the <a href="ftp://ftp.informatics.jax.org/pub/reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs</a> report to locate the gene and its traps.</li>
+<li>You can look through the <a href="http://www.informatics.jax.org/downloads/reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs</a> report to locate the gene and its traps.</li>
 </ol>
 </p>
 <A HREF="#top"><font size="-1">Top</font></A>
@@ -462,7 +462,7 @@ For example:
 
 
 <h3><a name="identify"></a>How can I find all genes associated with gene trap insertions?</h3>
-<p><p>Click  <b>Download-->MGI Data and Statistical Reports--></b> to access   <a href="ftp://ftp.informatics.jax.org/pub/reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs (tab-delimited) for this list.</a></p>
+<p><p>Click  <b>Download-->MGI Data and Statistical Reports--></b> to access   <a href="http://www.informatics.jax.org/downloads/reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs (tab-delimited) for this list.</a></p>
 </p>
 <ol>
 <li>On the <b>Phenotypes, Alleles, & Disease Models Query Form</b>, locate the <b>Categories</b> row.</li>
