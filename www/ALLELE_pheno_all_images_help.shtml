@@ -38,8 +38,8 @@ function openHelpWindow(helpFile){
 <br><br>
 <!-- Body of User Help -->
 
+<a id="top"></a>
 
-<a name="top"></A>
 <P>This help document answers the following questions about the (Phenotypic) Image Detail report.
 </P> <UL>
   <LI><A HREF="#field">What should show up in this report?</a></LI>
@@ -48,7 +48,7 @@ function openHelpWindow(helpFile){
 </UL>
 
 
-<h3><a name="field"></a>What should show up in this report?</h3>
+<h3><a id="field"></a>What should show up in this report?</h3>
 <p>The following appear on an All Images for Allele report:
  <ul>
 <li>Images of mice that carry the allele of interest. Click each image to see its Image Detail report.
@@ -57,7 +57,7 @@ function openHelpWindow(helpFile){
 </ul>
 </p>
 
-<h3><A name="howdo"></a>How do I access this report?</h3>
+<h3><a id="howdo"></a>How do I access this report?</h3>
 <p>To access an All Images for Allele  report:
 <ol>
   <li>Use the <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</a> to search for an allele. The Phenotypic Alleles Query Results -- Summary report appears. </li>
@@ -75,56 +75,57 @@ function openHelpWindow(helpFile){
 </UL>
 
 
- <h3><A name="detail"></a>How do I interpret this information in this report?</h3>
+ <h3><a id="detail"></a>How do I interpret this information in this report?</h3>
 
 <TABLE BORDER=1 cellpadding=4> 
-<TR><TH VALIGN="top">Field</TH><TH VALIGN="top">Description</TH></TR>
-<TR><TH align="left" valign="top">Nomenclature</th>
-    <TD VALIGN="top">
+<TR><th>Field</TH><th>Description</TH></TR>
+<TR><th>Nomenclature</th>
+    <td>
      <table align="left" border="0" cellpadding="4">
      <tr>
-     <TH align="left" valign="top">Symbol</th>
-     <td valign="top">Official symbol for the allele.</td>
+     <th>Symbol</th>
+     <td>Official symbol for the allele.</td>
      </tr>
      <tr>
-     <TH align="left" valign="top">Name</th>
-     <td valign="top">Approved name for the allele. See 
-<A HREF="<!--#include file='include/mgihome_url.html'-->nomen/gene.shtml" target="_blank">Guidelines for Nomenclature of Genes, Genetic Markers, Alleles, & Mutations in Mouse & Rat</a> for details.</td>
+     <th>Name</th>
+     <td>Approved name for the allele. See 
+<A HREF="<!--#include file='include/mgihome_url.html'-->nomen/gene.shtml" target="_blank">Guidelines for Nomenclature of Genes, Genetic Markers, Alleles, &amp; Mutations in Mouse &amp; Rat</a> for details.</td>
      </tr>
      <tr>
-     <TH align="left" valign="top">ID</th>
-     <td valign="top">MGI identifier of the allele.</td>
+     <th>ID</th>
+     <td>MGI identifier of the allele.</td>
      </tr>
-     <tr><th valign="top">Synonyms</th>
+     <tr><th>Synonyms</th>
      <td>Unofficial names for this allele.</td></TR>
      </table>
     </td>
 </tr>
-<tr><th align="left" valign="top">Images for Allele</th>
-    <td valign="top">Click any image to see its Image Detail report with full description.</td>
+<tr><th>Images for Allele</th>
+    <td>Click any image to see its Image Detail report with full description.</td>
 </tr>
 <TR>
-<TH align="left" valign="top">Caption</th>
-<TD VALIGN="top">Brief description of the mouse/mice displayed in the image.</td>
+<th>Caption</th>
+<td>Brief description of the mouse/mice displayed in the image.</td>
 </tr>
 <tr>
-<td align="left" valign="top"><b>Genotypes involving this allele</b><br>
+<td><b>Genotypes involving this allele</b><br>
 (These fields may not contain information if the image is only associated with an allele and not a genotype.)</td>
-<td align="top">
+<td>
   <table border=0 cellpadding=4>
    <tr>
-   <th align="left" valign="top"><span style="white-space: nowrap">Allelic Composition</span>
+   <th><span style="white-space: nowrap">Allelic Composition</span>
 </th>
-   <td valign="Top">Allele pairs that contribute to the genotype and the mouse strain background. Each allele is linked to its corresponding Phenotypic Allele Detail report.</td>
+   <td>Allele pairs that contribute to the genotype and the mouse strain background. Each allele is linked to its corresponding Phenotypic Allele Detail report.</td>
 </TR>
-<tr><th align=left valign="Top"><span style="white-space: nowrap">Genetic Background</span></th>
-<td valign="top">Strain(s) involved in the genotype, if known. 
+<tr><th><span style="white-space: nowrap">Genetic Background</span></th>
+<td>Strain(s) involved in the genotype, if known. 
 </td>
 </tr>
 </td>
 </table>
 </table>
 </p>
-<font size="-1"><A HREF="#top">Top</A></font>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
