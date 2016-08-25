@@ -34,7 +34,9 @@ function openHelpWindow(helpFile){
 <!--#include file='include/templateBlankBodyStart.html'-->
 
 <!-- Body of User Help -->
-<a name="top"></a>
+
+<a id="top"></a>
+
 <P>This help document answers the following questions:</P>
 
 <UL> 
@@ -56,7 +58,7 @@ function openHelpWindow(helpFile){
 </UL>
 
 
-<H3><A name="whatis"></a>How do I make choices on the Anatomical Systems Affected by Phenotypes list?</H3> 
+<H3><a id="whatis"></a>How do I make choices on the Anatomical Systems Affected by Phenotypes list?</H3> 
 <p>The Anatomical Systems Affected by Phenotypes is a high-level phenotype term list consisting largely of systems (e.g., cardiovascular, digestive/alimentary) or syndromes (e.g., life span/aging) that MGI has phenotypes for. Selecting terms and clicking <b>Add to query</b> results in their populating the Phenotype/Disease search box. The system takes the terms you enter, looks for that text in database records of the appropriate type, and returns a list of all records annotated to a phenotype term related to your system.  
 For an explanation of what appears in the search box, see <a href="#strange">strange things ...</a>. If you can't find what you are looking for, see <A href="#noterm"> What if my term is not on that list?</a>
 
@@ -67,7 +69,7 @@ See <A HREF="MISC_boolean_search_help.shtml" target="_blank">Using Full-Text Sea
 
 </P>
 
-<h3><A name="noterm"></a>What if my term is not on that list?</h3>
+<h3><a id="noterm"></a>What if my term is not on that list?</h3>
 <p>Click <b>Full Mammalian Phenotype (MP) Ontology</b> and navigate the hierarchy.  For example, to find <i>aneurysm</i>, the path is:
 <ol>
   <li>cardiovascular system phenotype +</li>
@@ -87,9 +89,9 @@ See <A HREF="MISC_boolean_search_help.shtml" target="_blank">Using Full-Text Sea
   <li>On a Macintosh, hold the command (Apple) key down and click the desired items, or hold the shift key down and click two items to select them and all the items in between.
  </ul></p> -->
 
-<A HREF="#top">Top</A>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A name="strange"></a>After I make my selection, strange things appear in the box. Why?</H3>
+<H3><a id="strange"></a>After I make my selection, strange things appear in the box. Why?</H3>
 <P>When you click <b>Anatomical Systems Affected by Phenotypes</b>, select terms, and add them to your query, the system populates the Phenotype/Disease query box with your choices. 
 <ul>
 <li>Each choice is enclosed in parentheses to ensure that terms are considered as a whole and in order. Sometimes, this requires more than one set of parentheses. For terms such as <i>endocrine, cardiovascular</i>, and so on, the word <i>system</i> is understood and does not appear in the query box. </li>
@@ -101,148 +103,147 @@ See <A HREF="MISC_boolean_search_help.shtml" target="_blank">Using Full-Text Sea
 <li>A space within quotation marks indicates that the search should treat it as a space. For example, if you only want results for <i>eye</i>, enter <i>"eye"</i> to prevent matches on, for example, <i>Peyer's patch:</i>.
 </ul>
 </p>
-<A HREF="#top">Top</A>
 
-<H3><A name="examples"></a>Are there examples of what shows up in the box?</H3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><a id="examples"></a>Are there examples of what shows up in the box?</H3>
 <p></p>
 <TABLE BORDER="1" CELLSPACING="1" CELLPADDING="3">
 <tr>
-  <th align="left" valign="top"><font size=-1>When you select ... from the Phenotypes Selection List:</th>
-  <th align="left" valign="top"><font size=-1>the Phenotype/Disease box contains...</th>  <th align="left" valign="top"><font size=-1>because the system stems to ...</th>
-  <th align="left" valign="top"><font size=-1>and adds...</th>
+  <th>When you select ... from the Phenotypes Selection List:</th>
+  <th>the Phenotype/Disease box contains...</th>  <th>because the system stems to ...</th>
+  <th>and adds...</th>
 </tr>
 
 <TR>
-<TD VALIGN="top"><font size=-1>behavior/neurological</td>
-<TD VALIGN="top"><font size=-1>(behavior OR neurological)</td>
-<td valign=top><font size=-1>behavior, neurolog</td>
-<td valign="top"><font size=-1>Boolean OR and parentheses</td>
+<td>behavior/neurological</td>
+<td>(behavior OR neurological)</td>
+<td>behavior, neurolog</td>
+<td>Boolean OR and parentheses</td>
 </TR>
 
 <TR>
-<TD VALIGN="top"><font size=-1>cardiovascular system</td>
-<TD VALIGN="top"><font size=-1>(cardiovascular)</td>
-<td valign="top"><font size=-1>cardiovascular</td>
-<td valign="top"><font size="-1">parentheses ("system" is understood)</td>
+<td>cardiovascular system</td>
+<td>(cardiovascular)</td>
+<td>cardiovascular</td>
+<td>parentheses ("system" is understood)</td>
 </TR>
 
 <TR>
-<TD VALIGN="top"><font size=-1>endocrine/exocrine glands</td>
-<TD VALIGN="top"><font size=-1>((endocrine OR exocrine) AND glands)</td>
-<td valign=top><font size=-1>endocrin, gland, exocrin</td>
-<td valign="top"><font size=-1>outer parentheses for entire expression, internal parentheses for ORed terms </td>
+<td>endocrine/exocrine glands</td>
+<td>((endocrine OR exocrine) AND glands)</td>
+<td>endocrin, gland, exocrin</td>
+<td>outer parentheses for entire expression, internal parentheses for ORed terms </td>
 </TR>
 
 <TR>
-<TD VALIGN="top"><font size=-1>hearing/ear</td>
-<TD VALIGN="top"><font size=-1>("hearing" OR " ear " OR " ears")</td>
-<td valign=top><font size=-1>hear, ear</td>
-<td valign=top><font size=-1>Outer parentheses for entire expression, quotation marks to turn off partial word matching.</td>
+<td>hearing/ear</td>
+<td>("hearing" OR " ear " OR " ears")</td>
+<td>hear, ear</td>
+<td>Outer parentheses for entire expression, quotation marks to turn off partial word matching.</td>
 </TR>
 
 
 <TR>
-<TD VALIGN="top"><font size=-1>immune system</td>
-<TD VALIGN="top"><font size=-1>("immune")</td>
-<td valign=top><font size=-1>immun</td>
-<td><font size=-1>Quotation marks to turn off word stemming. If you want everything beginning with "immun," remove the quotation marks. </td>
+<td>immune system</td>
+<td>("immune")</td>
+<td>immun</td>
+<td>Quotation marks to turn off word stemming. If you want everything beginning with "immun," remove the quotation marks. </td>
 </TR>
 
 <TR>
-<TD VALIGN="top"><font size=-1>lethality/embryonic-perinatal</td>
-<TD VALIGN="top"><font size=-1>(lethality AND (embryonic OR perinatal))</td>
-<td valign=top><font size=-1>lethal, embryon, perinat</td>
-<td valign=top><font size=-1>Internal parentheses enclosed in external parentheses to ensure correct order of evaluation.</td>
+<td>lethality/embryonic-perinatal</td>
+<td>(lethality AND (embryonic OR perinatal))</td>
+<td>lethal, embryon, perinat</td>
+<td>Internal parentheses enclosed in external parentheses to ensure correct order of evaluation.</td>
 </TR>
 
 <TR>
-<TD VALIGN="top"><font size=-1>taste/olfaction</td>
-<TD VALIGN="top"><font size=-1>("taste" OR olfaction)</td>
-<TD VALIGN="top"><font size=-1>tast, olfaction</td>
-<td valign=top><font size=-1>Stemming ("tast" retrieves e.g., metastasize, so <i>taste</i> must be  enclosed in quotation marks.)</td>
+<td>taste/olfaction</td>
+<td>("taste" OR olfaction)</td>
+<td>tast, olfaction</td>
+<td>Stemming ("tast" retrieves e.g., metastasize, so <i>taste</i> must be  enclosed in quotation marks.)</td>
 </TR>
 
 <TR>
-<TD VALIGN="top"><font size=-1>vision/eye</td>
-<TD VALIGN="top"><font size=-1>("vision" OR " eye")</td>
-<td valign=top><font size=-1>vision, ey</td>
-<td valign="top"><font size=-1>Quotation marks turn off partial word matching; inserted white space prevents matches on words containing <i>eye</i> i.e., Peyer's patch.</td>
-</font></TR>
+<td>vision/eye</td>
+<td>("vision" OR " eye")</td>
+<td>vision, ey</td>
+<td>Quotation marks turn off partial word matching; inserted white space prevents matches on words containing <i>eye</i> i.e., Peyer's patch.</td>
+</TR>
 </table>
 </p>
-<A HREF="#top">Top</A>
 
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A name="edit"></a>Can I edit the box on the query form? Add more terms?</H3>
+<H3><a id="edit"></a>Can I edit the box on the query form? Add more terms?</H3>
 <P>Yes to both questions. For example, you may wish to change an AND to an OR. You may wish to click the links beside <b>Select </b> or <b>Browse</b> and add more items from those lists. You may also wish to add your own terms. See 
 <A HREF="MISC_boolean_search_help.shtml" target="_blank">Full-Text Searching on MGI Query Forms</a> for additional information.
- 
-
 </p>
-<A HREF="#top">Back to Top</A>
 
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="allstems"></a>Is there a list of all the possible stems?</h3>
+<h3><a id="allstems"></a>Is there a list of all the possible stems?</h3>
 <table cellpadding=3>
 <TR><td>
     <table border="1" cellpadding=4 align=left>
-    <tr><TD VALIGN="top"><font size=-1><b>Anatomical Systems Affected <br>by Phenotypes</b> term</td><th valign="top"><font size=-1>Stems to...</th></TR>
-    <tr><TD VALIGN="top"><font size=-1>adipose tissue</td><td valign="top"><font size=-1>adiopos, tissu</td></TR>
-    <TR><TD VALIGN="top"><font size=-1>behavioral/neurological</td><td valign=top><font size=-1>behavioral, neurolog</td></TR>
-    <TR><TD VALIGN="top"><font size=-1>cardiovascular system</td><td valign="top"><font size=-1>cardiovascular, system</td></TR>
-    <TR><TD VALIGN="top"><font size=-1>cellular</td><td valign="top"><font size=-1>cellular</td></TR>
-    <TR><TD VALIGN="top"><font size=-1>craniofacial</td><td valign="top"><font size=-1>craniofaci</td></TR>
-    <TR><TD VALIGN="top"><font size=-1>digestive/alimentary system</td><td valign=top><font size=-1>digestive, alimentari, system</font></td></TR>
-    <TR><TD VALIGN="top"><font size=-1>embryogenesis</td><td valign=top><font size=-1>embryogenesi</td></TR>
-    <TR><TD VALIGN="top"><font size=-1>endocrine/exocrine glands</td><td valign=top><font size=-1>endocrine, exocrin, gland</td></TR>
-    <TR><TD VALIGN="top"><font size=-1>growth/size</td><td valign=top><font size=-1> growth, siz</td></TR>
-    <TR><TD VALIGN="top"><font size=-1>hearing/ear</td><td valign=top><font size=-1>hearing, ear</td></TR>
-    <TR><TD VALIGN="top"><font size=-1>hematopoietic system</td><td valign=top><font size=-1>hematopoiet, system</td></TR>
-    <TR><TD VALIGN="top"><font size=-1>homeostasis/metabolism</td><td valign=top><font size=-1>homeostasis, metabol</td></TR>
-    <TR><TD VALIGN="top"><font size=-1>immune system</td><td valign=top><font size=-1>immun, system</td></TR>
-    <TR><TD VALIGN="top"><font size=-1>lethality/embryonic-perinatal</td><td valign=top><font size=-1>lethality, embryon, perinat</td></TR>
-     <TR><TD VALIGN="top"><font size=-1>lethality/postnatal</td><td valign=top><font size=-1>lethality, postnat</td></TR>
-     <TR><TD VALIGN="top"><font size=-1>life span/aging</td><td valign=top><font size=-1>life, span, ag</td></TR>
-    <TR><TD VALIGN="top"><font size=-1>nervous system</td><td valign="top"><font size="-1">nervou, system</td></TR>
+    <tr><td><b>Anatomical Systems Affected <br>by Phenotypes</b> term</td><th>Stems to...</th></TR>
+    <tr><td>adipose tissue</td><td>adiopos, tissu</td></TR>
+    <TR><td>behavioral/neurological</td><td>behavioral, neurolog</td></TR>
+    <TR><td>cardiovascular system</td><td>cardiovascular, system</td></TR>
+    <TR><td>cellular</td><td>cellular</td></TR>
+    <TR><td>craniofacial</td><td>craniofaci</td></TR>
+    <TR><td>digestive/alimentary system</td><td>digestive, alimentari, system</td></TR>
+    <TR><td>embryogenesis</td><td>embryogenesi</td></TR>
+    <TR><td>endocrine/exocrine glands</td><td>endocrine, exocrin, gland</td></TR>
+    <TR><td>growth/size</td><td> growth, siz</td></TR>
+    <TR><td>hearing/ear</td><td>hearing, ear</td></TR>
+    <TR><td>hematopoietic system</td><td>hematopoiet, system</td></TR>
+    <TR><td>homeostasis/metabolism</td><td>homeostasis, metabol</td></TR>
+    <TR><td>immune system</td><td>immun, system</td></TR>
+    <TR><td>lethality/embryonic-perinatal</td><td>lethality, embryon, perinat</td></TR>
+     <TR><td>lethality/postnatal</td><td>lethality, postnat</td></TR>
+     <TR><td>life span/aging</td><td>life, span, ag</td></TR>
+    <TR><td>nervous system</td><td>nervou, system</td></TR>
 <TR>
-<TD VALIGN="top"><font size=-1>normal phenotype</td>
-<td valign="top"><font size="-1">normal, phenotyp</td>
-</TR>
-<TR>
-<TD VALIGN="top"><font size=-1>other phenotype</td>
-<td valign="top"><font size="-1">other, phenotyp</td>
+<td>normal phenotype</td>
+<td>normal, phenotyp</td>
 </TR>
 <TR>
-<TD VALIGN="top"><font size=-1>pigmentation</td>
-<td valign="top"><font size="-1">pigment</td>
-</TR>
-<TR><TD VALIGN="top"><font size=-1>renal/urinary system</td>
-<td valign=top><font size=-1>renal, urinari, system</td>
-</TR>
-<TR><TD VALIGN="top"><font size=-1>reproductive system</td>
-<td valign=top><font size=-1>reproduct, system</td>
-</TR>
-<TR><TD VALIGN="top"><font size=-1>respiratory system</td>
-<td valign=top><font size=-1>respiratori</td>
+<td>other phenotype</td>
+<td>other, phenotyp</td>
 </TR>
 <TR>
-<TD VALIGN="top"><font size=-1>skeleton</td>
-<td valign="top"><font size=-1>skeleton</td>
+<td>pigmentation</td>
+<td>pigment</td>
+</TR>
+<TR><td>renal/urinary system</td>
+<td>renal, urinari, system</td>
+</TR>
+<TR><td>reproductive system</td>
+<td>reproduct, system</td>
+</TR>
+<TR><td>respiratory system</td>
+<td>respiratori</td>
 </TR>
 <TR>
-<TD VALIGN="top"><font size=-1>touch/vibrissae</td>
-<td valign=top><font size=-1>touch, vibrassa</td>
+<td>skeleton</td>
+<td>skeleton</td>
 </TR>
 <TR>
-<TD VALIGN="top"><font size=-1>tumorigenesis</td>
-<td valign=top><font size=-1>tumorigenesi</td>
+<td>touch/vibrissae</td>
+<td>touch, vibrassa</td>
 </TR>
 <TR>
-<TD VALIGN="top"><font size=-1>vision/eye</td>
-<td valign=top><font size=-1>vision, ey</td></TR></table>
+<td>tumorigenesis</td>
+<td>tumorigenesi</td>
+</TR>
+<TR>
+<td>vision/eye</td>
+<td>vision, ey</td></TR></table>
 </td><tr>
-</font>
 </table>
-<A HREF="#top">Top</A>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
