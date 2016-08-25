@@ -38,100 +38,100 @@ function openHelpWindow(helpFile){
 
 <!-- Body of User Help -->
 
-<A NAME="top"></A>
-<br>
+<a id="top"></a>
+
 <p>If you do not check any of the boxes (in the Categories section of the Phenotypes, Alleles, and Disease Models Query Form), the search includes every allele type in the list. You can limit your search by making selections in any or all of the three category sections. Category definitions for the three sections are as follows:  </p>
 <p>
 <table width="!" cellpadding="8" align="center">
-<tr align="center"><td valign="top"><a href="#method">Generation Method</a> | <a href="#attributes">Allele Attributes</a> | <a href="#collection">Project Collections</a> </td></tr>
+<tr><td><a href="#method">Generation Method</a> | <a href="#attributes">Allele Attributes</a> | <a href="#collection">Project Collections</a> </td></tr>
 </table>
 </p>
 <p>
 <table border="1" cellspacing="1" cellpadding="3" width="100%">
  <tr>
-  <th valign="top"><a name="method"></a><span style="white-space: nowrap">Generation Method</span></th>
-  <th align="center">Definitions for the origin of the allele</th></tr>
+  <th><a id="method"></a><span style="white-space: nowrap">Generation Method</span></th>
+  <th>Definitions for the origin of the allele</th></tr>
  
- <tr><th valign="top">Chemically induced (ENU)</th><td valign="top">The exposure of mice to the chemical mutagen N-ethyl-N-nitrosourea (ENU) results in germline transmissible mutations.</td></tr>
+ <tr><th>Chemically induced (ENU)</th><td>The exposure of mice to the chemical mutagen N-ethyl-N-nitrosourea (ENU) results in germline transmissible mutations.</td></tr>
  
- <tr><th valign="top"><span style="white-space: nowrap">Chemically induced (other)</span></th><td valign="top">The exposure of mice to a chemical mutagen other than ENU, including common chemical agents such as ethyl methanesulfonate (EMS), bleomycin, and chlorambucil, results in germline transmissible mutations.</td></tr>
+ <tr><th><span style="white-space: nowrap">Chemically induced (other)</span></th><td>The exposure of mice to a chemical mutagen other than ENU, including common chemical agents such as ethyl methanesulfonate (EMS), bleomycin, and chlorambucil, results in germline transmissible mutations.</td></tr>
  
- <tr><th valign="top">Chemically and radiation induced</th>
-  <td valign="top">The exposure of mice to a combination of chemicals and X-ray or other types of radiation results in germline transmissible mutations.</td></tr>
+ <tr><th>Chemically and radiation induced</th>
+  <td>The exposure of mice to a combination of chemicals and X-ray or other types of radiation results in germline transmissible mutations.</td></tr>
 
- <tr><th valign="top">Endonuclease-mediated</th><td valign="top">Mutations are generated in pluripotent or totipotent cells by an endonuclease joined to sequence-specific DNA binding domains. The mutation is introduced during homology-directed or non-homologous end-joining repair of the induced DNA break(s). Methods include TALENS, CRISPRs, zinc finger nucleases and similar technologies.</td></tr>
+ <tr><th>Endonuclease-mediated</th><td>Mutations are generated in pluripotent or totipotent cells by an endonuclease joined to sequence-specific DNA binding domains. The mutation is introduced during homology-directed or non-homologous end-joining repair of the induced DNA break(s). Methods include TALENS, CRISPRs, zinc finger nucleases and similar technologies.</td></tr>
  
- <tr><th valign="top">Gene trapped</th>
-  <td valign="top">The integration of a reporter construct into a putative gene is selected by virtue of its expression. The trapped gene is usually mutated by the integration. Gene trapped alleles differ from targeted mutations in that the integration event is random.</td></tr>
+ <tr><th>Gene trapped</th>
+  <td>The integration of a reporter construct into a putative gene is selected by virtue of its expression. The trapped gene is usually mutated by the integration. Gene trapped alleles differ from targeted mutations in that the integration event is random.</td></tr>
  
- <tr><th valign="top">QTL</th><td valign="top">Quantitative Trait Locus. A polymorphic locus has alleles that differentially affect the expression of a continuously distributed phenotypic trait. Usually, a QTL is a marker described by statistical association to quantitative variation in the particular phenotypic trait thought to be controlled by the cumulative action of alleles at multiple loci.</td></tr>
+ <tr><th>QTL</th><td>Quantitative Trait Locus. A polymorphic locus has alleles that differentially affect the expression of a continuously distributed phenotypic trait. Usually, a QTL is a marker described by statistical association to quantitative variation in the particular phenotypic trait thought to be controlled by the cumulative action of alleles at multiple loci.</td></tr>
  
- <tr><th valign="top">Radiation induced</th>
-  <td valign="top">Exposure of mice to X-rays or other types of radiation results in germline transmissible mutations.</td></tr>
+ <tr><th>Radiation induced</th>
+  <td>Exposure of mice to X-rays or other types of radiation results in germline transmissible mutations.</td></tr>
  
- <tr><th valign="top">Spontaneous</th><td valign="top">No laboratory manipulation took place to generate the mutations or mutant phenotypes. Phenotype annotations are to naturally occurring mutants displaying abnormal phenotypes.</td></tr>
+ <tr><th>Spontaneous</th><td>No laboratory manipulation took place to generate the mutations or mutant phenotypes. Phenotype annotations are to naturally occurring mutants displaying abnormal phenotypes.</td></tr>
 
- <tr><th valign="top">Targeted</th><td valign="top">Targeted mutations are generated by the process of homologous recombination in stem cell lines at a specific genomic location.</td></tr>
+ <tr><th>Targeted</th><td>Targeted mutations are generated by the process of homologous recombination in stem cell lines at a specific genomic location.</td></tr>
  
- <tr><th valign="top">Transgenic</th><td valign="top">Random integration of foreign DNA into the genome results in a germline transmissible mutation.</td></tr>
+ <tr><th>Transgenic</th><td>Random integration of foreign DNA into the genome results in a germline transmissible mutation.</td></tr>
 
- <tr><th valign="top">Transposon induced</th><td valign="top">The random insertion of a transposable element is induced by the expression of transposase resulting in a germline transmissible mutation. These can be generated by the Sleeping Beauty, PiggyBac and similar mutagenesis systems.</td></tr>
+ <tr><th>Transposon induced</th><td>The random insertion of a transposable element is induced by the expression of transposase resulting in a germline transmissible mutation. These can be generated by the Sleeping Beauty, PiggyBac and similar mutagenesis systems.</td></tr>
 </table>
 </p>
 <p>
 
 <table border="1" cellspacing="1" cellpadding="3" width="100%">
  <tr>
-  <th valign="top"><a name="attributes"></a><nobr>Allele Attributes</nobr></th>
-  <th align="center">Definitions for the allele subtypes of the <a href="#method">Generation Methods</a></th></tr>
-  <tr><th valign="top">Conditional ready</th><td valign="top">Conditional ready alleles contain at least one region of DNA flanked by recombinase recognition sites (e.g. loxP, frt). Subsequent interaction with a recombinase (e.g. cre, FRT) will remove or invert the flanked region, resulting in a deletion or alteration in expression of the target gene or transgene.</td></tr>
-   <tr><th valign="top">Constitutively active</th><td valign="top">A constitutively active allele produces an enzyme or protein product whose activity level is constant over time and independent from normal regulatory controls.</td></tr>
-  <tr><th valign="top">Dominant negative</th><td valign="top">Dominant negative alleles produce mutant gene products that disrupt the activity of the wild-type gene when co-expressed. These mutations result in an altered molecular function (usually inactivity) and a dominant or semi-dominant phenotype.</td></tr>
-  <tr><th valign="top">Humanized sequence</th><td valign="top">Humanized sequences are alleles or transgenes that have been engineered to make a non-human sequence closer to that of human.</td></tr>
-  <tr><th valign="top">Hypomorph</th><td valign="top">A hypomorphic mutation results in reduced gene expression and/or reduced gene product activity.</td></tr>
-  <tr><th valign="top">Inducible</th><td valign="top">A mutation is inducible if its activation or expression occurs with addition or removal of an external stimulus.</td></tr>
-  <tr><th valign="top">Inserted expressed sequence</th><td valign="top">Inserted expressed sequences are experimentally introduced and expressed in at least one cell type. This categorical set includes only those mutations that are not included in other sets of introduced sequences (i.e. Reporter, Transposase, Recombinase).</td></tr>
-  <tr><th valign="top">Knockdown</th><td valign="top">A knockdown is a specific class of hypomorph in which the affected gene's DNA sequence is not directly modified (e.g. RNAi).</td></tr>
-  <tr><th valign="top">Modified isoform(s)</th><td valign="top">Alleles that produce modified isoform(s) (e.g. different gene products encoded by the same gene sequence as a result of alternative splicing) are those in which at least one wild-type isoform is produced, while others are mutant or missing.</td></tr>
-  <tr><th valign="top">No functional change</th><td valign="top">No functional change describes a mutation in which no discernible effect on the expression or function of the gene has been demonstrated. An example is the introduction of loxP sites to flank a critical exon, which usually has no effect on gene expression or function until cre recombinase is applied. This set also includes inserted expressed sequences, such as reporter alleles, when the endogenous gene product activity is not affected.</td></tr>
-  <tr><th valign="top">Null/knockout</th><td valign="top">A null or knockout mutation is amorphic, producing no gene product, or produces a gene product with complete loss-of-function.</td></tr>
-  <tr><th valign="top">Recombinase</th><td valign="top">A recombinase (e.g. cre, flp) is an experimentally introduced expressed gene whose product has the activity to remove or invert a region of DNA that is flanked with recombinase recognition sites sites (e.g. loxP, frt).</td></tr>
-  <tr><th valign="top">Reporter</th><td valign="top">A reporter is an experimentally introduced expressed gene whose product is easily detected and not ordinarily present in the organism or cell type under study. Bacterial beta-galactosidase (LacZ), whose activity can be detected using a staining reaction, is a commonly used reporter gene; as is green fluorescent protein (GFP), which is detected by immunofluorescence.</td></tr>
-  <tr><th valign="top">RMCE-Ready</th><td valign="top">Recombinase Mediated Cassette Exchange (RMCE)-Ready mutations contain acceptor recombination sites for targeting expression constructs to a defined genomic region for targeted cassette exchange., thus avoiding possible positional effects of transgene expression.</td></tr>
-  <tr><th valign="top">Transactivator</th><td valign="top">An experimentally introduced intermediate protein (e.g. tTA) used to stimulate or repress expression of another gene through the use of an external stimulus. (Note: Limiting your search to transactivators is not currently an option on the query form but it will be soon.) </td></tr>
-  <tr><th valign="top">Transposase</th><td valign="top">Transposases are enzymes that bind to the ends of a <a href="<!--#include file='include/fewi_url.html'-->glossary/transposon">transposon</a> and catalyze the transposition of a transposon from one part of the genome to another.</td></tr>
-  <tr><th valign="top">Transposon concatemer</th><td valign="top">Transposon concatemers are multiple copies of transposon sequences inserted at a single site. Transposon concatamers serve as donor sites in transposase mutagenesis.</td></tr>
+  <th><a id="attributes"></a><span style="white-space: nowrap">Allele Attributes</span></th>
+  <th>Definitions for the allele subtypes of the <a href="#method">Generation Methods</a></th></tr>
+  <tr><th>Conditional ready</th><td>Conditional ready alleles contain at least one region of DNA flanked by recombinase recognition sites (e.g. loxP, frt). Subsequent interaction with a recombinase (e.g. cre, FRT) will remove or invert the flanked region, resulting in a deletion or alteration in expression of the target gene or transgene.</td></tr>
+   <tr><th>Constitutively active</th><td>A constitutively active allele produces an enzyme or protein product whose activity level is constant over time and independent from normal regulatory controls.</td></tr>
+  <tr><th>Dominant negative</th><td>Dominant negative alleles produce mutant gene products that disrupt the activity of the wild-type gene when co-expressed. These mutations result in an altered molecular function (usually inactivity) and a dominant or semi-dominant phenotype.</td></tr>
+  <tr><th>Humanized sequence</th><td>Humanized sequences are alleles or transgenes that have been engineered to make a non-human sequence closer to that of human.</td></tr>
+  <tr><th>Hypomorph</th><td>A hypomorphic mutation results in reduced gene expression and/or reduced gene product activity.</td></tr>
+  <tr><th>Inducible</th><td>A mutation is inducible if its activation or expression occurs with addition or removal of an external stimulus.</td></tr>
+  <tr><th>Inserted expressed sequence</th><td>Inserted expressed sequences are experimentally introduced and expressed in at least one cell type. This categorical set includes only those mutations that are not included in other sets of introduced sequences (i.e. Reporter, Transposase, Recombinase).</td></tr>
+  <tr><th>Knockdown</th><td>A knockdown is a specific class of hypomorph in which the affected gene's DNA sequence is not directly modified (e.g. RNAi).</td></tr>
+  <tr><th>Modified isoform(s)</th><td>Alleles that produce modified isoform(s) (e.g. different gene products encoded by the same gene sequence as a result of alternative splicing) are those in which at least one wild-type isoform is produced, while others are mutant or missing.</td></tr>
+  <tr><th>No functional change</th><td>No functional change describes a mutation in which no discernible effect on the expression or function of the gene has been demonstrated. An example is the introduction of loxP sites to flank a critical exon, which usually has no effect on gene expression or function until cre recombinase is applied. This set also includes inserted expressed sequences, such as reporter alleles, when the endogenous gene product activity is not affected.</td></tr>
+  <tr><th>Null/knockout</th><td>A null or knockout mutation is amorphic, producing no gene product, or produces a gene product with complete loss-of-function.</td></tr>
+  <tr><th>Recombinase</th><td>A recombinase (e.g. cre, flp) is an experimentally introduced expressed gene whose product has the activity to remove or invert a region of DNA that is flanked with recombinase recognition sites sites (e.g. loxP, frt).</td></tr>
+  <tr><th>Reporter</th><td>A reporter is an experimentally introduced expressed gene whose product is easily detected and not ordinarily present in the organism or cell type under study. Bacterial beta-galactosidase (LacZ), whose activity can be detected using a staining reaction, is a commonly used reporter gene; as is green fluorescent protein (GFP), which is detected by immunofluorescence.</td></tr>
+  <tr><th>RMCE-Ready</th><td>Recombinase Mediated Cassette Exchange (RMCE)-Ready mutations contain acceptor recombination sites for targeting expression constructs to a defined genomic region for targeted cassette exchange., thus avoiding possible positional effects of transgene expression.</td></tr>
+  <tr><th>Transactivator</th><td>An experimentally introduced intermediate protein (e.g. tTA) used to stimulate or repress expression of another gene through the use of an external stimulus. (Note: Limiting your search to transactivators is not currently an option on the query form but it will be soon.) </td></tr>
+  <tr><th>Transposase</th><td>Transposases are enzymes that bind to the ends of a <a href="<!--#include file='include/fewi_url.html'-->glossary/transposon">transposon</a> and catalyze the transposition of a transposon from one part of the genome to another.</td></tr>
+  <tr><th>Transposon concatemer</th><td>Transposon concatemers are multiple copies of transposon sequences inserted at a single site. Transposon concatamers serve as donor sites in transposase mutagenesis.</td></tr>
 </table></p>
 <p>
 <table border="1" cellspacing="1" cellpadding="3" width="100%">
  <tr>
-  <th valign="top"><a name="collection"></a><span style="white-space: nowrap">Project Collections</span></th>
-  <th align="center">Use this section to limit your search to alleles from specific large scale projects and repositories.</th></tr>
-  <tr><th align="left" valign="top"><a href="http://pb.apf.edu.au/phenbank/homePage.html">Australian PhenomeBank</a></th><td valign="top">A repository of genetically modified mouse strains held in Australia
+  <th><a id="collection"></a><span style="white-space: nowrap">Project Collections</span></th>
+  <th>Use this section to limit your search to alleles from specific large scale projects and repositories.</th></tr>
+  <tr><th><a href="http://pb.apf.edu.au/phenbank/homePage.html">Australian PhenomeBank</a></th><td>A repository of genetically modified mouse strains held in Australia
 either as live or cryopreserved stock.</td></tr>
-  <tr><th valign="top"><a href="http://www.benchtobassinet.com/CvDCcenters.asp">B2B/CvDC</a></th><td valign="top">The National Heart, Lung, and Blood Institute (NHLBI) Bench to Bassinet (B2B) Program of translational research in pediatric cardiovascular disease</td></tr>
-  <tr><th valign="top"><a href="https://mutagenetix.utsouthwestern.edu">Beutler Mutagenix</a></th><td valign="top">Resource of phenotypes and mutations produced through random germline mutagenesis with ENU</td></tr>
-  <tr><th valign="top"><a href="http://www.deltagen.com">Deltagen</a></th><td valign="top">Deltagen targeted knock-outs</td></tr>
-  <tr><th valign="top"><a href="http://www.mousephenotype.org/martsearch_ikmc_project/about/eucomm">EUCOMM</a></th><td valign="top">The European Conditional Mouse Mutagenesis Program contributes conditionally trapped and targeted genes in mouse C57BL/6N embryonic stem (ES) cells to the International Knockout Mouse Consortium (IKMC).</td></tr>
-  <tr><th valign="top"><a href="http://www.mousephenotype.org/about-ikmc/eucommtools">EUCOMMTOOLS</a></th><td valign="top">EUCOMMTOOLS created new inducible Cre knock-in ES cell lines into genes
+  <tr><th><a href="http://www.benchtobassinet.com/CvDCcenters.asp">B2B/CvDC</a></th><td>The National Heart, Lung, and Blood Institute (NHLBI) Bench to Bassinet (B2B) Program of translational research in pediatric cardiovascular disease</td></tr>
+  <tr><th><a href="https://mutagenetix.utsouthwestern.edu">Beutler Mutagenix</a></th><td>Resource of phenotypes and mutations produced through random germline mutagenesis with ENU</td></tr>
+  <tr><th><a href="http://www.deltagen.com">Deltagen</a></th><td>Deltagen targeted knock-outs</td></tr>
+  <tr><th><a href="http://www.mousephenotype.org/martsearch_ikmc_project/about/eucomm">EUCOMM</a></th><td>The European Conditional Mouse Mutagenesis Program contributes conditionally trapped and targeted genes in mouse C57BL/6N embryonic stem (ES) cells to the International Knockout Mouse Consortium (IKMC).</td></tr>
+  <tr><th><a href="http://www.mousephenotype.org/about-ikmc/eucommtools">EUCOMMTOOLS</a></th><td>EUCOMMTOOLS created new inducible Cre knock-in ES cell lines into genes
 with useful expression patterns. Mouse lines are generated from many of
 these cells and the Cre expression patterns are documented at day P14
 and P56.</td></tr>
-  <tr><th valign="top"><a href="http://www.gensat.org/index.html">GENSAT</a></th><td valign="top">Gene Expression Nervous System Atlas of the developing and adult central nervous system of the mouse reporter and recombinase lines</td></tr>
-  <tr><th valign="top"><a href="http://www.har.mrc.ac.uk/research/functional-genomics-section/disease-model-discovery-and-translation/mutagenesis">Harwell ENU Mutagenesis</a></th><td valign="top">Stocks with random ENU-induced mutations</td></tr>
-  <tr><th valign="top"><a href="https://www.komp.org">KOMP-CSD</a></th><td valign="top">CSD: CHORI (Children's Hospital Oakland Research Institute), the Wellcome Trust Sanger Institute, and the University of California at Davis. Knockout-first alleles created in C57BL/6N embryonic stem cells.</td></tr>
-  <tr><th valign="top"><a href="https://www.mousephenotype.org/martsearch_ikmc_project/aboutkompstrategies">KOMP-Regeneron</a></th><td valign="top">Null alleles from the VelociGene group at Regeneron, Inc.</td></tr>
-  <tr><th valign="top"><a href="http://www.lexgen.com/research/drug-discovery/gene-knockouts.html">Lexicon</a></th><td valign="top">Targeted gene knock-outs and gene trapped alleles</td></tr>
-  <tr><th valign="top">Mutagenesis for Dev. Defects</th><td valign="top">Facility for Mouse Mutagenesis for Developmental Defects at Baylor College of Medicine</td></tr>
-  <tr><th valign="top"><a href="http://www.credrivermice.org">Neuroscience Blueprint cre</a></th><td valign="top">C57BL6/J mouse strains for the tissue and cell-type-specific perturbation of gene function in the nervous system</td></tr>
-  <tr><th valign="top"><a href="http://www.norcomm.org/index.htm">NorCOMM</a></th><td valign="top">The North American Conditional Mouse Mutagenesis project develops and distributes a library of mouse embryonic stem (ES) cell lines carrying single gene trapped or targeted mutations.</td></tr>
-  <tr><th valign="top"><a href="http://www.pleiades.org/">Pleiades Promoter Project</a></th><td valign="top">Human MiniPromoters that drive region- and cell-specific gene expression in the mouse brain</td></tr>
-  <tr><th valign="top"><a href="https://www.brc.riken.jp/lab/gsc/mouse/">RIKEN GSC ENU Project</a></th><td valign="top">ENU induced mouse mutants</td></tr>
-  <tr><th valign="top"><a href="http://www.sanger.ac.uk/resources/mouse/sigtr/">Sanger Inst. Gene Trap Res.</a></th><td valign="top">The Sanger Institute Gene Trap Resource (SIGTR) characterized reporter-tagged, loss of function gene trapped mouse embryonic stem (ES) cell lines.</td></tr>
-  <tr><th valign="top"><a href="http://www.sanger.ac.uk/about/press/2011/110808.html">Sanger miRNA knockouts</a></th><td valign="top">microRNA reporter knockouts in ES cell lines created using recombinase mediated cassette exchange (RMCE)</td></tr>
+  <tr><th><a href="http://www.gensat.org/index.html">GENSAT</a></th><td>Gene Expression Nervous System Atlas of the developing and adult central nervous system of the mouse reporter and recombinase lines</td></tr>
+  <tr><th><a href="http://www.har.mrc.ac.uk/research/functional-genomics-section/disease-model-discovery-and-translation/mutagenesis">Harwell ENU Mutagenesis</a></th><td>Stocks with random ENU-induced mutations</td></tr>
+  <tr><th><a href="https://www.komp.org">KOMP-CSD</a></th><td>CSD: CHORI (Children's Hospital Oakland Research Institute), the Wellcome Trust Sanger Institute, and the University of California at Davis. Knockout-first alleles created in C57BL/6N embryonic stem cells.</td></tr>
+  <tr><th><a href="https://www.mousephenotype.org/martsearch_ikmc_project/aboutkompstrategies">KOMP-Regeneron</a></th><td>Null alleles from the VelociGene group at Regeneron, Inc.</td></tr>
+  <tr><th><a href="http://www.lexgen.com/research/drug-discovery/gene-knockouts.html">Lexicon</a></th><td>Targeted gene knock-outs and gene trapped alleles</td></tr>
+  <tr><th>Mutagenesis for Dev. Defects</th><td>Facility for Mouse Mutagenesis for Developmental Defects at Baylor College of Medicine</td></tr>
+  <tr><th><a href="http://www.credrivermice.org">Neuroscience Blueprint cre</a></th><td>C57BL6/J mouse strains for the tissue and cell-type-specific perturbation of gene function in the nervous system</td></tr>
+  <tr><th><a href="http://www.norcomm.org/index.htm">NorCOMM</a></th><td>The North American Conditional Mouse Mutagenesis project develops and distributes a library of mouse embryonic stem (ES) cell lines carrying single gene trapped or targeted mutations.</td></tr>
+  <tr><th><a href="http://www.pleiades.org/">Pleiades Promoter Project</a></th><td>Human MiniPromoters that drive region- and cell-specific gene expression in the mouse brain</td></tr>
+  <tr><th><a href="https://www.brc.riken.jp/lab/gsc/mouse/">RIKEN GSC ENU Project</a></th><td>ENU induced mouse mutants</td></tr>
+  <tr><th><a href="http://www.sanger.ac.uk/resources/mouse/sigtr/">Sanger Inst. Gene Trap Res.</a></th><td>The Sanger Institute Gene Trap Resource (SIGTR) characterized reporter-tagged, loss of function gene trapped mouse embryonic stem (ES) cell lines.</td></tr>
+  <tr><th><a href="http://www.sanger.ac.uk/about/press/2011/110808.html">Sanger miRNA knockouts</a></th><td>microRNA reporter knockouts in ES cell lines created using recombinase mediated cassette exchange (RMCE)</td></tr>
   
 </table></p>
 
-<A HREF="#top">Top</A>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
