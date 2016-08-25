@@ -252,7 +252,7 @@ See <a href="http://en.wikipedia.org/wiki/Stop_words" target="_blank">stop words
 <blockquote>
 <table border="1" cellspacing="1" cellpadding="3" width="!">
  <tr><th valign="top">To find...</th><th valign="top">For example...</th><th valign="top">Look here</th></tr>
-     <tr><td valign="top" width="15%">An overview of MGI data</td><td valign="top">lists of all MGI markers, sequence data, mammalian orthology, gene ontology, strains & polymorphisms, gene expression, alleles and phenotypes, nomenclature, references, clone collections</td><td valign="top"><a href="http://www.informatics.jax.org/downloads/reports/index.html" target="_blank">MGI Data and Statistical Reports</a></td></tr>
+     <tr><td valign="top" width="15%">An overview of MGI data</td><td valign="top">lists of all MGI markers, sequence data, mammalian orthology, gene ontology, strains & polymorphisms, gene expression, alleles and phenotypes, nomenclature, references, clone collections</td><td valign="top"><a href="<!--#include file="include/ftp_url.html" -->reports/index.html" target="_blank">MGI Data and Statistical Reports</a></td></tr>
 <tr><td valign="top">MGI query forms & other searches</td><td valign="top" width="55%">Genes, Genome Features & Maps; Phenotypes, Alleles & Disease Models; Gene Expression; GO Functional annotations; Strains, SNPs & Polymorphisms; Mammalian Orthology; Sequences; Probes & Clones; References; Vocabularies; and more</td><td valign="top">
 <a href="<!--#include file='include/wi_url.html'-->menus/allsearch.shtml" target="_blank">All Search Tools</a></td></tr>
        <tr><td valign="top">Nomenclature</td><td valign="top">symbols, names, synonyms for mouse genes,  genome features, orthologs, alleles, mutations</td><td valign="top">
@@ -265,7 +265,7 @@ See <a href="http://en.wikipedia.org/wiki/Stop_words" target="_blank">stop words
     <tr><td valign="top">Functional annotations for mouse gene products</td><td valign="top">GO:0004699<br>calcium-independent protein kinase C activity<br>regulation of signal transduction </td><td valign="top">
 <a href="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml" target="_blank">GO Browser</a></td></tr>
     <tr><td valign="top">Protein domains</td><td valign="top">IPR016243<br>Immunoglobulin-like fold<br>Tyrosine-protein kinase, CSF-1/PDGF receptor<br>
-Protein kinase ATP binding, conserved site</td><td valign="top"><a href="http://www.informatics.jax.org/downloads/reports/MGI_InterProDomains.sql.rpt" target="_blank">Interpro IDs and domain names</a> (MGI data report) or <br>EBI's <a href="http://www.ebi.ac.uk/interpro/" target="_blank">InterPro</a> database </td></tr>   
+Protein kinase ATP binding, conserved site</td><td valign="top"><a href="<!--#include file="include/ftp_url.html" -->reports/MGI_InterProDomains.sql.rpt" target="_blank">Interpro IDs and domain names</a> (MGI data report) or <br>EBI's <a href="http://www.ebi.ac.uk/interpro/" target="_blank">InterPro</a> database </td></tr>   
         <tr><td valign="top">Annotated phenotype data (terms, definitions and term relationships in a DAG)</td><td valign="top">cellular phenotype<br>               
  embryogenesis phenotype <br>homeostasis/metabolism phenotype<br>lethality-postnatal</td><td valign="top">
 <a href="<!--#include file='include/wi_url.html'-->/searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a></td></td></tr>   
