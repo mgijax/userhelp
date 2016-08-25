@@ -110,9 +110,9 @@ Interpreting a Sequence Summary </span>
 <p>You can view MGI sequence details (see <a href="SEQUENCE_detail_help.shtml" target="_blank">Using Sequence Detail Reports</a>), or you can download it in <a href="#fasta">FASTA</a> format or forward it to <a href="#ncbiblast">NCBI BLAST</a>.
 </p>
 
-<font size="-1"><a href="#top">Top</a></font>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A NAME="usage"></a>How do I use a sequence summary?</H3>
+<H3><a id="usage"></a>How do I use a sequence summary?</H3>
 
 <p>There are several ways to use a sequence summary. You can:</p>
 
@@ -125,10 +125,9 @@ Interpreting a Sequence Summary </span>
 </ol>
 </p>
 
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<font size="-1"><a href="#top">Top</a>
-</font>
-<H3><A NAME="single"></a>How do I view details for a single sequence?</H3>
+<H3><a id="single"></a>How do I view details for a single sequence?</H3>
 
 <p>You can elect to view the sequence details in the provider's database or in MGI.</p>
 
@@ -140,9 +139,9 @@ The provider's sequence record appears.</li>
 The detail record for that sequence as stored in MGI appears. See <a href="SEQUENCE_detail_help.shtml" target="_blank">Using Sequence Detail Reports</a>.</li>
 </ol>
 
-<font size="-1"><a href="#top">Top</a>
-</font>
-<H3><A NAME="fasta"></a>How do I download a sequence in FASTA format?</H3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="fasta"></a>How do I download a sequence in FASTA format?</h3>
 
 <p>To download a sequence in FASTA format:</p>
 
@@ -150,8 +149,8 @@ The detail record for that sequence as stored in MGI appears. See <a href="SEQUE
 <li>Click the FASTA link in the <B>Select</B> column for the sequence.</li>
 </ul>
 
-<font size="-1"><a href="#top">Top</a>
-</font>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
 <H3><a id="ncbiblast"></a>How do I forward a sequence to NCBI BLAST?</H3>
 
 <p>To forward a sequence to NCBI <abbr title=" Basic Local Alignment Search Tool">BLAST</abbr>:</p>
@@ -162,7 +161,7 @@ The detail record for that sequence as stored in MGI appears. See <a href="SEQUE
 <p>For additional information, see <a href="http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs" target="_blank">NCBI BLAST Help</a> for how to use this tool.
 </p>
 
-<font size="-1"><a href="#top">Top</a></font>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <H3><a id="marker_detail"></a>I clicked a link on a Marker Detail report and got this information. What does it tell me?</H3>
 
@@ -180,9 +179,9 @@ The detail record for that sequence as stored in MGI appears. See <a href="SEQUE
 
 <p>See <a href="#fields">What can I do with sequence summary information?</a> for more details.</p>
 
-<font size="-1"><a href="#top">Top</a></font>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A NAME="reference_detail"></a>I clicked a link on a Reference Detail report and got this information. What does it tell me?</H3>
+<H3><a id="reference_detail"></a>I clicked a link on a Reference Detail report and got this information. What does it tell me?</H3>
 
 <p>You were looking for sequences associated with a reference and used the <B>Sequences</B> link on a Reference Detail report. The Sequence Summary provides the J number and citation of the reference.</p>
 
@@ -196,7 +195,7 @@ The detail record for that sequence as stored in MGI appears. See <a href="SEQUE
 
 <p>See <a href="#fields">What can I do with sequence summary information?</a> for more details.</p>
 
-<font size="-1"><a href="#top">Top</a></font>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <H3><a id="fields"></a>What can I do with sequence summary information?</H3>
 
@@ -210,7 +209,7 @@ The detail record for that sequence as stored in MGI appears. See <a href="SEQUE
 
 <p>Depending on how you access this summary and your sort choices, some or all of the following fields and links appear:</p>
 <p><table width="!" cellpadding="2" align="center">
-<tr align="center"><td><a href="#select">Select</a> | <a href="#sequence">Sequence</a> | <a href="#version">Version</a> | 
+<tr><td><a href="#select">Select</a> | <a href="#sequence">Sequence</a> | <a href="#version">Version</a> | 
 <a href="#type">Type</a> | <a href="#length">Length</a> | <a href="#desc">Description from sequence provider</a> | <a href="#strain">Strain</a> | <a href="#tissue">Tissue</a> | <a href="#library">Library</a> | <a href="#marker_symbol">Marker symbol</a> | <a href="#marker_name">Marker name</a> | <a href="#position">Map position</a> | <a href="#coord">Genome Coordinates</a></td></tr>
    </table>
   </p>
@@ -237,14 +236,13 @@ The detail record for that sequence as stored in MGI appears. See <a href="SEQUE
 <tr><th><a id="position"></a>Map Position</th><td>Chromosome(s) and cM position(s) of the markers each sequence is associated with.</TD></tr>
 <tr><th><a id="coord"></a>Genome Coordinates</th><td>Assembly sequence coordinates for the mapped gene/marker. Format is <I>Chromosome# (beginning coordinate - end coordinate)</I></TD></tr>
 </TABLE>
-</p>
 
-<p style="font-size: 0.875em;"><a href="#top">Top</a></p>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <H3><a id="resolved"></a>What does it mean if a value cannot be resolved to an MGI controlled vocabulary?</H3>
 
 <p>Providers describe sequence attributes (strains/species, tissues, libraries, clone collections, and so on) in their reports. MGI captures these original values, converts them to MGI controlled vocabularies if possible, and stores them in the MGI databases. Once captured, values are called <I>resolved</I>, and you can use them as search terms on the Mouse Sequence Query Form. If the original value is not resolved to a controlled vocabulary term, it does not produce results if queried upon; a message to this effect, marked with an asterisk, appears on your query report.</p>
 
-<p style="font-size: 0.875em;"><a href="#top">Top</a></p>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
