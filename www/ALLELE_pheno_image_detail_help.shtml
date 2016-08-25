@@ -38,7 +38,8 @@ function openHelpWindow(helpFile){
 <br><br>
 <!-- Body of User Help -->
 
-<a name="top"></A>
+<a id="top"></a> 
+
 <P>This help document answers the following questions about the (Phenotypic) Image Detail Report.
 </P> <UL>
   <LI><A HREF="#field">What should show up on this report?</a></LI>
@@ -53,7 +54,7 @@ function openHelpWindow(helpFile){
   <LI><A HREF="allele_detail_report.shtml">Understanding Phenotypic Allele Detail reports</A></LI>
 </UL>-->
 
-<h3><a name="field"></a>What should show up on this report?</h3>
+<h3><a id="field"></a>What should show up on this report?</h3>
 <p>The following information appears on an Image Detail report:
  <ul>
 <li>An image of a mouse (or mice) displaying the phenotype caused by the mutation of interest or a mutation description image that defines the mutation.</li>
@@ -63,7 +64,7 @@ function openHelpWindow(helpFile){
 </p>
 
 
-  <h3><A name="howdo"></a>How do I access this report?</h3>
+  <h3><a id="howdo"></a>How do I access this report?</h3>
 <p>To access an Image Detail report:
 <ol>
   <li>Use the <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</a> to search for an allele. The Phenotypic Alleles Query Results -- Summary report appears. </li>
@@ -79,42 +80,42 @@ function openHelpWindow(helpFile){
 </UL>
 </p>
 
- <h3><A name="detail"></a>How do I interpret the information on the (Phenotype) Image Details report?</h3>
+ <h3><a id="detail"></a>How do I interpret the information on the (Phenotype) Image Details report?</h3>
 <TABLE BORDER=1 cellpadding=4 > 
 
-<TR><TH VALIGN="top">Field</TH><TH VALIGN="top">Description</TH></TR>
-<TR><TD align="left" valign="top"><A NAME="image"></a><b>Image</b><TD VALIGN="top">Two types of images may appear on these pages: 
+<TR><th>Field</TH><th>Description</TH></TR>
+<TR><td><a id="image"></a><b>Image</b><td>Two types of images may appear on these pages: 
 	<ul>
 	<li>An image of a mouse (or mice) displaying the phenotype caused by the mutation of interest and, if available, the control mouse</li>
 	<li>A mutation description image that defines the mutation.</li>
 	</ul>
 </td></tr>
 
-<TR><TD align="left" valign="top"><A NAME="caption"></a><b>Caption</b><br>(This section may not appear if the image is not associated with any genotypes.)</td><TD VALIGN="top">Details about the genotypic evidence or allelic affect on the mouse/mice displayed in the image; designation of the control  mouse, if one appears.</td></tr>
+<tr><td><a id="caption"></a><b>Caption</b><br>(This section may not appear if the image is not associated with any genotypes.)</td><td>Details about the genotypic evidence or allelic affect on the mouse/mice displayed in the image; designation of the control  mouse, if one appears.</td></tr>
 
-<tr><TD align="left" valign="top"><A NAME="credits"></a><b>Copyright</b><td VALIGN="TOP">Includes image origin, copyright, photo credit, and permission-to-display information.</td></tr>
+<tr><td><a id="credits"></a><b>Copyright</b><td>Includes image origin, copyright, photo credit, and permission-to-display information.</td></tr>
 
-<tr><td align="left" Valign="top"><A NAME="associated_alleles"></a><b>Associated Alleles</b><td align="top">A list of alleles that this image is associated with, arranged alphabetically by allele symbol. 
-<table border=0 cellpadding="4"><tr><th valign="left" align="top">Symbol</th><td valign="top">Allele symbol, linked to its Phenotypic Allele Detail report. Example:<i> Mitf<sup>Mi-wh</sup></i></td></TR><tr><th align="left" valign="top">Name</th><td valign="top">Gene name, semicolon, allele name.  Example: <i>microphthalmia-associated transcription factor; white</i></td></tr></table></td></tr>
+<tr><td><a id="associated_alleles"></a><b>Associated Alleles</b><td>A list of alleles that this image is associated with, arranged alphabetically by allele symbol. 
+<table border=0 cellpadding="4"><tr><th>Symbol</th><td>Allele symbol, linked to its Phenotypic Allele Detail report. Example:<i> Mitf<sup>Mi-wh</sup></i></td></TR><tr><th>Name</th><td>Gene name, semicolon, allele name.  Example: <i>microphthalmia-associated transcription factor; white</i></td></tr></table></td></tr>
 
-<tr><Td align="left" valign="top"><A NAME="associated_genotypes"></a><b>Associated Genotypes</b><br>(This section may not appear if the image is not associated with any genotypes.)</td>
-    <td valign="top">
+<tr><td><a id="associated_genotypes"></a><b>Associated Genotypes</b><br>(This section may not appear if the image is not associated with any genotypes.)</td>
+    <td>
       <table border="0" cellpadding="4">
         <tr>
-        <th align="left" valign="top"><A NAME="allelic_composition"></a><span style="white-space: nowrap">Allelic Composition</span></th>
-        <td valign="top">Genotype of each allele, linked to its MGI Allele Detail report.</td>
+        <th><a id="allelic_composition"></a><span style="white-space: nowrap">Allelic Composition</span></th>
+        <td>Genotype of each allele, linked to its MGI Allele Detail report.</td>
         </TR>
         <tr>
-        <th align="left" valign="top"><A NAME="genetic_background"></a>Genetic Background</th>
-        <td valign="top">Mouse strain(s) involved, if known.</td>
+        <th><a id="genetic_background"></a>Genetic Background</th>
+        <td>Mouse strain(s) involved, if known.</td>
         </tr>
       </table>
     </td>
  </tr>
 </table>
-
 </p>
-<font size="-1"><A HREF="#top">Top</A></font>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
 
