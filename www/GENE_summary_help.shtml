@@ -37,7 +37,8 @@ function openHelpWindow(helpFile){
 
 <!-- Body of User Help -->
 
-<A NAME="top"></A>
+<a id="top"></A>
+
 <P>This Help document answers the following questions about the genes and markers summary:</P>
 <UL>
  <LI><A href="#summary_sort">What determines the content of this report?</a></LI>
@@ -47,31 +48,31 @@ function openHelpWindow(helpFile){
  <li><a href="#sort">How do I sort my results?</a></li>
  <!--<li><a href="#filter">How do I filter my results?</a></li>  -->
  <li><a href="#tabfile">How do I retrieve my results as tab-delimited text or spreadsheet files?</a></li>
- <li><a href="#batch">Can I forward my results to batch queries?</li>
+ <li><a href="#batch">Can I forward my results to batch queries?</a></li>
 </ul>
 <p>See also:
 <ul>
   <li><a href="GENE_help.shtml" target="_blank">Using the Genes and Markers Query Form</a></li>
   <li><a href="GENE_detail_help.shtml" target="_blank">Interpreting the Gene Detail Report</a></li>
-
 </ul>
 </p>
-<h3><a name="summary_sort"></a>What determines the content of this report?</h3>
+
+<h3><a id="summary_sort"></a>What determines the content of this report?</h3>
 <p>The marker summary content depends on how you filled out the fields on the 
 <a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a>.</p>
 
-<a href="#top">Top</A><br>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="content"></a>What should the summary report contain?</h3>
+<h3><a id="content"></a>What should the summary report contain?</h3>
 <p>
 <UL>
 <LI>At the top of the Genes and Markers Query Results - Summary report is a display of your query parameters. For example:
    <BLOCKQUOTE>
-	<dl>
-	  <dt><font size="-1"><u><b>You searched for...</b></u></font></dt>
-	  <dt><font size="-1">on Chromosome: any of [<b>2</b>]</font></dt>
-	  <dt><font size="-1">AND Genome Coordinates: <b>4.4 -10.9</b> Mbp</font></dt>
-	  <dt><font size="-1">AND Feature Type: any of [<b>protein coding gene, miRNA gene</b>]</font></dt>
+	<dl style="font-size: 0.9em;">
+	  <dt><u><b>You searched for...</b></u></dt>
+	  <dt>on Chromosome: any of [<b>2</b>]</dt>
+	  <dt>AND Genome Coordinates: <b>4.4 -10.9</b> Mbp</dt>
+	  <dt>AND Feature Type: any of [<b>protein coding gene, miRNA gene</b>]</dt>
    </dl>
   </BLOCKQUOTE>
     <br>  
@@ -79,7 +80,7 @@ function openHelpWindow(helpFile){
  <LI>To the far right of the search summary is information about the amount of data found. For example:
   
 <BLOCKQUOTE>
-<font size="-1">Showing markers 1 - 100 of 153.</font>
+Showing markers 1 - 100 of 153.
 </BLOCKQUOTE><br>
    By default, 100 items are displayed on the web page. You can use the toggle to change the number of items displayed or page through the results.
 </li><br>
@@ -101,9 +102,9 @@ human homolog symbol, human homolog name, other homolog symbol.</td></tr>-->
 
 </BLOCKQUOTE>
 
-<p><a href="#top">Top</A>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="revise"></a>Can I edit my original options and requery?</h3>
+<h3><a id="revise"></a>Can I edit my original options and requery?</h3>
 
 <p>Yes, you can.</p>
 <p>If you want to edit a list or change output options:
@@ -123,29 +124,29 @@ human homolog symbol, human homolog name, other homolog symbol.</td></tr>-->
 <li>See <a href="GENE_help.shtml" target="_blank">Using the Genes and Markers Query Form</a></li>
 </ul>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="sort"></a>How do I sort my results?</h3>
+<h3><a id="sort"></a>How do I sort my results?</h3>
 
 <p>Click on the Genome Coordinates, Feature Types or Symbol column headings or the up/down arrowheads ( &#9660; &#9650;) to change or reverse the sort order of your results. </p>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<!--<h3><a name="filter"></a>How do I filter my results?</h3>
+<!--<h3><a id="filter"></a>How do I filter my results?</h3>
 
-<a href="#top"><font size="-1">Top</font></a>  -->
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>  -->
 
-<h3><a name="tabfile"></a>How do I retrieve my results as tab-delimited text or spreadsheet files?</h3>
+<h3><a id="tabfile"></a>How do I retrieve my results as tab-delimited text or spreadsheet files?</h3>
 <p>Above the table of your search results, click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="batch"></a>Can I forward my results to batch queries?</h3>
 
 <p>Yes, you can.</p>
 <p>Above the table of your search results, click on the <a href="<!--#include file='include/fewi_url.html'-->batch" target="_blank">Batch Query</a> or <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a> icons. The Batch Query will allow you to easily associate GO, phenotype and expression data to your list of results and MouseMine offers flexible querying, numerous predefined query templates, iterative refinement of results, and built-in enrichment analysis.</p>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
 
