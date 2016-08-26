@@ -37,125 +37,120 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 <blockquote>
 <table border="1" cellspacing="1" cellpadding="5">
 <tr>
-<th valign="top">Sequence Provider</th>
-<th valign="top">Valid Sequence Type</th>
+<th>Sequence Provider</th>
+<th>Valid Sequence Type</th>
 </tr>
 
 <tr>
-<td valign="top">VEGA Transcript</td>
-<td valign="top">RNA</td>
+<td>VEGA Transcript</td>
+<td>RNA</td>
 </tr>
 
 <tr>
-<td valign="top">Ensembl Transcript</td>
-<td valign="top">RNA</td>
+<td>Ensembl Transcript</td>
+<td>RNA</td>
 </tr>
 
 <tr>
-<td valign="top">RefSeq</td>
-<td valign="top">RNA, polypeptide</td>
+<td>RefSeq</td>
+<td>RNA, polypeptide</td>
 </tr>
 
 <tr>
-<td valign="top">GenBank/EMBL/DDBJ:Rodent</td>
-<td valign="top">DNA, RNA</td>
+<td>GenBank/EMBL/DDBJ:Rodent</td>
+<td>DNA, RNA</td>
 </tr>
 
 <tr>
-<td valign="top">GenBank/EMBL/DDBJ:Patent</td>
-<td valign="top">DNA, RNA</td>
+<td>GenBank/EMBL/DDBJ:Patent</td>
+<td>DNA, RNA</td>
 </tr>
 
 <tr>
-<td valign="top">GenBank/EMBL/DDBJ:HTC</td>
-<td valign="top">DNA, RNA</td>
+<td>GenBank/EMBL/DDBJ:HTC</td>
+<td>DNA, RNA</td>
 </tr>
 
 <tr>
-<td valign="top">GenBank/EMBL/DDBJ:EST</td>
-<td valign="top">DNA, RNA</td>
+<td>GenBank/EMBL/DDBJ:EST</td>
+<td>DNA, RNA</td>
 </tr>
 
 <tr>
-<td valign="top">GenBank/EMBL/DDBJ:HTG</td>
-<td valign="top">DNA, RNA</td>
+<td>GenBank/EMBL/DDBJ:HTG</td>
+<td>DNA, RNA</td>
 </tr>
 
 <tr>
-<td valign="top">GenBank/EMBL/DDBJ:STS</td>
-<td valign="top">DNA, RNA</td>
+<td>GenBank/EMBL/DDBJ:STS</td>
+<td>DNA, RNA</td>
 </tr>
 
 <tr>
-<td valign="top">GenBank/EMBL/DDBJ:GSS</td>
-<td valign="top">DNA, RNA</td>
+<td>GenBank/EMBL/DDBJ:GSS</td>
+<td>DNA, RNA</td>
 </tr>
 
 <tr>
-<td valign="top">GenBank/EMBL/DDBJ: Synthetic</td>
-<td valign="top">DNA, RNA</td>
+<td>GenBank/EMBL/DDBJ: Synthetic</td>
+<td>DNA, RNA</td>
 </tr>
 
 <tr>
-<td valign="top">GenBank/EMBL/DDBJ</td>
-<td valign="top">DNA, RNA</td>
+<td>GenBank/EMBL/DDBJ</td>
+<td>DNA, RNA</td>
 </tr>
 
 <tr>
-<td valign="top">Vega Gene Model</td>
-<td valign="top">DNA</td>
-</tr>
-
-
-
-<tr>
-<td valign="top">Ensembl Gene Model</td>
-<td valign="top">DNA</td>
+<td>Vega Gene Model</td>
+<td>DNA</td>
 </tr>
 
 <tr>
-<td valign="top">NCBI Gene Model</td>
-<td valign="top">DNA</td>
-</tr>
-
-
-<tr>
-<td valign="top">VEGA Protein</td>
-<td valign="top">polypeptide</td>
+<td>Ensembl Gene Model</td>
+<td>DNA</td>
 </tr>
 
 <tr>
-<td valign="top">Ensembl Protein</td>
-<td valign="top">polypeptide</td>
-</tr>
-
-
-
-<tr>
-<td valign="top">DFCI Mouse Gene Index</td>
-<td valign="top">RNA</td>
+<td>NCBI Gene Model</td>
+<td>DNA</td>
 </tr>
 
 <tr>
-<td valign="top">DoTS</td>
-<td valign="top">RNA</td>
+<td>VEGA Protein</td>
+<td>polypeptide</td>
 </tr>
 
 <tr>
-<td valign="top">NIA Mouse Gene Index</td>
-<td valign="top">RNA</td>
+<td>Ensembl Protein</td>
+<td>polypeptide</td>
 </tr>
 
 <tr>
-<td valign="top">SWISS-PROT</td>
-<td valign="top">polypeptide</td>
+<td>DFCI Mouse Gene Index</td>
+<td>RNA</td>
 </tr>
 
 <tr>
-<td valign="top">TrEMBL</td>
-<td valign="top">polypeptide</td>
+<td>DoTS</td>
+<td>RNA</td>
+</tr>
+
+<tr>
+<td>NIA Mouse Gene Index</td>
+<td>RNA</td>
+</tr>
+
+<tr>
+<td>SWISS-PROT</td>
+<td>polypeptide</td>
+</tr>
+
+<tr>
+<td>TrEMBL</td>
+<td>polypeptide</td>
 </tr>
 </table>
-</blockquote></p>
+</blockquote>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
