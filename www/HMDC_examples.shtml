@@ -35,7 +35,7 @@ function openHelpWindow(helpFile){
 
 <!-- Body of User Help -->
 
-<a NAME="top"></a>
+<a id="top"></a>
 
 <p>This help document contains <abbr title="Human - Mouse: Disease Connection">HMDC</abbr> search examples:  
  <ul>
@@ -53,7 +53,7 @@ function openHelpWindow(helpFile){
 	</ul>
 </p>
  
-<h3><a name="gene"></a>How to search with gene symbols</h3>
+<h3><a id="gene"></a>How to search with gene symbols</h3>
 
 <ol>
   <li>Toggle "Please select a field" to "Gene Symbol(s) or ID(s)."</li>
@@ -78,7 +78,7 @@ function openHelpWindow(helpFile){
 	<li>Click the Search button.</li>
 </ol>
 <br>
-As an alternative, you can use the <a href="<!--#include file='include/fewi_url.html'-->marker">Genes & Markers Query's</a> Export options to create a file of bone morphogenetic protein gene symbols or IDs to upload, as in the next example. 
+As an alternative, you can use the <a href="<!--#include file='include/fewi_url.html'-->marker">Genes &amp; Markers Query's</a> Export options to create a file of bone morphogenetic protein gene symbols or IDs to upload, as in the next example. 
 </p>
 
 <p>See <a href="GENE_help.shtml" target="_blank">Using the Genes and Markers Query Form</a> for additional help.
@@ -98,9 +98,9 @@ As an alternative, you can use the <a href="<!--#include file='include/fewi_url.
 </ol>
 </p>
    
-<a href="#top">Top</a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="disease"></a>How to search with disease or phenotype terms</h3>
+<h3><a id="disease"></a>How to search with disease or phenotype terms</h3>
 
 <ol>
   <li>Toggle "Please select a field" to "Phenotype or Disease Name."</li>
@@ -111,7 +111,7 @@ As an alternative, you can use the <a href="<!--#include file='include/fewi_url.
   <li>Click the Search button.</li>
 </ol>
 
-<h3><a name="genome"></a>How to search with genome locations</h3>
+<h3><a id="genome"></a>How to search with genome locations</h3>
 
 <ol>
   <li>Toggle "Please select a field" to "Genome Location."</li>
@@ -125,9 +125,9 @@ As an alternative, you can use the <a href="<!--#include file='include/fewi_url.
 
 <p>You can search with a Chromosome (e.g. 19 or 19: or chr19) but not by chromosome arms or bands. So human chr:7p22 won't return any results. The form will only accept a digit following the chromosome.</p>
 
-<a href="#top">Top</a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="phenoRegion"></a>How to search with a genomic region and a phenotype</h3>
+<h3><a id="phenoRegion"></a>How to search with a genomic region and a phenotype</h3>
 
 <p>To find information on genes linked to ataxia for a region of mouse Chromosome 2:
 
@@ -146,7 +146,7 @@ As an alternative, you can use the <a href="<!--#include file='include/fewi_url.
 </ol>
 </p>
 
-<a href="#top">Top</a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
 
