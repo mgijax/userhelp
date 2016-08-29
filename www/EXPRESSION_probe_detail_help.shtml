@@ -31,8 +31,9 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 <!--#include file='include/templateBlankBodyStart.html'-->
 <!-- Body of User Help -->
 
-<A NAME="top"></A>
-<P><A NAME="detail"></A>This help document answers the following questions about the cDNA Clone Source Data Detail  report:
+<a id="top"></a>
+
+<P>This help document answers the following questions about the cDNA Clone Source Data Detail  report:
 
 <ul>
   <li><A href="#how_result">Can I view a more detailed result?</A></li>
@@ -43,61 +44,60 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
    <LI><A HREF="EXPRESSION_probe_summary_help.shtml" target="_blank">Interpreting a Probe and Clone Data Summary</A></LI>
 </UL>
 
-
-  <h3><A name="how_result"></a>Can I view a more detailed result?</h3>
+<h3><a id="how_result"></a>Can I view a more detailed result?</h3>
 
 <P>The summary report provides links to the  cDNA Clone Source Data Details.  Click the Probe/Clone Acc ID of the desired item to see its detail report.
 </P>
 
-<H3><A NAME="detail"></A>How do I interpret the detail results of my query?</H3>
+<H3><a id="detail"></A>How do I interpret the detail results of my query?</H3>
 <p>Each report includes a subset of the following fields, depending on the content of the record. See <A HREF="#primer">Primer Detail Results</A> if the sequence type is <I>primer.</I> <b>Note:</b> If the provider did not supply a description for an item, <i>Not Specified</i> appears for this field. </p>
 
 
 <TABLE BORDER CELLPADDING="4">
 <TR><TH>FIELD</TH> <TH>DESCRIPTION</TH></TR>
-<TR><TH ALIGN="left" VALIGN="top">Nucleotide Probe/Clone</TH><TD VALIGN="top">Name of the probe or segment.</TD></TR>
-<TR><TH ALIGN="left" VALIGN="top">Sequence type</TH><TD VALIGN="top">Sequence types are: cDNA, genomic, DNA (construct), mitochondrial, oligo, primer, RNA.</TD></TR>
+<TR><th><span style="white-space: nowrap">Nucleotide Probe/Clone</span></th><td>Name of the probe or segment.</TD></TR>
+<TR><th>Sequence type</th><td>Sequence types are: cDNA, genomic, DNA (construct), mitochondrial, oligo, primer, RNA.</TD></TR>
 
-<TR><TH ALIGN="left" VALIGN="top">Derivatives</TH><TD VALIGN="top">Names of probes/clones derived from the currently displayed probe/clone. Each name is linked to the appropriate child record.</TD></TR>
+<TR><th>Derivatives</th><td>Names of probes/clones derived from the currently displayed probe/clone. Each name is linked to the appropriate child record.</TD></TR>
 
-<TR><TH ALIGN="left" VALIGN="top">Derived from</TH><TD VALIGN="top">Name of probe/clone that the currently displayed probe/clone is derived from. Each name is linked to the appropriate parent record.</TD></TR>
+<TR><th>Derived from</th><td>Name of probe/clone that the currently displayed probe/clone is derived from. Each name is linked to the appropriate parent record.</TD></TR>
 
-<TR><TH ALIGN="left" VALIGN="top">Library</TH><TD VALIGN="top">Library to which the probe/clone belongs.</TD></TR>
+<TR><th>Library</th><td>Library to which the probe/clone belongs.</TD></TR>
 
-<TR><TH ALIGN="left" VALIGN="top">Species of origin</TH><TD VALIGN="top">Organism from which the probe/clone was derived.</TD></TR>
+<TR><th>Species of origin</th><td>Organism from which the probe/clone was derived.</TD></TR>
 
-<TR><TH ALIGN="left" VALIGN="top">Strain</TH><TD VALIGN="top">Strain from which the probe/clone was derived.</TD></TR>
+<TR><th>Strain</th><td>Strain from which the probe/clone was derived.</TD></TR>
 
-<TR><TH ALIGN="left" VALIGN="top">Sex</TH> <TD VALIGN="top">Sex of the specimen from which the probe/clone was derived.</TD></TR>
+<TR><th>Sex</th> <td>Sex of the specimen from which the probe/clone was derived.</TD></TR>
 
- <TR><TH ALIGN="left" VALIGN="top">Age</TH><TD VALIGN="top">Age of the specimen from which the probe/clone was derived.</TD></TR>
+ <TR><th>Age</th><td>Age of the specimen from which the probe/clone was derived.</TD></TR>
 
- <TR><TH ALIGN="left" VALIGN="top">Tissue</TH> <TD VALIGN="top">Tissue of the specimen from which the probe/clone was derived.</TD> </TR>
- <TR><TH ALIGN="left" VALIGN="top">Tissue Note</TH> <TD VALIGN="top">If this is a cell line, the description may detail where the cell line was derived from. If this is a tissue, it may detail the cell type or tissue treatment, if any.</TD> </TR>
+ <TR><th>Tissue</th> <td>Tissue of the specimen from which the probe/clone was derived.</TD> </TR>
+ <TR><th>Tissue Note</th> <td>If this is a cell line, the description may detail where the cell line was derived from. If this is a tissue, it may detail the cell type or tissue treatment, if any.</TD> </TR>
 
- <TR><TH ALIGN="left" VALIGN="top">Cell line</TH><TD VALIGN="top">Cell line from which the probe/clone was derived</TD> </TR>
+ <TR><th>Cell line</th><td>Cell line from which the probe/clone was derived</TD> </TR>
 
- <TR><TH ALIGN="left" VALIGN="top">Region covered</TH><TD VALIGN="top">Description of the molecular segment inserted into the vector.</TD></TR>
+ <TR><th>Region covered</TH><td>Description of the molecular segment inserted into the vector.</TD></TR>
 
-<TR><TH ALIGN="left" VALIGN="top">Vector type</TH><TD VALIGN="top">BAC, cosmid, P1, PAC, phage, phagemid, plasmid, YAC. </TD></TR>
+<TR><th>Vector type</th><td>BAC, cosmid, P1, PAC, phage, phagemid, plasmid, YAC. </TD></TR>
 
-<TR><TH ALIGN="left" VALIGN="top">Insert site</TH><TD VALIGN="top">Restriction site used to insert the segment into the vector.</TD> </TR>
+<TR><th>Insert site</th><td>Restriction site used to insert the segment into the vector.</TD> </TR>
 
-<TR><TH ALIGN="left" VALIGN="top">Insert size</TH><TD VALIGN="top">Size of the segment inserted into the vector.</TD> </TR>
+<TR><th>Insert size</th><td>Size of the segment inserted into the vector.</TD> </TR>
 
- <TR><TH ALIGN="left" VALIGN="top">MGI Accession ID</TH> <TD VALIGN="top">Unique ID assigned to the probe/clone record in MGI. The format is <I>MGI:nnnn</I> (<i>nnnn</i> is any number greater than or equal to 1).</TD> </TR>
+ <TR><th>MGI Accession ID</th> <td>Unique ID assigned to the probe/clone record in MGI. The format is <I>MGI:nnnn</I> (<i>nnnn</i> is any number greater than or equal to 1).</TD> </TR>
 
- <TR><TH ALIGN="left" VALIGN="top">Other MGI Accession IDs</TH><TD VALIGN="top">A comma-separated list of any secondary MGI accession IDs associated with the probe/clone.</TD></TR>
+ <TR><th><span style="white-space: nowrap">Other MGI Accession IDs</span></th><td>A comma-separated list of any secondary MGI accession IDs associated with the probe/clone.</TD></TR>
 
- <TR><TH ALIGN="left" VALIGN="top">Other Accession IDs</TH><TD VALIGN="top">Unique identifier assigned to the probe/clone by a resource external to the database. For example, in MGI, the RIKEN clone ID is an external accession ID.</TD></TR>
+ <TR><th>Other Accession IDs</th><td>Unique identifier assigned to the probe/clone by a resource external to the database. For example, in MGI, the RIKEN clone ID is an external accession ID.</TD></TR>
 
- <TR><TH ALIGN="left" VALIGN="top">Notes</TH><TD VALIGN="top">Probe-specific information.</TD></TR>
+ <TR><th>Notes</th><td>Probe-specific information.</TD></TR>
 </TABLE>
 
 <BR><BR>
 <TABLE BORDER="1" CELLPADDING="4" WIDTH="100%">
-  <TR><TH ALIGN="left" VALIGN="top" WIDTH="20%">Markers (<i>chromosome</i>):</TH>
-      <TD VALIGN="top">
+  <TR><th><span style="white-space: nowrap">Markers (<i>chromosome</i>):</span></th>
+      <td>
        <ul>
         <li>Symbol for each marker (linked to MGI marker records) to which this probe/clone hybridizes. </li>
         <li>If the probe is putatively associated with a marker in the MGI database, PUTATIVE appears in parentheses after the marker symbol. </li>
@@ -105,8 +105,8 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
      <li>The marker's genome coordinates appear after the chromosome in the parentheses.</li>
       </ul></TD>
   </TR>
-  <TR><TH ALIGN="left" VALIGN="top">References:</TH>
-      <TD VALIGN="top">Short-form citations for this probe/clone, each linked to an MGI Reference Detail page.
+  <TR><th>References:</th>
+      <td>Short-form citations for this probe/clone, each linked to an MGI Reference Detail page.
       <UL>
       <LI>May include notes entered by editors, and, for molecular segments associated with sequence accession numbers, links to GenBank, EMBL, DDBJ, and the MGI Sequence Detail page.</LI>
       <LI>If the reference includes sequence, this is also indicated.</LI>
@@ -114,22 +114,23 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
       </UL>
       </TD>
   </TR>
-  <TR><TH ALIGN="left" VALIGN="top">Additional Information: <BR>Gene Expression Data </TH><TD VALIGN="top">Links to expression results derived using the probe. </TD></TR></TABLE>
+  <TR><th><span style="white-space: nowrap">Additional Information:</span> <BR>Gene Expression Data </th><td>Links to expression results derived using the probe. </TD></TR></TABLE>
 </TABLE></P>
 <A HREF="#top">Top</A>
 
-<H3><A NAME="primer"></A>Primer Detail Results</H3>
+<H3><a id="primer"></a>Primer Detail Results</H3>
 <P>If you selected <I>primer</I> as the <B>Sequence Type</B> on the Molecular Probes and Clones Query Form, the first four fields in the detail report describe the primer set. The remainder of the fields contain the information described in
 <A HREF="#detail">detail</A> report above.
 </P>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR><TH>FIELD</TH> <TH>DESCRIPTION</TH></TR>
-<TR><TH ALIGN="left" VALIGN="top">Primer</TH><TD VALIGN="top">Name of the primer set.</TD></TR>
-<TR><TH ALIGN="left" VALIGN="top">Primer 1 sequence</TH><TD VALIGN="top">Sequence for the first primer.</TD></TR>
-<TR><TH ALIGN="left" VALIGN="top">Primer 2 sequence</TH><TD VALIGN="top">Sequence for the second primer.</TD></TR>
-<TR><TH ALIGN="left" VALIGN="top">Product size</TH><TD VALIGN="top">Size of the amplified product.</TD></TR>
+<TR><th>Primer</TH><td>Name of the primer set.</TD></TR>
+<TR><th>Primer 1 sequence</th><td>Sequence for the first primer.</TD></TR>
+<TR><th>Primer 2 sequence</th><td>Sequence for the second primer.</TD></TR>
+<TR><th>Product size</th><td>Size of the amplified product.</TD></TR>
 </TABLE>
 </P>
-<A HREF="#top">Top</A>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
