@@ -36,7 +36,10 @@ function openHelpWindow(helpFile){
 <!--#include file='include/templateBlankBodyStart.html'-->
 
 <!-- Body of User Help -->
-<A NAME="top"></A> <p>MGI obtains interaction data associated with mouse genes and other genome features from expert resources and published literature. This help document answers the following questions about the Interaction Explorer Results.
+
+<a id="top"></a> 
+
+<p>MGI obtains interaction data associated with mouse genes and other genome features from expert resources and published literature. This help document answers the following questions about the Interaction Explorer Results.
 <ul>
 	<li><a href="#iewhat">What should show up on this report?</a></li>
 	<li><a href="#graph">How do I use the graph?</a></li>
@@ -47,7 +50,7 @@ function openHelpWindow(helpFile){
 	<li><a href="#rawdata">Can I download the entire raw data set?</a></li>
 </ul></p>
 
-<h3><A name="iewhat"></A>What should show up on this report?</h3>
+<h3><a id="iewhat"></a>What should show up on this report?</h3>
 <ul>
 	<li>The official marker symbol and name for the marker and the marker feature type</li>
 	<li>A <a href="#graph">graph</a> showing the selected marker surrounded by the markers for which there is evidence of an interaction</li>
@@ -55,9 +58,9 @@ function openHelpWindow(helpFile){
 	<li>The option to forward the list of interacting markers to the MGI Batch Query. This will  provide markers symbols, names, accession IDs, feature types and genome coordinates, download options and the ability to add additional data.</li>
 </ul>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="graph"></a>How do I use the graph?</h3>
+<h3><a id="graph"></a>How do I use the graph?</h3>
 
 <p>The graph shows the selected marker at the center, surrounded by the markers for which there is evidence of an interaction. Blue lines connect validated interactions and red lines connect predicted interactions. The first 500 markers are shown based on how the table is sorted. The default sort is by validation type and then score. 
 </p>
@@ -68,56 +71,56 @@ function openHelpWindow(helpFile){
 <p>Click and hold to drag and reposition the graph.
 </p>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="table"></a>How do I use the table?</h3>
+<h3><a id="table"></a>How do I use the table?</h3>
 
 <p>Click on any of the column headings or the up/down arrowheads ( &#9660; &#9650;) to change the sort order of your results. Apply <a href="#iefilter">filters</a> to reduce the number of results. The table contains the following fields: 
 
 <blockquote> 
 <table border width="!" cellpadding="4" cellspacing="1">
-	<tr><td align="left" valign="top"><b>Feature 1</b></td>
-    <td valign="top">Symbol of the interacting feature</td></tr> 
-	<tr><td align="left" valign="top"><b>Interaction</b></td>
-    <td valign="top">The type of relationship between Feature 1 and 2</td></tr> 
-    <tr><td align="left" valign="top"><b>Feature 2</b></td>
-    <td valign="top">The object acted on by Feature 1. For example, Feature 1 targets Feature 2.</td></tr> 
-    <tr><td align="left" valign="top"><b>Validation</b></td>
-    <td valign="top">Indicates whether the interaction was validated or predicted</td></tr> 
-    <tr><td align="left" valign="top"><b>Data Source</b></td>
-    <td valign="top">Examples: <a href="http://mirtarbase.mbc.nctu.edu.tw">miRTarBase</a>: the experimentally validated microRNA-target interactions database<br>
+	<tr><td><b>Feature 1</b></td>
+    <td>Symbol of the interacting feature</td></tr> 
+	<tr><td><b>Interaction</b></td>
+    <td>The type of relationship between Feature 1 and 2</td></tr> 
+    <tr><td><b>Feature 2</b></td>
+    <td>The object acted on by Feature 1. For example, Feature 1 targets Feature 2.</td></tr> 
+    <tr><td><b>Validation</b></td>
+    <td>Indicates whether the interaction was validated or predicted</td></tr> 
+    <tr><td><b>Data Source</b></td>
+    <td>Examples: <a href="http://mirtarbase.mbc.nctu.edu.tw">miRTarBase</a>: the experimentally validated microRNA-target interactions database<br>
 	 <a href="http://diana.imis.athena-innovation.gr/DianaTools/index.php?r=microT_CDS/index">microT-CDS</a><br>
 	 <a href="http://mirdb.org/miRDB/">miRDB</a><br>
 	 <a href="http://pictar.mdc-berlin.de/">Pictar</a><br></td></tr> 
-    <tr><td align="left" valign="top"><b>Score</b></td>
-    <td valign="top">Predicted interactions are represented by score. Scores from different sources vary in both scale and range. MGI scales these score values to a common range (0 - 1) to permit filtering by source and score. Users are advised to consult algorithm details before comparing interaction scores from different algorithms. Algorithms used for the predicted interactions can be obtained by downloading the table data. Information about the data sources and algorithms can be found in the associated references.</td></tr> 
-    <tr><td align="left" valign="top"><b>Reference</b></td>
-    <td valign="top">J number (MGI identifier) for this reference linked to its MGI reference detail report. Information about the data sources and algorithms can be found in the associated references.</td></tr>
+    <tr><td><b>Score</b></td>
+    <td>Predicted interactions are represented by score. Scores from different sources vary in both scale and range. MGI scales these score values to a common range (0 - 1) to permit filtering by source and score. Users are advised to consult algorithm details before comparing interaction scores from different algorithms. Algorithms used for the predicted interactions can be obtained by downloading the table data. Information about the data sources and algorithms can be found in the associated references.</td></tr> 
+    <tr><td><b>Reference</b></td>
+    <td>J number (MGI identifier) for this reference linked to its MGI reference detail report. Information about the data sources and algorithms can be found in the associated references.</td></tr>
 </table>
 </blockquote>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="iefilter"></a>How do I filter my results?</h3>
+<h3><a id="iefilter"></a>How do I filter my results?</h3>
 <p>You can filter results by Type of Interaction, Level of Validation, Data Source or Score. In the top center of the page, after <i>Filter interactions by</i>, click the desired box. This will reduce your results to only those containing the checked items or above the desired score. To filter by Score, drag the slider to set the minimum score. Filtering by score only affects the predicted interactions. Validated interactions are unaffected by the score filter.</p>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="sort"></a>How do I sort my results?</h3>
+<h3><a id="sort"></a>How do I sort my results?</h3>
 
 <p>Click on any of the column headings or the up/down arrowheads ( &#9660; &#9650;) to change the sort order of your results. </p>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="tabfile"></a>How do I retrieve my results as tab-delimited text or spreadsheet files?</h3>
+<h3><a id="tabfile"></a>How do I retrieve my results as tab-delimited text or spreadsheet files?</h3>
 <p>Above the graph, click on the Batch Query icon above the graph. This will forward the list of interacting markers that remain after filtering to the MGI Batch Query and preserve the table's current sort order. The Batch Query provides markers symbols, names, accession IDs, feature types, genome coordinates, the ability to add additional data and options to download your results as tab-delimited text or spreadsheet files. </p>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="rawdata"></a>Can I download the entire raw data set?</h3>
+<h3><a id="rawdata"></a>Can I download the entire raw data set?</h3>
 
 <p>Yes. Click on the Download Data button above the graph. This will take you to our FTP site where you can download the entire data set. If you only wish to download the table's data, see the previous question.</p>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
