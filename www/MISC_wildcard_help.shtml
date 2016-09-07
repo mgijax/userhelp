@@ -84,7 +84,7 @@ link to Adp because its gene name is <B>acr</B>odysplasia.</P>
 <H3><a id="howuse"></A>How do I use wild cards on MGI query forms?</H3>
 
 <blockquote>
-<table border cellspacing="1" cellpadding="4"> <tr> <th>Enter...</th> <th>To find, for example...</th> </tr>
+<table border cellspacing="1" cellpadding="4"> <tr> <th>Enter&hellip;</th> <th>To find, for example&hellip;</th> </tr>
 
 <tr><td>Abc*</td><td>All of the ATP-binding cassette genes</td></tr>
 <tr><td>embry*</td><td>Embryo, embryonic, embryonal, embryoes, embryogenesis</td></tr>
