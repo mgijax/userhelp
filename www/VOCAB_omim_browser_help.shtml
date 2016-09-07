@@ -32,7 +32,8 @@ Using the Human Disease Vocabulary Browser</span>
 
 <!-- Body of User Help -->
 
-<A NAME="top"></A>
+<a id="top"></a>
+
  <!-- Links to summary annotated phenotype data at MGI are provided in Term Detail Reports.-->
 
 <P>This help document answers the following questions:
@@ -56,18 +57,15 @@ Using the Human Disease Vocabulary Browser</span>
   <LI><A HREF="MISC_boolean_search_help.shtml" target="_blank">Full-Text Searching on MGI Query Forms</A></LI>-->
 </UL>
 
-
-<h3><a name="whatis"></a>What is the Human Disease Vocabulary and what can I use to find?</h3>
+<h3><a id="whatis"></a>What is the Human Disease Vocabulary and what can I use to find?</h3>
 <P>The Human Disease Vocabulary is a catalog of human genetic disorders from the Online Mendelian Inheritance in Man (OMIM) database. Use the vocabulary browser to search for potential mouse models of human diseases.
 </P>
 
-
-  <H3><A NAME="howare"></A>How is the Human Disease Vocabulary organized?</H3>
+<H3><a id="howare"></A>How is the Human Disease Vocabulary organized?</H3>
 <P>The Vocabulary has a flat structure and is organized alphanumerically (A-Z; 0-9). When you click any letter of the alphabet, a list of all (OMIM) diseases or syndromes beginning with that letter appears, arranged alphabetically.  When you click 0-9,  one list appears, containing all (OMIM) diseases beginning with a number (e.g., <i>6-pyruvoyltetrahydropterin Synthase; PTS</i>).
 The number of mouse models in MGI appears in parentheses next to each disease name. The absence of this text, e.g.,<i> (3 mouse models)</i>, means that MGI currently contains no models for this disease. However, if a mouse has been shown NOT to be a model of a human disease, this is not listed here.
 <!--<p>You can also use the Search box to find diseases of interest. To do this, type the name(s) in the box and click Search.
 </P>-->
-
 
 <!--<h3><A name="boolean">What do I need to know about Boolean operators in order to use this tool? word stemming? partial word matching? quotation marks?</a></h3>
 
@@ -87,11 +85,9 @@ The number of mouse models in MGI appears in parentheses next to each disease na
 
 <font size="-1"><a href="#top">Top</a></font><BR>-->
 
-
- <H3><A NAME="whatcan"></A>What can I use the Vocabulary Browser to find?</H3>
+<H3><a id="whatcan"></A>What can I use the Vocabulary Browser to find?</H3>
 <P>You can use the vocabulary browser to find potential mouse models of human diseases. 
  To do this, click either the desired letter of the alphabet or the numerals 0-9. Terms are arranged alphanumerically.  <!--If you do not find the desired term by browsing, try entering it in the Search box. You may find that the OMIM designation for the disease is different from the common one: for example, searching for <I>juvenile diabetes</I> yields the term <I>Maturity-Onset Diabetes of the Young, Type I; MODY1.</i> </p>-->
-
 
 <!--<H3><A NAME="include"></A>What is the difference between and browsing and searching the vocabulary?</H3>
 <P>You can either browse or search from the Human Disease Vocabulary Browser entry page. 
@@ -105,7 +101,6 @@ The number of mouse models in MGI appears in parentheses next to each disease na
 </UL>
 </ul>
 </p>-->
-
 
 <!--<h3><a name="multiple">Can I enter more than one term or accession ID? enter abbreviations for a disease? enter a synonym for a disease? enter partial words? mix and match?</h3>
 <p>Yes, you can do all of these things. You will not, however, get results if you enter a disease with its own accession ID. See <a href="#examples">Examples</a> for sample entries and results.</p>
@@ -126,7 +121,7 @@ The number of mouse models in MGI appears in parentheses next to each disease na
   
 <font size="-1"><a href="#top">Top</a></font><BR>-->
 
-<h3><a name="details"></a>How do I get the details about diseases with mouse models?</h3>
+<h3><a id="details"></a>How do I get the details about diseases with mouse models?</h3>
 <!--<p>There are two ways to use the Human Disease Vocabulary Browser to find diseases with mouse models in MGI.</p>-->
 Use the alphanumerical list at the top of the Vocabulary Browser.
   <ol>
@@ -140,7 +135,6 @@ Use the alphanumerical list at the top of the Vocabulary Browser.
 <h3>How do I interpret Human Disease and Mouse Model Details?</h3>
 <p>See <A HREF="VOCAB_omim_browser_detail_help.shtml" target="_blank">Interpreting Human Disease and Mouse Model Details</a>.
 </p>
-
 
 <!--<h3><A name="no_results"></A>What should I do if I get no results? What if I get results for only one term?</h3>
 <P>If your query returns no results, the Human Disease Vocabulary Browser query summary details your input parameters and reports that there were zero matching human disease terms. For example: <br><br><i><font size="-1">
@@ -201,8 +195,7 @@ See also <a href="MISC_boolean_search_help.shtml">Full-Text Searching on MGI Que
 </table>
 </blockquote>-->
 
-<font size="-1"><a href="#top">Top</a></font>
-
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <hr>
 OMIM&#153; and Online Mendelian Inheritance in Man&#153; are trademarks of the Johns Hopkins University.
