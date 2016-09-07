@@ -35,7 +35,9 @@ function openHelpWindow(helpFile){
 <!--#include file='include/templateBlankBodyStart.html'-->
 
 <!-- Body of User Help -->
-<A NAME="top"></A> <p>This help document answers the following questions about the Vertebrate Homology Class Report.
+<a id="top"></a> 
+
+<p>This help document answers the following questions about the Vertebrate Homology Class Report.
 </p>
 
 <ul>
@@ -55,7 +57,7 @@ function openHelpWindow(helpFile){
 <LI><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> (for unfamiliar terms or acronyms)</LI>
 </ul>
 
-<H3><A NAME="contain"></A>What's in the Vertebrate Homology Class Report?</H3>
+<H3><a id="contain"></A>What's in the Vertebrate Homology Class Report?</H3>
 <p>The Vertebrate Homology Class Report contains:
 </p>
 
@@ -68,9 +70,9 @@ function openHelpWindow(helpFile){
  <li>a link to a Comparative GO <a href="#graph">Graph when GO annotations are present.</a></li>
 </ul>
 
-<A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A NAME="source">What is the source of the homology assertions?</a></H3>
+<H3><a id="source">What is the source of the homology assertions?</a></H3>
 <p>MGI loads sequence based vertebrate homology assertions from NCBI <a href="http://www.ncbi.nlm.nih.gov/homologene">HomoloGene</a>. HomoloGene programmatically detects homologs among the genome features of several completely sequenced eukaryotic genomes.
 </p>
 <p>MGI includes homology for the following selected vertebrate species from HomoloGene:</p>
@@ -88,52 +90,54 @@ function openHelpWindow(helpFile){
 </ul>
 <p>These are just a subset of the total species represented in HomoloGene Classes at NCBI.</p> 
 
-<A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><A NAME="field"></A>Which fields should show up in the Homology Class table?</h3>
+<h3><a id="field"></A>Which fields should show up in the Homology Class table?</h3>
 <p>For each homolog in a class, the record shows some or all information in the following table, depending on the information available.
 </p>
+
 <table class="nb" width="!" align="center">
-<tr align="center"><Td VALIGN="top"  cellpadding="1"><a href="#Species">Species</a> | <a href="#Symbol">Symbol</a> | <a href="#acc_ID">Gene Links</a> | <a href="#Chr">Genetic Location</a> | <a href="#coord">Genome Coordinates</a> | <a href="#disease">Associated Human Diseases</a> | <a href="#sequence">Sequences</a> </td></tr>
+<tr align="center"><td cellpadding="1"><a href="#Species">Species</a> | <a href="#Symbol">Symbol</a> | <a href="#acc_ID">Gene Links</a> | <a href="#Chr">Genetic Location</a> | <a href="#coord">Genome Coordinates</a> | <a href="#disease">Associated Human Diseases</a> | <a href="#sequence">Sequences</a> </td></tr>
 </table>
+
 <p>
 <TABLE BORDER cellpadding="4" width="100%">
 <TR>
 <TH>FIELD</th> <TH>DESCRIPTION</th> </TR>
-<TR><th align=left valign=top><a name="Species">Species</a></th> 
-<td valign="top">Species name of each homolog in a class. </td></TR>
-<TR><th align=left valign=top><a name="Symbol"></a>Symbol</th> 
-<td valign="top">Symbol for an homologous marker.</td></TR>
-<TR><th align=left valign=top><a name="acc_ID">Gene Links</a></th> 
-<td valign="top">Database accession IDs assigned to the marker, linked to the database where the marker record is stored.
-<TR><th align=left valign=top><a name="Chr">Genetic Location</a></th> 
-<td valign="top">The chromosome the marker is assigned
+<TR><th><a id="Species">Species</a></th> 
+<td>Species name of each homolog in a class. </td></TR>
+<TR><th><a id="Symbol"></a>Symbol</th> 
+<td>Symbol for an homologous marker.</td></TR>
+<TR><th><a id="acc_ID">Gene Links</a></th> 
+<td>Database accession IDs assigned to the marker, linked to the database where the marker record is stored.
+<TR><th><a id="Chr">Genetic Location</a></th> 
+<td>The chromosome the marker is assigned
 to and the cM position or cytogenetic band. Location information varies depending on information available.</td> 
-<tr><th align=left valign=top><a name="coord">Genome Coordinates</a></th> 
-<td valign="top">Genome coordinate range in base pairs, strand and the genome build number. </td>
-<tr><th align=left valign=top><a name="disease">Associated Human Diseases</a></th> 
-<td valign="top">Human disease terms, linked to MGI Human Disease and Mouse Model Detail pages. Diseases that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary. See also the <a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</A>. </td>
-<tr><th align=left valign=top><a name="sequence">Sequences</a></th>
-<td valign="top">Representative transcript and protein sequence ID, linked to the provider's web site. Check boxes permit <A HREF="#fasta">downloading</a> selected sequences in FASTA format or <A HREF="#mouseblast">forwarding</a> them to MouseBLAST. </td>
+<tr><th><a id="coord"><span style="white-space: nowrap">Genome Coordinates</span></a></th> 
+<td>Genome coordinate range in base pairs, strand and the genome build number. </td>
+<tr><th><a id="disease">Associated Human Diseases</a></th> 
+<td>Human disease terms, linked to MGI Human Disease and Mouse Model Detail pages. Diseases that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary. See also the <a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</A>. </td>
+<tr><th><a id="sequence">Sequences</a></th>
+<td>Representative transcript and protein sequence ID, linked to the provider's web site. Check boxes permit <A HREF="#fasta">downloading</a> selected sequences in FASTA format or <A HREF="#mouseblast">forwarding</a> them to MouseBLAST. </td>
 </TR>
 </table>
 
-<p><A HREF="#top"><FONT SIZE="-1">Top</FONT></A></p>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A NAME="align">Can I view a multiple sequence alignment?</a></H3>
+<H3><a id="align">Can I view a multiple sequence alignment?</a></H3>
 <p>Yes. Just above the table is a link to a Multiple Sequence Alignment of protein sequences at HomoloGene. 
 </p>
 
-<H3><A NAME="fasta"></A>How do I download sequences in FASTA format?</H3>
+<H3><a id="fasta"></A>How do I download sequences in FASTA format?</H3>
 <OL>
 <LI>Click to put a check mark next to one or more sequences.</LI>
 <LI>Ensure that <i>get FASTA</i> appears at the top of the Sequences column.</LI>
 <LI>Click <i>Go</i>. The selected sequences appear on a new page, in FASTA format.</LI>
 </OL>
 
-<p><a href="#top"><font size="-1">Top</font></a> </p>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A NAME="mouseblast"></A>How do I forward sequences to MouseBLAST?</H3>
+<H3><a id="mouseblast"></A>How do I forward sequences to MouseBLAST?</H3>
 <P>To forward sequences to MouseBLAST:</P>
 <OL>
 <LI>Click to put a check mark next to one or more sequences.</LI>
@@ -147,13 +151,14 @@ to and the cM position or cytogenetic band. Location information varies dependin
  <li><a href="mouseblast_output_help.shtml" target="_blank">Interpreting the MouseBLAST Output Report</a></li>  
 </ul>
 
-<p><A HREF="#top"><FONT SIZE="-1">Top</FONT></A></p>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A NAME="graph">Are there curated Gene Ontology (GO) annotations for mouse, human, or rat genes in this homology class?</a></H3>
+<H3><a id="graph">Are there curated Gene Ontology (GO) annotations for mouse, human, or rat genes in this homology class?</a></H3>
 <p>If available, there will be a link to a Comparative GO Graph of curated mouse, human and rat annotations of the molecular functions, biological processes and cellular components of the gene products in this homology class. 
 </p>
 
 <!--below is the final top link-->
-<A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
