@@ -38,10 +38,7 @@ Using Wild Cards on MGI Query Forms
 </table>
 <!-- Body of User Help -->
 
-
-
-
-<A name="top"></A> 
+<a id="top"></A> 
 
 <P>This help document answers the following questions:</P>
 <UL> 
@@ -60,7 +57,7 @@ unfamiliar terms (or for how MGI defines fmiliar terms) and acronyms</LI>
 <LI><A href="MISC_boolean_search_help.shtml" target="_blank">Full-text Searching on MGI Query Forms</A></LI>
 </UL>
 
-<H3><A name="whatisa"></A>What is a wild card?</H3>
+<H3><a id="whatisa"></A>What is a wild card?</H3>
 
 <P>A wild card is an alphanumeric character or set of characters that can stand for a wide
 range of other characters. On most of the MGI Query Forms, you can use the * (asterisk) as a wildcard to facilitate text field searches.</P>
@@ -78,28 +75,30 @@ link to Adp because its gene name is <B>acr</B>odysplasia.</P>
 </BLOCKQUOTE>
 
 
-<H3><A name="whatuse"></A>When and where can I use a wild card?</H3>
+<H3><a id="whatuse"></A>When and where can I use a wild card?</H3>
 
 <P>You can use a wild card in any text field on an MGI query form. Use the wild card to enhance your search.</P>
 
- <a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
  
- <H3><A name="howuse"></A>How do I use wild cards on MGI query forms?</H3>
+<H3><a id="howuse"></A>How do I use wild cards on MGI query forms?</H3>
 
 <blockquote>
-<table border cellspacing="1" cellpadding="4"> <tr> <th valign="top">Enter...</th> <th valign="top">To find, for example...</th> </tr>
+<table border cellspacing="1" cellpadding="4"> <tr> <th>Enter...</th> <th>To find, for example...</th> </tr>
 
-<tr> <td valign="top">Abc*</td> <td valign="top">All of the ATP-binding cassette genes</td> </tr>
-<tr> <td valign="top">embry*</td> <td valign="top">Embryo, embryonic, embryonal, embryoes, embryogenesis</td> </tr>
-<tr> <td valign="top">D2Mit*</td> <td valign="top">All of the MIT markers originally mapped to mouse Chromosome 2</td> </tr> </table>
-</blockquote>
-</p>  
-<a href="#top"><font size="-1">Top</font></a>
-<BR> 
+<tr><td>Abc*</td><td>All of the ATP-binding cassette genes</td></tr>
+<tr><td>embry*</td><td>Embryo, embryonic, embryonal, embryoes, embryogenesis</td></tr>
+<tr><td>D2Mit*</td><td>All of the MIT markers originally mapped to mouse Chromosome 2</td></tr>
+<tr><td>Abc[ab]*</td><td>ATP-binding cassette genes, sub-families A and B</td></tr>
+<tr><td>*rik</td><td> All RIKEN cDNA genes</td></tr> 
+</table>
+</blockquote> 
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
  
-<H3><A name="whatcaniuse"></A>Which wild cards can I use on MGI query forms?</H3>
+<H3><a id="whatcaniuse"></A>Which wild cards can I use on MGI query forms?</H3>
 
-<P>For most queries, you can use the * (asterisk) for text field searches. You can place the wild card symbol only after the text in the search field. 
+<P>For most queries, you can use the * (asterisk) for text field searches. You can place the wild card symbol before and/or after the text in the search field. 
 </p>
 <!--<p>The table below lists all the wild cards you can use on the MGI Mouse SNP Query Form. 
 </P>
@@ -115,6 +114,6 @@ space)</td> </tr>
 
 </blockquote>-->
 
-<BR> <BR>  <a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'-->
