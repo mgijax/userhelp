@@ -33,11 +33,12 @@ function openHelpWindow(helpFile){
 
 <!-- Body of User Help -->
 
-<A NAME="top"></A>
+<a id="top"></a>
+
 <P>This help document answers the following general questions about using MGI query forms:
  <UL>
   <li><A HREF="#howdo">How do I submit a query?</a></li>
-  <li><a href=""#options">How do I select more than one item on a list?</a></li>
+  <li><a href="#options">How do I select more than one item on a list?</a></li>
   <li><a href="MISC_boolean_search_help.shtml" target="_blank">When should I use Boolean operators (ANDs, ORs) and/or quotation marks?</a></li>
   <li><A href="#casesen">Does it matter what case I use when I type values in the fields?</a></li>
   <LI><A HREF="#sort">How do the sort options work?</a></li>
@@ -45,15 +46,15 @@ function openHelpWindow(helpFile){
   <li><A href="#operators">What are operators and how do they affect my query?</a></li>
   <LI><A HREF="#speed">Is there a way to speed up a query?</a></li> 
   </ul>
-<br>
-and the following question about specific query forms:</p>
+  
+<p>and the following question about specific query forms:</p>
 
 <ul>
   <LI><A HREF="#range_question">When I enter exact marker or gene symbols in Marker Range boxes, do  the query results include or exclude those markers?</a></LI>
   </ul>
 </p>
 
-<h3><a name="howdo"></a>How do I submit a query?</h3>
+<h3><a id="howdo"></a>How do I submit a query?</h3>
 <p>To query:
 <uL>
   <li>Enter values in any required fields on the query form.</li>
@@ -64,45 +65,48 @@ and the following question about specific query forms:</p>
   <li>Click Reset to clear the fields and return any default values.</li>
 </ul>
 </p>
-<a href="#top"><font size="-1">Top</font></a>
 
- <h3><A name="options"></a>How do I select more than one item on a list?</h3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="options"></a>How do I select more than one item on a list?</h3>
 <p>To pick two or more items from a selection list, do the following:
-     <UL style="padding-left:30px">
+<UL style="padding-left:30px">
   <li>On a PC, hold the control key down and click the desired items, or hold the shift key down and click two items to select them and all items in between.
   <li>On a Macintosh, hold the command (Apple) key down and click the desired items, or hold the shift key down and click two items to select them and all the items in between.
- </ul></p>
-<a href="#top"><font size="-1">Top</font></a>
+</ul>
+</p>
+ 
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-
-
-<h3><A name="casesen"></a>Does it matter what case I use when I type values in the fields?</h3>
+<h3><a id="casesen"></a>Does it matter what case I use when I type values in the fields?</h3>
 <p>No. MGI database searching is not case sensitive.  You can use all uppercase letters or all lowercase letters or a combination of the two when you type in a value. </p>
-<a href="#top"><font size="-1">Top</font></a>
 
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
- <h3><a name="sort"></a>How do the sort options work?</h3>
- <P>Sort options let you determine the order in which the summarized results appear.  
+<h3><a id="sort"></a>How do the sort options work?</h3>
+<P>Sort options let you determine the order in which the summarized results appear.  
 <ul>
   <li>In general, results are sorted alphanumerically: the order is, for example (depending on the query form), by marker symbol or assay type or the last name of first author. </li>
   <li>If the sort is on anatomical structure, results follow the hierarchy of the Mouse Developmental Anatomy Ontology for each stage, with structures and substructures grouped together.</li>
   <li>If the sort is on age, results are sorted chronologically.</li>
-</ul>  </p>
-<a href="#top"><font size="-1">Top</font></a>
+</ul>  
+</p>
 
- <h3><A name="maxno"></a>Is there a maximum number of results I can get back all at once?</h3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="maxno"></a>Is there a maximum number of results I can get back all at once?</h3>
 <P>No.  Click <i>no limit</i> next to <i>Maximum returned</i> if you want to see every match that your query finds. The intent of the default value (usually 500) is not to speed the search by limiting the scope but rather to restrict the initial results. 
 </p>
-<a href="#top"><font size="-1">Top</font></a>
 
-<h3><A name="operators"></a>What are operators and how do they affect my query?</h3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="operators"></a>What are operators and how do they affect my query?</h3>
 <P>Operators are found only on the MGI Mouse SNP Query Form and expand or narrow the effect of a search. Usually, they appear on a selection list beside a field. Click the down arrow to see all the available options.(See <a href="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</a> for additional details.)
 </p>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-
-<h3><A name="speed"></a>Is there a way to speed up a query?</h3>
+<h3><a id="speed"></a>Is there a way to speed up a query?</h3>
 <p>Yes. Reduce the number in the <i>Maximum Returned</i> field. However, if the amount of time to return your query is prohibitive, consider narrowing your search rather than limiting the number of results returned.
 <ul>
   <li>In general, choose a return limit that is as large as the data set you expect. </li>
@@ -111,7 +115,7 @@ and the following question about specific query forms:</p>
 </ul>
 </p>
 
-<h3><A name="range_question"></a>When I enter exact marker or gene symbols in Marker Range boxes, do the query results include or exclude those markers?</h3>
+<h3><a id="range_question"></a>When I enter exact marker or gene symbols in Marker Range boxes, do the query results include or exclude those markers?</h3>
 
 <p>The query is inclusive of the markers you enter. 
 <ul>
@@ -120,6 +124,7 @@ and the following question about specific query forms:</p>
   <li>Markers are returned if they have at least one base pair (bp) overlapping the range you specify.</li>
 </ul>
 </p>
-<a href="#top"><font size="-1">Top</font></a>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'-->
