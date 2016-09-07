@@ -38,7 +38,8 @@ General Guidelines for MGI Query Form Searches
 </table>
 <!-- Body of User Help -->
 
-<A NAME="top"></A>
+<a id="top"></a>
+
 <P>This help document answers the following questions:</P> 
 <UL>
  <LI><A HREF="#help">Where can I find help using MGI query forms?</A></li>
@@ -51,20 +52,20 @@ General Guidelines for MGI Query Form Searches
  <LI><A HREF="#change_font">Can I change font sizes to make query forms and Help documents easier to read?</a></LI>
  </UL>
 
- <p><A NAME="see_also"></A>See also:</p>
+ <p><a id="see_also"></A>See also:</p>
 <ul>
    <li><a href="MISC_boolean_search_help.shtml" target="_blank">Full-Text Searching on MGI Query Forms</a></li>
   <li><a href="MISC_wildcard_help.shtml" target="_blank">Using Wild Cards on MGI Query Forms</a></li>
 </ul>
 <p></p>
 
-<h3><a name="help"></a>Where can I find help using MGI query forms?</h3>
+<h3><a id="help"></a>Where can I find help using MGI query forms?</h3>
 <P>MGI is accessible on the Internet via the World Wide Web (WWW) and relies on online forms to present
 query options in an easy-to-use format. Help documentation is available on-line (click <u>Help</u> under the MGI logo). Our Mouse Genome Informatics home page is located at
 <A HREF="http://www.informatics.jax.org" target="_blank">http://www.informatics.jax.org</A>. 
  You can <A HREF="<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml" target="_blank">contact User Support</A> by e-mail or by  phone at (207) 288-6445.</P>
 
- <H3><A NAME="method"></A>Is there a general method of querying the MGI databases?</H3>
+<H3><a id="method"></A>Is there a general method of querying the MGI databases?</H3>
 <P>A general procedure to build a query includes the following steps (<b>select form, enter value(s), choose output, restrict/expand scope, execute).</b>
 <uL>
 <LI>Select the query form to use depending on the type of information you want to search for. The following forms are available:
@@ -84,12 +85,12 @@ query options in an easy-to-use format. Help documentation is available on-line 
 <LI><A HREF="<!--#include file='include/fewi_url.html'-->snp" target="_blank">Mouse dbSNP Query Form</A> (Single Nucleotide Polymorphisms) </LI>
 <LI><A HREF="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A></LI>
  <LI><a href="<!--#include file='include/fewi_url.html'-->reference" target="_blank">References Query Form</A> </LI>
- </UL><br>
-See also
-<A HREF="<!--#include file='include/wi_url.html'-->menus/allsearch.shtml" target="_blank">All Search Tools</A> for a list of query forms arranged by function.</li><br>
+ </UL>
+<p>See also:
+<A HREF="<!--#include file='include/wi_url.html'-->menus/allsearch.shtml" target="_blank">All Search Tools</A> for a list of query forms arranged by function.</p>
 
 <LI>Enter (or select) values in one or more query form
-fields to use as search criteria. Use more descriptive fields</A> (for example,  <I>Author</I> or <I>Title</I> in the References Query Form) as primary search criteria.  Use the general fields (for example, <I>Year</I> and <I>Journal</I> in the References Query Form) to further limit the scope of your search. Note that the search finds
+fields to use as search criteria. Use more descriptive fields (for example,  <I>Author</I> or <I>Title</I> in the References Query Form) as primary search criteria.  Use the general fields (for example, <I>Year</I> and <I>Journal</I> in the References Query Form) to further limit the scope of your search. Note that the search finds
 records that match <B>all</B> the criteria you enter as, for example,when you make the following choices on the Genes and Markers Query Form:
 <BLOCKQUOTE>
 <B>Symbol/Name</B> &nbsp;&nbsp; <I>hox*</I> <BR>
@@ -102,13 +103,14 @@ records that match <B>all</B> the criteria you enter as, for example,when you ma
 <li>If your search was too broad or narrow, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. You can then expand or narrow your search, either by entering more parameters, or by being more specific in the ones you do enter. </li>
 </uL>
 <P> The query results are usually a list of records in an abbreviated format. The display contains links to related information in the MGI database.
- </P>
-<A HREF="#top">Top</A>
+</P>
 
- <H3><A NAME="search"></A>What is a good search strategy?</H3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><a id="search"></A>What is a good search strategy?</H3>
 <P>A good search strategy ensures that your search executes quickly and retrieves the information you want.  Here are some general guidelines:
 <P>
-<UL><A NAME="operators"></A>
+<UL><a id="operators"></A>
 <LI>Enter values in the search fields that specify the kind of information you are looking for.  For example, on the Genes and Markers Query Form, if you are interested in data about the Histone gene complex on Chromosome 13, you might fill in the field and make a selection as follows:
 <BLOCKQUOTE>
 <B>Symbol/Name</B>&nbsp;&nbsp;  <I>hist*</I><BR>
@@ -127,7 +129,6 @@ records that match <B>all</B> the criteria you enter as, for example,when you ma
 <B>Year </B> &nbsp; &nbsp;<I>2010-</I>
 </BLOCKQUOTE>
 to further focus your search.
-</BLOCKQUOTE>
  <BR>
 <p>Many query results now allow you to modify your search and requery. Use the <i>Click to modify search</i> button to view your previous search parameters and make refinements.
 </p>
@@ -135,39 +136,36 @@ to further focus your search.
 </p>
 </UL>
 </P>
-<A HREF="#top">Top</A>
-<!-- <h3><A name="browser"></a>Does it matter which browser I use with the query forms?</h3>
-<p>The operations required to fill out a  query form depend, in part, on the browser you use.  Refer to your browser documentation for
-detailed information on the mechanics of working with forms.-->
 
- <H3><A NAME="fulltext"></A>Can I do a full-text search on any of the forms?</H3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><a id="fulltext"></A>Can I do a full-text search on any of the forms?</H3>
 <P>Yes. <!-- MGI uses the Glimpse application for full-text searching.  <em>See</em>
 <A HREF="boolean_search_tips.shtml">Full-text Searching Help</A>.--> The following query forms have fields that provide full-text search options:
 <UL>
 	<LI><EM>Genes and Markers, Phenotypes and Alleles</EM><BR> Use the Phenotype/Disease  box to find potential mouse models for human diseases and phenotypic allele data in the MGI databases associated with any of the fields on the Genes and Markers Query Form.</LI><BR>
 	<LI><EM>References</EM><BR> Use the  Abstract  field to search for abstracts in MGI bibliographic records.</LI><BR>
-	<LI><EM>Gene Expression Literature</EM><BR> The  Abstract  field is for full-text searching of abstracts in MGI bibliographic records. It functions the same way as the Abstract field on the References Query Form.</LI><BR>
+	<LI><EM>Gene Expression Literature</EM><BR> The  Abstract field is for full-text searching of abstracts in MGI bibliographic records. It functions the same way as the Abstract field on the References Query Form.</LI><BR>
 </UL>
 </P>
-<A HREF="#top">Top</A>
 
-<H3><A NAME="parts"></A>What are the parts of a query form?</H3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><a id="parts"></A>What are the parts of a query form?</H3>
 <P> A query form consists of a logical arrangement of data entry fields, selection lists, and various options and operators used to modify the search criteria or to format query results.  Field names are linked to user documentation describing the fields; click any field name to go to the relevant part of the documentation. <P> The subsections below describe form elements.
 <UL>
  <LI><A HREF="#selection">Selection lists</A>
  <LI><A HREF="#def">Data entry fields</A>
    <UL>
     <LI><A HREF="#numeric">Numeric fields</A>
-    <LI><A HREF="#oper">Comparison operators</A>
-    <LI><A HREF="#text">Text fields with comparison operators</A>
     <LI><A HREF="#wildcard">Wild card and text</A>
-    <LI><A HREF="#wildlit">Wild card as literal</A>
    </UL>
 </UL>
 </P>
-<A HREF="#top">Top</A>
 
-<H3><A NAME="selection"></A>Selection lists</H3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><a id="selection"></A>Selection lists</H3>
 <P> A selection list consists of a pre-defined list of values from which you may select one or more items. An example is the list of Chromosomes on some query forms.  To limit your search to specific chromosomes, you make your selections from the list.  How you make the selection depends upon the browser you use.
 
 <P>Some selection lists allow you to specify more than one value.  For example, you may wish to search for multiple chromosomes. In this
@@ -178,86 +176,37 @@ case, you would select several options from the selection list. Again, the exact
  </UL></P>
 
 
-<H3><A NAME="def"></A>Data entry fields</H3>
+<H3><a id="def"></A>Data entry fields</H3>
 <P>A data entry field requires you to type a value in the field. There are two types of data entry fields, numeric and text.</P>
 
 
-<H3><A NAME="numeric"></A>Numeric fields</H3>
+<H3><a id="numeric"></A>Numeric fields</H3>
 <P>Numeric fields require that you enter a number, possibly in a specified format. For example, the Year field in the Reference query form requires the year to be entered in the format:  20xx . </P>
 
-
-<H3><A NAME="oper"></A>Comparison operators</H3>
-<P>Comparison operators are found only on the Mouse SNP Query Form and provide a means to focus your search on a range or subset of records in the database. The following table describes the set of comparison operators used with numeric fields:
-
-<TABLE BORDER CELLPADDING="4">
-<TR> <TH>Operator <TH>Description</TR>
-<TR> <TD>= </TD> <TD>is equal to (the DEFAULT value in all cases)</TR>
-<TR> <TD>&gt; <TD>is greater than </TR>
-<TR> <TD>&lt; <TD>is less than</TR>
-<TR> <TD>&gt;=  <TD>is greater than or equal to</TR>
-<TR> <TD>&lt;= <TD>is less than or equal to </TR>
-<TR> <TD>&lt;&gt; <TD> is not equal to</TR>
-<TR> <TD>is null <TD>has no value (NOT equivalent to a value of "0") </TR>
-</TABLE></P>
-
-
-<H3><A NAME="text"></A>Text fields with comparison operators</H3>
-<P>Text fields on the Mouse SNP Query Form accept alphanumeric characters.  The table below lists the set of comparison operators for text fields:
-<P>
-<TABLE BORDER CELLPADDING="4">
-<TR> <TH>Operator </TH> <TH>Description</TH></TR>
-<TR> <TD>= </TD> <TD>equals<I> xxx</I> </TD></TR>
-<TR> <TD>BEGINS </TD> <TD>begins with <I>xxx</I></TD></TR>
-<TR> <TD>ends</TD> <TD>ends with xxx </TD></TR>
-<TR> <TD>contains </TD> <TD>contains the sequence <I>xxx</I> anywhere </TD></TR>
-<TR> <TD>like<BR></TD> <TD>partial match (MUST use 1 or more
-wild cards)
-<BR></TD></TR> </TABLE>
-<P> Select NOT to exclude a value or set of values.  </P>
-
-
-<H3><A NAME="wildandlike"></A>Wild card with LIKE operator</H3>
-<P>Use wild cards only with the LIKE operator; do not use wild cards with BEGINS, ENDS, CONTAINS, or =. <BR>
- Below is a list of wild cards to use with LIKE:
-
-<TABLE BORDER CELLPADDING="4">
-<TR> <TH>Operator</TH><TH>Description </TH></TR>
-<TR> <TD>% </TD> <TD>May be any string of 0 or more characters </TD></TR>
-<TR> <TD>_(underscore) </TD> <TD>May be any single character</TD></TR>
-<TR> <TD>[a..n] <BR></TD> <TD>May be any character in the range of a to n </TD></TR>
-<TR> <TD>[abc] <BR></TD> <TD>May be any one of a, b, or c </TD></TR>
-</TABLE>
-</P>
-
-
-<H3><A NAME="wildcard"></A>Wild card and text</H3>
-<P>You can put a wild card symbol after or within the text you enter in the search field.<BR>
-  The following are examples of using wild cards to search for information on a marker by its symbol.
+<H3><a id="wildcard"></A>Wild card and text</H3>
+<P>MGI supports the asterisk a wild card symbol before or after the text you enter in the search field.<BR>
+  The following are examples of using the wild card to search for information on a marker by its symbol.
 <P> <TABLE BORDER CELLPADDING="4">
 <TR> <TH>Enter</TH> <TH>To Find</TH></TR>
-<TR> <TD>Abc% </TD> <TD> all of the ATP-binding cassette genes </TD></TR>
-<TR> <TD>Abc[ab]%</TD> <TD> ATP-binding cassette genes, sub-families A and B </TD></TR>
-<TR> <TD>Abc_1</TD> <TD> Abca1, Abcb1, Abcc1, Abcd1, Abce1, Abcf1, Abcg1 </TD></TR>
-<TR> <TD>Lag%1 </TD> <TD> Lag-rs1</TD></TR>
-<TR> <TD>D%Mit%</TD> <TD> all of the MIT markers</TD></TR>
+<TR> <TD>Abc* </TD> <TD> all of the ATP-binding cassette genes </TD></TR>
+<TR> <TD>Abc[ab]*</TD> <TD> ATP-binding cassette genes, sub-families A and B </TD></TR>
+<tr> <td>*rik</td> <td> all RIKEN cDNA genes</td></tr>
 </TABLE>
 </P>
 
-<H3><A NAME="wildlit"></A>Wild card as literal</H3>
-<P> If the string you are searching for contains a wild card character (%, _,[a,b,c]), you can still use the LIKE operator and treat the embedded wild card character as a <I>literal</I>, i.e., as ordinary text. To do so, enclose the embedded wild card character in square brackets [ ].  For example, suppose you want to search for strings containing the [ character. You could use LIKE and enter the search string %[[]%. (Translation: any string of characters, followed by a [, followed by any string of characters. Of course, for this example, you could also use the CONTAINS operator, with the search string [[].)</P>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<a href="#top"><font size="-1">Top</font></a>
-
-<H3><A NAME="sort"></A>Can I view the results of a query in different ways?</H3>
+<H3><a id="sort"></A>Can I view the results of a query in different ways?</H3>
 <P>The query forms offer several options for ordering query returns. For example, on the  Genes and Markers  Query Form you can specify that the returned list of markers be sorted by cM position or by Nomenclature. Choose the sort order by selecting the appropriate option from the list. For more details, refer to the documentation for specific forms. At the present time, multilevel sorting is not an option.</P>
 
- <a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A NAME="print"></A>Can I print or save the results of my query?</H3>
+<H3><a id="print"></A>Can I print or save the results of my query?</H3>
 <P>Options for printing and saving files vary with computer platform and browser. Refer to your browser and system documentation for information on how to print results or save them to a file.</P>
- <a href="#top"><font size="-1">Top</font></a>
 
-<h3><A name="change_font"></a>Can I change font sizes to make query forms and Help documents easier to read?</h3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="change_font"></a>Can I change font sizes to make query forms and Help documents easier to read?</h3>
 <P>Yes. The setting for the font size on MGI web pages is specified in a style sheet. If you use Internet Explorer (IE), you can override this by doing the following:
 <oL>
   <LI>Click  Tools  (on the IE Toolbar). A menu appears.</LI>
@@ -274,6 +223,7 @@ wild cards)
   <LI>Click one of the sizes (Largest, Large, Medium, Smaller, Smallest). The text on your page resizes.</LI>
 </oL>
 </p>
- <a href="#top"><font size="-1">Top</font></a>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'-->
