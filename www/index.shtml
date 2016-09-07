@@ -35,12 +35,14 @@ User Help Site Map
       <!--#include file='help_toolbar.shtml'-->
     </tr>
 </table>
-<a name="top"></A>
+
+<a id="top"></a>
+
 <!-- Body of User Help -->
 
-  <dl class="linkedList">
-  <a name="help_marker"></a> 
-<DT class="enhance">Genes & Genome Features<!--, & Maps--></dt>
+<dl class="linkedList">
+<a id="help_marker"></a> 
+<dt class="enhance">Genes & Genome Features</dt>
   <blockquote>
   	<dt><b>Genes & Markers</b></dt>
 	<dd><a href="GENE_help.shtml" onclick="javascript:openHelpWindow('GENE_help.shtml'); return false;">Using the Genes and Markers Query Form</a></dd>
@@ -50,105 +52,95 @@ User Help Site Map
 	<dd><a href="mapping_experimental_data_help.shtml" onclick="javascript:openHelpWindow('mapping_experimental_data_help.shtml'); return false;">Interpreting Experimental Mapping Data Records</a></dd>
 	<dd><a href="INTERACTION_explorer_help.shtml" onclick="javascript:openHelpWindow('INTERACTION_explorer_help.shtml'); return false;">Interpreting Interaction Explorer Results</a></dd>
   	  	
-  	  
-  	 <dt><b>Sequences</b></dt>
+  	  <dt><b>Sequences</b></dt>
 		        
   	  <dd><a href="SEQUENCE_summary_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_summary_help.shtml'); return false;"> Interpreting a Sequence Summary</a></dd>  	          
   	  <dd><a href="SEQUENCE_detail_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_detail_help.shtml'); return false;">Interpreting Sequence Details</a></dd>
   	  <dd><a href="SEQUENCE_valid_providers_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_valid_providers_help.shtml'); return false;">Valid Sequence Provider and Type Combinations</a></dd>
 
-
-  	 <!--<dt><b>Maps</b></dt>   
+	<!--<dt><b>Maps</b></dt>   
   	<dd><a href="maps_and_mapping_data_help.shtml" onclick="javascript:openHelpWindow('maps_and_mapping_data_help.shtml'); return false;">Retrieving Maps & Mapping Data</a></dd>
-<dd><a href="linkmap_help.shtml" onclick="javascript:openHelpWindow('linkmap_help
-
-
-.shtml'); return false;">Using the Linkage Maps Query Form</a></dd>-->
+<dd><a href="linkmap_help.shtml" onclick="javascript:openHelpWindow('linkmap_help.shtml'); return false;">Using the Linkage Maps Query Form</a></dd>-->
   	</blockquote>
 
-  	
-  <!-- Phenotypes -->
-  <a name="help_pad"></a>
-  <dt class="enhance">Phenotypes, Alleles, & and Disease Models</dt>   
+<!-- Phenotypes -->
+<a id="help_pad"></a>
+<dt class="enhance">Phenotypes, Alleles, & and Disease Models</dt>   
 	<blockquote>
 	<dt><b>Phenotypes & Alleles</b></dt>     
-	     <dd><a href="ALLELE_help.shtml" onclick="javascript:openHelpWindow('ALLELE_help.shtml'); return false;">Using the Phenotypes, Alleles, and Disease Models Query Form</a></dd>
+	<dd><a href="ALLELE_help.shtml" onclick="javascript:openHelpWindow('ALLELE_help.shtml'); return false;">Using the Phenotypes, Alleles, and Disease Models Query Form</a></dd>
 	     <!--<dd><a href="disease_connection_help.shtml" onclick="javascript:openHelpWindow('disease_connection_help.shtml'); return false;">Using the Human&mdash;Mouse: Disease Connection</a></dd>-->
-		 <dd><a href="ALLELE_phenotypic_categories_help.shtml" onclick="javascript:openHelpWindow('ALLELE_phenotypic_categories_help.shtml'); return false;">  Selecting Phenotypic Allele Categories</a></dd>
-		<dd><a href="ALLELE_summary_help.shtml" onclick="javascript:openHelpWindow('ALLELE_summary_help.shtml'); return false;">Interpreting a Phenotypic Allele Summary</a></dd>
-	         <DD><a href="ALLELE_detail_help.shtml" onclick="javascript:openHelpWindow('ALLELE_detail_help.shtml'); return false;">Interpreting Phenotypic Allele Details</a></dd>			  
-	         <DD><a href="ALLELE_detail_pheno_summary_help.shtml" onclick="javascript:openHelpWindow('ALLELE_detail_pheno_summary_help.shtml'); return false;">Interpreting the Phenotype Summary in Allele Details</a></dd>
- 		<dd><a href="ALLELE_pheno_all_images_help.shtml" onclick="javascript:openHelpWindow('ALLELE_pheno_all_images_help.shtml'); return false;">Interpreting All Images for an Allele</a></dd>
-	         <dd><a href="ALLELE_pheno_image_detail_help.shtml" onclick="javascript:openHelpWindow('ALLELE_pheno_image_detail_help.shtml'); return false;">Interpreting (Phenotypic) Image Details</a></dd>
-		<dd><a href="ALLELE_pheno_image_summary_help.shtml" onclick="javascript:openHelpWindow('ALLELE_pheno_image_summary_help.shtml'); return false;">Interpreting All Phenotype Images for a Gene</a></dd>
-	         <DD><a href="ALLELE_phenotype_highlevel_help.shtml" onclick="javascript:openHelpWindow('ALLELE_phenotype_highlevel_help.shtml'); return false;">Using the Phenotypes Selection List</a></dd>	
+	<dd><a href="ALLELE_phenotypic_categories_help.shtml" onclick="javascript:openHelpWindow('ALLELE_phenotypic_categories_help.shtml'); return false;">  Selecting Phenotypic Allele Categories</a></dd>
+	<dd><a href="ALLELE_summary_help.shtml" onclick="javascript:openHelpWindow('ALLELE_summary_help.shtml'); return false;">Interpreting a Phenotypic Allele Summary</a></dd>
+	<DD><a href="ALLELE_detail_help.shtml" onclick="javascript:openHelpWindow('ALLELE_detail_help.shtml'); return false;">Interpreting Phenotypic Allele Details</a></dd>			  
+	<DD><a href="ALLELE_detail_pheno_summary_help.shtml" onclick="javascript:openHelpWindow('ALLELE_detail_pheno_summary_help.shtml'); return false;">Interpreting the Phenotype Summary in Allele Details</a></dd>
+ 	<dd><a href="ALLELE_pheno_all_images_help.shtml" onclick="javascript:openHelpWindow('ALLELE_pheno_all_images_help.shtml'); return false;">Interpreting All Images for an Allele</a></dd>
+	<dd><a href="ALLELE_pheno_image_detail_help.shtml" onclick="javascript:openHelpWindow('ALLELE_pheno_image_detail_help.shtml'); return false;">Interpreting (Phenotypic) Image Details</a></dd>
+	<dd><a href="ALLELE_pheno_image_summary_help.shtml" onclick="javascript:openHelpWindow('ALLELE_pheno_image_summary_help.shtml'); return false;">Interpreting All Phenotype Images for a Gene</a></dd>
+	<DD><a href="ALLELE_phenotype_highlevel_help.shtml" onclick="javascript:openHelpWindow('ALLELE_phenotype_highlevel_help.shtml'); return false;">Using the Phenotypes Selection List</a></dd>	
 	<dt><b>Diseases</b></dt> 
-		 <dd><a href="VOCAB_omim_browser_detail_help.shtml" onclick="javascript:openHelpWindow('VOCAB_omim_browser_detail_help.shtml'); return false;">Interpreting Human Disease and Mouse Model Details</a></dd>		
-		 <dd><a href="disease_connection_help.shtml" onclick="javascript:openHelpWindow('disease_connection_help.shtml'); return false;">Using the Human - Mouse: Disease Connection</a></dd>
-		 <dd><a href="HMDC_examples.shtml" onclick="javascript:openHelpWindow('HMDC_examples.shtml'); return false;">Human - Mouse: Disease Connection (HMDC) Search Examples</a></dd>	
-	
+	<dd><a href="VOCAB_omim_browser_detail_help.shtml" onclick="javascript:openHelpWindow('VOCAB_omim_browser_detail_help.shtml'); return false;">Interpreting Human Disease and Mouse Model Details</a></dd>		
+	<dd><a href="disease_connection_help.shtml" onclick="javascript:openHelpWindow('disease_connection_help.shtml'); return false;">Using the Human - Mouse: Disease Connection</a></dd>
+	<dd><a href="HMDC_examples.shtml" onclick="javascript:openHelpWindow('HMDC_examples.shtml'); return false;">Human - Mouse: Disease Connection (HMDC) Search Examples</a></dd>	
 	</blockquote>
 	
-  <!-- Expression -->
-  <a name="help_gxd"></a>
-     <dt class="enhance">Gene Expression</dt>
+<!-- Expression -->
+<a id="help_gxd"></a>
+<dt class="enhance">Gene Expression</dt>
          
-  	<blockquote>
-<dd><a href="EXPRESSION_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_help.shtml'); return false;">
+<blockquote>
+	<dd><a href="EXPRESSION_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_help.shtml'); return false;">
               Using the Gene Expression Data Query Form</a></dd>
-<dd><a href="EXPRESSION_expanded_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_expanded_help.shtml'); return false;">
+	<dd><a href="EXPRESSION_expanded_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_expanded_help.shtml'); return false;">
               Using the Differential Expression Search</a></dd>
-<dd><a href="EXPRESSION_batch_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_batch_help.shtml'); return false;">
+	<dd><a href="EXPRESSION_batch_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_batch_help.shtml'); return false;">
               Using the Gene Expression Batch Search</a></dd>
-<dd><a href="EXPRESSION_literature_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_literature_help.shtml'); return false;">Using the Gene Expression Literature Query Form</a></dd>
-<dd><a href="EXPRESSION_query_results_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_query_results_help.shtml'); return false;">Interpreting Gene Expression Data and Image Details</a> </dd>
-<!--<dd><a href="EXPRESSION_image_summary_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_image_summary_help.shtml'); return false;">Interpreting the Gene Expression Data Images Query by Gene Summary</a></dd>-->
-<dd><a href="EXPRESSION_tissue_results_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_tissue_results_help.shtml'); return false;">Interpreting the Gene Expression Data: Results by Tissue Summary</a></dd>
-<dd><a href="VOCAB_mad_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_mad_browser_help.shtml'); return false;">Using the Mouse Developmental Anatomy Browser</a></dd>
+	<dd><a href="EXPRESSION_literature_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_literature_help.shtml'); return false;">Using the Gene Expression Literature Query Form</a></dd>
+	<dd><a href="EXPRESSION_query_results_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_query_results_help.shtml'); return false;">Interpreting Gene Expression Data and Image Details</a> </dd>
+	<!--<dd><a href="EXPRESSION_image_summary_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_image_summary_help.shtml'); return false;">Interpreting the Gene Expression Data Images Query by Gene Summary</a></dd>-->
+	<dd><a href="EXPRESSION_tissue_results_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_tissue_results_help.shtml'); return false;">Interpreting the Gene Expression Data: Results by Tissue Summary</a></dd>
+	<dd><a href="VOCAB_mad_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_mad_browser_help.shtml'); return false;">Using the Mouse Developmental Anatomy Browser</a></dd>
 <dd><a href="VOCAB_amad_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_amad_browser_help.shtml'); return false;">Using the Adult Mouse Anatomical Dictionary Browser</a></dd>
 
-  
 	<dt><b>Molecular Reagents</b></dt>
-		<dd><a href="EXPRESSION_probe_summary_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_probe_summary_help.shtml'); return false;">Interpreting a Probe and Clone Data Summary</a></dd>
-		<dd><a href="EXPRESSION_probe_detail_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_probe_detail_help.shtml'); return false;">Interpreting Probe and Clone Data Details</a></dd>
-		<dd><a href="EXPRESSION_affy_probe_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_affy_probe_help.shtml'); return false;">Interpreting a Microarray Probeset Summary</a></dd>
-		<dd><a href="EXPRESSION_antibody_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_antibody_help.shtml'); return false;">Interpreting Antibody Details</a></dd>
+	
+	<dd><a href="EXPRESSION_probe_summary_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_probe_summary_help.shtml'); return false;">Interpreting a Probe and Clone Data Summary</a></dd>
+	<dd><a href="EXPRESSION_probe_detail_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_probe_detail_help.shtml'); return false;">Interpreting Probe and Clone Data Details</a></dd>
+	<dd><a href="EXPRESSION_affy_probe_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_affy_probe_help.shtml'); return false;">Interpreting a Microarray Probeset Summary</a></dd>
+	<dd><a href="EXPRESSION_antibody_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_antibody_help.shtml'); return false;">Interpreting Antibody Details</a></dd>
 </blockquote>
  
-  <!-- cre -->
-  <a name="help_cre"></a>
-      <dt class="enhance">Recombinases</dt>
-            <blockquote>
-       <dd>
-         	     <a href="RECOMBINASE_summary_help.shtml" onclick="javascript:openHelpWindow('RECOMBINASE_summary_help.shtml'); return false;">Interpreting a Recombinase Alleles Tissue Specificity Summary</a></dd>  
-<dd><a href="RECOMBINASE_detail_help.shtml" onclick="javascript:openHelpWindow('RECOMBINASE_detail_help.shtml'); return false;">Interpreting Recombinase Specificity Details</a></dd>           
-       </blockquote>
+<!-- cre -->
+<a id="help_cre"></a>
+<dt class="enhance">Recombinases</dt>
+<blockquote>
+    <dd><a href="RECOMBINASE_summary_help.shtml" onclick="javascript:openHelpWindow('RECOMBINASE_summary_help.shtml'); return false;">Interpreting a Recombinase Alleles Tissue Specificity Summary</a></dd>  
+	<dd><a href="RECOMBINASE_detail_help.shtml" onclick="javascript:openHelpWindow('RECOMBINASE_detail_help.shtml'); return false;">Interpreting Recombinase Specificity Details</a></dd>           
+</blockquote>
        
+<a id="help_go"></a>
+<dt class="enhance">GO Functional Annotations</dt>
 
-<a name="help_go"></a>
-        <dt class="enhance">GO Functional Annotations</dt>
-     	<blockquote>
-          <dd> <a href="GO_classification_fields_help.shtml" onclick="javascript:openHelpWindow('GO_classification_fields_help.shtml'); return false;">Using Gene Ontology Classification Fields on MGI Query Forms</a></dd>
-                   
-                  <dd><a href="GO_classification_report_help.shtml" onclick="javascript:openHelpWindow('GO_classification_report_help.shtml'); return false;">Interpreting the Gene Ontology Classifications Report</a></dd>
-                  
-          </blockquote> 
-     
- <!-- orthology -->
-   <a name="help_mammortho"></a>
-        <dt class="enhance">Vertebrate Homology</dt>
-   <blockquote>
-          
-     <dd> <a href="HOMOLOGY_class_help.shtml"
+<blockquote>
+    <dd> <a href="GO_classification_fields_help.shtml" onclick="javascript:openHelpWindow('GO_classification_fields_help.shtml'); return false;">Using Gene Ontology Classification Fields on MGI Query Forms</a></dd>
+    <dd><a href="GO_classification_report_help.shtml" onclick="javascript:openHelpWindow('GO_classification_report_help.shtml'); return false;">Interpreting the Gene Ontology Classifications Report</a></dd>
+</blockquote> 
+
+<!-- orthology -->
+<a id="help_mammortho"></a>
+<dt class="enhance">Vertebrate Homology</dt>
+   
+<blockquote>
+<dd> <a href="HOMOLOGY_class_help.shtml"
      onclick="javascript:openHelpWindow('HOMOLOGY_class_help.shtml'); return false;">Interpreting Vertebrate Homology Class Reports</a></dd>
-    </blockquote>
+</blockquote>
  
  
-  <!-- pathways -->
-<a name="help_strain"></a>
+<!-- polymorphism -->
+<a id="help_strain"></a>
 
-      <dt class="enhance">Strains, SNPs &amp; Polymorphisms</dt>
-     <blockquote>
+<dt class="enhance">Strains, SNPs &amp; Polymorphisms</dt>
+<blockquote>
 	<!--<dt><b>Strains & Polymorphisms</b></dt>
 	 <dd><a href="STRAINS_polymorphism_help.shtml" onclick="javascript:openHelpWindow('STRAINS_polymorphism_help.shtml'); return false;">Using the RFLP/PCR Polymorphism Query Form</a></dd>-->
 	
@@ -161,30 +153,25 @@ User Help Site Map
         <!--<dd><a href="SNP_load_help.shtml" onclick="javascript:openHelpWindow('SNP_load_help.shtml'); return false;">Interpreting the SNP Data in MGI</a></dd>-->
         <dd><a href="SNP_terms_help.shtml" onclick="javascript:openHelpWindow('SNP_terms_help.shtml'); return false;">SNP Terms and Concepts</a></dd>
         <dd><a href="SNP_no_results_help.shtml" onclick="javascript:openHelpWindow('SNP_no_results_help.shtml'); return false;">My SNP query returned no results. Why?</a></dd>          
-     </blockquote>   
+</blockquote>   
       
-  <a name="help_other_searches"></a>
-          <dt class="enhance">Other Searches</dt>
+<a id="help_other_searches"></a>
+<dt class="enhance">Other Searches</dt>
 
-          <blockquote>
-<dt><b>Quick Search</b></dt>
+<blockquote>
+	<dt><b>Quick Search</b></dt>
 	<dd><a href="QUICK_SEARCH_help.shtml" onclick="javascript:openHelpWindow('QUICK_SEARCH_help.shtml'); return false;">Using the Quick Search Tool</a></dd>
 	<dd><a href="QUICK_SEARCH_examples_help.shtml" onclick="javascript:openHelpWindow('QUICK_SEARCH_examples_help.shtml'); return false;">Quick Search Examples and Questions</a></dd>
 
-<dt><b>References</b></dt>
-<dd><a href="reference_help.shtml" onclick="javascript:openHelpWindow('reference_help.shtml'); return false;">Using the Reference Query Form</a></dd>
+	<dt><b>References</b></dt>
+	<dd><a href="reference_help.shtml" onclick="javascript:openHelpWindow('reference_help.shtml'); return false;">Using the Reference Query Form</a></dd>
 
-  <dt><b>Batch Querying / Interpreting Results</b></dt>
-         <dd><a href="BATCH_help.shtml" onclick="javascript:openHelpWindow('BATCH_help.shtml'); return false;">Using the MGI Batch Query</a></dd>
+	<dt><b>Batch Querying / Interpreting Results</b></dt>
+	<dd><a href="BATCH_help.shtml" onclick="javascript:openHelpWindow('BATCH_help.shtml'); return false;">Using the MGI Batch Query</a></dd>
  
-    	<dt><b>Using & Interpreting Accession IDs </b>
-            <dd>
-              <a href="ACCESSION_ID_help.shtml" onclick="javascript:openHelpWindow('ACCESSION_ID_help.shtml'); return false;">
-               Querying by Accession ID - Results and Examples
-              </a>
-            </dd>
-    
-    
+	<dt><b>Using & Interpreting Accession IDs </b>
+	<dd><a href="ACCESSION_ID_help.shtml" onclick="javascript:openHelpWindow('ACCESSION_ID_help.shtml'); return false;">Querying by Accession ID - Results and Examples</a></dd>
+       
 	<!--<dt><b>MouseBLAST Help</b></dt>	       
  	<dd><a href="mouseblast_overview_help.shtml" onclick="javascript:openHelpWindow('mouseblast_overview_help.shtml'); return false;">Using MouseBLAST - Overview</a></dd>
 	<dd><a href="mouseblast_basic_steps_help.shtml" onclick="javascript:openHelpWindow('mouseblast_basic_steps_help.shtml'); return false;">Using MouseBLAST - Basic Steps</a></dd>
@@ -197,56 +184,30 @@ User Help Site Map
 	<dd><a href="mouseblast_fetch_help.shtml" onclick="javascript:openHelpWindow('mouseblast_fetch_help.shtml'); return false;">Using MouseBLAST - Searching by Sequence ID</a></dd>
 	<dd><a href="mouseblast_forwarding_help.shtml" onclick="javascript:openHelpWindow('mouseblast_forwarding_help.shtml'); return false;">Using the Forward to MouseBLAST Form</a></dd>-->
 
-
 	<dt><b>Gene Trap Help</b></dt>
-		<dd><a href="genetrap_usecase_help.shtml" onclick="javascript:openHelpWindow('genetrap_usecase_help.shtml'); return false;">Gene Trap Questions and Answers</a></dd> 
-
+	<dd><a href="genetrap_usecase_help.shtml" onclick="javascript:openHelpWindow('genetrap_usecase_help.shtml'); return false;">Gene Trap Questions and Answers</a></dd> 
 
 	<dt><b>Query Form Usage Help</b></dt>
-	<dd><a href="MISC_usingQFs_help.shtml" onclick="javascript:openHelpWindow('MISC_usingQFs_help.shtml'); return false;">Using MGI Query Forms</a>
-            </dd> 
-<!--2-->
-	<dd>
-              <a href="MISC_operators_help.shtml" onclick="javascript:openHelpWindow('MISC_operators_help.shtml'); return false;">Using Operators on MGI Query Forms</a>
-            </dd>
-<!--3-->
-	<dd><a href="MISC_general_searching_help.shtml" onclick="javascript:openHelpWindow('MISC_general_searching_help.shtml'); return false;">General Guidelines for MGI Query Form Searches</a>
-            </dd>
-<!--5-->
-            <dd>
-              <a href="MISC_boolean_search_help.shtml" onclick="javascript:openHelpWindow('MISC_boolean_search_help.shtml'); return false;">Full-Text Searching on MGI Query Forms</a>
-            </dd>
-<!--6-->     
-    	<dd>
-              <a href="MISC_wildcard_help.shtml" onclick="javascript:openHelpWindow('MISC_wildcard_help.shtml'); return false;">Using Wild Cards on MGI Query Forms
-              </a>
-            </dd>
-<!--7-->
-                  <dd><a href="MISC_map_position_help.shtml" onclick="javascript:openHelpWindow('MISC_map_position_help.shtml'); return false;">Using Map Position Fields on MGI Query Forms</a></dd>
+	<dd><a href="MISC_usingQFs_help.shtml" onclick="javascript:openHelpWindow('MISC_usingQFs_help.shtml'); return false;">Using MGI Query Forms</a></dd> 
+	<!--<dd><a href="MISC_operators_help.shtml" onclick="javascript:openHelpWindow('MISC_operators_help.shtml'); return false;">Using Operators on MGI Query Forms</a></dd>-->
+	<dd><a href="MISC_general_searching_help.shtml" onclick="javascript:openHelpWindow('MISC_general_searching_help.shtml'); return false;">General Guidelines for MGI Query Form Searches</a></dd>
+	<dd><a href="MISC_boolean_search_help.shtml" onclick="javascript:openHelpWindow('MISC_boolean_search_help.shtml'); return false;">Full-Text Searching on MGI Query Forms</a></dd>
+   <dd><a href="MISC_wildcard_help.shtml" onclick="javascript:openHelpWindow('MISC_wildcard_help.shtml'); return false;">Using Wild Cards on MGI Query Forms</a></dd>
+	<dd><a href="MISC_map_position_help.shtml" onclick="javascript:openHelpWindow('MISC_map_position_help.shtml'); return false;">Using Map Position Fields on MGI Query Forms</a></dd>                
      <!--<dd><a href="MISC_clone_collection_help.shtml" onclick="javascript:openHelpWindow('MISC_clone_collection_help.shtml'); return false;">Using the Clone Collection Field on MGI Query Forms</a></dd>-->
-<dd><a href="GO_classification_fields_help.shtml" onclick="javascript:openHelpWindow('GO_classification_fields_help.shtml'); return false;">Using Gene Ontology Classification Fields on MGI Query Forms</a></dd>		
+     <dd><a href="GO_classification_fields_help.shtml" onclick="javascript:openHelpWindow('GO_classification_fields_help.shtml'); return false;">Using Gene Ontology Classification Fields on MGI Query Forms</a></dd>		
 
-
-<dt class="enhance">Vocabularies        
-
- 		<dd><a href="VOCAB_go_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_go_browser_help.shtml'); return false;">Using the Gene Ontology (GO) Browser</a>
-                    </dd>
-
-		<dd><a href="GO_classification_report_help.shtml" onclick="javascript:openHelpWindow('GO_classification_report_help.shtml'); return false;">Interpreting the Gene Ontology Classifications Report</a>
-                    </dd>		
-
-<dd><a href="VOCAB_omim_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_omim_browser_help.shtml'); return false;">Using the Human Disease Vocabulary Browser</a></dd>
-		
-<dd><a href="VOCAB_omim_browser_detail_help.shtml" onclick="javascript:openHelpWindow('VOCAB_omim_browser_detail_help.shtml'); return false;">Interpreting Human Disease and Mouse Model Details</a></dd>
-		
-<dd><a href="VOCAB_mp_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_mp_browser_help.shtml'); return false;">Using the Mammalian Phenotype (MP) Browser</a></dd>		
-
-<dd><a href="VOCAB_mad_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_mad_browser_help.shtml'); return false;">Using the Mouse Developmental Anatomy Browser</a></dd>		
-
-<dd><a href="VOCAB_amad_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_amad_browser_help.shtml'); return false;">Using the Adult Mouse Anatomical Dictionary Browser</a></dd>
-        </dl>
- </blockquote><BR>
+	<dt class="enhance">Vocabularies        
+	<dd><a href="VOCAB_go_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_go_browser_help.shtml'); return false;">Using the Gene Ontology (GO) Browser</a></dd>
+	<dd><a href="GO_classification_report_help.shtml" onclick="javascript:openHelpWindow('GO_classification_report_help.shtml'); return false;">Interpreting the Gene Ontology Classifications Report</a></dd>		
+	<dd><a href="VOCAB_omim_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_omim_browser_help.shtml'); return false;">Using the Human Disease Vocabulary Browser</a></dd>
+	<dd><a href="VOCAB_omim_browser_detail_help.shtml" onclick="javascript:openHelpWindow('VOCAB_omim_browser_detail_help.shtml'); return false;">Interpreting Human Disease and Mouse Model Details</a></dd>
+	<dd><a href="VOCAB_mp_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_mp_browser_help.shtml'); return false;">Using the Mammalian Phenotype (MP) Browser</a></dd>		
+	<dd><a href="VOCAB_mad_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_mad_browser_help.shtml'); return false;">Using the Mouse Developmental Anatomy Browser</a></dd>		
+	<dd><a href="VOCAB_amad_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_amad_browser_help.shtml'); return false;">Using the Adult Mouse Anatomical Dictionary Browser</a></dd>
+    </dl>
+</blockquote><BR>
  
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'-->
