@@ -43,7 +43,6 @@ function openHelpWindow(helpFile){
   <li><A href="#casesen">Does it matter what case I use when I type values in the fields?</a></li>
   <LI><A HREF="#sort">How do the sort options work?</a></li>
   <li><A href="#maxno">Is there a maximum number of results I can get back all at once?</a></li>
-  <li><A href="#operators">What are operators and how do they affect my query?</a></li>
   <LI><A HREF="#speed">Is there a way to speed up a query?</a></li> 
   </ul>
   
@@ -96,12 +95,6 @@ function openHelpWindow(helpFile){
 
 <h3><a id="maxno"></a>Is there a maximum number of results I can get back all at once?</h3>
 <P>No.  Click <i>no limit</i> next to <i>Maximum returned</i> if you want to see every match that your query finds. The intent of the default value (usually 500) is not to speed the search by limiting the scope but rather to restrict the initial results. 
-</p>
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
-<h3><a id="operators"></a>What are operators and how do they affect my query?</h3>
-<P>Operators are found only on the MGI Mouse SNP Query Form and expand or narrow the effect of a search. Usually, they appear on a selection list beside a field. Click the down arrow to see all the available options.(See <a href="MISC_operators_help.shtml" target="_blank">Using Operators on MGI Query Forms</a> for additional details.)
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
