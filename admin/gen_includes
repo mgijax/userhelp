@@ -44,7 +44,7 @@ INCLUDEDIR = '../www/include'
 def createIncludeLink (includeName, fileLoc ) :
 
     filePath = os.path.join(INCLUDEDIR, includeName)
-    os.system("rm -f" + filePath)
+    os.system("rm -f " + filePath)
     os.system("ln -s " + fileLoc + " " + filePath)
 
 def createIncludeFile(filename, dataSource):
