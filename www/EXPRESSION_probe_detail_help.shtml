@@ -116,7 +116,8 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
   </TR>
   <TR><th><span style="white-space: nowrap">Additional Information:</span> <BR>Gene Expression Data </th><td>Links to expression results derived using the probe. </TD></TR></TABLE>
 </TABLE></P>
-<A HREF="#top">Top</A>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <H3><a id="primer"></a>Primer Detail Results</H3>
 <P>If you selected <I>primer</I> as the <B>Sequence Type</B> on the Molecular Probes and Clones Query Form, the first four fields in the detail report describe the primer set. The remainder of the fields contain the information described in
