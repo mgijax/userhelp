@@ -243,7 +243,7 @@ Enter a text string to search for articles with abstracts/titles containing the 
    <li>In the Year field, enter 2002.</li>
    <li>Click Search. </li>
 </ol>
-The query results include all articles written by Carninci in 2002 and published in that journal.
+<p>The query results include all articles written by Carninci in 2002 and published in that journal.</p>
 </LI>
 <br>
 
@@ -259,7 +259,7 @@ The query results include all articles written by Carninci in 2002 and published
 <li>Click Search. </li>
 </ol>
 
-The query finds articles published in 2003 written by several authors one of whom is named Clementi.
+<p>The query finds articles published in 2003 written by several authors one of whom is named Clementi.</p>
 
 <br>
 
