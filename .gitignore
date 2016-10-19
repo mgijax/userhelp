@@ -1,2 +1,7 @@
 # .gitignore
 Configuration
+admin/Configuration.pyc
+admin/Install.log
+admin/python
+bin/
+www/include/
