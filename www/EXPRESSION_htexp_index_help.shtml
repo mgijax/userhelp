@@ -77,13 +77,13 @@ function openHelpWindow(helpFile){
 
 <table border="1" cellpadding="3">
 <tr><th><a id="structure"></a>Anatomical structure</th> 
-<td>The anatomical structures are taken from the <A HREF="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Ontology</A>. Begin typing an anatomy term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. The term is followed by the Theiler Stages for which the structure exists (e.g. lung lobe TS20-28). You must choose a term from the autocomplete list (i.e., there is no free text entry in this field).
+<td>The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Ontology</a>. Begin typing an anatomy term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. The term is followed by the Theiler Stages for which the structure exists (e.g. lung lobe TS20-28). You must choose a term from the autocomplete list (i.e., there is no free text entry in this field).
 
 <P>For each developmental stage, the Anatomical Dictionary is organized as a hierarchy of structures. <!--You can choose to include either substructures (children), superstructures (parents), both, or neither in your search.--> By default, the search includes substructures. This means if you search for gene expression in, for example, brain, your search will also return annotations for all substructures of brain, such as rhombencephalon, tectum and others.</p></td>
 </tr>
 <tr><th><a id="stage"></a><span style="white-space: nowrap">Developmental stage</span></th> 
 <td> Use this field to select one or more Theiler stages (TS) to focus your search on a particular stage of embryonic development. Alternately, you can choose the <i>Use Ages</i> tab and limit your search to the general terms, <i>Embryonic</i> or <i>Postnatal</i>, or choose specific days post conception (dpc).
-<p><a name="stages"></a><b>Note</b>: The Theiler system organizes development into stages defined by the
+<p><a id="stages"></a><b>Note</b>: The Theiler system organizes development into stages defined by the
 appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc.</p>
 To select multiple stages or ages: 
 <ul>
