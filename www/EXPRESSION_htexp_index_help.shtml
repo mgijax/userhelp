@@ -1,7 +1,7 @@
 <!--#include file='include/templateHead.html'-->
 <title>
   <!--#include file="include/mgiversion.html"-->
- MGI-Using the Gene Expression Data Search Form</title>
+ MGI-Using the Microarray and RNA-Seq Experiment Search</title>
 </title>
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
@@ -47,11 +47,13 @@ function openHelpWindow(helpFile){
   <li><a href="#whatquery">What can I use the Microarray and RNA-Seq Experiment Search to find?</a></li>
   <li><a href="#howdo">How do I use this form?</a></li>
   <li><a href="#fields">What values are acceptable in each of the search form fields?</a></li>
+  <li><a href="#revise">Can I edit my original options and requery?</a></li>
+  <li><a href="#null">What if my search produces no results?</a></li>
   <li><a href="#summary">How do I interpret the query results summary?</a></li>
 </ul>
 
 <h3><a id="whatpurpose"></a>What is the purpose of the Gene Expression Database?</h3>
-<p>The Gene Expression Database (GXD) is designed to integrate many different types of endogenous gene expression data from the mouse in formats appropriate for comprehensive analysis.   Query results, such as the developmental stage and tissue of expression (or non-expression), the genetic origin of the sample, and the numbers and sizes of detected bands, are described together with the molecular probe, the expression assay type, and the experimental conditions used.  Expression patterns are described using an extensive, hierarchical dictionary of standardized anatomical terms, making it possible to record expression results from assays with differing spatial resolution in a consistent and integrated manner and to analyze expression patterns at differing levels of detail. Whenever possible, text annotations are complemented by digitized images of the original expression data.
+<p>The Gene Expression Database (GXD) is designed to integrate many different types of endogenous gene expression data from the mouse in formats appropriate for comprehensive analysis. Query results, such as the developmental stage and tissue of expression (or non-expression), the genetic origin of the sample, and the numbers and sizes of detected bands, are described together with the molecular probe, the expression assay type, and the experimental conditions used.  Expression patterns are described using an extensive, hierarchical dictionary of standardized anatomical terms, making it possible to record expression results from assays with differing spatial resolution in a consistent and integrated manner and to analyze expression patterns at differing levels of detail. Whenever possible, text annotations are complemented by digitized images of the original expression data.
 <p>To learn more about GXD and how we acquire data, please see
 <a href="<!--#include file='include/mgihome_url.html'-->/GXD/aboutGXD.shtml" target="_blank">About GXD</a>.
 </p>
@@ -59,14 +61,17 @@ function openHelpWindow(helpFile){
 
 <h3><a id="whatquery"></a>What can I use the Microarray and RNA-Seq Experiment Search to find?</h3>
 
-<p>***</p>
+<p>This form provides allows users to search for microarray and RNA-seq studies that examine expression in mice. These experiments are stored in NCBI's <a href="https://www.ncbi.nlm.nih.gov/geo/">GEO</a> and EBI's <a href="https://www.ebi.ac.uk/arrayexpress/">ArrayExpress</a>. However, both repositories rely on their submitters to provide the annotations, resulting in samples and experiments being described in a non-standardized fashion with only a limited use of controlled vocabularies. Thus, searching for experiments at both of these repositories is heavily reliant on free text with its attendant pitfalls. Therefore, to facilitate reliable searching for experiments, GXD curators have annotated experiment samples using controlled vocabularies for age, anatomical structure, mutant alleles, and sex. In addition, they have annotated the study type and key variables for each experiment. The integration of these standardized annotations with free text searching of experiment title and description allows for searches that accurately return experiments of interest.</p>
+
+<p>GXD's annotation efforts focus on experiments examining endogenous gene expression in wild-type and mutant mice. Studies from all developmental stages, including adult, are included. In addition, studies examining expression differences within and between species is available (although the metadata for the non-mouse samples is not). As is consistent with GXD policy, studies using transgenic mice (i.e., animals containing randomly inserted transgenes); animals that have been manipulated, either by substances, surgical procedures, or diet regimens; cultured or dissociated tissues; or cell lines are not included.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="howdo"></a>How do I use this query form?</h3>
 
-<P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following table. After entering values in the query form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. 
+<p>To browse all annotated experiments in the database, click Search.</p>
+<p>To limit your return, enter or select values in one or more of the search form fields described in the following table. After entering values in the search form fields, click Search or use the carriage return to submit the search. Click Reset to clear the fields and return any default values. 
 </p>
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="fields"></a>What values are acceptable in each of the query form fields?</h3>
 
@@ -77,36 +82,154 @@ function openHelpWindow(helpFile){
 
 <table border="1" cellpadding="3">
 <tr><th><a id="structure"></a>Anatomical structure</th> 
-<td>The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Ontology</a>. Begin typing an anatomy term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. The term is followed by the Theiler Stages for which the structure exists (e.g. lung lobe TS20-28). You must choose a term from the autocomplete list (i.e., there is no free text entry in this field).
-
-<P>For each developmental stage, the Anatomical Dictionary is organized as a hierarchy of structures. <!--You can choose to include either substructures (children), superstructures (parents), both, or neither in your search.--> By default, the search includes substructures. This means if you search for gene expression in, for example, brain, your search will also return annotations for all substructures of brain, such as rhombencephalon, tectum and others.</p></td>
+<td>Enter an anatomy term to search for experiments with samples derived from that tissue. An autocomplete list activates on the second character. This list shows all the possible anatomy terms and their synonyms that match your search characters. Terms are greyed out if there are no samples annotated to the term. 
+<p>The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Ontology</a>. Any anatomical structure term search will include substructures. This means if you search by "brain," for example, your search will also return annotations for all substructures of brain, such as hypothalamus, telencephalon, and others.</p></td>
 </tr>
 <tr><th><a id="stage"></a><span style="white-space: nowrap">Developmental stage</span></th> 
-<td> Use this field to select one or more Theiler stages (TS) to focus your search on a particular stage of embryonic development. Alternately, you can choose the <i>Use Ages</i> tab and limit your search to the general terms, <i>Embryonic</i> or <i>Postnatal</i>, or choose specific days post conception (dpc).
-<p><a id="stages"></a><b>Note</b>: The Theiler system organizes development into stages defined by the
-appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc.</p>
+<td>The <i>Use Ages</i> tab (default) enables searching for experiments with samples of a particular age. You can limit your search to the general terms, <i>Embryonic</i> or <i>Postnatal</i>, or choose specific days post conception (dpc).
+
+<p>Alternatively, you can use the <i>Use Theiler Stages</i> tab to select one or more Theiler stages (TS) to limit your search to samples at a particular stage of embryonic development.   The Theiler system organizes development into stages defined by the appearance of specific developmental features. Since embryos of the same gestational age can vary considerably with respect to development, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc.
+</p>
+<p><!--If you mouse-over a stage, a pop-up will describe a few defining features of that stage, such as "first somites, late head fold" for Stage 12. -->You can <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage.</p>
 To select multiple stages or ages: 
 <ul>
   <li>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired stages; OR hold the shift key down and  click on two stages to select those and all stages in between. </li>
   <li>On a PC, hold the control key down and click on the desired stages; OR hold the shift key down and click on two stages to select those and all stages in between. </li>
  </ul>
-<p>If you mouse-over a stage, a pop-up will describe a few defining features of that stage, such as "first somites, late head fold" for Stage 12. You can <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage.</p></td>
+ </td>
 </tr>
 <tr><th><a id="sex"></a>Sex</th> 
-<td>You can limit your search to either Female, Male or Pooled samples, or All three samples. All is selected by default.</td>
+<td>Use the radio button to limit the search to experiments that contain samples of a specified sex: Female, Male or Pooled samples, or All three samples. All is selected by default.</td>
+</tr>
+<tr><th><a id="mutant"></a>Mutant</th> 
+<td>To limit your search to experiments that contain mutant samples, enter the symbol, synonym, or MGI marker ID of the mutated genetic marker of interest into the field.</td>
 </tr>
 <tr><th><a id="method"></a>Method</th> 
-<td>***</td>
+<td>Use the radio button to limit the search to experiments of the specified type.</td>
 </tr>
 <tr><th><a id="text"></a>Text</th> 
-<td>***</td>
+<td>Enter a text string to search for experiments with titles and/or descriptions that contains the terms of interest. 
+<ul>
+<li>Use an asterisk (*) as a wild card, particularly to find variations on a root word or in spelling.</li>
+<li>Non-alphanumeric characters are generally treated as a space when searching. The exception is the apostrophe-s construct; it has its apostrophe stripped out, and attaches the <i>s</i> to the preceding word.</li>
+<li>Use quotation marks to enclose phrases where the specified words must come in order, with no words intervening.</li> 
+<li>Boolean operators (OR or AND) are not permitted.</li>
+<li>This text search does not stem words (i.e. remove suffixes and searches using the root word).</li>
+</ul>
+</td>
 </tr>
 </table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
+<h3><a id="revise"></a>Can I edit my original options and requery?</h3>
+
+<p>Yes. If you want to edit a search or change output options:
+<ol>
+<li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria.</li>
+<li>Make your changes.</li>
+<li>Click Search or hit the carriage turn.</li>
+</ol>
+You can re-query as many times as you like. Alternatively, click Reset to clear the search form.
+</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="null"></a>What if my search produces no results?</h3>
+
+<p>Your search may have been too specific. Try searching for a less specific anatomical structure, more ages or more assay types. Alternatively, the experiment of interest may not exist or may not have been entered into GXD yet.  You may try free-text searching at either <a href="https://www.ebi.ac.uk/arrayexpress/">ArrayExpress</a> or <a href="https://www.ncbi.nlm.nih.gov/geo/">GEO</a>.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
 <h3><a id="summary"></a>How do I interpret the query results summary?</h3>
 
+<p>A summary of the search can be found in the <b>You searched for</b>: section at the top of the summary return.
+</p>
+
+<h4>Experiment table</h4>
+<p>The search summary presents information about each returned experiment in a table. The following fields are part each experiment’s table:
+</p>
+
+<table width="100%" cellpadding="4" class="nb" align="center">
+ <tr><td><a href="#title">Title</a> | <a href="#details">Details</a> | <a href="#description">Description</a> | <a href="note">Note</a>  </td>
+ </tr>
+</table>
+
+<table border="1" cellpadding="3">
+<tr><th><a id="title"></a>Title</th> 
+	<td>As provided by the data submitter to the repository. If a text search of the title field was performed, matching text is highlighted in yellow.</td>
+</tr>
+<tr><th><a id="details"></a>Details</th> 
+	<td><table>
+		<tr><th>Samples</th>
+			<td>The number samples in the experiment. The number and View button provide a link to a popup (described below) that displays the GXD-curated metadata about each experiment. If your search criteria used sample metadata, the number of samples that match your search is also displayed.</td>
+		</tr>
+		<tr><th>Experimental variables</th>
+			<td>Variables of the experiment, as determined by GXD curators.  Potential variables include: age; anatomical structure; developmental stage; genotype; sex; or species.</td>
+		</tr>
+		<tr><th>Study type</th>
+			<td>Experiments are either classified as baseline, which use wild-type mice to establish expression levels in normal conditions, or differential, which compare expression levels in wild type and mutant mice).</td>
+		</tr>
+		<tr><th>View experiment at</th>
+			<td>Linkouts to the experiment record at ArrayExpress and, if applicable, GEO.</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr><th><a id="description"></a>Description</th> 
+	<td>As provided by the data submitter to the repository. If a text search of the description field was performed, matching text is highlighted in yellow.</td>
+</tr>
+<tr><th><a id="note"></a>Note</th> 
+	<td>If present, notes about the assay that the curators feel are necessary to interpret the results.</td>
+</tr>
+</table>
+
+<p>Fifty samples are displayed on each page of the summary return. Use the toggles to navigate the return to see more.
+</p>
+<h4>Experiment table</h4>
+
+<table width="100%" cellpadding="4" class="nb" align="center">
+ <tr><td><a href="#name">Name</a> | <a href="#organism">Organism</a> | <a href="#age">Age</a> | <a href="structure">Structure</a> | <a href="#background">Genetic background</a> | <a href="#allele">Mutant alleles</a> | <a href="sex2">Sex</a>  | <a href="note2">Note</a>  </td>
+ </tr>
+</table>
+
+<table border="1" cellpadding="3">
+<tr><th><a id="name"></a>Name</th>
+	<td>Of sample.</td>
+</tr>
+<tr><th><a id="organism"></a>Organism</th>
+	<td>Species sampled</td>
+</tr>
+<tr><th><a id="age"></a>Age</th>
+	<td>Age of the specimen used in the assay. The abbreviations for age annotations are as follows:
+<table border width="!" cellpadding="4" cellspacing="1">
+<tr><td><b>E</b></td> <td>Embryonic day</td> </tr>
+<tr>  <td><b>P  </b></td> <td>Postnatal or postnatal day </td> </tr>
+<tr>  <td><b>P w</b></td> <td>Postnatal week<td> </tr>
+<tr>  <td><b>P m</b></td> <td>Postnatal month</td> </tr>
+<tr>  <td><b>P y</b></td> <td>Postnatal year</td> </tr>
+<tr>  <td><b>P adult</b></td> <td>Postnatal adult</td> </tr>
+<tr>  <td><b>P newborn</b></td> <td>Postnatal newborn</td> </tr>
+</table></td>
+</tr>
+<tr><th><a id="structure"></a>Structure</th>
+	<td>Tissue the sample was derived from, given as a Theiler stage (TS) and anatomical structure name.</td>
+</tr>
+<tr><th><a id="background"></a>Background</th>
+	<td>Strain information for the sample, if specified. Use of involves: in the annotation indicates that the strains listed (separated by asterisks) contributed to the genetic background of the sample; additional unspecified strains may also be part of the sample's genetic background.</td>
+</tr>
+<tr><th><a id="allele"></a>Mutant allele(s)</th>
+	<td>If the sample is a mutant, the allele pairs describing the mutant genotype appear in this field.</td>
+</tr>
+<tr><th><a id="sex2"></a>Sex</th>
+	<td>Sex of the sample, if specified.</td>
+</tr>
+<tr><th><a id="note2"></a>Note</th>
+	<td>Additional information about the tissue analyzed. </td>
+</tr>
+</table>
+<p><b>Note</b>: We do not include detailed metadata about non-mouse samples or mouse samples obtained from transgenic mice (i.e., animals containing randomly inserted transgenes); animals that have been manipulated, either by substances, surgical procedures, or diet regimens; cultured or dissociated tissues; or cell lines.
+</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
