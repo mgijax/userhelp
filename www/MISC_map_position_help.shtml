@@ -36,42 +36,43 @@ Using Map Position Fields on MGI Query Forms
 <!--#include file='include/templateBlankBodyStart.html'-->
 <!-- Body of User Help -->
 <hr>
-<A NAME="top"></A>
-<P><A NAME="top"></A>This help document describes how to use the Map Position fields on an MGI Query Form. Depending on the query form, some or all of the following fields are available: 
+<a id="top"></a>
+
+<P>This help document describes how to use the Map Position fields on an MGI Query Form. Depending on the query form, some or all of the following fields are available: 
 <table align="center" border="0" cellpadding="8" width="100%">
-  <tr class="nb"><td align="center"><font size="-1"><a href="#chromosome">Chromosome(s)</a> | <a href="#coordinates">Genome Coordinates</a> | <a href="#marker_range">Marker Range</a> | <a href="#cm_offset">cM Position</a></font></td></tr>
+  <tr class="nb"><td><a href="#chromosome">Chromosome(s)</a> | <a href="#coordinates">Genome Coordinates</a> | <a href="#marker_range">Marker Range</a> | <a href="#cm_offset">cM Position</a></td></tr>
 </table>
      <table>
           <tr>
-          <th align="left" valign="top"><a name="chromosome"></a>Chromosome(s)</th>
-          <td valign="top">
+          <th><a id="chromosome"></a>Chromosome(s)</th>
+          <td>
             Select <a href="MISC_usingQFs_help.shtml#options" target="_blank">one or more items</a> from the chromosome selection list.
            </td>
           </tr>
     
        <tr>
-        <th align="left" valign="top"><a name="coordinates"></a>Genome Coordinates</th>
-        <td valign="top">
+        <th><a id="coordinates"></a>Genome Coordinates</th>
+        <td>
          <ul>
           <li>Make a selection on the <a href="#chromosome">Chromosome(s)</a> list.</li>
           <li>Click the other down arrow and select either bp (base pairs) or Mbp (mega base pairs) as the unit of measurement. (The default is base pairs.)</li>
-          <li>Enter the coordinate(s):</li><br>
+          <li>Enter the coordinate(s):</li></ul>
            <table align="center" border="1" cellspacing="0" cellpadding="4" width="100%">
-           <tr><th align="left" valign="top" nowrap>To search for...</th><th align="left" width="30%" valign="top">Type or paste in the box...</th>
-              <th align="left">Examples: (be sure to select the proper unit: Mbp or bp)</th>
+           <tr><th><span style="white-space: nowrap">To search for...</span></th><th>Type or paste in the box...</th>
+              <th>Examples: (be sure to select the proper unit: Mbp or bp)</th>
            </tr>
-           <tr><td align="left" valign="top">Between</td><td valign="top">Coordinates indicating the area that includes the marker of interest, separated by  - . The maximum number of characters is 23. </td>
+           <tr><td>Between</td><td>Coordinates indicating the area that includes the marker of interest, separated by  - . The maximum number of characters is 23. </td>
     <td>125618206 - 125622026 <br>125.618 - 125.622</td></tr>
-      <tr><td>&lt; =</td><td valign="top">A single coordinate less than or equal to that of a mapped gene or marker.</td>  <td>1-125618205<br>1 - 125.61 </td></tr>
-      <tr><td>&gt; =</td><td valign="top">A single coordinate greater than or equal to a mapped gene or marker. </td><td>125622026 - 999999999<br>125.63-300 </td></tr>
-           </table></li>
+      <tr><td>&lt; =</td><td>A single coordinate less than or equal to that of a mapped gene or marker.</td>  <td>1-125618205<br>1 - 125.61 </td></tr>
+      <tr><td>&gt; =</td><td>A single coordinate greater than or equal to a mapped gene or marker. </td><td>125622026 - 999999999<br>125.63-300 </td></tr>
+           </table>
          
-         <b>Note:</b>&nbsp;The build number appearing on the query form is that of the NCBI assembly sequence loaded in the MGI database. This may or may not be the number of the most current build at NCBI. <!--See <a href="http://www.ncbi.nlm.nih.gov/genome/assembly/grc/mouse/">Genome Reference Consortium</a> for complete details.--></ul>
+         <b>Note:</b>&nbsp;The build number appearing on the query form is that of the NCBI assembly sequence loaded in the MGI database. This may or may not be the number of the most current build at NCBI.
          </td>
          </tr>
   <tr>
-  <th align="left" valign="top"><a name="marker_range"></a>Marker Range</th>
-  <td valign="top">Enter the exact marker or gene symbol in the boxes on either side of the word <i>and</i>. The query is inclusive; markers are returned if at least one base pair (bp) overlaps the range you specify.  &nbsp; 
+  <th><a id="marker_range"></a>Marker Range</th>
+  <td>Enter the exact marker or gene symbol in the boxes on either side of the word <i>and</i>. The query is inclusive; markers are returned if at least one base pair (bp) overlaps the range you specify.  &nbsp; 
     <ul>
    	<li>Define both a start marker and an end marker. </li> 
  	<li>Use only markers on the same chromosome (e.g., Hoxd1 and Pax6). (You do not have to select a <a href="#chromosome">chromosome</a>.) </li>
@@ -82,8 +83,8 @@ Using Map Position Fields on MGI Query Forms
 </tr>
 
 <tr>
-  <th valign="top" align="left"><a name="cm_offset"></a>cM Position</th>
-  <td valign="top">Centimorgan (cM) positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009).  (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PMID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.
+  <th><a id="cm_offset"></a>cM Position</th>
+  <td>Centimorgan (cM) positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009).  (<a href="https://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PMID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.
    <ol>
     <li>Select a chromosome from the Chromosome(s) list.
 	<li>Specify a region BETWEEN two points (on this chromosome) by entering beginning and ending values, separated by  a hyphen (e.g. <i>50-75</i>).</li>
@@ -92,6 +93,7 @@ Using Map Position Fields on MGI Query Forms
 </tr>
 </table>
 </p>
- <a href="#top"><font size="-1">Top</font></a>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'-->
