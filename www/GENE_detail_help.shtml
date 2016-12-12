@@ -134,7 +134,7 @@ dt { text-align: left; font-style: bold;
 			<td>As much as is known for this marker of the following: 
 			<ul>
   			<li>Chromosome to which the marker is assigned. Aside from a chromosome number, other possible values include MT (mitochondrial), XY (XY pseudoautosomal), UN (chromosome assignment is not known).</li>
-  			<li>Marker's centimorgan position. Centimorgan positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009)  (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PMID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.</li>
+  			<li>Marker's centimorgan position. Centimorgan positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009)  (<a href="https://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PMID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.</li>
   			<li>Cytogenetic position</li>
   			<li>Links to cytogenetic Mapping Data.</li>
   			</ul>
