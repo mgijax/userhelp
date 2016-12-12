@@ -89,7 +89,7 @@ Showing markers 1 - 100 of 153.
 <BLOCKQUOTE>
 <TABLE BORDER="1" CELLPADDING="4">
 <tr><th>Field</th><th>Description</th></tr>
- <tr><th>Genetic Location</th> <td>If known, the chromosome and centimorgan position to which the marker is assigned. Centimorgan positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009) (<a href="http://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PubMed ID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.</td></tr>
+ <tr><th>Genetic Location</th> <td>If known, the chromosome and centimorgan position to which the marker is assigned. Centimorgan positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009) (<a href="https://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PubMed ID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.</td></tr>
 
  <tr><th>Genome Coordinates (strand)</th><td>Marker's coordinates on the mouse genome assembly sequence map, and the strand location of the coordinates in parentheses. Plus (+) is = 5<sup>'</sup> to 3<sup>'</sup>. Minus (-) is 3<sup>'</sup> to 5<sup>'</sup>.</td></tr>
 
