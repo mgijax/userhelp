@@ -73,7 +73,7 @@ function openHelpWindow(helpFile){
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <H3><a id="source">What is the source of the homology assertions?</a></H3>
-<p>MGI loads sequence based vertebrate homology assertions from NCBI <a href="http://www.ncbi.nlm.nih.gov/homologene">HomoloGene</a>. HomoloGene programmatically detects homologs among the genome features of several completely sequenced eukaryotic genomes.
+<p>MGI loads sequence based vertebrate homology assertions from NCBI <a href="https://www.ncbi.nlm.nih.gov/homologene">HomoloGene</a>. HomoloGene programmatically detects homologs among the genome features of several completely sequenced eukaryotic genomes.
 </p>
 <p>MGI includes homology for the following selected vertebrate species from HomoloGene:</p>
 <ul>
