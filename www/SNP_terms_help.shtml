@@ -34,7 +34,7 @@ function openHelpWindow(helpFile){
 <!--#include file='include/templateBlankBodyStart.html'-->
 
 <!-- Body of User Help -->
-<a name="top"></A>
+<a id="top"></a>
 <P>This help document answers the following questions:
  <UL>
 <li><a href="#snp">What is a SNP? </a></li>
@@ -60,101 +60,101 @@ function openHelpWindow(helpFile){
 </p>
 
 
-<h3><a name="snp"></a>What is a SNP? </h3>
+<h3><a id="snp"></a>What is a SNP? </h3>
 <p>SNP stands for <i>single nucleotide polymorphism</i>. In MGI, we refer to any polymorphisms in dbSNP as a <i>SNP</i>.  A key aspect of research in genetics is the association of sequence variation with heritable phenotypes. Sequence variations exist at defined positions within genomes and are responsible for individual phenotypic characteristics, including a person's propensity toward complex disorders such as heart disease and cancer. SNPs are the most common genetic sequence variations. <!--As tools for understanding human variation and molecular genetics, sequence variations can be used for gene mapping, definition of population structure, and performance of functional studies.-->
 <!--This differs from the more typical approach of pedigree analysis which tracks transmission of a disease through a family. It is much easier to obtain DNA samples from a random set of individuals in a population than it is to obtain them from every member of a family over several generations. Once discovered, these polymorphisms can be used by additional laboratories, using the sequence information around the polymorphism and the specific experimental conditions.--> </p>
 
 
-<h3><a name="dbsnp">What is dbSNP?</a></h3>
-<p><a href="http://www.ncbi.nlm.nih.gov/SNP/index.html" target="_blank">dbSNP</a>, the Single Nucleotide Polymorphism (SNP) database at <a href="http://www.ncbi.nlm.nih.gov/" target="_blank">National Center for Biotechnology Information (NCBI)</a>  is a public-domain archive for a broad collection of simple genetic polymorphisms for a variety of organisms, including mouse. This collection of polymorphisms includes single-base nucleotide substitutions (also known as single nucleotide polymorphisms or SNPs), small-scale multi-base deletions or insertions, called <i>IN-DELS</i> (also called <i>deletion insertion polymorphisms</i> or <i>DIPs</i>), and retroposable element insertions and microsatellite repeat variations (also called <i>short tandem repeats</i> or <i>STRs</i>). Each dbSNP entry includes the sequence context of the polymorphism (i.e., the surrounding sequence), the occurrence frequency of the polymorphism (by population or individual), and the experimental method(s), protocols, and conditions used to assay the variation.</p>
+<h3><a id="dbsnp">What is dbSNP?</a></h3>
+<p><a href="https://www.ncbi.nlm.nih.gov/SNP/index.html" target="_blank">dbSNP</a>, the Single Nucleotide Polymorphism (SNP) database at <a href="https://www.ncbi.nlm.nih.gov/" target="_blank">National Center for Biotechnology Information (NCBI)</a>  is a public-domain archive for a broad collection of simple genetic polymorphisms for a variety of organisms, including mouse. This collection of polymorphisms includes single-base nucleotide substitutions (also known as single nucleotide polymorphisms or SNPs), small-scale multi-base deletions or insertions, called <i>IN-DELS</i> (also called <i>deletion insertion polymorphisms</i> or <i>DIPs</i>), and retroposable element insertions and microsatellite repeat variations (also called <i>short tandem repeats</i> or <i>STRs</i>). Each dbSNP entry includes the sequence context of the polymorphism (i.e., the surrounding sequence), the occurrence frequency of the polymorphism (by population or individual), and the experimental method(s), protocols, and conditions used to assay the variation.</p>
 </P>
 
-<h3><a name="function"></a>What are dbSNP function classes?</h3>
-<p>The dbSNP function classes define the position of a polymorphism with respect to identifiable features of a specific transcript for a gene. Most function classes in gene features are defined by the location of the variation with respect to transcript exon boundaries. However, functional classes are assigned to each allele for a variation in coding regions because these classes depend on allele sequence. In dbSNP, all annotations to genes have at least one function class (assigned by dbSNP).</td></tr>
+<h3><a id="function"></a>What are dbSNP function classes?</h3>
+<p>The dbSNP function classes define the position of a polymorphism with respect to identifiable features of a specific transcript for a gene. Most function classes in gene features are defined by the location of the variation with respect to transcript exon boundaries. However, functional classes are assigned to each allele for a variation in coding regions because these classes depend on allele sequence. In dbSNP, all annotations to genes have at least one function class (assigned by dbSNP).
 </p>
 
-<h3><a name="dbSNP_fc"></a>How are the dbSNP function classes defined?</h3>
+<h3><a id="dbSNP_fc"></a>How are the dbSNP function classes defined?</h3>
 <p>See <a href="SNP_legend_help.shtml" target="_blank">Understanding the MGI Mouse SNPs Results Table</a>.</p>
-<a href="#top">Top</A>
 
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="ref_snp"></A>What is a RefSNP? How does it differ from an ss SNP?</h3>
+<h3><a id="ref_snp"></A>What is a RefSNP? How does it differ from an ss SNP?</h3>
 <p>In MGI, the term <i>SNP</i> is synonymous with a RefSNP. A RefSNP (rs) is a reference SNP. dbSNP maps each submitted SNP assay (ss) to the genome and assigns a RefSNP accession ID (rs number) to each submitted SNP assay. Submitted SNPs that map to the same location are clustered into the same RefSNP and have the same rs number.
-<p>The exception to this usage is when referring to the dbSNP Variation Type <a href="#dbSNP_vt"><i>SNP</i></a> (strictly defined as single nucleotide polymorphism. SNPs are base substitutions involving A, T, C, or G).</p></td></tr>
+<p>The exception to this usage is when referring to the dbSNP Variation Type <a href="#dbSNP_vt"><i>SNP</i></a> (strictly defined as single nucleotide polymorphism. SNPs are base substitutions involving A, T, C, or G).</p>
 </P>
-<a href="#top">Top</A>
 
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="SNP_assay"></A>What is a submitted SNP assay? a submitted SNP assay with and without strain/alleles? a submitter SNP ID? an exemplar ss assay?</h3>
+<h3><a id="SNP_assay"></A>What is a submitted SNP assay? a submitted SNP assay with and without strain/alleles? a submitter SNP ID? an exemplar ss assay?</h3>
 <table border=1 cellspacing=1 cellpadding=3>
- <tr><th valign="top"><nobr>SNP Assay Term</nobr></th><th valign="top">Definition</th></tr>
+ <tr><th><span style="white-space: nowrap">SNP Assay Term</span></th><th>Definition</th></tr>
 
-  <tr><td valign="top">Submitted SNP Assay (ss)</td><td valign="top">Each SNP record submitted to dbSNP is assigned a unique ssID (ss#). All SNP assays are submitted with an unambiguous definition of sequence context. </td></tr>
- <tr><td valign="top">Submitted SNP Assay with Strain/Alleles</th><td valign="top">A SNP assay submitted with defined allele calls for each strain sampled. Occasionally, a poor experimental result is obtained for a given strain in the submitted SNP assay, and the allele value for that strain is submitted as <i>N</i>.</td></tr>
+  <tr><td>Submitted SNP Assay (ss)</td><td>Each SNP record submitted to dbSNP is assigned a unique ssID (ss#). All SNP assays are submitted with an unambiguous definition of sequence context. </td></tr>
+ <tr><td>Submitted SNP Assay with Strain/Alleles</td><td>A SNP assay submitted with defined allele calls for each strain sampled. Occasionally, a poor experimental result is obtained for a given strain in the submitted SNP assay, and the allele value for that strain is submitted as <i>N</i>.</td></tr>
 
-  <tr><td valign="top">Submitted SNP Assay without Strain/Alleles</td><td valign="top">A SNP assay submitted without defined allele calls for the strains sampled. If all ss Assays for a RefSNP are of this type, the RefSNP will not be loaded into MGI. If at least one ss assay for a RefSNP has specified strain/alleles, then the RefSNP and all of its ss Assays will be loaded into MGI.
+  <tr><td>Submitted SNP Assay without Strain/Alleles</td><td>A SNP assay submitted without defined allele calls for the strains sampled. If all ss Assays for a RefSNP are of this type, the RefSNP will not be loaded into MGI. If at least one ss assay for a RefSNP has specified strain/alleles, then the RefSNP and all of its ss Assays will be loaded into MGI.
 </td></tr>
-  <tr><td valign="top">SubmitterSNP ID</td><td valign="top">SNP Assay ID assigned by the submitter to dbSNP.</td></tr>
-  <tr><td valign="top">Exemplar ss Assay</td><td valign="top">The representative ss Assay of a RefSNP (the submission that has the longest flanking sequence or is the first variant with an asserted location assigned in the rs cluster).  The rs reference flanking sequence is derived from the submitted flanking sequence for the exemplar ss.</td></tr>
+  <tr><td>SubmitterSNP ID</td><td>SNP Assay ID assigned by the submitter to dbSNP.</td></tr>
+  <tr><td>Exemplar ss Assay</td><td>The representative ss Assay of a RefSNP (the submission that has the longest flanking sequence or is the first variant with an asserted location assigned in the rs cluster).  The rs reference flanking sequence is derived from the submitted flanking sequence for the exemplar ss.</td></tr>
  
 </table>
-</P>
 
-<a href="#top">Top</A>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="orientation"></a>What is the difference between ss orientation and rs orientation?</h3>
+<h3><a id="orientation"></a>What is the difference between ss orientation and rs orientation?</h3>
   <p>For both ss and rs orientation, <i>f</i> designates forward and <i>r</i> designates reverse.</p>
 <p>
 <table border="1"cellpadding="2" width="!">
-   <tr><th valign="top"><nobr>Orientation Type</th><th valign="top">Definition</th></tr>
-  <tr><td valign="top"><nobr>ss Orientation</td><td valign="top">The orientation of the ss flanking sequence relative to the rs reference flanking sequence. </td></tr> 
-  <tr><td valign="top"><nobr>rs Orientation</td><td valign="top">The orientation of the rs reference flanking sequence relative to the mouse genome assembly.</td></tr> 
+   <tr><th><span style="white-space: nowrap">Orientation Type</span></th><th>Definition</th></tr>
+  <tr><td><span style="white-space: nowrap">ss Orientation</span></td><td>The orientation of the ss flanking sequence relative to the rs reference flanking sequence. </td></tr> 
+  <tr><td><span style="white-space: nowrap">rs Orientation</span></td><td>The orientation of the rs reference flanking sequence relative to the mouse genome assembly.</td></tr> 
 </table>
 </p>
-<a href="#top">Top</A>
 
-<h3><a name="strain_allele"></a>What is a consensus (or <i>majority</i>) strain allele? an rs consensus strain allele set? </h3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="strain_allele"></a>What is a consensus (or <i>majority</i>) strain allele? an rs consensus strain allele set? </h3>
 <table border=1 cellspacing=1 cellpadding=3>
- <tr><th valign="top">Consensus Type</th><th valign="top">Definition</th></tr>
-  <tr><td valign="top"><nobr>Consensus Strain Allele</td><td valign="top">Also called <i>Majority Strain Allele</i>. The MGI consensus allele call for a given strain of a SNP. This is determined by the majority allele values of all ss-level allele calls for that strain of the SNP. If an allele value conflict occurs among the assays for a strain, but a majority allele strain is present (the allele observed most often among all assays for the SNP, then the allele for that strain is <u>underlined</u>. For comparison queries on the Mouse SNP Query Form, underlining does not affed the allele value.<br><br>
+ <tr><th>Consensus Type</th><th>Definition</th></tr>
+  <tr><td><span style="white-space: nowrap">Consensus Strain Allele</span></td><td>Also called <i>Majority Strain Allele</i>. The MGI consensus allele call for a given strain of a SNP. This is determined by the majority allele values of all ss-level allele calls for that strain of the SNP. If an allele value conflict occurs among the assays for a strain, but a majority allele strain is present (the allele observed most often among all assays for the SNP, then the allele for that strain is <u>underlined</u>. For comparison queries on the Mouse SNP Query Form, underlining does not affed the allele value.<br><br>
 If an allele value cannot be determined for a strain by majority (i.e., no allele call has a majority for the strain), then the consensus allele for that strain is considered ambiguous (represented by a question mark "?"). Ambiguous alleles are always considered different from other alleles in queries. (Calculated by MGI)</td></tr>
-  <tr><td valign="top">rs Consensus Strain <br>Allele Set</td><td valign="top">The set of all strains and their consensus strain alleles for a SNP in MGI. The Mouse SNP query form considers the strain allele values of the rs Consensus Allele set for a SNP. It is possible to have a case where no single ss assay for a given SNP includes all of the strains necessary to satisfy a query; however, if the strains from all ss assays of the SNP are considered, the SNP satisfies the query. (Calculated by MGI)</td></tr>
+  <tr><td>rs Consensus Strain <br>Allele Set</td><td>The set of all strains and their consensus strain alleles for a SNP in MGI. The Mouse SNP query form considers the strain allele values of the rs Consensus Allele set for a SNP. It is possible to have a case where no single ss assay for a given SNP includes all of the strains necessary to satisfy a query; however, if the strains from all ss assays of the SNP are considered, the SNP satisfies the query. (Calculated by MGI)</td></tr>
 </table>
-</P>
-<a href="#top">Top</A>
 
-<h3><a name="variation_type"></a>What are the differences between ss level, MGI-rs level, and dbSNP-rs level variation types?</h3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="variation_type"></a>What are the differences between ss level, MGI-rs level, and dbSNP-rs level variation types?</h3>
 <table border=1 cellspacing=1 cellpadding=3>
- <tr><th valign="top">Variation Type</th><th valign="top">Definition</th></tr>
+ <tr><th>Variation Type</th><th>Definition</th></tr>
 
-  <tr><td valign="top">ss level</td><td valign="top">The type of polymorphism for a Submitted SNP assay, assigned by dbSNP. dbSNP determines this by considering all submitted alleles for a given ss Assay. (Calculated by dbSNP)</td></tr>
-  <tr><td valign="top">MGI-rs level</td><td valign="top">Also called <i>rs Consensus Variation Type</i>. The variation type determined for a SNP in MGI, considering all ss-level alleles for that SNP. The union of ss-level alleles for a SNP may have a different variation type than that of the individual ss assays for the SNP, even if all of the ss assays have the same variation type value. For example, consider the hypothetical SNP rs12345 with two ss assays (ss11111 alleles:-/T) and (ss22222 alleles: -/G). Both ss assays for rs12345 have variation type <i>in-del</i>, however, the rs Allele Summary for rs12345 is <i>-/G/T</i>, which has variation type <i>Mixed</i>, since the combined polymorphism can be either variation type <i>SNP/</i> (G/T), or <i>in-del</i> (-/G or -/T). (Calculated by MGI)</td></tr>
-  <tr><td valign="top"><nobr>dbSNP-rs level</td><td valign="top">The type of polymorphism for a RefSNP in dbSNP. dbSNP calculates this by considering all ss-level alleles for a given RefSNP, with and without strain/allele relationships. MGI does not use the dbSNP Variation Type for a RefSNP. (Calculated by dbSNP)</td></tr>
+  <tr><td>ss level</td><td>The type of polymorphism for a Submitted SNP assay, assigned by dbSNP. dbSNP determines this by considering all submitted alleles for a given ss Assay. (Calculated by dbSNP)</td></tr>
+  <tr><td>MGI-rs level</td><td>Also called <i>rs Consensus Variation Type</i>. The variation type determined for a SNP in MGI, considering all ss-level alleles for that SNP. The union of ss-level alleles for a SNP may have a different variation type than that of the individual ss assays for the SNP, even if all of the ss assays have the same variation type value. For example, consider the hypothetical SNP rs12345 with two ss assays (ss11111 alleles:-/T) and (ss22222 alleles: -/G). Both ss assays for rs12345 have variation type <i>in-del</i>, however, the rs Allele Summary for rs12345 is <i>-/G/T</i>, which has variation type <i>Mixed</i>, since the combined polymorphism can be either variation type <i>SNP/</i> (G/T), or <i>in-del</i> (-/G or -/T). (Calculated by MGI)</td></tr>
+  <tr><td><span style="white-space: nowrap">dbSNP-rs level</span></td><td>The type of polymorphism for a RefSNP in dbSNP. dbSNP calculates this by considering all ss-level alleles for a given RefSNP, with and without strain/allele relationships. MGI does not use the dbSNP Variation Type for a RefSNP. (Calculated by dbSNP)</td></tr>
 </table>
-</P>
-<a href="#top">Top</A>
 
-<h3><a name="dbSNP_vt"></a>What are the dbSNP variation types?</h3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="dbSNP_vt"></a>What are the dbSNP variation types?</h3>
 <p>MGI SNP queries return only RefSNPs with Variation Type = "SNP".  RefSNPs with other variation types can be accessed by searching with the RefSNP ID using the Quick Search tool.</p>
 <p>
 <table border=1 cellspacing=1 cellpadding=3>
- <tr><th valign="top">Variation Type</th><th valign="top">Definition</th></tr>
+ <tr><th>Variation Type</th><th>Definition</th></tr>
 
-  <tr><td valign="top"><nobr>Single Nucleotide Polymorphism (SNP)</td><td valign="top">Strictly defined as single base substitutions involving A, T, C, or G.<br> Sample allele: A/T </td></tr>
- <tr><td valign="top">Insertion/Deletion Polymorphism (in-del) (also DIP)</td><td valign="top">An observed insertion of one or more nucleotides in one individual relative to another individual. Since the molecular event that gave rise to this observation cannot be determined from the observation alone (i.e. was it an insertion or a deletion), both events are incorporated into the name of this polymorphism type. In dbSNP, in-dels are designated using the full sequence of the insertion as one allele, and either a fully defined string for the variant allele or a "-" character to specify the deleted allele.<br> Sample allele: -/T </td></tr>
+  <tr><td><span style="white-space: nowrap">Single Nucleotide Polymorphism (SNP)</span></td><td>Strictly defined as single base substitutions involving A, T, C, or G.<br> Sample allele: A/T </td></tr>
+ <tr><td>Insertion/Deletion Polymorphism (in-del) (also DIP)</td><td >An observed insertion of one or more nucleotides in one individual relative to another individual. Since the molecular event that gave rise to this observation cannot be determined from the observation alone (i.e. was it an insertion or a deletion), both events are incorporated into the name of this polymorphism type. In dbSNP, in-dels are designated using the full sequence of the insertion as one allele, and either a fully defined string for the variant allele or a "-" character to specify the deleted allele.<br> Sample allele: -/T </td></tr>
 
-<tr><td valign="top">Microsatellite or short tandem repeat (STR)</td><td valign="top">Microsatellite or short tandem repeat (STR): Alleles are designated by providing the repeat motif and the copy number for each allele. Expansion of the allele repeat motif designated in dbSNP into full-length sequence will be only an approximation of the true genomic sequence because many microsatellite markers are not fully sequenced and are resolved as size variants only. <br>Sample allele: -/T</td></tr>
+<tr><td>Microsatellite or short tandem repeat (STR)</td><td>Microsatellite or short tandem repeat (STR): Alleles are designated by providing the repeat motif and the copy number for each allele. Expansion of the allele repeat motif designated in dbSNP into full-length sequence will be only an approximation of the true genomic sequence because many microsatellite markers are not fully sequenced and are resolved as size variants only. <br>Sample allele: -/T</td></tr>
 
-<tr><td valign="top">Named variant (Named)</td><td valign="top">Applies to insertion/deletion polymorphisms of longer sequence features, such as retroposon dimorphism for Alu or line elements. These variations frequently include a deletion "-" indicator for the absent allele. <br>Sample allele: -/(B1)</td></tr>
+<tr><td>Named variant (Named)</td><td>Applies to insertion/deletion polymorphisms of longer sequence features, such as retroposon dimorphism for Alu or line elements. These variations frequently include a deletion "-" indicator for the absent allele. <br>Sample allele: -/(B1)</td></tr>
 
-<tr><td valign="top">No-variation (none)</td><td valign="top">Reports may be submitted for segments of sequence that are assayed and determined to be invariant in the sample. <br>Sample allele: (NoVariation)</td></tr>
+<tr><td>No-variation (none)</td><td>Reports may be submitted for segments of sequence that are assayed and determined to be invariant in the sample. <br>Sample allele: (NoVariation)</td></tr>
 
-<tr><td valign="top">Mixed</td><td valign="top">Assigned to SNP clusters that group submissions from different variation classes. <br>Sample allele: -/C/T</td></tr>
+<tr><td>Mixed</td><td>Assigned to SNP clusters that group submissions from different variation classes. <br>Sample allele: -/C/T</td></tr>
 
-<tr><td valign="top">Multi-Nucleotide Polymorphism (MNP)</td><td valign="top">Assigned to variations that are multi-base variations of a single, common length.<br> Sample allele: ACG/TTC</td></tr>
+<tr><td>Multi-Nucleotide Polymorphism (MNP)</td><td>Assigned to variations that are multi-base variations of a single, common length.<br> Sample allele: ACG/TTC</td></tr>
 </table>
 </p>
-<a href="#top">Top</A>
 
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
