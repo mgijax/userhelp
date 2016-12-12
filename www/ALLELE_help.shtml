@@ -255,12 +255,12 @@ There are three ways to use the map position parameters (<A HREF="#chromosome">C
  </ul>
 </blockquote>
             
-<P><B>Note:</B>&nbsp;The build number appearing on the query form is that of the most current NCBI assembly sequence.<!--See the <A HREF="http://www.ncbi.nlm.nih.gov/genome/assembly/grc/mouse/">Genome Reference Consortium</A> for details  about assembling genomic sequences.--></P></TD> </TR>
+<P><B>Note:</B>&nbsp;The build number appearing on the query form is that of the most current NCBI assembly sequence.</P></TD> </TR>
 
 </TD></TR>
 </table>
 
-<TR><th><a id="categories"></a>Categories</TH><td><p>Use these check boxes to search by phenotypic allele categories and/or QTL for alleles or variants resulting in phenotypic change. <br><br>
+<tr><th><a id="categories"></a>Categories</th><td><p>Use these check boxes to search by phenotypic allele categories and/or QTL for alleles or variants resulting in phenotypic change. <br><br>
 High-throughput projects have generated a large number of alleles that still exist only as cell lines. If you are interested in phenotypic alleles, then check <i>Exclude alleles existing only as cell lines</i> to reduce the number of results without known phenotypes.</p>
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="2" WIDTH="100%">
 <TR><th><a id="phenotypic_alleles"></a>Generation Method</TH><td>Mode of origin of a new allelic state.<BR><br>
