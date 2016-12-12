@@ -34,7 +34,7 @@ function openHelpWindow(helpFile){
 <!--#include file='include/templateBlankBodyStart.html'-->
 
 <!-- Body of User Help -->
-<a name="top"></A>
+<a id="top"></a>
 
 <P>This Help document answers the following questions about the <b>SNP Data in MGI</b> report:</P>
 <UL>
@@ -54,11 +54,10 @@ function openHelpWindow(helpFile){
 <ul>
 <LI><A HREF="SNP_summary_help.shtml" target="_blank">Interpreting a Mouse SNP Summary</A></LI>
 <LI><A HREF="SNP_detail_help.shtml" target="_blank">Interpreting Mouse SNP Details</A></LI>
-<LI><A HREF="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Results Table</A> <i><font size="-1">(RefSNPs vs submitted SNPs, dbSNP & MGI function classes, variation types, rs & ss orientation, strain alleles & allele value conflicts, SNP assay IDs)</i></font></LI>
+<LI><A HREF="SNP_legend_help.shtml" target="_blank">Interpreting the MGI Mouse SNPs Results Table</A> <i>(RefSNPs vs submitted SNPs, dbSNP &amp; MGI function classes, variation types, rs &amp; ss orientation, strain alleles &amp; allele value conflicts, SNP assay IDs)</i></LI>
 </UL>
 
-
-<h3><A name="what"></A>What SNP data does the MGI database contain?</h3>
+<h3><a id="what"></a>What SNP data does the MGI database contain?</h3>
 <p>
 <ul>
 <li>The MGI SNP data load consists of mouse reference SNPs (rs) and the corresponding submitted SNP assays (ss), where at least one ss assay of a reference SNP has strains defined for the alleles submitted.</li>
@@ -68,7 +67,7 @@ function openHelpWindow(helpFile){
 </ul>
 </p>
 
-<h3><A name="whatnot"></a>What SNP data does the MGI database <b>NOT</b> contain?</h3>
+<h3><a id="whatnot"></a>What SNP data does the MGI database <b>NOT</b> contain?</h3>
 
   <p>MGI does <b>not</b> load the following data:
   <ul>
@@ -79,16 +78,16 @@ function openHelpWindow(helpFile){
     <li>SNPs (rs and ss) that are unmapped in the C57BL/6J genome.</li>
      </ul>
 </p>
-<font size="-1"><A HREF="#top">Top</A></font> 
 
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><A name="wherewhen"></A>Where does MGI get mouse SNP data and when does it load this data?</h3>
-  <p>MGI loads mouse SNP data from <a href="http://www.ncbi.nlm.nih.gov/projects/SNP/index.html" target="_blank">dbSNP at NCBI</a> in conjunction with new dbSNP build releases. </p>
+<h3><a id="wherewhen"></a>Where does MGI get mouse SNP data and when does it load this data?</h3>
+  <p>MGI loads mouse SNP data from <a href="https://www.ncbi.nlm.nih.gov/projects/SNP/index.html" target="_blank">dbSNP at NCBI</a> in conjunction with new dbSNP build releases. </p>
 <p></p>
 
 
 
-<h3><A name="data"></a>How can I tell which dbSNP build the data comes from?</h3>
+<h3><a id="data"></a>How can I tell which dbSNP build the data comes from?</h3>
 
 <p>The dbSNP build number appears at the top of the SNP Data in MGI Report
  in the Provider/Version column. 
@@ -96,7 +95,7 @@ function openHelpWindow(helpFile){
 
 
 
-<H3><A NAME="contain"></A>What's in the SNP Data in MGI report?</H3>
+<H3><a id="contain"></a>What's in the SNP Data in MGI report?</H3>
 <P>The report is a summary of the dbSNP data in the MGI database and contains information about the:</P>
 <UL>
 <LI>dbSNP build number</li>
@@ -115,15 +114,15 @@ function openHelpWindow(helpFile){
   <li>assay submitter details at dbSNP.</li>
 </ul>
 </p>
-<font size="-1"><A HREF="#top">Top</A></font> 
 
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><A name="interpret"></A>How do I interpret the data in this report?</h3>
+<h3><a id="interpret"></a>How do I interpret the data in this report?</h3>
 <P>
 <table width="!" cellpadding="2" class="nb">
-<tr><td align="center"><A HREF="#provider_version">Provider/Version</A> | <A HREF="#description">Description</A> | <a href="#statistics">Statistics </a> |  <A HREF="#assays">Assays (ss) per submitter</A> | <A HREF="#refsnps"><nobr>RefSNPs (rs) per strain by chromosome</A></TD>
+<tr><td><A HREF="#provider_version">Provider/Version</A> | <A HREF="#description">Description</a> | <a href="#statistics">Statistics </a> |  <A HREF="#assays">Assays (ss) per submitter</A> | <A HREF="#refsnps"><span style="white-space: nowrap">RefSNPs (rs) per strain by chromosome</span></a></TD>
  </TR>
- </TABLE>
+</TABLE>
 
 
 <table border="1" cellpadding="4">
@@ -132,45 +131,45 @@ function openHelpWindow(helpFile){
 <th>DESCRIPTION</th>
 </tr>
 <tr>
-<th align="left" valign="top"><a name="provider_version"></a>Provider<br>Version</th>
+<th><a id="provider_version"></a>Provider<br>Version</th>
 <td>The name of the provider (dbSNP at NCBI) and beside it, a link to the provider's web site. Beneath this is the dbSNP build number that comprises the SNP data in MGI.</td>
 </tr>
 <tr>
-<th align="left" valign="top"><a name="description"></a>Description</th>
-<td>Details about MGI SNP data, Reference SNPs (rs), submitted SNP assays (ss), and what SNP data the MGI database does and does not contain. Beneath these details are links to statistics for this build at NCBI dbSNP and to a list of all mouse Reference SNPs from dbSNP not loaded (at MGI) plus the reason for the omission.</p>
+<th><a id="description"></a>Description</th>
+<td>Details about MGI SNP data, Reference SNPs (rs), submitted SNP assays (ss), and what SNP data the MGI database does and does not contain. Beneath these details are links to statistics for this build at NCBI dbSNP and to a list of all mouse Reference SNPs from dbSNP not loaded (at MGI) plus the reason for the omission.
 </td>
 </tr>
 <tr>
-<th align="left" valign="top"><a name="statistics"></a>Statistics</th>
-<td valign="top">All data values are from the most current dbSNP build loaded into the MGI database. <b>Note:</b> Some values for number of SNPs in MGI may differ from Provider values. See <a name="description">Description</a> for details. For more information, see <a href="http://www.ncbi.nlm.nih.gov/books/bv.fcgi?highlight=statistics&rid=helpsnpfaq.section.Content.dbSNP_Data_Statistic" target="_blank">dbSNP Data Statistics</a>.
+<th><a id="statistics"></a>Statistics</th>
+<td>All data values are from the most current dbSNP build loaded into the MGI database. <b>Note:</b> Some values for number of SNPs in MGI may differ from Provider values. See <a href="#description">Description</a> for details. For more information, see <a href="https://www.ncbi.nlm.nih.gov/books/bv.fcgi?highlight=statistics&rid=helpsnpfaq.section.Content.dbSNP_Data_Statistic" target="_blank">dbSNP Data Statistics</a>.
 
 <table border="1" cellpadding="4">
 <tr>
-<th align="left" valign="top"><a name="total_assays"></a>Total Assays (ss):</th>
-<td valign=top>Number of submitted SNP assays in the MGI database.</td>
+<th><a id="total_assays"></a>Total Assays (ss):</th>
+<td>Number of submitted SNP assays in the MGI database.</td>
 </tr>
 <tr>
-<th align="left" valign="top"><a name="total_refsnps"></a>Total RefSNPs (rs):</th>
-<td valign=top>Number of reference SNPs in the MGI database.</td>
+<th><a id="total_refsnps"></a>Total RefSNPs (rs):</th>
+<td>Number of reference SNPs in the MGI database.</td>
 </tr>
 <tr>
-<th align="left" valign="top"><a name="per"></a><nobr>Assays per RefSNP (ss/rs)</th>
-<td valign="top">Average number of submitted SNP assays divided by the number of reference SNPs in the data load.</td>
+<th><a id="per"></a><span style="white-space: nowrap">Assays per RefSNP (ss/rs)</span></th>
+<td>Average number of submitted SNP assays divided by the number of reference SNPs in the data load.</td>
 </tr>
 <tr>
-<th align="left" valign="top"><a name="tswsd"></a>Total Strains with SNP data</th>
-<td valign="top">There are 86 strains, each of which should appear in the <i>RefSNPs (rs) per Strain by Chromosome</i> table. Strains without SNP data are not represented.</td>
+<th><a id="tswsd"></a>Total Strains with SNP data</th>
+<td>There are 86 strains, each of which should appear in the <i>RefSNPs (rs) per Strain by Chromosome</i> table. Strains without SNP data are not represented.</td>
 </tr>
 </table>
 </td>
 </tr>
 <tr>
-<th align="left" valign="top"><a name="assays"></a>Assays (ss) per submitter</th>
-<td valign="top">Name of each submitter, linked to the submitter's details at dbSNP, followed by the number of assays submitted.
+<th><a id="assays"></a>Assays (ss) per submitter</th>
+<td>Name of each submitter, linked to the submitter's details at dbSNP, followed by the number of assays submitted.
 </tr>
 <tr>
-<th align="left" valign="top"><a name="refsnps"></a>RefSNP s (rs) per Strain by Chromosome</th>
-<td align="left" valign="top">The table consists of: <ul>
+<th><a id="refsnps"></a>RefSNP s (rs) per Strain by Chromosome</th>
+<td>The table consists of: <ul>
   <li>a row for each of the 86 mouse strains, plus one at the top with the heading <b>All Strains</b>.</li>
   <li>a column for each of the 21 mouse chromosomes.</li>
   </ul>
@@ -181,13 +180,13 @@ Rows sum but columns do not.
   <li>The number in the <b>All Chromosomes</b> column (on the far right) is the sum of the row values beneath Chr 1 thru Chr Y (the first is the SNP total for <b>All Strains</b>, followed by the SNP totals per strain).</li>
   <li>The number in the <b>All Strains</b> column (across the top) is <b>NOT</b> the sum of the SNP totals in the column beneath it: e.g., the SNPs on Chromosome 1 for all 86 strains do not add up to this number. This is because SNPs can be represented multiple times (i.e., when typed to multiple strains).</li>
 </ul>
-  </ul>
 </td>
 </tr>
 </table>
-</p> <font size="-1"><A HREF="#top">Top</A></font>
 
-<h3><A name="why_number"></a>Why do the numbers returned by the query form differ from those in this summary?</h3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="why_number"></a>Why do the numbers returned by the query form differ from those in this summary?</h3>
 
 <p>When you use the Mouse SNP Query Form to search for SNPs search on a given strain or chromosome, the match is actually on the number of <b>genome locations</b> for SNPs returned. </p><ul>
   <li>By default, the number of SNP locations is the same as the number of unique SNPs, since SNPs that map to multiple locations are not returned under the default Output options settings. </li>
@@ -227,13 +226,14 @@ total locations for rs: 786
 
 </blockquote>
 
-</p> <font size="-1"><A HREF="#top">Top</A></font>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="how_sort"></a>How is this report sorted? <!--Can I change the sort order?--></h3>
+<h3><a id="how_sort"></a>How is this report sorted?</h3>
 
 <p>The default sort order for the MGI SNP Summary report is by strain. The 23 most common inbred strains appear in alphanumeric order, followed by a list of any additional mouse strains with strain allele data in dbSNP, in alphanumeric order. </p>
-<font size="-1">
-<A HREF="#top">Top</A></font>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
 <!--<p>You can change the sort order.</p>
 <ul>
   <li>Click <b>All Chromosomes</b> (the column is on the far right) to see the report sorted by total SNP count.</li>
@@ -244,6 +244,4 @@ total locations for rs: 786
 
 <p>See <a href="SNP_help.shtml">Using the Mouse SNP Query Form</a> for additional information about sort order.</p>-->
 
-
 <!--#include file='include/templateBlankBodyStop.html'--> 
-
