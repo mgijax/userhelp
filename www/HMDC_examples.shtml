@@ -121,7 +121,7 @@ As an alternative, you can use the <a href="<!--#include file='include/fewi_url.
   <li>Click the Search button.</li>
 </ol>
 
-<p>The <abbr title="Human - Mouse: Disease Connection">HMDC</abbr> uses coordinates from the latest builds of the the mouse and human genome assemblies. If your coordinates are from earlier assemblies, you can convert them to the current assembly coordinates with the <a href="http://www.ncbi.nlm.nih.gov/genome/tools/remap#tab=asm">NCBI Genome Remapping Service</a> tool.</p>
+<p>The <abbr title="Human - Mouse: Disease Connection">HMDC</abbr> uses coordinates from the latest builds of the the mouse and human genome assemblies. If your coordinates are from earlier assemblies, you can convert them to the current assembly coordinates with the <a href="https://www.ncbi.nlm.nih.gov/genome/tools/remap#tab=asm">NCBI Genome Remapping Service</a> tool.</p>
 
 <p>You can search with a Chromosome (e.g. 19 or 19: or chr19) but not by chromosome arms or bands. So human chr:7p22 won't return any results. The form will only accept a digit following the chromosome.</p>
 
