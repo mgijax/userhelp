@@ -43,7 +43,6 @@ function openHelpWindow(helpFile){
 <p>This help document answers the following questions:</p>
 
 <ul>
-  <li><a href="#whatpurpose">What is the purpose of the Gene Expression Database?</a></li>
   <li><a href="#whatquery">What can I use the Microarray and RNA-Seq Experiment Search to find?</a></li>
   <li><a href="#howdo">How do I use this form?</a></li>
   <li><a href="#fields">What values are acceptable in each of the search form fields?</a></li>
@@ -51,13 +50,6 @@ function openHelpWindow(helpFile){
   <li><a href="#null">What if my search produces no results?</a></li>
   <li><a href="#summary">How do I interpret the query results summary?</a></li>
 </ul>
-
-<h3><a id="whatpurpose"></a>What is the purpose of the Gene Expression Database?</h3>
-<p>The Gene Expression Database (GXD) is designed to integrate many different types of endogenous gene expression data from the mouse in formats appropriate for comprehensive analysis. Query results, such as the developmental stage and tissue of expression (or non-expression), the genetic origin of the sample, and the numbers and sizes of detected bands, are described together with the molecular probe, the expression assay type, and the experimental conditions used.  Expression patterns are described using an extensive, hierarchical dictionary of standardized anatomical terms, making it possible to record expression results from assays with differing spatial resolution in a consistent and integrated manner and to analyze expression patterns at differing levels of detail. Whenever possible, text annotations are complemented by digitized images of the original expression data.
-<p>To learn more about GXD and how we acquire data, please see
-<a href="<!--#include file='include/mgihome_url.html'-->/GXD/aboutGXD.shtml" target="_blank">About GXD</a>.
-</p>
-<p>See also the <a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a> for unfamiliar terms and acronyms.</p>
 
 <h3><a id="whatquery"></a>What can I use the Microarray and RNA-Seq Experiment Search to find?</h3>
 
@@ -99,7 +91,7 @@ To select multiple stages or ages:
  </td>
 </tr>
 <tr><th><a id="sex"></a>Sex</th> 
-<td>Use the radio button to limit the search to experiments that contain samples of a specified sex: Female, Male or Pooled samples, or All three samples. All is selected by default.</td>
+<td>Use the radio button to limit the search to experiments that contain samples of a specified sex: Female, Male or Pooled samples. All is selected by default.</td>
 </tr>
 <tr><th><a id="mutant"></a>Mutant</th> 
 <td>To limit your search to experiments that contain mutant samples, enter the symbol, synonym, or MGI marker ID of the mutated genetic marker of interest into the field.</td>
@@ -186,7 +178,7 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 
 <p>Fifty samples are displayed on each page of the summary return. Use the toggles to navigate the return to see more.
 </p>
-<h4>Experiment table</h4>
+<h4>Sample pop-up Experiment table</h4>
 
 <table width="100%" cellpadding="4" class="nb" align="center">
  <tr><td><a href="#name">Name</a> | <a href="#organism">Organism</a> | <a href="#age">Age</a> | <a href="structure">Structure</a> | <a href="#background">Genetic background</a> | <a href="#allele">Mutant alleles</a> | <a href="sex2">Sex</a>  | <a href="note2">Note</a>  </td>
@@ -202,7 +194,7 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 </tr>
 <tr><th><a id="age"></a>Age</th>
 	<td>Age of the specimen used in the assay. The abbreviations for age annotations are as follows:
-<table border width="!" cellpadding="4" cellspacing="1">
+<table>
 <tr><td><b>E</b></td> <td>Embryonic day</td> </tr>
 <tr>  <td><b>P  </b></td> <td>Postnatal or postnatal day </td> </tr>
 <tr>  <td><b>P w</b></td> <td>Postnatal week<td> </tr>
@@ -228,6 +220,8 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 	<td>Additional information about the tissue analyzed. </td>
 </tr>
 </table>
+<p>Samples that match your search criteria will be displayed in colored-shaded rows.
+</p>
 <p><b>Note</b>: We do not include detailed metadata about non-mouse samples or mouse samples obtained from transgenic mice (i.e., animals containing randomly inserted transgenes); animals that have been manipulated, either by substances, surgical procedures, or diet regimens; cultured or dissociated tissues; or cell lines.
 </p>
 
