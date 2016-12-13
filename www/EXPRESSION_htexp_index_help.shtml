@@ -196,7 +196,7 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 	<td>Age of the specimen used in the assay. The abbreviations for age annotations are as follows:
 <table>
 <tr><td><b>E</b></td> <td>Embryonic day</td> </tr>
-<tr>  <td><b>P  </b></td> <td>Postnatal or postnatal day </td> </tr>
+<tr>  <td><b>P  </b></td> <td>Postnatal or postnatal day &nbsp;&nbsp;&nbsp;</td> </tr>
 <tr>  <td><b>P w</b></td> <td>Postnatal week<td> </tr>
 <tr>  <td><b>P m</b></td> <td>Postnatal month</td> </tr>
 <tr>  <td><b>P y</b></td> <td>Postnatal year</td> </tr>
