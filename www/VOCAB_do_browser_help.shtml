@@ -1,0 +1,71 @@
+<!--#include file='include/templateHead.html'-->
+<title>
+  <!--#include file="include/mgiversion.html"-->
+MGI-Using the Disease Ontology (DO) Browser</title>
+
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+
+</style>
+
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+Using the Disease Ontology (DO) Browser</span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+
+
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+	</td>
+    </tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+<!-- Body of User Help -->
+
+<a id="top"></a>
+
+<p>The Disease Ontology (DO) is a community effort to provide standard terms for annotating phenotypic data. You can use this browser to view terms, definitions, and term relationships in a hierarchical display.</p>
+
+<p>This help document answers the following questions about the MP Browser:
+ <ul>
+  <li><a href="#howare">How is the Disease Ontology organized?</a></li>
+  <li><a href="#whatcan">What can I use the Disease Ontology Browser to find?</a></li>
+  <li><a href="#include">What is the difference between browsing and searching the vocabulary?</a></li>
+  <li><a href="#browse">How do I browse the vocabulary?</a></li>
+  <li><a href="#search">How do I search the vocabulary?</a></li>
+  <li><a href="#results">What can I find on the query results report?</a></li>
+  <li><a href="#term_detail">How do I interpret a Term Detail report?</a></li>
+  <li><a href="#mp_summary">How do I interpret the Disease Ontology Annotations Query Results?</a></li>
+  <li><a href="#contribute">How can I contribute to the vocabulary?</a></li>
+ </ul></p>
+
+<p>See also:
+<ul>
+  <li><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a> for unfamiliar terms (or for how MGI defines specific terms) and acronyms. </li>
+  <li><a href="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</a></li>
+  <li><a href="MISC_wildcard_help.shtml" target="_blank">Using Wildcards on MGI Query Forms</a></li>
+</ul></p>
+
+<h3><a id="howare"></a>How is the Disease Ontology organized?<h3>
+
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<!--#include file='include/templateBlankBodyStop.html'-->
