@@ -28,12 +28,14 @@ function openHelpWindow(helpFile){
 
 <!-- Title Bar -->
 <tr>
-  <td class="enhance" align=left>
+  <td class="enhance">
       <!--#include file='help_toolbar.shtml'-->
     </tr>
 </table>
 <!--#include file='include/templateBlankBodyStart.html'-->
-<A NAME="top"></A>
+
+<a id="top"></a>
+
 <P>This document answers the following questions about the allele summary report:</P>
 <UL>
   <LI><A HREF="#access">When does an allele summary report appear?</A></LI>
@@ -52,12 +54,13 @@ function openHelpWindow(helpFile){
   <LI><A HREF="ALLELE_detail_help.shtml" target="_blank">Understanding Phenotypic Allele Detail Reports</A></LI>
 </UL></P>
 
-<H3><A NAME="access"></A>When does an allele summary appear?</H3>
+<H3><a id="access"></a>When does an allele summary appear?</H3>
 
 <P>The Phenotypic Alleles Query Results -- Summary appears either when a query on the Phenotypes, Alleles, and Disease Models Query Form returns any alleles or when you select  All alleles or specific allele types on a gene/marker detail report (see <a href="GENE_detail_help.shtml#phenotypes_detail" target="_blank">Alleles and Phenotypes</a> for more information).</P>
-<A HREF="#top">Top</A>
 
-<H3><A NAME="contain"></A>What should show up in this report?</H3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><a id="contain"></a>What should show up in this report?</H3>
 <P>A search for alleles results in a summary listing of any "hits" with links to detail records.
 The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Results summary reiterates the search parameters that produced the report and contains items such as:</p>
 <ul>
@@ -71,7 +74,7 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
 <p>You'll also find a line of text near the top that reports the number of unique alleles matching your query. For example, if a query returns 122 different alleles, this line would read
 
 <blockquote>
-<font face="courier New, Courier" size=-1>Showing alleles 1 - 100 of 122</font>
+<span style="font-family: courier new; font-size: 0.9em">Showing items 1 - 100 of 122</span>
 </blockquote>
 <p>You can use the toggle to change the number of items displayed or page through the results.
 </p>
@@ -79,17 +82,15 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
 <p>Table columns summarize information about the alleles matching your query. The results appear in some or all of the following fields (depending on your query form choices).</p>
 
 <P>
-<body>
-<body>
 <TABLE BORDER="1" CELLPADDING="4"> 
- <TR><TH VALIGN="top">Field</TH><TH>Description</TH></TR> 
- <TR><Th ALIGN="left" VALIGN="top"><nobr>Allele Symbol<nobr><br> Gene; Allele Name <br>[Camera icon]</Td><TD>Official symbol for the allele, linked to its Phenotypic Allele Detail Report.<br>Name for the allele. <br>If a camera icon appears, images are associated with the allele. Click the icon to view any associated image(s).</TD></TR> 
- <TR><TH ALIGN="left" VALIGN="top">Chr</TH><TD VALIGN="top">Chromosome of the marker that the allele is associated with.</TD></TR> 
- <TR><TH ALIGN="left" VALIGN="top">Synonyms</TH></TD> <TD VALIGN="top">Any synonyms (unofficial symbols and names) for the allele.</TD> </TR>
- <TR><a name="cat"></a><TH ALIGN="left" VALIGN="top">Category</TH></TD> <TD VALIGN="top">Specific allele type (e.g., knockout, targeted, gene trapped).  Cell line (in parentheses) indicates that there is  no information about the creation of a mouse line for the allele. Chimera (in parentheses) means that MGI has information only about the chimeric mouse.
+ <TR><TH>Field</TH><TH>Description</TH></TR> 
+ <TR><th><span style="white-space: nowrap">Allele Symbol</span><br> Gene; Allele Name <br>[Camera icon]</th><TD>Official symbol for the allele, linked to its Phenotypic Allele Detail Report.<br>Name for the allele. <br>If a camera icon appears, images are associated with the allele. Click the icon to view any associated image(s).</TD></TR> 
+ <TR><TH>Chr</TH><TD>Chromosome of the marker that the allele is associated with.</TD></TR> 
+ <TR><TH>Synonyms</TH> <TD>Any synonyms (unofficial symbols and names) for the allele.</TD> </TR>
+ <TR><a id="cat"></a><TH>Category</TH> <TD>Specific allele type (e.g., knockout, targeted, gene trapped).  Cell line (in parentheses) indicates that there is  no information about the creation of a mouse line for the allele. Chimera (in parentheses) means that MGI has information only about the chimeric mouse.
   <p>Alleles that involve multiple genes display links to up to three of the affected genes in this section along with the option to <i>View all</i> the affected genes with their feature types, genome coordinates, associated references and curatorial notes.</p></TD></tr>
- <TR><TH ALIGN="left" VALIGN="top"><nobr>Abnormal Phenotypes Reported</nobr> in these Systems</th><td valign="top">High level terms from the Mammalian Phenotype (MP) Ontology annotated to the allele. See the <A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A>. These high level terms are also found in the Phenotype Selection List pop-up (when you click Anatomical Systems Affected by Phenotypes on the <A HREF="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A>). Phenotypes that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report.</td></tr>
- <tr><th align="Left" valign="Top">Human Disease Models</th><td valign="top">Human disease terms and OMIM IDs annotated to the allele. Diseases that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report. See the <a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</A>.</ul></TD></TR> 
+ <TR><TH><span style="white-space: nowrap">Abnormal Phenotypes Reported</span> in these Systems</th><td>High level terms from the Mammalian Phenotype (MP) Ontology annotated to the allele. See the <A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a>. These high level terms are also found in the Phenotype Selection List pop-up (when you click Anatomical Systems Affected by Phenotypes on the <A HREF="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A>). Phenotypes that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report.</td></tr>
+ <tr><th>Human Disease Models</th><td>Human disease terms and Disease Ontology IDs annotated to the allele. Diseases that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report. See the <a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</a>.</TD></TR> 
 </table> 
 <!--<TR><TH ALIGN="left" VALIGN="top">Allelic Composition <BR>(Genetic Background)</TH><TD VALIGN="top">Allele pairs that contribute to the genotype and the mouse strain background. Each allele is linked to its corresponding Phenotypic Allele Detail Report. <br>
  Beneath the allele pairs, in parentheses, the strain of the genetic background appears; e.g., (involves: 129/Sv * C57BL/6) or (not specified).<br>
@@ -97,15 +98,12 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
        <tr><th valign="top">Involves</th><td valign="top">Indicates that the strains listed (separated by asterisks) contributed to the genetic background of the specimen; additional unspecified strains may also be part of the specimen's genetic background.</td></tr>
        <tr><th valign="top">Either</th><td valign="top">Indicates that more than one genetic background appears in a reference, but the background of the specimen is unspecified.</td></tr>
        </table>-->
-</td>
-</tr>
 </table>
-      
 </p>
-<A HREF="#top">Top</A>
 
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A NAME="usage"></A>How do I interpret an allele summary report?</H3>
+<H3><a id="usage"></A>How do I interpret an allele summary report?</H3>
 <ul>
 <li>To view the additional data for a given allele, click the allele symbol in the Allele column for access to the Phenotypic Allele Detail report.</li>
 <li>The default sort order for the report is Transmission Status, Allele Symbol. You have the option to change the <a href="#sort">sort</a> order.</li>
@@ -116,21 +114,16 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
 	<li>After reviewing the summary information, you may want to alter your query. If so, click the banner at the top of the page (<b>Click to <a href="#revise">modify</a> search</b>).</li>
 	</ul>
 </ul>
-</P>
+</p>
 
-<A HREF="#top">Top</A>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A NAME="notcontain"></A>Why do some alleles have observed phenotypes and some do not?</H3>
+<H3><a id="notcontain"></a>Why do some alleles have observed phenotypes and some do not?</H3>
  <P>The vocabulary is annotated at the genotype level. If an allele either does not yet have a genotype or has a genotype with no annotations, the Abnormal Phenotypes Reported in these Systems and Human Disease Models fields are blank. Also, phenotypes and human diseases that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not displayed in this summary but can be found in the Phenotypic Allele Detail Report. </p>
- <!--<P>For example, on the Phenotypes, Alleles, and Disease Models Query Form: </P>
-<TABLE BORDER="1" CELLPADDING="4">
-  <TR><TH ALIGN="left" VALIGN="top"><NOBR>In the Phenotype/Disease box, you enter ...</TH><TH ALIGN="left" VALIGN="top">The query returns...</TH><TH>Why?</TH></TR>
-  <TR><TD VALIGN="top">superimposed aqueductal stenosis</TD><TD VALIGN="top">One allele (<i>oh</i>) with no observed effects or allelic composition (genetic background).</SUP><TD VALIGN="top">The match is in the Additional Information section.</TD></TR>
-  <TR><TD VALIGN="top">aqueductal stenosis</TD><TD VALIGN="top">Three alleles (<i>hhy</i>, <i>Dlg5<sup>tm1Vv</sup></i>, and <i>oh</i>). <i>Hhy</i> returns data in the Observed Phenotypes in Mouse and Allelic Composition (Genetic Background) columns.<TD VALIGN="top"><i>Hhy</i> and <i>Dlg5<sup>tm1Vv</sup></i> are annotated to the term.</TD></TR>
-</TABLE></P>--><br>
-<A HREF="#top">Top</A>
 
-<h3><a name="revise"></a>Can I edit my original options and requery?</h3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="revise"></a>Can I edit my original options and requery?</h3>
 <p>Yes, you can.</p>
 <ul><li>If you want to edit a list or change output options:</li>
 <ol>
@@ -145,30 +138,30 @@ The <u>You searched for...</u> box at the top of the Phenotypic Alleles Query Re
 <ul>
 <li>You can requery as many times as you like.</li>
 <!--<li>If you had <a href="#gxdfilter">filtered</a> your search results, when you modify your search, the filters are automatically applied to your modified results.</li>-->
-<li>Alternatively, click Reset to return to the original Phenotypes, Alleles & Disease Models Query form. </li>
+<li>Alternatively, click Reset to return to the original Phenotypes, Alleles &amp; Disease Models Query form. </li>
 <LI>See <A HREF="ALLELE_help.shtml" target="_blank">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
 </ul>
-</p>
-<a href="#top"><font size="-1">Top</font></a>
 
-<h3><a name="allele_export"></a>Can I get my results as tab-delimited text or spreadsheet files?</h3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="allele_export"></a>Can I get my results as tab-delimited text or spreadsheet files?</h3>
 <p>Yes. In your search results click on the Text File or Excel File icon. Your web browser will download a file of the results.</p>
 
-<font size="-1"><A HREF="#top">Top</A></font>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="sort"></a>Can I sort my results?</h3>
+<h3><a id="sort"></a>Can I sort my results?</h3>
 <p>Yes, you can.</p>
 <ul>
 	<li>You can choose to sort, and reverse the sort, by Chr, Category and Allele Symbol. Click on the column headings or the up/down arrowheads ( &#9660; &#9650;) to change the sort order of your results. </li>
 </ul>
 
-<A HREF="#top">Top</A>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
  
-<h3><A name="no_results">What if my query returns no results?</A></h3>
+<h3><a id="no_results">What if my query returns no results?</A></h3>
 <p>See <a href="ALLELE_help.shtml#no_results" target="_blank">What if my query returns no results?</a> in <i>Using the Phenotypes, Alleles, and Disease Models Query Form</i>.
 </p>
 
-<A HREF="#top">Top</A>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
  <BR>
 <!--#include file='include/templateBlankBodyStop.html'-->
