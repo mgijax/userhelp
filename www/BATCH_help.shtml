@@ -57,7 +57,7 @@ function openHelpWindow(helpFile){
  <ul>
     <LI><A HREF="#summary">MGI Batch Query results</A></LI>
  	<LI><A HREF="#mp">Mammalian Phenotype (MP) results</A></LI>
- 	<LI><A HREF="#omim">Human Disease (OMIM) results</A></LI>
+ 	<LI><A HREF="#do">Human Disease (DO) results</A></LI>
 	<li><a HREF="#gene_expression">Gene Expression results</a></li>
   </ul>
 <!--<li><a href="#why_listed">Why is a gene listed multiple times in a report?</a></li>-->
@@ -267,7 +267,7 @@ The following are additional types (not listed on the pulldown menu), followed b
     <tr><td>RefSNP ID</td><td>RefSNP identifiers<br>Results include RefSNPs within 2 KB of the gene/marker. </td></tr>
 <tr><td>GenBank/RefSeq ID</td><td>GenBank (nucleotide) or RefSeq (nucleotide or protein) sequence identifiers.</td></tr>
     <tr><td>UniProt ID</td><td>UniProt sequence identifiers.</td></tr>
- 	<tr><td>Human Disease (OMIM)</td><td>ID, term<br>See <a href="#omim">How do I interpret Human Disease (OMIM) results?</a></td></tr>
+ 	<tr><td>Human Disease (DO)</td><td>ID, term<br>See <a href="#do">How do I interpret Human Disease (DO) results?</a></td></tr>
    </table>
 </blockquote>
 </li>
@@ -368,7 +368,7 @@ The results are initially returned in web format and then you can choose to Expo
 <!--The list of Mammalian Phenotype Ontology terms associated with a gene is a combination of all terms  associated with all mutant alleles of that gene. The mice analyzed may have been heterozygotes or homozygotes for the mutant allele, or the mouse may have carried other mutations in addition to those in this gene alone. Further, strain background can have a profound effect on phenotype. Thus, the appearance of a Mammalian Phenotype term here does not mean that mutations in this gene necessarily contribute to or are causative of the phenotype. For detailed information, use the Phenotypes, Alleles & Disease Models Query Form and query for your gene of interest to view Mammalian Phenotype terms as they are associated with specific genotypes and strains.-->
 
 
-<h4><a id="omim"></a>Human Disease (OMIM) results</h4>
+<h4><a id="do"></a>Human Disease (DO) results</h4>
 <p>Human Disease terms appear by gene, followed by an ID and the Mammalian Phenotype vocabulary term entry.</p>
 <ul>
    <li>Each term listed indicates that a mutant allele of this gene is involved in a mouse genotype used as a disease model.</li>
