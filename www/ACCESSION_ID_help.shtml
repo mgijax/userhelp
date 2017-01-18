@@ -40,11 +40,9 @@ function openHelpWindow(helpFile){
 <br><br>
 <!-- Body of User Help -->
 
+<a id="top"></a>
 
-<a name="top"></a>
-
-
-<P>This help document provides examples of accession IDs that may result from using MGI tools (Batch Query, Quick Search) or MGI query forms as well as samples of accession IDs to use for those queries.</p>
+<p>This help document provides examples of accession IDs that may result from using MGI tools (Batch Query, Quick Search) or MGI query forms as well as samples of accession IDs to use for those queries.</p>
 
 <h3>Examples of accession ID results using the Quick Search</h3>
 <ul>
@@ -52,28 +50,27 @@ function openHelpWindow(helpFile){
 <br>
  	<ul>
  	  <li><a href="#markerz">Markers</a></li>
-	<li><a href="#allelez">Alleles</a></li>
+	  <li><a href="#allelez">Alleles</a></li>
  	  <li><a href="#vocab">Vocabulary </a></li>
  	  <li><a href="#sequencez">Sequences</a></li>
-	<li><a href="#genetrapz">Gene Traps</a></li>
-	<li><a href="#nonmouse">Non-mouse</a></li>
+	  <li><a href="#genetrapz">Gene Traps</a></li>
+	  <li><a href="#nonmouse">Non-mouse</a></li>
  	</ul>
  	<br>
   <li><a href="#toidtmauvt">Types of IDs that may appear under Vocabulary Terms</a></li><br>
-  <li>Types of IDs that may appear under Other Results by ID</a></li>
+  <li><a href=#"otherbyid">Types of IDs that may appear under Other Results by ID</a></li>
 	<ul>
 	  <li><a href="#referencez">References</a></li>
 	  <li><a href="#probez">Probes</a></li>
 	  <li><a href="#expression">Expression Image</a></li>
-	<!--<li><a href="#snp">SNP</a></li>-->
- 	<li><a href="#mapping">Mapping</a></li>
- 	<li><a href="#expression">Adult Mouse Anatomy</a></li>
+	  <!--<li><a href="#snp">SNP</a></li>-->
+ 	  <li><a href="#mapping">Mapping</a></li>
+ 	  <li><a href="#expression">Adult Mouse Anatomy</a></li>
 	</ul>
-	
 </ul>
 
 <dl>
-  <dt><a name="markerz"></a><b>Markers</b></dt>
+  <dt><a id="markerz"></a><b>Markers</b></dt>
 <dd>MGI:96677 :  MGI ID</dd>
   <dd>16590 :  EntrezGene</dd>
   <dd>247073 :  UniGene</dd>
@@ -81,7 +78,7 @@ function openHelpWindow(helpFile){
   <dd>MI0000248 :  miRBASE</dd>
   <dd>10094A-C10 : old name (for Vmn1r37) </dd>
 <br>
- <dt><a name="allelez"></a><b>Alleles</b></dt>
+ <dt><a id="allelez"></a><b>Alleles</b></dt>
 <DD>Apoe<sup>tm1Bres</sup> : Allele symbol
 <dd>Pax3<sup>tm1Buck</sup> : Allele synonym 
  <dd>MGI:1856798 :  Allele ID</dd>
@@ -90,28 +87,27 @@ function openHelpWindow(helpFile){
 <dd>EUCE0060g02.q1k5SPK : DNA Sequence for a gene-trapped allele</dd>
 
 <br>
-<dt><a name="vocab"></a><b>Vocabulary</b></dt>
+<dt><a id="vocab"></a><b>Vocabulary</b></dt>
   <dd>GO:0004713 :   Gene Ontology (GO Browser)</dd>
-  <dd>172800 :   OMIM</dd>
   <dd>IPR003599 :   Interpro</dd>
   <dd>PIRSF015599 :   Protein Information Resource SuperFamily</dd>
   <dd>MP:0005392 :   Mammalian Phenotype (MP Browser)</dd>
+  <dd>HP:0000526 :   Human Phenotype Ontology</dd>
+  <dd>DOID:10652 :   Disease Ontology (DO Browser)</dd>
   <dd>EMAPA:17337  :   Mouse Developmental Anatomy</dd>
+  <dd>172800 :   <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr></dd>
  <br>
 
-<dt><a name="sequencez"></a><b>Sequences</b></dt>
+<dt><a id="sequencez"></a><b>Sequences</b></dt>
   <dd>OTTMUSG00000015949  :    VEGA Gene Model</dd>
   <dd>ENSMUSG00000005672 :   Ensembl Gene Model</dd>
   <dd>14894 :  NCBI Gene Model</dd>
   <dd>NM_001122899 :  RefSeq</dd>
   <dd>P05532 &nbsp; or&nbsp; A2AKJ2 :  UniProt, EBI</dd>
   <dd>U42467 &nbsp; or&nbsp; AA212080 :  GenBank, EMBL, DDBJ</dd>
-  <dd>TC1572427 :  DFCI</dd>
-  <dd>DT.529646 :  DoTS</dd>
-  <dd>U041021 :  NIA</dd>
 <br>
 
-<dt><a name="genetrapz"></a><b>Gene Traps</b></dt>
+<dt><a id="genetrapz"></a><b>Gene Traps</b></dt>
   <dd>LST083 :  BayGenomics</dd>
   <dd>FHCRC-GT-S5-7F1 :  FHCRC</dd>
   <dd>G017D05 :  GGTC</dd>
@@ -125,11 +121,10 @@ function openHelpWindow(helpFile){
 <br>
 
 </dl>
-
-    
-<dt><a name="nonmouse"></a><b>Non-mouse IDs</b></dt>
- <dd>HGNC:6342  or  HGNC:2394 :  HGNC - Human</dd>
-  <dd>123610 :  OMIM - Human</dd>
+ 
+<dt><a id="nonmouse"></a><b>Non-mouse IDs</b></dt>
+ <dd>HGNC:6342  or  HGNC:2394 :  <abbr title="HUGO Gene Nomenclature Committee">HGNC</abbr> - Human</dd>
+  <dd>123610 :  <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr> - Human</dd>
   <dd>1411 :  Entrez Gene - Human</dd>
  <dd>P05813 :  UniProt, EBI - Human</dd>
   <dd>NM_005208 :  RefSeq - Human</dd>
@@ -141,14 +136,13 @@ function openHelpWindow(helpFile){
 </dl>
 </blockquote>
 
-
-<h4><a name="toidtmauvt"></a>Types of IDs that may appear under Vocabulary Terms</h4>
+<h4><a id="toidtmauvt"></a>Types of IDs that may appear under Vocabulary Terms</h4>
 
 <blockquote>
 <dl>
   <dd>MP:0005392 :  Mammalian Phenotype Vocabulary (MP Browser)</dd>
   <dd>GO:00047131 :  Gene Ontology (GO Browser)</dd>
-  <dd>172800 :  OMIM (Human Disease Browser)</dd>
+  <dd>172800 :  <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr> (Human Disease Browser)</dd>
   <dd>IPR003599 :  InterPro Protein Database</dd>
   <dd>PIRSF015599 :  Protein Information Resource SuperFamily</dd>
   <dd>EMAPA:17337  :  Mouse Developmental Anatomy Ontology</dd>
@@ -156,16 +150,16 @@ function openHelpWindow(helpFile){
 
 </blockquote>
 
-<h4><a name="otherbyid"></a>Types of IDs that may appear under Other Results by ID</h4>
+<h4><a id="otherbyid"></a>Types of IDs that may appear under Other Results by ID</h4>
 <blockquote>
 <dl>
-<dt><a name="referencez"></a><b>References</b></dt>
+<dt><a id="referencez"></a><b>References</b></dt>
   <dd>J:62345 :  MGI</dd>
- <dd>8825637 :  PubMed</dd>
+  <dd>8825637 :  PubMed</dd>
   <dd>MGI:1858784 :  MGI</dd>
   <dd>10.1006/bbrc.1999.1563 :  DOI</dd>
 <br>
-<dt><a name="probez"></a><b>Probes</b></dt>
+<dt><a id="probez"></a><b>Probes</b></dt>
    <dd>MGI:200469 :  MGI</dd>
    <dd>14049 :  MGC</dd>
    <dd>303709 &nbsp; or&nbsp; 30026443 :  IMAGE</dd>
@@ -180,7 +174,7 @@ function openHelpWindow(helpFile){
    <dd>RP24-107E24 :  RPCI-24</dd>
    <dd>D11Mit10 :  BROAD</dd>
 <br>
-<dt><a name="expression"></a><b>Expression</b></dt>
+<dt><a id="expression"></a><b>Expression</b></dt>
  <dd>MA:0002769 :  Adult Mouse Anatomy</dd>
  <dd>MGI:1339360 :  Antibody</dd>
  <dd>MGI:1339359 :  Antigen</dd>
@@ -188,189 +182,184 @@ function openHelpWindow(helpFile){
  <dd>MGI:3501363 :  Expression Image</dd>
 <br>
 
-<dt><a name="mapping"></a><b>Mapping</b></dt>
+<dt><a id="mapping"></a><b>Mapping</b></dt>
   <dd>MGD-CREX-2231 :  MGI</dd>
- 
-</dl> 
-
+ </dl> 
 </blockquote>
-</p>
 
-<font size="-1"><A HREF="#top">Top</A></font>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="usetoquerymgi"></a>Examples of accession IDs to use in MGI queries </h3>
+<h3><a id="usetoquerymgi"></a>Examples of accession IDs to use in MGI queries </h3>
 <p><b>Note:</b> Using the listed ID may not yield a result on any given day because of data curation and load timing.</p>
 <TABLE BORDER=1 cellpadding=4>
-<TR><TH valign="top">If you query by...</th><TH valign="top">The result is...</TH><th valign="top">For example...</th><th valign="top">The format is...</TR>
-<TR><th colspan=4 align=left><a name="allele"></a>Allele</th></tr>
+<TR><TH>If you query by...</th><TH>The result is...</TH><th>For example...</th><th>The format is...</TR>
+<TR><th colspan=4><a id="allele"></a>Allele</th></tr>
 
-<tr><td> Allele symbol</td><td valign=top align=center rowspan=5>Alleles, Sequences<td>Apoe&lt;tm1Bres&gt;</sup></td><td valign="top" rowspan="5">Alphanumeric; some  with brackets, some with decimals</td></tr>
+<tr><td> Allele symbol</td><td rowspan=5>Alleles, Sequences<td>Apoe&lt;tm1Bres&gt;</sup></td><td  rowspan="5">Alphanumeric; some  with brackets, some with decimals</td></tr>
 <tr><td> Allele synonym </td><td>Pax3&lt;tm1Buck&gt;</td></tr>
  <tr><td>MGI Allele ID</td><td>MGI:1856798 </td></tr>
   <tr><td>Cell line ID</td><td>OST170322</td></tr>
 <tr><td>DNA Sequence for gene-trapped allele</td><td>EUCE0060g02.q1k5SPK</td></tr>
 
-<TR><th colspan=4 align=left><a name="expression"></a>Expression</th></tr>
-<tr><TD VALIGN="top">MGI assay ID</td><td align=center valign=top>Expression</td><TD VALIGN="top">MGI:1339505</td><TD VALIGN="top">Alphanumeric with colon</td></tr>
-<TR><th colspan=4 align=left>Genes & Markers</th></tr>
-<tr><td valign=top><a name="mgi_marker_ID"></a>MGI Marker ID</td><td valign=top align=center rowspan=13>Genes, Sequences
-</td><td valign=top>MGI:87895, MGD-MRK-1672</td><TD VALIGN="top">Alphanumeric with colon</td></tr>
-<tr><TD VALIGN="top">BROAD</td><TD VALIGN="top">D1184</td><TD VALIGN="top">Alphanumeric</td></TR>
-<tr><td valign="top">dbGSS mutant cell line ID</td><TD VALIGN="top">FHCRC-GT-S15-11C1</td><TD VALIGN="top">Alphanumeric</td></tr>
-<tr><td valign=top><nobr>DFCI Mouse Gene Index ID</td><td valign=top>TC1572427</td><td valign="top">Alphanumeric</td></tr>
-<tr><td valign=top>DoTS ID<td valign=top>DT.529646</td><TD VALIGN="top">Alphanumeric with decimal</td></tr>
-<tr><td valign=top>E.C. number</td><td valign=top>2.7.1.112</td><TD VALIGN="top">Numeric with decimals</td></tr>
-<tr><td valign=top>Ensembl ID<td valign=top>ENSMUSG00000005672</td><TD VALIGN="top">Alphanumeric</td></tr>
-<tr><td valign=top>Entrez ID</td><td valign=top>16590</td><TD VALIGN="top">Numeric</td></tr>
-<tr><td valign=top>NIA Mouse Gene Index ID<TD VALIGN="top">U041021</td><td valign=top>Alphanumeric</td></tr>
-<tr><td valign=top>UniGene ID<td valign=top>4394</td><TD VALIGN="top">Numeric</td></tr>
-<tr><td valign=top>UniProt<td valign=top>P6281</td><TD VALIGN="top">Alphanumeric</td></tr>
-<tr><td valign=top>UniSTS<td valign=top>125993</td><TD VALIGN="top">Numeric</td></tr>
-<tr><TD VALIGN="top">VEGA ID</td><TD VALIGN="top">OTTMUSG00000010935</td><TD ALIGN="top">Alphanumeric</td></TR>
+<TR><th colspan=4>Expression</th></tr>
+<tr><TD>MGI assay ID</td><td>Expression</td><TD>MGI:1339505</td><TD>Alphanumeric with colon</td></tr>
+<TR><th colspan=4>Genes &amp; Markers</th></tr>
+<tr><td><a id="mgi_marker_ID"></a>MGI Marker ID</td><td rowspan=13>Genes, Sequences
+</td><td>MGI:87895, MGD-MRK-1672</td><TD>Alphanumeric with colon</td></tr>
+<tr><TD>BROAD</td><TD>D1184</td><TD>Alphanumeric</td></TR>
+<tr><td>dbGSS mutant cell line ID</td><TD>FHCRC-GT-S15-11C1</td><TD>Alphanumeric</td></tr>
+<tr><td><span style="white-space: nowrap">DFCI Mouse Gene Index ID</span></td><td>TC1572427</td><td>Alphanumeric</td></tr>
+<tr><td>DoTS ID<td>DT.529646</td><TD>Alphanumeric with decimal</td></tr>
+<tr><td>E.C. number</td><td>2.7.1.112</td><TD>Numeric with decimals</td></tr>
+<tr><td>Ensembl ID<td>ENSMUSG00000005672</td><TD>Alphanumeric</td></tr>
+<tr><td>Entrez ID</td><td>16590</td><TD>Numeric</td></tr>
+<tr><td>NIA Mouse Gene Index ID<TD>U041021</td><td>Alphanumeric</td></tr>
+<tr><td>UniGene ID<td>4394</td><TD>Numeric</td></tr>
+<tr><td>UniProt<td>P6281</td><TD>Alphanumeric</td></tr>
+<tr><td>UniSTS<td>125993</td><TD>Numeric</td></tr>
+<tr><TD>VEGA ID</td><TD>OTTMUSG00000010935</td><td>Alphanumeric</td></TR>
 
 
-<TR><th colspan=4 align=left><a name="gene_classifications"></a>Gene Classifications</th></tr>
-<tr><td valign=top>Gene Ontology (GO) ID</td>
-<td align=center valign=top>Markers & vocabulary terms</td><td valign=top>GO:00302641</td><TD VALIGN="top">Alphanumeric with colon</TD></tr>
+<TR><th colspan=4><a id="gene_classifications"></a>Gene Classifications</th></tr>
+<tr><td>Gene Ontology (GO) ID</td>
+<td>Markers &amp; vocabulary terms</td><td>GO:00302641</td><TD>Alphanumeric with colon</TD></tr>
 </tr>
-<TR><th colspan=4 align=left>Human Diseases</th></tr>
-<tr><td valign="top">OMIM</td><td valign="top">Alleles & disease terms</td><TD VALIGN="top">168600</td><TD VALIGN="top">Numeric</td></TR>
-<TR><th colspan=4 align=left>Orthology Relationships</th></tr>
+<TR><th colspan=4>Human Diseases</th></tr>
+<tr><td><abbr title="Online Mendelian Inheritance in Man">OMIM</abbr></td><td>Alleles &amp; disease terms</td><TD>168600</td><TD>Numeric</td></TR>
+<TR><th colspan=4>Orthology Relationships</th></tr>
 <tr>
-  <TD VALIGN="top">E.C. Number</td>
-  <td align=center rowspan=7 valign=top>Orthology</td>
-  <td valign=top>2.7.1.112</td>
-  <TD VALIGN="top">Numeric with decimals</td>
-</tr>
-<tr>
-  <TD VALIGN="top">Ensembl ID</td>
-  <td valign=top>ENSMUSG00000005672</td>
-  <TD VALIGN="top">Alphanumeric</td>
+  <TD>E.C. Number</td>
+  <td rowspan=7>Orthology</td>
+  <td>2.7.1.112</td>
+  <TD>Numeric with decimals</td>
 </tr>
 <tr>
-  <td valign=top>Entrez Gene ID</td>
-  <TD VALIGN="top">56063</TD>
-  <TD VALIGN="top">Numeric</td></TR>
+  <TD>Ensembl ID</td>
+  <td>ENSMUSG00000005672</td>
+  <TD>Alphanumeric</td>
+</tr>
 <tr>
-  <td valign=top>Homologene</td>
-  <TD VALIGN="top">20151</TD>
-  <TD VALIGN="top">Numeric</td>
+  <td>Entrez Gene ID</td>
+  <TD>56063</TD>
+  <TD>Numeric</td></TR>
+<tr>
+  <td>Homologene</td>
+  <TD>20151</TD>
+  <TD>Numeric</td>
 </TR>
 <tr>
-  <td valign=top>HGNC ID</td>
-  <TD VALIGN="top">HGNC:28837</TD>
-  <TD VALIGN="top">Alphanumeric with colon</td>
+  <td><abbr title="HUGO Gene Nomenclature Committee">HGNC</abbr> ID</td>
+  <TD>HGNC:28837</TD>
+  <TD>Alphanumeric with colon</td>
 </TR>
-
-<<!--
-  <td valign=top>RefSeq ID</td>
-  <TD VALIGN="top">NM_09118</TD>
-  <TD VALIGN="top">Alphanumeric with underscore</td>
-</TR> -->tr>
+<tr>
+  <td>RefSeq ID</td>
+  <TD>NM_09118</TD>
+  <TD>Alphanumeric with underscore</td>
+</TR> 
  <tr>
- <TD VALIGN="top">VEGA ID</td>
- <TD VALIGN="top">OTTMUSG00000010935</td>
- <TD VALIGN="top">Alphanumeric</td>
+ <TD>VEGA ID</td>
+ <TD>OTTMUSG00000010935</td>
+ <TD>Alphanumeric</td>
    </TR>
-<TR><th colspan=4 align=left><a name="probes_clones"></a>Probes/Clones</th></tr>
- <tr><TD VALIGN="top">Affymetrix tissue/probe ID</td> <td align=center valign=top rowspan=8>Probes/Clones & Sequences</td><TD VALIGN="top">10379153<br>1424714_at<br>1451461_a_at</TD><TD VALIGN="top">Numeric or alphanumeric with underscore(s)</td></TR>
-  <tr><TD VALIGN="top">ATCC clone ID</td> <TD VALIGN="top">719230</TD><TD VALIGN="top">Numeric</td></TR>
-  <tr><TD VALIGN="top">BROAD</td><TD VALIGN="top">D1184</TD><TD VALIGN="top">Alphanumeric</td>
+<TR><th colspan=4><a id="probes_clones"></a>Probes/Clones</th></tr>
+ <tr><TD>Affymetrix tissue/probe ID</td> <td rowspan=8>Probes/Clones &amp; Sequences</td><TD>10379153<br>1424714_at<br>1451461_a_at</TD><TD>Numeric or alphanumeric with underscore(s)</td></TR>
+  <tr><TD>ATCC clone ID</td> <TD>719230</TD><TD>Numeric</td></TR>
+  <tr><TD>BROAD</td><TD>D1184</TD><TD>Alphanumeric</td>
   </TR>
   <tr>
-<TD VALIGN="top">GenBank/EMBL/DDBJ ID</td>
-<TD VALIGN="top">AA212080</td>
-<TD VALIGN="top">Alphanumeric</td>
+<TD>GenBank/EMBL/DDBJ ID</td>
+<TD>AA212080</td>
+<TD>Alphanumeric</td>
   </TR>
    <tr>
- <TD VALIGN="top">IMAGE clone ID</td><TD VALIGN="top">MGI:200469</TD><TD VALIGN="top">Alphanumeric with colon</td>
+ <TD>IMAGE clone ID</td><TD>MGI:200469</TD><TD>Alphanumeric with colon</td>
    </TR>
    <tr>
- <TD VALIGN="top">MGC</td><TD VALIGN="top">14049</td><TD VALIGN="top">Numeric</td>
+ <TD>MGC</td><TD>14049</td><TD>Numeric</td>
    </TR>
    <tr>
- <TD VALIGN="top">RIKEN clone ID</td><TD VALIGN="top">MGI:2420147</TD>
- <TD VALIGN="top">Alphanumeric with colon</td>
+ <TD>RIKEN clone ID</td><TD>MGI:2420147</TD>
+ <TD>Alphanumeric with colon</td>
    </TR>
    <tr>
- <TD VALIGN="top">RPCI</td> <TD VALIGN="top">RP23-100A23</td> <TD VALIGN="top">Alphanumeric</td></TR>
+ <TD>RPCI</td> <TD>RP23-100A23</td> <TD>Alphanumeric</td></TR>
 
-<TR><th colspan=4 align=left>Protein Domains</th></tr>
-<tr><TD VALIGN="top">InterPro ID</td><td align=center valign=top>Markers</td><TD VALIGN="top">IPR003599</TD>
-<TD VALIGN="top">Alphanumeric</td></TR>
+<TR><th colspan=4>Protein Domains</th></tr>
+<tr><TD>InterPro ID</td><td>Markers</td><TD>IPR003599</TD>
+<TD>Alphanumeric</td></TR>
 
-<TR><th colspan=4 align=left>Protein Structures</th></tr>
-<tr><TD VALIGN="top">PDB ID</
-td><td align=center valign=top>Markers</td><TD VALIGN="top">1FRB</TD><TD VALIGN="top">Alphanumeric</td></TR>
+<TR><th colspan=4>Protein Structures</th></tr>
+<tr><TD>PDB ID</td><td>Markers</td><TD>1FRB</TD>
+<TD>Alphanumeric</td></TR>
 
-<TR><th colspan=4 align=left>Protein Superfamilies</th></tr>
-<tr><TD VALIGN="top">PIRSF ID</td><td align=center valign=top>Protein family term</td><TD VALIGN="top">PIRSF016527</TD><TD VALIGN="top">Alphanumeric</td></TR>
+<TR><th colspan=4>Protein Superfamilies</th></tr>
+<tr><TD>PIRSF ID</td><td>Protein family term</td><TD>PIRSF016527</TD><TD>Alphanumeric</td></TR>
 
 
-<TR><th colspan=4 align=left>Protein Ontology</th></tr>
-<tr><TD VALIGN="top">Pro ID</td><td align=center valign=top>Markers & Sequences</td><TD VALIGN="top">PR:000003753</TD><TD VALIGN="top">Alphanumeric</td></TR>
+<TR><th colspan=4>Protein Ontology</th></tr>
+<tr><TD>Pro ID</td><td>Markers &amp; Sequences</td><TD>PR:000003753</TD><TD>Alphanumeric</td></TR>
 
-<TR><th colspan=4 align=left>References</th></tr>
-<tr><TD VALIGN="top">PubMed ID</td><td align=center valign=top rowspan=5>References</td><TD VALIGN="top">M14791, 8825637</TD><TD VALIGN="top">Alphanumeric or numeric</td></TR>
-<tr><TD VALIGN="top">PubMed ID</td><TD VALIGN="top">99236653</TD><TD VALIGN="top">Numeric</td></TR>
-<tr><TD VALIGN="top">DOI ID</td><TD VALIGN="top">10.1006/bbrc.1999.1563</TD><TD VALIGN="top">Alphanumeric or numeric</td></TR>
-<tr><TD VALIGN="top">MGI reference ID</td><TD VALIGN="top">MGI:15219</TD><TD VALIGN="top">Alphanumeric with colon</td></TR>
-<tr><TD VALIGN="top">J number<br> (Every MGI stored reference has a number of the form J:<i>nnnnn..</i>).</td><TD VALIGN="top">J:14135</TD>
-<TD VALIGN="top">Alphanumeric with colon</td></TR>
+<TR><th colspan=4>References</th></tr>
+<tr><TD>PubMed ID</td><td rowspan=5>References</td><TD>M14791, 8825637</TD><TD>Alphanumeric or numeric</td></TR>
+<tr><TD>PubMed ID</td><TD>99236653</TD><TD>Numeric</td></TR>
+<tr><TD>DOI ID</td><TD>10.1006/bbrc.1999.1563</TD><TD>Alphanumeric or numeric</td></TR>
+<tr><TD>MGI reference ID</td><TD>MGI:15219</TD><TD>Alphanumeric with colon</td></TR>
+<tr><TD>J number<br> (Every MGI stored reference has a number of the form J:<i>nnnnn..</i>).</td><TD>J:14135</TD>
+<TD>Alphanumeric with colon</td></TR>
 
 <!-- <TR><th colspan=4 align=left>SNPs</th></tr>
-<tr><td valign="top">dbSNP</td><td align="center" valign="top">RefSNPs & assay IDs</td><td valign="top">rs3021544<br>ss12750703
-</td><TD VALIGN="top">Alphanumeric</td></TR> -->
+<tr><td>dbSNP</td><td align="center">RefSNPs & assay IDs</td><td>rs3021544<br>ss12750703
+</td><TD>Alphanumeric</td></TR> -->
 
-<TR><th colspan=4 align=left>Sequences</th></tr>
+<TR><th colspan=4>Sequences</th></tr>
 <tr>
-  <TD VALIGN="top">GenBank/EMBL/DDBJ ID</td>
-  <td align=center valign=top>Markers, Probes/Clones, Sequences</td>
-  <TD VALIGN="top">S40294</td><TD VALIGN="top">Alphanumeric</td></tr>
+  <TD>GenBank/EMBL/DDBJ ID</td>
+  <td>Markers, Probes/Clones, Sequences</td>
+  <TD>S40294</td><TD>Alphanumeric</td></tr>
 <!--<tr>
-  <TD VALIGN="top">RefSeq ID</td>
-  <td align=center valign=top rowspan=10>Markers & Sequences</td><TD VALIGN="top">NM_0211099</td><TD VALIGN="top">Alphanumeric with underscore</td></tr> -->
+  <TD>RefSeq ID</td>
+  <td align=center rowspan=10>Markers & Sequences</td><TD>NM_0211099</td><TD>Alphanumeric with underscore</td></tr> -->
 <tr>
-  <td valign=top>Ensembl ID</td>
-  <td align=top>ENSMUSG00000005672<br>ENSMUSP00000080991</td>
-  <TD VALIGN="top">Alphanumeric</td>
+  <td>Ensembl ID</td>
+  <td>ENSMUSG00000005672<br>ENSMUSP00000080991</td>
+  <TD>Alphanumeric</td>
 </tr>
 
 <tr>
-  <TD VALIGN="top">SWISS-PROT ID</td>
-  <TD VALIGN="top">P05532</td>
-  <TD VALIGN="top">Alphanumeric</td>
+  <TD>SWISS-PROT ID</td>
+  <TD>P05532</td>
+  <TD>Alphanumeric</td>
 </tr>
-<tr><TD VALIGN="top">TrEMBL ID</td><TD VALIGN="top">AAA37420</td><TD VALIGN="top">Alphanumeric</td></tr>
-<tr><TD ALIGN="left" VALIGN="top">DFCI Mouse Gene Index ID</td><TD VALIGN="top">TC1572427</td><TD VALIGN="top">Alphanumeric</td></tr>
-<tr><TD VALIGN="top">DoTS ID</td><TD VALIGN="top">DT.529646</td><TD VALIGN="top">Alphanumeric with decimal</td></tr>
+<tr><TD>TrEMBL ID</td><TD>AAA37420</td><TD>Alphanumeric</td></tr>
+<tr><td>DFCI Mouse Gene Index ID</td><TD>TC1572427</td><TD>Alphanumeric</td></tr>
+<tr><TD>DoTS ID</td><TD>DT.529646</td><TD>Alphanumeric with decimal</td></tr>
 <tr>
-  <TD VALIGN="top">NIA Mouse Gene Index ID</td>
-  <td valign=top>U041021</td>
-  <td valign=top>Alphanumeric with dash</td>
-</tr>
-<tr>
-  <TD VALIGN="top">UniGene ID</td>
-  <TD VALIGN="top">4394</td>
-  <TD VALIGN="top">Numeric</td>
+  <TD>NIA Mouse Gene Index ID</td>
+  <td>U041021</td>
+  <td>Alphanumeric with dash</td>
 </tr>
 <tr>
-  <TD VALIGN="top">UniSTS</td>
-  <TD VALIGN="top">125993</td>
-  <TD VALIGN="top">Numeric</td>
+  <TD>UniGene ID</td>
+  <TD>4394</td>
+  <TD>Numeric</td>
+</tr>
+<tr>
+  <TD>UniSTS</td>
+  <TD>125993</td>
+  <TD>Numeric</td>
 </tr>
  <tr>
- <TD VALIGN="top">VEGA ID</td>
- <TD VALIGN="top">OTTMUSG00000015949<br> OTTMUST00000084765</td>
- <TD VALIGN="top">Alphanumeric</td>
+ <TD>VEGA ID</td>
+ <TD>OTTMUSG00000015949<br> OTTMUST00000084765</td>
+ <TD>Alphanumeric</td>
   </TR>
-<TR><th align=left>Gene trap IDs</th><td>Alleles & Sequences</td><td valign="top">See <a href="genetrap_usecase_help.shtml#creator_table">Cell Line Creators and Accession IDs</a> for specific examples.
-</td></td><td valign="top">Alphanumeric, some with special characters (e.g., dash or underscore)</td></tr>
-
-
+<TR><th>Gene trap IDs</th><td>Alleles &amp; Sequences</td><td>See <a href="genetrap_usecase_help.shtml#creator_table">Cell Line Creators and Accession IDs</a> for specific examples.
+</td><td>Alphanumeric, some with special characters (e.g., dash or underscore)</td></tr>
 </table>
 </p>
- <a href="#top"><font size="-1">Top</font></a>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'-->
 
