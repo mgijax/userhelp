@@ -44,11 +44,13 @@ function openHelpWindow(helpFile){
 <P>This help document answers the following questions:
 <UL>
  <LI><A HREF="#whatpurpose">What is the purpose of the Gene Expression Database?</a></li>
- <LI><A HREF="#whatquery">What can I use the Gene Expression Data Query Form to find?</a></li>
- <LI><A HREF="#howdo">How do I use this form?</a></li>
- <LI><A HREF="#fields">What values are acceptable in each of the query form fields?</a></li>
+ <LI><A HREF="#whatquery">What can I use the Gene Expression Data Standard Search to find?</a></li>
+ <LI><A HREF="#howdo">How do I use the Standard Search tab?</a></li>
+ <LI><A HREF="#fields">What values are acceptable in each of the Standard Search fields?</a></li>
  <li><A HREF="#whatdiffer">What is the purpose of the Differential Expression Search?</A></li>
  <li><A HREF="#howdiffer">How do I use the Differential Expression Search?</A></li>
+ <li><A HREF="#Dfields">What values are acceptable in each of the Differential Search fields?</a></li>
+  <li><a href="#batchchoices">Can I perform batch searches for expression data with multiple genes?</li>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
  <li><a href="#gxdfilter">How do I filter my results?</a></li>
  <li><a href="#whattabs">What are the advantages of the different results tabs?</a></li>
@@ -56,7 +58,6 @@ function openHelpWindow(helpFile){
  <li><a href="#matrixcolors">What do the colors in a Matrix mean?</a></li>
  <li><a href="#absent">How are absent results displayed through the matrix anatomy hierarchy?</a></li>
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
- <li><a href="#batchchoices">Can I perform batch searches for expression data with multiple genes?</li>
  <li><a href="#column">Can I upload a particular column of IDs/Symbols from a file?</li>
  <li><a href="#batch">Can I send the results of my search to the MGI Batch Query or MouseMine?</a></li>
  <li><a href="#null">What if the search does not find any expression results?</a></li>
@@ -73,7 +74,7 @@ function openHelpWindow(helpFile){
 </p>
 <p>See also the <a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a> for unfamiliar terms and acronyms.</p>
 
-<h3><a id="whatquery"></a>What can I use the Gene Expression Data query form to find?</h3>
+<h3><a id="whatquery"></a>What can I use the Gene Expression Data Standard Search to find?</h3>
 <p>The Gene Expression Data Query form Standard Search tab allows you to ask questions that can be basic or complex. Examples of the type of questions you can ask are:
  <ul>
   <li>When and where is <b>En1</b> expressed?</li>
@@ -90,14 +91,14 @@ field values for these queries.)
 <p>
 If you are interested in doing queries that ask what genes are expressed in some anatomical structures and/or developmental stages but not in others, you should use the Differential Expression Search tab on this form.</p>
 
-<h3><a id="howdo"></a>How do I use this query form?</h3>
+<h3><a id="howdo"></a>How do I use the Standard Search tab?</h3>
 
 <P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following table. After entering values in the query form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. 
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="fields"></a>What values are acceptable in each of the query form fields?</h3>
+<h3><a id="fields"></a>What values are acceptable in each of the Standard Search  fields?</h3>
 <table width="100%" cellpadding="4" class="nb" align="center">
  <tr align="center"><td><A HREF="#gene_nomenclature">Genes</A> | <A HREF="#map_position">Genome location</A> | 
  <A HREF="#anatomical_structure">Anatomical structure or stage</A> | <A HREF="#mutated_gene">Mutant / wild type</A> <!--| <A HREF="#background">Genetic background</A>--> | <A HREF="#assay_type">Assay types</A> </td>
@@ -218,8 +219,88 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
   
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="howdiffer"></a>How do I use the Differential Expression Search?</h3>
-<p>See <a href="EXPRESSION_expanded_help.shtml" target="_blank">Using the Differential Expression Search</a>.
+<h3><a id="howdiffer"></a>How do I use the Differential Expression form?</h3>
+
+<P>To search for detailed data using the Differential Expression form, enter or select values in one or more of the query form fields described in the following sections. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. 
+</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><a id="Dfields"></a>What values are acceptable in each of the Differential Search fields?</H3>
+<table width="!" cellpadding="4" class="nb">
+<tr><td><a href="#Danatomical_structure">Anatomical Structure</a> |  <a href="#Ddevelopmental_stage">Developmental Stage</a> | <a href="#Dstructurestage">Structure & Stage</a>
+</TD>
+  </TR>
+ </TABLE>
+
+The Differential Expression form lets you query for genes expressed in some anatomical structures and/or developmental stages but not in others. Use the &#9658; toggle to open one of the three sections. Only the open section is active. 
+<UL>
+<!--<LI>To specify structure(s), type an entry in the field or make stage selections from the list.  You may use both fields simultaneously.</LI>-->
+<LI>Structures and/or stages entered in the top field query the database for assay results demonstrating the expression of genes in those structures or stages.</LI>
+<LI>Structures or stages entered in the lower box query for the absence of expression of genes in those structures or stages.  <B>Note:</B> If the structure or stage in the lower box has conflicting expression results annotated to it, i.e., results showing both the presence and absence of expression of a particular gene, that gene is considered to be expressed and is not returned by this query.</LI>
+<li>These searches will return a list of genes whose expression was shown to be absent (not detected), as well as genes whose expression has not been analyzed or recorded in the database for the specified structures and stages.</li>
+<li>The search is limited to results from wild-type specimens. <B>Note:</B> Results from <i>in situ</i> reporter (knock-in) experiments will be returned if the results are from a heterozygote.</li>  
+</UL>
+
+<TABLE BORDER=1 CELLPADDING="4" width="100%">
+<TR> <TH>Field</TH> <TH>Description</TH> </TR>
+<td><a id="Danatomical_structure"></a><b>Anatomical Structure</b></td>
+<td>The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. Begin typing a term of interest and an autocomplete list activates on the second character. 
+
+<p>For each stage, the Anatomical Dictionary is organized as a hierarchy of structures. For the first field, <i>Find genes where expression is detected in</i>, the search includes substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon. <!--If you choose to include superstructures, the system, besides searching for brain, looks for structures in the hierarchy placed above brain, such as central nervous system.-->
+<p>You must enter a structure in both fields. </p>
+<p>Please note: 
+<!--<ul><li>If you enter more than one structure in the upper box, results demonstrating expression of a particular gene must exist for <b>all</b> the structures you specified in order for the query to return that gene.
+<li>If you enter more than one structure in the lower box, the query returns genes with an absence of expression in any of the specified structures.
+<li>If you click Any other structure, the query returns genes with expression in the specified structures but nowhere else.
+</ul>-->
+<p>If you are unsure of the most appropriate structural term to use, browse the
+<a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. </td>
+</tr>
+
+<tr><td><a id="Ddevelopmental_stage"></a><b>Developmental Stage</b></td>
+    <td>Use this field to select <a href="MISC_usingQFs_help.shtml#options" target="_blank">one or more</a> Theiler stages (TS) to focus your search on a particular stage of embryonic development. 
+<ul>
+	<li>The default for the lower box is <i>Any stages not selected above</i>. </li>
+    <li>If you enter more than one stage in the upper box, for the query to return a particular gene, results demonstrating its expression must exist for at least one of the specified stages.
+	<li>If you enter more than one stage in the lower box, the query returns those genes for which there was an absence of expression in <i>Any stages not selected above</i>.
+</ul>
+
+<p><b>Note</b>: The Theiler system organizes development into stages defined by the
+appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc. Therefore, if you are interested in all available records for embryos of age 14.0 dpc, you must select both TS 21 and TS 22.
+<p>You can <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage.
+<!--<tr><td><a id="and_not"></a><b>Expression: <br>and NOT detected in:<br>
+and NOT detected or analyzed in:</b><br></td><td><p>This portion of the form allows you to distinguish between two kinds of absence of expression. When you use:
+<ul>
+<li><b>and NOT detected in</b>, the query is for results where expression is <i>absent</i> in the specified structures or stages.</li>
+<li><b>and NOT detected or analyzed in</b>, the query is for genes with no positive expression results in the specified structures or stages. The result is genes whose expression has not been examined (not analyzed) in the specified structures and stages, as well those genes whose expression was <i>absent</i> (not detected).  This is particularly useful because authors tend to emphasize where a particular gene is expressed but often do not explicitly discuss where it was not expressed.</li>
+</ul></td></tr>-->
+
+<!--<tr><td><b>Exclude mutant specimens from query</b></td><td align="left">
+Since mutants often have aberrant expression patterns, by default, expression results obtained from specimens containing one or more mutant alleles are excluded from the query.  To include expression results obtained from mutants in your query, click to deselect this option.  <b>Note:</b> Because of the way the query is designed, knock-in embryos are considered mutants.  Therefore, if you exclude mutant specimens, the query returns no expression results 
+obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></td></tr>
+
+<tr><td><a id="Dstructurestage"></a><b>Structure and Stage</b></td><td>Use this section when you want to query for genes expressed in some structures and stages but not in other structures and stages. This section combines the query fields for the <a href="#anatomical_structure">Anatomical Structure</a> and <a href="#developmental_stage">Developmental Stage</a> fields. 
+<p>You must enter a structure in both fields.</p>
+</td></tr></td></tr>
+</blockquote>
+
+   </td>
+  </tr>
+</table>
+</TABLE>
+</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="batchchoices"></a>Can I perform batch searches for expression data with multiple genes?</h3>
+<p>Yes. There are 4 ways you can do this: 
+<ul>
+<li>In the Standard Search tab, you can enter a comma-separated list of genes.</li>
+<li>You can use the Batch Search tab to enter or <a href="#column">upload</a> a column of gene symbols or IDs. See <a href="EXPRESSION_batch_help.shtml">Using the Gene Expression Batch Search</a> for details.</li>
+<li>You can enter or upload symbols and IDs in the <a href="<!--#include file='include/fewi_url.html'-->batch">MGI Batch Query</a>, though the results from this form lack the tissue-by-gene matrix view, multi-tabbed data summary and filtering options of the Gene Expression Data form results.</li>
+<li>You can search with a list of symbols or IDs in <a href="http://www.mousemine.org/mousemine/begin.do#Expression">MouseMine</a> and perform iterative refinement of results and link to other model organism Mines.</li>
+</ul>
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
@@ -413,18 +494,6 @@ Individual cells have the ability to filter as well. Clicking on a cell displays
 
 <h3><a id="excelfile_gxdqf"></a>Can I get my results as tab-delimited text or spreadsheet files?</h3>
 <p>Yes. The <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a> tabs but not the others, provide export options. In your search results, click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
-<h3><a id="batchchoices"></a>Can I perform batch searches for expression data with multiple genes?</h3>
-<p>Yes. There are 4 ways you can do this: 
-<ul>
-<li>In the Standard Search tab, you can enter a comma-separated list of genes.</li>
-<li>You can use the Batch Search tab to enter or <a href="#column">upload</a> a column of gene symbols or IDs. See <a href="EXPRESSION_batch_help.shtml">Using the Gene Expression Batch Search</a> for details.</li>
-<li>You can enter or upload symbols and IDs in the <a href="<!--#include file='include/fewi_url.html'-->batch">MGI Batch Query</a>, though the results from this form lack the tissue-by-gene matrix view, multi-tabbed data summary and filtering options of the Gene Expression Data form results.</li>
-<li>You can search with a list of symbols or IDs in <a href="http://www.mousemine.org/mousemine/begin.do#Expression">MouseMine</a> and perform iterative refinement of results and link to other model organism Mines.</li>
-</ul>
-</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

@@ -71,21 +71,21 @@ function openHelpWindow(helpFile){
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="howdo"></a>How do I use this query form?</h3>
+<h3><a id="howdiffer"></a>How do I use the Differential Expression form?</h3>
 
-<P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following paragraphs. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. 
+<P>To search for detailed data using the Differential Expression form, enter or select values in one or more of the query form fields described in the following paragraphs. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. 
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><a id="fields"></a>What values are acceptable in each of the fields?</H3>
+<H3><a id="Dfields"></a>What values are acceptable in each of the fields?</H3>
 <table width="!" cellpadding="4" class="nb">
-<tr><td><font size="-1"><a href="#anatomical_structure">Anatomical Structure</a> |  <a href="#developmental_stage">Developmental Stage</a> | <a href="#structurestage">Structure & Stage</a> </font>
+<tr><td><a href="#Danatomical_structure">Anatomical Structure</a> |  <a href="#Ddevelopmental_stage">Developmental Stage</a> | <a href="#Dstructurestage">Structure & Stage</a>
 </TD>
   </TR>
  </TABLE>
 
-This form lets you query for genes expressed in some anatomical structures and/or developmental stages but not in others. Use the &#9658; toggle to open one of the three sections. Only the open section is active. 
+The Differential Expression form lets you query for genes expressed in some anatomical structures and/or developmental stages but not in others. Use the &#9658; toggle to open one of the three sections. Only the open section is active. 
 <UL>
 <!--<LI>To specify structure(s), type an entry in the field or make stage selections from the list.  You may use both fields simultaneously.</LI>-->
 <LI>Structures and/or stages entered in the top field query the database for assay results demonstrating the expression of genes in those structures or stages.</LI>
@@ -96,7 +96,7 @@ This form lets you query for genes expressed in some anatomical structures and/o
 
 <TABLE BORDER=1 CELLPADDING="4" width="100%">
 <TR> <TH>Field</TH> <TH>Description</TH> </TR>
-<td><a id="anatomical_structure"></a><b>Anatomical Structure</b></td>
+<td><a id="Danatomical_structure"></a><b>Anatomical Structure</b></td>
 <td>The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. Begin typing a term of interest and an autocomplete list activates on the second character. 
 
 <p>For each stage, the Anatomical Dictionary is organized as a hierarchy of structures. For the first field, <i>Find genes where expression is detected in</i>, the search includes substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon. <!--If you choose to include superstructures, the system, besides searching for brain, looks for structures in the hierarchy placed above brain, such as central nervous system.-->
@@ -110,7 +110,7 @@ This form lets you query for genes expressed in some anatomical structures and/o
 <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. </td>
 </tr>
 
-<tr><td><a id="developmental_stage"></a><b>Developmental Stage</b></td>
+<tr><td><a id="Ddevelopmental_stage"></a><b>Developmental Stage</b></td>
     <td>Use this field to select <a href="MISC_usingQFs_help.shtml#options" target="_blank">one or more</a> Theiler stages (TS) to focus your search on a particular stage of embryonic development. 
 <ul>
 	<li>The default for the lower box is <i>Any stages not selected above</i>. </li>
@@ -132,7 +132,7 @@ and NOT detected or analyzed in:</b><br></td><td><p>This portion of the form all
 Since mutants often have aberrant expression patterns, by default, expression results obtained from specimens containing one or more mutant alleles are excluded from the query.  To include expression results obtained from mutants in your query, click to deselect this option.  <b>Note:</b> Because of the way the query is designed, knock-in embryos are considered mutants.  Therefore, if you exclude mutant specimens, the query returns no expression results 
 obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></td></tr>
 
-<tr><td><a id="structurestage"></a><b>Structure and Stage</b></td><td align="left">Use this section when you want to query for genes expressed in some structures and stages but not in other structures and stages. This section combines the query fields for the <a href="#anatomical_structure">Anatomical Structure</a> and <a href="#developmental_stage">Developmental Stage</a> fields. 
+<tr><td><a id="Dstructurestage"></a><b>Structure and Stage</b></td><td>Use this section when you want to query for genes expressed in some structures and stages but not in other structures and stages. This section combines the query fields for the <a href="#anatomical_structure">Anatomical Structure</a> and <a href="#developmental_stage">Developmental Stage</a> fields. 
 <p>You must enter a structure in both fields.</p>
 </td></tr></td></tr>
 </blockquote>
