@@ -63,7 +63,7 @@ function openHelpWindow(helpFile){
 <!--<li><a href="#why_listed">Why is a gene listed multiple times in a report?</a></li>-->
 <li><a href="#go_codes">What do the acronyms in the Gene Ontology "code" column mean?</a></li>
 <!--<li><a href="#lost_file">I clicked Back and when I returned to my query, the file I was uploading disappeared.</a></li>-->
-<li><a href="#speed">What can I do to speed up my query?</a></li>
+<!--<li><a href="#speed">What can I do to speed up my query?</a></li>-->
 <li><a href="#no_results">My query returned no results or <i>No associated gene</i> in one of the report columns. Why?</a></li>
 <li><a href="#example">Are there examples?</a></li>
 </ul>
@@ -85,7 +85,7 @@ function openHelpWindow(helpFile){
 	<ul>
 	  <li>gene ontology (GO) terms </li>
 	  <li>mammalian phenotype (MP) terms</li>
-	  <li>human disease (OMIM) terms</li>
+	  <li>human disease (DO and OMIM) terms</li>
 	  <li>MGI allele IDs</li>
 	  <li>gene expression tissue/assay data</li>
 	  <li>GenBank/RefSeq IDs</li>
@@ -369,7 +369,7 @@ The results are initially returned in web format and then you can choose to Expo
 
 
 <h4><a id="do"></a>Human Disease (DO) results</h4>
-<p>Human Disease terms appear by gene, followed by an ID and the Mammalian Phenotype vocabulary term entry.</p>
+<p>Human Disease terms appear by gene, followed by an ID and the Disease Ontology vocabulary term entry.</p>
 <ul>
    <li>Each term listed indicates that a mutant allele of this gene is involved in a mouse genotype used as a disease model.</li>
   <li>The term does not necessarily imply that mutations in that gene contribute to or cause the disease.</li>
@@ -410,7 +410,7 @@ The results are initially returned in web format and then you can choose to Expo
 <p>See <A HREF="http://www.geneontology.org/GO.evidence.shtml" target="_blank">Guide to GO Evidence Codes</a> at the Gene Ontology website. 
 </p>
 
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+<!--<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="speed"></a>What can I do to speed up my query?</h3>
 <p>There are several options for speeding up a query.</p>
@@ -418,7 +418,7 @@ The results are initially returned in web format and then you can choose to Expo
   <li>Break the  ID or symbol list into pieces and run several queries. </li>
   <li>Eliminate Gene Attributes (remove the click next to Nomenclature) or select fewer of them (for example, only Ensembl ID, only Entrez Gene ID, or only VEGA ID).</li>
 <li>Click None beneath Additional Information or select something other than RefSNP ID. If you want RefSNP IDs, using smaller input files will speed up the query.</li>
-</ol>
+</ol>-->
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

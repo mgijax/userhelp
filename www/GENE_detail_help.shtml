@@ -165,10 +165,10 @@ dt { text-align: left; font-style: bold;
 		</tr>
 		</table>
 <tr><th><a name="diseases"></a>Human Diseases</th>
-	<td>MGI uses the catalog of human genetic disorders from the Online Mendelian Inheritance in Man (OMIM) database to curate mouse models of human diseases. Depending on availability, the display includes some or all of the following links or information. The numbers indicate how many items in each linked report.
+	<td>Human gene to disease associations are from the NCBI mim2gene_medgen file and include annotations from <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr>, NCBI curation, Gene Reviews, and Gene Tests. Mouse genes are associated with human diseases through mouse genotypes described in publications and annotated to the Disease Ontology (a href="http://disease-ontology.org/" target="_blank">DO</a>), a hierarchical standardized ontology that integrates vocabularies from MeSH, ICD, NCI's thesaurus, SNOMED and <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr>.
 <ul>
-<li>The number of human diseases in OMIM modeled by mice with mutations in this gene and the total number of human diseases associated with this gene in OMIM.</li>
-<li>A table of human diseases OMIM has associated with the gene. The OMIM IDs link to the the OMIM disease page and the disease names link to the MGI Human Disease and Mouse Model Detail pages. Mouse and human icons categorize the associated genes by the following conditions: 
+<li>The number of human diseases modeled by mice with mutations in this gene and the total number of human diseases associated with the human gene.</li>
+<li>A table of human diseases associated with the gene. The DO IDs link to the the Disease Ontology disease page and the disease names link to the MGI Human Disease and Mouse Model Detail pages. Mouse and human icons categorize the associated genes by the following conditions: 
     <ul>
         <li><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif"><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">The disease is associated with both the mouse and human homologs of the same gene. Mouse genes may appear in this section based on disease models that express homologs of the mouse gene.</li>
         <li><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif">Mouse models involving mutations in the mouse gene or expressing homologs of the mouse gene are associated with this human disease. (OMIM and NCBI data currently do not associate this disease with the homologous human gene.)</li>
