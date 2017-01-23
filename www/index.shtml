@@ -45,7 +45,7 @@ User Help Site Map
 <dt class="enhance">Genes & Genome Features</dt>
   <blockquote>
   	<dt><b>Genes & Markers</b></dt>
-	<dd><a href="GENE_help.shtml" onclick="javascript:openHelpWindow('GENE_help.shtml'); return false;">Using the Genes and Markers Query Form</a></dd>
+	<dd><a href="GENE_help.shtml" target="_blank">Using the Genes and Markers Query Form</a></dd>
   	<dd><a href="GENE_summary_help.shtml" onclick="javascript:openHelpWindow('GENE_summary_help.shtml'); return false;">Interpreting a Genes and Markers Summary</a></dd>
   	<dd><a href="GENE_detail_help.shtml" onclick="javascript:openHelpWindow('GENE_detail_help.shtml'); return false;">Interpreting Gene Details</a></dd>
 	<dd><a href="GENE_feature_types_help.shtml" onclick="javascript:openHelpWindow('GENE_feature_types_help.shtml'); return false;">Genome Feature Type Definitions</a></dd>
@@ -89,7 +89,7 @@ User Help Site Map
 <dt class="enhance">Gene Expression</dt>
          
 <blockquote>
-	<dd><a href="EXPRESSION_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_help.shtml'); return false;">
+	<dd><a href="EXPRESSION_help.shtml" target="_blank">
               Using the Gene Expression Data Query Form</a></dd>
 	<dd><a href="EXPRESSION_expanded_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_expanded_help.shtml'); return false;">
               Using the Differential Expression Search</a></dd>
@@ -200,7 +200,7 @@ User Help Site Map
 	<dt class="enhance">Vocabularies        
 	<dd><a href="VOCAB_go_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_go_browser_help.shtml'); return false;">Using the Gene Ontology (GO) Browser</a></dd>
 	<dd><a href="GO_classification_report_help.shtml" onclick="javascript:openHelpWindow('GO_classification_report_help.shtml'); return false;">Interpreting the Gene Ontology Classifications Report</a></dd>		
-	<dd><a href="VOCAB_omim_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_omim_browser_help.shtml'); return false;">Using the Human Disease Vocabulary Browser</a></dd>
+	<dd><a href="VOCAB_omim_browser_help.shtml" target="_blank">Using the Human Disease Vocabulary Browser</a></dd>
 	<dd><a href="VOCAB_omim_browser_detail_help.shtml" onclick="javascript:openHelpWindow('VOCAB_omim_browser_detail_help.shtml'); return false;">Interpreting Human Disease and Mouse Model Details</a></dd>
 	<dd><a href="VOCAB_mp_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_mp_browser_help.shtml'); return false;">Using the Mammalian Phenotype (MP) Browser</a></dd>		
 	<dd><a href="VOCAB_mad_browser_help.shtml" onclick="javascript:openHelpWindow('VOCAB_mad_browser_help.shtml'); return false;">Using the Mouse Developmental Anatomy Browser</a></dd>		
