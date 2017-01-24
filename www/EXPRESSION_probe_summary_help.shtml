@@ -33,7 +33,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 
 <a id="top"></a>
 
-<P><a id="summary"></a>This help document describes how to interpret a cDNA Clone Source Data Summary. In the summarized results, each probe/clone accession ID is highlighted and linked to the detail report for that probe/clone. Probes and markers may be associated by sequence identities, hybridization, or putative relationships. We are exploring ways to make this summary more useful to you, for a future release. </P>
+<P><a id="summary"></a>This help document describes how to interpret a Clone Source Data Summary. In the summarized results, each probe/clone accession ID is highlighted and linked to the detail report for that probe/clone. Probes and markers may be associated by sequence identities, hybridization, or putative relationships. </P>
 <P>See also:
 <UL>
   <LI><A HREF="EXPRESSION_probe_detail_help.shtml" target="_blank">Interpreting Probe and Clone Data Details</A></LI>
