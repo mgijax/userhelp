@@ -45,7 +45,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 <tr><th>Clone Collection</th> <td>Name of the collection to which the clone belongs.</td></tr>
 <tr><th>Source Tissue</th> <td>The tissue used to generate the cDNA library</td></tr>
 <tr><th>Source Age</th> <td>The age of the animal when the tissue was harvested</td></tr>
-<tr><th><span style="white-space: nowrap">Source Cell Line</span></th> <tr>The cell line used to generate the library</td></tr>
+<tr><th><span style="white-space: nowrap">Source Cell Line</span></th> <td>The cell line used to generate the library</td></tr>
 <tr><th>Gene</th> <td>The gene associated with the clone.</td></tr>
 </table>
 
