@@ -47,9 +47,9 @@ Using the Disease Ontology (DO) Browser</span>
  <ul>
   <li><a href="#howare">How is the Disease Ontology organized?</a></li>
   <li><a href="#whatcan">What can I use the Disease Ontology Browser to find?</a></li>
-  <li><a href="#include">What is the difference between browsing and searching the vocabulary?</a></li>
+  <!--<li><a href="#include">What is the difference between browsing and searching the vocabulary?</a></li>-->
   <li><a href="#browse">How do I browse the vocabulary?</a></li>
-  <li><a href="#search">How do I search the vocabulary?</a></li>
+  <!--<li><a href="#search">How do I search the vocabulary?</a></li>-->
   <li><a href="#results">What can I find on the query results report?</a></li>
   <li><a href="#term_detail">How do I interpret a Term Detail report?</a></li>
   <li><a href="#mp_summary">How do I interpret the Disease Ontology Annotations Query Results?</a></li>
@@ -59,12 +59,21 @@ Using the Disease Ontology (DO) Browser</span>
 <p>See also:
 <ul>
   <li><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a> for unfamiliar terms (or for how MGI defines specific terms) and acronyms. </li>
-  <li><a href="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</a></li>
-  <li><a href="MISC_wildcard_help.shtml" target="_blank">Using Wildcards on MGI Query Forms</a></li>
+  <!--<li><a href="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</a></li>
+  <li><a href="MISC_wildcard_help.shtml" target="_blank">Using Wildcards on MGI Query Forms</a></li>-->
 </ul></p>
 
 <h3><a id="howare"></a>How is the Disease Ontology organized?<h3>
 
+<p>The Disease Ontology is built on a Directed Acyclic Graph (DAG) structure. In a DAG, an ontology term can have more than one parent term. The Disease Ontology (a href="http://disease-ontology.org/" target="_blank">DO</a>), is a hierarchical standardized ontology that integrates vocabularies from MeSH, ICD, NCI's thesaurus, SNOMED and <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr>. Its hierarchical structure permits a range of detail from high-level, broadly descriptive terms to very low-level, highly specific terms. This range is useful for annotating mouse model data to the level of detail known and for searching for this information using either broad or specific terms as search criteria.
+</p>
+
+<h3><a id="whatcan"></a>What can I use the Disease Ontology Browser to find?</h3>
+
+<p>***</p>
+
+<p>The top of the page shows the disease term, its DO ID, synonyms, Alternative IDs, linked when possible to the relevant source, and the term definition. The main body of the page provides 3 tabbed views.
+</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

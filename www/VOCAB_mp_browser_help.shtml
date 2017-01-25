@@ -39,20 +39,21 @@ Using the Mammalian Phenotype (MP) Browser</span>
 
 <!-- Body of User Help -->
 
-<A name="top"></A>
+<A id="top"></A>
+
 <P>The Mammalian Phenotype (MP) Ontology is a community effort to provide standard terms for annotating phenotypic data. You can use this browser to view terms, definitions, and term relationships in a hierarchical display. Links to summary annotated phenotype data at MGI are provided in Term Detail reports.
 
 <P>This help document answers the following questions about the MP Browser:
  <UL>
   <LI><A HREF="#howare">How is the Mammalian Phenotype Ontology organized?</A>
- <LI><A HREF="#whatcan">What can I use the Mammalian Phenotype Browser to find?</A>
- <LI><A HREF="#include">What is the difference between browsing and searching the vocabulary?</A>
+  <LI><A HREF="#whatcan">What can I use the Mammalian Phenotype Browser to find?</A>
+  <LI><A HREF="#include">What is the difference between browsing and searching the vocabulary?</A>
   <LI><A HREF="#browse">How do I browse the vocabulary?</A>
   <LI><A HREF="#search">How do I search the vocabulary?</A>
- <LI><A HREF="#results">What can I find on the query results report?</A>
- <LI><A HREF="#term_detail">How do I interpret a Term Detail report?</A>
- <LI><A HREF="#mp_summary">How do I interpret the Mammalian Phenotype Ontology Annotations Query Results?</A>
- <LI><A HREF="#contribute">How can I contribute to the vocabulary?</A>
+  <LI><A HREF="#results">What can I find on the query results report?</A>
+  <LI><A HREF="#term_detail">How do I interpret a Term Detail report?</A>
+  <LI><A HREF="#mp_summary">How do I interpret the Mammalian Phenotype Ontology Annotations Query Results?</A>
+  <LI><A HREF="#contribute">How can I contribute to the vocabulary?</A>
  </UL>
 
 <P>See also:
@@ -61,24 +62,25 @@ Using the Mammalian Phenotype (MP) Browser</span>
   <LI><A HREF="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</A></LI>
   <LI><A HREF="MISC_wildcard_help.shtml" target="_blank">Using Wildcards on MGI Query Forms</A></LI>
 </UL>
+</p>
 
-  <H3><A NAME="howare"></A>How is the Mammalian Phenotype Ontology organized?</H3>
+<H3><A id="howare"></A>How is the Mammalian Phenotype Ontology organized?</H3>
 <P>The Mammalian Phenotype Ontology has a hierarchical structure that permits a range of detail from high-level, broadly descriptive terms to very low-level, highly specific terms. This range is useful for annotating phenotypic data to the level of detail known and for searching for this information using either broad or specific terms as search criteria.</P>
 
-
- <H3><A NAME="whatcan"></A>What can I use the Mammalian Phenotype Browser to find?</H3>
+<H3><A id="whatcan"></A>What can I use the Mammalian Phenotype Browser to find?</H3>
 <P>Use the Browser to find vocabulary terms that may be used in annotations of phenotypic data.  You can choose a term here to search, using the <B>Phenotype/Disease</B> box on the
-<A HREF="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A>.</P>
-<font size="-1"><a href="#top">Top</a>
-</font>
-<H3><A NAME="include"></A>What is the difference between and browsing and searching the vocabulary?</H3>
+<A HREF="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</a>.</P>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><A id="include"></A>What is the difference between and browsing and searching the vocabulary?</H3>
 
 <P>You can either browse or search from the MP Browser entry report. Browsing brings up Term Detail reports displaying the relevant information, including any synonyms associated with the phenotype term. Searching requires entering a text string or full MP accession number in the <B>Query</B> box and clicking <B>Search</B>. This brings up a Query Results report displaying all matches.</P>
 
-<H3><A NAME="browse"></A>How do I browse the vocabulary?</H3>
+<H3><A id="browse"></A>How do I browse the vocabulary?</H3>
 <P>To browse the vocabulary, click a category and navigate until you find the desired phenotypic term. You can copy term IDs into the <B>Phenotypes</B> box on the <A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A> to search for data associated with this term.</P>
 
-<H3><A NAME="search"></A>How do I search the vocabulary?</H3>
+<H3><A id="search"></A>How do I search the vocabulary?</H3>
 
 <P>The MP Browser query field accepts any text string and searches for all terms containing that string and any synonyms. For example, if you enter <i>eye</i> in the MP Browser, the search returns all terms which include "eye."
 
@@ -89,58 +91,60 @@ Using the Mammalian Phenotype (MP) Browser</span>
 <LI>Click <B>Submit Query</B>. The <B>Mammalian Phenotype Browser - Query Results</B> report lists any matches found.
 <LI>Click on the desired term to view its Term Detail report.
 </UL></P>
-<font size="-1"><a href="#top">Top</a>
-</font>
- <H3><A NAME="results"></A>What can I find on the query results report?</H3>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><A id="results"></A>What can I find on the query results report?</H3>
 
 <P>The <B>Mammalian Phenotype Browser - Query Results</B> report lists any matches found. Click the desired term from the query results list.
 The Field Description - Term Detail report appears.</P>
-<font size="-1"><a href="#top">Top</a>
-</font>
-<H3><A NAME="term_detail"></A>How do I interpret a Term Detail report?</H3>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><A id="term_detail"></A>How do I interpret a Term Detail report?</H3>
 
 <TABLE BORDER CELLPADDING="4">
 <TR><TH>Field</TH> <TH>Color</TH> <TH>Description</TH>
 </TR>
 <TR><TD>MP term, MP ID<BR>Definition, Synonyms,<BR>Number of paths to term</TD>
-    <TD VALIGN="top">
+    <TD>
       <TABLE BORDER="0" CELLSPACING="0" BGCOLOR="#FFFFCC">
-        <TR><TD VALIGN="top">Yellow</TD></TR>
+        <TR><TD>Yellow</TD></TR>
        </TABLE>
-    <TD VALIGN="top">Selected phenotype term, unique identifier for the term, definition of the term, any synonyms associated with the term, and number of paths to the term in the vocabulary structure. Some terms may also have Alternate IDs.</TD>
+    <TD>Selected phenotype term, unique identifier for the term, definition of the term, any synonyms associated with the term, and number of paths to the term in the vocabulary structure. Some terms may also have Alternate IDs.</TD>
 </TR>
-<TR><TD VALIGN="top">Unique identifier</TD><TD><FONT COLOR="#FF0000">Red</FONT></TD><TD>Name of the phenotype term selected, followed by the a unique identifier. There is one identifier for each term in the MP Browser. This means that no matter how many times the term appears, the ID is always the same. This is also true if the term changes. For example, if  "anophthalmia" becomes simply "absent eyes," the Mammalian Phenotype identifier does not change.</TD>
-</TR>
-<TR>
-<TD VALIGN="top"><img src="<!--#include file='include/webshare_url.html'-->images/is-a.gif"> "Is-a" Relationship</TD><TD VALIGN="top"><FONT COLOR="#008000">Green</FONT></TD><TD VALIGN="top">Indicates that the term is an instance or type of the more general term above it in the tree. For example, anophthalmia is a type of eye abnormality.</TD>
+<TR><TD>Unique identifier</TD><TD><FONT COLOR="#FF0000">Red</FONT></TD><TD>Name of the phenotype term selected, followed by the a unique identifier. There is one identifier for each term in the MP Browser. This means that no matter how many times the term appears, the ID is always the same. This is also true if the term changes. For example, if  "anophthalmia" becomes simply "absent eyes," the Mammalian Phenotype identifier does not change.</TD>
 </TR>
 <TR>
-<TD VALIGN="top"><FONT COLOR="#0000FF">+</FONT></TD><TD><FONT COLOR="#0000FF">Blue</FONT></TD><TD>A plus sign (+) following a term indicates that the term has children. Click to see the additional paths to the term.</TD>
+<TD><img src="<!--#include file='include/webshare_url.html'-->images/is-a.gif"> "Is-a" Relationship</TD><TD><FONT COLOR="#008000">Green</FONT></TD><TD>Indicates that the term is an instance or type of the more general term above it in the tree. For example, anophthalmia is a type of eye abnormality.</TD>
 </TR>
-<TR><TD VALIGN="top"># genotypes<BR># annotations</TD><TD VALIGN="top"><FONT COLOR="#0000FF">Blue</FONT><TD>Number of genotypes annotated to the term or a descendant of the term. Click this link to see the Mammalian Phenotype Ontology Annotation Query Results -- Summary.</TD></TR>
+<TR>
+<TD><FONT COLOR="#0000FF">+</FONT></TD><TD><FONT COLOR="#0000FF">Blue</FONT></TD><TD>A plus sign (+) following a term indicates that the term has children. Click to see the additional paths to the term.</TD>
+</TR>
+<TR><TD># genotypes<BR># annotations</TD><TD><FONT COLOR="#0000FF">Blue</FONT><TD>Number of genotypes annotated to the term or a descendant of the term. Click this link to see the Mammalian Phenotype Ontology Annotation Query Results -- Summary.</TD></TR>
 </TABLE>
 </P>
-<font size="-1"><a href="#top">Top</a>
-</font>
 
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A NAME="mp_summary"></A>How do I interpret the Mammalian Phenotype Ontology Annotations Query Results?</H3>
+<H3><A id="mp_summary"></A>How do I interpret the Mammalian Phenotype Ontology Annotations Query Results?</H3>
 <P>The summary report presents a list of MGI genotypes annotated to a term or its descendants. You access this report  by clicking the text displaying the number of genotypes and  annotations for a featured term in the MP browser or the number of phenotypes in the Mutations, Alleles, and Phenotypes section of a Gene Detail page. Depending upon how you reached the results, you may be offered the option of exporting the results in a spreadsheet format. 
 <TABLE BORDER CELLPADDING="4">
 <TR><TH>Field</TH><TH>Description</TH>
 
-<TR><TD VALIGN="top">Genotype/Allelic Composition (Genetic Background)</TD><TD>The genotype composed of the mutation, linked to the MGI Allele Detail report, and the mouse strain background.</TD></TR>
-<TR><TD VALIGN="top">Annotated Term</TD><TD VALIGN="top">Specific MP term used to describe the given genotype, linked to its Mammalian Phenotype Ontology Term  Detail report.</TD></TR>
-<TR><TD VALIGN="top">Reference</TD><TD VALIGN="top">A listing of the supporting MGI references, linked to the References Detail report containing the full citation, with links to the Journal (if available) and data curated from the reference.</TD></TR>
+<TR><TD>Genotype/Allelic Composition (Genetic Background)</TD><TD>The genotype composed of the mutation, linked to the MGI Allele Detail report, and the mouse strain background.</TD></TR>
+<TR><TD>Annotated Term</TD><TD>Specific MP term used to describe the given genotype, linked to its Mammalian Phenotype Ontology Term  Detail report.</TD></TR>
+<TR><TD>Reference</TD><TD>A listing of the supporting MGI references, linked to the References Detail report containing the full citation, with links to the Journal (if available) and data curated from the reference.</TD></TR>
 </TABLE>
 </P>
-<font size="-1"><a href="#top">Top</a>
-</font>
 
- <H3><A NAME="contribute"></A>How can I contribute to the vocabulary?</H3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><A id="contribute"></A>How can I contribute to the vocabulary?</H3>
 <P>Your input is welcome.  Additional terms or revisions may be requested
 through our <a href="http://sourceforge.net/tracker/?atid=1109502&group_id=76834" target="_blank">tracking system</a>  at Sourceforge.  Please <A HREF="mailto:pheno@informatics.jax.org">contact</A> us with suggestions, additions, or questions about the Mammalian Phenotype Ontology.
-<BR>
-<P>
-<font size="-1"><a href="#top">Top</a>
-</font><!--#include file='include/templateBlankBodyStop.html'--> 
+</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<!--#include file='include/templateBlankBodyStop.html'--> 
