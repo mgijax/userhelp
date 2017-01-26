@@ -85,7 +85,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
  <tr><td><i>phenotype</i></td><td>A description of the observable state of an individual with respect to some inherited characteristic. Often, individuals with different genotypes display the same phenotype. See also <I>dominant</I> and <I>recessive</I> in the <A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a>.<br>
  <!--In MGI, the specific vocabulary of the Mammalian Phenotype Ontology.--></td></tR>
 
-<tr><td><i>disease</i></td><td> A human disease, syndrome, or condition described in the Disease Ontology (<a href="http://disease-ontology.org/">DO</a>).</td></tr>
+<tr><td><i>disease</i></td><td> A human disease, syndrome, or condition described in the Disease Ontology (<a href="http://disease-ontology.org/">DO</a>) or <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr>.</td></tr>
 
 <tr><td><i>allele</i></td><td>One of the variant forms of a gene, differing from other forms in its nucleotide sequence. <i>Allele category, allele combination</i> and <i>allele pair</i> also appear in the 
 <A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A>.</td></tr>
@@ -171,8 +171,8 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <OL>
   <LI>select from the pick list of anatomical systems affected by phenotypes.</LI>
   <LI>browse and select Mammalian Phenotype (MP) terms or accession IDs from the full, hierarchical ontology.</LI>
-  <li>browse and select human disease terms from the Human Disease (OMIM) Vocabulary.</li>
-  <LI>type in your own terms connected by Boolean operators (AND, OR) and click <b>Search.</b> The system searches all MP annotation terms, synonyms, IDs and annotation notes as well as OMIM human disease terms, synonyms, and IDs.</LI>
+  <li>browse and select human disease terms from the Human Disease (DO) Vocabulary.</li>
+  <LI>type in your own terms connected by Boolean operators (AND, OR) and click <b>Search.</b> The system searches all MP annotation terms, synonyms, IDs and annotation notes as well as <abbr title="Disease Ontology">DO</abbr> and <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr> human disease terms, synonyms, and IDs.</LI>
   <LI>create a query using any combination of options 1-4.</LI>
 </OL>
 <P>To select phenotype terms from a pick list:
