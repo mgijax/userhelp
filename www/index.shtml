@@ -42,9 +42,9 @@ User Help Site Map
 
 <dl class="linkedList">
 <a id="help_marker"></a> 
-<dt class="enhance">Genes & Genome Features</dt>
+<dt class="enhance">Genes &amp; Genome Features</dt>
   <blockquote>
-  	<dt><b>Genes & Markers</b></dt>
+  	<dt><b>Genes &amp; Markers</b></dt>
 	<dd><a href="GENE_help.shtml" target="_blank">Using the Genes and Markers Query Form</a></dd>
   	<dd><a href="GENE_summary_help.shtml" onclick="javascript:openHelpWindow('GENE_summary_help.shtml'); return false;">Interpreting a Genes and Markers Summary</a></dd>
   	<dd><a href="GENE_detail_help.shtml" onclick="javascript:openHelpWindow('GENE_detail_help.shtml'); return false;">Interpreting Gene Details</a></dd>
@@ -65,9 +65,9 @@ User Help Site Map
 
 <!-- Phenotypes -->
 <a id="help_pad"></a>
-<dt class="enhance">Phenotypes, Alleles, & and Disease Models</dt>   
+<dt class="enhance">Phenotypes, Alleles, &amp; and Disease Models</dt>   
 	<blockquote>
-	<dt><b>Phenotypes & Alleles</b></dt>     
+	<dt><b>Phenotypes &amp; Alleles</b></dt>     
 	<dd><a href="ALLELE_help.shtml" onclick="javascript:openHelpWindow('ALLELE_help.shtml'); return false;">Using the Phenotypes, Alleles, and Disease Models Query Form</a></dd>
 	     <!--<dd><a href="disease_connection_help.shtml" onclick="javascript:openHelpWindow('disease_connection_help.shtml'); return false;">Using the Human&mdash;Mouse: Disease Connection</a></dd>-->
 	<dd><a href="ALLELE_phenotypic_categories_help.shtml" onclick="javascript:openHelpWindow('ALLELE_phenotypic_categories_help.shtml'); return false;">  Selecting Phenotypic Allele Categories</a></dd>
@@ -152,7 +152,8 @@ User Help Site Map
         <dd><a href="SNP_legend_help.shtml" onclick="javascript:openHelpWindow('SNP_legend_help.shtml'); return false;">Interpreting the MGI Mouse SNPs Results Table</a></dd>
         <!--<dd><a href="SNP_load_help.shtml" onclick="javascript:openHelpWindow('SNP_load_help.shtml'); return false;">Interpreting the SNP Data in MGI</a></dd>-->
         <dd><a href="SNP_terms_help.shtml" onclick="javascript:openHelpWindow('SNP_terms_help.shtml'); return false;">SNP Terms and Concepts</a></dd>
-        <dd><a href="SNP_no_results_help.shtml" onclick="javascript:openHelpWindow('SNP_no_results_help.shtml'); return false;">My SNP query returned no results. Why?</a></dd>          
+        <dd><a href="SNP_no_results_help.shtml" onclick="javascript:openHelpWindow('SNP_no_results_help.shtml'); return false;">My SNP query returned no results. Why?</a></dd>      
+        <dd><a href="POLYMORPHISM_help.shtml" onclick="javascript:openHelpWindow('SNP_summary_help.shtml'); return false;">Interpreting Polymorphism Results</a></dd>    
 </blockquote>   
       
 <a id="help_other_searches"></a>
@@ -169,7 +170,7 @@ User Help Site Map
 	<dt><b>Batch Querying / Interpreting Results</b></dt>
 	<dd><a href="BATCH_help.shtml" onclick="javascript:openHelpWindow('BATCH_help.shtml'); return false;">Using the MGI Batch Query</a></dd>
  
-	<dt><b>Using & Interpreting Accession IDs </b>
+	<dt><b>Using &amp; Interpreting Accession IDs </b>
 	<dd><a href="ACCESSION_ID_help.shtml" onclick="javascript:openHelpWindow('ACCESSION_ID_help.shtml'); return false;">Querying by Accession ID - Results and Examples</a></dd>
        
 	<!--<dt><b>MouseBLAST Help</b></dt>	       
