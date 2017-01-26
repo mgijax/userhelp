@@ -75,6 +75,9 @@ Using the Disease Ontology (DO) Browser</span>
 <p>The top of the page shows the disease term, its DO ID, synonyms, Alternative IDs, linked when possible to the relevant source, and the term definition. The main body of the page provides 3 tabbed views.
 </p>
 
+<p>***Term Details: A portion of the Disease Ontology hierarchy is represented by three sections. The middle section highlights the selected term&mdash;the term defined at the top of the page&mdash; and lists its sibling terms below. To the left are those terms' parent terms and to the right, the highlighted term's child terms&mdash;terms below it in the ontology hierarchy. Click on a term to refresh the page and make it the highlighted term and to see its parent and child terms, and at the top of the page, its DO ID, synonyms and definition. 
+</p>
+
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'-->
