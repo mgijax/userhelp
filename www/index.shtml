@@ -91,7 +91,7 @@ User Help Site Map
 <blockquote>
 	<dd><a href="EXPRESSION_help.shtml" target="_blank">
               Using the Gene Expression Data Query Form</a></dd>
-	<dd><a href="EXPRESSION_expanded_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_expanded_help.shtml'); return false;">
+	<dd><a href="EXPRESSION_help.shtml#whatdiffer" onclick="javascript:openHelpWindow('EEXPRESSION_help.shtml#whatdiffer'); return false;">
               Using the Differential Expression Search</a></dd>
 	<dd><a href="EXPRESSION_batch_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_batch_help.shtml'); return false;">
               Using the Gene Expression Batch Search</a></dd>
