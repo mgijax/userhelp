@@ -55,12 +55,13 @@ function openHelpWindow(helpFile){
  <li><a href="#gxdfilter">How do I filter my results?</a></li>
  <li><a href="#whattabs">What are the advantages of the different results tabs?</a></li>
  <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</a></li>
- <li><a href="#matrixcolors">What do the colors in a Matrix mean?</a></li>
- <li><a href="#absent">How are absent results displayed through the matrix anatomy hierarchy?</a></li>
+  <ul>
+   <li><a href="#matrixcolors">What do the colors in a Matrix mean?</a></li>
+   <li><a href="#absent">How are absent results displayed through the matrix anatomy hierarchy?</a></li>
+   </ul>
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
  <li><a href="#column">Can I upload a particular column of IDs/Symbols from a file?</li>
  <li><a href="#batch">Can I send the results of my search to the MGI Batch Query or MouseMine?</a></li>
- <li><a href="#null">What if the search does not find any expression results?</a></li>
  <li><A HREF="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a></li>
  <li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</a></li>
  <LI><A HREF="#example">Are there examples of query results?</a></li>
@@ -332,7 +333,7 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></t
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="whattabs"></a>What are the advantages of the different results tabs?</h3>
-<p>The Genes, Assays and Assay Results tabs offer progressively detailed views of your expression search results. The 2 matrices provide interactive high-level overviews of temporal and spatial expression patterns and offer the ability to drill down to more detail. With the Standard search, the Assay Results tab is selected by default. For Differential Expression searches, the Genes tab is the default selection. Some of the benefits of the different tabs are summarized in the table below. 
+<p>The Genes, Assays and Assay Results tabs offer progressively detailed views of your expression search results. The 2 matrices provide interactive high-level overviews of temporal and spatial expression patterns and offer the ability to drill down to more detail. With the Standard search, the Assay Results tab is selected by default. 
 <table border width="!" cellpadding="4" cellspacing="1">
 <tr><td><b><a href="#genestab">Genes</a></b></td>
      <td>The Genes tab provides a list of the genes that match your query along with the options to export your results as text files or to send the list to our Batch Query. Batch Query searches can associate the genes with additional information, such as functional or phenotypic data. See <a href="BATCH_help.shtml">Using the MGI Batch Query</a>.</td></tr>
@@ -517,12 +518,6 @@ Individual cells have the ability to filter as well. Clicking on a cell displays
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="null"></a>What if the search does not find any expression results?</h3>
-<p>Your search may have been too specific. Try searching for a less specific anatomical structure, more Theiler Stages or more assay types. 
-</p>
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
 <h3><a id="gxd_lit_record"></a>Why is there a link to Gene Expression Literature records in my query summary?</h3>
 <p>At the end of the query summary, there may be a link to Gene Expression Literature content records matching the parameters of your detailed expression data search.  
 <ul>
@@ -558,7 +553,7 @@ Individual cells have the ability to filter as well. Clicking on a cell displays
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <H3><a id="example"></A>Are there examples of query results?</H3>
-<p>The following examples list the field values to set on the Gene Expression Data Query Form to perform each query.  Leave the default values in all other fields.<br>
+<p>The following examples list the field values to set on the Gene Expression Data Standard Query to perform each query.  Leave the default values in all other fields.<br>
 <OL>
 <LI>When and where is <i>En1</i> expressed?
   <blockquote>

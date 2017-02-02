@@ -43,7 +43,7 @@ Using the Disease Ontology (DO) Browser</span>
 
 <p>The Disease Ontology (DO) is a community effort to provide standard terms for annotating phenotypic data. You can use this browser to view DO terms, definitions, and term relationships in a hierarchical display.</p>
 
-<p>This help document answers the following questions about the MP Browser:
+<p>This help document answers the following questions about the DO Browser:
  <ul>
   <li><a href="#howare">How is the Disease Ontology organized?</a></li>
   <li><a href="#whatcan">What can I use the Disease Ontology Browser to find?</a></li>
@@ -76,6 +76,9 @@ Using the Disease Ontology (DO) Browser</span>
 </p>
 
 <p>***Term Details: A portion of the Disease Ontology hierarchy is represented by three sections. The middle section highlights the selected term&mdash;the term defined at the top of the page&mdash;and lists its sibling terms below. To the left are those terms' parent terms and to the right, the highlighted term's child terms&mdash;terms below it in the ontology hierarchy. Click on a term to refresh the page and make it the highlighted term and to see its parent and child terms, and at the top of the page, its DO ID, synonyms and definition. 
+</p>
+
+<p>***Disease References using Mouse Models
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>

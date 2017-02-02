@@ -39,6 +39,13 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
   <li><A HREF="EXPRESSION_probe_detail_help.shtml" target="_blank">Interpreting Probe and Clone Data Details</A></li>
 </ul>
 </p>
+
+<p>This page contains a summary of information on cDNAs associated with the gene with either an encodes or putative (computationally derived, not confirmed) relationship. 
+</p> 
+
+<p>The top of the page indicates the official gene symbol, linked to its Gene Detail page, and its name and MGI accession ID. A table summarizes the source information for cDNA associated with the gene. 
+</p>
+
 <table>
 <tr><th>FIELD</th> <th>DESCRIPTION</th></tr>
 <tr><th>Clone</th> <td>Clone name, linked to its detail report, and MGI ID.</td></tr>
@@ -48,5 +55,8 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 <tr><th><span style="white-space: nowrap">Source Cell Line</span></th> <td>The cell line used to generate the library</td></tr>
 <tr><th>Gene</th> <td>The gene associated with the clone.</td></tr>
 </table>
+
+<p>The table is sorted by tissue (alphabetically) and age (earlier first) and then cell line. Not Applicable and then Not Specified tissues and lines are sorted to the bottom.
+</p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
