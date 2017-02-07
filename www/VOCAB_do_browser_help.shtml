@@ -94,9 +94,10 @@ Using the Disease Ontology (DO) Browser</span>
 	<p>Links to additional information on genes, genotypes and phenotypes:
 	</p>
  	<ul>
-   		<li>The Human Homologs link to the either the HomoloGene Vertebrate Homology report where you can view homology and mapping information for several species and follow additional links (in the Gene Links column of that page) to databases such as OMIM, Entrez Gene and HGNC, or it links to the HGNC Mouse/Human Homology report. The later report appears when the Homology Source (the last column) is from HGNC/HCOP only. </li>
-   		<li>The Mouse Homologs link to the MGI Gene Detail reports for each gene listed. There you can find data about everything known about the gene in the MGI database: synonyms, genetic and sequence maps (including the MGI Mouse Genome Browser), vertebrate homology, representative sequences, phenotypes, gene ontology classifications, expression, protein domains, references, as well as links to related databases.</li>
+   		<li>The <b>Human Homologs</b> link to the either the HomoloGene Vertebrate Homology report where you can view homology and mapping information for several species and follow additional links (in the Gene Links column of that page) to databases such as OMIM, Entrez Gene and HGNC, or it links to the HGNC Mouse/Human Homology report. The later report appears when the Homology Source (the last column) is from HGNC/HCOP only. </li>
+   		<li>The <b>Mouse Homologs</b> link to the MGI Gene Detail reports for each gene listed. There you can find data about everything known about the gene in the MGI database: synonyms, genetic and sequence maps (including the MGI Mouse Genome Browser), vertebrate homology, representative sequences, phenotypes, gene ontology classifications, expression, protein domains, references, as well as links to related databases.</li>
   		<li>The <a href="#mouse_models">Mouse Models</a> column shows the number of mouse models possessing an allele of that row's gene. This links to a pop-up window with genotype information (strain background and alleles) and links to references and phenotype data.</li>
+  		<li>The <b>Homology Source</b> column indicates where the homology association for the genes in the Human Homologs and Mouse Homologs column was made, HomoloGene, <abbr title="HUGO Gene Nomenclature Committee">HGNC</abbr>, or both sources agree with the association.</li>
   	</ul>
 </p>
 <p>An asterisk (*) next to a gene symbol identifies a gene associated with the disease in that species.</p>
@@ -112,7 +113,7 @@ Using the Disease Ontology (DO) Browser</span>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<p>The Disease References using Mouse Models links to a list of the references that discussed mouse models of the disease. 
+<p>The <b>Disease References using Mouse Models</b> links to a list of the references that discussed mouse models of the disease. 
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>

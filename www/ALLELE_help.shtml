@@ -365,7 +365,7 @@ gene trapped, targeted and transposon induced. See
   <li><A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype (MP) Browser</a></li>
   <li><A HREF="VOCAB_mp_browser_help.shtml" target="_blank">Using the Mammalian Phenotype (MP) Browser</a></li>
   <li><a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</a></li>
-  <li><A HREF="VOCAB_omim_browser_help.shtml" target="_blank">Using the Human Disease Vocabulary Browser</a></li>
+  <li><A HREF="VOCAB_do_browser_help.shtml" target="_blank">Using the Human Disease Ontology (DO) Browser</a></li>
   <li><A HREF="<!--#include file='include/homepages_url.html'-->humanDisease.shtml" target="_blank">Human&mdash;Mouse: Disease Connection</a></li>
   <li><A HREF="disease_connection_help.shtml" target="_blank">Using the Human&mdash;Mouse: Disease Connection</a></li>
   <li><A HREF="MISC_boolean_search_help.shtml" target="_blank">Using Boolean Operators in MGI</a></li> 
