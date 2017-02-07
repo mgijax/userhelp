@@ -33,7 +33,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 
 <a id="top"></a>
 
-<P><a id="summary"></a>This help document describes how to interpret a Clone Source Data Summary. In the summarized results, each probe/clone accession ID is highlighted and linked to the detail report for that probe/clone. Probes and markers may be associated by sequence identities, hybridization, or putative relationships. </P>
+<P><a id="summary"></a>This help document describes how to interpret a Clone Source Data Summary. The cDNA Clone Source Data Summary page provides expression information in the form of cDNA library tissue data. In the summarized results, each probe/clone accession ID is highlighted and linked to the detail report for that probe/clone. Probes and markers may be associated by sequence identities, hybridization, or putative relationships. </P>
 <P>See also:
 <UL>
   <LI><A HREF="EXPRESSION_probe_detail_help.shtml" target="_blank">Interpreting Probe and Clone Data Details</A></LI>
@@ -68,5 +68,7 @@ May be one of the following: cDNA, genomic, DNA, mitochondrial, oligo, primer, R
 <th>Chr</TH> <td>The chromosome to which the marker is assigned, and, enclosed in parentheses, the cM position or cytogenetic band. Location information shown varies, depending on available data. </TD>
 </TR>
 </TABLE>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 

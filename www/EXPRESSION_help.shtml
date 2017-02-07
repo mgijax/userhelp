@@ -45,20 +45,18 @@ function openHelpWindow(helpFile){
 <UL>
  <LI><A HREF="#whatpurpose">What is the purpose of the Gene Expression Database?</a></li>
  <LI><A HREF="#whatquery">What can I use the Gene Expression Data Standard Search to find?</a></li>
- <LI><A HREF="#howdo">How do I use the Standard Search tab?</a></li>
  <LI><A HREF="#fields">What values are acceptable in each of the Standard Search fields?</a></li>
  <li><A HREF="#whatdiffer">What is the purpose of the Differential Expression Search?</A></li>
- <li><A HREF="#howdiffer">How do I use the Differential Expression Search?</A></li>
  <li><A HREF="#Dfields">What values are acceptable in each of the Differential Search fields?</a></li>
-  <li><a href="#batchchoices">Can I perform batch searches for expression data with multiple genes?</li>
+ <li><a href="#batchchoices">Can I perform batch searches for expression data with multiple genes?</li>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
- <li><a href="#gxdfilter">How do I filter my results?</a></li>
  <li><a href="#whattabs">What are the advantages of the different results tabs?</a></li>
- <LI><A HREF="#summary">How do I interpret the query results summary and detail pages?</a></li>
+ <LI><A HREF="#summary">How do I interpret the query results summary page?</a></li>
   <ul>
    <li><a href="#matrixcolors">What do the colors in a Matrix mean?</a></li>
    <li><a href="#absent">How are absent results displayed through the matrix anatomy hierarchy?</a></li>
    </ul>
+ <li><a href="#gxdfilter">How do I filter my results?</a></li>
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
  <li><a href="#column">Can I upload a particular column of IDs/Symbols from a file?</li>
  <li><a href="#batch">Can I send the results of my search to the MGI Batch Query or MouseMine?</a></li>
@@ -91,11 +89,6 @@ function openHelpWindow(helpFile){
 field values for these queries.)
 <p>
 If you are interested in doing queries that ask what genes are expressed in some anatomical structures and/or developmental stages but not in others, you should use the Differential Expression Search tab on this form.</p>
-
-<h3><a id="howdo"></a>How do I use the Standard Search tab?</h3>
-
-<P>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following table. After entering values in the query form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. 
-</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -220,13 +213,6 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
   
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="howdiffer"></a>How do I use the Differential Expression form?</h3>
-
-<P>To search for detailed data using the Differential Expression form, enter or select values in one or more of the query form fields described in the following sections. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. 
-</p>
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
 <H3><a id="Dfields"></a>What values are acceptable in each of the Differential Search fields?</H3>
 <table width="!" cellpadding="4" class="nb">
 <tr><td><a href="#Danatomical_structure">Anatomical Structure</a> |  <a href="#Ddevelopmental_stage">Developmental Stage</a> | <a href="#Dstructurestage">Structure & Stage</a>
@@ -326,12 +312,6 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></t
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="gxdfilter"></a>How do I filter my results?</h3>
-<p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for Wild type or mutant specimens. In the banner above your results, after <i>Filter expression data by:</i> click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>. Note: Filtering out mutants will retain heterozygous <i>in situ</i> knockin mutants.</p>
-<p>Both Matrix tabs offer easy filtering by tissue, and the Tissue x Stage Matrix also offers filtering by developmental stage/age and the Tissue x Gene Matrix permits filtering by gene symbol. Check the rows or columns you wish to retain and then click the Filter (<img image width="13" height="13" src="<!--#include file='include/webshare_url.html'-->images/filter.png">) button in the grid to apply the filters. These filters are also applied to all tabs.</p> 
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
 <h3><a id="whattabs"></a>What are the advantages of the different results tabs?</h3>
 <p>The Genes, Assays and Assay Results tabs offer progressively detailed views of your expression search results. The 2 matrices provide interactive high-level overviews of temporal and spatial expression patterns and offer the ability to drill down to more detail. With the Standard search, the Assay Results tab is selected by default. 
 <table border width="!" cellpadding="4" cellspacing="1">
@@ -352,7 +332,7 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></t
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><a id="summary"></A>How do I interpret the query results summary and detail pages?</H3>
+<H3><a id="summary"></A>How do I interpret the query results summary page?</H3>
 
 <p>Your search results are displayed within six tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a>, <a href="#assaytab">Assay Results</a>, <a href="#imagetab">Images</a>, <a href="#tissuematrix">Tissue x Stage Matrix</a> and <a href="#genematrix">Tissue x Gene Matrix</a>. With the Standard search, the Assay Results tab is selected by default. For Differential Expression searches, the Genes tab is the default selection.
 See <a href="#whattabs">What are the advantages of the different results tabs?</a> for a brief guide to choosing results tabs.</p>
@@ -490,6 +470,12 @@ Individual cells have the ability to filter as well. Clicking on a cell displays
 <h3><a id="absent"></a>How are absent results displayed through the matrix anatomy hierarchy?</h3>
 
 <p>The nature of the expression data captured by GXD requires present and absent expression results to be managed differently in the matrix anatomy hierarchy. From the statement, "expression was detected in the heart ventricle," we can infer that "expression is detected (somewhere) in the heart." In contrast, the statement "expression was not detected in the heart ventricle" does not imply that "expression is found (nowhere else) in the heart." Therefore, a positive expression result is displayed in the matrix as a blue square for that anatomical structure, but any parent structure will also display a blue square based on that present result. In contrast, absent expression results can only be represented for that structure in the matrix. Parent structures will not display a red square based on an absent result in a child structure.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="gxdfilter"></a>How do I filter my results?</h3>
+<p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for Wild type or mutant specimens. In the banner above your results, after <i>Filter expression data by:</i> click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>. Note: Filtering out mutants will retain heterozygous <i>in situ</i> knockin mutants.</p>
+<p>Both Matrix tabs offer easy filtering by tissue, and the Tissue x Stage Matrix also offers filtering by developmental stage/age and the Tissue x Gene Matrix permits filtering by gene symbol. Check the rows or columns you wish to retain and then click the Filter (<img image width="13" height="13" src="<!--#include file='include/webshare_url.html'-->images/filter.png">) button in the grid to apply the filters. These filters are also applied to all tabs.</p> 
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
