@@ -193,8 +193,8 @@ function openHelpWindow(helpFile){
 <p><b>Note:</b> Using the listed ID may not yield a result on any given day because of data curation and load timing.</p>
 <TABLE BORDER=1 cellpadding=4>
 <TR><TH>If you query by...</th><TH>The result is...</TH><th>For example...</th><th>The format is...</TR>
-<TR><th colspan=4><a id="allele"></a>Allele</th></tr>
 
+<TR><th colspan=4><a id="allele"></a>Allele</th></tr>
 <tr><td> Allele symbol</td><td rowspan=5>Alleles, Sequences<td>Apoe&lt;tm1Bres&gt;</sup></td><td  rowspan="5">Alphanumeric; some  with brackets, some with decimals</td></tr>
 <tr><td> Allele synonym </td><td>Pax3&lt;tm1Buck&gt;</td></tr>
  <tr><td>MGI Allele ID</td><td>MGI:1856798 </td></tr>
@@ -203,6 +203,7 @@ function openHelpWindow(helpFile){
 
 <TR><th colspan=4>Expression</th></tr>
 <tr><TD>MGI assay ID</td><td>Expression</td><TD>MGI:1339505</td><TD>Alphanumeric with colon</td></tr>
+
 <TR><th colspan=4>Genes &amp; Markers</th></tr>
 <tr><td><a id="mgi_marker_ID"></a>MGI Marker ID</td><td rowspan=13>Genes, Sequences
 </td><td>MGI:87895, MGD-MRK-1672</td><TD>Alphanumeric with colon</td></tr>
@@ -219,13 +220,15 @@ function openHelpWindow(helpFile){
 <tr><td>UniSTS<td>125993</td><TD>Numeric</td></tr>
 <tr><TD>VEGA ID</td><TD>OTTMUSG00000010935</td><td>Alphanumeric</td></TR>
 
-
 <TR><th colspan=4><a id="gene_classifications"></a>Gene Classifications</th></tr>
 <tr><td>Gene Ontology (GO) ID</td>
 <td>Markers &amp; vocabulary terms</td><td>GO:00302641</td><TD>Alphanumeric with colon</TD></tr>
 </tr>
+
 <TR><th colspan=4>Human Diseases</th></tr>
-<tr><td><abbr title="Online Mendelian Inheritance in Man">OMIM</abbr></td><td>Alleles &amp; disease terms</td><TD>168600</td><TD>Numeric</td></TR>
+<tr><td><abbr title="Online Mendelian Inheritance in Man">OMIM</abbr></td><td rowspan="2">Alleles &amp; disease terms</td><TD>168600</td><TD>Numeric</td></TR>
+<tr><td>Disease Ontology (DO)</td> <td>DOID:8398</td> <td>Numeric</td></tr>
+
 <TR><th colspan=4>Orthology Relationships</th></tr>
 <tr>
   <TD>E.C. Number</td>
@@ -262,6 +265,7 @@ function openHelpWindow(helpFile){
  <TD>OTTMUSG00000010935</td>
  <TD>Alphanumeric</td>
    </TR>
+
 <TR><th colspan=4><a id="probes_clones"></a>Probes/Clones</th></tr>
  <tr><TD>Affymetrix tissue/probe ID</td> <td rowspan=8>Probes/Clones &amp; Sequences</td><TD>10379153<br>1424714_at<br>1451461_a_at</TD><TD>Numeric or alphanumeric with underscore(s)</td></TR>
   <tr><TD>ATCC clone ID</td> <TD>719230</TD><TD>Numeric</td></TR>
@@ -295,7 +299,6 @@ function openHelpWindow(helpFile){
 
 <TR><th colspan=4>Protein Superfamilies</th></tr>
 <tr><TD>PIRSF ID</td><td>Protein family term</td><TD>PIRSF016527</TD><TD>Alphanumeric</td></TR>
-
 
 <TR><th colspan=4>Protein Ontology</th></tr>
 <tr><TD>Pro ID</td><td>Markers &amp; Sequences</td><TD>PR:000003753</TD><TD>Alphanumeric</td></TR>

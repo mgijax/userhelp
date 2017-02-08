@@ -79,6 +79,7 @@ function openHelpWindow(helpFile){
     <ul>
     <li>Gene Ontology (GO)</li>
     <li>Mammalian Phenotype (MP)</li>
+    <li>Human Disease Ontology (DO)</li>
     <li>Human Disease (OMIM)</li>
     <li>InterPro</li>
     <li>Protein Superfamily (PIRSF)</li>

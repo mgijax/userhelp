@@ -260,7 +260,7 @@ The age ranges are as follows:
 Click &#9660; to close the  display.</p></td>
 </tr>
  -->
-<tr><th><a id="models"></a>Disease models</th><td>List of all mouse genotypes annotated to a disease. These annotations may be of the following types:<ul class="lj">
+<tr><th><a id="models"></a>Disease models</th><td>List of all diseases modeled, or attempted to be modeled with this allele. These annotations may be of the following types:<ul class="lj">
     <LI>phenotypic similarity to human disease. <!--and etiologies involving orthologs (the human ortholog of the mouse gene is associated with the same disease).</LI>
     <LI>phenotypic similarity to human disease but a distinct etiology (that is, human genes are associated with this disease, but orthologs of those genes do not appear in the mouse genotype).</LI>
     <LI>phenotypic similarity to human diseases with unknown etiology or involving genes where the human ortholog is unknown.--></LI>
@@ -268,7 +268,7 @@ Click &#9660; to close the  display.</p></td>
     <LI>no similarity to the expected human disease phenotype (that is, one or more human genes may be associated with the human disease; the mouse genotype may involve mutations in orthologous genes; but the phenotype does not resemble the human disease). These are noted by the &#8709; symbol.</LI></ul>
 
 <TABLE BORDER="1" CELLPADDING="4">
-  <tr><td><!--Mouse Models of <br> -->Human Disease</td><td>All human diseases annotated to any mouse genotype containing the allele. Full disease term (e.g., Aniridia; Peters Anomaly; Frasier Syndrome; rheumatoid arthritis), linked to the (MGI) Human Disease and Mouse Model Detail report. The DO accession identifier follows the term (e.g., DOID:10652; DOID:7148) and is linked to its Disease Ontology record.</TD></TR>
+  <tr><td><!--Mouse Models of <br> -->Human Disease</td><td>All human diseases annotated to any mouse genotype containing the allele. Full disease term (e.g., Aniridia; Peters Anomaly; Frasier Syndrome; rheumatoid arthritis), linked to the (MGI) Human Disease Ontology (DO) Browser record. The <b>IDs</b> links to a popup of IDs associated with the disease, linked to the appropriate source, when possible. Examples are DO IDs, <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr> IDs, and ICD-9 codes.</TD></TR>
 
 <!--<TR><td><a id="notes"></a>Note</td><TD>Column containing a number if there is additional information about the disease or model. This information appears below the table, beside the number.  If the word <i>Not</i> appears, it means that the reference's author(s) looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified.</TD></tr> -->
 
