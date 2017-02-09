@@ -142,7 +142,7 @@ function openHelpWindow(helpFile){
 <dl>
   <dd>MP:0005392 :  Mammalian Phenotype Vocabulary (MP Browser)</dd>
   <dd>GO:00047131 :  Gene Ontology (GO Browser)</dd>
-  <dd>172800 :  <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr> (Human Disease Browser)</dd>
+  <dd>DOID:3347 :  Disease Ontology (DO Browser)</dd>
   <dd>IPR003599 :  InterPro Protein Database</dd>
   <dd>PIRSF015599 :  Protein Information Resource SuperFamily</dd>
   <dd>EMAPA:17337  :  Mouse Developmental Anatomy Ontology</dd>

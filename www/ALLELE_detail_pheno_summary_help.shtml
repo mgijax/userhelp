@@ -66,8 +66,7 @@ function openHelpWindow(helpFile){
   <LI><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a> (unfamiliar terms or acronyms)</LI>
   <LI><A HREF="ALLELE_help.shtml" target="_blank">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
   <LI><A HREF="ALLELE_summary_help.shtml" target="_blank">Understanding Phenotypic Allele Summary Reports</A></LI>
-  <LI><A HREF="ALLELE_detail_help.shtml" target="_blank">Understanding Phenotypic Allele Detail Reports</a></li>
-  <li><a onClick='javascript:openFaqWindow("Allele_tour.shtml"); return false;' href="<!--#include file='include/faq_url.html'-->Allele_tour.shtml">Allele Tour</a> (how to reveal table views)</li><br>
+  <LI><A HREF="ALLELE_detail_help.shtml" target="_blank">Understanding Phenotypic Allele Detail Reports</a></li><br>
 </UL>
 
 <h3><a name="purpose"></a>What is the purpose of the Phenotypes section?</h3>

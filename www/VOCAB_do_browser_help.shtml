@@ -80,12 +80,12 @@ Using the Disease Ontology (DO) Browser</span>
 
 <h3><a id="term_detail"></a>How do I interpret the Term Details tab?</h3>
 
-<p>***Term Details: A portion of the Disease Ontology (DO) hierarchy is represented by three sections. The middle section highlights the selected term&mdash;the term defined at the top of the page&mdash;and lists its sibling terms below. To the left are those terms' parent terms and to the right, the highlighted term's child terms&mdash;terms below it in the ontology hierarchy. Click on a term to refresh the page and make it the highlighted term and to see its parent and child terms, and at the top of the page, its DO ID, synonyms and definition. 
+<p><b>Term Details</b>: A portion of the Disease Ontology (DO) hierarchy is represented by three sections. The middle section highlights the selected term&mdash;the term defined at the top of the page&mdash;and lists its sibling terms below. To the left are those terms' parent terms and to the right, the highlighted term's child terms&mdash;terms below it in the ontology hierarchy. Click on a term to refresh the page and make it the highlighted term and to see its parent and child terms, and at the top of the page, its DO ID, synonyms and definition. 
 </p>
 
 <h3><a id="genes"></a>How do I interpret the Genes tab?</h3>
 
-<p>A list of all mouse and human genes where mutations in one or both species are associated with phenotypes characteristic of this human disease. Mouse and human icons categorize the associated genes by the following conditions: 
+<p><b>Genes</b>: A list of all mouse and human genes where mutations in one or both species are associated with phenotypes characteristic of this human disease. Mouse and human icons categorize the associated genes by the following conditions: 
     <ul>
         <li><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif"><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">The disease is associated with both the mouse and human homologs of the same gene. Mouse genes may appear in this section based on disease models that express homologs of the mouse gene.</li>
         <LI><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif">Mouse models involving mutations in the mouse gene or expressing homologs of the mouse gene are associated with this human disease. (OMIM and NCBI data currently do not associate this disease with the homologous human gene.)</LI>
@@ -105,6 +105,8 @@ An asterisk (*) next to a gene symbol identifies a gene associated with the dise
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="models"></a>How do I interpret the Models tab?</h3>
+
+<p><b>Models</b>: ***
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
