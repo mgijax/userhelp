@@ -46,17 +46,17 @@ User Help Site Map
   <blockquote>
   	<dt><b>Genes &amp; Markers</b></dt>
 	<dd><a href="GENE_help.shtml" target="_blank">Using the Genes and Markers Query Form</a></dd>
-  	<dd><a href="GENE_summary_help.shtml" onclick="javascript:openHelpWindow('GENE_summary_help.shtml'); return false;">Interpreting a Genes and Markers Summary</a></dd>
-  	<dd><a href="GENE_detail_help.shtml" onclick="javascript:openHelpWindow('GENE_detail_help.shtml'); return false;">Interpreting Gene Details</a></dd>
-	<dd><a href="GENE_feature_types_help.shtml" onclick="javascript:openHelpWindow('GENE_feature_types_help.shtml'); return false;">Genome Feature Type Definitions</a></dd>
-	<dd><a href="mapping_experimental_data_help.shtml" onclick="javascript:openHelpWindow('mapping_experimental_data_help.shtml'); return false;">Interpreting Experimental Mapping Data Records</a></dd>
-	<dd><a href="INTERACTION_explorer_help.shtml" onclick="javascript:openHelpWindow('INTERACTION_explorer_help.shtml'); return false;">Interpreting Interaction Explorer Results</a></dd>
+  	<dd><a href="GENE_summary_help.shtml" target="_blank">Interpreting a Genes and Markers Summary</a></dd>
+  	<dd><a href="GENE_detail_help.shtml" target="_blank">Interpreting Gene Details</a></dd>
+	<dd><a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a></dd> 
+	<dd><a href="mapping_experimental_data_help.shtml" target="_blank">Interpreting Experimental Mapping Data Records</a></dd>
+	<dd><a href="INTERACTION_explorer_help.shtml" target="_blank">Interpreting Interaction Explorer Results</a></dd>
   	  	
   	  <dt><b>Sequences</b></dt>
 		        
-  	  <dd><a href="SEQUENCE_summary_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_summary_help.shtml'); return false;"> Interpreting a Sequence Summary</a></dd>  	          
-  	  <dd><a href="SEQUENCE_detail_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_detail_help.shtml'); return false;">Interpreting Sequence Details</a></dd>
-  	  <dd><a href="SEQUENCE_valid_providers_help.shtml" onclick="javascript:openHelpWindow('SEQUENCE_valid_providers_help.shtml'); return false;">Valid Sequence Provider and Type Combinations</a></dd>
+  	  <dd><a href="SEQUENCE_summary_help.shtml" target="_blank">Interpreting a Sequence Summary</a></dd> 	          
+  	  <dd><a href="SEQUENCE_detail_help.shtml" target="_blank">Interpreting Sequence Details</a></dd>
+  	  <dd><a href="SEQUENCE_valid_providers_help.shtml" target="_blank">Valid Sequence Provider and Type Combinations</a></dd>
 
 	<!--<dt><b>Maps</b></dt>   
   	<dd><a href="maps_and_mapping_data_help.shtml" onclick="javascript:openHelpWindow('maps_and_mapping_data_help.shtml'); return false;">Retrieving Maps & Mapping Data</a></dd>
@@ -68,20 +68,20 @@ User Help Site Map
 <dt class="enhance">Phenotypes, Alleles, &amp; and Disease Models</dt>   
 	<blockquote>
 	<dt><b>Phenotypes &amp; Alleles</b></dt>     
-	<dd><a href="ALLELE_help.shtml" onclick="javascript:openHelpWindow('ALLELE_help.shtml'); return false;">Using the Phenotypes, Alleles, and Disease Models Query Form</a></dd>
+	<dd><a href="ALLELE_help.shtml" target="_blank">Using the Phenotypes, Alleles, and Disease Models Query Form</a></dd>
 	     <!--<dd><a href="disease_connection_help.shtml" onclick="javascript:openHelpWindow('disease_connection_help.shtml'); return false;">Using the Human&mdash;Mouse: Disease Connection</a></dd>-->
-	<dd><a href="ALLELE_phenotypic_categories_help.shtml" onclick="javascript:openHelpWindow('ALLELE_phenotypic_categories_help.shtml'); return false;">  Selecting Phenotypic Allele Categories</a></dd>
-	<dd><a href="ALLELE_summary_help.shtml" onclick="javascript:openHelpWindow('ALLELE_summary_help.shtml'); return false;">Interpreting a Phenotypic Allele Summary</a></dd>
-	<DD><a href="ALLELE_detail_help.shtml" onclick="javascript:openHelpWindow('ALLELE_detail_help.shtml'); return false;">Interpreting Phenotypic Allele Details</a></dd>			  
-	<DD><a href="ALLELE_detail_pheno_summary_help.shtml" onclick="javascript:openHelpWindow('ALLELE_detail_pheno_summary_help.shtml'); return false;">Interpreting the Phenotype Summary in Allele Details</a></dd>
- 	<dd><a href="ALLELE_pheno_all_images_help.shtml" onclick="javascript:openHelpWindow('ALLELE_pheno_all_images_help.shtml'); return false;">Interpreting All Images for an Allele</a></dd>
-	<dd><a href="ALLELE_pheno_image_detail_help.shtml" onclick="javascript:openHelpWindow('ALLELE_pheno_image_detail_help.shtml'); return false;">Interpreting (Phenotypic) Image Details</a></dd>
-	<dd><a href="ALLELE_pheno_image_summary_help.shtml" onclick="javascript:openHelpWindow('ALLELE_pheno_image_summary_help.shtml'); return false;">Interpreting All Phenotype Images for a Gene</a></dd>
-	<DD><a href="ALLELE_phenotype_highlevel_help.shtml" onclick="javascript:openHelpWindow('ALLELE_phenotype_highlevel_help.shtml'); return false;">Using the Phenotypes Selection List</a></dd>	
+	<dd><a href="ALLELE_phenotypic_categories_help.shtml" target="_blank">Selecting Phenotypic Allele Categories</a></dd>
+	<dd><a href="ALLELE_summary_help.shtml" target="_blank">Interpreting a Phenotypic Allele Summary</a></dd>
+	<dd><a href="ALLELE_detail_help.shtml" target="_blank">Interpreting Phenotypic Allele Details</a></dd>			  
+	<dd><a href="ALLELE_detail_pheno_summary_help.shtml" target="_blank">Interpreting the Phenotype Summary in Allele Details</a></dd>
+ 	<dd><a href="ALLELE_pheno_all_images_help.shtml" target="_blank">Interpreting All Images for an Allele</a></dd>
+	<dd><a href="ALLELE_pheno_image_detail_help.shtml" target="_blank">Interpreting (Phenotypic) Image Details</a></dd>
+	<dd><a href="ALLELE_pheno_image_summary_help.shtml" target="_blank">Interpreting All Phenotype Images for a Gene</a></dd>
+	<dd><a href="ALLELE_phenotype_highlevel_help.shtml" target="_blank">Using the Phenotypes Selection List</a></dd>	
 	<dt><b>Diseases</b></dt> 
-	<dd><a href="VOCAB_omim_browser_detail_help.shtml" onclick="javascript:openHelpWindow('VOCAB_omim_browser_detail_help.shtml'); return false;">Interpreting Human Disease and Mouse Model Details</a></dd>		
-	<dd><a href="disease_connection_help.shtml" onclick="javascript:openHelpWindow('disease_connection_help.shtml'); return false;">Using the Human - Mouse: Disease Connection</a></dd>
-	<dd><a href="HMDC_examples.shtml" onclick="javascript:openHelpWindow('HMDC_examples.shtml'); return false;">Human - Mouse: Disease Connection (HMDC) Search Examples</a></dd>	
+	<dd><a href="VOCAB_do_browser_detail_help.shtml" target="_blank">Interpreting Human Disease and Mouse Model Details</a></dd>	
+	<dd><a href="disease_connection_help.shtml" target="_blank">Using the Human - Mouse: Disease Connection</a></dd>
+	<dd><a href="HMDC_examples.shtml" target="_blank">Human - Mouse: Disease Connection (HMDC) Search Examples</a></dd>	
 	</blockquote>
 	
 <!-- Expression -->

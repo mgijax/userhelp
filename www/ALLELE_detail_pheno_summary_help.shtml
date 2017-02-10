@@ -109,9 +109,9 @@ th { border: thin solid;
 	text-align: left;
 	}
 </style>
- <tr><th style= "background: #FBBB00;">hm  &nbsp; (orange)</th><td>homozygous</td></tr>
+ <tr><th style= "background: #FBBB00;"><span style="white-space: nowrap">hm  &nbsp; (orange)</span></th><td>homozygous</td></tr>
  <tr><th style= "background: #00CEF2;">ht &nbsp; (blue)</th><td>heterozygous</td></tr> 
- <tr><th style= "background: #D3FFA8;">cn (green)</th><td>conditional genotype</td></tr> 
+ <tr><th style= "background: #D3FFA8;">cn &nbsp; (green)</th><td>conditional genotype</td></tr> 
  <tr><th style= "background: #CCCCFF;"><span style="white-space: nowrap">cx &nbsp; (purple)</span></th><td>complex (more than one genome feature)</td></tr>
  <tr><th style= "background: #FFB3E0;">tg &nbsp;&nbsp;&nbsp;(pink)</th><td>involves transgenes</td></tr> 
  <tr><th style= "background: #E3C8AC;">ot&nbsp; (brown)</th><td>other: hemizygous, indeterminate...</td></tr> 
