@@ -121,11 +121,12 @@ An asterisk (*) next to a gene symbol identifies a gene associated with the dise
   </p>
   
 <table>
+<tr><th>Disease Term</th><td>The disease term associated with the model. This column includes child terms of the selected term indicated at the top of the Disease Ontology Browser page.</td></tr>
 <TR><TH><span style="white-space: nowrap">Allelic Composition</span></TH><TD>Allele pairs that contribute to the genotype. Each allele is linked to its corresponding Phenotypic Allele Detail report.</TD></tr>
  <TR><TH><span style="white-space: nowrap">Genetic Background</span></TH><TD>Mouse strains involved, if described. </td></tr>
  <TR><TH>Reference</TH><TD>The supporting reference linked by its MGI reference number to the MGI Reference Detail report containing the full citation. </TD></tr>
  <TR><TH>Phenotypes</TH><TD>Links to the phenotypic details for the genotype.</TD></tr>
-</table></td></tr>
+</td></tr>
 <TR><th><a id="complex"></a>Additional Complex Models</th><TD>This section appears only when clicking the link to <a href="#view_all">View all models</a> and will only be present if there are models for which there are no endogenous disease-associated mouse or human genes. For each allelic combination, the genetic background, references and a link to phenotypic details are provided. </TD></TR>
 <tr>
 <TR><th><a id="not_models"></a>Disease phenotype not observed</th><TD>This section appears only when clicking the link to <a href="#view_all">View all models</a> and only when the reference's authors looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified. For each allelic combination, the genetic background, references and link to phenotypic details are provided. </TD></TR>
