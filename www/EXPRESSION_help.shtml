@@ -44,22 +44,25 @@ function openHelpWindow(helpFile){
 <P>This help document answers the following questions:
 <UL>
  <LI><A HREF="#whatpurpose">What is the purpose of the Gene Expression Database?</a></li>
- <LI><A HREF="#whatquery">What can I use the Gene Expression Data Standard Search to find?</a></li>
+ <LI><A HREF="#whatquery">What can I use the Gene Expression Data Standard Search to find?</a>
  <ul>
   <LI><A HREF="#fields">What values are acceptable in each of the Standard Search fields?</a></li>
  </ul>
- <li><A HREF="#whatdiffer">What is the purpose of the Differential Expression Search?</A></li>
+ </li>
+ <li><A HREF="#whatdiffer">What is the purpose of the Differential Expression Search?</A>
  <ul>
   <li><A HREF="#Dfields">What values are acceptable in each of the Differential Search fields?</a></li>
   </ul>
+  </li>
  <li><a href="#batchchoices">Can I perform batch searches for expression data with multiple genes?</li>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
  <li><a href="#whattabs">What are the advantages of the different results tabs?</a></li>
- <LI><A HREF="#summary">How do I interpret the query results summary page?</a></li>
+ <LI><A HREF="#summary">How do I interpret the query results summary page?</a>
   <ul>
    <li><a href="#matrixcolors">What do the colors in a Matrix mean?</a></li>
    <li><a href="#absent">How are absent results propagated through the matrix anatomy hierarchy?</a></li>
    </ul>
+   </li>
  <li><a href="#gxdfilter">How do I filter my results?</a></li>
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
  <li><a href="#column">Can I upload a particular column of IDs/Symbols from a file?</li>
@@ -342,7 +345,7 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></t
 See <a href="#whattabs">What are the advantages of the different results tabs?</a> for a brief guide to choosing results tabs.</p>
 
 <h4><a id="genestab"></a>Genes</h4>
-<p>If you select the Genes tab, you are offered the ability to Export your results as a text or spreadsheet file, or forward the list of genes to the MGI <a href="<!--#include file='include/fewi_url.html'-->batch">Batch Query</a> or <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a>, where you can find additional information on the genes. Below, a table summarizes information on the gene(s). You can use the triangles in the column headers to sort by a column. The query summary contains the following fields: <br><br>
+<p>If you select the Genes tab, you are offered the ability to Export your results as a text or spreadsheet file, or forward the list of genes to the MGI <a href="<!--#include file='include/fewi_url.html'-->batch">Batch Query</a> or <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a>, where you can find additional information on the genes. Below the Export options, a table summarizes information on the gene(s). You can use the triangles in the column headers to sort by a column. The query summary contains the following fields: <br><br>
 <blockquote> 
 <table border width="!" cellpadding="4" cellspacing="1">
  <tr><td><b>MGI ID</b></td>
@@ -372,7 +375,7 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
      <td>Symbol of the analyzed gene.</td></tr>
 <tr><td><b>Assay Details</b></td>
      <td>The word <i>data</i> links to detailed expression results; the MGI accession ID of the assay (useful for searching purposes) appears in parentheses. A camera icon appears when there are image data associated with the assay.</td></tr>
- <tr><td><b>Assay Type</b></td>
+ <tr><td><span style="white-space: nowrap"><b>Assay Type </b></span></td>
      <td>Name of the assay used (e.g., Immunohistochemistry, Northern blot, RNA in situ, and so on).</td></tr>
  <tr><td><b>Reference</b></td>
      <td>J number (MGI identifier) and short format citation for this reference linked to its MGI reference detail report.</td></tr>
@@ -380,12 +383,12 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
 </blockquote>
 
 <h4><a id="assaytab"></a>Assay Results</h4>
-<p>If you select Assay Results, you are offered the ability to Export your results as a text or spreadsheet file. Below, a table summarizes information on the assays. You can use the triangles in the column headers to sort by a column. The query summary contains the following fields:<br><br>
+<p>If you select Assay Results, you are offered the ability to Export your results as a text or spreadsheet file. Below the Export options, a table summarizes information on the assays. You can use the triangles in the column headers to sort by a column. The query summary contains the following fields:<br><br>
 <blockquote> 
 <table border width="!" cellpadding="4" cellspacing="1">
 <tr><td><b>Gene</b></td>
      <td>Symbol of the analyzed gene</td></tr> 
-<tr><td><b>Result Details </b></td>
+<tr><td><span style="white-space: nowrap"><b>Result Details</b></span></td>
      <td>The word data links to detailed expression results; the MGI accession ID of the assay (useful for searching purposes) appears next in parentheses</td></tr>
 <tr><td><span style="white-space: nowrap"><b>Assay Type </b></span></td>
      <td>Name of the assay used (e.g., immunohistochemistry, Northern blot, RNA <i>in situ</i>)</td></tr>
@@ -415,7 +418,7 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
   <!--<P><sup>*</sup><i>Present</i> appears if expression is reported as detected but the author did not specify the level.--></td></tr>
 <tr><td><b>Images</b></td>
      <td>Name of the specimen or pane with associated images, linked to the appropriate section of the assay detail. Note: Images are shown only when we have permission from the publishers. </td></tr>
-<tr><td><b>Mutant Allele(s) </b></td>
+<tr><td><span style="white-space: nowrap"><b>Mutant Allele(s)</b></span></td>
      <td>If the specimen is a mutant, the allele pairs describing the mutant genotype appear in this field.</td></tr>
 <tr><td><b>Reference </b></td>
      <td>J number (MGI identifier) and short format citation for this reference linked to its MGI reference detail report</td></tr>
