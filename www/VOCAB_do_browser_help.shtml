@@ -50,12 +50,12 @@ Using the Disease Ontology (DO) Browser</span>
   <!--<li><a href="#include">What is the difference between browsing and searching the vocabulary?</a></li>-->
   <li><a href="#browse">How do I browse the vocabulary?</a></li>
   <!--<li><a href="#search">How do I search the vocabulary?</a></li>-->
-  <li><a href="#results">What can I find on the query results report?</a></li>
+  <li><a href="#results">What can I find on the query results report?</a>
   <ul>
    <li><a href="#term_detail">How do I interpret the Term Details tab?</a></li>
    <li><a href="#genes">How do I interpret the Genes tab?</a></li>
    <li><a href="#models">How do I interpret the Models tab?</a></li>
-  </ul>
+  </ul></li>
   <li><A href="#how_assoc">How are gene to disease associations made?</A></li>
   <li><a href="#mp_summary">How do I interpret the Disease Ontology Annotations Query Results?</a></li>
   <li><a href="#contribute">How can I contribute to the vocabulary?</a></li>
@@ -77,7 +77,7 @@ Using the Disease Ontology (DO) Browser</span>
 
 <p>You can browse the Disease Ontology hierarchy and for each selected disease term, find genes and mouse models associated with the term.</p>
 
-<p>The top of the page shows the disease term, its DO ID, synonyms, Alternative IDs, linked when possible to the relevant source, and the term definition. The main body of the page provides 3 tabbed views,<a href="#term_detail">Term Details, <a href="genes">Genes</a> and <a href="models">Models</a>. Term Details is the default selection. 
+<p>The top of the page shows the disease term, its DO ID, synonyms, Alternative IDs, linked when possible to the relevant source, and the term definition. The main body of the page provides 3 tabbed views,<a href="#term_detail">Term Details</a>, <a href="genes">Genes</a> and <a href="models">Models</a>. Term Details is the default selection. 
 </p>
 
 <h3><a id="term_detail"></a>How do I interpret the Term Details tab?</h3>
@@ -114,8 +114,9 @@ An asterisk (*) next to a gene symbol identifies a gene associated with the dise
 	</LI>
     <LI><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif">Mouse models involving mutations in the mouse gene or  expressing homologs of the mouse gene are associated with this human disease. (OMIM and NCBI data currently do not associate this disease with the homologous human gene.)</LI>
    	<LI><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">Mouse models where none of the mouse markers are associated to the disease but at least one of the human homologs is associated with this human disease.</LI>
-    <LI>Transgenes or other mutation types appears when at least one of the non-gene mouse markers is associated with this human disease.
+    <LI>Transgenes and Other Mutations appears when at least one of the non-gene mouse markers is associated with this human disease.
 	</LI>
+	<li><a id="complex"></a>The Additional Complex Models section appears if there are models for which there are no endogenous disease-associated mouse or human genes. For each allelic combination, the genetic background, references and a link to phenotypic details are provided. </li>
     <!--<LI>NOT Models. This section appears when the reference's authors looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified. </LI>-->
   </OL>
   </p>
@@ -126,12 +127,7 @@ An asterisk (*) next to a gene symbol identifies a gene associated with the dise
  <TR><TH><span style="white-space: nowrap">Genetic Background</span></TH><TD>Mouse strains involved, if described. </td></tr>
  <TR><TH>Reference</TH><TD>The supporting reference linked by its MGI reference number to the MGI Reference Detail report containing the full citation. </TD></tr>
  <TR><TH>Phenotypes</TH><TD>Links to the phenotypic details for the genotype.</TD></tr>
-</td></tr>
-<TR><th><a id="complex"></a>Additional Complex Models</th><TD>This section appears only when clicking the link to <a href="#view_all">View all models</a> and will only be present if there are models for which there are no endogenous disease-associated mouse or human genes. For each allelic combination, the genetic background, references and a link to phenotypic details are provided. </TD></TR>
-<tr>
-<TR><th><a id="not_models"></a>Disease phenotype not observed</th><TD>This section appears only when clicking the link to <a href="#view_all">View all models</a> and only when the reference's authors looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified. For each allelic combination, the genetic background, references and link to phenotypic details are provided. </TD></TR>
-</TABLE>
-</p>
+</table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
