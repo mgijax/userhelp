@@ -92,9 +92,9 @@ function openHelpWindow(helpFile){
 </table>
 
 </blockquote>
-<blockquote>
-*  See <a href="genetrap_usecase_help.shtml#no_association" target="_blank">Why aren't all gene traps associated with a gene?</a> for details.)</p>
 
+<blockquote>
+*  See <a href="genetrap_usecase_help.shtml#no_association" target="_blank">Why aren't all gene traps associated with a gene?</a> for details.)
 </blockquote>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
@@ -156,6 +156,7 @@ The allele symbol is composed of the gene symbol and the allele designation.  If
   	<ul>
   	  <li>If a mutant cell line has an accession identifier, this appears. If it does not have an accession ID, the name appears (e.g., ES62, EX65).  The organization that generated the cell line (e.g., Lexicon, BayGenomics, Texas Institute for Medical Genetics, etc.) appears in parentheses.</li>
   	  <li>Variant information may include the <b>Strain of Specimen</b>, and  allele (QTL) and mutation type.</li>
+  	 </ul>
   	 </TD></TR>
 	<TR><TH>Germline Transmission</td><td> Either the status of a mouse created from this cell line, if germ line or chimera transmission reference is known, or an indication that the transmission status is unknown.</td></tr>
 	<tr><th>Parent Cell Line</th><td>Parent name, and, in parentheses, the cell type (for example, ES Cell). If Parent Cell Line appears as <i>Other (see notes)</i>, there is more information in the <a href="#additional">Additional information</a> section of this report.</td></tr>
@@ -163,9 +164,7 @@ The allele symbol is composed of the gene symbol and the allele designation.  If
 <td>Mouse strain that the allele originated from.</td></tr>
 <tr><th>Project Collection</th>
 <td>For alleles from large scale projects and repositories, the source is indicated. </td></tr>
-	</td>
-	</tr>
-	</table>
+</table>
 
 <TR><th><a id="description"></a>Mutation/Variant/Vector/Transgene description</th>
    <td>
@@ -311,7 +310,6 @@ If this field is not present, it means that there is currently no information of
   <li>Original is a J: number (MGI identifier) link to an MGI Reference Detail report containing the full citation for the original allele reference. </li>
   <li>All references (#) links to a Reference Summary report on all MGI papers examining the phenotype of the allele.</LI>
  </UL>
- </td></tr></table>
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>

@@ -42,13 +42,13 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
  <UL>
   <LI><A HREF="#whatuse">What can I use the Phenotypes, Alleles, and Disease Models Query Form to find?</A></LI>
   <LI><A HREF="#glossary">How does MGI define <I>phenotype, disease,</i> and <I>allele</I>? </a></LI>
-  <LI><A HREF="#howfill">How do I fill in this query form?</A></LI>
+  <LI><A HREF="#howfill">How do I fill in this query form?</A>
      <ul>
 		<li><a href="#mp_ontology">Is there a list of phenotype terms to select from?</a></li>
    		<li><a href="#disease_ontology">Is there a list of disease terms to select from?</a></li>
    		<li><a href="ALLELE_phenotype_highlevel_help.shtml#whatis" target="_blank">How do I make choices on the Anatomical Systems Affected by Phenotypes list?</a></li>
    		<li><a href="#relationship">Can I query using both a phenotype term and a disease term?</a></li>
-     </ul>
+     </ul></li>
    <LI><A HREF="#field">What values are acceptable in each of the fields?</A></LI>
    <li><A HREF="#definitions">How can I find definitions for the allele categories?</a></li>
  <!--<LI><A HREF="#invert_selected">What does Invert selected do?</A></LI>-->
@@ -209,8 +209,8 @@ The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkin
 		<UL>
   		<LI>AND finds text that includes <B>both</B> the term before it and the term after it; for example, <I>heart and defect</I> finds <I>heart defect</I> but not <I>heart </I>and not <I>defect</I>.</LI>
   		<LI>OR finds text that includes either the term before it or the one after; for example,  <I>heart</I> OR <I>defect</I> finds any text containing either <I>heart</I> or <I>defect</I>. </LI>
-  		</UL>
-	<LI>See <A HREF="MISC_boolean_search_help.shtml" target="_blank">Using Full-Text Searches on MGI Query Forms</A> for using quotation marks, parentheses, and white space with search terms.</LI></P>
+  		</UL></li>
+	<LI>See <A HREF="MISC_boolean_search_help.shtml" target="_blank">Using Full-Text Searches on MGI Query Forms</A> for using quotation marks, parentheses, and white space with search terms.</LI>
 </UL>
 </P>
 
@@ -273,18 +273,13 @@ gene trapped, targeted and transposon induced. See
 </ul>
 </TD></TR>
 <TR><th><a id="attributes"></a>Allele Attributes</TH><td>These alleles are sub-types of the various generation methods. A given allele may have more than one attribute (example: Targeted (Null/knockout, Reporter)). See 
-<a href="ALLELE_phenotypic_categories_help.shtml" target="_blank">Allele Types</a> for how MGI differentiates these categories.<br></br>
+<a href="ALLELE_phenotypic_categories_help.shtml" target="_blank">Allele Types</a> for how MGI differentiates these categories.<br>
 <p><B>Note:</B> A conditionally targeted genotype is dependent on the presence of some other factor (often a DNA sequence that expresses a protein functioning in specific recombination events). In MGI, <I>conditional</I> is a genotype attribute, and this is most commonly used to represent Cre-mediated excision of genomic sequences flanked by loxP sites; in most instances, this is accompanied by simultaneous insertion of some selectable marker (<I>e.g.</I> neomycin). The excised genotype, often associated with a phenotype, is dependent (or conditional) on the presence of the Cre-expressing construct.</p>
 </TR>
 <TR><th><a id="collections"></a>Project Collections</TH><td>Use this section if you want to limit your search to alleles produced by particular institutions/projects.</TR>
 <!-- <TR><th><a id="clear_all"></a>Clear all</TH><td>Removes check marks from all boxes in this section of the query form. </TD></TR>
 <TR><th><a id="invert"></a>Invert selected</TH><td>This toggle switch removes any check marks and puts them in boxes not previously selected. Example usage: you want all but three of the categories. Click those three, and then click <B>Invert selected</B>. All the unchecked boxes are now checked and the three previously checked boxes are unchecked.</TD></TR>-->
 </TABLE></TD></TR>
-</TABLE>
-</TD></TR>
-</TD>
-</TR>
-
 
 <!--<TR><th><a id="saof"></a>Sorting and output format</TH> 
     <td>
@@ -302,8 +297,7 @@ gene trapped, targeted and transposon induced. See
       </TR>
       </TABLE>
       </td>
-     </tr>-->
-</TABLE>
+     </tr> </table>-->
 <P>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>

@@ -41,7 +41,7 @@ function openHelpWindow(helpFile){
 
 <UL>
   <LI><A HREF="#purpose">What is the purpose of the Phenotypes section?</a></LI>
-  <LI><A HREF="#interpret">How do I interpret the Phenotypes section?</a></li>
+  <LI><A HREF="#interpret">How do I interpret the Phenotypes section?</a>
    <ul>
     <li><a href="#key">Key: genotypes, colors, and symbols</a></li>
     <li><a href="#numbers">Key:  genotype numbers</a></li>
@@ -49,7 +49,7 @@ function openHelpWindow(helpFile){
     <li><a href="#show_hide">Show or hide all annotated terms</a></li>
     <!--<li> <a href="#image">Tricolored image</a</li>-->
    <li><a href="#links">Links</a></li>
-  </ul>
+  </ul></li>
 
  <!--<li><a href="#howsortgs">What should appear in the Genotypes row? How is it sorted?</a></li>  -->
  <li><a href="#sex">What should appear in the Sex row?</a></li>
