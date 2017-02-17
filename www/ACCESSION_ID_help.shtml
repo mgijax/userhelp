@@ -46,8 +46,7 @@ function openHelpWindow(helpFile){
 
 <h3>Examples of accession ID results using the Quick Search</h3>
 <ul>
-  <li>Types of IDs that may appear under Genome Features</li>
-<br>
+  <li>Types of IDs that may appear under Genome Features
  	<ul>
  	  <li><a href="#markerz">Markers</a></li>
 	  <li><a href="#allelez">Alleles</a></li>
@@ -56,9 +55,9 @@ function openHelpWindow(helpFile){
 	  <li><a href="#genetrapz">Gene Traps</a></li>
 	  <li><a href="#nonmouse">Non-mouse</a></li>
  	</ul>
- 	<br>
-  <li><a href="#toidtmauvt">Types of IDs that may appear under Vocabulary Terms</a></li><br>
-  <li><a href=#"otherbyid">Types of IDs that may appear under Other Results by ID</a></li>
+ 	</li>
+  <li><a href="#toidtmauvt">Types of IDs that may appear under Vocabulary Terms</a></li>
+  <li><a href=#"otherbyid">Types of IDs that may appear under Other Results by ID</a>
 	<ul>
 	  <li><a href="#referencez">References</a></li>
 	  <li><a href="#probez">Probes</a></li>
@@ -67,6 +66,7 @@ function openHelpWindow(helpFile){
  	  <li><a href="#mapping">Mapping</a></li>
  	  <li><a href="#expression">Adult Mouse Anatomy</a></li>
 	</ul>
+	</li>
 </ul>
 
 <dl>
@@ -77,7 +77,7 @@ function openHelpWindow(helpFile){
   <dd>4394 :  Homologene</dd>
   <dd>MI0000248 :  miRBASE</dd>
   <dd>10094A-C10 : old name (for Vmn1r37) </dd>
-<br>
+
  <dt><a id="allelez"></a><b>Alleles</b></dt>
 <DD>Apoe<sup>tm1Bres</sup> : Allele symbol
 <dd>Pax3<sup>tm1Buck</sup> : Allele synonym 
@@ -119,8 +119,6 @@ function openHelpWindow(helpFile){
   <dd>Ayu21-T291 :  EGTC</dd>
   <dd>GC0196 :  TIGEM</dd>
 <br>
-
-</dl>
  
 <dt><a id="nonmouse"></a><b>Non-mouse IDs</b></dt>
  <dd>HGNC:6342  or  HGNC:2394 :  <abbr title="HUGO Gene Nomenclature Committee">HGNC</abbr> - Human</dd>
@@ -128,13 +126,12 @@ function openHelpWindow(helpFile){
   <dd>1411 :  Entrez Gene - Human</dd>
  <dd>P05813 :  UniProt, EBI - Human</dd>
   <dd>NM_005208 :  RefSeq - Human</dd>
-<br><br>
+<br>
 
 <dt><b>Miscellaneous</b></dt>
   <dd>2.7.10.1 :  EC</dd>
   <dd>1FRB :  PDB</dd>
 </dl>
-</blockquote>
 
 <h4><a id="toidtmauvt"></a>Types of IDs that may appear under Vocabulary Terms</h4>
 
@@ -158,7 +155,7 @@ function openHelpWindow(helpFile){
   <dd>8825637 :  PubMed</dd>
   <dd>MGI:1858784 :  MGI</dd>
   <dd>10.1006/bbrc.1999.1563 :  DOI</dd>
-<br>
+
 <dt><a id="probez"></a><b>Probes</b></dt>
    <dd>MGI:200469 :  MGI</dd>
    <dd>14049 :  MGC</dd>
@@ -173,14 +170,13 @@ function openHelpWindow(helpFile){
    <dd>M5C1016J08 :  RIKEN or RIKEN FANTOM</dd>
    <dd>RP24-107E24 :  RPCI-24</dd>
    <dd>D11Mit10 :  BROAD</dd>
-<br>
+
 <dt><a id="expression"></a><b>Expression</b></dt>
  <dd>MA:0002769 :  Adult Mouse Anatomy</dd>
  <dd>MGI:1339360 :  Antibody</dd>
  <dd>MGI:1339359 :  Antigen</dd>
  <dd>MGI:1934267 :  Expression Assay</dd>
  <dd>MGI:3501363 :  Expression Image</dd>
-<br>
 
 <dt><a id="mapping"></a><b>Mapping</b></dt>
   <dd>MGD-CREX-2231 :  MGI</dd>
@@ -195,7 +191,8 @@ function openHelpWindow(helpFile){
 <TR><TH>If you query by...</th><TH>The result is...</TH><th>For example...</th><th>The format is...</TR>
 
 <TR><th colspan=4><a id="allele"></a>Allele</th></tr>
-<tr><td> Allele symbol</td><td rowspan=5>Alleles, Sequences<td>Apoe&lt;tm1Bres&gt;</sup></td><td  rowspan="5">Alphanumeric; some  with brackets, some with decimals</td></tr>
+<tr><td> Allele symbol</td><td rowspan=5>Alleles, Sequences<td>Apoe&lt;tm1Bres&gt;</td>
+<td  rowspan="5">Alphanumeric; some  with brackets, some with decimals</td></tr>
 <tr><td> Allele synonym </td><td>Pax3&lt;tm1Buck&gt;</td></tr>
  <tr><td>MGI Allele ID</td><td>MGI:1856798 </td></tr>
   <tr><td>Cell line ID</td><td>OST170322</td></tr>
@@ -223,7 +220,6 @@ function openHelpWindow(helpFile){
 <TR><th colspan=4><a id="gene_classifications"></a>Gene Classifications</th></tr>
 <tr><td>Gene Ontology (GO) ID</td>
 <td>Markers &amp; vocabulary terms</td><td>GO:00302641</td><TD>Alphanumeric with colon</TD></tr>
-</tr>
 
 <TR><th colspan=4>Human Diseases</th></tr>
 <tr><td><abbr title="Online Mendelian Inheritance in Man">OMIM</abbr></td><td rowspan="2">Alleles &amp; disease terms</td><TD>168600</td><TD>Numeric</td></TR>
@@ -360,7 +356,6 @@ function openHelpWindow(helpFile){
 <TR><th>Gene trap IDs</th><td>Alleles &amp; Sequences</td><td>See <a href="genetrap_usecase_help.shtml#creator_table">Cell Line Creators and Accession IDs</a> for specific examples.
 </td><td>Alphanumeric, some with special characters (e.g., dash or underscore)</td></tr>
 </table>
-</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
