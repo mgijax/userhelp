@@ -49,7 +49,7 @@ For more information on the Clone Collections, see:
 </UL>
 </P>
 
-<p>The top of the page indicates the official gene symbol, linked to its Gene Detail page, and its name and MGI accession ID. Just below this section the Sequence Type is indicated and table summarizes the information for probes, clones and primers associated with the gene. 
+<p>The top of the page indicates the official gene symbol, linked to its Gene Detail page, and its name and MGI accession ID. Just below this section the Sequence Type is indicated and table summarizes the information for probes, clones and primers associated with the gene. If you reached this page from a Reference Detail page, then the top provides a Reference Summary. 
 </p>
 
 <TABLE BORDER CELLPADDING="4">
