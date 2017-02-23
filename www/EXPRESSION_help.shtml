@@ -133,7 +133,7 @@ If you are interested in doing queries that ask what genes are expressed in some
 	<ul>
 	<li>Function: <a href="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml" target="_blank">GO Browser</a></li>
 	<li>Phenotype: <a href="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a></li>
-	<li>Disease: <a href="<!--#include file='include/fewi_url.html'-->vocab/do" target="_blank">Disease Ontology Browser</a></li>
+	<li>Disease: <a href="<!--#include file='include/fewi_url.html'-->disease" target="_blank">Disease Ontology Browser</a></li>
 	</ul>
 </ul>
 </p>
