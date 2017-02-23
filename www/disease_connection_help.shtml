@@ -159,7 +159,7 @@ The Effective Phenotype Query shows only what you type in the Search by disease 
   <li>If you are unsure of the proper terms to use, use free text (don't select a term) or use the appropriate browser to find vocabulary terms and their definitions:</li>
 	<ul>
 	<li>Mouse Phenotype: <a href="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a></li>
-	<li>Disease: <a href="<!--#include file='include/fewi_url.html'-->vocab/do" target="_blank">Disease Ontology Browser</a></li>
+	<li>Disease: <a href="<!--#include file='include/fewi_url.html'-->disease" target="_blank">Disease Ontology Browser</a></li>
 	<li>Human Phenotype: <a href="http://compbio.charite.de/hpoweb/showterm?id=HP:0001197" target="_blank">Human Phenotype Ontology (HPO) web browser</a></li>
 	</ul>
   </ul>
