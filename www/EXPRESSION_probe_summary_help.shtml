@@ -33,7 +33,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 
 <a id="top"></a>
 
-<P><a id="summary"></a>This help document describes how to interpret a Probe and Clone Data Summary.
+<P><a id="summary"></a>This help document describes how to interpret a Molecular Probe and Clone Data Summary.
 </P>
 
 For more information on the Clone Collections, see: 
@@ -49,7 +49,7 @@ For more information on the Clone Collections, see:
 </UL>
 </P>
 
-<p>The top of the page indicates the official gene symbol, linked to its Gene Detail page, and its name and MGI accession ID. Just below this section the Sequence Type is indicated and table summarizes the information for probes, clones and primers associated with the gene. If you reached this page from a Reference Detail page, then the top provides a Reference Summary. 
+<p>If you reached this page from a Gene Detail page, then the top of the page indicates the official gene symbol, linked to its Gene Detail page, and its name and MGI accession ID. Just below this section the Sequence Type is indicated and a paginated table summarizes the information for probes, clones and primers associated with the gene. If you reached this page from a Reference Detail page, then the top provides a Reference Summary. 
 </p>
 
 <TABLE BORDER CELLPADDING="4">
@@ -59,17 +59,12 @@ For more information on the Clone Collections, see:
 <TR>
 <th>Probe/Clone<td>The probe, clone or primer name, linked to the detailed record for the probe/clone and MGI Accession ID for the probe/clone.
 </TR>
-
 <TR>
-<th>Name </TH><td>Name of the probe/clone.</TD>
-</TR>
-
-<TR>
-<th><span style="white-space: nowrap">Clone Collection</span></TH> <td>Name of the collection to which the clone belongs.</TD>
+<th><span style="white-space: nowrap">Clone Collection</span></TH> <td>Name of the collection to which the clone belongs, if applicable.</TD>
 </TR>
  <TR>
 <th><span style="white-space: nowrap">Sequence Type</TH><td>Sequence Type of the probe/clone.
-May be one of the following: cDNA, genomic, DNA, mitochondrial, oligo, primer, RNA, or  Not Specified (i.e., the provider did not supply this information).</TD>
+May be one of the following: cDNA, genomic, DNA (construct), mitochondrial, oligo, primer, or  Not Specified (i.e., the provider did not supply this information).</TD>
  </TR>
 <!--<TR>
 <th>Seq Link?</TH><td>Indicates whether there is a Sequence Accession ID associated with the probe/clone. </TD>
