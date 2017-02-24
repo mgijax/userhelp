@@ -39,13 +39,14 @@ function openHelpWindow(helpFile){
 
 <!-- Body of User Help -->
 
-<A NAME="top"></A>
+<a id="top"></A>
 <p>This help document answers the following questions about the Using the Gene Expression Batch Search:
 <ul>
  <LI><A HREF="#whatpurpose">What is the purpose of the Gene Expression Database?</A></LI>
  <LI><A HREF="#whatquery">What can I use this query form to find?</A></LI>
  <li><a href="#fields">What are the accepted input identifier (ID) types?</a></li>
- <li><a href="#column">Can I upload a particular column of IDs/Symbols from a file?</li>
+ <li><a href="#column">Can I upload a particular column of IDs/Symbols from a file?</a></li>
+ <li><a href="#why_constrain">When would I constrain my search to a single input type?</a></li>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
  <li><a href="#gxdfilter">How do I filter my results?</a></li>
  <LI><a href="EXPRESSION_help.shtml#summary" target="_blank">How do I interpret the query results summary and detail pages?</a></LI>
@@ -55,20 +56,20 @@ function openHelpWindow(helpFile){
 </ul>
 </p>
 
-<H3><A NAME="whatpurpose"></A>What is the purpose of the Gene Expression Database?</H3>
-<P>The Gene Expression Database (GXD) is designed to integrate many different types of endogenous gene expression</A> data from the mouse in formats appropriate for comprehensive analysis. Query results, such as the developmental stage and tissue of expression (or non-expression), the genetic origin of the sample, and the numbers and sizes of detected bands, are described together with the molecular probe, the expression assay type, and the experimental conditions used. Expression patterns are described using an extensive, hierarchical dictionary of standardized anatomical terms, making it possible to record expression results from assays with differing spatial resolution in a consistent and integrated manner and to analyze expression patterns at differing levels of detail. Whenever possible, text annotations are complemented by digitized images of the original expression data.
+<H3><a id="whatpurpose"></A>What is the purpose of the Gene Expression Database?</H3>
+<P>The Gene Expression Database (GXD) is designed to integrate many different types of endogenous gene expression data from the mouse in formats appropriate for comprehensive analysis. Query results, such as the developmental stage and tissue of expression (or non-expression), the genetic origin of the sample, and the numbers and sizes of detected bands, are described together with the molecular probe, the expression assay type, and the experimental conditions used. Expression patterns are described using an extensive, hierarchical dictionary of standardized anatomical terms, making it possible to record expression results from assays with differing spatial resolution in a consistent and integrated manner and to analyze expression patterns at differing levels of detail. Whenever possible, text annotations are complemented by digitized images of the original expression data.
 <P>To learn more about GXD and how we acquire data, please see <A HREF="<!--#include file='include/mgihome_url.html'-->GXD/aboutGXD.shtml" target="_blank">About the Gene Expression Database (GXD)</A>.</P>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A NAME="whatquery"></A>What can I use this query form to find?</H3>
+<H3><a id="whatquery"></A>What can I use this query form to find?</H3>
 
 <p>The Gene Expression Data Query form Batch Search tab allows you to retrieve expression data with a list of genes or IDs associated with genes. All Gene Expression Data searches return a tissue-by-gene matrix view as part of its multi-tabbed data summary. This view enables a comparison of expression patterns between genes. Data <a href="#gxdfilter">filters</a> found on the summary pages can be used to further refine search results. 
 </p>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
  
-<h3><a name="fields"></a>What are the accepted input identifier (ID) types?</h3>
+<h3><a id="fields"></a>What are the accepted input identifier (ID) types?</h3>
 <p>For a given query, your list can be either mixed or all of the same type. You can also enter (mouse) gene symbols, synonyms, or orthologs.</p>
  <ul>
   <li>When your input list consists of mixed ID types (for example, gene symbol, MGI ID, Entrez Gene ID, Homologene ID), use Search all input types (the default in the Type box). The following is an example of an input list requiring the use of the default:
@@ -94,24 +95,24 @@ MI0000248
 The following are representative examples for each type listed on the pulldown menu:
 <blockquote>
 <table border="1"  cellpadding="4" width="!">
-  <tr><th valign="top">Input identifier type</th><th valign="top">Representative example</th></tr>
-<tr><td valign="top">MGI Gene/Marker ID</td><td valign="top">MGI:96677</td></tr>
-<tr><td valign="top">Current Symbols Only</td><td valign="top">Trp53 <br>Pax6<br>D11Mit10</td> </tr>
+  <tr><th>Input identifier type</th><th>Representative example</th></tr>
+<tr><td>MGI Gene/Marker ID</td><td>MGI:96677</td></tr>
+<tr><td>Current Symbols Only</td><td>Trp53 <br>Pax6<br>D11Mit10</td> </tr>
 
-<tr><td valign="top">All Symbols/Synonyms/Homologs<br>(includes both current and old symbols)<td valign="top">Pax6<br>Pax-6<br>Trp53<br>P53</td></tr>
-<tr><td valign="top">Entrez Gene ID</td><td valign="top">16590</td></tr>
-<tr><td valign="top">Ensembl ID </td><td valign="top">ENSMUSG00000028530</td></tr>
-<tr><td valign="top">VEGA ID</td><td valign="top">OTTMUSG00000015949</td></tr>
-<tr><td valign="top">UniGene ID</td><td valign="top">247073</td></tr>
-<tr><td valign="top">miRBase ID</td><td valign="top">MI0000248</td></tr>
-<tr><td valign="top">GenBank/RefSeq ID*</td><td valign="top">NM_001122899<br> AK033644<br>NP_666257</td></tr>
-<tr><td valign="top">UniProt ID</td><td valign="top">P48356<br>A2AKJ2</td></tr>
-<tr><td valign="top">GO (Gene Ontology)</td><td valign="top">GO:0019221</td></tr>
-<tr><td valign="top">RefSNP ID</td><td valign="top">rs3021544</td></tr>
-<tr><td valign="top">Affy Probeset ID</td><td valign="top">10379153</td></tr>
+<tr><td>All Symbols/Synonyms/Homologs<br>(includes both current and old symbols)<td>Pax6<br>Pax-6<br>Trp53<br>P53</td></tr>
+<tr><td>Entrez Gene ID</td><td>16590</td></tr>
+<tr><td>Ensembl ID </td><td>ENSMUSG00000028530</td></tr>
+<tr><td>VEGA ID</td><td>OTTMUSG00000015949</td></tr>
+<tr><td>UniGene ID</td><td>247073</td></tr>
+<tr><td>miRBase ID</td><td>MI0000248</td></tr>
+<tr><td>GenBank/RefSeq ID*</td><td>NM_001122899<br> AK033644<br>NP_666257</td></tr>
+<tr><td>UniProt ID</td><td>P48356<br>A2AKJ2</td></tr>
+<tr><td>GO (Gene Ontology)</td><td>GO:0019221</td></tr>
+<tr><td>RefSNP ID</td><td>rs3021544</td></tr>
+<tr><td>Affy Probeset ID</td><td>10379153</td></tr>
 
  <table border="0" cellspacing="0" cellpadding="4">
-  <tr><td valign="top">*</td><td valign="top">GenBank IDs are for nucleotide sequences only. RefSeq IDs are for either nucleotide or protein sequences.</td></tr>
+  <tr><td>*</td><td>GenBank IDs are for nucleotide sequences only. RefSeq IDs are for either nucleotide or protein sequences.</td></tr>
  </table>
 </blockquote>
 
@@ -119,22 +120,22 @@ The following are additional types (not listed on the pulldown menu), followed b
 <blockquote>
 
 <table border="1" cellpadding="4" width="!">
-<tr><th valign="top">Input identifier type</th><th valign="top">Representative example</th></tr>
-<!--<tr><td valign="top">BayGenomics</td><td valign="top">LST083</td></tr>-->
-<tr><td valign="top">EC <br>(Enzyme Commission)</td><td valign="top">2.7.10.1</td></tr>
-<tr><td valign="top">Homologene</td><td valign="top">20151</td></tr>
-<!--<tr><td valign="top">Lexicon</td><td valign="top">OST128284</td></tr>-->
-<tr><td valign="top">PDB<br>(Protein Data Bank)</td><td valign="top">1HU8</td></tr>
-<tr><td valign="top">Consensus CDS</td><td valign="top">CCDS16941.1</td></tr>
-<tr><td valign="top">Protein Ontology</td><td valign="top">PR:000004803</td></tr>
-<!--<tr><td valign="top">TreeFam</td><td valign="top">TF320146</td></tr>-->
+<tr><th>Input identifier type</th><th>Representative example</th></tr>
+<!--<tr><td>BayGenomics</td><td>LST083</td></tr>-->
+<tr><td>EC <br>(Enzyme Commission)</td><td>2.7.10.1</td></tr>
+<tr><td>Homologene</td><td>20151</td></tr>
+<!--<tr><td>Lexicon</td><td>OST128284</td></tr>-->
+<tr><td>PDB<br>(Protein Data Bank)</td><td>1HU8</td></tr>
+<tr><td>Consensus CDS</td><td>CCDS16941.1</td></tr>
+<tr><td>Protein Ontology</td><td>PR:000004803</td></tr>
+<!--<tr><td>TreeFam</td><td>TF320146</td></tr>-->
 </table>
 </blockquote>
 </p>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="column"></a>Can I upload a particular column of IDs/Symbols from a file?</h3>
+<h3><a id="column"></a>Can I upload a particular column of IDs/Symbols from a file?</h3>
 
 <p>Yes, you can import a column from a text file. In the <b>Use IDs from a File</b> section of the form: 
 <ol>
@@ -146,17 +147,27 @@ The following are additional types (not listed on the pulldown menu), followed b
 <p><b>Note:</b> To import a column of symbols or IDs from a spreadsheet, first export the file as text or CSV (Comma Separated Values) and then import the column or copy and paste a column directly from the spreadsheet.
 </p>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="revise"></a>Can I edit my original options and requery?</h3>
+<h3><a id="why_constrain"></a>When would I constrain my search to a single input type?</h3>
+<p>You may wish to select a single input type from the Type list when you want the Batch Query to return:</p>
+ <ul>
+   <li>Only current mouse gene symbols with MGI gene associations (for example, Acat1).</li>
+   <li>Only current or former mouse symbols, synonyms, and orthologs with MGI gene associations.</li> 
+   <li>Results from one database and not another. Numerical identifiers (those without an alpha character), may recur in several databases (i.e., UniGene or Entrez Gene, and as an example, 12192). </li>
+ </ul>
+ 
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="revise"></a>Can I edit my original options and requery?</h3>
 <p>Yes, you can.</p>
-<ul><li>If you want to edit a list or change output options:</li>
+<ul><li>If you want to edit a list or change output options:
 <ol>
   <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. </li>
   <li>Make your changes.</li>
   <li>Click Search.</li>
   <li>Repeat until the desired results appear.</li>
-</ol>
+</ol></li>
 </ul>
 
 <b>Notes:</b> 
@@ -165,28 +176,28 @@ The following are additional types (not listed on the pulldown menu), followed b
 <li>If you had <a href="#gxdfilter">filtered</a> your search results, when you modify your search, the filters are reset.</li>
 <li>Alternatively, click Reset to clear the fields. </li>
 </ul>
-</p>
-<a href="#top"><font size="-1">Top</font></a>
 
-<h3><a name="gxdfilter"></a>How do I filter my results?</h3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="gxdfilter"></a>How do I filter my results?</h3>
 <p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for Wild type or mutant specimens. In the banner above your results, after <i>Filter expression data by:</i> click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>. Note: Filtering out mutants will retain heterozygous <i>in situ</i> knock-in mutants.</p>
 <p>Both Matrix tabs offer easy filtering by tissue. The Tissue x Stage Matrix also offers filtering by developmental stage/age and the Tissue x Gene Matrix permits filtering by gene symbol. Check the rows or columns you wish to retain and then click the Filter (<img image width="13" height="13" src="<!--#include file='include/webshare_url.html'-->images/filter.png">) button in the grid to apply the filters. These filters are also applied to all tabs.</p> 
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A NAME="summary"></A>How do I interpret the query results summary and detail pages?</H3>
+<H3><a id="summary"></A>How do I interpret the query results summary pages?</H3>
 
-<p>See: <a href="EXPRESSION_help.shtml#summary" target="_blank">How do I interpret the query results summary and detail pages?</a>
+<p>See: <a href="EXPRESSION_help.shtml#summary" target="_blank">How do I interpret the query results summary pages?</a>
 </p>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="excelfile_gxdqf"></a>Can I get my results as tab-delimited text or spreadsheet files?</h3>
+<h3><a id="excelfile_gxdqf"></a>Can I get my results as tab-delimited text or spreadsheet files?</h3>
 <p>Yes. The <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a> tabs provide export options. In your search results, click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
 
-<font size="-1"><A HREF="#top">Top</A></font>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><A name="batch"></a>Can I send the results of my search to the MGI Batch Query or MouseMine?</h3>
+<h3><a id="batch"></a>Can I send the results of my search to the MGI Batch Query or MouseMine?</h3>
 <p>Yes. Under the Genes tab you have the option of exporting your results as a text file, spreadsheet file or sending the list of genes to the MGI <a href="<!--#include file='include/fewi_url.html'-->batch">Batch Query</a> or <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a>. 
 <ul>
   <li>If you click the Batch Query icon, the default Batch Summary will appear for your list of genes. Use the Click to modify search button to expand your search results to include additional information such as Gene Ontology (GO) terms, Mammalian Phenotype (MP) terms or Human Diseases associated with the genes.</li> 
@@ -195,6 +206,6 @@ The following are additional types (not listed on the pulldown menu), followed b
 </p>
 <p>See also <a href="BATCH_help.shtml"target="_blank">Using the MGI Batch Query</a>.</p>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
