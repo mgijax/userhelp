@@ -231,7 +231,8 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
   <TR><td><a id="sex2"></a><b>Sex</b></td> <td>Sex of the specimen, if specified. </TD></TR>
   <TR><td><a id="type"></a><b>Type</b></td><td>Refers to type of <I>in situ</I> hybridization (whole mount, section, or section from whole mount).  </TR>
   <TR><td><a id="fixation"></a><b>Fixation</b> <td>Chemical fixative used to prepare the specimen. </TD></TR>
-  <TR><Td><a id="embedding"></a><b>Embedding</b></td><td>Method used to embed the specimen, if applicable.</TD></TR>
+  <TR><td><a id="embedding"></a><b>Embedding</b></td><td>Method used to embed the specimen, if applicable.</TD></TR>
+  <tr><td><b>Note</b></td><td>Additional information pertaining to the specimen.</td></tr>
  </TABLE>
 
 </BLOCKQUOTE>
