@@ -54,18 +54,18 @@ function openHelpWindow(helpFile){
   <li><A HREF="#Dfields">What values are acceptable in each of the Differential Search fields?</a></li>
   </ul>
   </li>
- <li><a href="#batchchoices">Can I perform batch searches for expression data with multiple genes?</li>
+ <li><a href="#batchchoices">Can I perform batch searches for expression data with multiple genes?</a></li>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
  <li><a href="#whattabs">What are the advantages of the different results tabs?</a></li>
  <LI><A HREF="#summary">How do I interpret the query results summary page?</a>
   <ul>
    <li><a href="#matrixcolors">What do the colors in a Matrix mean?</a></li>
-   <li><a href="#absent">How are absent results propagated through the matrix anatomy hierarchy?</a></li>
+   <li><a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></li>
    </ul>
    </li>
  <li><a href="#gxdfilter">How do I filter my results?</a></li>
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
- <li><a href="#column">Can I upload a particular column of IDs/Symbols from a file?</li>
+ <li><a href="#column">Can I upload a particular column of IDs/Symbols from a file?</a></li>
  <li><a href="#batch">Can I send the results of my search to the MGI Batch Query or MouseMine?</a></li>
  <li><A HREF="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a></li>
  <li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</a></li>
@@ -95,13 +95,13 @@ function openHelpWindow(helpFile){
 <p>(See <A href="#example">Are there examples of query results?</a> for the form
 field values for these queries.)
 <p>
-If you are interested in doing queries that ask what genes are expressed in some anatomical structures and/or developmental stages but not in others, you should use the Differential Expression Search tab on this form.</p>
+If you are interested in doing queries that ask what genes are expressed in some anatomical structures and/or developmental stages but not in others, you should use the <a href="#whatdiffer">Differential Expression Search</a> tab on this form.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="fields"></a>What values are acceptable in each of the Standard Search  fields?</h3>
 <table width="100%" cellpadding="4" class="nb" align="center">
- <tr align="center"><td><A HREF="#gene_nomenclature">Genes</A> | <A HREF="#map_position">Genome location</A> | 
+ <tr><td><A HREF="#gene_nomenclature">Genes</A> | <A HREF="#map_position">Genome location</A> | 
  <A HREF="#anatomical_structure">Anatomical structure or stage</A> | <A HREF="#mutated_gene">Mutant / wild type</A> <!--| <A HREF="#background">Genetic background</A>--> | <A HREF="#assay_type">Assay types</A> </td>
  </TR>
 </TABLE>
@@ -167,11 +167,10 @@ If you enter more than one structure in the query field, you can choose to find 
 <P>If you are unsure of the most appropriate structural term to use, browse the
 <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Ontology</a>.</p> 
  
- <a id="developmental_stage"></A><b>Developmental Stages</b><br>
+ <a id="developmental_stage"></a><b>Developmental Stages</b><br>
    Use this field <!--and its operators (in and not in)--> to select one or more Theiler stages (TS) to focus your search on a particular stage of embryonic development. Alternately, you can choose the <i>Use Ages</i> tab and limit your search to the general terms, <i>Embryonic</i> or <i>Postnatal</i>, or choose specific days post conception (dpc).
 
-<p><a id="stages"></a><b>Note</b>: The Theiler system organizes development into stages defined by the
-appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc.</p>
+<p><a id="stages"></a><b>Note</b>: The Theiler system organizes development into stages defined by the appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development. Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc.</p>
 To select multiple stages or ages: 
 <UL>
   <LI>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired stages; OR hold the shift key down and  click on two stages to select those and all stages in between. </li>
@@ -184,7 +183,7 @@ To select multiple stages or ages:
 Click the check box if you want to exclude mutant specimens from the search. <b>Note:</b> Because of the way the query is designed, knock-in embryos are considered mutants. Therefore, if you exclude mutant specimens, the query returns no expression results obtained from <i>in situ</i> reporter (knock-in) assays.</td></tr></table></td></tr>-->
      
 <tr>
-<td><a id="mutated_gene"></A><b>Mutant / wild type</b></td>
+<td><a id="mutated_gene"></a><b>Mutant / wild type</b></td>
   <td><p>Select <i>Specimens mutated in gene</i> to search for expression data obtained from mutant specimens. Use this field to enter the symbol or name of the mutated genetic marker. The system searches for current symbols/names and synonyms of the mutated gene. Use this search field as you would the <A HREF="#gene_nomenclature">Genes' nomenclature</A> search at the top of the search form.</p>
   	<p>Select <i>Wild type specimens only</i> if you wish to exclude mutant alleles from your search. This search will still include knock-in reporter genes used in <i>in situ</i> reporter assays. Homozygous mutant specimens are not included in this search.</p>
   	<p>Select <i>All specimens</i>, the default, to include all mutant and wild type specimens in your search. </p>
@@ -196,14 +195,10 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 	<td>Genetic background...</td>
  </tr>-->
  <tr>
-   <td><a id="assay_type"></A><b>Assay types</b></td>
+   <td><a id="assay_type"></a><b>Assay types</b></td>
    <td>Check list of assay types. Use this section to limit your search to assays of one or more selected types. The default is to search <i>All</i> of the assay types on the list. Uncheck the first box for <i>Find expression data in any assay type</i> to quickly clear all selections. 
     </TD>
     </TR>   
-   </table>
-     
-   </td>
-  </tr>
 </table>
 </p>
 
@@ -222,7 +217,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 
 <H3><a id="Dfields"></a>What values are acceptable in each of the Differential Search fields?</H3>
 <table width="!" cellpadding="4" class="nb">
-<tr><td><a href="#Danatomical_structure">Anatomical Structure</a> |  <a href="#Ddevelopmental_stage">Developmental Stage</a> | <a href="#Dstructurestage">Structure & Stage</a>
+<tr><td><a href="#Danatomical_structure">Anatomical Structure</a> |  <a href="#Ddevelopmental_stage">Developmental Stage</a> | <a href="#Dstructurestage">Structure &amp; Stage</a>
 </TD>
   </TR>
  </TABLE>
@@ -238,7 +233,7 @@ The Differential Expression form lets you query for genes expressed in some anat
 
 <TABLE BORDER=1 CELLPADDING="4" width="100%">
 <TR> <TH>Field</TH> <TH>Description</TH> </TR>
-<td><a id="Danatomical_structure"></a><b>Anatomical Structure</b></td>
+<tr><th><a id="Danatomical_structure"></a><b>Anatomical Structure</b></th>
 <td>The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. Begin typing a term of interest and an autocomplete list activates on the second character. 
 
 <p>For each stage, the Anatomical Dictionary is organized as a hierarchy of structures. For the first field, <i>Find genes where expression is detected in</i>, the search includes substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon. <!--If you choose to include superstructures, the system, besides searching for brain, looks for structures in the hierarchy placed above brain, such as central nervous system.-->
@@ -252,10 +247,15 @@ The Differential Expression form lets you query for genes expressed in some anat
 <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. </td>
 </tr>
 
-<tr><td><a id="Ddevelopmental_stage"></a><b>Developmental Stage</b></td>
-    <td>Use this field to select <a href="MISC_usingQFs_help.shtml#options" target="_blank">one or more</a> Theiler stages (TS) to focus your search on a particular stage of embryonic development. 
+<tr><th><a id="Ddevelopmental_stage"></a><b>Developmental Stages</b></th>
+    <td>Use this field to select one or more Theiler stages (TS) to focus your search on a particular stage of embryonic development. 
 <ul>
-	<li>The default for the lower box is <i>Any stages not selected above</i>. </li>
+	<li>The default for the lower box is <i>Any stages not selected above</i>.
+	To select multiple stages or ages: 
+<ul>
+  <li>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired stages; OR hold the shift key down and  click on two stages to select those and all stages in between. </li>
+  <li>On a PC, hold the control key down and click on the desired stages; OR hold the shift key down and click on two stages to select those and all stages in between. </li>
+ </ul></li>
     <li>If you enter more than one stage in the upper box, for the query to return a particular gene, results demonstrating its expression must exist for at least one of the specified stages.
 	<li>If you enter more than one stage in the lower box, the query returns those genes for which there was an absence of expression in <i>Any stages not selected above</i>.
 </ul>
@@ -274,15 +274,10 @@ and NOT detected or analyzed in:</b><br></td><td><p>This portion of the form all
 Since mutants often have aberrant expression patterns, by default, expression results obtained from specimens containing one or more mutant alleles are excluded from the query.  To include expression results obtained from mutants in your query, click to deselect this option.  <b>Note:</b> Because of the way the query is designed, knock-in embryos are considered mutants.  Therefore, if you exclude mutant specimens, the query returns no expression results 
 obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></td></tr>
 
-<tr><td><a id="Dstructurestage"></a><b>Structure and Stage</b></td><td>Use this section when you want to query for genes expressed in some structures and stages but not in other structures and stages. This section combines the query fields for the <a href="#anatomical_structure">Anatomical Structure</a> and <a href="#developmental_stage">Developmental Stage</a> fields. 
+<tr><th><a id="Dstructurestage"></a><b>Structure and Stage</b></th><td>Use this section when you want to query for genes expressed in some structures and stages but not in other structures and stages. This section combines the query fields for the <a href="#anatomical_structure">Anatomical Structure</a> and <a href="#developmental_stage">Developmental Stage</a> fields. 
 <p>You must enter a structure in both fields.</p>
-</td></tr></td></tr>
-</blockquote>
-
-   </td>
-  </tr>
+</td></tr>
 </table>
-</TABLE>
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
@@ -301,12 +296,12 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></t
 
 <h3><a id="revise"></a>Can I edit my original options and requery?</h3>
 <p>Yes, you can.</p>
-<ul><li>If you want to edit a list or change output options:</li>
+<ul><li>If you want to edit a list or change output options:
 <ol>
   <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. </li>
   <li>Make your changes.</li>
   <li>Click Search.</li>
-</ol>
+</ol></li>
 </ul>
 
 <b>Notes:</b> 
@@ -320,7 +315,7 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></t
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="whattabs"></a>What are the advantages of the different results tabs?</h3>
-<p>The Genes, Assays and Assay Results tabs offer progressively detailed views of your expression search results. The 2 matrices provide interactive high-level overviews of temporal and spatial expression patterns and offer the ability to drill down to more detail. With the Standard search, the Assay Results tab is selected by default. 
+<p>The Genes, Assays and Assay Results tabs offer progressively detailed views of your expression search results. The 2 matrices provide interactive high-level overviews of temporal and spatial expression patterns and offer the ability to drill down to more detail. 
 <table border width="!" cellpadding="4" cellspacing="1">
 <tr><td><b><a href="#genestab">Genes</a></b></td>
      <td>The Genes tab provides a list of the genes that match your query along with the options to export your results as text files or to send the list to our Batch Query. Batch Query searches can associate the genes with additional information, such as functional or phenotypic data. See <a href="BATCH_help.shtml">Using the MGI Batch Query</a>.</td></tr>
@@ -341,7 +336,7 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></t
 
 <H3><a id="summary"></A>How do I interpret the query results summary page?</H3>
 
-<p>Your search results are displayed within six tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a>, <a href="#assaytab">Assay Results</a>, <a href="#imagetab">Images</a>, <a href="#tissuematrix">Tissue x Stage Matrix</a> and <a href="#genematrix">Tissue x Gene Matrix</a>. With the Standard search, the Assay Results tab is selected by default. For Differential Expression searches, the Genes tab is the default selection.
+<p>Your search results are displayed within six tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a>, <a href="#assaytab">Assay Results</a>, <a href="#imagetab">Images</a>, <a href="#tissuematrix">Tissue x Stage Matrix</a> and <a href="#genematrix">Tissue x Gene Matrix</a>. With the Standard search, the Assay Results tab is selected by default. For Differential Expression searches, the Tissue x Gene Matrix tab is the default selection.
 See <a href="#whattabs">What are the advantages of the different results tabs?</a> for a brief guide to choosing results tabs.</p>
 
 <h4><a id="genestab"></a>Genes</h4>
@@ -364,8 +359,9 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
  	 <td>Cytogenetic position</td></tr>
  <tr><td><b>Strand </b></td>
      <td>Coding strand for the gene</td></tr>
-</table></p>
+</table>
 </blockquote>
+</p>
 
 <h4><a id="byassay"></a>Assay</h4>
 <p>If you select the Assays tab, the query summary contains the following fields:<br><br>
@@ -379,8 +375,9 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
      <td>Name of the assay used (e.g., Immunohistochemistry, Northern blot, RNA in situ, and so on).</td></tr>
  <tr><td><b>Reference</b></td>
      <td>J number (MGI identifier) and short format citation for this reference linked to its MGI reference detail report.</td></tr>
-</table></p>
+</table>
 </blockquote>
+</p>
 
 <h4><a id="assaytab"></a>Assay Results</h4>
 <p>If you select Assay Results, you are offered the ability to Export your results as a text or spreadsheet file. Below the Export options, a table summarizes information on the assays. You can use the triangles in the column headers to sort by a column. The query summary contains the following fields:<br><br>
@@ -405,7 +402,7 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
 </table>
 </td></tr>
 <tr><td><b>Structure </b></td>
-     <td>Structure examined in the assay, given as a Theiler stage (TS) and anatomical structure name linked to the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>  Term Detail report showing the structure in the anatomical hierarchy.</td></tr>
+     <td>Structure examined in the assay, given as a Theiler stage (TS) and anatomical structure name linked to the Mouse Developmental Anatomy Browser Term Detail report showing the structure in the anatomical hierarchy.</td></tr>
 <tr><td><b>Detected? </b></td>
      <td>Was expression detected? Possible values include:
     <UL>
@@ -439,11 +436,12 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
      <td>Describes whether the sample is a whole mount, section, or section from a whole mount.</td></tr>
  <tr><td><b>Result Details</b></td>
      <td>Links to image and expression assay result details.</td></tr>
-</table></p>
+</table>
 </blockquote>
+</p>
 
 <h4><a id="tissuematrix"></a>Tissue x Stage Matrix</h4>
-<p>The Tissue x Stage Matrix tab presents the query results in a grid view. The columns show developmental, Theiler, stages (TS) where expression was examined and the rows display the tissues that were examined. <a href="<!--#include file='include/fewi_url.html'-->glossary/theiler">Theiler stages</a> are defined using morphological criteria, not gestational age. 
+<p>The Tissue x Stage Matrix tab presents the query results in a grid view. The columns show developmental, Theiler, stages (TS) where expression was examined and the rows display the tissues that were examined. Theiler stages are defined using morphological criteria, not gestational age. 
 For example, TS4 represents the blastocyst stage. For simplicity and ease of reference, the column headers also display the gestational age range over which each developmental stage may be found. 
 The Theiler Stages are further defined <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html">here</a>. The tissues consist of anatomy terms from <a href="VOCAB_mad_browser_help.shtml">The Mouse Developmental Anatomy Ontology</a>. You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;.</p>
 <p>All expression results <a href="#gxdfilter">filters</a> are applied across the six summary tabs, including those filters that originate in the matrix. On the matrix, check rows and/or columns and click the Filter (<img image width="13" height="13" src="<!--#include file='include/webshare_url.html'-->images/filter.png">) button to reduce the grid to just the rows and columns you have checked. Selected filters will be displayed above the tab; they can be removed by clicking on them. Any filtering done on the grid will apply to all the other data tabs as well.
@@ -462,17 +460,17 @@ Individual cells have the ability to filter as well. Clicking on a cell displays
 <p>The colors in the grid, <strong style="background-color: #D7E4FF; color:#000; font-size:12px;">blues</strong> for expression detected and <strong style="background-color:#FF6767; color:#000; font-size:12px;">reds</strong> for expression not detected</strong>, get progressively darker when there are more supporting annotations. The darker colors do not denote higher or lower levels of expression, just more evidence.</p>
 <p><strong style="background-color: #BFBFBF; color:#000; font-size:12px;">Grey</strong> bars indicate the only annotations for the tissue are ones for which the researchers examined the tissue but did not definitively state whether expression was present or absent, i.e. their description was ambiguous.</p>
 <p>Squares with a <strong style="background-color:#FF6767; color:#000; font-size:12px;">red</strong> corner indicate that expression has been reported as being both present and absent in that tissue. Although this may be because different labs made conflicting observations, it may also be due to other factors, such as differences in the genotype or sex of the specimen, sensitivity of the assay used, or a difference in the transcript variant assayed.</p>
-<p>A square with a <strong style="background-color: #FADD6D; color:#000; font-size:12px;">gold</strong> corner indicates that although there are no annotations where expression was reported as being present in either the tissue or its substructures, there are expression results for substructures of the tissue that were reported as being either absent or ambiguous. See <a href="#absent">How are absent results displayed through the matrix anatomy hierarchy?</a></p>
+<p>A square with a <strong style="background-color: #FADD6D; color:#000; font-size:12px;">gold</strong> corner indicates that although there are no annotations where expression was reported as being present in either the tissue or its substructures, there are expression results for substructures of the tissue that were reported as being either absent or ambiguous. See <a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></p>
 <p>A circle in a square (found only in the Tissue x Stage Matrix) indicates the tissue exists at that Theiler stage but we have no expression data for it, whereas a blank square indicates that the tissue does not exist at that stage.</p>
-<p>Clicking in any box in the grid will open a dialogue box. For <strong style="background-color: #D7E4FF; color:#000; font-size:12px;">blue</strong> squares, this box will indicate the number of annotations where expression was reported as being present in either the tissue or its substructures. It may also indicate additional expression results annotated to this tissue that were reported as being either absent or ambiguous; absent or ambiguous annotations to substructures will not be reported. See <a href="#absent">How are absent results displayed through the matrix anatomy hierarchy?</a></p> 
-<p>For <strong style="background-color:#FF6767; color:#000; font-size:12px;">red</strong> squares, this box will indicate the number of annotations where expression was reported as being absent in the tissue; annotations to substructures will not be reported. See <a href="#absent">How are absent results displayed through the matrix anatomy hierarchy?</a></p> 
-<p>For <strong style="background-color: #BFBFBF; color:#000; font-size:12px;">grey</strong> bars, this box will indicate the number of annotations to the tissue where the expression levels were reported in an ambiguous fashion. It may also indicate additional expression results annotated to this tissue that were reported as being absent. In neither case will absent and/or ambiguous annotations to substructures be reported. See <a href="#absent">How are absent results displayed through the matrix anatomy hierarchy?</a></p>
+<p>Clicking in any box in the grid will open a dialogue box. For <strong style="background-color: #D7E4FF; color:#000; font-size:12px;">blue</strong> squares, this box will indicate the number of annotations where expression was reported as being present in either the tissue or its substructures. It may also indicate additional expression results annotated to this tissue that were reported as being either absent or ambiguous; absent or ambiguous annotations to substructures will not be reported. See <a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></p> 
+<p>For <strong style="background-color:#FF6767; color:#000; font-size:12px;">red</strong> squares, this box will indicate the number of annotations where expression was reported as being absent in the tissue; annotations to substructures will not be reported. See <a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></p> 
+<p>For <strong style="background-color: #BFBFBF; color:#000; font-size:12px;">grey</strong> bars, this box will indicate the number of annotations to the tissue where the expression levels were reported in an ambiguous fashion. It may also indicate additional expression results annotated to this tissue that were reported as being absent. In neither case will absent and/or ambiguous annotations to substructures be reported. See <a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></p>
 <p>Since squares with a <strong style="background-color: #FADD6D; color:#000; font-size:12px;">gold</strong> corner indicate that all the expression results are absent or ambiguous annotations to substructures (rather than the structure represented by the square) the number of annotations is not indicated in the dialogue box.</p>
 <p>In all cases, clicking "View These Results" will take you to the assay results tab where these results can be reviewed in detail. If there are annotations where expression was reported as being absent or ambiguous in a substructure, they will be shown on this tab (although they will not be included in the counts on the dialogue box). Clicking "View the Images" will take you to the Images tab.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="absent"></a>How are absent results propagated through the matrix anatomy hierarchy?</h3>
+<h3><a id="absent"></a>How are expression results propagated through the matrix anatomy hierarchy?</h3>
 
 <p>The nature of the expression data captured by GXD requires present and absent expression results to be managed differently in the matrix anatomy hierarchy. From the statement, "expression was detected in the heart ventricle," we can infer that "expression is detected (somewhere) in the heart." In contrast, the statement "expression was not detected in the heart ventricle" does not imply that "expression is found (nowhere else) in the heart." Therefore, a positive expression result is displayed in the matrix as a blue square for that anatomical structure, but any parent structure will also display a blue square based on that present result. In contrast, absent expression results can only be represented for that structure in the matrix. Parent structures will not display a red square based on an absent result in a child structure.</p>
 
