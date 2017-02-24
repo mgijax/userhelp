@@ -56,7 +56,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 <TABLE BORDER CELLPADDING="4">
 <TR><TH>FIELD</TH> <TH>DESCRIPTION</TH></TR>
 <TR><th><span style="white-space: nowrap">Nucleotide Probe/Clone</span></th><td>Name of the probe or segment.</TD></TR>
-<TR><th>Sequence type</th><td>Sequence types are: cDNA, genomic, DNA (construct), mitochondrial, oligo, primer, RNA.</TD></TR>
+<TR><th>Sequence type</th><td>Sequence types are: cDNA, genomic, DNA (construct), mitochondrial, oligo, primer, and Not Specified.</TD></TR>
 
 <TR><th>Derivatives</th><td>Names of probes/clones derived from the currently displayed probe/clone. Each name is linked to the appropriate child record.</TD></TR>
 
