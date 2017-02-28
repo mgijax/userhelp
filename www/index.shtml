@@ -104,7 +104,7 @@ User Help Site Map
 	
 	<dd><a href="EXPRESSION_cDNA_summary_help.shtml" target="_blank">Interpreting a cDNA Clone Source Data Summary</a></dd>
 	<dd><a href="EXPRESSION_probe_summary_help.shtml" target="_blank">Interpreting a Probe and Clone Data Summary</a></dd>
-	<dd><a href="EXPRESSION_probe_detail_help.shtml" target="_blank">Interpreting Probe and Clone Data Details</a></dd>
+	<dd><a href="EXPRESSION_probe_detail_help.shtml" target="_blank">Interpreting Probe and Primer Details</a></dd>
 	<dd><a href="EXPRESSION_affy_probe_help.shtml" target="_blank">Interpreting a Microarray Probeset Summary</a></dd>
 	<dd><a href="EXPRESSION_antibody_help.shtml" target="_blank">Interpreting Antibody Details</a></dd>
 </blockquote>
