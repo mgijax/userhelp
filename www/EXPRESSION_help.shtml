@@ -402,7 +402,7 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
 </table>
 </td></tr>
 <tr><td><b>Structure </b></td>
-     <td>Structure examined in the assay, given as a Theiler stage (TS) and anatomical structure name linked to the Mouse Developmental Anatomy Browser Term Detail report showing the structure in the anatomical hierarchy.</td></tr>
+     <td>Structure examined in the assay, given as a Theiler stage (TS) and anatomical structure name.</td></tr>
 <tr><td><b>Detected? </b></td>
      <td>Was expression detected? Possible values include:
     <UL>
@@ -477,7 +477,7 @@ Individual cells have the ability to filter as well. Clicking on a cell displays
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="gxdfilter"></a>How do I filter my results?</h3>
-<p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for Wild type or mutant specimens. In the banner above your results, after <i>Filter expression data by:</i> click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>. Note: Filtering out mutants will retain heterozygous <i>in situ</i> knockin mutants.</p>
+<p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for wild type or mutant specimens. In the banner above your results, after <i>Filter expression data by:</i> click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>. Note: Filtering out mutants will retain heterozygous <i>in situ</i> knockin mutants.</p>
 <p>Both Matrix tabs offer easy filtering by tissue, and the Tissue x Stage Matrix also offers filtering by developmental stage/age and the Tissue x Gene Matrix permits filtering by gene symbol. Check the rows or columns you wish to retain and then click the Filter (<img image width="13" height="13" src="<!--#include file='include/webshare_url.html'-->images/filter.png">) button in the grid to apply the filters. These filters are also applied to all tabs.</p> 
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
