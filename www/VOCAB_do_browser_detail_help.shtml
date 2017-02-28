@@ -61,7 +61,7 @@ Interpreting Human Disease and Mouse Model Details</span>
 <TABLE BORDER="0" CELLSPACING="0">
  <tr><th>Term:</TH><td>Full name of the syndrome as it appears in the Human Disease Vocabulary (e.g., Parkinson's Disease)</td> </tr>
  <tr><th>Disease Ontology ID:</TH><td>Disease Ontology accession identifier, linked to Disease Ontology record for the disease (e.g., DOID:14330)</td></tr>
- <tr><th>Human Phenotype Ontology</th><td>associations: linked to the Human Phenotype Ontology (HPO) terms associated with the disease. </td></tr>
+ <!--<tr><th>Human Phenotype Ontology</th><td>associations: linked to the Human Phenotype Ontology (HPO) terms associated with the disease. </td></tr>-->
 </TABLE></td></tr>
 <TR><th><a id="syn"></a>Synonyms</TH><TD>A semicolon delimited list of any synonyms for the disease (e.g., paralysis agitans)</TD></TR>
 <TR><th><a id="view_all"></a>View all models</TH><TD>The total number of mouse models for this disease, linked to their genotypes, references and phenotypes. See: <a href="#mouse_models">Mouse Models</a> below.</TD></TR>
