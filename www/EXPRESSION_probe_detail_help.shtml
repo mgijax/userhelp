@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title><!--#include file="include/mgiversion.html"-->MGI-Interpreting Probe and Clone Data Details</title>
+<title><!--#include file="include/mgiversion.html"-->MGI-Interpreting Probe and Primer Details</title>
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
 <script>
@@ -12,7 +12,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">Interpreting Probe and Clone Data Details</span>
+ <span class="faqHeaderText">Interpreting Probe and Primer Details</span>
 </div>
 
 <style type="text/css">
@@ -33,88 +33,111 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 
 <a id="top"></a>
 
-<P>This help document answers the following questions about the cDNA Clone Source Data Detail  report:
+<P>This help document answers the following questions about the Probe and Primer Detail report:
 
 <ul>
-  <li><A href="#how_result">Can I view a more detailed result?</A></li>
-  <li><A href="#detail">How do I interpret the detail results of my query?</a></li>
+  <li><a href="#detail">How do I interpret the probe details?</a></li>
+  <li><a href="#primer">How do I interpret the primer details?</a></li>
+  <li><a href="#cloneids">What clones IDs may be associated with a probe?</a></li>
 </ul>
 <P>See also:
 <UL>
    <LI><A HREF="EXPRESSION_probe_summary_help.shtml" target="_blank">Interpreting a Probe and Clone Data Summary</A></LI>
 </UL>
 
-<h3><a id="how_result"></a>Can I view a more detailed result?</h3>
-
-<P>The summary report provides links to the  cDNA Clone Source Data Details.  Click the Probe/Clone Acc ID of the desired item to see its detail report.
-</P>
-
-<H3><a id="detail"></A>How do I interpret the detail results of my query?</H3>
+<H3><a id="detail"></a>How do I interpret the probe details?</H3>
 <p>Each report includes a subset of the following fields, depending on the content of the record. See <A HREF="#primer">Primer Detail Results</A> if the sequence type is <I>primer.</I> <b>Note:</b> If the provider did not supply a description for an item, <i>Not Specified</i> appears for this field. </p>
 
 
 <TABLE BORDER CELLPADDING="4">
-<TR><TH>FIELD</TH> <TH>DESCRIPTION</TH></TR>
-<TR><th><span style="white-space: nowrap">Nucleotide Probe/Clone</span></th>
+<tr><TH>FIELD</TH> <TH>DESCRIPTION</TH></tr>
+<tr><th><span style="white-space: nowrap">Nucleotide Probe/Clone</span></th>
 <td>
  <table>
-  <tr><th>Name</th><td>Name of the probe or segment.</TD></TR>
-  <TR><th><span style="white-space: nowrap">Sequence Type</span></th><td>Sequence types are: cDNA, genomic, DNA (construct), mitochondrial, oligo, primer, and Not Specified.</TD></TR>
-  <TR><th>ID</th> <td>Unique MGI ID assigned to the probe/clone record in MGI. The format is <I>MGI:nnnn</I> (<i>nnnn</i> is any number greater than or equal to 1).</TD> </TR>
-  <TR><th><span style="white-space: nowrap">Region Covered</span></TH><td>Description of the molecular segment inserted into the vector</TD></TR>
-  <TR><th>Vector Type</th><td>BAC, cosmid, P1, PAC, phage, phagemid, plasmid, YAC </TD></TR>
-  <TR><th>InsertSsite</th><td>Restriction site used to insert the segment into the vector</TD> </TR>
-  <TR><th>Insert Size</th><td>Size of the segment inserted into the vector</TD> </TR>
-  <TR><th>Note</th><td>Probe-specific information</TD></TR>
-  <TR><th>Other IDs</th><td>A comma-separated list of any secondary MGI accession IDs associated with the probe/clone as well as unique identifiers assigned to the probe/clone by a resource external to the database. For example, within MGI, ATCC, and IMAGE and RIKEN clone IDs are external accession IDs. These are linked to the appropriate resource when possible.</TD></TR>
+  <tr><th>Name</th><td>Name of the probe or segment.</td></tr>
+  <tr><th><span style="white-space: nowrap">Sequence Type</span></th><td>Sequence types are: cDNA, genomic, DNA (construct), mitochondrial, oligo, primer, and Not Specified.</td></tr>
+  <tr><th>ID</th> <td>Unique MGI ID assigned to the probe/clone record in MGI. The format is <I>MGI:nnnn</I> (<i>nnnn</i> is any number greater than or equal to 1).</td> </tr>
+  <tr><th><span style="white-space: nowrap">Region Covered</span></TH><td>Description of the molecular segment inserted into the vector</td></tr>
+  <tr><th>Parent Clone</th><td>Name of probe/clone that the currently displayed probe/clone is derived from. Each name is linked to the appropriate parent record.</td></tr>
+  <tr><th>Child Clone</th><td>Names of probes/clones derived from the currently displayed probe/clone. Each name is linked to the appropriate child record.</td></tr>
+  <tr><th>Vector Type</th><td>BAC, cosmid, P1, PAC, phage, phagemid, plasmid, YAC </td></tr>
+  <tr><th>Insert Site</th><td>Restriction site used to insert the segment into the vector</td> </tr>
+  <tr><th>Insert Size</th><td>Size of the segment inserted into the vector</td> </tr>
+  <tr><th>Other IDs</th><td>A list of any secondary MGI accession IDs associated with the probe/clone as well as unique identifiers assigned to the probe/clone by a resource external to the database. For example, within MGI, ATCC, and IMAGE and RIKEN clone IDs are external accession IDs. These are linked to the appropriate resource when possible. See also: <a href="#cloneids">What clones IDs may be associated with a probe?</a></td></tr>
+  <tr><th>Note</th><td>Probe-specific information</td></tr>
   <tr><th>Synonyms</th><td>Alternative names for the clone used in publications</td></tr>
-  <TR><th>Child Clone</th><td>Names of probes/clones derived from the currently displayed probe/clone. Each name is linked to the appropriate child record.</TD></TR>
-  <TR><th>Parent Clone</th><td>Name of probe/clone that the currently displayed probe/clone is derived from. Each name is linked to the appropriate parent record.</TD></TR>
   </table>
 </tr>
 <tr><th>Source</th>
 <td>
   <table> 
-  <TR><th>Library</th><td>Library to which the probe/clone belongs</TD></TR>
-  <TR><th>Species</th><td>Organism from which the probe/clone was derived</TD></TR>
-  <TR><th>Strain</th><td>Strain from which the probe/clone was derived</TD></TR>
-  <TR><th>Sex</th> <td>Sex of the specimen from which the probe/clone was derived</TD></TR>
-  <TR><th>Age</th><td>Age of the specimen from which the probe/clone was derived</TD></TR>
-  <TR><th>Tissue</th> <td>Tissue of the specimen from which the probe/clone was derived</TD> </TR>
-  <TR><th><span style="white-space: nowrap">Tissue Description</span></th> <td>If this is a cell line, the description may detail where the cell line was derived from. If this is a tissue, it may detail the cell type or tissue treatment, if any.</TD> </TR>
-  <TR><th>Cell line</th><td>Cell line from which the probe/clone was derived</TD> </TR>
+  <tr><th>Library</th><td>Library to which the probe/clone belongs</td></tr>
+  <tr><th>Species</th><td>Organism from which the probe/clone was derived</td></tr>
+  <tr><th>Strain</th><td>Strain from which the probe/clone was derived</td></tr>
+  <tr><th>Age</th><td>Age of the specimen from which the probe/clone was derived</td></tr>
+  <tr><th>Sex</th> <td>Sex of the specimen from which the probe/clone was derived</td></tr>
+  <tr><th>Tissue</th> <td>Tissue of the specimen from which the probe/clone was derived</td> </tr>
+  <tr><th><span style="white-space: nowrap">Tissue Description</span></th> <td>If this is a cell line, the description may detail where the cell line was derived from. If this is a tissue, it may detail the cell type or tissue treatment, if any.</td> </tr>
+  <tr><th>Cell line</th><td>Cell line from which the probe/clone was derived</td> </tr>
   </table>
-<TR><th>Expression </th><td>Links to expression results derived using the probe</TD></TR>
-<TR><th>Genes</th><td>
+<tr><th>Genes</th><td>
     <ul>
      <li>Symbol and name for each marker (linked to MGI marker records) to which this probe/clone hybridizes</li>
      <li>If the probe is putatively associated with a marker in the MGI database, PUTATIVE appears in parentheses after the marker symbol. </li>
-      </ul></TD>
-</TR>
+      </ul></td>
+</tr>
+<tr><th>Expression </th><td>Links to expression results derived using the probe</td></tr>
 <tr><th>Sequences</th> <td>For molecular segments associated with sequence accession numbers, the Accession IDs and links to GenBank, EMBL, DDBJ, and the MGI Sequence Detail page</td></tr>
 <tr><th>Polymorphisms</th>
 <td>For references with polymorphism data, the short-form citation for this probe/clone,  linked via an MGI Reference ID (the J:####) to the Reference Detail page. If polymorphism information is available, it appears in a table with the following column heads:<BR> <B>Endonuclease, Gene, Allele, Fragments, Strains</B>.</td></tr>
-<TR><th>References:</th>
-      <td>Short-form citations for this probe/clone, each linked via an MGI Reference ID (the J:####) to the Reference Detail page</TD>
-</TR>
+<tr><th>References:</th>
+      <td>Citations for this probe/clone, each linked via an MGI Reference ID (the J:####) to the Reference Detail page</td>
+</tr>
 
+</table>
+</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><a id="primer"></a>How do I interpret the primer details?</H3>
+<P>If you selected <I>primer</I> as the <B>Sequence Type</B> on a Molecular Probes and Clones Summary page, the first section of the table, <b>Primers</b>, may contain the information the following information as well as information contained in the 
+<A HREF="#detail">detail</A> report above.
+</P>
+<TABLE BORDER="1" CELLPADDING="4">
+<tr><TH>FIELD</TH> <TH>DESCRIPTION</TH></tr>
+<tr><th>Name</TH><td>Name of the primer set.</td></tr>
+<tr><th><span style="white-space: nowrap">Primer 1 Sequence</span></th><td>Sequence for the first primer.</td></tr>
+<tr><th>Primer 2 Sequence</th><td>Sequence for the second primer.</td></tr>
+<tr><th>ID</th> <td>Unique MGI ID assigned to the probe/clone record in MGI. The format is <I>MGI:nnnn</I> (<i>nnnn</i> is any number greater than or equal to 1).</td> </tr>
+<tr><th>Region Covered</th><td>Description of the molecular segment inserted into the vector</td></tr>
+<tr><th>Product Size</th><td>Size of the amplified product.</td></tr>
+<tr><th>Other IDs</th><td>A list of any secondary MGI accession IDs associated with the probe/clone as well as unique identifiers assigned to the probe/clone by a resource external to the database. For example, within MGI, the UniSTS ID is an external accession ID. This are linked to the appropriate resource when possible. See also: <a href="#cloneids">What clones IDs may be associated with a probe?</a></td></tr>
+<tr><th>Note</th><td>Primer-specific information</td></tr>
 </TABLE>
 </P>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><a id="primer"></a>Primer Detail Results</H3>
-<P>If you selected <I>primer</I> as the <B>Sequence Type</B> on a Molecular Probes and Clones Summary page, the first section of the table, <b>Primers</b>, may contain the information the following information as well as information contained in the 
-<A HREF="#detail">detail</A> report above.
-</P>
-<TABLE BORDER="1" CELLPADDING="4">
-<TR><TH>FIELD</TH> <TH>DESCRIPTION</TH></TR>
-<TR><th>Name</TH><td>Name of the primer set.</TD></TR>
-<TR><th>Primer 1 Sequence</th><td>Sequence for the first primer.</TD></TR>
-<TR><th>Primer 2 Sequence</th><td>Sequence for the second primer.</TD></TR>
-<TR><th>Product Size</th><td>Size of the amplified product.</TD></TR>
-</TABLE>
-</P>
+<h3><a id="cloneids"></a>What clones IDs may be associated with a probe?</h3>
+
+<p>Potential clone IDs are as follows:</p>
+
+<table> 
+<tr><th>CLONE/PROBE RESOURCE</th><th>LINK</th></tr>
+<tr><th>ATCC</th><td>&nbsp;</td></tr>
+<tr><th>BROAD</th><td>&nbsp;</td></tr>
+<tr><th>IMAGE</th><td>Links to the I.M.A.G.E. Consortium Home Page with information on ordering clones</td></tr>
+<tr><th>MGC</th><td>Links to the Mammalian Gene Collection Home Page with information on ordering clones</td></tr>
+<tr><th>NCBI UniSTS</th><td>Links to the NCBI STS probe report</td></tr>
+<tr><th>NIA</th><td>&nbsp;</td></tr>
+<tr><th>NIA 7.4K</th><td>&nbsp;</td></tr>
+<tr><th>NIA 15K</th><td>&nbsp;</td></tr>
+<tr><th>RIKEN</th><td>Links to the RIKEN clone sequence information</td></tr>
+<tr><th><span style="white-space: nowrap">RIKEN (FANTOM)</span></th><td>Links to the RIKEN clone details along with a link for ordering clones</td></tr>
+<tr><th>RPCI-23</th><td>Links to the NCBI Clone Summary with links to distributors</td></tr>
+<tr><th>RPCI-24</th><td>Links to the NCBI Clone Summary with links to distributors</td></tr>
+<tr><th>WashU</th><td>&nbsp;</td></tr>
+</table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
