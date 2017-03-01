@@ -46,10 +46,10 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 </UL>
 
 <H3><a id="detail"></a>How do I interpret the probe details?</H3>
-<p>Each report includes a subset of the following fields, depending on the content of the record. See <A HREF="#primer">Primer Detail Results</A> if the sequence type is <I>primer.</I> <b>Note:</b> If the provider did not supply a description for an item, <i>Not Specified</i> appears for this field. </p>
+<p>Each report includes a subset of the following fields, depending on the content of the record. See <A HREF="#primer">Primer Detail Results</A> if the sequence type is <I>primer.</I></p>
 
 
-<TABLE BORDER CELLPADDING="4">
+<TABLE>
 <tr><TH>FIELD</TH> <TH>DESCRIPTION</TH></tr>
 <tr><th><span style="white-space: nowrap">Nucleotide Probe/Clone</span></th>
 <td>
@@ -59,11 +59,11 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
   <tr><th>ID</th> <td>Unique MGI ID assigned to the probe/clone record in MGI. The format is <I>MGI:nnnn</I> (<i>nnnn</i> is any number greater than or equal to 1).</td> </tr>
   <tr><th><span style="white-space: nowrap">Region Covered</span></TH><td>Description of the molecular segment inserted into the vector</td></tr>
   <tr><th>Parent Clone</th><td>Name of probe/clone that the currently displayed probe/clone is derived from. Each name is linked to the appropriate parent record.</td></tr>
-  <tr><th>Child Clone</th><td>Names of probes/clones derived from the currently displayed probe/clone. Each name is linked to the appropriate child record.</td></tr>
+  <tr><th>Child Clone</th><td>Probes/clones derived from the currently displayed probe/clone. Each name is linked to the appropriate child record.</td></tr>
   <tr><th>Vector Type</th><td>BAC, cosmid, P1, PAC, phage, phagemid, plasmid, YAC </td></tr>
   <tr><th>Insert Site</th><td>Restriction site used to insert the segment into the vector</td> </tr>
   <tr><th>Insert Size</th><td>Size of the segment inserted into the vector</td> </tr>
-  <tr><th>Other IDs</th><td>A list of any secondary MGI accession IDs associated with the probe/clone as well as unique identifiers assigned to the probe/clone by a resource external to the database. For example, within MGI, ATCC, and IMAGE and RIKEN clone IDs are external accession IDs. These are linked to the appropriate resource when possible. See also: <a href="#cloneids">What clones IDs may be associated with a probe?</a></td></tr>
+  <tr><th>Other IDs</th><td>A list of any secondary MGI accession IDs associated with the probe/clone as well as unique identifiers assigned to the probe/clone by a resource external to the database. Within MGI, ATCC, and IMAGE and RIKEN clone IDs are examples of external accession IDs. These are linked to the appropriate resource when possible. See also: <a href="#cloneids">What clones IDs may be associated with a probe?</a></td></tr>
   <tr><th>Note</th><td>Probe-specific information</td></tr>
   <tr><th>Synonyms</th><td>Alternative names for the clone used in publications</td></tr>
   </table>
@@ -82,15 +82,15 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
   </table>
 <tr><th>Genes</th><td>
     <ul>
-     <li>Symbol and name for each marker (linked to MGI marker records) to which this probe/clone hybridizes</li>
-     <li>If the probe is putatively associated with a marker in the MGI database, PUTATIVE appears in parentheses after the marker symbol. </li>
+     <li>Symbol and name for each gene (linked to MGI gene records) to which this probe/clone hybridizes</li>
+     <li>If the probe is putatively associated with a gene in the MGI database, PUTATIVE appears in parentheses after the gene name. </li>
       </ul></td>
 </tr>
 <tr><th>Expression </th><td>Links to expression results derived using the probe</td></tr>
 <tr><th>Sequences</th> <td>For molecular segments associated with sequence accession numbers, the Accession IDs and links to GenBank, EMBL, DDBJ, and the MGI Sequence Detail page</td></tr>
 <tr><th>Polymorphisms</th>
 <td>For references with polymorphism data, the short-form citation for this probe/clone,  linked via an MGI Reference ID (the J:####) to the Reference Detail page. If polymorphism information is available, it appears in a table with the following column heads:<BR> <B>Endonuclease, Gene, Allele, Fragments, Strains</B>.</td></tr>
-<tr><th>References:</th>
+<tr><th>References</th>
       <td>Citations for this probe/clone, each linked via an MGI Reference ID (the J:####) to the Reference Detail page</td>
 </tr>
 
@@ -103,7 +103,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 <P>If you selected <I>primer</I> as the <B>Sequence Type</B> on a Molecular Probes and Clones Summary page, the first section of the table, <b>Primers</b>, may contain the information the following information as well as information contained in the 
 <A HREF="#detail">detail</A> report above.
 </P>
-<TABLE BORDER="1" CELLPADDING="4">
+<TABLE>
 <tr><TH>FIELD</TH> <TH>DESCRIPTION</TH></tr>
 <tr><th>Name</TH><td>Name of the primer set.</td></tr>
 <tr><th><span style="white-space: nowrap">Primer 1 Sequence</span></th><td>Sequence for the first primer.</td></tr>
@@ -111,7 +111,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 <tr><th>ID</th> <td>Unique MGI ID assigned to the probe/clone record in MGI. The format is <I>MGI:nnnn</I> (<i>nnnn</i> is any number greater than or equal to 1).</td> </tr>
 <tr><th>Region Covered</th><td>Description of the molecular segment inserted into the vector</td></tr>
 <tr><th>Product Size</th><td>Size of the amplified product.</td></tr>
-<tr><th>Other IDs</th><td>A list of any secondary MGI accession IDs associated with the probe/clone as well as unique identifiers assigned to the probe/clone by a resource external to the database. For example, within MGI, the UniSTS ID is an external accession ID. This are linked to the appropriate resource when possible. See also: <a href="#cloneids">What clones IDs may be associated with a probe?</a></td></tr>
+<tr><th>Other IDs</th><td>A list of any secondary MGI accession IDs associated with the probe/clone as well as unique identifiers assigned to the probe/clone by a resource external to the database. Within MGI, the UniSTS ID is an example of an external accession ID. This are linked to the appropriate resource when possible. See also: <a href="#cloneids">What clones IDs may be associated with a probe?</a></td></tr>
 <tr><th>Note</th><td>Primer-specific information</td></tr>
 </TABLE>
 </P>
