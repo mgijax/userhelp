@@ -31,7 +31,7 @@ Using the Genes and Markers Query Form</span>
 <!--#include file='include/templateBlankBodyStart.html'-->
 
 
-<p><a name="top"></a>This help document answers the following questions:
+<p><a id="top"></a>This help document answers the following questions:
 </p> <ul style="padding-left:30px">
  <li><a href="#whatdo">What can I use the Genes and Markers Query Form to find?</a>
  <li><a href="#howdo">How do I use this query form?</a>
@@ -51,7 +51,7 @@ Using the Genes and Markers Query Form</span>
   <li><a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a></li>
 </ul>
 
-<h3><a name="whatdo"></a>What can I  use the Genes and Markers Query Form to find?</h3>
+<h3><a id="whatdo"></a>What can I  use the Genes and Markers Query Form to find?</h3>
  <p>Use this query form to search for detailed information on various types of mouse markers. You can:
 <ul>
   <li>search for gene/marker details by entering a current or former symbol, name, allele, or homolog.
@@ -61,32 +61,33 @@ Using the Genes and Markers Query Form</span>
   <li>modify search parameters until you are satisfied with the results. </li>
   <li>view results in web, tab-delimited or spreadsheet formats.</li>
 </ul>
-<a href="#top"><font size="-1">Top</font></a>
 
-<h3><a name="howdo"></a>How do I use this query form?</h3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="howdo"></a>How do I use this query form?</h3>
 
 <p>To search for detailed data using this query form, enter or select values in one or more of the query form fields described in the following paragraphs. After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. 
 </p>
-<a href="#top"><font size="-1">Top</font></a>
 
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="fields"></a>What values are acceptable in each of the query form fields?</h3>
+<h3><a id="fields"></a>What values are acceptable in each of the query form fields?</h3>
 <p>Use these fields to search for genes and markers by name, location, GO terms, protein domains, or for mouse phenotypes and mouse models of human disease.</p>
 
 <P><table width="!" cellpadding="2" class="nb">
 <tr>
-<td align="center"><a href="#gene_nomenclature"><font size="-1">Gene/Marker</a> |
+<td><a href="#gene_nomenclature">Gene/Marker</a> |
 <a href="#marker_type">Feature Type</a> |
 <a href="#map_position">Genome Location</a> |
 
-<nobr><a href="#gene_ontology">Gene Ontology classifications</a> |</nobr>
-<nobr><a href="#interpro">Protein domains</a> |</nobr>
-<nobr><a href="#phenotype">Mouse phenotypes & mouse models of human disease</a> 
-</font></td></tr>
+<span style="white-space: nowrap"><a href="#gene_ontology">Gene Ontology classifications</a> |</span>
+<span style="white-space: nowrap"><a href="#interpro">Protein domains</a> |</span>
+<span style="white-space: nowrap"><a href="#phenotype">Mouse phenotypes &amp; mouse models of human disease</a></span>
+</td></tr>
 </table>
 
 <table border="1" cellpadding="3" width="!">
-<tr><th align="left" valign="top"><a name="gene_nomenclature"></a>Gene/Marker</th>
+<tr><th><a id="gene_nomenclature"></a>Gene/Marker</th>
     <td>Gene/Marker Symbol/Name: Use this field to search for a mouse genetic marker or set of markers with a similar nomenclature. 
 	<ul>
 		<li>The gene nomenclature field supports an asterisk as a wild card. A search for pax* finds gene symbols and names that begin with <i>pax</i>.</li>
@@ -98,7 +99,7 @@ Using the Genes and Markers Query Form</span>
 	</ul>
 	</td></tr>        
  <tr>
-        <th align="left" valign="top"><a name="marker_type"></a>Feature Type</th>
+        <th><a id="marker_type"></a>Feature Type</th>
         <td>Use this field to query for features in a selected category. Numbers in parentheses next to each feature type indicate MGI marker totals per category.
 
 <ul>
@@ -111,32 +112,33 @@ Using the Genes and Markers Query Form</span>
  </ul>
 See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a> for a table describing all choices. </td>
         </tr>
-<tr><th align="left" valign="top"><a name="map_position"></a>Genome location</th>
-  <td align="left" valign="top">Use the map position parameters (
-<a name="chromosome"></a><a href="MISC_map_position_help.shtml#chromosome" target="_blank">Chromosome(s)</a>, 
-  <a name="coordinates"></a><a href="MISC_map_position_help.shtml#coordinates" target="_blank">Genome Coordinates</a>, 
-  <!--<a name="cytogenetic_band"></a><a href="MISC_map_position_help.shtml#cytogenetic_band" target="_blank">Cytogenetic Band</a>,--> 
-  <a name="marker_range"></a><a href="MISC_map_position_help.shtml#marker_range" target="_blank">Marker Range</a>, and 
-  <a name="cm_offset"></a><a href="MISC_map_position_help.shtml#cm_offset" target="_blank">cM Position</a>) to limit the scope of your query.
+<tr><th><a id="map_position"></a>Genome location</th>
+  <td>Use the map position parameters (
+<a id="chromosome"></a><a href="MISC_map_position_help.shtml#chromosome" target="_blank">Chromosome(s)</a>, 
+  <a id="coordinates"></a><a href="MISC_map_position_help.shtml#coordinates" target="_blank">Genome Coordinates</a>, 
+  <!--<a id="cytogenetic_band"></a><a href="MISC_map_position_help.shtml#cytogenetic_band" target="_blank">Cytogenetic Band</a>,--> 
+  <a id="marker_range"></a><a href="MISC_map_position_help.shtml#marker_range" target="_blank">Marker Range</a>, and 
+  <a id="cm_offset"></a><a href="MISC_map_position_help.shtml#cm_offset" target="_blank">cM Position</a>) to limit the scope of your query.
   <ul>
 	<li>When using chromosome(s), you can also define genome coordinates or cM position.</li> 
-    <li>You cannot combine genome coordinates and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) with known coordinates. The query is inclusive of the markers you enter.</li></ul>
-    <li>If you wish to search with multiple regions, or search with human regions instead of mouse, you can do this with the <a href="<!--#include file='include/homepages_url.html'-->humanDisease.shtml">Human&mdash;Mouse: Disease Connection</a>.</li>
-   </ul>
+    <li>You cannot combine genome coordinates and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) with known coordinates. The query is inclusive of the markers you enter.</li>
+    </ul>
+    If you wish to search with multiple regions, or search with human regions instead of mouse, you can do this with the <a href="<!--#include file='include/homepages_url.html'-->humanDisease.shtml">Human&mdash;Mouse: Disease Connection</a>.
+    
 See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fields on MGI Query Forms</a> for further details about entering values in these fields.</td>
 </tr>
 <tr>
-   <th align="left" valign="top"><a name="gene_ontology"></a>Gene <br>Ontology <br>classification</th>
-        <td valign="top">Genes may be described using three broad categories reflecting biological roles: Molecular Function, Biological Process, or Cellular Component. The Gene Ontology (GO) Consortium has developed structured vocabularies to specify detailed aspects within each category. MGI uses GO terms to annotate gene records. See <a href="GO_classification_fields_help.shtml" target="_blank">Using Gene Ontology Classification Fields on MGI Query Forms </a> for details.
+   <th><a id="gene_ontology"></a>Gene <br>Ontology <br>classification</th>
+        <td>Genes may be described using three broad categories reflecting biological roles: Molecular Function, Biological Process, or Cellular Component. The Gene Ontology (GO) Consortium has developed structured vocabularies to specify detailed aspects within each category. MGI uses GO terms to annotate gene records. See <a href="GO_classification_fields_help.shtml" target="_blank">Using Gene Ontology Classification Fields on MGI Query Forms </a> for details.
        </td>
 </tr>
 
 <tr>
-  <th align="left" valign="top">Protein domains</th>
-  <td valign="top">
+  <th>Protein domains</th>
+  <td>
     <table border="0" cellpadding="2">
       <tr>
-         <th valign="top"><a name="interpro"></a>InterPro Protein Domains</th>
+         <th><a id="interpro"></a>InterPro Protein Domains</th>
          <td>InterPro accession ID for a protein family, domain, or functional site.
 <ul>
   <li>To find an accession ID, click  <i>Browse InterPro protein domains</i>.</li>
@@ -150,53 +152,48 @@ See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fi
 </tr>
 
 <tr>
-  <th align="left" valign="top">Mouse<br>phenotypes &amp;<br><nobr>mouse models of <br>human disease</th>
-  <td valign="top">
+  <th>Mouse<br>phenotypes &amp;<br><span style="white-space: nowrap">mouse models of <br>human disease</span></th>
+  <td>
     <table border="0" cellpadding="3">
      <tr>
-     <th align="left" valign="top"><a name="phenotype"></a>Phenotype/<br>Human Disease</th>
+     <th><a id="phenotype"></a>Phenotype/<br>Human Disease</th>
      <td>See <a href="ALLELE_help.shtml#m_phenotypes">Phenotype/Disease</a>.<br>Note: The query returns a marker only if at least one associated allele satisfies whatever you enter in this section.
      </td>
    </tr>
   </table>
  </td>
 </tr>
-
-
-      </td>
-     </tr>
-    </td>
-    </tr>
   </table>
-
-</tbody>
 </p>
-<a href="#top"><font size="-1">Top</font></a>
 
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="GENE_summary_help.shtml" target="_blank"></a>How do I interpret the summary results of my query?</a></h3>
+<h3><a id="GENE_summary_help.shtml" target="_blank"></a>How do I interpret the summary results of my query?</h3>
 <p>See <a href="GENE_summary_help.shtml" target="_blank">Using the Marker Summary Report.</a></p>
-<a href="#top"><font size="-1">Top</font></a>
 
-<h3><a name="GENE_detail_help.shtml" target="_blank"></a>How do I interpret the detail results of my query?</a></h3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="GENE_detail_help.shtml" target="_blank"></a>How do I interpret the detail results of my query?</h3>
 <p>See <a href="GENE_detail_help.shtml" target="_blank">Using the Marker Detail Report.</a></p>
-<a href="#top"><font size="-1">Top</font></a>
 
-<h3><a name="button"></a>What happens if I click the Your Input Welcome button on the detail page?</h3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="button"></a>What happens if I click the Your Input Welcome button on the detail page?</h3>
 
 <p>The Your Input Welcome button appears at the top right of your screen as part of the detailed query results.  Clicking the button brings up a dialogue box to use for submitting updates and corrections to the data you are viewing. Our User Support staff will review your comments and make sure the appropriate changes are made.  This provides an easy way for you to help us keep data current.</p>
-<a href="#top"><font size="-1">Top</font></a>
 
-<h3><a name="revise"></a>Can I edit my original options and requery?</h3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="revise"></a>Can I edit my original options and requery?</h3>
 
 <p>Yes, you can.</p>
-<ul><li>If you want to edit a list or change output options:</li>
+<ul><li>If you want to edit a list or change output options:
 <ol>
   <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. </li>
   <li>Make your changes.</li>
   <li>Click Search.</li>
   <li>Repeat until the desired results appear.</li>
-</ol>
+</ol></li>
 </ul>
 
 <b>Notes:</b> 
@@ -207,22 +204,22 @@ See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fi
 </ul>
 </p>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="sort"></a>How do I sort my results?</h3>
+<h3><a id="sort"></a>How do I sort my results?</h3>
 
 <p>On the Marker Query Summary page, click on the Genome Coordinates, Feature Types or Symbol column headings or the up/down arrowheads ( &#9660; &#9650;) to change or reverse the sort order of your results. </p>
 
-<a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<!--<h3><a name="filter"></a>How do I filter my results?</h3>
+<!--<h3><a id="filter"></a>How do I filter my results?</h3>
 
 <a href="#top"><font size="-1">Top</font></a>  -->
 
-<h3><a name="tabfile"></a>How do I retrieve my results as tab-delimited text or spreadsheet files?</h3>
+<h3><a id="tabfile"></a>How do I retrieve my results as tab-delimited text or spreadsheet files?</h3>
 <p>In your search results, <!--at the right hand edge of the Filter assays bar,--> click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
 
-<h3><a name="example"></a>Are there any sample queries?</h3>
+<h3><a id="example"></a>Are there any sample queries?</h3>
 <p>The following examples show the field values that produce the given results. Default values for other fields are assumed.</p>
 
 <ol>
@@ -303,7 +300,7 @@ This query returns at least 15 genes mapped to mouse Chromosome 2 with GO annota
 
 </ol>
 <!-- 	39590978 on 17-->
-<!--<P><a name="search"></a></P>
+<!--<P><a id="search"></a></P>
 <LI>Exclude all the markers beginning with <b>D14</b> on Chromosome 14 between cM position 10 and 15.
 <P>
 <UL style="padding-left:10px"><B>Sort by: Symbol<br>
@@ -315,7 +312,7 @@ cM Position BETWEEN: 10 and 15 </B></UL>
 <P>In August, 2002, the first query returned a list of 29 markers, none of which began with D14. Setting the Search parameter to <b>current symbols/names & synonyms</b> returned 110 items, many of which began with D14. The wider setting picked up withdrawn symbols, names, or synonyms as well as current symbols.
 </P></LI>-->
 </p>
-<a href="#top"><font size="-1">Top</font></a>
 
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'-->

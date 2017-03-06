@@ -42,13 +42,13 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
  <UL>
   <LI><A HREF="#whatuse">What can I use the Phenotypes, Alleles, and Disease Models Query Form to find?</A></LI>
   <LI><A HREF="#glossary">How does MGI define <I>phenotype, disease,</i> and <I>allele</I>? </a></LI>
-  <LI><A HREF="#howfill">How do I fill in this query form?</A></LI>
+  <LI><A HREF="#howfill">How do I fill in this query form?</A>
      <ul>
 		<li><a href="#mp_ontology">Is there a list of phenotype terms to select from?</a></li>
    		<li><a href="#disease_ontology">Is there a list of disease terms to select from?</a></li>
    		<li><a href="ALLELE_phenotype_highlevel_help.shtml#whatis" target="_blank">How do I make choices on the Anatomical Systems Affected by Phenotypes list?</a></li>
    		<li><a href="#relationship">Can I query using both a phenotype term and a disease term?</a></li>
-     </ul>
+     </ul></li>
    <LI><A HREF="#field">What values are acceptable in each of the fields?</A></LI>
    <li><A HREF="#definitions">How can I find definitions for the allele categories?</a></li>
  <!--<LI><A HREF="#invert_selected">What does Invert selected do?</A></LI>-->
@@ -85,7 +85,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
  <tr><td><i>phenotype</i></td><td>A description of the observable state of an individual with respect to some inherited characteristic. Often, individuals with different genotypes display the same phenotype. See also <I>dominant</I> and <I>recessive</I> in the <A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a>.<br>
  <!--In MGI, the specific vocabulary of the Mammalian Phenotype Ontology.--></td></tR>
 
-<tr><td><i>disease</i></td><tD> A human disease, syndrome, or condition listed in the OMIM (Online Mendelian Inheritance in Man) database.</tD></tR>
+<tr><td><i>disease</i></td><td> A human disease, syndrome, or condition described in the Disease Ontology (<a href="http://disease-ontology.org/">DO</a>) or <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr>.</td></tr>
 
 <tr><td><i>allele</i></td><td>One of the variant forms of a gene, differing from other forms in its nucleotide sequence. <i>Allele category, allele combination</i> and <i>allele pair</i> also appear in the 
 <A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A>.</td></tr>
@@ -136,7 +136,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="disease_ontology"></a>Is there a list of disease terms to select from?</h3>
-<p>Yes.  To get a list of disease terms from the Phenotypes, Alleles, and Disease Models Query Form, click Human Disease (OMIM) Vocabulary to activate the Human Disease Vocabulary Browser.  Navigate the vocabulary until you find the term you are looking for.  See <a href="VOCAB_omim_browser_help.shtml" target="_blank">Using the Human Disease Vocabulary Browser</a> for additional help.
+<p>Yes. To get a list of disease terms from the Phenotypes, Alleles, and Disease Models Query Form, click Human Disease (DO) Vocabulary to activate the Human Disease Vocabulary Browser.  Navigate the vocabulary until you find the term you are looking for.  See <a href="VOCAB_do_browser_help.shtml" target="_blank">Using the Disease Ontology (DO) Browser</a> for additional help.
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
@@ -158,7 +158,7 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 
 <H3><a id="field"></A>What values are acceptable in each of the fields?</H3>
 <!--Search by phenotype and/or human disease vocabularies.Phenotype /Disease: </P>
-<a href="#top"><font size="-1">Top</font></a>	Enter any combination of phenotype terms, disease terms, or IDs	Hints for:quotes, partial word matching, using AND and OR...  	Select: Browse: Full Mammalian Phenotype (PM) Ontology	Browse: Human Disease (OMIM) Vocabulary-->
+<a href="#top"><font size="-1">Top</font></a>	Enter any combination of phenotype terms, disease terms, or IDs	Hints for:quotes, partial word matching, using AND and OR...  	Select: Browse: Full Mammalian Phenotype (PM) Ontology	Browse: Human Disease (DO) Vocabulary-->
 
 <p>
 <table width="!" cellpadding="8" align="center">
@@ -171,8 +171,8 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <OL>
   <LI>select from the pick list of anatomical systems affected by phenotypes.</LI>
   <LI>browse and select Mammalian Phenotype (MP) terms or accession IDs from the full, hierarchical ontology.</LI>
-  <li>browse and select human disease terms from the Human Disease (OMIM) Vocabulary.</li>
-  <LI>type in your own terms connected by Boolean operators (AND, OR) and click <b>Search.</b> The system searches all MP annotation terms, synonyms, IDs and annotation notes as well as OMIM human disease terms, synonyms, and IDs.</LI>
+  <li>browse and select human disease terms from the Human Disease (DO) Vocabulary.</li>
+  <LI>type in your own terms connected by Boolean operators (AND, OR) and click <b>Search.</b> The system searches all MP annotation terms, synonyms, IDs and annotation notes as well as <abbr title="Disease Ontology">DO</abbr> and <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr> human disease terms, synonyms, and IDs.</LI>
   <LI>create a query using any combination of options 1-4.</LI>
 </OL>
 <P>To select phenotype terms from a pick list:
@@ -194,12 +194,12 @@ Using the Phenotypes, Alleles, and Disease Models Query Form </span>
 <p>To find mouse models associated with human diseases:
 <OL>
   <LI>enter human disease terms from the vocabulary </LI>
-  <LI>enter OMIM accession IDs </LI>
+  <LI>enter DO or OMIM accession IDs </LI>
   <LI>type in terms and operators for a full-text search </LI>
   <LI>combine the options with entries in the Phenotypes box (above).<br><br>
 
 <b>Note:</b> Do not use OMIM's prefix characters as part of the OMIM ID number (*, #, %, +).<br>
-The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkinson OR PD).</LI>
+The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkinson's OR DOID:14330).</LI>
 </OL>
 
 <P>How Boolean operators work:
@@ -209,8 +209,8 @@ The result is a list of human disease terms, synonyms, and IDs (168600 OR Parkin
 		<UL>
   		<LI>AND finds text that includes <B>both</B> the term before it and the term after it; for example, <I>heart and defect</I> finds <I>heart defect</I> but not <I>heart </I>and not <I>defect</I>.</LI>
   		<LI>OR finds text that includes either the term before it or the one after; for example,  <I>heart</I> OR <I>defect</I> finds any text containing either <I>heart</I> or <I>defect</I>. </LI>
-  		</UL>
-	<LI>See <A HREF="MISC_boolean_search_help.shtml" target="_blank">Using Full-Text Searches on MGI Query Forms</A> for using quotation marks, parentheses, and white space with search terms.</LI></P>
+  		</UL></li>
+	<LI>See <A HREF="MISC_boolean_search_help.shtml" target="_blank">Using Full-Text Searches on MGI Query Forms</A> for using quotation marks, parentheses, and white space with search terms.</LI>
 </UL>
 </P>
 
@@ -273,18 +273,13 @@ gene trapped, targeted and transposon induced. See
 </ul>
 </TD></TR>
 <TR><th><a id="attributes"></a>Allele Attributes</TH><td>These alleles are sub-types of the various generation methods. A given allele may have more than one attribute (example: Targeted (Null/knockout, Reporter)). See 
-<a href="ALLELE_phenotypic_categories_help.shtml" target="_blank">Allele Types</a> for how MGI differentiates these categories.<br></br>
+<a href="ALLELE_phenotypic_categories_help.shtml" target="_blank">Allele Types</a> for how MGI differentiates these categories.<br>
 <p><B>Note:</B> A conditionally targeted genotype is dependent on the presence of some other factor (often a DNA sequence that expresses a protein functioning in specific recombination events). In MGI, <I>conditional</I> is a genotype attribute, and this is most commonly used to represent Cre-mediated excision of genomic sequences flanked by loxP sites; in most instances, this is accompanied by simultaneous insertion of some selectable marker (<I>e.g.</I> neomycin). The excised genotype, often associated with a phenotype, is dependent (or conditional) on the presence of the Cre-expressing construct.</p>
 </TR>
 <TR><th><a id="collections"></a>Project Collections</TH><td>Use this section if you want to limit your search to alleles produced by particular institutions/projects.</TR>
 <!-- <TR><th><a id="clear_all"></a>Clear all</TH><td>Removes check marks from all boxes in this section of the query form. </TD></TR>
 <TR><th><a id="invert"></a>Invert selected</TH><td>This toggle switch removes any check marks and puts them in boxes not previously selected. Example usage: you want all but three of the categories. Click those three, and then click <B>Invert selected</B>. All the unchecked boxes are now checked and the three previously checked boxes are unchecked.</TD></TR>-->
 </TABLE></TD></TR>
-</TABLE>
-</TD></TR>
-</TD>
-</TR>
-
 
 <!--<TR><th><a id="saof"></a>Sorting and output format</TH> 
     <td>
@@ -302,8 +297,7 @@ gene trapped, targeted and transposon induced. See
       </TR>
       </TABLE>
       </td>
-     </tr>-->
-</TABLE>
+     </tr> </table>-->
 <P>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
@@ -356,7 +350,7 @@ gene trapped, targeted and transposon induced. See
   <LI>The nomenclature for the gene or allele is incorrect.</LI>
   <LI>There is an error in your selection from Mammalian Phenotype (MP) Ontology Browser.
   <LI>There is an error in the text search string in the Phenotypes/Diseases box.</LI>
-  <li>The OMIM identifier is incorrect.</li>
+  <li>The disease or phenotype identifier is incorrect.</li>
 </ul>
 <P>See the following for additional information:</P>
 
@@ -364,8 +358,8 @@ gene trapped, targeted and transposon induced. See
   <li><A HREF="ALLELE_phenotypic_categories_help.shtml" target="_blank">Selecting Phenotypic Allele Categories</a></li>
   <li><A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype (MP) Browser</a></li>
   <li><A HREF="VOCAB_mp_browser_help.shtml" target="_blank">Using the Mammalian Phenotype (MP) Browser</a></li>
-  <li><a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</a></li>
-  <li><A HREF="VOCAB_omim_browser_help.shtml" target="_blank">Using the Human Disease Vocabulary Browser</a></li>
+  <li><a href="<!--#include file='include/fewi_url.html'-->disease" target="_blank"> Disease Ontology Browser</a></li>
+  <li><A HREF="VOCAB_do_browser_help.shtml" target="_blank">Using the Human Disease Ontology (DO) Browser</a></li>
   <li><A HREF="<!--#include file='include/homepages_url.html'-->humanDisease.shtml" target="_blank">Human&mdash;Mouse: Disease Connection</a></li>
   <li><A HREF="disease_connection_help.shtml" target="_blank">Using the Human&mdash;Mouse: Disease Connection</a></li>
   <li><A HREF="MISC_boolean_search_help.shtml" target="_blank">Using Boolean Operators in MGI</a></li> 

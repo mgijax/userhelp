@@ -36,7 +36,7 @@ function openHelpWindow(helpFile){
 <!--#include file='include/templateBlankBodyStart.html'-->
 
 <!-- Body of User Help -->
-<A NAME="top"></A> <p>This help document answers the following questions about the Gene Detail Report.
+<a id="top"></a> <p>This help document answers the following questions about the Gene Detail Report.
 <ul>
 <li><a href="#title">What determines the title of this report?</a></li>
 
@@ -45,23 +45,20 @@ function openHelpWindow(helpFile){
 <li><a href="#click">What happens if I click <i>Your Input Welcome</i>?</a></li>
 </ul></p>
 
-<h3><A name="title"></A>What determines the title  of this report?</h3>
+<h3><a id="title"></a>What determines the title  of this report?</h3>
 <p>The title of this report describes the marker and genomic feature type returned as a result of your query. The title may identify a gene, segment, pseudogene, marker, BAC/YAC end, complex/cluster/region, or some other genome feature including "Miscellaneous Genome Feature Detail."
-  </ul>
-</P>
-
-<A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
+</p>
 
 <style>
 table { border-style: none; align: center
 }
 </style>
 
-<h3><A NAME="field"></A>Which fields should show up on this report?</h3>
+<h3><a id="field"></a>Which fields should show up on this report?</h3>
 <p>Depending on data availability and the marker type, this detail report contains information in some or all of the categories described in the table below. Some sections of the Detail Page initially display only a summary. Use <img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif"> to expand the section to see more information and <img src="<!--#include file='include/webshare_url.html'-->images/downArrow.gif"> to collapse the view. Sections will be absent when we have no data of of that type.</p>
 
 <p><table>
-<tr><td><font size="-1"><a href="#summary">Summary</a> | <a href="#maps">Locations &amp; Maps</a> | <a href="#orthology">Homology</a> | <a href="#diseases">Human Diseases</a> | <a href="#alleles">Mutations, Alleles, And Phenotypes</a> | <a href="#GO_detail">Gene Ontology (GO) Classifications</a> | <a href="#expression_detail">Expression</a> | <a href="#interactions">Interactions</a> | <a href="#molecular_reagents">Molecular Reagents</a> | <a href="#other_database_links">Other Database Links</a> | <a href="#sequences">Sequences</a> | <a href="#polymorphisms">Polymorphisms</a> | <a href="#protein_domains_detail">Protein-related Information</a> | <a href="#references">References</a> | <a href="#other">Other Accession IDs</a></font></td>
+<tr><td><a href="#summary">Summary</a> | <a href="#maps">Locations &amp; Maps</a> | <a href="#orthology">Homology</a> | <a href="#diseases">Human Diseases</a> | <a href="#alleles">Mutations, Alleles, And Phenotypes</a> | <a href="#GO_detail">Gene Ontology (GO) Classifications</a> | <a href="#expression_detail">Expression</a> | <a href="#interactions">Interactions</a> | <a href="#molecular_reagents">Molecular Reagents</a> | <a href="#other_database_links">Other Database Links</a> | <a href="#sequences">Sequences</a> | <a href="#polymorphisms">Polymorphisms</a> | <a href="#protein_domains_detail">Protein-related Information</a> | <a href="#references">References</a> | <a href="#other">Other Accession IDs</a></td>
 </tr>
 </table></p>
 
@@ -80,7 +77,7 @@ dt { text-align: left; font-style: bold;
 <tr><th>Section</th> 
 	<th>Descriptions</th>
 </tr>
-<tr><th><a name="summary"></a>Summary</th>
+<tr><th><a id="summary"></a>Summary</th>
 	<td><table>
 		<tr><th>Symbol</th>
 			<td>Official gene symbol for the mouse genetic marker. A symbol may be a gene, DNA segment, <abbr title="Quantitative Trait Locus">QTL</abbr>, cytogenetic marker, pseudogene, <abbr title="Bacterial Artificial Chromosome">BAC</abbr>/<abbr title="Yeast Artificial Chromosome">YAC</abbr> end, complex/cluster/region, or one of the other genome features including endogenous viruses, retrotransposons, integration sites, and repetitive elements. An additional class of such features includes genomic segments that function or are biologically significant as DNA elements.</td>
@@ -117,12 +114,12 @@ dt { text-align: left; font-style: bold;
 		<tr>
 		</td>
 		</table>
-<tr><th><a name="maps"></a>Location &amp; Maps</th>
+<tr><th><a id="maps"></a>Location &amp; Maps</th>
 	<td><table>
 		<tr><th>Sequence Map</th>
 			<td>Appears if coordinates are assigned and includes:
        <ul>
-       <li>Genome coordinate range and strand, in base pairs (provider of genomic coordinates is indicated) </LI>
+       <li>Genome coordinate range and strand, in base pairs (provider of genomic coordinates is indicated) </li>
        <li>A thumbnail image link to the MGI Mouse Genome Browser display for the marker's coordinates. You can also click <b>MGI Mouse Genome Browser</b> for a full-page display.<br>
 <b>Note:</b>&nbsp;If the information you expect to see does not appear in the Mouse Genome Browser (or other browser) display, you may need to turn on (i.e., click) the viewing aides (i.e., tracks, features, maps) in the various displays.</li>
        <li>a Get FASTA button will download the genomic sequence based on the coordinates in the current build, GRCm38. You can also add an equal amount of flanking sequence to each end.</li>
@@ -141,7 +138,7 @@ dt { text-align: left; font-style: bold;
   			</td>
   		</tr>
   		</table>
-<tr><th><a name="orthology"></a>Homology</th>
+<tr><th><a id="orthology"></a>Homology</th>
 	<td><table>
 		<tr><th>Human Ortholog</th>
 			<td>The human symbol and name and the source of the homology assertion</td></tr>
@@ -164,20 +161,20 @@ dt { text-align: left; font-style: bold;
 			<td>A link to the Gene Tree View at Ensembl (phylogenetic trees of animal genes).</td></tr>
 		</tr>
 		</table>
-<tr><th><a name="diseases"></a>Human Diseases</th>
-	<td>MGI uses the catalog of human genetic disorders from the Online Mendelian Inheritance in Man (OMIM) database to curate mouse models of human diseases. Depending on availability, the display includes some or all of the following links or information. The numbers indicate how many items in each linked report.
+<tr><th><a id="diseases"></a>Human Diseases</th>
+	<td>Human gene to disease associations are from the NCBI mim2gene_medgen file and include annotations from <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr>, NCBI curation, Gene Reviews, and Gene Tests. Mouse genes are associated with human diseases through mouse genotypes described in publications and annotated to the Disease Ontology (<a href="http://disease-ontology.org/" target="_blank">DO</a>), a hierarchical standardized ontology that integrates vocabularies from MeSH, ICD, NCI's thesaurus, SNOMED and <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr>.
 <ul>
-<li>The number of human diseases in OMIM modeled by mice with mutations in this gene and the total number of human diseases associated with this gene in OMIM.</li>
-<li>A table of human diseases OMIM has associated with the gene. The OMIM IDs link to the the OMIM disease page and the disease names link to the MGI Human Disease and Mouse Model Detail pages. Mouse and human icons categorize the associated genes by the following conditions: 
-    <ul>
+<li>The number of human diseases modeled by mice with mutations in this gene and the total number of human diseases associated with the human gene.</li>
+<li>A table of human diseases associated with the gene. The Human Disease name links to the MGI Disease Ontology Browser record and the IDs link to a popup of of IDs associated with the disease, linked to the appropriate source, when possible. Examples are DO IDs, OMIM IDs, and ICD-9 codes. Mouse and human icons categorize the associated genes by the following conditions: 
+<ul>
         <li><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif"><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">The disease is associated with both the mouse and human homologs of the same gene. Mouse genes may appear in this section based on disease models that express homologs of the mouse gene.</li>
-        <li><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif">Mouse models involving mutations in the mouse gene or expressing homologs of the mouse gene are associated with this human disease. (OMIM and NCBI data currently do not associate this disease with the homologous human gene.)</li>
+        <li><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif">Mouse models involving mutations in the mouse gene or expressing homologs of the mouse gene are associated with this human disease. (OMIM and NCBI data currently do not associate this disease with the homologous human gene.) Click the View link to see a popup summary of those models.</li>
  		<li><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">Mutations in the human gene are associated with this human disease phenotype. MGI may not contain evidence that a mutation in the mouse gene represents a model for this disease, if the mouse gene is homologous to a human gene associated with a disease, it is listed as a disease homolog.</li>
    	 </ul></li>
 <li>The total number of <b>Mutations/alleles</b> of the gene with disease annotations linked to a summary of the alleles of the gene with disease model annotations</li>
 <li>The number of <b>References</b> with disease annotations for the gene, linked to a summary report for those references.</li>
 </ul></td></tr>
-<tr><th><a name="alleles"></a>Mutations, Alleles, And Phenotypes</th>
+<tr><th><a id="alleles"></a>Mutations, Alleles, And Phenotypes</th>
 	<td>Depending on availability, the display includes some or all of the following links or information. The numbers indicate how many items in each linked report.
 <ul>
 <li>A <b>Phenotype Summary</b> of all alleles and annotations and counts of phenotypic allele categories of mutant alleles</li>
@@ -188,14 +185,14 @@ dt { text-align: left; font-style: bold;
 <li>Incidental mutations with links to data from the mutagenesis projects. <a href="<!--#include file='include/fewi_url.html'-->glossary/incidental_mutations.shtml" target="_blank">Incidental mutations</a> have been detected via sequencing but have not yet been confirmed. They may or may not affect the phenotype. Click on one of the project links, such as Mutagenetix or APF (The Australian Phenomic Facility), to access the provider's data. Stocks can be ordered from the providers. See <a href="ALLELE_phenotypic_categories_help.shtml#collection" target="_blank">Selecting Phenotypic Allele Categories</a> for a list of mutagenesis projects.</li>
 <li>A short summary of phenotypes observed in mice with mutant alleles of the gene</li>
 </ul></td></tr>
-<tr><th><a name="GO_detail"></a>Gene Ontology (GO) Classifications</th>
+<tr><th><a id="GO_detail"></a>Gene Ontology (GO) Classifications</th>
 	<td><ul>
- <li><B>All GO classifications (<i># annotations</i>)</b> links to a summary of the <i>nn </i> annotated items found (click <A HREF="GO_classification_fields_help.shtml" target="_blank">here </A> for information about interpreting the fields on this page). You can browse the GO vocabulary from the query results section and locate multiple terms that annotate a gene record.</li>
+ <li><B>All GO classifications (<i># annotations</i>)</b> links to a summary of the <i>nn </i> annotated items found (click <A HREF="GO_classification_fields_help.shtml" target="_blank">here </a> for information about interpreting the fields on this page). You can browse the GO vocabulary from the query results section and locate multiple terms that annotate a gene record.</li>
  <li><b>GO References</b>: the number of references with functional (GO) annotations for the gene, linked to a summary report for those references.</li>
  <li>A link to any External Resources (for example, <a href="http://func.med.harvard.edu/mouse/" target="_blank">FuncBase</a>, a database of functional predictions) for additional information about this gene.</li>
  <li>A graphical representation of GO annotations to select high-level ontology terms. Click on a blue cell to see more specific, lower-level, annotations and supporting references. <!--(Not all annotations "roll up" onto the grid and not all annotations are represented in the grid subset.)--> The three categories of the Gene Ontology describe the Molecular Function, Biological Process, and Cellular Component of the gene product.</li>
  	</ul></td></tr>
-<tr><th><a name="expression_detail">Expression</th>
+<tr><th><a id="expression_detail"></a>Expression</th>
 	<td>The Gene Expression Database (GXD) logo appears in the left hand column. Click on the logo for more information on GXD and its tools.
 <p>Depending on availability, some or all of the following information may appear:</p>
 <ul>
@@ -220,16 +217,16 @@ dt { text-align: left; font-style: bold;
   <li><a href="<!--#include file='include/mgihome_url.html'-->/homepages/tabContents/GXD_Resources.shtml">Other Vertebrate links</a>: links to expression information for chicken homologs at <abbr title="Gallus Expression in Situ Hybridization Analysis">GEISHA</abbr>, frog homologs at Xenbase, and zebrafish homologs at <abbr title="Zebrafish Information Network">ZFIN</abbr>.</li>
 </ul>
 </td></tr>
-<tr><th><a name="interactions">Interactions</th>
+<tr><th><a id="interactions"></a>Interactions</th>
 	<td>The total number of markers with which the gene is known or suspected of interacting, along with links to up to three of those markers' detail pages and a link to View All the markers. <!--Currently MGI only displays microRNA targeting type interactions, though more types will be added.--> See <a href="INTERACTION_explorer_help.shtml" target="_blank">Interpreting Interaction Explorer Results</a> for more information on MGI interaction data.</td></tr>
 
-<TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="sequences"></A>Sequences &amp; Gene Models</TH>
-<TD VALIGN="top">
+<tr>
+<th><a id="sequences"></a>Sequences &amp; Gene Models</TH>
+<TD>
 <TABLE BORDER="1" CELLPADDING="2" WIDTH="100%">
-<TR>
-<TD width="15%" ALIGN="left" VALIGN="top">Sequences</TD>
-<TD VALIGN="top">
+<tr>
+<TD>Sequences</td>
+<TD>
 <uL>
 <li>Link to the Mouse Sequence Summary Report for All sequences for your marker. This link appears if there is at least one sequence associated with a marker.</li>
 <li>If a marker is associated with RefSeq and/or UniProt sequences, the numbers of such associations appear, linked to separate Mouse Sequence Summary Reports for all sequences of those types.</li>
@@ -237,112 +234,114 @@ dt { text-align: left; font-style: bold;
 <li>Links to Gene Models at VEGA, Ensembl and NCBI</li>
 <li>Additionally, there may be links to the sequence evidence underlying gene predictions provided by NCBI, Ensembl, and VEGA.</li>
 </ul>
-</TD>
-</TR>
+</td>
+</tr>
 <tr>
-<TD VALIGN="top">Representative Sequences</TD>
-<TD VALIGN="top">Representative genomic (from the genome assembly), transcript, and polypeptide sequences for your marker and:
+<TD>Representative Sequences</td>
+<TD>Representative genomic (from the genome assembly), transcript, and polypeptide sequences for your marker and:
 
 <UL CLASS="noindent">
-<LI>the sequence ID (e.g., OTTMUSG00000009932)</LI>
-<LI>a link to the sequence provider (e.g., VEGA Gene Model)</LI>
-<LI>a link to the MGI Sequence Detail page</LI>
-<LI>Length: the sequence length</LI>
-<LI>Strain/Species: the sequence strain (or species, if other than laboratory mouse)</LI>
-<LI>Flank: If the marker has genome coordinates, you can add an equal amount of flanking sequence to either end when forwarding to NCBI <abbr title=" Basic Local Alignment Search Tool">BLAST</abbr>.</LI>
-</UL>
-</TD>
-</TR>
+<li>the sequence ID (e.g., OTTMUSG00000009932)</li>
+<li>a link to the sequence provider (e.g., VEGA Gene Model)</li>
+<li>a link to the MGI Sequence Detail page</li>
+<li>Length: the sequence length</li>
+<li>Strain/Species: the sequence strain (or species, if other than laboratory mouse)</li>
+<li>Flank: If the marker has genome coordinates, you can add an equal amount of flanking sequence to either end when forwarding to NCBI <abbr title=" Basic Local Alignment Search Tool">BLAST</abbr>.</li>
+</ul>
+</td>
+</tr>
 
-<TR>
-<TD VALIGN="top"><i>For the selected sequence</i> </TD>
-<TD VALIGN="top">You can:
+<tr>
+<TD><i>For the selected sequence</i> </td>
+<TD>You can:
 <UL>
-<LI>download it in FASTA format</LI>
-<LI>forward it to NCBI <abbr title=" Basic Local Alignment Search Tool">BLAST</abbr></LI>
-<LI>enter an amount of flanking sequence (if the marker has genome coordinates) and then download or forward to NCBI <abbr title="Basic Local Alignment Search Tool">BLAST</abbr>.</LI>
+<li>download it in FASTA format</li>
+<li>forward it to NCBI <abbr title=" Basic Local Alignment Search Tool">BLAST</abbr></li>
+<li>enter an amount of flanking sequence (if the marker has genome coordinates) and then download or forward to NCBI <abbr title="Basic Local Alignment Search Tool">BLAST</abbr>.</li>
 <li>select the representative sequence you want to download or forward <b>OR</b> click the number for <b>All</b> Sequences and make your choices there.</li>
-</UL>
-</TD>
-</TR>
+</ul>
+</td>
+</tr>
 </TABLE>
 
 <BR>
 <B>Note on representative sequence display:</B><br>
 MGI Representative Sequences provide users quick access to a single genomic, transcript and polypeptide sequence (where available) for the featured gene.  To view all sequences for the gene, follow the <b>All sequences</b> link.
 
-</TD>
-</TR>
-<TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="polymorphisms"></A>Polymorphisms</TH>
-<TD VALIGN="top">Links to the following MGI summary reports:<ul>
+</td>
+</tr>
+<tr>
+<th><a id="polymorphisms"></a>Polymorphisms</TH>
+<TD>Links to the following MGI summary reports:<ul>
   <li>Polymorphisms Query Results -- Summary  for any <abbr title="Restriction Fragment Length Polymorphism">RFLPs</abbr>/PCRs for this marker:  </li>
 <li>Mouse SNPs Query Results -- Summary for any SNPs within 2 kb of this marker.  <b>Note:</b> If MGI gene and marker genome coordinates are out of sync with the SNP data, <b>within 2 kb of this marker</b> does not appear, and the summary report indicates the discrepancy. See <a href="SNP_discrepancy_help.shtml">Understanding Mouse SNP Coordinate Discrepancies</a> for details.
 </ul>
-</TD>
-</TR>
+</td>
+</tr>
 
-<TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="protein_domains_detail"></A>Protein Information</TH>
-<TD VALIGN="top">
+<tr>
+<th><a id="protein_domains_detail"></a>Protein Information</TH>
+<TD>
 <ul>
 	<li>If a marker is associated with UniProt sequences, the numbers of such associations appear, linked to separate Mouse Sequence Summary Reports for all sequences of that type.</li>
 	<li>Links to Protein Ontology for those genes with mappings to PRO IDs</li>
 	<li><abbr title="Enzyme Commission">EC</abbr> (Enzyme Commission) ID</li>
-  	<li>List of InterPro domain IDs & descriptions for protein sequences encoded by the gene. The ID links to the InterPro detail page for the domain at the EBI.</li>
-</ul></TD>
-</TR>
+  	<li>List of InterPro domain IDs &amp; descriptions for protein sequences encoded by the gene. The ID links to the InterPro detail page for the domain at the EBI.</li>
+</ul></td>
+</tr>
 
-<TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="molecular_reagents"></A>Molecular Reagents</TH>
-<TD VALIGN="top">Links to summary pages of MGI molecular reagent information for the marker grouped by All nucleic, Genomic, cDNA, Primer pair, Other (i.e., other nucleic acid probes) and Microarray probesets. Note that <I>Genomic, cDNA, Primer pair</I> and <I>Other</I> are subsets of All nucleic. The number indicates the total number of items listed in the summary. If you select:
+<tr>
+<th><a id="molecular_reagents"></a>Molecular Reagents</TH>
+<TD>Links to summary pages of MGI molecular reagent information for the marker grouped by All nucleic, Genomic, cDNA, Primer pair, Other (i.e., other nucleic acid probes) and Microarray probesets. Note that <I>Genomic, cDNA, Primer pair</I> and <I>Other</I> are subsets of All nucleic. The number indicates the total number of items listed in the summary. If you select:
 
 <UL STYLE="padding-left:30px">
 <li>All nucleic, Genomic, cDNA, Primer pair, Other:  link is to Molecular Probes and Clones Query Results -- Summary.</li>
 <li>Microarray probesets: link is to Microarray Probeset Summary.</li>
-</UL>
-</TD>
-</TR>
+</ul>
+</td>
+</tr>
 
-<TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="other_database_links"></A>Other Database Links</TH>
-<TD VALIGN="top"><ul>
+<tr>
+<th><a id="other_database_links"></a>Other Database Links</TH>
+<TD><ul>
   <li>List of and links to external resources with database accession IDs associated to this marker, such as miRBase for miRNAs.</li>
  </ul>
-</TD>
-</TR>
+</td>
+</tr>
 
-<TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="other"></A>Other<BR>
+<tr>
+<th><a id="other"></a>Other<BR>
 Accession IDs</TH>
-<TD VALIGN="top">List of any other MGI accession IDs associated with this marker.</TD>
-</TR>
+<TD>List of any other MGI accession IDs associated with this marker.</td>
+</tr>
 
-<TR>
-<TH ALIGN="left" VALIGN="top"><A NAME="references"></A>References</TH>
-<TD VALIGN="top">Some or all of the following, depending on availability:
+<tr>
+<th><a id="references"></a>References</TH>
+<td>Some or all of the following, depending on availability:
 
 <UL STYLE="padding-left:30px">
-<LI>All the references for the marker, linked to a listing on the summary report page.</LI>
+<li>All the references for the marker, linked to a listing on the summary report page.</li>
 <li>The Disease, Expression, Gene Ontology and Phenotype annotation references, linked to a summary listing of just those references.</li>
-<LI>Details of one selected reference, linked to its detail page.</LI>
-<LI>Details of the earliest and latest references, linked to their detail pages.</LI>
+<li>Details of one selected reference, linked to its detail page.</li>
+<li>Details of the earliest and latest references, linked to their detail pages.</li>
 </ul>
 
-References on the detail and summary pages include a J number (an MGI reference ID) and a short citation, linked to the full citation. Reference summaries provide text export and filtering capabilities. </TD>
-</TR>
+References on the detail and summary pages include a J number (an MGI reference ID) and a short citation, linked to the full citation. Reference summaries provide text export and filtering capabilities. </td>
+</tr>
 </TABLE>
 
-</p>
-<A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="data"></a>How can I tell which dbSNP build this data is from?</h3>
+<h3><a id="data"></a>How can I tell which dbSNP build this data is from?</h3>
 <p>The dbSNP build number appears in the <i>Polymorphisms</i> section of the report. 
 </p>
-<A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
-<H3><A NAME="click"></A>What happens if I click <I>Your Input Welcome</I>?</H3>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><a id="click"></a>What happens if I click <I>Your Input Welcome</I>?</H3>
 
 <P>The Your Input Welcome button, located at the top right of your screen, appears as part of the detailed query results. Clicking the button brings up a dialogue box for submitting any updates or corrections to the data you are viewing. Our User Support staff will review your comments and make sure the appropriate changes are made. This provides an easy way to help us keep data current.</P>
-<A HREF="#top"><FONT SIZE="-1">Top</FONT></A>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 

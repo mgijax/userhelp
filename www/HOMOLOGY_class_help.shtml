@@ -48,7 +48,7 @@ function openHelpWindow(helpFile){
  <li><A href="#sequence">How do I view resources for sequences?</A></li>
  <li><a href="#align">Can I view a multiple sequence alignment?</a></li>
  <li><A HREF="#fasta">How do I download sequences in FASTA format?</A></li>
- <LI><A HREF="#mouseblast">How do I forward sequences to MouseBLAST?</A></LI>
+ <LI><A HREF="#mouseblast">How do I forward sequences to NCBI BLAST?</A></LI>
  <li><a href="#graph">Are there curated Gene Ontology (GO) annotations for mouse, human, or rat genes in this homology class?</a></li>
 </ul>
 
@@ -116,7 +116,7 @@ to and the cM position or cytogenetic band. Location information varies dependin
 <tr><th><a id="coord"><span style="white-space: nowrap">Genome Coordinates</span></a></th> 
 <td>Genome coordinate range in base pairs, strand and the genome build number. </td>
 <tr><th><a id="disease">Associated Human Diseases</a></th> 
-<td>Human disease terms, linked to MGI Human Disease and Mouse Model Detail pages. Diseases that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary. See also the <a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</A>. </td>
+<td>Human Disease Ontology (DO) terms, linked to MGI Disease Ontology Browser. Diseases that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary. See also the <a href="<!--#include file='include/fewi_url.html'-->vocab/do" target="_blank">Disease Ontology Browser</a>. </td>
 <tr><th><a id="sequence">Sequences</a></th>
 <td>Representative transcript and protein sequence ID, linked to the provider's web site. Check boxes permit <A HREF="#fasta">downloading</a> selected sequences in FASTA format or <A HREF="#mouseblast">forwarding</a> them to MouseBLAST. </td>
 </TR>
@@ -137,19 +137,13 @@ to and the cM position or cytogenetic band. Location information varies dependin
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><a id="mouseblast"></A>How do I forward sequences to MouseBLAST?</H3>
-<P>To forward sequences to MouseBLAST:</P>
+<H3><a id="mouseblast"></A>How do I forward sequences to NCBI BLAST?</H3>
+<P>To forward sequences to NCBI BLAST:</P>
 <OL>
 <LI>Click to put a check mark next to one or more sequences.</LI>
-<LI>Click on <i>get FASTA</i> and change the toggle to <i>MouseBLAST</i>.</LI>
+<LI>Click on <i>get FASTA</i> and change the toggle to <i>BLAST at NCBI</i>.</LI>
 <LI>Click <i>Go</i>.</LI>
 </OL>
-
-<p>For additional information, see:</p>
-<ul>
- <li><a href="mouseblast_forwarding_help.shtml" target="_blank">Using the Forward to MouseBLAST Form</a> </LI>
- <li><a href="mouseblast_output_help.shtml" target="_blank">Interpreting the MouseBLAST Output Report</a></li>  
-</ul>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

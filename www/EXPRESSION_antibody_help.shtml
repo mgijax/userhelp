@@ -79,7 +79,7 @@ function openHelpWindow(helpFile){
  <TR><th><a id="antigen"></a>Antigen</td>
  <td>
     <table border="0" cellspacing="2" cellpadding="4" width="!">
-     <tr><td>Name</td><td>Name of the protein or protein fragment against which the antibody was raised, linked to the antigen record.</td>
+     <tr><td>Name</td><td>Name of the protein or protein fragment against which the antibody was raised.</td>
      <tr><td>Species</td><td>Species from which the antigen was isolated.</td>
      <tr><td>Strain</td><td>Strain of mouse from which the antigen was isolated, if specified.</td>
      <tr><td>Sex</td><td>Sex of the animal from which the antigen was isolated, if specified.</td>

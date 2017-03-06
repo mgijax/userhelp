@@ -58,7 +58,7 @@ Using the Mouse Developmental Anatomy Browser </span>
 </UL></p>
 
 <h3><a id="whatcan"></a>What can I find in the Mouse Developmental Anatomy Browser?</h3>
-<p>The traditional way to describe space within the embryo is to use anatomical terms. The Mouse Developmental Anatomy Ontology was developed in <a href="http://www.obofoundry.org/wiki/index.php/EMAPA:Main_Page">collaboration with EMAP</a> and provides a standardized nomenclature for these anatomical terms and the developmental stages when the structures are present. In MGI, "ontology" refers to a controlled vocabulary, or set of such vocabularies, used to describe biological features. The staging system is as defined by Theiler.</p>
+<p>The traditional way to describe space within the embryo is to use anatomical terms. The Mouse Developmental Anatomy Ontology was developed in <a href="http://www.obofoundry.org/ontology/emapa.html">collaboration with EMAP</a> and provides a standardized nomenclature for these anatomical terms and the developmental stages when the structures are present. In MGI, "ontology" refers to a controlled vocabulary, or set of such vocabularies, used to describe biological features. The staging system is as defined by Theiler.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

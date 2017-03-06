@@ -1,0 +1,144 @@
+<!--#include file='include/templateHead.html'-->
+<title>
+  <!--#include file="include/mgiversion.html"-->
+MGI-Using the Disease Ontology (DO) Browser</title>
+
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+
+</style>
+
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+Using the Disease Ontology (DO) Browser</span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+
+
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+	</td>
+    </tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+<!-- Body of User Help -->
+
+<a id="top"></a>
+
+<p>The Disease Ontology (DO) is a community effort to provide standard terms for annotating phenotypic data. You can use this browser to view DO terms, definitions, and term relationships in a hierarchical display.</p>
+
+<p>This help document answers the following questions about the DO Browser:
+ <ul>
+  <li><a href="#howare">How is the Disease Ontology organized?</a></li>
+  <li><a href="#whatcan">What can I use the Disease Ontology Browser to find?</a></li>
+  <!--<li><a href="#include">What is the difference between browsing and searching the vocabulary?</a></li>-->
+  <li><a href="#browse">How do I browse the vocabulary?</a></li>
+  <!--<li><a href="#search">How do I search the vocabulary?</a></li>-->
+  <li><a href="#results">What can I find on the query results report?</a>
+  <ul>
+   <li><a href="#term_detail">How do I interpret the Term Details tab?</a></li>
+   <li><a href="#genes">How do I interpret the Genes tab?</a></li>
+   <li><a href="#models">How do I interpret the Models tab?</a></li>
+  </ul></li>
+  <li><A href="#how_assoc">How are gene to disease associations made?</A></li>
+  <li><a href="#mp_summary">How do I interpret the Disease Ontology Annotations Query Results?</a></li>
+  <li><a href="#contribute">How can I contribute to the vocabulary?</a></li>
+ </ul></p>
+
+<p>See also:
+<ul>
+  <li><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a> for unfamiliar terms (or for how MGI defines specific terms) and acronyms. </li>
+  <!--<li><a href="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</a></li>
+  <li><a href="MISC_wildcard_help.shtml" target="_blank">Using Wildcards on MGI Query Forms</a></li>-->
+</ul></p>
+
+<h3><a id="howare"></a>How is the Disease Ontology organized?</h3>
+
+<p>The Disease Ontology is built on a Directed Acyclic Graph (DAG) structure. In a DAG, an ontology term can have more than one parent term. The Disease Ontology (<a href="http://disease-ontology.org/" target="_blank">DO</a>), is a hierarchical standardized ontology that integrates vocabularies from <abbr title="Medical Subject Headings">MeSH</abbr>, <abbr title="International Classification of Diseases">ICD</abbr>, NCI's thesaurus, <abbr title="Systematized Nomenclature of Medicine">SNOMED</abbr>, <abbr title="Unified Medical Language System">UMLS</abbr>, Orphanet, <abbr title="Experimental Factor Ontology">EFO</abbr> and <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr>. Its hierarchical structure permits a range of detail from high-level, broadly descriptive terms to very low-level, highly specific terms. This range is useful for annotating mouse model data to the level of detail known and for searching for this information using either broad or specific terms as search criteria.
+</p>
+
+<h3><a id="whatcan"></a>What can I use the Disease Ontology Browser to find?</h3>
+
+<p>You can browse the Disease Ontology hierarchy and for each selected disease term, find genes and mouse models associated with the term.</p>
+
+<p>The top of the page shows the disease term, its <abbr title="Disease Ontology">DO</abbr> ID, synonyms, Alternative IDs, linked when possible to the relevant source, and the term definition. The main body of the page provides 3 tabbed views,<a href="#term_detail">Term Details</a>, <a href="genes">Genes</a> and <a href="models">Models</a>. Term Details is the default selection. 
+</p>
+
+<h3><a id="term_detail"></a>How do I interpret the Term Details tab?</h3>
+
+<p><b>Term Details</b>: A portion of the Disease Ontology (DO) hierarchy is represented by three sections. The middle section highlights the selected term&mdash;the term defined at the top of the page&mdash;and lists its sibling terms below. To the left are those terms' parent terms and to the right, the highlighted term's child terms&mdash;terms below it in the ontology hierarchy. Click on a term to refresh the page and make it the highlighted term and to see its parent and child terms, and at the top of the page, its DO ID, synonyms and definition. 
+</p>
+
+<h3><a id="genes"></a>How do I interpret the Genes tab?</h3>
+
+<p><b>Genes</b>: A list of all mouse and human genes where mutations in one or both species are associated with phenotypes characteristic of this human disease and its child terms in the DO hierarchy. Mouse and human icons categorize the associated genes by the following conditions: 
+    <ul>
+        <li><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif"><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">The disease is associated with both the mouse and human homologs of the same gene. Mouse genes may appear in this section based on disease models that express homologs of the mouse gene.</li>
+        <LI><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif">Mouse models involving mutations in the mouse gene or expressing homologs of the mouse gene are associated with this human disease. (<abbr title="Online Mendelian Inheritance in Man">OMIM</abbr> and NCBI data currently do not associate this disease with the homologous human gene.)</LI>
+ 		<LI><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">Mutations in the human gene are associated with this human disease phenotype. MGI may not contain evidence that a mutation in the mouse gene represents a model for this disease, if the mouse gene is homologous to a human gene associated with a disease, it is listed as a disease homolog.</LI>
+   	 </ul>
+	<p>Links to additional information on genes, genotypes and phenotypes:
+	</p>
+ 	<ul>
+   		<li>The <b>Human Homologs</b> link to the either the HomoloGene Vertebrate Homology report where you can view homology and mapping information for several species and follow additional links (in the Gene Links column of that page) to databases such as <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr>, Entrez Gene and <abbr title="HUGO Gene Nomenclature Committee">HGNC</abbr>, or it links to the <abbr title="HUGO Gene Nomenclature Committee">HGNC</abbr> Mouse/Human Homology report. The later report appears when the Homology Source (the last column) is from <abbr title="HUGO Gene Nomenclature Committee">HGNC</abbr>/HCOP only. </li>
+   		<li>The <b>Mouse Homologs</b> link to the MGI Gene Detail reports for each gene listed. There you can find data about everything known about the gene in the MGI database: synonyms, genetic and sequence maps (including the MGI Mouse Genome Browser), vertebrate homology, representative sequences, phenotypes, gene ontology classifications, expression, protein domains, references, as well as links to related databases.</li>
+  		<li>The <b>Mouse Models</b> column shows the number of mouse models possessing an allele of that row's gene. This links to a pop-up window with genotype information (strain background and alleles) and links to references and phenotype data.</li>
+  		<li>The <b>Homology Source</b> column indicates where the homology association for the genes in the Human Homologs and Mouse Homologs column was made, HomoloGene, <abbr title="HUGO Gene Nomenclature Committee">HGNC</abbr>, or both sources agree with the association.</li>
+  	</ul>
+
+An asterisk (*) next to a gene symbol identifies a gene associated with the disease in that species.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="models"></a>How do I interpret the Models tab?</h3>
+
+<p><b>Models</b>: A table of all models with phenotypic similarity to the disease. Models are organized into the following categories:
+  <OL>
+    <LI><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif"><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif"> Mouse models where at least one of the mouse genes and its homologous human gene are associated with this human disease. Mouse genes may appear in this section based on disease models that express homologs of the mouse gene.
+	</LI>
+    <LI><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif">Mouse models involving mutations in the mouse gene or  expressing homologs of the mouse gene are associated with this human disease. (OMIM and NCBI data currently do not associate this disease with the homologous human gene.)</LI>
+   	<LI><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">Mouse models where none of the mouse markers are associated to the disease but at least one of the human homologs is associated with this human disease.</LI>
+    <LI>Transgenes and Other Mutations appears when at least one of the non-gene mouse markers is associated with this human disease.
+	</LI>
+	<li><a id="complex"></a>The Additional Complex Models section appears if there are models for which there are no endogenous disease-associated mouse or human genes. For each allelic combination, the genetic background, references and a link to phenotypic details are provided. </li>
+    <!--<LI>NOT Models. This section appears when the reference's authors looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified. </LI>-->
+  </OL>
+  </p>
+  
+<table>
+<tr><th>Disease Term</th><td>The disease term associated with the model. This column includes child terms of the selected term indicated at the top of the Disease Ontology Browser page.</td></tr>
+<TR><TH><span style="white-space: nowrap">Allelic Composition</span></TH><TD>Allele pairs that contribute to the genotype. Each allele is linked to its corresponding Phenotypic Allele Detail report.</TD></tr>
+ <TR><TH><span style="white-space: nowrap">Genetic Background</span></TH><TD>Mouse strains involved, if described. </td></tr>
+ <TR><TH>Reference</TH><TD>The supporting reference linked by its MGI reference number to the MGI Reference Detail report containing the full citation. </TD></tr>
+ <TR><TH>Phenotypes</TH><TD>Links to the phenotypic details for the genotype.</TD></tr>
+</table>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><a id="how_assoc"></a>How are gene to disease associations made?</H3>
+<p>Human disease associations to human genes are from the NCBI mim2gene_medgen file and include annotations from <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr> and NCBI. Human disease associations to mouse genes are from MGI curated data and are only made when the genotype of at least one mouse model allows for a clear gene to disease relationship to be determined. </p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<p>The <b>Disease References using Mouse Models</b> links to a list of the references that discussed mouse models of the disease. 
+</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<!--#include file='include/templateBlankBodyStop.html'-->
