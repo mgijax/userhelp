@@ -41,45 +41,16 @@ Interpreting Polymorphism Results</span>
 
 <a id="top"></a>
 
-<ul>
- <li><a href="#summary">How do I interpret the summary results?</a></li>
- <li><a href="#detail">Can I view a more detailed result? How do I interpret a detail result report?</a></li>
-</ul>
 
-<p>See also: 
-<ul>
- <li><a href="<!--#include file='include/glossary_url.html'-->">MGI Glossary</a> for unfamiliar terms (or for how MGI defines specific terms) and acronyms.</li>
-</ul>
+<p>The top of the page indicates the official symbol, linked to its Detail page, and its name, MGI accession ID, and chromosomal location. Just below this section a table summarizes the polymorphism data.</p>
 
-<h3><a id="summary"></a>How do I interpret the summary results?</h3>
+<p>The polymorphism assay table has the following fields and values:</p>
 
-<p>The summary report table has the following fields and values:</p>
 
 <blockquote>
- 
-  <table border cellpadding="4">
-   <tr><th>FIELD</th> <th>DESCRIPTION</th></tr>
-   <tr><th>Chr</th> <td>Chromosome for a locus where the polymorphism was tested.</td></tr> 
-   <tr><th>cM</th> <td>cM position for the locus.</td></tr> 
-   <tr><th>Symbol</th> <td>Symbol for the locus, linked to the detailed record for the locus.</td></tr> 
-   <tr><th>Type</th> <td>Type of assay used to test the polymorphism. May be PCR or RFLP. The assay type is linked to detailed polymorphism results for the assay.</td></tr> 
-   <tr><th>Strains</th> <td>Strains in which polymorphisms for a given locus were detected. Strain grouping is by common variant. A black ball separates the groups.</td></tr>
-  </table>
-</blockquote>
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
-<h3><a id="detail"></a>Can I view a more detailed result? How do I interpret a detail result report?</h3>
-
-<p>The summary listing provides links to assay details.  Click the desired item to see its detail report.</p>
-
-<p>The assay detail report includes the following information:<br>
-
-<blockquote>
- <TABLE BORDER="1"  CELLPADDING="4" WIDTH="100%">
+ <table>
   <tr><th>Reference</th><td>J number of the supporting reference, linked to reference record.</td></tr>
-  <tr><th>Probe</th><td>Probe used to detect the polymorphism, linked to MGI probe record.</td></tr>
-  <tr><th>Locus</th><td>The locus where the polymorphism was tested. The symbol is linked to the locus record.</td></tr>
+  <tr><th>Probe</th><td>Probe used to detect the polymorphism, linked to MGI probe or prime detail record.</td></tr>
   <tr><th>Endonuclease</th><td>Restriction enzyme used to cut the DNA.</td></tr>
   <tr><th>Allele</th><td>Designation for the locus allele in which the polymorphism was
 found.</td></tr>
