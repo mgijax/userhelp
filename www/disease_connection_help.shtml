@@ -47,6 +47,7 @@ Using the Human - Mouse: Disease Connection </span>
 	<li><A HREF="#field">What values are acceptable in each of the fields?</A></li>
     <li><a href="#mp_ontology">Is there a list of phenotype terms to select from?</a></li>
     <li><a href="#disease_ontology">Is there a list of disease terms to select from?</a></li>
+    <li><a href="#DOversion">What version of the Disease Ontology (DO) is used by MGI?</a></li>
     <li><a href="#relationship">Can I query using both a phenotype term and a disease term?</a></li>
 	</ul>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
@@ -204,6 +205,13 @@ The Effective Phenotype Query shows only what you type in the Search by disease 
 
 <h3><a id="disease_ontology"></a>Is there a list of disease terms to select from?</h3>
 <p>Yes. The Disease Ontology (DO) contains human disease, syndrome, and condition terms. You can browse the vocabulary and find links to associated genes and mouse model information by using the <a href="<!--#include file='include/fewi_url.html'-->vocab/do" target="_blank">Disease Ontology Browser</a>.  Navigate the vocabulary until you find the term you are looking for.  See <a href="VOCAB_do_browser_help.shtml" target="_blank">Using the Disease Ontology (DO) Browser</a> for additional help.
+</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="DOversion"></a>What version of the Disease Ontology (DO) is used by MGI?</h3>
+
+<p>MGI uses the doid-merged.obo version of the DO ontology. This version includes asserted is_a relationships, is_a relationships derived from tissue/organ location information and additional <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr> cross-references from susceptibility relationships.
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>

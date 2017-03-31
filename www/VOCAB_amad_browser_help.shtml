@@ -44,7 +44,7 @@ Using the Adult Mouse Anatomy Browser </span>
 Use the Adult Mouse Anatomy Browser to view the anatomical terms and their relationships in a hierarchical display.</p>
 </P>
 
-<A NAME="top"></A>
+<a id="top"></a>
 <P>This help document answers the following questions about the Browser:
  <UL>
    <LI><A HREF="#howis">How is the Adult Mouse Anatomy Ontology organized?</A></LI>
@@ -63,73 +63,81 @@ Use the Adult Mouse Anatomy Browser to view the anatomical terms and their relat
 </ul>
 
 
- <H3><A NAME="howis"></A>How is the Adult Mouse Anatomy Ontology organized?</H3>
+ <H3><A id="howis"></A>How is the Adult Mouse Anatomy Ontology organized?</H3>
 <P>The Anatomy Ontology for the Adult Mouse is organized spatially and functionally, using "is a" and "part of" relationships. Anatomical terms are arranged as a hierarchy from body region or organ system to tissue substructure.</P>
 
 <P>Modeling the anatomy hierarchically makes it possible to record
 expression results from assays with differing spatial resolution in a consistent and integrated manner. Organizing the anatomical terms as a Directed Acyclic Graph (DAG), i.e., in which a term can have more than one parent, allows presentation of the anatomy from multiple perspectives.</P>
-<A HREF="#top"><font size="-1">Top</font></A>
 
-<H3><A NAME="whatcan"></A>What can I use the Browser to find?</H3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><A id="whatcan"></A>What can I use the Browser to find?</H3>
 <P>Use the Browser to find standardized vocabulary terms for anatomical structures present in the postnatal mouse (Theiler stage 28).</P>
 <P>You can either browse or search from the Adult Mouse Anatomy Browser entry page.
 <UL>
   <LI><a href="#browse">Browsing</a> brings up a <B>Term Detail</B> page displaying the highest level terms in the hierarchy, providing a starting point for navigating the ontology to locate specific anatomical structures. Clicking on individual terms results in <B>Term Detail</B> pages displaying parents (superstructures), siblings (structures at the same level), and children (substructures).</LI>
   <LI><a href="#search">Searching</a> by entering a text string or Adult Mouse Anatomy Ontology (MA) accession number in the <B>Query</B> field brings up a <B>Query Results</B> page displaying all structures that match the query.</LI>
 </UL></P>
-<A HREF="#top"><font size="-1">Top</font></A>
 
-<H3><A NAME="browse"></A>How do I browse the vocabulary?</H3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><A id="browse"></A>How do I browse the vocabulary?</H3>
 <P>To browse the vocabulary, click <B>Adult Mouse Anatomy Ontology</B> on the Adult Mouse Anatomy Browser page. A <B>Term Detail</B> page appears displaying the highest level terms in the hierarchy. Click on structures to navigate progressively through the ontology in order to locate specific anatomical terms.</P>
-<A HREF="#top"><font size="-1">Top</font></A>
+<p>In the Anatomical Tree View you can expand or collapse branches by clicking on the blue &#9658; or &#9660;. This also updates the Anatomical Term Detail section.</p>
 
-<H3><A NAME="search"></A>How do I search the vocabulary?</H3>
-<P>The <B>Query</B> field accepts any text string and searches for all terms containing that string plus any synonyms. For  example, entering <I>cranium</I> returns all terms containing the word <I>cranium</I>, such as <I>chondrocranium, viserocranium, chondrocranium bone</I> and <I>viserocranium bone,</I> as well as, for example, <I>neurocranium</I>, which is a synonym for chondrocranium.
-<P>Entering the MA accession identifier in the <B>Query</B> field returns only an exact match on the number.
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<P>To search the Adult Mouse Anatomy Browser:
-<OL>
- <LI>Type either a text string or an MA accession number in the Query box. </LI>
- <LI>Click <B>Submit Query</B>.  The search returns a <B>Query Results</B> page that displays all matching terms in the vocabulary.
-<LI>Click the desired term to view its <B>Term Detail</B> page.
-</OL></P>
-<A HREF="#top"><font size="-1">Top</font></A><BR>
-<H3><A NAME="whatfind"></A>What can I find on the Query Results page?</H3>
-<P>The <B>Query Results</B> page lists all matching anatomical terms in the vocabulary. Click the desired term to view its <B>Term Detail</B> page.</P>
-<A HREF="#top"><font size="-1">Top</font></A>
+<H3><A id="search"></A>How do I search the vocabulary?</H3>
+<P>The <B>Query</B> field accepts any text string and searches for all terms containing that string plus any synonyms. 
 
-<H3><A NAME="td_page"></A>How do I interpret the Term Detail page?</H3>
+You can search by anatomy term to determine where a particular structure exists in the Adult Anatomy Ontology and see, in the Anatomical Tree View section, whether there are any gene expression data associated with the structure. To do this:
+<ul>
+	<li>Begin typing a structure of interest and an autocomplete list activates on the second character. 
+    <ul>
+    	<li>The list shows all the anatomy terms and their synonyms that match your search characters.</li>
+    </ul>
+	<li>You must select a term. There is no free text searching in this field.</li>
+	<li>You can only select one term.</li>
+	<li>Use the return/enter key on your keyboard to activate a search. The search finds all structures that contain any of your search terms and displays a list of those structures.</li>
+	<li>If you are uncertain which terms to use for the most effective searching, <a href="#browse">browse</a> the ontology to see the standardized terms.</li>
+</ul>
+<p>The first term listed in your search results is automatically selected and updates the Anatomical Term Detail and Anatomical Tree View sections on the right. Click on a different term in your search results to refresh the Anatomical Term Detail and Tree View with the selected structure and developmental stages. Use the Clear button to start a new search.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><A id="td_page"></A>How do I interpret the Term Detail page?</H3>
 <P>The <B>Term Detail</B> page provides the following information.
 <P>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Field</TH><TH>Color</TH><TH>Description</TH></TR>
-<TR><TD VALIGN="top">MA term,<br>MA ID,<BR>Synonyms,<BR>Number of paths to term</TD>
-<TD VALIGN="top"><span style="background-color:#FFFFCC">Yellow</span></TD> 
-<TD VALIGN="top">The selected anatomical term, the unique identifier (accession number) for the term, any synonyms associated with the term (if available), and the number of paths to the term within the ontology.</TD></TR>
+<TR><TD>MA term,<br>MA ID,<BR>Synonyms,<BR>Number of paths to term</TD>
+<TD><span style="background-color:#FFFFCC">Yellow</span></TD> 
+<TD>The selected anatomical term, the unique identifier (accession number) for the term, any synonyms associated with the term (if available), and the number of paths to the term within the ontology.</TD></TR>
 <TR>
-<TD VALIGN="top">Name, Unique identifier</TD><TD VALIGN="top"><FONT COLOR="#FF0000">Red</FONT></TD><TD>Name of the anatomical term selected, followed by its unique identifier. There is one identifier for each term in the Adult Mouse Anatomy Ontology. This means that the ID is always the same regardless of how many times the term is displayed as part of a specific path to that term. The unique identifier for a given structure remains the same even if its name changes.</TD></TR>
-<TR><TD VALIGN="top">Links</TD><TD VALIGN="top"><FONT COLOR="#0000FF">Blue</FONT><TD>List of all paths to the term. Click the desired link to bring up a detail page for that term.</TD></TR>
+<TD>Name, Unique identifier</TD><TD VALIGN="top"><FONT COLOR="#FF0000">Red</FONT></TD><TD>Name of the anatomical term selected, followed by its unique identifier. There is one identifier for each term in the Adult Mouse Anatomy Ontology. This means that the ID is always the same regardless of how many times the term is displayed as part of a specific path to that term. The unique identifier for a given structure remains the same even if its name changes.</TD></TR>
+<TR><>Links</TD><TD VALIGN="top"><FONT COLOR="#0000FF">Blue</FONT><TD>List of all paths to the term. Click the desired link to bring up a detail page for that term.</TD></TR>
 <TR>
-<TD VALIGN="top"><IMG SRC="<!--#include file='include/webshare_url.html'-->images/is-a.gif">&nbsp;"Is-a" Relationship</TD>
-<TD VALIGN="top"><FONT COLOR="#666699">Purple</FONT></TD>
-<TD VALIGN="top">Indicates that the term is an instance or type of the more general term (parent or superstructure) above it in the hierarchy.</TD></TR>
+<TD><IMG SRC="<!--#include file='include/webshare_url.html'-->images/is-a.gif">&nbsp;"Is-a" Relationship</TD>
+<TD><FONT COLOR="#666699">Purple</FONT></TD>
+<TD>Indicates that the term is an instance or type of the more general term (parent or superstructure) above it in the hierarchy.</TD></TR>
 
-<TR><TD VALIGN="top"><IMG SRC="<!--#include file='include/webshare_url.html'-->images/part-of.gif">&nbsp;"Part-of" Relationship</TD>
-<TD VALIGN="top"><FONT COLOR="#0000FF">Blue</FONT><TD VALIGN="top">Indicates that the term is a component of the more general term (parent or superstructure) above it in the hierarchy.</TD></TR>
+<TR><TD><IMG SRC="<!--#include file='include/webshare_url.html'-->images/part-of.gif">&nbsp;"Part-of" Relationship</TD>
+<TD><FONT COLOR="#0000FF">Blue</FONT><TD VALIGN="top">Indicates that the term is a component of the more general term (parent or superstructure) above it in the hierarchy.</TD></TR>
 
 <TR>
-<TD VALIGN="top"><FONT COLOR="#0000FF">+</FONT></TD>
-<TD VALIGN="top"><FONT COLOR="#0000FF">Blue</FONT></TD><TD>A plus sign (+) following a term indicates that the term has  children (substructures) within the vocabulary. Click on the term to see the additional paths.
+<TD><FONT COLOR="#0000FF">+</FONT></TD>
+<TD><FONT COLOR="#0000FF">Blue</FONT></TD><TD>A plus sign (+) following a term indicates that the term has  children (substructures) within the vocabulary. Click on the term to see the additional paths.
 </TD></TR>
 </TABLE>
 </P>
 <A HREF="#top"><font size="-1">Top</font></A>
 
- <H3><A NAME="contribute"></A>How can I contribute to the vocabulary?</H3>
+ <H3><A id="contribute"></A>How can I contribute to the vocabulary?</H3>
 <P>Your input is welcome. Please <A HREF="mailto:MAontology@jax.org">contact</A> us with suggestions, additions, or questions about the Adult Mouse Anatomy Ontology.
 </P>
-<A HREF="#top"><font size="-1">Top</font></A>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <HR>
 <P>Terry Hayamizu, Mary Mangan, John Corradi, and Martin Ringwald developed the Adult Mouse Anatomy Ontology as part of the Gene Expression Database (GXD) project. GXD is funded by NIH grant HD062499. Postdoctoral fellowships F32 HD08435-01 and F32 HG00215-01 supported M.M. and J.C.

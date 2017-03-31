@@ -58,7 +58,7 @@ Using the Disease Ontology (DO) Browser</span>
   </ul></li>
   <li><A href="#how_assoc">How are gene to disease associations made?</A></li>
   <li><a href="#mp_summary">How do I interpret the Disease Ontology Annotations Query Results?</a></li>
-  <li><a href="#contribute">How can I contribute to the vocabulary?</a></li>
+  <li><a href="#DOversion">What version of the Disease Ontology (DO) is used by MGI?</a></li>
  </ul></p>
 
 <p>See also:
@@ -137,6 +137,13 @@ An asterisk (*) next to a gene symbol identifies a gene associated with the dise
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <p>The <b>Disease References using Mouse Models</b> links to a list of the references that discussed mouse models of the disease. 
+</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="DOversion"></a>What version of the Disease Ontology (DO) is used by MGI?</h3>
+
+<p>MGI uses the doid-merged.obo version of the DO ontology. This version includes asserted is_a relationships, is_a relationships derived from tissue/organ location information and additional <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr> cross-references from susceptibility relationships.
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>

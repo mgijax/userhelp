@@ -69,11 +69,11 @@ Experimental Mapping Data Records
   <TR>
    <TH>FIELD</th><TH>DESCRIPTION</th> </TR>
   <TR>
-    <th><span style="white-space: nowrap">Experiment Type</span></th> <TD>Experiment types include <i>Cross, RI, Hybrid, In Situ (including FISH), Contig, TEXT: Physical Mapping, TEXT: QTL</i>, and <i>TEXT: Radiation Hybrid</i>.</td>
+    <th><span style="white-space: nowrap">Experiment Type</span></th> <TD>The kind of mapping experiment, linked to the experimental data details. Experiment types include <i>Cross, RI, Hybrid, In Situ (including FISH), Contig, TEXT: Physical Mapping, TEXT: QTL</i>, and <i>TEXT: Radiation Hybrid</i>.</td>
     </TR>
-<TR><th>Experiment </th><TD>The mapping experiment type linked to the experimental data details</td>  </TR>
-<TR><th>Chr </th><TD>Chromosome</td>  </TR>
-<TR><th>Reference</th><TD>J number (MGI accession ID format for references), Primary author, Journal, Date, Issue, Pages)</td></TR>
+<TR><th>Details </th><TD>More information on the experiment type, such as the type of cross, and the mapping panel used. </td>  </TR>
+<TR><th>Chromosome </th><TD>The Chromosome to which the marker maps</td>  </TR>
+<TR><th>Reference</th><TD>J number (MGI accession ID format for references), linked to the reference abstract, Primary author, Journal, Date, Issue, Pages)</td></TR>
 </TBODY>
 </TABLE>
 <P>The experimental data details are described below. 
