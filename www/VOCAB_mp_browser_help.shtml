@@ -51,16 +51,14 @@ Using the Mammalian Phenotype (MP) Browser</span>
   <LI><A HREF="#browse">How do I browse the vocabulary?</A>
   <LI><A HREF="#search">How do I search the vocabulary?</A>
   <LI><A HREF="#results">What can I find on the query results report?</A>
-  <LI><A HREF="#term_detail">How do I interpret a Term Detail report?</A>
-  <LI><A HREF="#mp_summary">How do I interpret the Mammalian Phenotype Ontology Annotations Query Results?</A>
+  <LI><A HREF="#term_detail">How do I interpret my results?</A>
+  <li><a href="#mp_summary">How do I interpret the Mammalian Phenotype Ontology Annotations Query Results?</a>
   <LI><A HREF="#contribute">How can I contribute to the vocabulary?</A>
  </UL>
 
 <P>See also:
 <UL>
   <LI><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> for unfamiliar terms (or for how MGI defines specific terms) and acronyms. </LI>
-  <LI><A HREF="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</A></LI>
-  <LI><A HREF="MISC_wildcard_help.shtml" target="_blank">Using Wildcards on MGI Query Forms</A></LI>
 </UL>
 </p>
 
@@ -78,19 +76,23 @@ Using the Mammalian Phenotype (MP) Browser</span>
 <P>You can either browse or search from the MP Browser entry report. Browsing brings up Term Detail reports displaying the relevant information, including any synonyms associated with the phenotype term. Searching requires entering a text string or full MP accession number in the <B>Query</B> box and clicking <B>Search</B>. This brings up a Query Results report displaying all matches.</P>
 
 <H3><A id="browse"></A>How do I browse the vocabulary?</H3>
-<P>To browse the vocabulary, click a category and navigate until you find the desired phenotypic term. You can copy term IDs into the <B>Phenotypes</B> box on the <A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A> to search for data associated with this term.</P>
+<P>To browse the vocabulary, click a term in the Tree View or a parent term in the Term Detail section until you find the desired phenotypic term. You can copy term IDs into the <B>Phenotypes</B> box on the <A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A> to search for data associated with this term.</P>
 
 <H3><A id="search"></A>How do I search the vocabulary?</H3>
 
-<P>The MP Browser query field accepts any text string and searches for all terms containing that string and any synonyms. For example, if you enter <i>eye</i> in the MP Browser, the search returns all terms which include "eye."
-
-<P>If you enter the MP accession number, the MP Browser searches the vocabulary by this identifier (ID) and returns only an exact match on it. <b>Note:</b> Do include the <i>MP</i> prefix and the colon but not the brackets when searching by ID, e.g. MP:0005378 and not [MP:0005378] or 0005378.
-<P>To search the MP Browser:
-<UL>
-<LI>Type either a term or the phenotype identifier in the <B>Query</B> box.
-<LI>Click <B>Submit Query</B>. The <B>Mammalian Phenotype Browser - Query Results</B> report lists any matches found.
-<LI>Click on the desired term to view its Term Detail report.
-</UL></P>
+<p>You can search by phenotype term to determine where a particular term exists in the Mammalian Phenotype Ontology and see, in the Phenotype Tree View section, whether there are any genotypes annotated to the term. To do this:
+<ul>
+	<li>Begin typing a structure of interest and an autocomplete list activates on the second character. 
+    <ul>
+    	<li>The list shows all the phentype terms and their synonyms that match your search characters.</li>
+    	<li>You can type the beginnings of multiple terms to narrow the list (example: <i>hyper lip</i> will limit the list to terms with hypertrophy and lipocyte).
+    </ul>
+	<li>You must select a term. There is no free text searching in this field.</li>
+	<li>You can only select one term.</li>
+	<li>Use the return/enter key on your keyboard to activate a search. The search finds all phenotype terms that contain any of your search terms and displays a list of those terms.</li>
+	<li>If you are uncertain which terms to use for the most effective searching, <a href="#browse">browse</a> the ontology to see the standardized terms in the Phenotype Tree View.</li>
+</ul>
+<p>The first term listed in your search results is automatically selected and updates the Phenotype Term Detail and Phenotype Tree View sections on the right. Click on a different term in your search results to refresh the Phentype Term Detail and Tree View with the selected phenotype. Use the Clear button to start a new search.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -101,28 +103,39 @@ The Field Description - Term Detail report appears.</P>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A id="term_detail"></A>How do I interpret a Term Detail report?</H3>
+<H3><A id="term_detail"></A>How do I interpret my results?</H3>
 
-<TABLE BORDER CELLPADDING="4">
-<TR><TH>Field</TH> <TH>Color</TH> <TH>Description</TH>
-</TR>
-<TR><TD>MP term, MP ID<BR>Definition, Synonyms,<BR>Number of paths to term</TD>
-    <TD>
-      <TABLE BORDER="0" CELLSPACING="0" BGCOLOR="#FFFFCC">
-        <TR><TD>Yellow</TD></TR>
-       </TABLE>
-    <TD>Selected phenotype term, unique identifier for the term, definition of the term, any synonyms associated with the term, and number of paths to the term in the vocabulary structure. Some terms may also have Alternate IDs.</TD>
-</TR>
-<TR><TD>Unique identifier</TD><TD><FONT COLOR="#FF0000">Red</FONT></TD><TD>Name of the phenotype term selected, followed by the a unique identifier. There is one identifier for each term in the MP Browser. This means that no matter how many times the term appears, the ID is always the same. This is also true if the term changes. For example, if  "anophthalmia" becomes simply "absent eyes," the Mammalian Phenotype identifier does not change.</TD>
-</TR>
-<TR>
-<TD><img src="<!--#include file='include/webshare_url.html'-->images/is-a.gif"> "Is-a" Relationship</TD><TD><FONT COLOR="#008000">Green</FONT></TD><TD>Indicates that the term is an instance or type of the more general term above it in the tree. For example, anophthalmia is a type of eye abnormality.</TD>
-</TR>
-<TR>
-<TD><FONT COLOR="#0000FF">+</FONT></TD><TD><FONT COLOR="#0000FF">Blue</FONT></TD><TD>A plus sign (+) following a term indicates that the term has children. Click to see the additional paths to the term.</TD>
-</TR>
-<TR><TD># genotypes<BR># annotations</TD><TD><FONT COLOR="#0000FF">Blue</FONT><TD>Number of genotypes annotated to the term or a descendant of the term. Click this link to see the Mammalian Phenotype Ontology Annotation Query Results -- Summary.</TD></TR>
-</TABLE>
+<table>
+<tr><th><a id="phenotype_search"></a>Phenotype Search</th>
+     <td>The search finds all phenotype terms that contain any of your search terms and displays a ranked list of those terms. Click on a term to update the Phenotype Term Detail and Tree View sections of the page with the appropriate phenotypes and the selected term highlighted in blue.</td></tr>        
+<tr><th><a id="term_detail"></a>Phenotype Term Detail</th>
+    <td>
+     <table border="0" cellpadding="3">
+      <tr>
+       <th>Term</th>
+       <td>The selected term is highlighted in blue. If you accessed this page by clicking on a term on another page, the appropriate phenotype is highlighted. Otherwise, before you initiate a search or browse, the default term is <i>mammalian phenotype</i>.</td>
+      </tr>
+      <tr>
+      <th>Synonyms</th>
+      <td>Alternative search terms for the selected term</td>
+      </tr>
+      <tr>
+      <th>Definition</th>
+      <td>Official definition for the term</td>
+      <tr>
+      <th>Parent Terms</th><td>The immediate parent terms for the selected phenotype. Because the Mammalian Phenotype Ontology is built on a DAG framework, a term may have more than one parent term. The term has either an "is a" or "part of" relationship to the parent term.</td>
+      </tr>
+      <tr>
+      <th>ID</th><td>The unique accession ID for the phenotype term</td>
+      </tr>
+     </table>
+<tr><th><a id="tree_view"></a>Phenotype Tree View</th>
+     <td>The main phenotype headings are shown beneath the section header. The number of genotypes/annotations to the selected term is shown. Child terms are shown beneath the selected term in the tree view. You can collapse or expand branches by clicking on a term. When you select a new term, it is highlighted in blue and the Term Detail section is updated. The blue highlights make it easy to see if a term appears on multiple branches of the tree. 
+     <br>Click on the number of genotypes/annotations for a listing of all the genotypes annotated to the term.</td>  
+     </tr>
+     <tr>
+     <th><img src="<!--#include file='include/webshare_url.html'-->images/is-a.gif"> "Is-a" Relationship</th><td>Indicates that the term is an instance or type of the more general term above it in the tree. For example, anophthalmia is a type of eye abnormality.</td>
+</table>
 </P>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>

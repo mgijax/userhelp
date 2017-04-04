@@ -106,7 +106,7 @@ expression results from assays with differing spatial resolution in a consistent
 <a href="#tree_view">Anatomical Tree View</a></td></tr>
 </table>
 
-<table border="1" cellpadding="3" width="!">
+<table>
 <tr><th><a id="anatomy_search"></a>Anatomy Search</th>
      <td>The search finds all structures in all stages that contain any of your search terms and displays a ranked list of those structures along with the developmental stages for which the structure is present. Click on a term to update the Anatomical Term Detail and Tree View sections of the page with the appropriate stages and the selected term highlighted in gold.</td></tr>        
 <tr><th><a id="term_detail"></a>Anatomical Term Detail</th>

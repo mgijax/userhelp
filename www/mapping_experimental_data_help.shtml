@@ -40,24 +40,14 @@ Experimental Mapping Data Records
 <UL>
  <li><A href="#mapsum">Marker Mapping Data Summaries</A></li>
  <li><A href="#map">Mapping Data Records</A></li>
- <li><A href="#con">Experiment Type: CONTIG</A></li>
  <li><A href="#crs">Experiment Type: CROSS</A></li>
  <li><A href="#ric">Experiment Type: RI/RC</A></li>
- <li><A href="#ins">Experiment Type: IN SITU</A></li>
- <li><A href="#fsh">Experiment Type: FISH</A></li>
- <li><A href="#hyb">Experiment Type: HYBRID</A></li>
- <li><A href="#txt">Experiment Type: TEXT: Physical Mapping</A></li>
- <li><A href="#txt2">Experiment Type: TEXT: QTL</A></li>
- <li><A href="#txt3">Experiment Type: TEXT: QTL-Candidate Genes</A></li>
- <li><A href="#txt4">Experiment Type: TEXT: Radiation Hybrid</A></li>
  </UL>
 </p>
 
 <P>See also:
 <UL>
   <LI><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a> for unfamiliar terms (or for how MGI defines familiar terms) and acronyms</LI>
-  <LI><A HREF="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</A></LI>
-  <LI><A HREF="MISC_wildcard_help.shtml" target="_blank">Using Wildcards on MGI Query Forms</A></LI>
  </ul>
 </p>
 
@@ -83,209 +73,63 @@ Experimental Mapping Data Records
 
 <H3><a id="map"></a>Mapping Data Records</H3>
 <p>MGI contains genetic mapping and linkage data, including haplotype data for linkage crosses,
-recombinant inbred (RI) strain distribution patterns, in-situ hybridization data, deletion mapping information, translocation breakpoint mapping, somatic cell hybrids, concordance tables, congenic strain information, and physical mapping information. Genetic Mapping Data records have the following fields:
+recombinant inbred (RI) strain distribution patterns, in-situ hybridization data, deletion mapping information, translocation breakpoint mapping, somatic cell hybrids, concordance tables, congenic strain information, and physical mapping information. Depending upon the experiment type, Mapping Data records may have the following fields:
 <P>
-<TABLE border cellpadding=4>
- <TBODY>
-  <TR>
-   <TH>FIELD</th><TH>DESCRIPTION</th> </TR>
-  <TR>
-    <th><span style="white-space: nowrap">Experiment Type</span></th> <TD>Experiment types include <i>Cross, RI, Hybrid, 
-      In Situ (including FISH), Contig,  TEXT: Physical Mapping, TEXT: QTL</i>, and <i>TEXT: Radiation Hybrid</i>.</td>
-    </TR>
-<TR><th>Reference</th><TD>J number (MGI accession ID format for references), Primary author, Journal, Date, Issue, Pages)</td></TR>
-<TR><th>Ref Comment</th><TD>Comments by data editors</td> </TR>
-<TR><th>Experiment</th> <TD>Name of experiment</td> </TR>
-<TR><th>Chromosome </th><TD>Chromosome</td>  </TR>
-<TR><th>Markers</th> <TD>Markers reported on in the experiment include: symbol, assay-type, description.</td> </TR>
-</TBODY>
-</TABLE>
-<P>In addition, fields related to experiment type appear in query
-results. The fields for each experiment type appear in subsections that follow.
-</p>
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
-<H4>Experiment Type: <a id="con"></a>CONTIG</H4>
-<P>MIT created a physical map of the mouse by screening MIT primers against a
-large YAC library (WI/MIT-820) and building a contig map of the mouse genome.
-The goal was to include 10,000 markers (roughly 7000 MIT primers and 3000 STSs).
-This mapping information has been downloaded into MGD. To accommodate this
-information and make it accessible, the experiment type CONTIG has been added to
-the MGD mapping data set. There is one experiment per chromosome. An
-"experiment," in this case, consists of a set of ordered contigs assigned to a
-chromosome. For each contig, the following information is available:
-
-<TABLE border=1 cellpadding=4%>
- <TBODY>
-  <TR>
-   <TH>FIELD</th> <TH>DESCRIPTION </th></TR>
-  <TR><th>Name</th><TD>Name of the contig. For example, WC11.21. Each contig name is linked to "hit" data, i.e., a record showing a correlation between STS primers and target YAC.</td></TR>
-<TR><th>Chromosome</th><TD>Chromosome mapped by contig</td></TR>
-<TR><th><span style="white-space: nowrap">Reference Accession ID</span></th> <TD>Unique ID for the reference.</td></TR>
-<TR><th>cM Range</th><TD>Estimate of cM range covered by the contig.</td></TR>
-<TR><th>STSs</th><TD>Ordered set of STSs. An STS may be designated by an MIT primer symbol, or GenBank ID. The STS symbol is linked to the probe record for the STS</td> </TR>
-</TBODY>
-</TABLE>
-</P>
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
-<H4><a id="crs"></a>Experiment Type: CROSS</H4>
-<TABLE border=1 cellpadding=4>
- <TBODY>
-  <TR><TH>FIELD <TH>DESCRIPTION </TR>
-  <TR><th><span style="white-space: nowrap">MGD Accession ID</span></th> <TD>Unique MGD ID assigned to an experiment record (format: MGD-CREX-####....) These numbers not assigned to new records after May 1997.</td>
-  </TR> 
-<TR><th>MGI Accession ID</th> <TD>Unique ID assigned to an experiment record in MGD. Format: MGI:####, Range: 1-up. These IDs are assigned to all experiment records as of
-   June 1997.</td> </TR>
-<TR><th>Type</th><TD>Type of cross (backcross, intercross, etc.) AND gender of F1 parent.</td></TR> 
-<TR><th>Female Parent</th><TD>Genotype of female parent.</td></TR>
-<TR><th>Strain</th> <TD>Strain of female parent.</td> </TR>
-<TR><th>Male Parent</th> <TD>Genotype of male parent.</td></TR>
-<TR><th>Strain</th><TD>Strain of male parent.</td></TR>
-<TR><th>Whose Cross</th><TD>Last name of person or laboratory responsible for the mapping panel.</td></TR> 
-<TR><th>Symbols</th> <TD>Symbols used to designate progenitor alleles.</td> </TR> 
-<TR><th>Matrix Data</th><TD>Tabular representation of the typing of progeny resulting from the specified cross. (Note that for some experiments, matrix data are not available; in such cases, only 2 X 2 data are displayed reporting # of RIs and parentals.) The fields are described below:
-  <TABLE border=0 cellpadding=4 width="100%">
-    <TR><th>Label</th> <th>Data Description</th> </TR>
-    <TR><th>MC # Mice</th> <TD>Number of offspring with a particular set of inherited alleles.</td> </TR>
-    <TR><th><span style="white-space: nowrap">MC Data Line</span></th> <TD>Alleles inherited in each case.</td> </TR>
-    <TR><th>2X2 Data </th><TD>Tabular representation of typing of animals for specified pairs of markers. </td></TR>
-    <TR><th>Statistics</th> <TD>Tabular representation of recombination statistics for both the original cross and any additional animals typed. </td></TR>
- </TABLE>
-</TR> </TABLE>
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
-<H4><a id=ric>Experiment Type: RI/RC</a></H4>
-<P>The RI/RC Data Line represents the strain distribution pattern with respect to a particular marker in the given experiment.
-<TABLE border=1 cellspacing=1 cellpadding=4>
-<TR>
- <TH>FIELD</th><TH>DESCRIPTION</th> </TR>
-<TR><th>Origin</th><TD>Progenitor strain of the RI strain set.</TD> </TR>
-<TR><th>Designation</th><TD>RI strain set name.</td> </TR>
-<TR><th>Abbrev1,2</th><TD>Abbreviations for progenitor alleles.</td></TR>
-<TR><th>RI Data</th><TD>The RI Data Line represents the strain distribution pattern with respect to a particular marker in the given experiment. Tabular display includes<BR>- Marker <BR>- RI Data Line.</td> </TR>
-<TR><th>Notes</th><TD>Text entered by MGD editors.</td></TR>
-
-</TABLE>
-</P>
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
-<H4><a id="ins"></a>Experiment Type: IN SITU</H4>
-<P>
-<TABLE border=1 cellspacing=1 cellpadding=4>
-<TBODY>
-<TR>
- <TH>FIELD</th> <TH>DESCRIPTION </th></TR> 
-<TR><th>Band Assignment</th> <TD>Cytogenetic position on chromosome to which marker is assigned</td> </TR>
-<TR><th>Strain</th><TD>Strain of origin of cells used in experiment</TR>
-<TR><th>Celltype</th><TD>Cell type from which analyzed metaphase spreads were derived</td></TR>
-<TR><th>Karyotype method</th><TD>Method used to identify chromosome bands</td></TR>
-<TR><th><a id="translocation"></A><span style="white-space: nowrap">Robertsonian Translocation</span></th><TD>Chromosome aberration used to identify marker assignment</td></TR>
-<TR><th># metaphases analyzed</th><TD>Number of metaphase spreads analyzed in experiment</td></TR>
-<TR><th>total # grains scored</th><TD>Number of grains observed in experiment.</td></TR>
-<TR><th># grains correct chrom</th><TD># of grains hybridizing to correct chromosomal location</td></TR>
-<TR><th>Most # grains other chr</th><TD>(not used</td> </TR>
-<TR><th>Detected by</th><TD>Hybridization detection method, either radiolabeled, or non-radiolabeled </td></TR>
-<TR><th>Region/Count</th><TD>Cytogenetic region of band assigned chr/# grains observed over that region</td></TR>
-</TBODY>
-</TABLE>
-</p>
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
-<H4><a id="fsh"></a>Experiment Type: FISH</H4>
-<TABLE border=1 cellpadding=4>
-<TBODY>
- <TR><TH>FIELD</th> <TH>DESCRIPTION</th> </TR>
- <TR><th>Band assignment</th> <TD>Cytogenetic band of marker </td></TR>
-<TR><th>Cell type</th><TD>Type of cell analysed in metaphase spread</td> </TR>
-<TR><th>Strain</th><TD>Mouse strain of origin for cell type</td></TR>
-<TR><th>Karyotype method</th><TD>Method of staining chromosomes in the metaphase spread</td></TR>
-<TR><th><span style="white-space: nowrap">Robertsonian translocation</span></th><TD>Chromosome aberration used to identify marker assignment</td> </TR>
-<TR><th># metaphases analyzed</th> <TD># of metaphase spreads analyzed in expt.</td> </TR>
-<TR><th>Total # Single signals</th><TD># of single fluorescent signals indicating presence of marker as reported by authors</td> </TR>
-<TR><th>Total # Double signals</th><TD># of double fluorescent signals indicating presence of marker as reported by authors</td> </TR>
-<TR><th>Region/Single-/Double signals</th><TD>Tabular representation of signals </td></TR>
-<TR><th>Label</th> <TD>Type of fluorescent label on probe</td> </TR>
-</TBODY>
-</TABLE>
-</p>
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
-<H4><a id="hyb"></a>Experiment Type: HYBRID</H4>
-<P>For this type of experiment, the <a id="somatic_cell_hybrid"></a>somatic
-cell hybrid data are presented in a table indicating the presence or absence of a particular marker or chromosome vs. the presence or absence of the marker being tested for linkage.</p>
-<P>Concordance Values are given as a table with the following columns:
-
-<UL>
-<LI>Chromosome/Symbol: chromosome or marker symbol</li>
-<LI>Presence (+) or absence (-) of the chromosome or marker relative to the
-marker <BR>tested, expressed as: +/+, +/-, -/+, -/-</li>
-<LI>The number of occurrences for each possibility (+/+, +/-, etc.) in the
-experimental data </LI>
-</UL>
-</P>
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
-<H4><a id="txt"></a>Experiment Type: TEXT: Physical Mapping</H4>
-<p>Experimental results may be discussed in a paper but the actual data are not included in the report. In the case of Physical Mapping reports, the experimental results are given a text description. The record may include
-distances between markers in a tabular representation which includes the following columns:
- <UL>
-  <LI>Marker (from)</li>
-  <LI>Dist (distance in kb)</li>
-  <LI>Marker (to)</li>
-  <LI>Endonuclease (enzyme used to cut DNA)</li>
-</UL>
-</p>
-
-<H4><a id="txt2"></a>Experiment Type: TEXT: QTL</H4> 
-<P>This record contains the following fields:
-<ul>
-<LI>Reference</li>
-<LI>Experiment (type)</li>
-<LI>Chromosome</li>
-<LI>Markers</li>
-<LI>Notes </LI>
-</UL>
-<P>Experimental results may be discussed in a paper but the actual data are not
-included in the report. In the case of QTL experiments, the experimental results are described in the Notes field.
-</P>
-
-<H4><a id="txt3"></A>Experiment Type: TEXT: QTL-Candidate Genes</H4> 
-<P>This record contains the following fields:
-<ul>
-<LI>Reference</li>
-<LI>Experiment (type)</li>
-<LI>Chromosome</li>
-<li>Modification date</li>
-<LI>Markers</li>
-<LI>Notes </LI>
-</UL>
-<P>Experimental results may be discussed in a paper but the actual data are not
-included in the report. Potential candidate genes reported by the authors are described in the Notes field.
-</P>
-
-<H4><a id="txt4"></a>Experiment Type: TEXT: Radiation Hybrid</H4>
-<P>This record contains the following fields:
-<UL>
-<LI>Reference</LI>
-<LI>Experiment (type)</LI>
-<LI>Chromosome</LI>
-<li>Modification Date</LI>
-<li>Primary Mapping Data for the T31 Radiation Hybrid Panel, Chromosome __ (linked to the applicable RH Mapping Panel chromosome page)</LI>
-<LI>Markers (sequence IDs associated with the queried marker)</LI>
-<LI>Notes</LI>
-</UL>
-<P>Experimental results may be discussed in a paper but the actual data are not
-included in the report. In the case of radiation hybrid experiments, the
-experimental results are described in the Notes field.
-</p>
+<table> 
+<tr><th>Experiment</th>
+	<td>
+	<table>
+	<tr><th>Experiment</th><td>Experiment types include <i>Cross, RI, Hybrid, In Situ (including FISH), Contig,  TEXT: Physical Mapping, TEXT: QTL</i>, and <i>TEXT: Radiation Hybrid</i>.</td></tr>
+	<tr><th>Chromosome</th><td>The Chromosome to which the marker maps</td></tr>
+	<tr><th>Reference</th><td>J number (MGI accession ID format for references), linked to the reference abstract, Primary author, Journal, Date, Issue, Pages)</td></tr>
+	<tr><th>ID</th><td>Unique ID assigned to an experiment record in MGI. Format: MGI:####.</td></tr>
+	</table></td>
+</tr>
+<tr><th>Genes</th>
+	<td>
+	<table>
+	<tr><th>Gene</th><td>The gene assayed linked to its Gene Detail page</td></tr>
+	<tr><th>Allele</th><td>The allele of the gene that was used in the assay</td></tr>
+	<tr><th>Assay Type</th><td>A description of the assay. Examples are visible phenotype, PCR amplified length variant, and Southern analysis</td></tr>
+	<tr><th>Description</th><td>Additional information such as a reference.</td></tr>
+	</table></td>
+</tr>
+<tr><th>Notes</th>
+	<td>
+	<table>
+	<tr><th>Experiment</th><td>Additional notes about the experiment</td></tr>
+	</table></td>
+</tr>
+<tr><th><a id="crs"></a>CROSS</th>
+	<td>
+	<table>
+	<tr><th>Type</th><td>Type of cross (backcross, intercross, etc.) AND gender of F1 parent.</td></tr>
+	<tr><th>Female Parent</th><td>Genotype of female parent</td></tr>
+	<tr><th>Strain</th><td>Strain of female parent</td></tr>
+	<tr><th>Male Parent</th><td>Genotype of male parent</td></tr>
+	<tr><th>Strain</th><td>Strain of male parent</td></tr>
+	<tr><th>Mapping Panel</th><td>Last name of person or laboratory responsible for the mapping panel.</td></tr>
+	<tr><th>Allele 1</th><td>Symbol used to designate progenitor allele for the noted strain.</td></tr>
+	<tr><th>Allele 2</th><td>Symbol used to designate progenitor allele for the noted strain.</td></tr>
+	<tr><th>CROSS Data</th><td>Tabular representation of the typing of progeny resulting from the specified cross. (Note that for some experiments, matrix data are not available; in such cases, only 2 X 2 data are displayed reporting # of RIs and parentals.) Possible fields are described below:
+		<table>
+		<tr><th>MC #mice</th><td>Number of offspring with a particular set of inherited alleles.</td></tr>
+		<tr><th>2X2 Data </th><td>Tabular representation of typing of animals for specified pairs of markers. </td></tr>
+    <tr><th>Statistics</th> <td>Tabular representation of recombination statistics for both the original cross and any additional animals typed. </td></tr>
+	</table></td>
+	</tr>
+	</table>
+</tr>
+<tr><th><a id=ric></a>RI</th>
+	<td>
+	<table>
+	<tr><th>Origin</th><td>Progenitor strain of the RI strain set</td></tr>
+	<tr><th>Designation</th><td>RI strain set name</td></tr>
+	<tr><th><span style="white-space: nowrap">Abbreviation 1, 2</span></th><td>Abbreviations for progenitor alleles.</td></tr>
+	<tr><th>RI Data</th><td>The RI Data Line represents the strain distribution pattern with respect to a particular marker in the given experiment. Tabular display includes<br>- Marker <br>- RI Data Line.</td></tr>
+	<tr><th>Statistics</th> <td>Tabular representation of recombination statistics. </td></tr>
+	</table>
+</table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
