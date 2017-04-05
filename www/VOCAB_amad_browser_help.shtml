@@ -83,7 +83,7 @@ expression results from assays with differing spatial resolution in a consistent
 
 <H3><A id="browse"></A>How do I browse the vocabulary?</H3>
 <P>To browse the vocabulary, click <B>Adult Mouse Anatomy Ontology</B> on the Adult Mouse Anatomy Browser page. A <B>Term Detail</B> page appears displaying the highest level terms in the hierarchy. Click on structures to navigate progressively through the ontology in order to locate specific anatomical terms.</P>
-<p>In the Anatomical Tree View you can expand or collapse branches by clicking on a term. This also updates the Anatomical Term Detail section.</p>
+<p>In the Anatomical Tree View you can expand or collapse branches by clicking on a term. This also updates the Anatomical Term Detail section. A small white triangle at the beginning of a term indicates the term has subterms.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

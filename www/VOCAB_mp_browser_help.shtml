@@ -76,7 +76,7 @@ Using the Mammalian Phenotype (MP) Browser</span>
 <P>You can either browse or search from the MP Browser entry report. Browsing brings up Term Detail reports displaying the relevant information, including any synonyms associated with the phenotype term. Searching requires entering a text string or full MP accession number in the <B>Query</B> box and clicking <B>Search</B>. This brings up a Query Results report displaying all matches.</P>
 
 <H3><A id="browse"></A>How do I browse the vocabulary?</H3>
-<P>To browse the vocabulary, click a term in the Tree View or a parent term in the Term Detail section until you find the desired phenotypic term. You can copy term IDs into the <B>Phenotypes</B> box on the <A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A> to search for data associated with this term.</P>
+<P>To browse the vocabulary, click a term in the Tree View or a parent term in the Term Detail section until you find the desired phenotypic term. A small white triangle at the beginning of a term indicates the term has subterms. You can copy term IDs into the <B>Phenotypes</B> box on the <A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A> to search for data associated with this term.</P>
 
 <H3><A id="search"></A>How do I search the vocabulary?</H3>
 
