@@ -37,12 +37,11 @@ Using the Adult Mouse Anatomy Browser </span>
 
 <!-- Body of User Help -->
 
-<A name="top"></A>
+<A id="top"></A>
 
 <P>The Anatomy Ontology for the Adult Mouse was developed and is being refined to provide standardized nomenclature for anatomical structures in the postnatal mouse (Theiler stage 28).</p>
 <P>
 Use the Adult Mouse Anatomy Browser to view the anatomical terms and their relationships in a hierarchical display.</p>
-</P>
 
 <a id="top"></a>
 <P>This help document answers the following questions about the Browser:
@@ -59,11 +58,9 @@ Use the Adult Mouse Anatomy Browser to view the anatomical terms and their relat
 <P>See also:</p>
 <ul>
   <li><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> for any unfamiliar terms or acronyms.</li>
-
 </ul>
 
-
- <H3><A id="howis"></A>How is the Adult Mouse Anatomy Ontology organized?</H3>
+<H3><A id="howis"></A>How is the Adult Mouse Anatomy Ontology organized?</H3>
 <P>The Anatomy Ontology for the Adult Mouse is organized spatially and functionally, using "is a" and "part of" relationships. Anatomical terms are arranged as a hierarchy from body region or organ system to tissue substructure.</P>
 
 <P>Modeling the anatomy hierarchically makes it possible to record
@@ -113,10 +110,10 @@ You can search by anatomy term to determine where a particular structure exists 
      <td>The search finds all structures in all stages that contain any of your search terms and displays a ranked list of those structures along with the developmental stages for which the structure is present. Click on a term to update the Anatomical Term Detail and Tree View sections of the page with the appropriate stages and the selected term highlighted in gold.</td></tr>        
 <tr><th><a id="term_detail"></a>Anatomical Term Detail</th>
     <td>
-     <table border="0" cellpadding="3">
+     <table>
       <tr>
        <th>Term</th>
-       <td>The selected term <span class="highlight"><b>highlighted in gold</b></span>. If you accessed this page by clicking on a structure on another page, the appropriate structure is highlighted. Otherwise, before you initiate a search or browse, the default term is <i>embryo</i>.</td>
+       <td>The selected term <span style="background-color: ##E5C05A">highlighted in gold</span>. If you accessed this page by clicking on a structure on another page, the appropriate structure is highlighted. Otherwise, before you initiate a search or browse, the default term is <i>embryo</i>.</td>
       </tr>
         <tr>
       <th>Present at</th><td>The Theiler stages for which the structure is present. You have the option to limit this to a single stage by clicking on Select developmental stage.</td>
@@ -129,7 +126,7 @@ You can search by anatomy term to determine where a particular structure exists 
       </tr>
      </table>
 <tr><th><a id="tree_view"></a>Anatomical Tree View</th>
-     <td>Structures present at the selected stage or stage range are shown in the tree view. You can collapse or expand branches by clicking on a term. Click on a term to view the number of expression results for the structure. When you select a new term, it is highlighted in blue and the Term Detail section is updated.  
+     <td>Structures present at the selected stage or stage range are shown in the tree view. You can collapse or expand branches by clicking on a term. Click on a term to view the number of expression results for the structure. When you select a new term, it is <span style="background-color: #BEEBFF">highlighted in blue</span> and the Term Detail section is updated.  
      </td>  
      </tr>
      <tr><td><IMG SRC="<!--#include file='include/webshare_url.html'-->images/is-a.gif">&nbsp;"Is-a" Relationship</td>
@@ -142,7 +139,7 @@ You can search by anatomy term to determine where a particular structure exists 
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
- <H3><A id="contribute"></A>How can I contribute to the vocabulary?</H3>
+<H3><A id="contribute"></A>How can I contribute to the vocabulary?</H3>
 <P>Your input is welcome. Please <A HREF="mailto:MAontology@jax.org">contact</A> us with suggestions, additions, or questions about the Adult Mouse Anatomy Ontology.
 </P>
 

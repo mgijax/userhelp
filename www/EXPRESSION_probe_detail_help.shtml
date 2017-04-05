@@ -89,13 +89,21 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 <tr><th>Expression </th><td>Links to expression results derived using the probe</td></tr>
 <tr><th>Sequences</th> <td>For molecular segments associated with sequence accession numbers, the Accession IDs and links to GenBank, EMBL, DDBJ, and the MGI Sequence Detail page</td></tr>
 <tr><th>Polymorphisms</th>
-<td>For references with polymorphism data, the short-form citation for this probe/clone,  linked via an MGI Reference ID (the J:####) to the Reference Detail page. If polymorphism information is available, it appears in a table with the following column heads:<BR> <B>Endonuclease, Gene, Allele, Fragments, Strains</B>.</td></tr>
+<td>For references with polymorphism data, the short-form citation for this probe/clone, linked via an MGI Reference ID (the J:####) to the Reference Detail page. If polymorphism information is available, it appears in a table with the following column heads:
+  <table>
+  <tr><th>Endonuclease</th><td>Restriction enzyme used to cut the DNA.</td></tr>
+  <tr><th>Gene</th><td>The gene or marker the primers amplify</td></tr>
+  <tr><th>Allele</th><td>Designation for the locus allele in which the polymorphism was
+found.</td></tr>
+  <tr><th>Fragments</th><td>Description of the restriction fragments and PCR products</td></tr>
+  <tr><th>Strains</th><td>Strain names for the strains in which the given polymorphism was detected.</td></tr>
+  </table>
+</td></tr>
+
 <tr><th>References</th>
       <td>Citations for this probe/clone, each linked via an MGI Reference ID (the J:####) to the Reference Detail page</td>
 </tr>
-
 </table>
-</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -114,7 +122,6 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 <tr><th>Other IDs</th><td>A list of any secondary MGI accession IDs associated with the probe/clone as well as unique identifiers assigned to the probe/clone by a resource external to the database. Within MGI, the UniSTS ID is an example of an external accession ID. This are linked to the appropriate resource when possible. See also: <a href="#cloneids">What clones IDs may be associated with a probe?</a></td></tr>
 <tr><th>Note</th><td>Primer-specific information</td></tr>
 </TABLE>
-</P>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

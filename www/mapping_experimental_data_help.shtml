@@ -54,7 +54,7 @@ Experimental Mapping Data Records
 <H3><a id="mapsum"></a>Marker Mapping Data Summaries</H3>
 <p>These pages summarize the mapping data for a marker by experimental type. MGI Marker Mapping Data Summaries have the following fields:
 <P>
-<TABLE border cellpadding=4>
+<TABLE>
  <TBODY>
   <TR>
    <TH>FIELD</th><TH>DESCRIPTION</th> </TR>
@@ -97,6 +97,7 @@ recombinant inbred (RI) strain distribution patterns, in-situ hybridization data
 <tr><th>Notes</th>
 	<td>
 	<table>
+	<tr><th>Reference</th><td>Additional notes from the reference</td></tr>
 	<tr><th>Experiment</th><td>Additional notes about the experiment</td></tr>
 	</table></td>
 </tr>
