@@ -72,20 +72,20 @@ expression results from assays with differing spatial resolution in a consistent
 <P>Use the Browser to find standardized vocabulary terms for anatomical structures present in the postnatal mouse (Theiler stage 28).</P>
 <P>You can either browse or search from the Adult Mouse Anatomy Browser entry page.
 <UL>
-  <LI><a href="#browse">Browsing</a> brings up a <B>Term Detail</B> page displaying the highest level terms in the hierarchy, providing a starting point for navigating the ontology to locate specific anatomical structures. Clicking on individual terms updates results in the <B>Term Detail</B> section of the page, displaying parents (superstructures), siblings (structures at the same level), and children (substructures).</LI>
-  <LI><a href="#search">Searching</a> by entering a text string or Adult Mouse Anatomy Ontology (MA) accession number in the <B>Query</B> field brings up a <B>Query Results</B> page displaying all structures that match the query.</LI>
+  <li>You can <a href="#browse">browse</a> by clicking on terms in the <b>Anatomy Tree View</b>. This shows a term's place in the hierarchy, and updates the Adult Anatomy Term Detail section of the page with the selected term's parent terms (superstructures) and ID.</li>
+  <li><a href="#search">Search</a> by entering a text string in the <B>Anatomy Search</B> field and select a term from the autocomplete list to update the other sections of the page.</li>
 </UL></P>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <H3><A id="browse"></A>How do I browse the vocabulary?</H3>
-<P>To browse the vocabulary, click <B>Adult Mouse Anatomy Ontology</B> on the Adult Mouse Anatomy Browser page. A <B>Term Detail</B> page appears displaying the highest level terms in the hierarchy. Click on structures to navigate progressively through the ontology in order to locate specific anatomical terms.</P>
-<p>In the Anatomical Tree View you can expand or collapse branches by clicking on a term. This also updates the Anatomical Term Detail section. A small white triangle at the beginning of a term indicates the term has subterms.</p>
+<p>To browse the vocabulary, click on terms in the <b>Anatomy Tree View</b> on the Adult Mouse Anatomy Browser page. This shows a term's place in the hierarchy, and updates the Adult Anatomy Term Detail section of the page with the selected term's parent terms (superstructures) and ID. Click on structures to navigate progressively through the ontology in order to locate specific anatomical terms. 
+In the Anatomical Tree View you can expand or collapse branches by clicking on a term. This also updates the Anatomical Term Detail section. A small white triangle at the beginning of a term indicates the term has subterms.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <H3><A id="search"></A>How do I search the vocabulary?</H3>
-<P>The <B>Query</B> field accepts any text string and searches for all terms containing that string plus any synonyms. 
+<P>The <B>Anatomy Search</B> field accepts any text string and searches for all terms containing that string plus any synonyms. 
 
 You can search by anatomy term to determine where a particular structure exists in the Adult Anatomy Ontology and see, in the Anatomical Tree View section, whether there are any gene expression data associated with the structure. To do this:
 <ul>
@@ -107,16 +107,13 @@ You can search by anatomy term to determine where a particular structure exists 
 <P>
 <table>
 <tr><th><a id="anatomy_search"></a>Anatomy Search</th>
-     <td>The search finds all structures in all stages that contain any of your search terms and displays a ranked list of those structures along with the developmental stages for which the structure is present. Click on a term to update the Anatomical Term Detail and Tree View sections of the page with the appropriate stages and the selected term highlighted in gold.</td></tr>        
+     <td>The search finds all structures in all stages that contain any of your search terms and displays a ranked list of those structures along with the developmental stages for which the structure is present. Click on a term to update the Anatomical Term Detail and Tree View sections of the page with the appropriate stages and the selected term <span style="background-color: ##E5C05A">highlighted in gold</span>.</td></tr>        
 <tr><th><a id="term_detail"></a>Anatomical Term Detail</th>
     <td>
      <table>
       <tr>
        <th>Term</th>
        <td>The selected term <span style="background-color: ##E5C05A">highlighted in gold</span>. If you accessed this page by clicking on a structure on another page, the appropriate structure is highlighted. Otherwise, before you initiate a search or browse, the default term is <i>embryo</i>.</td>
-      </tr>
-        <tr>
-      <th>Present at</th><td>The Theiler stages for which the structure is present. You have the option to limit this to a single stage by clicking on Select developmental stage.</td>
       </tr>
       <tr>
       <th>ID</th><td>The unique accession ID for the structure</td>
@@ -126,7 +123,7 @@ You can search by anatomy term to determine where a particular structure exists 
       </tr>
      </table>
 <tr><th><a id="tree_view"></a>Anatomical Tree View</th>
-     <td>Structures present at the selected stage or stage range are shown in the tree view. You can collapse or expand branches by clicking on a term. Click on a term to view the number of expression results for the structure. When you select a new term, it is <span style="background-color: #BEEBFF">highlighted in blue</span> and the Term Detail section is updated.  
+     <td>Structures present at the selected stage or stage range are shown in the tree view. You can collapse or expand branches by clicking on a term. A small white triangle at the beginning of a term indicates the term has substructures. When you select a new term, it is <span style="background-color: #BEEBFF">highlighted in blue</span> and the Term Detail section is updated.  
      </td>  
      </tr>
      <tr><td><IMG SRC="<!--#include file='include/webshare_url.html'-->images/is-a.gif">&nbsp;"Is-a" Relationship</td>

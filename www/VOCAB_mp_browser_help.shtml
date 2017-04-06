@@ -72,7 +72,7 @@ Using the Mammalian Phenotype (MP) Browser</span>
 
 <H3><A id="include"></A>What is the difference between and browsing and searching the vocabulary?</H3>
 
-<P>You can either browse or search from the MP Browser entry report. Browsing brings up Term Detail reports displaying the relevant information, including definitions and any synonyms associated with the phenotype term. Searching requires entering a text string in the <B>Phenotype Search</B> box. This brings up an autocomplete list displaying all matches.</P>
+<P>You can either browse or search from the MP Browser entry report. You can browse by clicking on terms in the Phenotype Tree View. This shows a term's place in the hierarchy, provides links to all genotypes annotated to a selected term, and updates the Phenotype Term Detail section of the page with the selected term's parent terms, ID, definition, and any synonyms associated with the phenotype term. Searching requires entering a text string in the <B>Phenotype Search</B> box. This brings up an autocomplete list displaying all matches.</P>
 
 <H3><A id="browse"></A>How do I browse the vocabulary?</H3>
 <P>To browse the vocabulary, click a term in the Tree View or a parent term in the Term Detail section until you find the desired phenotypic term. A small white triangle at the beginning of a term indicates the term has subterms. You can copy term IDs into the <B>Phenotypes/Disease</B> box on the <A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A> to search for data associated with this term.</P>
