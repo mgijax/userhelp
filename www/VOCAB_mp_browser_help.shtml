@@ -84,7 +84,7 @@ Using the Mammalian Phenotype (MP) Browser</span>
 	<li>Begin typing a phenotype of interest and an autocomplete list activates on the second character. 
     <ul>
     	<li>The list shows all the phentype terms and their synonyms that match your search characters.</li>
-    	<li>You can type the beginnings of multiple terms to narrow the list (example: <i>hyper lip</i> will limit the list to terms with hypertrophy and lipocyte).
+    	<li>You can type the beginnings of multiple terms to narrow the list (example: <i>hyper lip</i> will limit the list to terms with hypertrophy AND lipocyte).
     </ul>
 	<li>You must select a term. There is no free text searching in this field.</li>
 	<li>You can only select one term.</li>
