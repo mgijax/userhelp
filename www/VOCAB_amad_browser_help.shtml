@@ -50,7 +50,6 @@ Use the Adult Mouse Anatomy Browser to view the anatomical terms and their relat
    <LI><A HREF="#whatcan">What can I use the Browser to find?</A></LI>
    <LI><A HREF="#browse">How do I browse the vocabulary?</A></LI>
    <LI><A HREF="#search">How do I search the vocabulary?</A></LI>
-   <LI><A HREF="#whatfind">What can I find on the Query Results page?</A></LI>
    <LI><A HREF="#td_page">How do I interpret the results?</A></LI>
    <LI><A HREF="#contribute">How can I contribute to the vocabulary?</A></LI>
  </UL>
@@ -69,6 +68,7 @@ expression results from assays with differing spatial resolution in a consistent
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <H3><A id="whatcan"></A>What can I use the Browser to find?</H3>
+
 <P>Use the Browser to find standardized vocabulary terms for anatomical structures present in the postnatal mouse (Theiler stage 28).</P>
 <P>You can either browse or search from the Adult Mouse Anatomy Browser entry page.
 <UL>
@@ -87,7 +87,7 @@ In the Anatomical Tree View you can expand or collapse branches by clicking on a
 <H3><A id="search"></A>How do I search the vocabulary?</H3>
 <P>The <B>Anatomy Search</B> field accepts any text string and searches for all terms containing that string plus any synonyms. 
 
-You can search by anatomy term to determine where a particular structure exists in the Adult Anatomy Ontology and see, in the Anatomical Tree View section, whether there are any gene expression data associated with the structure. To do this:
+You can search by anatomy term to determine where a particular structure exists in the Adult Anatomy Ontology and see, in the Anatomical Tree View section, the anatomy hierarchy. To do this:
 <ul>
 	<li>Begin typing a structure of interest and an autocomplete list activates on the second character. 
     <ul>
@@ -107,13 +107,13 @@ You can search by anatomy term to determine where a particular structure exists 
 <P>
 <table>
 <tr><th><a id="anatomy_search"></a>Anatomy Search</th>
-     <td>The search finds all structures in all stages that contain any of your search terms and displays a ranked list of those structures along with the developmental stages for which the structure is present. Click on a term to update the Anatomical Term Detail and Tree View sections of the page with the appropriate stages and the selected term <span style="background-color: ##E5C05A">highlighted in gold</span>.</td></tr>        
+     <td>The search finds all structures in all stages that contain any of your search terms and displays a ranked list of those structures along with the developmental stages for which the structure is present. Click on a term to update the Anatomical Term Detail and Tree View sections of the page with the appropriate stages and the selected term <span style="background-color: #E5C05A">highlighted in gold</span>.</td></tr>        
 <tr><th><a id="term_detail"></a>Anatomical Term Detail</th>
     <td>
      <table>
       <tr>
        <th>Term</th>
-       <td>The selected term <span style="background-color: ##E5C05A">highlighted in gold</span>. If you accessed this page by clicking on a structure on another page, the appropriate structure is highlighted. Otherwise, before you initiate a search or browse, the default term is <i>embryo</i>.</td>
+       <td>The selected term <span style="background-color: #E5C05A">highlighted in gold</span>. If you accessed this page by following a link on another page, the appropriate structure is highlighted. Otherwise, before you initiate a search or browse, the default term is the top of the hierarchy, <i>anatomical structure</i>.</td>
       </tr>
       <tr>
       <th>ID</th><td>The unique accession ID for the structure</td>
@@ -131,6 +131,7 @@ You can search by anatomy term to determine where a particular structure exists 
 
 <tr><td><IMG SRC="<!--#include file='include/webshare_url.html'-->images/part-of.gif">&nbsp;"Part-of" Relationship</td>
 <td>Indicates that the term is a component of the more general term (parent or superstructure) above it in the hierarchy.</td></tr>
+<tr><th><img src="images/WhiteTriangle.png" alt="White Triangle" width="21" height="24"></th><td>A small white triangle preceding a term in the Tree View indicates that the term has substructures</a>. Click on the term to see the additional structures.</td></tr>
 </table>
 </P>
 

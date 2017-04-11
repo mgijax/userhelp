@@ -78,16 +78,16 @@ JAMIA Symposium Supplement: 1037.
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <H3><a id="interpret"></A>How do I interpret Term Details?</H3>
-<P>The Gene Ontology Browser Term Detail page contains the following information. The item of interest appears <span style="background-color: #BEEBFF">highlighted in blue</span>. Click the link indicating the number of genes and annotations (e.g. <FONT COLOR="#0000FF">45 genes, 55 annotations</FONT>)  to see the <A HREF="#summary">Gene Ontology Annotations Query Results</A>.
+<P>The Gene Ontology Browser page contains the following information. The item of interest appears <span style="background-color: #BEEBFF">highlighted in blue</span>. Click the link indicating the number of genes and annotations (e.g. <FONT COLOR="#0000FF">45 genes, 55 annotations</FONT>)  to see the <A HREF="#summary">Gene Ontology Annotations Query Results</A>.
 <P>
 <table>
-<tr><th><a id="phenotype_search"></a>GO Search</th>
+<tr><th><a id="search"></a>GO Search</th>
      <td>The search finds all GO terms that contain any of your search terms and displays a ranked list of those terms. Click on a term to update the GO Term Detail and Tree View sections of the page with the appropriate gene ontology terms and the selected term <span style="background-color: #BEEBFF">highlighted in blue</span>.</td></tr>        
-<tr><th><a id="term_detail"></a>Phenotype Term Detail</th>
+<tr><th><a id="term_detail"></a>GO Term Detail</th>
     <td>
      <table>
       <tr><th>Term</th>
-       <td>The selected term is <span style="background-color: #BEEBFF">highlighted in blue</span>. If you accessed this page by clicking on a term on another page, the appropriate GO is highlighted. Otherwise, before you initiate a search or browse, the default term is the category term, <i>Molecular Function</i>.</td>
+       <td>The selected term is <span style="background-color: #BEEBFF">highlighted in blue</span>. If you accessed this page by clicking on a term on another page, the appropriate GO term is highlighted. Otherwise, before you initiate a search or browse, the default term is the category term, <i>Molecular Function</i>.</td>
       </tr>
       <tr><th>Synonyms</th>
       <td>Alternative search terms for the selected term</td>
@@ -97,7 +97,7 @@ JAMIA Symposium Supplement: 1037.
       <tr>
       <th>Parent Terms</th><td>The immediate parent terms for the selected GO term. Because the Gene Ontology is built on a DAG framework, a term may have more than one parent term. This means a term appears in multiple branches of the tree. For example, <i>methylation</i> is a metabolic process. The term has an "is a" relationship to the parent term.</td>
       </tr>
-      <tr><th>ID</th><td>The unique accession ID for the phenotype term</td>
+      <tr><th>ID</th><td>The unique accession ID for the Gene Ontology term</td>
       </tr>
      </table>
 <tr><th><a id="tree_view"></a>GO Tree View</th>
@@ -109,9 +109,9 @@ JAMIA Symposium Supplement: 1037.
 	<tr><th><span style="white-space: nowrap"><img src="<!--#include file='include/webshare_url.html'-->images/regulates.gif">"Regulates" Relationship</span></th><td>Indicates that the term modulates the frequency, rate, or extent of the term above it in the tree.</td></tr>
 	<tr><th><img src="<!--#include file='include/webshare_url.html'-->images/positively_regulates.gif">"Regulates upward" Relationship</th><td>Indicates that the term activates or increases the frequency, rate, or extent of the term above it in the tree.</td></tr>
 	<tr><th><img src="<!--#include file='include/webshare_url.html'-->images/negatively_regulates.gif">"Regulates downward" Relationship</th><td>Indicates that the term stops, prevents, or reduces the frequency, rate, or extent of the term above it in the tree.</td></tr>
-	<tr><th><img src="images/WhiteTriangle.png" alt="White Triangle" width="21" height="24"></th><td>A small white triangle preceding a term indicates that the term has 
+	<tr><th><img src="images/WhiteTriangle.png" alt="White Triangle" width="21" height="24"></th><td>A small white triangle preceding a term in the Tree View indicates that the term has 
 <a href="<!--#include file='include/fewi_url.html'-->glossary/children">children</a>. Click on the term to see the additional paths.</td></tr>
-	<tr><th># genes,&nbsp; #annotations</th><td>Number of markers annotated to the term and its descendants, followed by the number of annotations to each term and its descendants. Click this label to see the <A HREF="#summary">Gene Ontology Annotations Query Results</A>.</td></tr>
+	<tr><th># genes,&nbsp; # annotations</th><td>Number of markers annotated to the term and its descendants, followed by the number of annotations to each term and its descendants. Click this label to see the <A HREF="#summary">Gene Ontology Annotations Query Results</A>.</td></tr>
 </table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
@@ -123,7 +123,7 @@ JAMIA Symposium Supplement: 1037.
 	<li>Begin typing a term of interest and an autocomplete list activates on the second character. 
     <ul>
     	<li>The list shows all the Gene Ontology terms and their synonyms that match your search characters.</li>
-    	<li>When you enter a text string in the box, the GO Browser searches for all terms in all three categories (Molecular Function, Biological Process, Cellular Component) containing that string and any synonyms. For example, if you enter <i>muscle</i>, the Browser returns items which include <i>muscle development</i>, <i>non-muscle myosin</i>, and <i>structural protein of muscle</i>.</li>
+    	<li>When you enter a text string in the box, the GO Browser searches for all terms in all three categories (Molecular Function, Biological Process, Cellular Component) containing that string and any synonyms. For example, if you enter <i>muscle</i>, the Browser returns items which include <i>muscle fiber development</i>, <i>muscle cell cellular homeostasis</i>, and <i>striated muscle contraction</i>.</li>
     	<li>You can type the beginnings of multiple terms to narrow the list (example: <i>oxid amin</i> will limit the list to terms with oxidase AND amino).
     </ul>
 	<li>You must select a term. There is no free text searching in this field.</li>

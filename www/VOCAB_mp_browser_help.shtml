@@ -127,6 +127,9 @@ Using the Mammalian Phenotype (MP) Browser</span>
      </tr>
      <tr>
      <th><img src="<!--#include file='include/webshare_url.html'-->images/is-a.gif"> "Is-a" Relationship</th><td>Indicates that the term is an instance or type of the more general term above it in the tree. For example, anophthalmia is a type of eye abnormality.</td>
+     <tr><th><img src="images/WhiteTriangle.png" alt="White Triangle" width="21" height="24"></th><td>A small white triangle preceding a term in the Tree View indicates that the term has 
+<a href="<!--#include file='include/fewi_url.html'-->glossary/children">children</a>. Click on the term to see the additional paths.</td></tr>
+	<tr><th># genotypes,&nbsp; # annotations</th><td>Number of genotypes annotated to the term and its descendants, followed by the number of annotations to each term and its descendants. Click this label to see the <a href="#mp_summary">Mammalian Phenotype Ontology Annotations Query Results</a>.</td></tr>
 </table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
