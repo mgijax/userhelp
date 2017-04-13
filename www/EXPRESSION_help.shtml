@@ -129,12 +129,12 @@ If you are interested in doing queries that ask what genes are expressed in some
 <li>You must select a term. There is no free text searching in this field.</li>
 <li>You can only select one term, though choosing a term includes results for its subterms. For example, selecting <i>decreased bone mass</i> also includes results for its subterms, decreased compact bone mass, decreased trabecular bone mass and osteoporosis.</li>
 <li>The autocomplete field ignores non-alphanumeric characters such as " and -.</li>
-<li>If you are unsure of the proper terms to use, use the appropriate browser to find vocabulary terms and their definitions:</li>
+<li>If you are unsure of the proper terms to use, use the appropriate browser to find vocabulary terms and their definitions:
 	<ul>
-	<li>Function: <a href="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml" target="_blank">GO Browser</a></li>
-	<li>Phenotype: <a href="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a></li>
+	<li>Function: <a href="<!--#include file='include/fewi_url.html'-->vocab/gene_ontology" target="_blank">GO Browser</a></li>
+	<li>Phenotype: <a href="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype Browser</a></li>
 	<li>Disease: <a href="<!--#include file='include/fewi_url.html'-->disease" target="_blank">Disease Ontology Browser</a></li>
-	</ul>
+	</ul></li>
 </ul>
 </p>
 <p>Note that you may not submit a search with values in the <b>Nomenclature search</b> and the <b>Vocabulary Term search</b> at the same time.</p>
@@ -231,7 +231,7 @@ The Differential Expression form lets you query for genes expressed in some anat
 <li>The search is limited to results from wild-type specimens. <B>Note:</B> Results from <i>in situ</i> reporter (knock-in) experiments will be returned if the results are from a heterozygote.</li>  
 </UL>
 
-<TABLE BORDER=1 CELLPADDING="4" width="100%">
+<TABLE>
 <TR> <TH>Field</TH> <TH>Description</TH> </TR>
 <tr><th><a id="Danatomical_structure"></a><b>Anatomical Structure</b></th>
 <td>The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. Begin typing a term of interest and an autocomplete list activates on the second character. 
@@ -342,7 +342,7 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
 <h4><a id="genestab"></a>Genes</h4>
 <p>If you select the Genes tab, you are offered the ability to Export your results as a text or spreadsheet file, or forward the list of genes to the MGI <a href="<!--#include file='include/fewi_url.html'-->batch">Batch Query</a> or <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a>, where you can find additional information on the genes. Below the Export options, a table summarizes information on the gene(s). You can use the triangles in the column headers to sort by a column. The query summary contains the following fields: <br><br>
 <blockquote> 
-<table border width="!" cellpadding="4" cellspacing="1">
+<table>
  <tr><td><b>MGI ID</b></td>
      <td>MGI accession ID for the Gene</td></tr> 
  <tr><td><b>Gene</b></td>
@@ -366,7 +366,7 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
 <h4><a id="byassay"></a>Assay</h4>
 <p>If you select the Assays tab, the query summary contains the following fields:<br><br>
 <blockquote> 
-<table border width="!" cellpadding="4" cellspacing="1">
+<table>
 <tr><td><b>Gene</b></td>
      <td>Symbol of the analyzed gene.</td></tr>
 <tr><td><b>Assay Details</b></td>
@@ -382,7 +382,7 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
 <h4><a id="assaytab"></a>Assay Results</h4>
 <p>If you select Assay Results, you are offered the ability to Export your results as a text or spreadsheet file. Below the Export options, a table summarizes information on the assays. You can use the triangles in the column headers to sort by a column. The query summary contains the following fields:<br><br>
 <blockquote> 
-<table border width="!" cellpadding="4" cellspacing="1">
+<table>
 <tr><td><b>Gene</b></td>
      <td>Symbol of the analyzed gene</td></tr> 
 <tr><td><span style="white-space: nowrap"><b>Result Details</b></span></td>
@@ -391,7 +391,7 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
      <td>Name of the assay used (e.g., immunohistochemistry, Northern blot, RNA <i>in situ</i>)</td></tr>
 <tr><td><b>Age </b></td>
      <td>Age of the specimen used in the assay. <!--Whenever possible, the age annotations are normalized according to the following conventions: noon of the day on which the vaginal plug is found is counted as embryonic (E) day 0.5. Therefore, e.g., if an author refers to the day on which the plug is found as E0, we add 0.5 to the age value(s) listed in the paper and the comment <I>Age normalized so that noon of plug day = E0.5</I> to the record. If the staging criteria are not described in the paper, we annotate to the ages given by the authors and may add the comment <I>Age of embryo at noon of plug day not specified in reference</I> to the record. -->The abbreviations for age annotations are as follows:
-<table border width="!" cellpadding="4" cellspacing="1">
+<table>
 <tr><td><b>E</b></td> <td>Embryonic day</td> </tr>
 <tr>  <td><b>P  </b></td> <td>Postnatal or postnatal day </td> </tr>
 <tr>  <td><b>P w</b></td> <td>Postnatal week<td> </tr>
@@ -425,7 +425,7 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
 <h4><a id="imagetab"></a>Images</h4>
 <p>If you select the Images tab, the query summary contains the following fields:<br><br>
 <blockquote> 
-<table border width="!" cellpadding="4" cellspacing="1">
+<table>
 <tr><td><b>Figure</b></td>
      <td>A thumbnail image, linked to the MGI Image Detail page.</td></tr>
 <tr><td><b>Gene</b></td>
