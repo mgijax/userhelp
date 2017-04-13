@@ -56,6 +56,7 @@ Use the Adult Mouse Anatomy Browser to view the anatomical terms and their relat
 </p>
 <P>See also:</p>
 <ul>
+  <li><a href="<!--#include file='include/fewi_url.html'-->gxd/anatomy/EMAPA:16039" target="_blank">Mouse Developmental Anatomy Browser</a> for embryonic developmental stages and anatomies.</li>
   <li><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> for any unfamiliar terms or acronyms.</li>
 </ul>
 
@@ -79,8 +80,7 @@ expression results from assays with differing spatial resolution in a consistent
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <H3><A id="browse"></A>How do I browse the vocabulary?</H3>
-<p>To browse the vocabulary, click on terms in the <b>Anatomy Tree View</b> on the Adult Mouse Anatomy Browser page. This shows a term's place in the hierarchy, and updates the Adult Anatomy Term Detail section of the page with the selected term's parent terms (superstructures) and ID. Click on structures to navigate progressively through the ontology in order to locate specific anatomical terms. 
-In the Anatomical Tree View you can expand or collapse branches by clicking on a term. This also updates the Anatomical Term Detail section. A small white triangle at the beginning of a term indicates the term has subterms.</p>
+<p>To browse the vocabulary, click on terms in the Anatomy Tree View on the Adult Mouse Anatomy Browser page. This shows a term's place in the hierarchy, and updates the Adult Anatomy Term Detail section of the page with the selected term's parent terms (superstructures) and ID. Click on structures to navigate progressively through the ontology in order to locate specific anatomical terms. In the Anatomical Tree View a small white triangle at the beginning of a term indicates the term has subterms. You can expand branches by clicking on a term or its preceding white triangle. If you click on a term, this also updates the Anatomical Term Detail section. You can collapse branches by clicking on the small black triangle. You can click on the triangles to navigate the branches without updating the Term Detail section.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -92,6 +92,7 @@ You can search by anatomy term to determine where a particular structure exists 
 	<li>Begin typing a structure of interest and an autocomplete list activates on the second character. 
     <ul>
     	<li>The list shows all the anatomy terms and their synonyms that match your search characters.</li>
+    	<li>You can type the beginnings of multiple terms to narrow the list (example: <i>lac epi</i> will limit the list to lacrimal gland epithelium).</li>
     </ul>
 	<li>You must select a term. There is no free text searching in this field.</li>
 	<li>You can only select one term.</li>
@@ -107,7 +108,7 @@ You can search by anatomy term to determine where a particular structure exists 
 <P>
 <table>
 <tr><th><a id="anatomy_search"></a>Anatomy Search</th>
-     <td>The search finds all structures in all stages that contain any of your search terms and displays a ranked list of those structures along with the developmental stages for which the structure is present. Click on a term to update the Anatomical Term Detail and Tree View sections of the page with the appropriate stages and the selected term <span style="background-color: #E5C05A">highlighted in gold</span>.</td></tr>        
+     <td>The search finds all structures that contain any of your search terms and displays a ranked list of those structures. Click on a term to update the Anatomical Term Detail and Tree View sections of the page with the selected term <span style="background-color: #E5C05A">highlighted in gold</span>.</td></tr>        
 <tr><th><a id="term_detail"></a>Anatomical Term Detail</th>
     <td>
      <table>
@@ -123,7 +124,7 @@ You can search by anatomy term to determine where a particular structure exists 
       </tr>
      </table>
 <tr><th><a id="tree_view"></a>Anatomical Tree View</th>
-     <td>Structures present at the selected stage or stage range are shown in the tree view. You can collapse or expand branches by clicking on a term. A small white triangle at the beginning of a term indicates the term has substructures. When you select a new term, it is <span style="background-color: #BEEBFF">highlighted in blue</span> and the Term Detail section is updated.  
+     <td>You can collapse or expand branches by clicking on a term. A small white triangle at the beginning of a term indicates the term has substructures. When you select a new term, it is <span style="background-color: #BEEBFF">highlighted in blue</span> and the Term Detail section is updated.  
      </td>  
      </tr>
      <tr><td><IMG SRC="<!--#include file='include/webshare_url.html'-->images/is-a.gif">&nbsp;"Is-a" Relationship</td>

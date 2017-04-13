@@ -38,34 +38,21 @@ Using the Gene Ontology (GO) Browser</span>
 
 <!-- Body of User Help -->
 
-<a id="top"></A>
-<!--<h4>Acknowledgements</h4>-->
-<P><SMALL> We wish to acknowledge the developers of the MeSH Browser for
-their user interface design. Please reference:
-Chang HF, Nelson SJ. 1999. Presenting MeSH Data Over the Web.
-JAMIA Symposium Supplement: 1037.
-</SMALL>
-<HR>
-<a id="top"></A>
+<a id="top"></a>
+
 <P>This Gene Ontology (GO) Browser help document answers the following questions:
  <UL>
  <LI><A HREF="#howstructure">How are Gene Ontology (GO) vocabularies structured?</A></LI>
+ <li><a href="#whatcan">What can I use the Gene Ontology Browser to find?</a>
  <LI><A HREF="#browse">How do I browse the GO vocabularies?</A></LI>
+ <LI><A HREF="#search">How do I search the GO vocabularies?</A></LI>
  <LI><A HREF="#interpret">How do I interpret the Term Details?</A></LI>
-<LI><A HREF="#search">How do I search the GO vocabularies?</A></LI>
-<LI><A HREF="#results">How do I interpret the Query Results?</A></LI>
-<LI><A HREF="#summary">How do I interpret the Gene Ontology Classifications Report?</A></LI>
-
-  </UL>
+ <LI><A HREF="#results">How do I interpret the Query Results?</A></LI>
+</UL>
 
 <H3><a id="howstructure"></A>How are Gene Ontology (GO) vocabularies structured?</H3>
-<P>The GO vocabularies have a hierarchical structure that permits a range of detail from high-level, broadly descriptive terms to very low-level, highly specific terms. The range is useful for annotating genes and searching for gene information using these terms as search criteria. You can either browse or search the vocabularies from the Browser main page.
+<P>The Gene Ontology (GO) Consortium creates a controlled vocabulary of terms that describe the molecular functions, biological processes and cellular components of a gene's products. The GO vocabularies have a hierarchical structure that permits a range of detail from high-level, broadly descriptive terms to very low-level, highly specific terms. The range is useful for annotating genes and searching for gene information using these terms as search criteria. You can either browse or search the vocabularies from the Browser main page. The Gene Ontology uses three broad categories (Molecular Function, Biological Process, Cellular Component) to reflect the biological roles of genes:
 </P>
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
-<H3><a id="browse"></A>How do I browse the GO vocabularies?</H3>
-<p>To browse the GO, click on one of the three broad categories beneath the page title (Molecular Function, Biological Process, Cellular Component) that reflect the biological roles of genes. In the GO Tree View, click on a term and navigate until you find the desired GO term. A small white triangle at the beginning of a term indicates the term has subterms. Each selected term in the Tree View links to list of all genes annotated to the term. You can also click on Parent Terms in the GO Term Detail section to quickly move up the vocabulary hierarchy.</p>
 
 <table>
  <tr><th>Category</th><TH WIDTH="10%">GO ID</th><th>Description</th><th>Example</th></tr>
@@ -77,8 +64,39 @@ JAMIA Symposium Supplement: 1037.
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
+<h3><A id="whatcan"></A>What can I use the Gene Ontology Browser to find?</h3>
+<p>Use the Browser to find vocabulary terms that may be used to describe gene functions. You can choose a term or GO ID here to improve your searches with the <B>Gene Ontology (GO) classifications</B> field on the
+<a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a> as well as the appropriate fields on the <a href="<!--#include file='include/fewi_url.html'-->gxd" target="_blank">Gene Expression Data Query</a> and <a href="<!--#include file='include/fewi_url.html'-->batch" target="_blank">MGI Batch Query</a> forms. Selected terms in the GO Tree View link to a listing of all genes annotated to the term.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><a id="browse"></A>How do I browse the GO vocabularies?</H3>
+<p>To browse the GO, click on one of the three broad categories beneath the page title (Molecular Function, Biological Process, Cellular Component) that reflect the biological roles of genes. In the GO Tree View, click on a term and navigate until you find the desired GO term. A small white triangle at the beginning of a term indicates the term has subterms. Each selected term in the Tree View links to list of all genes annotated to the term. You can also click on Parent Terms in the GO Term Detail section to quickly move up the vocabulary hierarchy. You can expand branches by clicking on a term or its preceding white triangle. If you click on a term, this also updates the GO Term Detail section. You can collapse branches by clicking on the small black triangle. You can click on the triangles to navigate the branches without updating the Term Detail section.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><a id="search"></a>How do I search the GO vocabularies?</H3>
+
+<p>To search the Gene Ontologies, enter any text string in the <b>GO Search</b> box:
+<ul>
+	<li>Begin typing a term of interest and an autocomplete list activates on the second character. 
+    <ul>
+    	<li>The list shows all the Gene Ontology terms and their synonyms that match your search characters.</li>
+    	<li>When you enter a text string in the box, the GO Browser searches for all terms in all three categories (Molecular Function, Biological Process, Cellular Component) containing that string and any synonyms. For example, if you enter <i>muscle</i>, the Browser returns items which include <i>muscle fiber development</i>, <i>muscle cell cellular homeostasis</i>, and <i>striated muscle contraction</i>.</li>
+    	<li>You can type the beginnings of multiple terms to narrow the list (example: <i>oxid amin</i> will limit the list to terms with oxidase AND amino).
+    </ul>
+	<li>You must select a term. There is no free text searching in this field.</li>
+	<li>You can only select one term.</li>
+	<li>Use the return/enter key on your keyboard to activate a search. The search finds all GO terms that contain any of your search terms and displays a list of those terms.</li>
+	<li>If you are uncertain which terms to use for the most effective searching, <a href="#browse">browse</a> the ontology to see the standardized terms in the GO Tree View.</li>
+</ul>
+
+<p>The first term listed in your search results is automatically selected and updates the GO Term Detail and GO Tree View sections on the right. Click on a different term in your search results to refresh the GO Term Detail and Tree View with the selected GO term. Use the Clear button to start a new search.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
 <H3><a id="interpret"></A>How do I interpret Term Details?</H3>
-<P>The Gene Ontology Browser page contains the following information. The item of interest appears <span style="background-color: #BEEBFF">highlighted in blue</span>. Click the link indicating the number of genes and annotations (e.g. <FONT COLOR="#0000FF">45 genes, 55 annotations</FONT>)  to see the <A HREF="#summary">Gene Ontology Annotations Query Results</A>.
+<P>The Gene Ontology Browser page contains the following information. The item of interest appears <span style="background-color: #BEEBFF">highlighted in blue</span>. Click the link indicating the number of genes and annotations (e.g. <b>45 genes, 55 annotations</b>)  to see a list of all the genes annotated to the term and its child terms.</p>
 <P>
 <table>
 <tr><th><a id="search"></a>GO Search</th>
@@ -111,28 +129,8 @@ JAMIA Symposium Supplement: 1037.
 	<tr><th><img src="<!--#include file='include/webshare_url.html'-->images/negatively_regulates.gif">"Regulates downward" Relationship</th><td>Indicates that the term stops, prevents, or reduces the frequency, rate, or extent of the term above it in the tree.</td></tr>
 	<tr><th><img src="images/WhiteTriangle.png" alt="White Triangle" width="21" height="24"></th><td>A small white triangle preceding a term in the Tree View indicates that the term has 
 <a href="<!--#include file='include/fewi_url.html'-->glossary/children">children</a>. Click on the term to see the additional paths.</td></tr>
-	<tr><th># genes,&nbsp; # annotations</th><td>Number of markers annotated to the term and its descendants, followed by the number of annotations to each term and its descendants. Click this label to see the <A HREF="#summary">Gene Ontology Annotations Query Results</A>.</td></tr>
+	<tr><th># genes,&nbsp; # annotations</th><td>Number of markers annotated to the term and its descendants, followed by the number of annotations to each term and its descendants. Click this link to see a list of all the genes annotated to the term and its child terms.</td></tr>
 </table>
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
-<H3><a id="search"></a>How do I search the GO vocabularies?</H3>
-
-<p>To search the Gene Ontologies, enter any text string in the <b>GO Search</b> box:
-<ul>
-	<li>Begin typing a term of interest and an autocomplete list activates on the second character. 
-    <ul>
-    	<li>The list shows all the Gene Ontology terms and their synonyms that match your search characters.</li>
-    	<li>When you enter a text string in the box, the GO Browser searches for all terms in all three categories (Molecular Function, Biological Process, Cellular Component) containing that string and any synonyms. For example, if you enter <i>muscle</i>, the Browser returns items which include <i>muscle fiber development</i>, <i>muscle cell cellular homeostasis</i>, and <i>striated muscle contraction</i>.</li>
-    	<li>You can type the beginnings of multiple terms to narrow the list (example: <i>oxid amin</i> will limit the list to terms with oxidase AND amino).
-    </ul>
-	<li>You must select a term. There is no free text searching in this field.</li>
-	<li>You can only select one term.</li>
-	<li>Use the return/enter key on your keyboard to activate a search. The search finds all GO terms that contain any of your search terms and displays a list of those terms.</li>
-	<li>If you are uncertain which terms to use for the most effective searching, <a href="#browse">browse</a> the ontology to see the standardized terms in the GO Tree View.</li>
-</ul>
-
-<p>The first term listed in your search results is automatically selected and updates the GO Term Detail and GO Tree View sections on the right. Click on a different term in your search results to refresh the GO Term Detail and Tree View with the selected GO term. Use the Clear button to start a new search.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

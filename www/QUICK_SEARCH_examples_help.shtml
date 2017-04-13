@@ -60,14 +60,15 @@ function openHelpWindow(helpFile){
 <li><a href="#help">Help! I can't find what I was looking for.</a>
 </ul>
 
-<a href="QUICK_SEARCH_help.shtml" target="_blank">Back to "Using the Quick Search Tool"</font></a>
+<a href="QUICK_SEARCH_help.shtml" target="_blank">Back to "Using the Quick Search Tool"</a>
 
 <h3><a id="advanced"></a>Is there an advanced search?</h3>
 <p>You can narrow what the Quick Search returns by:</p>
 <ul><li>entering exact phrases or complete nomenclature (that is, instead of using a wild card). 
   <li>putting your entry in quotation marks (for example  entering "kit ligand" instead of <i>kit</i>).</li>
   </ul>
-<p>You can get additional information about Quick Search results by: <ul>
+<p>You can get additional information about Quick Search results by: 
+<ul>
   <li>forwarding them to the MGI Batch Query (click <b>Get more data</b> beneath <b>Best Match</b> under <b>Genome Features</b> on the <b>Quick Search Results</b> page).</li>
   <li>using <a href="QUICK_SEARCH_help.shtml#google" target="_blank">Search MGI with Google</a> (located at the bottom of the <b>Quick Search Results</b> page.</li>
 </ul>
@@ -127,7 +128,6 @@ See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and exa
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-
 <h3><a id="various"></a>My term appears in different various forms in an MGI vocabulary. Does it matter which one I use?</h3>
 <p>All synonym variations produce the same result. For example, whether you enter <i>(K+ + H+)-ATPase activity</i> or <i>H+/K+-ATPase activity</i>, or  <i>H,K-ATPase activity</i>, you'll see identical matches. </p>
 
@@ -151,7 +151,7 @@ See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and exa
 
 <h3><a id="acronym"></a>Which controlled vocabularies does Quick Search query?</h3>
 <blockquote>
-<table border="1" cell spacing="0" cellpadding="3" width="!%">
+<table>
 <tr><th>Acronym</th><th>Ontology</th><th>Quick Search looks for...</th></tr>
 <tr><td>EMAPA</td><td>Mouse Developmental Anatomy Ontology<br>
 <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a></td><td>Mouse anatomical terms</td></tr>
@@ -181,15 +181,17 @@ See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and exa
 
 <h3><a id="wild"></a>Are wild cards allowed?</h3>
 <p>The only wild card allowed is the asterisk and you can only use it at the end of a word or symbol or term.</p>
-<a href="#top">Top</font></a>
 
-<h3><a id="multi_word">Are multi-word phrases allowed?</h3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="multi_word"></a>Are multi-word phrases allowed?</h3>
+
 <p>Yes, as long as they do not contain more than 32 words.
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="q_mark">Do I have to use quotation marks?</h3>
+<h3><a id="q_mark"></a>Do I have to use quotation marks?</h3>
 <p>No, but they are helpful when you want Quick Search to match an exact word, term, or phrase.
 </p>
 
@@ -201,23 +203,23 @@ See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and exa
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="which_id">Are there any examples of the accession IDs that Quick Search can find?</h3>
+<h3><a id="which_id"></a>Are there any examples of the accession IDs that Quick Search can find?</h3>
 <p>Yes. See <a href="ACCESSION_ID_help.shtml" target="_blank">Querying by Accession ID - Results and Examples</a> for list of providers, sample IDs, and where to look for any matches in the Quick Search Results.
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="stemming">What is stemming? Are there examples of words that Quick Search stems?</h3>
+<h3><a id="stemming"></a>What is stemming? Are there examples of words that Quick Search stems?</h3>
 <p>Quick Search identifies the "root" of a word by removing common suffixes. This is called <i>stemming</i>. (For more information, see <a href="http://en.wikipedia.org/wiki/Stemming" target="blank">stemming</a> in Wikipedia.)
 As examples:  <i>translocation</i> is stemmed to <i>transloc-</i>; <i>immunization</i> is stemmed to <i>immun-</i>.  Click <i>See Details for this Search</i> on a Results page to see how Quick Search has stemmed any word or phrase in your search text.
 </p>
 <p>Additional examples:    
   <blockquote>
- <table border="1" cellpadding="4">
+ <table>
    <tr><th>Term</th><th>Stemmed to...</th></tr>
      <tr><td>alimentary</td><td>alimentari-</td></tr>
      <tr><td>perinatal</td><td>perinat-</td></tr>
-     <tr><td>metabolism</td><tdmetabol-</td></tr>
+     <tr><td>metabolism</td><td>metabol-</td></tr>
      <tr><td>immune</td><td>immun-</td></tr>
      <tr><td>embryonic</td><td>embryon-</td></tr>
      <tr><td>postnatal</td><td>postnat-</td></tr>
@@ -238,19 +240,21 @@ As examples:  <i>translocation</i> is stemmed to <i>transloc-</i>; <i>immunizati
 <li><i>nucle*</i> to find nucleus, nucleosis, nucleosome, nucleolar, and so on.</li>
 </ul></p>
 
-<p><b>Note:</b> You may find that matches on the  <b>Genome Features</b> are to stemmed versions of your search term and that these entries appear prior to your search term.  As an example, you enter <i>Apoe</i> and expect to see alleles of this gene at the top of the list, but instead you discover genes with synonyms containing <i>Apo</i>. This occurs because the search engine does not discriminate  between <i>Apo</i> (the term as stemmed) and <i>Apoe</i> (your term) but does allot marker symbols a larger value.</p><a href="#top">Top</font></a>
+<p><b>Note:</b> You may find that matches on the  <b>Genome Features</b> are to stemmed versions of your search term and that these entries appear prior to your search term.  As an example, you enter <i>Apoe</i> and expect to see alleles of this gene at the top of the list, but instead you discover genes with synonyms containing <i>Apo</i>. This occurs because the search engine does not discriminate  between <i>Apo</i> (the term as stemmed) and <i>Apoe</i> (your term) but does allot marker symbols a larger value.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
   
-<h3><a id="stop">What are "stop words" and what does Quick Search do with them?</h3>
+<h3><a id="stop"></a>What are "stop words" and what does Quick Search do with them?</h3>
 <p><b>Stop words</b> are natural articles of speech that are filtered by search engines to speed up processing.
 See <a href="http://en.wikipedia.org/wiki/Stop_words" target="_blank">stop words</a> in Wikipedia for a definition. Quick Search removes the following words (except when they are part of a gene name) from queries:
 <blockquote>
-<table border="0" cellspacing="2" cellpadding="4 width=">
+<table>
    <tr><td>a | an | and | as | be | but | if | is| it | or | such | that | the | their | then | there | these | they | this | was | will</td></tr>
   </table>
 </blockquote>
 </p>
 
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="help"></a>Help! I can't find what I was looking for.</h3>
 <ul>
@@ -259,13 +263,13 @@ See <a href="http://en.wikipedia.org/wiki/Stop_words" target="_blank">stop words
 <A HREF="GENE_help.shtml" target="_blank">Using the Genes and Markers Query Form</A> for information about searches on genes or genome features and <A HREF="ACCESSION_ID_help.shtml" target="_blank">Querying by Accession ID - Results and Examples</A> for the types of accession ID cross-referenced in MGI.
 
 <blockquote>
-<table border="1" cellspacing="1" cellpadding="3" width="!">
+<table>
   <tr><th>To find...</th><th>For example...</th><th>Look here</th></tr>
   <tr><td>An overview of MGI data</td><td>lists of all MGI markers, sequence data, mammalian orthology, gene ontology, strains & polymorphisms, gene expression, alleles and phenotypes, nomenclature, references, clone collections</td><td><a href="<!--#include file="include/ftp_url.html" -->reports/index.html" target="_blank">MGI Data and Statistical Reports</a></td></tr>
-  <tr><td>MGI query forms & other searches</td><td width="55%">Genes, Genome Features & Maps; Phenotypes, Alleles & Disease Models; Gene Expression; GO Functional annotations; Strains, SNPs & Polymorphisms; Mammalian Orthology; Sequences; Probes & Clones; References; Vocabularies; and more</td><td>
+  <tr><td>MGI query forms &amp; other searches</td><td width="55%">Genes, Genome Features &amp; Maps; Phenotypes, Alleles &amp; Disease Models; Gene Expression; GO Functional annotations; Strains, SNPs &amp; Polymorphisms; Mammalian Orthology; Sequences; Probes &amp; Clones; References; Vocabularies; and more</td><td>
 <a href="<!--#include file='include/wi_url.html'-->menus/allsearch.shtml" target="_blank">All Search Tools</a></td></tr>
   <tr><td>Nomenclature</td><td>symbols, names, synonyms for mouse genes,  genome features, orthologs, alleles, mutations</td><td>
-<a href="<!--#include file='include/mgihome_url.html'-->homepages/genes.shtml" target="_blank">Genes, Genome Features & Maps</a><br>
+<a href="<!--#include file='include/mgihome_url.html'-->homepages/genes.shtml" target="_blank">Genes, Genome Features &amp; Maps</a><br>
 <A HREF="<!--#include file='include/mgihome_url.html'-->/nomen/index.shtml" target="_blank">Mouse Nomenclature Homepage</a></td></tr>
   <tr><td>Gene expression</td><td>during development, from assays, in structures, during developmental stages, in cell-line or tissue</td><td>
 <a href="<!--#include file='include/mgihome_url.html'-->homepages/expression.shtml" target="_blank">Gene Expression Database (GXD)</a> </td></tr>
@@ -277,7 +281,7 @@ See <a href="http://en.wikipedia.org/wiki/Stop_words" target="_blank">stop words
 Protein kinase ATP binding, conserved site</td><td><a href="<!--#include file="include/ftp_url.html" -->reports/MGI_InterProDomains.sql.rpt" target="_blank">Interpro IDs and domain names</a> (MGI data report) or <br>EBI's <a href="http://www.ebi.ac.uk/interpro/" target="_blank">InterPro</a> database </td></tr>   
   <tr><td>Annotated phenotype data (terms, definitions and term relationships in a DAG)</td><td>cellular phenotype<br>               
  embryogenesis phenotype <br>homeostasis/metabolism phenotype<br>lethality-postnatal</td><td>
-<a href="<!--#include file='include/wi_url.html'-->/searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a></td></td></tr>   
+<a href="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype Browser</a></td></tr>   
   <tr><td>human genes and genetic disorders; diseases</td><td>DOID:10652<br>breast cancer</td><td>
 <a href="<!--#include file='include/fewi_url.html'-->vocab/do" target="_blank">Disease Ontology Browser</a></td></tr> 
 </table>
@@ -285,7 +289,6 @@ Protein kinase ATP binding, conserved site</td><td><a href="<!--#include file="i
 </li>
 <li>Contact User Support for help finding information relevant to your research. You can use the "Your Input Welcome" button to submit questions, use the  <a href="<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml" title="Contact user support" target="_blank">Contact User Support</a> form.</li>
 </ul>
-</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

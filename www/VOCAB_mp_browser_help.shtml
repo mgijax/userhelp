@@ -66,7 +66,7 @@ Using the Mammalian Phenotype (MP) Browser</span>
 
 <H3><A id="whatcan"></A>What can I use the Mammalian Phenotype Browser to find?</H3>
 <P>Use the Browser to find vocabulary terms that may be used in annotations of phenotypic data. You can choose a term or MP ID here to improve your searches with the <B>Phenotype/Disease</B> box on the
-<a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models</a> and <a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers</a> Query Forms as well as the appropriate fields on the <a href="<!--#include file='include/fewi_url.html'-->gxd">Gene Expression Data Query</a> and <a href="<!--#include file='include/fewi_url.html'-->diseasePortal">Human - Mouse: Disease Connection</a> forms. Selected terms in the Phenotype Tree View link to a listing of all genotypes annotated to the term.</P>
+<a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, &amp; Disease Models</a> and <a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers</a> Query Forms as well as the appropriate fields on the <a href="<!--#include file='include/fewi_url.html'-->gxd" target="_blank">Gene Expression Data Query</a> and <a href="<!--#include file='include/fewi_url.html'-->diseasePortal" target="_blank">Human - Mouse: Disease Connection</a> forms. Selected terms in the Phenotype Tree View link to a listing of all genotypes annotated to the term.</P>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -75,7 +75,7 @@ Using the Mammalian Phenotype (MP) Browser</span>
 <P>You can either browse or search from the MP Browser entry report. You can browse by clicking on terms in the Phenotype Tree View. This shows a term's place in the hierarchy, provides links to all genotypes annotated to a selected term, and updates the Phenotype Term Detail section of the page with the selected term's parent terms, ID, definition, and any synonyms associated with the phenotype term. Searching requires entering a text string in the <B>Phenotype Search</B> box. This brings up an autocomplete list displaying all matches.</P>
 
 <H3><A id="browse"></A>How do I browse the vocabulary?</H3>
-<P>To browse the vocabulary, click a term in the Tree View or a parent term in the Term Detail section until you find the desired phenotypic term. A small white triangle at the beginning of a term indicates the term has subterms. You can copy term IDs into the <B>Phenotypes/Disease</B> box on the <A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A> to search for data associated with this term.</P>
+<p>To browse the vocabulary, click a term in the Tree View or a parent term in the Term Detail section until you find the desired phenotypic term. A small white triangle at the beginning of a term indicates the term has subterms. You can expand branches by clicking on a term or its preceding white triangle. If you click on a term, this also updates the Phenotype Term Detail section. You can collapse branches by clicking on the small black triangle. You can click on the triangles to navigate the branches without updating the Term Detail section. You can copy term IDs into the <B>Phenotypes/Disease</B> box on the <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, &amp; Disease Models Query Form</A> to search for data associated with this term.</P>
 
 <H3><A id="search"></A>How do I search the vocabulary?</H3>
 
@@ -119,6 +119,7 @@ Using the Mammalian Phenotype (MP) Browser</span>
       </tr>
       <tr>
       <th>ID</th><td>The unique accession ID for the phenotype term</td>
+      <th>Other IDs</th><td>Alternative IDs for the term, such as Fyler codes, a hierarchical classification of congenital heart disease.</td>
       </tr>
      </table>
 <tr><th><a id="tree_view"></a>Phenotype Tree View</th>
@@ -129,7 +130,7 @@ Using the Mammalian Phenotype (MP) Browser</span>
      <th><img src="<!--#include file='include/webshare_url.html'-->images/is-a.gif"> "Is-a" Relationship</th><td>Indicates that the term is an instance or type of the more general term above it in the tree. For example, anophthalmia is a type of eye abnormality.</td>
      <tr><th><img src="images/WhiteTriangle.png" alt="White Triangle" width="21" height="24"></th><td>A small white triangle preceding a term in the Tree View indicates that the term has 
 <a href="<!--#include file='include/fewi_url.html'-->glossary/children">children</a>. Click on the term to see the additional paths.</td></tr>
-	<tr><th># genotypes,&nbsp; # annotations</th><td>Number of genotypes annotated to the term and its descendants, followed by the number of annotations to each term and its descendants. Click this label to see the <a href="#mp_summary">Mammalian Phenotype Ontology Annotations Query Results</a>.</td></tr>
+	<tr><th><span style="white-space: nowrap"># genotypes,&nbsp; # annotations</span></th><td>Number of genotypes annotated to the term and its descendants, followed by the number of annotations to each term and its descendants. Click this label to see the <a href="#mp_summary">Mammalian Phenotype Ontology Annotations Query Results</a>.</td></tr>
 </table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
