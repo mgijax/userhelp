@@ -156,12 +156,12 @@ See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and exa
 <tr><td>EMAPA</td><td>Mouse Developmental Anatomy Ontology<br>
 <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a></td><td>Mouse anatomical terms</td></tr>
 <tr><td>GO</td><td>Gene Ontology<br>
-<a href="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml" target="_blank">GO Browser</a></td>
+<a href="<!--#include file='include/fewi_url.html'-->vocab/gene_ontology" target="_blank">GO Browser</a></td>
 <td>Function including molecular function, biological process, and cellular component</td></tr>
 <tr><td>MP</td><td>Mammalian Phenotype<br>
-<a href="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</a></td><td>Phenotype</td></tr>
-<tr><td>OMIM</td><td>Online Mendelian Inheritance in Man<br>
-<a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</a></td><td>Disease (model or ortholog)</td></tr>
+<a href="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype Browser</a></td><td>Phenotype</td></tr>
+<tr><td>OMIM</td><td>Online Mendelian Inheritance in Man</td>
+<td>Disease (model or ortholog)</td></tr>
 <tr><td>DO</td><td>Disease Ontology<br>
 <a href="<!--#include file='include/fewi_url.html'-->vocab/do" target="_blank"> Disease Ontology Browser</a></td><td>Disease (model or ortholog)</td></tr>
 <tr><td>PIRSF</td><td>Protein Information Resource SuperFamily </td><td>Protein families</td></tr>
@@ -169,7 +169,7 @@ See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and exa
 </table><br>
 <b>Note:</b> Adult Mouse Anatomy (MA) matches do not appear beneath <a href="QUICK_SEARCH_help.shtml#vocabulary" target="_blank">Vocabulary Terms</a>, but (when available) do appear beneath <b>Other Results by ID</b>.
 </blockquote>
-</p>
+
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -265,7 +265,7 @@ See <a href="http://en.wikipedia.org/wiki/Stop_words" target="_blank">stop words
 <blockquote>
 <table>
   <tr><th>To find...</th><th>For example...</th><th>Look here</th></tr>
-  <tr><td>An overview of MGI data</td><td>lists of all MGI markers, sequence data, mammalian orthology, gene ontology, strains & polymorphisms, gene expression, alleles and phenotypes, nomenclature, references, clone collections</td><td><a href="<!--#include file="include/ftp_url.html" -->reports/index.html" target="_blank">MGI Data and Statistical Reports</a></td></tr>
+  <tr><td>An overview of MGI data</td><td>lists of all MGI markers, sequence data, mammalian orthology, gene ontology, strains &amp; polymorphisms, gene expression, alleles and phenotypes, nomenclature, references, clone collections</td><td><a href="<!--#include file="include/ftp_url.html" -->reports/index.html" target="_blank">MGI Data and Statistical Reports</a></td></tr>
   <tr><td>MGI query forms &amp; other searches</td><td width="55%">Genes, Genome Features &amp; Maps; Phenotypes, Alleles &amp; Disease Models; Gene Expression; GO Functional annotations; Strains, SNPs &amp; Polymorphisms; Mammalian Orthology; Sequences; Probes &amp; Clones; References; Vocabularies; and more</td><td>
 <a href="<!--#include file='include/wi_url.html'-->menus/allsearch.shtml" target="_blank">All Search Tools</a></td></tr>
   <tr><td>Nomenclature</td><td>symbols, names, synonyms for mouse genes,  genome features, orthologs, alleles, mutations</td><td>
@@ -276,7 +276,7 @@ See <a href="http://en.wikipedia.org/wiki/Stop_words" target="_blank">stop words
   <tr><td>Embryonic development, postnatal mouse, anatomical structures, Theiler stages</td><td>somite pair<br>pigmented retinal epithelium</td><td>
 <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a></td></tr>
   <tr><td>Functional annotations for mouse gene products</td><td>GO:0004699<br>calcium-independent protein kinase C activity<br>regulation of signal transduction </td><td>
-<a href="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml" target="_blank">GO Browser</a></td></tr>
+<a href="<!--#include file='include/fewi_url.html'-->vocab/gene_ontology" target="_blank">GO Browser</a></td></tr>
   <tr><td>Protein domains</td><td>IPR016243<br>Immunoglobulin-like fold<br>Tyrosine-protein kinase, CSF-1/PDGF receptor<br>
 Protein kinase ATP binding, conserved site</td><td><a href="<!--#include file="include/ftp_url.html" -->reports/MGI_InterProDomains.sql.rpt" target="_blank">Interpro IDs and domain names</a> (MGI data report) or <br>EBI's <a href="http://www.ebi.ac.uk/interpro/" target="_blank">InterPro</a> database </td></tr>   
   <tr><td>Annotated phenotype data (terms, definitions and term relationships in a DAG)</td><td>cellular phenotype<br>               
