@@ -75,10 +75,10 @@ query options in an easy-to-use format. Help documentation is available on-line 
  <LI><A HREF="<!--#include file='include/fewi_url.html'-->marker">Genes and Markers Query Form</A></LI>
  <LI><a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Query Form</A></LI>
  <LI><a href="<!--#include file='include/fewi_url.html'-->gxd" target="_blank">Gene Expression Data Query Form</A></LI>
- <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml" target="_blank">GO Browser</A></LI>
+ <LI><A HREF="<!--#include file='include/fewi_url.html'-->vocab/gene_ontology" target="_blank">GO Browser</A></LI>
  <LI><A HREF="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</A> </LI>
  <!--<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/homology_form.shtml">Mammalian Orthology Query Form</A> </LI>-->
- <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype Browser</A> </LI>
+ <LI><A HREF="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype Browser</A> </LI>
  <LI><a href="<!--#include file='include/fewi_url.html'-->batch" target="_blank">MGI Batch Query</A> </LI>
  <LI><A HREF="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</A></LI>
  <!--<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/sequence_form.shtml">Mouse Sequence Query Form</A> </LI>-->

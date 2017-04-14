@@ -356,7 +356,7 @@ gene trapped, targeted and transposon induced. See
 
 <ul> 
   <li><A HREF="ALLELE_phenotypic_categories_help.shtml" target="_blank">Selecting Phenotypic Allele Categories</a></li>
-  <li><A HREF="<!--#include file='include/wi_url.html'-->searches/MP_form.shtml" target="_blank">Mammalian Phenotype (MP) Browser</a></li>
+  <li><A HREF="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype (MP) Browser</a></li>
   <li><A HREF="VOCAB_mp_browser_help.shtml" target="_blank">Using the Mammalian Phenotype (MP) Browser</a></li>
   <li><a href="<!--#include file='include/fewi_url.html'-->disease" target="_blank"> Disease Ontology Browser</a></li>
   <li><A HREF="VOCAB_do_browser_help.shtml" target="_blank">Using the Human Disease Ontology (DO) Browser</a></li>
