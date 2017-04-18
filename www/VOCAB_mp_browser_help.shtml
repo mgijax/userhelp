@@ -47,11 +47,10 @@ Using the Mammalian Phenotype (MP) Browser</span>
  <UL>
   <LI><A HREF="#howare">How is the Mammalian Phenotype Ontology organized?</A>
   <LI><A HREF="#whatcan">What can I use the Mammalian Phenotype Browser to find?</A>
-  <LI><A HREF="#include">What is the difference between browsing and searching the vocabulary?</A>
   <LI><A HREF="#browse">How do I browse the vocabulary?</A>
   <LI><A HREF="#search">How do I search the vocabulary?</A>
   <LI><A HREF="#term_detail">How do I interpret my results?</A>
-  <li><a href="#mp_summary">How do I interpret the Mammalian Phenotype Ontology Annotations Query Results?</a>
+  <li><a href="#mp_summary">How do I interpret the Mammalian Phenotype Ontology Annotations Results?</a>
   <LI><A HREF="#contribute">How can I contribute to the vocabulary?</A>
  </UL>
 
@@ -62,24 +61,20 @@ Using the Mammalian Phenotype (MP) Browser</span>
 </p>
 
 <H3><A id="howare"></A>How is the Mammalian Phenotype Ontology organized?</H3>
-<P>The Mammalian Phenotype Ontology has a hierarchical structure that permits a range of detail from high-level, broadly descriptive terms to very low-level, highly specific terms. This range is useful for annotating phenotypic data to the level of detail known and for searching for this information using either broad or specific terms as search criteria.</P>
+<P>The Mammalian Phenotype Ontology has a hierarchical structure that permits a range of detail from high-level, broadly descriptive terms to very low-level, highly specific terms. This range is useful for annotating phenotypic data to the level of detail known and for searching for this information using either broad or specific terms as search criteria. Organizing the phenotype terms as a Directed Acyclic Graph (DAG), i.e., in which a term can have more than one parent, allows presentation of phenotypes from multiple perspectives.</P>
 
 <H3><A id="whatcan"></A>What can I use the Mammalian Phenotype Browser to find?</H3>
 <P>Use the Browser to find vocabulary terms that may be used in annotations of phenotypic data. You can choose a term or MP ID here to improve your searches with the <B>Phenotype/Disease</B> box on the
-<a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, &amp; Disease Models</a> and <a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers</a> Query Forms as well as the appropriate fields on the <a href="<!--#include file='include/fewi_url.html'-->gxd" target="_blank">Gene Expression Data Query</a> and <a href="<!--#include file='include/fewi_url.html'-->diseasePortal" target="_blank">Human - Mouse: Disease Connection</a> forms. Selected terms in the Phenotype Tree View link to a listing of all genotypes annotated to the term.</P>
+<a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, &amp; Disease Models</a> and <a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers</a> Query Forms as well as the appropriate fields on the <a href="<!--#include file='include/fewi_url.html'-->gxd" target="_blank">Gene Expression Data Query</a> and <a href="<!--#include file='include/fewi_url.html'-->diseasePortal" target="_blank">Human - Mouse: Disease Connection</a> forms. Selected terms in the Phenotype Tree View link to a listing of all genotypes annotated to the term and it descendants.</P>
 
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
-<H3><A id="include"></A>What is the difference between and browsing and searching the vocabulary?</H3>
-
-<P>You can either browse or search from the MP Browser entry report. You can browse by clicking on terms in the Phenotype Tree View. This shows a term's place in the hierarchy, provides links to all genotypes annotated to a selected term, and updates the Phenotype Term Detail section of the page with the selected term's parent terms, ID, definition, and any synonyms associated with the phenotype term. Searching requires entering a text string in the <B>Phenotype Search</B> box. This brings up an autocomplete list displaying all matches.</P>
+<P>You can either <a href="#browse">browse</a> or <a href="#search">search</a> from the MP Browser entry report. You can browse by clicking on terms in the Phenotype Tree View. This shows a term's place in the hierarchy, provides links to all genotypes annotated to a selected term, and updates the Phenotype Term Detail section of the page with the selected term's parent terms, ID, definition, and any synonyms associated with the phenotype term. Searching requires entering a text string in the <B>Phenotype Search</B> box. This brings up an autocomplete list displaying all matches.</P>
 
 <H3><A id="browse"></A>How do I browse the vocabulary?</H3>
 <p>To browse the vocabulary, click a term in the Tree View or a parent term in the Term Detail section until you find the desired phenotypic term. A small white triangle at the beginning of a term indicates the term has subterms. You can expand branches by clicking on a term or its preceding white triangle. If you click on a term, this also updates the Phenotype Term Detail section. You can collapse branches by clicking on the small black triangle. You can click on the triangles to navigate the branches without updating the Term Detail section. You can copy term IDs into the <B>Phenotypes/Disease</B> box on the <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, &amp; Disease Models Query Form</A> to search for data associated with this term.</P>
 
 <H3><A id="search"></A>How do I search the vocabulary?</H3>
 
-<p>You can search by phenotype term to determine where a particular term exists in the Mammalian Phenotype Ontology and see, in the Phenotype Tree View section, whether there are any genotypes annotated to the term. To do this:
+<p>The <b>Phenotype Search</b> field accepts any text string and searches for all terms containing that string and any synonyms. To do this:
 <ul>
 	<li>Begin typing a phenotype of interest and an autocomplete list activates on the second character. 
     <ul>
@@ -88,6 +83,7 @@ Using the Mammalian Phenotype (MP) Browser</span>
     </ul>
 	<li>You must select a term. There is no free text searching in this field.</li>
 	<li>You can only select one term.</li>
+	<li>Enter an MP accession identifier in the Search field to return an exact match for the phenotype.</li>
 	<li>Use the return/enter key on your keyboard to activate a search. The search finds all phenotype terms that contain any of your search terms and displays a list of those terms.</li>
 	<li>If you are uncertain which terms to use for the most effective searching, <a href="#browse">browse</a> the ontology to see the standardized terms in the Phenotype Tree View.</li>
 </ul>
@@ -99,7 +95,7 @@ Using the Mammalian Phenotype (MP) Browser</span>
 
 <table>
 <tr><th><a id="phenotype_search"></a>Phenotype Search</th>
-     <td>The search finds all phenotype terms that contain any of your search terms and displays a ranked list of those terms. Click on a term to update the Phenotype Term Detail and Tree View sections of the page with the appropriate phenotypes and the selected term <span style="background-color: #BEEBFF">highlighted in blue</span>.</td></tr>        
+     <td>The search finds all phenotype terms that contain all of your search terms and displays a ranked list of those terms. Click on a term to update the Phenotype Term Detail and Tree View sections of the page with the appropriate phenotypes and the selected term <span style="background-color: #BEEBFF">highlighted in blue</span>.</td></tr>        
 <tr><th><a id="term_detail"></a>Phenotype Term Detail</th>
     <td>
      <table>
@@ -118,18 +114,19 @@ Using the Mammalian Phenotype (MP) Browser</span>
       <th>Parent Terms</th><td>The immediate parent terms for the selected phenotype. Because the Mammalian Phenotype Ontology is built on a DAG framework, a term may have more than one parent term. This means a term appears in multiple branches of the tree. For example, <i>seizures</i> is an abnormal behavior and an abnormal nervous system physiology phenotype. The term has an "is a" relationship to the parent term.</td>
       </tr>
       <tr>
-      <th>ID</th><td>The unique accession ID for the phenotype term</td>
+      <th>ID</th><td>The unique accession ID for the phenotype term</td></tr>
+      <tr>
       <th>Other IDs</th><td>Alternative IDs for the term, such as Fyler codes, a hierarchical classification of congenital heart disease.</td>
       </tr>
      </table>
 <tr><th><a id="tree_view"></a>Phenotype Tree View</th>
-     <td>The main phenotype headings are shown beneath the section header. The number of genotypes/annotations to the selected term is shown. Child terms are shown beneath the selected term in the tree view. You can collapse or expand branches by clicking on a term. When you select a new term, it is <span style="background-color: #BEEBFF">highlighted in blue</span> and the Term Detail section is updated. 
+     <td>The main phenotype headings are shown beneath the section header. The number of genotypes/annotations to the selected term is shown. Child terms are shown beneath the selected term in the tree view. You can collapse or expand branches by clicking on a triangle. When you select a new term, it is <span style="background-color: #BEEBFF">highlighted in blue</span> and the Term Detail section is updated. 
      <br>Click on the number of genotypes/annotations for a listing of all the genotypes annotated to the term.</td>  
      </tr>
      <tr>
      <th><img src="<!--#include file='include/webshare_url.html'-->images/is-a.gif"> "Is-a" Relationship</th><td>Indicates that the term is an instance or type of the more general term above it in the tree. For example, anophthalmia is a type of eye abnormality.</td>
      <tr><th><img src="images/WhiteTriangle.png" alt="White Triangle" width="21" height="24"></th><td>A small white triangle preceding a term in the Tree View indicates that the term has 
-<a href="<!--#include file='include/fewi_url.html'-->glossary/children">children</a>. Click on the term to see the additional paths.</td></tr>
+<a href="<!--#include file='include/fewi_url.html'-->glossary/children">children</a>. Click on the white triangle to see the additional paths. You can collapse branches by clicking on the small black triangle.</td></tr>
 	<tr><th><span style="white-space: nowrap"># genotypes,&nbsp; # annotations</span></th><td>Number of genotypes annotated to the term and its descendants, followed by the number of annotations to each term and its descendants. Click this label to see the <a href="#mp_summary">Mammalian Phenotype Ontology Annotations Query Results</a>.</td></tr>
 </table>
 
