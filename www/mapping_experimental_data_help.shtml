@@ -41,7 +41,10 @@ Experimental Mapping Data Records
  <li><A href="#mapsum">Marker Mapping Data Summaries</A></li>
  <li><A href="#map">Mapping Data Records</A></li>
  <li><A href="#crs">Experiment Type: CROSS</A></li>
- <li><A href="#ric">Experiment Type: RI/RC</A></li>
+ <li><A href="#ric">Experiment Type: RI</A></li>
+ <li><A href="#ins">Experiment Type: IN SITU</A></li>
+ <li><A href="#fsh">Experiment Type: FISH</A></li>
+ <li><A href="#hyb">Experiment Type: HYBRID</A></li>
  </UL>
 </p>
 
@@ -59,7 +62,7 @@ Experimental Mapping Data Records
   <TR>
    <TH>FIELD</th><TH>DESCRIPTION</th> </TR>
   <TR>
-    <th><span style="white-space: nowrap">Experiment Type</span></th> <TD>The kind of mapping experiment, linked to the experimental data details. Experiment types include <i>Cross, RI, Hybrid, In Situ (including FISH), Contig, TEXT: Physical Mapping, TEXT: QTL</i>, and <i>TEXT: Radiation Hybrid</i>.</td>
+    <th><span style="white-space: nowrap">Experiment Type</span></th> <TD>The kind of mapping experiment, linked to the experimental data details. Experiment types include <i>Cross, RI, Hybrid, In Situ (including FISH), TEXT: Physical Mapping, TEXT: QTL</i>, and <i>TEXT: Radiation Hybrid</i>.</td>
     </TR>
 <TR><th>Details </th><TD>More information on the experiment type, such as the type of cross, and the mapping panel used. </td>  </TR>
 <TR><th>Chromosome </th><TD>The Chromosome to which the marker maps</td>  </TR>
@@ -79,8 +82,8 @@ recombinant inbred (RI) strain distribution patterns, in-situ hybridization data
 <tr><th>Experiment</th>
 	<td>
 	<table>
-	<tr><th>Experiment</th><td>Experiment types include <i>Cross, RI, Hybrid, In Situ (including FISH), Contig,  TEXT: Physical Mapping, TEXT: QTL</i>, and <i>TEXT: Radiation Hybrid</i>.</td></tr>
-	<tr><th>Chromosome</th><td>The Chromosome to which the marker maps</td></tr>
+	<tr><th>Experiment</th><td>Experiment types include <i>Cross, RI, Hybrid, In Situ (including FISH), TEXT: Physical Mapping, TEXT: QTL</i>, and <i>TEXT: Radiation Hybrid</i>.</td></tr>
+	<tr><th>Chromosome</th><td>The Chromosome for the experiment</td></tr>
 	<tr><th>Reference</th><td>J number (MGI accession ID format for references), linked to the reference abstract, Primary author, Journal, Date, Issue, Pages)</td></tr>
 	<tr><th>ID</th><td>Unique ID assigned to an experiment record in MGI. Format: MGI:####.</td></tr>
 	</table></td>
@@ -101,6 +104,9 @@ recombinant inbred (RI) strain distribution patterns, in-situ hybridization data
 	<tr><th>Experiment</th><td>Additional notes about the experiment</td></tr>
 	</table></td>
 </tr>
+</table>
+<p>The above fields may be present for any experiment type. Additional fields may exist for specific experiment types: </p>
+<table>
 <tr><th><a id="crs"></a>CROSS</th>
 	<td>
 	<table>
@@ -121,7 +127,7 @@ recombinant inbred (RI) strain distribution patterns, in-situ hybridization data
 	</tr>
 	</table>
 </tr>
-<tr><th><a id=ric></a>RI</th>
+<tr><th><a id="ric"></a>RI</th>
 	<td>
 	<table>
 	<tr><th>Origin</th><td>Progenitor strain of the RI strain set</td></tr>
@@ -130,6 +136,47 @@ recombinant inbred (RI) strain distribution patterns, in-situ hybridization data
 	<tr><th>RI Data</th><td>The RI Data Line represents the strain distribution pattern with respect to a particular marker in the given experiment. Tabular display includes<br>- Marker <br>- RI Data Line.</td></tr>
 	<tr><th>Statistics</th> <td>Tabular representation of recombination statistics. </td></tr>
 	</table>
+	</td></tr>
+<tr><th><a id="ins"></a>IN SITU</th>
+	<td>
+	<table>
+	<tr><th>Band</th><td>Cytogenetic position on chromosome to which marker is assigned</td></tr>
+	<tr><th>Strain</th><td>Strain of origin of cells used in experiment</td></tr>
+	<tr><th>Cell Type</th><td>Cell type from which analyzed metaphase spreads were derived</td></tr>
+	<tr><th>Karyotype Method</th><td>Method used to identify chromosome bands</td></tr>
+	<tr><th><span style="white-space: nowrap">Robertsonian Translocation</span></th> <td>Chromosome aberration used to identify marker assignment</td></tr>
+	<tr><th>Metaphases Analyzed</th><td>Number of metaphase spreads analyzed in experiment</td></tr>
+	<tr><th>Grains Scored</th><td>Number of grains hybridizing to correct chromosomal location</td></tr>
+	<tr><th>Grains on Correct Chromosome</th><td>Number of grains hybridizing to correct chromosomal location</td></tr>
+	<tr><th>Region/Count</th><td>Cytogenetic region of band assigned chr/# grains observed over that region</td></tr>
+	</table>
+	</td></tr>
+<tr><th><a id="fsh"></a>FISH</th>
+	<td>
+	<table>
+	<tr><th>Band</th><td>Cytogenetic region on chromosome to which marker is assigned</td></tr>
+	<tr><th>Strain</th><td>Strain of origin of cells used in experiment</td></tr>
+	<tr><th>Cell Type</th><td>Cell type from which analyzed metaphase spread</td></tr>
+	<tr><th>Karyotype Method</th><td>Method of staining chromosomes in the metaphase spread</td></tr>
+	<tr><th><span style="white-space: nowrap">Metaphases Analyzed</span></th><td>Number of metaphase spreads analyzed in experiment</td></tr>
+	<tr><th>Single Signals</th><td>Number of single fluorescent signals indicating presence of marker as reported by authors</td></tr>
+	<tr><th>Double Signals</th><td>Number of double fluorescent signals indicating presence of marker as reported by authors</td></tr>
+	<tr><th>Label</th><td>Type of fluorescent label on probe</td></tr>
+	</table>
+	</td></tr>
+<tr><th><a id="hyb"></a>HYBRID</th>
+	<td><p>For this type of experiment, the somatic cell hybrid data are presented in a table indicating the presence or absence of a particular marker or chromosome vs. the presence or absence of the marker being tested for linkage.</p>
+<p>Concordance Values are given as a table with the following columns:
+
+	<ul>
+	<li>Chromosome/Symbol: chromosome or marker symbol</li>
+	<li>Presence (+) or absence (-) of the chromosome or marker relative to the
+marker <br>tested, expressed as: +/+, +/-, -/+, -/-</li>
+	<li>The number of occurrences for each possibility (+/+, +/-, etc.) in the
+experimental data </li>
+	</ul>
+	</p></td>
+	</tr>
 </table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
