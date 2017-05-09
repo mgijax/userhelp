@@ -56,6 +56,7 @@ Using the Disease Ontology (DO) Browser</span>
    <li><a href="#genes">How do I interpret the Genes tab?</a></li>
    <li><a href="#models">How do I interpret the Models tab?</a></li>
   </ul></li>
+  <li><a href="#export">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
   <li><A href="#how_assoc">How are gene to disease associations made?</A></li>
   <li><a href="#mp_summary">How do I interpret the Disease Ontology Annotations Query Results?</a></li>
   <li><a href="#DOversion">What version of the Disease Ontology (DO) is used by MGI?</a></li>
@@ -82,8 +83,8 @@ Using the Disease Ontology (DO) Browser</span>
 
 <h3><a id="term_detail"></a>How do I interpret the Term Details tab?</h3>
 
-<p><b>Term Details</b>: A portion of the Disease Ontology (DO) hierarchy is represented by three sections. The middle section highlights the selected term&mdash;the term defined at the top of the page&mdash;and lists its sibling terms below. To the left are those terms' parent terms and to the right, the highlighted term's child terms&mdash;terms below it in the ontology hierarchy. Click on a term to refresh the page and make it the highlighted term and to see its parent and child terms, and at the top of the page, its DO ID, synonyms and definition. 
-</p>
+<p><b>Term Details</b>: A portion of the Disease Ontology (DO) hierarchy is represented by three blue-boxed sections, and below this section, a graphical representation of the hierarchy. The middle box highlights the selected term&mdash;the term defined at the top of the page&mdash;and lists its sibling terms below. To the left are those terms' parent terms and to the right, the highlighted term's child terms—terms below it in the ontology hierarchy. Click on a term to refresh the page and make it the highlighted term and to see its parent and child terms, and at the top of the page, its DO ID, synonyms and definition.</p>
+<p>A graphical representation of the hierarchy is displayed below the three boxes. A with the upper section, the selected term is highlighted in yellow and you can navigate the hierarchy by clicking on a term. Unlike the top section, though, sibling terms are only shown for the lowest level of the hierarchy. Place your cursor directly over an arrow to see the DO IDs for the linked terms. The selected term is presented first.</p>
 
 <h3><a id="genes"></a>How do I interpret the Genes tab?</h3>
 
@@ -103,6 +104,8 @@ Using the Disease Ontology (DO) Browser</span>
   	</ul>
 
 An asterisk (*) next to a gene symbol identifies a gene associated with the disease in that species.</p>
+
+<p>A separate table of Transgenes and other genome features developed in mice and used to to model this disease may appear beneath the main table. Transgenes and Other Mutations appears when at least one of the non-gene mouse markers is associated with this human disease.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -128,6 +131,12 @@ An asterisk (*) next to a gene symbol identifies a gene associated with the dise
  <TR><TH>Reference</TH><TD>The supporting reference linked by its MGI reference number to the MGI Reference Detail report containing the full citation. </TD></tr>
  <TR><TH>Phenotypes</TH><TD>Links to the phenotypic details for the genotype.</TD></tr>
 </table>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="export"></a>Can I get my results as tab-delimited text or spreadsheet files?</h3>
+
+<p>Yes. The <a href="#genes">Genes</a> and <a href="#models">Models</a> tabs provide export options. Above the table of results, click on the Text File or Excel File icon. Your web browser will download a file of the results. The exported file will not contain the transgenic models.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
