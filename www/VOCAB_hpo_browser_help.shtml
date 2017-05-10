@@ -1,0 +1,141 @@
+<!--#include file='include/templateHead.html'-->
+<title>
+  <!--#include file="include/mgiversion.html"-->
+MGI-Using the Human Phenotype (HPO) Browser</title>
+
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+
+</style>
+
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+Using the Human Phenotype (HPO) Browser</span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+
+
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+	</td>
+    </tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+<!-- Body of User Help -->
+
+<a id="top"></a>
+
+<p>The Human Phenotype (HPO) Ontology is a community effort to provide standard terms for annotating human phenotypic data. You can use this browser to view terms, definitions, and term relationships in a hierarchical display. Selected terms are linked to a Human - Mouse Disease Connection query for the term and displays the human diseases and the high-level phenotype terms associated with the term, the human genes associated with those diseases and their mouse orthologs.</p>
+
+<p>This help document answers the following questions about the Human Phenotype (HPO) Browser:
+ <UL>
+  <LI><A HREF="#howare">How is the Human Phenotype Ontology organized?</A>
+  <LI><A HREF="#whatcan">What can I use the Human Phenotype Ontology Browser to find?</A>
+  <LI><A HREF="#browse">How do I browse the vocabulary?</A>
+  <LI><A HREF="#search">How do I search the vocabulary?</A>
+  <LI><A HREF="#term_detail">How do I interpret my results?</A>
+  <li><a href="#hmdc_results">How do I interpret the linked query to the Human - Mouse Disease Connection?</a>
+ </UL>
+</p>
+
+<P>See also:
+<UL>
+  <LI><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> for unfamiliar terms (or for how MGI defines specific terms) and acronyms. </LI>
+</UL>
+</p>
+
+<H3><A id="howare"></A>How is the Human Phenotype Ontology organized?</H3>
+<P>The Human Phenotype Ontology has a hierarchical structure that permits a range of detail from high-level, broadly descriptive terms to very low-level, highly specific terms. This range is useful for annotating phenotypic data to the level of detail known and for searching for this information using either broad or specific terms as search criteria. Organizing the phenotype terms as a Directed Acyclic Graph (DAG), i.e., in which a term can have more than one parent, allows presentation of phenotypes from multiple perspectives.</P>
+
+<H3><a id="whatcan"></a>What can I use the Human Phenotype Ontology Browser to find?</H3>
+<P>Use the Browser to find vocabulary terms that may be used in annotations of phenotypic data. You can choose a term or HPO ID here to improve your searches with the <a href="<!--#include file='include/fewi_url.html'-->diseasePortal" target="_blank">Human - Mouse: Disease Connection</a> form. Selected terms in the HPO Tree View link to a Human - Mouse Disease Connection query for the term and displays the human diseases and the high-level phenotype terms associated with the term, the human genes associated with those diseases and their mouse orthologs.</p>
+
+<p>You can either <a href="#browse">browse</a> or <a href="#search">search</a> from the HPO Browser. You can browse by clicking on terms in the HPO Tree View. This shows a term's place in the hierarchy, provides links to all diseases annotated to a selected term, and updates the HPO Term Detail section of the page with the selected term's parent terms, ID, definition, and any synonyms associated with the phenotype term. Searching requires entering a text string in the <B>HPO Search</B> box. This brings up an autocomplete list displaying all matches.</p>
+
+<H3><a id="browse"></a>How do I browse the vocabulary?</H3>
+<p>To browse the vocabulary, click a term in the Tree View or a parent term in the Term Detail section until you find the desired phenotypic term. A black triangle at the beginning of a term indicates the term has subterms. You can expand branches by clicking on a term or its preceding triangle. If you click on a term, this also updates the HPO Term Detail section. You can collapse branches by clicking on the downward-pointing black triangle. You can also click on the triangles to navigate the branches without updating the Term Detail section. You can copy term IDs into the <B>Disease or Phenotype (IDs)</B> field on the <a href="<!--#include file='include/fewi_url.html'-->diseasePortal" target="_blank">Human - Mouse: Disease Connection</a> to search for data associated with this term.</P>
+
+<H3><A id="search"></A>How do I search the vocabulary?</H3>
+
+<p>The <b>HPO Search</b> field accepts any text string and searches for all terms containing that string and any synonyms. To do this:
+<ul>
+	<li>Begin typing a phenotype of interest and an autocomplete list activates on the second character. 
+    <ul>
+    	<li>The list shows all the human phenotype terms and their synonyms that match your search characters.</li>
+    	<li>You can type the beginnings of multiple terms to narrow the list (example: <i>intra press</i> will limit the list to terms with either <i>intrao</i>cular or <i>intrao</i>cranial AND <i>press</i>ure).
+    </ul>
+	<li>You must select a term. There is no free text searching in this field.</li>
+	<li>You can only select one term.</li>
+	<li>Enter an HPO accession identifier in the Search field to return an exact match for the phenotype.</li>
+	<li>If you are uncertain which terms to use for the most effective searching, <a href="#browse">browse</a> the ontology to see the standardized terms in the HPO Tree View.</li>
+</ul>
+<p>Select a term in your search results to automatically update the HPO Term Detail and HPO Tree View sections on the right. Use the Clear button to start a new search.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><A id="term_detail"></A>How do I interpret my results?</H3>
+
+<table>
+<tr><th><a id="hpo_search"></a>HPO Search</th>
+     <td>The search finds all phenotype terms that contain all of your search terms and displays a ranked list of those terms. Click on a term to update the HPO Term Detail and Tree View sections of the page with the appropriate phenotypes and the selected term <span style="background-color: #BEEBFF">highlighted in blue</span>.</td></tr>        
+<tr><th><a id="term_detail"></a>HPO Term Detail</th>
+    <td>
+     <table>
+      <tr>
+       <th>Term</th>
+       <td>The selected term is <span style="background-color: #BEEBFF">highlighted in blue</span>. If you accessed this page by clicking on a term on another page, the appropriate phenotype is highlighted. Otherwise, before you initiate a search or browse, the default term is <i>Phenotypic abnormality</i>.</td>
+      </tr>
+      <tr>
+      <th>Synonyms</th>
+      <td>Alternative search terms for the selected term</td>
+      </tr>
+      <tr>
+      <th>Definition</th>
+      <td>Official definition for the term</td>
+      <tr>
+      <th>Parent Terms</th><td>The immediate parent terms for the selected phenotype. Because the Human Phenotype Ontology is built on a DAG framework, a term may have more than one parent term. This means a term appears in multiple branches of the tree. For example, <i>Dysphagia</i> is an Abnormality of esophagus physiology and an Abnormality of nervous system physiology. The term has an "is a" relationship to the parent term.</td>
+      </tr>
+      <tr>
+      <th>ID</th><td>The unique accession ID for the phenotype term</td></tr>
+      <tr>
+      <th>Other IDs</th><td>Alternative IDs for the term, such as ***, a hierarchical classification of congenital heart disease.</td>
+      </tr>
+     </table>
+<tr><th><a id="tree_view"></a>HPO Tree View</th>
+     <td>The main phenotype headings are shown beneath the section header. The number of diseases annotated to the selected term is shown. Child terms are shown beneath the selected term in the tree view. You can collapse or expand branches by clicking on a triangle. When you select a new term, it is <span style="background-color: #BEEBFF">highlighted in blue</span> and the Term Detail section is updated. 
+     <br>Click on the number of <i>diseases with annotations</i> link to run a <a href="#hmdc_results">Human - Mouse Disease Connection query</a> for the term.</td>  
+     </tr>
+     <tr>
+     <th><img src="<!--#include file='include/webshare_url.html'-->images/is-a.gif"> "Is-a" Relationship</th><td>Indicates that the term is an instance or type of the more general term(s) above it in the tree. For example, Uveitis is an Abnormality of the uvea and an Inflammatory abnormality of the eye.</td>
+     <tr><th><img src="images/BlackTriangle.png" alt="Black Triangle" width="59" height="37"></th><td>A black triangle preceding a term in the Tree View indicates that the term has 
+<a href="<!--#include file='include/fewi_url.html'-->glossary/children">children</a>. Click on the triangle to see the additional paths. You can collapse branches by clicking on the downward-pointing triangles. Unlike clicking on a term, clicking on a triangle does not update the selected term.</td></tr>
+	<tr><th><span style="white-space: nowrap"># diseases with annotations</span></th><td>Number of diseases annotated to the term and its descendants. Click this link to to run a Human - Mouse Disease Connection query for the term.</td></tr>
+</table>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><A id="hmdc_results"></a>How do I interpret the linked query to the Human - Mouse Disease Connection?</h3>
+
+<p>Selected terms are linked to a Human - Mouse Disease Connection query for the term and displays the human diseases and the high-level phenotype terms associated with the term, the human genes associated with those diseases and their mouse orthologs. For more details  see: <a href="#hdp_results">How do I interpret the (HMDC) query results?</a></p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<!--#include file='include/templateBlankBodyStop.html'--> 
+</body>
+</html>
