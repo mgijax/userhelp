@@ -202,7 +202,8 @@ User Help Site Map
 	<dd><a href="GO_classification_report_help.shtml" target="_blank">Interpreting the Gene Ontology Classifications Report</a></dd>	
 	<dd><a href="VOCAB_do_browser_help.shtml" target="_blank">Using the Human Disease Ontology (DO) Browser</a></dd>
 	<!--<dd><a href="VOCAB_do_browser_detail_help.shtml" target="_blank">Interpreting Human Disease and Mouse Model Details</a></dd>-->
-	<dd><a href="VOCAB_mp_browser_help.shtml" target="_blank">Using the Mammalian Phenotype (MP) Browser</a></dd>		
+	<dd><a href="VOCAB_mp_browser_help.shtml" target="_blank">Using the Mammalian Phenotype (MP) Browser</a></dd>
+	<dd><a href="VOCAB_hp_browser_help.shtml" target="_blank">Using the Human Phenotype Ontology (HPO) Browser</a></dd>	
 	<dd><a href="VOCAB_mad_browser_help.shtml" target="_blank">Using the Mouse Developmental Anatomy Browser</a></dd>		
 	<dd><a href="VOCAB_amad_browser_help.shtml" target="_blank">Using the Adult Mouse Anatomical Dictionary Browser</a></dd>
     </dl>
