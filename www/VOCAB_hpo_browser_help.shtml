@@ -114,7 +114,7 @@ Using the Human Phenotype (HPO) Browser</span>
       <tr>
       <th>ID</th><td>The unique accession ID for the phenotype term</td></tr>
       <tr>
-      <th>Other IDs</th><td>Alternative IDs for the term, such as ***, a hierarchical classification of congenital heart disease.</td>
+      <th>Other IDs</th><td>Alternative IDs for the term.</td>
       </tr>
      </table>
 <tr><th><a id="tree_view"></a>HPO Tree View</th>

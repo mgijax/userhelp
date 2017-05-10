@@ -67,7 +67,7 @@ Using the Mammalian Phenotype (MP) Browser</span>
 <P>Use the Browser to find vocabulary terms that may be used in annotations of phenotypic data. You can choose a term or MP ID here to improve your searches with the <B>Phenotype/Disease</B> box on the
 <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, &amp; Disease Models</a> and <a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers</a> Query Forms as well as the appropriate fields on the <a href="<!--#include file='include/fewi_url.html'-->gxd" target="_blank">Gene Expression Data Query</a> and <a href="<!--#include file='include/fewi_url.html'-->diseasePortal" target="_blank">Human - Mouse: Disease Connection</a> forms. Selected terms in the Phenotype Tree View link to a listing of all genotypes annotated to the term and it descendants.</P>
 
-<P>You can either <a href="#browse">browse</a> or <a href="#search">search</a> from the MP Browser entry report. You can browse by clicking on terms in the Phenotype Tree View. This shows a term's place in the hierarchy, provides links to all genotypes annotated to a selected term, and updates the Phenotype Term Detail section of the page with the selected term's parent terms, ID, definition, and any synonyms associated with the phenotype term. Searching requires entering a text string in the <B>Phenotype Search</B> box. This brings up an autocomplete list displaying all matches.</P>
+<P>You can either <a href="#browse">browse</a> or <a href="#search">search</a> from the MP Browser. You can browse by clicking on terms in the Phenotype Tree View. This shows a term's place in the hierarchy, provides links to all genotypes annotated to a selected term, and updates the Phenotype Term Detail section of the page with the selected term's parent terms, ID, definition, and any synonyms associated with the phenotype term. Searching requires entering a text string in the <B>Phenotype Search</B> box. This brings up an autocomplete list displaying all matches.</P>
 
 <H3><A id="browse"></A>How do I browse the vocabulary?</H3>
 <p>To browse the vocabulary, click a term in the Tree View or a parent term in the Term Detail section until you find the desired phenotypic term. A black triangle at the beginning of a term indicates the term has subterms. You can expand branches by clicking on a term or its preceding triangle. If you click on a term, this also updates the Phenotype Term Detail section. You can collapse branches by clicking on the downward-pointing black triangle. You can also click on the triangles to navigate the branches without updating the Term Detail section. You can copy term IDs into the <B>Phenotypes/Disease</B> box on the <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, &amp; Disease Models Query Form</A> to search for data associated with this term.</P>
@@ -79,15 +79,15 @@ Using the Mammalian Phenotype (MP) Browser</span>
 	<li>Begin typing a phenotype of interest and an autocomplete list activates on the second character. 
     <ul>
     	<li>The list shows all the phentype terms and their synonyms that match your search characters.</li>
-    	<li>You can type the beginnings of multiple terms to narrow the list (example: <i>hyper lip</i> will limit the list to terms with hypertrophy AND lipocyte).
+    	<li>You can type the beginnings of multiple terms to narrow the list (example: <i>hyper lip</i> will limit the list to terms with <i>hyper</i>trophy AND <i>lip</i>ocyte).
     </ul>
 	<li>You must select a term. There is no free text searching in this field.</li>
 	<li>You can only select one term.</li>
 	<li>Enter an MP accession identifier in the Search field to return an exact match for the phenotype.</li>
-	<li>Use the return/enter key on your keyboard to activate a search. The search finds all phenotype terms that contain any of your search terms and displays a list of those terms.</li>
 	<li>If you are uncertain which terms to use for the most effective searching, <a href="#browse">browse</a> the ontology to see the standardized terms in the Phenotype Tree View.</li>
 </ul>
-<p>The first term listed in your search results is automatically selected and updates the Phenotype Term Detail and Phenotype Tree View sections on the right. Click on a different term in your search results to refresh the Phentype Term Detail and Tree View with the selected phenotype. Use the Clear button to start a new search.</p>
+<p>Select a term in your search results to automatically update the Phenotype Term Detail and Phenotype Tree View sections on the right. Use the Clear button to start a new search.</p>
+
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

@@ -88,7 +88,7 @@ You can search by anatomy term to determine where a particular structure exists 
 	<li>Begin typing a structure of interest and an autocomplete list activates on the second character. 
     <ul>
     	<li>The list shows all the anatomy terms and their synonyms that match your search characters.</li>
-    	<li>You can type the beginnings of multiple terms to narrow the list (example: <i>lac epi</i> will limit the list to lacrimal gland epithelium).</li>
+    	<li>You can type the beginnings of multiple terms to narrow the list (example: <i>lac epi</i> will limit the list to <i>lac</i>rimal gland <i>epi</i>thelium).</li>
     </ul>
 	<li>You must select a term. There is no free text searching in this field.</li>
 	<li>You can only select one term.</li>
@@ -96,7 +96,7 @@ You can search by anatomy term to determine where a particular structure exists 
 	<li>Use the return/enter key on your keyboard to activate a search. The search finds all structures that contain any of your search terms and displays a list of those structures.</li>
 	<li>If you are uncertain which terms to use for the most effective searching, <a href="#browse">browse</a> the ontology to see the standardized terms.</li>
 </ul>
-<p>The first term listed in your search results is automatically selected and updates the Anatomical Term Detail and Anatomical Tree View sections on the right. Click on a different term in your search results to refresh the Anatomical Term Detail and Tree View with the selected structure and developmental stages. Use the Clear button to start a new search.</p>
+<p>Select a term in your search results to automatically update the Anatomical Term Detail and Anatomical Tree View sections on the right. Use the Clear button to start a new search.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
