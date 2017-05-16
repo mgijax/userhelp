@@ -51,6 +51,7 @@ Using the Human Phenotype (HPO) Browser</span>
   <LI><A HREF="#search">How do I search the vocabulary?</A>
   <LI><A HREF="#term_detail">How do I interpret my results?</A>
   <li><a href="#hmdc_results">How do I interpret the linked query to the Human - Mouse Disease Connection?</a>
+  <li><a href="#contribute">How can I contribute to the vocabulary?</a>
  </UL>
 </p>
 
@@ -133,6 +134,12 @@ Using the Human Phenotype (HPO) Browser</span>
 <h3><A id="hmdc_results"></a>How do I interpret the linked query to the Human - Mouse Disease Connection?</h3>
 
 <p>Selected terms are linked to a Human - Mouse Disease Connection query for the term and displays the human diseases and the high-level phenotype terms associated with the term, the human genes associated with those diseases and their mouse orthologs. For more details  see: <a href="disease_connection_help.shtml#hdp_results">How do I interpret the (HMDC) query results?</a></p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="contribute"></a>How can I contribute to the vocabulary?</h3>
+
+<p>The Human Phenotype Ontology is developed by <a href="http://human-phenotype-ontology.github.io">Peter Robinson's</a> group. Additional terms or revisions may be requested through their <a href="https://github.com/obophenotype/human-phenotype-ontology/issues">issue tracker</a> at GitHub.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

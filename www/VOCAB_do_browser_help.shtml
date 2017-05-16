@@ -84,7 +84,7 @@ Using the Disease Ontology (DO) Browser</span>
 <h3><a id="term_detail"></a>How do I interpret the Term Details tab?</h3>
 
 <p><b>Term Details</b>: A portion of the Disease Ontology (DO) hierarchy is represented by three blue-boxed sections, and below this section, a graphical representation of the hierarchy. The middle box highlights the selected term&mdash;the term defined at the top of the page&mdash;and lists its sibling terms below. To the left are those terms' parent terms and to the right, the highlighted term's child terms—terms below it in the ontology hierarchy. Click on a term to refresh the page and make it the highlighted term and to see its parent and child terms, and at the top of the page, its DO ID, synonyms and definition.</p>
-<p>A graphical representation of the hierarchy is displayed below the three boxes. A with the upper section, the selected term is highlighted in yellow and you can navigate the hierarchy by clicking on a term. Unlike the top section, though, sibling terms are only shown for the lowest level of the hierarchy. Place your cursor directly over an arrow to see the DO IDs for the linked terms. The selected term is presented first.</p>
+<p>A graphical representation of the hierarchy is displayed below the three boxes. As with the upper section, the selected term is highlighted in yellow and you can navigate the hierarchy by clicking on a term. Unlike the top section, though, sibling terms are only shown for the lowest level of the hierarchy. Place your cursor directly over an arrow to see the DO IDs for the linked terms. The selected term is presented first.</p>
 
 <h3><a id="genes"></a>How do I interpret the Genes tab?</h3>
 
