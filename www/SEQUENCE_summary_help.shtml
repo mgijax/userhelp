@@ -53,6 +53,7 @@ Interpreting a Sequence Summary </span>
 <li><a href="#marker_detail">I clicked a link on an MGI Gene Detail report and got this information. What does it tell me?</a></li>
 <li><a href="#reference_detail">I clicked a link on an MGI Reference Detail report and got this information. What does it tell me?</a></li>
 <li><a href="#fields">What can I do with sequence summary information?</a></li>
+<li><a href="#seqfilter">How do I filter my results?</a></li>
 <li><a href="#resolved">What does it mean if a value cannot be resolved to an MGI controlled vocabulary?</a></li>
 </ul>
 
@@ -236,6 +237,11 @@ The detail record for that sequence as stored in MGI appears. See <a href="SEQUE
 <tr><th><a id="position"></a>Map Position</th><td>Chromosome(s) and cM position(s) of the markers each sequence is associated with.</TD></tr>
 <tr><th><a id="coord"></a>Genome Coordinates</th><td>Assembly sequence coordinates for the mapped gene/marker. Format is <I>Chromosome# (beginning coordinate - end coordinate)</I></TD></tr>
 </TABLE>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="seqfilter"></a>How do I filter my results?</h3>
+<p>You can filter results by Strain and sequence Type. Click a "Filter sequences by" button above your results and check the items you wish to retain after filtering.</p> 
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
