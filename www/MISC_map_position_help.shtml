@@ -54,17 +54,17 @@ Using Map Position Fields on MGI Query Forms
         <th><a id="coordinates"></a>Genome Coordinates</th>
         <td>
          <ul>
-          <li>Make a selection on the <a href="#chromosome">Chromosome(s)</a> list.</li>
+          <li>Make a selection on the <a href="#chromosome">Chromosome(s)</a> list if available, otherwise, prepend the chromosome number followed by a colon (e.g. 19: or chr19:). Use MT for the Mitochondrial Chromosome.</li>
           <li>Click the other down arrow and select either bp (base pairs) or Mbp (mega base pairs) as the unit of measurement. (The default is base pairs.)</li>
           <li>Enter the coordinate(s):</li></ul>
            <table align="center" border="1" cellspacing="0" cellpadding="4" width="100%">
            <tr><th><span style="white-space: nowrap">To search for...</span></th><th>Type or paste in the box...</th>
               <th>Examples: (be sure to select the proper unit: Mbp or bp)</th>
            </tr>
-           <tr><td>Between</td><td>Coordinates indicating the area that includes the marker of interest, separated by  - . The maximum number of characters is 23. </td>
-    <td>125618206 - 125622026 <br>125.618 - 125.622</td></tr>
-      <tr><td>&lt; =</td><td>A single coordinate less than or equal to that of a mapped gene or marker.</td>  <td>1-125618205<br>1 - 125.61 </td></tr>
-      <tr><td>&gt; =</td><td>A single coordinate greater than or equal to a mapped gene or marker. </td><td>125622026 - 999999999<br>125.63-300 </td></tr>
+           <tr><td>Between</td><td>Coordinates indicating the area that includes the marker of interest, separated by a hyphen (-) or 2 periods (..). <!--The maximum number of characters is 23.--> </td>
+    <td>125618206-125622026 <br>125.618-125.622</td></tr>
+      <tr><td>&lt; =</td><td>A single coordinate less than or equal to that of a mapped gene or marker.</td>  <td>1-125618205<br>1-125.61 </td></tr>
+      <tr><td>&gt; =</td><td>A single coordinate greater than or equal to a mapped gene or marker. </td><td>125622026-999999999<br>125.63-300 </td></tr>
            </table>
          
          <b>Note:</b>&nbsp;The build number appearing on the query form is that of the NCBI assembly sequence loaded in the MGI database. This may or may not be the number of the most current build at NCBI.

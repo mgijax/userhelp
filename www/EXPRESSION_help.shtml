@@ -141,10 +141,11 @@ If you are interested in doing queries that ask what genes are expressed in some
 </TD></TR>
 
 <tr><td><a id="map_position"></a><b>Genome location</b></td>
-  <td>You can enter a list of mouse genomic regions (e.g. 2:105668896-108698410, 13:22210730-22311689). 
+  <td>You can enter a list of mouse genomic regions (e.g. 2:105668896-108698410, Chr12:28553755..28867491). 
 <ul>
  <li>You can enter multiple regions separated by commas, spaces and/or returns.</li>
- <li>You can also search with a whole Chromosome (e.g. 19 or 19: or chr19). Use MT for the mitochondrial chromosome.</li>
+ <li>You can also search with a whole Chromosome (e.g. 19 or 19: or chr19). Use MT for the Mitochondrial Chromosome.</li>
+ <li>Toggle the default, bp (base pairs), to Mbp, to search by mega base pairs. (e.g. 12:28.55-28.89)</li>
 </ul></td>
 </tr>
 
