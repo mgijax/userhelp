@@ -56,7 +56,7 @@ User Help Site Map
 		        
   	  <dd><a href="SEQUENCE_summary_help.shtml" target="_blank">Interpreting a Sequence Summary</a></dd> 	          
   	  <dd><a href="SEQUENCE_detail_help.shtml" target="_blank">Interpreting Sequence Details</a></dd>
-  	  <dd><a href="SEQUENCE_valid_providers_help.shtml" target="_blank">Valid Sequence Provider and Type Combinations</a></dd>
+  	  <!--<dd><a href="SEQUENCE_valid_providers_help.shtml" target="_blank">Valid Sequence Provider and Type Combinations</a></dd>-->
 
 	<!--<dt><b>Maps</b></dt>   
   	<dd><a href="maps_and_mapping_data_help.shtml" onclick="javascript:openHelpWindow('maps_and_mapping_data_help.shtml'); return false;">Retrieving Maps & Mapping Data</a></dd>

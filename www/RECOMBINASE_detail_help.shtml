@@ -30,38 +30,35 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 </table>
 <!--#include file='include/templateBlankBodyStart.html'-->
 <!-- Body of User Help -->
-<A NAME="top"></A> 
+<a id="top"></a> 
 
-<P>This help document describes Recombinase Activity Detail reports which contain some or all of the following elements:</p>
-  <ul>
-	<li><a href="#should_appear">What should appear on this page?</a></li>
-		<ul>
-      		<li><a href="#title">Title</a></li>
-	        <li><a href="#allele_info">Allele information</a></li>
-      		<li><a href="#tissue_info">Tissue information</a></li>
-       		<li><a href="#image">Images</a></li>
-       		<li><a href="#recomb_spec">Recombinase activity </a></li>
-			<li><a href="#assay_detailz">Assays</a></li>
-			<li><a href="#gtbg"><nobr>Genotypic Background</nobr></a></li>
-			<li><a href="#notez">Result Notes</a></li>
-			<li><a href="#reffs">References</a></li>    
-		</ul>
+<p>This help document describes Recombinase Activity Detail reports which contain some or all of the following elements:</p>
+<ul>
+	<li><a href="#should_appear">What should appear on this page?</a>
+	 <ul>
+      <li><a href="#title">Title</a></li>
+	  <li><a href="#allele_info">Allele information</a></li>
+      <li><a href="#tissue_info">Tissue information</a></li>
+      <li><a href="#image">Images</a></li>
+      <li><a href="#recomb_spec">Recombinase activity </a></li>
+      <li><a href="#assay_detailz">Assays</a></li>
+	  <li><a href="#gtbg">Genotypic Background</a></li>
+	  <li><a href="#notez">Result Notes</a></li>
+	  <li><a href="#reffs">References</a></li>    
+	 </ul></li>
 	<li><a href="#manipulate">What are the ways of creating different views of the data on this page?</a></li>
-     </ul>
-   
+</ul>
  
-<P>See also:
-   <ul>
-       <LI><A HREF="RECOMBINASE_summary_help.shtml" target="_blank">Using Recombinase Alleles - Tissue Activity Summary Reports</A></LI>
- <LI><A HREF="ALLELE_help.shtml" target="_blank">Using the Phenotypes, Alleles, and Disease Models Query Form</A> (recombinase-containing transgenes or knock-ins or floxed or frt alleles)</LI>
-</UL>
+<p>See also:
+<ul>
+   <li><a href="RECOMBINASE_summary_help.shtml" target="_blank">Using Recombinase Alleles - Tissue Activity Summary Reports</a></li>
+   <li><a href="ALLELE_help.shtml" target="_blank">Using the Phenotypes, Alleles, and Disease Models Query Form</a> (recombinase-containing transgenes or knock-ins or floxed or frt alleles)</li>
+</ul>
 
-
-
-<h3><a name="should_appear"></a>What should appear on this page?</h3>
+<h3><a id="should_appear"></a>What should appear on this page?</h3>
 <p>The Recombinase Activity Detail page summarizes the recombinase expression for the selected allele and tissue combination.</p>
 
-<h4><a name="title"></a>Title</h4>
+<h4><a id="title"></a>Title</h4>
 <p>The title on an Recombinase Activity Detail report takes the form:</p> 
 <blockquote>
 [<i>allele symbol</i>] - [name of anatomical system ]
@@ -71,10 +68,10 @@ For example:
 </blockquote>
 
 
-<h4><a name="fields"></a>Fields</h4>
+<h4><a id="fields"></a>Fields</h4>
 <p>The table below describes the possible fields in a Recombinase Activity Detail report. If a field does not appear, it means that information is not currently available for this allele.</p>
 
-<table border="0" cellspacing="1" cellpadding="2" class="nb" width="100%">
+<table>
 <TR><TD ALIGN="center"><font size="-1"><a href="#allele_info">Allele information</a> |  <a href="#tissue_info">Tissue information</a> |  <a href="#image">Images</a> |  <a href="#recomb_spec">Recombinase Activity</a> |  <a href="#reffs">References</a></td></tr>
 </table>
 
