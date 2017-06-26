@@ -92,12 +92,12 @@ function openHelpWindow(helpFile){
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><A id="discrepancy"><a/>How does genome coordinate discrepancy affect a query?</h3>
+<h3><a id="discrepancy"></a>How does genome coordinate discrepancy affect a query?</h3>
 <p>See <a href="SNP_discrepancy_help.shtml">Understanding Mouse SNP Coordinate Discrepancies</a>.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A id="seqattribute"></A>How do I use this form to find SNPs?</A></H3>
+<H3><a id="seqattribute"></a>How do I use this form to find SNPs?</H3>
 <P>The form has two tabs. One for searching with gene symbols and strains and the other for searching with genome coordinates and strains. To search for detailed data using this query form, enter or select values in one or more of the query form fields described in <A HREF="#field">What values are acceptable in the each of the query form fields?</A>  After entering values in the form fields, click Search to submit the query. Click Reset to clear the fields and return any default values. See <a href="MISC_usingQFs_help.shtml" target="_blank">Using MGI Query Forms</a> for additional information.
  </p>
  
@@ -148,8 +148,8 @@ function openHelpWindow(helpFile){
   <li>You can choose to return only SNPs that are different or the same as your reference strain.</li>
   <li>By default, the reference strain is the first strain listed in your results.</li>
 </ul>
-<p>See <a href="#sasc">Strains and strain comparisons</a> for additional details.</p>
 </p>
+<p>See <a href="#sasc">Strains and strain comparisons</a> for additional details.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -159,7 +159,7 @@ function openHelpWindow(helpFile){
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A id="available_strain_sort"></A>What determines the sort order of the Strains?</H3>
+<H3><a id="available_strain_sort"></a>What determines the sort order of the Strains?</H3>
 
 <p>The <b>SNPs Involving these Strains</b> list and the <b>Reference Strain for Comparison</b> list each contains 88 of the most common inbred strains in alphanumeric order.</p>
  
@@ -231,7 +231,7 @@ function openHelpWindow(helpFile){
 
 </p></TD></TR>
 
-<!-- <TR><TH><A id="attributes"></a>SNP attributes</th><td>Use these boxes to determine the types and case of SNPs to return. To make selections, click one or more items on the lists.  The default is to return SNPs from <B>Any</B> type or class on the list. See <a name="variation_type"></a><a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">Variation Types</a> and <a name="function_class"></a><a href="SNP_terms_help.shtml#dbsnp_fc" target="_blank">Function Class</a> for additional details about list items on these lists.</td></tr> -->
+<!-- <TR><TH><a id="attributes"></a>SNP attributes</th><td>Use these boxes to determine the types and case of SNPs to return. To make selections, click one or more items on the lists.  The default is to return SNPs from <B>Any</B> type or class on the list. See <a name="variation_type"></a><a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">Variation Types</a> and <a name="function_class"></a><a href="SNP_terms_help.shtml#dbsnp_fc" target="_blank">Function Class</a> for additional details about list items on these lists.</td></tr> -->
     
 
 <TR><th><a id="map_position"></a>Genome Region</th>
@@ -279,7 +279,7 @@ function openHelpWindow(helpFile){
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A id="results"></A>How do I interpret SNP query results?</H3>
+<H3><a id="results"></a>How do I interpret SNP query results?</H3>
 <p>
 <ul>
   <li><p>See <A HREF="SNP_summary_help.shtml">Interpreting a Mouse SNP Summary</A> for this information. From the summary report, you can access a SNP Detail Reports for single SNPs. 
@@ -289,7 +289,7 @@ function openHelpWindow(helpFile){
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A id="summary_sort"></A>Can I change the strain order in the query results?</H3>
+<H3><a id="summary_sort"></a>Can I change the strain order in the query results?</H3>
 
 <p>Yes. You can drag strain and other column headings at the top of the results table to rearrange them. </p>
 

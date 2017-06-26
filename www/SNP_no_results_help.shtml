@@ -35,8 +35,7 @@ function openHelpWindow(helpFile){
 <!--#include file='include/templateBlankBodyStart.html'-->
 <!-- Body of User Help -->
 
-
-<a NAME="top"></a>
+<a id="top"></a>
 <P>The following information may help in reformulating a Mouse SNP query that produced no results:.</P>
 <p>See also: </p>
 <UL>
@@ -45,21 +44,21 @@ function openHelpWindow(helpFile){
 <LI><A HREF="SNP_help.shtml" target="_blank">Using the Mouse SNP Query Form</A></LI>
 </UL>
 <p>
-<table border="1" cellspacing="1" cellpadding="3" width="100%">
+<table>
   
-<tr><th valign="top">Field</th><th valign="top">Possible reason for no result</th><th valign="top">Resource suggestion</th></tr>
-<tr><td valign="top" rowspan="2"><b>Associated Genes</b></td>
-<td valign="top">The default action is to search for official gene symbol matches.</td><td valign="top">
+<tr><th>Field</th><th>Possible reason for no result</th><th>Resource suggestion</th></tr>
+<tr><td rowspan="2"><b>Associated Genes</b></td>
+<td>The default action is to search for official gene symbol matches.</td><td>
 <ul>
  <li>Use the MGI 
-<a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a> to find official marker/gene symbols or ...</li>
-<li>Use the * as a wild card to broaden your search or ...</li>
-<li>Choose Current symbols/names, synonyms & homologs rather than the default (Current symbols) (click the down-arrow).</li>
+<a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a> to find official marker/gene symbols or &hellip;</li>
+<li>Use the * as a wild card to broaden your search or &hellip;</li>
+<li>Choose Current symbols/names, synonyms &amp; homologs rather than the default (Current symbols) (click the down-arrow).</li>
 </ul></td></tr>
-<tr><td valign="top">There may be SNPs that map close to your gene of interest but that are not in the transcribed region.</td><td valign="top">Try expanding the search to include more of the upstream and downstream regions. Select <i>include 2 kb upstream and downstream of the gene(s)</i>, the default selection, or <i>10 kb upstream and downstream of the gene(s)</i>.
+<tr><td>There may be SNPs that map close to your gene of interest but that are not in the transcribed region.</td><td>Try expanding the search to include more of the upstream and downstream regions. Select <i>include 2 kb upstream and downstream of the gene(s)</i>, the default selection, or <i>10 kb upstream and downstream of the gene(s)</i>.
 </td></tr>
 
-<tr><td valign="top"><b>Genome Region</b></td><td valign="top">There were no SNPs for your selected strains in the region you defined.</td>
+<tr><td><b>Genome Region</b></td><td>There were no SNPs for your selected strains in the region you defined.</td>
 <td>Try expanding the Genome Coordinate range.</td></tr>
 <tr><td rowspan="2"><b>Strains and Strain Comparisons</b></td>
     <td>There were no SNPs for your selected strains in the region or genes you defined.</td>
