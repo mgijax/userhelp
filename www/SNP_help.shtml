@@ -165,97 +165,91 @@ function openHelpWindow(helpFile){
  
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A id="limit"></A>Is there a limit on the number of SNPs that a query returns?</H3>
+<h3><a id="limit"></a>Is there a limit on the number of SNPs that a query returns?</h3>
 
-<P>No. The query will return a paginated list of all SNPs that meet the search criteria.
-</P>
+<p>No. The query will return a paginated list of all SNPs that meet the search criteria.
+</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><A id="field"></A>What values are acceptable in each of the query form fields?</H3>
+<h3><a id="field"></a>What values are acceptable in each of the query form fields?</h3>
 <p>You must select or type a value for at least one of the following:
 <ul>
   <li>Gene Symbol/Name in the <b>Search by Gene</b> tab</li>
   <li>Chromosome and Genome Coordinates in the <b>Search by Region</b> tab.</li>
 </ul>
 <p>You must have at least one strain checked in the <b>Find SNPs Involving these Strains</b> section for either search tab.</p>
+
+<table class="nb">
+  <tr><td>  <A HREF="#associated_genes">Associated Genes</A> | <A HREF="#sasc">Strains and Strain Comparisons</A> | <!-- <A HREF="#attributes">SNP attributes</A> | --> <A HREF="#map_position">Genome Region</A> </td>
+  </tr>
+</table>
 <table>
-<tr><td>  <A HREF="#associated_genes">Associated Genes</A> | <A HREF="#sasc">Strains and Strain Comparisons</A> | <!-- <A HREF="#attributes">SNP attributes</A> | --> <A HREF="#map_position">Genome Region</A> </TD>
- </TR>
- </TABLE>
-
- <TABLE>
-   <TR><TH>Field </TH><TH>Description</TH></TR>
-   <TR><Th><A id="associated_genes"></A><span style="white-space: nowrap">Associated genes</span></Th><TD>Use these parameters to locate SNPs within or near genes/markers.
-
-    <TABLE>
-      <TR><th><A id="marker_name"></A>Gene Symbol/Name</TH>
-<TD>
- <uL>
-  <li>Enter the mouse gene symbol/name/synonym. </li>
-  <li>This field supports the * (asterisk) as a wild-card. See <a href="MISC_wildcard_help.shtml" target="_blank">Using Wild Cards on MGI Query Forms</a></li>
-  <li>You can search for multiple genes by entering a comma-separated list.</li>
-  <LI>Use the default search (current symbols &#151; no search of names or synonyms) or toggle the choice to current symbols/names, synonyms and homologs to expand your search to symbols for other vertebrates and unofficial symbols. <b>Note:</b> If the symbol/name or synonym contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</LI>
- </uL>
-</TD></TR>
-<TR><TH>SNPs Located Near Genes</TH>
-<TD>When searching by gene symbol, SNPs within 2 kb of the gene(s) are returned by default. You can choose to limit your search to just within the gene(s) or to expand the range to within 10 kb of the gene(s).
-<p>The SNPs Located near Genes function returns SNPs located within the specified distance/orientation of the marker or markers that match the Gene Symbol/Name query.
-<ul>
-  <li>You must enter a Gene Symbol/Name to use this function.</li>
-  <li>You may <b>not</b> use QTL symbols. SNPs are not associated with markers of <i>type</i> QTL. If you wish to search for SNPs within a QTL, use the <b>Search by Region</b> tab and search with coordinates that define the QTL.</li>
-</ul>
+  <tr><th>Field </th><th>Description</th></tr>
+  <tr><th><A id="associated_genes"></A><span style="white-space: nowrap">Associated genes</span></th><td>Use these parameters to locate SNPs within or near genes/markers.
+  <table>
+    <tr><th><A id="marker_name"></A>Gene Symbol/Name</th>
+        <td>
+        <uL>
+         <li>Enter the mouse gene symbol/name/synonym. </li>
+         <li>This field supports the * (asterisk) as a wild-card. See <a href="MISC_wildcard_help.shtml" target="_blank">Using Wild Cards on MGI Query Forms</a></li>
+         <li>You can search for multiple genes by entering a comma-separated list.</li>
+         <li>Use the default search (current symbols &#151; no search of names or synonyms) or toggle the choice to current symbols/names, synonyms and homologs to expand your search to symbols for other vertebrates and unofficial symbols. <b>Note:</b> If the symbol/name or synonym contains a comma, put the entire term in quotation marks to ensure that the search is on the exact phrase (example: "cyclin B1, related sequence").</LI>
+        </uL>
+        </td>
+    </tr>
+    <tr><th>SNPs Located Near Genes</TH>
+        <td>When searching by gene symbol, SNPs within 2 kb of the gene(s) are returned by default. You can choose to limit your search to just within the gene(s) or to expand the range to within 10 kb of the gene(s).
+        <p>The SNPs Located near Genes function returns SNPs located within the specified distance/orientation of the marker or markers that match the Gene Symbol/Name query.
+        <ul>
+         <li>You must enter a Gene Symbol/Name to use this function.</li>
+         <li>You may <b>not</b> use QTL symbols. SNPs are not associated with markers of <i>type</i> QTL. If you wish to search for SNPs within a QTL, use the <b>Search by Region</b> tab and search with coordinates that define the QTL.</li>
+        </ul>
 <b>Note:</b> When there is a discrepancy between the genome coordinates of SNPs and MGI genes, this section of the field is disabled. For more information, see <a href="SNP_discrepancy_help.shtml" target="_blank">How does genome coordinate discrepancy affect my query?</a>
-</td></tr>
-</table></td></tr>
-   <TR><TD><B><a id="sasc"></a>Strains and Strain Comparisons</B></TD><TD>Use this section to select strains to search, determine a <a id="reference_strain"></a><b>Reference Strain</b> to return by comparison (if desired), and to determine the <a id="snps_returned"></a><b>SNPs Returned</b> (same as or different from the reference strain, or all SNPs). 
-
-<ul>
-  <li>All strains are selected by default.</li>
-  <li>By default, no Reference Strain is selected. See: <a href="#reference">What is a Reference Strain?</a></li>
-  <li>There are no disallowed combinations of strain and reference strain (except when they are the same).</li>
-  <li>When you supply both a selected and a reference strain, the SNPs Returned default is to display all SNPs (both the same as and different from the reference strain allele).
+        </td></tr>
+  </table></td></tr>
+  <tr><td><b><a id="sasc"></a>Strains and Strain Comparisons</b></td><td>Use this section to select strains to search, determine a <a id="reference_strain"></a><b>Reference Strain</b> to return by comparison (if desired), and to determine the <a id="snps_returned"></a><b>SNPs Returned</b> (same as or different from the reference strain, or all SNPs). 
+   <ul>
+    <li>All strains are selected by default.</li>
+    <li>By default, no Reference Strain is selected. See: <a href="#reference">What is a Reference Strain?</a></li>
+    <li>There are no disallowed combinations of strain and reference strain (except when they are the same).</li>
+    <li>When you supply both a selected and a reference strain, the SNPs Returned default is to display all SNPs (both the same as and different from the reference strain allele).
 <li>If you do not select a strain, the default is to consider all strains for the query. Strains returned are initially sorted in alphanumeric order, except if a reference strain is chosen, then it will be listed first.</li>
-</ul>
-<p>Reference Strains</p>
-<ul>
-  <li>If you select a reference strain, by default, the query returns only RefSNPs with an allele value for the reference strain.</li>
-  <li>If you do not select a reference strain, the allele values of any selected strains are not compared against one another in the query results.</li> 
-</ul>
+    </ul>
+    <p>Reference Strains</p>
+    <ul>
+     <li>If you select a reference strain, by default, the query returns only RefSNPs with an allele value for the reference strain.</li>
+     <li>If you do not select a reference strain, the allele values of any selected strains are not compared against one another in the query results.</li> 
+    </ul>
+    <p>The default selection is to return all SNPs relative to the reference strain allele (Not compared to the Reference Strain), though you can choose to return only those which are the same, or only those which are different. SNPs with conflicts are noted by underlining the allele or if there is not a consensus value, then a ? is displayed. See: <a href="SNP_legend_help.shtml#strain_alleles">Interpreting the MGI Mouse SNPs Results Table</a> for more details on SNP alleles. 
+    <ul>  
+     <li>If you select Same (or Different) from a reference strain, SNPs with conflicts are not returned.</li>
+     <li>If you select more than one strain to compare to a reference strain and also choose to return only SNPs that are the Same (or Different), then only alleles that are the Same (or Different) for all the selected comparison strains and the reference strain will be returned. 
+     </ul>
+     </p>
+     </td>
+   </tr>
+<!-- <tr><th><a id="attributes"></a>SNP attributes</th><td>Use these boxes to determine the types and case of SNPs to return. To make selections, click one or more items on the lists.  The default is to return SNPs from <B>Any</B> type or class on the list. See <a name="variation_type"></a><a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">Variation Types</a> and <a name="function_class"></a><a href="SNP_terms_help.shtml#dbsnp_fc" target="_blank">Function Class</a> for additional details about list items on these lists.</td></tr> -->
 
-<p>The default selection is to return all SNPs relative to the reference strain allele (Not compared to the Reference Strain), though you can choose to return only those which are the same, or only those which are different. SNPs with conflicts are noted by underlining the allele or if there is not a consensus value, then a ? is displayed. See: <a href="SNP_legend_help.shtml#strain_alleles">Interpreting the MGI Mouse SNPs Results Table</a> for more details on SNP alleles. 
-<ul>  
-  <li>If you select Same (or Different) from a reference strain, SNPs with conflicts are not returned.</li>
-  <li>If you select more than one strain to compare to a reference strain and also choose to return only SNPs that are the Same (or Different), then only alleles that are the Same (or Different) for all the selected comparison strains and the reference strain will be returned. 
-</ul>
-
-</p></TD></TR>
-
-<!-- <TR><TH><a id="attributes"></a>SNP attributes</th><td>Use these boxes to determine the types and case of SNPs to return. To make selections, click one or more items on the lists.  The default is to return SNPs from <B>Any</B> type or class on the list. See <a name="variation_type"></a><a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">Variation Types</a> and <a name="function_class"></a><a href="SNP_terms_help.shtml#dbsnp_fc" target="_blank">Function Class</a> for additional details about list items on these lists.</td></tr> -->
-    
-
-<TR><th><a id="map_position"></a>Genome Region</th>
-  <Td>You must select a Chromosome and enter a range of genome coordinates (Examples: 125.618-125.622 Mbp; 1-125618205 bp; 125618205 - 200000000 bp; Use 0 - 200 Mbp for an entire Chr) to use the Search by Region tab. You can toggle between bp and Mbp ranges.</td>
-        </tr>
-
-
-</TR></TABLE>
-</td></tr></table>
-</td></tr></table>
-</P>
+   <tr><th><a id="map_position"></a>Genome Region</th>
+       <td>You must select a Chromosome and enter a range of genome coordinates (Examples: 125.618-125.622 Mbp; 1-125618205 bp; 125618205 - 200000000 bp; Use 0 - 200 Mbp for an entire Chr) to use the Search by Region tab. You can toggle between bp and Mbp ranges.</td>
+    </tr>
+</table>
+</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="revise"></a>Can I edit my original options and requery?</h3>
 
 <p>Yes, you can.</p>
-<ul><li>If you want to edit a list or change output options:</li>
-<ol>
-  <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. </li>
-  <li>Make your changes.</li>
-  <li>Click Search.</li>
-  <li>Repeat until the desired results appear.</li>
-</ol>
+<ul><li>If you want to edit a list or change output options:
+    <ol>
+     <li>When your results appear, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. </li>
+     <li>Make your changes.</li>
+     <li>Click Search.</li>
+     <li>Repeat until the desired results appear.</li>
+    </ol>
+    </li>
 </ul>
 
 <b>Notes:</b> 
@@ -303,10 +297,10 @@ function openHelpWindow(helpFile){
 <h3><a id="tabfile"></a>How do I retrieve my results as a tab-delimited text file?</h3>
 <p>In your search results, click on the <b>Export:</b> <i>SNPs to Text File</i> icon. Your web browser will download a file of the results that remain after any filtering you may have performed.</p>
 
-<font size="-1"> <a href="#top">Top</a></font>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
- <H3>My query returned no results. Why? </H3>
-<P>See <A HREF="SNP_no_results_help.shtml" target="_blank">My SNP query returned no results. Why? </A> for help reformulating a Mouse SNP query.</P>
+<h3>My query returned no results. Why? </h3>
+<p>See <A HREF="SNP_no_results_help.shtml" target="_blank">My SNP query returned no results. Why? </a> for help reformulating a Mouse SNP query.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

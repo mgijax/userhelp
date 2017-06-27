@@ -74,7 +74,7 @@ Using the Genes and Markers Query Form</span>
 <h3><a id="fields"></a>What values are acceptable in each of the query form fields?</h3>
 <p>Use these fields to search for genes and markers by name, location, GO terms, protein domains, or for mouse phenotypes and mouse models of human disease.</p>
 
-<P><table width="!" cellpadding="2" class="nb">
+<p><table width="!" class="nb">
 <tr>
 <td><a href="#gene_nomenclature">Gene/Marker</a> |
 <a href="#marker_type">Feature Type</a> |
@@ -86,7 +86,7 @@ Using the Genes and Markers Query Form</span>
 </td></tr>
 </table>
 
-<table border="1" cellpadding="3" width="!">
+<table>
 <tr><th><a id="gene_nomenclature"></a>Gene/Marker</th>
     <td>Gene/Marker Symbol/Name: Use this field to search for a mouse genetic marker or set of markers with a similar nomenclature. 
 	<ul>
@@ -114,7 +114,7 @@ See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type 
         </tr>
 <tr><th><a id="map_position"></a>Genome location</th>
   <td>Use the map position parameters (
-<a id="chromosome"></a><a href="MISC_map_position_help.shtml#chromosome" target="_blank">Chromosome(s)</a>, 
+  <a id="chromosome"></a><a href="MISC_map_position_help.shtml#chromosome" target="_blank">Chromosome(s)</a>, 
   <a id="coordinates"></a><a href="MISC_map_position_help.shtml#coordinates" target="_blank">Genome Coordinates</a>, 
   <!--<a id="cytogenetic_band"></a><a href="MISC_map_position_help.shtml#cytogenetic_band" target="_blank">Cytogenetic Band</a>,--> 
   <a id="marker_range"></a><a href="MISC_map_position_help.shtml#marker_range" target="_blank">Marker Range</a>, and 
@@ -122,7 +122,7 @@ See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type 
   <ul>
 	<li>When using chromosome(s), you can also define genome coordinates or cM position.</li> 
     <li>You cannot combine genome coordinates and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) with known coordinates. The query is inclusive of the markers you enter.</li>
-    </ul>
+  </ul>
     If you wish to search with multiple regions, or search with human regions instead of mouse, you can do this with the <a href="<!--#include file='include/homepages_url.html'-->humanDisease.shtml">Human&mdash;Mouse: Disease Connection</a>.
     
 See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fields on MGI Query Forms</a> for further details about entering values in these fields.</td>
@@ -136,7 +136,7 @@ See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fi
 <tr>
   <th>Protein domains</th>
   <td>
-    <table border="0" cellpadding="2">
+    <table>
       <tr>
          <th><a id="interpro"></a>InterPro Protein Domains</th>
          <td>InterPro accession ID for a protein family, domain, or functional site.
@@ -154,7 +154,7 @@ See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fi
 <tr>
   <th>Mouse<br>phenotypes &amp;<br><span style="white-space: nowrap">mouse models of <br>human disease</span></th>
   <td>
-    <table border="0" cellpadding="3">
+    <table>
      <tr>
      <th><a id="phenotype"></a>Phenotype/<br>Human Disease</th>
      <td>See <a href="ALLELE_help.shtml#m_phenotypes">Phenotype/Disease</a>.<br>Note: The query returns a marker only if at least one associated allele satisfies whatever you enter in this section.
@@ -202,7 +202,6 @@ See <a href="MISC_map_position_help.shtml" target="_blank">Using Map Position Fi
 <!--<li>If you had <a href="#filter">filtered</a> your search results, when you modify your search, the filters are automatically applied to your modified results.</li>-->
 <li>Alternatively, click Reset to return to the original Genes and Markers Query form. </li>
 </ul>
-</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -311,7 +310,6 @@ Chromosome: 14<br>
 cM Position BETWEEN: 10 and 15 </B></UL>
 <P>In August, 2002, the first query returned a list of 29 markers, none of which began with D14. Setting the Search parameter to <b>current symbols/names & synonyms</b> returned 110 items, many of which began with D14. The wider setting picked up withdrawn symbols, names, or synonyms as well as current symbols.
 </P></LI>-->
-</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
