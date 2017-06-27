@@ -74,7 +74,7 @@ Using the Genes and Markers Query Form</span>
 <h3><a id="fields"></a>What values are acceptable in each of the query form fields?</h3>
 <p>Use these fields to search for genes and markers by name, location, GO terms, protein domains, or for mouse phenotypes and mouse models of human disease.</p>
 
-<p><table width="!" class="nb">
+<p><table class="nb">
 <tr>
 <td><a href="#gene_nomenclature">Gene/Marker</a> |
 <a href="#marker_type">Feature Type</a> |
