@@ -180,7 +180,6 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
   <li>Scroll down to the <b>Phenotypic data by genotype</b> table and find that color/number. </li>
  </ol> (<b>Note:</b> Context-sensitive help is available by hovering with your mouse over any color/number in the Genotype column.)  You can also find out whether there is a disease model identified for this genotype. -->
 </ul>
-</p>
 <p>Click <b>View</b> phenotypes for all genotypes (concatenated display) to see all genotypes and phenotypic annotations in a single browser window.
 </p>
 
@@ -249,7 +248,7 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 </ul>
 
 <h3><a id="see_annot"></a>Can I see annotations for every checkmarked item in a Genotypes column? </h3>
-<p>Yes. Click the colored box at the head of the Genotypes row (i.e., <u>hm1</u>, <u>ht4</u>). A new window appears, containing all available phenotypic details by genotype. 
+<p>Yes. Click the colored box at the head of the Genotypes row (i.e., <span style="text-decoration: underline;">hm1</span>, <span style="text-decoration: underline;">ht4</span>). A new window appears, containing all available phenotypic details by genotype. 
 <ul>
   <li>The color assigned to the genotype appears in a small box. The genotype abbreviation appears beneath the box (e.g., <i>hm1</i>). This enables quick identification of genotypes, particularly when opening several windows for comparison.</li>
   <li>The Allelic Composition and Genetic Background appear in the header. Clicking any allele symbol brings up its Phenotypic Allele Detail report.</li>

@@ -56,7 +56,8 @@ function openHelpWindow(helpFile){
 <h3><a id="interpret"></a>How do I interpret the SNP detail report resulting from my query?</h3>
 <p>The Mouse RefSNPs Detail provides comprehensive information about each RefSNP including the reference flanking sequence, assays that comprise the SNP, gene/marker associations with their corresponding function class annotations, and links to popular gene browsers such as the MGI Mouse Genome Browser and its transcript, gene model, and MGI-curated phenotype and allele tracks.</p>
 <p><b>Note:</b>&nbsp;If the information you expect to see does not appear in the Mouse Genome Browser (or other browser) display, you may need to turn on (i.e., click) the viewing aides (i.e., tracks, features, maps) in the various displays.</p>
-<p><table>
+<p>
+<table class="nb">
 <tr><td><a href="#id">ID/version</a> | <a href="#additional_resources">Additional resources</a> |<a href="#variation">Variation</a> | <a href="#genome_location">Genome Location &amp; Flanking Sequence</a> | 
 <a href="#snp_assays">SNP Assays &amp; SNP Consensus</a> | <a href="#gene_marker">Gene/Marker Associations &amp; Function Classes</a></td>
 </tr>

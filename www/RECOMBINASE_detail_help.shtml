@@ -70,7 +70,7 @@ For example:
 <h4><a id="fields"></a>Fields</h4>
 <p>The table below describes the possible fields in a Recombinase Activity Detail report. If a field does not appear, it means that information is not currently available for this allele.</p>
 
-<table>
+<table class="nb">
 <tr><td><a href="#allele_info">Allele information</a> |  <a href="#tissue_info">Tissue information</a> |  <a href="#image">Images</a> |  <a href="#recomb_spec">Recombinase Activity</a> |  <a href="#reffs">References</a></td></tr>
 </table>
 

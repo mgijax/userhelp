@@ -94,13 +94,14 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <h3><a id="usage"></a>How do I interpret the information on this page?</h3> 
 <p>The box at the top of the page lets you control the display of the data. See <a href="#manipulate">What are the ways of creating different views of the data on this page?</a> for more detail.
 </p>
-<p>
+
 <ul>
   <li><b>Some or all</b> of the following fields appear, depending on whether you search for recombinase activity in a particular anatomical system or use a promoter to search for tissue activity data.</li>
   <!-- <li>You can add or subtract columns to/from the table by checking/unchecking the boxes at the top of the summary page. </li> -->
   <li>You can rearrange table order by clicking a column heading, holding the mouse down, and dragging the column to the left or right. </li>
   <li>You can also rearrange the order in which data appears by clicking the  column headers (titles). The initial sort is by driver, alphanumeric A-Z. Click to sort the driver from Z-A.</li>
 </ul>  
+<p class="space"></p>
 
 <table class="nb">
 <tr><td><a href="#csh_driver">Driver</a> |
