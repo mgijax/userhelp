@@ -65,11 +65,11 @@ function openHelpWindow(helpFile){
 
 <h3><a id="content"></a>What should the summary report contain?</h3>
 <p>
-<UL>
+<ul>
 <LI>At the top of the Genes and Markers Query Results - Summary report is a display of your query parameters. For example:
    <BLOCKQUOTE>
 	<dl style="font-size: 0.9em;">
-	  <dt><u><b>You searched for...</b></u></dt>
+	  <dt><span style="text-decoration: underline;"><b>You searched for...</b></span></dt>
 	  <dt>on Chromosome: any of [<b>2</b>]</dt>
 	  <dt>AND Genome Coordinates: <b>4.4 -10.9</b> Mbp</dt>
 	  <dt>AND Feature Type: any of [<b>protein coding gene, miRNA gene</b>]</dt>
@@ -77,17 +77,18 @@ function openHelpWindow(helpFile){
   </BLOCKQUOTE>
     <br>  
  <li>Above the summary is an option to change your parameters. Use <b>Click to modify search</b> to view to the Genes and Markers Query Form with your previous search parameters.</li><br>  
- <LI>To the far right of the search summary is information about the amount of data found. For example:
+ <li>To the far right of the search summary is information about the amount of data found. For example:
   
 <BLOCKQUOTE>
 Showing markers 1 - 100 of 153.
 </BLOCKQUOTE><br>
    By default, 100 items are displayed on the web page. You can use the toggle to change the number of items displayed or page through the results.
 </li><br>
-  <LI>Beneath the statement are the following columns, with a row for each matching item. </li></ul>
+  <li>Beneath the statement are the following columns, with a row for each matching item. </li>
+</ul>
 
 <BLOCKQUOTE>
-<TABLE BORDER="1" CELLPADDING="4">
+<table>
 <tr><th>Field</th><th>Description</th></tr>
  <tr><th>Genetic Location</th> <td>If known, the chromosome and centimorgan position to which the marker is assigned. Centimorgan positions for genes and markers in MGI are based on linear interpolation using the standard genetic map described in Cox et al. (2009) (<a href="https://www.ncbi.nlm.nih.gov/pubmed/19535546" target="_blank">PubMed ID</a>). Markers without genome coordinates cannot be assigned specific cM locations and are designated as <i>syntenic</i>.</td></tr>
 
@@ -98,7 +99,7 @@ Showing markers 1 - 100 of 153.
  <tr><th>Symbol</th><td>Marker symbol and name, linked to the MGI marker detail page.</td></tr>
  <!--<tr><TH ALIGN="left" VALIGN="top">Matching Text</th><td>Type of information contained in the database and the text that it matches. The tool searches for items containing a match in the following order: current symbol, current name, allele symbol, allele name, withdrawn symbol, withdrawn name,
 human homolog symbol, human homolog name, other homolog symbol.</td></tr>-->
-</TABLE>
+</table>
 
 </BLOCKQUOTE>
 
@@ -149,4 +150,3 @@ human homolog symbol, human homolog name, other homolog symbol.</td></tr>-->
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
-

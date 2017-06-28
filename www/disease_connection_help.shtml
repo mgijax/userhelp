@@ -40,16 +40,16 @@ Using the Human - Mouse: Disease Connection </span>
 
 <p>This help document answers the following questions:</p>
  <ul>
- <li><A HREF="#whatuse">What can I use the Human - Mouse: Disease Connection, (HMDC) Form to find?</A></li>
+ <li><A HREF="#whatuse">What can I use the Human - Mouse: Disease Connection, (HMDC) Form to find?</a></li>
  <li><A HREF="#glossary">How does MGI define <I>phenotype, disease,</i> and <I>allele</I>? </a></li>
- <li><A HREF="#howfill">How do I use this query form?</A></li>
+ <li><A HREF="#howfill">How do I use this query form?</a>
 	<ul>
-	<li><A HREF="#field">What values are acceptable in each of the fields?</A></li>
+	<li><A HREF="#field">What values are acceptable in each of the fields?</a></li>
     <li><a href="#mp_ontology">Is there a list of phenotype terms to select from?</a></li>
     <li><a href="#disease_ontology">Is there a list of disease terms to select from?</a></li>
     <li><a href="#DOversion">What version of the Disease Ontology (DO) is used by MGI?</a></li>
     <li><a href="#relationship">Can I query using both a phenotype term and a disease term?</a></li>
-	</ul>
+	</ul></li>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
  <!--<li><A href="#vcf">How can I search with a VCF file?</a></li>
  	<ul>
@@ -73,14 +73,13 @@ Using the Human - Mouse: Disease Connection </span>
 
 <H3><a id="glossary"></a>How does MGI define <I>phenotype, disease</I>, and <I>allele</I>?
 </H3>
-<P><table border="0" cellspacing="0" cellpadding="0" width="!%">
- <tr><td><i>phenotype</i></td><td>A description of the observable state of an individual with respect to some inherited characteristic. See also <I>dominant</I> and <I>recessive</I> in the <A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A>.<br>
- <!--In MGI, the specific vocabulary of the Mammalian Phenotype Ontology.--></td></tR>
-
-<tr><td><i>disease</i></td><tD> A human disease, syndrome, or condition listed in the the Disease Ontology (DO) or OMIM (Online Mendelian Inheritance in Man) database.</tD></tR>
-
-<tr><td><i>allele</i></td><td>One of the variant forms of a gene, differing from other forms in its nucleotide sequence. <i>Allele category, allele combination</i> and <i>allele pair</i> also appear in the 
-<A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A>.</tD></tR>
+<p>
+<table>
+ <tr><td><i>phenotype</i></td><td>A description of the observable state of an individual with respect to some inherited characteristic. See also <I>dominant</I> and <I>recessive</I> in the <A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a>.<br>
+ <!--In MGI, the specific vocabulary of the Mammalian Phenotype Ontology.--></td></tr>
+ <tr><td><i>disease</i></td><tD> A human disease, syndrome, or condition listed in the the Disease Ontology (DO) or OMIM (Online Mendelian Inheritance in Man) database.</td></tr>
+ <tr><td><i>allele</i></td><td>One of the variant forms of a gene, differing from other forms in its nucleotide sequence. <i>Allele category, allele combination</i> and <i>allele pair</i> also appear in the 
+<A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A>.</tD></tr>
 
 <tr><td><i>allele name</i></td><tD>In MGI, an allele name is a word or phrase that uniquely identifies an allele of a given gene. The allele name has an abbreviation that is the allele symbol added as a superscript to the gene symbol. See also <a href="<!--#include file='include/fewi_url.html'-->glossary/gene_name"><I>Gene Name</I></a> in the <A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A>.</tD></tr>
 
@@ -93,12 +92,11 @@ Using the Human - Mouse: Disease Connection </span>
 <ul>
 <li><A HREF="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> for how MGI defines terms such as allele type and compound allele combination.</li>
 </ul> 
-</P>
+</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <H3><a id="howfill"></a>How do I use this query form?</H3> 
-
 <p>
 Choose a field to search by toggling "Please select a field."
 <br>
@@ -117,12 +115,12 @@ Choose a field to search by toggling "Please select a field."
 <H3><a id="field"></A>What values are acceptable in each of the fields?</H3>
 
 <p>
-<table width="!" cellpadding="2" class="nb" align="center">
+<table class="nb">
 <tr>
 <td><b>Search by:</b> <a href="#genes">Gene Symbol(s) or ID(s)</a> | <a href="#genename">Gene Name</a> | <a href="#phenotypes">Phenotype or Disease Name</a> | <a href="#phenoIDs">Phenotype or Disease ID(s)</a> | <a href="#region">Genome Location</a> | <a href="#upload">Gene File Upload</a> </td></tr>
 </table>
 </p>
-<TABLE BORDER="1" CELLSPACING="6" CELLPADDING="4"> 
+<table> 
 <tr><th>FIELD</th> <th>DESCRIPTION</th></tr>
 
 <tr><th><a id="genes"></a>Gene Symbol(s) or ID(s)</th>
@@ -284,7 +282,7 @@ VCF files are processed in the following manner:
 <h4><a id="tandmtab"></a>Gene Homologs x Phenotypes/Diseases</h4>
 <p>The Gene Homologs x Phenotypes/Diseases tab, the default selection, provides an overview of your results in a grid format. The query summary contains the following fields:<br><br>
 <blockquote> 
-<table border width="!" cellpadding="4" cellspacing="1">
+<table>
 	<tr><td><b>Human Gene </b></td>
     <td>Symbol of the gene, linked to homology information.</td></tr> 
     <tr><td><b>Mouse Gene </b></td>
@@ -299,15 +297,15 @@ VCF files are processed in the following manner:
     <p>Click on a blue colored square for information on mouse genotypes and lower level phenotype terms. The mouse genotypes link to even more detailed phenotype information. Click on a tan colored square for information on the human disease and human phenotypes associated with the human gene.</p>
     <p>A bold <b>N</b> in a phenotype column indicates that no abnormal phenotypes of that type were observed in any allele of the gene.</p>
     </td></tr> 
-</table></p>
+</table>
+</p>
 </blockquote>
-
 <p>You can <a href="#hmdcfilter">filter</a> the grid to show only specified columns and rows by clicking on the <i>Filter by Genes</i> or <i>Filter by Phenotypes</i> button and checking the appropriate criteria and clicking the <i>Apply Filters</i> button.</p>
 
 <h4><a id="genestab"></a>Genes</h4>
 <p>If you select the Genes tab, the query summary contains the following fields:<br><br>
 <blockquote> 
-<table border width="!" cellpadding="4" cellspacing="1">
+<table>
 	<tr><td><b>Organism</b></td>
     <td>States whether the corresponding marker is human or mouse</td></tr> 
  	<tr><td><b>Gene Symbol</b></td>
@@ -325,7 +323,8 @@ Reported in these Systems</b></td>
     <td>For mouse markers, a link to all the references for the marker is provided. A separate link may be present that links to the just the disease relevant references. The reference summary provides the abstract and links to MGI curated data and when possible, links to PubMed and Journals.</td></tr> 
      <tr><td><b>Mice With Mutations In this Gene (IMSR)</b></td>
      <td>Shows the number of stocks in the International Mouse Strain Resource (IMSR) that contain an allele of the gene. The number links to the IMSR which provides access to stock repositories. </td></tr> 
-</table></p>
+</table>
+</p>
 </blockquote>
 
 <p>The default sort for this tab is by Marker Symbol, though you can choose to sort by any column by clicking the column headings or the up/down arrowheads ( &#9660; &#9650;).</p>
@@ -333,7 +332,7 @@ Reported in these Systems</b></td>
 <h4><a id="diseasetab"></a>Diseases</h4>
 <p>If you select the Diseases tab, the query summary contains the following fields:<br><br>
 <blockquote> 
-<table border width="!" cellpadding="4" cellspacing="1">
+<table>
 	<tr><td><b>Disease </b></td>
     <td>The <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr> disease term linked to the MGI Human Disease and Mouse Model Detail page</td></tr> 
     <tr><td><b>DO ID </b></td>
@@ -348,7 +347,8 @@ Reported in these Systems</b></td>
     <td>Human genes associated with the disease. Disease associations for human genes are from the NCBI mim2gene_medgen file and include annotations from OMIM, NCBI curation, Gene Reviews, and Gene Tests.</td></tr>
     <tr><td><b>References using Mouse Models</b></td>
     <td>The number of references describing mouse models of the disease, linked to reference details and curated data</td></tr>
-</table></p>
+</table>
+</p>
 </blockquote>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>

@@ -42,12 +42,12 @@ function openHelpWindow(helpFile){
 
 <p>If you do not check any of the boxes (in the Categories section of the Phenotypes, Alleles, and Disease Models Query Form), the search includes every allele type in the list. You can limit your search by making selections in any or all of the three category sections. Category definitions for the three sections are as follows:  </p>
 <p>
-<table width="!" cellpadding="8" align="center">
+<table class="nb">
 <tr><td><a href="#method">Generation Method</a> | <a href="#attributes">Allele Attributes</a> | <a href="#collection">Project Collections</a> </td></tr>
 </table>
 </p>
 <p>
-<table border="1" cellspacing="1" cellpadding="3" width="100%">
+<table>
  <tr>
   <th><a id="method"></a><span style="white-space: nowrap">Generation Method</span></th>
   <th>Definitions for the origin of the allele</th></tr>
@@ -80,7 +80,7 @@ function openHelpWindow(helpFile){
 </p>
 <p>
 
-<table border="1" cellspacing="1" cellpadding="3" width="100%">
+<table>
  <tr>
   <th><a id="attributes"></a><span style="white-space: nowrap">Allele Attributes</span></th>
   <th>Definitions for the allele subtypes of the <a href="#method">Generation Methods</a></th></tr>
@@ -101,9 +101,10 @@ function openHelpWindow(helpFile){
   <tr><th>Transactivator</th><td>An experimentally introduced intermediate protein (e.g. tTA) used to stimulate or repress expression of another gene through the use of an external stimulus. (Note: Limiting your search to transactivators is not currently an option on the query form but it will be soon.) </td></tr>
   <tr><th>Transposase</th><td>Transposases are enzymes that bind to the ends of a <a href="<!--#include file='include/fewi_url.html'-->glossary/transposon">transposon</a> and catalyze the transposition of a transposon from one part of the genome to another.</td></tr>
   <tr><th>Transposon concatemer</th><td>Transposon concatemers are multiple copies of transposon sequences inserted at a single site. Transposon concatamers serve as donor sites in transposase mutagenesis.</td></tr>
-</table></p>
+</table>
+</p>
 <p>
-<table border="1" cellspacing="1" cellpadding="3" width="100%">
+<table>
  <tr>
   <th><a id="collection"></a><span style="white-space: nowrap">Project Collections</span></th>
   <th>Use this section to limit your search to alleles from specific large scale projects and repositories.</th></tr>
@@ -129,8 +130,8 @@ and P56.</td></tr>
   <tr><th><a href="https://www.brc.riken.jp/lab/gsc/mouse/">RIKEN GSC ENU Project</a></th><td>ENU induced mouse mutants</td></tr>
   <tr><th><a href="http://www.sanger.ac.uk/resources/mouse/sigtr/">Sanger Inst. Gene Trap Res.</a></th><td>The Sanger Institute Gene Trap Resource (SIGTR) characterized reporter-tagged, loss of function gene trapped mouse embryonic stem (ES) cell lines.</td></tr>
   <tr><th><a href="http://www.sanger.ac.uk/about/press/2011/110808.html">Sanger miRNA knockouts</a></th><td>microRNA reporter knockouts in ES cell lines created using recombinase mediated cassette exchange (RMCE)</td></tr>
-  
-</table></p>
+</table>
+</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

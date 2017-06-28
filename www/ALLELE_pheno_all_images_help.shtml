@@ -40,13 +40,13 @@ function openHelpWindow(helpFile){
 
 <a id="top"></a>
 
-<P>This help document answers the following questions about the (Phenotypic) Image Detail report.
-</P> <UL>
-  <LI><A HREF="#field">What should show up in this report?</a></LI>
-  <LI><A HREF="#howdo">How do I access this report?</a></LI>
- <LI><A HREF="#detail">How do I interpret this information in this report?</a></li>
-</UL>
-
+<p>This help document answers the following questions about the (Phenotypic) Image Detail report.
+</p> 
+<ul>
+  <li><A HREF="#field">What should show up in this report?</a></li>
+  <li><A HREF="#howdo">How do I access this report?</a></li>
+ <li><A HREF="#detail">How do I interpret this information in this report?</a></li>
+</ul>
 
 <h3><a id="field"></a>What should show up in this report?</h3>
 <p>The following appear on an All Images for Allele report:
@@ -62,7 +62,7 @@ function openHelpWindow(helpFile){
 <ol>
   <li>Use the <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</a> to search for an allele. The Phenotypic Alleles Query Results -- Summary report appears. </li>
   <li>Click an allele on the Summary report. The Phenotypic Allele Detail report appears.</li>
-  <li>If there are multiple images for this allele or phenotype, the phrase <i>Show all images  involving this allele</i> appears at the bottom left of the (primary) image. Click <u>all images</u> to access the All Images for Allele report.</li>
+  <li>If there are multiple images for this allele or phenotype, the phrase <i>Show all images  involving this allele</i> appears at the bottom left of the (primary) image. Click <span style="text-decoration: underline;">all images</span> to access the All Images for Allele report.</li>
 
 </ol>
 <p><b>Note: </b>If there are images for genotypes associated with this allele, they appear in the <b>Phenotypes</b> section of the Phenotypic Allele Detail report. Click on the image to access these Image Detail reports.</p>
@@ -77,11 +77,11 @@ function openHelpWindow(helpFile){
 
  <h3><a id="detail"></a>How do I interpret this information in this report?</h3>
 
-<TABLE BORDER=1 cellpadding=4> 
-<TR><th>Field</TH><th>Description</TH></TR>
-<TR><th>Nomenclature</th>
+<table> 
+<tr><th>Field</TH><th>Description</th></tr>
+<tr><th>Nomenclature</th>
     <td>
-     <table align="left" border="0" cellpadding="4">
+     <table>
      <tr>
      <th>Symbol</th>
      <td>Official symbol for the allele.</td>
@@ -89,7 +89,7 @@ function openHelpWindow(helpFile){
      <tr>
      <th>Name</th>
      <td>Approved name for the allele. See 
-<A HREF="<!--#include file='include/mgihome_url.html'-->nomen/gene.shtml" target="_blank">Guidelines for Nomenclature of Genes, Genetic Markers, Alleles, &amp; Mutations in Mouse &amp; Rat</a> for details.</td>
+<a href="<!--#include file='include/mgihome_url.html'-->nomen/gene.shtml" target="_blank">Guidelines for Nomenclature of Genes, Genetic Markers, Alleles, &amp; Mutations in Mouse &amp; Rat</a> for details.</td>
      </tr>
      <tr>
      <th>ID</th>
@@ -103,7 +103,7 @@ function openHelpWindow(helpFile){
 <tr><th>Images for Allele</th>
     <td>Click any image to see its Image Detail report with full description.</td>
 </tr>
-<TR>
+<tr>
 <th>Caption</th>
 <td>Brief description of the mouse/mice displayed in the image.</td>
 </tr>
@@ -111,17 +111,16 @@ function openHelpWindow(helpFile){
 <td><b>Genotypes involving this allele</b><br>
 (These fields may not contain information if the image is only associated with an allele and not a genotype.)</td>
 <td>
-  <table border=0 cellpadding=4>
+  <table>
    <tr>
    <th><span style="white-space: nowrap">Allelic Composition</span>
 </th>
    <td>Allele pairs that contribute to the genotype and the mouse strain background. Each allele is linked to its corresponding Phenotypic Allele Detail report.</td>
-</TR>
+</tr>
 <tr><th><span style="white-space: nowrap">Genetic Background</span></th>
 <td>Strain(s) involved in the genotype, if known. 
 </td>
 </tr>
-</td>
 </table>
 </table>
 </p>

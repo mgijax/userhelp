@@ -34,35 +34,36 @@ Interpreting Human Disease and Mouse Model Details</span>
 <!--#include file='include/templateBlankBodyStart.html'-->
 <!-- Body of User Help -->
 
-<a id="top"></A>
+<a id="top"></a>
 
-<P>This help document answers the following questions:
- <UL>
-<li><A href="#disease_detail">What information is in a disease detail report?</A></li>
-<li><A href="#how_interpret">How do I interpret a disease detail report?</A></li>
-<li><A href="#how_assoc">How are gene to disease associations made?</A></li>
+<p>This help document answers the following questions:
+ <ul>
+<li><A href="#disease_detail">What information is in a disease detail report?</a></li>
+<li><A href="#how_interpret">How do I interpret a disease detail report?</a></li>
+<li><A href="#how_assoc">How are gene to disease associations made?</a></li>
 </ul>
 </p>
 
-<H3><a id="disease_detail"></a>What information is in a disease detail report?</H3>
-<P>The Human Disease and Mouse Model Detail lists genes in human and/or mouse homologs that may be associated with this disease. </P>
+<h3><a id="disease_detail"></a>What information is in a disease detail report?</h3>
+<p>The Human Disease and Mouse Model Detail lists genes in human and/or mouse homologs that may be associated with this disease. </p>
 
-<H3><a id="how_interpret"></a>How do I interpret a disease detail report?</H3>
-<P>Some or all of the following information appears in a Human Disease and Mouse Model Detail report. If there is no information, the sentence <i>There are currently no human or mouse genes associated with this disease in the MGI database</i> appears.</p>
-<table width="!" class="nb" cellpadding="2" align="center">
+<h3><a id="how_interpret"></a>How do I interpret a disease detail report?</h3>
+<p>Some or all of the following information appears in a Human Disease and Mouse Model Detail report. If there is no information, the sentence <i>There are currently no human or mouse genes associated with this disease in the MGI database</i> appears.</p>
+
+<table class="nb">
 <tr align="center"><td><a href="#human_disease">Human Disease</a> | <a href="#syn">Synonyms</a> | <a href="#view_all">View all models</a> | <a href="#assoc_genes">Associated Genes</a> | <a href="#transgenes">Transgenes</a> | <a href="#mouse_models">Mouse Models</a> | <a href="#complex">Complex Models</a></td>
 </tr>
 </table>
 
-<TABLE BORDER CELLPADDING="4">
+<table>
 <TR><TH>Field</TH>  <TH>Description</TH></TR>
-<TR><th><a id="human_disease"></a>Human Disease</Th>
-<TD>
-<TABLE BORDER="0" CELLSPACING="0">
+<tr><th><a id="human_disease"></a>Human Disease</th>
+<td>
+<table>
  <tr><th>Term:</TH><td>Full name of the syndrome as it appears in the Human Disease Vocabulary (e.g., Parkinson's Disease)</td> </tr>
  <tr><th>Disease Ontology ID:</TH><td>Disease Ontology accession identifier, linked to Disease Ontology record for the disease (e.g., DOID:14330)</td></tr>
  <!--<tr><th>Human Phenotype Ontology</th><td>associations: linked to the Human Phenotype Ontology (HPO) terms associated with the disease. </td></tr>-->
-</TABLE></td></tr>
+</table></td></tr>
 <TR><th><a id="syn"></a>Synonyms</TH><TD>A semicolon delimited list of any synonyms for the disease (e.g., paralysis agitans)</TD></TR>
 <TR><th><a id="view_all"></a>View all models</TH><TD>The total number of mouse models for this disease, linked to their genotypes, references and phenotypes. See: <a href="#mouse_models">Mouse Models</a> below.</TD></TR>
 <tr><th><a id="assoc_genes"></a>Genes and mouse models</Th>
@@ -72,8 +73,8 @@ Interpreting Human Disease and Mouse Model Details</span>
         <LI><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif">Mouse models involving mutations in the mouse gene or expressing homologs of the mouse gene are associated with this human disease. (OMIM and NCBI data currently do not associate this disease with the homologous human gene.)</LI>
  		<LI><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">Mutations in the human gene are associated with this human disease phenotype. MGI may not contain evidence that a mutation in the mouse gene represents a model for this disease, if the mouse gene is homologous to a human gene associated with a disease, it is listed as a disease homolog.</LI>
    	 </ul>
-	<P>Links to additional information on genes, genotypes and phenotypes:</p>
- 	<UL>
+	<p>Links to additional information on genes, genotypes and phenotypes:</p>
+ 	<ul>
    		<li>The <b>Human Homologs</b> link to the either the HomoloGene Vertebrate Homology report where you can view homology and mapping information for several species and follow additional links (in the Gene Links column of that page) to databases such as OMIM, Entrez Gene and HGNC, or it links to the HGNC Mouse/Human Homology report. The later report appears when the Homology Source (the last column) is from HGNC/HCOP only. </li>
    		<LI>The <b>Mouse Homologs</b> link to the MGI Gene Detail reports for each gene listed. There you can find data about everything known about the gene in the MGI database: synonyms, genetic and sequence maps (including the MGI Mouse Genome Browser), vertebrate homology, representative sequences, phenotypes, gene ontology classifications, expression, protein domains, references, as well as links to related databases.</LI>
   		<li>The <b>Mouse Models</b> column shows the number of mouse models possessing an allele of that row's gene. This links to a pop-up window with genotype information (strain background and alleles) and links to references and phenotype data.</li>
@@ -81,34 +82,31 @@ Interpreting Human Disease and Mouse Model Details</span>
    		<LI><I>None identified</I> appears in the Mouse Homologs column when there are no mouse genes annotated with this disease, and there is no link to the Vertebrate Homology Class report.</li>-->
    	</ul>
    	<p>An asterisk (*) next to a gene symbol identifies a gene associated with the disease in that species.</p>
-	</td></TR>
+	</td></tr>
 
-<TR><th><a id="transgenes"></a>Transgenes and other genome features</th><TD>This section may be present if there are transgenes or other mutation types in mouse associated with this human disease phenotype. The <a href="#mouse_models">Mouse Models</a> column shows the number of transgene or other mutation type mouse models associated with the human disease and links to a pop-up window with references and genotype and phenotype data.</li></TD></TR>
+<tr><th><a id="transgenes"></a>Transgenes and other genome features</th><td>This section may be present if there are transgenes or other mutation types in mouse associated with this human disease phenotype. The <a href="#mouse_models">Mouse Models</a> column shows the number of transgene or other mutation type mouse models associated with the human disease and links to a pop-up window with references and genotype and phenotype data.</td></tr>
 </table>
 <p><b>Models</b>: A table of all models with phenotypic similarity to the disease. Models are organized into the following categories:
-  <OL>
-    <LI><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif"><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif"> Mouse models where at least one of the mouse genes and its homologous human gene are associated with this human disease. Mouse genes may appear in this section based on disease models that express homologs of the mouse gene.
-	</LI>
-    <LI><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif">Mouse models involving mutations in the mouse gene or  expressing homologs of the mouse gene are associated with this human disease. (OMIM and NCBI data currently do not associate this disease with the homologous human gene.)</LI>
-   	<LI><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">Mouse models where none of the mouse markers are associated to the disease but at least one of the human homologs is associated with this human disease.</LI>
-    <LI>Transgenes or other mutation types appears when at least one of the non-gene mouse markers is associated with this human disease.
-	</LI>
-    <!--<LI>NOT Models. This section appears when the reference's authors looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified. </LI>-->
-  </OL>
+  <ol>
+    <li><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif"><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif"> Mouse models where at least one of the mouse genes and its homologous human gene are associated with this human disease. Mouse genes may appear in this section based on disease models that express homologs of the mouse gene.</li>
+    <li><img src="<!--#include file='include/webshare_url.html'-->images/black_mouse_small.gif">Mouse models involving mutations in the mouse gene or  expressing homologs of the mouse gene are associated with this human disease. (OMIM and NCBI data currently do not associate this disease with the homologous human gene.)</li>
+   	<li><img src="<!--#include file='include/webshare_url.html'-->images/man_icon.gif">Mouse models where none of the mouse markers are associated to the disease but at least one of the human homologs is associated with this human disease.</li>
+    <li>Transgenes or other mutation types appears when at least one of the non-gene mouse markers is associated with this human disease.
+	</li>
+    <!--<li>NOT Models. This section appears when the reference's authors looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified. </li>-->
+  </ol>
   </p>
   
 <table>
 <tr><th>Disease Term</th><td>The disease term associated with the model. This column includes child terms of the selected term indicated at the top of the Disease Ontology Browser page.</td></tr>
-<TR><TH><span style="white-space: nowrap">Allelic Composition</span></TH><TD>Allele pairs that contribute to the genotype. Each allele is linked to its corresponding Phenotypic Allele Detail report.</TD></tr>
- <TR><TH><span style="white-space: nowrap">Genetic Background</span></TH><TD>Mouse strains involved, if described. </td></tr>
- <TR><TH>Reference</TH><TD>The supporting reference linked by its MGI reference number to the MGI Reference Detail report containing the full citation. </TD></tr>
- <TR><TH>Phenotypes</TH><TD>Links to the phenotypic details for the genotype.</TD></tr>
-</td></tr>
-<TR><th><a id="complex"></a>Additional Complex Models</th><TD>This section appears only when clicking the link to <a href="#view_all">View all models</a> and will only be present if there are models for which there are no endogenous disease-associated mouse or human genes. For each allelic combination, the genetic background, references and a link to phenotypic details are provided. </TD></TR>
+<tr><th><span style="white-space: nowrap">Allelic Composition</span></TH><TD>Allele pairs that contribute to the genotype. Each allele is linked to its corresponding Phenotypic Allele Detail report.</td></tr>
+<tr><th><span style="white-space: nowrap">Genetic Background</span></TH><TD>Mouse strains involved, if described. </td></tr>
+<tr><th>Reference</TH><TD>The supporting reference linked by its MGI reference number to the MGI Reference Detail report containing the full citation. </td></tr>
+<tr><th>Phenotypes</TH><TD>Links to the phenotypic details for the genotype.</td></tr>
+<tr><th><a id="complex"></a>Additional Complex Models</th><td>This section appears only when clicking the link to <a href="#view_all">View all models</a> and will only be present if there are models for which there are no endogenous disease-associated mouse or human genes. For each allelic combination, the genetic background, references and a link to phenotypic details are provided. </td></tr>
 <tr>
-<TR><th><a id="not_models"></a>Disease phenotype not observed</th><TD>This section appears only when clicking the link to <a href="#view_all">View all models</a> and only when the reference's authors looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified. For each allelic combination, the genetic background, references and link to phenotypic details are provided. </TD></TR>
-</TABLE>
-</p>
+<tr><th><a id="not_models"></a>Disease phenotype not observed</th><td>This section appears only when clicking the link to <a href="#view_all">View all models</a> and only when the reference's authors looked for but found no similarity to the expected human disease phenotype in the mouse genotype specified. For each allelic combination, the genetic background, references and link to phenotypic details are provided. </td></tr>
+</table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

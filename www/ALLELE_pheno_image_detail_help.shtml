@@ -63,8 +63,7 @@ function openHelpWindow(helpFile){
 </ul>
 </p>
 
-
-  <h3><a id="howdo"></a>How do I access this report?</h3>
+<h3><a id="howdo"></a>How do I access this report?</h3>
 <p>To access an Image Detail report:
 <ol>
   <li>Use the <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</a> to search for an allele. The Phenotypic Alleles Query Results -- Summary report appears. </li>
