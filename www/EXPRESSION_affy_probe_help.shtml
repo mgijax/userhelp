@@ -34,48 +34,41 @@ function openHelpWindow(helpFile){
 <!--#include file='include/templateBlankBodyStart.html'-->
 
 <!-- Body of User Help -->
-<a name="top"></A>
+
+<a id="top"></A>
 
 <p></p>
 <p>The Microarray Probeset Summary report displays all probesets and arrays associated with a marker.</p>
 
 <blockquote>
-<table border="1" cellpadding="4">
+<table>
 <tr>
 <th>Field</th>
 <th>Description</th>
 </tr>
 
 <tr>
-<th align="left" valign="top"><a name="sym_detail"></a>Symbol<br>
+<th><a id="sym_detail"></a>Symbol<br>
  Name<br>ID</th>
-<td valign="top">Official symbol, name, and MGI accession identifier of the marker with the probeset/array.</td>
+<td>Official symbol, name, and MGI accession identifier of the marker with the probeset/array.</td>
 </tr>
-
-
 <tr>
-<th align="left" valign="top"><a name="probeset"></a>Probesets</th>
-<td valign="top">The total number of probes associated with this marker (in MGI microarray annotation files) appears at the top of the column.
+<th><a id="probeset"></a>Probesets</th>
+<td>The total number of probes associated with this marker (in MGI microarray annotation files) appears at the top of the column.
  <blockquote>
-
-  <table border="0" cellspacing="0" cellpadding="0" width="100%">
-    <tr><th align="left" valign="top">Probeset ID</th><td valign="top">Identifier of each probeset/array associated with this marker.</td></tr>
-<tr><th align="left" valign="top">Microarray Platform</th><td valign="top">Name of each probeset/array associated with this marker.</td></tr>
+  <table>
+    <tr><th>Probeset ID</th><td>Identifier of each probeset/array associated with this marker.</td></tr>
+<tr><th>Microarray Platform</th><td>Name of each probeset/array associated with this marker.</td></tr>
   </table>
  </blockquote>
-
 </td>
 </tr>
-  
-<tr><th valign="top">FTP</th><td valign="top">Name of and link to each assay report identified under <b>Microarray Platform</b> (reports are stored on the 
+<tr><th>FTP</th><td>Name of and link to each assay report identified under <b>Microarray Platform</b> (reports are stored on the 
 <a href="<!--#include file='include/ftp_url.html'-->">MGI FTP site</a>).</td></tr>
 </table>
-
 </blockquote>
-</p>
 
-
- <a href="#top"><font size="-1">Top</font></a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'-->
 

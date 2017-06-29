@@ -41,23 +41,23 @@ function openHelpWindow(helpFile){
 </p>
 
 <ul>
- <li><A HREF="#contain">What's in the Vertebrate Homology Class Report?</A></li>
+ <li><a href="#contain">What's in the Vertebrate Homology Class Report?</a></li>
  <li><a href="#source">What is the source of the homology assertions?</a></li>
  <li><a href="#field">Which fields should show up in the Homology Class table?</a></li>
- <li><A href="#acc_ID">How do I view resources for genes?</A></li>
- <li><A href="#sequence">How do I view resources for sequences?</A></li>
+ <li><A href="#acc_ID">How do I view resources for genes?</a></li>
+ <li><A href="#sequence">How do I view resources for sequences?</a></li>
  <li><a href="#align">Can I view a multiple sequence alignment?</a></li>
- <li><A HREF="#fasta">How do I download sequences in FASTA format?</A></li>
- <LI><A HREF="#mouseblast">How do I forward sequences to NCBI BLAST?</A></LI>
+ <li><a href="#fasta">How do I download sequences in FASTA format?</a></li>
+ <LI><a href="#mouseblast">How do I forward sequences to NCBI BLAST?</a></LI>
  <li><a href="#graph">Are there curated Gene Ontology (GO) annotations for mouse, human, or rat genes in this homology class?</a></li>
 </ul>
 
 <P>See also:</P>
-<UL>
-<LI><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> (for unfamiliar terms or acronyms)</LI>
+<ul>
+<li><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> (for unfamiliar terms or acronyms)</li>
 </ul>
 
-<H3><a id="contain"></A>What's in the Vertebrate Homology Class Report?</H3>
+<H3><a id="contain"></a>What's in the Vertebrate Homology Class Report?</H3>
 <p>The Vertebrate Homology Class Report contains:
 </p>
 
@@ -92,16 +92,16 @@ function openHelpWindow(helpFile){
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="field"></A>Which fields should show up in the Homology Class table?</h3>
+<h3><a id="field"></a>Which fields should show up in the Homology Class table?</h3>
 <p>For each homolog in a class, the record shows some or all information in the following table, depending on the information available.
 </p>
 
-<table class="nb" width="!" align="center">
-<tr align="center"><td cellpadding="1"><a href="#Species">Species</a> | <a href="#Symbol">Symbol</a> | <a href="#acc_ID">Gene Links</a> | <a href="#Chr">Genetic Location</a> | <a href="#coord">Genome Coordinates</a> | <a href="#disease">Associated Human Diseases</a> | <a href="#sequence">Sequences</a> </td></tr>
+<table class="nb">
+<tr><td><a href="#Species">Species</a> | <a href="#Symbol">Symbol</a> | <a href="#acc_ID">Gene Links</a> | <a href="#Chr">Genetic Location</a> | <a href="#coord">Genome Coordinates</a> | <a href="#disease">Associated Human Diseases</a> | <a href="#sequence">Sequences</a> </td></tr>
 </table>
 
 <p>
-<TABLE BORDER cellpadding="4" width="100%">
+<table>
 <TR>
 <TH>FIELD</th> <TH>DESCRIPTION</th> </TR>
 <TR><th><a id="Species">Species</a></th> 

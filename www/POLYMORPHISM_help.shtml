@@ -17,7 +17,6 @@ function openHelpWindow(helpFile){
 </style>
 
 
-
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
@@ -31,7 +30,6 @@ Interpreting Polymorphism Results</span>
 <tr>
   <td class="enhance" align=left>
       <!--#include file='help_toolbar.shtml'-->
-	</td>
     </tr>
 </table>
 <!--#include file='include/templateBlankBodyStart.html'-->
@@ -40,19 +38,16 @@ Interpreting Polymorphism Results</span>
 
 <a id="top"></a>
 
-
 <p>The top of the page indicates the official symbol, linked to its Detail page, and its name, MGI accession ID, and chromosomal location. Just below this section a table summarizes the polymorphism data.</p>
 
 <p>The polymorphism assay table has the following fields and values:</p>
-
 
 <blockquote>
  <table>
   <tr><th>Reference</th><td>J number of the supporting reference, linked to reference record.</td></tr>
   <tr><th>Probe</th><td>Probe used to detect the polymorphism, linked to MGI probe or prime detail record.</td></tr>
   <tr><th>Endonuclease</th><td>Restriction enzyme used to cut the DNA.</td></tr>
-  <tr><th>Allele</th><td>Designation for the locus allele in which the polymorphism was
-found.</td></tr>
+  <tr><th>Allele</th><td>Designation for the locus allele in which the polymorphism was found.</td></tr>
   <tr><th>Fragments</th><td>Description of the restriction fragments and PCR products</td></tr>
   <tr><th>Strains</th><td>Strain names for the strains in which the given polymorphism was detected.</td></tr>
  </table>

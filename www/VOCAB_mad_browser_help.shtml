@@ -99,7 +99,7 @@ expression results from assays with differing spatial resolution in a consistent
 
 <h3><a id="td_page"></a>How do I interpret my results?</h3>
 <p>Your initial views of the Mouse Developmental Anatomy Browser will vary depending upon how you accessed the page. The table below explains the views.</p>
-<p><table width="!" cellpadding="2" class="nb">
+<p><table class="nb">
 <tr>
 <td><a href="#anatomy_search">Anatomy Search</a> |
 <a href="#term_detail">Anatomical Term Detail</a> |
@@ -111,7 +111,7 @@ expression results from assays with differing spatial resolution in a consistent
      <td>The search finds all structures in all stages that contain any of your search terms and displays a ranked list of those structures along with the developmental stages for which the structure is present. Click on a term to update the Anatomical Term Detail and Tree View sections of the page with the appropriate stages and the selected term highlighted in gold.</td></tr>        
 <tr><th><a id="term_detail"></a>Anatomical Term Detail</th>
     <td>
-     <table border="0" cellpadding="3">
+     <table>
       <tr>
        <th>Term</th>
        <td>The selected term <span class="highlight"><b>highlighted in gold</b></span>. If you accessed this page by clicking on a structure on another page, the appropriate structure is highlighted. Otherwise, before you initiate a search or browse, the default term is <i>embryo</i>.</td>

@@ -52,7 +52,7 @@ For more information on the Clone Collections, see:
 <p>If you reached this page from a Gene Detail page, then the top of the page indicates the official gene symbol, linked to its Gene Detail page, and its name and MGI accession ID. Just below this section the Sequence Type is indicated and a paginated table summarizes the information for probes, clones and primers associated with the gene. If you reached this page from a Reference Detail page, then the top provides a Reference Summary. 
 </p>
 
-<TABLE BORDER CELLPADDING="4">
+<table>
 <TR>
 <TH>FIELD <TH>DESCRIPTION
 </TR>
@@ -92,7 +92,7 @@ May be one of the following: cDNA, genomic, DNA (construct), mitochondrial, olig
 <H3><a id="what_do"></A>What do these collections consist of?</h3>
 
 <P>
-<table border="1" cellpadding="4 width="100%">
+<table>
 <tr><th>Collection</th> <th>Link</th><th>Details</th></tr>
 
 <tr><td>IMAGE</td> <td><a href="http://imageconsortium.org">I.M.A.G.E. Consortium</a></td>

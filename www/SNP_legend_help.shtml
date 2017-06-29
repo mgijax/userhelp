@@ -35,25 +35,23 @@ function openHelpWindow(helpFile){
 
 <!-- Body of User Help -->
 
-<a NAME="top"></a>
+<a id="top"></a>
 
-<P>This help document describes the following sections of the MGI Mouse SNPs Results Table:
+<p>This help document describes the following sections of the MGI Mouse SNPs Results Table:</p>
  <UL>
 <li><a href="#refss">RefSNPs (rs) vs. Submitted SNPs (ss)</a></li>
-<li><a href="#function_class">Function Classes</a></li>
+<li><a href="#function_class">Function Classes</a>
   <ul>
     <li><a href="#notes">Notes on Function Classes</a> </li>
     <li><a href="#dbSNP_classes">dbSNP Function Classes</a></li>
     <li><a href="#MGI_classes">MGI Function Classes</a></li>
-
-  </ul>
-  
-<LI><A HREF="#variation_type">Variation Types</A></LI>
-<LI><A HREF="#strain_alleles">Strain Alleles</A></LI>
+  </ul></li>
+<li><a href="#variation_type">Variation Types</a></li>
+<li><a href="#strain_alleles">Strain Alleles</a></li>
 </ul>
 
-<P>See also:
-<UL>
+<p>See also:
+<ul>
   <li><a href="SNP_terms_help.shtml" target="_blank">SNP Terms and Concepts</a> </li>
   <li><a href="SNP_summary_help.shtml" target="_blank">Interpreting a Mouse SNP Summary</a></li>
    <li><a href="SNP_detail_help.shtml" target="_blank">Interpreting Mouse SNP Details</a> </li>
@@ -64,62 +62,61 @@ function openHelpWindow(helpFile){
 </ul>
 </p>
 
-<h3><a name="refss"></a>RefSNPs (rs) vs. Submitted SNPs (ss)</h3>
+<h3><a id="refss"></a>RefSNPs (rs) vs. Submitted SNPs (ss)</h3>
 <p>
 <blockquote>
-<table border="1" cellpadding="1" cellspacing="1">
-<tr><th align="left" valign="top">RefSNP</th>
-<td valign="top">Reference SNP (rs). dbSNP maps each submitted SNP assay (ss) to the genome and assigns a RefSNP accession ID (rs#) to each submitted SNP assay. Submitted SNPs that map to the same location are clustered into the same RefSNP and have the same rs#.</td></tr>
-<tr><th valign="left" valign="top">Assay ID</th>
-<td valign="top">Assay ID (ss) assigned by dbSNP.  <b>Bold</b>: Exemplar (or representative) ss.<br>The rs reference flanking sequence is derived from the submitted flanking sequence for the exemplar ss.</td></tr>
-<tr><th valign="left" valign="top">Submitter<br>SNP ID</th><td valign="top">Assay ID assigned by the submitter.</td></tr>
-<tr><th valign="left" valign="top">rs orient</th>
-<td valign="top">Orientation of the rs reference flanking sequence relative to the mouse genome sequence (f-forward, r-reverse).</td></tr>
-<tr><th valign="left" valign="top">ss orient</th>
-<td valign="top">Orientation of the ss flanking sequence relative to the rs reference flanking sequence (f-forward, r-reverse).</td></tr>
+<table>
+<tr><th>RefSNP</th>
+<td>Reference SNP (rs). dbSNP maps each submitted SNP assay (ss) to the genome and assigns a RefSNP accession ID (rs#) to each submitted SNP assay. Submitted SNPs that map to the same location are clustered into the same RefSNP and have the same rs#.</td></tr>
+<tr><th>Assay ID</th>
+<td>Assay ID (ss) assigned by dbSNP.  <b>Bold</b>: Exemplar (or representative) ss.<br>The rs reference flanking sequence is derived from the submitted flanking sequence for the exemplar ss.</td></tr>
+<tr><th>Submitter<br>SNP ID</th><td>Assay ID assigned by the submitter.</td></tr>
+<tr><th>rs orient</th>
+<td>Orientation of the rs reference flanking sequence relative to the mouse genome sequence (f-forward, r-reverse).</td></tr>
+<tr><th>ss orient</th>
+<td>Orientation of the ss flanking sequence relative to the rs reference flanking sequence (f-forward, r-reverse).</td></tr>
 </table>
 </blockquote>
-
 </p>
 
-<h3><a name="function_class"></a>Function Classes</h3>
-<h4><a name="notes"></a>Notes on Function Classes</h4>
+<h3><a id="function_class"></a>Function Classes</h3>
+<h4><a id="notes"></a>Notes on Function Classes</h4>
 <ul>
-  <li><a name="no_class"></a>A class does not appear on  MGI queries unless it is annotated to mouse SNPs. One exception, <b>Contig-Reference</b>, does not appear on the Mouse SNP Query Form but does appear on Mouse SNP Detail reports.</li>
-  <li><a name="model_discrepancy"></a>The coordinates for an MGI gene are obtained from either Ensembl, NCBI, or VEGA gene model annotations of the genome assembly. Occasionally the gene model used for MGI gene coordinates differs from the gene model used by dbSNP to annotate SNP Function Classes. This can give rise to Function Class annotation discrepancies between dbSNP and MGI. For example, a SNP may be annotated to a gene as <b>Locus-Region</b> by dbSNP which implies that it is located outside of the transcribed region for the gene, yet that SNP may fall within the coordinate range (<b>within coordinates</b>) of the gene in MGI.
+  <li><a id="no_class"></a>A class does not appear on  MGI queries unless it is annotated to mouse SNPs. One exception, <b>Contig-Reference</b>, does not appear on the Mouse SNP Query Form but does appear on Mouse SNP Detail reports.</li>
+  <li><a id="model_discrepancy"></a>The coordinates for an MGI gene are obtained from either Ensembl, NCBI, or VEGA gene model annotations of the genome assembly. Occasionally the gene model used for MGI gene coordinates differs from the gene model used by dbSNP to annotate SNP Function Classes. This can give rise to Function Class annotation discrepancies between dbSNP and MGI. For example, a SNP may be annotated to a gene as <b>Locus-Region</b> by dbSNP which implies that it is located outside of the transcribed region for the gene, yet that SNP may fall within the coordinate range (<b>within coordinates</b>) of the gene in MGI.</li>
 </ul>
-</p>
 
-<h4><a name="dbSNP_classes"></a>dbSNP Function Classes</h4>
-<p><blockquote>
-<table border="1" cellpadding="4" cellspacing="1">
-<tr align="left" valign="top"><th valign="top">Class</th><th valign="top">The variation is ...</th></tr>
-<tr><th align="left" valign="top">Coding-NonSynonymous</th><td valign="top">In the coding region; change in amino acid sequence.</td></tr>
-<tr><th align="left" valign="top">Coding-Synonymous</th><td valign="top">In the coding region; no change in amino acid sequence.</td></tr>
-<tr><th align="left" valign="top">Intron</th><td valign="top">In the intron, except the first or last two bases of the intron.</td></tr>
-<tr><th align="left" valign="top">Locus-Region</th><td valign="top">In an untranscribed region flanking a gene (2 kb 5' or 0.5 kb 3').</td></tr>
-<tr><th align="left" valign="top">Splice-Site</th><td valign="top">In the first or last two  bases of an intron. </td></tr>
-<tr><th align="left" valign="top">mRNA-UTR</th><td valign="top">In the transcript but not in the coding region interval. (UTR is <i>untranslated region</i>).</td></tr>
-<tr><th align="left" valign="top">Contig-Reference</th><td valign="top">Identical to the contig nucleotide.</td></tr>
-<tr><th align="left" valign="top">Coding</th><td valign="top">In the coding region; specific function class unknown.</td></tr>
-<tr><th align="left" valign="top">Coding-Exception</th><td align="left">In the coding region; function class unknown due to exon alignment error.</td></tr>
-<tr><th align="left" valign="top">Non-coding-Transcript-Variant</th><td align="left">In a non-coding transcript.</td></tr>
+<h4><a id="dbSNP_classes"></a>dbSNP Function Classes</h4>
+<p>
+<blockquote>
+<table>
+<tr><th>Class</th><th>The variation is ...</th></tr>
+<tr><th>Coding-NonSynonymous</th><td>In the coding region; change in amino acid sequence.</td></tr>
+<tr><th>Coding-Synonymous</th><td>In the coding region; no change in amino acid sequence.</td></tr>
+<tr><th>Intron</th><td>In the intron, except the first or last two bases of the intron.</td></tr>
+<tr><th>Locus-Region</th><td>In an untranscribed region flanking a gene (2 kb 5' or 0.5 kb 3').</td></tr>
+<tr><th>Splice-Site</th><td>In the first or last two  bases of an intron. </td></tr>
+<tr><th>mRNA-UTR</th><td>In the transcript but not in the coding region interval. (UTR is <i>untranslated region</i>).</td></tr>
+<tr><th>Contig-Reference</th><td>Identical to the contig nucleotide.</td></tr>
+<tr><th>Coding</th><td>In the coding region; specific function class unknown.</td></tr>
+<tr><th>Coding-Exception</th><td>In the coding region; function class unknown due to exon alignment error.</td></tr>
+<tr><th>Non-coding-Transcript-Variant</th><td>In a non-coding transcript.</td></tr>
 </table>
 </blockquote>
-
 </p>
-<a href="#top">Top</a>
 
-<h4><a name="MGI_classes"></a>MGI Function Classes</h4>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h4><a id="MGI_classes"></a>MGI Function Classes</h4>
 <p>The following are MGI function classes that appear when genome coordinates are "in sync" <br>(see <a href="SNP_discrepancy_help.shtml" target="_blank">Understanding Mouse SNP Coordinate Discrepancies</a> for details).</p>
 <blockquote>
-<table border="1" cellpadding="4" cellspacing="1">
-<tr align="left" valign="top"><th valign="top">Class</th><th valign="top">The variation ...</th></tr>
+<table>
+<tr><th>Class</th><th>The variation ...</th></tr>
 <tr><th><b>Locus-Region upstream</b></th><td>Is an annotation that falls upstream of the annotated gene.</td></tr>
 <tr><th><b>Locus-Region downstream</b></th><td>Is an annotation that falls downstream of the annotated gene.</td></tr>
 <tr><th>x bp upstream</th><td>Lies within the distance indicated, upstream from the gene's 5' coordinate.</td></tr>
-<tr><th><nobr>x bp downstream</th><td>Lies within the distance indicated, downstream from the gene's 3' coordinate.</td></tr>
-<tr><th>within coordinates of</th><td>Lies within the MGI coordinate range of the gene and has no dbSNP annotation.</td></tr>
+<tr><th>x bp downstream</th><td>Lies within the distance indicated, downstream from the gene's 3' coordinate.</td></tr>
+<tr><th><span style="white-space: nowrap">within coordinates of</span></th><td>Lies within the MGI coordinate range of the gene and has no dbSNP annotation.</td></tr>
 <tr><th>x bp proximal</th><td>Lies within the distance indicated, in the proximal direction from the feature's most proximal coordinate. Applies only to SNPs associated with genome features that do not have a defined transcriptional orientation (strand).</td></tr>
 <tr><th>x bp distal</th><td>Lies within the distance indicated, in the distal direction from the feature's most distal coordinate. Applies only to SNPs associated with genome features that do not have a defined transcriptional orientation (strand).</td></tr>
 <tr><th>Locus-Region proximal</th><td>Is an annotation that falls near a genome feature in the proximal direction. Applies only to SNPs with dbSNP-assigned Locus-Region annotations to genome features that do not have a defined transcriptional orientation (strand).</td></tr>
@@ -127,20 +124,19 @@ function openHelpWindow(helpFile){
 </table>
 </blockquote>
 
-</p>
-<a href="#top">Top</a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="variation_type"></a>Variation Types</h3>    
+<h3><a id="variation_type"></a>Variation Types</h3>    
 <blockquote>
 <p>
-<table border="1" cellpadding="1" cellspacing="1">
-<tr><th align="left" valign="top">SNP</th><td valign="top">Single Nucleotide Polymorphism</td></tr>
-<th align="left" valign="top">IN-DEL</th><td valign="top">Insertion/Deletion Polymorphism</td></tr>
-<tr><th align="left" valign="top">Named</th><td align="left" nowrap>Named/Characterized Insertion Variant</td></tr>
-<tr><th align="left" valign="top">Mixed</th><td valign="top">Two or more Variation Types</td></tr><tr>
-<tr><th align="left" valign="top">MNP</th><td valign="top">Multiple Nucleotide Polymorphism</td></tr><tr>
-<th align="left" valign="top">STR</th><td valign="top">Short Tandem Repeat or Microsatellite</td></tr>
-<tr><th align="left" valign="top">None</th><td valign="top">No Variation Detected</td></tr>
+<table>
+<tr><th>SNP</th><td>Single Nucleotide Polymorphism</td></tr>
+<tr><th>IN-DEL</th><td>Insertion/Deletion Polymorphism</td></tr>
+<tr><th>Named</th><td><span style="white-space: nowrap">Named/Characterized Insertion Variant</span></td></tr>
+<tr><th>Mixed</th><td>Two or more Variation Types</td></tr><tr>
+<tr><th>MNP</th><td>Multiple Nucleotide Polymorphism</td></tr><tr>
+<th>STR</th><td>Short Tandem Repeat or Microsatellite</td></tr>
+<tr><th>None</th><td>No Variation Detected</td></tr>
 </table>
 </blockquote>
 
@@ -148,9 +144,9 @@ function openHelpWindow(helpFile){
 See <a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">SNP Terms and Concepts</a> for definitions of the dbSNP variation types.
 </p>
 
-<a href="#top">Top</a>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a name="strain_alleles"></a>Strain Alleles</h3>
+<h3><a id="strain_alleles"></a>Strain Alleles</h3>
 <blockquote>
 <table>
 <style type="text/css">
@@ -165,8 +161,8 @@ th { border: thin solid;
 	text-align: center;
 	}
 </style>
-   <tr><td align="center" valign="top">
-       <table border="1" cellpadding="0" cellspacing="1" width="100%">
+   <tr><td>
+       <table>
          <tr><td style= "background: #FF8787;">&nbsp;A&nbsp;</td>
              <td style= "background: #8787FF;">&nbsp;C&nbsp;</td>    
              <td style= "background: #00ff00;">&nbsp;G&nbsp;</td>    
@@ -174,26 +170,26 @@ th { border: thin solid;
           </tr>
       </table>
       </td>
-      <td valign="top">Nucleotide values (no conflict for the strain)</td>
+      <td>Nucleotide values (no conflict for the strain)</td>
     </tr>
-   <tr><td align="center" valign="top">
-        <table border="1" cellpadding="0" cellspacing="1" valign="top">
+   <tr><td>
+        <table>
          <tr>
           <td style= "background: #AAAAAA;">&nbsp;-&nbsp;</td>
          </tr>
         </table>
-       <td valign="top">(dash) indicates a deletion for that strain relative to some other strain.</td>
+       <td>(dash) indicates a deletion for that strain relative to some other strain.</td>
    </tr>
    <tr>
-      <td align="center" valign="top">
-        <table border="1" cellpadding="0" cellspacing="1" valign="top">
+      <td>
+        <table>
           <tr>    
             <td style= "background: #FFFFFF;">&nbsp;i&nbsp;</td>
             <td style= "background: #FFFFFF;">&nbsp;j&nbsp;</td>    
             <td style= "background: #FFFFFF;">&nbsp;k&nbsp;</td>
           </tr>
         </table>
-      <td valign="top">Single letter insertion codes indicate noted insertion sequences defined in the Insertions column (see below).</td>
+      <td>Single letter insertion codes indicate noted insertion sequences defined in the Insertions column (see below).</td>
    </tr>
     <!--<tr>
        <td align="center" valign="top">
@@ -202,48 +198,49 @@ th { border: thin solid;
             <td bgcolor="#FFFFFF" align="center">&nbsp;N&nbsp;</td>
           </tr>
          </table>
-       <td valign="top">Allele determination failed for that strain.</td>
+       <td>Allele determination failed for that strain.</td>
     </tr>-->
     <tr>
-       <td align="center" valign="top">
-         <table border="1" cellpadding="0" cellspacing="1" valign="top">
+       <td>
+         <table>
            <tr>    
             <td style= "background: #FFFFFF;">&nbsp;&nbsp;&nbsp;</td>
            </tr>
          </table>
-       <td valign="top">(blank cell) means that no allele data are available <!--submitted--> for that strain.</td>
+       <td>(blank cell) means that no allele data are available <!--submitted--> for that strain.</td>
     </tr>
     <tr>
-       <td align="center" valign="top">
-         <table border="1" cellpadding="0" cellspacing="1" valign="top">
+       <td>
+         <table>
           <tr>    
             <td style= "background: #FF8C00;"><img src="images/Strain_trans.gif" width="10" height="46" alt="STRAIN"></td>
           <tr>
          </table>
-       <td valign="top">Reference Strain Selected (SNP results summary pages only).</td>
+       <td>Reference Strain Selected (SNP results summary pages only).</td>
     </tr>
-    <tr><td align="center" valign="top">
-        <table border="1" cellpadding="0" cellspacing="1" width="100%">
-<tr><td style= "background: #FF8787;">&nbsp;<u>A</u>&nbsp;   </td>
+    <tr><td>
+        <table>
+<tr><td style= "background: #FF8787;">&nbsp;<span style="text-decoration: underline;">A</span>&nbsp;   </td>
  <td style= "background: #8787FF;">
-     &nbsp;<u>C</u>&nbsp;
+     &nbsp;<span style="text-decoration: underline;">C</span>&nbsp;
     </td>    <td style= "background: #00ff00;">
-     &nbsp;<u>G</u>&nbsp;
+     &nbsp;<span style="text-decoration: underline;">G</span>&nbsp;
     </td>    <td style= "background: #ffff00;">
-    &nbsp;<u>T</u>&nbsp;
+    &nbsp;<span style="text-decoration: underline;">T</span>&nbsp;
     </td></tr></table></td>
-<td valign="top">(underlined) Nucleotide value conflict for the strain; consensus value determined by majority.</td></tr>
-<tr><td align="center" valign="top"><table border="1" cellpadding="2" cellspacing="2" valign="top"><tr><td style= "background: #FFFFFF;">
+<td>(underlined) Nucleotide value conflict for the strain; consensus value determined by majority.</td></tr>
+<tr><td>
+    <table><tr><td style= "background: #FFFFFF;">
      &nbsp;?&nbsp;
 </td></tr></table>
-<td valign="top">The consensus value is ambiguous because there is a nucleotide value conflict for the strain. <!--or because all submitted alleles for the strain are N--></td></tr>
-<tr><th align="center" valign="top">Insertions</th>
-<td valign="top">Insertion allele sequences for single-letter insertion codes.</td></tr>
-<tr><th align="center" valign="top">Allele Summary</th>
-<td valign="top">Summary of observed allele values from all strains for the RefSNP (SNP results summary pages only).</td></tr></table>
+<td>The consensus value is ambiguous because there is a nucleotide value conflict for the strain. <!--or because all submitted alleles for the strain are N--></td></tr>
+<tr><th>Insertions</th>
+<td>Insertion allele sequences for single-letter insertion codes.</td></tr>
+<tr><th>Allele Summary</th>
+<td>Summary of observed allele values from all strains for the RefSNP (SNP results summary pages only).</td></tr></table>
 
 </blockquote>
-</p>
-<a href="#top">Top</a>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 

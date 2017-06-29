@@ -35,7 +35,7 @@ Interpreting Gene Expression Data and Image Details</span>
 <a id="top"></a>
 <p>This help document answers the following questions:
 <ul>
-<li><A HREF="#detail">How do I interpret an expression detail record?</a></li>
+<li><A HREF="#detail">How do I interpret an expression detail record?</a>
    <ul>
      <li><a href="#probes">Assays that use nucleotide probes</a></li>
      <li><a href="#antibody">Assays that use antibodies</a></li>
@@ -44,7 +44,7 @@ Interpreting Gene Expression Data and Image Details</span>
      <li><a href="#insitu">Tabular display for <i>in situ</i> assays</a></li>
      <li><a href="#results">Results tables for each specimen</a></li>
      <li><a href="#images">Images of expression data</a></li>
-   </ul>
+   </ul></li>
 <li><A HREF="#click">What happens if I click  <I>Your Input Welcome</I>?</a></li>
 </ul>
 </p>
@@ -55,11 +55,11 @@ Interpreting Gene Expression Data and Image Details</span>
 
 <p>An assay detail record provides a brief description of the assay performed, the probe used in the assay, a tabular representation of the experimental data obtained and, when available, an image of the primary expression data. The information presented in the table varies depending on assay type. In all cases, the following fields are part of the detail record:</p>
 <blockquote>
- <TABLE BORDER WIDTH="!" cellspacing="1" CELLPADDING="4">
+ <table>
    <TR>
    <td><b>Assay</b></td>
    <td>
-<table border cellpadding="4" cellspacing="4">
+<table>
   <tr>
    <td><b>Field</b></td>       
    <td><b>Description</b></td></tr>
@@ -89,7 +89,7 @@ Interpreting Gene Expression Data and Image Details</span>
 
 <p>The description for assays that use nucleotide probes may include the following additional fields:<br><br>
 <blockquote>
- <table border  width="!" cellspacing="1" cellpadding="4">
+ <table>
   <tr>
  <td><b>Field</b></td>  <td><b>Description</b></td> </tr>
   <tr><td><b>Reporter</b></td> <td>If the assay type is <i>in situ</i> reporter (knock-in), the name of the reporter gene.
@@ -108,7 +108,7 @@ Interpreting Gene Expression Data and Image Details</span>
 <p>The description for assays that use antibodies may include
 the following additional fields:<br><br>
  <blockquote>
- <table border width="!" cellpadding="4" cellspacing="1">
+ <table>
    <tr>
    <td><b>Field</b></td> <td><b>Description</b></td>
    </tr>
@@ -127,7 +127,7 @@ the following additional fields:<br><br>
 <p>The description for <i>in situ</i> reporter (knock in) assays that use
 direct detection includes the following additional fields:</p>
 <blockquote>
-  <table border width="!" cellpadding="4" cellspacing="1">
+  <table>
    <tr>
   <td><b>Field</b></td> <td><b>Description</b></td>
    </tr>
@@ -149,7 +149,7 @@ direct detection includes the following additional fields:</p>
 
 <h4><a id="gels"></a>Tabular display for gel assays</h4>
 <p>For gel assays, a Gel Data section is provided. Note that the information for each gel lane runs horizontally on the display. If the database includes an image of the gel, the image appears above the table and links to its detail page. If we do not have the publisher's permission to display the image, only the figure label will be displayed. Notes may appear below the table, providing further information about the age of the specimens or details about the bands.</p>
-<table width="!" class="nb" cellpadding="4" align="center">
+<table class="nb">
 <tr><Td><A HREF="#lane">Lane</a> | 
 <A HREF="#age">Sample Information: Age</A> | 
 <A HREF="#structure">Sample Information: Structure</A> | 
@@ -160,16 +160,16 @@ direct detection includes the following additional fields:</p>
 <A HREF="#sex">Sex</A> |
 <a href="#note">Notes</a></td>
  </TR>
-  </TABLE>
+  </table>
 
-<table border width="!" cellpadding="4" cellspacing="1">
-  <TR>
-    <td><b>Field</b></td>  <td><b>Description </b></td></TR>
-  <TR>
+<table>
+  <tr>
+    <td><b>Field</b></td>  <td><b>Description </b></td></tr>
+  <tr>
    <td><a id="lane"></a><b>Lane </b></td><td>Each lane is represented as a row in the table. The Lane label is given as "Lane #," unless the authors specify labels for the lanes.</td> </TR>
   <TR>
   <td><a id="age"></a><b>Sample Information: Age</b></td> <td>Age of the specimen used in the assay.  Whenever possible, the age annotations are normalized according to the following conventions: noon of the day on which the vaginal plug is found is counted as embryonic (E) day 0.5. Therefore, e.g., if an author refers to the day on which the plug is found as E0, we add 0.5 to the age value(s) listed in the paper and the comment <i>Age normalized so that noon of plug day = E0.5</i> to the record. If the staging criteria are not described in the paper, we annotate to the ages given by the authors and may add the comment <i>Age of embryo at noon of plug day not specified in reference</i> to the record. <p>The abbreviations for age annotation are as follows:
-<table border width="!" cellpadding="4" cellspacing="1">
+<table>
 <TR><td><b>E</b></td> <TD>Embryonic day</TD> </TR>
 <TR><td><b>P  </b></td> <td>Postnatal or postnatal day </TD> </TR>
 <TR> <td><b>P w</b></td> <td>Postnatal week</TD> </TR>
@@ -177,7 +177,6 @@ direct detection includes the following additional fields:</p>
 <TR> <td><b>P y</b></td> <td>Postnatal year</TD> </TR>
 <TR> <td><b>P adult</b></td> <td>Postnatal adult</TD> </TR>
 <TR> <td><b>P newborn</b></td> <td>Postnatal newborn</TD> </TR>
-
 </TABLE>
 
 </TR>
@@ -222,7 +221,7 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
 
 <BLOCKQUOTE>
 
-<table border width="!" cellpadding="4" cellspacing="1">
+<table>
   <TR> <td><b>Field</b></td> <td><b>Description </b></td></TR>
   <TR><td><a id="strain2"></a><b>Genetic Background</b></td> <td>Strain information for the specimen, if specified.  Use of <EM>involves:</EM> in the annotation indicates that the strains listed (separated by asterisks) contributed to the genetic background of the specimen; additional unspecified strains may also be part of the specimen's genetic background. <EM>Either:</EM> appears when the authors use more than one genetic background in a reference but do not specify which one is the background of the specimen.</TD></TR>
   <TR><td><a id="mutations2"></a><b>Mutant Allele(s)</b></td> <td>If the specimen is a mutant, the allele pairs describing the mutant genotype appear in this field, linked to the Allele Detail report. </TD></TR>
@@ -243,7 +242,7 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
 <P>There is a results table for each specimen. Above the results table are images of the specimen, linked to a detail page with further information about the image. </P>
 <BLOCKQUOTE>
 
- <TABLE BORDER WIDTH="!" CELLPADDING="4" cellspacing="1">
+ <table>
   <TR>
  <th>Field</th><TH>Description</th> </TR>
   <TR>
@@ -290,7 +289,7 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
 
 <blockquote>
 
-<table border="1" width="!" cellspacing="1" cellpadding="4">
+<table>
  <tr><th><b>Field</b></th><th><b>Description</b></th> </tr>
  <tr><td><b>Reference</b></td> <td>J number, linked to the reference the image is derived from.</td> </tr>
  <tr>
@@ -305,7 +304,7 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
 
 <P>The following fields appear below the image:</p>
 <blockquote>
-<table border="1" width="!" cellspacing="1" cellpadding="4">
+<table>
  <tr>  <th>Field</th>  <th>Description</th></tr>
  <tr>
    <td><b>Caption</b></td> <td>Notes that the curators feel are necessary to orient users when viewing the image.</td></tr>

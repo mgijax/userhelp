@@ -19,7 +19,6 @@ function openHelpWindow(helpFile){
 </style>
 
 
-
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
@@ -27,7 +26,6 @@ function openHelpWindow(helpFile){
   </div> 
 <!-- Container Table -->
 <table border=0 cellpadding=0 cellspacing=5 width="100%">
-
 
 <!-- Title Bar -->
 <tr>
@@ -38,36 +36,36 @@ function openHelpWindow(helpFile){
 <!--#include file='include/templateBlankBodyStart.html'-->
 
 
-
-
 <!-- Body of User Help -->
-<A NAME="top"></A>
-<P>This help document answers the following questions:</p>
- <UL>
- <LI><A HREF="#whatis">What can I use this query form to find?</a> </LI>
- <LI><A HREF="#howuse">How do I use the Gene Expression Literature Query Form?</a></LI>
- <LI><A HREF="#field">What values are acceptable in each of the fields?</a></LI>
- <LI><A HREF="#summary">How do I interpret Gene Expression Literature Results?</a></LI>
+
+<a id="top"></a>
+
+<p>This help document answers the following questions:</p>
+ <ul>
+ <li><a href="#whatis">What can I use this query form to find?</a> </li>
+ <li><a href="#howuse">How do I use the Gene Expression Literature Query Form?</a></li>
+ <li><a href="#field">What values are acceptable in each of the fields?</a></li>
+ <li><a href="#summary">How do I interpret Gene Expression Literature Results?</a>
    <ul>
-   <LI><A HREF="#aiqrs">Ways of accessing Gene Expression Literature Results</a></LI>
-   <LI><A HREF="#irbaa">Summary by Age and Assay</a></LI>
-   <LI><A HREF="#irbgr">Summary by Gene and Reference</a></LI>
-   </ul>
- <LI><A HREF="#detail">How do I interpret Gene Expression Literature Detail results?</a></LI>
+   <li><a href="#aiqrs">Ways of accessing Gene Expression Literature Results</a></li>
+   <li><a href="#irbaa">Summary by Age and Assay</a></li>
+   <li><a href="#irbgr">Summary by Gene and Reference</a></li>
+   </ul></li>
+ <li><a href="#detail">How do I interpret Gene Expression Literature Detail results?</a></li>
+ </ul>
 
-
- <h3><A name="whatis"></a>What can I use this query form to find?</h3>
+<h3><a id="whatis"></a>What can I use this query form to find?</h3>
 <p>The Gene Expression Literature Query Form allows you to query for references that include data on endogenous gene expression in the mouse.  The Gene Expression Database (GXD) curators create content records that contain information on the genes and ages analyzed and assay types used in each reference; the query form queries these content records.  To the best of our knowledge, all publications containing embryonic expression data from 1993 to the present for all pertinent journals, and from 1990 to the present for the major development journals, have content records.  However, expression assays using knock-in reporter genes have only been included in the content records since May 2002.  Curators add content records to GXD weekly.
 </p>
 
- <h3><A name="howuse"></a>How do I use the Gene Expression Literature Query Form?</h3>
-<P>To search, enter or select values in one or more of the search form fields described in the following paragraphs. After entering values in the form fields, click <b>Search</b> to submit the query. Click <b>Reset</b> to clear the fields and return any default values.
+<h3><a id="howuse"></a>How do I use the Gene Expression Literature Query Form?</h3>
+<p>To search, enter or select values in one or more of the search form fields described in the following paragraphs. After entering values in the form fields, click <b>Search</b> to submit the query. Click <b>Reset</b> to clear the fields and return any default values.
 </p>
 
-
-<H3><A name="field"></a>What values are acceptable in each of the fields?</H3>
-<P><table class="nb" width="!" cellpadding="4" align="center">
-<tr><Td VALIGN="top"><a href="#sym">Gene Symbol/Name</a>
+<H3><a id="field"></a>What values are acceptable in each of the fields?</H3>
+<p>
+<table class="nb">
+<tr><td><a href="#sym">Gene Symbol/Name</a>
  | <a href="#atyp">Assay type</a>
  | <a href="#age">Age</a>
  | <a href="#author">Author</a>
@@ -76,39 +74,38 @@ function openHelpWindow(helpFile){
   | <a href="#text">Text</a></td>
 </tr>
 </table>
-<TABLE border cellpadding=4 cellspacing=2>
+<table>
   <TBODY>
-   <TR>
-    <TH>Field</th> <TH>Description</th></TR>
-   <TR>
-<td align="left" valign="top"><a name="sum"></a><b>Gene Symbol/Name</b></td><TD>Symbol, name, or synonym for a mouse genetic marker. <!--Enter one or more terms, separated by commas.-->  
+   <tr>
+    <TH>Field</th> <TH>Description</th></tr>
+   <tr>
+<th><a id="sum"></a><b>Gene Symbol/Name</b></th><td>Symbol, name, or synonym for a mouse genetic marker. <!--Enter one or more terms, separated by commas.-->  
 <ul>
 <li>Enter 3 or more characters to perform a "begins" search, e.g., pax. You can also use an asterisk to search for genes with similar nomenclature, e.g., Bmp*.</li>
 <li>A search for <i>growth factor</i> finds nomenclature containing <i>growth</i> AND <i>factor</i>.</li>
 <li>This field searches only alphanumeric characters. Single and double quotes, commas and hyphens are ignored.</li>
-<li><a name="casesen">MGI</A> database searching is not case sensitive.</li>
+<li><a id="casesen">MGI</a> database searching is not case sensitive.</li>
 </ul>
 </td>
-  </TR>
-<TR><td align="left" valign="top"><a name="atyp"></a><b>Assay type</b></TH>
-    <TD>Selection list of assay types. Use this field to limit your search to assays of one or more selected types. The default operator is ANY. </td></tr>
+  </tr>
+<tr><th><a id="atyp"></a><b>Assay type</b></th>
+    <td>Selection list of assay types. Use this field to limit your search to assays of one or more selected types. The default operator is ANY. </td></tr>
 
-<TR><td valign="top"><a name="age"></a><b>Age</b></Td>
-    <TD><A name="dpc"></A>Days post conception of the specimen used in the reference. In addition to specific age values available on the drop-down list, there are also <b>E</b> and <B>P</B>.
+<tr><th><a id="age"></a><b>Age</b></th>
+    <td><a id="dpc"></a>Days post conception of the specimen used in the reference. In addition to specific age values available on the drop-down list, there are also <b>E</b> and <B>P</B>.
 <ul>
 <li><B>E</B> is the abbreviation for <I>embryonic</I> and means that an author indicated that embryonic expression was analyzed but did not indicate the exact age of the tissue examined. Using E returns only this type of expression data; it does not return data for all embryonic stages.</li>
 <li><B>P</B> is the abbreviation for <I>postnatal</I>; you can also use it to search for studies of adult expression.</li>
 <li>The default age value is ANY.</li>
 <li>To select more than one value: 
 <ul>
- <LI>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired items in the list; OR hold the shift key down and  click on two items to select those and all items in between. </li>
-  <LI>On a PC, hold the control key down and click on the desired items in the list; OR hold the shift key down and click on two items to select those and all items in between. </li>
+ <li>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired items in the list; OR hold the shift key down and  click on two items to select those and all items in between. </li>
+  <li>On a PC, hold the control key down and click on the desired items in the list; OR hold the shift key down and click on two items to select those and all items in between. </li>
 </ul>
  </ul></td></tr>
 
-
-<TR><td align="left" valign="top"><a name="author"></a><b>Author</b></TD>
-    <TD>
+<tr><th><a id="author"></a><b>Author</b></th>
+    <td>
 <ol>
  <li>The default is Any Author(s). Click First Author or Last Author if desired.</li>
  <li>Begin typing a partial name in the entry field.  An autocomplete list appears.</li>
@@ -120,11 +117,10 @@ function openHelpWindow(helpFile){
 <ul>
   <li>The results are NOT cumulative; that is, entering Smith D; Johnson H; and Evans M returns references for each author and not for papers in which all three are authors.</li>
   <li>You must choose author names from the autocomplete list (i.e., there is no free text entry in this field.)</li>
-</ul></td></TR>
+</ul></td></tr>
    
-    <TR>
-     <td align="left" valign="top"><a name="journal"></a><b>Journal</b></TD>
-     <TD><A name="jn"></A>
+<tr><th><a id="journal"></a><b>Journal</b></th>
+     <td><a id="jn"></a>
 <ol>
   <li>Begin typing a partial journal name in the entry field.  An autocomplete list appears.</li>
   <li>Select one item from the list. The journal name appears in the field, followed by a semicolon.</li>
@@ -137,47 +133,45 @@ function openHelpWindow(helpFile){
   <li>This field uses journal abbreviations from the National Library of Medicine (NLM). A search for <i>Developmental Biology</i> will not find any references, though a search for <i>Dev Biol</i> will. The journal abbreviations used are listed alphabetically at this <a href="ftp://ftp.ncbi.nih.gov/pubmed/J_Medline.txt">NLM web site</a>. </li>
   <li>You must choose journal names from the autocomplete list (i.e., there is no free text entry in this field.)</li>
 </ul>
-</TD></TR>
+</td></tr>
 
-  <TR><td align="left" valign="top"><b>Year</b></td><TD><A name="yr"></A>The year the article was published. Use in conjunction with other fields to further narrow the scope of a search. Enter a year in the format 20XX. Enter a single year, a range of years, or an open-ended query such as everything after 2009 (2009-) or everything before 2007 (-2007).</TD></TR>
+<tr><th>Year</th><td><a id="yr"></a>The year the article was published. Use in conjunction with other fields to further narrow the scope of a search. Enter a year in the format 20XX. Enter a single year, a range of years, or an open-ended query such as everything after 2009 (2009-) or everything before 2007 (-2007).</td></tr>
   
-     <TR><td align="left" valign="top"><b>Text</b></td><TD><A name="text"></A>Enter a text string to search for articles with abstracts/titles containing the terms you enter.
+<tr><th>Text</th><td><a id="text"></a>Enter a text string to search for articles with abstracts/titles containing the terms you enter.
 <ul>
   <li>The text search <a href="http://en.wikipedia.org/wiki/Stemming" target="new">stems</a> words: it removes suffixes and searches using root words.  A search for <i>stem cell factor receptor binding</i> searches for  <i>stem-</i>, <i>cell-</i> (e.g.  cellular), <i>factor-,</i> <i>recept-</i> (e.g.  reception); <i>bind-</i> (e.g.  binds). <li>A search for <i>cell division</i> also looks for <i>cell- divis-</i>.</li>
   <li>Use an asterisk (*) as a wild card, particularly to find variations on a root word or in spelling. Examples: 2,4-Dichlorobenz* process; haemo* hemo*</li>
   <li>Use quotation marks to enclose phrases where the specified words must come in order, with no words intervening. </li>
   <li>Boolean operators (OR or AND) are not permitted.</li>
   </ul>
- See  <A href="MISC_wildcard_help.shtml" target="_blank">Using Wild Cards on MGI Query Forms</A> <!-- and <a href="MISC_boolean_search_help.shtml">Full-Text Searching on MGI Query Forms</a> --> for more details.</TD></TR>
-  
-</TABLE>
+ See  <a href="MISC_wildcard_help.shtml" target="_blank">Using Wild Cards on MGI Query Forms</a> <!-- and <a href="MISC_boolean_search_help.shtml">Full-Text Searching on MGI Query Forms</a> --> for more details.</td></tr>
+</table>
 </p>
-<font size="-1"><a href="#top">Top</a></font>
 
-<h3><A name="summary">How do I interpret the query results?</h3>
-<P>Gene Expression Literature queries return a summary of search criteria matches.  Each record appears in two areas: at the top of the page in the <a href="#irbaa">Summary by Age and Assay</a> table and in the <a href="#irbgr">Summary by Gene and Reference</a> listing.
-</P>
-<P>A <i>content record</i> is created for each gene whose expression is analyzed in a reference. The details in a record are called the <i>results</i>. Each result reports the assay type used and the age of the specimen analyzed.</P>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="summary"></a>How do I interpret the query results?</h3>
+<p>Gene Expression Literature queries return a summary of search criteria matches.  Each record appears in two areas: at the top of the page in the <a href="#irbaa">Summary by Age and Assay</a> table and in the <a href="#irbgr">Summary by Gene and Reference</a> listing.
+</p>
+<p>A <i>content record</i> is created for each gene whose expression is analyzed in a reference. The details in a record are called the <i>results</i>. Each result reports the assay type used and the age of the specimen analyzed.</p>
 <ul>
-<li>Content records contain one or more results.</LI>
+<li>Content records contain one or more results.</li>
 <li>The number of records matching the search criteria and the number of references they were derived from appears at the top of the query summary.  </li>
 </ul>
 
-
-<h4><a name="aiqrs"></a>Ways of accessing Gene Expression Literature Results</h4>
+<h4><a id="aiqrs"></a>Ways of accessing Gene Expression Literature Results</h4>
 <blockquote>
-<table border=1 cellpadding=4>
-<tr><th align=left>If you access a summary from ...</th><th align=left>a box at the top displays the ... </th></tr>
-<tr><td align=left valign=top>Reference details</td><td align=left valign=top>Reference and its J number (linked to the full reference record)</td></tr>
-<tr><td align=left valign=top>Marker details</td><td align=left valign=top>Symbol of the gene whose expression results are being summarized (linked to the marker detail record) and its name</td></tr>
-<tr><td align=left valign=top>Gene Expression Data Query Results</td><td align=left valign=top>Parameters used to generate the query (supplied either from a query form or from a referring page)</td></tr>
+<table>
+<tr><th>If you access a summary from ...</th><th>a box at the top displays the ... </th></tr>
+<tr><td>Reference details</td><td>Reference and its J number (linked to the full reference record)</td></tr>
+<tr><td>Marker details</td><td>Symbol of the gene whose expression results are being summarized (linked to the marker detail record) and its name</td></tr>
+<tr><td>Gene Expression Data Query Results</td><td>Parameters used to generate the query (supplied either from a query form or from a referring page)</td></tr>
 
-<tr><td align=left valign=top>Links within the Summary by Age and Assay table</td><td align=left valign=top>Assay type and age of the chosen link</td></tr>
+<tr><td>Links within the Summary by Age and Assay table</td><td>Assay type and age of the chosen link</td></tr>
 </table>
 </blockquote>
 
-
-<h4><a name="irbaa"></a>Summary by Age and Assay</h4>
+<h4><a id="irbaa"></a>Summary by Age and Assay</h4>
 <p>The Summary by Age and Assay table groups search criteria matches according to the age of the specimen analyzed and the assay type used for the analysis.</p>
 <ul>
 <li><b>E</b> is the abbreviation for embryonic.  An E without a subsequent number indicates a reference with embryonic expression analysis where the exact age of the tissue was unreported.</li>
@@ -187,9 +181,9 @@ function openHelpWindow(helpFile){
    <li> If the number is 1, it links directly to the detail record. </li>
    <li> If the number is greater than 1, it links to a summary result, grouped by gene and reference, where you can follow links to additional details.</li>
   </ul>
-</ul></p>
+</ul>
 
-<h4><a name="irbgr"></a>Summary by Gene and Reference</h4>
+<h4><a id="irbgr"></a>Summary by Gene and Reference</h4>
   <ul>
   <li>This listing groups results from matching content records by gene. </li>
   <li>It includes the citation of the reference the results were reported in. </li>
@@ -197,42 +191,37 @@ function openHelpWindow(helpFile){
   <li>If the results are also included in the detailed expression portion of the database, an asterisk appears after the number of results. </li>
   </ul>
 
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-</P>
-<font size="-1"><a href="#top">Top</a>
-</font>
-<H3><A name="detail"></a>How do I interpret Gene Expression Literature Detail results?</LI>
-</H3>
-<P>Links to subsequent details contain table listings of the symbol and name of the assayed gene (linked to the marker details), and the citation and J number of the expression results reference (linked to the full reference record). Then, if the reference has in depth annotations, the phrase <b>Detailed expression data for these assays</b> and the number of results appears, linked to the summary pages.</p>
+<h3><a id="detail"></a>How do I interpret Gene Expression Literature Detail results?</h3>
 
-<P>The lower portion represents expression information about the gene in the reference. A red ball indicates the assay types used and the ages analyzed; each ball represents a result. Whenever possible, the age annotations are normalized according to the following conventions: noon of the day on which the vaginal plug is found is counted as embryonic (E) day 0.5. Therefore, e.g., if an author refers to the day on which the plug is found as E0, we add 0.5 to the age value(s) listed in the paper and the comment <i>Age normalized so that noon of plug day = E0.5</i> to the record. If the staging criteria are not described in the paper, we annotate to the ages given by the authors and may add the comment <i>Age of embryo at noon of plug day not specified in reference</i> to the record. </p>
+<p>Links to subsequent details contain table listings of the symbol and name of the assayed gene (linked to the marker details), and the citation and J number of the expression results reference (linked to the full reference record). Then, if the reference has in depth annotations, the phrase <b>Detailed expression data for these assays</b> and the number of results appears, linked to the summary pages.</p>
 
-<P>In addition to specific age values, two general annotations are used:
+<p>The lower portion represents expression information about the gene in the reference. A red ball indicates the assay types used and the ages analyzed; each ball represents a result. Whenever possible, the age annotations are normalized according to the following conventions: noon of the day on which the vaginal plug is found is counted as embryonic (E) day 0.5. Therefore, e.g., if an author refers to the day on which the plug is found as E0, we add 0.5 to the age value(s) listed in the paper and the comment <i>Age normalized so that noon of plug day = E0.5</i> to the record. If the staging criteria are not described in the paper, we annotate to the ages given by the authors and may add the comment <i>Age of embryo at noon of plug day not specified in reference</i> to the record. </p>
+
+<p>In addition to specific age values, two general annotations are used:
 <blockquote>
 
-<table border=0 cellpadding="4" cellspacing="0">
-   <tr><td valign="top"><b>E</b></td><td valign="top">Embryonic expression analyzed, exact age of tissue not specified in reference</td></tr>
-   <tr><td valign="top"><b>P</b></td><td valign="top">Postnatal (includes adult) expression analyzed.</td></tr>
+<table >
+   <tr><td><b>E</b></td><td>Embryonic expression analyzed, exact age of tissue not specified in reference</td></tr>
+   <tr><td><b>P</b></td><td>Postnatal (includes adult) expression analyzed.</td></tr>
 </table>
-
 </blockquote>
-
-</P>
+</p>
 <p> Any comments the curator feels are necessary to interpret the record appear at the bottom of the page. <b>Note:</b> As indicated on the detail page, the record denotes only that a gene was assayed for, using a particular assay type, and does not indicate whether or not gene expression was detected.</p>
-<font size="-1"><a href="#top">Top</a>
-</font>
 
-<!--<h3><a name="revise"></a>Can I edit my original options and requery?</h3>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<!--<h3><a id="revise"></a>Can I edit my original options and requery?</h3>
 <p>Yes, you can. If you want to edit a list or change output options:
 <ol>
   <li>When your results appear, click the banner at the top of the page (Click to modify search). (The banner title  changes to Click to Hide Search.) The window that appears contains your original search criteria. </li>
   <li>Edit the input list or change any Output options.</li>
   <li>Click Search.</li>
 <li>Repeat steps 1 and 2 until the desired results appear.<br>
-See <a href="#example">Are there examples?</a> for a sample of a query modification.-->
+See <a href="#example">Are there examples?</a> for a sample of a query modification.
 </li>
-</ol>
-
+</ol>-->
 
 <p class="space"></p>
 

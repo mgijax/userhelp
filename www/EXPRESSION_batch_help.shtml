@@ -42,8 +42,8 @@ function openHelpWindow(helpFile){
 <a id="top"></A>
 <p>This help document answers the following questions about the Using the Gene Expression Batch Search:
 <ul>
- <LI><A HREF="#whatpurpose">What is the purpose of the Gene Expression Database?</A></LI>
- <LI><A HREF="#whatquery">What can I use this query form to find?</A></LI>
+ <li><a href="#whatpurpose">What is the purpose of the Gene Expression Database?</a></li>
+ <li><a href="#whatquery">What can I use this query form to find?</a></li>
  <li><a href="#fields">What are the accepted input identifier (ID) types?</a></li>
  <li><a href="#column">Can I upload a particular column of IDs/Symbols from a file?</a></li>
  <li><a href="#why_constrain">When would I constrain my search to a single input type?</a></li>
@@ -52,7 +52,7 @@ function openHelpWindow(helpFile){
  <LI><a href="EXPRESSION_help.shtml#summary" target="_blank">How do I interpret the query results summary and detail pages?</a></LI>
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
  <li><a href="#batch">Can I send the results of my search to the MGI Batch Query or MouseMine?</a></li>
- <LI><A HREF="#example">Are there examples of query results?</A></LI>
+ <li><a href="#example">Are there examples of query results?</a></li>
 </ul>
 </p>
 
@@ -94,7 +94,7 @@ MI0000248
 
 The following are representative examples for each type listed on the pulldown menu:
 <blockquote>
-<table border="1"  cellpadding="4" width="!">
+<table>
   <tr><th>Input identifier type</th><th>Representative example</th></tr>
 <tr><td>MGI Gene/Marker ID</td><td>MGI:96677</td></tr>
 <tr><td>Current Symbols Only</td><td>Trp53 <br>Pax6<br>D11Mit10</td> </tr>
@@ -111,15 +111,16 @@ The following are representative examples for each type listed on the pulldown m
 <tr><td>RefSNP ID</td><td>rs3021544</td></tr>
 <tr><td>Affy Probeset ID</td><td>10379153</td></tr>
 
- <table border="0" cellspacing="0" cellpadding="4">
+ <table>
   <tr><td>*</td><td>GenBank IDs are for nucleotide sequences only. RefSeq IDs are for either nucleotide or protein sequences.</td></tr>
+ </table>
  </table>
 </blockquote>
 
 The following are additional types (not listed on the pulldown menu), followed by examples, of other types of IDs that the Batch Query recognizes: 
 <blockquote>
 
-<table border="1" cellpadding="4" width="!">
+<table>
 <tr><th>Input identifier type</th><th>Representative example</th></tr>
 <!--<tr><td>BayGenomics</td><td>LST083</td></tr>-->
 <tr><td>EC <br>(Enzyme Commission)</td><td>2.7.10.1</td></tr>

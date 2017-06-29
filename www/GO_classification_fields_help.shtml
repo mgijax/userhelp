@@ -37,17 +37,17 @@ function openHelpWindow(helpFile){
 
 <!-- Body of User Help -->
 
-<A NAME="top"></A>
+<a id="top"></a>
 <p>The Gene Ontology classification area of an MGI query form presents a number of options for defining or refining a query.</p>
 <p>You can:</p>         
-<UL>
-<LI>Browse the GO classifications, copy an entry, and paste it into the Gene Ontology (GO) Classifications field. The following is an example from the Biological Process list: &nbsp;
-fructose catabolism [GO:0006001]. Using this example, copy and paste either:  fructose catabolism or GO:0006001. Do NOT include punctuation or both the text and accession ID.</LI><BR>
-<LI>Restrict your search to markers with attributes in only one or two of the three GO categories. By default Molecular Function, Biological Process, and Cellular Component are all checked. Click the check boxes to select/deselect a category.</LI><BR>
-<LI>Enter all or a portion of a single GO vocabulary entry. Often, GO entries are phrases containing several words. The default text operator is CONTAINS. If you enter a few characters of a GO term, the search finds any records with gene classifications that include the specified characters (and belong to the checked categories).</LI><BR>
-<LI>Use the logical operator AND between GO terms within the Gene Ontology (GO) Classifications field. A search of term1 AND term2 returns the set of markers annotated to <B>both</B> term1 and term2. For example, the search string <I>nucleus AND kinase</I> returns all the markers whose products are a kinase AND are found in the nucleus.</LI><BR>
-<LI>Search by GO ID. Be sure to include GO: before the identifying numbers, for example, GO:0006001.</LI>
-</UL>
+<ul style="line-height:1.5;">
+ <li>Browse the GO classifications, copy an entry, and paste it into the Gene Ontology (GO) Classifications field. The following is an example from the Biological Process list: &nbsp;
+fructose catabolism [GO:0006001]. Using this example, copy and paste either:  fructose catabolism or GO:0006001. Do NOT include punctuation or both the text and accession ID.</li>
+ <li>Restrict your search to markers with attributes in only one or two of the three GO categories. By default Molecular Function, Biological Process, and Cellular Component are all checked. Click the check boxes to select/deselect a category.</li>
+ <li>Enter all or a portion of a single GO vocabulary entry. Often, GO entries are phrases containing several words. The default text operator is CONTAINS. If you enter a few characters of a GO term, the search finds any records with gene classifications that include the specified characters (and belong to the checked categories).</li>
+ <li>Use the logical operator AND between GO terms within the Gene Ontology (GO) Classifications field. A search of term1 AND term2 returns the set of markers annotated to <B>both</B> term1 and term2. For example, the search string <I>nucleus AND kinase</I> returns all the markers whose products are a kinase AND are found in the nucleus.</li>
+ <li>Search by GO ID. Be sure to include GO: before the identifying numbers, for example, GO:0006001.</li>
+</ul>
 
 <P><B>Note:</B> GO vocabularies are hierarchical. Consequently, a search returns gene records annotated not only to terms matching your query but also genes annotated to more detailed terms (related to your query term but not necessarily containing the text you enter). As an example,
 <blockquote>
@@ -64,7 +64,7 @@ fructose catabolism [GO:0006001]. Using this example, copy and paste either:  fr
 </ol>  
 </blockquote>
 
-<A HREF="#top">Top</A>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--#include file='include/templateBlankBodyStop.html'-->
 

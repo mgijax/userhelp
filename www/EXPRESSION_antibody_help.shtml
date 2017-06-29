@@ -38,19 +38,19 @@ function openHelpWindow(helpFile){
 <a id="top"></a>
 
 <p>This information document answers the following questions about an antibodies summary:
- <UL>
- <LI><A HREF="#where">Where can I find antibody records in the MGI databases?</a>
- <!--<LI><A HREF="#summary">How do I interpret an antibody query results summary?</a>-->
- <LI><A HREF="#detail">How do I interpret an antibody detail record?</a>
- </UL>
-<P>See also:</P>
-<UL>
-  <LI><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a> (for any unfamiliar terms or acronyms)</LI>
-  <LI><A HREF="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</A></LI>
-</UL></p>
+ <ul>
+ <li><a href="#where">Where can I find antibody records in the MGI databases?</a>
+ <!--<li><a href="#summary">How do I interpret an antibody query results summary?</a>-->
+ <li><a href="#detail">How do I interpret an antibody detail record?</a>
+ </ul>
+<p>See also:</p>
+<ul>
+  <li><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a> (for any unfamiliar terms or acronyms)</li>
+  <li><a href="MISC_general_searching_help.shtml" target="_blank">General Guidelines for MGI Query Form Searches</a></li>
+</ul>
+</p>
 
-
-<H3><a id="where"></a>Where can I find antibody records in the MGI databases?</h3>
+<h3><a id="where"></a>Where can I find antibody records in the MGI databases?</h3>
 
 <p>If an assay uses an antibody, the assay detail record provides a link to the antibody record.
 </p>
@@ -60,15 +60,15 @@ function openHelpWindow(helpFile){
 
 <h3><a id="detail"></a>How do I interpret an antibody detail record?</h3>
  
-<table width="80%" cellpadding="4" class="nb" align="center">
-<tr align="center"><td><a href="#antibody">Antibody</a> | <a href="#antigen">Antigen</a> | <a href="#gene">Gene</a> | <a href="#expression">Expression</a> |<a href="#refs">References</a> 
+<table class="nb">
+<tr><td><a href="#antibody">Antibody</a> | <a href="#antigen">Antigen</a> | <a href="#gene">Gene</a> | <a href="#expression">Expression</a> |<a href="#refs">References</a> 
 </td></tr>
 </table>
-<TABLE BORDER cellpadding=4>
+<table>
  <TR><TH>Field</th><TH>Description</th></TR>
- <TR><th><a id="antibody"></a>Antibody</td> 
+ <tr><th><a id="antibody"></a>Antibody</th> 
  <td>
-    <table border="0" cellspacing="2" cellpadding="4" width="!">
+    <table>
      <tr><td>Name</td><td>The name of the antibody.</td>
      <tr><td>Host</td><td>Organism in which the antibody was raised.</td>
      <tr><td>Type</td><td>Type of antibody (polyclonal, monoclonal), or Not specified.</td>
@@ -76,9 +76,9 @@ function openHelpWindow(helpFile){
      <tr><td>Note</td><td>Additional information about the antibody, if available.</td>
      <tr><td>MGI Accession ID</td><td>The unique MGI accession ID for the antibody. You can use this ID in the MGI Quick Search to always find this page.</td></tr>
     </table>
- <TR><th><a id="antigen"></a>Antigen</td>
+ <tr><th><a id="antigen"></a>Antigen</th>
  <td>
-    <table border="0" cellspacing="2" cellpadding="4" width="!">
+    <table>
      <tr><td>Name</td><td>Name of the protein or protein fragment against which the antibody was raised.</td>
      <tr><td>Species</td><td>Species from which the antigen was isolated.</td>
      <tr><td>Strain</td><td>Strain of mouse from which the antigen was isolated, if specified.</td>
@@ -90,11 +90,11 @@ function openHelpWindow(helpFile){
      <tr><td>Region covered</td><td>Region of the protein corresponding to the antigen.</td>
 	<tr><td>Notes</td><td>Additional information about the antigen, if available.</td>
     </table>
-  <TR><th><a id="gene"></a>Gene</td> 
+  <tr><th><a id="gene"></a>Gene</th> 
   <td>Symbol for the gene(s) that encodes for the antigen, linked to its Gene Detail page(s).</td></tr>
-  <TR><th><a id="expression"></a>Expression</td> 
+  <tr><th><a id="expression"></a>Expression</th> 
   <td>Links to expression results derived using the antibody.</td></tr>
-  <TR><th><a id="refs"></a>References</td> 
+  <tr><th><a id="refs"></a>References</th> 
   <td>References for publications that used the antibody. J number (unique MGI reference accession ID) linked to the reference details.</td>
 </table>
  <br>
