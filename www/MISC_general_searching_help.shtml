@@ -40,19 +40,19 @@ General Guidelines for MGI Query Form Searches
 
 <a id="top"></a>
 
-<P>This help document answers the following questions:</P> 
-<UL>
- <LI><A HREF="#help">Where can I find help using MGI query forms?</A></li>
- <LI><A HREF="#method">Is there a general method of querying the MGI databases?</A></li>
- <LI><A HREF="#search">What is a good search strategy?</A></li>
- <LI><A HREF="#fulltext">Can I do a full-text search on any of the forms?</A></li>
- <LI><A HREF="#parts">What are the parts of a query form?</A></li>
- <LI><A HREF="#sort">Can I view the results of a query in different ways?</A></li>
- <LI><A HREF="#print">Can I print or save the results of my query?</A></li>
- <LI><A HREF="#change_font">Can I change font sizes to make query forms and Help documents easier to read?</a></LI>
- </UL>
+<p>This help document answers the following questions:</p> 
+<ul>
+ <li><a href="#help">Where can I find help using MGI query forms?</a></li>
+ <li><a href="#method">Is there a general method of querying the MGI databases?</a></li>
+ <li><a href="#search">What is a good search strategy?</a></li>
+ <li><a href="#fulltext">Can I do a full-text search on any of the forms?</a></li>
+ <li><a href="#parts">What are the parts of a query form?</a></li>
+ <li><a href="#sort">Can I view the results of a query in different ways?</a></li>
+ <li><a href="#print">Can I print or save the results of my query?</a></li>
+ <li><a href="#change_font">Can I change font sizes to make query forms and Help documents easier to read?</a></li>
+ </ul>
 
- <p><a id="see_also"></A>See also:</p>
+<p><a id="see_also"></a>See also:</p>
 <ul>
    <li><a href="MISC_boolean_search_help.shtml" target="_blank">Full-Text Searching on MGI Query Forms</a></li>
   <li><a href="MISC_wildcard_help.shtml" target="_blank">Using Wild Cards on MGI Query Forms</a></li>
@@ -60,167 +60,166 @@ General Guidelines for MGI Query Form Searches
 <p></p>
 
 <h3><a id="help"></a>Where can I find help using MGI query forms?</h3>
-<P>MGI is accessible on the Internet via the World Wide Web (WWW) and relies on online forms to present
-query options in an easy-to-use format. Help documentation is available on-line (click <u>Help</u> under the MGI logo). Our Mouse Genome Informatics home page is located at
-<A HREF="http://www.informatics.jax.org" target="_blank">http://www.informatics.jax.org</A>. 
- You can <A HREF="<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml" target="_blank">contact User Support</A> by e-mail or by  phone at (207) 288-6445.</P>
+<p>MGI is accessible on the Internet via the World Wide Web (WWW) and relies on online forms to present
+query options in an easy-to-use format. Help documentation is available on-line (click <span style="text-decoration: underline;">Help</span> under the MGI logo). Our Mouse Genome Informatics home page is located at
+<a href="http://www.informatics.jax.org" target="_blank">http://www.informatics.jax.org</a>. 
+ You can <a href="<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml" target="_blank">contact User Support</a> by e-mail or by  phone at (207) 288-6445.</p>
 
-<H3><a id="method"></A>Is there a general method of querying the MGI databases?</H3>
-<P>A general procedure to build a query includes the following steps (<b>select form, enter value(s), choose output, restrict/expand scope, execute).</b>
-<uL>
-<LI>Select the query form to use depending on the type of information you want to search for. The following forms are available:
-<UL>
- <LI><A HREF="<!--#include file='include/wi_url.html'-->searches/AMA_form.shtml" target="_blank">Adult Mouse Anatomical Dictionary Browser</A></LI>
- <!--<LI>Anatomical Dictionary Browser Query Refiner (accessible via searches from the <A HREF="<!--#include file='include/wi_url.html'-->searches/AMA_form.shtml">Adult Mouse Anatomical Dictionary Browser</A>)-->
- <LI><A HREF="<!--#include file='include/fewi_url.html'-->marker">Genes and Markers Query Form</A></LI>
- <LI><a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Query Form</A></LI>
- <LI><a href="<!--#include file='include/fewi_url.html'-->gxd" target="_blank">Gene Expression Data Query Form</A></LI>
- <LI><A HREF="<!--#include file='include/fewi_url.html'-->vocab/gene_ontology" target="_blank">GO Browser</A></LI>
- <LI><A HREF="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</A> </LI>
- <!--<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/homology_form.shtml">Mammalian Orthology Query Form</A> </LI>-->
- <LI><A HREF="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype Browser</A> </LI>
- <LI><a href="<!--#include file='include/fewi_url.html'-->batch" target="_blank">MGI Batch Query</A> </LI>
- <LI><A HREF="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</A></LI>
- <!--<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/sequence_form.shtml">Mouse Sequence Query Form</A> </LI>-->
-<LI><A HREF="<!--#include file='include/fewi_url.html'-->snp" target="_blank">Mouse dbSNP Query Form</A> (Single Nucleotide Polymorphisms) </LI>
-<LI><A HREF="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</A></LI>
- <LI><a href="<!--#include file='include/fewi_url.html'-->reference" target="_blank">References Query Form</A> </LI>
- </UL>
+<h3><a id="method"></a>Is there a general method of querying the MGI databases?</h3>
+<p>A general procedure to build a query includes the following steps (<b>select form, enter value(s), choose output, restrict/expand scope, execute).</b>
+<ul>
+<li>Select the query form to use depending on the type of information you want to search for. The following forms are available:
+<ul>
+ <li><a href="<!--#include file='include/wi_url.html'-->searches/AMA_form.shtml" target="_blank">Adult Mouse Anatomical Dictionary Browser</a></li>
+ <!--<li>Anatomical Dictionary Browser Query Refiner (accessible via searches from the <a href="<!--#include file='include/wi_url.html'-->searches/AMA_form.shtml">Adult Mouse Anatomical Dictionary Browser</a>)-->
+ <li><a href="<!--#include file='include/fewi_url.html'-->marker">Genes and Markers Query Form</a></li>
+ <li><a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Query Form</a></li>
+ <li><a href="<!--#include file='include/fewi_url.html'-->gxd" target="_blank">Gene Expression Data Query Form</a></li>
+ <li><a href="<!--#include file='include/fewi_url.html'-->vocab/gene_ontology" target="_blank">GO Browser</a></li>
+ <li><a href="<!--#include file='include/fewi_url.html'-->vocab/omim" target="_blank">Human Disease Vocabulary Browser</a> </li>
+ <!--<li><a href="<!--#include file='include/wi_url.html'-->searches/homology_form.shtml">Mammalian Orthology Query Form</a> </li>-->
+ <li><a href="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype Browser</a> </li>
+ <li><a href="<!--#include file='include/fewi_url.html'-->batch" target="_blank">MGI Batch Query</a> </li>
+ <li><a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a></li>
+ <!--<li><a href="<!--#include file='include/wi_url.html'-->searches/sequence_form.shtml">Mouse Sequence Query Form</a> </li>-->
+<li><a href="<!--#include file='include/fewi_url.html'-->snp" target="_blank">Mouse dbSNP Query Form</a> (Single Nucleotide Polymorphisms) </li>
+<li><a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</a></li>
+ <li><a href="<!--#include file='include/fewi_url.html'-->reference" target="_blank">References Query Form</a> </li>
+ </ul>
 <p>See also:
-<A HREF="<!--#include file='include/wi_url.html'-->menus/allsearch.shtml" target="_blank">All Search Tools</A> for a list of query forms arranged by function.</p>
+<a href="<!--#include file='include/wi_url.html'-->menus/allsearch.shtml" target="_blank">All Search Tools</a> for a list of query forms arranged by function.</p>
 
-<LI>Enter (or select) values in one or more query form
+<li>Enter (or select) values in one or more query form
 fields to use as search criteria. Use more descriptive fields (for example,  <I>Author</I> or <I>Title</I> in the References Query Form) as primary search criteria.  Use the general fields (for example, <I>Year</I> and <I>Journal</I> in the References Query Form) to further limit the scope of your search. Note that the search finds
 records that match <B>all</B> the criteria you enter as, for example,when you make the following choices on the Genes and Markers Query Form:
-<BLOCKQUOTE>
+<blockquote>
 <B>Symbol/Name</B> &nbsp;&nbsp; <I>hox*</I> <BR>
 <B>Chromosome</B> &nbsp;&nbsp; <I>6</I>
-</BLOCKQUOTE>
-<P>The query returns any marker on Chr. 6 whose symbol, name or synonym begins with <I>hox</I>.</P>
+</blockquote>
+<p>The query returns any marker on Chr. 6 whose symbol, name or synonym begins with <I>hox</I>.</p>
 </li>
-<LI>Execute searches by clicking Search.</li>
+<li>Execute searches by clicking Search.</li>
 <li>Your search results may offer sort options. Click on the column headings or the up/down arrowheads ( &#9660; &#9650;) to change the sort order of your results. For example, you might want to see markers on a chromosome in the order of their genome coordinates.</li>
 <li>If your search was too broad or narrow, click the banner at the top of the page (<b>Click to modify search</b>). (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria. You can then expand or narrow your search, either by entering more parameters, or by being more specific in the ones you do enter. </li>
-</uL>
-<P> The query results are usually a list of records in an abbreviated format. The display contains links to related information in the MGI database.
-</P>
+</ul>
+<p> The query results are usually a list of records in an abbreviated format. The display contains links to related information in the MGI database.
+</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><a id="search"></A>What is a good search strategy?</H3>
-<P>A good search strategy ensures that your search executes quickly and retrieves the information you want.  Here are some general guidelines:
-<P>
-<UL><a id="operators"></A>
-<LI>Enter values in the search fields that specify the kind of information you are looking for.  For example, on the Genes and Markers Query Form, if you are interested in data about the Histone gene complex on Chromosome 13, you might fill in the field and make a selection as follows:
-<BLOCKQUOTE>
+<h3><a id="search"></a>What is a good search strategy?</h3>
+<p>A good search strategy ensures that your search executes quickly and retrieves the information you want.  Here are some general guidelines:
+<p>
+<ul><a id="operators"></a>
+<li>Enter values in the search fields that specify the kind of information you are looking for.  For example, on the Genes and Markers Query Form, if you are interested in data about the Histone gene complex on Chromosome 13, you might fill in the field and make a selection as follows:
+<blockquote>
 <B>Symbol/Name</B>&nbsp;&nbsp;  <I>hist*</I><BR>
 <B>Chromosome</B>&nbsp;&nbsp;  <I>13</I>
-</BLOCKQUOTE>
-<P>When you use multiple fields, the interpretation is "Search for all records that contain attribute <I>A</I> AND attribute <I>B</I> AND ...." <P>
-</P>
-<P>
+</blockquote>
+<p>When you use multiple fields, the interpretation is "Search for all records that contain attribute <I>A</I> AND attribute <I>B</I> AND ...." <p>
+</p>
+<p>
 
-<LI>Use a less-specific field along with a more descriptive field. For example, on the References Query Form,  if you are interested only in more recent articles by Joseph H. Nadeau, then use <I>Year</I> along with <I>Author</I>.
-<BLOCKQUOTE>
+<li>Use a less-specific field along with a more descriptive field. For example, on the References Query Form,  if you are interested only in more recent articles by Joseph H. Nadeau, then use <I>Year</I> along with <I>Author</I>.
+<blockquote>
 <B>Author</B> &nbsp;&nbsp; <I>Nadeau JH</I>
-</BLOCKQUOTE>
+</blockquote>
  and specify <BR>
-<BLOCKQUOTE>
+<blockquote>
 <B>Year </B> &nbsp; &nbsp;<I>2010-</I>
-</BLOCKQUOTE>
+</blockquote>
 to further focus your search.
  <BR>
 <p>Many query results now allow you to modify your search and requery. Use the <i>Click to modify search</i> button to view your previous search parameters and make refinements.
 </p>
 <p>Alternately, many Query Forms allow you to filter your results. So in the previous search, you could filter JH Nadeau's publications to just those published in Mamm Genome.
 </p>
-</UL>
-</P>
+</ul>
+</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><a id="fulltext"></A>Can I do a full-text search on any of the forms?</H3>
-<P>Yes. <!-- MGI uses the Glimpse application for full-text searching.  <em>See</em>
-<A HREF="boolean_search_tips.shtml">Full-text Searching Help</A>.--> The following query forms have fields that provide full-text search options:
-<UL>
-	<LI><EM>Genes and Markers, Phenotypes and Alleles</EM><BR> Use the Phenotype/Disease  box to find potential mouse models for human diseases and phenotypic allele data in the MGI databases associated with any of the fields on the Genes and Markers Query Form.</LI><BR>
-	<LI><EM>References</EM><BR> Use the  Abstract  field to search for abstracts in MGI bibliographic records.</LI><BR>
-	<LI><EM>Gene Expression Literature</EM><BR> The  Abstract field is for full-text searching of abstracts in MGI bibliographic records. It functions the same way as the Abstract field on the References Query Form.</LI><BR>
-</UL>
-</P>
+<h3><a id="fulltext"></a>Can I do a full-text search on any of the forms?</h3>
+<p>Yes. <!-- MGI uses the Glimpse application for full-text searching.  <em>See</em>
+<a href="boolean_search_tips.shtml">Full-text Searching Help</a>.--> The following query forms have fields that provide full-text search options:
+<ul>
+	<li><EM>Genes and Markers, Phenotypes and Alleles</EM><BR> Use the Phenotype/Disease  box to find potential mouse models for human diseases and phenotypic allele data in the MGI databases associated with any of the fields on the Genes and Markers Query Form.</li><BR>
+	<li><EM>References</EM><BR> Use the  Abstract  field to search for abstracts in MGI bibliographic records.</li><BR>
+	<li><EM>Gene Expression Literature</EM><BR> The  Abstract field is for full-text searching of abstracts in MGI bibliographic records. It functions the same way as the Abstract field on the References Query Form.</li><BR>
+</ul>
+</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><a id="parts"></A>What are the parts of a query form?</H3>
-<P> A query form consists of a logical arrangement of data entry fields, selection lists, and various options and operators used to modify the search criteria or to format query results.  Field names are linked to user documentation describing the fields; click any field name to go to the relevant part of the documentation. <P> The subsections below describe form elements.
-<UL>
- <LI><A HREF="#selection">Selection lists</A>
- <LI><A HREF="#def">Data entry fields</A>
-   <UL>
-    <LI><A HREF="#numeric">Numeric fields</A>
-    <LI><A HREF="#wildcard">Wild card and text</A>
-   </UL>
-</UL>
-</P>
+<h3><a id="parts"></a>What are the parts of a query form?</h3>
+<p> A query form consists of a logical arrangement of data entry fields, selection lists, and various options and operators used to modify the search criteria or to format query results.  Field names are linked to user documentation describing the fields; click any field name to go to the relevant part of the documentation. <p> The subsections below describe form elements.
+<ul>
+ <li><a href="#selection">Selection lists</a>
+ <li><a href="#def">Data entry fields</a>
+   <ul>
+    <li><a href="#numeric">Numeric fields</a>
+    <li><a href="#wildcard">Wild card and text</a>
+   </ul>
+</ul>
+</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><a id="selection"></A>Selection lists</H3>
-<P> A selection list consists of a pre-defined list of values from which you may select one or more items. An example is the list of Chromosomes on some query forms.  To limit your search to specific chromosomes, you make your selections from the list.  How you make the selection depends upon the browser you use.
+<h3><a id="selection"></a>Selection lists</h3>
+<p> A selection list consists of a pre-defined list of values from which you may select one or more items. An example is the list of Chromosomes on some query forms.  To limit your search to specific chromosomes, you make your selections from the list.  How you make the selection depends upon the browser you use.
 
-<P>Some selection lists allow you to specify more than one value.  For example, you may wish to search for multiple chromosomes. In this
+<p>Some selection lists allow you to specify more than one value.  For example, you may wish to search for multiple chromosomes. In this
 case, you would select several options from the selection list. Again, the exact mechanism for doing this depends on your implementation.
-<UL>
-  <LI>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired items in the list; OR hold the shift key down and  click on two items to select those and all items in between. </li>
-  <LI>On a PC, hold the control key down and click on the desired items in the list; OR hold the shift key down and click on two items to select those and all items in between. </li>
- </UL></P>
+<ul>
+  <li>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired items in the list; OR hold the shift key down and  click on two items to select those and all items in between. </li>
+  <li>On a PC, hold the control key down and click on the desired items in the list; OR hold the shift key down and click on two items to select those and all items in between. </li>
+</ul>
+</p>
 
+<h3><a id="def"></a>Data entry fields</h3>
+<p>A data entry field requires you to type a value in the field. There are two types of data entry fields, numeric and text.</p>
 
-<H3><a id="def"></A>Data entry fields</H3>
-<P>A data entry field requires you to type a value in the field. There are two types of data entry fields, numeric and text.</P>
+<h3><a id="numeric"></a>Numeric fields</h3>
+<p>Numeric fields require that you enter a number, possibly in a specified format. For example, the Year field in the Reference query form requires the year to be entered in the format:  20xx . </p>
 
-
-<H3><a id="numeric"></A>Numeric fields</H3>
-<P>Numeric fields require that you enter a number, possibly in a specified format. For example, the Year field in the Reference query form requires the year to be entered in the format:  20xx . </P>
-
-<H3><a id="wildcard"></A>Wild card and text</H3>
-<P>MGI supports the asterisk a wild card symbol before or after the text you enter in the search field.<BR>
+<h3><a id="wildcard"></a>Wild card and text</h3>
+<p>MGI supports the asterisk a wild card symbol before or after the text you enter in the search field.<BR>
   The following are examples of using the wild card to search for information on a marker by its symbol.
-<P> <TABLE BORDER CELLPADDING="4">
-<TR> <TH>Enter</TH> <TH>To Find</TH></TR>
-<TR> <TD>Abc* </TD> <TD> all of the ATP-binding cassette genes </TD></TR>
-<TR> <TD>Abc[ab]*</TD> <TD> ATP-binding cassette genes, sub-families A and B </TD></TR>
+<p> <table>
+<tr> <th>Enter</th> <th>To Find</th></tr>
+<tr> <td>Abc* </td> <td> all of the ATP-binding cassette genes </td></tr>
+<tr> <td>Abc[ab]*</td> <td> ATP-binding cassette genes, sub-families A and B </td></tr>
 <tr> <td>*rik</td> <td> all RIKEN cDNA genes</td></tr>
-</TABLE>
-</P>
+</table>
+</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><a id="sort"></A>Can I view the results of a query in different ways?</H3>
-<P>The query forms offer several options for ordering query returns. For example, on the  Genes and Markers  Query Form you can specify that the returned list of markers be sorted by cM position or by Nomenclature. Choose the sort order by selecting the appropriate option from the list. For more details, refer to the documentation for specific forms. At the present time, multilevel sorting is not an option.</P>
+<h3><a id="sort"></a>Can I view the results of a query in different ways?</h3>
+<p>The query forms offer several options for ordering query returns. For example, on the  Genes and Markers  Query Form you can specify that the returned list of markers be sorted by cM position or by Nomenclature. Choose the sort order by selecting the appropriate option from the list. For more details, refer to the documentation for specific forms. At the present time, multilevel sorting is not an option.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><a id="print"></A>Can I print or save the results of my query?</H3>
-<P>Options for printing and saving files vary with computer platform and browser. Refer to your browser and system documentation for information on how to print results or save them to a file.</P>
+<h3><a id="print"></a>Can I print or save the results of my query?</h3>
+<p>Options for printing and saving files vary with computer platform and browser. Refer to your browser and system documentation for information on how to print results or save them to a file.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="change_font"></a>Can I change font sizes to make query forms and Help documents easier to read?</h3>
-<P>Yes. The setting for the font size on MGI web pages is specified in a style sheet. If you use Internet Explorer (IE), you can override this by doing the following:
+<p>Yes. The setting for the font size on MGI web pages is specified in a style sheet. If you use Internet Explorer (IE), you can override this by doing the following:
 <oL>
-  <LI>Click  Tools  (on the IE Toolbar). A menu appears.</LI>
-  <LI>Click  Internet Options . The Internet Options dialog box appears.</LI>
-  <LI>Click  Accessibility...  The Accessibility dialog box appears.</LI>
-  <LI>In the Formatting section, check  Ignore Font Sizes .</LI>
-<LI>Click  OK.</LI>
-<LI>Click  OK (in the Internet Options dialog box).</LI>
+  <li>Click  Tools  (on the IE Toolbar). A menu appears.</li>
+  <li>Click  Internet Options . The Internet Options dialog box appears.</li>
+  <li>Click  Accessibility...  The Accessibility dialog box appears.</li>
+  <li>In the Formatting section, check  Ignore Font Sizes .</li>
+<li>Click  OK.</li>
+<li>Click  OK (in the Internet Options dialog box).</li>
 </oL>
-<P>Now you can increase (or decrease) the font sizes. To do this:</P>
+<p>Now you can increase (or decrease) the font sizes. To do this:</p>
 <oL>
-  <LI>Click  View  (on the IE Toolbar).</LI>
-  <LI>Click  Text Size  and hold the mouse button down.</LI>
-  <LI>Click one of the sizes (Largest, Large, Medium, Smaller, Smallest). The text on your page resizes.</LI>
+  <li>Click  View  (on the IE Toolbar).</li>
+  <li>Click  Text Size  and hold the mouse button down.</li>
+  <li>Click one of the sizes (Largest, Large, Medium, Smaller, Smallest). The text on your page resizes.</li>
 </oL>
 </p>
 
