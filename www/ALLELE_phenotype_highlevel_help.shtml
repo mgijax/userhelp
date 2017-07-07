@@ -37,50 +37,47 @@ function openHelpWindow(helpFile){
 
 <a id="top"></a>
 
-<P>This help document answers the following questions:</P>
+<p>This help document answers the following questions:</p>
 
-<UL> 
-<LI><A href="#whatis">How do I make choices on the Anatomical Systems Affected by Phenotypes list?</A></LI>
-<LI><A href="#noterm">What if my term is not on that list?</a></li>
+<ul> 
+<li><a href="#whatis">How do I make choices on the Anatomical Systems Affected by Phenotypes list?</a></li>
+<li><a href="#noterm">What if my term is not on that list?</a></li>
 <!--<li><a href="#options">How do I select more than one item from this list?</a></li>-->
-<LI><A href="#strange">After I make my selection, strange things appear in the box. Why?</a></li>
-<LI><A href="#examples">Are there examples of what shows up in the box?</A></LI> 
-<LI><A href="#edit">Can I edit what's in the box? Add more terms?</A></LI> 
-<li><a href="#allstems">Is there a list of all the possible stems?</a></li>
-</UL>
-<P>See also:</P>
-<UL> 
-<LI><A href="MISC_boolean_search_help.shtml" target="_blank">Full-Text Searching on MGI Query Forms</a> (sections on Boolean operators, word stemming, partial word matching, quotation marks, parentheses)</li>
-<LI><A href="ALLELE_help.shtml" target="_blank">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
-<LI><A href="ALLELE_summary_help.shtml" target="_blank">Interpreting a Phenotypic Allele Summary</A></LI>
-<LI><A href="ALLELE_detail_help.shtml" target="_blank">Interpreting Phenotypic Allele Details</A></LI>
-<li><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> for unfamiliar terms (or for how MGI defines familiar terms) and acronyms</li>
-</UL>
-
+<li><a href="#strange">After I make my selection, strange things appear in the box. Why?</a></li>
+<!--<li><a href="#examples">Are there examples of what shows up in the box?</a></li>-->
+<li><a href="#edit">Can I edit what's in the box? Add more terms?</a></li> 
+<!--<li><a href="#allstems">Is there a list of all the possible stems?</a></li>-->
+</ul>
+<p>See also:</p>
+<ul> 
+<li><a href="MISC_boolean_search_help.shtml" target="_blank">Full-Text Searching on MGI Query Forms</a> (sections on Boolean operators, word stemming, partial word matching, quotation marks, parentheses)</li>
+<li><a href="ALLELE_help.shtml" target="_blank">Using the Phenotypes, Alleles, and Disease Models Query Form</a></li>
+<li><a href="ALLELE_summary_help.shtml" target="_blank">Interpreting a Phenotypic Allele Summary</a></li>
+<li><a href="ALLELE_detail_help.shtml" target="_blank">Interpreting Phenotypic Allele Details</a></li>
+<li><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</a> for unfamiliar terms (or for how MGI defines familiar terms) and acronyms</li>
+</ul>
 
 <H3><a id="whatis"></a>How do I make choices on the Anatomical Systems Affected by Phenotypes list?</H3> 
-<p>The Anatomical Systems Affected by Phenotypes is a high-level phenotype term list consisting largely of systems (e.g., cardiovascular, digestive/alimentary) or syndromes (e.g., life span/aging) that MGI has phenotypes for. Selecting terms and clicking <b>Add to query</b> results in their populating the Phenotype/Disease search box. The system takes the terms you enter, looks for that text in database records of the appropriate type, and returns a list of all records annotated to a phenotype term related to your system.  
+<p>The Anatomical Systems Affected by Phenotypes is a high-level phenotype term list consisting largely of systems (e.g., cardiovascular, digestive/alimentary) or syndromes (e.g., life span/aging) for which MGI has curated phenotypes. Selecting terms and clicking <b>Add to query</b> results in populating the Phenotype/Disease search box. The system takes the terms you enter, looks for that text in database records of the appropriate type, and returns a list of all records annotated to a phenotype term related to your system.  
 For an explanation of what appears in the search box, see <a href="#strange">strange things ...</a>. If you can't find what you are looking for, see <A href="#noterm"> What if my term is not on that list?</a>
 
-
-<P><b>Note:</b> If you enter more than one term, the system returns only those records containing <B>all</B> your terms. It interprets a space between terms as AND. If you want the system to return records containing <b>either</b> term, type<b> OR </b>between terms.
+<p><b>Note:</b> If you enter more than one term, the system returns only those records containing <B>all</B> your terms. It interprets a space between terms as AND. If you want the system to return records containing <b>either</b> term, type<b> OR </b>between terms.
 <p>
-See <A HREF="MISC_boolean_search_help.shtml" target="_blank">Using Full-Text Searches on MGI Query Forms</A> for more details about using AND and OR, quotation marks, parentheses, partial word matching, and word stemming.
+See <a href="MISC_boolean_search_help.shtml" target="_blank">Using Full-Text Searches on MGI Query Forms</a> for more details about using AND and OR, quotation marks, parentheses, partial word matching, and word stemming.
 
-</P>
+</p>
 
 <h3><a id="noterm"></a>What if my term is not on that list?</h3>
 <p>Click <b>Full Mammalian Phenotype (MP) Ontology</b> and navigate the hierarchy.  For example, to find <i>aneurysm</i>, the path is:
 <ol>
-  <li>cardiovascular system phenotype +</li>
-  <li>abnormal cardiovascular system morphology +
-     <li>aneurysm</li>
+  <li>cardiovascular system phenotype </li>
+  <li>abnormal cardiovascular system morphology </li>
+  <li>aneurysm</li>
 </ol>
 
-
-<p>You can then copy and paste the term (or its MP identifier; for example, MP:0003279 is the ID for aneurysm) in the Phenotype/Disease search box.</p>
+<p>Click on a term to see its definition and then you can copy and paste the term (or its MP identifier; for example, MP:0003279 is the ID for aneurysm) in the Phenotype/Disease search box.</p>
 <p>See <a href="VOCAB_mp_browser_help.shtml" target="_blank">Using the Mammalian Phenotype (MP) Browser</a> for additional help.
-</P>
+</p>
 
  <!--<h3><A name="options"></a>How do I select more than one item from this list?</h3>
 <p>To pick two or more items from a selection list, do the following:
@@ -92,158 +89,125 @@ See <A HREF="MISC_boolean_search_help.shtml" target="_blank">Using Full-Text Sea
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <H3><a id="strange"></a>After I make my selection, strange things appear in the box. Why?</H3>
-<P>When you click <b>Anatomical Systems Affected by Phenotypes</b>, select terms, and add them to your query, the system populates the Phenotype/Disease query box with your choices. 
+<p>When you click <b>Anatomical Systems Affected by Phenotypes</b>, select terms, and add them to your query, the system populates the Phenotype/Disease query box with your choices. 
 <ul>
-<li>Each choice is enclosed in parentheses to ensure that terms are considered as a whole and in order. Sometimes, this requires more than one set of parentheses. For terms such as <i>endocrine, cardiovascular</i>, and so on, the word <i>system</i> is understood and does not appear in the query box. </li>
-<li>Based on your selections the list, the Boolean operators AND and OR appear in the query box.</li>
-<li>A space between terms is interpreted as OR; any matches may contain either of the terms on either side of the OR. If you want a match on <i>both</i> terms, type AND between them. 
-<li>Depending upon your intent, you can backspace and retype to substitute one for the other.</li>
-
-<li>Individual words may be enclosed in quotation marks. Occasionally, there are spaces before (or after) the quotation marks. Quotation marks "turn off" word stemming (cutting off words to retrieve matches that are close yet not exact). For example, you can enter <i>diabetic</i> or <i>diabetes</i> and get the same results because the system truncates your entry to  <i>diabet</i>. Therefore, if you are entering a term (as opposed to selecting from a list), enclose anything that you do not want reduced to a stem in quotation marks. For example, if you want results for <i>cardiac</i> but not <i>cardiovascular</i>, enclose the former in quotes to prevent a return of everything beginning with <i>cardio</i>. On the other hand, if you want to look at every allele or phenotype involved in immunity,  enter the stem, <i>immun</i> without the quotation marks.
-<li>A space within quotation marks indicates that the search should treat it as a space. For example, if you only want results for <i>eye</i>, enter <i>"eye"</i> to prevent matches on, for example, <i>Peyer's patch:</i>.
+ <li>Each choice is represented by its MP ID, such as MP:0005390 for skeletal system phenotypes. </li>
+ <li>A space between terms is interpreted as OR; any matches may contain either of the terms on either side of the OR. If you want a match on <i>both</i> terms, type AND between them.</li>
 </ul>
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><a id="examples"></a>Are there examples of what shows up in the box?</H3>
+<!--<H3><a id="examples"></a>Are there examples of what shows up in the box?</H3>
 <p></p>
-<TABLE BORDER="1" CELLSPACING="1" CELLPADDING="3">
+<table>
 <tr>
   <th>When you select ... from the Phenotypes Selection List:</th>
   <th>the Phenotype/Disease box contains...</th>  <th>because the system stems to ...</th>
   <th>and adds...</th>
 </tr>
 
-<TR>
+<tr>
 <td>behavior/neurological</td>
 <td>(behavior OR neurological)</td>
 <td>behavior, neurolog</td>
 <td>Boolean OR and parentheses</td>
-</TR>
+</tr>
 
-<TR>
+<tr>
 <td>cardiovascular system</td>
 <td>(cardiovascular)</td>
 <td>cardiovascular</td>
 <td>parentheses ("system" is understood)</td>
-</TR>
+</tr>
 
-<TR>
+<tr>
 <td>endocrine/exocrine glands</td>
 <td>((endocrine OR exocrine) AND glands)</td>
 <td>endocrin, gland, exocrin</td>
 <td>outer parentheses for entire expression, internal parentheses for ORed terms </td>
-</TR>
+</tr>
 
-<TR>
+<tr>
 <td>hearing/ear</td>
 <td>("hearing" OR " ear " OR " ears")</td>
 <td>hear, ear</td>
 <td>Outer parentheses for entire expression, quotation marks to turn off partial word matching.</td>
-</TR>
+</tr>
 
 
-<TR>
+<tr>
 <td>immune system</td>
 <td>("immune")</td>
 <td>immun</td>
 <td>Quotation marks to turn off word stemming. If you want everything beginning with "immun," remove the quotation marks. </td>
-</TR>
+</tr>
 
-<TR>
+<tr>
 <td>lethality/embryonic-perinatal</td>
 <td>(lethality AND (embryonic OR perinatal))</td>
 <td>lethal, embryon, perinat</td>
 <td>Internal parentheses enclosed in external parentheses to ensure correct order of evaluation.</td>
-</TR>
+</tr>
 
-<TR>
+<tr>
 <td>taste/olfaction</td>
 <td>("taste" OR olfaction)</td>
 <td>tast, olfaction</td>
 <td>Stemming ("tast" retrieves e.g., metastasize, so <i>taste</i> must be  enclosed in quotation marks.)</td>
-</TR>
+</tr>
 
-<TR>
+<tr>
 <td>vision/eye</td>
 <td>("vision" OR " eye")</td>
 <td>vision, ey</td>
 <td>Quotation marks turn off partial word matching; inserted white space prevents matches on words containing <i>eye</i> i.e., Peyer's patch.</td>
-</TR>
+</tr>
 </table>
 </p>
 
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>-->
 
 <H3><a id="edit"></a>Can I edit the box on the query form? Add more terms?</H3>
-<P>Yes to both questions. For example, you may wish to change an AND to an OR. You may wish to click the links beside <b>Select </b> or <b>Browse</b> and add more items from those lists. You may also wish to add your own terms. See 
+<p>Yes to both questions. For example, you may wish to change an AND to an OR. You may wish to click the links beside <b>Select </b> or <b>Browse</b> and add more items from those lists. You may also wish to add your own terms. Individual words may be enclosed in quotation marks. Quotation marks "turn off" word stemming (cutting off words to retrieve matches that are close yet not exact). For example, you can enter <i>diabetic</i> or <i>diabetes</i> and get the same results because the system truncates your entry to  <i>diabet</i>. Therefore, if you are entering a term (as opposed to selecting from a list), enclose anything that you do not want reduced to a stem in quotation marks. For example, if you want results for <i>cardiac</i> but not <i>cardiovascular</i>, enclose the former in quotes to prevent a return of everything beginning with <i>cardio</i>. On the other hand, if you want to look at every allele or phenotype involved in immunity,  enter the stem, <i>immun</i> without the quotation marks. See 
 <A HREF="MISC_boolean_search_help.shtml" target="_blank">Full-Text Searching on MGI Query Forms</a> for additional information.
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="allstems"></a>Is there a list of all the possible stems?</h3>
-<table cellpadding=3>
-<TR><td>
-    <table border="1" cellpadding=4 align=left>
-    <tr><td><b>Anatomical Systems Affected <br>by Phenotypes</b> term</td><th>Stems to...</th></TR>
-    <tr><td>adipose tissue</td><td>adiopos, tissu</td></TR>
-    <TR><td>behavioral/neurological</td><td>behavioral, neurolog</td></TR>
-    <TR><td>cardiovascular system</td><td>cardiovascular, system</td></TR>
-    <TR><td>cellular</td><td>cellular</td></TR>
-    <TR><td>craniofacial</td><td>craniofaci</td></TR>
-    <TR><td>digestive/alimentary system</td><td>digestive, alimentari, system</td></TR>
-    <TR><td>embryogenesis</td><td>embryogenesi</td></TR>
-    <TR><td>endocrine/exocrine glands</td><td>endocrine, exocrin, gland</td></TR>
-    <TR><td>growth/size</td><td> growth, siz</td></TR>
-    <TR><td>hearing/ear</td><td>hearing, ear</td></TR>
-    <TR><td>hematopoietic system</td><td>hematopoiet, system</td></TR>
-    <TR><td>homeostasis/metabolism</td><td>homeostasis, metabol</td></TR>
-    <TR><td>immune system</td><td>immun, system</td></TR>
-    <TR><td>lethality/embryonic-perinatal</td><td>lethality, embryon, perinat</td></TR>
-     <TR><td>lethality/postnatal</td><td>lethality, postnat</td></TR>
-     <TR><td>life span/aging</td><td>life, span, ag</td></TR>
-    <TR><td>nervous system</td><td>nervou, system</td></TR>
-<TR>
-<td>normal phenotype</td>
-<td>normal, phenotyp</td>
-</TR>
-<TR>
-<td>other phenotype</td>
-<td>other, phenotyp</td>
-</TR>
-<TR>
-<td>pigmentation</td>
-<td>pigment</td>
-</TR>
-<TR><td>renal/urinary system</td>
-<td>renal, urinari, system</td>
-</TR>
-<TR><td>reproductive system</td>
-<td>reproduct, system</td>
-</TR>
-<TR><td>respiratory system</td>
-<td>respiratori</td>
-</TR>
-<TR>
-<td>skeleton</td>
-<td>skeleton</td>
-</TR>
-<TR>
-<td>touch/vibrissae</td>
-<td>touch, vibrassa</td>
-</TR>
-<TR>
-<td>tumorigenesis</td>
-<td>tumorigenesi</td>
-</TR>
-<TR>
-<td>vision/eye</td>
-<td>vision, ey</td></TR></table>
-</td><tr>
+<!--<h3><a id="allstems"></a>Is there a list of all the possible stems?</h3>
+
+<table>
+<tr><td><b>Anatomical Systems Affected <br>by Phenotypes</b> term</td><th>Stems to...</th></tr>
+<tr><td>adipose tissue</td><td>adiopos, tissu</td></tr>
+<tr><td>behavioral/neurological</td><td>behavioral, neurolog</td></tr>
+<tr><td>cardiovascular system</td><td>cardiovascular, system</td></tr>
+<tr><td>cellular</td><td>cellular</td></tr>
+<tr><td>craniofacial</td><td>craniofaci</td></tr>
+<tr><td>digestive/alimentary system</td><td>digestive, alimentari, system</td></tr>
+<tr><td>embryogenesis</td><td>embryogenesi</td></tr>
+<tr><td>endocrine/exocrine glands</td><td>endocrine, exocrin, gland</td></tr>
+<tr><td>growth/size</td><td> growth, siz</td></tr>
+<tr><td>hearing/ear</td><td>hearing, ear</td></tr>
+<tr><td>hematopoietic system</td><td>hematopoiet, system</td></tr>
+<tr><td>homeostasis/metabolism</td><td>homeostasis, metabol</td></tr>
+<tr><td>immune system</td><td>immun, system</td></tr>
+<tr><td>lethality/embryonic-perinatal</td><td>lethality, embryon, perinat</td></tr>
+<tr><td>lethality/postnatal</td><td>lethality, postnat</td></tr>
+<tr><td>life span/aging</td><td>life, span, ag</td></tr>
+<tr><td>nervous system</td><td>nervou, system</td></tr>
+<tr><td>normal phenotype</td><td>normal, phenotyp</td></tr>
+<tr><td>other phenotype</td><td>other, phenotyp</td></tr>
+<tr><td>pigmentation</td><td>pigment</td></tr>
+<tr><td>renal/urinary system</td><td>renal, urinari, system</td></tr>
+<tr><td>reproductive system</td><td>reproduct, system</td></tr>
+<tr><td>respiratory system</td><td>respiratori</td></tr>
+<tr><td>skeleton</td><td>skeleton</td></tr>
+<tr><td>touch/vibrissae</td><td>touch, vibrassa</td></tr>
+<tr><td>tumorigenesis</td><td>tumorigenesi</td></tr>
+<tr><td>vision/eye</td><td>vision, ey</td></tr>
 </table>
 
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p> -->
 
 <!--#include file='include/templateBlankBodyStop.html'--> 

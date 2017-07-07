@@ -35,7 +35,6 @@ Interpreting a Sequence Summary </span>
 
 <!-- Body of User Help -->
 
-
 <a id="top"></a> 
 
 <p>This document answers the following questions about a sequence summary:</p>
@@ -44,12 +43,12 @@ Interpreting a Sequence Summary </span>
 <li><a href="#access">When does a sequence summary appear?</a></li>
 <li><a href="#contain">What's in a sequence summary?</a></li>
 <!--<li><a href="#sort">How is this report sorted?</a></li>-->
-<li><a href="#usage">How do I use a sequence summary?</a></li>
+<li><a href="#usage">How do I use a sequence summary?</a>
    <ul>
    <li><a href="#single">How do I view details for a single sequence?</a></li>
    <li><a href="#fasta">How do I download sequences in FASTA format?</a></li>
    <li><a href="#ncbiblast">How do I forward sequences to NCBI BLAST?</a></li>
-   </ul>
+   </ul></li>
 <li><a href="#marker_detail">I clicked a link on an MGI Gene Detail report and got this information. What does it tell me?</a></li>
 <li><a href="#reference_detail">I clicked a link on an MGI Reference Detail report and got this information. What does it tell me?</a></li>
 <li><a href="#fields">What can I do with sequence summary information?</a></li>
@@ -70,42 +69,32 @@ Interpreting a Sequence Summary </span>
 <p>A sequence summary appears:</p>
 
 <BLOCKQUOTE>
-<TABLE BORDER="1" CELLPADDING="4" WIDTH="100%">
+<table>
 <tr>
 <th>When you search for sequences...</th>
 <th>For field details, see...</th>
 </tr>
 
 <tr>
-<td>from a Gene Detail report</TD>
-<td><a href="#marker_detail">I clicked a link on a Gene Detail report...</a> </TD>
+<td>from a Gene Detail report</td>
+<td><a href="#marker_detail">I clicked a link on a Gene Detail report...</a> </td>
 </tr>
 
 <tr>
-<td>from on a Reference Detail report</TD>
-<td><a href="#reference_detail">I clicked a link on a Reference Detail report...</a></TD>
+<td>from on a Reference Detail report</td>
+<td><a href="#reference_detail">I clicked a link on a Reference Detail report...</a></td>
 </tr>
-</TABLE>
+</table>
 </BLOCKQUOTE>
-</p>
-
 
 <H3><a id="contain"></a>What's in a sequence summary?</H3>
 
 <p>The Mouse Sequences Query Results summary appears when you select the All sequences, RefSeq or UniProt links in the Sequences section of a marker detail page. The summary provides a general description of each sequence that your query returns. The summary lists:</p>
 
-<ul>
-<li>Marker Symbol, Name and MGI accession ID.</li>
-
-<LI STYLE="list-style: none"><BR>
-</li>
-
-<li>Number of matching sequences displayed out of number found (e.g.,  1 - 25 of 171 sequences displayed)</li>
-
-<LI STYLE="list-style: none"><BR>
-</li>
-
-<li>Summary information about the sequences matching your query, in columns. Columns headings are: Select<!--(for your check marks)-->, Sequence, Type, Length, Strain/Species, Description from Sequence Provider, Clone Collection and Marker Symbol. </li>
+<ul style="line-height:1.5;">
+ <li>Marker Symbol, Name and MGI accession ID.</li>
+ <li>Number of matching sequences displayed out of number found (e.g.,  1 - 25 of 171 sequences displayed)</li>
+ <li>Summary information about the sequences matching your query, in columns. Columns headings are: Select<!--(for your check marks)-->, Sequence, Type, Length, Strain/Species, Description from Sequence Provider, Clone Collection and Marker Symbol.</li>
 </ul>
 
 <p>You can view MGI sequence details (see <a href="SEQUENCE_detail_help.shtml" target="_blank">Using Sequence Detail Reports</a>), or you can download it in <a href="#fasta">FASTA</a> format or forward it to <a href="#ncbiblast">NCBI BLAST</a>.
@@ -124,7 +113,6 @@ Interpreting a Sequence Summary </span>
 
 <li>forward <!--one or more--> a sequence to <a href="#ncbiblast">NCBI BLAST</a>.</li>
 </ol>
-</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -209,34 +197,35 @@ The detail record for that sequence as stored in MGI appears. See <a href="SEQUE
 </ul>
 
 <p>Depending on how you access this summary and your sort choices, some or all of the following fields and links appear:</p>
-<p><table width="!" cellpadding="2" align="center">
+<p>
+<table class="nb">
 <tr><td><a href="#select">Select</a> | <a href="#sequence">Sequence</a> | <a href="#version">Version</a> | 
 <a href="#type">Type</a> | <a href="#length">Length</a> | <a href="#desc">Description from sequence provider</a> | <a href="#strain">Strain</a> | <a href="#tissue">Tissue</a> | <a href="#library">Library</a> | <a href="#marker_symbol">Marker symbol</a> | <a href="#marker_name">Marker name</a> | <a href="#position">Map position</a> | <a href="#coord">Genome Coordinates</a></td></tr>
-   </table>
-  </p>
+</table>
+</p>
 
-<TABLE BORDER="1" CELLPADDING="4">
+<table>
 <tr><th>Field</th><th>Description</th></tr>
-<tr><th><a id="select"></a>Select</th><td>Check boxes for selecting sequences for downloading, or forwarding.</TD></tr>
+<tr><th><a id="select"></a>Select</th><td>Check boxes for selecting sequences for downloading, or forwarding.</td></tr>
 <tr><th><a id="sequence"></a>Sequence</th><td>
 <ul><li>Sequence identifier</li>
 <li>Name of the sequence provider, linked to the associated sequence in the provider's database.</li>
 <li>Link to the MGI sequence detail report</li>
-</ul></TD></tr>
-<tr><th><a id="version"></a>Version</th><td>Number assigned by the provider to this update of the sequence information. If blank, the provider does not furnish this information.</TD></tr>
-<tr><th><a id="type"></a>Type</th><td>Type of sequence: RNA, DNA, or polypeptide. <!--Sorting order is as follows:--></TD></tr>
-<tr><th><a id="length"></a>Length</th><td>Length of the sequence, in base pairs (RNA, DNA) or amino acids (polypeptides).</TD></tr>
-<tr><th><a id="desc"></a>Description from Sequence Provider</th><td>Information about the sequence from the provider you selected (RefSeq, GenBank, and so on.)</TD></tr>
-<tr><th><a id="strain"></a>Strain/Species</th><td>Mouse strain (or species if other than laboratory mouse) from which the sequence was derived. If the strain/species cannot be resolved to an MGI controlled vocabulary a message to this effect appears, marked with an asterisk. See <a href="#resolved">What does it mean if a value cannot be resolved to an MGI controlled vocabulary?</a></TD></tr>
+</ul></td></tr>
+<tr><th><a id="version"></a>Version</th><td>Number assigned by the provider to this update of the sequence information. If blank, the provider does not furnish this information.</td></tr>
+<tr><th><a id="type"></a>Type</th><td>Type of sequence: RNA, DNA, or polypeptide. <!--Sorting order is as follows:--></td></tr>
+<tr><th><a id="length"></a>Length</th><td>Length of the sequence, in base pairs (RNA, DNA) or amino acids (polypeptides).</td></tr>
+<tr><th><a id="desc"></a>Description from Sequence Provider</th><td>Information about the sequence from the provider you selected (RefSeq, GenBank, and so on.)</td></tr>
+<tr><th><a id="strain"></a>Strain/Species</th><td>Mouse strain (or species if other than laboratory mouse) from which the sequence was derived. If the strain/species cannot be resolved to an MGI controlled vocabulary a message to this effect appears, marked with an asterisk. See <a href="#resolved">What does it mean if a value cannot be resolved to an MGI controlled vocabulary?</a></td></tr>
 <tr><th><a id="tissue"></a>Source Tissue</th>
-<td>Mouse tissue from which the sequence was derived.</TD></tr>
-<tr><th><a id="library"></a>Library</th><td>Mouse library from which the sequence was derived.</TD></tr>
-<tr><th><a id="clone_collection"></a>Clone Collection</th><td>Name of clone collections from which the sequence was derived. (<B>Not Applicable</B> appears for RefSeq, UniProt, DFCI, DoTS,  NIA sequences)</TD></tr>
-<tr><th><a id="marker_symbol"></a>Marker Symbol</th><td>Gene/marker symbol associated with the sequence(s), linked to the MGI Gene Detail report.</TD></tr>
-<tr><th><a id="marker_name"></a>Marker Name</th><td>Name of the gene/marker associated with the sequence.</TD></tr>
-<tr><th><a id="position"></a>Map Position</th><td>Chromosome(s) and cM position(s) of the markers each sequence is associated with.</TD></tr>
-<tr><th><a id="coord"></a>Genome Coordinates</th><td>Assembly sequence coordinates for the mapped gene/marker. Format is <I>Chromosome# (beginning coordinate - end coordinate)</I></TD></tr>
-</TABLE>
+<td>Mouse tissue from which the sequence was derived.</td></tr>
+<tr><th><a id="library"></a>Library</th><td>Mouse library from which the sequence was derived.</td></tr>
+<tr><th><a id="clone_collection"></a>Clone Collection</th><td>Name of clone collections from which the sequence was derived. (<b>Not Applicable</b> appears for RefSeq, UniProt, DFCI, DoTS,  NIA sequences)</td></tr>
+<tr><th><a id="marker_symbol"></a>Marker Symbol</th><td>Gene/marker symbol associated with the sequence(s), linked to the MGI Gene Detail report.</td></tr>
+<tr><th><a id="marker_name"></a>Marker Name</th><td>Name of the gene/marker associated with the sequence.</td></tr>
+<tr><th><a id="position"></a>Map Position</th><td>Chromosome(s) and cM position(s) of the markers each sequence is associated with.</td></tr>
+<tr><th><a id="coord"></a>Genome Coordinates</th><td>Assembly sequence coordinates for the mapped gene/marker. Format is <i>Chromosome# (beginning coordinate - end coordinate)</i></td></tr>
+</table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

@@ -38,8 +38,8 @@ Using Map Position Fields on MGI Query Forms
 <hr>
 <a id="top"></a>
 
-<P>This help document describes how to use the Map Position fields on an MGI Query Form. Depending on the query form, some or all of the following fields are available: 
-<table align="center" border="0" cellpadding="8" width="100%">
+<p>This help document describes how to use the Map Position fields on an MGI Query Form. Depending on the query form, some or all of the following fields are available: 
+<table>
   <tr class="nb"><td><a href="#chromosome">Chromosome(s)</a> | <a href="#coordinates">Genome Coordinates</a> | <a href="#marker_range">Marker Range</a> | <a href="#cm_offset">cM Position</a></td></tr>
 </table>
      <table>
@@ -57,7 +57,7 @@ Using Map Position Fields on MGI Query Forms
           <li>Make a selection on the <a href="#chromosome">Chromosome(s)</a> list if available, otherwise, prepend the chromosome number followed by a colon (e.g. 19: or chr19:). Use MT for the Mitochondrial Chromosome.</li>
           <li>Click the other down arrow and select either bp (base pairs) or Mbp (mega base pairs) as the unit of measurement. (The default is base pairs.)</li>
           <li>Enter the coordinate(s):</li></ul>
-           <table align="center" border="1" cellspacing="0" cellpadding="4" width="100%">
+           <table>
            <tr><th><span style="white-space: nowrap">To search for...</span></th><th>Type or paste in the box...</th>
               <th>Examples: (be sure to select the proper unit: Mbp or bp)</th>
            </tr>

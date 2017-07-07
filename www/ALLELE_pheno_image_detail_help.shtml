@@ -80,26 +80,24 @@ function openHelpWindow(helpFile){
 </p>
 
  <h3><a id="detail"></a>How do I interpret the information on the (Phenotype) Image Details report?</h3>
-<TABLE BORDER=1 cellpadding=4 > 
+<table> 
 
-<TR><th>Field</TH><th>Description</TH></TR>
-<TR><td><a id="image"></a><b>Image</b><td>Two types of images may appear on these pages: 
+<tr><th>Field</th><th>Description</th></tr>
+<tr><td><a id="image"></a><b>Image</b><td>Two types of images may appear on these pages: 
 	<ul>
 	<li>An image of a mouse (or mice) displaying the phenotype caused by the mutation of interest and, if available, the control mouse</li>
 	<li>A mutation description image that defines the mutation.</li>
 	</ul>
 </td></tr>
-
-<tr><td><a id="caption"></a><b>Caption</b><br>(This section may not appear if the image is not associated with any genotypes.)</td><td>Details about the genotypic evidence or allelic affect on the mouse/mice displayed in the image; designation of the control  mouse, if one appears.</td></tr>
-
+<tr><td><a id="caption"></a><b>Caption</b><br>(This section may not appear if the image is not associated with any genotypes.)</td><td>Details about the phenotype or allelic affect on the mouse/mice displayed in the image; designation of the control  mouse, if one appears.</td></tr>
 <tr><td><a id="credits"></a><b>Copyright</b><td>Includes image origin, copyright, photo credit, and permission-to-display information.</td></tr>
-
 <tr><td><a id="associated_alleles"></a><b>Associated Alleles</b><td>A list of alleles that this image is associated with, arranged alphabetically by allele symbol. 
-<table border=0 cellpadding="4"><tr><th>Symbol</th><td>Allele symbol, linked to its Phenotypic Allele Detail report. Example:<i> Mitf<sup>Mi-wh</sup></i></td></TR><tr><th>Name</th><td>Gene name, semicolon, allele name.  Example: <i>microphthalmia-associated transcription factor; white</i></td></tr></table></td></tr>
-
+<table>
+<tr><th>Symbol</th><td>Allele symbol, linked to its Phenotypic Allele Detail report. Example:<i> Mitf<sup>Mi-wh</sup></i></td></tr
+><tr><th>Name</th><td>Gene name, semicolon, allele name.  Example: <i>microphthalmia-associated transcription factor; white</i></td></tr></table></td></tr>
 <tr><td><a id="associated_genotypes"></a><b>Associated Genotypes</b><br>(This section may not appear if the image is not associated with any genotypes.)</td>
     <td>
-      <table border="0" cellpadding="4">
+      <table>
         <tr>
         <th><a id="allelic_composition"></a><span style="white-space: nowrap">Allelic Composition</span></th>
         <td>Genotype of each allele, linked to its MGI Allele Detail report.</td>

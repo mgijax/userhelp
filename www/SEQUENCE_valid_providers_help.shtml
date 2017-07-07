@@ -35,7 +35,7 @@ window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars
 
 <P>Only the following sequence provider and sequence type combinations are available or valid for use on MGI's Mouse Sequence Query Form.</P>
 <blockquote>
-<table border="1" cellspacing="1" cellpadding="5">
+<table>
 <tr>
 <th>Sequence Provider</th>
 <th>Valid Sequence Type</th>

@@ -47,7 +47,7 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
   <li>Search and browse the full SO ontology here: <a href="http://www.sequenceontology.org/cgi-bin/miso.cgi" target="_blank">http://www.sequenceontology.org/cgi-bin/miso.cgi</a>.</li>
 </ul>
 </p>
-<table border="1" cellspacing="1" cellpadding="3" width="!">
+<table>
 <tr><th><span style="white-space: nowrap">Feature Type</span></th><th>MGI Definition</th><th>Corresponding<br>SO ID</th></tr>
 
 <tr><th>gene</th><td>A region (or regions) that include all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions, and/or other functional sequence regions. </td><td>SO:0000704</td></tr>
