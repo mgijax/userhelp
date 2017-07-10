@@ -43,9 +43,9 @@ function openHelpWindow(helpFile){
 <p>This help document answers the following questions about the (Phenotypic) Image Detail report.
 </p> 
 <ul>
-  <li><A HREF="#field">What should show up in this report?</a></li>
-  <li><A HREF="#howdo">How do I access this report?</a></li>
- <li><A HREF="#detail">How do I interpret this information in this report?</a></li>
+  <li><a href="#field">What should show up in this report?</a></li>
+  <li><a href="#howdo">How do I access this report?</a></li>
+ <li><a href="#detail">How do I interpret this information in this report?</a></li>
 </ul>
 
 <h3><a id="field"></a>What should show up in this report?</h3>
@@ -63,19 +63,18 @@ function openHelpWindow(helpFile){
   <li>Use the <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, and Disease Models Query Form</a> to search for an allele. The Phenotypic Alleles Query Results -- Summary report appears. </li>
   <li>Click an allele on the Summary report. The Phenotypic Allele Detail report appears.</li>
   <li>If there are multiple images for this allele or phenotype, the phrase <i>Show all images  involving this allele</i> appears at the bottom left of the (primary) image. Click <span style="text-decoration: underline;">all images</span> to access the All Images for Allele report.</li>
-
 </ol>
-<p><b>Note: </b>If there are images for genotypes associated with this allele, they appear in the <b>Phenotypes</b> section of the Phenotypic Allele Detail report. Click on the image to access these Image Detail reports.</p>
-<P>See also:
-<UL>
-  <LI><A HREF="ALLELE_pheno_image_detail_help.shtml" target="_blank">Interpreting Interpreting (Phenotypic) Image Details</A></LI>
-  <LI><A HREF="ALLELE_help.shtml" target="_blank">Using the Phenotypes, Alleles, and Disease Models Query Form</A></LI>
-  <LI><A HREF="ALLELE_summary_help.shtml" target="_blank">Interpreting a Phenotypic Allele Summary</A></LI>
-  <LI><A HREF="ALLELE_detail_help.shtml" target="_blank">Interpreting Phenotypic Allele Details</A></LI>
-</UL>
 
+<!--<p><b>Note: </b>If there are images for genotypes associated with this allele, they appear in the <b>Phenotypes</b> section of the Phenotypic Allele Detail report. Click on the image to access these Image Detail reports.</p>-->
+<p>See also:
+<ul>
+  <li><a href="ALLELE_pheno_image_detail_help.shtml" target="_blank">Interpreting Interpreting (Phenotypic) Image Details</a></li>
+  <li><a href="ALLELE_help.shtml" target="_blank">Using the Phenotypes, Alleles, and Disease Models Query Form</a></li>
+  <li><a href="ALLELE_summary_help.shtml" target="_blank">Interpreting a Phenotypic Allele Summary</a></li>
+  <li><a href="ALLELE_detail_help.shtml" target="_blank">Interpreting Phenotypic Allele Details</a></li>
+</ul>
 
- <h3><a id="detail"></a>How do I interpret this information in this report?</h3>
+<h3><a id="detail"></a>How do I interpret this information in this report?</h3>
 
 <table> 
 <tr><th>Field</TH><th>Description</th></tr>
@@ -96,7 +95,7 @@ function openHelpWindow(helpFile){
      <td>MGI identifier of the allele.</td>
      </tr>
      <tr><th>Synonyms</th>
-     <td>Unofficial names for this allele.</td></TR>
+     <td>Unofficial names for this allele.</td></tr>
      </table>
     </td>
 </tr>
@@ -108,8 +107,8 @@ function openHelpWindow(helpFile){
 <td>Brief description of the mouse/mice displayed in the image.</td>
 </tr>
 <tr>
-<td><b>Genotypes involving this allele</b><br>
-(These fields may not contain information if the image is only associated with an allele and not a genotype.)</td>
+<th><span style="white-space: nowrap">Genotypes involving this allele</span><br>
+<span style="font-weight:400;">(These fields may not contain information if the image is only associated with an allele and not a genotype.)</span></th>
 <td>
   <table>
    <tr>

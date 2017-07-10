@@ -78,9 +78,7 @@ In this table, you can:
  <li>associate a genotype with a color when interpreting this and the <b>Disease models</b> section on the Allele Detail report </li>
  <li>show or hide all annotated terms</li>
  <li>open a new window displaying each genotype's annotations (by clicking a genotype abbreviation (e.g. <i>hm1</i>)
- <li>compare genotypic details side by side (by opening subsequent windows)</li>
  <li>expand or contract an affected system to see specific subsystems</li>
- <li>discover whether any disease models are annotated to the genotype</li>
  <li>locate terms in the ontological hierarchy (by following links to the Mammalian Phenotype Browser) </li>
  <li>examine research for the phenotypic annotations (by following links to Reference detail reports from the new window).</li>
 </ul>
@@ -212,7 +210,7 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
   <li><b>N</b> means that phenotypic analysis has occurred, and there is a report of no abnormality for part or all of the system although an abnormality was expected. 
   <li>If an <b>N</b> is visible when the system is closed (i.e., <b>hide</b>;), then only unexpected normals are annotated for that system.</li>
   <li>Click <b>show</b> or <b>hide</b> to investigate all research results for this (any) genotype/affected system.</li>
-  <li>&#8709; means that, contrary to expectation, this genotype is not a model for a specific disease or diseases.</li>
+  <li>&#8709;, in the Disease Model section of the Allele Detail page, means that, contrary to expectation, this genotype is not a model for a specific disease or diseases.</li>
   <li>A blank cell indicates that, in MGI, the genotype in the column has not been annotated to the term in the row.</li>
 </ul>
 
@@ -248,9 +246,9 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 </ul>
 
 <h3><a id="see_annot"></a>Can I see annotations for every checkmarked item in a Genotypes column? </h3>
-<p>Yes. Click the colored box at the head of the Genotypes row (i.e., <span style="text-decoration: underline;">hm1</span>, <span style="text-decoration: underline;">ht4</span>). A new window appears, containing all available phenotypic details by genotype. 
+<p>Yes. Click the colored box at the head of the Genotypes row (i.e., <span style="text-decoration: underline;">hm1</span>, <span style="text-decoration: underline;">ht4</span>). A new browser tab appears, containing all available phenotypic details by genotype. 
 <ul>
-  <li>The color assigned to the genotype appears in a small box. The genotype abbreviation appears beneath the box (e.g., <i>hm1</i>). This enables quick identification of genotypes, particularly when opening several windows for comparison.</li>
+  <li>The color assigned to the genotype appears in a small box. The genotype abbreviation appears beneath the box (e.g., <i>hm1</i>). This enables quick identification of genotypes, particularly when opening several tabs for comparison.</li>
   <li>The Allelic Composition and Genetic Background appear in the header. Clicking any allele symbol brings up its Phenotypic Allele Detail report.</li>
   <li>Find Mice: 
   	<ul>
@@ -270,7 +268,7 @@ or <b>hide</b> (above the Affected System column, to the left of the Key).</li> 
 
 <h3><a id="what_else"></a>What else is there to know about genotype windows?</h3>
 <ul>
-  <li>You can open as many windows as desired (there is one for every item in the  <b>Genotypes</b> row) for data comparisons.</li>
+  <li>You can open as many tabs as desired (there is one for every item in the  <b>Genotypes</b> row) for data comparisons.</li>
   <li>When available, a table featuring mouse models of human diseases appears last in the display, so if this is your area of interest, be sure to expand (or scroll to the bottom of) genotype windows.</li>
   <li>You can follow <b>Affected system </b>links to the MGI Mammalian Phenotype Browser and see terms represented  within the context of phenotype ontology.<br> <b>Note:</b> This opens a new window.</li>
   <li>You can follow MGI J: numbers to MGI Reference reports to find the research that supports the annotations.<br> <b>Note:</b> This opens a new window.</li>

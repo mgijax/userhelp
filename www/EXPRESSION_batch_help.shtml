@@ -110,11 +110,12 @@ The following are representative examples for each type listed on the pulldown m
 <tr><td>GO (Gene Ontology)</td><td>GO:0019221</td></tr>
 <tr><td>RefSNP ID</td><td>rs3021544</td></tr>
 <tr><td>Affy Probeset ID</td><td>10379153</td></tr>
-
- <table>
+<p>
+<table>
   <tr><td>*</td><td>GenBank IDs are for nucleotide sequences only. RefSeq IDs are for either nucleotide or protein sequences.</td></tr>
  </table>
  </table>
+ </p>
 </blockquote>
 
 The following are additional types (not listed on the pulldown menu), followed by examples, of other types of IDs that the Batch Query recognizes: 
