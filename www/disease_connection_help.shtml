@@ -126,19 +126,19 @@ Choose a field to search by toggling "Please select a field."
 <tr><th><a id="genes"></a>Gene Symbol(s) or ID(s)</th>
 <td>Symbol, synonym, vertebrate homolog or ID for a human or mouse genetic marker.
   <ul>
-  <li>Enter one or more markers, separated by commas. Be aware that some IDs use prefixes (e.g. <i>MGI:</i>, <i>HNGC:</i>). Prefixes make IDs unique.</li>
+  <li>Enter one or more markers, separated by commas. </li>
+  <li>Be aware that some IDs use prefixes (e.g. <i>MGI:</i>, <i>HNGC:</i>). Prefixes make IDs unique.</li>
   <li>Unlike most MGI search forms, the asterisk (*) is NOT supported as a wild card. To find phenotypes and diseases associated with a family of genes, such as fibrillins, use the <a href="#genename">Gene Name</a> field.</li>
   <li>If you wish to upload a file of a column of comma, semicolon or tab separated list gene symbols or IDs, use the <a href="#upload">Gene File Upload</a> field.</li>
   </ul>
 </td></tr>
 
 <tr><th><a id="genename"></a>Gene Name</th>
-<td>Name or synonym for human or mouse genetic marker. If you enter more than one word, this field automatically ANDs them. A search for <i>paired box</i> finds genes with names that contain both <i>paired</i> and <i>box</i>.</td>
+<td>Name or synonym for human or mouse genetic marker. If you enter more than one word, this field automatically <i>AND</i>i>s them. A search for <i>paired box</i> finds genes with names that contain both <i>paired</i> AND <i>box</i>.</td>
 </tr>
 
 <tr><th><a id="phenotypes"></a>Phenotype or Disease Name</th>
-<td>The <b>Search by disease
-or phenotype terms</b> section is a full-text search field.
+<td>The <b>Search by Disease or Phenotype Name</b> field is a full-text search field.
   <ul>
   <li>Begin typing a term of interest and an autocomplete list activates on the first character. 
     <ul>
