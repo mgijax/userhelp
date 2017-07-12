@@ -41,7 +41,7 @@ Interpreting All Phenotype Images for a Gene
 
 <p>When there are images of phenotype data for a given gene, <i>Phenotype Images</i>, followed by a number in parentheses, appears at the bottom of the Phenotypes section of the gene's detail page. Clicking the number returns the <b>All Phenotype Images for Gene</b> summary report where you can access every available phenotype image for that gene.</p>
 <p>
-<ul style="line-height:1.5;">
+<ul style="line-height:1.6;">
  <li>At the top of the page appear the symbol, name, and MGI accession identifier of the gene whose phenotype images are in this report.</li>
  <li>Next appears the total number of phenotype images associated with phenotype data for this gene. Each figure contains at least one phenotype image; some contain many. There is one thumbnail in the summary for each figure.</li>
  <li>Use the drop-down box on the upper right to change the number of figures shown per page. Choose between <i>10, 25,</i> or <i>50</i> figures per page or <i>All</i>. <b>Note: </b>If you have a slow computer connection, it is advisable to choose one of the smaller numbers.</li>

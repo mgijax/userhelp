@@ -74,23 +74,23 @@ function openHelpWindow(helpFile){
 <p>The title on an allele detail page takes the following form:<br> 
 <blockquote>
 [<b><i>allele symbol</i></b>]<br> [<b><i>allele type</i></b>] <b>Detail</b>
-</BLOCKQUOTE>
+</blockquote>
 [allele type] is the <a href="ALLELE_help.shtml#categories" target="_blank">category </a> used to narrow the allele search. The category can be spontaneous, induced (chemically, radiation, or transposon), transgenic (random, expressed; random, gene disruption; Cre/Flp; transposase), gene trapped, targeted (floxed/frt, reporter, knock-out, knock-in) or QTL. 
 <p>As examples:
 
 <blockquote>
 <table>
  <tr><th>Allele type</th><th>Title example</th></tr>
- <tr><td>Spontaneous</td><th class="thleft"><i>Apoe<sup>shl</sup></i> Spontaneous Allele Detail</th></tr>
- <tr><td>Chemically induced (ENU)</td><th class="thleft"><i>Edn3<sup>tmgc48</sup></i> Chemically induced Allele Detail</th></tr>
- <tr><td>Radiation induced</td><th class="thleft"><i>Cryge<sup>nz</sup></i> Radiation induced Allele Detail</th></tr>
- <tr><td>Transposon induced</td><th class="thleft"><i>Mdc1<sup>Tn(pb-ZG-s)1.1Mrc</sup></i> Transposon induced Allele Detail</th></tr>
- <tr><td>Transgenic (Transposase)</td><th class="thleft"><i>Tg<sup>(CAG-sb10)1Dla</sup></i> Transgene Allele Detail</th></tr>
- <tr><td>Transgenic (Inserted expressed sequence)</td><th class="thleft"><i>Tg(aP2-SREBF1c)9884Reh</i> Transgene Detail</th></tr>
- <tr><td>Targeted</td><th class="thleft"><i>Ahr<sup>tm1(AHR)Mym</sup></i> Targeted Allele Detail</th></tr>
- <tr><td>Gene trapped</td><th class="thleft"><i>Alms1<sup>Gt(XH152)Byg</sup></i> Gene trapped Allele Detail</th></tr>
- <!--<tr><td><nobr>Gene trapped/no gene nomenclature*</td><th class="thleft"><i>Gt(pU21)102lmeg </i> Gene trapped Allele Detail</th></tr>-->
- <tr><td>QTL</td><th class="thleft"><i>Ap7q<sup>C57BL/6ByJ</sup></i> QTL Variant Detail</th></tr>
+ <tr><th class="thleft">Spontaneous</th><td><i>Apoe<sup>shl</sup></i> Spontaneous Allele Detail</td></tr>
+ <tr><th class="thleft">Chemically induced (ENU)</th><td><i>Edn3<sup>tmgc48</sup></i> Chemically induced Allele Detail</td></tr>
+ <tr><th class="thleft">Radiation induced</th><td><i>Cryge<sup>nz</sup></i> Radiation induced Allele Detail</td></tr>
+ <tr><th class="thleft">Transposon induced</th><td><i>Mdc1<sup>Tn(pb-ZG-s)1.1Mrc</sup></i> Transposon induced Allele Detail</td></tr>
+ <tr><th class="thleft">Transgenic (Transposase)</th><td><i>Tg<sup>(CAG-sb10)1Dla</sup></i> Transgene Allele Detail</td></tr>
+ <tr><th class="thleft"><span style="white-space: nowrap">Transgenic (Inserted expressed sequence)</span></th><td><i>Tg(aP2-SREBF1c)9884Reh</i> Transgene Detail</td></tr>
+ <tr><th class="thleft">Targeted</th><td><i>Ahr<sup>tm1(AHR)Mym</sup></i> Targeted Allele Detail</td></tr>
+ <tr><th class="thleft">Gene trapped</th><td><i>Alms1<sup>Gt(XH152)Byg</sup></i> Gene trapped Allele Detail</td></tr>
+ <!--<tr><th class="thleft"><nobr>Gene trapped/no gene nomenclature*</th><td><i>Gt(pU21)102lmeg </i> Gene trapped Allele Detail</td></tr>-->
+ <tr><th class="thleft">QTL</th><td><i>Ap7q<sup>C57BL/6ByJ</sup></i> QTL Variant Detail</td></tr>
 </table>
 
 </blockquote>
@@ -237,7 +237,7 @@ The age ranges are as follows:
 <p>If you have information about this allele that is not displayed on this Allele Detail page, such as ectopic activity observed for the allele or constitutive activity for an inducible allele, click the <b>Your Observations Welcome</b> button to have this information included in MGI.</p>
 </td></tr>
 
-<tr><th><a id="summary"></a>Phenotypes<th><td>See <a href="ALLELE_detail_pheno_summary_help.shtml" target="_blank">Interpreting the Phenotype summary table.</a></td></tr>
+<tr><th><a id="summary"></a>Phenotypes</th><td>See <a href="ALLELE_detail_pheno_summary_help.shtml" target="_blank">Interpreting the Phenotype summary table.</a></td></tr>
 <!-- 
 <tr><th><a id="genotype"></A>Phenotypic data by genotype</td><td>Phenotypic details for all genotypes that include at least one copy of the specified allele.<br><br><table border cellpadding=4>
 <tr><td>Colored boxes, <br>abbreviations, <br>numbers</td><td>

@@ -40,7 +40,7 @@ function openHelpWindow(helpFile){
 <a id="top"></a>
 <p>The Gene Ontology classification area of an MGI query form presents a number of options for defining or refining a query.</p>
 <p>You can:</p>         
-<ul style="line-height:1.5;">
+<ul style="line-height:1.6;">
  <li>Browse the GO classifications, copy an entry, and paste it into the Gene Ontology (GO) Classifications field. The following is an example from the Biological Process list: &nbsp;
 fructose catabolism [GO:0006001]. Using this example, copy and paste either:  fructose catabolism or GO:0006001. Do NOT include punctuation or both the text and accession ID.</li>
  <li>Restrict your search to markers with attributes in only one or two of the three GO categories. By default Molecular Function, Biological Process, and Cellular Component are all checked. Click the check boxes to select/deselect a category.</li>

@@ -91,7 +91,7 @@ Interpreting a Sequence Summary </span>
 
 <p>The Mouse Sequences Query Results summary appears when you select the All sequences, RefSeq or UniProt links in the Sequences section of a marker detail page. The summary provides a general description of each sequence that your query returns. The summary lists:</p>
 
-<ul style="line-height:1.5;">
+<ul style="line-height:1.6;">
  <li>Marker Symbol, Name and MGI accession ID.</li>
  <li>Number of matching sequences displayed out of number found (e.g.,  1 - 25 of 171 sequences displayed)</li>
  <li>Summary information about the sequences matching your query, in columns. Columns headings are: Select<!--(for your check marks)-->, Sequence, Type, Length, Strain/Species, Description from Sequence Provider, Clone Collection and Marker Symbol.</li>

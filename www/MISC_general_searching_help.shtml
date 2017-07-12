@@ -49,7 +49,6 @@ General Guidelines for MGI Query Form Searches
  <li><a href="#parts">What are the parts of a query form?</a></li>
  <li><a href="#sort">Can I view the results of a query in different ways?</a></li>
  <li><a href="#print">Can I print or save the results of my query?</a></li>
- <li><a href="#change_font">Can I change font sizes to make query forms and Help documents easier to read?</a></li>
  </ul>
 
 <p><a id="see_also"></a>See also:</p>
@@ -202,26 +201,6 @@ case, you would select several options from the selection list. Again, the exact
 
 <h3><a id="print"></a>Can I print or save the results of my query?</h3>
 <p>Options for printing and saving files vary with computer platform and browser. Refer to your browser and system documentation for information on how to print results or save them to a file.</p>
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
-<h3><a id="change_font"></a>Can I change font sizes to make query forms and Help documents easier to read?</h3>
-<p>Yes. The setting for the font size on MGI web pages is specified in a style sheet. If you use Internet Explorer (IE), you can override this by doing the following:
-<oL>
-  <li>Click  Tools  (on the IE Toolbar). A menu appears.</li>
-  <li>Click  Internet Options . The Internet Options dialog box appears.</li>
-  <li>Click  Accessibility...  The Accessibility dialog box appears.</li>
-  <li>In the Formatting section, check  Ignore Font Sizes .</li>
-<li>Click  OK.</li>
-<li>Click  OK (in the Internet Options dialog box).</li>
-</oL>
-<p>Now you can increase (or decrease) the font sizes. To do this:</p>
-<oL>
-  <li>Click  View  (on the IE Toolbar).</li>
-  <li>Click  Text Size  and hold the mouse button down.</li>
-  <li>Click one of the sizes (Largest, Large, Medium, Smaller, Smallest). The text on your page resizes.</li>
-</oL>
-</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
