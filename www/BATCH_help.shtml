@@ -41,11 +41,11 @@ function openHelpWindow(helpFile){
 
 <p>This help document answers the following questions about the batch query tool:
  <ul>
- <li><A HREF="#whatdo">What can I use the MGI Batch Query to find?</a>
- <li><A HREF="#howfill">How do I use this tool?</a>
+ <li><a href="#whatdo">What can I use the MGI Batch Query to find?</a>
+ <li><a href="#howfill">How do I use this tool?</a>
   	<ul>
- 	  <li><A HREF="#fields">What are the accepted input identifier (ID) types?</a></li>
-  	  <li><A HREF="#type_list">Does the input list have to be in any particular form?</a></li>
+ 	  <li><a href="#fields">What are the accepted input identifier (ID) types?</a></li>
+  	  <li><a href="#type_list">Does the input list have to be in any particular form?</a></li>
 	  <li><a href="#autodetect">What does "Search all input types" accomplish?</a></li>
 	  <li><a href="#why_constrain">When would I constrain my search to a single input type?</a></li>
 	  <li><a href="#how_many_IDs">How many IDs can I enter at one time?</a></li>
@@ -55,14 +55,15 @@ function openHelpWindow(helpFile){
  	</ul></li>
  <li><a href="#interpret">How do I interpret results?</a>
    <ul>
-    <li><A HREF="#summary">MGI Batch Query results</A></li>
- 	<li><A HREF="#mp">Mammalian Phenotype (MP) results</A></li>
- 	<li><A HREF="#do">Human Disease (DO) results</A></li>
-	<li><a HREF="#gene_expression">Gene Expression results</a></li>
+    <li><a href="#summary">MGI Batch Query results</A></li>
+ 	<li><a href="#mp">Mammalian Phenotype (MP) results</A></li>
+ 	<li><a href="#do">Human Disease (DO) results</A></li>
+	<li><a href="#gene_expression">Gene Expression results</a></li>
   </ul>
 <!--<li><a href="#why_listed">Why is a gene listed multiple times in a report?</a></li>-->
   <li><a href="#go_codes">What do the acronyms in the Gene Ontology "code" column mean?</a></li>
   <li><a href="#no_results">My query returned no results or <i>No associated gene</i> in one of the report columns. Why?</a></li>
+  <li><a href="#how_often">How often are data updated?</a></li>
   <li><a href="#example">Are there examples?</a></li>
  </ul>
 <hr>
@@ -136,7 +137,6 @@ function openHelpWindow(helpFile){
 <li>In the Output area, click to select Gene Attributes, Additional Information, and Format to appear in the output report. (See <a href="#customize">Are there choices for how to view query results?</a> for more information.)</li>
 <li>Click <i>Search</i>.</li>
 </ol>
-</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -160,15 +160,15 @@ MI0000248
 </blockquote>
 
   <li>When all the items on your input list are of the same type and you wish to constrain the query, click the arrow to the right of the Type box and select that type from the list. (See <a href="#why_constrain">When would I constrain my search to a single input type?</a> for more details.)</li>
+  </ul>
   <br>
 
 The following are representative examples for each type listed on the pulldown menu:
 <blockquote>
 <table>
-  <tr><th>Input identifier type</th><th>Representative example</th></tr>
+<tr><th>Input identifier type</th><th>Representative example</th></tr>
 <tr><td>MGI Gene/Marker ID</td><td>MGI:96677</td></tr>
 <tr><td>Current Symbols Only</td><td>Trp53 <br>Pax6<br>D11Mit10</td> </tr>
-
 <tr><td>All Symbols/Synonyms/Orthologs<br>(includes both current and old symbols)<td>Pax6<br>Pax-6<br>Trp53<br>P53</td></tr>
 <tr><td>Entrez Gene ID</td><td>16590</td></tr>
 <tr><td>Ensembl ID </td><td>ENSMUSG00000028530</td></tr>
@@ -180,10 +180,9 @@ The following are representative examples for each type listed on the pulldown m
 <tr><td>GO (Gene Ontology)</td><td>GO:0019221</td></tr>
 <tr><td>RefSNP ID</td><td>rs3021544</td></tr>
 <tr><td>Affy Probeset ID</td><td>10379153</td></tr>
-
- <table>
-  <tr><td>*</td><td>GenBank IDs are for nucleotide sequences only. RefSeq IDs are for either nucleotide or protein sequences.</td></tr>
- </table>
+<tr><td colspan=2>&nbsp;</td></tr>
+<tr><td colspan=2>*&nbsp;&nbsp;&nbsp;&nbsp;GenBank IDs are for nucleotide sequences only. RefSeq IDs are for either nucleotide or protein sequences.</td></tr>
+</table>
 </blockquote>
 
 The following are additional types (not listed on the pulldown menu), followed by examples, of other types of IDs that the Batch Query recognizes: 
@@ -196,11 +195,8 @@ The following are additional types (not listed on the pulldown menu), followed b
 <tr><td>PDB<br>(Protein Data Bank)</td><td>1HU8</td></tr>
 <tr><td>Consensus CDS</td><td>CCDS16941.1</td></tr>
 <tr><td>Protein Ontology</td><td>PR:000004803</td></tr>
-<!--<tr><td valign="top">TreeFam</td><td valign="top">TF320146</td></tr>-->
 </table>
-</blockquote></li>
-</ul>
-</p> 
+</blockquote>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -444,6 +440,11 @@ The results are initially returned in web format and then you can choose to Expo
 </ul>
 
 <p><b>Note:</b> If you get an error message before your query completes, try using a smaller list of IDs or selecting fewer output categories.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="how_often"></a>How often are data updated? </h3>
+<p>MGI curators add new annotations from the literature every day. Sequence data are download from those databases weekly and undergo MGI curation. The MGI web site is updated with these and other new data once a week. </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

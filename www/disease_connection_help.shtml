@@ -40,18 +40,18 @@ Using the Human - Mouse: Disease Connection </span>
 
 <p>This help document answers the following questions:</p>
  <ul>
- <li><A HREF="#whatuse">What can I use the Human - Mouse: Disease Connection, (HMDC) Form to find?</a></li>
- <li><A HREF="#glossary">How does MGI define <I>phenotype, disease,</i> and <I>allele</I>? </a></li>
- <li><A HREF="#howfill">How do I use this query form?</a>
+ <li><a href="#whatuse">What can I use the Human - Mouse: Disease Connection, (HMDC) Form to find?</a></li>
+ <li><a href="#glossary">How does MGI define <I>phenotype, disease,</i> and <I>allele</I>? </a></li>
+ <li><a href="#howfill">How do I use this query form?</a>
 	<ul>
-	<li><A HREF="#field">What values are acceptable in each of the fields?</a></li>
+	<li><a href="#field">What values are acceptable in each of the fields?</a></li>
     <li><a href="#mp_ontology">Is there a list of phenotype terms to select from?</a></li>
     <li><a href="#disease_ontology">Is there a list of disease terms to select from?</a></li>
     <li><a href="#DOversion">What version of the Disease Ontology (DO) is used by MGI?</a></li>
     <li><a href="#relationship">Can I query using both a phenotype term and a disease term?</a></li>
 	</ul></li>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
- <!--<li><A href="#vcf">How can I search with a VCF file?</a></li>
+ <!--<li><a href="#vcf">How can I search with a VCF file?</a></li>
  	<ul>
  		<li><a href="#process">How are VCF files processed?</a></li>
  		<li><a href="#vcfexamples">Are there example VCF files?</a></li>
@@ -59,9 +59,10 @@ Using the Human - Mouse: Disease Connection </span>
  <li><a href="#hdp_results">How do I interpret the query results?</a></li>
  <li><a href="#what_search">What phenotypes and diseases are searched and displayed in the HMDC?</a></li>
  <li><a href="#hmdcfilter">How do I filter my results?</a></li>
- <li><A href="#output">Are there different ways to view the output of my query?</A></li>
+ <li><a href="#output">Are there different ways to view the output of my query?</a></li>
  <li><a href="#hdp_tabfile">Can I get my results as a tab-delimited text file?</a></li>
- <li><A HREF="#examples">What are some examples of queries?</A></li>
+ <li><a href="#how_often">How often are annotations added?</a></li>
+ <li><a href="#examples">What are some examples of queries?</a></li>
  </ul>
 
 <H3><a id="whatuse"></A>What can I use the Human - Mouse: Disease Connection (HMDC) Form to find?</H3>
@@ -376,9 +377,14 @@ Reported in these Systems</b></td>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><a id="hdp_tabfile"></a>Can I get my results as a tab-delimited text file?</H3>
+<h3><a id="hdp_tabfile"></a>Can I get my results as a tab-delimited text file?</h3>
 
 <p>Yes. The <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs but not the <a href="#tandmtab">Gene Homologs x Phenotypes/Diseases</a> tab, provide a tab-delimited text export option. In your search results, click on the Text File icon. Your web browser will download a file of the results.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="how_often"></a>How often are annotations added? </h3>
+<p>MGI curators add new annotations from the literature every day. The MGI web site is updated with these and other new data once a week. </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

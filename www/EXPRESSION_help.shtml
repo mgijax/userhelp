@@ -39,25 +39,25 @@ function openHelpWindow(helpFile){
 
 <!-- Body of User Help -->
 
-<a id="top"></A>
+<a id="top"></a>
 
 <p>This help document answers the following questions:
 <ul>
- <li><A HREF="#whatpurpose">What is the purpose of the Gene Expression Database?</a></li>
- <li><A HREF="#whatquery">What can I use the Gene Expression Data Standard Search to find?</a>
+ <li><a href="#whatpurpose">What is the purpose of the Gene Expression Database?</a></li>
+ <li><a href="#whatquery">What can I use the Gene Expression Data Standard Search to find?</a>
  <ul>
-  <li><A HREF="#fields">What values are acceptable in each of the Standard Search fields?</a></li>
+  <li><a href="#fields">What values are acceptable in each of the Standard Search fields?</a></li>
  </ul>
  </li>
- <li><A HREF="#whatdiffer">What is the purpose of the Differential Expression Search?</A>
+ <li><a href="#whatdiffer">What is the purpose of the Differential Expression Search?</a>
  <ul>
-  <li><A HREF="#Dfields">What values are acceptable in each of the Differential Search fields?</a></li>
+  <li><a href="#Dfields">What values are acceptable in each of the Differential Search fields?</a></li>
   </ul>
   </li>
  <li><a href="#batchchoices">Can I perform batch searches for expression data with multiple genes?</a></li>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
  <li><a href="#whattabs">What are the advantages of the different results tabs?</a></li>
- <LI><A HREF="#summary">How do I interpret the query results summary page?</a>
+ <li><a href="#summary">How do I interpret the query results summary page?</a>
   <ul>
    <li><a href="#matrixcolors">What do the colors in a Matrix mean?</a></li>
    <li><a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></li>
@@ -67,9 +67,10 @@ function openHelpWindow(helpFile){
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
  <li><a href="#column">Can I upload a particular column of IDs/Symbols from a file?</a></li>
  <li><a href="#batch">Can I send the results of my search to the MGI Batch Query or MouseMine?</a></li>
- <li><A HREF="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a></li>
+ <li><a href="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a></li>
  <li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</a></li>
- <LI><A HREF="#example">Are there examples of query results?</a></li>
+ <li><a href="#how_often">How often are annotations added?</a></li>
+ <li><a href="#example">Are there examples of query results?</a></li>
 
 </ul></p>
 
@@ -543,7 +544,12 @@ Individual cells have the ability to filter as well. Clicking on a cell displays
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><a id="example"></A>Are there examples of query results?</H3>
+<h3><a id="how_often"></a>How often are annotations added? </h3>
+<p>GXD curators add new annotations from the literature every day. The MGI web site is updated with these and other new data once a week. </p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="example"></a>Are there examples of query results?</h3>
 <p>The following examples list the field values to set on the Gene Expression Data Standard Query to perform each query.  Leave the default values in all other fields.<br>
 <OL>
 <LI>When and where is <i>En1</i> expressed?

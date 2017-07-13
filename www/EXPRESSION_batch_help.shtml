@@ -39,7 +39,8 @@ function openHelpWindow(helpFile){
 
 <!-- Body of User Help -->
 
-<a id="top"></A>
+<a id="top"></a>
+
 <p>This help document answers the following questions about the Using the Gene Expression Batch Search:
 <ul>
  <li><a href="#whatpurpose">What is the purpose of the Gene Expression Database?</a></li>
@@ -56,13 +57,13 @@ function openHelpWindow(helpFile){
 </ul>
 </p>
 
-<H3><a id="whatpurpose"></A>What is the purpose of the Gene Expression Database?</H3>
-<P>The Gene Expression Database (GXD) is designed to integrate many different types of endogenous gene expression data from the mouse in formats appropriate for comprehensive analysis. Query results, such as the developmental stage and tissue of expression (or non-expression), the genetic origin of the sample, and the numbers and sizes of detected bands, are described together with the molecular probe, the expression assay type, and the experimental conditions used. Expression patterns are described using an extensive, hierarchical dictionary of standardized anatomical terms, making it possible to record expression results from assays with differing spatial resolution in a consistent and integrated manner and to analyze expression patterns at differing levels of detail. Whenever possible, text annotations are complemented by digitized images of the original expression data.
-<P>To learn more about GXD and how we acquire data, please see <A HREF="<!--#include file='include/mgihome_url.html'-->GXD/aboutGXD.shtml" target="_blank">About the Gene Expression Database (GXD)</A>.</P>
+<h3><a id="whatpurpose"></A>What is the purpose of the Gene Expression Database?</h3>
+<p>The Gene Expression Database (GXD) is designed to integrate many different types of endogenous gene expression data from the mouse in formats appropriate for comprehensive analysis. Query results, such as the developmental stage and tissue of expression (or non-expression), the genetic origin of the sample, and the numbers and sizes of detected bands, are described together with the molecular probe, the expression assay type, and the experimental conditions used. Expression patterns are described using an extensive, hierarchical dictionary of standardized anatomical terms, making it possible to record expression results from assays with differing spatial resolution in a consistent and integrated manner and to analyze expression patterns at differing levels of detail. Whenever possible, text annotations are complemented by digitized images of the original expression data.</p>
+<p>To learn more about GXD and how we acquire data, please see <a href="<!--#include file='include/mgihome_url.html'-->GXD/aboutGXD.shtml" target="_blank">About the Gene Expression Database (GXD)</a>.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><a id="whatquery"></A>What can I use this query form to find?</H3>
+<h3><a id="whatquery"></A>What can I use this query form to find?</h3>
 
 <p>The Gene Expression Data Query form Batch Search tab allows you to retrieve expression data with a list of genes or IDs associated with genes. All Gene Expression Data searches return a tissue-by-gene matrix view as part of its multi-tabbed data summary. This view enables a comparison of expression patterns between genes. Data <a href="#gxdfilter">filters</a> found on the summary pages can be used to further refine search results. 
 </p>
@@ -89,33 +90,29 @@ MI0000248
 </blockquote>
 
   <li>When all the items on your input list are of the same type and you wish to constrain the query, click the arrow to the right of the Type box and select that type from the list. (See <a href="#why_constrain">When would I constrain my search to a single input type?</a> for more details.)</li>
-  <!--<li>To search with gene names, put the name in quotes. For example, to search for the kit ligand gene, use, "kit ligand" to find expression for Kitl. A search for kit ligand, without the quotes, will search for <i>kit</i> and <i>ligand</i> and only return results for the Kit gene.</li>-->
- </ul><br>
+  </ul>
+  <br>
 
 The following are representative examples for each type listed on the pulldown menu:
 <blockquote>
 <table>
-  <tr><th>Input identifier type</th><th>Representative example</th></tr>
+<tr><th>Input identifier type</th><th>Representative example</th></tr>
 <tr><td>MGI Gene/Marker ID</td><td>MGI:96677</td></tr>
 <tr><td>Current Symbols Only</td><td>Trp53 <br>Pax6<br>D11Mit10</td> </tr>
-
-<tr><td>All Symbols/Synonyms/Homologs<br>(includes both current and old symbols)<td>Pax6<br>Pax-6<br>Trp53<br>P53</td></tr>
+<tr><td>All Symbols/Synonyms/Orthologs<br>(includes both current and old symbols)<td>Pax6<br>Pax-6<br>Trp53<br>P53</td></tr>
 <tr><td>Entrez Gene ID</td><td>16590</td></tr>
 <tr><td>Ensembl ID </td><td>ENSMUSG00000028530</td></tr>
 <tr><td>VEGA ID</td><td>OTTMUSG00000015949</td></tr>
 <tr><td>UniGene ID</td><td>247073</td></tr>
-<tr><td>miRBase ID</td><td>MI0000248</td></tr>
+<tr><td>MiRBase ID</td><td>MI0000248</td></tr>
 <tr><td>GenBank/RefSeq ID*</td><td>NM_001122899<br> AK033644<br>NP_666257</td></tr>
 <tr><td>UniProt ID</td><td>P48356<br>A2AKJ2</td></tr>
 <tr><td>GO (Gene Ontology)</td><td>GO:0019221</td></tr>
 <tr><td>RefSNP ID</td><td>rs3021544</td></tr>
 <tr><td>Affy Probeset ID</td><td>10379153</td></tr>
-<p>
-<table>
-  <tr><td>*</td><td>GenBank IDs are for nucleotide sequences only. RefSeq IDs are for either nucleotide or protein sequences.</td></tr>
- </table>
- </table>
- </p>
+<tr><td colspan=2>&nbsp;</td></tr>
+<tr><td colspan=2>*&nbsp;&nbsp;&nbsp;&nbsp;GenBank IDs are for nucleotide sequences only. RefSeq IDs are for either nucleotide or protein sequences.</td></tr>
+</table>
 </blockquote>
 
 The following are additional types (not listed on the pulldown menu), followed by examples, of other types of IDs that the Batch Query recognizes: 
@@ -123,17 +120,13 @@ The following are additional types (not listed on the pulldown menu), followed b
 
 <table>
 <tr><th>Input identifier type</th><th>Representative example</th></tr>
-<!--<tr><td>BayGenomics</td><td>LST083</td></tr>-->
 <tr><td>EC <br>(Enzyme Commission)</td><td>2.7.10.1</td></tr>
 <tr><td>Homologene</td><td>20151</td></tr>
-<!--<tr><td>Lexicon</td><td>OST128284</td></tr>-->
 <tr><td>PDB<br>(Protein Data Bank)</td><td>1HU8</td></tr>
 <tr><td>Consensus CDS</td><td>CCDS16941.1</td></tr>
 <tr><td>Protein Ontology</td><td>PR:000004803</td></tr>
-<!--<tr><td>TreeFam</td><td>TF320146</td></tr>-->
 </table>
 </blockquote>
-</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -187,7 +180,7 @@ The following are additional types (not listed on the pulldown menu), followed b
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><a id="summary"></A>How do I interpret the query results summary pages?</H3>
+<h3><a id="summary"></A>How do I interpret the query results summary pages?</h3>
 
 <p>See: <a href="EXPRESSION_help.shtml#summary" target="_blank">How do I interpret the query results summary pages?</a>
 </p>
