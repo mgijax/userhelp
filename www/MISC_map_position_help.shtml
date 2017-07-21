@@ -39,8 +39,8 @@ Using Map Position Fields on MGI Query Forms
 <a id="top"></a>
 
 <p>This help document describes how to use the Map Position fields on an MGI Query Form. Depending on the query form, some or all of the following fields are available: 
-<table>
-  <tr class="nb"><td><a href="#chromosome">Chromosome(s)</a> | <a href="#coordinates">Genome Coordinates</a> | <a href="#marker_range">Marker Range</a> | <a href="#cm_offset">cM Position</a></td></tr>
+<table class="nb">
+  <tr><td><a href="#chromosome">Chromosome(s)</a> | <a href="#coordinates">Genome Coordinates</a> | <a href="#marker_range">Marker Range</a> | <a href="#cm_offset">cM Position</a></td></tr>
 </table>
      <table>
           <tr>

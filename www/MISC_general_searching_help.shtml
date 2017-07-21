@@ -48,7 +48,7 @@ General Guidelines for MGI Query Form Searches
  <li><a href="#fulltext">Can I do a full-text search on any of the forms?</a></li>
  <li><a href="#parts">What are the parts of a query form?</a></li>
  <li><a href="#sort">Can I view the results of a query in different ways?</a></li>
- <li><a href="#print">Can I print or save the results of my query?</a></li>
+ <li><a href="#print">How can I save the results of my query?</a></li>
  </ul>
 
 <p><a id="see_also"></a>See also:</p>
@@ -65,11 +65,11 @@ query options in an easy-to-use format. Help documentation is available on-line 
  You can <a href="<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml" target="_blank">contact User Support</a> by e-mail or by  phone at (207) 288-6445.</p>
 
 <h3><a id="method"></a>Is there a general method of querying the MGI databases?</h3>
-<p>A general procedure to build a query includes the following steps (<b>select form, enter value(s), choose output, restrict/expand scope, execute).</b>
+<p>A general procedure to build a query includes the following steps (<b>select form, enter value(s), restrict/expand scope, execute).</b>
 <ul>
 <li>Select the query form to use depending on the type of information you want to search for. The following forms are available:
 <ul>
- <li><a href="<!--#include file='include/wi_url.html'-->searches/AMA_form.shtml" target="_blank">Adult Mouse Anatomical Dictionary Browser</a></li>
+ <li><a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/ma_ontology" target="_blank">Adult Mouse Anatomical Dictionary Browser</a></li>
  <!--<li>Anatomical Dictionary Browser Query Refiner (accessible via searches from the <a href="<!--#include file='include/wi_url.html'-->searches/AMA_form.shtml">Adult Mouse Anatomical Dictionary Browser</a>)-->
  <li><a href="<!--#include file='include/fewi_url.html'-->marker">Genes and Markers Query Form</a></li>
  <li><a href="<!--#include file='include/fewi_url.html'-->gxdlit" target="_blank">Gene Expression Literature Query Form</a></li>
@@ -195,12 +195,12 @@ case, you would select several options from the selection list. Again, the exact
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="sort"></a>Can I view the results of a query in different ways?</h3>
-<p>The query forms offer several options for ordering query returns. For example, on the  Genes and Markers  Query Form you can specify that the returned list of markers be sorted by cM position or by Nomenclature. Choose the sort order by selecting the appropriate option from the list. For more details, refer to the documentation for specific forms. At the present time, multilevel sorting is not an option.</p>
+<p>The query forms offer several options for sorting query returns. For example, in the results of a Genes and Markers Query Form search, you can specify that the returned list of markers be sorted by Genome Coordinates, Feature Type or Symbol. Use the up/down triangles in a column header to sort by that column. </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="print"></a>Can I print or save the results of my query?</h3>
-<p>Options for printing and saving files vary with computer platform and browser. Refer to your browser and system documentation for information on how to print results or save them to a file.</p>
+<h3><a id="print"></a>How can I save the results of my query?</h3>
+<p>Many query forms provide the option to export your results as a text file or in a spreadsheet format. Several also allow you to get additional information on genes by exporting your results to the MGI Batch Query or MouseMine.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
