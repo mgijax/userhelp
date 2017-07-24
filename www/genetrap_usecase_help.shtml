@@ -218,10 +218,10 @@ For example:
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="provider"></a>Is there a way to tell which group created a mutant ES cell line?</h3>
-<p>If MGI has evidence from a publication or from direct submission, you can determine the ES cell line creator. On a Gene-trapped Allele Detail report, locate the <b>Mutation Origin</b> section. The creator name appears in parentheses beside <b>Mutant Cell Line</b>. The creator information also appears in the <b>Nomenclature</b> section as part of the allele symbol and name. See <a href="#who_are">Who are the cell line creators?</a> for additional information about creator abbreviations, lab codes, and cell line IDs.
-<p>
+<p>If MGI has evidence from a publication or from direct submission, you can determine the ES cell line creator. On a Gene-trapped Allele Detail report, the creator information appears in the <b>Nomenclature</b> section. The lab code for the creator terminates the Symbol and is displayed at the end of the allele Name. See <a href="#who_are">Who are the cell line creators?</a> for additional information about creator abbreviations, lab codes, and cell line IDs.
+</p>
 <blockquote>
-<img src="images/nomenclature.bmp" width="584" height="151" border="0" alt="">
+<img src="images/nomenclature.png" width="821" height="161" border="0" alt="Gene trapped nomenclature">
 </blockquote>
 
 <!--For members of IGTC and Lexicon, there are links to details about that gene trap insertion or to the creator's web site. For gene traps created by groups that are not part of IGTC or Lexicon, the link is to the GenBank record for the sequence tag, if available.-->
@@ -236,7 +236,7 @@ For example:
 </ol>
 <p>
 <blockquote>
-<img src="images/mutations_origin.jpg" width="546" height="41" border="0" alt="">
+<img src="images/mutations_origin.png" width="763" height="216" border="0" alt="Germline Transmission">
 </blockquote>
 
 <p><b>Note: </b> The <a href="ALLELE_detail_help.shtml#find_mice" target="_blank">Find Mice (IMSR)</a> section of the Gene-trapped Allele Detail report contains information on this topic. See  <a href="#buy_mouse">How can I tell if a cell line or a mouse strain carrying the mutation is available for purchase?</a> for an example.
@@ -247,7 +247,7 @@ For example:
 <h3><a id="buy_mouse"></a>How can I tell if a cell line or a mouse strain carrying the mutation is available for purchase?</h3>
 <p>Locate the <a href="ALLELE_detail_help.shtml#find_mice" target="_blank">Find Mice (IMSR)</a> section of a Gene-trapped Allele Detail report. The information indicates whether or not mouse strains and cell lines are available from the International Mouse Strain Resource (IMSR).
 <blockquote>
-<img src="images/imsr.jpg" width="710" height="60" border="0" alt="">
+<img src="images/imsr.png" width="699" height="60" border="0" alt="IMSR section of Gene Trapped Allele Detail Page">
 </blockquote>
 </p>
 
@@ -255,27 +255,29 @@ For example:
 
 <h3><a id="mutant_cell_line_id"></a>How can I identify a gene trap mutant ES cell line ID?</h3>
 <ul>
-<li>Locate the <b>Mutation origin</b> section of any Gene-trapped Allele Detail report.</li>
-<li> The first line in the table row identifies the mutant cell line ID, and (in parentheses) the creator of that cell line (if known). </li>
-<li>In the example below, the mutant cell line ID is AZ0718. The abbreviation in parentheses, SIGTR, stands for the creator,  Sanger Institute Gene Trap Resource. See <a href="#who_are">Who are the cell line creators?</a> for additional details.
-</li>
-<li>Other rows in the Gene-trapped Allele Detail report may identify sequence tag IDs for this cell line and indicate International Mouse Strain Repository (IMSR) availability. </li>
+  <li>Locate the <b>Mutation Origin</b> section of any Gene-trapped Allele Detail report.</li>
+  <li>The first line in the table row identifies the mutant cell line ID. In the example below, the mutant cell line ID is AZ0718.</li>
+  <li>The Parent Cell Line, Strain of Origin, and Project Collection may also appear in the Mutation Origin section.</li>
+  <li>Other rows in the Gene-trapped Allele Detail report may identify sequence tag IDs for this cell line and indicate International Mouse Strain Repository (IMSR) availability. </li>
 </ul>
 <blockquote>
-<img src="images/mutantcline.bmp" width="332" height="75" border="0" alt="mutant cell line">
+<img src="images/mutantcline.png" width="394" height="115" border="0" alt="mutant cell line">
 </blockquote>
 <p>See the table at <a href="#who_are">Who are the cell line creators?</a> for examples of additional accession identifiers associated with cell lines.</p>
  
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="all_accession_ids"></a>Is there a list of all gene trap cell line accession IDs?</h3>
-<p>Yes. Click  <b>Download-->MGI Data and Statistical Reports--></b> to access  <a href="<!--#include file="include/ftp_url.html" -->reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs (tab-delimited).</a></p>
+<p>Yes. Click  <b>Download-->MGI Data and Statistical Reports--></b> to access  <a href="<!--#include file="include/wi_url.html" -->reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs (tab-delimited).</a></p>
+<blockquote>
+<img src="images/download.png" width="276" height="288" border="0" alt="Downloads">
+</blockquote>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="stat_report"></a>Is there a list of all IDs and nomenclature associated with gene traps in MGI?</h3>
 
-<p>Yes. Click <b>Download-->All MGI Reports--></b> to see all <a href="<!--#include file="include/ftp_url.html" -->reports/MRK_GeneTrap.rpt" target="_blank">gene traps associated with markers</a>. 
+<p>Yes. Click <b>Download-->All MGI Reports--></b> to see all <a href="<!--#include file="include/wi_url.html" -->reports/MRK_GeneTrap.rpt" target="_blank">gene traps associated with markers</a>. 
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
@@ -300,12 +302,12 @@ For example:
 <ul>
 <li>You can use the <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, &amp; Disease Models Query Form</a> to search for gene trap or cell line data.
 <blockquote>
-<img src="images/gene_trapped_categories.jpg" width="834" height="275" border="0" alt="">
+<img src="images/gene_trapped_categories.png" width="985" height="243" border="0" alt="Allele Query Form's Categories section">
 </blockquote>
 
-<li>If there are any gene traps associated with known genes, you can access them from the <b>Alleles and phenotypes</b> section on a gene detail page. See <a href="#gene_association">How can I find all the gene traps associated with a given gene?</a> for more information.
+<li>If there are any gene traps associated with known genes, you can access them from the <b>Mutations, Alleles and Phenotypes</b> section on a gene detail page. See <a href="#gene_association">How can I find all the gene traps associated with a given gene?</a> for more information.
 <blockquote>
-<img  src="images/marker_detail_gene_trapped.jpg" width="442" height="47" border="0" alt="">
+<img  src="images/marker_detail_gene_trapped.png" width="199" height="121" border="0" alt="Marker Detail Alleles">
 </blockquote>
 
 <li>See also  <a href="#buy_mouse">How can I tell if a cell line or a mouse strain carrying the mutation is available for purchase?</a>.</li>
@@ -358,7 +360,7 @@ For example:
 		<ul>
  		<li><a id="phenotype"></a>By phenotype
 			<ol>
-  			<li>In the top row, next to <b>Mouse phenotypes & mouse models of human disease</b>, enter phenotype terms in the <b>Phenotype/Disease</b> box. (The <b>Select</b> or <b>Browse</b> links provide lists or structures or ontologies to choose from.)</li>
+  			<li>In the top row, next to <b>Mouse phenotypes &amp; mouse models of human disease</b>, enter phenotype terms in the <b>Phenotype/Disease</b> box. (The <b>Select</b> or <b>Browse</b> links provide lists or structures or ontologies to choose from.)</li>
   			<li>In the third row beside <b>Categories</b>, click the box beside <b>gene trapped</b>. </li>
   			<li>Make any other selections as desired (e.g., you can limit the number of items returned and determine how the results are sorted).</li>
 			<li>Click <b>Search</b> to begin and/or <b>Reset</b> to refine any results.</li>
@@ -389,7 +391,7 @@ For example:
 			<li>Click <b>Search.</b></li>
 			</ol>
 <br>
-  		</UL>
+  		</ul>
 <li>You can use the <b>Quick Search</b> box (at the top of every MGI page) and enter:
 		<ul>
   		<li>the nomenclature (symbol, name, synonym) for a gene or an allele or a creator/provider abbreviation (see <a href="#who_are">Who are the cell line creators?</a> for a list).</li>
@@ -450,21 +452,21 @@ For example:
 	<ol>
   	<li>Enter the symbol, synonym, or name of a gene in the Quick Search box (on the top of any MGI page). A Quick Search Results page appears. If the gene is in the MGI database, it is listed under <b>Genome Features</b>. 
   	<li>Click the desired gene symbol. A Gene Detail page appears.</li>
-  	<li>Locate the <b>Alleles and phenotypes</b> section.  If there are associated gene traps, <b>Gene trapped</b> followed by a number in parentheses appears.</li>
-	<li>Click the number to see a Phenotypic Allele Query Results Summary that lists all the gene traps currently associated with this gene. In the example below, that number is 263.</li>
+  	<li>Locate the <b>Mutations, Alleles and Phenotypes</b> section.  If there are associated gene traps, <b>Gene trapped</b> followed by the number of gene trapped alleles is shown.</li>
+	<li>Click the number to see a Phenotypic Allele Query Results Summary that lists all the gene traps currently associated with this gene. In the example below, that number is 309.</li>
 	</ol></li>
 <blockquote>
-<img  src="images/marker_detail_gene_trapped.jpg" width="442" height="47" border="0" alt="">
+<img  src="images/marker_detail_gene_trapped.png" width="199" height="121" border="0" alt="Marker Detail Alleles">
 </blockquote>
 
 <li>You can use the MGI <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, &amp; Disease Models Query Form</a>. Enter the gene nomenclature and follow the appropriate links.</li>
-<li>You can look through the <a href="<!--#include file="include/ftp_url.html" -->reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs</a> report to locate the gene and its traps.</li>
+<li>You can look through the <a href="<!--#include file="include/wi_url.html" -->reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs</a> report to locate the gene and its traps.</li>
 </ul>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="identify"></a>How can I find all genes associated with gene trap insertions?</h3>
-<p>Click  <b>Download-->MGI Data and Statistical Reports--></b> to access   <a href="<!--#include file="include/ftp_url.html" -->reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs (tab-delimited) for this list.</a></p>
+<p>Click  <b>Download-->MGI Data and Statistical Reports--></b> to access   <a href="<!--#include file="include/wi_url.html" -->reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs (tab-delimited) for this list.</a></p>
 <ol>
 <li>On the <b>Phenotypes, Alleles, &amp; Disease Models Query Form</b>, locate the <b>Categories</b> row.</li>
 <li>Click the box beside <b>gene trapped</b>.</li>
