@@ -316,15 +316,14 @@ For example:
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="how_find_dbgss"></a>How can I find all the available sequence-tagged gene traps from a specific creator?</h3>
-<p>Use the MGI <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, &amp; Disease Models Query Form</a>. 
+<p>Use the MGI <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, &amp; Disease Models Query Form</a>. </p>
 <ol>
-  <li>Enter the provider's ILAR-designated lab code in the <b>Allele</b> field (in the <b>Nomenclature &amp; Location</b> section). Examples: Imeg (Institute of Molecular Embryology and Genetics - EGTC) or Wtsi (Wellcome Trust Sanger Institute).  Leave the default (<b>contains</b>).</li>
-
+  <li>Enter the provider's ILAR-designated lab code, preceded by the wild card, an asterisk (*), in the <b>Gene/Marker, or Allele</b> field (in the <b>Nomenclature &amp; Genome Location</b> section). Examples: *Imeg (Institute of Molecular Embryology and Genetics - EGTC) or *Wtsi (Wellcome Trust Sanger Institute). Leave the default (<b>contains</b>).</li>
   <li>Click <b>gene trapped</b> (in the <b>Categories</b> section).</li>
-<li>Click <b>no limit</b> in the <b>Sorting and output format</b> section.</li>
-  <li>Click <b>Search</b>. The result is a <b>Phenotypic Alleles Query Results -- Summary</b> of all gene traps containing your character string entry. Note that you can also find affected anatomical systems and genetic backgrounds of interest in this report.</li>
+  <li>Click <b>Search</b>. The result is aSummary of all gene traps containing your character string entry. Note that you can also find affected anatomical systems and genetic backgrounds of interest in this report.</li>
 </ol>
-</p>
+
+<p>Alternately, instead of searching for the project lab code in the Nomenclature section, if your creator is listed in the <b>Project Collections</b> portion of the <b>Categories</b> section of the form, you can just check the project. In this section, you can make multiple selections.</p> 
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -345,9 +344,9 @@ For example:
 <ul>
   <li>On the MGI <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles &amp; Disease Models Query Form</a>:
    	<ol>
-     	<li>In the top center of the Categories section, click <b>Exclude allele records present only as cell lines.</b></li>
-  	<li>At the bottom of this section, click <b>gene trapped</b> (in the <b>Categories</b> section).</li>
-  	<li>Click <b>Search</b>.</li>
+     <li>In the top center of the Categories section, check <b>Exclude alleles existing only as cell lines.</b></li>
+  	 <li>In the Generation Method portion of the <b>Categories</b> section, check <b>gene trapped</b>.</li>
+  	 <li>Click <b>Search</b>.</li>
    	</ol></li>
 </ul>
 
@@ -356,48 +355,47 @@ For example:
 <h3><a id="ways"></a>What are the ways of searching for gene trap insertions?</h3>
 <p>
 <ol>
-	<li>You can use the <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, &amp; Disease Models Query Form</a> to search for gene trap insertions:
-		<ul>
- 		<li><a id="phenotype"></a>By phenotype
-			<ol>
-  			<li>In the top row, next to <b>Mouse phenotypes &amp; mouse models of human disease</b>, enter phenotype terms in the <b>Phenotype/Disease</b> box. (The <b>Select</b> or <b>Browse</b> links provide lists or structures or ontologies to choose from.)</li>
-  			<li>In the third row beside <b>Categories</b>, click the box beside <b>gene trapped</b>. </li>
-  			<li>Make any other selections as desired (e.g., you can limit the number of items returned and determine how the results are sorted).</li>
-			<li>Click <b>Search</b> to begin and/or <b>Reset</b> to refine any results.</li>
-			</ol>
-   		</li>
+ <li>You can use the <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, &amp; Disease Models Query Form</a> to search for gene trap insertions:
+	<ul>
+ 	 <li><a id="phenotype"></a>By phenotype
+		<ol>
+         <li>In the top row, next to <b>Mouse phenotypes &amp; mouse models of human disease</b>, enter phenotype terms in the <b>Phenotype/Disease</b> box. (The <b>Select</b> or <b>Browse</b> links provide lists or structures or ontologies to choose from.)</li>
+         <li>In the Generation Method portion of the <b>Categories</b> section, check <b>gene trapped</b>. </li>
+         <li>Make any other selections as desired (e.g., you may want to limit your search to a chromosomal region or Allele Attributes).</li>
+         <li>Click <b>Search</b> to begin and/or <b>Reset</b> to clear the form.</li>
+       </ol>
+   	 </li>
 <br>
-  		<li><a id="nomenclature"></a>By nomenclature
-			<ol>
-  			<li>Enter the symbol, name, or synonym of a known mouse gene to find any associated gene traps.</LI>
-  			<li>Click </b><b>gene trapped</b> (in the <b>Categories</b> section).</li>
-  			<li>Click <b>Search</b>.</li>
-			</ol>
+  	 <li><a id="nomenclature"></a>By nomenclature
+		<ol>
+  		 <li>Enter the symbol, name, or synonym of a known mouse gene in the <b>Gene/Marker, or Allele</b> field to find any associated gene traps.</li>
+  		 <li>Check <b>gene trapped</b> (in the <b>Categories</b> section).</li>
+  		 <li>Click <b>Search</b>.</li>
+	   </ol>
 <br>
- 
-		<li><a id="location"></a>By chromosomal location
-			<ol>
-  			<li>In the <b>Nomenclature &amp; location</b> section, click the chromosome of the associated marker and enter additional information as desired in the <b>Cytogenetic Band, cM Position</b>, or <b>Genome Coordinates</b> boxes.</li>
-  			<li>In the <b>Categories</b> section, click <b>gene trapped</b>.</li>
-  			<li>Click <b>Search.</b></li>
-<b>Note:</b> The MGI gene trap algorithm restricts the search to gene traps with marker associations; a chromosomal location search therefore cannot return gene traps without those associations. Thus, when there is no marker association for the gene trap, a search by location from  the <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, &amp; Disease Models Query Form</a> does not yield a result. However, if you know a landmark or a region, try entering this location in MGI's <a href="http://gbrowse.informatics.jax.org/cgi-bin/gb2/gbrowse/mousebuild38/" target="_blank">JBrowse</a> and clicking the <b>GeneTraps_RNA_tags</b> and <b>GeneTraps_DNA_tags</b> tracks. (See <a href="#how_know_gt">How can I tell if a given gene trap has trapped a gene?</a> and <a href="#interpret_gbrowse">How do I interpret JBrowse gene trap tracks?</a> for additional information about JBrowse.)
+	 <li><a id="location"></a>By chromosomal location
+		<ol>
+  		 <li>In the <b>Nomenclature &amp; genome location</b> section, click the chromosome of the associated marker and enter additional information as desired in the <b>Cytogenetic Band, cM Position</b>, or <b>Genome Coordinates</b> boxes.</li>
+  		 <li>In the <b>Categories</b> section, check <b>gene trapped</b>.</li>
+  		 <li>Click <b>Search.</b></li>
+<b>Note:</b> The MGI gene trap algorithm restricts the search to gene traps with marker associations; a chromosomal location search therefore cannot return gene traps without those associations. Thus, when there is no marker association for the gene trap, a search by location from the <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, &amp; Disease Models Query Form</a> does not yield a result. However, if you know a landmark or a region, try entering this location in MGI's <a href="http://gbrowse.informatics.jax.org/cgi-bin/gb2/gbrowse/mousebuild38/" target="_blank">JBrowse</a> and clicking the <b>GeneTraps_RNA_tags</b> and <b>GeneTraps_DNA_tags</b> tracks. (See <a href="#how_know_gt">How can I tell if a given gene trap has trapped a gene?</a> and <a href="#interpret_gbrowse">How do I interpret JBrowse gene trap tracks?</a> for additional information about JBrowse.)
 
 			</ol>
 <br>
-		<li><a id="category"></a>By category
-			<ol>
-   			<li>In the <b>Categories</b> section, click <b>gene trapped</b>.</li>
- 			<li>By default, this query queries returns <i><b>all</b></i> gene traps (cell line and mouse line). If you want to limit this search to cell lines made into mice, click <b>Exclude allele records present only in cell lines.</b></li>
-			<li>Click <b>Search.</b></li>
-			</ol>
+	 <li><a id="category"></a>By category
+		<ol>
+   		 <li>In the <b>Categories</b> section, click <b>gene trapped</b>.</li>
+ 		 <li>By default, this query queries returns <i><b>all</b></i> gene traps (cell line and mouse line). If you want to limit this search to cell lines made into mice, click <b>Exclude alleles existing only as cell lines.</b></li>
+		 <li>Click <b>Search.</b></li>
+		</ol>
 <br>
-  		</ul>
+  	</ul>
 <li>You can use the <b>Quick Search</b> box (at the top of every MGI page) and enter:
-		<ul>
+	  <ul>
   		<li>the nomenclature (symbol, name, synonym) for a gene or an allele or a creator/provider abbreviation (see <a href="#who_are">Who are the cell line creators?</a> for a list).</li>
   		<li>an accession identifier (mutant cell line ID, provider ID, GenBank sequence tag ID). Summary reports return links to any associated MGI detail pages.</li>
-<li>only the cell line designation to find gene trap alleles not located in a known gene.
-		</ul>
+        <li>only the cell line designation to find gene trap alleles not located in a known gene.
+	  </ul>
  </ol>
 </p>   
   
@@ -408,7 +406,7 @@ For example:
 
 <p>Locate <b>Mutation description</b>--> <b>Mutation</b>. If there is vector information available, it appears on the <b>Mutation</b> line.
 <blockquote>
-<img src="images/vector.jpg">
+<img src="images/vector.png" width="1067" height="126" border="0" alt="Mutation Description section">
 </blockquote>
 </p>
 
@@ -467,12 +465,12 @@ For example:
 
 <h3><a id="identify"></a>How can I find all genes associated with gene trap insertions?</h3>
 <p>Click  <b>Download-->MGI Data and Statistical Reports--></b> to access   <a href="<!--#include file="include/wi_url.html" -->reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs (tab-delimited) for this list.</a></p>
+<p>Or:</p>
 <ol>
-<li>On the <b>Phenotypes, Alleles, &amp; Disease Models Query Form</b>, locate the <b>Categories</b> row.</li>
+<li>On the <b>Phenotypes, Alleles, &amp; Disease Models Query Form</b>, locate the <b>Categories</b> section.</li>
 <li>Click the box beside <b>gene trapped</b>.</li>
-<li>Click <b>Search</b>. A Phenotypic Alleles Summary report appears, identifying the number and name of all genes associated with gene trap insertions.</li>
+<li>Click <b>Search</b>. A Phenotypic Alleles Summary report appears, identifying the number and name of all alleles associated with gene trap insertions.</li>
 </ol>
-</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -561,18 +559,17 @@ MCL	     Indicates Mutant Cell Line identity.
 <h3><a id="interest_gene"></a>How can I find gene traps not associated with a gene but that are near a gene of interest?</h3>
 <p>
 <ul>         
-  <li>Use the <A HREF="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a> to locate the gene of interest. The Genes and Markers Query Results -- Summary appears.</li>
+  <li>Use the <a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a> to locate the gene of interest. The Genes and Markers Query Results -- Summary appears.</li>
   <li>Click the gene symbol on the summary report. The Gene Detail report appears.</li>
-  <li>If the <b>Sequence Map</b> row (on the Gene Detail report) displays a genome browser link, you can view the gene relative to genome coordinates.
+  <li>In the <b>Location & Maps</b> section (on the Gene Detail report), click the more<img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif" border="0"> icon. If this gene has been mapped to the latest genome assembly, it will display a thumbnail image and a link for the Mouse Genome Browser. You can follow this link to view the gene relative to genome coordinates.
    <ul>
      <li>Click <b>Mouse Genome Browser</b>.</li>
-     <li>Confirm that the gene trap allele tracks are selected (GeneTraps_DNA_tags, GeneTraps_RNA_tags, GeneTraps_per_Gene).</li>
+     <li>In the left hand column, confirm that the gene trap allele tracks are selected (GeneTraps_DNA_tags, GeneTraps_RNA_tags, GeneTraps_per_Gene).</li>
      <li>Use the JBrowse <b>Scroll/Zoom</b> feature to modify the coordinate range. All gene traps, regardless of gene association, will appear. </li>
    </ul></li>
 </ul>
 <blockquote>
 <img src="images/genome_context2.jpg" width="664" height="401" border="0" alt="genome context">
-
 </blockquote>
 </p>
 
@@ -616,7 +613,7 @@ The <b>Tag ID</b> column contains the sequence tag identifiers.<br>
 The sequence tag's GenBank identifier (<b>GenBank ID</b>), the sequencing technique (<b>Method</b>), and chromosome, map position, and strand  (<b>Tag Location</b>) also appear. Note that you can <b>select</b> sequences here to download in FASTA format or forward to NCBI's BLAST program.</li>
 </ol>
 <blockquote>
-<img src="images/sequence_tag.jpg" width="491" height="86">
+<img src="images/sequence_tag.png" width="657" height="124" alt="Sequence Tag">
 </blockquote>
 </p>
 
