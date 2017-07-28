@@ -682,7 +682,7 @@ If the method is 3' RACE or 5' RACE, the tag defining the insertion site is RNA-
 <h3><a id="send_away"></a>Can I download the sequence tag for a gene trap insertion in FASTA? Can I send it to NCBI <abbr title=" Basic Local Alignment Search Tool">BLAST</abbr>?</h3>
 <p>Yes. This option is available on the following MGI reports:
 <ul>
-  <li>Gene-trapped Allele Detail</li>
+  <li>Gene-trapped Allele Detail (Expand the Sequence Tag section to see this option.)</li>
   <li>Sequence Detail.</li>
 </ul>
 </p>
@@ -696,6 +696,7 @@ If the method is 3' RACE or 5' RACE, the tag defining the insertion site is RNA-
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="gt_locations"></a>Can I view the approximate locations of gene trap insertions?</h3>
+
 <p>Yes. Both the Gene-trapped Allele Detail report and the MGI genome browser (JBrowse) provide views of gene trap sequence tag positions relative to representative gene transcripts. 
 
 <p>In the <b>Mutation description</b> section, click the icon (click the icon (<img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif" border="0">) next to <b>Genome Context</b>. To access the JBrowse view, click <b>View all gene trap sequence tags in this region</b> at the bottom of the image that appears.</p>
@@ -703,7 +704,7 @@ If the method is 3' RACE or 5' RACE, the tag defining the insertion site is RNA-
 <p>See <a href="#how_know_gt">How can I tell if a given gene trap has trapped a gene?</a> and <a href="#interpret_gbrowse">How do I interpret JBrowse gene trap tracks?</a> for additional information.</p>
 
 <blockquote>
-<img src="images/genome_context.jpg" width="643" height="233" border="0" alt="">
+<img src="images/genome_context.png" width="1079" height="337" border="0" alt="Genome Context">
 </blockquote>
 <br>
 <p>For gene trap alleles not associated with markers, click <b>View all gene trap sequence tags within a 10kb region</b> to access the JBrowse view. The display shows a 5kb region on either side of the gene trap sequence tag.  
@@ -718,16 +719,14 @@ If the method is 3' RACE or 5' RACE, the tag defining the insertion site is RNA-
 <p>See also <a href="#how_know_gt">How can I tell if a given gene trap has trapped a gene?</a> for additional information.)
 </p>
 <blockquote>
-<table>
- 
-     <tr><th>Gene model color</th><th>Number of gene traps associated with the marker</th></tr>
+<table> 
+    <tr><th>Gene model color</th><th>Number of gene traps associated with the marker</th></tr>
 	<tr><td>Red</td><td>More than 1000</td></tr>
 	<tr><td>Orange</td><td>101 - 1000</td></tr>
 	<tr><td>Green</td><td>11 - 100</td></tr>	
 	<tr><td>Blue</td><td>2 - 10</td></tr>	
 	<tr><td>Violet</td><td>One</td></tr>	
 	<tr><td>Black</td><td>None</td></tr>	
-
 </table>
 
 </blockquote>
