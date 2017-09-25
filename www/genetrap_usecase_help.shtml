@@ -177,7 +177,6 @@ For example:
 <td>Wtsi / Wellcome Trust Sanger Institute</td><td>BC0122</td><td>BC0122</td><td>CZ259233</td><td><i>Atg16l1<sup>Gt(BC0122)Wtsi)</sup></i></td>
 </tr>
 
-
 <tr>
 <td>Telethon Institute of Genetics and Medicine</td>
 <td>TIGEM</td>
@@ -268,7 +267,7 @@ For example:
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="all_accession_ids"></a>Is there a list of all gene trap cell line accession IDs?</h3>
-<p>Yes. Click  <b>Download-->MGI Data and Statistical Reports--></b> to access  <a href="<!--#include file="include/wi_url.html" -->reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs (tab-delimited).</a></p>
+<p>Yes. Click  <b>Download-->MGI Data and Statistical Reports--></b> to access  <a href="<!--#include file="include/wi_url.html" -->downloads/reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs (tab-delimited).</a></p>
 <blockquote>
 <img src="images/download.png" width="276" height="288" border="0" alt="Downloads">
 </blockquote>
@@ -277,7 +276,7 @@ For example:
 
 <h3><a id="stat_report"></a>Is there a list of all IDs and nomenclature associated with gene traps in MGI?</h3>
 
-<p>Yes. Click <b>Download-->All MGI Reports--></b> to see all <a href="<!--#include file="include/wi_url.html" -->reports/MRK_GeneTrap.rpt" target="_blank">gene traps associated with markers</a>. 
+<p>Yes. Click <b>Download-->All MGI Reports--></b> to see all <a href="<!--#include file="include/wi_url.html" -->downloads/reports/MRK_GeneTrap.rpt" target="_blank">gene traps associated with markers</a>. 
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
@@ -464,7 +463,7 @@ For example:
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="identify"></a>How can I find all genes associated with gene trap insertions?</h3>
-<p>Click  <b>Download-->MGI Data and Statistical Reports--></b> to access   <a href="<!--#include file="include/wi_url.html" -->reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs (tab-delimited) for this list.</a></p>
+<p>Click  <b>Download-->MGI Data and Statistical Reports--></b> to access   <a href="<!--#include file="include/wi_url.html" -->downloads/reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs (tab-delimited) for this list.</a></p>
 <p>Or:</p>
 <ol>
 <li>On the <b>Phenotypes, Alleles, &amp; Disease Models Query Form</b>, locate the <b>Categories</b> section.</li>
@@ -550,7 +549,7 @@ MCL	     Indicates Mutant Cell Line identity.
 </ul>
 
 <blockquote>
-<img src="images/no_gene.jpg" width="615" height="223" border="0" alt="">
+<img src="images/no_gene.png" width="906" height="262" border="0" alt="gene trap allele not associated with a gene">
 </blockquote>
 </p> 
 
@@ -561,7 +560,7 @@ MCL	     Indicates Mutant Cell Line identity.
 <ul>         
   <li>Use the <a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a> to locate the gene of interest. The Genes and Markers Query Results -- Summary appears.</li>
   <li>Click the gene symbol on the summary report. The Gene Detail report appears.</li>
-  <li>In the <b>Location & Maps</b> section (on the Gene Detail report), click the more<img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif" border="0"> icon. If this gene has been mapped to the latest genome assembly, it will display a thumbnail image and a link for the Mouse Genome Browser. You can follow this link to view the gene relative to genome coordinates.
+  <li>In the <b>Location &amp; Maps</b> section (on the Gene Detail report), click the more<img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif" border="0"> icon. If this gene has been mapped to the latest genome assembly, it will display a thumbnail image and a link for the Mouse Genome Browser. You can follow this link to view the gene relative to genome coordinates.
    <ul>
      <li>Click <b>Mouse Genome Browser</b>.</li>
      <li>In the left hand column, confirm that the gene trap allele tracks are selected (GeneTraps_DNA_tags, GeneTraps_RNA_tags, GeneTraps_per_Gene).</li>
