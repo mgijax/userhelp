@@ -135,7 +135,7 @@ Choose a field to search by toggling "Please select a field."
 </td></tr>
 
 <tr><th><a id="genename"></a>Gene Name</th>
-<td>Name or synonym for human or mouse genetic marker. If you enter more than one word, this field automatically <i>AND</i>i>s them. A search for <i>paired box</i> finds genes with names that contain both <i>paired</i> AND <i>box</i>.</td>
+<td>Name or synonym for human or mouse genetic marker. If you enter more than one word, this field automatically <i>AND</i>s them. A search for <i>paired box</i> finds genes with names that contain both <i>paired</i> AND <i>box</i>.</td>
 </tr>
 
 <tr><th><a id="phenotypes"></a>Phenotype or Disease Name</th>

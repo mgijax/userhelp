@@ -32,17 +32,18 @@ Using the Genes and Markers Query Form</span>
 
 
 <p><a id="top"></a>This help document answers the following questions:
-</p> <ul style="padding-left:30px">
- <li><a href="#whatdo">What can I use the Genes and Markers Query Form to find?</a>
- <li><a href="#howdo">How do I use this query form?</a>
- <li><a href="#fields">What values are acceptable in each of the query form fields?</a>
- <li><a href="GENE_summary_help.shtml" target="_blank">How do I interpret the summary results of my query?</a>
- <li><a href="GENE_detail_help.shtml" target="_blank">How do I interpret the detail results of my query?</a>
+</p> 
+<ul style="padding-left:30px">
+ <li><a href="#whatdo">What can I use the Genes and Markers Query Form to find?</a></li>
+ <li><a href="#howdo">How do I use this query form?</a></li>
+ <li><a href="#fields">What values are acceptable in each of the query form fields?</a></li>
+ <li><a href="GENE_summary_help.shtml" target="_blank">How do I interpret the summary results of my query?</a></li>
+ <li><a href="GENE_detail_help.shtml" target="_blank">How do I interpret the detail results of my query?</a></li>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
  <li><a href="#sort">How do I sort my results?</a></li>
  <!--<li><a href="#filter">How do I filter my results?</a></li>  -->
  <li><a href="#tabfile">How do I retrieve my results as tab-delimited text or spreadsheet files?</a></li>
- <li><a href="#example">Are there any sample queries?</a>
+ <li><a href="#example">Are there any sample queries?</a></li>
 </ul>
 <p>See also:
 <ul style="padding-left:30px">
@@ -51,7 +52,7 @@ Using the Genes and Markers Query Form</span>
   <li><a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a></li>
 </ul>
 
-<h3><a id="whatdo"></a>What can I  use the Genes and Markers Query Form to find?</h3>
+<h3><a id="whatdo"></a>What can I use the Genes and Markers Query Form to find?</h3>
  <p>Use this query form to search for detailed information on various types of mouse markers. You can:
 <ul>
   <li>search for gene/marker details by entering a current or former symbol, name, allele, or homolog.
