@@ -140,7 +140,7 @@ Enter a text string to search for articles with abstracts/titles containing the 
   <li>Use quotation marks to enclose phrases where the specified words must come in order, with no words intervening. </li>
   <li>Boolean operators (OR or AND) are not permitted.</li>
   </ul>
-<p>The most relevant results appear at the top of the returned list (i.e. those containing all of the searched words. Word that match your search terms are <span style="background-color: #FFFF88">highlighted in yellow</span>.</p>
+<p>The most relevant results appear at the top of the returned list (i.e. those containing all of the searched words. Words that match your search terms are <span style="background-color: #FFFF88">highlighted in yellow</span>.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
