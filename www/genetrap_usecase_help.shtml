@@ -457,7 +457,7 @@ For example:
 </blockquote>
 
 <li>You can use the MGI <a href="<!--#include file='include/fewi_url.html'-->allele" target="_blank">Phenotypes, Alleles, &amp; Disease Models Query Form</a>. Enter the gene nomenclature and follow the appropriate links.</li>
-<li>You can look through the <a href="<!--#include file="include/wi_url.html" -->reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs</a> report to locate the gene and its traps.</li>
+<li>You can look through the <a href="<!--#include file="include/wi_url.html" -->downloads/reports/MRK_GeneTrap.rpt" target="_blank">MGI Marker associations to Gene Trap IDs (tab-delimited).</a> report to locate the gene and its traps.</li>
 </ul>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
