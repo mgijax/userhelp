@@ -115,6 +115,7 @@ For more details, see the <a href="http://www.geneontology.org/GO.annotation.con
  <tr><th>IC</th><td>Inferred by Curator</td></tr>
  <tr><th>IDA</th><td>Inferred from Direct Assay</td></tr>
  <tr><th>IEA</th><td>Inferred from Electronic Annotation</td></tr>
+ <tr><th>IEP</th><td>Inferred from Expression Pattern</td></tr>
  <tr><th>IGI</th><td>Inferred From Genetic Interaction</td></tr>
  <tr><th>IKR</th><td>Inferred from Key Residues</td></tr>
  <tr><th>IMP</th><td>Inferred from Mutant Phenotype</td></tr>
