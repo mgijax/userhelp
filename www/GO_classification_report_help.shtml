@@ -110,6 +110,11 @@ For more details, see the <a href="http://www.geneontology.org/GO.annotation.con
 <table>
  <tr><th>EXP</th><td>Inferred from Experiment</td></tr>
  <tr><th>IAS</th><td>Inferred from Ancestral Sequence</td></tr>
+ <tr><th>HDA</th><td>inferred from high throughput direct assay</td></tr>
+ <tr><th>HEP</th><td>inferred from high throughput expression pattern</td></tr>
+ <tr><th>HGI</th><td>inferred from high throughput genetic interaction</td></tr>
+ <tr><th>HMP</th><td>inferred from high throughput mutant phenotype</td></tr>
+ <tr><th>IAS</th><td>Inferred from Ancestral Sequence</td></tr>
  <tr><th>IBA</th><td>Inferred from Biological aspect of Ancestor</td></tr>
  <tr><th>IBD</th><td><span style="white-space: nowrap">Inferred from Biological aspect of Descendant</span></td></tr>
  <tr><th>IC</th><td>Inferred by Curator</td></tr>
