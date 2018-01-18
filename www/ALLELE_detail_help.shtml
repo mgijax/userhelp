@@ -293,8 +293,13 @@ Click &#9660; to close the  display.</p></td>
  <tr><td>Ref(s)</td><td>The supporting reference linked by its MGI reference number to the MGI Reference Detail report containing the full citation. </td></tr> -->
 </table></td></tr>
 
-<tr><th><a id="expression"></a>Expression</th><td>A link to expression data in mice carrying this allele. </td>    
-     </tr>
+<tr><th><a id="expression"></a>Expression</th><td>
+      <ul>
+       <li>A link to expression data in mice carrying this allele</li>
+       <li>A link to the Mouse Developmental Anatomy Browser for all the anatomical structures affected by the mutation.</li>
+      </ul>
+   </td>    
+</tr>
 
 <tr><th><a id="find_mice"></a>Find Mice (IMSR)</th><td>Information about the availability of mouse strains and/or cell lines of this allele in the International Mouse Strain Resource (IMSR). There is also an indicator of whether or not there are any strains or lines available for any mutation of this gene. The International Mouse Strain Resource (IMSR) is a searchable online database of mouse strains, stocks, and mutant ES cell lines available worldwide. The IMSR does not house any stocks but if you follow these links to the IMSR it will search for stocks from several providers. In your IMSR search results, the Strain Name links to the repository's site, the Repository links to an e-mail form so you can ask about or order the stock and the Allele Symbol links to the MGI Allele Detail page. The IMSR search may also find stocks with <a href="<!--#include file='include/fewi_url.html'-->glossary/incidental_mutations.shtml" target="_blank">incidental mutations</a> in this and many other genes. </td>    
      </tr>
