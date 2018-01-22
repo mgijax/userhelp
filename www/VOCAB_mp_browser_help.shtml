@@ -118,6 +118,9 @@ Using the Mammalian Phenotype (MP) Browser</span>
       <tr>
       <th>Other IDs</th><td>Alternative IDs for the term, such as Fyler codes, a hierarchical classification of congenital heart disease.</td>
       </tr>
+      <tr>
+      <th>Anatomy</th><td>A link to the Mouse Developmental Anatomy Browser for tissues associated with the phenotype. These structures are listed on the left hand section of the Anatomy Browser with the first structure listed selected. In the main body of the page, the Anatomical Tree View links to all expression results annotated to the selected structure and all genotypes with phenotypes involving the structure.</td>
+      </tr>
      </table>
 <tr><th><a id="tree_view"></a>Phenotype Tree View</th>
      <td>The main phenotype headings are shown beneath the section header. The number of genotypes/annotations to the selected term is shown. Child terms are shown beneath the selected term in the tree view. You can collapse or expand branches by clicking on a triangle. When you select a new term, it is <span style="background-color: #BEEBFF">highlighted in blue</span> and the Term Detail section is updated. 

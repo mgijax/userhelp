@@ -296,7 +296,7 @@ Click &#9660; to close the  display.</p></td>
 <tr><th><a id="expression"></a>Expression</th><td>
       <ul>
        <li>A link to expression data in mice carrying this allele</li>
-       <li>A link to the Mouse Developmental Anatomy Browser for all the anatomical structures affected by the mutation.</li>
+       <li>A link to the Mouse Developmental Anatomy Browser for all the anatomical structures affected by the mutation. These structures are listed on the left hand section of the Anatomy Browser with the first structure listed selected. In the main body of the page, the Anatomical Tree View links to all expression results annotated to the selected structure and all genotypes with phenotypes involving the structure.</li>
       </ul>
    </td>    
 </tr>

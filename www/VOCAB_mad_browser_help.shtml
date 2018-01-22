@@ -125,6 +125,9 @@ expression results from assays with differing spatial resolution in a consistent
       <tr>
       <th>Parent Terms</th><td>The immediate parent terms for the selected structure. Because the Anatomy Ontology is built on a DAG framework, a structure may have more than one parent term. The term has either an "is a" or "part of" relationship to the parent term.</td>
       </tr>
+      <tr>
+      <th>Phenotype</th><td>A link to the Mammalian Phenotype (MP) Browser for phenotype terms associated with the structure. These terms are listed on the left hand section of the MP Browser with the first term listed selected. The main body of the page provides the term's definition in the Phenotype Term Detail section and the Phenotype Tree View links to all genotypes annotated to the phenotype term.</td>
+      </tr>
      </table>
 <tr><th><a id="tree_view"></a>Anatomical Tree View</th>
      <td>The Theiler stages displayed are shown beneath the section header. Structures present at the selected stage or stage range are shown in the tree view. You can collapse or expand branches by clicking on the blue &#9660; or &#9658;. Click on a term to view the number of expression results for the structure. When you select a new term, it is <span class="highlight"><b>highlighted in gold</b></span> and the Term Detail section is updated. The gold highlights make it easy to see if a term appears on multiple branches of the tree. 
