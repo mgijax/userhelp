@@ -131,7 +131,7 @@ expression results from assays with differing spatial resolution in a consistent
      </table>
 <tr><th><a id="tree_view"></a>Anatomical Tree View</th>
      <td>The Theiler stages displayed are shown beneath the section header. Structures present at the selected stage or stage range are shown in the tree view. You can collapse or expand branches by clicking on the blue &#9660; or &#9658;. Click on a term to view the number of expression results for the structure. When you select a new term, it is <span class="highlight"><b>highlighted in gold</b></span> and the Term Detail section is updated. The gold highlights make it easy to see if a term appears on multiple branches of the tree. 
-     <br>Click on the number of expression results to view gene expression data, images and assay details annotated to the selected structure.</td>  
+     <br>Click on the number of expression results to view gene expression data, images and assay details annotated to the selected structure. For some structures, a link to phenotype annotations that involve the structure is also available.</td>  
      </tr>
 </table>
 <br>
