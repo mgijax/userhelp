@@ -168,7 +168,7 @@ Enter a text string to search for articles with abstracts/titles containing the 
  </ol>
   <blockquote>
   <ul>
-   <li><b>PubMed ID/MGI Ref. ID</b>: The PubMed ID, if present, is linked to PubMed. The MGI ID begins with <i>J:</i>. </li>
+   <li><b>PubMed ID/MGI Ref. ID</b>: The PubMed ID, if present, is linked to PubMed. The MGI ID begins with <i>J:</i>. A Journal Link to the full publication may also be present. </li>
    <li><b>Author(s)</b>: The authors of the reference. Click this column heading to sort alphabetically by first author. Click again to reverse the sort order. </li>
    <li><b>Title</b>: The title of the reference. Click <code>abstract</code>&#9658; to view the reference abstract. </li>
    <li><b>Journal</b>: The name of the journal in <a href="ftp://ftp.ncbi.nih.gov/pubmed/J_Medline.txt" target="_blank">NLM</a> abbreviated format. Click this column heading to sort alphabetically by journal. Click again to reverse the sort order. </li>
@@ -212,22 +212,22 @@ Enter a text string to search for articles with abstracts/titles containing the 
 <ul>
   <li>click 9445485 (above the J number, in the first column) to see the reference in PubMed.</li>
   <li>click <code>abstract &#9658;</code> to see the abstract for this article.</li>
-<li>click any links beneath Curated Data to see other MGI information specific to this reference.</li>
-  </ul></p>
+  <li>click any links beneath Curated Data to see other MGI information specific to this reference.</li>
+</ul></p>
 </LI>
 <br>
 
 <LI>Find all the papers published after 2001 authored by Carninci, though you are not sure of the first name.
 <ol>
  <li>In the Author field, click First Author.</li>
-  <li>Begin typing (C-a-r-n-i...) until the autocomplete list appears.</li>
-  <li>Select Carninici P. </li>
-  <li>In the Year field, enter 2001-.</li>
-   <li>Click Search.  The Results page appears. No references are found.</li>
-<li>In the blue banner at the top, Click to Modify Search. </li>
-<li>In the page that appears, click Reset.</li>
-<li>Repeat steps 1 and 2. For step 3, select Carninci P.</li>
-<li>Repeats steps 4 and 5. </li>
+ <li>Begin typing (C-a-r-n-i...) until the autocomplete list appears.</li>
+ <li>Select Carninici P. </li>
+ <li>In the Year field, enter 2001-.</li>
+ <li>Click Search.  The Results page appears. No references are found.</li>
+ <li>In the blue banner at the top, Click to Modify Search. </li>
+ <li>In the page that appears, click Reset.</li>
+ <li>Repeat steps 1 and 2. For step 3, select Carninci P.</li>
+ <li>Repeats steps 4 and 5. </li>
 </ol>
 
 <p>The initial selection of the author's last name is a misspelling. To correct and retry, the search is modified by resetting the fields and making the correct selection from the autocomplete list.  Now the query finds at least 24  articles written by any first author named <i>Carninci P</i> published after 2001.
@@ -248,15 +248,15 @@ Enter a text string to search for articles with abstracts/titles containing the 
 <br>
 
 <LI>Find papers published in 2003 that include an author named Clemente or Clementi, you are not sure which.
-  <ol>
-      <li>In the Author(s) field, leave the default, Any Author(s).</li>
-<li>Begin typing (C-l-e-m-e-n...) until the autocomplete list appears. </li>
-<li>Continue entering letters until the list contains Clemente.</li>
-<li>Select Clemente (all). Clemente; appears in the Authors box.</li>
-<li>Repeat steps 1 &amp; 2 until the list contains Clementi.</li>
-<li>Select Clementi (all).</li>
-  <li>In the Year field, enter 2003.</li>
-<li>Click Search. </li>
+ <ol>
+ <li>In the Author(s) field, leave the default, Any Author(s).</li>
+ <li>Begin typing (C-l-e-m-e-n...) until the autocomplete list appears. </li>
+ <li>Continue entering letters until the list contains Clemente.</li>
+ <li>Select Clemente (all). Clemente; appears in the Authors box.</li>
+ <li>Repeat steps 1 &amp; 2 until the list contains Clementi.</li>
+ <li>Select Clementi (all).</li>
+ <li>In the Year field, enter 2003.</li>
+ <li>Click Search. </li>
 </ol>
 
 <p>The query finds articles published in 2003 written by several authors one of whom is named Clementi.</p>
@@ -272,7 +272,7 @@ Enter a text string to search for articles with abstracts/titles containing the 
   <li>Enter "cystic fibrosis" in the Text field.  Enclosing the term in quotation marks ensures  specificity.</li>
   <li>Click Search. The query finds a single article. Cystic fibrosis in not the title.</li>
   <li>Click <code>abstract</code>&#9658;. The first sentence contains the desired terms.</li>
-    </ol>
+ </ol>
   
 <br>
 
@@ -285,8 +285,8 @@ Enter a text string to search for articles with abstracts/titles containing the 
 <p>To narrow down this list, you can:
    <ul>
     <li>Click to modify and put kidney disease in quotation marks OR select a specific Cohen from the Author list.</li>
-     <li>In the Results section, toggle the up/down arrowheads ( &#9660; &#9650;) in Author, Journal, or Year columns until the desired references appear at the top.</li>
- 	</ul>
+    <li>In the Results section, toggle the up/down arrowheads ( &#9660; &#9650;) in Author, Journal, or Year columns until the desired references appear at the top.</li>
+   </ul>
 </p>
 </ul>
 
