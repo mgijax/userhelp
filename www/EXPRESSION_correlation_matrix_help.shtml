@@ -44,6 +44,7 @@ function openHelpWindow(helpFile){
  <li><a href="#correlation">How do I interpret the Correlation Matrix?</a>
  <li><a href="#matrixcolors">What do the colors in a Matrix mean?</a></li>
  <li><a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></li>
+ <li><a href="#how_often">How often are annotations added?</a></li>
 </ul>
 
 <h3><a id="whatpurpose"></a>What is the purpose of the Correlation Matrix?</h3>
@@ -75,6 +76,12 @@ function openHelpWindow(helpFile){
 <h3><a id="absent"></a>How are expression results propagated through the matrix anatomy hierarchy?</h3>
 
 <p>The nature of the expression data captured by GXD requires present and absent expression results to be managed differently in the matrix anatomy hierarchy. From the statement, "expression was detected in the heart ventricle," we can infer that "expression is detected (somewhere) in the heart." In contrast, the statement "expression was not detected in the heart ventricle" does not imply that "expression is found (nowhere else) in the heart." Therefore, a positive expression result is displayed in the matrix as a blue square for that anatomical structure, but any parent structure will also display a blue square based on that present result. In contrast, absent expression results can only be represented for that structure in the matrix. Parent structures will not display a red square based on an absent result in a child structure.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="how_often"></a>How often are annotations added? </h3>
+
+<p>MGI curators add new annotations from the literature every day. The MGI web site is updated with these and other new data once a week. </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
