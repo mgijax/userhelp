@@ -50,6 +50,12 @@ function openHelpWindow(helpFile){
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
+<h3><a id="correlation"></a>How do I interpret the Correlation Matrix?</h3>
+
+<p>The Correlation Matrix presents expression data for a gene and its alleles in a grid view. The columns show the gene and alleles whose expression was examined and the rows display the tissues that were examined. The tissues consist of anatomy terms from <a href="VOCAB_mad_browser_help.shtml">The Mouse Developmental Anatomy Ontology</a>. You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
 <h3><a id="matrixcolors"></a>What do the colors in a Matrix mean?</h3>
 
 <h3><a id="matrixcolors"></a>What do the colors in a Matrix mean?</h3>
