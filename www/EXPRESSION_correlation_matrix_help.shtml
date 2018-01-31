@@ -38,10 +38,37 @@ function openHelpWindow(helpFile){
 
 <a id="top"></a>
 
-<p>This help document answers the following questions:
+<p>This help document answers the following questions:</p>
 <ul>
  <li><a href="#whatpurpose">What is the purpose of the Correlation Matrix?</a></li>
+ <li><a href="#correlation">How do I interpret the Correlation Matrix?</a>
+ <li><a href="#matrixcolors">What do the colors in a Matrix mean?</a></li>
+ <li><a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></li>
 </ul>
+
+<h3><a id="whatpurpose"></a>What is the purpose of the Correlation Matrix?</h3>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="matrixcolors"></a>What do the colors in a Matrix mean?</h3>
+
+<h3><a id="matrixcolors"></a>What do the colors in a Matrix mean?</h3>
+<p>The colors in the grid, <strong style="background-color: #D7E4FF; color:#000; font-size:12px;">blues</strong> for expression detected and <strong style="background-color:#FF6767; color:#000; font-size:12px;">reds</strong> for expression not detected</strong>, get progressively darker when there are more supporting annotations. The darker colors do not denote higher or lower levels of expression, just more evidence.</p>
+<p><strong style="background-color: #BFBFBF; color:#000; font-size:12px;">Grey</strong> bars indicate the only annotations for the tissue are ones for which the researchers examined the tissue but did not definitively state whether expression was present or absent, i.e. their description was ambiguous.</p>
+<p>Squares with a <strong style="background-color:#FF6767; color:#000; font-size:12px;">red</strong> corner indicate that expression has been reported as being both present and absent in that tissue. Although this may be because different labs made conflicting observations, it may also be due to other factors, such as differences in the genotype or sex of the specimen, sensitivity of the assay used, or a difference in the transcript variant assayed.</p>
+<p>A square with a <strong style="background-color: #FADD6D; color:#000; font-size:12px;">gold</strong> corner indicates that although there are no annotations where expression was reported as being present in either the tissue or its substructures, there are expression results for substructures of the tissue that were reported as being either absent or ambiguous. See <a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></p>
+<p>A circle in a square (found only in the Tissue x Stage Matrix) indicates the tissue exists at that Theiler stage but we have no expression data for it, whereas a blank square indicates that the tissue does not exist at that stage.</p>
+<p>Clicking in any box in the grid will open a dialogue box. For <strong style="background-color: #D7E4FF; color:#000; font-size:12px;">blue</strong> squares, this box will indicate the number of annotations where expression was reported as being present in either the tissue or its substructures. It may also indicate additional expression results annotated to this tissue that were reported as being either absent or ambiguous; absent or ambiguous annotations to substructures will not be reported. See <a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></p> 
+<p>For <strong style="background-color:#FF6767; color:#000; font-size:12px;">red</strong> squares, this box will indicate the number of annotations where expression was reported as being absent in the tissue; annotations to substructures will not be reported. See <a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></p> 
+<p>For <strong style="background-color: #BFBFBF; color:#000; font-size:12px;">grey</strong> bars, this box will indicate the number of annotations to the tissue where the expression levels were reported in an ambiguous fashion. It may also indicate additional expression results annotated to this tissue that were reported as being absent. In neither case will absent and/or ambiguous annotations to substructures be reported. See <a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></p>
+<p>Since squares with a <strong style="background-color: #FADD6D; color:#000; font-size:12px;">gold</strong> corner indicate that all the expression results are absent or ambiguous annotations to substructures (rather than the structure represented by the square) the number of annotations is not indicated in the dialogue box.</p>
+<p>In all cases, clicking "View These Results" will take you to the assay results tab where these results can be reviewed in detail. If there are annotations where expression was reported as being absent or ambiguous in a substructure, they will be shown on this tab (although they will not be included in the counts on the dialogue box). Clicking "View the Images" will take you to the Images tab.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="absent"></a>How are expression results propagated through the matrix anatomy hierarchy?</h3>
+
+<p>The nature of the expression data captured by GXD requires present and absent expression results to be managed differently in the matrix anatomy hierarchy. From the statement, "expression was detected in the heart ventricle," we can infer that "expression is detected (somewhere) in the heart." In contrast, the statement "expression was not detected in the heart ventricle" does not imply that "expression is found (nowhere else) in the heart." Therefore, a positive expression result is displayed in the matrix as a blue square for that anatomical structure, but any parent structure will also display a blue square based on that present result. In contrast, absent expression results can only be represented for that structure in the matrix. Parent structures will not display a red square based on an absent result in a child structure.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
