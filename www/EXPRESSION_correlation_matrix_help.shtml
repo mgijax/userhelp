@@ -1,7 +1,7 @@
 <!--#include file='include/templateHead.html'-->
 <title>
   <!--#include file="include/mgiversion.html"-->
- MGI-Using the Correlation Matrix
+ MGI-Using the Gene Expression + Phenotype Correlation Matrix
 </title>
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
@@ -19,7 +19,7 @@ function openHelpWindow(helpFile){
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
- Using the Correlation Matrix
+ Using the Gene Expression + Phenotype Correlation Matrix
  </span>
 </div>
 
@@ -40,20 +40,21 @@ function openHelpWindow(helpFile){
 
 <p>This help document answers the following questions:</p>
 <ul>
- <li><a href="#whatpurpose">What is the purpose of the Correlation Matrix?</a></li>
+ <li><a href="#whatpurpose">What is the purpose of the Gene Expression + Phenotype Correlation Matrix?</a></li>
  <li><a href="#correlation">How do I interpret the Correlation Matrix?</a>
  <li><a href="#matrixcolors">What do the colors in a Matrix mean?</a></li>
  <li><a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></li>
  <li><a href="#how_often">How often are annotations added?</a></li>
 </ul>
 
-<h3><a id="whatpurpose"></a>What is the purpose of the Correlation Matrix?</h3>
+<h3><a id="whatpurpose"></a>What is the purpose of the Gene Expression + Phenotype Correlation Matrix?</h3>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="correlation"></a>How do I interpret the Correlation Matrix?</h3>
 
-<p>The Correlation Matrix presents expression data for a gene and its alleles in a grid view. The columns show the gene and alleles whose expression was examined and the rows display the tissues that were examined. The tissues consist of anatomy terms from <a href="VOCAB_mad_browser_help.shtml">The Mouse Developmental Anatomy Ontology</a>. You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;.</p>
+<p>The Correlation Matrix presents expression data for a gene and its alleles in a grid view. The columns show the gene and alleles whose expression was examined and the rows display the tissues that were examined. The tissues consist of anatomy terms from <a href="VOCAB_mad_browser_help.shtml">The Mouse Developmental Anatomy Ontology</a>. 
+You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;. Colored cells indicate the presence of expression data.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
