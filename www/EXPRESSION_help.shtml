@@ -211,7 +211,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <p>The Differential Expression Search is specifically designed to allow you to search for genes expressed in some anatomical structures or developmental stages but not in others. Examples of the questions you can ask are:
  <ul>
   <li>Which genes are expressed in the forebrain and not expressed in the midbrain?</li>
-  <!--<li>Which genes are expressed exclusively in the eye and its substructures?</li>-->
+  <li>Which genes are expressed exclusively in the eye and its substructures?</li>
   <li>Which genes are expressed only at Theiler Stage 15?</li>
   <li>Which genes are expressed at Theiler Stage 10 but either are not expressed or have not been analyzed in the adult?</li>
   </ul></p>
@@ -225,7 +225,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
   </tr>
  </table>
 
-The Differential Expression form lets you query for genes expressed in some anatomical structures and/or developmental stages but not in others. Use the &#9658; toggle to open one of the three sections. Only the open section is active. 
+The Differential Expression form lets you query for genes expressed in some anatomical structures and/or developmental stages but not in others. 
 <ul>
 <!--<li>To specify structure(s), type an entry in the field or make stage selections from the list.  You may use both fields simultaneously.</li>-->
 <li>Structures and/or stages entered in the top field query the database for assay results demonstrating the expression of genes in those structures or stages.</li>
