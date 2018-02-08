@@ -220,16 +220,16 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 
 <H3><a id="Dfields"></a>What values are acceptable in each of the Differential Search fields?</H3>
 <table class="nb">
-<tr><td><a href="#Danatomical_structure">Anatomical Structure</a> |  <a href="#Ddevelopmental_stage">Developmental Stage</a> | <a href="#Dstructurestage">Structure &amp; Stage</a>
+<tr><td><a href="#Danatomical_structure">Anatomical Structure</a> |  <a href="#Ddevelopmental_stage">Developmental Stage</a>
 </td>
   </tr>
  </table>
 
 The Differential Expression form lets you query for genes expressed in some anatomical structures and/or developmental stages but not in others. 
 <ul>
-<!--<li>To specify structure(s), type an entry in the field or make stage selections from the list.  You may use both fields simultaneously.</li>-->
-<li>Structures and/or stages entered in the top field query the database for assay results demonstrating the expression of genes in those structures or stages.</li>
-<li>Structures or stages entered in the lower box query for the absence of expression of genes in those structures or stages.  <B>Note:</B> If the structure or stage in the lower box has conflicting expression results annotated to it, i.e., results showing both the presence and absence of expression of a particular gene, that gene is considered to be expressed and is not returned by this query.</LI>
+<li>To specify structure(s), type an entry in the field or make stage selections from the list.  You may use both fields simultaneously.</li>
+<li>Structures and/or stages entered in the top section query the database for assay results demonstrating the expression of genes in those structures or stages.</li>
+<li>Structures or stages entered in the lower section query for the absence of expression of genes in those structures or stages.  <B>Note:</B> If the structure or stage in the lower section has conflicting expression results annotated to it, i.e., results showing both the presence and absence of expression of a particular gene, that gene is considered to be expressed and is not returned by this query.</LI>
 <li>These searches will return a list of genes whose expression was shown to be absent (not detected), as well as genes whose expression has not been analyzed or recorded in the database for the specified structures and stages.</li>
 <li>The search is limited to results from wild-type specimens. <B>Note:</B> Results from <i>in situ</i> reporter (knock-in) experiments will be returned if the results are from a heterozygote.</li>  
 </ul>
@@ -277,9 +277,9 @@ and NOT detected or analyzed in:</b><br></td><td><p>This portion of the form all
 Since mutants often have aberrant expression patterns, by default, expression results obtained from specimens containing one or more mutant alleles are excluded from the query.  To include expression results obtained from mutants in your query, click to deselect this option.  <b>Note:</b> Because of the way the query is designed, knock-in embryos are considered mutants.  Therefore, if you exclude mutant specimens, the query returns no expression results 
 obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></td></tr>
 
-<tr><th><a id="Dstructurestage"></a><b>Structure and Stage</b></th><td>Use this section when you want to query for genes expressed in some structures and stages but not in other structures and stages. This section combines the query fields for the <a href="#anatomical_structure">Anatomical Structure</a> and <a href="#developmental_stage">Developmental Stage</a> fields. 
+<!--<tr><th><a id="Dstructurestage"></a><b>Structure and Stage</b></th><td>Use this section when you want to query for genes expressed in some structures and stages but not in other structures and stages. This section combines the query fields for the <a href="#anatomical_structure">Anatomical Structure</a> and <a href="#developmental_stage">Developmental Stage</a> fields. 
 <p>You must enter a structure in both fields.</p>
-</td></tr>
+</td></tr>-->
 </table>
 </p>
 
