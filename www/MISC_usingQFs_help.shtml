@@ -22,7 +22,7 @@ function openHelpWindow(helpFile){
 </div>
 
 <!-- Container Table -->
-<table border=0 cellpadding=0 cellspacing=5 width="100%">
+<table>
 <!-- Title Bar -->
 <tr>
   <td class="enhance" align=left>
