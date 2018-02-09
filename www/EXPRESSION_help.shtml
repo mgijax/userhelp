@@ -241,13 +241,12 @@ The Differential Expression form lets you query for genes expressed in some anat
 
 <p>For each stage, the Anatomical Dictionary is organized as a hierarchy of structures. For the first field, <i>Find genes where expression is detected in</i>, the search includes substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon. <!--If you choose to include superstructures, the system, besides searching for brain, looks for structures in the hierarchy placed above brain, such as central nervous system.-->
 <p>You must enter a structure in both fields. </p>
-<p>Please note: 
 <!--<ul><li>If you enter more than one structure in the upper box, results demonstrating expression of a particular gene must exist for <b>all</b> the structures you specified in order for the query to return that gene.
 <li>If you enter more than one structure in the lower box, the query returns genes with an absence of expression in any of the specified structures.
 <li>If you click Any other structure, the query returns genes with expression in the specified structures but nowhere else.
 </ul>-->
 <p>If you are unsure of the most appropriate structural term to use, browse the
-<a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. </td>
+<a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>.</p> </td>
 </tr>
 
 <tr><th><a id="Ddevelopmental_stage"></a><b>Developmental Stages</b></th>
