@@ -53,7 +53,18 @@ function openHelpWindow(helpFile){
 
 <h3><a id="correlation"></a>How do I interpret the Correlation Matrix?</h3>
 
-<p>The Correlation Matrix presents expression data for a gene and its alleles in a grid view. The first column shows wild-type expression data for the gene. The following columns list that gene's mutant genotypes whose expression was examined, and the rows display the tissues that were examined. The tissues consist of anatomy terms from <a href="VOCAB_mad_browser_help.shtml">The Mouse Developmental Anatomy Ontology</a>. 
+<p>The Correlation Matrix presents expression data for a gene and its alleles in a grid view. The first column shows wild-type expression data for the gene. The following columns list that gene's mutant genotypes whose expression was examined, and the rows display the tissues that were examined. The genotype columns are sorted, left to right, in groups by genotype type, in this order: 
+
+<ol>
+ <li>Homozygous (hm)</li>
+ <li>Heterozygous (ht)</li>
+ <li>Conditional (cn)</li>
+ <li>Complex (cx)</li>
+ <li>Transgenes (tg)</li>
+ <li>Other types</li>
+</ol>
+
+The tissues consist of anatomy terms from <a href="VOCAB_mad_browser_help.shtml">The Mouse Developmental Anatomy Ontology</a>. 
 You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;. Colored cells indicate the presence of expression data.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
