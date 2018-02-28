@@ -229,7 +229,11 @@ The age ranges are as follows:
  		<tr><th>Adult</th><td>Older than 43 days</td></tr>
 		</table>
 	</blockquote></td></tr>
- <tr><td>Driver</td><td>Name of promoter and a link to a summary of all recombinase alleles driven by this promoter.</td></tr>
+ <tr><td>Driver</td><td>Name of promoter and: 
+   <ul>
+    <li>a link to a summary of all recombinase alleles driven by this promoter</li>
+    <li>a link to a Comparative matrix view of recombinase activities. The matrix shows wild-type expression data for the gene and reported recombinase driver activity for recombinase alleles driven by the gene.</li>
+   </ul></td></tr>
  <tr><td>User Notes</td><td>If researchers have submitted additional information to MGI regarding the tissue activity of this allele, this section will be present. Toggle the &#9658; to view the information.</td></tr>
 	</table>
 <p>Each listed system links to a Recombinase Activity Detail page associating expression assays of type <b>Recombinase reporter</b>,  <b>In situ reporter (knock in)</b> and <b>In situ reporter (transgene)</b> with genotypes. </p>

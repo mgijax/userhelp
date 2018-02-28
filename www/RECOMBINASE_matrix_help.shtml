@@ -55,7 +55,7 @@ function openHelpWindow(helpFile){
 
 <h3><a id="correlation"></a>How do I interpret the Recombinase Comparison Matrix?</h3>
 
-<p>The Recombinase Comparison Matrix presents endogenous expression data for a gene and its recombinase alleles in a grid view. The first column shows wild-type expression data for the gene. 
+<p>The Recombinase Comparison Matrix presents endogenous expression data for a gene and reported recombinase driver activity for recombinase alleles driven by the gene in a grid view. The first column shows wild-type expression data for the gene. 
 *** The allele columns are sorted, left to right, by allele symbol with targeted alleles sorted before transgenic alleles. <!--When non-mouse drivers are added, mouse will precede human and then rat. Within the species, targeted will come before transgenics.--></p> 
 
 <p>The tissues consist of anatomy terms from <a href="VOCAB_mad_browser_help.shtml">The Mouse Developmental Anatomy Ontology</a>. 
