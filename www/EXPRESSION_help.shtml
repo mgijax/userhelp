@@ -233,6 +233,7 @@ The Differential Expression form lets you query for genes expressed in some anat
 <li>These searches will return a list of genes whose expression was shown to be absent (not detected), as well as genes whose expression has not been analyzed or recorded in the database for the specified structures and stages.</li>
 <li>The search is limited to results from wild-type specimens. <B>Note:</B> Results from <i>in situ</i> reporter (knock-in) experiments will be returned if the results are from a heterozygote.</li>  
 </ul>
+<br> 
 
 <table>
 <TR> <TH>Field</TH> <TH>Description</TH> </TR>

@@ -96,7 +96,7 @@ User Help Site Map
 	<dd><a href="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data and Image Details</a></dd>
 	<!--<dd><a href="EXPRESSION_image_summary_help.shtml" onclick="javascript:openHelpWindow('EXPRESSION_image_summary_help.shtml'); return false;">Interpreting the Gene Expression Data Images Query by Gene Summary</a></dd>-->
 	<dd><a href="EXPRESSION_tissue_results_help.shtml" target="_blank">Interpreting the Gene Expression Data: Results by Tissue Summary</a></dd>
-	<dd><a href="EXPRESSION_correlation_matrix_help.shtml" target="_blank">Using the Gene Expression + Phenotype Correlation Matrix</a></dd>
+	<dd><a href="EXPRESSION_correlation_matrix_help.shtml" target="_blank">Using the Gene Expression + Phenotype Comparison Matrix</a></dd>
 	<dd><a href="VOCAB_mad_browser_help.shtml" target="_blank">Using the Mouse Developmental Anatomy Browser</a></dd>
     <dd><a href="VOCAB_amad_browser_help.shtml" target="_blank">Using the Adult Mouse Anatomical Dictionary Browser</a></dd>
 
