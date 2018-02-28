@@ -115,7 +115,8 @@ User Help Site Map
 
 <blockquote>
     <dd><a href="RECOMBINASE_summary_help.shtml" target="_blank">Interpreting a Recombinase Alleles Tissue Specificity Summary</a></dd>  
-	<dd><a href="RECOMBINASE_detail_help.shtml" target="_blank">Interpreting Recombinase Specificity Details</a></dd>           
+	<dd><a href="RECOMBINASE_detail_help.shtml" target="_blank">Interpreting Recombinase Specificity Details</a></dd>         
+	<dd><a href="RECOMBINASE_matrix_help.shtml" target="_blank">Using the Gene Expression + Recombinase Comparison Matrix</a></dd>   
 </blockquote>
        
 <a id="help_go"></a>
