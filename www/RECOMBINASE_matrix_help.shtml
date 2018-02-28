@@ -49,7 +49,7 @@ function openHelpWindow(helpFile){
 
 <h3><a id="whatpurpose"></a>What is the purpose of the Gene Expression + Recombinase Comparison Matrix?</h3>
 
-<p>The Recombinase Comparison Matrix allows you to compare endogenous gene expression with reported recombinase activity data.</p>
+<p>The Recombinase Comparison Matrix allows you to compare endogenous wild-type gene expression with reported recombinase activity data.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -59,7 +59,7 @@ function openHelpWindow(helpFile){
 The following columns show activity data for recombinase alleles driven by the gene. The allele columns are sorted, left to right, by allele symbol with targeted alleles sorted before transgenic alleles. <!--When non-mouse drivers are added, mouse will precede human and then rat. Within the species, targeted will come before transgenics.--></p> 
 
 <p>The tissues consist of anatomy terms from <a href="VOCAB_mad_browser_help.shtml">The Mouse Developmental Anatomy Ontology</a>. 
-You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;. Colored cells indicate the presence of expression data.</p>
+You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;. Colored cells indicate the presence of expression data. Click a colored cell to access the supporting data.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

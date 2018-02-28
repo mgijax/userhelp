@@ -49,6 +49,8 @@ function openHelpWindow(helpFile){
 
 <h3><a id="whatpurpose"></a>What is the purpose of the Gene Expression + Phenotype Comparison Matrix?</h3>
 
+<p>The Phenotype Comparison Matrix allows you to compare endogenous wild-type gene expression with ***</p>
+
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="correlation"></a>How do I interpret the Phenotype Comparison Matrix?</h3>
@@ -65,7 +67,7 @@ function openHelpWindow(helpFile){
 </ol>
 
 <p>The tissues consist of anatomy terms from <a href="VOCAB_mad_browser_help.shtml">The Mouse Developmental Anatomy Ontology</a>. 
-You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;. Colored cells indicate the presence of expression data.</p>
+You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;. Colored cells indicate the presence of expression data. Click a colored cell to access the supporting data.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
