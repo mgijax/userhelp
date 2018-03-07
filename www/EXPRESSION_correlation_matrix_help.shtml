@@ -49,7 +49,7 @@ function openHelpWindow(helpFile){
 
 <h3><a id="whatpurpose"></a>What is the purpose of the Gene Expression + Phenotype Comparison Matrix?</h3>
 
-<p>The Phenotype Comparison Matrix allows you to compare endogenous wild-type gene expression with ***</p>
+<p>The Phenotype Comparison Matrix allows you to view endogenous wild-type gene expression along with the tissues where mutations in that gene have phenotypic effects.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -83,7 +83,8 @@ You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658;
 <p>Since squares with a <strong style="background-color: #FADD6D; color:#000; font-size:12px;">gold</strong> corner indicate that all the expression results are absent or ambiguous annotations to substructures (rather than the structure represented by the square) the number of annotations is not indicated in the dialogue box.</p>
 <p>A bold <b>N</b> in a genotype column indicates that normal gene expression was seen in that tissue for the column's mutant genotype.</p>
 <p>A bold red <span style="font-weight: bold; color: red;">!</span> indicates the phenotype varies with strain background.</p>
-<p>In all cases, clicking "View These Results" in a cell's pop-up will take you to the assay results tab where these results can be reviewed in detail. If there are annotations where expression was reported as being absent or ambiguous in a substructure, they will be shown on this tab (although they will not be included in the counts on the dialogue box). Clicking "View the Images" will take you to the Images tab.</p>
+<p>Clicking "View These Results" in a cell's pop-up in the first column, for the gene, will take you to the assay results tab where these results can be reviewed in detail. If there are annotations where expression was reported as being absent or ambiguous in a substructure, they will be shown on this tab (although they will not be included in the counts on the dialogue box). Clicking "View the Images" will take you to the Images tab. 
+Clicking on a cell for any other column, the genotypes columns, will allow you to View all the Phenotype Details for that genotype, with phenotypes associated with that cell's row's anatomical structures <span style="background-color: #FFFF88">highlighted in yellow</span>.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
