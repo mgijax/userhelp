@@ -67,12 +67,15 @@ function openHelpWindow(helpFile){
 </ol>
 
 <p>The tissues consist of anatomy terms from <a href="VOCAB_mad_browser_help.shtml">The Mouse Developmental Anatomy Ontology</a>. 
-You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;. Colored cells indicate the presence of expression data. Click a colored cell to access the supporting data.</p>
+You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;. Colored cells in the first column, for the gene, indicate the presence of expression data. For the following, genotype columns, colored cells indicate the presence of phenotype data. Click a colored cell to access the supporting data.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="matrixcolors"></a>What do the colors in a Matrix mean?</h3>
 
+<p>Colored cells indicate the presence of supporting data. Cells colors get progressively darker as the amount of data increases.</p> 
+<p>For the <b>Expression Data</b> in the first column:</p>
+<blockquote>
 <p>The colors in the grid, <strong style="background-color: #D7E4FF; color:#000; font-size:12px;">blues</strong> for expression detected and <strong style="background-color:#FF6767; color:#000; font-size:12px;">reds</strong> for expression not detected</strong>, get progressively darker when there are more supporting annotations. The darker colors do not denote higher or lower levels of expression, just more evidence.</p>
 <p><strong style="background-color: #BFBFBF; color:#000; font-size:12px;">Grey</strong> bars indicate the only annotations for the tissue are ones for which the researchers examined the tissue but did not definitively state whether expression was present or absent, i.e. their description was ambiguous.</p>
 <p>Squares with a <strong style="background-color:#FF6767; color:#000; font-size:12px;">red</strong> corner indicate that expression has been reported as being both present and absent in that tissue. Although this may be because different labs made conflicting observations, it may also be due to other factors, such as differences in the genotype or sex of the specimen, sensitivity of the assay used, or a difference in the transcript variant assayed.</p>
@@ -81,9 +84,13 @@ You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658;
 <p>For <strong style="background-color:#FF6767; color:#000; font-size:12px;">red</strong> squares, this box will indicate the number of annotations where expression was reported as being absent in the tissue; annotations to substructures will not be reported. See <a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></p> 
 <p>For <strong style="background-color: #BFBFBF; color:#000; font-size:12px;">grey</strong> bars, this box will indicate the number of annotations to the tissue where the expression levels were reported in an ambiguous fashion. It may also indicate additional expression results annotated to this tissue that were reported as being absent. In neither case will absent and/or ambiguous annotations to substructures be reported. See <a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></p>
 <p>Since squares with a <strong style="background-color: #FADD6D; color:#000; font-size:12px;">gold</strong> corner indicate that all the expression results are absent or ambiguous annotations to substructures (rather than the structure represented by the square) the number of annotations is not indicated in the dialogue box.</p>
+</blockquote>
+<p>For the <b>Phenotype Data</b> in the other, genotype, columns:</p>
+<blockquote> 
 <p>A bold <b>N</b> in a genotype column indicates that normal gene expression was seen in that tissue for the column's mutant genotype.</p>
 <p>A bold red <span style="font-weight: bold; color: red;">!</span> indicates the phenotype varies with strain background.</p>
-<p>Clicking "View These Results" in a cell's pop-up in the first column, for the gene, will take you to the assay results tab where these results can be reviewed in detail. If there are annotations where expression was reported as being absent or ambiguous in a substructure, they will be shown on this tab (although they will not be included in the counts on the dialogue box). Clicking "View the Images" will take you to the Images tab. 
+</blockquote>
+<p>Clicking "View These Results" in a cell's pop-up in the first column, for the gene, will take you to the assay results tab where these results can be reviewed in detail. If there are annotations where expression was reported as being absent or ambiguous in a substructure, they will be shown on this tab (although they will not be included in the counts on the dialogue box). Clicking "View These Images" will take you to the Images tab. 
 Clicking on a cell for any other column, the genotypes columns, will allow you to View all the Phenotype Details for that genotype, with phenotypes associated with that cell's row's anatomical structures <span style="background-color: #FFFF88">highlighted in yellow</span>.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
