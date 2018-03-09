@@ -48,11 +48,11 @@ function openHelpWindow(helpFile){
  <li><a href="#nomenclature">Nomenclature</a></li>
  <li><a href="#origin">Mutation/Variant/Vector/Transgene origin</a></li>
  <li><a href="#description">Mutation/Variant/Vector/Transgene description</a></li>
- <!--<li><a href="#gene_expression">Expression</a></li>-->
  <li><a href="#recombinase_activity">Recombinase activity</a></li>
  <li><a href="#summary">Phenotype summary</a></li>
  <!--<li><a href="#genotype">Phenotypic data by genotype</a></li> -->
  <li><a href="#models">Disease models</a></li>
+ <li><a href="#expression">Expression</a></li>
  <li><a href="#find_mice">Find Mice (IMSR)</a></li>
  <li><a href="#additional">Notes</a></li>
  <li><a href="#reffs">References</a></li>
@@ -125,7 +125,7 @@ function openHelpWindow(helpFile){
 <table class="nb">
   
 <tr><td><a href="#nomenclature">Nomenclature</a> | <a href="#origin">origin</a> |
-<a href="#description">description</a> | <!--<a href="#gene_expression">Expression</a> |  -->  <a href="#recombinase_activity">Recombinase activity</a> | <a href="#summary">Phenotypes</a> <!--| <nobr><a href="#genotype">Phenotypic data by genotype</a></nobr>--> | <a href="#models">Disease models</a> | <a href="#expression">Expression</a> | <a href="#find_mice">Find Mice (IMSR)</a> | <a href="#additional">Additional information</a> | <a href="#reffs">References</a></td></tr>
+<a href="#description">description</a> |  <a href="#recombinase_activity">Recombinase activity</a> | <a href="#summary">Phenotypes</a> <!--| <nobr><a href="#genotype">Phenotypic data by genotype</a></nobr>--> | <a href="#models">Disease models</a> | <a href="#expression">Expression</a> | <a href="#find_mice">Find Mice (IMSR)</a> | <a href="#additional">Additional information</a> | <a href="#reffs">References</a></td></tr>
 </table>
 <table>
 
@@ -231,8 +231,9 @@ The age ranges are as follows:
 	</blockquote></td></tr>
  <tr><td>Driver</td><td>Name of promoter and: 
    <ul>
-    <li>a link to a summary of all recombinase alleles driven by this promoter</li>
-    <li>a link to a Comparative matrix view of recombinase activities. The matrix shows wild-type expression data for the gene and reported recombinase driver activity for recombinase alleles driven by the gene.</li>
+    <li>a link to a summary of all recombinase alleles that use the driver gene or an orthologous gene from another species. Currently, the species for the driver gene is not specified. </li>
+    <li>a link to a Comparative matrix view of recombinase activities. The matrix shows wild-type expression data for the gene and reported recombinase driver activity for recombinase alleles driven by the gene. 
+    This link will be present only if the driver is a mouse gene and only if we activity data for alleles with this driver. If this allele has reported activity data, it will be highlighted in the grid column header. If there are no activity data for this allele, it will not be displayed in the grid.</li>
    </ul></td></tr>
  <tr><td>User Notes</td><td>If researchers have submitted additional information to MGI regarding the tissue activity of this allele, this section will be present. Toggle the &#9658; to view the information.</td></tr>
 	</table>

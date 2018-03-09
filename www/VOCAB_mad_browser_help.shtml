@@ -126,7 +126,7 @@ expression results from assays with differing spatial resolution in a consistent
       <th>Parent Terms</th><td>The immediate parent terms for the selected structure. Because the Anatomy Ontology is built on a DAG framework, a structure may have more than one parent term. The term has either an "is a" or "part of" relationship to the parent term.</td>
       </tr>
       <tr>
-      <th>Phenotype</th><td>A link to the Mammalian Phenotype (MP) Browser for phenotype terms associated with the structure. These terms are listed on the left hand section of the MP Browser with the first term listed selected. The main body of the page provides the term's definition in the Phenotype Term Detail section and the Phenotype Tree View links to all genotypes annotated to the phenotype term.</td>
+      <th>Phenotype</th><td>When present, this links to the Mammalian Phenotype (MP) Browser where you can view phenotype terms mapped to the structure. The phenotype terms are listed in the left hand (search) section of the browser. The first term of the list is displayed in the term detail and tree view sections of the browser. Links in the tree view provide access to a summary of all genotypes annotated to the phenotype term.</td>
       </tr>
      </table>
 <tr><th><a id="tree_view"></a>Anatomical Tree View</th>
