@@ -41,7 +41,7 @@ function openHelpWindow(helpFile){
 <p>This help document answers the following questions:</p>
 <ul>
  <li><a href="#whatpurpose">What is the purpose of the Gene Expression + Recombinase Comparison Matrix?</a></li>
- <li><a href="#correlation">How do I interpret the Recombinase Comparison Matrix?</a>
+ <li><a href="#correlation">How do I interpret the Recombinase Activity Comparison Matrix?</a>
  <li><a href="#matrixcolors">What do the colors in a Matrix mean?</a></li>
  <li><a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></li>
  <li><a href="#how_often">How often are annotations added?</a></li>
