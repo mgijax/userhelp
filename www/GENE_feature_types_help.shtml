@@ -52,9 +52,9 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
 
 <tr><th>gene</th><td>A region (or regions) that include all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions, and/or other functional sequence regions. </td><td>SO:0000704</td></tr>
 
-<tr><th>protein coding gene</th><td>A gene that produces at least one transcript that is translated into a protein. </td><td>&nbsp;</td></tr>
+<tr><th>protein coding gene</th><td>A gene that produces at least one transcript that is translated into a protein. </td><td>SO:0001217</td></tr>
 
-<tr><th>non-coding RNA gene</th><td>A gene that produces an RNA transcript that functions as the gene product.</td><td>&nbsp;</td></tr>
+<tr><th>non-coding RNA gene</th><td>A gene that produces an RNA transcript that functions as the gene product.</td><td>SO:0001263</td></tr>
 
 <tr><th>lncRNA gene</th><td>A gene that encodes a non-coding RNA over 200 nucleotides in length. </td><td>SO:0001877</td></tr>
 
@@ -78,13 +78,13 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
 
 <tr><th>SRP RNA gene</th><td>A gene that encodes the signal recognition particle RNA. </td><td>SO:0000590</td></tr>
 
-<tr><th>RNase P RNA gene</th><td>A gene that encodes RNase P RNA, the RNA component of Ribonuclease P (RNase P).</td><td>&nbsp;</td></tr>
+<tr><th>RNase P RNA gene</th><td>A gene that encodes RNase P RNA, the RNA component of Ribonuclease P (RNase P).</td><td>SO:0001639</td></tr>
 
 <tr><th>RNase MRP RNA gene</th><td>A gene that encodes RNase MRP RNA.</td><td>SO:0001640</td></tr>
 
 <tr><th>telomerase RNA gene</th><td>A non-coding RNA gene, the RNA product of which is a component of telomerase. </td><td>SO:0001643</td></tr>
 
-<tr><th><span style="white-space: nowrap">unclassified non-coding RNA gene</span></th><td>A Non-Coding RNA gene not classified with established ncRNA functional subcategories.</td><td>&nbsp;</td></tr>
+<tr><th><span style="white-space: nowrap">unclassified non-coding RNA gene</span></th><td>A non-coding RNA gene not classified with established ncRNA functional subcategories.</td><td>&nbsp;</td></tr>
 
 <tr><th><span style="white-space: nowrap">ribozyme gene</span></th><td>A gene that encodes an RNA with catalytic activity.</td><td>SO:0000374</td></tr>
 
@@ -140,13 +140,15 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
 
 <tr><th><span style="white-space: nowrap">unclassified other genome feature</span></th><td>A genome feature that cannot be classified in any currently recognized genome category. </td><td></td></tr>
 
-<tr><th><span style="white-space: nowrap">endogenous retroviral region</span></th><td>A region derived from viral infection of germ cells that has been stably integrated into the host genome and is passed on from generation to generation. </td><td></td></tr>
+<tr><th><span style="white-space: nowrap">endogenous retroviral region</span></th><td>A region derived from viral infection of germ cells that has been stably integrated into the host genome and is passed on from generation to generation. </td>SO:0000903<td></td></tr>
 
 <tr><th>mutation defined region</th><td>A genomic region, containing multiple genes/genome features, within which a mutation event resulted in complex genomic changes affecting multiple features (e.g. not a simple regional deletion). </td><td></td></tr>
 
 <tr><th>CpG island</th><td>Regions of a few hundred to a few thousand bases in vertebrate genomes that are relatively GC and CpG rich; they are typically unmethylated and often found near the 5' ends of genes. </td><td>SO:0000307</td></tr>
 
 <tr><th>promoter</th><td>A regulatory_region composed of the TSS(s) and binding sites for TF_complexes of the basal transcription machinery. </td><td>SO:0000167</td></tr>
+
+<tr><th>TSS region</th><td>The region of a gene from the 5' most TSS (transcription start site) to the 3' TSS. </td><td>SO:0001240</td></tr>
 
 <tr><th>DNA segment</th><td>A region of the genome associated with experimental interest, often used as a reagent for genetic mapping. Includes RFLP and other hybridization probes, sequence-tagged sites (STS), and regions defined by PCR primer pairs such as microsatellite markers). </td><td></td></tr>
 
@@ -156,7 +158,7 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
 
 <tr><th>pseudogenic gene segment</th><td>A recombinational unit of a gene which when incorporated by somatic recombination in the final gene transcript results in a nonfunctional product.</td><td>SO:0001741</td></tr>
 
-<tr><th>polymorphic pseudogene</th><td>Pseudogene owing to a SNP/DIP but in other individuals/haplotypes/strains the gene is translated.</td><td>&nbsp;</td></tr>
+<tr><th>polymorphic pseudogene</th><td>Pseudogene owing to a SNP/DIP but in other individuals/haplotypes/strains the gene is translated.</td><td>SO:0001841</td></tr>
 
 </table>
 
