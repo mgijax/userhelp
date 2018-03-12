@@ -58,11 +58,15 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
 
 <tr><th>lncRNA gene</th><td>A gene that encodes a non-coding RNA over 200 nucleotides in length. </td><td>SO:0001877</td></tr>
 
-<tr><th>antisense lncRNA gene</th><td>A gene that encodes a non-coding RNA transcribed from the opposite DNA strand compared with other transcripts and overlap in part with sense RNA. </td><td>SO:0001904</td></tr>
+<tr><th>antisense lncRNA gene</th><td>A gene that encodes a non-coding RNA transcribed from the opposite DNA strand compared with other transcripts and overlap in part with sense RNA. </td><td>SO:0002182</td></tr>
 
 <tr><th>lincRNA gene</th><td>A gene that encodes large intervening non-coding RNA. </td><td>SO:0001641</td></tr>
 
 <tr><th>intronic lncRNA gene</th><td>A gene that encodes a lncRNA totally contained within an intron. </td><td>SO:0001903</td></tr>
+
+<tr><th>sense overlapping lncRNA gene</th><td>A gene that encodes a sense overlap long non-coding RNA. </td><td>SO:0002183</td></tr>
+
+<tr><th>bidirectional promoter lncRNA gene</th><td>A non-coding locus that originates from within the promoter region of a protein-coding gene, with transcription proceeding in the opposite direction on the other strand. </td><td>SO:0002185</td></tr>
 
 <tr><th>rRNA gene</th><td>A gene that encodes ribosomal RNA.</td><td>SO:0001637</td></tr>
 
@@ -86,7 +90,7 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
 
 <tr><th><span style="white-space: nowrap">unclassified non-coding RNA gene</span></th><td>A non-coding RNA gene not classified with established ncRNA functional subcategories.</td><td>&nbsp;</td></tr>
 
-<tr><th><span style="white-space: nowrap">ribozyme gene</span></th><td>A gene that encodes an RNA with catalytic activity.</td><td>SO:0000374</td></tr>
+<tr><th><span style="white-space: nowrap">ribozyme gene</span></th><td>A gene that encodes an RNA with catalytic activity.</td><td>SO:0002181</td></tr>
 
 <tr><th><span style="white-space: nowrap">heritable phenotypic marker</span></th><td>A biological region characterized as a single heritable trait in a phenotype screen. The heritable phenotype may be mapped to a chromosome but generally has not been characterized to a specific gene locus.</td><td>SO:0001500</td></tr>
 
