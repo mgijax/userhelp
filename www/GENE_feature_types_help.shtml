@@ -64,6 +64,8 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
 
 <tr><th>intronic lncRNA gene</th><td>A gene that encodes a lncRNA totally contained within an intron. </td><td>SO:0001903</td></tr>
 
+<tr><th>sense intronic lncRNA gene</th><td>A gene that encodes a sense intronic long non-coding RNA. </td><td>SO:0002184</td></tr>
+
 <tr><th>sense overlapping lncRNA gene</th><td>A gene that encodes a sense overlap long non-coding RNA. </td><td>SO:0002183</td></tr>
 
 <tr><th>bidirectional promoter lncRNA gene</th><td>A non-coding locus that originates from within the promoter region of a protein-coding gene, with transcription proceeding in the opposite direction on the other strand. </td><td>SO:0002185</td></tr>
@@ -96,7 +98,7 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
 
 <tr><th>gene segment</th><td>A gene component region which acts as a recombinational unit of a gene whose functional form is generated through somatic recombination. </td><td>SO:3000000</td></tr>
 
-<tr><th>unclassified gene</th><td>A region of the genome associated with transcript and/or prediction evidence but where feature classification is imprecise.<td>&nbsp;</td></td></tr>
+<tr><th>unclassified gene</th><td>A region of the genome associated with transcript and/or prediction evidence but where feature classification is imprecise.<td>&nbsp;</td></tr>
 
 <tr><th>other feature types</th><td>MGI markers that are not classified as <i>gene</i> including pseudogenes, QTL, transgenes, gene clusters, cytogenetic markers, &amp; unclassified genome features. </td><td>&nbsp;</td></tr>
 
@@ -144,7 +146,7 @@ When the MGI term definition comes from the SO project, the corresponding SO ID 
 
 <tr><th><span style="white-space: nowrap">unclassified other genome feature</span></th><td>A genome feature that cannot be classified in any currently recognized genome category. </td><td></td></tr>
 
-<tr><th><span style="white-space: nowrap">endogenous retroviral region</span></th><td>A region derived from viral infection of germ cells that has been stably integrated into the host genome and is passed on from generation to generation. </td>SO:0000903<td></td></tr>
+<tr><th><span style="white-space: nowrap">endogenous retroviral region</span></th><td>A region derived from viral infection of germ cells that has been stably integrated into the host genome and is passed on from generation to generation. </td><td>SO:0000903</td></tr>
 
 <tr><th>mutation defined region</th><td>A genomic region, containing multiple genes/genome features, within which a mutation event resulted in complex genomic changes affecting multiple features (e.g. not a simple regional deletion). </td><td></td></tr>
 
