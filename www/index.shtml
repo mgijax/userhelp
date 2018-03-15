@@ -114,6 +114,7 @@ User Help Site Map
 <dt class="enhance">Recombinases</dt>
 
 <blockquote>
+    <dd><a href="RECOMBINASE_search_help.shtml" target="_blank">Using the Recombinase Activity Search</a></dd> 
     <dd><a href="RECOMBINASE_summary_help.shtml" target="_blank">Interpreting a Recombinase Alleles Tissue Specificity Summary</a></dd>  
 	<dd><a href="RECOMBINASE_detail_help.shtml" target="_blank">Interpreting Recombinase Specificity Details</a></dd>         
 	<dd><a href="RECOMBINASE_matrix_help.shtml" target="_blank">Using the Gene Expression + Recombinase Comparison Matrix</a></dd>   
