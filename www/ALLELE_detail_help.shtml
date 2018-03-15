@@ -64,7 +64,7 @@ function openHelpWindow(helpFile){
  <li><a href="ALLELE_summary_help.shtml" target="_blank">Interpreting a Phenotypic Allele Summary</A></LI>
  <li><a href="ALLELE_detail_pheno_summary_help.shtml" target="_blank">Interpreting the Phenotype Summary in Allele Details</a></li>
  <li><a href="genetrap_usecase_help.shtml" target="_blank">Gene Trap Questions and Answers</a></li>
- <li><a href="RECOMBINASE_summary_help.shtml" target="_blank">Using Recombinase Alleles -- Tissue Activity Summary Reports</a></li>
+ <li><a href="RECOMBINASE_summary_help.shtml" target="_blank"> Interpreting a Recombinase Alleles Tissue Summary</a></li>
  <li><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> (unfamiliar terms or acronyms)</LI>
  <li><a href="<!--#include file='include/mgihome_url.html'-->nomen/gene.shtml" target="_blank">Guidelines for Nomenclature of Genes, Genetic Markers, Alleles, &amp; Mutations in Mouse &amp; Rat</a></li>
 </ul>
