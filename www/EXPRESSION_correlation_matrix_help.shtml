@@ -44,7 +44,6 @@ function openHelpWindow(helpFile){
  <li><a href="#correlation">How do I interpret the Phenotype Comparison Matrix?</a>
  <li><a href="#matrixcolors">What do the colors in a Matrix mean?</a></li>
  <li><a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></li>
- <li><a href="#how_often">How often are annotations added?</a></li>
 </ul>
 
 <h3><a id="whatpurpose"></a>What is the purpose of the Gene Expression + Phenotype Comparison Matrix?</h3>
@@ -84,26 +83,20 @@ You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658;
 <p>For <strong style="background-color:#FF6767; color:#000; font-size:12px;">red</strong> squares, this box will indicate the number of annotations where expression was reported as being absent in the tissue; annotations to substructures will not be reported. See <a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></p> 
 <p>For <strong style="background-color: #BFBFBF; color:#000; font-size:12px;">grey</strong> bars, this box will indicate the number of annotations to the tissue where the expression levels were reported in an ambiguous fashion. It may also indicate additional expression results annotated to this tissue that were reported as being absent. In neither case will absent and/or ambiguous annotations to substructures be reported. See <a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></p>
 <p>Since squares with a <strong style="background-color: #FADD6D; color:#000; font-size:12px;">gold</strong> corner indicate that all the expression results are absent or ambiguous annotations to substructures (rather than the structure represented by the square) the number of annotations is not indicated in the dialogue box.</p>
+<p>Clicking "View These Results" in a cell's pop-up in the first column, for the gene, will take you to the assay results tab where these results can be reviewed in detail. If there are annotations where expression was reported as being absent or ambiguous in a substructure, they will be shown on this tab (although they will not be included in the counts on the dialogue box). Clicking "View These Images" will take you to the Images tab.</p>
 </blockquote>
 <p>For the <b>Phenotype Data</b> in the other, genotype, columns:</p>
 <blockquote> 
-<p>A bold <b>N</b> in a genotype column indicates that normal gene expression was seen in that tissue for the column's mutant genotype.</p>
+<p>A bold <b>N</b> in a genotype column indicates that, contrary to expectations, no abnormalities were seen in that tissue for the column's mutant genotype.</p>
 <p>A bold red <span style="font-weight: bold; color: red;">!</span> indicates the phenotype varies with strain background.</p>
+<p>Clicking on a cell for any of the genotypes columns, will allow you to View all the Phenotype Details for that genotype, with phenotypes associated with that cell's row's anatomical structures <span style="background-color: #FFFF88">highlighted in yellow</span>.</p>
 </blockquote>
-<p>Clicking "View These Results" in a cell's pop-up in the first column, for the gene, will take you to the assay results tab where these results can be reviewed in detail. If there are annotations where expression was reported as being absent or ambiguous in a substructure, they will be shown on this tab (although they will not be included in the counts on the dialogue box). Clicking "View These Images" will take you to the Images tab. 
-Clicking on a cell for any other column, the genotypes columns, will allow you to View all the Phenotype Details for that genotype, with phenotypes associated with that cell's row's anatomical structures <span style="background-color: #FFFF88">highlighted in yellow</span>.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="absent"></a>How are expression results propagated through the matrix anatomy hierarchy?</h3>
 
 <p>The nature of the expression data captured by GXD requires present and absent expression results to be managed differently in the matrix anatomy hierarchy. From the statement, "expression was detected in the heart ventricle," we can infer that "expression is detected (somewhere) in the heart." In contrast, the statement "expression was not detected in the heart ventricle" does not imply that "expression is found (nowhere else) in the heart." Therefore, a positive expression result is displayed in the matrix as a blue square for that anatomical structure, but any parent structure will also display a blue square based on that present result. In contrast, absent expression results can only be represented for that structure in the matrix. Parent structures will not display a red square based on an absent result in a child structure.</p>
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
-<h3><a id="how_often"></a>How often are annotations added? </h3>
-
-<p>MGI curators add new annotations from the literature every day. The MGI web site is updated with these and other new data once a week. </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
