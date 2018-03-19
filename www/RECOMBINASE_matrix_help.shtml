@@ -78,7 +78,7 @@ You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658;
 </blockquote>
 <p>For the <b>Activity Data</b> in the other, allele/transgene, columns:</p>
 <blockquote> 
-<p>Clicking on a cell for any alleles/transgene column, will link to the allele/transgene detail page where you can view recombinase activity data and see if stocks are available in through the International Mouse Strain Resource (IMSR).</p>
+<p>Colored cells indicate the presence of activity data. Colors get progressively darker when there are more supporting annotations. Clicking on a cell for any alleles/transgene column, will link to the allele/transgene detail page where you can view recombinase activity data and see if stocks are available in through the International Mouse Strain Resource (IMSR).</p>
 </blockquote>
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
