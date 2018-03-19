@@ -90,7 +90,7 @@ function openHelpWindow(helpFile){
 </tr>
 
 <tr><th><a id="promoter"></a><b>Recombinase driven by</b></th>
-    <td>Use this field to ***. Begin typing a gene, genetic element, or construct that promotes recombination and an autocomplete list activates on the first character. If your driver of choice isn't listed, MGI currently has no recombinase data associated with it.</td></tr>
+    <td>Use this field to search for known drivers. Begin typing a gene, genetic element, or construct that promotes recombination and an autocomplete list activates on the first character. If your driver of choice isn't listed, MGI currently has no recombinase data associated with it.</td></tr>
 
 </table>
 
