@@ -232,7 +232,7 @@ The age ranges are as follows:
  <tr><td>Driver</td><td>Name of promoter and: 
    <ul>
     <li>a link to a summary of all recombinase alleles that use the driver gene or an orthologous gene from another species. Currently, the species for the driver gene is not displayed. </li>
-    <li>a link to a Comparative matrix view of recombinase activities. The matrix shows wild-type expression data for the gene and reported recombinase driver activity for recombinase alleles driven by the gene. 
+    <li>a link to a Comparative matrix view of recombinase activities. The matrix shows wild-type expression data for the gene and reported recombinase activity for recombinase alleles driven by the gene. 
     This link will be present only if the allele's driver is a mouse gene and only if we have activity data for alleles with this driver. If this allele has reported activity data, it will be highlighted in the grid column header. If there are no activity data for this allele, it will not be displayed in the grid.</li>
    </ul></td></tr>
  <tr><td>User Notes</td><td>If researchers have submitted additional information to MGI regarding the tissue activity of this allele, this section will be present. Toggle the &#9658; to view the information.</td></tr>
