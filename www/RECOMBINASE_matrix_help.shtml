@@ -19,7 +19,7 @@ function openHelpWindow(helpFile){
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
- Using the Gene Expression + Recombinase Comparison Matrix
+ Using the Gene Expression + Recombinase Activity Comparison Matrix
  </span>
 </div>
 
@@ -40,13 +40,13 @@ function openHelpWindow(helpFile){
 
 <p>This help document answers the following questions:</p>
 <ul>
- <li><a href="#whatpurpose">What is the purpose of the Gene Expression + Recombinase Comparison Matrix?</a></li>
+ <li><a href="#whatpurpose">What is the purpose of the Gene Expression + Recombinase Activity Comparison Matrix?</a></li>
  <li><a href="#correlation">How do I interpret the Recombinase Activity Comparison Matrix?</a>
  <li><a href="#matrixcolors">What do the colors in a Matrix mean?</a></li>
  <li><a href="#absent">How are results propagated through the matrix anatomy hierarchy?</a></li>
 </ul>
 
-<h3><a id="whatpurpose"></a>What is the purpose of the Gene Expression + Recombinase Comparison Matrix?</h3>
+<h3><a id="whatpurpose"></a>What is the purpose of the Gene Expression + Recombinase Activity Comparison Matrix?</h3>
 
 <p>The Recombinase Activity Comparison Matrix allows you to compare endogenous wild-type gene expression with reported recombinase activity data.</p>
 
@@ -55,10 +55,11 @@ function openHelpWindow(helpFile){
 <h3><a id="correlation"></a>How do I interpret the Recombinase Activity Comparison Matrix?</h3>
 
 <p>The Recombinase Activity Comparison Matrix presents endogenous expression data for a gene and reported recombinase driver activity for recombinase alleles driven by the gene in a grid view. The first column shows wild-type expression data for the gene. 
-The following columns show activity data for recombinase alleles driven by the gene. The allele columns are sorted, left to right, by allele symbol with targeted alleles sorted before transgenic alleles. <!--When non-mouse drivers are added, mouse will precede human and then rat. Within the species, targeted will come before transgenics.--></p> 
+The following columns show recombinase activity data for recombinase alleles driven by the gene. The allele columns are sorted, left to right, by allele symbol with targeted alleles sorted before transgenic alleles. <!--When non-mouse drivers are added, mouse will precede human and then rat. Within the species, targeted will come before transgenics.-->
+Please note that not all recombinase-carrying alleles are displayed in this matrix. Alleles whose tissue activity data has not yet been recorded and those using non-mouse (orthologous) drivers are omitted.</p> 
 
 <p>The tissues consist of anatomy terms from <a href="VOCAB_mad_browser_help.shtml">The Mouse Developmental Anatomy Ontology</a>. 
-You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;. Colored cells indicate the presence of expression data. Click a colored cell to access the supporting data.</p>
+You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;. Colored cells indicate the presence of data annotations. Click a colored cell to access the supporting data.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -74,17 +75,19 @@ You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658;
 <p>For <strong style="background-color:#FF6767; color:#000; font-size:12px;">red</strong> squares, this box will indicate the number of annotations where expression was reported as being absent in the tissue; annotations to substructures will not be reported. See <a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></p> 
 <p>For <strong style="background-color: #BFBFBF; color:#000; font-size:12px;">grey</strong> bars, this box will indicate the number of annotations to the tissue where the expression levels were reported in an ambiguous fashion. It may also indicate additional expression results annotated to this tissue that were reported as being absent. In neither case will absent and/or ambiguous annotations to substructures be reported. See <a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></p>
 <p>Since squares with a <strong style="background-color: #FADD6D; color:#000; font-size:12px;">gold</strong> corner indicate that all the expression results are absent or ambiguous annotations to substructures (rather than the structure represented by the square) the number of annotations is not indicated in the dialogue box.</p>
-<p>Clicking "View These Results" in a cell's pop-up in the first column, for the gene, will take you to the assay results tab where these results can be reviewed in detail. If there are annotations where expression was reported as being absent or ambiguous in a substructure, they will be shown on this tab (although they will not be included in the counts on the dialogue box). Clicking "View These Images" will take you to the Images tab.</p>
+<p>Clicking "View These Results" in a cell's pop-up in the first column, will take you to the assay results tab of the expression summary where these expression results can be reviewed in detail. If there are annotations where expression was reported as being absent or ambiguous in a substructure, they will be shown on this tab (although they will not be included in the counts on the dialogue box). Clicking "View These Images" will take you to the Images tab of the expression results summary.</p>
 </blockquote>
-<p>For the <b>Activity Data</b> in the other, allele/transgene, columns:</p>
+<p>For the <b>Recombinase Activity Data</b> in the second (and subsequent) columns:</p>
 <blockquote> 
-<p>Colored cells indicate the presence of activity data. Colors get progressively darker when there are more supporting annotations. Clicking on a cell for any alleles/transgene column, will link to the allele/transgene detail page where you can view recombinase activity data and see if stocks are available in through the International Mouse Strain Resource (IMSR).</p>
+<p>Colored cells indicate recombinase activity annotations for the allele/transgene in the column header. The cell colors and other symbols used are the same as those used in the first, gene expression column (i.e. shades of blue indicate tissues with reported recombinase activity, red indicates lack of activity, etc.) </p>
+<p>As in the expression column, clicking on a cell for any alleles/transgene column will open a pop-up that reports the number and type of recombinase activity annotations for that tissue. Clicking "View These Results" in the pop-up will link to the allele/transgene detail page where you can view a summary table of all recombinase activity data for the allele/transgene and see if stocks are available in through the International Mouse Strain Resource (IMSR).</p>
 </blockquote>
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="absent"></a>How are results propagated through the matrix anatomy hierarchy?</h3>
 
-<p>The nature of the expression data captured by GXD requires present and absent expression results to be managed differently in the matrix anatomy hierarchy. From the statement, "expression was detected in the heart ventricle," we can infer that "expression is detected (somewhere) in the heart." In contrast, the statement "expression was not detected in the heart ventricle" does not imply that "expression is found (nowhere else) in the heart." Therefore, a positive expression result is displayed in the matrix as a blue square for that anatomical structure, but any parent structure will also display a blue square based on that present result. In contrast, absent expression results can only be represented for that structure in the matrix. Parent structures will not display a red square based on an absent result in a child structure.</p>
+<p>The nature of the expression/recombinase activity data requires present and absent results to be managed differently in the matrix anatomy hierarchy. From the statement, "expression/recombinase activity was detected in the heart ventricle," we can infer that "expression/recombinase activity is detected (somewhere) in the heart." In contrast, the statement "expression/recombinase activity was not detected in the heart ventricle" does not imply that "expression is found (nowhere else) in the heart." Therefore, not only is a positive result is displayed in the matrix as a blue square for that anatomical structure, but any parent structure will also display a blue square based on that present result. 
+In contrast, absent results can only be represented for that structure in the matrix. Parent structures will not display a red square based on an absent result in a child structure.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

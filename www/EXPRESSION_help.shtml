@@ -280,9 +280,17 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></t
 <!--<tr><th><a id="Dstructurestage"></a><b>Structure and Stage</b></th><td>Use this section when you want to query for genes expressed in some structures and stages but not in other structures and stages. This section combines the query fields for the <a href="#anatomical_structure">Anatomical Structure</a> and <a href="#developmental_stage">Developmental Stage</a> fields. 
 <p>You must enter a structure in both fields.</p>
 </td></tr>-->
-</table>
 </p>
+</table>
 
+ <p>The default tab for differential expression search results is the Tissue x Stage Matrix. This matrix is described in detail <a href="#tissuematrix">below</a>. In brief,</p>
+<ul>
+<li>If the differential search queried for expression in a particular structure, that structure will be displayed on the upper row of the matrix; each cell in the row will be a shade of blue.</li>
+<li>If the differential search queried for lack of expression in a particular structure, that structure will be displayed on the lower row of the matrix. Red cells indicate that expression has been recorded as Absent in that structure; white cells indicate that expression has not been examined (or recorded) in that structure.</li>
+<li>If the "anywhere else box" was checked, only the structure where expression is detected is shown. To distinguish between the genes whose expression has been shown to be absent (compared to those whose expression has not been examined), click on the "View the <span style="text-decoration: underline;">Not Detected data</span> for this gene set" filter below the matrix.</li>
+<li>The list of genes returned by the differential queries can be downloaded using the Export features found on the Genes tab.</li>
+</ul>
+ 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="batchchoices"></a>Can I perform batch searches for expression data with multiple genes?</h3>
