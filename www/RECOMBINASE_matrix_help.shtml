@@ -61,6 +61,8 @@ Please note that not all recombinase-carrying alleles are displayed in this matr
 <p>The tissues consist of anatomy terms from <a href="VOCAB_mad_browser_help.shtml">The Mouse Developmental Anatomy Ontology</a>. 
 You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;. Colored cells indicate the presence of data annotations. Click a colored cell to access the supporting data.</p>
 
+<p>The official gene symbol and name for the matrix's gene of interest, and the gene's MGI accession ID appear at the top of the page.</p>
+
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="matrixcolors"></a>What do the colors in a Matrix mean?</h3>

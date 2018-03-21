@@ -44,6 +44,7 @@ function openHelpWindow(helpFile){
  <li><a href="#correlation">How do I interpret the Phenotype Comparison Matrix?</a>
  <li><a href="#matrixcolors">What do the colors in a Matrix mean?</a></li>
  <li><a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></li>
+ <li><a href="#uberon">Why are some phenotype annotations not represented in the matrix?</a></li>
 </ul>
 
 <h3><a id="whatpurpose"></a>What is the purpose of the Gene Expression + Phenotype Comparison Matrix?</h3>
@@ -53,6 +54,8 @@ function openHelpWindow(helpFile){
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="correlation"></a>How do I interpret the Phenotype Comparison Matrix?</h3>
+
+<p>The official gene symbol and name for the matrix's gene of interest, and the gene's MGI accession ID appear at the top of the page.</p>
 
 <p>The first column shows wild-type expression data for the gene. The following columns show tissues affected in animals carrying the genotype listed in the column header. The genotype columns are sorted, left to right, in groups by genotype type, in this order: </p>
 
@@ -99,6 +102,12 @@ You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658;
 <h3><a id="absent"></a>How are expression results propagated through the matrix anatomy hierarchy?</h3>
 
 <p>The nature of the expression data captured by GXD requires present and absent expression results to be managed differently in the matrix anatomy hierarchy. From the statement, "expression was detected in the heart ventricle," we can infer that "expression is detected (somewhere) in the heart." In contrast, the statement "expression was not detected in the heart ventricle" does not imply that "expression is found (nowhere else) in the heart." Therefore, not only is a positive expression result displayed in the matrix as a blue square for that anatomical structure, but any parent structure will also display a blue square based on that present result. In contrast, absent expression results can only be represented for that structure in the matrix. Parent structures will not display a red square based on an absent result in a child structure.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="uberon"></a>Why are some phenotype annotations not represented in the matrix?</h3>
+ 
+<p>Phenotype annotations made using the Mammalian Phenotype Ontology are mapped to Mouse Developmental Anatomy Ontology terms using relationships between each of these terms and the <a href="https://www.ebi.ac.uk/ols/ontologies/uberon">UBERON</a> anatomy ontology. Not all terms in the Mammalian Phenotype and Mouse Developmental Anatomy ontologies have relationships to terms in UBERON. When these relationships are not present in either ontology no mapping is made.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
