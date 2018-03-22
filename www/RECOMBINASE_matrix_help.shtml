@@ -54,14 +54,13 @@ function openHelpWindow(helpFile){
 
 <h3><a id="correlation"></a>How do I interpret the Recombinase Activity Comparison Matrix?</h3>
 
-<p>The Recombinase Activity Comparison Matrix presents endogenous expression data for a gene and reported recombinase driver activity for recombinase alleles driven by the gene in a grid view. The first column shows wild-type expression data for the gene. 
-The following columns show recombinase activity data for recombinase alleles driven by the gene. The allele columns are sorted, left to right, by allele symbol with targeted alleles sorted before transgenic alleles. <!--When non-mouse drivers are added, mouse will precede human and then rat. Within the species, targeted will come before transgenics.-->
+<p>The official gene symbol and name for the matrix's gene of interest, and the gene's MGI accession ID appear at the top of the page.</p> 
+<p>The first column shows wild-type expression data for the gene. The following columns show recombinase activity data for recombinase alleles driven by the gene. 
+The allele columns are sorted, left to right, by allele symbol with targeted alleles sorted before transgenic alleles. <!--When non-mouse drivers are added, mouse will precede human and then rat. Within the species, targeted will come before transgenics.-->
 Please note that not all recombinase-carrying alleles are displayed in this matrix. Alleles whose tissue activity data has not yet been recorded and those using non-mouse (orthologous) drivers are omitted.</p> 
 
 <p>The tissues consist of anatomy terms from <a href="VOCAB_mad_browser_help.shtml">The Mouse Developmental Anatomy Ontology</a>. 
 You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;. Colored cells indicate the presence of data annotations. Click a colored cell to access the supporting data.</p>
-
-<p>The official gene symbol and name for the matrix's gene of interest, and the gene's MGI accession ID appear at the top of the page.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -77,7 +76,7 @@ You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658;
 <p>For <strong style="background-color:#FF6767; color:#000; font-size:12px;">red</strong> squares, this box will indicate the number of annotations where expression was reported as being absent in the tissue; annotations to substructures will not be reported. See <a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></p> 
 <p>For <strong style="background-color: #BFBFBF; color:#000; font-size:12px;">grey</strong> bars, this box will indicate the number of annotations to the tissue where the expression levels were reported in an ambiguous fashion. It may also indicate additional expression results annotated to this tissue that were reported as being absent. In neither case will absent and/or ambiguous annotations to substructures be reported. See <a href="#absent">How are expression results propagated through the matrix anatomy hierarchy?</a></p>
 <p>Since squares with a <strong style="background-color: #FADD6D; color:#000; font-size:12px;">gold</strong> corner indicate that all the expression results are absent or ambiguous annotations to substructures (rather than the structure represented by the square) the number of annotations is not indicated in the dialogue box.</p>
-<p>Clicking "View These Results" in a cell's pop-up in the first column, will take you to the assay results tab of the expression summary where these expression results can be reviewed in detail. If there are annotations where expression was reported as being absent or ambiguous in a substructure, they will be shown on this tab (although they will not be included in the counts on the dialogue box). Clicking "View These Images" will take you to the Images tab of the expression results summary.</p>
+<p>Clicking "View These Results" in a cell's pop-up for the expression column, will take you to the assay results tab of the expression summary where these expression results can be reviewed in detail. If there are annotations where expression was reported as being absent or ambiguous in a substructure, they will be shown on this tab (although they will not be included in the counts on the dialogue box). Clicking "View These Images" will take you to the Images tab of the expression results summary.</p>
 </blockquote>
 <p>For the <b>Recombinase Activity Data</b> in the second (and subsequent) columns:</p>
 <blockquote> 
