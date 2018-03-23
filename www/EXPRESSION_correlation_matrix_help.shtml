@@ -107,7 +107,7 @@ You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658;
 
 <h3><a id="uberon"></a>Why are some phenotype annotations not represented in the matrix?</h3>
  
-<p>Phenotype annotations made using the <a href="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology">Mammalian Phenotype Ontology</a> are mapped to <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy">Mouse Developmental Anatomy</a> Ontology terms using relationships between each of these terms and the <a href="https://www.ebi.ac.uk/ols/ontologies/uberon">UBERON</a> anatomy ontology. Not all terms in the Mammalian Phenotype and Mouse Developmental Anatomy ontologies have relationships to terms in UBERON. When these relationships are not present in either ontology, no mapping is made.</p>
+<p>Phenotype annotations made using the <a href="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology/" target="_blank">Mammalian Phenotype Ontology</a> are mapped to <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy</a> Ontology terms using relationships between each of these terms and the <a href="https://www.ebi.ac.uk/ols/ontologies/uberon">UBERON</a> anatomy ontology. Not all terms in the Mammalian Phenotype and Mouse Developmental Anatomy ontologies have relationships to terms in UBERON. When these relationships are not present in either ontology, no mapping is made.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
