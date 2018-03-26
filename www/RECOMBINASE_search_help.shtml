@@ -59,9 +59,9 @@ function openHelpWindow(helpFile){
 
 <p>Cre is currently the most commonly used recombinase. It catalyzes site-specific recombination of DNA between loxP sites, and enables conditional mutagenesis, where specific genes can be knocked-out in particular tissues and at particular developmental time points. Other non-cre recombinases (such as Flp, Dre, phiC31, etc.) and various inducible forms of recombinases have been and are being developed. The Cre Portal contains curated data about all recombinase-containing transgenes and knock-ins developed in mice to provide a comprehensive resource delineating known activity patterns and allowing users to find relevant mouse resources for their studies.</p>
 
-<p>Although all data are captured in MGI's database as expression assays, the assays of type recombinase reporter are more correctly referred to as demonstrating activity of the recombinase allele rather than its expression. This is because tissues where the assay shows recombinase allele activity may be descendents of the tissue (as development and cell differentiation continues) in which the recombinase allele first began producing its protein (began being expressed). Once the recombinase has acted upon the target gene by removing or rearranging part of its sequence, all descendent tissues will carry the recombined target gene.</p>
+<p>Although all data are captured in MGI's database as expression assays, the assays of type recombinase reporter are more correctly referred to as demonstrating activity of the recombinase allele rather than its expression. This is because tissues where the assay shows recombinase allele activity may be descendants of the tissue (as development and cell differentiation continues) in which the recombinase allele first began producing its protein (began being expressed). Once the recombinase has acted upon the target gene by removing or rearranging part of its sequence, all descendant tissues will carry the recombined target gene.</p>
 
-<p>Careful analysis of cre activity in the cre transgenic mouse lines is important because low levels of excision early in development may produce only a few cells with cre excision, but all the descendents of those cells will carry the cre-induced genomic alteration.</p>
+<p>Careful analysis of cre activity in the cre transgenic mouse lines is important because low levels of excision early in development may produce only a few cells with cre excision, but all the descendants of those cells will carry the cre-induced genomic alteration.</p>
 
 <h3><a id="Rfields"></a>What values are acceptable in each of the Recombinase Activity Search fields?</h3>
 <table class="nb">
@@ -82,7 +82,7 @@ function openHelpWindow(helpFile){
 <p>If you are unsure of the most appropriate structural term to use, browse the
 <a href="http://scrumdogdev.informatics.jax.org/vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>.</p>
 
-<p>The default search for this field is to find tissues where recombinase activity was detected. To search for tissues that were assayed, regardless of whether activity was detected, toggle "detected" to "assayed."
+<p>The default search for this field is to find tissues where recombinase activity was assayed. To search for tissues where activity was detected, toggle "detected" to "assayed."</p>
 
 <p>To find tissues where recombinase activity was detected only in that tissue, check the box in front of "and nowhere else." </p>
 

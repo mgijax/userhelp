@@ -102,13 +102,12 @@ In contrast, absent results can only be represented for that structure in the ma
 
 <h3><a id="highlight"></a>Why are some column headings highlighted?</h3>
 
-<p>There are two ways to access this matrix:</p>
+<p>There are three ways to access this matrix:</p>
 <ol>
- <li>By clicking the "Comparative matrix view of recombinase activities" link in the Recombinase Activity section of an Allele Detail page</li>
- <li>By clicking on the grid icon in the Matrix View column on a Recombinase Alleles - Tissue Summary page.</li> 
+ <li>By clicking the "Recombinase Activity" link in the Mutations, Alleles, and Phenotypes section of the Gene Detail page of the driver gene. In this case, only the expression column header will be <span style="background-color: #FFFF88">highlighted</span>.</li>
+ <li>By clicking the "Comparative matrix view of recombinase activities" link in the Recombinase Activity section of an Allele Detail page. This link will be present on allele detail pages when the driver gene is mouse and at least one allele for that driver gene has recombinase activity recorded in the database. If the allele you used to access the matrix has associated activity data, then that allele symbol will be highlighted in the column header. The gene expression column header will also be highlighted.</li>
+ <li>By clicking on the grid icon in the Matrix View column on a Recombinase Alleles - Tissue Summary page, the result of a Recombinase Activity search. If the allele you used to access the matrix has associated activity data, then that allele symbol will be highlighted in the column header. The gene expression column header will also be highlighted.</li> 
 </ol>
-
-<p>The <span style="background-color: #FFFF88">highlighted</span> allele symbol in the matrix indicates the allele you used to access the matrix, providing it has associated activity data. (Alleles whose tissue activity data has not yet been recorded and those that use non-mouse drivers are not displayed in the matrix.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
