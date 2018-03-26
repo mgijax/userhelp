@@ -109,11 +109,11 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <a href="#asgan">Allele Symbol/Gene; Allele Name</a> | 
 <a href="#recomb_data">Recombinase Activity</a> | 
 <!--<a href="#anatom_system"><i> system</i></a> |-->
-<a href="#allele_syn">Allele Synonym</a> | 
 <!--<a href="#allele_type">Allele Type</a> | -->
-<a href="#inducible">Inducible</a> |  
+<a href="#inducible">Induced By</a> |  
 <a href="#find_mice">Find Mice</a> | 
-<a href="#refz">Refs</a>  
+<a href="#refz">Refs</a> |
+<a href="#allele_syn">Allele Synonym</a>
 </tr>
 </table>
 <p class="space"></p>
@@ -154,15 +154,16 @@ When the specimen's genotype involves a recombinase allele, the results of these
 		</table>
 	</td></tr>-->
 
-<tr><th class="thleft"> <a id="allele_syn"></a>Allele Synonym</th> <td>Any additional designations for the allele.</td></tr>
-
 <!-- <tr><th class="thleft"> <a id="allele_type"></a>Allele Type</th><td>Specific allele type; for example, Transgenic (Cre/Flp),  Targeted (knock-in). </td></tr> -->
 
-<tr><th class="thleft"> <a id="inducible"></a>Inducible</th> <td>If treatment (of mice carrying a cre allele) is required to activate recombinase activity, then the inducing agent (e.g. tamoxifen) is shown. </td></tr>
+<tr><th class="thleft"> <a id="inducible"></a>Induced By</th> <td>If treatment (of mice carrying a cre allele) is required to activate recombinase activity, then the inducing agent (e.g. tamoxifen) is shown. </td></tr>
 
 <tr><th class="thleft"> <a id="find_mice"></a>Find Mice (IMSR)</th><td>Information about the availability of mouse strains and/or cell lines of this allele in the International Mouse Strain Resource (IMSR).</td></tr>
 
 <tr><th class="thleft"> <a id="refz"></a>Refs</th> <td>Links to MGI Reference reports for all references indexed for the allele.</td></tr>
+
+<tr><th class="thleft"> <a id="allele_syn"></a>Allele Synonym</th> <td>Any additional designations for the allele.</td></tr>
+
  </table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
