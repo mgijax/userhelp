@@ -125,7 +125,7 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <tr><th class="thleft"> <a id="csh_driver"></a>Driver</th><td>Gene, genetic element, or construct that promotes recombination. 
 </td></tr> 
 
-<tr><th class="thleft"> <a id="matrix"></a>Matrix View</th> <td>If there are recombinase activity data for the allele and the driver is a mouse gene, a grid icon will appear in this column and link to a matrix which allows you to compare endogenous wild-type gene expression with reported recombinase activity data.</td></tr>
+<tr><th class="thleft"> <a id="matrix"></a>Matrix View</th> <td>If there are recombinase activity data for any allele using a driver that is a mouse gene, a grid icon will appear in this column for all alleles that use that mouse driver gene.  The icon links to a matrix which allows you to compare endogenous wild-type gene expression with reported recombinase activity data.</td></tr>
 
 <tr><th class="thleft"> <a id="asgan"></a>Allele Symbol<br>Gene; Allele Name</th><td>Official symbol for the allele, linked to the MGI Detail Report for this allele. Note that the detail page has a <b>Recombinase Activity</b> row listing every system examined where activity has been detected or not detected. Each system links to its activity detail page. <br>Gene name; allele name.</td></tr> 
 
