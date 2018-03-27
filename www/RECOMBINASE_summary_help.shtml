@@ -46,6 +46,7 @@ function openHelpWindow(helpFile){
   <li><A HREF="#access">When does a Recombinase Alleles - Tissue Summary appear?</a></li>
   <li><A HREF="#contain">What should show up on this page?</a></li>
   <li><A HREF="#usage">How do I interpret the information on this page?</a></li>
+  <li><a href="#nomatrix">Why is the matrix view missing for some alleles?</a></li>
   <li><a href="#crefilter">How do I filter my results?</a></li>
 <!--<li><a href="#no_result">How can I find recombinase data if the structure or driver is not listed on the Recombinase (cre) Activity search lists?</a></li>
 <li><a href="#nomenclature">Where can I find more information about recombinase-containing transgene and knock-in alleles?</a></li>-->
@@ -77,15 +78,15 @@ function openHelpWindow(helpFile){
   <li>only those recombinase alleles in the MGI database having data for the queried <b>anatomical structure</b>.</li>
 </ul>
 </p>
-<p>The data on the Recombinase Alleles - Tissue Activity Summary are information about  expression assays demonstrating the activity of the recombination allele in particular tissues, at or prior to the time when the mouse tissue is assayed. This is referred to as <i>tissue activity</i> or <i>recombinase activity</i> data.
+<p>The data on the Recombinase Alleles - Tissue Activity Summary are information about assays demonstrating the activity of the recombination allele in particular tissues, at or prior to the time when the mouse tissue is assayed. This is referred to as <i>tissue activity</i> or <i>recombinase activity</i> data.
 </p>
 <p>Although all data are captured in MGI's database as expression assays, the assays of type <i>recombinase reporter</i> are more correctly referred to as demonstrating <i>activity</i> of the recombinase allele rather than its <i>expression</i>. This is because tissues where the assay shows recombinase allele activity may be descendents of the tissue (as development and cell differentiation continues) in which the recombinase allele first began producing its protein (began being expressed).
 </p>
-<p>Once the recombinase has acted upon the target gene by removing or rearranging part of its sequence, all descendent tissues will carry the recombined target gene. 
+<p>Once the recombinase has acted upon the target gene by removing or rearranging part of its sequence, all descendant tissues will carry the recombined target gene. 
 </p>
-<p>Careful analysis of cre activity in the cre transgenic mouse lines is important because low levels of excision early in development may produce only a few cells with cre excision, but all the descendents of those cells will carry the cre-induced genomic alteration.
+<p>Careful analysis of cre activity in the cre transgenic mouse lines is important because low levels of excision early in development may produce only a few cells with cre excision, but all the descendants of those cells will carry the cre-induced genomic alteration.
 </p>
-<p>Expression assays of type <i>In situ reporter (transgenic)</i> and <i>In situ reporter (knock in)</i> are correctly referred to as expression data because they demonstrate the expression of the recombinase allele at the age when the allele is producing its protein for assays with antibody detection or its mRNA for assays with nucleotide probes.
+<p>Assays of type <i>In situ reporter (transgenic)</i> and <i>In situ reporter (knock in)</i> are correctly referred to as expression data because they demonstrate the expression of the recombinase allele at the age when the allele is producing its protein for assays with antibody detection or its mRNA for assays with nucleotide probes.
 When the specimen's genotype involves a recombinase allele, the results of these expression assays are included in the summary table.
 </p>
 
@@ -130,13 +131,11 @@ When the specimen's genotype involves a recombinase allele, the results of these
 
 <tr><th class="thleft"> <a id="recomb_data"></a><span style="white-space: nowrap">Recombinase Activity Detected</span></th><td>Information about anatomical systems where recombinase activity data was assayed and detected
 <ul>
-  <li>Click any list item to display a detail page with allele and tissue information, images, activity particulars, and references.</li>
   <li>This field will be empty when data showing activity are absent.</li>
   <li>If you searched for activity assayed in a structure, the relevant high level system(s) will be in bold text.</li>
   <li>Click the column heading to sort by anatomical system.</li>
 </ul>
 <tr><th class="thleft"><span style="white-space: nowrap">Recombinase Activity Not Detected</span></th><td>Information about anatomical systems where recombinase activity data was assayed and not detected<ul>
-  <li>Click any list item to display a detail page with allele and tissue information, images, activity particulars, and references.</li>
   <li>This field will be populated only when the absence of activity has been shown.</li>
   <li>If you searched for activity assayed in a structure, the relevant high level system(s) will be in bold text.</li>
   <li>Click the column heading to sort by anatomical system.</li>
@@ -165,6 +164,12 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <tr><th class="thleft"> <a id="allele_syn"></a>Allele Synonym</th> <td>Any additional designations for the allele.</td></tr>
 
  </table>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="nomatrix"></a>Why is the matrix view missing for some alleles?</h3> 
+
+<p>The presence of a grid icon in a row indicates that a Gene Expression + Recombinase Activity Comparison Matrix is available. This matrix compares the endogenous wild type gene expression for the driver gene with the recorded recombinase activity of its alleles.  This grid is unavailable when 1) the driver gene is of non-mouse origin; or 2) the driver gene is of mouse origin but none of its alleles have recombinase activity recorded in the database.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

@@ -229,9 +229,10 @@ The Differential Expression form lets you query for genes expressed in some anat
 <ul>
 <li>To specify structure(s), type an entry in the field or make stage selections from the list.  You may use both fields simultaneously.</li>
 <li>Structures and/or stages entered in the upper section query the database for assay results demonstrating the expression of genes in those structures or stages.</li>
-<li>Structures or stages entered in the lower section query for the absence of expression of genes in those structures or stages.  <B>Note:</B> If the structure or stage in the lower section has conflicting expression results annotated to it, i.e., results showing both the presence and absence of expression of a particular gene, that gene is considered to be expressed and is not returned by this query.</LI>
+<li>Structures or stages entered in the lower section query for the absence of expression of genes in those structures or stages.  <B>Note:</B> If the structure or stage in the lower section has conflicting expression results annotated to it, i.e., results showing both the presence and absence of expression of a particular gene, that gene is considered to be expressed and is not returned by this query. 
+Expression results that are either Ambiguous or Not Specified are ignored by this query, i.e. they are treated as neither present nor absent.</li>
 <li>These searches will return a list of genes whose expression was shown to be absent (not detected), as well as genes whose expression has not been analyzed or recorded in the database for the specified structures and stages.</li>
-<li>The search is limited to results from wild-type specimens. <B>Note:</B> Results from <i>in situ</i> reporter (knock-in) experiments will be returned if the results are from a heterozygote.</li>  
+<li>The search is limited to results from wild-type specimens. For the purposes of these queries, results from <i>in situ</i> reporter (knock-in) experiments will be considered wild type if the results are derived from a heterozygote.</li>  
 </ul>
 <br> 
 
@@ -240,8 +241,8 @@ The Differential Expression form lets you query for genes expressed in some anat
 <tr><th><a id="Danatomical_structure"></a><b>Anatomical Structure</b></th>
 <td>The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. Begin typing a term of interest and an autocomplete list activates on the second character. 
 
-<p>For each stage, the Anatomical Dictionary is organized as a hierarchy of structures. For the first field, <i>Find genes where expression is detected in</i>, the search includes substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon. <!--If you choose to include superstructures, the system, besides searching for brain, looks for structures in the hierarchy placed above brain, such as central nervous system.-->
-<p>If you enter a structure in the top section of the form, then in the lower section for structures NOT detected or analyzed, you must either enter another structure or check the box for "anywhere else."</p>
+<p>For each stage, the Anatomical Dictionary is organized as a hierarchy of structures. Thus the <i>Find genes where expression is detected in</i>, search includes substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon. <!--If you choose to include superstructures, the system, besides searching for brain, looks for structures in the hierarchy placed above brain, such as central nervous system.-->
+<p>If you enter a structure in the upper section of the form, then in the lower section, you must either enter another structure or check the box for "anywhere else." If you check the box for “anywhere else,” your search will return genes that have been shown to be expressed in the specified structure (or its substructures) but nowhere else.</p>
 <!--<ul><li>If you enter more than one structure in the upper box, results demonstrating expression of a particular gene must exist for <b>all</b> the structures you specified in order for the query to return that gene.
 <li>If you enter more than one structure in the lower box, the query returns genes with an absence of expression in any of the specified structures.
 <li>If you click Any other structure, the query returns genes with expression in the specified structures but nowhere else.
@@ -289,19 +290,19 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></t
 <li>If the differential search queried for lack of expression in a particular structure, that structure will be displayed on the lower row of the matrix. Red cells indicate that expression has been recorded as Absent in that structure; white cells indicate that expression has not been examined (or recorded) in that structure.</li>
 <li>If the "anywhere else box" was checked, only the structure where expression is detected is shown. To distinguish between the genes whose expression has been shown to be absent (compared to those whose expression has not been examined), click on the "View the <span style="text-decoration: underline;">Not Detected data</span> for this gene set" filter below the matrix.</li>
 <li>The list of genes returned by the differential queries can be downloaded using the Export features found on the Genes tab.</li>
+<li>For any search, you can generate a list of genes whose expression has been shown to be absent (compared to those whose expression has not been examined) by using the "Detected?' filter, found above the summary, set to "No."</li>
 </ul>
  
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="batchchoices"></a>Can I perform batch searches for expression data with multiple genes?</h3>
-<p>Yes. There are 4 ways you can do this: 
+<p>Yes. There are 4 ways you can do this: </p>
 <ul>
 <li>In the Standard Search tab, you can enter a comma-separated list of genes.</li>
 <li>You can use the Batch Search tab to enter or <a href="#column">upload</a> a column of gene symbols or IDs. See <a href="EXPRESSION_batch_help.shtml#whatpurpose">Using the Gene Expression Batch Search</a> for details.</li>
 <li>You can enter or upload symbols and IDs in the <a href="<!--#include file='include/fewi_url.html'-->batch">MGI Batch Query</a>, though the results from this form lack the tissue-by-gene matrix view, multi-tabbed data summary and filtering options of the Gene Expression Data form results.</li>
 <li>You can search with a list of symbols or IDs in <a href="http://www.mousemine.org/mousemine/begin.do#Expression">MouseMine</a> and perform iterative refinement of results and link to other model organism Mines.</li>
 </ul>
-</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
