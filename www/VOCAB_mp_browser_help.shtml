@@ -149,7 +149,7 @@ Using the Mammalian Phenotype (MP) Browser</span>
 
 <h3><a id="contribute"></a>How can I contribute to the vocabulary?</h3>
 <P>Your input is welcome.  Additional terms or revisions may be requested
-through our <a href="http://sourceforge.net/tracker/?atid=1109502&group_id=76834" target="_blank">tracking system</a>  at Sourceforge.  Please <A HREF="mailto:pheno@informatics.jax.org">contact</A> us with suggestions, additions, or questions about the Mammalian Phenotype Ontology.
+through our <a href="https://github.com/obophenotype/mammalian-phenotype-ontology/issues" target="_blank">tracking system</a>  at GitHub.  Please <A HREF="mailto:pheno@jax.org">contact</A> us with suggestions, additions, or questions about the Mammalian Phenotype Ontology.
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
