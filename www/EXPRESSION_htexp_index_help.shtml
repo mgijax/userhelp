@@ -57,6 +57,8 @@ function openHelpWindow(helpFile){
 
 <p>GXD's annotation efforts focus on experiments examining endogenous gene expression in wild-type and mutant mice. Studies from all developmental stages, including adult, are included. In addition, studies examining expression differences within and between species is available (although the metadata for the non-mouse samples is not). As is consistent with GXD policy, studies using transgenic mice (i.e., animals containing randomly inserted transgenes); animals that have been manipulated, either by substances, surgical procedures, or diet regimens; cultured or dissociated tissues; or cell lines are not included.</p>
 
+<p>Curators rely on the information provided in the repository submission when annotating sample metadata.  However, they may consult the publication when clarification/additional information is required.</p>
+
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="howdo"></a>How do I use this query form?</h3>
