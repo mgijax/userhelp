@@ -109,8 +109,8 @@ function openHelpWindow(helpFile){
  <tr><th><a id="refgenome"></a>Reference genome</th>
   <td>Select one genome to be the reference. The reference genome:
   <ul>
-   <li>is shown in the Genome View</li>
-   <li>is the stripe in the Zoom View with the blue tag at the left end</li>
+   <li>is shown in the <a href="#genomeview">Genome view</a></li>
+   <li>is the stripe in the <a href="#zoom">Zoom view</a> with the blue tag at the left end</li>
    <li>defines the coordinate system in which genome coordinates are interpreted</li>
    <li>defines the coordinate transformations to any given Comparison genome</li>
   </ul>
@@ -122,7 +122,7 @@ function openHelpWindow(helpFile){
    <li>Click an item to select that and unselect all others</li>
    <li>Shift-click to select a range</li>
    <li>Command (&#8984;)-click on a Mac, or control-click on a PC, to toggle individual strains</li>
-   <li>HINT: to unselect all comparison genomes, click on any one, then command-click it</li>
+   <li>Hint: to unselect all comparison genomes, click on any one, then command-click it</li>
    </ul>
   </td></tr>
  <tr><th><a id="findgenes"></a>Find genes</th>
@@ -144,7 +144,7 @@ function openHelpWindow(helpFile){
       <li>Click on a list to make it the “current” list
       <ul>
       <li>the <a href="#genomeview">Genome view</a> displays glyphs where those features exist in the current reference genome</li>
-      <li>NOTE: a given feature may or may not exist in a given genome, either because of real biology or because the annotations are incomplete. In any case, you may see fewer glyphs in the Genome View than there are IDs in the list.
+      <li>Note: a given feature may or may not exist in a given genome, either because of real biology or because the annotations are incomplete. In any case, you may see fewer glyphs in the Genome View than there are IDs in the list.
       </ul></li>
      <li>Click on the circled-x next to a list to delete it</li>
      <li>Click on the pencil next to a list to open it in the “List editor”</li>
@@ -227,7 +227,7 @@ function openHelpWindow(helpFile){
        </ul></li>
       <li>Mousing over a row in the Feature details table causes that genolog to pulsate in the Zoom view
      <ul>
-      <li>HINT: in the Zoom view you can temporarily turn off the mouseover-highlighting by holding down the shift key as you move the mouse
+      <li>Hint: in the Zoom view you can temporarily turn off the mouseover-highlighting by holding down the shift key as you move the mouse
      </ul></li>
 </ul></tr>
  <tr><th><a id="zoom"></a>Zoom view</th>
