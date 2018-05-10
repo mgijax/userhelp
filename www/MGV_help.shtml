@@ -1,0 +1,285 @@
+<!--#include file='include/templateHead.html'-->
+<title>
+  <!--#include file="include/mgiversion.html"-->
+ MGI-Using the Multi Genome Viewer
+</title>
+
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+
+</style>
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+ Using the Multi Genome Viewer
+ </span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+
+
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+    </tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+<!-- Body of User Help -->
+
+<a id="top"></a>
+
+<p>This help document answers the following questions:</p>
+<ul>
+ <li><a href="#whatMGVpurpose">What is the purpose of the Multi Genome Viewer?</a></li>
+ <li><a href="#allstrains">What inbred strains are included in the Viewer?</a></li>
+ <li><a href="#sections">How do I use the different sections of the Viewer?</a></li>
+</ul>
+
+<h3><a id="whatMGVpurpose"></a>What is the purpose of the Multi Genome Viewer?</h3>
+<p>***the C57BL/6J reference genome and 18 other mouse inbred strains sequenced and annotated by the Wellcome Institute Sanger Mouse Genomes Project. Note that currently only the C57BL/6J annotation is "reference quality."</p>
+
+<h3><a id="allstrains"></a>What inbred strains are included in the Viewer?</h3>
+
+<ul>
+ <li>129S1/SvlmJ</li>
+ <li>A/J</li>
+ <li>AKR/J</li>
+ <li>BALB/cJ</li>
+ <li>C3H/HeJ</li>
+ <li>C57BL/6J</li>
+ <li>C57BL/6NJ</li>
+ <li>CAROLI/EiJ</li>
+ <li>CAST/EiJ</li>
+ <li>CBA/J</li>
+ <li>DBA/2J</li>
+ <li>FVB/NJ</li>
+ <li>LP/J</li>
+ <li>NOD/ShiLtJ</li>
+ <li>NZO/HltJ</li>
+ <li>PAHARI/EiJ</li>
+ <li>PWK/PhJ</li>
+ <li>SPRET/EiJ</li>
+ <li>WSB/EiJ</li>
+</ul>
+
+<h3><a id="sections"></a>How do I use the different sections of the Viewer?</h3>
+
+<p>In the page banner, click on the gear icon to open or close the left hand panel. The MGI logo links to the MGI Home Page and the <span style="font-weight: bold; color: #456B8D;">i</span> icon links to this help document.</p>
+
+<p>The main portion of the page is divided into boxes.</p>
+<ul>
+ <li>Each box has a name, an open/close button (small triangle), and a drag handle (three parallel lines, &#9776;) in the upper right. Use the up/down arrows to expand (&#9660;) and collapse (&#9650;) the boxes. 
+  <ul>
+   <li>When “open”, a box displays a “full” view</li>
+   <li>When “closed”, a box displays a “contracted” view (which may simply be a label)
+   </ul></li>
+ <li>Boxes can be reordered within their columns via dragging by the handle icon (&#9776;)</li>
+ <li>The open/closed state and the ordering of boxes is remembered</li>
+ <li>Navigation is integrated with browser history
+  <ul>
+   <li>so you can use your browser's back and forward buttons</li>
+   <li>you can bookmark at any point, email links to specific views, etc.</li>
+  </ul></li>
+ </ul>
+ 
+<p>Details for the specific boxes of the viewer are described in the table below.</p>
+ 
+<table class="nb">
+<tr><td><a href="#refgenome">Reference genome</a> | <a href="#compgenomes">Comparison genomes</a> | <a href="#findgenes">Find genes</a> | <a href="#mylists">My lists</a> | <a href="#listed">List editor</a> | <a href="#featuretype">Feature types</a> | <a href="#hasid">Has MGI ID?</a> | <a href="#highlight">Is highlighted?</a> | <a href="#genomeview">Genome view</a> | <a href="featuredetail">Feature details</a> | <a href="#zoom">Zoom view</a> </td>
+</tr>
+</table>
+
+<table>
+ <tr><th>Box</th> 
+	<th>Descriptions</th>
+ </tr>
+ <tr><th><a id="refgenome"></a>Reference genome</th>
+  <td>Select one genome to be the reference. The reference genome:
+  <ul>
+   <li>is shown in the Genome View</li>
+   <li>is the stripe in the Zoom View with the blue tag at the left end</li>
+   <li>defines the coordinate system in which genome coordinates are interpreted</li>
+   <li>defines the coordinate transformations to any given Comparison genome</li>
+  </ul>
+  </td>
+ </tr>
+ <tr><th><a id="compgenomes"></a>Comparison genomes</th>
+  <td>Select zero or more genomes to display alongside the reference in the Zoom View
+  <ul>
+   <li>Click an item to select that and unselect all others</li>
+   <li>Shift-click to select a range</li>
+   <li>Command (&#8984;)-click on a Mac, or control-click on a PC, to toggle individual strains</li>
+   <li>HINT: to unselect all comparison genomes, click on any one, then command-click it</li>
+   </ul>
+  </td></tr>
+ <tr><th><a id="findgenes"></a>Find genes</th>
+  <td>Searches for canonical genes (genome features with MGI IDs) annotated to specified GO (Gene Ontology functional annotations), MP (Mammalian Phenotypes), or DO (Disease Ontology) terms. You have four search options available from the toggle: 
+ <table>
+  <tr><th>Toggle Name</th><th>Search Terms</th><th>Find official terms and IDs</th></tr>
+  <tr><td>symbol/ID</td><td>gene symbols and MGI IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a></td></tr>
+  <tr><td>cellular function</td><td>Gene Ontology (GO) terms and GO IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->vocab/gene_ontology" target="_blank">Gene Ontology Browser</a></td></tr>
+  <tr><td>mutant phenotype</td><td>Mammalian Phenotype (MP) terms and MP IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype Browser</a></td></tr>
+  <tr><td>disease implication</td><td>human Disease Ontology (DO) terms and DO IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->disease" target="_blank">Disease Ontology Browser</a></td></tr>
+ </table>
+ Enter one or more search terms/IDs separated by commas and either tab out of the field or use your keyboard's return/enter key to launch the search. Genes matching or annotated to your search terms will show up as a list in the <a href="#mylists">My lists</a> box. Searches are case insensitive.   
+  </td>
+ </tr>
+ <tr><th><a id="mylists"></a>My lists</th>
+     <td>
+     <ul>
+      <li>Shows all your saved lists of IDs in a scrolling box, lists sorted alphabetically</li>
+      <li>Click on a list to make it the “current” list
+      <ul>
+      <li>the <a href="#genomeview">Genome view</a> displays glyphs where those features exist in the current reference genome</li>
+      <li>NOTE: a given feature may or may not exist in a given genome, either because of real biology or because the annotations are incomplete. In any case, you may see fewer glyphs in the Genome View than there are IDs in the list.
+      </ul></li>
+     <li>Click on the circled-x next to a list to delete it</li>
+     <li>Click on the pencil next to a list to open it in the “List editor”</li>
+     <li>At the bottom of the My lists box are 4 buttons:
+     <ul>
+      <li>a warning about the current status (experimental) of list persistence</li>
+      <li>a button to create a new list from the current selections in the Zoom View</li>
+      <li>a button to open the list formula editor</li>
+      <li>a button to delete all lists (gets confirmation first)</ul></li>
+     </ul>
+    </td></tr>
+ <tr><th><a id="listed"></a>List editor</th>
+     <td>
+     <ul>
+     <li>Allows you to
+     <ul>
+      <li>view/edit the contents of a list</li>
+      <li>create new lists from scratch (i.e., by entering IDs)</li>
+      <li>create new lists by combining other lists
+      </ul></li>
+     <li>to create a new list from scratch:
+     <ul>
+      <li>open the editor and clear the form if necessary (see “Clear form” button)</li>
+      <li>type/paste your IDs in the IDs box. Right now, only MGI ids. They can be separated by commas, whitespace, or pipes.</li>
+      <li>enter a list name</li>
+      <li>click “New list”</li>
+      </ul></li>
+     <li>to edit a saved list:
+     <ul>
+      <li>in the “My lists” section, click on the pencil next to the list, this opens the List editor and loads the list</li>
+      <li>click “Save updates”</li>
+      </ul></li>
+     <li>to create a list by combining others:
+     <ul>
+     <li>***kind of involved. Need to work on this…</ul></li>
+    </ul>
+ </td></tr>
+ <tr><th><a id="featuretype"></a>Feature types</th>
+     <td> 
+     <ul>
+     <li>Shows the different categories of feature types and the colors used to draw them in the <a href="#zoom">Zoom view</a></li>
+     <li>Each color swatch is a checkbox that can be individually checked/unchecked
+     <ul>
+      <li>checking one (or several) shows only those feature types in the Zoom view</li>
+      <li>checking all or none of the swatches shows all feature types
+     </ul></li>
+    </ul>
+     </td></tr>
+ <tr><th><a id="hasid"></a>Has MGI ID?</th><td>***</td></tr>
+ <tr><th><a id="highlight"></a>Is highlighted?</th><td>***</td></tr>
+ <tr><th><a id="genomeview"></a>Genome view</th>
+     <td><ul>
+          <li>Displays the chromosomes from the currently selected reference genome
+           <ul>
+            <li>in closed state, only displays one chromosome, generally, the one displayed in the <a href="#zoom">Zoom view</a></li>
+            </ul></li>
+           <li>May show synteny blocks of the reference against one of the currently selected comparison genomes:
+            <ul>
+             <li>in the Zoom view, click on that genome’s stripe
+            </ul></li>
+           <li>Drag on a chromosome in the genome view to zoom to that region in the Zoom view</li>
+          </ul>
+       </td></tr>
+ <tr><th><a id="featuredetail"></a>Feature details</th>
+     <td>
+     <ul>
+      <li>Displays the currently moused-over feature (from the <a href="#zoom">Zoom view</a>) and its genologs from the currently selected genomes (A row of “.”s means no genolog in that genome.)
+       <ul>
+        <li>the moused-over genolog row is also highlighted</li>
+       </ul></li>
+      <li>Mousing over a row in the Feature details table causes that genolog to pulsate in the Zoom view
+     <ul>
+      <li>HINT: in the Zoom view you can temporarily turn off the mouseover-highlighting by holding down the shift key as you move the mouse
+     </ul></li>
+</ul></tr>
+ <tr><th><a id="zoom"></a>Zoom view</th>
+     <td>
+     <ul>
+     <li>shows the current region of focus
+     <ul>
+      <li>reference genome + chromosome + start..end</li>
+      <li>plus, for each comparison genome, the genome fragment(s) this maps to</li>
+      <li>in the closed state, the zoom view display just the reference genome’s stripe</li>
+     </ul></li>
+    <li>each genome displayed in a “stripe”
+    <ul>
+     <li>the reference genome has a blue tag at the left end</li>
+     <li>comparison genomes have a gray tag</li>
+    </ul></li>
+    <li>you can reorder the genomes by dragging (up or down) on the blue or gray tag </li>
+    <li>controls at the top of the ZoomView:
+     <ul>
+      <li>Linkout menu
+       <ul>
+       <li>MGI SNPs - links to MGI SNP report for SNP within the given region</li>
+       <li>MGI QTLs</li>
+       <li>MGI JBrowse</li>
+      </ul></li>
+     <li>Coords
+      <ul>
+       <li>Shows the current reference genome coordinates (also shows ref genome’s name)</li>
+       <li>Type and press enter or tab out to change</li>
+      </ul></li>
+     <li>Showing
+      <ul>
+       <li>Shows the length of the genomic segment designated by Coords</li>
+       <li>Type and press enter or tab out to change</li>
+      </ul></li>    
+     <li>Zoom
+     <ul>
+     <li>Four buttons: Zoom in a lot, Zoom in, Zoom out, Zoom out a lot</li>
+     </ul></li>
+    <li>Pan
+     <ul>
+      <li>Four buttons: Pan left a lot, Pan left, Pan right, Pan right a lot</li>
+	 </ul></li>
+	 </ul></li>
+   <li>within a given stripe (ie, genome):
+   <ul>
+    <li>mouse over a feature to see its details
+    <ul>
+    <li>symbol displayed in ZoomView</li>
+    <li>connections displayed to equivalent features in other genomes (if any - depends on annotation)</li>
+    <li>associated data also displayed in tabular for in Feature detail View</li>
+    </ul></li>
+  <li>click on a feature to select it
+   <ul>
+    <li>shift-click to toggle</li>
+   </ul></li>
+  <li>drag immediately beneath the stripe’s background to zoom in to that region</li>
+  </ul></li>
+</ul>
+     </td></tr>
+</table>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<!--#include file='include/templateBlankBodyStop.html'-->
