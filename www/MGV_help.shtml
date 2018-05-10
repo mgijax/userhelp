@@ -46,10 +46,11 @@ function openHelpWindow(helpFile){
  <li><a href="#whatMGVpurpose">What is the purpose of the Multi Genome Viewer?</a></li>
  <li><a href="#allstrains">What inbred strains are included in the Viewer?</a></li>
  <li><a href="#sections">How do I use the different sections of the Viewer?</a></li>
+ <li><a href="#example">Are there any sample queries?</a></li>
 </ul>
 
 <h3><a id="whatMGVpurpose"></a>What is the purpose of the Multi Genome Viewer?</h3>
-<p>***the C57BL/6J reference genome and 18 other mouse inbred strains sequenced and annotated by the Wellcome Institute Sanger Mouse Genomes Project. Note that currently only the C57BL/6J annotation is “reference quality.”</p>
+<p>The Multi Genome Viewer allows you to compare chromosomal regions of the C57BL/6J reference genome and 18 other mouse inbred strains sequenced and annotated by the Wellcome Institute Sanger Mouse Genomes Project. The Viewer permits searches by genes and other genome features, genome coordinates, and function, phenotype and disease terms. Note that currently only the C57BL/6J annotation is “reference quality.”</p>
 
 <h3><a id="allstrains"></a>What inbred strains are included in the Viewer?</h3>
 
@@ -215,7 +216,8 @@ function openHelpWindow(helpFile){
      </ul>
      </td></tr>
  <tr><th><a id="genomeview"></a>Genome view</th>
-     <td><ul>
+     <td>This is the top section of the main body of the page. It: 
+     <ul>
           <li>Displays the chromosomes from the currently selected reference genome
            <ul>
             <li>in the closed state, it only displays one chromosome, generally, the one displayed in the <a href="#zoom">Zoom view</a></li>
@@ -244,17 +246,17 @@ function openHelpWindow(helpFile){
      <ul>
      <li>shows the current region of focus
      <ul>
-      <li>reference genome + chromosome + start..end</li>
-      <li>plus, for each comparison genome, the genome fragment(s) this maps to</li>
+      <li>the reference genome and the displayed chromosome and start..end coordinates</li>
+      <li>plus, for each comparison genome, the genome fragment(s) this maps to. Note: in the comparison genomes, chromosomal regions that are different from the reference chromosome will be marked by a vertical blue line with the chromosome number beneath it.</li>
       <li>in the closed state, the zoom view display just the reference genome’s stripe</li>
      </ul></li>
-    <li>each genome displayed in a “stripe”
+    <li>each genome is displayed in a “stripe”
     <ul>
-     <li>the reference genome has a blue tag at the left end</li>
-     <li>comparison genomes have a gray tag</li>
+     <li>the reference genome has a blue bar at the left end</li>
+     <li>comparison genomes have a gray bar</li>
     </ul></li>
-    <li>you can reorder the genomes by dragging (up or down) on the blue or gray tag </li>
-    <li>controls at the top of the ZoomView:
+    <li>you can reorder the genomes by dragging (up or down) on the blue or gray bar </li>
+    <li>controls at the top of the Zoom view:
      <ul>
       <li>Linkout menu
        <ul>
@@ -264,40 +266,45 @@ function openHelpWindow(helpFile){
       </ul></li>
      <li>Coords
       <ul>
-       <li>Shows the current reference genome coordinates (also shows ref genome’s name)</li>
-       <li>Type and press enter or tab out to change</li>
+       <li>Shows the current reference genome coordinates (also shows reference genome’s name)</li>
+       <li>Type and press return/enter or tab out to change</li>
       </ul></li>
      <li>Showing
       <ul>
-       <li>Shows the length of the genomic segment designated by Coords</li>
+       <li>Shows the length of the genomic segment, in bp, designated by Coords</li>
        <li>Type and press enter or tab out to change</li>
       </ul></li>    
      <li>Zoom
      <ul>
-     <li>Four buttons: Zoom in a lot, Zoom in, Zoom out, Zoom out a lot</li>
+     <li>Four magnifying icons, left to right: Zoom out a lot, Zoom out, Zoom in, Zoom in a lot</li>
      </ul></li>
     <li>Pan
      <ul>
       <li>Four buttons: Pan left a lot, Pan left, Pan right, Pan right a lot</li>
 	 </ul></li>
 	 </ul></li>
-   <li>within a given stripe (ie, genome):
+   <li>within a given stripe (i.e., genome):
    <ul>
     <li>mouse over a feature to see its details
     <ul>
-    <li>symbol displayed in ZoomView</li>
-    <li>connections displayed to equivalent features in other genomes (if any - depends on annotation)</li>
-    <li>associated data also displayed in tabular for in Feature detail View</li>
+    <li>symbol displayed in Zoom view</li>
+    <li>connections to equivalent features in other genomes (if any - depends on the annotation)</li>
+    <li>associated data are also displayed in tabular form in the <a href="featuredetail">Feature details</a> view</li>
     </ul></li>
   <li>click on a feature to select it
    <ul>
     <li>shift-click to toggle</li>
    </ul></li>
   <li>drag immediately beneath the stripe’s background to zoom in to that region</li>
+  <li>backgrounds are colored to indicate rearrangements. Pink segments are inverted relative to the selected reference genome, and yellow segments are translocated.</li>
   </ul></li>
 </ul>
      </td></tr>
 </table>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="example"></a>Are there any sample queries?</h3>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
