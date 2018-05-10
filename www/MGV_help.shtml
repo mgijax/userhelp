@@ -128,7 +128,7 @@ function openHelpWindow(helpFile){
  <tr><th><a id="findgenes"></a>Find genes</th>
   <td>Searches for canonical genes (genome features with MGI IDs) annotated to specified GO (Gene Ontology functional annotations), MP (Mammalian Phenotypes), or DO (Disease Ontology) terms. You have four search options available from the toggle: 
  <table>
-  <tr><th>Toggle Name</th><th>Search Terms</th><th>Find official terms and IDs</th></tr>
+  <tr><th>Toggle Name</th><th>Search Terms</th><th>Find Terms and IDs</th></tr>
   <tr><td>symbol/ID</td><td>gene symbols and MGI IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a></td></tr>
   <tr><td>cellular function</td><td>Gene Ontology (GO) terms and GO IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->vocab/gene_ontology" target="_blank">Gene Ontology Browser</a></td></tr>
   <tr><td>mutant phenotype</td><td>Mammalian Phenotype (MP) terms and MP IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype Browser</a></td></tr>
@@ -151,7 +151,7 @@ function openHelpWindow(helpFile){
      <li>At the bottom of the My lists box are 4 buttons:
      <ul>
       <li>a warning about the current status (experimental) of list persistence</li>
-      <li>a button to create a new list from the current selections in the Zoom View</li>
+      <li>a button to create a new list from the current selections in the <a href="#zoom">Zoom view</a></li>
       <li>a button to open the list formula editor</li>
       <li>a button to delete all lists (gets confirmation first)</ul></li>
      </ul>
@@ -168,7 +168,7 @@ function openHelpWindow(helpFile){
      <li>to create a new list from scratch:
      <ul>
       <li>open the editor and clear the form if necessary (see “Clear form” button)</li>
-      <li>type/paste your IDs in the IDs box. Right now, only MGI ids. They can be separated by commas, whitespace, or pipes.</li>
+      <li>type/paste your IDs in the IDs box. Right now, only MGI IDs. They can be separated by commas, whitespace, or pipes.</li>
       <li>enter a list name</li>
       <li>click “New list”</li>
       </ul></li>
@@ -193,7 +193,17 @@ function openHelpWindow(helpFile){
      </ul></li>
     </ul>
      </td></tr>
- <tr><th><a id="hasid"></a>Has MGI ID?</th><td>***</td></tr>
+ <tr><th><a id="hasid"></a>Has MGI ID?</th>
+     <td>
+     <ul>
+      <li>Three radio buttons with values Yes/No/Don’t care
+       <ul>
+        <li>yes (no) shows only those features that have (do not have) an MGI ID</li>
+        <li>don’t care imposes no constraint on MGI ID and shows all IDs.</li>
+        <li>Note: the Sanger Mouse Genomes Project creates MGP IDs for genome features that lack MGI IDs. These are usually features that are not annotated to the C57BL/6J reference genome.</li>
+       </ul></li>
+     </ul>
+     </td></tr>
  <tr><th><a id="highlight"></a>Is highlighted?</th><td>***</td></tr>
  <tr><th><a id="genomeview"></a>Genome view</th>
      <td><ul>
