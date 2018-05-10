@@ -84,9 +84,9 @@ function openHelpWindow(helpFile){
  <li>Each box has a name, an open/close button (small triangle), and a drag handle (three parallel lines, &#9776;) in the upper right. Use the up/down arrows to expand (&#9660;) and collapse (&#9650;) the boxes. 
   <ul>
    <li>When “open”, a box displays a “full” view</li>
-   <li>When “closed”, a box displays a “contracted” view (which may simply be a label)
+   <li>When “closed”, a box displays a “contracted” view which may simply be a label
    </ul></li>
- <li>Boxes can be reordered within their columns via dragging by the handle icon (&#9776;)</li>
+ <li>Boxes can be reordered within their columns by dragging by the handle icon (&#9776;)</li>
  <li>The open/closed state and the ordering of boxes is remembered</li>
  <li>Navigation is integrated with browser history
   <ul>
@@ -109,19 +109,19 @@ function openHelpWindow(helpFile){
  <tr><th><a id="refgenome"></a>Reference genome</th>
   <td>Select one genome to be the reference. The reference genome:
   <ul>
-   <li>is shown in the <a href="#genomeview">Genome view</a></li>
-   <li>is the stripe in the <a href="#zoom">Zoom view</a> with the blue tag at the left end</li>
+   <li>is shown in the <a href="#genomeview">Genome view</a>, the top section of the main body of the page</li>
+   <li>is marked in the <a href="#zoom">Zoom view</a> with a blue bar at the left end</li>
    <li>defines the coordinate system in which genome coordinates are interpreted</li>
    <li>defines the coordinate transformations to any given Comparison genome</li>
   </ul>
   </td>
  </tr>
  <tr><th><a id="compgenomes"></a>Comparison genomes</th>
-  <td>Select zero or more genomes to display alongside the reference in the Zoom View
+  <td>Select zero or more genomes to display along with the reference genome in the <a href="#zoom">Zoom view</a>
   <ul>
-   <li>Click an item to select that and unselect all others</li>
+   <li>Click a strain to select it and unselect all others</li>
    <li>Shift-click to select a range</li>
-   <li>Command (&#8984;)-click on a Mac, or control-click on a PC, to toggle individual strains</li>
+   <li>Command (&#8984;)-click on a Mac, or control-click on a PC, to select individual strains</li>
    <li>Hint: to unselect all comparison genomes, click on any one, then command-click it</li>
    </ul>
   </td></tr>
@@ -144,7 +144,7 @@ function openHelpWindow(helpFile){
       <li>Click on a list to make it the “current” list
       <ul>
       <li>the <a href="#genomeview">Genome view</a> displays glyphs where those features exist in the current reference genome</li>
-      <li>Note: a given feature may or may not exist in a given genome, either because of real biology or because the annotations are incomplete. In any case, you may see fewer glyphs in the Genome View than there are IDs in the list.
+      <li>Note: a given feature may or may not exist in a given genome, either because of real biology or because the annotations are incomplete. In any case, you may see fewer glyphs in the Genome view than there are IDs in the list.
       </ul></li>
      <li>Click on the circled-x next to a list to delete it</li>
      <li>Click on the pencil next to a list to open it in the “List editor”</li>
@@ -221,11 +221,11 @@ function openHelpWindow(helpFile){
  <tr><th><a id="featuredetail"></a>Feature details</th>
      <td>
      <ul>
-      <li>Displays the currently moused-over feature (from the <a href="#zoom">Zoom view</a>) and its genologs from the currently selected genomes (A row of “.”s means no genolog in that genome.)
+      <li>Displays the currently moused-over feature (from the <a href="#zoom">Zoom view</a>) and its equivalent features from the currently selected genomes (A row of “.”s means no <!--genolog-->equivalent feature in that genome.)
        <ul>
-        <li>the moused-over genolog row is also highlighted</li>
+        <li>the moused-over equivalent feature row is also highlighted</li>
        </ul></li>
-      <li>Mousing over a row in the Feature details table causes that genolog to pulsate in the Zoom view
+      <li>Mousing over a row in the Feature details table causes that equivalent feature to pulsate in the Zoom view
      <ul>
       <li>Hint: in the Zoom view you can temporarily turn off the mouseover-highlighting by holding down the shift key as you move the mouse
      </ul></li>
