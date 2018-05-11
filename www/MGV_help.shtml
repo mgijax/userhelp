@@ -136,7 +136,7 @@ function openHelpWindow(helpFile){
   <tr><td>mutant phenotype</td><td>Mammalian Phenotype (MP) terms and MP IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype Browser</a></td></tr>
   <tr><td>disease implication</td><td>Human Disease Ontology (DO) terms and DO IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->disease" target="_blank">Disease Ontology Browser</a></td></tr>
  </table>
- Enter one or more search terms/IDs separated by commas, whitespace, or pipes, and either tab out of the field or use your keyboard's return/enter key to launch the search. Genes matching or annotated to your search terms will show up as a list in the <a href="#mylists">My lists</a> box. Searches are case insensitive.   
+ Enter one or more search terms/IDs separated by commas, and either tab out of the field or use your keyboard's return/enter key to launch the search. Genes matching or annotated to your search terms will show up as a list in the <a href="#mylists">My lists</a> box. Searches are case insensitive.   
   </td>
  </tr>
  <tr><th><a id="mylists"></a>My lists</th>
@@ -241,23 +241,24 @@ function openHelpWindow(helpFile){
      <ul>
       <li>Hint: in the Zoom view you can temporarily turn off the mouseover-highlighting by holding down the shift key as you move the mouse
      </ul></li>
+     <li>Displays the Genome (inbred strain), MGP ID (Mouse Genomes Project ID; for the reference, C57BL/6J strain, this is an Ensembl ID), Type (feature type), BioType (subtype), Coords (chromosome, genome coordinates and strand), Length (in bp), MGI ID (linked the the MGI Detail page), and MGI Symbol (official nomenclature).</li>
 </ul></tr>
  <tr><th><a id="zoom"></a>Zoom view</th>
      <td>
      <ul>
-     <li>shows the current region of focus
+     <li>Shows the current region of focus
      <ul>
       <li>the reference genome and the displayed chromosome and start..end coordinates</li>
       <li>plus, for each comparison genome, the genome fragment(s) this maps to. Note: in the comparison genomes, chromosomal regions that include a part of a different chromsome from the reference chromosome will be marked by a vertical blue line with the chromosome number beneath it.</li>
       <li>in the closed state, the zoom view display just the reference genome’s stripe</li>
      </ul></li>
-    <li>each genome is displayed in a “stripe”
+    <li>Each genome is displayed in a “stripe”
     <ul>
      <li>the reference genome has a blue bar at the left end</li>
      <li>comparison genomes have a gray bar</li>
     </ul></li>
-    <li>you can reorder the genomes by dragging (up or down) on the blue or gray bar </li>
-    <li>controls at the top of the Zoom view:
+    <li>You can reorder the genomes by dragging (up or down) on the blue or gray bar </li>
+    <li>Controls at the top of the Zoom view:
      <ul>
       <li>Linkout menu
        <ul>
@@ -284,7 +285,7 @@ function openHelpWindow(helpFile){
       <li>Four buttons: Pan left a lot, Pan left, Pan right, Pan right a lot</li>
 	 </ul></li>
 	 </ul></li>
-   <li>within a given stripe (i.e., genome):
+   <li>Within a given stripe (i.e., genome):
    <ul>
     <li>mouse over a feature to see its details
     <ul>
@@ -307,10 +308,20 @@ function openHelpWindow(helpFile){
 
 <h3><a id="inversions"></a>Why are some regions of my comparison genomes shaded in pink?</h3>
 
-<p>Pink shaded regions are <a href="<!--#include file='include/fewi_url.html'-->glossary/inversion">inverted</a> compared to your selected reference genome. Yellow shaded regions are <a href="<!--#include file='include/fewi_url.html'-->glossary/translocation">translocations</a> and chromosomal regions that include a part of a different chromsome from the reference chromosome will be marked by a vertical blue line with the chromosome number beneath it.</p>
+<p>Pink shaded regions are <a href="<!--#include file='include/fewi_url.html'-->glossary/inversion" target="_blank">inverted</a> compared to your selected reference genome. Yellow shaded regions are <a href="<!--#include file='include/fewi_url.html'-->glossary/translocation" target="_blank">translocations</a>. Chromosomal regions that include a part of a different chromsome from the reference chromosome will be marked by a vertical blue line with the chromosome number beneath it.</p>
 <p>These regions are also marked by their colored stripe in the <a href="#genomeview">Genome view</a> when you click on a comparison genome in the <a href="#zoom">Zoom view</a>. The Genome view will show the reference genome chromosomes with colored stripes (red/pink, yellow and blue).</p>
 
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
 <h3><a id="example"></a>Are there any sample queries?</h3>
+
+<ol>
+ <li>Select C57BL/6J as the Reference genome.</li>
+ <li>Shift-click to select the Comparison genomes: AKR/J, BALB/cJ and C3H/HeJ.</li>
+ <li>Command (&#8984;)-click on a Mac, or control-click on a PC, to select CAST/EiJ.</li>
+ <li>In the Find genes box, with the default search, &hellip;by symbol/ID, enter: Shank3, App, Apoe and hit your keyboard's return/enter key</li>
+ <li>The 3 gene symbols will appear in the My lists box, with the number of items indicated. The 3 genes will also be represented in the Genome view section with each gene represented by a pink dot. In the Genome view, drag your cursor over the region of Chromosome 7 around its pink dot.</li>
+</ol> 
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
