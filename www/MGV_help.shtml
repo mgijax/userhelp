@@ -134,22 +134,22 @@ function openHelpWindow(helpFile){
   <tr><td>symbol/ID</td><td>gene symbols and MGI IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a></td></tr>
   <tr><td>cellular function</td><td>Gene Ontology (GO) terms and GO IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->vocab/gene_ontology" target="_blank">Gene Ontology Browser</a></td></tr>
   <tr><td>mutant phenotype</td><td>Mammalian Phenotype (MP) terms and MP IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype Browser</a></td></tr>
-  <tr><td>disease implication</td><td>human Disease Ontology (DO) terms and DO IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->disease" target="_blank">Disease Ontology Browser</a></td></tr>
+  <tr><td>disease implication</td><td>Human Disease Ontology (DO) terms and DO IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->disease" target="_blank">Disease Ontology Browser</a></td></tr>
  </table>
- Enter one or more search terms/IDs separated by commas and either tab out of the field or use your keyboard's return/enter key to launch the search. Genes matching or annotated to your search terms will show up as a list in the <a href="#mylists">My lists</a> box. Searches are case insensitive.   
+ Enter one or more search terms/IDs separated by commas, whitespace, or pipes, and either tab out of the field or use your keyboard's return/enter key to launch the search. Genes matching or annotated to your search terms will show up as a list in the <a href="#mylists">My lists</a> box. Searches are case insensitive.   
   </td>
  </tr>
  <tr><th><a id="mylists"></a>My lists</th>
      <td>
      <ul>
-      <li>Shows all your saved lists of IDs (<a href="#findgenes">Find genes</a> searches) in a scrolling box Lists are sorted alphabetically.</li>
-      <li>Click on a list to make it the “current” list
+      <li>Shows all your saved lists of IDs (<a href="#findgenes">Find genes</a> searches) in a scrolling box. Lists are sorted alphabetically.</li>
+      <li>Click on a list to make it the “active” list.
       <ul>
-      <li>the <a href="#genomeview">Genome view</a> displays glyphs (pink dots) where those features exist in the current reference genome</li>
+      <li>the <a href="#genomeview">Genome view</a> displays glyphs (pink dots) where those features exist in the selected reference genome.</li>
       <li>Note: a given feature may or may not exist in a given genome, either because of real biology or because the annotations are incomplete. In any case, you may see fewer glyphs in the Genome view than there are IDs in the list.
       </ul></li>
-     <li>Click on the circled-x next to a list to delete delete the list.</li>
-     <li>Click on the pencil next to a list to open it in the “<a href="#listed">List editor</a>” to make changes to the list.</li>
+     <li>Click on the circled-x next to a list to delete the list.</li>
+     <li>Click on the pencil icon next to a list to open it in the <a href="#listed">List editor</a> to make changes to the list.</li>
      <li>At the bottom of the My lists box are 4 buttons, left to right:
      <ul>
       <li>a warning about the current status (experimental) of list persistence</li>
@@ -167,19 +167,19 @@ function openHelpWindow(helpFile){
       <li>create new lists from scratch (i.e., by entering IDs)</li>
       <li>create new lists by combining other lists
       </ul></li>
-     <li>to create a new list from scratch:
+     <li>To create a new list from scratch:
      <ul>
       <li>open the editor and clear the form if necessary (a “Clear form” button is in the bottom section of the List editor box)</li>
       <li>type/paste your IDs in the IDs box. Currently, only MGI IDs are supported. They can be separated by commas, whitespace, or pipes.</li>
       <li>enter a list name</li>
       <li>click “New list”</li>
       </ul></li>
-     <li>to edit a saved list:
+     <li>To edit a saved list:
      <ul>
       <li>in the “<a href="#mylists">My lists</a>” section, click on the pencil next to the list, this opens the List editor and loads the list</li>
-      <li>click “Save updates”</li>
+      <li>make your changes and then click “Save updates”</li>
       </ul></li>
-     <li>to create a list by combining others:
+     <li>To create a list by combining others:
      <ul>
      <li>***kind of involved. Need to work on this…</ul></li>
     </ul>
@@ -248,7 +248,7 @@ function openHelpWindow(helpFile){
      <li>shows the current region of focus
      <ul>
       <li>the reference genome and the displayed chromosome and start..end coordinates</li>
-      <li>plus, for each comparison genome, the genome fragment(s) this maps to. Note: in the comparison genomes, chromosomal regions that are different from the reference chromosome will be marked by a vertical blue line with the chromosome number beneath it.</li>
+      <li>plus, for each comparison genome, the genome fragment(s) this maps to. Note: in the comparison genomes, chromosomal regions that include a part of a different chromsome from the reference chromosome will be marked by a vertical blue line with the chromosome number beneath it.</li>
       <li>in the closed state, the zoom view display just the reference genome’s stripe</li>
      </ul></li>
     <li>each genome is displayed in a “stripe”
@@ -307,7 +307,8 @@ function openHelpWindow(helpFile){
 
 <h3><a id="inversions"></a>Why are some regions of my comparison genomes shaded in pink?</h3>
 
-<p>***</p>
+<p>Pink shaded regions are <a href="<!--#include file='include/fewi_url.html'-->glossary/inversion">inverted</a> compared to your selected reference genome. Yellow shaded regions are <a href="<!--#include file='include/fewi_url.html'-->glossary/translocation">translocations</a> and chromosomal regions that include a part of a different chromsome from the reference chromosome will be marked by a vertical blue line with the chromosome number beneath it.</p>
+<p>These regions are also marked by their colored stripe in the <a href="#genomeview">Genome view</a> when you click on a comparison genome in the <a href="#zoom">Zoom view</a>. The Genome view will show the reference genome chromosomes with colored stripes (red/pink, yellow and blue).</p>
 
 <h3><a id="example"></a>Are there any sample queries?</h3>
 
