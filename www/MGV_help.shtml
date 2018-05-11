@@ -301,6 +301,7 @@ function openHelpWindow(helpFile){
     <li>shift-click to toggle</li>
    </ul></li>
   <li>drag immediately beneath the stripe’s background to zoom in to that region</li>
+  <li>For each strain, plus strand features are shown above the center line with minus strand features below.</li>
   <li>backgrounds are colored to indicate rearrangements. Pink segments are inverted relative to the selected reference genome, and yellow segments are translocated.</li>
   </ul></li>
 </ul>
@@ -318,18 +319,22 @@ function openHelpWindow(helpFile){
 
 <h3><a id="example"></a>Are there any sample queries?</h3>
 
+<p>The following example will help you get started using the Viewer.</p>
+
 <ol>
  <li>Select C57BL/6J as the Reference genome.</li>
  <li>Shift-click to select the Comparison genomes: AKR/J, BALB/cJ and C3H/HeJ.</li>
  <li>Command (&#8984;)-click on a Mac, or control-click on a PC, to select CAST/EiJ.</li>
  <li>In the Find genes box, toggle the default search, &hellip;by symbol/ID, to &hellip;by cellular function, and enter: GO:0008045 (the GO ID for motor neuron axon guidance) and hit your keyboard's return/enter key.</li>
  <li>The GO ID will appear in the My lists box, with the number of genes annotated to the term and its subterms indicated. The genes will also be represented in the <a href="#genomeview">Genome view</a> section with each gene represented by a pink dot. Mouse over a dot to see its gene symbol.</li>
+ <li>Click on one of the comparison strains in the <a href="#zoom">Zoom view</a> to view synteny blocks with the reference genome in the Genome view. Rearranged regions with respect to the reference genome are marked by colored lines in the Genome view.</li>
  <li>In the Genome view, drag your cursor over the region of Chromosome X above and below its pink dot.</li>
- <li>This will load this region into the <a href="#zoom">Zoom view</a> below. The <i>Plxna3</i> gene is marked in the Zoom view because it is a gene in your active My list, and connected by a line to the other strains. Mouse over any feature in the Zoom view to see its details in the <a href="featuredetail">Feature details</a> section just above the Zoom view.</li>
-<li>Click on one of the Magnifying glass icons with a + sign to zoom in</li>
+ <li>This will load this region into the Zoom view below. The <i>Plxna3</i> gene is marked in the Zoom view because it is a gene in your active My list, and connected by a line to the other strains. Mouse over any feature in the Zoom view to see its details in the <a href="featuredetail">Feature details</a> section just above the Zoom view.</li>
+<li>Click on one of the Magnifying glass icons with a + sign to zoom in.</li>
 <li>Notice that 2 comparison strains have a rearrangement involving Chromosome 5.</li>
 <li>Zoom in some more and then use the Pan icons to move <i>Plxna3</i> off your screen.</li>
 <li>To bring <i>Plxna3</i> back into view, to go to the Genome view section and drag the, now much smaller, blue selection you made earlier, back in line with the center of the pink dot on Chromosome X.</li>
+<li>If you have clicked on another feature, <i>Plxna3</i> may no longer be labeled. To find it, click on the GO ID again in the My lists box.</li>
 <li>Click on the Linkout menu (&#9776;) icon to the left of the C57BL/6J coords and select MGI SNPs to launch of search of MGI SNPs in this region for these strains.</li> 
 </ol> 
 
