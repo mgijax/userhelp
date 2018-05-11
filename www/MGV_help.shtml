@@ -46,6 +46,7 @@ function openHelpWindow(helpFile){
  <li><a href="#whatMGVpurpose">What is the purpose of the Multi Genome Viewer?</a></li>
  <li><a href="#allstrains">What inbred strains are included in the Viewer?</a></li>
  <li><a href="#sections">How do I use the different sections of the Viewer?</a></li>
+ <li><a href="#inversions">Why are some regions of my comparison genomes shaded in pink?</a></li>
  <li><a href="#example">Are there any sample queries?</a></li>
 </ul>
 
@@ -78,7 +79,7 @@ function openHelpWindow(helpFile){
 
 <h3><a id="sections"></a>How do I use the different sections of the Viewer?</h3>
 
-<p>In the page banner, click on the gear icon to open or close the left hand panel. The MGI logo links to the MGI Home Page and the <span style="font-weight: bold; color: #456B8D;">i</span> icon links to this help document.</p>
+<p>In the page banner, click on the gear icon to open or close the left hand panel. The MGI logo links to the MGI Home Page and the <span style="font-weight: bold; color: #352C96;">i</span> icon links to this help document.</p>
 
 <p>The main portion of the page is divided into boxes.</p>
 <ul>
@@ -303,6 +304,10 @@ function openHelpWindow(helpFile){
 </table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="inversions"></a>Why are some regions of my comparison genomes shaded in pink?</h3>
+
+<p>***</p>
 
 <h3><a id="example"></a>Are there any sample queries?</h3>
 
