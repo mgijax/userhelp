@@ -264,7 +264,7 @@ function openHelpWindow(helpFile){
       <ul>
        <li>Click on &#9776; to find options to export:
         <ul>
-        <li>MGI SNPs - links to MGI SNP report for SNP within the given region</li>
+        <li>MGI SNPs - links to MGI SNP report for SNPs within the given region</li>
         <li>MGI QTLs</li>
         <li>MGI JBrowse</li>
        </ul></li>
