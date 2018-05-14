@@ -298,7 +298,7 @@ function openHelpWindow(helpFile){
     </ul></li>
   <li>click on a feature to select it
    <ul>
-    <li>shift-click to toggle</li>
+    <li>shift-click to select multiple genes and view their equivalent features</li>
    </ul></li>
   <li>drag immediately beneath the stripe’s background to zoom in to that region</li>
   <li>For each strain, plus strand features are shown above the center line with minus strand features below.</li>
