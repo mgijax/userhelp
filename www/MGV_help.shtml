@@ -89,7 +89,7 @@ function openHelpWindow(helpFile){
    <li>When “closed”, a box displays a “contracted” view which may simply be a label
    </ul></li>
  <li>Boxes can be reordered within their columns by dragging by the handle icon (&#9776;)</li>
- <li>The open/closed state and the ordering of boxes is remembered</li>
+ <li>The open/closed state and the ordering of boxes is remembered buy your web browser</li>
  <li>Navigation is integrated with browser history
   <ul>
    <li>so you can use your browser's back and forward buttons</li>
@@ -114,7 +114,7 @@ function openHelpWindow(helpFile){
    <li>is shown in the <a href="#genomeview">Genome view</a>, the top section of the main body of the page</li>
    <li>is marked in the <a href="#zoom">Zoom view</a> with a blue bar at the left end</li>
    <li>defines the coordinate system in which genome coordinates are interpreted</li>
-   <li>defines the coordinate transformations to any given Comparison genome</li>
+   <li>defines the coordinate transformations to any given comparison genome</li>
   </ul>
   </td>
  </tr>
@@ -128,7 +128,7 @@ function openHelpWindow(helpFile){
    </ul>
   </td></tr>
  <tr><th><a id="findgenes"></a>Find genes</th>
-  <td>Searches for canonical genes (genome features with MGI IDs) by symbol or those genes annotated to specified Gene Ontology (GO functional annotations), Mammalian Phenotypes (MP), or Disease Ontology (DO) terms. You have four search options available from the toggle: 
+  <td>This box searches for canonical genes (genome features with MGI IDs) by symbol, or those genes annotated to specified Gene Ontology (GO functional annotations), Mammalian Phenotypes (MP), or Disease Ontology (DO) terms. You have four search options available from the toggle: 
  <table>
   <tr><th>Toggle Name</th><th>Search Terms</th><th>Find Terms and IDs</th></tr>
   <tr><td>symbol/ID</td><td>gene symbols and MGI IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a></td></tr>
@@ -154,7 +154,7 @@ function openHelpWindow(helpFile){
      <ul>
       <li>a warning about the current status (experimental) of list persistence</li>
       <li>a button to create a new list from the current selections in the <a href="#zoom">Zoom view</a></li>
-      <li>a button to open the list formula editor in the List editor.</li>
+      <li>a button to open the list formula editor in the List editor</li>
       <li>a button to delete all lists (asks for confirmation first)</ul></li>
      </ul>
     </td></tr>
@@ -249,7 +249,7 @@ function openHelpWindow(helpFile){
      <li>Shows the current region of focus
      <ul>
       <li>the reference genome and the displayed chromosome and start..end coordinates</li>
-      <li>plus, for each comparison genome, the genome fragment(s) this maps to. Note: in the comparison genomes, chromosomal regions that include a part of a different chromsome from the reference chromosome will be marked by a vertical blue line with the chromosome number beneath it.</li>
+      <li>plus, for each comparison genome, the genome fragment(s) this maps to. Note: in the comparison genomes, chromosomal regions that include a part of a different chromsome from the reference chromosome will be marked by a vertical blue line with the chromosome number beneath it</li>
       <li>in the closed state, the zoom view displays just the reference genome’s stripe</li>
      </ul></li>
     <li>Each genome is displayed in a “stripe”
