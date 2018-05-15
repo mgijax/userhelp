@@ -51,7 +51,8 @@ function openHelpWindow(helpFile){
 </ul>
 
 <h3><a id="whatMGVpurpose"></a>What is the purpose of the Multi Genome Viewer?</h3>
-<p>The Multi Genome Viewer allows you to compare chromosomal regions of the C57BL/6J reference genome and 18 other mouse inbred strains: 16 sequenced and annotated by the Wellcome Institute Sanger <a href="https://www.sanger.ac.uk/science/data/mouse-genomes-project">Mouse Genomes Project</a> and two wild-derived strains (CAROLI/EiJ and PAHARI/EiJ) <a href="https://genome.cshlp.org/content/early/2018/03/21/gr.234096.117">published</a> with Paul Flicek and Duncan Odom and others. The Viewer permits searches by genes and other genome features, genome coordinates, and function, phenotype and disease terms. Note that currently only the C57BL/6J annotation is “reference quality.”</p>
+<p>The Multi Genome Viewer allows you to compare chromosomal regions of the C57BL/6J reference genome and 18 other mouse inbred strains: 16 sequenced and annotated by the Wellcome Institute Sanger <a href="https://www.sanger.ac.uk/science/data/mouse-genomes-project">Mouse Genomes Project</a> and two wild-derived strains (CAROLI/EiJ and PAHARI/EiJ) <a href="https://genome.cshlp.org/content/early/2018/03/21/gr.234096.117">published</a> by Paul Flicek and Duncan Odom and others. The Viewer permits searches by genes and other genome features, genome coordinates, and function, phenotype and disease terms. All searches query for canonical genes in MGI's <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a>. 
+Note that currently only the C57BL/6J annotation is “reference quality.”</p>
 
 <h3><a id="allstrains"></a>What inbred strains are included in the Viewer?</h3>
 
@@ -88,19 +89,21 @@ function openHelpWindow(helpFile){
    <li>When “open”, a box displays a “full” view</li>
    <li>When “closed”, a box displays a “contracted” view which may simply be a label
    </ul></li>
- <li>Boxes can be reordered within their columns by dragging by the handle icon (&#9776;)</li>
- <li>The open/closed state and the ordering of boxes is remembered buy your web browser</li>
+ <li>Boxes can be reordered within their columns by dragging by the handle icon (&#9776;) up or down</li>
+ <li>The open/closed state and the ordering of boxes is remembered by your web browser</li>
  <li>Navigation is integrated with browser history
   <ul>
-   <li>so you can use your browser's back and forward buttons</li>
+   <li>you can use your browser's back and forward buttons</li>
    <li>you can bookmark at any point, email links to specific views, etc.</li>
   </ul></li>
  </ul>
  
-<p>Details for the specific boxes of the viewer are described in the table below.</p>
+<p>Details for the specific boxes of the viewer are described in the tables below for the <a href="#control">Control Boxes</a> in the left hand column and the <a href="#view">View Boxes</a> in the main section of the page.</p>
+
+<h4><a id="control"></a>Control Boxes</h4>
  
 <table class="nb">
-<tr><td><a href="#refgenome">Reference genome</a> | <a href="#compgenomes">Comparison genomes</a> | <a href="#findgenes">Find genes</a> | <a href="#mylists">My lists</a> | <a href="#listed">List editor</a> | <a href="#featuretype">Feature types</a> | <a href="#hasid">Has MGI ID?</a> | <a href="#highlight">Is highlighted?</a> | <a href="#genomeview">Genome view</a> | <a href="featuredetail">Feature details</a> | <a href="#zoom">Zoom view</a> </td>
+<tr><td><a href="#refgenome">Reference genome</a> | <a href="#compgenomes">Comparison genomes</a> | <a href="#findgenes">Find genes</a> | <a href="#mylists">My lists</a> | <a href="#listed">List editor</a> | <a href="#featuretype">Feature types</a> | <a href="#hasid">Has MGI ID?</a> | <a href="#highlight">Is highlighted?</a> </td>
 </tr>
 </table>
 
@@ -124,11 +127,11 @@ function openHelpWindow(helpFile){
    <li>Click a strain to select it and unselect all others</li>
    <li>Shift-click to select a range</li>
    <li>Command (&#8984;)-click on a Mac, or control-click on a PC, to select individual strains</li>
-   <li>Hint: to unselect all comparison genomes, click on any one, then command-click it</li>
+   <li>Hint: to unselect all comparison genomes, click on any one, then command/control-click it</li>
    </ul>
   </td></tr>
  <tr><th><a id="findgenes"></a>Find genes</th>
-  <td>This box searches for canonical genes (genome features with MGI IDs) by symbol, or those genes annotated to specified Gene Ontology (GO functional annotations), Mammalian Phenotypes (MP), or Disease Ontology (DO) terms. You have four search options available from the toggle: 
+  <td>This box searches for canonical genes (genome features with MGI IDs) by symbol, or those genes annotated to specified Gene Ontology (GO functional annotations), Mammalian Phenotypes (MP), or Disease Ontology (DO) terms. Genes matching or annotated to your search terms will show up as a list in the <a href="#mylists">My lists</a> box. You have four search options available from the toggle: 
  <table>
   <tr><th>Toggle Name</th><th>Search Terms</th><th>Find Terms and IDs</th></tr>
   <tr><td>symbol/ID</td><td>gene symbols and MGI IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a></td></tr>
@@ -136,7 +139,7 @@ function openHelpWindow(helpFile){
   <tr><td>mutant phenotype</td><td>Mammalian Phenotype (MP) terms and MP IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype Browser</a></td></tr>
   <tr><td>disease implication</td><td>Human Disease Ontology (DO) terms and DO IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->disease" target="_blank">Disease Ontology Browser</a></td></tr>
  </table>
- Enter one or more search terms/IDs separated by commas, and either tab out of the field or use your keyboard's return/enter key to launch the search. Genes matching or annotated to your search terms will show up as a list in the <a href="#mylists">My lists</a> box. Searches are case insensitive.   
+ Enter one or more search terms/IDs separated by commas, and either tab out of the field or use your keyboard's return/enter key to launch the search. Searches are case insensitive.   
   </td>
  </tr>
  <tr><th><a id="mylists"></a>My lists</th>
@@ -179,12 +182,12 @@ function openHelpWindow(helpFile){
       <li>in the “<a href="#mylists">My lists</a>” section, click on the pencil next to the list, this opens the List editor and loads the list</li>
       <li>make your changes and then click “Save updates”</li>
       </ul></li>
-     <li>To create a list by combining others:
+     <!-- <li>To create a list by combining others:
      <ul>
-     <li>***kind of involved. Need to work on this…</ul></li>
+     <li>***kind of involved. Need to work on this…</ul></li>-->
     </ul>
  </td></tr>
- <tr><th><a id="featuretype"></a>Feature types</th>
+ <tr><th><a id="featuretype"></a>Feature types (facet)</th>
      <td> 
      <ul>
      <li>Shows the different categories of feature types and the colors used to draw them in the <a href="#zoom">Zoom view</a></li>
@@ -195,7 +198,7 @@ function openHelpWindow(helpFile){
      </ul></li>
     </ul>
      </td></tr>
- <tr><th><a id="hasid"></a>Has MGI ID?</th>
+ <tr><th><a id="hasid"></a>Has MGI ID? (facet)</th>
      <td>
      <ul>
       <li>Three radio buttons with values Yes/No/Don’t care
@@ -206,7 +209,7 @@ function openHelpWindow(helpFile){
        </ul></li>
      </ul>
      </td></tr>
- <tr><th><a id="highlight"></a>Is highlighted?</th>
+ <tr><th><a id="highlight"></a>Is highlighted? (facet)</th>
      <td>
      <ul>
       <li>Three radio buttons with values Yes/No/Don’t care
@@ -216,12 +219,25 @@ function openHelpWindow(helpFile){
        </ul></li>
      </ul>
      </td></tr>
- <tr><th><a id="genomeview"></a>Genome view</th>
+</table>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h4><a id="view"></a>View Boxes</h4>
+ 
+<table class="nb">
+<tr><td><a href="#genomeview">Genome view</a> | <a href="featuredetail">Feature details</a> | <a href="#zoom">Zoom view</a></td>
+</tr>
+</table>
+
+<table>
+<tr><th><a id="genomeview"></a>Genome view</th>
      <td>This is the top section of the main body of the page. It: 
      <ul>
           <li>Displays the chromosomes from the currently selected reference genome
            <ul>
             <li>in the closed state, it only displays one chromosome, generally, the one displayed in the <a href="#zoom">Zoom view</a></li>
+            <li>when closed, you can drag to scroll along the chromosome
             </ul></li>
            <li>May show synteny blocks of the reference genome against one of the currently selected comparison genomes:
             <ul>
@@ -234,14 +250,14 @@ function openHelpWindow(helpFile){
      <td>
      <ul>
       <li>Displays the currently moused-over feature (from the <a href="#zoom">Zoom view</a>) and its equivalent features from the currently selected genomes (A row of “.”s means no <!--genolog-->equivalent feature in that genome.)
+      <li>Displays the Genome (inbred strain), MGP ID (Mouse Genomes Project ID; for the reference, C57BL/6J strain, this is an Ensembl ID), Type (feature type), BioType (subtype), Coords (chromosome, genome coordinates and strand), Length (in bp), MGI ID (linked the the MGI Detail page), and MGI Symbol (official nomenclature).
        <ul>
         <li>the moused-over equivalent feature row is also highlighted</li>
        </ul></li>
       <li>Mousing over a row in the Feature details table causes that equivalent feature to pulsate in the Zoom view
      <ul>
-      <li>Hint: in the Zoom view you can temporarily turn off the mouseover-highlighting by holding down the shift key as you move the mouse
+      <li>Hint: in the Zoom view you can temporarily turn off the mouseover-highlighting by holding down the control key as you move the mouse
      </ul></li>
-     <li>Displays the Genome (inbred strain), MGP ID (Mouse Genomes Project ID; for the reference, C57BL/6J strain, this is an Ensembl ID), Type (feature type), BioType (subtype), Coords (chromosome, genome coordinates and strand), Length (in bp), MGI ID (linked the the MGI Detail page), and MGI Symbol (official nomenclature).</li>
 </ul></tr>
  <tr><th><a id="zoom"></a>Zoom view</th>
      <td>
@@ -249,7 +265,7 @@ function openHelpWindow(helpFile){
      <li>Shows the current region of focus
      <ul>
       <li>the reference genome and the displayed chromosome and start..end coordinates</li>
-      <li>plus, for each comparison genome, the genome fragment(s) this maps to. Note: in the comparison genomes, chromosomal regions that include a part of a different chromsome from the reference chromosome will be marked by a vertical blue line with the chromosome number beneath it</li>
+      <li>plus, for each comparison genome, the genome fragment(s) this maps to. Note: in the comparison genomes, chromosomal regions that include a part of a different chromosome from the reference chromosome will be marked with the chromosome number beneath it</li>
       <li>in the closed state, the zoom view displays just the reference genome’s stripe</li>
      </ul></li>
     <li>Each genome is displayed in a “stripe”
@@ -299,8 +315,10 @@ function openHelpWindow(helpFile){
   <li>click on a feature to select it
    <ul>
     <li>shift-click to select multiple genes and view their equivalent features</li>
+    <li>hold down the option/alt key when mousing to select every feature you touch</li>
    </ul></li>
   <li>drag immediately beneath the stripe’s background to zoom in to that region</li>
+  <li>shift-drag to zoom out</li>
   <li>For each strain, plus strand features are shown above the center line with minus strand features below.</li>
   <li>backgrounds are colored to indicate rearrangements. Pink segments are inverted relative to the selected reference genome, and yellow segments are translocated.</li>
   </ul></li>
@@ -331,7 +349,7 @@ function openHelpWindow(helpFile){
  <li>In the Genome view, drag your cursor over the region of Chromosome X above and below its pink dot.</li>
  <li>This will load this region into the Zoom view below. The <i>Plxna3</i> gene is marked in the Zoom view because it is a gene in your active My list, and connected by a line to the other strains. Mouse over any feature in the Zoom view to see its details in the <a href="featuredetail">Feature details</a> section just above the Zoom view.</li>
 <li>Click on one of the Magnifying glass icons with a + sign to zoom in.</li>
-<li>Notice that 2 comparison strains have a rearrangement involving Chromosome 5.</li>
+<li>Notice that 2 comparison strains have a rearrangement involving Chromosome 5. Your screen may look something like <a href="http://proto.informatics.jax.org/prototypes/mgv/#ref=C57BL/6J&genomes=C57BL/6J+AKR/J+BALB/cJ+C3H/HeJ+CAST/EiJ&chr=X&start=73774008&end=74606985&highlight=MGI:2444521+MGI:95410+MGI:104327+MGI:3777564+MGI:3777569+MGI:99783+MGI:96170+MGI:99423+MGI:107684+MGI:106206+MGI:2179061+MGI:3777561+MGI:99612+MGI:1315203+MGI:99604+MGI:109160+MGI:1315205+MGI:1098269+MGI:107558+MGI:101776+MGI:101765+MGI:3777558+MGI:1915674+MGI:1914004+MGI:2179432+MGI:3777566+MGI:98277+MGI:1096347+MGI:109563+MGI:102673+MGI:107683+MGI:1313266+MGI:96174+MGI:107685+MGI:95296+MGI:103556">this.</a></li>
 <li>Zoom in some more and then use the Pan icons to move <i>Plxna3</i> off your screen.</li>
 <li>To bring <i>Plxna3</i> back into view, to go to the Genome view section and drag the, now much smaller, blue selection you made earlier, back in line with the center of the pink dot on Chromosome X.</li>
 <li>If you have clicked on another feature, <i>Plxna3</i> may no longer be labeled. To find it, click on the GO ID again in the My lists box.</li>
