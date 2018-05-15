@@ -51,7 +51,7 @@ function openHelpWindow(helpFile){
 </ul>
 
 <h3><a id="whatMGVpurpose"></a>What is the purpose of the Multi Genome Viewer?</h3>
-<p>The Multi Genome Viewer allows you to compare chromosomal regions of the C57BL/6J reference genome and 18 mouse inbred strains: 16 sequenced and annotated by the Wellcome Institute Sanger <a href="https://www.sanger.ac.uk/science/data/mouse-genomes-project">Mouse Genomes Project</a> and two wild-derived strains (CAROLI/EiJ and PAHARI/EiJ) <a href="https://genome.cshlp.org/content/early/2018/03/21/gr.234096.117">published</a> with Paul Flicek and Duncan Odom and others. The Viewer permits searches by genes and other genome features, genome coordinates, and function, phenotype and disease terms. Note that currently only the C57BL/6J annotation is “reference quality.”</p>
+<p>The Multi Genome Viewer allows you to compare chromosomal regions of the C57BL/6J reference genome and 18 other mouse inbred strains: 16 sequenced and annotated by the Wellcome Institute Sanger <a href="https://www.sanger.ac.uk/science/data/mouse-genomes-project">Mouse Genomes Project</a> and two wild-derived strains (CAROLI/EiJ and PAHARI/EiJ) <a href="https://genome.cshlp.org/content/early/2018/03/21/gr.234096.117">published</a> with Paul Flicek and Duncan Odom and others. The Viewer permits searches by genes and other genome features, genome coordinates, and function, phenotype and disease terms. Note that currently only the C57BL/6J annotation is “reference quality.”</p>
 
 <h3><a id="allstrains"></a>What inbred strains are included in the Viewer?</h3>
 
