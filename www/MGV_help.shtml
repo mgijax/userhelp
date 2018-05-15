@@ -231,6 +231,9 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
 </table>
 
 <table>
+<tr><th>Box</th> 
+	<th>Descriptions</th>
+ </tr>
 <tr><th><a id="genomeview"></a>Genome view</th>
      <td>This is the top section of the main body of the page. It: 
      <ul>
