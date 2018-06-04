@@ -1,0 +1,101 @@
+<!--#include file='include/templateHead.html'-->
+<title>
+  <!--#include file="include/mgiversion.html"-->
+MGI-Interpreting Gene Details</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+
+</style>
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+  Interpreting Gene Details
+ </span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+
+
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+    </tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+<!-- Body of User Help -->
+<a id="top"></a> 
+
+<p>This help document answers the following questions about the Strain Detail Report.
+<ul>
+<li><a href="#field">Which fields should show up on this report?</a></li>
+</ul>
+</p>
+
+<h3><a id="field"></a>Which fields should show up on this report?</h3>
+<p>Depending on data availability and the strain, this detail report contains information in some or all of the categories described in the table below. Some sections of the Detail Page initially display only a summary. Use the <i>Show All</i> buttons to expand the section to see more information and <i>Show Less</i> to collapse the view. Sections will be absent when we have no data of of that type.</p>
+
+<table class="nb">
+<tr><td><a href="#nomen">Nomenclature</a> | <a href="#markers">Associated Mutations, Markers, and QTL</a> | <a href="#imsr">Find Mice (IMSR)</a> | <a href="#diseases">Associated Diseases</a> | <a href="#references">References</a> </td>
+</tr>
+</table>
+<table>
+<tr><th>Section</th> 
+	<th>Descriptions</th>
+</tr>
+<tr><th><a id="nomen"></a>Nomenclature</th>
+	<td><table>
+		 <tr><th>Strain Name</th><td>The official name for the strain.</td></tr>
+		 <tr><th>Attributes</th><td>***</td></tr>
+		 <tr><th>MGI ID</th><td>***</td></tr>
+		 <tr><th>Synonyms</th><td>Abbreviations, common and unofficial names</td></tr>
+		 <tr><th>MPD</th><td>***</td></tr>
+		 <tr><th>MGV</th><td>***</td></tr>
+		 <tr><th>Other IDs</th><td>***</td></tr>
+		</table>
+	</td>
+<tr><th><a id="markers"></a>Associated Mutations, Markers, and QTL</th>
+	<td><table>
+		 <tr><th>Associated Mutations and Markers</th><td>***</td></tr>
+		 <tr><th>Associated QTL</th><td>***</td></tr>
+		</table>
+	</td>
+<tr><th><a id="imsr"></a>Find Mice (IMSR)</th>
+    <td><p>The <a href="http://www.findmice.org/index.jsp">IMSR</a> (International Mouse Strain Resource) is a searchable online database of mouse strains and stocks available worldwide. The IMSR provides links to the appropriate repositories, neither it, nor MGI, house any stocks. You can search the IMSR directly by clicking on the Find Mice (IMSR) link in the dark blue banner near the top of most MGI web pages. ***</p>
+       <table>
+		  <tr><th>IMSR</th><td>The repository ID for the stock, linked to its IMSR record</td></tr>
+		  <tr><th>Repository</th><td>The name of the repository holding the stock</td></tr>
+		  <tr><th>IMSR Strain</th><td>***</td></tr>
+		  <tr><th>Why Matched</th><td>***</td></tr>
+		</table>
+	</td>
+<tr><th><a id="diseases"></a>Associated Diseases</th>
+    <td><table>
+		  <tr><th>Human Diseases</th><td>Human diseases for which this strain is a model, linked to the MGI Disease Ontology Browser.</td></tr>
+		  <tr><th>Model</th><td>***</td></tr>
+		</table>
+	</td>
+<tr><th><a id="references"></a>References</th>
+    <td><table>
+		  <tr><th>Earliest</th><td>Details of the earliest reference, linked to its detail page.</td></tr>
+		  <tr><th>All</th><td>All the references for the strain, linked to a listing on the summary report page.</td></tr>
+		</table>
+	</td>
+</tr>
+</table>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<!--#include file='include/templateBlankBodyStop.html'--> 
