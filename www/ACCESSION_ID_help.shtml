@@ -99,7 +99,6 @@ function openHelpWindow(helpFile){
  <br>
 
 <dt><a id="sequencez"></a><b>Sequences</b></dt>
-  <dd>OTTMUSG00000015949  :    VEGA Gene Model</dd>
   <dd>ENSMUSG00000005672 :   Ensembl Gene Model</dd>
   <dd>14894 :  NCBI Gene Model</dd>
   <dd>NM_001122899 :  RefSeq</dd>
@@ -215,7 +214,6 @@ function openHelpWindow(helpFile){
 <tr><td>UniGene ID<td>4394</td><TD>Numeric</td></tr>
 <tr><td>UniProt<td>P6281</td><TD>Alphanumeric</td></tr>
 <tr><td>UniSTS<td>125993</td><TD>Numeric</td></tr>
-<tr><TD>VEGA ID</td><TD>OTTMUSG00000010935</td><td>Alphanumeric</td></TR>
 
 <TR><th colspan=4><a id="gene_classifications"></a>Gene Classifications</th></tr>
 <tr><td>Gene Ontology (GO) ID</td>
@@ -256,11 +254,6 @@ function openHelpWindow(helpFile){
   <TD>NM_09118</TD>
   <TD>Alphanumeric with underscore</td>
 </TR> 
- <tr>
- <TD>VEGA ID</td>
- <TD>OTTMUSG00000010935</td>
- <TD>Alphanumeric</td>
-   </TR>
 
 <TR><th colspan=4><a id="probes_clones"></a>Probes/Clones</th></tr>
  <tr><TD>Affymetrix tissue/probe ID</td> <td rowspan=8>Probes/Clones &amp; Sequences</td><TD>10379153<br>1424714_at<br>1451461_a_at</TD><TD>Numeric or alphanumeric with underscore(s)</td></TR>
@@ -348,11 +341,6 @@ function openHelpWindow(helpFile){
   <TD>125993</td>
   <TD>Numeric</td>
 </tr>
- <tr>
- <TD>VEGA ID</td>
- <TD>OTTMUSG00000015949<br> OTTMUST00000084765</td>
- <TD>Alphanumeric</td>
-  </TR>
 <TR><th>Gene trap IDs</th><td>Alleles &amp; Sequences</td><td>See <a href="genetrap_usecase_help.shtml#creator_table">Cell Line Creators and Accession IDs</a> for specific examples.
 </td><td>Alphanumeric, some with special characters (e.g., dash or underscore)</td></tr>
 </table>

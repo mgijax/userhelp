@@ -85,7 +85,7 @@ table { border-style: none; align: center
 			<th>&nbsp;</th><td>
 			<p><b>BioType Conflict</b>
 			<ul><li>When different annotation groups disagree as to the marker type (e.g., protein coding versus pseudogene), click <b>Biotype Conflict</b> to see details about the conflict.</li>
-	  			<li>Identifiers in the Gene ID column link to the database source of the annotation (i.e., VEGA, Ensembl, NCBI).</li>
+	  			<li>Identifiers in the Gene ID column link to the database source of the annotation (i.e., Ensembl, NCBI).</li>
 			</ul>
 			</p>
 			<p><b>Strain-Specific Marker</b>

@@ -86,7 +86,7 @@ function openHelpWindow(helpFile){
     <li>Mouse Developmental Anatomy Ontology</li>
     </ul>
   </li>
-  <li>accession IDs from MGI and other data resources (e.g., Entrez Gene, NCBI, Ensembl, VEGA, RefSeq) for many types of data objects
+  <li>accession IDs from MGI and other data resources (e.g., Entrez Gene, NCBI, Ensembl, RefSeq) for many types of data objects
    <ul>
     <li>genome features (e.g., gene, QTL, Heritable Phenotype Marker, miRNA gene)</li>
     <li>alleles</li>
