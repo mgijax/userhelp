@@ -60,7 +60,7 @@ table { border-style: none; align: center
 <p>Depending on data availability and the marker type, this detail report contains information in some or all of the categories described in the table below. Some sections of the Detail Page initially display only a summary. Use <img src="<!--#include file='include/webshare_url.html'-->images/rightArrow.gif"> to expand the section to see more information and <img src="<!--#include file='include/webshare_url.html'-->images/downArrow.gif"> to collapse the view. Sections will be absent when we have no data of of that type.</p>
 
 <p><table class="nb">
-<tr><td><a href="#summary">Summary</a> | <a href="#maps">Locations &amp; Maps</a> | <a href="#orthology">Homology</a> | <a href="#diseases">Human Diseases</a> | <a href="#alleles">Mutations, Alleles, And Phenotypes</a> | <a href="#GO_detail">Gene Ontology (GO) Classifications</a> | <a href="#expression_detail">Expression</a> | <a href="#interactions">Interactions</a> | <a href="#molecular_reagents">Molecular Reagents</a> | <a href="#other_database_links">Other Database Links</a> | <a href="#sequences">Sequences</a> | <a href="#polymorphisms">Polymorphisms</a> | <a href="#protein_domains_detail">Protein-related Information</a> | <a href="#references">References</a> | <a href="#other">Other Accession IDs</a></td>
+<tr><td><a href="#summary">Summary</a> | <a href="#maps">Genome Context &amp; Strain Distribution</a> | <a href="#orthology">Homology</a> | <a href="#diseases">Human Diseases</a> | <a href="#alleles">Mutations, Alleles, And Phenotypes</a> | <a href="#GO_detail">Gene Ontology (GO) Classifications</a> | <a href="#expression_detail">Expression</a> | <a href="#interactions">Interactions</a> | <a href="#molecular_reagents">Molecular Reagents</a> | <a href="#other_database_links">Other Database Links</a> | <a href="#sequences">Sequences</a> | <a href="#polymorphisms">Polymorphisms</a> | <a href="#protein_domains_detail">Protein-related Information</a> | <a href="#references">References</a> | <a href="#other">Other Accession IDs</a></td>
 </tr>
 </table>
 </p>
@@ -108,7 +108,7 @@ table { border-style: none; align: center
 			</tr>
 		</table>
 		</td>
-<tr><th><a id="maps"></a>Location &amp; Maps</th>
+<tr><th><a id="maps"></a>Genome Context &amp; Strain Distribution</th>
 	<td><table>
 		<tr><th>Sequence Map</th>
 			<td>Appears if coordinates are assigned and includes:
@@ -117,7 +117,7 @@ table { border-style: none; align: center
        <li>A thumbnail image link to the MGI Mouse Genome Browser display for the marker's coordinates. You can also click <b>MGI Mouse Genome Browser</b> for a full-page display.<br>
 <b>Note:</b>&nbsp;If the information you expect to see does not appear in the Mouse Genome Browser (or other browser) display, you may need to turn on (i.e., click) the viewing aides (i.e., tracks, features, maps) in the various displays.</li>
        <li>a Get FASTA button will download the genomic sequence based on the coordinates in the current build, GRCm38. You can also add an equal amount of flanking sequence to each end.</li>
-    	<li>External links to other genomic context displays (e.g., VEGA ContigView, Ensembl ContigView, UCSC Browser, NCBI Map Viewer)</li>
+    	<li>External links to other genomic context displays (e.g., Ensembl ContigView, UCSC Browser, NCBI Map Viewer)</li>
 		</ul>
 		</td>
 		</tr>
@@ -229,8 +229,8 @@ table { border-style: none; align: center
 <li>Link to the Mouse Sequence Summary Report for All sequences for your marker. This link appears if there is at least one sequence associated with a marker.</li>
 <li>If a marker is associated with RefSeq and/or UniProt sequences, the numbers of such associations appear, linked to separate Mouse Sequence Summary Reports for all sequences of those types.</li>
 <li>Links to <abbr title="Consensus CDS">CCDS</abbr> and UniGene</li>
-<li>Links to Gene Models at VEGA, Ensembl and NCBI</li>
-<li>Additionally, there may be links to the sequence evidence underlying gene predictions provided by NCBI, Ensembl, and VEGA.</li>
+<li>Links to Gene Models at Ensembl and NCBI</li>
+<li>Additionally, there may be links to the sequence evidence underlying gene predictions provided by NCBI and Ensembl.</li>
 </ul>
 </td>
 </tr>
@@ -240,7 +240,7 @@ table { border-style: none; align: center
 
 <UL CLASS="noindent">
 <li>the sequence ID (e.g., OTTMUSG00000009932)</li>
-<li>a link to the sequence provider (e.g., VEGA Gene Model)</li>
+<li>a link to the sequence provider (e.g., Ensembl Gene Model)</li>
 <li>a link to the MGI Sequence Detail page</li>
 <li>Length: the sequence length</li>
 <li>Strain/Species: the sequence strain (or species, if other than laboratory mouse)</li>
