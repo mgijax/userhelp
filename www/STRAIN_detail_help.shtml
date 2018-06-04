@@ -45,7 +45,7 @@ function openHelpWindow(helpFile){
 </p>
 
 <h3><a id="field"></a>Which fields should show up on this report?</h3>
-<p>Depending on data availability and the strain, this detail report contains information in some or all of the categories described in the table below. Some sections of the Detail Page initially display only a summary. Use the <i>Show All</i> buttons to expand the section to see more information and <i>Show Less</i> to collapse the view. Sections will be absent when we have no data of of that type.</p>
+<p>Depending on data availability and the strain, this detail report contains information in some or all of the categories described in the table below. Some sections of the Detail Page initially display only a summary. Use the <i>Show All</i> button to expand a section to see more information and <i>Show Less</i> to collapse the view. Sections will be absent when we have no data of of that type.</p>
 
 <table class="nb">
 <tr><td><a href="#nomen">Nomenclature</a> | <a href="#markers">Associated Mutations, Markers, and QTL</a> | <a href="#imsr">Find Mice (IMSR)</a> | <a href="#diseases">Associated Diseases</a> | <a href="#references">References</a> </td>
@@ -61,9 +61,9 @@ function openHelpWindow(helpFile){
 		 <tr><th>Attributes</th><td>***</td></tr>
 		 <tr><th>MGI ID</th><td>***</td></tr>
 		 <tr><th>Synonyms</th><td>Abbreviations, common and unofficial names</td></tr>
-		 <tr><th>MPD</th><td>***</td></tr>
-		 <tr><th>MGV</th><td>***</td></tr>
-		 <tr><th>Other IDs</th><td>***</td></tr>
+		 <tr><th>MPD</th><td>A link to the strain page in the Mouse Phenome Database (<a href="https://phenome.jax.org">MPD</a>). The MPD strain page often has an image of the strain and links to all their studies that include the strain.</td></tr>
+		 <tr><th>MGV</th><td>A link to the MGI Multi Genome Viewer where you can compare chromosomal regions of the C57BL/6J reference genome and 18 other mouse inbred strains.</td></tr>
+		 <tr><th>Other IDs</th><td>Additional MGI IDs for the strain as well as repository and Mouse Phenome Database IDs.</td></tr>
 		</table>
 	</td>
 <tr><th><a id="markers"></a>Associated Mutations, Markers, and QTL</th>
