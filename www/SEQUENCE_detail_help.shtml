@@ -67,7 +67,7 @@ On the right is the provider's version number for the sequence. Sometimes this t
 
 <tr><th><a id="seq_description"></a>Sequence<BR>description<BR>from provider</th><td>Typically, this is the information contained in the <I>Definition</I> or <I>Description</I> field of the provider's sequence record. If this field is blank, the provider did not supply the information. For genome assembly sequences, the coordinates, the chromosome, and the build number appear.  The build number is from the most current NCBI assembly sequence.</td></tr>
 
-<tr><th><a id="provider"></a>Provider</th><td>Name of the sequence provider and sometimes the division (e.g., Rodent, High Throughput cDNA, High Throughput Genome, Patent, EST, STS, GSS) of origin. <I>This sequence has been deleted from the provider database</I> appears if the provider no longer has the sequence.</td></tr>
+<tr><th><a id="provider"></a>Provider</th><td>Name of the sequence provider and sometimes the division (e.g., Rodent, High Throughput cDNA, High Throughput Genome, Patent, <abbr title="Mouse Genomes Project">MGP</abbr>, EST, STS, GSS) of origin. <I>This sequence has been deleted from the provider database</I> appears if the provider no longer has the sequence.</td></tr>
 
 <tr><th><a id="sequence"></a>Sequence</th><td>Type and length of the sequence; amount of flanking sequence.
 <TABLE>
