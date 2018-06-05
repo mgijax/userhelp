@@ -50,6 +50,7 @@ function openHelpWindow(helpFile){
  	<ul>
  	  <li><a href="#markerz">Markers</a></li>
 	  <li><a href="#allelez">Alleles</a></li>
+	  <li><a href="strainz">Strains</</a></li>
  	  <li><a href="#vocab">Vocabulary </a></li>
  	  <li><a href="#sequencez">Sequences</a></li>
 	  <li><a href="#genetrapz">Gene Traps</a></li>
@@ -77,14 +78,17 @@ function openHelpWindow(helpFile){
   <dd>4394 :  Homologene</dd>
   <dd>MI0000248 :  miRBASE</dd>
   <dd>10094A-C10 : old name (for Vmn1r37) </dd>
-
+  
+<br>
  <dt><a id="allelez"></a><b>Alleles</b></dt>
-<DD>Apoe<sup>tm1Bres</sup> : Allele symbol
-<dd>Pax3<sup>tm1Buck</sup> : Allele synonym 
- <dd>MGI:1856798 :  Allele ID</dd>
+  <dd>MGI:1856798 :  Allele ID</dd>
   <dd>OST170322 :  Cell line ID (Lexicon Genetics)</dd>
   <dd>10094A-C10 :  Cell line ID (Regeneron-KOMP)</dd>
-<dd>EUCE0060g02.q1k5SPK : DNA Sequence for a gene-trapped allele</dd>
+  <dd>EUCE0060g02.q1k5SPK : DNA Sequence for a gene-trapped allele</dd>
+  
+<br>
+<dt><a id="strainz"></a><b>Strains</b></dt>
+<dd>MGI:3028467 :  C57BL/6J</dd>
 
 <br>
 <dt><a id="vocab"></a><b>Vocabulary</b></dt>
@@ -341,7 +345,9 @@ function openHelpWindow(helpFile){
   <TD>125993</td>
   <TD>Numeric</td>
 </tr>
-<TR><th>Gene trap IDs</th><td>Alleles &amp; Sequences</td><td>See <a href="genetrap_usecase_help.shtml#creator_table">Cell Line Creators and Accession IDs</a> for specific examples.
+<TR><<th colspan=4>Gene trap IDs</th></tr>
+<tr>
+<td>Alleles &amp; Sequences</td><td>See <a href="genetrap_usecase_help.shtml#creator_table">Cell Line Creators and Accession IDs</a> for specific examples.
 </td><td>Alphanumeric, some with special characters (e.g., dash or underscore)</td></tr>
 </table>
 
