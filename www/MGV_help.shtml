@@ -59,25 +59,25 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
 <table>
 <tr><th>Strain Name</th> 
 	<th>Strain ID</th>
-<tr><th>129S1/SvlmJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain">MGI:3037980</a></td></tr>
-<tr><th>A/J</th><td><a href="<!--#include file='include/fewi_url.html'-->strain">MGI:2159747</a></td></tr>
-<tr><th>AKR/J</th><td><a href="<!--#include file='include/fewi_url.html'-->strain">MGI:2159745</a></td></tr>
-<tr><th>BALB/cJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain">MGI:2159737</a></td></tr>
-<tr><th>C3H/HeJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain">MGI:2159741</a></td></tr>
-<tr><th>C57BL/6J</th><td><a href="<!--#include file='include/fewi_url.html'-->strain">MGI:3028467</a></td></tr>
-<tr><th>C57BL/6NJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain">MGI:3056279</a></td></tr>
-<tr><th>CAROLI/EiJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain">MGI:2165136</a></td></tr>
-<tr><th>CAST/EiJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain">MGI:2159793</a></td></tr>
-<tr><th>CBA/J</th><td><a href="<!--#include file='include/fewi_url.html'-->strain">MGI:2159756</a></td></tr>
-<tr><th>DBA/2J</th><td><a href="<!--#include file='include/fewi_url.html'-->strain">MGI:2684695</a></td></tr>
-<tr><th>FVB/NJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain">MGI:2163709</a></td></tr>
-<tr><th>LP/J</th><td><a href="<!--#include file='include/fewi_url.html'-->strain">MGI:2159761</a></td></tr>
-<tr><th>NOD/ShiLtJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain">MGI:2162056</a></td></tr>
-<tr><th>NZO/HltJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain">MGI:2173835</a></td></tr>
-<tr><th>PAHARI/EiJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain">MGI:2160743</a></td></tr>
-<tr><th>PWK/PhJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain">MGI:2160654</a></td></tr>
-<tr><th>SPRET/EiJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain">MGI:2160671</a></td></tr>
-<tr><th>WSB/EiJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain">MGI:2160667</a></td></tr>
+<tr><th>129S1/SvlmJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:3037980" target="_blank">MGI:3037980</a></td></tr>
+<tr><th>A/J</th><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2159747"  target="_blank">MGI:2159747</a></td></tr>
+<tr><th>AKR/J</th><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2159745"  target="_blank">MGI:2159745</a></td></tr>
+<tr><th>BALB/cJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2159737"  target="_blank">MGI:2159737</a></td></tr>
+<tr><th>C3H/HeJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2159741"  target="_blank">MGI:2159741</a></td></tr>
+<tr><th>C57BL/6J</th><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:3028467"  target="_blank">MGI:3028467</a></td></tr>
+<tr><th>C57BL/6NJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:3056279"  target="_blank">MGI:3056279</a></td></tr>
+<tr><th>CAROLI/EiJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2165136"  target="_blank">MGI:2165136</a></td></tr>
+<tr><th>CAST/EiJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2159793"  target="_blank">MGI:2159793</a></td></tr>
+<tr><th>CBA/J</th><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2159756"  target="_blank">MGI:2159756</a></td></tr>
+<tr><th>DBA/2J</th><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2684695"  target="_blank">MGI:2684695</a></td></tr>
+<tr><th>FVB/NJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2163709"  target="_blank">MGI:2163709</a></td></tr>
+<tr><th>LP/J</th><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2159761"  target="_blank">MGI:2159761</a></td></tr>
+<tr><th>NOD/ShiLtJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2162056"  target="_blank">MGI:2162056</a></td></tr>
+<tr><th>NZO/HltJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2173835"  target="_blank">MGI:2173835</a></td></tr>
+<tr><th>PAHARI/EiJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2160743"  target="_blank">MGI:2160743</a></td></tr>
+<tr><th>PWK/PhJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2160654"  target="_blank">MGI:2160654</a></td></tr>
+<tr><th>SPRET/EiJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2160671"  target="_blank">MGI:2160671</a></td></tr>
+<tr><th>WSB/EiJ</th><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2160667"  target="_blank">MGI:2160667</a></td></tr>
 </table>
 
 <h3><a id="sections"></a>How do I use the different sections of the Viewer?</h3>

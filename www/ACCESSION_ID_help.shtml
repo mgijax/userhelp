@@ -345,7 +345,7 @@ function openHelpWindow(helpFile){
   <TD>125993</td>
   <TD>Numeric</td>
 </tr>
-<TR><<th colspan=4>Gene trap IDs</th></tr>
+<TR><<th colspan=3>Gene trap IDs</th></tr>
 <tr>
 <td>Alleles &amp; Sequences</td><td>See <a href="genetrap_usecase_help.shtml#creator_table">Cell Line Creators and Accession IDs</a> for specific examples.
 </td><td>Alphanumeric, some with special characters (e.g., dash or underscore)</td></tr>
