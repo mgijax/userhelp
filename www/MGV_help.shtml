@@ -6,6 +6,8 @@
 
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 <script>
 function openHelpWindow(helpFile){
   helpUrl = "./" + helpFile;
@@ -84,12 +86,12 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
 
 <p>The main portion of the page is divided into boxes.</p>
 <ul>
- <li>Each box has a name, an open/close button (small triangle), and a drag handle (three parallel lines, &#9776;) in the upper right. Use the up/down arrows to expand (&#9660;) and collapse (&#9650;) the boxes. 
+ <li>Each box has a name, an open/close button (small triangle), and a drag handle (six dots, <i class="material-icons button draghandle"></i>) in the upper right. Use the up/down arrows to expand (&#9660;) and collapse (&#9650;) the boxes. 
   <ul>
    <li>When “open”, a box displays a “full” view</li>
    <li>When “closed”, a box displays a “contracted” view which may simply be a label
    </ul></li>
- <li>Boxes can be reordered within their columns by dragging by the handle icon (&#9776;) up or down</li>
+ <li>Boxes can be reordered within their columns by dragging by the handle icon (<i class="material-icons button draghandle"></i>) up or down</li>
  <li>The open/closed state and the ordering of boxes is remembered by your web browser</li>
  <li>Navigation is integrated with browser history
   <ul>
