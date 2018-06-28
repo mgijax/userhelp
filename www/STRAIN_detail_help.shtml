@@ -38,11 +38,16 @@ function openHelpWindow(helpFile){
 <!-- Body of User Help -->
 <a id="top"></a> 
 
-<p>This help document answers the following questions about the Strain Detail Report.
+<p>This help document answers the following questions about the Strain Detail Report.</p>
 <ul>
 <li><a href="#field">Which fields should show up on this report?</a></li>
 </ul>
-</p>
+
+<p>See also:</p>
+<ul>
+  <li><a href="<!--#include file='include/mgihome_url.html'-->nomen/strains.shtml target="_blank">Guidelines for Nomenclature of Mouse and Rat Strains</a></li>
+  <li><a href="<!--#include file='include/mgihome_url.html'-->nomen/strain_129.shtml target="_blank">Mouse Strain 129 Substrain Nomenclature</a></li>
+</ul>
 
 <h3><a id="field"></a>Which fields should show up on this report?</h3>
 <p>Depending on data availability and the strain, this detail report contains information in some or all of the categories described in the table below. Some sections of the Detail Page initially display only a summary. Use the <i>Show All</i> button to expand a section to see more information and <i>Show Less</i> to collapse the view. Sections will be absent when we have no data of of that type.</p>

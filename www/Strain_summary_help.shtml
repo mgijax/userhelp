@@ -28,11 +28,13 @@
  <li><a href="#content">What should the summary report contain?</a></li>
  <li><a href="#tabfile">How do I retrieve my results as tab-delimited text or spreadsheet files?</a></li>
 </ul>
-<p>See also:
+<p>See also:</p>
 <ul>
   <li><a href="STRAIN_detail_help.shtml" target="_blank">Interpreting the Strain Detail Report</a></li>
+  <li><a href="<!--#include file='include/mgihome_url.html'-->nomen/strains.shtml target="_blank">Guidelines for Nomenclature of Mouse and Rat Strains</a></li>
+  <li><a href="<!--#include file='include/mgihome_url.html'-->nomen/strain_129.shtml target="_blank">Mouse Strain 129 Substrain Nomenclature</a></li>
 </ul>
-</p>
+
 
 <h3><a id="content"></a>What should the summary report contain?</h3>
 
