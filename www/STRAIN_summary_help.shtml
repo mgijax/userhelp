@@ -55,3 +55,5 @@
 <p>Above the table of your search results, click on the Text File or Excel File icon. Your web browser will download a file of the results ***<!-- that remain after any filtering you may have performed-->.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<!--#include file='include/templateBlankBodyStop.html'-->
