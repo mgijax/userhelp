@@ -53,7 +53,7 @@ function openHelpWindow(helpFile){
 <p>Depending on data availability and the strain, this detail report contains information in some or all of the categories described in the table below. Some sections of the Detail Page initially display only a summary. Use the <i>Show All</i> button to expand a section to see more information and <i>Show Less</i> to collapse the view. Sections will be absent when we have no data of of that type.</p>
 
 <table class="nb">
-<tr><td><a href="#nomen">Nomenclature</a> | <a href="#markers">Associated Mutations, Markers, and QTL</a> | <a href="#imsr">Find Mice (IMSR)</a> | <a href="#diseases">Associated Diseases</a> | <a href="#references">References</a> </td>
+<tr><td><a href="#nomen">Nomenclature</a> | <a href="#markers">Associated Mutations, Markers, and QTL</a> | <a href="#imsr">Find Mice (IMSR)</a> | <a href="#diseases">Associated Diseases</a> | <a href="#phenotypes">Associated Phenotypes</a> |<a href="#references">References</a> </td>
 </tr>
 </table>
 <table>
@@ -69,6 +69,7 @@ function openHelpWindow(helpFile){
 		 <tr><th>MPD</th><td>A link to the strain page in the Mouse Phenome Database (<a href="https://phenome.jax.org">MPD</a>). The MPD strain page often has an image of the strain and links to all the studies that include the strain.</td></tr>
 		 <tr><th>MGV</th><td>A link to the MGI Multi Genome Viewer where you can compare chromosomal regions of the C57BL/6J reference genome and 18 other mouse inbred strains.</td></tr>
 		 <tr><th>Other IDs</th><td>Additional MGI IDs for the strain as well as repository ((e.g. <abbr title="JAX Mice and Services">JAX</abbr>, <abbr title="Mutant Mouse Regional Resource Centers">MMRRC</abbr>, <abbr title="Taconic Biosciences">TAC</abbr>)) and Mouse Phenome Database (MPD) IDs.</td></tr>
+		 <tr><th>Related Strains</th><td>Substrains &***</td></tr>
 		</table>
 	</td>
 <tr><th><a id="markers"></a>Associated Mutations, Markers, and QTL</th>
@@ -90,6 +91,11 @@ function openHelpWindow(helpFile){
     <td><table>
 		  <tr><th>Human Diseases</th><td>Human diseases for which this strain is a model, linked to the MGI Disease Ontology Browser.</td></tr>
 		  <tr><th>Model</th><td>***</td></tr>
+		</table>
+	</td>
+<tr><th><a id="phenotypes"></a>Associated Phenotypes</th>
+    <td><table>
+		  <tr><th>Phenotype Overview</th><td>*** displays the highest-level terms from the Mammalian Phenotype (MP) Ontology and uses blue cells to mark those with phenotypic annotations to genotypes with alleles of the gene. Some high-level terms such as normal phenotype, other phenotype, and no phenotypic analysis aren't represented in this Overview but annotations to those terms and their subterms will be displayed in the Phenotype Summaries and Allele Detail pages.</td></tr>
 		</table>
 	</td>
 <tr><th><a id="references"></a>References</th>
