@@ -46,8 +46,8 @@ function openHelpWindow(helpFile){
 <p>See also:</p>
 <ul>
   <li><a href="STRAIN_detail_help.shtml" target="_blank">Interpreting the Strain Detail Report</a></li>
-  <li><a href="<!--#include file='include/mgihome_url.html'-->nomen/strains.shtml target="_blank">Guidelines for Nomenclature of Mouse and Rat Strains</a></li>
-  <li><a href="<!--#include file='include/mgihome_url.html'-->nomen/strain_129.shtml target="_blank">Mouse Strain 129 Substrain Nomenclature</a></li>
+  <li><a href="<!--#include file='include/mgihome_url.html'-->nomen/strains.shtml" target="_blank">Guidelines for Nomenclature of Mouse and Rat Strains</a></li>
+  <li><a href="<!--#include file='include/mgihome_url.html'-->nomen/strain_129.shtml" target="_blank">Mouse Strain 129 Substrain Nomenclature</a></li>
 </ul>
 
 

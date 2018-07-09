@@ -45,8 +45,8 @@ function openHelpWindow(helpFile){
 
 <p>See also:</p>
 <ul>
-  <li><a href="<!--#include file='include/mgihome_url.html'-->nomen/strains.shtml target="_blank">Guidelines for Nomenclature of Mouse and Rat Strains</a></li>
-  <li><a href="<!--#include file='include/mgihome_url.html'-->nomen/strain_129.shtml target="_blank">Mouse Strain 129 Substrain Nomenclature</a></li>
+  <li><a href="<!--#include file='include/mgihome_url.html'-->nomen/strains.shtml" target="_blank">Guidelines for Nomenclature of Mouse and Rat Strains</a></li>
+  <li><a href="<!--#include file='include/mgihome_url.html'-->nomen/strain_129.shtml" target="_blank">Mouse Strain 129 Substrain Nomenclature</a></li>
 </ul>
 
 <h3><a id="field"></a>Which fields should show up on this report?</h3>
@@ -68,7 +68,7 @@ function openHelpWindow(helpFile){
 		 <tr><th>Synonyms</th><td>Abbreviations and common and unofficial names</td></tr>
 		 <tr><th>MPD</th><td>A link to the strain page in the Mouse Phenome Database (<a href="https://phenome.jax.org">MPD</a>). The MPD strain page often has an image of the strain and links to all the studies that include the strain.</td></tr>
 		 <tr><th>MGV</th><td>A link to the MGI Multi Genome Viewer where you can compare chromosomal regions of the C57BL/6J reference genome and 18 other mouse inbred strains.</td></tr>
-		 <tr><th>Other IDs</th><td>Additional MGI IDs for the strain as well as repository ((e.g. <abbr title="JAX Mice and Services">JAX</abbr>, <abbr title="Mutant Mouse Regional Resource Centers">MMRRC</abbr>, <abbr title="Taconic Biosciences">TAC</abbr>)) and Mouse Phenome Database (MPD) IDs.</td></tr>
+		 <tr><th>Other IDs</th><td>Additional MGI IDs for the strain as well as repository (e.g. <abbr title="JAX Mice and Services">JAX</abbr>, <abbr title="Mutant Mouse Regional Resource Centers">MMRRC</abbr>, <abbr title="Taconic Biosciences">TAC</abbr>) and Mouse Phenome Database (MPD) IDs.</td></tr>
 		 <tr><th>Related Strains</th><td>Substrains &***</td></tr>
 		</table>
 	</td>
@@ -83,7 +83,7 @@ function openHelpWindow(helpFile){
        <table>
 		  <tr><th>IMSR</th><td>The repository ID for the stock, linked to its IMSR record</td></tr>
 		  <tr><th>Repository</th><td>The abbreviation for the repository holding the stock</td></tr>
-		  <tr><th>IMSR Strain</th><td>The repository's name for the strain. This is not necessarily the official strain name. The repositories vary in their adherence to the <a href="<!--#include file='include/mgihome_url.html'-->nomen/strains.shtml target="_blank">Strain Nomenclature Guidelines</a>. </td></tr>
+		  <tr><th>IMSR Strain</th><td>The repository's name for the strain. This is not necessarily the official strain name. The repositories vary in their adherence to the <a href="<!--#include file='include/mgihome_url.html'-->nomen/strains.shtml" target="_blank">Strain Nomenclature Guidelines</a>. </td></tr>
 		  <tr><th>Why Matched</th><td>***</td></tr>
 		</table>
 	</td>
