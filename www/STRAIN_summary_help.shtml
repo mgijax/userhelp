@@ -1,4 +1,4 @@
-<<!--#include file='include/templateHead.html'-->
+<!--#include file='include/templateHead.html'-->
 <title>
   <!--#include file="include/mgiversion.html"-->
 MGI-Interpreting a Strain Summary</title>
@@ -41,6 +41,7 @@ function openHelpWindow(helpFile){
 <p>This Help document answers the following questions about the strain summary:</p>
 <ul>
  <li><a href="#content">What should the summary report contain?</a></li>
+ <li><a href="#strainfilter">How do I filter my results?</a></li>
  <li><a href="#tabfile">How do I retrieve my results as tab-delimited text or spreadsheet files?</a></li>
 </ul>
 <p>See also:</p>
@@ -66,8 +67,14 @@ function openHelpWindow(helpFile){
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
+<h3><a id="strainfilter"></a>How do I filter my results?</h3>
+
+<p>***You can filter results by Attribute. In the banner above your results, after Filter strains by:, click the desired box. This will reduce your results to only those containing the checked items.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
 <h3><a id="tabfile"></a>How do I retrieve my results as tab-delimited text or spreadsheet files?</h3>
-<p>Above the table of your search results, click on the Text File or Excel File icon. Your web browser will download a file of the results ***<!-- that remain after any filtering you may have performed-->.</p>
+<p>Above the table of your search results, click on the Text File or Excel File icon. Your web browser will download a file of the results that remain after any filtering you may have performed.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
