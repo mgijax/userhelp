@@ -61,7 +61,8 @@ function openHelpWindow(helpFile){
 
 <table>
 <tr><th>Attribute</th><th>Definition</th><th>Example</th></tr>
-<tr><td>chemically induced mutation</td><td>The exposure of mice to the chemical mutagens such as N-ethyl-N-nitrosourea (ENU), ethyl methanesulfonate (EMS), bleomycin, and chlorambucil, and resulting in germline transmissible mutations.</td><td>***</td></tr>
+<tr><td>chemically induced mutation</td><td>The exposure of mice to the chemical mutagens such as N-ethyl-N-nitrosourea (ENU), ethyl methanesulfonate (EMS), bleomycin, and chlorambucil, and resulting in germline transmissible mutations.</td><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:5085262">C57BL/6-Bach2<sup>m1Ccg</sup>/Mmucd </a>
+</td></tr>
 <tr><td>chromosome aberration</td><td>A chromosome rearrangement, or less commonly, an aneuploidy.</td><td>***</td></tr>
 <tr><td>closed colony</td><td>***</td><td>***</td></tr>
 <tr><td>coisogenic</td><td>A strain that differs from a particular inbred strain at only one locus. A coisogenic strain arises when a mutation occurs in an inbred strain.</td><td>***</td></tr>
@@ -99,7 +100,7 @@ function openHelpWindow(helpFile){
 <tr><td>transgenic</td><td>Random integration of foreign DNA into the genome results in a germline transmissible mutation.</td><td>***</td></tr>
 <tr><td>translocation</td><td>***</td><td>***</td></tr>
 <tr><td>transposition</td><td>A type of chromosome rearrangement in which a segment of a chromosome is moved to a different location on the same chromosome.</td><td>***</td></tr>
-<tr><td>trisomy</td><td>***</td><td>***</td></tr>
+<tr><td>trisomy</td><td>***</td><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2163627">B6EiC3Sn a/A-Ts(17<sup>16</sup>)65Dn/J</a></td></tr>
 <tr><td>variant allele</td><td>***</td><td>***</td></tr>
 <tr><td>wild</td><td>***</td><td>***</td></tr>
 <tr><td>wild-derived</td><td>***</td><td>***</td></tr>
