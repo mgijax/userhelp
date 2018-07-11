@@ -89,7 +89,7 @@ function openHelpWindow(helpFile){
 <tr><td>outbred stock</td><td>***</td><td>***</td></tr>
 <tr><td>QTL</td><td>Quantitative Trait Locus. A polymorphic locus has alleles that differentially affect the expression of a continuously distributed phenotypic trait. Usually, a QTL is a marker described by statistical association to quantitative variation in the particular phenotypic trait thought to be controlled by the cumulative action of alleles at multiple loci.</td><td>***</td></tr>
 <tr><td>radiation induced mutation</td><td>Exposure of mice to X-rays or other types of radiation results in germline transmissible mutations.</td><td>***</td></tr>
-<tr><td>recombinant congenic (RC)</td><td>Strain formed by crossing two inbred strains, followed by a few <a href="<!--#include file='include/fewi_url.html'-->glossary/backcross">backcrosses</a> to one of the parental strains, with subsequent inbreeding without selection.</td><td>***</td></tr>
+<tr><td><span style="white-space: nowrap">recombinant congenic (RC)</span></td><td>Strain formed by crossing two inbred strains, followed by a few <a href="<!--#include file='include/fewi_url.html'-->glossary/backcross">backcrosses</a> to one of the parental strains, with subsequent inbreeding without selection.</td><td>***</td></tr>
 <tr><td>recombinant inbred (RI)</td><td>Strain of mice started from a cross between two different inbred strains followed by inbreeding for at least 20 generations</td><td>***</td></tr>
 <tr><td>revertant</td><td>***</td><td>***</td></tr>
 <tr><td>Robertsonian</td><td>A particular type of translocation in which the breakpoints in the two chromosomes occur at or near the centromere, followed by centric fusion such that the long arms now form a metacentric chromosome with a single centromere</td><td>***</td></tr>
@@ -100,7 +100,7 @@ function openHelpWindow(helpFile){
 <tr><td>transgenic</td><td>Random integration of foreign DNA into the genome results in a germline transmissible mutation.</td><td>***</td></tr>
 <tr><td>translocation</td><td>***</td><td>***</td></tr>
 <tr><td>transposition</td><td>A type of chromosome rearrangement in which a segment of a chromosome is moved to a different location on the same chromosome.</td><td>***</td></tr>
-<tr><td>trisomy</td><td>***</td><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2163627">B6EiC3Sn a/A-Ts(17<sup>16</sup>)65Dn/J</a></td></tr>
+<tr><td>trisomy</td><td>***</td><td><span style="white-space: nowrap"><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2163627">B6EiC3Sn a/A-Ts(17<sup>16</sup>)65Dn/J</a></span></td></tr>
 <tr><td>variant allele</td><td>***</td><td>***</td></tr>
 <tr><td>wild</td><td>***</td><td>***</td></tr>
 <tr><td>wild-derived</td><td>***</td><td>***</td></tr>
