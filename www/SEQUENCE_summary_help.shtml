@@ -196,17 +196,14 @@ The detail record for that sequence as stored in MGI appears. See <a href="SEQUE
 <li>an MGI Gene Detail report containing more information about the marker.</li>
 </ul>
 
-<p>Depending on how you access this summary and your sort choices, some or all of the following fields and links appear:</p>
-<p>
 <table class="nb">
-<tr><td><a href="#select">Select</a> | <a href="#sequence">Sequence</a> | <a href="#version">Version</a> | 
-<a href="#type">Type</a> | <a href="#length">Length</a> | <a href="#desc">Description from sequence provider</a> | <a href="#strain">Strain</a> | <a href="#tissue">Tissue</a> | <a href="#library">Library</a> | <a href="#marker_symbol">Marker symbol</a> | <a href="#marker_name">Marker name</a> | <a href="#position">Map position</a> | <a href="#coord">Genome Coordinates</a></td></tr>
+<tr><td><a href="#select">Select</a> | <a href="#sequence">Sequence</a> | <!--<a href="#version">Version</a> | -->
+<a href="#type">Type</a> | <a href="#length">Length</a> | <a href="#strain">Strain</a> | <a href="#desc">Description From Sequence Provider</a> | <a href="#clone_collection">Clone Collection</a> | <!--<a href="#tissue">Tissue</a> | <a href="#library">Library</a> | --><a href="#marker_symbol">Marker symbol</a> <!--| <a href="#marker_name">Marker name</a> | <a href="#position">Map position</a> | <a href="#coord">Genome Coordinates</a>--> </td></tr>
 </table>
-</p>
 
 <table>
 <tr><th>Field</th><th>Description</th></tr>
-<tr><th><a id="select"></a>Select</th><td>Check boxes for selecting sequences for downloading, or forwarding.</td></tr>
+<tr><th><a id="select"></a>Select</th><td>Click the appropriate link to download the sequence in FASTA format or to forward it to NCBI <abbr title="Basic Local Alignment Search Tool">BLAST</abbr>.</td></tr>
 <tr><th><a id="sequence"></a>Sequence</th><td>
 <ul><li>Sequence identifier</li>
 <li>Name of the sequence provider, linked to the associated sequence in the provider's database.</li>
@@ -215,16 +212,15 @@ The detail record for that sequence as stored in MGI appears. See <a href="SEQUE
 <tr><th><a id="version"></a>Version</th><td>Number assigned by the provider to this update of the sequence information. If blank, the provider does not furnish this information.</td></tr>
 <tr><th><a id="type"></a>Type</th><td>Type of sequence: RNA, DNA, or polypeptide. <!--Sorting order is as follows:--></td></tr>
 <tr><th><a id="length"></a>Length</th><td>Length of the sequence, in base pairs (RNA, DNA) or amino acids (polypeptides).</td></tr>
-<tr><th><a id="desc"></a>Description from Sequence Provider</th><td>Information about the sequence from the provider you selected (RefSeq, GenBank, and so on.)</td></tr>
 <tr><th><a id="strain"></a>Strain/Species</th><td>Mouse strain (or species if other than laboratory mouse) from which the sequence was derived. If the strain/species cannot be resolved to an MGI controlled vocabulary a message to this effect appears, marked with an asterisk. See <a href="#resolved">What does it mean if a value cannot be resolved to an MGI controlled vocabulary?</a></td></tr>
-<tr><th><a id="tissue"></a>Source Tissue</th>
-<td>Mouse tissue from which the sequence was derived.</td></tr>
-<tr><th><a id="library"></a>Library</th><td>Mouse library from which the sequence was derived.</td></tr>
+<tr><th><a id="desc"></a>Description from Sequence Provider</th><td>Information about the sequence from the provider you selected (RefSeq, GenBank, and so on.)</td></tr>
+<!--<tr><th><a id="tissue"></a>Source Tissue</th><td>Mouse tissue from which the sequence was derived.</td></tr>
+<tr><th><a id="library"></a>Library</th><td>Mouse library from which the sequence was derived.</td></tr>-->
 <tr><th><a id="clone_collection"></a>Clone Collection</th><td>Name of clone collections from which the sequence was derived. (<b>Not Applicable</b> appears for RefSeq, UniProt, DFCI, DoTS,  NIA sequences)</td></tr>
 <tr><th><a id="marker_symbol"></a>Marker Symbol</th><td>Gene/marker symbol associated with the sequence(s), linked to the MGI Gene Detail report.</td></tr>
-<tr><th><a id="marker_name"></a>Marker Name</th><td>Name of the gene/marker associated with the sequence.</td></tr>
+<!--><tr><th><a id="marker_name"></a>Marker Name</th><td>Name of the gene/marker associated with the sequence.</td></tr>
 <tr><th><a id="position"></a>Map Position</th><td>Chromosome(s) and cM position(s) of the markers each sequence is associated with.</td></tr>
-<tr><th><a id="coord"></a>Genome Coordinates</th><td>Assembly sequence coordinates for the mapped gene/marker. Format is <i>Chromosome# (beginning coordinate - end coordinate)</i></td></tr>
+<tr><th><a id="coord"></a>Genome Coordinates</th><td>Assembly sequence coordinates for the mapped gene/marker. Format is <i>Chromosome# (beginning coordinate - end coordinate)</i></td></tr>-->
 </table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
