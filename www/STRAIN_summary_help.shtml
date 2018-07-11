@@ -60,7 +60,7 @@ function openHelpWindow(helpFile){
 <tr><th>Field</th><th>Description</th></tr>
 <tr><th>Official Strain Name</th><td>The official name for the strain uses nomenclature approved by the International Committee on Standardized Genetic Nomenclature for Mice.</td></tr>
 <tr><th>Synonyms</th><td>Abbreviations and common and unofficial names</td></tr>
-<tr><th>Attributes</th><td>Features attributed to the strain. These describe the type of strain (e.g., inbred, congenic, consomic, F1 hybrid), more general features of the strain (e.g., wild-derived, mutant), and categories associated with its alleles (e.g., transgenic, chemically induced mutation, spontaneous mutation, deletion). A strain may have multiple attributes.</td></tr>
+<tr><th>Attributes</th><td>Features attributed to the strain. These describe the type of strain (e.g., inbred, congenic, consomic, F1 hybrid), more general features of the strain (e.g., wild-derived, mutant), and categories associated with its alleles (e.g., transgenic, chemically induced mutation, spontaneous mutation, deletion). A strain may have multiple attributes. All the attributes are defined <a href="/STRAIN_search_help.shtml#attributes" target="_blank">here</a>.</td></tr>
 <tr><th>IDs</th><td>The MGI strain ID as well as repository and Mouse Phenome Database (MPD) IDs.</td></tr>
 <tr><th>References</th><td>All the references for the strain, linked to a listing on the summary report page.</td></tr>
 </table>

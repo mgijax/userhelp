@@ -42,9 +42,9 @@ function openHelpWindow(helpFile){
 
 <p>This help document answers the following questions:</p>
 <ul>
- <li><a href="#whatfind">What can I use the Recombinase (cre) Activity Search to find?</a>
-  <li><a href="#Rfields">What values are acceptable in each of the Recombinase Activity Search fields?</a></li>
- </ul>
+ <li><a href="#whatfind">What can I use the Recombinase (cre) Activity Search to find?</a></li>
+ <li><a href="#Rfields">What values are acceptable in each of the Recombinase Activity Search fields?</a></li>
+</ul>
  
 <p>See also:</p>
 <ul>
