@@ -62,7 +62,7 @@ function openHelpWindow(helpFile){
 </tr>
 <tr><th><a id="nomen"></a>Nomenclature</th>
 	<td><table>
-		 <tr><th>Strain Name</th><td>The official name for the strain, which uses nomenclature approved by the International Committee on Standardized Genetic Nomenclature for Mice.</td></tr>
+		 <tr><th>Strain Name</th><td>The official name for the strain, which uses nomenclature approved by the International Committee on Standardized Genetic Nomenclature for Mice. Strains that have yet to be reviewed and may not conform to nomenclature guidelines are noted as <span style="color: red">(interm)</span>.</td></tr>
 		 <tr><th>Attributes</th><td>Features attributed to the strain. These describe the type of strain (e.g., inbred, congenic, consomic, F1 hybrid), more general features of the strain (e.g., wild-derived, mutant), and categories associated with its alleles (e.g., transgenic, chemically induced mutation, spontaneous mutation, deletion). A strain may have multiple attributes. All the attributes are defined <a href="STRAIN_search_help.shtml#attributes" target="_blank">here</a>.</td></tr>
 		 <tr><th>MGI ID</th><td>The MGI strain accession identifier</td></tr>
 		 <tr><th>Synonyms</th><td>Abbreviations and common and unofficial names</td></tr>
