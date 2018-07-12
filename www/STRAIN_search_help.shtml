@@ -64,7 +64,7 @@ function openHelpWindow(helpFile){
 <tr><td>chemically induced mutation</td><td>The exposure of mice to the chemical mutagens such as N-ethyl-N-nitrosourea (ENU), ethyl methanesulfonate (EMS), bleomycin, and chlorambucil, and resulting in germline transmissible mutations.</td><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:5085262">C57BL/6-Bach2<sup>m1Ccg</sup>/Mmucd </a>
 </td></tr>
 <tr><td>chromosome aberration</td><td>A chromosome rearrangement, or less commonly, an aneuploidy.</td><td>***</td></tr>
-<tr><td>closed colony</td><td>***</td><td>***</td></tr>
+<tr><td>closed colony</td><td>A closed colony contains limited genetic diversity, and is maintained neither by sib-mating (inbred), nor by selective mating to maximize heterozygosity (outbred). All matings occur within the colony members, but breeders need not be selected from specific parentage. No animals are introduced into the colony from outside the stock from generation to generation.</td><td>***</td></tr>
 <tr><td>coisogenic</td><td>A strain that differs from a particular inbred strain at only one locus. A coisogenic strain arises when a mutation occurs in an inbred strain.</td><td>***</td></tr>
 <tr><td>congenic</td><td>An inbred strain of mouse that contains a small genetic region (ideally a single gene) from another strain, but which is otherwise identical to the original inbred strain. </td><td>***</td></tr>
 <tr><td>conplastic</td><td>Conplastic strains are developed by backcrossing the nuclear genome from one inbred strain into the cytoplasm of another, i.e. the mitochondrial parent is always the female parent during the backcrossing program. </td><td>***</td></tr>
@@ -83,10 +83,10 @@ function openHelpWindow(helpFile){
 <tr><td>inversion</td><td>A type of mutation in which a length of DNA is broken in two positions and repaired in such a way that the medial segment is now present in reverse order. Inversions range in size from those large enough to be visible cytogenetically to those involving only a few base pairs.</td><td>***</td></tr>
 <tr><td>major histocompatibility congenic</td><td>A congenic strain in which the donor allele transferred to the host strain background is a major histocompatibility gene.</td><td>***</td></tr>
 <tr><td>minor histocompatibility congenic</td><td>A congenic strain in which the donor allele transferred to the host strain background is a minor histocompatibility gene.</td><td>***</td></tr>
-<tr><td>*Mixed cross</td><td>***</td><td>***</td></tr>
+<tr><td>*Mixed cross</td><td>Incipient inbred stocks or inbred strains that are derived from up to three parental strains (one of which could be a gene-targeted ES cell line).</td><td>***</td></tr>
 <tr><td>non-inbred</td><td>***</td><td>***</td></tr>
 <tr><td>other</td><td>***</td><td>***</td></tr>
-<tr><td>outbred stock</td><td>***</td><td>***</td></tr>
+<tr><td>outbred stock</td><td>Outbred stocks are genetically undefined; that is, no two individuals from an outbred stock are the same. Outbreds are intentionally not bred with siblings or close relatives, as the purpose of an outbred stock is to maintain maximum heterozygosity.</td><td>***</td></tr>
 <tr><td>QTL</td><td>Quantitative Trait Locus. A polymorphic locus has alleles that differentially affect the expression of a continuously distributed phenotypic trait. Usually, a QTL is a marker described by statistical association to quantitative variation in the particular phenotypic trait thought to be controlled by the cumulative action of alleles at multiple loci.</td><td>***</td></tr>
 <tr><td>radiation induced mutation</td><td>Exposure of mice to X-rays or other types of radiation results in germline transmissible mutations.</td><td>***</td></tr>
 <tr><td><span style="white-space: nowrap">recombinant congenic (RC)</span></td><td>Strain formed by crossing two inbred strains, followed by a few <a href="<!--#include file='include/fewi_url.html'-->glossary/backcross">backcrosses</a> to one of the parental strains, with subsequent inbreeding without selection.</td><td>***</td></tr>
@@ -100,7 +100,7 @@ function openHelpWindow(helpFile){
 <tr><td>transgenic</td><td>Random integration of foreign DNA into the genome results in a germline transmissible mutation.</td><td>***</td></tr>
 <tr><td>translocation</td><td>***</td><td>***</td></tr>
 <tr><td>transposition</td><td>A type of chromosome rearrangement in which a segment of a chromosome is moved to a different location on the same chromosome.</td><td>***</td></tr>
-<tr><td>trisomy</td><td>***</td><td><span style="white-space: nowrap"><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2163627">B6EiC3Sn a/A-Ts(17<sup>16</sup>)65Dn/J</a></span></td></tr>
+<tr><td>trisomy</td><td>The condition of having three chromosomes of a particular type or 3 copies of a large portion of a chromosome.</td><td><a href="<!--#include file='include/fewi_url.html'-->strain/MGI:2163627"><span style="white-space: nowrap">B6EiC3Sn a/A-Ts(17<sup>16</sup>)65Dn/J</a></span></td></tr>
 <tr><td>variant allele</td><td>***</td><td>***</td></tr>
 <tr><td>wild</td><td>***</td><td>***</td></tr>
 <tr><td>wild-derived</td><td>***</td><td>***</td></tr>
