@@ -53,7 +53,7 @@ function openHelpWindow(helpFile){
 
 <h3><a id="whatfind"></a>What can I use the Strain Search to find?</h3>
 
-<p>***Beneath the query portion of the page, this page also provides some prepared queries for popular Strain Collections, such as the 8 founder inbred strains used for the Collaborative Cross (<a href="https://www.nature.com/articles/ng1104-1133">CC</a>) the Diversity Outcross (DO), and the Wellcome Sanger Institute's Mouse Genomes Project (<a href="https://www.sanger.ac.uk/science/data/mouse-genomes-project">MGP</a>) strains. 
+<p>***Beneath the query portion of the page, this page also provides some prepared queries for popular Strain Collections, such as the 8 founder inbred strains used for the Collaborative Cross (<a href="https://www.nature.com/articles/ng1104-1133" target="_blank">CC</a>) the Diversity Outcross (DO), and the Wellcome Sanger Institute's Mouse Genomes Project (<a href="https://www.sanger.ac.uk/science/data/mouse-genomes-project" target="_blank">MGP</a>) strains. 
 </p>
 
 <h3><a id="attributes"></a>What are the attribute definitions?</h3>
