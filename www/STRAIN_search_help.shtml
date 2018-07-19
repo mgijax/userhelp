@@ -83,7 +83,7 @@ function openHelpWindow(helpFile){
 <tr><td>inversion</td><td>A type of mutation in which a length of DNA is broken in two positions and repaired in such a way that the medial segment is now present in reverse order. Inversions range in size from those large enough to be visible cytogenetically to those involving only a few base pairs.</td><td>***</td></tr>
 <tr><td>major histocompatibility congenic</td><td>A congenic strain in which the donor allele transferred to the host strain background is a major histocompatibility gene.</td><td>***</td></tr>
 <tr><td>minor histocompatibility congenic</td><td>A congenic strain in which the donor allele transferred to the host strain background is a minor histocompatibility gene.</td><td>***</td></tr>
-<tr><td>*Mixed cross</td><td>Incipient inbred stocks or inbred strains that are derived from up to three parental strains (one of which could be a gene-targeted ES cell line).</td><td>***</td></tr>
+<tr><td>*Mixed cross</td><td>Incipient inbred stocks or inbred strains that are derived from up to three parental strains (one of which could be a gene-targeted ES cell line). These stocks should not be assumed to be inbred unless accompanied by an inbreeding generation number greater than or equal to F20.</td><td>***</td></tr>
 <tr><td>non-inbred</td><td>***</td><td>***</td></tr>
 <tr><td>other</td><td>***</td><td>***</td></tr>
 <tr><td>outbred stock</td><td>Stocks that are genetically undefined; that is, no two individuals from an outbred stock are the same. Outbreds are intentionally not bred with siblings or close relatives, as the purpose of an outbred stock is to maintain maximum heterozygosity.</td><td>***</td></tr>
