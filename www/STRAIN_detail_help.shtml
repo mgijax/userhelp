@@ -74,8 +74,8 @@ function openHelpWindow(helpFile){
 	</td>
 <tr><th><a id="markers"></a>Associated Mutations, Markers, and QTL</th>
 	<td><table>
-		 <tr><th>Associated Mutations and Markers</th><td>***</td></tr>
-		 <tr><th>Associated QTL</th><td>***</td></tr>
+		 <tr><th>Associated Mutations and Markers</th><td>Mutant alleles the strain is known to carry and their markers, linked to the MGI Allele and Marker Detail pages, respectively.</td></tr>
+		 <tr><th>Associated QTL</th><td>Quantitative Trait Loci associated with the strain, linked to QTL Variant and QTL Detail pages.</td></tr>
 		</table>
 	</td>
 <tr><th><a id="imsr"></a>Find Mice (IMSR)</th>
