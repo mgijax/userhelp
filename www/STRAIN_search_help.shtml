@@ -43,6 +43,7 @@ function openHelpWindow(helpFile){
 <ul>
  <li><a href="#whatfind">What can I use the Strain Search to find?</a></li>
  <li><a href="#attributes">What are the attribute definitions?</a></li>
+ <li><a href="#snpfilter">Can I filter my results?</a></li>
 </ul>
 
 <p>See also:</p>
@@ -53,7 +54,15 @@ function openHelpWindow(helpFile){
 
 <h3><a id="whatfind"></a>What can I use the Strain Search to find?</h3>
 
-<p>***Beneath the query portion of the page, this page also provides some prepared queries for popular Strain Collections, such as the 8 founder inbred strains used for the Collaborative Cross (<a href="https://www.nature.com/articles/ng1104-1133" target="_blank">CC</a>) the Diversity Outcross (DO), and the Wellcome Sanger Institute's Mouse Genomes Project (<a href="https://www.sanger.ac.uk/science/data/mouse-genomes-project" target="_blank">MGP</a>) strains. 
+<p>You can search for strains by strain name and/or <a href="#attributes">attribute</a>. In the Name field, start typing a strain name (such as C57BL/6J) or synonym (such as B6 for  C57BL/6 strains) and an autocomplete list will appear. Select a strain from the list or add an asterisk (*) to your search name to perform a "begins" search. You can also use this field to search with an MGI strain ID, such as MGI:3028467 for C57BL/6J. </p>
+<p>You can also limit your Name field search to particular strain attributes or search by attributes without using the Name field.</p>
+<p>To select multiple attributes:</p> 
+<ul>
+  <li>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired attributes; OR hold the shift key down and click on two attributes to select those and all attributes in between. </li>
+  <li>On a PC, hold the control key down and click on the desired attributes; OR hold the shift key down and click on two attributes to select those and all attributes in between. </li>
+</ul>
+<p>When you search with multiple attributes, by default, the search finds any attribute you selected. As an example, if you select deletion and spontaneous mutation, the search will return all deletion strains and all spontaneous mutation strains. You can toggle "any" to "all," to find strains that are associated with all your selected attributes.</p>
+<p>To the right of the query portion of the page, this page also provides some prepared queries for popular Strain Collections, such as the 8 founder inbred strains used for the Collaborative Cross (<a href="https://www.nature.com/articles/ng1104-1133" target="_blank">CC</a>) the Diversity Outcross (DO), and the Wellcome Sanger Institute's Mouse Genomes Project (<a href="https://www.sanger.ac.uk/science/data/mouse-genomes-project" target="_blank">MGP</a>) strains. 
 </p>
 
 <h3><a id="attributes"></a>What are the attribute definitions?</h3>
@@ -108,5 +117,11 @@ function openHelpWindow(helpFile){
 </body>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="snpfilter"></a>Can I filter my results?</h3>
+<p>Yes. You can filter your results by strain attribute. Above the table of your search results, click the button to Filter strains by Attribute, and then in the Filter pop-up window, check the attributes you wish to remain after filtering.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
 
 <!--#include file='include/templateBlankBodyStop.html'-->

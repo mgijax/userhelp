@@ -66,9 +66,9 @@ function openHelpWindow(helpFile){
 		 <tr><th>Attributes</th><td>Features attributed to the strain. These describe the type of strain (e.g., inbred, congenic, consomic, F1 hybrid), more general features of the strain (e.g., wild-derived, mutant), and categories associated with its alleles (e.g., transgenic, chemically induced mutation, spontaneous mutation, deletion). A strain may have multiple attributes. All the attributes are defined <a href="STRAIN_search_help.shtml#attributes" target="_blank">here</a>.</td></tr>
 		 <tr><th>MGI ID</th><td>The MGI strain accession identifier</td></tr>
 		 <tr><th>Synonyms</th><td>Abbreviations and common and unofficial names</td></tr>
-		 <tr><th>MPD</th><td>A link to the strain page in the Mouse Phenome Database (<a href="https://phenome.jax.org">MPD</a>). The MPD strain page often has an image of the strain and links to all the studies that include the strain.</td></tr>
+		 <tr><th>MPD</th><td>A link to the strain page in the Mouse Phenome Database (<a href="https://phenome.jax.org" target="_blank">MPD</a>). The MPD strain page often has an image of the strain and links to all the studies that include the strain.</td></tr>
 		 <tr><th>MGV</th><td>A link to the MGI Multi Genome Viewer where you can compare chromosomal regions of the C57BL/6J reference genome and 18 other mouse inbred strains.</td></tr>
-		 <tr><th>Other IDs</th><td>Additional MGI IDs for the strain as well as repository (e.g. <abbr title="JAX Mice and Services">JAX</abbr>, <abbr title="Mutant Mouse Regional Resource Centers">MMRRC</abbr>, <abbr title="Taconic Biosciences">TAC</abbr>) and Mouse Phenome Database (MPD) IDs.</td></tr>
+		 <tr><th>Other IDs</th><td>Additional MGI IDs for the strain as well as repository (e.g. <abbr title="JAX Mice and Services" target="_blank">JAX</abbr>, <abbr title="Mutant Mouse Regional Resource Centers">MMRRC</abbr>, <abbr title="Taconic Biosciences">TAC</abbr>) and Mouse Phenome Database (MPD) IDs.</td></tr>
 		 <tr><th>Related Strains</th><td>Substrains &***</td></tr>
 		</table>
 	</td>
