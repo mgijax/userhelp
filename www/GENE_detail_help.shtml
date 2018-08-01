@@ -109,7 +109,6 @@ table { border-style: none; align: center
        <li>Genome coordinate range and strand, in base pairs (provider of genomic coordinates is indicated) </li>
        <li>A thumbnail image link to the MGI Mouse Genome Browser display for the marker's coordinates. You can also click <b>MGI Mouse Genome Browser</b> for a full-page display.<br>
 <b>Note:</b>&nbsp;If the information you expect to see does not appear in the Mouse Genome Browser (or other browser) display, you may need to turn on (i.e., click) the viewing aides (i.e., tracks, features, maps) in the various displays.</li>
-       <li>a Get FASTA button will download the genomic sequence based on the coordinates in the current build, GRCm38. You can also add an equal amount of flanking sequence to each end.</li>
     	<li>External links to other genomic context displays (e.g., Ensembl ContigView, UCSC Browser, NCBI Map Viewer)</li>
 		</ul>
 		</td>
@@ -128,14 +127,14 @@ table { border-style: none; align: center
 <tr><th><a id="strains"></a>Strain Comparison</th>
 	<td><table>
 	    <tr><th>Strain Annotations</th>
-	        <td>The number of strains with genome annotations for this marker is shown and a link to the Multi Genome Viewer (MGV) will allow you to compare the chromosomal regions around the markers for all those strains.</td></tr>
+	        <td>The number of strains with genome annotations for this marker is shown and the link to the Multi Genome Viewer (MGV) will allow you to compare the chromosomal regions around the marker for all those strains.</td></tr>
         <tr><th>SNPs within 2kb</th>
             <td>Links to a Mouse SNPs Summary for any SNPs within 2 kb of this marker. The number of SNPs and the dbSNP build number are shown. <b>Note:</b> If MGI gene and marker genome coordinates are out of sync with the SNP data, <b>within 2 kb of this marker</b> does not appear, and the summary report indicates the discrepancy. See <a href="SNP_discrepancy_help.shtml">Understanding Mouse SNP Coordinate Discrepancies</a> for details.</td></tr>
         <tr><th>PCR</th>
             <td>Links to a Polymorphism Summary report for any PCRs for this marker</td></tr>
         <tr><th>RFLP</th>
             <td>Links to a Polymorphism Summary report for any <abbr title="Restriction Fragment Length Polymorphism">RFLPs</abbr> for this marker</td></tr>
-        <tr><th>Strain-Specific Marker</th>
+        <tr><th><span style="white-space: nowrap">Strain-Specific</span> Marker</th>
             <td><ul>
 	  			 <li>When a marker is strain specific and strain data is known, click <b>Strain-Specific Marker</b> for details such as the presence/absence of this gene in a given strain or notes about this genomic region appear.</li>
 	  			 <li>If there are strain-specific references, they appear at the bottom of this box, linked to the MGI Reference Detail Page.</li>
@@ -149,20 +148,20 @@ table { border-style: none; align: center
              <tr><th>Feature Type</th><td>Genetic feature type(s) annotated to the marker (e.g, protein coding gene, miRNA gene, lncRNA gene). See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a> for a complete list of Feature Types used in MGI and their definitions.</td></tr>
             <tr><th>Coordinates</th><td>The gene's chromosome, genome coordinates and strand for the inbred strain.</td></tr>
             <tr><th>Select Strains</th><td>Check the strains that interest you or use the buttons provided to Select All, or just the DO/CC Founders or to Deselect All. Just above the table, for your selected strains, you have 4 options:
-         <table>
-          <tr><th>Get FASTA</th>
-              <td>***</td>
-          <tr><th>Send to Multi Genome Viewer (MGV)</th>
-              <td>***</td>
-          <tr><th>Send to MUSCLE (Multiple Sequence Alignment Tool)</th>
-              <td>***</td>
-          <tr><th>Send to Sanger SNP Query (+/- 2kb)</th>
-              <td>***</td>
-         </tr>
+                <table>
+                 <tr><td>Get FASTA</td>
+                     <td>Download the genomic sequences for the coordinates shown for your checked strains</td>
+                 <tr><td>Send to Multi Genome Viewer (MGV)</td>
+                     <td>The MGV will allow you to compare the chromosomal regions around this marker for your checked strains.</td>
+                 <tr><td>Send to MUSCLE (Multiple Sequence Alignment Tool)</td>
+                     <td>***</td>
+                 <tr><td>Send to Sanger SNP Query (+/- 2kb)</td>
+                     <td>***</td>
+                </tr>
+              </table>
+           </td></tr>
          </table>
-        </td></tr>
-    </table>
-	     </table>
+	    </table>
 <tr><th><a id="orthology"></a>Homology</th>
 	<td><table>
 		<tr><th>Human Ortholog</th>
@@ -213,7 +212,7 @@ table { border-style: none; align: center
 <li>A <i>Recombinase Activity</i> link showing the number of recombinase alleles driven by the gene that have reported activity data. This links to a Recombinase Activity Comparison Matrix which allows you to compare endogenous wild-type gene expression with reported recombinase activity data.</li>
 <li>A short summary of phenotypes observed in mice with mutant alleles of the gene</li>
 </ul></td></tr>
-<tr><th><a id="GO_detail"></a>Gene Ontology (GO) Classifications</th>
+<tr><th><a id="GO_detail"></a><span style="white-space: nowrap">Gene Ontology</span> (GO) Classifications</th>
 	<td><ul>
  <li><B>All GO classifications (<i># annotations</i>)</b> links to a summary of the <i>nn </i> annotated items found (click <A HREF="GO_classification_fields_help.shtml" target="_blank">here </a> for information about interpreting the fields on this page). You can browse the GO vocabulary from the query results section and locate multiple terms that annotate a gene record.</li>
  <li><b>GO References</b>: the number of references with functional (GO) annotations for the gene, linked to a summary report for those references.</li>
