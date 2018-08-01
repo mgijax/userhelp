@@ -87,14 +87,6 @@ table { border-style: none; align: center
 			<ul><li>When different annotation groups disagree as to the marker type (e.g., protein coding versus pseudogene), click <b>Biotype Conflict</b> to see details about the conflict.</li>
 	  			<li>Identifiers in the Gene ID column link to the database source of the annotation (i.e., Ensembl, NCBI).</li>
 			</ul>
-			</p>
-			<p><b>Strain-Specific Marker</b>
-			<ul>
-	  			<li>When a marker is strain specific and strain data is known, click <b>Strain-Specific Marker</b> for details such as the presence/absence of this gene in a given strain or notes about this genomic region appear.</li>
-	  			<li>If there are strain-specific references, they appear at the bottom of this box, linked to the MGI Reference Detail Page.</li>
-				<!--<li>If there is a strain-specific reference for this marker but there are no additional notes, the <b>Strain Specificity</b> box does not appear.</li>-->
-			</ul>
-			</p>
 	</td></tr>
 			<tr><th>IDs</th>
 				<td>The MGI accession identifier and NCBI Gene ID, if available. </td>
@@ -119,15 +111,7 @@ table { border-style: none; align: center
 <b>Note:</b>&nbsp;If the information you expect to see does not appear in the Mouse Genome Browser (or other browser) display, you may need to turn on (i.e., click) the viewing aides (i.e., tracks, features, maps) in the various displays.</li>
        <li>a Get FASTA button will download the genomic sequence based on the coordinates in the current build, GRCm38. You can also add an equal amount of flanking sequence to each end.</li>
     	<li>External links to other genomic context displays (e.g., Ensembl ContigView, UCSC Browser, NCBI Map Viewer)</li>
-    	<li>A link to the <b>Multi Genome Viewer (MGV)</b> where you can compare chromosomal regions of sequenced and annotated mouse inbred strains.</li>
 		</ul>
-		<table> 
-         <tr><th>Strain</th><td>The official name for the inbred strain, linked to its Strain Detail page.</td></tr>
-         <tr><th>Gene Model ID</th><td>The Accession ID for the genomic sequence for the gene in the specified strain, linked to its Sequence Detail page. "No annotation" means the gene is absent in that strain's annotation. It may or may not be absent in that strain. Currently only the C57BL/6J genomic annotation is reference quality, so a missing annotation in other strains may be due to a lower quality annotation.</td></tr>
-         <tr><th>Feature Type</th><td>Genetic feature type(s) annotated to the marker (e.g, protein coding gene, miRNA gene, lncRNA gene). See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a> for a complete list of Feature Types used in MGI and their definitions.</td></tr>
-         <tr><th>Coordinates</th><td>The gene's chromosome, genome coordinates and strand for the inbred strain.</td></tr>
-         <tr><th>Downloads</th><td>***</td></tr>
-        </table>
 		</td>
 		</tr>
 		<tr><th>Genetic Map</th>
@@ -144,8 +128,28 @@ table { border-style: none; align: center
 <tr><th><a id="strains"></a>Strain Comparison</th>
 	<td><table>
 	    <tr><th>Strain Annotations</th>
-	        <td>***</td>
-	     </tr>
+	        <td>The number of strains with genome annotations for this marker is shown and a link to the Multi Genome Viewer (MGV) will allow you to compare the chromosomal regions around the markers for all those strains.</td></tr>
+        <tr><th>SNPs within 2kb</th>
+            <td>Links to a Mouse SNPs Summary for any SNPs within 2 kb of this marker. The number of SNPs and the dbSNP build number are shown. <b>Note:</b> If MGI gene and marker genome coordinates are out of sync with the SNP data, <b>within 2 kb of this marker</b> does not appear, and the summary report indicates the discrepancy. See <a href="SNP_discrepancy_help.shtml">Understanding Mouse SNP Coordinate Discrepancies</a> for details.</td></tr>
+        <tr><th>PCR</th>
+            <td>Links to a Polymorphism Summary report for any PCRs for this marker</td></tr>
+        <tr><th>RFLP</th>
+            <td>Links to a Polymorphism Summary report for any <abbr title="Restriction Fragment Length Polymorphism">RFLPs</abbr> for this marker</td></tr>
+        <tr><th>Strain-Specific Marker</th>
+            <td><ul>
+	  			 <li>When a marker is strain specific and strain data is known, click <b>Strain-Specific Marker</b> for details such as the presence/absence of this gene in a given strain or notes about this genomic region appear.</li>
+	  			 <li>If there are strain-specific references, they appear at the bottom of this box, linked to the MGI Reference Detail Page.</li>
+				 <!--<li>If there is a strain-specific reference for this marker but there are no additional notes, the <b>Strain Specificity</b> box does not appear.</li>-->
+			   </ul></td></tr>
+		<tr><th>Strain Gene Models</th>
+            <td>For markers annotated to at least one of the strain genome assemblies, the following table will be present:</td>
+            <table> 
+             <tr><th>Strain</th><td>The official name for the inbred strain, linked to its Strain Detail page.</td></tr>
+             <tr><th>Gene Model ID</th><td>The Accession ID for the genomic sequence for the gene in the specified strain, linked to its Sequence Detail page. "No annotation" means the gene is absent in that strain's annotation. It may or may not be absent in that strain. Currently only the C57BL/6J genomic annotation is reference quality, so a missing annotation in other strains may be due to a lower quality annotation.</td></tr>
+             <tr><th>Feature Type</th><td>Genetic feature type(s) annotated to the marker (e.g, protein coding gene, miRNA gene, lncRNA gene). See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a> for a complete list of Feature Types used in MGI and their definitions.</td></tr>
+            <tr><th>Coordinates</th><td>The gene's chromosome, genome coordinates and strand for the inbred strain.</td></tr>
+            <tr><th>Select Strains</th><td>***</td></tr>
+           </table>
 	     </table>
 <tr><th><a id="orthology"></a>Homology</th>
 	<td><table>
@@ -279,14 +283,6 @@ table { border-style: none; align: center
 <BR>
 <B>Note on representative sequence display:</B><br>
 MGI Representative Sequences provide users quick access to a single genomic, transcript and polypeptide sequence (where available) for the featured gene.  To view all sequences for the gene, follow the <b>All sequences</b> link.
-</td>
-</tr>
-<tr>
-<th><a id="polymorphisms"></a>Polymorphisms</TH>
-<td>Links to the following MGI summary reports:<ul>
-  <li>Polymorphisms Query Results -- Summary  for any <abbr title="Restriction Fragment Length Polymorphism">RFLPs</abbr>/PCRs for this marker:  </li>
-<li>Mouse SNPs Query Results -- Summary for any SNPs within 2 kb of this marker. The number of SNPs and the dbSNP build number are shown. <b>Note:</b> If MGI gene and marker genome coordinates are out of sync with the SNP data, <b>within 2 kb of this marker</b> does not appear, and the summary report indicates the discrepancy. See <a href="SNP_discrepancy_help.shtml">Understanding Mouse SNP Coordinate Discrepancies</a> for details.
-</ul>
 </td>
 </tr>
 <tr>
