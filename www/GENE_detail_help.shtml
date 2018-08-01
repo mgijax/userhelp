@@ -142,14 +142,26 @@ table { border-style: none; align: center
 				 <!--<li>If there is a strain-specific reference for this marker but there are no additional notes, the <b>Strain Specificity</b> box does not appear.</li>-->
 			   </ul></td></tr>
 		<tr><th>Strain Gene Models</th>
-            <td>For markers annotated to at least one of the strain genome assemblies, the following table will be present:</td>
+            <td>For markers annotated to at least one of the strain genome assemblies, the following table will be present:
             <table> 
              <tr><th>Strain</th><td>The official name for the inbred strain, linked to its Strain Detail page.</td></tr>
              <tr><th>Gene Model ID</th><td>The Accession ID for the genomic sequence for the gene in the specified strain, linked to its Sequence Detail page. "No annotation" means the gene is absent in that strain's annotation. It may or may not be absent in that strain. Currently only the C57BL/6J genomic annotation is reference quality, so a missing annotation in other strains may be due to a lower quality annotation.</td></tr>
              <tr><th>Feature Type</th><td>Genetic feature type(s) annotated to the marker (e.g, protein coding gene, miRNA gene, lncRNA gene). See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type Definitions</a> for a complete list of Feature Types used in MGI and their definitions.</td></tr>
             <tr><th>Coordinates</th><td>The gene's chromosome, genome coordinates and strand for the inbred strain.</td></tr>
-            <tr><th>Select Strains</th><td>***</td></tr>
-           </table>
+            <tr><th>Select Strains</th><td>Check the strains that interest you or use the buttons provided to Select All, or just the DO/CC Founders or to Deselect All. Just above the table, for your selected strains, you have 4 options:
+         <table>
+          <tr><th>Get FASTA</th>
+              <td>***</td>
+          <tr><th>Send to Multi Genome Viewer (MGV)</th>
+              <td>***</td>
+          <tr><th>Send to MUSCLE (Multiple Sequence Alignment Tool)</th>
+              <td>***</td>
+          <tr><th>Send to Sanger SNP Query (+/- 2kb)</th>
+              <td>***</td>
+         </tr>
+         </table>
+        </td></tr>
+    </table>
 	     </table>
 <tr><th><a id="orthology"></a>Homology</th>
 	<td><table>
