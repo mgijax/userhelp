@@ -73,18 +73,18 @@ On the right is the provider's version number for the sequence. Sometimes this t
 <TABLE>
  <tr><th>Type</th><td>DNA, RNA, or polypeptide.</td> </tr>
  <tr><th>Length</th><td>For RNA and DNA sequences length is in base pairs (bp); for polypeptides, length is in amino acids (aa). </td> </tr>
- <tr><th>Flanking sequence<td>Use if you are either forwarding a genome assembly sequence to NCBI <abbr title="Basic Local Alignment Search Tool">BLAST</abbr> or downloading it in FASTA format and want to add sequence to both ends. The metric is kb (1000 base pairs); thus, to add 10,000 pairs of flanking sequence to each end, enter 10 (this increases the sequence by 20 kb).</td></tr>
+ <!--<tr><th>Flanking sequence<td>Use if you are either forwarding a genome assembly sequence to NCBI <abbr title="Basic Local Alignment Search Tool">BLAST</abbr> or downloading it in FASTA format and want to add sequence to both ends. The metric is kb (1000 base pairs); thus, to add 10,000 pairs of flanking sequence to each end, enter 10 (this increases the sequence by 20 kb).</td></tr>  -->
 </table>
 
 <P>You can:
 <ul>
   <li>download this sequence in FASTA format or forward it to NCBI <abbr title="Basic Local Alignment Search Tool">BLAST</abbr></li>
-  <li>specify an amount flanking sequence to add to each end (but only if this is an assembly sequence).</li>
+  <!--<li>specify an amount flanking sequence to add to each end (but only if this is an assembly sequence).</li>  -->
 </ul>
-<P>Click the arrow to select/deselect and GO to activate. (If the sequence is marked as deleted, this option is not available.) The default is to download the file in FASTA format with no flanking sequence; a FASTA sequence file containing the selected sequence appears in your browser window. When you forward a sequence to NCBI <abbr title="Basic Local Alignment Search Tool">BLAST</abbr>, it will appear on a NCBI <abbr title="Basic Local Alignment Search Tool">BLAST</abbr> submission form.</p>
+<P>Click the arrow to select/deselect and GO to activate. (If the sequence is marked as deleted, this option is not available.) The default is to download the file in FASTA format<!--  with no flanking sequence-->; a FASTA sequence file containing the selected sequence appears in your browser window. When you forward a sequence to NCBI <abbr title="Basic Local Alignment Search Tool">BLAST</abbr>, it will appear on a NCBI <abbr title="Basic Local Alignment Search Tool">BLAST</abbr> submission form.</p>
 </td></tr>
 
-<tr><th><a id="source"></a>Source</th><td>All available sequence source attribute data (i.e., library, organism, strain/species, sex, age, tissue, cell line). For some sequence providers (e.g., UniProt, NIA) a link is available. If an asterisk follows a data item, it means that we could not map information from the provider to an item in our database. (Providers describe sequence attributes &#151; strains/species, tissues, libraries, clone collections, and so on &#151; in their reports. MGI captures these original values, converts them to MGI controlled vocabularies if possible, and stores them. Once captured, values are called <I>resolved,</I> and you can use them as search terms on the Mouse Sequence Query Form. If the original value is not resolved to a controlled vocabulary term, it does not produce results when queried upon, and the asterisk appears on your query report).
+<tr><th><a id="source"></a>Source</th><td>All available sequence source attribute data (i.e., library, organism, strain/species, sex, age, tissue, cell line). For some sequence providers (e.g., UniProt, NIA) a link is available. If an asterisk follows a data item, it means that we could not map information from the provider to an item in our database. (Providers describe sequence attributes &#151; strains/species, tissues, libraries, clone collections, and so on &#151; in their reports. MGI captures these original values, converts them to MGI controlled vocabularies if possible, and stores them. 
 
  <tr><th><a id="chromosome"></a>Chromosome</th> <td>Chromosomal assignment of markers associated to the sequence.
 <ul>
