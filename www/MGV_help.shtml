@@ -125,13 +125,19 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
   </ul>
   </td>
  </tr>
- <tr><th><a id="compgenomes"></a>Comparison genomes</th>
+ <tr><th><a id="compgenomes"></a>Genomes</th>
   <td>Select zero or more genomes to display along with the reference genome in the <a href="#zoom">Zoom view</a>
   <ul>
    <li>Click a strain to select it and unselect all others</li>
    <li>Shift-click to select a range</li>
    <li>Command (&#8984;)-click on a Mac, or control-click on a PC, to select individual strains</li>
    <li>Hint: to unselect all comparison genomes, click on any one, then command/control-click it</li>
+   </ul>
+  <p>Three buttons allow you to quickly select a subset of genomes:</p>
+   <ul>
+    <li>DO/CC founders will select the 8 collaborative cross founder strains</li>
+    <li>Sanger/MGP will select the 18 strains from the Mouse Genome Project ***</li>
+    <li>B6 vs non-musculus will select SPRET/EiJ, CAROLI/EiJ, PAHARI/EiJ and C57BL/6J. The latter will also be set as the reference genome.</li>
    </ul>
   </td></tr>
  <tr><th><a id="findgenes"></a>Find genes</th>
