@@ -141,7 +141,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
    </ul>
   </td></tr>
  <tr><th><a id="findgenes"></a>Find genes</th>
-  <td>This box searches for canonical genes (genome features with MGI IDs) by symbol, or those genes annotated to specified Gene Ontology (GO functional annotations), Mammalian Phenotypes (MP), or Disease Ontology (DO) terms. Genes matching or annotated to your search terms will show up as a list in the <a href="#mylists">My lists</a> box. You have four search options available from the toggle: 
+  <td>This box searches for canonical genes (genome features with MGI IDs) by symbol, or those genes annotated to specified Gene Ontology (GO functional annotations), Mammalian Phenotypes (MP), Disease Ontology (DO), or Reactome pathway terms. Genes matching or annotated to your search terms will show up as a list in the <a href="#mylists">My lists</a> box. You have four search options available from the toggle: 
  <table>
   <tr><th>Toggle Name</th><th>Search Terms</th><th>Find Terms and IDs</th></tr>
   <tr><td>nomenclature</td><td>gene symbols and MGI IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a></td></tr>
