@@ -133,7 +133,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
    <li>Command (&#8984;)-click on a Mac, or control-click on a PC, to select individual strains</li>
    <li>Hint: to unselect all comparison genomes, click on any one, then command/control-click it</li>
    </ul>
-  <p>Three buttons allow you to quickly select a subset of genomes:</p>
+  Three buttons allow you to quickly select a subset of genomes:
    <ul>
     <li>DO/CC founders will select the 8 collaborative cross founder strains</li>
     <li>Sanger/MGP will select the 18 strains from the Mouse Genome Project ***</li>
@@ -269,14 +269,14 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
  <tr><th><a id="featuredetail"></a>Feature details</th>
      <td>
      <ul>
-      <li>Displays the currently moused-over feature (from the <a href="#zoom">Zoom view</a>) and its equivalent features from the currently selected genomes (A row of “.”s means no <!--genolog-->equivalent feature in that genome.)
+      <li>Displays the currently clicked-on feature (from the <a href="#zoom">Zoom view</a>) and its equivalent features from the currently selected genomes (A row of “.”s means no <!--genolog-->equivalent feature in that genome.)
       <li>Displays the Genome (inbred strain), MGP ID (Mouse Genomes Project ID; for the reference, C57BL/6J strain, this is an Ensembl ID), Type (feature type), BioType (subtype), Coords (chromosome, genome coordinates and strand), Length (in bp), MGI ID (linked the the MGI Detail page), and MGI Symbol (official nomenclature).
        <ul>
-        <li>the moused-over equivalent feature row is also highlighted</li>
+        <li>the clicked-on equivalent feature row is also highlighted</li>
        </ul></li>
       <li>Mousing over a row in the Feature details table causes that equivalent feature to pulsate in the Zoom view
      <ul>
-      <li>Hint: in the Zoom view you can temporarily turn off the mouseover-highlighting by holding down the control key as you move the mouse
+      <li>Hint: in the Zoom view you can temporarily turn on a mouseover-highlighting by holding down the control key as you move the mouse
      </ul></li>
 </ul></tr>
  <tr><th><a id="zoom"></a>Zoom view</th>
