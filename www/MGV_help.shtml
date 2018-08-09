@@ -107,7 +107,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
 <h4><a id="control"></a>Control Boxes</h4>
  
 <table class="nb">
-<tr><td><a href="#refgenome">Reference genome</a> | <a href="#compgenomes">Comparison genomes</a> | <a href="#findgenes">Find genes</a> | <a href="#mylists">My lists</a> | <a href="#listed">List editor</a> | <a href="#featuretype">Feature types</a> | <a href="#hasid">Has MGI ID?</a> | <a href="#highlight">Is highlighted?</a> </td>
+<tr><td><a href="#refgenome">Reference genome</a> | <a href="#compgenomes">Genomes</a> | <a href="#findgenes">Find genes</a> | <a href="#mylists">My lists</a> | <a href="#listed">List editor</a> | <a href="#featuretype">Feature types</a> | <a href="#hasid">Has MGI ID?</a> | <a href="#highlight">Is highlighted?</a> </td>
 </tr>
 </table>
 
@@ -144,10 +144,10 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
   <td>This box searches for canonical genes (genome features with MGI IDs) by symbol, or those genes annotated to specified Gene Ontology (GO functional annotations), Mammalian Phenotypes (MP), or Disease Ontology (DO) terms. Genes matching or annotated to your search terms will show up as a list in the <a href="#mylists">My lists</a> box. You have four search options available from the toggle: 
  <table>
   <tr><th>Toggle Name</th><th>Search Terms</th><th>Find Terms and IDs</th></tr>
-  <tr><td>symbol/ID</td><td>gene symbols and MGI IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a></td></tr>
+  <tr><td>nomenclature</td><td>gene symbols and MGI IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a></td></tr>
   <tr><td>cellular function</td><td>Gene Ontology (GO) terms and GO IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->vocab/gene_ontology" target="_blank">Gene Ontology Browser</a></td></tr>
-  <tr><td>mutant phenotype</td><td>Mammalian Phenotype (MP) terms and MP IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype Browser</a></td></tr>
-  <tr><td>disease implication</td><td>Human Disease Ontology (DO) terms and DO IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->disease" target="_blank">Disease Ontology Browser</a></td></tr>
+  <tr><td>phenotype or disease</td><td>Mammalian Phenotype (MP) terms and MP IDs<br>Human Disease Ontology (DO) terms and DO IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype Browser<br><a href="<!--#include file='include/fewi_url.html'-->disease" target="_blank">Disease Ontology Browser</a></a></td></tr>
+  <tr><td>pathway</td><td>Reactome pathway names and IDs</td><td><a href="https://reactome.org" target="_blank">Reactome</a></td></tr>
  </table>
  Enter one or more search terms/IDs separated by commas, and either tab out of the field or use your keyboard's return/enter key to launch the search. Searches are case insensitive.   
   </td>
@@ -301,6 +301,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
      <li>Coords
       <ul>
        <li>Shows the current reference genome coordinates (also shows reference genome’s name)</li>
+       <li>You can change the coordinates or enter a gene symbol</li>
        <li>Type and press return/enter or tab out to change</li>
       </ul></li>
      <li>Showing
@@ -312,10 +313,6 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
      <ul>
      <li>Four magnifying icons, left to right: Zoom out a lot, Zoom out, Zoom in, Zoom in a lot</li>
      </ul></li>
-    <li>Pan
-     <ul>
-      <li>Four buttons: Pan left a lot, Pan left, Pan right, Pan right a lot</li>
-	 </ul></li>
 	 </ul></li>
    <li>Within a given stripe (i.e., genome):
    <ul>
@@ -331,6 +328,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
     <li>hold down the option/alt key when mousing to select every feature you touch</li>
    </ul></li>
   <li>drag immediately beneath the stripe’s background to zoom in to that region</li>
+  <li>use a track pad or mouse wheel to scroll left and right</li>
   <li>shift-drag to zoom out</li>
   <li>For each strain, plus strand features are shown above the center line with minus strand features below.</li>
   <li>backgrounds are colored to indicate rearrangements. Pink segments are inverted relative to the selected reference genome, and yellow segments are translocated.</li>
