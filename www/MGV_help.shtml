@@ -88,12 +88,12 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
 
 <p>The main portion of the page is divided into boxes.</p>
 <ul>
- <li>Each box has a name, an open/close button (small triangle), and a drag handle (six dots, <i class="material-icons button draghandle"></i>) in the upper right. Use the up/down arrows to expand (&#9660;) and collapse (&#9650;) the boxes. 
+ <li>Each box has a name, an open/close button (small triangle), and a drag handle (six dots, &#8942;&#8942;) in the upper right. Use the up/down arrows to expand (&#9660;) and collapse (&#9650;) the boxes. 
   <ul>
    <li>When “open”, a box displays a “full” view</li>
    <li>When “closed”, a box displays a “contracted” view which may simply be a label
    </ul></li>
- <li>Boxes can be reordered within their columns by dragging by the handle icon (<i class="material-icons button draghandle"></i>) up or down</li>
+ <li>Boxes can be reordered within their columns by dragging by the handle icon (&#8942;&#8942;) up or down</li>
  <li>The open/closed state and the ordering of boxes is remembered by your web browser</li>
  <li>Navigation is integrated with browser history
   <ul>
@@ -172,9 +172,16 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
      </ul>
     </td></tr>
  <tr><th><a id="listed"></a>List editor</th>
-     <td>
+     <td><p>You can expand the List editor section by clicking the pencil icon for a saved list in your My lists section or by clicking the arrow (&#9660;). The expanded section offers two editable text fields, one for the list name and the other, a list of MGI gene IDs. Below these fields are 5 buttons:</p>
+ <ol>
+  <li>New list</li>
+  <li>Save updates</li>
+  <li>Clear form</li>
+  <li>Forward to MGI: sends the list of IDs to the MGI Batch Query where you can add additional information and export your results.</li>
+  <li>Forward to MouseMine: sends the list of IDs to MouseMine which also offers batch querying, iterative refinement of results, built-in enrichment analysis, downloading in multiple formats, and API access.</li>
+ </ol>
      <ul>
-     <li>Allows you to
+     <li>The List editor allows you to
      <ul>
       <li>view/edit the contents of a list</li>
       <li>create new lists from scratch (i.e., by entering IDs)</li>
