@@ -53,7 +53,8 @@ function openHelpWindow(helpFile){
 </ul>
 
 <h3><a id="whatMGVpurpose"></a>What is the purpose of the Multi Genome Viewer?</h3>
-<p>The Multi Genome Viewer allows you to compare chromosomal regions of the C57BL/6J reference genome and 18 other mouse inbred strains: 16 sequenced and annotated by the Wellcome Institute Sanger <a href="https://www.sanger.ac.uk/science/data/mouse-genomes-project">Mouse Genomes Project</a> and two wild-derived strains (CAROLI/EiJ and PAHARI/EiJ) <a href="https://genome.cshlp.org/content/early/2018/03/21/gr.234096.117">published</a> by Paul Flicek and Duncan Odom and others. The Viewer permits searches by genes and other genome features, genome coordinates, and function, phenotype and disease terms. All searches query for canonical genes in MGI's <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a>. 
+<p>The Multi Genome Viewer allows you to compare chromosomal regions of the C57BL/6J reference genome and 18 other mouse inbred strains: 16 sequenced and annotated by the Wellcome Institute Sanger <a href="https://www.sanger.ac.uk/science/data/mouse-genomes-project">Mouse Genomes Project</a> and two wild-derived strains (CAROLI/EiJ and PAHARI/EiJ) <a href="https://genome.cshlp.org/content/early/2018/03/21/gr.234096.117">published</a> by Paul Flicek and Duncan Odom and others. The Viewer permits searches by genes and other genome features, genome coordinates, and function, phenotype, disease, and pathway terms. 
+All searches query for canonical genes in MGI's <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a>. You can forward lists of features to MouseMine and download genomic, coding and exon sequences for a selected feature. 
 Note that currently only the C57BL/6J annotation is “reference quality.”</p>
 
 <h3><a id="allstrains"></a>What inbred strains are included in the Viewer?</h3>
@@ -107,7 +108,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
 <h4><a id="control"></a>Control Boxes</h4>
  
 <table class="nb">
-<tr><td><a href="#refgenome">Reference genome</a> | <a href="#compgenomes">Genomes</a> | <a href="#findgenes">Find genes</a> | <a href="#mylists">My lists</a> | <a href="#listed">List editor</a> | <a href="#featuretype">Feature types</a> | <a href="#hasid">Has MGI ID?</a> | <a href="#highlight">Is highlighted?</a> </td>
+<tr><td><a href="#refgenome">Reference genome</a> | <a href="#compgenomes">Genomes</a> | <a href="#findgenes">Find genes</a> | <a href="#mylists">My lists</a> | <a href="#listed">List editor</a> | <a href="#featuretype">Feature types</a> | <a href="#hasid">Has canonical ID</a> | <a href="#highlight">Is highlighted</a> </td>
 </tr>
 </table>
 
@@ -133,11 +134,11 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
    <li>Command (&#8984;)-click on a Mac, or control-click on a PC, to select individual strains</li>
    <li>Hint: to unselect all comparison genomes, click on any one, then command/control-click it</li>
    </ul>
-  Three buttons allow you to quickly select a subset of genomes:
+  Three buttons allow you to quickly select a set of genomes:
    <ul>
     <li>DO/CC founders will select the 8 collaborative cross founder strains</li>
-    <li>Sanger/MGP will select the 18 strains from the Mouse Genome Project ***</li>
     <li>B6 vs non-musculus will select SPRET/EiJ, CAROLI/EiJ, PAHARI/EiJ and C57BL/6J. The latter will also be set as the reference genome.</li>
+    <li>All will select the 18 strains from the Mouse Genome Project and C57BL/6J.</li>  
    </ul>
   </td></tr>
  <tr><th><a id="findgenes"></a>Find genes</th>
@@ -215,7 +216,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
      </ul></li>
     </ul>
      </td></tr>
- <tr><th><a id="hasid"></a>Has MGI ID? (facet)</th>
+ <tr><th><a id="hasid"></a>Has canonical ID (facet)</th>
      <td>
      <ul>
       <li>Three radio buttons with values Yes/No/Don’t care
@@ -226,7 +227,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
        </ul></li>
      </ul>
      </td></tr>
- <tr><th><a id="highlight"></a>Is highlighted? (facet)</th>
+ <tr><th><a id="highlight"></a>Is highlighted (facet)</th>
      <td>
      <ul>
       <li>Three radio buttons with values Yes/No/Don’t care
