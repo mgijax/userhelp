@@ -88,15 +88,6 @@ function openHelpWindow(helpFile){
 		 <tr><th>Associated QTL</th><td>Quantitative Trait Loci associated with the strain, linked to QTL Variant and QTL Detail pages.</td></tr>
 		</table>
 	</td></tr>
-<tr><th><a id="imsr"></a>Find Mice (IMSR)</th>
-    <td><p>The <a href="http://www.findmice.org/index.jsp">IMSR</a> (International Mouse Strain Resource) is a searchable online database of mouse strains and stocks available worldwide. The IMSR provides links to the appropriate repositories, neither it, nor MGI, house any stocks. You can search the IMSR directly by clicking on the Find Mice (IMSR) link in the dark blue banner near the top of most MGI web pages. ***</p>
-       <table>
-		  <tr><th>IMSR</th><td>The repository ID for the stock, linked to its IMSR record</td></tr>
-		  <tr><th>Repository</th><td>The abbreviation for the repository holding the stock</td></tr>
-		  <tr><th>IMSR Strain</th><td>The repository's name for the strain. This is not necessarily the official strain name. The repositories vary in their adherence to the <a href="<!--#include file='include/mgihome_url.html'-->nomen/strains.shtml" target="_blank">Strain Nomenclature Guidelines</a>. </td></tr>
-		  <tr><th>Why Matched</th><td>***</td></tr>
-		</table>
-	</td></tr>
 <tr><th><a id="diseases"></a>Associated Diseases</th>
     <td><table>
 		  <tr><th>Human Diseases</th><td>Human diseases for which this strain is a model, linked to the MGI Disease Ontology Browser.</td></tr>
@@ -106,6 +97,15 @@ function openHelpWindow(helpFile){
 <tr><th><a id="phenotypes"></a>Associated Phenotypes</th>
     <td><table>
 		  <tr><th>Phenotype Overview</th><td>*** displays the highest-level terms from the Mammalian Phenotype (MP) Ontology and uses blue cells to mark those with phenotypic annotations to genotypes with alleles of the gene. Some high-level terms such as normal phenotype, other phenotype, and no phenotypic analysis aren't represented in this Overview but annotations to those terms and their subterms will be displayed in the Phenotype Summaries and Allele Detail pages.</td></tr>
+		</table>
+	</td></tr>
+<tr><th><a id="imsr"></a>Find Mice (IMSR)</th>
+    <td><p>The <a href="http://www.findmice.org/index.jsp">IMSR</a> (International Mouse Strain Resource) is a searchable online database of mouse strains and stocks available worldwide. The IMSR provides links to the appropriate repositories, neither it, nor MGI, house any stocks. You can search the IMSR directly by clicking on the Find Mice (IMSR) link in the dark blue banner near the top of most MGI web pages. ***</p>
+       <table>
+		  <tr><th>IMSR</th><td>The repository ID for the stock, linked to its IMSR record</td></tr>
+		  <tr><th>Repository</th><td>The abbreviation for the repository holding the stock</td></tr>
+		  <tr><th>IMSR Strain</th><td>The repository's name for the strain. This is not necessarily the official strain name. The repositories vary in their adherence to the <a href="<!--#include file='include/mgihome_url.html'-->nomen/strains.shtml" target="_blank">Strain Nomenclature Guidelines</a>. </td></tr>
+		  <tr><th>Why Matched</th><td>***</td></tr>
 		</table>
 	</td></tr>
 <tr><th><a id="references"></a>References</th>
