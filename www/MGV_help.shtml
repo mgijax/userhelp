@@ -271,7 +271,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
      <td>
      <ul>
       <li>Displays the currently clicked-on feature (from the <a href="#zoom">Zoom view</a>) and its equivalent features from the currently selected genomes (A row of “.”s means no <!--genolog-->equivalent feature in that genome.)
-      <li>Displays the Genome (inbred strain), MGP ID (Mouse Genomes Project ID; for the reference, C57BL/6J strain, this is an Ensembl ID), Type (feature type), BioType (subtype), Coords (chromosome, genome coordinates and strand), Length (in bp), MGI ID (linked the the MGI Detail page), and MGI Symbol (official nomenclature).
+      <li>Displays the MGI ID (linked the the MGI Detail page), MGI Symbol (official nomenclature), Genome (inbred strain), MGP ID (Mouse Genomes Project ID; for the reference, C57BL/6J strain, this is an MGI ID), Type (feature type), BioType (subtype), Coordinates (chromosome, genome coordinates and strand), and Length (in bp).
        <ul>
         <li>the clicked-on equivalent feature row is also highlighted</li>
        </ul></li>
