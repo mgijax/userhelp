@@ -321,6 +321,10 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
      <ul>
      <li>Four magnifying icons, left to right: Zoom out a lot, Zoom out, Zoom in, Zoom in a lot</li>
      </ul></li>
+     <li>Pan
+     <ul>
+      <li>Four buttons: Pan left a lot, Pan left, Pan right, Pan right a lot</li>
+      </ul></li>
 	 </ul></li>
    <li>Within a given stripe (i.e., genome):
    <ul>
