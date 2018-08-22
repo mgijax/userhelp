@@ -48,6 +48,8 @@ function openHelpWindow(helpFile){
  <li><a href="#whatMGVpurpose">What is the purpose of the Multi Genome Viewer?</a></li>
  <li><a href="#allstrains">What inbred strains are included in the Viewer?</a></li>
  <li><a href="#sections">How do I use the different sections of the Viewer?</a></li>
+ <li><a href="#sequences">How can I get FASTA sequences for features of interest?</a></li>
+ <li><a href="#batch">How can I get additional data for features of interest?</a></li>
  <li><a href="#inversions">Why are some regions of my comparison genomes shaded in pink?</a></li>
  <li><a href="#example">Are there any sample queries?</a></li>
 </ul>
@@ -204,6 +206,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
      <ul>
      <li>***kind of involved. Need to work on this…</ul></li>-->
     </ul>
+   <p>When you create a new list, the <a href="#zoom">Zoom view</a> moves to the first feature in that list.</p>
  </td></tr>
  <tr><th><a id="featuretype"></a>Feature types (facet)</th>
      <td> 
@@ -277,7 +280,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
        </ul></li>
       <li>Mousing over a row in the Feature details table causes that equivalent feature to pulsate in the Zoom view
      <ul>
-      <li>Hint: in the Zoom view you can temporarily turn on a mouseover-highlighting by holding down the control key as you move the mouse
+      <li>Hint: in the Zoom view you can temporarily turn on a mouseover-highlighting of the Feature details section by holding down the control key as you move the mouse over features.
      </ul></li>
 </ul></tr>
  <tr><th><a id="zoom"></a>Zoom view</th>
@@ -338,6 +341,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
    <ul>
     <li>shift-click to select multiple genes and view their equivalent features</li>
     <li>hold down the option/alt key when mousing to select every feature you touch</li>
+    <li>Control/alt click on a feature and you are presented with several options: the option to  align the view on the Feature, to view the feature in MGI or MouseMine, and the options to download genomic, coding and exon sequences for the feature for your selected strains.</li>
    </ul></li>
   <li>drag immediately beneath the stripe’s background to zoom in to that region</li>
   <li>use a track pad or mouse wheel to scroll left and right</li>
@@ -346,10 +350,24 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
   <li>backgrounds are colored to indicate rearrangements. Pink segments are inverted relative to the selected reference genome, and yellow segments are translocated.</li>
   </ul></li>
 </ul>
+<!-- Whenever the landmark does not exist in a given genome, it falls back to mapping the coordinates based on synteny blocks. -->
      </td></tr>
 </table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="sequences"></a>How can I get FASTA sequences for features of interest?</h3>
+
+<p>***</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="batch"></a>How can I get additional data for features of interest?</h3>
+
+<p>***</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
 
 <h3><a id="inversions"></a>Why are some regions of my comparison genomes shaded in pink?</h3>
 
