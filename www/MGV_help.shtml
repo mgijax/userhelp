@@ -49,7 +49,8 @@ function openHelpWindow(helpFile){
  <li><a href="#allstrains">What inbred strains are included in the Viewer?</a></li>
  <li><a href="#sections">How do I use the different sections of the Viewer?</a></li>
  <li><a href="#sequences">How can I get FASTA sequences for features of interest?</a></li>
- <li><a href="#batch">How can I get additional data for features of interest?</a></li>
+ <li><a href="#batch">How can I get additional phenotype, GO and expression data for features of interest?</a></li>
+ <li><a href="#snps">How can I find SNPs for a region of interest?</a></li>
  <li><a href="#inversions">Why are some regions of my comparison genomes shaded in pink?</a></li>
  <li><a href="#example">Are there any sample queries?</a></li>
 </ul>
@@ -305,8 +306,8 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
        <li>Click on &#9776; to find options to export:
         <ul>
         <li>MGI SNPs - links to MGI SNP report for SNPs within the given region</li>
-        <li>MGI QTLs</li>
-        <li>MGI JBrowse</li>
+        <li>MGI QTLs - links to an MGI report of QTLs that overlap the region</li>
+        <li>MGI JBrowse - opens <a href="http://jbrowse.informatics.jax.org/">JBrowse</a> for your designated region on C57BL/6J, GRCm38</li>
        </ul></li>
        </ul></li>
      <li>Coords
@@ -362,12 +363,23 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="batch"></a>How can I get additional data for features of interest?</h3>
+<h3><a id="batch"></a>How can I get additional phenotype, GO and expression data for features of interest?</h3>
 
 <p>***</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
+<h3><a id="snps"></a>How can I find SNPs for a region of interest?</h3>
+
+<ol>
+<li>Select your strains of interest in the <a href="#compgenomes">Genomes</a> box.</li> 
+<li>In the <a href="#zoom">Zoom view</a>, zoom in on a region or enter coordinates in the Coords field.</li>
+<li>Click on the Linkout menu (&#9776;) in the Zoom view and select the first option, MGI SNPs. This will run an MGI Mouse SNPs query for your selected strains and the region set in the coords.</li>
+</ol>
+
+<p>Note that the the Linkout menu also lets you find QTLs that overlap the region or open the region in JBrowse.<p> 
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="inversions"></a>Why are some regions of my comparison genomes shaded in pink?</h3>
 
