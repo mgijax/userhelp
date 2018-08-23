@@ -369,7 +369,8 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
 
 <h3><a id="sequences"></a>How can I get FASTA sequences for features of interest?</h3>
 
-<p>***</p>
+<p>Control/ctrl click on a feature in the <a href="#zoom">Zoom view</a> and a pop-up window appears with the feature symbol at the top. Beneath the symbol options may be present to download the feature's genomic, CDS and exon sequences for your selected strains. The downloaded file's name will begin with "results."</p>
+<p>The pop-up window will also offer you the option to view the feature's page in MouseMine. There you can limit your downloads to specific sequences.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
