@@ -145,7 +145,8 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
    </ul>
   </td></tr>
  <tr><th><a id="findgenes"></a>Find genes</th>
-  <td>This box searches for canonical genes (genome features with MGI IDs) by symbol, or those genes annotated to specified Gene Ontology (GO functional annotations), Mammalian Phenotypes (MP), Disease Ontology (DO), or Reactome pathway terms. Genes matching or annotated to your search terms will show up as a list in the <a href="#mylists">My lists</a> box. You have four search options available from the toggle: 
+  <td>This box searches for canonical genes (genome features with MGI IDs) by symbol, or those genes annotated to specified Gene Ontology (GO functional annotations), Mammalian Phenotypes (MP), Disease Ontology (DO), or Reactome pathway terms. 
+  Genes matching or annotated to your search terms will show up as a list in the <a href="#mylists">My lists</a> box. <!-- Wildcards are added automatically -->You have four search options available from the toggle: 
  <table>
   <tr><th>Toggle Name</th><th>Search Terms</th><th>Find Terms and IDs</th></tr>
   <tr><td>nomenclature</td><td>gene symbols and MGI IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a></td></tr>
@@ -269,6 +270,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
              <li>in the Zoom view, click on that genome’s stripe
             </ul></li>
            <li>Drag on a chromosome in the genome view to zoom to that chromosome's region in the Zoom view</li>
+           <li>When you click on a list in My lists, the Genome View shows a pink dot for each feature in your list. Click on a dot to center the Zoom View on that feature.</li>
           </ul>
        </td></tr>
  <tr><th><a id="featuredetail"></a>Feature details</th>
@@ -376,7 +378,8 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
 
 <h3><a id="batch"></a>How can I get additional phenotype, GO and expression data for features of interest?</h3>
 
-<p>***</p>
+<p>Click on the pencil icon for a list in My Lists. This will load the list into the List Editor. There, beneath the list of IDs, are several buttons. 
+The last 2 offer the options to Forward the list to MGI and its basic Batch Query, or to Forward the list to MouseMine, an advanced batch query tool.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -394,8 +397,8 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
 
 <h3><a id="inversions"></a>Why are some regions of my comparison genomes shaded in pink?</h3>
 
-<p>Pink shaded regions are <a href="<!--#include file='include/fewi_url.html'-->glossary/inversion" target="_blank">inverted</a> compared to your selected reference genome. Yellow shaded regions are <a href="<!--#include file='include/fewi_url.html'-->glossary/translocation" target="_blank">translocations</a>. Chromosomal regions that include a part of a different chromsome from the reference chromosome will be marked by a vertical blue line with the chromosome number beneath it.</p>
-<p>These regions are also marked by their colored stripe in the <a href="#genomeview">Genome view</a> when you click on a comparison genome in the <a href="#zoom">Zoom view</a>. The Genome view will show the reference genome chromosomes with colored stripes (red/pink, yellow and blue).</p>
+<p>Pink shaded regions are <a href="<!--#include file='include/fewi_url.html'-->glossary/inversion" target="_blank">inverted</a> compared to your selected reference genome. Orange shaded regions are <a href="<!--#include file='include/fewi_url.html'-->glossary/translocation" target="_blank">translocations</a>. Chromosomal regions that include a part of a different chromsome from the reference chromosome will be marked by a vertical blue line with the chromosome number beneath it.</p>
+<p>These regions are also marked by their colored stripe in the <a href="#genomeview">Genome view</a> when you click on a comparison genome in the <a href="#zoom">Zoom view</a>. The Genome view will show the reference genome chromosomes with colored stripes (red/pink, orange and green).</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -407,13 +410,13 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
  <li>Select C57BL/6J as the Reference genome.</li>
  <li>Shift-click to select the Comparison genomes: AKR/J, BALB/cJ and C3H/HeJ.</li>
  <li>Command (&#8984;)-click on a Mac, or control-click on a PC, to select CAST/EiJ.</li>
- <li>In the Find genes box, toggle the default search, &hellip;by symbol/ID, to &hellip;by cellular function, and enter: GO:0008045 (the GO ID for motor neuron axon guidance) and hit your keyboard's return/enter key.</li>
+ <li>In the Find genes box, toggle the default search, &hellip;by phenotype or disease, to &hellip;by cellular function, and enter: GO:0008045 (the GO ID for motor neuron axon guidance) and hit your keyboard's return/enter key.</li>
  <li>The GO ID will appear in the My lists box, with the number of genes annotated to the term and its subterms indicated. The genes will also be represented in the <a href="#genomeview">Genome view</a> section with each gene represented by a pink dot. Mouse over a dot to see its gene symbol.</li>
  <li>Click on one of the comparison strains in the <a href="#zoom">Zoom view</a> to view synteny blocks with the reference genome in the Genome view. Rearranged regions with respect to the reference genome are marked by colored lines in the Genome view.</li>
  <li>In the Genome view, drag your cursor over the region of Chromosome X above and below its pink dot.</li>
  <li>This will load this region into the Zoom view below. The <i>Plxna3</i> gene is marked in the Zoom view because it is a gene in your active My list, and connected by a line to the other strains. Mouse over any feature in the Zoom view to see its details in the <a href="featuredetail">Feature details</a> section just above the Zoom view.</li>
 <li>Click on one of the Magnifying glass icons with a + sign to zoom in.</li>
-<li>Notice that 2 comparison strains have a rearrangement involving Chromosome 5. Your screen may look something like <a href="http://proto.informatics.jax.org/prototypes/mgv/#ref=C57BL/6J&genomes=C57BL/6J+AKR/J+BALB/cJ+C3H/HeJ+CAST/EiJ&chr=X&start=73774008&end=74606985&highlight=MGI:2444521+MGI:95410+MGI:104327+MGI:3777564+MGI:3777569+MGI:99783+MGI:96170+MGI:99423+MGI:107684+MGI:106206+MGI:2179061+MGI:3777561+MGI:99612+MGI:1315203+MGI:99604+MGI:109160+MGI:1315205+MGI:1098269+MGI:107558+MGI:101776+MGI:101765+MGI:3777558+MGI:1915674+MGI:1914004+MGI:2179432+MGI:3777566+MGI:98277+MGI:1096347+MGI:109563+MGI:102673+MGI:107683+MGI:1313266+MGI:96174+MGI:107685+MGI:95296+MGI:103556">this.</a></li>
+<li>Notice that some comparison strains have a translocated region involving Chromosome 4. Your screen may look something like <a href="http://proto.informatics.jax.org/prototypes/mgv/#chr=X&start=74025936&end=74636321&dmode=reference&ref=C57BL/6J&genomes=C57BL/6J+AKR/J+BALB/cJ+C3H/HeJ+CAST/EiJ&highlight=">this.</a></li>
 <li>Zoom in some more and then use the Pan icons to move <i>Plxna3</i> off your screen.</li>
 <li>To bring <i>Plxna3</i> back into view, to go to the Genome view section and drag the, now much smaller, blue selection you made earlier, back in line with the center of the pink dot on Chromosome X.</li>
 <li>If you have clicked on another feature, <i>Plxna3</i> may no longer be labeled. To find it, click on the GO ID again in the My lists box.</li>
