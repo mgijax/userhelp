@@ -340,6 +340,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
     <li>connections to equivalent features in other genomes (if any - depends on the annotation)</li>
     <li>associated data are also displayed in tabular form in the <a href="featuredetail">Feature details</a> view</li>
     </ul></li>
+  <li>mouse over the horizontal gray bar beneath a genome to view the coordinates at that point</li>
   <li>click on a feature to select it
    <ul>
     <li>shift-click to select multiple genes and view their equivalent features</li>
@@ -418,7 +419,7 @@ The last 2 offer the options to Forward the list to MGI and its basic Batch Quer
 <li>Click on one of the Magnifying glass icons with a + sign to zoom in.</li>
 <li>Notice that some comparison strains have a translocated region involving Chromosome 4. Your screen may look something like <a href="http://proto.informatics.jax.org/prototypes/mgv/#chr=X&start=74025936&end=74636321&dmode=reference&ref=C57BL/6J&genomes=C57BL/6J+AKR/J+BALB/cJ+C3H/HeJ+CAST/EiJ&highlight=">this.</a></li>
 <li>Zoom in some more and then use the Pan icons to move <i>Plxna3</i> off your screen.</li>
-<li>To bring <i>Plxna3</i> back into view, to go to the Genome view section and drag the, now much smaller, blue selection you made earlier, back in line with the center of the pink dot on Chromosome X.</li>
+<li>To bring <i>Plxna3</i> back into view, to go to the Genome view section and drag the, now much smaller, blue selection you made earlier, back in line with the center of the pink dot on Chromosome X or search for Plxna3 in the C57BL/6J coords field.</li>
 <li>If you have clicked on another feature, <i>Plxna3</i> may no longer be labeled. To find it, click on the GO ID again in the My lists box.</li>
 <li>Click on the Linkout menu (&#9776;) icon to the left of the C57BL/6J coords and select MGI SNPs to launch of search of MGI SNPs in this region for these strains.</li> 
 </ol> 
