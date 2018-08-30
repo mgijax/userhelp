@@ -1,7 +1,7 @@
 <!--#include file='include/templateHead.html'-->
 <title>
   <!--#include file="include/mgiversion.html"-->
- MGI-Using the Multi Genome Viewer
+ MGI-Using the Multiple Genome Viewer
 </title>
 
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
@@ -23,7 +23,7 @@ function openHelpWindow(helpFile){
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
- Using the Multi Genome Viewer
+ Using the Multiple Genome Viewer
  </span>
 </div>
 
@@ -45,7 +45,7 @@ function openHelpWindow(helpFile){
 
 <p>This help document answers the following questions:</p>
 <ul>
- <li><a href="#whatMGVpurpose">What is the purpose of the Multi Genome Viewer?</a></li>
+ <li><a href="#whatMGVpurpose">What is the purpose of the Multiple Genome Viewer?</a></li>
  <li><a href="#allstrains">What inbred strains are included in the Viewer?</a></li>
  <li><a href="#sections">How do I use the different sections of the Viewer?</a></li>
  <li><a href="#sequences">How can I get FASTA sequences for features of interest?</a></li>
@@ -55,8 +55,8 @@ function openHelpWindow(helpFile){
  <li><a href="#example">Are there any sample queries?</a></li>
 </ul>
 
-<h3><a id="whatMGVpurpose"></a>What is the purpose of the Multi Genome Viewer?</h3>
-<p>The Multi Genome Viewer allows you to compare chromosomal regions and synteny blocks between the C57BL/6J reference genome and 18 other mouse inbred strains: 16 sequenced and annotated by the Wellcome Institute Sanger <a href="https://www.sanger.ac.uk/science/data/mouse-genomes-project">Mouse Genomes Project</a> and two wild-derived strains (CAROLI/EiJ and PAHARI/EiJ) <a href="https://genome.cshlp.org/content/early/2018/03/21/gr.234096.117">published</a> by Paul Flicek and Duncan Odom and others. The Viewer permits searches by genes and other genome features, genome coordinates, and function, phenotype, disease, and pathway terms. 
+<h3><a id="whatMGVpurpose"></a>What is the purpose of the Multiple Genome Viewer?</h3>
+<p>The Multiple Genome Viewer allows you to compare chromosomal regions and synteny blocks between the C57BL/6J reference genome and 18 other mouse inbred strains: 16 sequenced and annotated by the Wellcome Institute Sanger <a href="https://www.sanger.ac.uk/science/data/mouse-genomes-project">Mouse Genomes Project</a> and two wild-derived strains (CAROLI/EiJ and PAHARI/EiJ) <a href="https://genome.cshlp.org/content/early/2018/03/21/gr.234096.117">published</a> by Paul Flicek and Duncan Odom and others. The Viewer permits searches by genes and other genome features, genome coordinates, and function, phenotype, disease, and pathway terms. 
 All searches query for canonical genes in MGI's <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a>. You can forward lists of features to MouseMine and download genomic, coding and exon sequences for a selected feature for designated strains. You can also run an MGI SNP query for strains and a region of interest, and find QTLs that overlap a defined region.  
 Note that currently only the C57BL/6J annotation is “reference quality.”</p>
 
