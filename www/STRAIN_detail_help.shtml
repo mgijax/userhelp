@@ -53,7 +53,7 @@ function openHelpWindow(helpFile){
 <p>Depending on data availability and the strain, this detail report contains information in some or all of the categories described in the table below. Some sections of the Detail Page initially display only a summary. Use the <i>Show All</i> button to expand a section to see more information and <i>Show Less</i> to collapse the view. Sections will be absent when we have no data of of that type.</p>
 
 <table class="nb">
-<tr><td><a href="#nomen">Nomenclature</a> | <a href="#snps">SNPs</a> | <a href="#markers">Associated Mutations, Markers, and QTL</a> | <a href="#diseases">Associated Diseases</a> | <a href="#phenotypes">Associated Phenotypes</a> | <a href="#imsr">Find Mice (IMSR)</a> | <a href="#references">References</a> </td>
+<tr><td><a href="#nomen">Nomenclature</a> | <a href="#snps">SNPs</a> | <a href="#markers">Associated Mutations, Markers, and QTL</a> | <a href="#phenotypes">Associated Phenotypes</a> | <a href="#diseases">Associated Diseases</a> | <a href="#imsr">Find Mice (IMSR)</a> | <a href="#references">References</a> </td>
 </tr>
 </table>
 <table>
@@ -66,10 +66,10 @@ function openHelpWindow(helpFile){
 		 <tr><th>Attributes</th><td>Features attributed to the strain. These describe the type of strain (e.g., inbred, congenic, consomic, F1 hybrid), more general features of the strain (e.g., wild-derived, mutant), and categories associated with its alleles (e.g., transgenic, chemically induced mutation, spontaneous mutation, deletion). A strain may have multiple attributes. All the attributes are defined <a href="STRAIN_search_help.shtml#attributes" target="_blank">here</a>.</td></tr>
 		 <tr><th>MGI ID</th><td>The MGI strain accession identifier</td></tr>
 		 <tr><th>Synonyms</th><td>Abbreviations and common and unofficial names</td></tr>
-		 <tr><th>MPD***</th><td>A link to the strain page in the Mouse Phenome Database (<a href="https://phenome.jax.org" target="_blank">MPD</a>). The MPD strain page often has an image of the strain and links to all the studies that include the strain.</td></tr>
-		 <tr><th>MGV***</th><td>A link to the MGI Multi Genome Viewer where you can compare chromosomal regions of the C57BL/6J reference genome and 18 other mouse inbred strains.</td></tr>
+		 <tr><th>Phenomic Data</th><td>A link to the strain page in the Mouse Phenome Database (<a href="https://phenome.jax.org" target="_blank">MPD</a>). The MPD strain page often has an image of the strain and links to all the studies that include the strain.</td></tr>
+		 <tr><th>Mouse Genome Browsers</th><td>For strains whose genome has been annotated, a link to the MGI Multiple Genome Viewer allows you to compare chromosomal regions of the C57BL/6J reference genome and 18 other mouse inbred strains.</td></tr>
 		 <tr><th>Other IDs</th><td>Additional MGI IDs for the strain as well as repository (e.g. <abbr title="JAX Mice and Services" target="_blank">JAX</abbr>, <abbr title="Mutant Mouse Regional Resource Centers">MMRRC</abbr>, <abbr title="Taconic Biosciences">TAC</abbr>) and Mouse Phenome Database (MPD) IDs.</td></tr>
-		 <tr><th>Related Strains</th><td>Substrains &***</td></tr>
+		 <!--<tr><th>Related Strains</th><td>Substrains ***</td></tr>  -->
 		</table>
 	</td></tr>
 <tr><th><a id="snps"></a>SNPs</th>
@@ -88,15 +88,17 @@ function openHelpWindow(helpFile){
 		 <tr><th>Associated QTL</th><td>Quantitative Trait Loci associated with the strain, linked to QTL Variant and QTL Detail pages.</td></tr>
 		</table>
 	</td></tr>
+<tr><th><a id="phenotypes"></a>Associated Phenotypes</th>
+    <td><table>
+		  <tr><th>Phenotype Overview</th><td>Displays the highest-level terms from the Mammalian Phenotype (MP) Ontology and uses blue cells to mark those with phenotypic annotations to genotypes with alleles of the gene. 
+		  Some high-level terms such as normal phenotype, other phenotype, and no phenotypic analysis aren't represented in this Overview but annotations to those terms and their subterms will be displayed in the Phenotype Summaries and Allele Detail pages. 
+		  The blue cells are linked to more detailed phenotype descriptions. </td></tr>
+		</table>
+	</td></tr>
 <tr><th><a id="diseases"></a>Associated Diseases</th>
     <td><table>
 		  <tr><th>Human Diseases</th><td>Human diseases for which this strain is a model, linked to the MGI Disease Ontology Browser.</td></tr>
-		  <tr><th>Model</th><td>***</td></tr>
-		</table>
-	</td></tr>
-<tr><th><a id="phenotypes"></a>Associated Phenotypes</th>
-    <td><table>
-		  <tr><th>Phenotype Overview</th><td>*** displays the highest-level terms from the Mammalian Phenotype (MP) Ontology and uses blue cells to mark those with phenotypic annotations to genotypes with alleles of the gene. Some high-level terms such as normal phenotype, other phenotype, and no phenotypic analysis aren't represented in this Overview but annotations to those terms and their subterms will be displayed in the Phenotype Summaries and Allele Detail pages.</td></tr>
+		  <tr><th>Model</th><td>Mouse strains are associated with human diseases through mouse genotypes described in publications and annotated to the Disease Ontology (<a href="http://disease-ontology.org/" target="_blank">DO</a>), a hierarchical standardized ontology that integrates vocabularies from MeSH, ICD, NCI's thesaurus, SNOMED and <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr>.</td></tr>
 		</table>
 	</td></tr>
 <tr><th><a id="imsr"></a>Find Mice (IMSR)</th>
