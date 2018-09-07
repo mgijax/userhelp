@@ -47,6 +47,10 @@ function openHelpWindow(helpFile){
 <ul>
   <li><a href="<!--#include file='include/mgihome_url.html'-->nomen/strains.shtml" target="_blank">Guidelines for Nomenclature of Mouse and Rat Strains</a></li>
   <li><a href="<!--#include file='include/mgihome_url.html'-->nomen/strain_129.shtml" target="_blank">Mouse Strain 129 Substrain Nomenclature</a></li>
+  <li><a href="SNP_summary_help.shtml" target="_blank">Interpreting a Mouse SNP Summary</a>, <a href="SNP_detail_help.shtml" target="_blank">Interpreting Mouse SNP Details</a>, <a href="SNP_load_help.shtml" target="_blank">Interpreting the SNP Data in MGI Report</a></li>
+  <li><a href="SNP_help.shtml" target="_blank">Using the Mouse SNP Query Form</a></li>
+  <li><a href="SNP_terms_help.shtml" target="_blank">SNP Terms</a> for answers to questions such as <a href="SNP_terms_help.shtml#dbSNP" target="_blank">What is dbSNP?</a>, <a href="SNP_terms_help.shtml#function" target="_blank">What are the dbSNP function classes?</a>, <a href="SNP_terms_help.shtml#variation_type" target="_blank">What is a <i>variation type</i>?</a>, and <a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">What is the distinction between variation types?</a></li>
+  <li><a href="SNP_legend_help.shtml" target="_blank">Understanding Mouse SNPs in MGI</a> for information about dbSNP and MGI function classes</li>
 </ul>
 
 <h3><a id="field"></a>Which fields should show up on this report?</h3>
@@ -68,21 +72,23 @@ function openHelpWindow(helpFile){
 		 <tr><th>Synonyms</th><td>Abbreviations and common and unofficial names</td></tr>
 		 <tr><th>Phenomic Data</th><td>A link to the strain page in the Mouse Phenome Database (<a href="https://phenome.jax.org" target="_blank">MPD</a>). The MPD strain page often has an image of the strain and links to all the studies that include the strain.</td></tr>
 		 <tr><th>Mouse Genome Browsers</th><td>For strains whose genome has been annotated, a link to the MGI Multiple Genome Viewer allows you to compare chromosomal regions of the C57BL/6J reference genome and 18 other mouse inbred strains.</td></tr>
-		 <tr><th>Other IDs</th><td>Additional MGI IDs for the strain as well as repository (e.g. <abbr title="JAX Mice and Services" target="_blank">JAX</abbr>, <abbr title="Mutant Mouse Regional Resource Centers">MMRRC</abbr>, <abbr title="Taconic Biosciences">TAC</abbr>) and Mouse Phenome Database (MPD) IDs.</td></tr>
-		 <!--<tr><th>Related Strains</th><td>Substrains ***</td></tr>  -->
+		 <tr><th>Other IDs</th><td>Additional MGI IDs for the strain as well as repository (e.g. <abbr title="The Jackson Laboratory Mice and Services">JAX</abbr>, <abbr title="Mutant Mouse Regional Resource Centers">MMRRC</abbr>, <abbr title="Taconic Biosciences">TAC</abbr>) and Mouse Phenome Database (MPD) IDs.</td></tr>
+		 <tr><th>Strain Family Members</th><td>the number of substrains and other related strains, linked to a summary report of those strains.</td></tr>
 		</table>
 	</td></tr>
 <tr><th><a id="snps"></a>SNPs</th>
     <td><table>
-         <tr><th>SNP Profile Heat Map</th><td><table><tr><th>Comparison Strain</th><td>***</td></tr>
-                     <tr><th>Chromosomes</th><td>***</td></tr>
-                     <tr><th>View</th><td>***</td></tr>
+         <tr><th>SNP Profile Heat Map</th><td><table><tr><th>Comparison Strain</th><td>A strain that has been typed for the same SNPs as this strain</td></tr>
+                     <tr><th>Chromosomes</th><td>For each chromosome a heat map indicates the number of SNPs mapped to the chromosome and  shared with the the comparison strain. The colors range from light blue (few SNPs) to purple to dark red (hundreds of thousands of SNPs). 
+                     Mouse-over a cell to see the number of SNPs and click on a cell to perform a SNP query limited to the 2 strains and the chromosome. You can sort the heat map by clicking the &#9650; &#9660; arrowheads. Uncolored cells lack SNP data between the 2 strains for that chromosome.</td></tr>
+                     <tr><th>View</th><td>When you click on a colored cell, by default, the SNP query returns all SNPs shared between the 2 strains and mapped to that chromosome. This section includes the options of returning only those SNPs that are the same or are different from the page's strain (i.e., this makes the page's strain the reference strain). 
+                     Above your search results is the option to modify the query: (<b>Click to modify search</b>).  (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria.</td></tr>
               </table></td></tr>
          <tr><th>SNPs Involving (this strain)</th><td>The number of SNPs for this strain</td></tr>
-         <tr><th>Comparison Strains</th><td>***</td></tr>
+         <tr><th>Comparison Strains</th><td>The number of strains that have been typed for the same SNPs as this strain.</td></tr>
          </table>
     </td></tr>
-<tr><th><a id="markers"></a>Associated Mutations, Markers, and QTL</th>
+<tr><th><a id="markers"></a>Associated Mutations, <span style="white-space: nowrap">Markers, and QTL</span></th>
 	<td><table>
 		 <tr><th>Associated Mutations and Markers</th><td>Mutant alleles the strain is known to carry and their markers, linked to the MGI Allele and Marker Detail pages, respectively.</td></tr>
 		 <tr><th>Associated QTL</th><td>Quantitative Trait Loci associated with the strain, linked to QTL Variant and QTL Detail pages.</td></tr>
