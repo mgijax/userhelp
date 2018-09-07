@@ -113,7 +113,6 @@ function openHelpWindow(helpFile){
 		  <tr><th>IMSR</th><td>The repository ID for the stock, linked to its IMSR record</td></tr>
 		  <tr><th>Repository</th><td>The abbreviation for the repository holding the stock</td></tr>
 		  <tr><th>IMSR Strain</th><td>The repository's name for the strain. This is not necessarily the official strain name. The repositories vary in their adherence to the <a href="<!--#include file='include/mgihome_url.html'-->nomen/strains.shtml" target="_blank">Strain Nomenclature Guidelines</a>. </td></tr>
-		  <tr><th>Why Matched</th><td>***</td></tr>
 		</table>
 	</td></tr>
 <tr><th><a id="references"></a>References</th>
