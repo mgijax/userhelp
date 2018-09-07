@@ -313,6 +313,7 @@ You can also run an MGI SNP query for strains and a region of interest, and find
         <li>MGI JBrowse - opens <a href="http://jbrowse.informatics.jax.org/">JBrowse</a> for your designated region on C57BL/6J, GRCm38</li>
        </ul></li>
        </ul></li>
+     <li><b>C</b> indicates that comparison genome features are shown in the comparison genomes' (native) order. Click to change this to <b>R</b>, the reference genome order. </li>
      <li>Coords
       <ul>
        <li>Shows the current reference genome coordinates (also shows reference genome’s name)</li>

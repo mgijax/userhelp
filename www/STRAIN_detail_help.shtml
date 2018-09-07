@@ -84,7 +84,7 @@ function openHelpWindow(helpFile){
                      <tr><th>View</th><td>When you click on a colored cell, by default, the SNP query returns all SNPs shared between the 2 strains and mapped to that chromosome. This section includes the options of returning only those SNPs that are the same or are different from the page's strain (i.e., this makes the page's strain the reference strain). 
                      Above your search results is the option to modify the query: (<b>Click to modify search</b>).  (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria.</td></tr>
               </table></td></tr>
-         <tr><th>SNPs Involving (this strain)</th><td>The number of SNPs for this strain</td></tr>
+         <tr><th><span style="white-space: nowrap">SNPs Involving</span> (this strain)</th><td>The number of SNPs for this strain</td></tr>
          <tr><th>Comparison Strains</th><td>The number of strains that have been typed for the same SNPs as this strain.</td></tr>
          </table>
     </td></tr>
