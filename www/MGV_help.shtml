@@ -1,7 +1,7 @@
 <!--#include file='include/templateHead.html'-->
 <title>
   <!--#include file="include/mgiversion.html"-->
- MGI-Using the Multi Genome Viewer
+ MGI-Using the Multiple Genome Viewer
 </title>
 
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
@@ -23,7 +23,7 @@ function openHelpWindow(helpFile){
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
- Using the Multi Genome Viewer
+ Using the Multiple Genome Viewer
  </span>
 </div>
 
@@ -45,16 +45,21 @@ function openHelpWindow(helpFile){
 
 <p>This help document answers the following questions:</p>
 <ul>
- <li><a href="#whatMGVpurpose">What is the purpose of the Multi Genome Viewer?</a></li>
+ <li><a href="#whatMGVpurpose">What is the purpose of the Multiple Genome Viewer?</a></li>
  <li><a href="#allstrains">What inbred strains are included in the Viewer?</a></li>
  <li><a href="#sections">How do I use the different sections of the Viewer?</a></li>
+ <li><a href="#sequences">How can I get FASTA sequences for features of interest?</a></li>
+ <li><a href="#batch">How can I get additional phenotype, GO and expression data for features of interest?</a></li>
+ <li><a href="#snps">How can I find SNPs for a region of interest?</a></li>
  <li><a href="#inversions">Why are some regions of my comparison genomes shaded in pink?</a></li>
  <li><a href="#example">Are there any sample queries?</a></li>
 </ul>
 
-<h3><a id="whatMGVpurpose"></a>What is the purpose of the Multi Genome Viewer?</h3>
-<p>The Multi Genome Viewer allows you to compare chromosomal regions of the C57BL/6J reference genome and 18 other mouse inbred strains: 16 sequenced and annotated by the Wellcome Institute Sanger <a href="https://www.sanger.ac.uk/science/data/mouse-genomes-project">Mouse Genomes Project</a> and two wild-derived strains (CAROLI/EiJ and PAHARI/EiJ) <a href="https://genome.cshlp.org/content/early/2018/03/21/gr.234096.117">published</a> by Paul Flicek and Duncan Odom and others. The Viewer permits searches by genes and other genome features, genome coordinates, and function, phenotype and disease terms. All searches query for canonical genes in MGI's <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a>. 
-Note that currently only the C57BL/6J annotation is “reference quality.”</p>
+<h3><a id="whatMGVpurpose"></a>What is the purpose of the Multiple Genome Viewer?</h3>
+<p>The Multiple Genome Viewer allows you to explore and compare chromosomal regions and synteny blocks between the C57BL/6J reference genome and 18 other mouse inbred strains: 16 sequenced and annotated by the Wellcome Institute Sanger <a href="https://www.sanger.ac.uk/science/data/mouse-genomes-project">Mouse Genomes Project</a> and two wild-derived strains (CAROLI/EiJ and PAHARI/EiJ) <a href="https://genome.cshlp.org/content/early/2018/03/21/gr.234096.117">published</a> by Paul Flicek and Duncan Odom and others. 
+The Viewer permits searches by genes and other genome features, genome coordinates, and function, phenotype, disease, and pathway terms. All searches query for canonical genes in MGI's <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a>. 
+The viewer shows corresponding regions of the selected genomes as horizontal stripes and the equivalent features in each genome via vertical connectors. The navigation of the genomes is synchronized as you scroll in 5' or 3' directions. You can forward lists of features to MouseMine and download genomic, coding and exon sequences for a selected feature for designated strains. 
+You can also run an MGI SNP query for strains and a region of interest, and find QTLs that overlap a defined region. Note that currently only the C57BL/6J annotation is “reference quality.”</p>
 
 <h3><a id="allstrains"></a>What inbred strains are included in the Viewer?</h3>
 
@@ -86,12 +91,12 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
 
 <p>The main portion of the page is divided into boxes.</p>
 <ul>
- <li>Each box has a name, an open/close button (small triangle), and a drag handle (six dots, <i class="material-icons button draghandle"></i>) in the upper right. Use the up/down arrows to expand (&#9660;) and collapse (&#9650;) the boxes. 
+ <li>Each box has a name, an open/close button (small triangle), and a drag handle (six dots, &#8942;&#8942;) in the upper right. Use the up/down arrows to expand (&#9660;) and collapse (&#9650;) the boxes. 
   <ul>
    <li>When “open”, a box displays a “full” view</li>
    <li>When “closed”, a box displays a “contracted” view which may simply be a label
    </ul></li>
- <li>Boxes can be reordered within their columns by dragging by the handle icon (<i class="material-icons button draghandle"></i>) up or down</li>
+ <li>Boxes can be reordered within their columns by dragging by the handle icon (&#8942;&#8942;) up or down</li>
  <li>The open/closed state and the ordering of boxes is remembered by your web browser</li>
  <li>Navigation is integrated with browser history
   <ul>
@@ -105,7 +110,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
 <h4><a id="control"></a>Control Boxes</h4>
  
 <table class="nb">
-<tr><td><a href="#refgenome">Reference genome</a> | <a href="#compgenomes">Comparison genomes</a> | <a href="#findgenes">Find genes</a> | <a href="#mylists">My lists</a> | <a href="#listed">List editor</a> | <a href="#featuretype">Feature types</a> | <a href="#hasid">Has MGI ID?</a> | <a href="#highlight">Is highlighted?</a> </td>
+<tr><td><a href="#refgenome">Reference genome</a> | <a href="#compgenomes">Genomes</a> | <a href="#findgenes">Find genes</a> | <a href="#mylists">My lists</a> | <a href="#listed">List editor</a> | <a href="#featuretype">Feature types</a> | <a href="#hasid">Has canonical ID</a> | <a href="#highlight">Is highlighted</a> </td>
 </tr>
 </table>
 
@@ -123,7 +128,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
   </ul>
   </td>
  </tr>
- <tr><th><a id="compgenomes"></a>Comparison genomes</th>
+ <tr><th><a id="compgenomes"></a>Genomes</th>
   <td>Select zero or more genomes to display along with the reference genome in the <a href="#zoom">Zoom view</a>
   <ul>
    <li>Click a strain to select it and unselect all others</li>
@@ -131,15 +136,22 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
    <li>Command (&#8984;)-click on a Mac, or control-click on a PC, to select individual strains</li>
    <li>Hint: to unselect all comparison genomes, click on any one, then command/control-click it</li>
    </ul>
+  Three buttons allow you to quickly select a set of genomes:
+   <ul>
+    <li>DO/CC founders will select the 8 collaborative cross founder strains</li>
+    <li>B6 vs non-musculus will select SPRET/EiJ, CAROLI/EiJ, PAHARI/EiJ and C57BL/6J. The latter will also be set as the reference genome.</li>
+    <li>All will select the 18 strains from the Mouse Genome Project and C57BL/6J.</li>  
+   </ul>
   </td></tr>
  <tr><th><a id="findgenes"></a>Find genes</th>
-  <td>This box searches for canonical genes (genome features with MGI IDs) by symbol, or those genes annotated to specified Gene Ontology (GO functional annotations), Mammalian Phenotypes (MP), or Disease Ontology (DO) terms. Genes matching or annotated to your search terms will show up as a list in the <a href="#mylists">My lists</a> box. You have four search options available from the toggle: 
+  <td>This box searches MouseMine for canonical genes (genome features with MGI IDs) by symbol, or those genes annotated to specified Gene Ontology (GO functional annotations), Mammalian Phenotypes (MP), Disease Ontology (DO), or Reactome pathway terms. 
+  Genes matching or annotated to your search terms will show up as a list in the <a href="#mylists">My lists</a> box. <!-- Wildcards are added automatically -->You have four search options available from the toggle: 
  <table>
   <tr><th>Toggle Name</th><th>Search Terms</th><th>Find Terms and IDs</th></tr>
-  <tr><td>symbol/ID</td><td>gene symbols and MGI IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a></td></tr>
+  <tr><td>nomenclature</td><td>gene symbols and MGI IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a></td></tr>
   <tr><td>cellular function</td><td>Gene Ontology (GO) terms and GO IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->vocab/gene_ontology" target="_blank">Gene Ontology Browser</a></td></tr>
-  <tr><td>mutant phenotype</td><td>Mammalian Phenotype (MP) terms and MP IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype Browser</a></td></tr>
-  <tr><td>disease implication</td><td>Human Disease Ontology (DO) terms and DO IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->disease" target="_blank">Disease Ontology Browser</a></td></tr>
+  <tr><td>phenotype or disease</td><td>Mammalian Phenotype (MP) terms and MP IDs<br>Human Disease Ontology (DO) terms and DO IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype Browser<br><a href="<!--#include file='include/fewi_url.html'-->disease" target="_blank">Disease Ontology Browser</a></a></td></tr>
+  <tr><td>pathway</td><td>Reactome pathway names and IDs</td><td><a href="https://reactome.org" target="_blank">Reactome</a></td></tr>
  </table>
  Enter one or more search terms/IDs separated by commas, and either tab out of the field or use your keyboard's return/enter key to launch the search. Searches are case insensitive.   
   </td>
@@ -157,16 +169,23 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
      <li>Click on the pencil icon next to a list to open it in the <a href="#listed">List editor</a> to make changes to the list.</li>
      <li>At the bottom of the My lists box are 4 buttons, left to right:
      <ul>
-      <li>a warning about the current status (experimental) of list persistence</li>
+      <li>a warning about list persistence. Clearing your web browser's storage/site data will delete your lists. </li>
       <li>a button to create a new list from the current selections in the <a href="#zoom">Zoom view</a></li>
       <li>a button to open the list formula editor in the List editor</li>
       <li>a button to delete all lists (asks for confirmation first)</ul></li>
      </ul>
     </td></tr>
  <tr><th><a id="listed"></a>List editor</th>
-     <td>
+     <td><p>You can expand the List editor section by clicking the pencil icon for a saved list in your My lists section or by clicking the arrow (&#9660;). The expanded section offers two editable text fields, one for the list name and the other, a list of MGI gene IDs. Below these fields are 5 buttons:</p>
+ <ol>
+  <li>New list</li>
+  <li>Save updates</li>
+  <li>Clear form</li>
+  <li>Forward to MGI: sends the list of IDs to the MGI Batch Query where you can add additional information and export your results.</li>
+  <li>Forward to MouseMine: sends the list of IDs to MouseMine which also offers batch querying, iterative refinement of results, built-in enrichment analysis, downloading in multiple formats, and API access.</li>
+ </ol>
      <ul>
-     <li>Allows you to
+     <li>The List editor allows you to
      <ul>
       <li>view/edit the contents of a list</li>
       <li>create new lists from scratch (i.e., by entering IDs)</li>
@@ -188,6 +207,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
      <ul>
      <li>***kind of involved. Need to work on this…</ul></li>-->
     </ul>
+   <p>When you create a new list, the <a href="#zoom">Zoom view</a> moves to the first feature in that list.</p>
  </td></tr>
  <tr><th><a id="featuretype"></a>Feature types (facet)</th>
      <td> 
@@ -200,7 +220,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
      </ul></li>
     </ul>
      </td></tr>
- <tr><th><a id="hasid"></a>Has MGI ID? (facet)</th>
+ <tr><th><a id="hasid"></a>Has canonical ID (facet)</th>
      <td>
      <ul>
       <li>Three radio buttons with values Yes/No/Don’t care
@@ -211,7 +231,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
        </ul></li>
      </ul>
      </td></tr>
- <tr><th><a id="highlight"></a>Is highlighted? (facet)</th>
+ <tr><th><a id="highlight"></a>Is highlighted (facet)</th>
      <td>
      <ul>
       <li>Three radio buttons with values Yes/No/Don’t care
@@ -237,7 +257,7 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
 	<th>Descriptions</th>
  </tr>
 <tr><th><a id="genomeview"></a>Genome view</th>
-     <td>This is the top section of the main body of the page. It: 
+     <td>This is the top section of the main body of the page, unless you move it. It: 
      <ul>
           <li>Displays the chromosomes from the currently selected reference genome
            <ul>
@@ -249,19 +269,20 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
              <li>in the Zoom view, click on that genome’s stripe
             </ul></li>
            <li>Drag on a chromosome in the genome view to zoom to that chromosome's region in the Zoom view</li>
+           <li>When you click on a list in My lists, the Genome View shows a pink dot for each feature in your list. Click on a dot to center the Zoom View on that feature.</li>
           </ul>
        </td></tr>
  <tr><th><a id="featuredetail"></a>Feature details</th>
      <td>
      <ul>
-      <li>Displays the currently moused-over feature (from the <a href="#zoom">Zoom view</a>) and its equivalent features from the currently selected genomes (A row of “.”s means no <!--genolog-->equivalent feature in that genome.)
-      <li>Displays the Genome (inbred strain), MGP ID (Mouse Genomes Project ID; for the reference, C57BL/6J strain, this is an Ensembl ID), Type (feature type), BioType (subtype), Coords (chromosome, genome coordinates and strand), Length (in bp), MGI ID (linked the the MGI Detail page), and MGI Symbol (official nomenclature).
+      <li>Displays the currently clicked-on feature (from the <a href="#zoom">Zoom view</a>) and its equivalent features from the currently selected genomes (A row of “.”s means no <!--genolog-->equivalent feature in that genome.)
+      <li>Displays the MGI ID (linked the the MGI Detail page), MGI Symbol (official nomenclature), Genome (inbred strain), MGP ID (Mouse Genomes Project ID; for the reference, C57BL/6J strain, this is an MGI ID), Type (feature type), BioType (subtype), Coordinates (chromosome, genome coordinates and strand), and Length (in bp).
        <ul>
-        <li>the moused-over equivalent feature row is also highlighted</li>
+        <li>the clicked-on equivalent feature row is also highlighted</li>
        </ul></li>
       <li>Mousing over a row in the Feature details table causes that equivalent feature to pulsate in the Zoom view
      <ul>
-      <li>Hint: in the Zoom view you can temporarily turn off the mouseover-highlighting by holding down the control key as you move the mouse
+      <li>Hint: in the Zoom view you can temporarily turn on a mouseover-highlighting of the Feature details section by holding down the control key as you move the mouse over features.
      </ul></li>
 </ul></tr>
  <tr><th><a id="zoom"></a>Zoom view</th>
@@ -286,13 +307,15 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
        <li>Click on &#9776; to find options to export:
         <ul>
         <li>MGI SNPs - links to MGI SNP report for SNPs within the given region</li>
-        <li>MGI QTLs</li>
-        <li>MGI JBrowse</li>
+        <li>MGI QTLs - links to an MGI report of QTLs that overlap the region</li>
+        <li>MGI JBrowse - opens <a href="http://jbrowse.informatics.jax.org/">JBrowse</a> for your designated region on C57BL/6J, GRCm38</li>
        </ul></li>
        </ul></li>
+     <li><b>C</b> indicates that comparison genome features are shown in the comparison genomes' (native) order. Click to change this to <b>R</b>, the reference genome order. </li>
      <li>Coords
       <ul>
        <li>Shows the current reference genome coordinates (also shows reference genome’s name)</li>
+       <li>You can change the coordinates or enter a gene symbol</li>
        <li>Type and press return/enter or tab out to change</li>
       </ul></li>
      <li>Showing
@@ -304,10 +327,10 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
      <ul>
      <li>Four magnifying icons, left to right: Zoom out a lot, Zoom out, Zoom in, Zoom in a lot</li>
      </ul></li>
-    <li>Pan
+     <li>Pan
      <ul>
       <li>Four buttons: Pan left a lot, Pan left, Pan right, Pan right a lot</li>
-	 </ul></li>
+      </ul></li>
 	 </ul></li>
    <li>Within a given stripe (i.e., genome):
    <ul>
@@ -315,28 +338,67 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
     <ul>
     <li>symbol displayed in Zoom view</li>
     <li>connections to equivalent features in other genomes (if any - depends on the annotation)</li>
-    <li>associated data are also displayed in tabular form in the <a href="featuredetail">Feature details</a> view</li>
     </ul></li>
+  <li>mouse over the horizontal gray bar beneath a genome to view the coordinates at that point</li>
   <li>click on a feature to select it
    <ul>
     <li>shift-click to select multiple genes and view their equivalent features</li>
     <li>hold down the option/alt key when mousing to select every feature you touch</li>
+    <li>Control/alt click on a feature and you are presented with several options: the option to  align the view on the Feature, to view the feature in MGI or MouseMine, and the options to download genomic, coding and exon sequences for the feature for your selected strains.</li>
+    <li>associated data are also displayed in tabular form in the <a href="featuredetail">Feature details</a> view</li>
    </ul></li>
   <li>drag immediately beneath the stripe’s background to zoom in to that region</li>
-  <li>shift-drag to zoom out</li>
+  <li>use a track pad or mouse wheel to scroll left and right</li>
   <li>For each strain, plus strand features are shown above the center line with minus strand features below.</li>
   <li>backgrounds are colored to indicate rearrangements. Pink segments are inverted relative to the selected reference genome, and yellow segments are translocated.</li>
   </ul></li>
+  <li>Command (&#8984;)-click on a feature on a Mac, or control-click on a PC, to line up the view on the feature and center it in the zoom view.</li>
+  <li>Control/ctrl click on a feature and a pop-up window appears with the feature symbol at the top. Beneath the symbol the following options may be present, depending on the feature: 
+ <ul>
+  <li>Align on this feature - this will line up the view on the feature and center it in the zoom view</li>
+  <li>Feature@MGI - opens the feature's detail page in MGI</li>
+  <li>Feature@MouseMine - opens the feature's page in MouseMine</li>
+  <li>Genomic sequences - download the feature's genomic sequence for each of the strains in the zoom view</li>
+  <li>CDS sequences - download the feature's coding sequences for each of the strains in the zoom view</li>
+  <li>Exon sequences - download the feature's exon sequences for each transcript for each of the strains in the zoom view</li>
+ </ul></li>
 </ul>
+<!-- Whenever the landmark does not exist in a given genome, it falls back to mapping the coordinates based on synteny blocks. -->
      </td></tr>
 </table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
+<h3><a id="sequences"></a>How can I get FASTA sequences for features of interest?</h3>
+
+<p>Control/ctrl click on a feature in the <a href="#zoom">Zoom view</a> and a pop-up window appears with the feature symbol at the top. Beneath the symbol options may be present to download the feature's genomic, CDS and exon sequences for your selected strains. The downloaded file's name will begin with "results."</p>
+<p>The pop-up window will also offer you the option to view the feature's page in MouseMine. There you can limit your downloads to specific sequences.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="batch"></a>How can I get additional phenotype, GO and expression data for features of interest?</h3>
+
+<p>Click on the pencil icon for a list in My Lists. This will load the list into the List Editor. There, beneath the list of IDs, are several buttons. 
+The last 2 offer the options to Forward the list to MGI and its basic Batch Query, or to Forward the list to MouseMine, an advanced batch query tool.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="snps"></a>How can I find SNPs for a region of interest?</h3>
+
+<ol>
+<li>Select your strains of interest in the <a href="#compgenomes">Genomes</a> box.</li> 
+<li>In the <a href="#zoom">Zoom view</a>, zoom in on a region or enter coordinates in the Coords field.</li>
+<li>Click on the Linkout menu (&#9776;) in the Zoom view and select the first option, MGI SNPs. This will run an MGI Mouse SNPs query for your selected strains and the region set in the coords.</li>
+</ol>
+
+<p>Note that the the Linkout menu also lets you find QTLs that overlap the region or open the region in JBrowse.<p> 
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
 <h3><a id="inversions"></a>Why are some regions of my comparison genomes shaded in pink?</h3>
 
-<p>Pink shaded regions are <a href="<!--#include file='include/fewi_url.html'-->glossary/inversion" target="_blank">inverted</a> compared to your selected reference genome. Yellow shaded regions are <a href="<!--#include file='include/fewi_url.html'-->glossary/translocation" target="_blank">translocations</a>. Chromosomal regions that include a part of a different chromsome from the reference chromosome will be marked by a vertical blue line with the chromosome number beneath it.</p>
-<p>These regions are also marked by their colored stripe in the <a href="#genomeview">Genome view</a> when you click on a comparison genome in the <a href="#zoom">Zoom view</a>. The Genome view will show the reference genome chromosomes with colored stripes (red/pink, yellow and blue).</p>
+<p>Pink shaded regions are <a href="<!--#include file='include/fewi_url.html'-->glossary/inversion" target="_blank">inverted</a> compared to your selected reference genome. Orange shaded regions are <a href="<!--#include file='include/fewi_url.html'-->glossary/translocation" target="_blank">translocations</a>. Chromosomal regions that include a part of a different chromsome from the reference chromosome will be marked by a vertical blue line with the chromosome number beneath it.</p>
+<p>These regions are also marked by their colored stripe in the <a href="#genomeview">Genome view</a> when you click on a comparison genome in the <a href="#zoom">Zoom view</a>. The Genome view will show the reference genome chromosomes with colored stripes (red/pink, orange and green).</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -348,15 +410,15 @@ Note that currently only the C57BL/6J annotation is “reference quality.”</p>
  <li>Select C57BL/6J as the Reference genome.</li>
  <li>Shift-click to select the Comparison genomes: AKR/J, BALB/cJ and C3H/HeJ.</li>
  <li>Command (&#8984;)-click on a Mac, or control-click on a PC, to select CAST/EiJ.</li>
- <li>In the Find genes box, toggle the default search, &hellip;by symbol/ID, to &hellip;by cellular function, and enter: GO:0008045 (the GO ID for motor neuron axon guidance) and hit your keyboard's return/enter key.</li>
+ <li>In the Find genes box, toggle the default search, &hellip;by phenotype or disease, to &hellip;by cellular function, and enter: GO:0008045 (the GO ID for motor neuron axon guidance) and hit your keyboard's return/enter key.</li>
  <li>The GO ID will appear in the My lists box, with the number of genes annotated to the term and its subterms indicated. The genes will also be represented in the <a href="#genomeview">Genome view</a> section with each gene represented by a pink dot. Mouse over a dot to see its gene symbol.</li>
  <li>Click on one of the comparison strains in the <a href="#zoom">Zoom view</a> to view synteny blocks with the reference genome in the Genome view. Rearranged regions with respect to the reference genome are marked by colored lines in the Genome view.</li>
  <li>In the Genome view, drag your cursor over the region of Chromosome X above and below its pink dot.</li>
  <li>This will load this region into the Zoom view below. The <i>Plxna3</i> gene is marked in the Zoom view because it is a gene in your active My list, and connected by a line to the other strains. Mouse over any feature in the Zoom view to see its details in the <a href="featuredetail">Feature details</a> section just above the Zoom view.</li>
 <li>Click on one of the Magnifying glass icons with a + sign to zoom in.</li>
-<li>Notice that 2 comparison strains have a rearrangement involving Chromosome 5. Your screen may look something like <a href="http://proto.informatics.jax.org/prototypes/mgv/#ref=C57BL/6J&genomes=C57BL/6J+AKR/J+BALB/cJ+C3H/HeJ+CAST/EiJ&chr=X&start=73774008&end=74606985&highlight=MGI:2444521+MGI:95410+MGI:104327+MGI:3777564+MGI:3777569+MGI:99783+MGI:96170+MGI:99423+MGI:107684+MGI:106206+MGI:2179061+MGI:3777561+MGI:99612+MGI:1315203+MGI:99604+MGI:109160+MGI:1315205+MGI:1098269+MGI:107558+MGI:101776+MGI:101765+MGI:3777558+MGI:1915674+MGI:1914004+MGI:2179432+MGI:3777566+MGI:98277+MGI:1096347+MGI:109563+MGI:102673+MGI:107683+MGI:1313266+MGI:96174+MGI:107685+MGI:95296+MGI:103556">this.</a></li>
+<li>Notice that some comparison strains have a translocated region involving Chromosome 4. Your screen may look something like <a href="http://proto.informatics.jax.org/prototypes/mgv/#chr=X&start=74025936&end=74636321&dmode=reference&ref=C57BL/6J&genomes=C57BL/6J+AKR/J+BALB/cJ+C3H/HeJ+CAST/EiJ&highlight=">this.</a></li>
 <li>Zoom in some more and then use the Pan icons to move <i>Plxna3</i> off your screen.</li>
-<li>To bring <i>Plxna3</i> back into view, to go to the Genome view section and drag the, now much smaller, blue selection you made earlier, back in line with the center of the pink dot on Chromosome X.</li>
+<li>To bring <i>Plxna3</i> back into view, to go to the Genome view section and drag the, now much smaller, blue selection you made earlier, back in line with the center of the pink dot on Chromosome X or search for Plxna3 in the C57BL/6J coords field.</li>
 <li>If you have clicked on another feature, <i>Plxna3</i> may no longer be labeled. To find it, click on the GO ID again in the My lists box.</li>
 <li>Click on the Linkout menu (&#9776;) icon to the left of the C57BL/6J coords and select MGI SNPs to launch of search of MGI SNPs in this region for these strains.</li> 
 </ol> 
