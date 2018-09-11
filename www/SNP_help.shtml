@@ -238,7 +238,7 @@ function openHelpWindow(helpFile){
 <!-- <tr><th><a id="attributes"></a>SNP attributes</th><td>Use these boxes to determine the types and case of SNPs to return. To make selections, click one or more items on the lists.  The default is to return SNPs from <B>Any</B> type or class on the list. See <a name="variation_type"></a><a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">Variation Types</a> and <a name="function_class"></a><a href="SNP_terms_help.shtml#dbsnp_fc" target="_blank">Function Class</a> for additional details about list items on these lists.</td></tr> -->
 
    <tr><th><a id="map_position"></a>Genome Region</th>
-       <td>You must select a Chromosome and enter a range of genome coordinates (Examples: 125.618-125.622 Mbp; 1-125618205 bp; 125618205 - 200000000 bp; Use 0 - 200 Mbp for an entire Chr) to use the Search by Region tab. You can toggle between bp and Mbp ranges.</td>
+       <td>You must select a Chromosome and enter a range of genome coordinates (Examples: 125.618-125.622 Mbp; 1-125618205 bp; 125618205 - 200000000 bp; Use 0 - 200 Mbp for an entire Chr) or a marker range to use the Search by Region tab. You can toggle between bp and Mbp ranges.</td>
     </tr>
 </table>
 </p>
