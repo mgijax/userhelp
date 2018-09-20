@@ -45,6 +45,7 @@ function openHelpWindow(helpFile){
  <LI><A HREF="#accession_id">How do I query using a SNP accession ID?</A></LI>
  <li><a href="#sasc">How do I use the strain and strain comparison lists (Available Strains, Selected Strains, Reference Strain)?</a></li>
  <li><a href="#reference">What is a Reference Strain?</a></li>
+ <li><a href="#sasc">How can I select just the Collaborative Cross founder strains?</a></li>
  <li><A href="#no_strain">Why isn't my strain on the Strains lists?</A></li>
  <li><A href="#available_strain_sort">What determines the sort order on the Available Strains list?</A></li>
  <LI><A HREF="#field">What values are acceptable in the each of the query form fields?</A></LI>
@@ -134,13 +135,12 @@ function openHelpWindow(helpFile){
 
 <h3>How do I use the Strains and Strain Comparison lists?</h3>
 
-<p>See <a href="#sasc">Strains and Strain Comparisons</a>.
-</p>
+<p>See <a href="#sasc">Strains and Strain Comparisons</a>.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="reference"></a>What is a Reference Strain?</h3>
-<p>A reference strain is the comparison strain to use for determining whether the <b>SNPs Returned</b> are the <i>same as</i> or <i>different from</i> your selected strain or to limit your search to RefSNPs with an allele value for that strain.
+<p>A reference strain is the comparison strain to use for determining whether the <b>SNPs Returned</b> are the <i>same as</i> or <i>different from</i> your selected strain or to limit your search to RefSNPs with an allele value for that strain.</p>
 <ul>
   <li>The Reference Strain selection list can accept only one strain. </li>
   <li>If you add a reference strain you must also have at least one strain checked in the Find SNPs Involving these Strains section.</li>
@@ -148,14 +148,19 @@ function openHelpWindow(helpFile){
   <li>You can choose to return only SNPs that are different or the same as your reference strain.</li>
   <li>By default, the reference strain is the first strain listed in your results.</li>
 </ul>
-</p>
+
 <p>See <a href="#sasc">Strains and strain comparisons</a> for additional details.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
+<h3>How can I select just the Collaborative Cross founder strains?</h3>
+
+<p>See <a href="#sasc">Strains and Strain Comparisons</a>.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
 <h3><A id="no_strain"></a>Why isn't my strain in the Strains lists?</h3>
-<p>If the strain that interests you isn't listed, then there are no alleles for that strain in dbSNP. 
-</P>
+<p>If the strain that interests you isn't listed, then there are no alleles for that strain in dbSNP. </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -214,7 +219,8 @@ function openHelpWindow(helpFile){
     <li>By default, no Reference Strain is selected. See: <a href="#reference">What is a Reference Strain?</a></li>
     <li>There are no disallowed combinations of strain and reference strain (except when they are the same).</li>
     <li>When you supply both a selected and a reference strain, the SNPs Returned default is to display all SNPs (both the same as and different from the reference strain allele).
-<li>If you do not select a strain, the default is to consider all strains for the query. Strains returned are initially sorted in alphanumeric order, except if a reference strain is chosen, then it will be listed first.</li>
+    <li>Buttons make it easy to select subsets of strains, such as the Collaborative Cross and Diversity Outcross founder strains (DO/CC founders), the sequenced Wellcome Institute Sanger Mouse Genomes Project (MGP) strains, and to select or clear all strains.</li>
+    <li>If you do not select a strain, the default is to consider all strains for the query. Strains returned are initially sorted in alphanumeric order, except if a reference strain is chosen, then it will be listed first.</li>
     </ul>
     <p>Reference Strains</p>
     <ul>
@@ -232,7 +238,7 @@ function openHelpWindow(helpFile){
 <!-- <tr><th><a id="attributes"></a>SNP attributes</th><td>Use these boxes to determine the types and case of SNPs to return. To make selections, click one or more items on the lists.  The default is to return SNPs from <B>Any</B> type or class on the list. See <a name="variation_type"></a><a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">Variation Types</a> and <a name="function_class"></a><a href="SNP_terms_help.shtml#dbsnp_fc" target="_blank">Function Class</a> for additional details about list items on these lists.</td></tr> -->
 
    <tr><th><a id="map_position"></a>Genome Region</th>
-       <td>You must select a Chromosome and enter a range of genome coordinates (Examples: 125.618-125.622 Mbp; 1-125618205 bp; 125618205 - 200000000 bp; Use 0 - 200 Mbp for an entire Chr) to use the Search by Region tab. You can toggle between bp and Mbp ranges.</td>
+       <td>You must select a Chromosome and enter a range of genome coordinates (Examples: 125.618-125.622 Mbp; 1-125618205 bp; 125618205 - 200000000 bp; Use 0 - 200 Mbp for an entire Chr) or a marker range to use the Search by Region tab. You can toggle between bp and Mbp ranges.</td>
     </tr>
 </table>
 </p>

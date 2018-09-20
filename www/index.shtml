@@ -145,6 +145,12 @@ User Help Site Map
 	<!--<dt><b>Strains & Polymorphisms</b></dt>
 	 <dd><a href="STRAINS_polymorphism_help.shtml" onclick="javascript:openHelpWindow('STRAINS_polymorphism_help.shtml'); return false;">Using the RFLP/PCR Polymorphism Query Form</a></dd>-->
 	
+  	<dt><b>Strains</b></dt>
+  	<dd><a href="STRAIN_search_help.shtml" target="_blank">Using the Strain Search</a></dd>
+  	<dd><a href="STRAIN_summary_help.shtml" target="_blank">Interpreting a Strain Summary</a></dd>
+  	<dd><a href="STRAIN_detail_help.shtml" target="_blank">Interpreting Strain Details</a></dd>
+  	</dt>
+	
 	<dt><b>SNPs</b></dt>         
         <dd><a href="SNP_help.shtml" target="_blank">Using the Mouse SNP Query Form</a></dd>
 	    <dd><a href="SNP_summary_help.shtml" target="_blank">Interpreting a Mouse SNP Summary</a></dd>
