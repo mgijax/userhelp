@@ -62,8 +62,6 @@ function openHelpWindow(helpFile){
       <td>
         <dl class="linkedList">
 
-
-
   <a name="help_go"></a>
   
     <table class="outline" width="100%">
@@ -73,7 +71,6 @@ function openHelpWindow(helpFile){
         <a href='<!--#include file='include/homepages_url.html'-->function.shtml'
         onclick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->function.shtml');
         return false;">
-
 
  <a name="help_pathways"></a>
   
@@ -93,8 +90,8 @@ function openHelpWindow(helpFile){
         <dl class="linkedList">
 
 
-<a href='<!--#include file='include/homepages_url.html'-->strains_SNPs.shtml'
-          onclick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->strains_SNPs.shtml');
+<a href='<!--#include file='include/fewi_url.html'-->home/strain'
+          onclick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->home/strain');
           return false;">
           <!-- help example -->
 
