@@ -89,7 +89,7 @@ You can also run an MGI SNP query for strains and a region of interest, and find
 
 <h3><a id="sections"></a>How do I use the different sections of the Viewer?</h3>
 
-<p>In the page banner, click on the gear icon to open or close the left hand panel. The MGI logo links to the MGI Home Page and the <span style="font-weight: bold; color: #352C96;">&#8505;</span> icon links to this help document.</p>
+<p>In the page banner, click on the gear icon to open or close the left hand panel. The MGI logo links to the MGI Home Page and the <span style="font-weight: bold; font-size: 1.2em; color: #352C96;">&#8505;</span> icon links to this help document.</p>
 
 <p>The main portion of the page is divided into boxes.</p>
 <ul>
