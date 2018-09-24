@@ -326,7 +326,8 @@ You can also run an MGI SNP query for strains and a region of interest, and find
         <li>MGI JBrowse - opens <a href="http://jbrowse.informatics.jax.org/">JBrowse</a> for your designated region on C57BL/6J, GRCm38</li>
        </ul></li>
        </ul></li>
-     <li><b>C</b> indicates that comparison genome fragments are shown in the comparison genomes' (native) order. Click to change this to <b>R</b>, the reference genome order. </li>
+     <li><b>C</b> indicates that comparison genome fragments are shown in the comparison genomes' (native) order. Click to change this to <b>R</b>, the reference genome order. 
+     This <a href="http://www.informatics.jax.org/mgv/#chr=10&start=55620656&end=62728727&dmode=comparison&ref=C57BL/6J&genomes=C57BL/6J+BALB/cJ+C3H/HeJ+NOD/ShiLtJ+CAST/EiJ+PWK/PhJ+SPRET/EiJ&highlight=">example</a> shows the comparison genome features in the comparison genomes' order. Click the <b>R</b> to view the same region in the reference genome's order. </li>
      <li>Coords
       <ul>
        <li>Shows the current reference genome coordinates (also shows reference genome’s name)</li>
@@ -430,7 +431,9 @@ The last 2 offer the options to Forward the list to MGI and its basic Batch Quer
 
 <h3><a id="example"></a>Are there any examples?</h3>
 
-<p>The following example will help you get started using the Viewer.</p>
+<p>The following examples will help you get started using the Viewer.</p>
+
+<p>This example shows how to a search for a GO term, select comparison strains, adjust the view, and launch a search for SNPs:</p>
 
 <ol>
  <li>Select C57BL/6J as the Reference Genome.</li>
@@ -448,6 +451,8 @@ The last 2 offer the options to Forward the list to MGI and its basic Batch Quer
 <li>If you have clicked on another feature, <i>Plxna3</i> may no longer be labeled. To find it, click on the GO ID again in the My Lists box.</li>
 <li>Click on the Linkout menu (&#9776;) icon to the left of the C57BL/6J coords and select MGI SNPs to launch of search of MGI SNPs in this region for these strains.</li> 
 </ol> 
+
+<p>This <a href="http://www.informatics.jax.org/mgv/#landmark=MGI:103310&delta=0&length=9000010&dmode=comparison&ref=C57BL/6J&genomes=C57BL/6J+BALB/cJ+CAST/EiJ+PWK/PhJ&highlight=MGI:103310">example</a> is a search for the pathway, Signaling by EGFR, with 4 strains selected and the region around Ptprk on Chromosome 10 shown and Ptprk is selected as the "landmark." </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
