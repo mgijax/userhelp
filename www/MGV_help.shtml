@@ -48,6 +48,7 @@ function openHelpWindow(helpFile){
  <li><a href="#whatMGVpurpose">What is the purpose of the Multiple Genome Viewer?</a></li>
  <li><a href="#allstrains">What inbred strains are included in the Viewer?</a></li>
  <li><a href="#sections">How do I use the different sections of the Viewer?</a></li>
+ <li><a href="#align">How do I align on a feature?</a></li>
  <li><a href="#sequences">How can I get FASTA sequences for features of interest?</a></li>
  <li><a href="#batch">How can I get additional phenotype, GO and expression data for features of interest?</a></li>
  <li><a href="#snps">How can I find SNPs for a region of interest?</a></li>
@@ -380,6 +381,10 @@ You can also run an MGI SNP query for strains and a region of interest, and find
 <!-- Whenever the landmark does not exist in a given genome, it falls back to mapping the coordinates based on synteny blocks. -->
      </td></tr>
 </table>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="align"></a>How do I align on a feature?</h3>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
