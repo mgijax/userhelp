@@ -369,7 +369,8 @@ You can also run an MGI SNP query for strains and a region of interest, and find
   </ul></li>
   <li>Control/right-click on a feature and a pop-up window appears with the feature symbol at the top. Beneath the symbol the following options may be present, depending on the feature: 
  <ul>
-  <li>Align on this feature - this will line up the view on the feature and center it in the Zoom View</li>
+  <li>Align on this feature - this will line up the view on the feature and center it in the Zoom View. To return to the normal/mapped view, click the <span style="color: red;">&#9447;</span> in front of "Aligned on" beneath the coordinates. 
+  For more details, see <a href="#align">How do I align on a feature?</a>.</li>
   <li>Feature@MGI - opens the feature's detail page in MGI</li>
   <li>Feature@MouseMine - opens the feature's page in MouseMine</li>
   <li>Genomic sequences - download the feature's genomic sequence in FASTA format for each of the strains in the Zoom View</li>
@@ -385,6 +386,12 @@ You can also run an MGI SNP query for strains and a region of interest, and find
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="align"></a>How do I align on a feature?</h3>
+
+<p>Control/right-click on a feature in the <a href="#zoom">Zoom View</a> and a pop-up window appears with the feature symbol at the top. Beneath the symbol select the first option to align on the feature. As an example, the view will change from <a href="http://www.informatics.jax.org/mgv/#chr=1&start=25847437&end=34847442&dmode=comparison&ref=C57BL/6J&genomes=C57BL/6J+BALB/cJ+CAST/EiJ&highlight=MGI:2159649">this</a> to the <a href="http://www.informatics.jax.org/mgv/#landmark=MGI:2159649&delta=0&length=9000006&dmode=comparison&ref=C57BL/6J&genomes=C57BL/6J+BALB/cJ+CAST/EiJ&highlight=MGI:2159649">landmark</a> view. 
+In the first view, you are specifying an absolute coordinate range (1:25847437..34847442) and the viewer uses synteny block data to map those coordinates to other genomes. The resulting regions can vary significantly in size from the reference, can include fragments from other chromosomes. 
+In the second, aligned or "landmark" view, the coordinates get converted to a single slice of each genome (in absolute coordinates) where the landmark exists. Each slice is centered on the landmark. (Note: the landmark may not exist (or be annotated) in every genome. In that case, MGV falls back on coordinate mapping to display that genome. 
+The advantage of mapped/first mode is that it always works (i.e., you don’t need a landmark) and it shows you the translations/inversions/etc. between the reference and comparison genome. The plus side of landmark mode is it lines things up nicely. The downside is you lose the context (translations/inversions). 
+To switch from the "landmark" view to the "mapped" view, click the <span style="color: red;">&#9447;</span> in front of "Aligned on" beneath the coordinates. </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
