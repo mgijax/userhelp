@@ -201,7 +201,7 @@ function openHelpWindow(helpFile){
         </uL>
         </td>
     </tr>
-    <tr><th>SNPs Located Near Genes</TH>
+    <tr><th>SNPs Located Near Genes</th>
         <td>When searching by gene symbol, SNPs within 2 kb of the gene(s) are returned by default. You can choose to limit your search to just within the gene(s) or to expand the range to within 10 kb of the gene(s).
         <p>The SNPs Located near Genes function returns SNPs located within the specified distance/orientation of the marker or markers that match the Gene Symbol/Name query.
         <ul>
@@ -211,7 +211,7 @@ function openHelpWindow(helpFile){
 <b>Note:</b> When there is a discrepancy between the genome coordinates of SNPs and MGI genes, this section of the field is disabled. For more information, see <a href="SNP_discrepancy_help.shtml" target="_blank">How does genome coordinate discrepancy affect my query?</a>
         </td></tr>
   </table></td></tr>
-  <tr><td><b><a id="sasc"></a>Strains and Strain Comparisons</b></td><td>Use this section to select strains to search, determine a <a id="reference_strain"></a><b>Reference Strain</b> to return by comparison (if desired), and to determine the <a id="snps_returned"></a><b>SNPs Returned</b> (same as or different from the reference strain, or all SNPs). 
+  <tr><th><a id="sasc"></a>Strains and Strain Comparisons</th><td>Use this section to select strains to search, determine a <a id="reference_strain"></a><b>Reference Strain</b> to return by comparison (if desired), and to determine the <a id="snps_returned"></a><b>SNPs Returned</b> (same as or different from the reference strain, or all SNPs). 
    <ul>
     <li>All strains are selected by default.</li>
     <li>By default, no Reference Strain is selected. See: <a href="#reference">What is a Reference Strain?</a></li>
