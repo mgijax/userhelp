@@ -35,7 +35,7 @@ function openHelpWindow(helpFile){
 
 <a id="top"></a>
 
-<p>This help document answers the following questions:
+<p>This help document answers the following questions:</p>
  <UL>
  <LI><A HREF="#whatdo">What can I use the Mouse SNP Query Form to find?</A></LI>
  <LI><A HREF="SNP_discrepancy_help.shtml" target="_blank">How does genome coordinate discrepancy affect a query?</A></LI>
@@ -58,17 +58,15 @@ function openHelpWindow(helpFile){
  <li><a href="#tabfile">How do I retrieve my results as a tab-delimited text file?</a></li>
  <LI><A HREF="SNP_no_results_help.shtml" target="_blank">My query returned no results. Why?</A></LI>
 <!--<A HREF="#example">Are there any sample queries?</A></LI>-->
-
 </UL>
-</P>
-<p>See also: 
+
+<p>See also: </p>
 <UL>
 <li><a href="SNP_terms_help.shtml" target="_blank">SNP Terms</a> for answers to questions such as <a href="SNP_terms_help.shtml#dbSNP" target="_blank">What is dbSNP?</a>, <a href="SNP_terms_help.shtml#function" target="_blank">What are the dbSNP function classes?</a>, <a href="SNP_terms_help.shtml#variation_type" target="_blank">What is a <i>variation type</i>?</a>, and <a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">What is the distinction between variation types?</a></li>
 <li><a href="SNP_legend_help.shtml" target="_blank">Understanding Mouse SNPs in MGI</a> for information about dbSNP and MGI function classes</li>
 <li><a href="SNP_summary_help.shtml" target="_blank">Interpreting a Mouse SNP Summary</a>, <a href="SNP_detail_help.shtml" target="_blank">Interpreting Mouse SNP Details</a>, <a href="SNP_load_help.shtml" target="_blank">Interpreting the SNP Data in MGI Report</a></li>
 <li><a href="SNP_discrepancy_help.shtml" target="_blank">Understanding Mouse SNP Coordinate Discrepancies</a></li>
 </ul>
-</p>
 
 <H3><A id="whatdo"></A>What can I use the Mouse SNP Query Form to find?</H3>
 <P>MGI loads all mouse dbSNP assay data and RefSNP consensus data where allele values are specified for individual strains. dbSNP includes mouse SNP data where the nucleotide values are not specified for individual strains. 
@@ -178,7 +176,7 @@ function openHelpWindow(helpFile){
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="field"></a>What values are acceptable in each of the query form fields?</h3>
-<p>You must select or type a value for at least one of the following:
+<p>You must select or type a value for at least one of the following:</p>
 <ul>
   <li>Gene Symbol/Name in the <b>Search by Gene</b> tab</li>
   <li>Chromosome and Genome Coordinates in the <b>Search by Region</b> tab.</li>
@@ -232,7 +230,6 @@ function openHelpWindow(helpFile){
      <li>If you select Same (or Different) from a reference strain, SNPs with conflicts are not returned.</li>
      <li>If you select more than one strain to compare to a reference strain and also choose to return only SNPs that are the Same (or Different), then only alleles that are the Same (or Different) for all the selected comparison strains and the reference strain will be returned. 
      </ul>
-     </p>
      </td>
    </tr>
 <!-- <tr><th><a id="attributes"></a>SNP attributes</th><td>Use these boxes to determine the types and case of SNPs to return. To make selections, click one or more items on the lists.  The default is to return SNPs from <B>Any</B> type or class on the list. See <a name="variation_type"></a><a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">Variation Types</a> and <a name="function_class"></a><a href="SNP_terms_help.shtml#dbsnp_fc" target="_blank">Function Class</a> for additional details about list items on these lists.</td></tr> -->
@@ -241,7 +238,6 @@ function openHelpWindow(helpFile){
        <td>You must select a Chromosome and enter a range of genome coordinates (Examples: 125.618-125.622 Mbp; 1-125618205 bp; 125618205 - 200000000 bp; Use 0 - 200 Mbp for an entire Chr) or a marker range to use the Search by Region tab. You can toggle between bp and Mbp ranges.</td>
     </tr>
 </table>
-</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -264,7 +260,6 @@ function openHelpWindow(helpFile){
 <!--<li>If you had <a href="#filter">filtered</a> your search results, when you modify your search, the filters are automatically applied to your modified results.</li>-->
 <li>Alternatively, click Reset to return to the original Mouse dbSNP Query form. </li>
 </ul>
-</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

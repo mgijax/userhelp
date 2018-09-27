@@ -79,7 +79,7 @@ function openHelpWindow(helpFile){
 <tr><th><a id="snps"></a>SNPs</th>
     <td><table>
          <tr><th>SNP Profile Heat Map</th><td><table><tr><th>Comparison Strain</th><td>A strain that has been typed for the same SNPs as this strain</td></tr>
-                     <tr><th>Chromosomes</th><td>For each chromosome a heat map indicates the number of SNPs mapped to the chromosome and  shared with the the comparison strain. The colors range from light blue (few SNPs) to purple to dark red (hundreds of thousands of SNPs). 
+                     <tr><th>Chromosomes</th><td>For each chromosome a heat map indicates the number of SNPs mapped to the chromosome and  shared with the the comparison strain. The colors range from clear (no data), to light blue (few SNPs) to purple to dark red (hundreds of thousands of SNPs). 
                      Mouse-over a cell to see the number of SNPs and click on a cell to perform a SNP query limited to the 2 strains and the chromosome. You can sort the heat map by clicking the &#9650; &#9660; arrowheads. Uncolored cells lack SNP data between the 2 strains for that chromosome.</td></tr>
                      <tr><th>View</th><td>When you click on a colored cell, by default, the SNP query returns all SNPs shared between the 2 strains and mapped to that chromosome. This section includes the options of returning only those SNPs that are the same or are different from the page's strain (i.e., this makes the page's strain the reference strain). 
                      Above your search results is the option to modify the query: (<b>Click to modify search</b>).  (The banner title  changes to <b>Click to hide search</b>.) The window that appears contains your original search criteria.</td></tr>
