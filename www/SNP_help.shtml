@@ -212,12 +212,12 @@ You can select more than one reference strain if you wish to compare sets of str
 <b>Note:</b> When there is a discrepancy between the genome coordinates of SNPs and MGI genes, this section of the field is disabled. For more information, see <a href="SNP_discrepancy_help.shtml" target="_blank">How does genome coordinate discrepancy affect my query?</a>
         </td></tr>
   </table></td></tr>
-  <tr><th><a id="sasc"></a>Strains and Strain Comparisons</th><td>Use this section to select strains to search, determine <a id="reference_strain"></a><b>Reference Strains</b> to return by comparison (if desired), and to determine the <a id="snps_returned"></a><b>SNPs Returned</b> (same as or different from the reference strains, or all SNPs). 
+  <tr><th><a id="sasc"></a>Strains and Strain Comparisons</th><td>Use this section to select strains to search and determine <a id="reference_strain"></a><b>Reference Strains</b> to return by comparison (if desired). 
    <ul>
     <li>All strains are selected by default.</li>
     <li>By default, no Reference Strain is selected. Select <i>Yes</i> to Compare to one or more Reference strains. See: <a href="#reference">What is a Reference Strain?</a></li>
     <li>There are no disallowed combinations of strain and reference strain (except when they are the same).</li>
-    <li><li>When you supply both a comparison strain and a reference strain, the SNPs Returned default is to display all SNPs (both the same as and different from the reference strain allele).</li> 
+    <li>When you supply both a comparison strain and a reference strain, the SNPs Returned default is to display all SNPs (both the same as and different from the reference strain allele).</li> 
     <li>When you supply a comparison strain and more than one reference strain, the SNPs Returned default will not include SNPs without an allele call in every Reference strain. Select <i>Yes</i> to include results where only one reference strain may have an allele call. </li>
     <li>When you supply more than one comparison strain, the SNPs returned will include SNPs without a call in some comparison strains. Select <i>Yes</i> to limit your results to SNPs with an allele call in every comparison strain. </li>
     <li>Buttons make it easy to select subsets of strains, such as the Collaborative Cross and Diversity Outcross founder strains (DO/CC founders), the sequenced Wellcome Institute Sanger Mouse Genomes Project (MGP) strains, and to select or clear all strains.</li>
@@ -228,7 +228,7 @@ You can select more than one reference strain if you wish to compare sets of str
      <li>If you select one or more reference strains, by default, the results will not include RefSNPs without an allele call in every Reference strain. Select <i>Yes</i> to include results where only one reference strain may have an allele call. </li>
      <li>If you do not select a reference strain, the allele values of any selected strains are not compared against one another in the query results.</li> 
     </ul>
-    <p>The default selection is to return all SNPs relative to the reference strain allele (Not compared to the Reference Strain(s)), can <a href="#snpfilter">filter</a> your results by Allele Agreement to further restrict your search. SNPs with conflicts are noted by underlining the allele or if there is not a consensus value, then a ? is displayed. 
+    <p>The default selection is to return all SNPs relative to the reference strain allele (Not compared to the Reference Strain(s)). You can <a href="#snpfilter">filter</a> your results by Allele Agreement to further restrict your search. SNPs with conflicts are noted by underlining the allele or if there is not a consensus value, then a ? is displayed. 
     See: <a href="SNP_legend_help.shtml#strain_alleles">Interpreting the MGI Mouse SNPs Results Table</a> for more details on SNP alleles. </p>
      </td>
    </tr>
