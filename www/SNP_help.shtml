@@ -138,13 +138,14 @@ function openHelpWindow(helpFile){
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="reference"></a>What is a Reference Strain?</h3>
-<p>A reference strain is the comparison strain to use for determining whether the <b>SNPs Returned</b> are the <i>same as</i> or <i>different from</i> your selected strain or to limit your search to RefSNPs with an allele value for that strain.</p>
+<p>A reference strain is the comparison strain to use for determining whether the <b>SNPs Returned</b> are the <i>same as</i> or <i>different from</i> your selected strain or to limit your search to RefSNPs with an allele value for that strain. 
+You can select more than one reference strain if you wish to compare sets of strains.</p>
 <ul>
-  <li>The Reference Strain selection list can accept only one strain. </li>
+  <li>The Reference Strain selection list can accept more than one strain. </li>
   <li>If you add a reference strain you must also have at least one strain checked in the Find SNPs Involving these Strains section.</li>
   <li>If you select a reference strain, by default, the query returns only RefSNPs with an allele value for that strain.</li>
   <li>You can choose to return only SNPs that are different or the same as your reference strain.</li>
-  <li>By default, the reference strain is the first strain listed in your results.</li>
+  <li>By default, the reference strains are the first strains listed in your results.</li>
 </ul>
 
 <p>See <a href="#sasc">Strains and strain comparisons</a> for additional details.</p>
@@ -211,25 +212,24 @@ function openHelpWindow(helpFile){
 <b>Note:</b> When there is a discrepancy between the genome coordinates of SNPs and MGI genes, this section of the field is disabled. For more information, see <a href="SNP_discrepancy_help.shtml" target="_blank">How does genome coordinate discrepancy affect my query?</a>
         </td></tr>
   </table></td></tr>
-  <tr><th><a id="sasc"></a>Strains and Strain Comparisons</th><td>Use this section to select strains to search, determine a <a id="reference_strain"></a><b>Reference Strain</b> to return by comparison (if desired), and to determine the <a id="snps_returned"></a><b>SNPs Returned</b> (same as or different from the reference strain, or all SNPs). 
+  <tr><th><a id="sasc"></a>Strains and Strain Comparisons</th><td>Use this section to select strains to search, determine <a id="reference_strain"></a><b>Reference Strains</b> to return by comparison (if desired), and to determine the <a id="snps_returned"></a><b>SNPs Returned</b> (same as or different from the reference strains, or all SNPs). 
    <ul>
     <li>All strains are selected by default.</li>
-    <li>By default, no Reference Strain is selected. See: <a href="#reference">What is a Reference Strain?</a></li>
+    <li>By default, no Reference Strain is selected. Select <i>Yes</i> to Compare to one or more Reference strains. See: <a href="#reference">What is a Reference Strain?</a></li>
     <li>There are no disallowed combinations of strain and reference strain (except when they are the same).</li>
-    <li>When you supply both a selected and a reference strain, the SNPs Returned default is to display all SNPs (both the same as and different from the reference strain allele).
+    <li><li>When you supply both a comparison strain and a reference strain, the SNPs Returned default is to display all SNPs (both the same as and different from the reference strain allele).</li> 
+    <li>When you supply a comparison strain and more than one reference strain, the SNPs Returned default will not include SNPs without an allele call in every Reference strain. Select <i>Yes</i> to include results where only one reference strain may have an allele call. </li>
+    <li>When you supply more than one comparison strain, the SNPs returned will include SNPs without a call in some comparison strains. Select <i>Yes</i> to limit your results to SNPs with an allele call in every comparison strain. </li>
     <li>Buttons make it easy to select subsets of strains, such as the Collaborative Cross and Diversity Outcross founder strains (DO/CC founders), the sequenced Wellcome Institute Sanger Mouse Genomes Project (MGP) strains, and to select or clear all strains.</li>
     <li>If you do not select a strain, the default is to consider all strains for the query. Strains returned are initially sorted in alphanumeric order, except if a reference strain is chosen, then it will be listed first.</li>
     </ul>
     <p>Reference Strains</p>
     <ul>
-     <li>If you select a reference strain, by default, the query returns only RefSNPs with an allele value for the reference strain.</li>
+     <li>If you select one or more reference strains, by default, the results will not include RefSNPs without an allele call in every Reference strain. Select <i>Yes</i> to include results where only one reference strain may have an allele call. </li>
      <li>If you do not select a reference strain, the allele values of any selected strains are not compared against one another in the query results.</li> 
     </ul>
-    <p>The default selection is to return all SNPs relative to the reference strain allele (Not compared to the Reference Strain), though you can choose to return only those which are the same, or only those which are different. SNPs with conflicts are noted by underlining the allele or if there is not a consensus value, then a ? is displayed. See: <a href="SNP_legend_help.shtml#strain_alleles">Interpreting the MGI Mouse SNPs Results Table</a> for more details on SNP alleles. 
-    <ul>  
-     <li>If you select Same (or Different) from a reference strain, SNPs with conflicts are not returned.</li>
-     <li>If you select more than one strain to compare to a reference strain and also choose to return only SNPs that are the Same (or Different), then only alleles that are the Same (or Different) for all the selected comparison strains and the reference strain will be returned. 
-     </ul>
+    <p>The default selection is to return all SNPs relative to the reference strain allele (Not compared to the Reference Strain(s)), can <a href="#snpfilter">filter</a> your results by Allele Agreement to further restrict your search. SNPs with conflicts are noted by underlining the allele or if there is not a consensus value, then a ? is displayed. 
+    See: <a href="SNP_legend_help.shtml#strain_alleles">Interpreting the MGI Mouse SNPs Results Table</a> for more details on SNP alleles. </p>
      </td>
    </tr>
 <!-- <tr><th><a id="attributes"></a>SNP attributes</th><td>Use these boxes to determine the types and case of SNPs to return. To make selections, click one or more items on the lists.  The default is to return SNPs from <B>Any</B> type or class on the list. See <a name="variation_type"></a><a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">Variation Types</a> and <a name="function_class"></a><a href="SNP_terms_help.shtml#dbsnp_fc" target="_blank">Function Class</a> for additional details about list items on these lists.</td></tr> -->
@@ -291,7 +291,9 @@ function openHelpWindow(helpFile){
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="snpfilter"></a>How do I filter my results?</h3>
-<p>You can filter results by dbSNP Function Class. Function Classes are assigned by dbSNP. Click <a href="SNP_legend_help.shtml#dbSNP_classes" target="_blank">here</a> for a description of the dbSNP Function Classes. Click the "Filter SNPs by: dbSNP Function Class" button above your results and check the classes you wish to retain after filtering. If you have reordered columns, filtering will reset to the original order. </p> 
+<p>You can filter results by dbSNP Function Class, and if you have selected at least one reference strain, you can filter by Allele Agreement. Function Classes are assigned by dbSNP. Click <a href="SNP_legend_help.shtml#dbSNP_classes" target="_blank">here</a> for a description of the dbSNP Function Classes. 
+The Allele Agreement filter provides two options to restrict your results: "All reference strains agree and all comparison strains differ from reference" or "All reference strains agree and all comparison strains agree with reference." 
+Click a "Filter SNPs by" button above your results and select the options you wish to retain after filtering. If you have reordered columns, filtering will reset to the original order. </p> 
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

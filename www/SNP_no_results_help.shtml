@@ -62,9 +62,9 @@ function openHelpWindow(helpFile){
 <td>Try expanding the Genome Coordinate range.</td></tr>
 <tr><td rowspan="2"><b>Strains and Strain Comparisons</b></td>
     <td>There were no SNPs for your selected strains in the region or genes you defined.</td>
-    <td>Try adding related strains. (For example, if you searched for BALB/cByJ initially, check BALB/cBy and search again.</td>
-    <tr><td>You selected a Reference strain and limited your search to SNPs that are Different (or the Same) as the Reference strain and no SNPs met those criteria.</td>
-    <td>Select <i>Not compared to the Reference Strain</i> to try a broader search.</td>
+    <td>Try adding related strains. (For example, if you searched for BALB/cBy initially, check BALB/cByJ and search again.</td>
+    <tr><td>You selected more than one Reference or Comparison strain and limited your search results such that every strain must have an allele call.</td>
+    <td>Select <i>Yes</i> to include results where only one strain may have an allele call to achieve a broader search.</td>
     </tr>
 </tr>
 </table>
