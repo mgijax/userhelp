@@ -96,14 +96,14 @@ function openHelpWindow(helpFile){
 	</td></tr>
 <tr><th><a id="phenotypes"></a>Associated Phenotypes</th>
     <td><table>
-		  <tr><th>Phenotype Overview</th><td>Displays the highest-level terms from the Mammalian Phenotype (MP) Ontology and uses blue cells to mark those with phenotypic annotations to genotypes with alleles of the gene. 
+		  <tr><th>Phenotype Overview</th><td>Displays the highest-level terms from the Mammalian Phenotype (MP) Ontology and uses blue cells to mark those with phenotypic annotations to genotypes with this strain background. 
 		  Some high-level terms such as normal phenotype, other phenotype, and no phenotypic analysis aren't represented in this Overview but annotations to those terms and their subterms will be displayed in the Phenotype Summaries and Allele Detail pages. 
 		  The blue cells are linked to more detailed phenotype descriptions. </td></tr>
 		</table>
 	</td></tr>
 <tr><th><a id="diseases"></a>Associated Diseases</th>
     <td><table>
-		  <tr><th>Human Diseases</th><td>Human diseases for which this strain is a model, linked to the MGI Disease Ontology Browser.</td></tr>
+		  <tr><th>Human Diseases</th><td>Human diseases modeled on this strain, linked to the MGI Disease Ontology Browser.</td></tr>
 		  <tr><th>Model</th><td>Mouse strains are associated with human diseases through mouse genotypes described in publications and annotated to the Disease Ontology (<a href="http://disease-ontology.org/" target="_blank">DO</a>), a hierarchical standardized ontology that integrates vocabularies from MeSH, ICD, NCI's thesaurus, SNOMED and <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr>.</td></tr>
 		</table>
 	</td></tr>
