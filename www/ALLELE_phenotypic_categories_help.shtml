@@ -105,20 +105,20 @@ function openHelpWindow(helpFile){
   <tr><th>Transposon concatemer</th><td>Transposon concatemers are multiple copies of transposon sequences inserted at a single site. Transposon concatamers serve as donor sites in transposase mutagenesis.</td></tr>
 </table>
 
-<p></p>
+<p>Two Molecular Mutation terms, <i>Deletion</i> and <i>Disruption caused by insertion of vector</i>, are obsolete. You can still search with these terms and return results, but we are no longer assigning them to new alleles. A future update will merge them with the appropriate terms.</p>
 
 <table>
  <tr>
   <th><a id="mutations"></a><span style="white-space: nowrap">Molecular Mutations</span></th>
   <th>Definitions for the mutation types of the <a href="#method">Generation Methods</a></th></tr>
-  <tr><th>Deletion</th><td>Deletion of a segment of DNA from the genome where the precise breakpoints are unknown. For deletions with mapped breakpoints, see <a href="#interdel">Intergenic deletion</a> or <a href="#intradel">Intragenic deletion</a>.</td></tr>
-  <tr><th>Disruption caused by insertion of vector</th><td>A general disruption in the transcription or translation of the endogenous gene via the insertion of an exogenous sequence.</td></tr>
+  <tr><th>Deletion</th><td>(Obsolete) Deletion of a segment of DNA from the genome where the precise breakpoints are unknown. For deletions with mapped breakpoints, see <a href="#interdel">Intergenic deletion</a> or <a href="#intradel">Intragenic deletion</a>.</td></tr>
+  <tr><th>Disruption caused by insertion of vector</th><td>(Obsolete) A general disruption in the transcription or translation of the endogenous gene via the insertion of an exogenous sequence.</td></tr>
   <tr><th>Duplication</th><td>A type of insertion in which an additional copy of a DNA segment already present in the genome, usually in tandem with the original sequence.</td></tr>
   <tr><th>Insertion</th><td>The addition of a DNA segment into a chromosome in a place where it is not normally found. This includes all transgene insertions and targeted mutations. For gene trap insertions, please see the more specific type: <a href="#vector">Insertion of a gene trap vector</a>. Insertions of neomycin cassettes to disrupt a gene, single nucleotide insertions and recombining sequence site insertions (such as loxP and FRT sites) are included in this category.</td></tr>
   <tr><th><a id="vector"></a>Insertion of gene trap vector</th><td>The addition of a DNA segment designed to trap expression of a gene into a chromosome in a place where it is not normally found.</td></tr>
   <tr><th><a id="interdel"></a>Intergenic deletion</th><td>Deletion of a segment of DNA where the breakpoints span two or more genes or a large chromosomal region with mapped breakpoints. This includes alleles that have recombined loxP sites spanning more than one gene to create the deletion.</td></tr>
-  <tr><th><a id="intradel"></a>Intragenic deletion</th><td>Deletion of a segment of DNA where the breakpoints are contained within one gene. This includes alleles that have recombined loxP sites within a gene to create a small deletion. This also includes single nucleotide deletions. This does not include deletion of inserted sequences such as loxP-flanked or FRT-flanked selection cassettes.</td></tr>
-  <tr><th>Inversion</th><td>The removal, 180 degree rotation and reinsertion of an endogenous DNA segment at the same genomic location.</td></tr>
+  <tr><th><a id="intradel"></a>Intragenic deletion</th><td>Deletion of a segment of DNA where the breakpoints are contained within one gene. This includes alleles that have recombined loxP sites within a gene to create a small deletion. This also includes single nucleotide deletions but NOT deletion of inserted sequences, such as loxP-flanked or FRT-flanked selection cassettes.</td></tr>
+  <tr><th>Inversion</th><td>The removal, 180 degree rotation, and reinsertion of an endogenous DNA segment at the same genomic location.</td></tr>
   <tr><th>Not Applicable</th><td>Typically used for for gene variants or haplotypes. For examples, see <a href="<!--#include file='include/fewi_url.html'-->accession/MGI:3689003" target="_blank"><i>Soa<sup>a</sup></i></a> or <a href="<!--#include file='include/fewi_url.html'-->accession/MGI:3689011" target="_blank"><i>Soa<sup>c</sup></i></a>.</td></tr>
   <tr><th>Not Specified</th><td>Used when a mutation is reported to have been characterized but the exact nature of the mutation is not reported.</td></tr>
   <tr><th><span style="white-space: nowrap">Nucleotide repeat expansion</span></th><td>A type of mutation in which a set of tandemly repeated sequences is replicated to increase the number of repeats.</td></tr>
