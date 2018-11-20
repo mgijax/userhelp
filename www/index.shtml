@@ -176,6 +176,7 @@ User Help Site Map
 
 	<dt><b>Batch Querying / Interpreting Results</b></dt>
 	<dd><a href="BATCH_help.shtml" target="_blank">Using the MGI Batch Query</a></dd>
+	<dd><a href="MouseMine_help.shtml" target="_blank">Using the MouseMine Data Warehouse</a></dd>
  
 	<dt><b>Using &amp; Interpreting Accession IDs </b>
 	<dd><a href="ACCESSION_ID_help.shtml" target="_blank">Querying by Accession ID - Results and Examples</a></dd>
