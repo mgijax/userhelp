@@ -162,10 +162,8 @@ The allele symbol is composed of the gene symbol and the allele designation.  If
   	 </TD></TR>
 	<tr><th>Germline Transmission</th><td> Either the status of a mouse created from this cell line, if germ line or chimera transmission reference is known, or an indication that the transmission status is unknown.</td></tr>
 	<tr><th>Parent Cell Line</th><td>Parent name, and, in parentheses, the cell type (for example, ES Cell). If Parent Cell Line appears as <i>Other (see notes)</i>, there is more information in the <a href="#additional">Additional information</a> section of this report.</td></tr>
-	<tr><th>Strain of Origin</th>
-<td>Mouse strain that the allele originated from.</td></tr>
-<tr><th>Project Collection</th>
-<td>For alleles from large scale projects and repositories, the source is indicated. </td></tr>
+	<tr><th>Strain of Origin</th><td>Mouse strain that the allele originated from, linked to its strain detail page.</td></tr>
+    <tr><th>Project Collection</th><td>For alleles from large scale projects and repositories, the source is indicated. </td></tr>
 </table>
 
 <tr><th><a id="description"></a>Mutation/Variant/Vector/Transgene description</th>
