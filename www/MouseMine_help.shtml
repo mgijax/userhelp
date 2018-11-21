@@ -1,0 +1,147 @@
+<!--#include file='include/templateHead.html'-->
+<title>
+  <!--#include file="include/mgiversion.html"-->
+ MGI-Using the MouseMine Data Warehouse
+</title>
+
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=700,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+
+table {text-align: left}
+
+</style>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">
+ Using the MouseMine Data Warehouse
+ </span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+
+
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+    </tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+<!-- Body of User Help -->
+
+<a id="top"></a>
+
+<p>This help document answers the following questions:</p>
+<ul>
+ <li><a href="#whatpurpose">What is the purpose of the MouseMine data warehouse?</a></li>
+ <li><a href="#navigate">How do I access the different MouseMine tools?</a></li>
+ <li><a href="#start">How do I get started with MouseMine?</a></li>
+ <li><a href="#how_often">How often are data updated?</a></li>
+ <li><a href="#example">What are some examples of queries?</a></li>
+</ul>
+
+<h3><a id="whatpurpose"></a>What is the purpose of the MouseMine data warehouse?</h3>
+
+<p><a href="http://www.mousemine.org/mousemine/begin.do" target="_blank">MouseMine</a> is a data warehouse for accessing integrated mouse data from Mouse Genome Informatics (MGI) and other web resources. MouseMine is a member of an extensive community of online data resources based on the <a href="http://intermine.org" target="_blank">InterMine</a> software framework. It provides multiple, diverse, query templates and supports custom and iterative querying. MouseMine gives you the ability to upload and manipulate lists of features, save and combine results from different queries, and its web services API offers robust and comprehensive programmatic access to MGI data.</p>
+
+<p>See also: Motenko H, Neuhauser SB, O'Keefe M, Richardson JE. 2015. MouseMine: a new data warehouse for MGI. <a href="http://rd.springer.com/article/10.1007%2Fs00335-015-9573-z" target="_blank">Mamm Genome</a>. 2015 Aug;26(7):325-30. <a href="https://www.ncbi.nlm.nih.gov/pubmed/26092688" target="_blank">PubMed</a></p>
+
+<h3><a id="navigate"></a>How do I access the different MouseMine tools?</h3>
+
+<p>At the top right hand section of the web page are links to Log In, and to this help document. Create a Log In account to save lists and queries beyond one browser session.</p>
+
+<p>Beneath the MouseMine logo are several tabs:</p> 
+
+<table>
+ <tr><th>Home</th><td>Links to the MouseMine Home Page</td></tr>
+ <tr><th>Templates</th><td>Links to a listing of all the templates. Templates are predefined queries that have a simple input type and return a defined table of results. Examples are <i>Diseases --> Mouse models</i> (returns mouse models of specified human diseases) and <i>Genes/Features --> Phenotypes (MP terms)</i> (returns the Mammalian Phenotype (MP) terms associated with the specified genes or other features). You can filter the list of templates by keyword or data category. In the center section of MouseMine Home Page, the templates are pre-sorted by category. Though the template table of results is pre-determined, you can easily remove, sort and filter columns, and add additional columns.</td></tr>
+ <tr><th>Lists</th><td>The Lists tab provides the ability to create and manage lists of objects, such as lists of genes, alleles, GO terms, or publications. When you create a list, a series of pre-defined queries (templates) and enrichments are run.</td></tr>
+ <tr><th><span style="white-space: nowrap">QueryBuilder &nbsp;&nbsp;</span></th><td>A flexible query interface allows advanced users to construct their own queries. The QueryBuilder lets you view the data model, apply constraints and select output. You can also export queries to share them with others.</td></tr>
+ <tr><th>Viewer</th><td>Links to the Multiple Genome Viewer (MGV). MGV allows you to explore and compare chromosomal regions and synteny blocks between the C57BL/6J reference genome and 18 other mouse inbred strains. See <a href="MGV_help.shtml" target="_blank">Using the Multiple Genome Viewer</a></td></tr>
+ <tr><th>Data</th><td>Lists the general MouseMine data categories, the types of data in each category and the sources of data</td></tr>
+ <tr><th>API</th><td>Provides instructions for using Perl, Python, Ruby, and Java web service access to MouseMine</td></tr>
+ <tr><th>MyMine</th><td>When logged in, provides access to your saved Lists, Queries, favorite Templates and Account Details</td></tr>
+ <tr><th>MGI</th><td>Links to the Mouse Genome Informatics (MGI) Home Page.</td></tr>
+</table>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="start"></a>How do I get started with MouseMine?</h3>
+
+<table>
+ <tr><th>Keywords</th><td>If you are interested a particular gene or gene family, or want to perform a keyword search, such as for a phenotype or disease, you can use the Search field in the black banner at the top of the page, or the identical Search field in the upper left hand section of the Home Page. The Search field supports the asterisk (*) as a wild-card. These searches can return a broad range of results, including genes, ontology terms, and publications. See example <a href="#A.">A.</a></td>
+ </tr>
+ <tr><th><span style="white-space: nowrap">Templates &nbsp;&nbsp;</span></th><td>For more specific results, use one of the predefined query templates. In the center section of the Home Page, these are organized by category (e.g., GENOME, EXPRESSION, PHENOTYPE). You can view all the templates by clicking on the Templates tab at the top of the page. See example <a href="#B.">B.</a></td>
+ </tr>
+ <tr><th>Lists</th><td>If you already have a list of items of interest (e.g., genes, alleles, ontology terms, publications), use the Lists tab to get additional information on those items. To save your list to use another time, create a Log In account (at the top right hand section of the web page) first. See example <a href="#C.">C.</a><br> Note that MGI generates several weekly reports of MGI data and many of its query forms provide export options so you can create your own custom reports and use these to input in MouseMine to get additional information. See: <a href="http://www.informatics.jax.org/software.shtml#data">http://www.informatics.jax.org/software.shtml#data.</a> </td>
+ </tr>
+</table>
+
+<h3><a id="how_often"></a>How often are data updated?</h3>
+
+<p>MouseMine is refreshed with new data from MGI and other sources weekly.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="example"></a>What are some examples of queries?</h3>
+
+<p><a id="A."><b>A.</b></a>&nbsp; How can you find exon information for the <i>Lrp4</i> gene in these 3 strains, C57BL/6J, 129S1/SvImJ and BALB/cJ?</p>
+<ol>
+ <li>On a MouseMine page, enter Lrp4 in the Search field and hit your return/enter key.</li> 
+ <li>Click on <i>MGI:2442252 | Lrp4</i> to access the mouse data.</li>
+ <li>Scroll down and click on <i>Canonical gene --> Exons in specific strains</i>. </li>
+ <li>This will show you information on the exons for multiple transcripts for 19 mouse inbred strains. Click on the last icon in the Strain Name column header, the graph icon, and filter for the 3 strains.</li>
+ <li>You can use the Export button to get all the exons, but for now, just get the first exon for the first 129S1/SvImJ transcript by clicking <i>MGP_129S1SvImJ_E0056125_1</i> in the Exon Primary Identifier column.</li>
+</ol>
+<p>Note: the MGP (Sanger Mouse Genomes Project) IDs can be decoded:</p>
+<ul>
+ <li>MGP_129S1SvImJ_<b>G</b>0026150 The G tells you this is the genomic sequence.</li>
+ <li>MGP_129S1SvImJ_<b>T</b>0056125 The T tells you this a transcript, number T0056125.</li>
+ <li>MGP_129S1SvImJ_<b>E</b>0056125_1 the E tells you it's an exon, the _1 gives you the exon number and 0056125 tells you it is associated with transcript 0056125.</li>
+</ul>
+<ol start=6>
+ <li>Click the FASTA button to get the sequence.</li>
+</ol>
+
+<p><a id="B."><b>B.</b></a>&nbsp; How can you find genotypes associated with emphysema (MP:0001958) and abnormal lung elastance (MP:0011043)?</p>
+<ol>
+ <li>Click on the Templates tab near the top of the MouseMine page.</li>
+ <li>Click on <i>Mammalian phenotypes (MP terms) --> Mouse genes and models</i>.</li>
+ <li>Enter <i>MP:0001958, MP:0011043</i> in the LOOKUP field and click the Show Results
+button.</li>
+ <li>Toggle the 25 results so you can see all the results.</li>
+</ol>
+<p>This returns a list of genes and transgenes and genotypes associated with these phenotypes terms and their subterms. Now you can modify the query:</p>
+<ol start=5>
+ <li>Click on the <i>Manage Columns</i> button and then click on <i>Add a Column</i>.</li>
+ <li>Click on <i>MGI Type</i> the first time it is listed (under Subject).</li>
+ <li>Click <i>Add 1 new column</i>.</li>
+ <li>Click <i>Apply Changes</i>.</li>
+ <li>This adds the gene feature types to the table. Now you can remove columns you don't want to see by clicking the <i>X</i> in the column heading and you can filter by clicking the last icon in a column heading, the graph icon.</li>
+ <li>Click the Export button to select your formatting options.</li>
+</ol>
+
+<p><a id="C."><b>C.</b></a>&nbsp; How can you search with a list of IDs or genes?</p>
+
+<ol>
+ <li>Click on the Lists tab at the top of a MouseMine page.</li> 
+ <li>For this example, click <i>click to see an example</i> just above the identifiers field. This will populate the field with a few IDs and gene symbols.</li>
+ <li>Click the <i>Create List</i> button.</li> 
+ <li>Save the list.</li>
+ <li>This will also run some automatic queries (templates) and enrichments. Scroll down to see them and click on any that interest you.</li> 
+</ol> 
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<!--#include file='include/templateBlankBodyStop.html'-->
