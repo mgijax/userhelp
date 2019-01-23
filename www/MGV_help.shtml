@@ -166,7 +166,7 @@ You can also run an MGI SNP query for strains and a region of interest, and find
       <li>Shows all your saved lists of IDs (<a href="#findgenes">Find genes</a> searches) in a scrolling box. Lists are sorted alphabetically.</li>
       <li>Click on a list to make it the “active” list.
       <ul>
-      <li>the <a href="#genomeview">Genome View</a> displays glyphs (pink dots) where those features exist in the selected reference genome.</li>
+      <li>the <a href="#genomeview">Genome View</a> displays glyphs (colored dots) where those features exist in the selected reference genome.</li>
       <li>Shift-click repeatedly on the list to cycle through its features in the <a href="#zoom">Zoom View</a>.</li>
       <li>Note: a given feature may or may not exist in a given genome, either because of real biology or because the annotations are incomplete. In any case, you may see fewer glyphs in the Genome View than there are IDs in the list.
       </ul></li>
@@ -223,7 +223,7 @@ You can also run an MGI SNP query for strains and a region of interest, and find
  </td></tr>
 <tr><th>Filters</th><td>
     <table>
-<tr><th><a id="featuretype"></a>Feature Types (facet)</th>
+<tr><th><a id="featuretype"></a>Feature Types</th>
      <td> 
      <ul>
      <li>Shows the different categories of feature types and the colors used to draw them in the <a href="#zoom">Zoom View</a></li>
@@ -234,7 +234,7 @@ You can also run an MGI SNP query for strains and a region of interest, and find
      </ul></li>
     </ul>
      </td></tr>
- <tr><th><a id="hasid"></a>Has Canonical ID (facet)</th>
+ <tr><th><a id="hasid"></a>Has Canonical ID</th>
      <td>
      <ul>
       <li>Three radio buttons with values Yes/No/Don’t care
@@ -244,7 +244,7 @@ You can also run an MGI SNP query for strains and a region of interest, and find
        </ul></li>
      </ul>
      </td></tr>
- <tr><th><a id="highlight"></a>Is Highlighted (facet)</th>
+ <tr><th><a id="highlight"></a>Is Highlighted</th>
      <td>
      <ul>
       <li>Three radio buttons with values Yes/No/Don’t care
@@ -277,14 +277,14 @@ You can also run an MGI SNP query for strains and a region of interest, and find
           <li>It displays the chromosomes from the currently selected reference genome
            <ul>
             <li>in the closed state, it only displays one chromosome, generally, the one displayed in the <a href="#zoom">Zoom View</a></li>
-            <li>when closed, you can drag to scroll along the chromosome and use the &#8963; and V to scroll through the chromosomes
+            <li>when closed, you can drag to scroll along the chromosome and use the &#8963; and v to scroll through the chromosomes
             </ul></li>
            <li>May show synteny blocks of the reference genome against one of the currently selected comparison genomes:
             <ul>
              <li>in the Zoom view, click on that genome’s stripe
             </ul></li>
            <li>Drag on a chromosome in the genome view to zoom to that chromosome's region in the Zoom View</li>
-           <li>When you click on a list in My lists, the Genome View shows a pink dot for each feature in your list. Click on a dot to center the Zoom View on that feature.</li>
+           <li>When you click on a list in My lists, the Genome View shows a colored dot for each feature in your list. Click on a dot to center the Zoom View on that feature.</li>
           </ul>
        </td></tr>
  <tr><th><a id="featuredetail"></a>Feature details</th>
