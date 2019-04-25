@@ -1,7 +1,7 @@
 <!--#include file='include/templateHead.html'-->
 <title>
   <!--#include file="include/mgiversion.html"-->
- MGI-Using the Microarray and RNA-Seq Experiment Search</title>
+ MGI-Using the RNA-Seq and Microarray Experiment Search</title>
 </title>
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
 
@@ -43,21 +43,22 @@ function openHelpWindow(helpFile){
 <p>This help document answers the following questions:</p>
 
 <ul>
-  <li><a href="#whatquery">What can I use the Microarray and RNA-Seq Experiment Search to find?</a></li>
+  <li><a href="#whatquery">What can I use the RNA-Seq and Microarray Experiment Search to find?</a></li>
   <li><a href="#howdo">How do I use this form?</a></li>
   <li><a href="#fields">What values are acceptable in each of the search form fields?</a></li>
   <li><a href="#revise">Can I edit my original options and requery?</a></li>
+  <li><a href="#htfilter">Can I filter my results?</a></li>
   <li><a href="#null">What if my search produces no results?</a></li>
   <li><a href="#summary">How do I interpret the query results summary?</a></li>
 </ul>
 
-<h3><a id="whatquery"></a>What can I use the Microarray and RNA-Seq Experiment Search to find?</h3>
+<h3><a id="whatquery"></a>What can I use the RNA-Seq and Microarray Experiment Search to find?</h3>
 
-<p>This form provides allows users to search for microarray and RNA-seq studies that examine expression in mice. These experiments are stored in NCBI's <a href="https://www.ncbi.nlm.nih.gov/geo/">GEO</a> and EBI's <a href="https://www.ebi.ac.uk/arrayexpress/">ArrayExpress</a>. However, both repositories rely on their submitters to provide the annotations, resulting in samples and experiments being described in a non-standardized fashion with only a limited use of controlled vocabularies. Thus, searching for experiments at both of these repositories is heavily reliant on free text with its attendant pitfalls. Therefore, to facilitate reliable searching for experiments, GXD curators have annotated experiment samples using controlled vocabularies for age, anatomical structure, mutant alleles, and sex. In addition, they have annotated the study type and key variables for each experiment. The integration of these standardized annotations with free text searching of experiment title and description allows for searches that accurately return experiments of interest.</p>
+<p>This form provides allows users to search for RNA-Seq and microarray studies  that examine expression in adult and embryonic mice. These experiments are stored in EBI's <a href="https://www.ebi.ac.uk/arrayexpress/">ArrayExpress</a>. ArrayExpress includes many experiments that were originally deposited in NCBI's <a href="https://www.ncbi.nlm.nih.gov/geo/">GEO</a> because, prior to August 2016, ArrayExpress imported all experiments that had been deposited in <abbr title="Gene Expression Omnibus">GEO</abbr>. Both ArrayExpress and <abbr title="Gene Expression Omnibus">GEO</abbr> rely on their submitters to provide the annotations, resulting in samples and experiments being described in a non-standardized fashion with only a limited use of controlled vocabularies. Thus, searching for experiments at both of these repositories is heavily reliant on free text with its attendant pitfalls. Therefore, to facilitate reliable searching for experiments, GXD curators have annotated experiment samples using controlled vocabularies for age, anatomical structure, mutant alleles, and sex. In addition, they have annotated the study type and key variables for each experiment. The integration of these standardized annotations with free text searching of experiment title and description allows for searches that accurately return experiments of interest.</p>
 
 <p>GXD's annotation efforts focus on experiments examining endogenous gene expression in wild-type and mutant mice. Studies from all developmental stages, including adult, are included. In addition, studies examining expression differences within and between species is available (although the metadata for the non-mouse samples is not). As is consistent with GXD policy, studies using transgenic mice (i.e., animals containing randomly inserted transgenes); animals that have been manipulated, either by substances, surgical procedures, or diet regimens; cultured or dissociated tissues; or cell lines are not included.</p>
 
-<p>Curators rely on the information provided in the repository submission when annotating sample metadata.  However, they may consult the publication when clarification/additional information is required.</p>
+<p>Curators rely on the information provided in the repository submission when annotating sample metadata.  However, they will consult the publication when clarification/additional information is required.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -70,7 +71,7 @@ function openHelpWindow(helpFile){
 <h3><a id="fields"></a>What values are acceptable in each of the query form fields?</h3>
 
 <table width="100%" cellpadding="4" class="nb" align="center">
- <tr><td><a href="#structure">Anatomical structure</a> | <a href="#stage">Developmental stage</a> | <a href="#sex">Sex</a> | <a href="mutant">Mutant</a> | <a href="method">Method</a> | <a href ="text">Text</a> </td>
+ <tr><td><a href="#structure">Anatomical structure</a> | <a href="#stage">Developmental stage</a> | <a href="#mutant">Mutant</a> | <a href="#strain">Strain</a> | <a href="#sex">Sex</a> | <a href="method">Method</a> | <a href ="#text">Text | <a href ="#id">ID</a> </td>
  </tr>
 </table>
 
@@ -82,7 +83,7 @@ function openHelpWindow(helpFile){
 <tr><th><a id="stage"></a><span style="white-space: nowrap">Developmental stage</span></th> 
 <td>The <i>Use Ages</i> tab (default) enables searching for experiments with samples of a particular age. You can limit your search to the general terms, <i>Embryonic</i> or <i>Postnatal</i>, or choose specific days post conception (dpc).
 
-<p>Alternatively, you can use the <i>Use Theiler Stages</i> tab to select one or more Theiler stages (TS) to limit your search to samples at a particular stage of embryonic development.   The Theiler system organizes development into stages defined by the appearance of specific developmental features. Since embryos of the same gestational age can vary considerably with respect to development, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc.
+<p>Alternatively, you can use the <i>Use Theiler Stages</i> tab to select one or more Theiler stages (TS) to limit your search to samples at a particular stage of embryonic development. The Theiler system organizes development into stages defined by the appearance of specific developmental features. Since embryos of the same gestational age can vary considerably with respect to development, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc.
 </p>
 <p><!--If you mouse-over a stage, a pop-up will describe a few defining features of that stage, such as "first somites, late head fold" for Stage 12. -->You can <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage.</p>
 To select multiple stages or ages: 
@@ -92,25 +93,37 @@ To select multiple stages or ages:
  </ul>
  </td>
 </tr>
-<tr><th><a id="sex"></a>Sex</th> 
-<td>Use the radio button to limit the search to experiments that contain samples of a specified sex: Female, Male or Pooled samples. All is selected by default.</td>
-</tr>
 <tr><th><a id="mutant"></a>Mutant</th> 
 <td>To limit your search to experiments that contain mutant samples, enter the symbol, synonym, or MGI marker ID of the mutated genetic marker of interest into the field.</td>
+</tr>
+<tr><th><a id="strain"></a>Strain</th> 
+    <td>Enter a text string to search the name of the strain annotated to each sample.
+      <ul>
+        <li>Based on characters typed, an autocomplete suggests inbred strain names that have been used to annotate samples.</li>
+        <li>Using a wild card (*) will allow you to return all samples annotated to a strain family. For instance, searching by “C57BL/6” will only return exact text matches, whereas “C57BL/6*” will also return C57BL/6J, C57BL/6N, and so on.</li>
+        <li>Use of the autocomplete is not required.</li>
+      </ul>
+    </td>
+</tr>
+<tr><th><a id="sex"></a>Sex</th> 
+<td>Use the radio button to limit the search to experiments that contain samples of a specified sex: Female, Male or Pooled samples. All is selected by default.</td>
 </tr>
 <tr><th><a id="method"></a>Method</th> 
 <td>Use the radio button to limit the search to experiments of the specified type.</td>
 </tr>
 <tr><th><a id="text"></a>Text</th> 
-<td>Enter a text string to search for experiments with titles and/or descriptions that contains the terms of interest. 
-<ul>
-<li>Use an asterisk (*) as a wild card, particularly to find variations on a root word or in spelling.</li>
-<li>Non-alphanumeric characters are generally treated as a space when searching. The exception is the apostrophe-s construct; it has its apostrophe stripped out, and attaches the <i>s</i> to the preceding word.</li>
-<li>Use quotation marks to enclose phrases where the specified words must come in order, with no words intervening.</li> 
-<li>Boolean operators (OR or AND) are not permitted.</li>
-<li>This text search does not stem words (i.e. remove suffixes and searches using the root word).</li>
-</ul>
-</td>
+ <td>Enter a text string to search for experiments with titles and/or descriptions that contains the terms of interest. 
+  <ul>
+   <li>Use an asterisk (*) as a wild card, particularly to find variations on a root word or in spelling.</li>
+   <li>Non-alphanumeric characters are generally treated as a space when searching. The exception is the apostrophe-s construct; it has its apostrophe stripped out, and attaches the <i>s</i> to the preceding word.</li>
+   <li>Use quotation marks to enclose phrases where the specified words must come in order, with no words intervening.</li> 
+   <li>Boolean operators (OR or AND) are not permitted.</li>
+   <li>This text search does not stem words (i.e. remove suffixes and searches using the root word).</li>
+  </ul>
+ </td>
+</tr>
+<tr><th><a id="id"></a>ArrayExpress or GEO ID</th> 
+<td>Enter one experiment accession number (e.g. E-MTAB-7794, GSE85727). The wild card (*) can be used in this field.</td>
 </tr>
 </table>
 
@@ -129,9 +142,15 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
+<h3><a id="htfilter"></a>Can I filter my results?</h3>
+
+<p>Yes. You can further refine the list of returned experiments by using the Experimental Variable and Study Type filters found above the Experiment table.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
 <h3><a id="null"></a>What if my search produces no results?</h3>
 
-<p>Your search may have been too specific. Try searching for a less specific anatomical structure, more ages or more assay types. Alternatively, the experiment of interest may not exist or may not have been entered into GXD yet.  You may try free-text searching at either <a href="https://www.ebi.ac.uk/arrayexpress/">ArrayExpress</a> or <a href="https://www.ncbi.nlm.nih.gov/geo/">GEO</a>.</p>
+<p>Your search may have been too specific. Try searching for a less specific anatomical structure or more ages. Alternatively, the experiment of interest may not exist or may not have been entered into GXD yet.  You may try free-text searching at either <a href="https://www.ebi.ac.uk/arrayexpress/">ArrayExpress</a> or <a href="https://www.ncbi.nlm.nih.gov/geo/">GEO</a>.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -145,7 +164,7 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 </p>
 
 <table width="100%" cellpadding="4" class="nb" align="center">
- <tr><td><a href="#title">Title</a> | <a href="#details">Details</a> | <a href="#description">Description</a> | <a href="note">Note</a>  </td>
+ <tr><td><a href="#title">Title</a> | <a href="#details">Details</a> | <a href="#description">Description</a> | <a href="#note">Note</a>  </td>
  </tr>
 </table>
 
@@ -159,13 +178,16 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 			<td>The number samples in the experiment. The number and View button provide a link to a popup (described below) that displays the GXD-curated metadata about each experiment. If your search criteria used sample metadata, the number of samples that match your search is also displayed.</td>
 		</tr>
 		<tr><th>Experimental variables</th>
-			<td>Variables of the experiment, as determined by GXD curators.  Potential variables include: age; anatomical structure; developmental stage; genotype; sex; or species.</td>
+			<td>Variables of the experiment, as determined by GXD curators. Potential variables include: age; anatomical structure; developmental stage; genotype; sex; or species.</td>
 		</tr>
 		<tr><th>Study type</th>
-			<td>Experiments are either classified as baseline, which use wild-type mice to establish expression levels in normal conditions, or differential, which compare expression levels in wild type and mutant mice).</td>
+			<td>Experiments are either classified as baseline, which use wild-type mice to establish expression levels in normal conditions, or WT vs. Mutant, which compare expression levels in wild type and mutant mice.</td>
+		</tr>
+		<tr><th>Reference</th>
+			<td>Linkout to the PubMed entry for the publication (if available)</td>
 		</tr>
 		<tr><th>View experiment at</th>
-			<td>Linkouts to the experiment record at ArrayExpress and, if applicable, GEO.</td>
+			<td>Linkouts to the experiment record at ArrayExpress and, if applicable, <abbr title="Gene Expression Omnibus">GEO</abbr>.</td>
 		</tr>
 		</table>
 	</td>
@@ -183,7 +205,7 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 <h4>Sample pop-up Experiment table</h4>
 
 <table width="100%" cellpadding="4" class="nb" align="center">
- <tr><td><a href="#name">Name</a> | <a href="#organism">Organism</a> | <a href="#age">Age</a> | <a href="structure">Structure</a> | <a href="#background">Genetic background</a> | <a href="#allele">Mutant alleles</a> | <a href="sex2">Sex</a>  | <a href="note2">Note</a>  </td>
+ <tr><td><a href="#name">Name</a> | <a href="#organism">Organism</a> | <a href="#age">Age</a> | <a href="#structure">Structure</a> | <a href="#background">Genetic background</a> | <a href="#allele">Mutant allele(s)</a> | <a href="#sex2">Sex</a>  | <a href="#note2">Note</a>  </td>
  </tr>
 </table>
 
@@ -192,7 +214,7 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 	<td>Of sample.</td>
 </tr>
 <tr><th><a id="organism"></a>Organism</th>
-	<td>Species sampled</td>
+	<td>Species sampled. Only displayed when multiple species are examined.</td>
 </tr>
 <tr><th><a id="age"></a>Age</th>
 	<td>Age of the specimen used in the assay. The abbreviations for age annotations are as follows:
@@ -209,7 +231,7 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 <tr><th><a id="structure"></a>Structure</th>
 	<td>Tissue the sample was derived from, given as a Theiler stage (TS) and anatomical structure name.</td>
 </tr>
-<tr><th><a id="background"></a>Background</th>
+<tr><th><a id="background"></a>Genetic background</th>
 	<td>Strain information for the sample, if specified. Use of involves: in the annotation indicates that the strains listed (separated by asterisks) contributed to the genetic background of the sample; additional unspecified strains may also be part of the sample's genetic background.</td>
 </tr>
 <tr><th><a id="allele"></a>Mutant allele(s)</th>
@@ -219,7 +241,7 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 	<td>Sex of the sample, if specified.</td>
 </tr>
 <tr><th><a id="note2"></a>Note</th>
-	<td>Additional information about the tissue analyzed. </td>
+	<td>Provides additional information about the sample, if needed. </td>
 </tr>
 </table>
 <p>Samples that match your search criteria will be displayed in colored-shaded rows.
