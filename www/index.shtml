@@ -99,6 +99,7 @@ User Help Site Map
 	<dd><a href="EXPRESSION_correlation_matrix_help.shtml" target="_blank">Using the Gene Expression + Phenotype Comparison Matrix</a></dd>
 	<dd><a href="VOCAB_mad_browser_help.shtml" target="_blank">Using the Mouse Developmental Anatomy Browser</a></dd>
     <dd><a href="VOCAB_amad_browser_help.shtml" target="_blank">Using the Adult Mouse Anatomical Dictionary Browser</a></dd>
+    <dd><a href="EXPRESSION_htexp_index_help.shtml" target="_blank">Using the RNA-Seq and Microarray Experiment Search</a></dd>
 
 	<dt><b>Molecular Reagents</b></dt>
 	
