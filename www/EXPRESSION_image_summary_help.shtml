@@ -31,7 +31,7 @@ Interpreting the Gene Expression Data Images Query by Gene Summary</span>
 <!--#include file='include/templateBlankBodyStart.html'-->
 
 <!--titleBar-->
-<A NAME="top"></A>
+<A id="top"></A>
 <h3>How do I interpret this report?</h3>
 
 <p>When there are images of expression data for a given gene, the word <i>Images</i>, followed by a number, appears in the Expression section of the Gene Detail page. Clicking the number returns a summary page where you can access all that gene's expression images.</p>

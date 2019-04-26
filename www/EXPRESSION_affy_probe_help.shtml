@@ -50,11 +50,11 @@ function openHelpWindow(helpFile){
 <tr>
 <th><a id="sym_detail"></a>Symbol<br>
  Name<br>ID</th>
-<td>Official symbol, name, and MGI accession identifier of the marker with the probeset/array.</td>
+<td>Official symbol, name, and <abbr title="Mouse Genome Informatics">MGI</abbr> accession identifier of the marker with the probeset/array.</td>
 </tr>
 <tr>
 <th><a id="probeset"></a>Probesets</th>
-<td>The total number of probes associated with this marker (in MGI microarray annotation files) appears at the top of the column.
+<td>The total number of probes associated with this marker (in <abbr title="Mouse Genome Informatics">MGI</abbr> microarray annotation files) appears at the top of the column.
  <blockquote>
   <table>
     <tr><th>Probeset ID</th><td>Identifier of each probeset/array associated with this marker.</td></tr>

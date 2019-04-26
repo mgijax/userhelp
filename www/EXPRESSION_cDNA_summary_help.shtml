@@ -51,12 +51,12 @@ For more information on the Clone Collections, see:
 <p>This page contains a summary of information on cDNAs associated with the gene with either an encodes or putative (not verified) relationship. 
 </p> 
 
-<p>The top of the page indicates the official gene symbol, linked to its Gene Detail page, and its name and MGI accession ID. A paginated table summarizes the source information for cDNA associated with the gene. 
+<p>The top of the page indicates the official gene symbol, linked to its Gene Detail page, and its name and <abbr title="Mouse Genome Informatics">MGI</abbr> accession ID. A paginated table summarizes the source information for cDNA associated with the gene. 
 </p>
 
 <table>
 <tr><th>FIELD</th> <th>DESCRIPTION</th></tr>
-<tr><th>Clone</th> <td>Clone name, linked to its detail report, and MGI ID.</td></tr>
+<tr><th>Clone</th> <td>Clone name, linked to its detail report, and <abbr title="Mouse Genome Informatics">MGI</abbr> ID.</td></tr>
 <tr><th>Clone Collection</th> <td>Name of the collection to which the clone belongs, if applicable.</td></tr>
 <tr><th>Source Tissue</th> <td>The tissue used to generate the cDNA library</td></tr>
 <tr><th>Source Age</th> <td>The age of the animal when the tissue was harvested</td></tr>
@@ -68,14 +68,14 @@ For more information on the Clone Collections, see:
 </p>
 
 <H3><a id="clone_collection"></A>What are clone collections in MGI?</H3>
-<P>Clone collections in MGI refer to designated sets of clones from specific clone libraries. In some cases, the designated set of clones includes all clones from the specified libraries (for example, the IMAGE clone collection is the group of clones from all I.M.A.G.E. consortium clone libraries). In other cases, the designated set of clones includes a well-defined subset of clones from the specified libraries (for example, the NIA 15K clone set is a subset of clones derived from NIA libraries). Clone data in MGI include sequence associations and clone library molecular source information. For all MGI clone collections, molecular source information is mapped to MGI 
+<P>Clone collections in <abbr title="Mouse Genome Informatics">MGI</abbr> refer to designated sets of clones from specific clone libraries. In some cases, the designated set of clones includes all clones from the specified libraries (for example, the IMAGE clone collection is the group of clones from all I.M.A.G.E. consortium clone libraries). In other cases, the designated set of clones includes a well-defined subset of clones from the specified libraries (for example, the NIA 15K clone set is a subset of clones derived from NIA libraries). Clone data in MGI include sequence associations and clone library molecular source information. For all MGI clone collections, molecular source information is mapped to MGI 
 <a href="<!--#include file='include/fewi_url.html'-->glossary/controlled_vocabulary" target="_blank">controlled vocabularies</a>.
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <H3><a id="which_clone"></A>Which clone collections does MGI contain?</H3>
-<P>MGI contains data for mouse cDNA clones from the I.M.A.G.E. consortium,  the National Institute on Aging (NIA)  mouse cDNA sets (NIA, NIA 7.4K, NIA 15K), as well as from the RIKEN (FANTOM) clone collections. See <A HREF="<!--#include file='include/fewi_url.html'-->accession/J:82718" target="_blank">J:82718</a> for further details.</p>
+<P><abbr title="Mouse Genome Informatics">MGI</abbr> contains data for mouse cDNA clones from the I.M.A.G.E. consortium,  the National Institute on Aging (NIA)  mouse cDNA sets (NIA, NIA 7.4K, NIA 15K), as well as from the RIKEN (FANTOM) clone collections. See <A HREF="<!--#include file='include/fewi_url.html'-->accession/J:82718" target="_blank">J:82718</a> for further details.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

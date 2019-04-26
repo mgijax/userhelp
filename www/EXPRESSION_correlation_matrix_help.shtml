@@ -55,7 +55,7 @@ function openHelpWindow(helpFile){
 
 <h3><a id="correlation"></a>How do I interpret the Phenotype Comparison Matrix?</h3>
 
-<p>The official gene symbol, name and MGI accession ID for the gene of interest appear at the top of the page.</p>
+<p>The official gene symbol, name and <abbr title="Mouse Genome Informatics">MGI</abbr> accession ID for the gene of interest appear at the top of the page.</p>
 
 <p>The first column shows wild-type expression data for the gene. The following columns show tissues affected in animals carrying the genotype listed in the column header. The genotype columns are sorted, left to right, in groups by genotype type, in this order: </p>
 

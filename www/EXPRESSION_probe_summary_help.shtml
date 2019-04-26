@@ -49,7 +49,7 @@ For more information on the Clone Collections, see:
 </UL>
 </P>
 
-<p>If you reached this page from a Gene Detail page, then the top of the page indicates the official gene symbol, linked to its Gene Detail page, and its name and MGI accession ID. Just below this section the Sequence Type is indicated and a paginated table summarizes the information for probes, clones and primers associated with the gene. If you reached this page from a Reference Detail page, then the top provides a Reference Summary. 
+<p>If you reached this page from a Gene Detail page, then the top of the page indicates the official gene symbol, linked to its Gene Detail page, and its name and <abbr title="Mouse Genome Informatics">MGI</abbr> accession ID. Just below this section the Sequence Type is indicated and a paginated table summarizes the information for probes, clones and primers associated with the gene. If you reached this page from a Reference Detail page, then the top provides a Reference Summary. 
 </p>
 
 <table>
@@ -57,7 +57,7 @@ For more information on the Clone Collections, see:
 <TH>FIELD <TH>DESCRIPTION
 </TR>
 <TR>
-<th>Probe/Clone<td>The probe, clone or primer name, linked to the detailed record for the probe/clone and MGI Accession ID for the probe/clone.
+<th>Probe/Clone<td>The probe, clone or primer name, linked to the detailed record for the probe/clone and <abbr title="Mouse Genome Informatics">MGI</abbr> Accession ID for the probe/clone.
 </TR>
 <TR>
 <th><span style="white-space: nowrap">Clone Collection</span></TH> <td>Name of the collection to which the clone belongs, if applicable.</TD>
@@ -70,7 +70,7 @@ May be one of the following: cDNA, genomic, DNA (construct), mitochondrial, olig
 <th>Seq Link?</TH><td>Indicates whether there is a Sequence Accession ID associated with the probe/clone. </TD>
 </TR>-->
 <TR>
-<th>Genes</TH> <td>Symbols for the markers associated with the probe/clone. If the probe is putatively associated with a marker in the MGI database, PUTATIVE appears in parentheses after the marker symbol.</TD>
+<th>Genes</TH> <td>Symbols for the markers associated with the probe/clone. If the probe is putatively associated with a marker in the <abbr title="Mouse Genome Informatics">MGI</abbr> database, PUTATIVE appears in parentheses after the marker symbol.</TD>
 </TR>
  <TR>
 <th>Chromosome</TH> <td>The chromosome to which the marker is assigned, and, enclosed in parentheses, the cM position or cytogenetic band. Location information shown varies, depending on available data. </TD>
@@ -85,7 +85,7 @@ May be one of the following: cDNA, genomic, DNA (construct), mitochondrial, olig
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <H3><a id="which_clone"></A>Which clone collections does MGI contain?</H3>
-<P>MGI contains data for mouse cDNA clones from the I.M.A.G.E. consortium,  the National Institute on Aging (NIA)  mouse cDNA sets (NIA, NIA 7.4K, NIA 15K), as well as from the RIKEN (FANTOM) and RPCI (23, 24) clone collections. See <A HREF="<!--#include file='include/fewi_url.html'-->accession/J:82718" target="_blank">J:82718</a> for further details.</p>
+<P><abbr title="Mouse Genome Informatics">MGI</abbr> contains data for mouse cDNA clones from the I.M.A.G.E. consortium,  the National Institute on Aging (NIA)  mouse cDNA sets (NIA, NIA 7.4K, NIA 15K), as well as from the RIKEN (FANTOM) and RPCI (23, 24) clone collections. See <A HREF="<!--#include file='include/fewi_url.html'-->accession/J:82718" target="_blank">J:82718</a> for further details.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

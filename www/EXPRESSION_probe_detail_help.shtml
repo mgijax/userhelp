@@ -101,7 +101,7 @@ found.</td></tr>
 </td></tr>
 
 <tr><th>References</th>
-      <td>Citations for this probe/clone, each linked via an MGI Reference ID (the J:####) to the Reference Detail page</td>
+      <td>Citations for this probe/clone, each linked via an <abbr title="Mouse Genome Informatics">MGI</abbr> Reference ID (the J:####) to the Reference Detail page</td>
 </tr>
 </table>
 
@@ -116,7 +116,7 @@ found.</td></tr>
 <tr><th>Name</TH><td>Name of the primer set.</td></tr>
 <tr><th><span style="white-space: nowrap">Primer 1 Sequence</span></th><td>Sequence for the first primer.</td></tr>
 <tr><th>Primer 2 Sequence</th><td>Sequence for the second primer.</td></tr>
-<tr><th>ID</th> <td>Unique MGI ID assigned to the probe/clone record in MGI. The format is <I>MGI:nnnn</I> (<i>nnnn</i> is any number greater than or equal to 1).</td> </tr>
+<tr><th>ID</th> <td>Unique MGI ID assigned to the probe/clone record in <abbr title="Mouse Genome Informatics">MGI</abbr>. The format is <I>MGI:nnnn</I> (<i>nnnn</i> is any number greater than or equal to 1).</td> </tr>
 <tr><th>Region Covered</th><td>Description of the molecular segment inserted into the vector</td></tr>
 <tr><th>Product Size</th><td>Size of the amplified product.</td></tr>
 <tr><th>Other IDs</th><td>A list of any secondary MGI accession IDs associated with the probe/clone as well as unique identifiers assigned to the probe/clone by a resource external to the database. Within MGI, the UniSTS ID is an example of an external accession ID. This are linked to the appropriate resource when possible. See also: <a href="#cloneids">What clones IDs may be associated with a probe?</a></td></tr>

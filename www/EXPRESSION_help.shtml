@@ -523,7 +523,7 @@ Individual cells have the ability to filter as well. Clicking on a cell displays
 <h3><a id="gxd_lit_record"></a>Why is there a link to Gene Expression Literature records in my query summary?</h3>
 <p>At the end of the query summary, there may be a link to Gene Expression Literature content records matching the parameters of your detailed expression data search.  
 <ul>
-  <li>The first step of annotation in GXD is to create literature content records containing information on the genes and ages analyzed and assay types used in each reference. All expression papers have content records. </li>
+  <li>The first step of annotation in <abbr title="Gene Expression Database">GXD</abbr> is to create literature content records containing information on the genes and ages analyzed and assay types used in each reference. All expression papers have content records. </li>
   <li>The next step is for the curators to extract the detailed expression data from these references. The types of data annotated at this stage include:  the anatomical structures analyzed; the authors' description of the pattern and strength of expression; and the genetic origin of the sample. Because annotation process is time-consuming, not all expression references have detailed data in the database. </li>
 </ul> 
 </p>

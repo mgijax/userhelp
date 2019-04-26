@@ -318,7 +318,7 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
      </ul></td> 
   	</tr>
  	<tr>
-   <td><b>Other Database Links</b></td><td>When present, this field displays links to information about the image in databases other than MGI (e.g. GenePaint, Eurexpress and GUDMAP)
+   <td><b>Other Database Links</b></td><td>When present, this field displays links to information about the image in databases other than <abbr title="Mouse Genome Informatics">MGI</abbr> (e.g. GenePaint, Eurexpress and GUDMAP)
 	</td></tr>
   </table>
 </blockquote>

@@ -54,7 +54,7 @@ function openHelpWindow(helpFile){
 
 <p>If an assay uses an antibody, the assay detail record provides a link to the antibody record.
 </p>
-<p>You can access antibody records through these links, or, you can enter the unique MGI accession ID (e.g., MGI:1332271) in the Quick Search box located at the top of most MGI web pages.</p>
+<p>You can access antibody records through these links, or, you can enter the unique <abbr title="Mouse Genome Informatics">MGI</abbr> accession ID (e.g., MGI:1332271) in the Quick Search box located at the top of most <abbr title="Mouse Genome Informatics">MGI</abbr> web pages.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
