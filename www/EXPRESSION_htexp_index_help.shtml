@@ -20,7 +20,7 @@ function openHelpWindow(helpFile){
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">
- Using the Microarray and RNA-Seq Experiment Search
+ Using the RNA-Seq and Microarray Experiment Search
  </span>
 </div>
 
@@ -56,7 +56,7 @@ function openHelpWindow(helpFile){
 
 <p>This form provides allows users to search for RNA-Seq and microarray studies  that examine expression in adult and embryonic mice. These experiments are stored in EBI's <a href="https://www.ebi.ac.uk/arrayexpress/">ArrayExpress</a>. ArrayExpress includes many experiments that were originally deposited in NCBI's <a href="https://www.ncbi.nlm.nih.gov/geo/">GEO</a> because, prior to August 2016, ArrayExpress imported all experiments that had been deposited in <abbr title="Gene Expression Omnibus">GEO</abbr>. Both ArrayExpress and <abbr title="Gene Expression Omnibus">GEO</abbr> rely on their submitters to provide the annotations, resulting in samples and experiments being described in a non-standardized fashion with only a limited use of controlled vocabularies. Thus, searching for experiments at both of these repositories is heavily reliant on free text with its attendant pitfalls. Therefore, to facilitate reliable searching for experiments, GXD curators have annotated experiment samples using controlled vocabularies for age, anatomical structure, mutant alleles, and sex. In addition, they have annotated the study type and key variables for each experiment. The integration of these standardized annotations with free text searching of experiment title and description allows for searches that accurately return experiments of interest.</p>
 
-<p>GXD's annotation efforts focus on experiments examining endogenous gene expression in wild-type and mutant mice. Studies from all developmental stages, including adult, are included. In addition, studies examining expression differences within and between species is available (although the metadata for the non-mouse samples is not). As is consistent with <abbr title="Gene Expression Database">GXD</abbr> policy, studies using transgenic mice (i.e., animals containing randomly inserted transgenes); animals that have been manipulated, either by substances, surgical procedures, or diet regimens; cultured or dissociated tissues; or cell lines are not included.</p>
+<p>GXD's annotation efforts focus on experiments examining endogenous gene expression in wild-type and mutant mice. Studies from all developmental stages, including adult, are included. In addition, studies examining expression differences within and between species is available (although the metadata for the non-mouse samples is not). As is consistent with <abbr title="Gene Expression Database">GXD</abbr> policy, studies using transgenic mice (i.e., animals containing randomly inserted transgenes); animals that have been manipulated, either by substances, surgical procedures, or diet regimens; cultured tissues; or cell lines are not included.</p>
 
 <p>Curators rely on the information provided in the repository submission when annotating sample metadata.  However, they will consult the publication when clarification/additional information is required.</p>
 
@@ -118,7 +118,7 @@ To select multiple stages or ages:
    <li>Non-alphanumeric characters are generally treated as a space when searching. The exception is the apostrophe-s construct; it has its apostrophe stripped out, and attaches the <i>s</i> to the preceding word.</li>
    <li>Use quotation marks to enclose phrases where the specified words must come in order, with no words intervening.</li> 
    <li>Boolean operators (OR or AND) are not permitted.</li>
-   <li>This text search does not stem words (i.e. remove suffixes and searches using the root word).</li>
+   <li>This text search does not stem words (i.e. doesn not remove suffixes and searches using the root word).</li>
   </ul>
  </td>
 </tr>
@@ -175,7 +175,7 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 <tr><th><a id="details"></a>Details</th> 
 	<td><table>
 		<tr><th>Samples</th>
-			<td>The number samples in the experiment. The number and View button provide a link to a popup (described below) that displays the <abbr title="Gene Expression Database">GXD</abbr>-curated metadata about each experiment. If your search criteria used sample metadata, the number of samples that match your search is also displayed.</td>
+			<td>The number samples in the experiment. The number and View button provide a link to a popup (described below) that displays the <abbr title="Gene Expression Database">GXD</abbr>-curated metadata about each sample. If your search criteria used sample metadata, the number of samples that match your search is also displayed.</td>
 		</tr>
 		<tr><th>Experimental variables</th>
 			<td>Variables of the experiment, as determined by <abbr title="Gene Expression Database">GXD</abbr> curators. Potential variables include: age; anatomical structure; developmental stage; genotype; sex; or species.</td>
@@ -196,7 +196,7 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 	<td>As provided by the data submitter to the repository. If a text search of the description field was performed, matching text is highlighted in yellow.</td>
 </tr>
 <tr><th><a id="note"></a>Note</th> 
-	<td>If present, notes about the assay that the curators feel are necessary to interpret the results.</td>
+	<td>If present, notes about the experiment that the curators feel are necessary to interpret the results.</td>
 </tr>
 </table>
 
@@ -217,7 +217,7 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 	<td>Species sampled. Only displayed when multiple species are examined.</td>
 </tr>
 <tr><th><a id="age"></a>Age</th>
-	<td>Age of the specimen used in the assay. The abbreviations for age annotations are as follows:
+	<td>Age of the sample used in the experiment. The abbreviations for age annotations are as follows:
 <table>
 <tr><td><b>E</b></td> <td>Embryonic day</td> </tr>
 <tr>  <td><b>P  </b></td> <td>Postnatal or postnatal day &nbsp;&nbsp;&nbsp;</td> </tr>
@@ -246,7 +246,7 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 </table>
 <p>Samples that match your search criteria will be displayed in colored-shaded rows.
 </p>
-<p><b>Note</b>: We do not include detailed metadata about non-mouse samples or mouse samples obtained from transgenic mice (i.e., animals containing randomly inserted transgenes); animals that have been manipulated, either by substances, surgical procedures, or diet regimens; cultured or dissociated tissues; or cell lines.
+<p><b>Note</b>: We do not include detailed metadata about non-mouse samples or mouse samples obtained from transgenic mice (i.e., animals containing randomly inserted transgenes); animals that have been manipulated, either by substances, surgical procedures, or diet regimens; cultured tissues; or cell lines.
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
