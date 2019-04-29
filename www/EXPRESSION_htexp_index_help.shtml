@@ -118,7 +118,7 @@ To select multiple stages or ages:
    <li>Non-alphanumeric characters are generally treated as a space when searching. The exception is the apostrophe-s construct; it has its apostrophe stripped out, and attaches the <i>s</i> to the preceding word.</li>
    <li>Use quotation marks to enclose phrases where the specified words must come in order, with no words intervening.</li> 
    <li>Boolean operators (OR or AND) are not permitted.</li>
-   <li>This text search does not stem words (i.e. doesn not remove suffixes and searches using the root word).</li>
+   <li>This text search does not stem words (i.e. does not remove suffixes and searches using the root word).</li>
   </ul>
  </td>
 </tr>
