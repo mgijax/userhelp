@@ -46,7 +46,7 @@ function openHelpWindow(helpFile){
 <p>This help document answers the following questions:</p>
 <ul>
  <li><a href="#whatMGVpurpose">What is the purpose of the Multiple Genome Viewer?</a></li>
- <li><a href="#allstrains">What inbred strains are included in the Viewer?</a></li>
+ <li><a href="#allstrains">What mouse inbred strains are included in the Viewer?</a></li>
  <li><a href="#sections">How do I use the different sections of the Viewer?</a></li>
  <li><a href="#align">How do I align on a feature?</a></li>
  <li><a href="#sequences">How can I get FASTA sequences for features of interest?</a></li>
@@ -57,13 +57,15 @@ function openHelpWindow(helpFile){
 </ul>
 
 <h3><a id="whatMGVpurpose"></a>What is the purpose of the Multiple Genome Viewer?</h3>
-<p>The Multiple Genome Viewer allows you to explore and compare chromosomal regions and synteny blocks between the C57BL/6J reference genome and 18 other mouse inbred strains: 16 sequenced and annotated by the Wellcome Institute Sanger <a href="https://www.sanger.ac.uk/science/data/mouse-genomes-project">Mouse Genomes Project</a> and two wild-derived strains (CAROLI/EiJ and PAHARI/EiJ) <a href="https://genome.cshlp.org/content/early/2018/03/21/gr.234096.117">published</a> by Paul Flicek and Duncan Odom and others. 
+<p>The Multiple Genome Viewer (MGV) allows you to browse and compare multiple related genomes, download corresponding sequence regions and display lists of genes. For mouse, these include the C57BL/6J reference genome and 18 other mouse inbred strains: 
+16 sequenced and annotated by the Wellcome Institute Sanger <a href="https://www.sanger.ac.uk/science/data/mouse-genomes-project">Mouse Genomes Project</a> and two wild-derived strains (CAROLI/EiJ and PAHARI/EiJ) <a href="https://genome.cshlp.org/content/early/2018/03/21/gr.234096.117">published</a> by Paul Flicek and Duncan Odom and others. 
 The Viewer shows corresponding regions of the selected genomes as horizontal stripes and the equivalent features in each genome via vertical connectors. The navigation of the genomes is synchronized as you scroll in 5' or 3' directions. 
 The Viewer permits searches by genes and other genome features, genome coordinates, and function, phenotype, disease, and pathway terms. All searches query for canonical genes in MGI's <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a>. 
 You can forward lists of features to MouseMine and download genomic, coding and exon sequences for a selected feature for designated strains. 
-You can also run an MGI SNP query for strains and a region of interest, and find QTLs that overlap a defined region. Note that currently only the C57BL/6J annotation is “reference quality.”</p>
+You can also run an MGI SNP query for strains and a region of interest, and find QTLs that overlap a defined region. The MGV also include the reference genomes for <i>Homo sapiens</i>, <i>Rattus norvegicus</i> (Norway rat), <i>Danio rerio</i> (zebrafish), <i>Caenorhabditis elegans</i> (nematode), <i>Drosophila melanogaster</i> (fruit fly), and <i>Saccharomyces cerevisiae</i> (budding yeast). 
+Note that for mouse, currently only the C57BL/6J annotation is “reference quality.”</p>
 
-<h3><a id="allstrains"></a>What inbred strains are included in the Viewer?</h3>
+<h3><a id="allstrains"></a>What mouse inbred strains are included in the Viewer?</h3>
 
 <table>
 <tr><th>Strain Name</th> 
@@ -91,7 +93,7 @@ You can also run an MGI SNP query for strains and a region of interest, and find
 
 <h3><a id="sections"></a>How do I use the different sections of the Viewer?</h3>
 
-<p>In the page banner, click on the gear icon to open or close the left hand panel. The MGI logo links to the MGI Home Page and the <span style="font-weight: bold; font-size: 1.2em; color: #352C96;">&#8505;</span> icon links to this help document.</p>
+<p>In the page banner, click on the gear icon to open or close the left hand panel. The MGI logo links to the MGI Home Page and the <span style="font-weight: bold; font-size: 1.2em; color: #352C96;">&#8505;</span> icon links to a pop-up help document.</p>
 
 <p>The main portion of the page is divided into boxes.</p>
 <ul>
