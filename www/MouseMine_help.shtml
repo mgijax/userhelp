@@ -67,7 +67,7 @@ table {text-align: left}
  <tr><th>Home</th><td>Links to the MouseMine Home Page</td></tr>
  <tr><th>Templates</th><td>Links to a listing of all the templates. Templates are predefined queries that have a simple input type and return a defined table of results. Examples are <i>Diseases --> Mouse models</i> (returns mouse models of specified human diseases) and <i>Genes/Features --> Phenotypes (MP terms)</i> (returns the Mammalian Phenotype (MP) terms associated with the specified genes or other features). You can filter the list of templates by keyword or data category. In the center section of MouseMine Home Page, the templates are pre-sorted by category. Though the template table of results is pre-determined, you can easily remove, sort and filter columns, and add additional columns.</td></tr>
  <tr><th>Lists</th><td>The Lists tab provides the ability to create and manage lists of objects, such as lists of genes, alleles, GO terms, or publications. When you create a list, a series of pre-defined queries (templates) and enrichments are run.</td></tr>
- <tr><th><span style="white-space: nowrap">QueryBuilder &nbsp;&nbsp;</span></th><td>A flexible query interface allows advanced users to construct their own queries. The QueryBuilder lets you view the data model, apply constraints and select output. You can also export queries to share them with others.</td></tr>
+ <tr><th><span style="white-space: nowrap">QueryBuilder &nbsp;&nbsp;</span></th><td>A flexible query interface allows advanced users to construct their own queries. The QueryBuilder lets you view the data model, apply constraints and select output. You can also export queries to share them with others. See example <a href="#D.">D.</a></td></tr>
  <tr><th>Viewer</th><td>Links to the Multiple Genome Viewer (MGV). MGV allows you to explore and compare chromosomal regions and synteny blocks between the C57BL/6J reference genome and 18 other mouse inbred strains. See <a href="MGV_help.shtml" target="_blank">Using the Multiple Genome Viewer</a></td></tr>
  <tr><th>Data</th><td>Lists the general MouseMine data categories, the types of data in each category and the sources of data</td></tr>
  <tr><th>API</th><td>Provides instructions for using Perl, Python, Ruby, and Java web service access to MouseMine</td></tr>
@@ -141,6 +141,23 @@ button.</li>
  <li>Save the list.</li>
  <li>This will also run some automatic queries (templates) and enrichments. Scroll down to see them and click on any that interest you.</li> 
 </ol> 
+
+<p><a id="D."><b>D.</b></a>&nbsp;How can you get a list of genes with their phenotype summaries?</p>
+
+<p>For many mouse genes with phenotype data for mutant alleles, MGI curators have created a brief statement that summarizes those phenotypes. This example uses the QueryBuilder to generate a list of genes and their phenotype summaries.</p>
+
+<ol>
+ <li>Click on the QueryBuilder tab near the top of the MouseMine page.</li>
+ <li>Click on Gene and then the Select button to Select a Data Type to Begin a Query.<li>
+ <li>In the Model browser section, under Gene, click on SHOW after MGI Type, Name, Primary Identifier, and Symbol to add these fields to your results.</li>
+ <li>After Description, click on SHOW, then CONSTRAIN.</li>
+ <li>In the pop-up window, toggle = to CONTAINS, and enter phenotype in the field. This will limit your results to those genes with a phenotype description.</li>
+ <li>Click the Add to query button.</li>
+ <li>In the bottom section of the page, Fields selected for output, drag the field boxes in the order you want them.</li>
+ <li>Click the Show results button.</li>
+</ol> 
+
+<p>The results will provide a list of all markers with a phenotype description, and will also provide a functional description for those markers.</p> 
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

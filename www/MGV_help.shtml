@@ -63,7 +63,7 @@ The Viewer shows corresponding regions of the selected genomes as horizontal str
 The Viewer permits searches by genes and other genome features, genome coordinates, and function, phenotype, disease, and pathway terms. All searches query for canonical genes in MGI's <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a>. 
 You can forward lists of features to MouseMine and download genomic, coding and exon sequences for a selected feature for designated strains. 
 You can also run an MGI SNP query for strains and a region of interest, and find QTLs that overlap a defined region. The MGV also include the reference genomes for <i>Homo sapiens</i>, <i>Rattus norvegicus</i> (Norway rat), <i>Danio rerio</i> (zebrafish), <i>Caenorhabditis elegans</i> (nematode), <i>Drosophila melanogaster</i> (fruit fly), and <i>Saccharomyces cerevisiae</i> (budding yeast). 
-Note that for mouse, currently only the C57BL/6J annotation is “reference quality.”</p>
+Note that for mouse, currently only the C57BL/6J annotation is "reference quality."</p>
 
 <h3><a id="allstrains"></a>What mouse inbred strains are included in the Viewer?</h3>
 
@@ -93,17 +93,24 @@ Note that for mouse, currently only the C57BL/6J annotation is “reference qual
 
 <h3><a id="sections"></a>How do I use the different sections of the Viewer?</h3>
 
-<p>In the page banner, click on the gear icon to open or close the left hand panel. The MGI logo links to the MGI Home Page and the <span style="font-weight: bold; font-size: 1.2em; color: #352C96;">&#8505;</span> icon links to a pop-up help document.</p>
+<p>In the page banner, click on the gear icon to open or close the left hand panel, or type "t" (for "tools"). The MGI logo links to the MGI Home Page and the <span style="font-weight: bold; font-size: 1.2em; color: #352C96;">&#8505;</span> icon links to a pop-up help document.</p>
 
-<p>The main portion of the page is divided into boxes.</p>
+<p>The page is divided into boxes.</p>
 <ul>
- <li>Each box has a name, an open/close button (small triangle), and a drag handle (six dots, &#8942;&#8942;) in the upper right. Use the up/down arrows to expand (&#9660;) and collapse (&#9650;) the boxes. 
+ <li>Each box has a name, an open/close button (<span style="font-size: 1.2em;">+</span>/X), and a drag handle (six dots, &#8942;&#8942;) in the upper right. <!--Use the up/down arrows to expand (&#9660;) and collapse (&#9650;) the boxes. -->
   <ul>
-   <li>When “open”, a box displays a “full” view</li>
-   <li>When “closed”, some boxes display a “contracted” view</li>
+   <li>When "open", a box displays a "full" view</li>
+   <li>When "closed", some boxes display a "contracted" view</li>
    </ul></li>
  <li>Boxes can be reordered within their columns by dragging by the handle icon (&#8942;&#8942;) up or down</li>
  <li>The open/closed state and the ordering of boxes is remembered by your web browser</li>
+ <li>The two main sections of the page are the <a href="#zoom">Zoom View</a>, which shows specified chromosomal regions from one or more genomes, and the <a href="#genomeview">Genome View</a>, which shows all the chromosomes of a single genome. The two views are synchronized, so clicking on a strip in Zoom View refocuses Genome View to display that genome.
+  <ul>
+  <li>In the Zoom View, each genomic region is displayed in its own "mini browser" that can be scrolled and zoomed.</li>
+  <li>The size of a region ranges from a full chromosome to a few bases.</li>
+  <li>Regions shown in the Genome View and Zoom View for a given genome correspond, and changes in one are reflected in the other.</li> 
+  <li>Clicking in a genome region in the Zoom View highlights the corresponding region in the Genome View, and vice versa.</li>
+  </ul></li>
  <li>Navigation is integrated with browser history
   <ul>
    <li>you can use your browser's back and forward buttons</li>
@@ -116,7 +123,7 @@ Note that for mouse, currently only the C57BL/6J annotation is “reference qual
 <h4><a id="control"></a>Control Boxes</h4>
  
 <table class="nb">
-<tr><td><a href="#refgenome">Reference Genome</a> | <a href="#compgenomes">Genomes</a> | <a href="#findgenes">Find Genes</a> | <a href="#mylists">My Lists</a> | <a href="#listed">List Editor</a> | <a href="#featuretype">Feature Types</a> | <a href="#hasid">Has Canonical ID</a> | <a href="#highlight">Is Highlighted</a> </td>
+<tr><td><!-- <a href="#refgenome">Reference Genome</a> | --><a href="#compgenomes">Genomes</a> | <a href="#findgenes">Lists and Searches</a> | <a href="#mylists">My Lists</a> | <a href="#listed">List Editor</a> | <a href="#featuretype">Feature Types</a> | <a href="#hasid">Has Canonical ID</a> | <a href="#highlight">Is Highlighted</a> | <a href="seqcart">Sequence Cart</a></td>
 </tr>
 </table>
 
@@ -124,32 +131,30 @@ Note that for mouse, currently only the C57BL/6J annotation is “reference qual
  <tr><th>Box</th> 
 	<th>Descriptions</th>
  </tr>
- <tr><th><a id="refgenome"></a>Reference Genome</th>
-  <td>Select one genome to be the reference. The reference genome:
+<!--<tr><th><a id="refgenome"></a>Reference Genome</th>
+  <td>Use the "R" in the left hand bar in the ZoomView to select or unselect a reference genome. The reference genome:
   <ul>
-   <li>is shown in the <a href="#genomeview">Genome View</a>, the top section of the main body of the page</li>
-   <li>is marked in the <a href="#zoom">Zoom View</a> with a blue bar at the left end</li>
+   <li>is shown in the <a href="#genomeview">Genome View</a> section of the main body of the page</li>
+   <li>is marked in the <a href="#zoom">Zoom View</a> with a orange bar at the left end and in the Genomes box with an orange dot.</li>
    <li>defines the coordinate system in which genome coordinates are interpreted</li>
    <li>defines the coordinate transformations to any given comparison genome</li>
   </ul>
   </td>
- </tr>
+ </tr>  --> 
  <tr><th><a id="compgenomes"></a>Genomes</th>
   <td>Select zero or more genomes to display along with the reference genome in the <a href="#zoom">Zoom View</a>
   <ul>
-   <li>Click a strain to select it and unselect all others</li>
-   <li>Shift-click to select a range</li>
-   <li>Command (&#8984;)-click on a Mac, or control-click on a PC, to select individual strains</li>
-   <li>Hint: to unselect all comparison genomes, click on any one, then command/control-click it</li>
+   <li>Use the check boxes to select and unselect genomes</li>
+   <!-- <li>Command (&#8984;)-click on a Mac, or control-click on a PC, to select individual strains</li> -->
    </ul>
   Three buttons allow you to quickly select a set of genomes:
    <ul>
     <li>DO/CC founders will select the 8 collaborative cross founder strains</li>
     <li>B6 vs non-musculus will select SPRET/EiJ, CAROLI/EiJ, PAHARI/EiJ and C57BL/6J. The latter will also be set as the reference genome.</li>
-    <li>All will select the 18 strains from the Mouse Genome Project and C57BL/6J.</li>  
+    <li>Mouse, human and rat will select the 3 reference genomes: C57Bl/6J, <i>H. sapiens</i>, and <i>R. norvegicus</i>.</li>  
    </ul>
   </td></tr>
- <tr><th><a id="findgenes"></a>Find Genes</th>
+ <tr><th><a id="findgenes"></a>Lists and Searches</th>
   <td>This box searches MouseMine for canonical genes (genome features with MGI IDs) by symbol, or those genes annotated to specified Gene Ontology (GO functional annotations), Mammalian Phenotypes (MP), Disease Ontology (DO), or Reactome pathway terms. 
   Genes matching or annotated to your search terms will show up as a list in the <a href="#mylists">My Lists</a> box. The <a href="#zoom">Zoom View</a> will display the first gene in your list. <!-- Wildcards are added automatically -->You have four search options available from the toggle: 
  <table>
@@ -246,6 +251,9 @@ Note that for mouse, currently only the C57BL/6J annotation is “reference qual
        </ul></li>
      </ul>
      </td></tr>
+ <tr><th><a id="seqcart"></a>Sequence Cart</th>
+ <td>The Sequence Cart contains (descriptors of) sequences that you select plus controls for downloading. Actual sequences are not materialized until download time, so large sequences are OK. If you want whole chromosomes, though, you should go to <a href="ftp://ftp.ensembl.org/pub/" target="_blank">Ensembl</a>.
+ </td></tr>
  <tr><th><a id="highlight"></a>Is Highlighted</th>
      <td>
      <ul>
@@ -274,9 +282,9 @@ Note that for mouse, currently only the C57BL/6J annotation is “reference qual
 	<th>Descriptions</th>
  </tr>
 <tr><th><a id="genomeview"></a>Genome View</th>
-     <td>This is the top section of the main body of the page, unless you move it. 
+     <td> 
      <ul>
-          <li>It displays the chromosomes from the currently selected reference genome
+          <li>It displays the chromosomes from the currently selected genome
            <ul>
             <li>in the closed state, it only displays one chromosome, generally, the one displayed in the <a href="#zoom">Zoom View</a></li>
             <li>when closed, you can drag to scroll along the chromosome and use the &#8963; and v to scroll through the chromosomes
@@ -303,7 +311,13 @@ Note that for mouse, currently only the C57BL/6J annotation is “reference qual
      </ul></li>
 </ul></tr>
  <tr><th><a id="zoom"></a>Zoom View</th>
-     <td>
+     <td>Use the "R" in the left hand bar in the ZoomView to select or unselect a reference genome. The reference genome:
+     <ul>
+       <li>is shown in the <a href="#genomeview">Genome View</a> section of the main body of the page</li>
+       <li>is marked in the <a href="#zoom">Zoom View</a> with a orange bar at the left end and in the Genomes box with an orange dot.</li>
+       <li>defines the coordinate system in which genome coordinates are interpreted</li>
+       <li>defines the coordinate transformations to any given comparison genome</li>
+     </ul>
      <ul>
      <li>Shows the current region of focus
      <ul>
