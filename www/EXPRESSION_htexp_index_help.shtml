@@ -187,7 +187,13 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 			<td>Linkout to the PubMed entry for the publication (if available)</td>
 		</tr>
 		<tr><th>View experiment at</th>
-			<td>Linkouts to the experiment record at ArrayExpress and, if applicable, <abbr title="Gene Expression Omnibus">GEO</abbr>.</td>
+			<td>Linkouts to: 
+             <ul>
+              <li>GXD: if the experiment data have been incorporated into GXD, a link to the assay results summary is provided.</li>
+              <li>Expression Atlas: if the experiment data have been incorporated into the Expression Atlas, a link is provided.</li>
+              <li>Array Express: the experiment record</li>
+              <li><abbr title="Gene Expression Omnibus">GEO</abbr>: the experiment record, if applicable.</li>
+             <ul></td>
 		</tr>
 		</table>
 	</td>
@@ -220,8 +226,8 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 	<td>Age of the sample used in the experiment. The abbreviations for age annotations are as follows:
 <table>
 <tr><td><b>E</b></td> <td>Embryonic day</td> </tr>
-<tr>  <td><b>P  </b></td> <td>Postnatal or postnatal day &nbsp;&nbsp;&nbsp;</td> </tr>
-<tr>  <td><b>P w</b></td> <td>Postnatal week<td> </tr>
+<tr>  <td><b>P  </b></td> <td>Postnatal or postnatal day &nbsp;&nbsp;</td> </tr>
+<tr>  <td><b>P w</b></td><td>Postnatal week<td> </tr>
 <tr>  <td><b>P m</b></td> <td>Postnatal month</td> </tr>
 <tr>  <td><b>P y</b></td> <td>Postnatal year</td> </tr>
 <tr>  <td><b>P adult</b></td> <td>Postnatal adult</td> </tr>

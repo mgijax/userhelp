@@ -79,7 +79,14 @@ expression results from assays with differing spatial resolution in a consistent
 <ul>
 	<li>Begin typing a structure of interest and an autocomplete list activates on the second character. 
     <ul>
-    	<li>The list shows all the anatomy terms and their synonyms that match your search characters.</li>
+    	<li>The list shows all the anatomy terms and their synonyms that match your search characters. The list is ordered by: 
+         <ol>
+          <li>exact match to a structure</li> 
+          <li>exact match to a synonym </li>
+          <li>begins match to a structure</li>
+          <li>begins match to a synonym</li>
+          <li>other matches</li>
+         </ol></li>
     	<li>You can type the beginnings of multiple terms to narrow the list (example: <i>fore skel</i> will limit the list to terms with variations on forelimb and forearm, and skeleton and skeletal).
     </ul>
 	<li>You must select a term. There is no free text searching in this field.</li>

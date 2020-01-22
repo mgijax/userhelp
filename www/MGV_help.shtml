@@ -51,7 +51,7 @@ function openHelpWindow(helpFile){
  <li><a href="#align">How do I align on a feature?</a></li>
  <li><a href="#sequences">How can I get FASTA sequences for features of interest?</a></li>
  <li><a href="#batch">How can I get additional phenotype, GO and expression data for features of interest?</a></li>
- <li><a href="#snps">How can I find SNPs for a region of interest?</a></li>
+ <!--<li><a href="#snps">How can I find SNPs for a region of interest?</a></li>-->
  <li><a href="#inversions">What do the colored shaded regions mean?</a></li>
  <li><a href="#example">Are there any examples?</a></li>
 </ul>
@@ -426,7 +426,7 @@ The last 2 offer the options to Forward the list to MGI and its basic Batch Quer
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="snps"></a>How can I find SNPs for a region of interest?</h3>
+<!-- <h3><a id="snps"></a>How can I find SNPs for a region of interest?</h3>
 
 <ol>
 <li>Select your strains of interest in the <a href="#compgenomes">Genomes</a> box.</li> 
@@ -436,7 +436,7 @@ The last 2 offer the options to Forward the list to MGI and its basic Batch Quer
 
 <p>Note that the the Linkout menu also lets you find QTLs that overlap the region or open the region in JBrowse.<p> 
 
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p> -->
 
 <h3><a id="inversions"></a>What do the colored shaded regions mean?</h3>
 
