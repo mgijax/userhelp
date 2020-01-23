@@ -236,15 +236,15 @@ table { border-style: none; align: center
 <li><b>Data Summaries</b> - each number links to a summary report: 
 	<ul>
     <li>All Results - expression results; links to details</li>
-    <li>Tissues - anatomical structures where expression was analyzed; summary report details whether or not expression was detected</li>
+    <li>Tissues - anatomical structures where expression was analyzed; summary report details whether or not expression was detected. This report does not include RNA-Seq data.</li>
     <li>cDNA data - the number of cDNA clones for this marker, linked to summary report that includes source data for those clones</li>
     <li>Literature Summary - number of references analyzing expression for this gene, linked to reference details and a table of the ages and assay types analyzed</li>
     <li>Images - images associated with results; summary report displays thumbnails of any associated figures; links to full-size images</li>
     <li>Tissue x Stage Matrix - displays a grid with a spatio-temporal overview of the expression pattern of this gene.</li>
      </ul>
 <li>A link to a <i>Comparison Matrix</i> of Gene Expression and Phenotype data that allows you to view endogenous wild-type gene expression along with the tissues where mutations in that gene have phenotypic effects.</li>
-<li><a href="<!--#include file='include/mgihome_url.html'-->/homepages/tabContents/GXD_Resources.shtml">Other Mouse links</a>: links to expression information for this marker in other databases: Allen Brain Atlas, <abbr title="Gene Expression Nervous System Atlas">GENSAT</abbr>, gene microarray profile pages at <abbr title="Gene Expression Omnibus">GEO</abbr>, and Expression Atlas at ArrayExpress.</li>
-<li><a href="<!--#include file='include/mgihome_url.html'-->/homepages/tabContents/GXD_Resources.shtml">Other Vertebrate links</a>: links to expression information for chicken homologs at <abbr title="Gallus Expression in Situ Hybridization Analysis">GEISHA</abbr>, frog homologs at Xenbase, and zebrafish homologs at <abbr title="Zebrafish Information Network">ZFIN</abbr>.</li>
+<li><a href="<!--#include file='include/mgihome_url.html'-->/homepages/tabContents/GXD_Resources.shtml">Other Mouse links</a>: links to expression information for this marker in other databases: Allen Brain Atlas, <abbr title="Gene Expression Nervous System Atlas">GENSAT</abbr>, gene microarray profile pages at <abbr title="Gene Expression Omnibus">GEO</abbr>, and Expression Atlas at EBI.</li>
+<li><a href="<!--#include file='include/mgihome_url.html'-->/homepages/tabContents/GXD_Resources.shtml">Other Vertebrate links</a>: links to expression information for chicken homologs at <a href="http://geisha.arizona.edu/geisha/"><abbr title="Gallus Expression in Situ Hybridization Analysis">GEISHA</abbr></a>, frog homologs at <a href="http://www.xenbase.org">Xenbase</a>, and zebrafish homologs at <a href ="https://zfin.org"><abbr title="Zebrafish Information Network">ZFIN</abbr></a>.</li>
 </ul>
 </td></tr>
 <tr><th><a id="interactions"></a>Interactions</th>

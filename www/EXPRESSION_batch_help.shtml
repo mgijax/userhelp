@@ -102,7 +102,6 @@ The following are representative examples for each type listed on the pulldown m
 <tr><td>All Symbols/Synonyms/Orthologs<br>(includes both current and old symbols)<td>Pax6<br>Pax-6<br>Trp53<br>P53</td></tr>
 <tr><td>Entrez Gene ID</td><td>16590</td></tr>
 <tr><td>Ensembl ID </td><td>ENSMUSG00000028530</td></tr>
-<tr><td>VEGA ID</td><td>OTTMUSG00000015949</td></tr>
 <tr><td>UniGene ID</td><td>247073</td></tr>
 <tr><td>MiRBase ID</td><td>MI0000248</td></tr>
 <tr><td>GenBank/RefSeq ID*</td><td>NM_001122899<br> AK033644<br>NP_666257</td></tr>
@@ -175,7 +174,7 @@ The following are additional types (not listed on the pulldown menu), followed b
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="gxdfilter"></a>How do I filter my results?</h3>
-<p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for Wild type or mutant specimens. In the banner above your results, after <i>Filter expression data by:</i> click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>. Note: Filtering out mutants will retain heterozygous <i>in situ</i> knock-in mutants.</p>
+<p>In the banner above your results, after <i>Filter expression data by:</i> click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>. Note: Filtering out mutants will retain heterozygous <i>in situ</i> knock-in mutants.</p>
 <p>Both Matrix tabs offer easy filtering by tissue. The Tissue x Stage Matrix also offers filtering by developmental stage/age and the Tissue x Gene Matrix permits filtering by gene symbol. Check the rows or columns you wish to retain and then click the Filter (<img image width="13" height="13" src="<!--#include file='include/webshare_url.html'-->images/filter.png">) button in the grid to apply the filters. These filters are also applied to all tabs.</p> 
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
@@ -188,12 +187,12 @@ The following are additional types (not listed on the pulldown menu), followed b
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="excelfile_gxdqf"></a>Can I get my results as tab-delimited text or spreadsheet files?</h3>
-<p>Yes. The <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a> tabs provide export options. In your search results, click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
+<p>Yes. The <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a> tabs provide export options.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="batch"></a>Can I send the results of my search to the MGI Batch Query or MouseMine?</h3>
-<p>Yes. Under the Genes tab you have the option of exporting your results as a text file, spreadsheet file or sending the list of genes to the MGI <a href="<!--#include file='include/fewi_url.html'-->batch">Batch Query</a> or <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a>. 
+<p>Yes. Under the Genes tab you have the option of exporting your results as a text file or sending the list of genes to the MGI <a href="<!--#include file='include/fewi_url.html'-->batch">Batch Query</a> or <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a>. 
 <ul>
   <li>If you click the Batch Query icon, the default Batch Summary will appear for your list of genes. Use the Click to modify search button to expand your search results to include additional information such as Gene Ontology (GO) terms, Mammalian Phenotype (MP) terms or Human Diseases associated with the genes.</li> 
   <li>MouseMine offers flexible querying, numerous predefined query templates, iterative refinement of results, and linking to other model organism Mines.</li>
