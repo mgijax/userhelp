@@ -138,8 +138,8 @@ The following are additional types (not listed on the pulldown menu), followed b
 	<li>In the <i>ID/Symbols column:</i> field, type the column number that you wish to import.</li>
 </ol>
 </p>
-<p><b>Note:</b> To import a column of symbols or IDs from a spreadsheet, first export the file as text or CSV (Comma Separated Values) and then import the column or copy and paste a column directly from the spreadsheet.
-</p>
+<p><b>Note:</b> To import a column of symbols or IDs from a spreadsheet, first export the file as text or CSV (Comma Separated Values) and then import the column or copy and paste a column directly from the spreadsheet. 
+There is a 5000 gene limit for this query. </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
