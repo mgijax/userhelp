@@ -202,7 +202,7 @@ Note that for mouse, currently only the C57BL/6J annotation is "reference qualit
  <table>
   <tr><th>Select Genomic Sequences</th><td>Alt-drag the desired region in the Zoom View to add it to the SequenceCart. If  orange lock is set, the selection happens in all displayed regions. If the drag action is right-to-left, the sequence(s) will be reverse-complemented.</td></tr>
   <tr><th>Select Gene Sequences</th><td>Control/right click on a gene to open its context menu. Choose one of the options under "Add sequences to cart." You can select genomic, transcript, composite transcript, or CDS sequences. You may select these sequences, the current gene only, or for that gene and its homologs. A composite transcript consists of the union of all the exons of all the transcripts of a gene. These are what you see when "Spread transcripts" is off, and all transcripts for a gene are piled up on top of one another.</td></tr>
-  <tr><th>Download Sequences</th><td>In the Sequence Cart, select the sequences you want to download by clicking their checkboxes in the Sequence Cart. When sequences are selected, download buttons are enabled. To download to a file, enter a file names and click the cloud_download icon next to "File". To view the sequences in a browser tab, click the cloud_download icon next to "Browser". And to load the sequences into the clipboard (so you can paste them somewhere), click the cloud_download icon next to "Clipboard", then click the green checkmark to confirm (this extra step is required by web security restrictions).</td></tr>
+  <tr><th>Download Sequences</th><td>In the Sequence Cart, select the sequences you want to download by clicking their checkboxes in the Sequence Cart. When sequences are selected, download buttons are enabled. To download to a file, enter a file name and click the cloud_download icon next to "File". To view the sequences in a browser tab, click the cloud_download icon next to "Browser". And to load the sequences into the clipboard (so you can paste them somewhere), click the cloud_download icon next to "Clipboard", then click the green checkmark to confirm (this extra step is required by web security restrictions).</td></tr>
   <tr><th>Reverse complement</th><td>Genomic sequences in the Sequence Cart are reverse complemented (or not) at the time of download, based on a toggle that is either "CT" (not reverse complemented) or "AG" (upside down, reverse complemented). Click this toggle to switch.</td></tr>
   <tr><th>Translate</th><td>CDS sequences in the Sequence Cart are translated to amino acid sequences (or not) at the time of download, based on a toggle that is either "ATG" (not translated) or "M" (translated). Click this toggle to switch.</td></tr>
   <tr><th>Clear the Sequence Cart</th><td>Click the black checkmark at the bottom of the Sequence Cart to select all sequences, then click the delete (red trashcan icon) button.</td></tr>
@@ -244,7 +244,7 @@ Note that for mouse, currently only the C57BL/6J annotation is "reference qualit
   </table>
    </td></tr>
 </table>
-
+</td></table>
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="zoom"></a>How do I navigate the Zoom View?</h3>
@@ -295,26 +295,37 @@ Note that for mouse, currently only the C57BL/6J annotation is "reference qualit
  <tr><th>P &nbsp;</th><td>Include/exclude paralogs. Same as clicking the P icon.</td></tr>
  <tr><th>r &nbsp;</th><td>Turn reference genome on/off. The top genome in the view is made the reference. Same as clicking the R in the genome's left end cap. NOTE: when reference genome is selected, the lock is turned off.</td></tr>
  <tr><th>t &nbsp;</th><td>Open/close the left-side tool panel. Same as clicking the gear icon in the page header.</td></tr>
- <tr><th>x &nbsp;</th><td>Collapse/expand transcript display. Same as clicking 'Spread trancripts' under <a href="settings">Settings</a>.</td></tr>
-</table>
+ <tr><th>x &nbsp;</th><td>Collapse/expand transcript display. Same as clicking 'Spread transcripts' under <a href="settings">Settings</a>.</td></tr>
 </table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="align"></a>How do I align on a feature?</h3>
 
-<p>Control/right-click on a feature in the <a href="#zoom">Zoom View</a> and a pop-up window appears with the feature symbol at the top. Beneath the symbol select the first option to align on the feature. As an example, the view will change from <a href="http://www.informatics.jax.org/mgv/#chr=1&start=25847437&end=34847442&dmode=comparison&ref=C57BL/6J&genomes=C57BL/6J+BALB/cJ+CAST/EiJ&highlight=MGI:2159649">this</a> to the <a href="http://www.informatics.jax.org/mgv/#landmark=MGI:2159649&delta=0&length=9000006&dmode=comparison&ref=C57BL/6J&genomes=C57BL/6J+BALB/cJ+CAST/EiJ&highlight=MGI:2159649">landmark</a> view. 
-In the first view, you are specifying an absolute coordinate range (1:25847437..34847442) and the viewer uses synteny block data to map those coordinates to other genomes. The resulting regions can vary significantly in size from the reference, can include fragments from other chromosomes. 
-In the second, aligned or "landmark" view, the coordinates get converted to a single slice of each genome (in absolute coordinates) where the landmark exists. Each slice is centered on the landmark. (Note: the landmark may not exist (or be annotated) in every genome. In that case, MGV falls back on coordinate mapping to display that genome. 
-The advantage of mapped/first mode is that it always works (i.e., you don’t need a landmark) and it shows you the translocations/inversions/etc. between the reference and comparison genome. The plus side of landmark mode is it lines things up nicely. The downside is you lose the context (translations/inversions). 
-To switch from the "landmark" view to the "mapped" view, click the <span style="color: red;">&#9447;</span> in front of "Aligned on" beneath the coordinates. </p>
+<p>To center all the views around a gene (and turn on lock):</p>
+<ul>
+ <li>option/alt-click on the gene</li>
+ <li>or select "Align on this gene" from the gene's popup menu</li>
+ <li>or search for the gene via the Find box.</li>
+</ul>
+If the gene has paralogs, they are/are not included in this operation depending whether the paralogs toggle ("P") is on or off, respectively.
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="sequences"></a>How can I get FASTA sequences for features of interest?</h3>
 
-<p>Control/right-click on a feature in the <a href="#zoom">Zoom View</a> and a pop-up window appears with the feature symbol at the top. Beneath the symbol options may be present to download the feature's genomic, transcript, CDS and exon sequences for your selected strains. The downloaded file's name will begin with "results."</p>
-<p>The pop-up window will also offer you the option to view the feature's page in MouseMine. There you can limit your downloads to specific sequences.</p>
+<p>Control/right-click on a feature in the <a href="#zoom">Zoom View</a> and a pop-up window appears with the feature symbol at the top. Beneath the popup's Add Sequences to Cart section, you have 2 options, to get sequences for your selected gene only or to get those sequences and all homologs for your currently displayed genomes. For both of those options, you can choose to get DNA sequences, composite transcripts, all transcripts, or all CDS sequences.  
+</p>
+<p>A composite transcript consists of the union of all the exons of all the transcripts of a gene. These are what you see when "Spread transcripts" is off, and all transcripts for a gene are piled up on top of one another.
+</p>
+<p>Your choices are added to the Sequence Cart in the left hand frame.</p> 
+<ul>
+ <li>In the Sequence Cart, select the sequences you want to download by clicking their checkboxes in the Sequence Cart. <br>When sequences are selected, download buttons are enabled.</li>
+ <li>To download to a file, enter a file name and click the cloud_download icon next to "File".</li>
+ <li>To view the sequences in a browser tab, click the cloud_download icon next to "Browser".</li>
+ <li>To load the sequences into the clipboard (so you can paste them somewhere), click the cloud_download icon next to "Clipboard", then click the green checkmark to confirm (this extra step is required by web security restrictions).</li>
+ <li>To reverse complement genomic sequences or translate CDS sequences, see the <a href="#seqcart">Sequence Cart</a> section on this page.</li>
+</ul> 
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
