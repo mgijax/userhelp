@@ -48,7 +48,8 @@ function openHelpWindow(helpFile){
  <li><a href="#whatMGVpurpose">What is the purpose of the Multiple Genome Viewer?</a></li>
  <li><a href="#allstrains">What mouse inbred strains are included in the Viewer?</a></li>
  <li><a href="#sections">How do I use the different sections of the Viewer?</a></li>
- <li><a href="#align">How do I align on a feature?</a></li>
+ <li><a href="#zoom">How do I navigate the Zoom View?</a></li>
+ <li><a href="#shortcuts">Are there keyboard shortcuts for commands?</a></li>
  <li><a href="#sequences">How can I get FASTA sequences for features of interest?</a></li>
  <li><a href="#batch">How can I get additional phenotype, GO and expression data for features of interest?</a></li>
  <!--<li><a href="#snps">How can I find SNPs for a region of interest?</a></li>-->
@@ -110,6 +111,7 @@ Note that for mouse, currently only the C57BL/6J annotation is "reference qualit
   <li>The size of a region ranges from a full chromosome to a few bases.</li>
   <li>Regions shown in the Genome View and Zoom View for a given genome correspond, and changes in one are reflected in the other.</li> 
   <li>Clicking in a genome region in the Zoom View highlights the corresponding region in the Genome View, and vice versa.</li>
+  <li>Click on the camera icon the Zoom View or Genome View to download a PNG file of that page section.</li>
   </ul></li>
  <li>Navigation is integrated with browser history
   <ul>
@@ -123,7 +125,7 @@ Note that for mouse, currently only the C57BL/6J annotation is "reference qualit
 <h4><a id="control"></a>Control Boxes</h4>
  
 <table class="nb">
-<tr><td><!-- <a href="#refgenome">Reference Genome</a> | --><a href="#compgenomes">Genomes</a> | <a href="#findgenes">Lists and Searches</a> | <a href="#mylists">My Lists</a> | <a href="#listed">List Editor</a> | <a href="#featuretype">Feature Types</a> | <a href="#hasid">Has Canonical ID</a> | <a href="#highlight">Is Highlighted</a> | <a href="seqcart">Sequence Cart</a></td>
+<tr><td><!-- <a href="#refgenome">Reference Genome</a> | --><a href="#compgenomes">Genomes</a> | <a href="#findgenes">Lists and Searches</a> <!--| <a href="#mylists">My Lists</a> | <a href="#listed">List Editor</a> | <a href="#featuretype">Feature Types</a> | <a href="#hasid">Has Canonical ID</a> | <a href="#highlight">Is Highlighted</a> -->| <a href="filters">Filters</a> | <a href="seqcart">Sequence Cart</a> | <a href="settings">Settings</a> </td>
 </tr>
 </table>
 
@@ -146,6 +148,7 @@ Note that for mouse, currently only the C57BL/6J annotation is "reference qualit
   <ul>
    <li>Use the check boxes to select and unselect genomes</li>
    <!-- <li>Command (&#8984;)-click on a Mac, or control-click on a PC, to select individual strains</li> -->
+   <li>To see metadata for a genome, hover your mouse over the genome's name. To select one genome and remove all others, shift-click the box.</li>
    </ul>
   Three buttons allow you to quickly select a set of genomes:
    <ul>
@@ -154,250 +157,146 @@ Note that for mouse, currently only the C57BL/6J annotation is "reference qualit
     <li>Mouse, human and rat will select the 3 reference genomes: C57Bl/6J, <i>H. sapiens</i>, and <i>R. norvegicus</i>.</li>  
    </ul>
   </td></tr>
- <tr><th><a id="findgenes"></a>Lists and Searches</th>
-  <td>This box searches MouseMine for canonical genes (genome features with MGI IDs) by symbol, or those genes annotated to specified Gene Ontology (GO functional annotations), Mammalian Phenotypes (MP), Disease Ontology (DO), or Reactome pathway terms. 
-  Genes matching or annotated to your search terms will show up as a list in the <a href="#mylists">My Lists</a> box. The <a href="#zoom">Zoom View</a> will display the first gene in your list. <!-- Wildcards are added automatically -->You have four search options available from the toggle: 
+<tr><th><a id="findgenes"></a>Lists and Searches</th>
+  <td>This box searches MouseMine for canonical genes (genome features with MGI IDs) by symbol, or those genes annotated to specified Gene Ontology (GO functional annotations), Mammalian Phenotypes (MP), Disease Ontology (DO), or Reactome pathway terms. Genes matching or annotated to your search terms will show up as a list in the <a href="#mylists">My Lists</a> box. The <a href="#zoom">Zoom View</a> will display the first gene in your list. <b>Note:</b> lists created by searching are currently limited to mouse only. <!-- Wildcards are added automatically -->
+<p>In this box's Create section, you can toggle to create a list from a search, from a Zoom View selection, by combining lists, or by manually entering IDs. To create a new list from a search, you have five search options available from a toggle: 
  <table>
   <tr><th>Toggle Name</th><th>Search Terms</th><th>Find Terms and IDs</th></tr>
-  <tr><td>nomenclature</td><td>gene symbols and MGI IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a></td></tr>
-  <tr><td>cellular function</td><td>Gene Ontology (GO) terms and GO IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->vocab/gene_ontology" target="_blank">Gene Ontology Browser</a></td></tr>
   <tr><td>phenotype or disease</td><td>Mammalian Phenotype (MP) terms and MP IDs<br>Human Disease Ontology (DO) terms and DO IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype Browser<br></a><a href="<!--#include file='include/fewi_url.html'-->disease" target="_blank">Disease Ontology Browser</a></td></tr>
+  <tr><td>by expression location</td><td>Mouse Developmental Anatomy (EMAPA) terms and IDs </td><td><a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/EMAPA:16039" target="_blank">Mouse Developmental Anatomy Browser</a></td></tr>
+  <tr><td>cellular function</td><td>Gene Ontology (GO) terms and GO IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->vocab/gene_ontology" target="_blank">Gene Ontology Browser</a></td></tr>
   <tr><td>pathway</td><td>Reactome pathway names and IDs</td><td><a href="https://reactome.org" target="_blank">Reactome</a></td></tr>
+  <tr><td>symbol/ID</td><td>gene symbols and MGI IDs</td><td><a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a></td></tr>
  </table>
- Enter one or more search terms/IDs separated by commas, and either tab out of the field or use your keyboard's return/enter key to launch the search. Searches are case insensitive.   
+ Enter one or more search terms/IDs separated by commas, and either tab out of the field or use your keyboard's return/enter key to launch the search. Searches are case insensitive.
+ <p>To create a list from a Zoom View selection, you select genes in the Zoom View by clicking on them. Hold the shift key to select more than one. Then, under Create, select "New list from Zoom View selection" and click the GO button. The new list is given a default name and color, which you can change.</p> 
+ <p>To create a new list by combining lists, here is an example: you have 2 lists and you want to create third containing the genes common to both: 
+<ol>
+<li>Under Create, select "New list from combining lists."</li>
+<li>Click the GO button.</li>
+<li>This results in a popup window that allows you to edit a list. Drag the two lists into the Intersection box.</li>
+<li>Give the new list a name and optionally, a description, and click the Create/Save button.</li>
+</ol>
+<p>Also: 
+<ul>
+<li>You can also create new lists from scratch (i.e., by entering IDs).</li>
+<li>To display a list, click on the list under My Lists. The positions of all list items (up to a max size) are shown in the Genome View. In the Zoom View, any list items currently in view are highlighted. As well, the list name appears in the Zoom View control area. To stop displaying a list, click on it again under My Lists.</li>
+<li>Shift-click on a list to make it the current list and jump to the first gene. Continue to shift-click to jump to successive list items.</li>
+<li>To edit a list, click on the pencil icon for the list to open the List Editor. You can change the list's name, description, color, and items. Changes do not take effect until you click Create/Save.</li>
+<li>To delete a list, click the <span style="color: red;">&#9447;</span> icon.</li>
+</ul>
   </td>
  </tr>
- <tr><th><a id="mylists"></a>My Lists</th>
-     <td>
-     <ul>
-      <li>Shows all your saved lists of IDs (<a href="#findgenes">Find genes</a> searches) in a scrolling box. Lists are sorted alphabetically.</li>
-      <li>Click on a list to make it the “active” list.
-      <ul>
-      <li>the <a href="#genomeview">Genome View</a> displays glyphs (colored dots) where those features exist in the selected reference genome.</li>
-      <li>Shift-click repeatedly on the list to cycle through its features in the <a href="#zoom">Zoom View</a>.</li>
-      <li>Note: a given feature may or may not exist in a given genome, either because of real biology or because the annotations are incomplete. In any case, you may see fewer glyphs in the Genome View than there are IDs in the list.
-      </ul></li>
-     <li>Click on the circled-x next to a list to delete the list.</li>
-     <li>Click on the pencil icon next to a list to open it in the <a href="#listed">List editor</a> to make changes to the list.</li>
-     <li>At the bottom of the My Lists box are 4 buttons, left to right:
-     <ul>
-      <li>a warning about list persistence. Clearing your web browser's storage/site data will delete your lists. </li>
-      <li>a button to create a new list from the current selections in the <a href="#zoom">Zoom View</a></li>
-      <li>a button to open the list formula editor in the List Editor</li>
-      <li>a button to delete all lists (asks for confirmation first)</ul></li>
-     </ul>
-    </td></tr>
- <tr><th><a id="listed"></a>List Editor</th>
-     <td><p>You can expand the List editor section by clicking the pencil icon for a saved list in your My lists section or by clicking the arrow (&#9660;). The expanded section offers two editable text fields, one for the list name and the other, a list of MGI gene IDs. (Note: the List Editor is an early prototype and will be refined.) Below these fields are 5 buttons:</p>
- <ol>
-  <li>New list</li>
-  <li>Save updates</li>
-  <li>Clear form</li>
-  <li>Forward to MGI: sends the list of IDs to the MGI Batch Query where you can add additional information and export your results.</li>
-  <li>Forward to MouseMine: sends the list of IDs to MouseMine which also offers batch querying, iterative refinement of results, built-in enrichment analysis, downloading in multiple formats, and API access.</li>
- </ol>
-     <ul>
-     <li>The List Editor allows you to
-     <ul>
-      <li>view/edit the contents of a list</li>
-      <li>create new lists from scratch (i.e., by entering IDs)</li>
-      <li>create new lists by combining other lists
-      </ul></li>
-     <li>To create a new list from scratch:
-     <ul>
-      <li>open the editor and clear the form if necessary (a “Clear form” button is in the bottom section of the List editor box)</li>
-      <li>type/paste your IDs in the IDs box. Currently, only MGI IDs are supported. They can be separated by commas, whitespace, or pipes.</li>
-      <li>enter a list name</li>
-      <li>click “New list”</li>
-      </ul></li>
-     <li>To edit a saved list:
-     <ul>
-      <li>in the “<a href="#mylists">My Lists</a>” section, click on the pencil next to the list, this opens the List editor and loads the list</li>
-      <li>make your changes and then click “Save updates”</li>
-      </ul></li>
-     <li>To find the intersection of two lists: 
-    <ul>
-     <li>open the List Editor and clear the form if necessary</li>
-     <li>click &Sigma; to open the formula editor</li>
-     <li>option-click the first list in My Lists</li>
-     <li>click &cap; </li>
-     <li>option-click the second list</li>
-     <li>click &#10689; </li>
-     <li>save the list</li>
-    </ul></li>
-    </ul>
-   <p>When you create a new list, the <a href="#zoom">Zoom View</a> moves to the first feature in that list.</p>
- </td></tr>
-<tr><th>Filters</th><td>
-    <table>
-<tr><th><a id="featuretype"></a>Feature Types</th>
-     <td> 
-     <ul>
-     <li>Shows the different categories of feature types and the colors used to draw them in the <a href="#zoom">Zoom View</a></li>
-     <li>Each color swatch is a checkbox that can be individually checked/unchecked
-     <ul>
-      <li>checking one (or several) shows only those feature types in the Zoom View</li>
-      <li>checking all or none of the swatches shows all feature types
-     </ul></li>
-    </ul>
-     </td></tr>
- <tr><th><a id="hasid"></a>Has Canonical ID</th>
-     <td>
-     <ul>
-      <li>Three radio buttons with values Yes/No/Don’t care
-       <ul>
-        <li><i>yes</i> (<i>no</i>) shows only those features that have (do not have) an MGI ID</li>
-        <li><i>don’t care</i> imposes no constraint on MGI ID and shows all IDs.</li>
-       </ul></li>
-     </ul>
-     </td></tr>
- <tr><th><a id="seqcart"></a>Sequence Cart</th>
- <td>The Sequence Cart contains (descriptors of) sequences that you select plus controls for downloading. Actual sequences are not materialized until download time, so large sequences are OK. If you want whole chromosomes, though, you should go to <a href="ftp://ftp.ensembl.org/pub/" target="_blank">Ensembl</a>.
- </td></tr>
- <tr><th><a id="highlight"></a>Is Highlighted</th>
-     <td>
-     <ul>
-      <li>Three radio buttons with values Yes/No/Don’t care
-       <ul>
-        <li><i>yes</i> (<i>no</i>) allows only those features that are (are not) highlighted in the <a href="#zoom">Zoom View</a></li>
-        <li><i>don’t care</i> imposes no constraint on highlighting</li>
-       </ul></li>
-     </ul>
-     </td></tr>
+<tr><th><a id="filters"></a>Filters</th> 
+<td>
+ <table>
+  <tr><th>Feature Type</th><td>Only displays features of the checked type(s). Options are protein coding gene, pseudogene, ncRNA gene, gene segment, other gene type, and other feature type. All MGI feature types are defined <a href="GENE_feature_types_help.shtml" target="_blank">here</a>. The feature type hierarchy can be seen by clicking the Show button in the Feature Type section of the MGI <a href="<!--#include file='include/fewi_url.html'-->marker" target="_blank">Genes and Markers Query Form</a>.</td></tr>
+  <tr><th>Feature Length</th><td>Only displays features whose lengths fall in the selected range(s).</td></tr>
+  <tr><th>Missing In Some* Genome</th><td>If true, only displays features that are missing in at least one of the currently displayed genomes. If false, only displays features that are present in all currently displayed genomes.</td></tr>
+  <tr><th>Is In Current List</th><td>If there is no current list, this filter has no effect. Otherwise: if true, only displays features that are members of the current list; if false, only displays features that are not members of the current list.</td></tr>
+  <tr><th>Is Currently Selected</th><td>If no features are currently selected, this filter has no effect. Otherwise: if true, only displays currently selected features. if false, only displays features that are not currently selected.</td></tr>
 </table>
-</td></tr>
+</tr>
+<tr><th><a id="seqcart"></a>Sequence Cart</th> 
+<td>You can select sequences and download them in FASTA format or copy them to the clipboard. The Sequence Cart contains the descriptors of sequences you select plus controls for downloading. Actual sequences are not materialized until download time, so large(-ish) sequences are OK. If you want whole chromosomes, though, you should go to <a href="ftp://ftp.ensembl.org/pub/" target="_blank">Ensembl</a>. The following table describes the sequence features of the MGV: 
+ <table>
+  <tr><th>Select Genomic Sequences</th><td>Alt-drag the desired region in the Zoom View to add it to the SequenceCart. If  orange lock is set, the selection happens in all displayed regions. If the drag action is right-to-left, the sequence(s) will be reverse-complemented.</td></tr>
+  <tr><th>Select Gene Sequences</th><td>Control/right click on a gene to open its context menu. Choose one of the options under "Add sequences to cart." You can select genomic, transcript, composite transcript, or CDS sequences. You may select these sequences, the current gene only, or for that gene and its homologs. A composite transcript consists of the union of all the exons of all the transcripts of a gene. These are what you see when "Spread transcripts" is off, and all transcripts for a gene are piled up on top of one another.</td></tr>
+  <tr><th>Download Sequences</th><td>In the Sequence Cart, select the sequences you want to download by clicking their checkboxes in the Sequence Cart. When sequences are selected, download buttons are enabled. To download to a file, enter a file names and click the cloud_download icon next to "File". To view the sequences in a browser tab, click the cloud_download icon next to "Browser". And to load the sequences into the clipboard (so you can paste them somewhere), click the cloud_download icon next to "Clipboard", then click the green checkmark to confirm (this extra step is required by web security restrictions).</td></tr>
+  <tr><th>Reverse complement</th><td>Genomic sequences in the Sequence Cart are reverse complemented (or not) at the time of download, based on a toggle that is either "CT" (not reverse complemented) or "AG" (upside down, reverse complemented). Click this toggle to switch.</td></tr>
+  <tr><th>Translate</th><td>CDS sequences in the Sequence Cart are translated to amino acid sequences (or not) at the time of download, based on a toggle that is either "ATG" (not translated) or "M" (translated). Click this toggle to switch.</td></tr>
+  <tr><th>Clear the Sequence Cart</th><td>Click the black checkmark at the bottom of the Sequence Cart to select all sequences, then click the delete (red trashcan icon) button.</td></tr>
+</table></td>
+</tr>
+<tr><th><a id="settings"></a>Settings</th><td>There are numerous parameters you can change to customize the display. At any point, you can also download the current display as a png or svg by clicking the camera icon.
+  <table>
+  <tr><th>Features</th><td>
+  <table>
+   <tr><th>Details Threshold</th><td>When the view region is below this size, the details of gene model structure become visible. Above this size, genes are simply drawn as boxes. Higher values use more memory.</td></tr>
+   <tr><th>Show All Labels</th><td>When checked and the view region is below the details threshold, this displays labels for all visible genes. When unchecked or when the view region is above the threshold, labels are displayed only for highlighted genes. Keyboard shortcut: n.</td></tr>
+   <tr><th>Font Size</th><td>Sets the size of the font used for gene labels.</td></tr>
+   <tr><th>Height</th><td>Sets the height of the rectangles used to draw features.</td></tr>
+   </table>
+   <tr><th>Transcripts</th>
+   <td>Note that transcripts are only visible when the view region size is below the details threshold.
+   <table>
+  <tr><th>Spread Transcripts</th><td>When checked, transcripts for a gene are spread out so they are all visible. When unchecked, transcripts are drawn on top of one another for a compact view. You can also do this by using the 'x' keyboard shortcut.</td></tr>
+  <tr><th>Show All Labels</th><td>When checked, and transcripts are spread, displays labels for all visible transcripts. Not recommended unless you are well zoomed in.</td></tr>
+  <tr><th>Font Size</th><td>Sets the size of the font for transcript labels.</td></tr>
+  </table>
+  <tr><th>Sequences</th><td>When zoomed in far enough (less than a few hundred bases), the genomic sequence is displayed.
+  <table>
+  <tr><th>Font Size</th><td>Sets the size of the font used to draw the sequence letters.</td></tr>
+  </table>
+ <tr><th>Homology Connections</th><td>
+  <table>
+  <tr><th>Show Connectors</th><td>When checked, connectors are drawn joining highlighted genes across genomes. </td></tr>
+  <tr><th>Include Paralogs</th><td>Same as clicking the P icon in the view area. Controls whether paralogs are (on) or are not (off) included in region calculations, connector drawing, etc. </td></tr>
+  <tr><th>Highlight Inversions</th><td>If on, connectors between features on opposite strands ('inversions') in red and with a twist. </td></tr>
+  <tr><th>Contrast</th><td>Fades non-selected features to make the selected feature stand out. </td></tr>
+  <tr><th>Fill Opacity</th><td>Sets the opacity of the connector fill area.</td></tr>
+  </table>
+  <tr><th>Miscellaneous</th><td>
+  <table>
+   <tr><th>Track Mouse</th><td>When checked, a positional indicator follows your mouse when it is over a region. </td></tr>
+   <tr><th>Clear Cache and Reload</th><td>MGV caches data on your computer for performance. Clicking this button allows you to clear the cache and reload the page. This action asks for confirmation before proceeding. </td></tr>
+   <tr><th>Purge and Exit</th><td>Click to remove all MGV data from your computer and leave the site. This action asks for confirmation before proceeding. </td></tr>
+  </table>
+   </td></tr>
 </table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h4><a id="view"></a>View Boxes</h4>
- 
-<table class="nb">
-<tr><td><a href="#genomeview">Genome View</a> | <a href="featuredetail">Feature Details</a> | <a href="#zoom">Zoom View</a></td>
-</tr>
+<h3><a id="zoom"></a>How do I navigate the Zoom View?</h3>
+
+<p>The following commands apply to the main part of the page's Zoom View and Genome View sections.</p>
+<table>
+ <tr><th>Find a gene</th><td>Enter the gene symbol or ID in the Find input box at the top of the Zoom View. Then hit your keyboard's return/enter or tab keys.</td></tr>
+ <tr><th>Line Up On a Gene</th><td>Alt/option-click on a gene to align all genome views around that gene and its homologs. Hold down the command/meta key (or not) to scale the region sizes. Scaling can help when the homologs are of very different sizes.</td></tr>
+ <tr><th>Specify Coordinates</th><td>Type or paste coordinates in the Find box. Then hit enter or tab.</td></tr>
+ <tr><th>Scroll Left</th><td>Click the &lt; button, or use your keyboard's left arrow key, or drag left on a region.</td></tr>
+ <tr><th>Scroll Right</th><td>Click the &gt; button, or hit the right arrow key, or drag right on a region.</td></tr>
+ <tr><th>Zoom In</th><td>Click the zoom_in icon, or hit the upward arrow key, or shift-drag on a region.</td></tr>
+ <tr><th>Zoom Out</th><td>Click the zoom_out icon, or hit the downward arrow key, or command-drag on a region.</td></tr>
+ <tr><th>Rearranging Genomes</th><td>In the Zoom View, genomes are displayed as horizontal "strips". Strips (i.e. genomes) can be reordered by dragging; grab the center handle (::) in the left endcap and drag up or down. You can also sort the genomes alphabetically by clicking the "sort" icon in the control area. (Note that if there is a reference genome, it is always positioned first and its left end bar is colored orange.</td></tr>
+ <tr><th>Reference Genome</th><td>You can optionally pick a genome to be the "reference" by clicking the "R" in that genome's end cap.
+ <ul>
+  <li>The corresponding strip rises to the top, and its left end cap has a different color.</li>
+  <li>All other genome regions are calculated based on the reference and are updated with every change in the reference region.</li>
+  <li>The reference genome always stays at the top of the view; other genomes may still be rearranged.</li>
+  <li>The reference genome is always displayed; you cannot turn off its checkox (in Genomes) while it is the reference.</li>
+  <li>To "turn off" the reference genome, click its "R" again.</li>
+  <li>Hitting your keyboards "R" key is a quick way to turn on/off the reference genome.</li>
+  </ul></td></tr>
+  <tr><th>Metadata</th><td>Information such as the genome build number is displayed when you mouse over a genome's name in the Genomes box.</td></tr>
+  <tr><th>Add Regions to the View</th><td>Adding a genome creates a new region. To add another region for the same genome, shift-drag on a chromosome in the Genome View. Alternatively, split an existing region, then navigate one side to the desired location.</td></tr>
+  <tr><th>Aligning Regions Around a Gene</th><td>To center all the views around a gene (and turn on lock), alt-click on the gene, or select "Align on this gene" from the gene's popup menu, or search for the gene via the Find box. If the gene has paralogs, they are/are not included in this operation depending whether the paralogs toggle ("P") is on or off, respectively.</td></tr>
+  <tr><th>Region Controls</th><td>To access controls for an individual region within a genome, right-click on its background (not on a feature). Changes made here affect only that region (and switch to lock_open mode).</td></tr>
+  <tr><th>Splitting a Region</th><td>You can create a new region for a genome by splitting an existing one. To split a region, alt-click on its background (not on a feature). Alternatively, click the "compare" button in the region's popup controls.</td></tr>
+  <tr><th>Joining Regions</th><td>You can join two neighboring regions by alt-clicking on the divider bar between them. Both regions must be from the same chromosome.</td></tr>
+  <tr><th>Reverse Orientation</th><td>By default, the forward strand direction is drawn left-to-right. When comparing regions with inversions, it can be convenient to draw some left-to-right and some right-to-left, so that homologs line up vertically. To reverse the orientation of a region, open it controls and click on the "F-R" toggle. To reverse the orientation of all the regions in a strip, click the &gt; in the left endcap. The icon turns into &lt;. Click again to revert to normal. Regions in reverse orientation are outlined in red.</td></tr>
+  <tr><th>Moving and Resizing Regions</th><td>Multiple regions for a genome are displayed side-by-side in a strip. Regions can be reordered by dragging; grab the handle (::) at the top left corner of a region to move it left or right. Genome regions can be resized by dragging the gray divider bar between neighboring regions.</td></tr>
+</table>
+<p>MGV has three modes which determine how the displayed regions are calculated and how actions synchronize (or not). Transitions between modes are designed to be fluid and natural.</p>
+<table>
+ <tr><th>Reference</th><td><b><span style="background-color:orange; color:white;">R</span></b>: One genome is chosen as the reference. Coordinates are specified for the reference; coordinates for all other genomes are calculated. Navigating in the reference genome causes all other genomes to update.</td></tr>
+ <tr><th>Lockstep</th><td>Orange Lock Icon: In lockstep mode, all displayed regions act as one. Zooming, scrolling, and selecting genomic sequence happen in all regions simultaneously. This mode is most useful when the regions are aligned around a landmark, such as when the user alt-clicks on a gene. To exit lockstep, click the lock icon.</td></tr>
+ <tr><th>Unrestricted</th><td> R and lock_open: When both Reference and Lockstep are off, each region acts independently, i.e., scrolling/zooming a region affects only that region.</td></tr>
 </table>
 
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="shortcuts"></a>Are there keyboard shortcuts for commands?</h3>
+<p>Some common commands have keyboard shortcuts. If MGV seems unresponsive to key commands, try clicking in any displayed region. The table below describes many of these keyboard shortcuts.</p>
 <table>
-<tr><th>Box</th> 
-	<th>Descriptions</th>
- </tr>
-<tr><th><a id="genomeview"></a>Genome View</th>
-     <td> 
-     <ul>
-          <li>It displays the chromosomes from the currently selected genome
-           <ul>
-            <li>in the closed state, it only displays one chromosome, generally, the one displayed in the <a href="#zoom">Zoom View</a></li>
-            <li>when closed, you can drag to scroll along the chromosome and use the &#8963; and v to scroll through the chromosomes
-            </ul></li>
-           <li>May show synteny blocks of the reference genome against one of the currently selected comparison genomes:
-            <ul>
-             <li>in the Zoom view, click on that genome’s stripe
-            </ul></li>
-           <li>Drag on a chromosome in the genome view to zoom to that chromosome's region in the Zoom View</li>
-           <li>When you click on a list in My lists, the Genome View shows a colored dot for each feature in your list. Click on a dot to center the Zoom View on that feature.</li>
-          </ul>
-       </td></tr>
- <tr><th><a id="featuredetail"></a>Feature details</th>
-     <td>
-     <ul>
-      <li>Displays the currently clicked-on feature (from the <a href="#zoom">Zoom View</a>) and its equivalent features from the currently selected genomes (A row of “.”s means no <!--genolog-->equivalent feature in that genome.)
-      <li>Displays the MGI ID (linked to the MGI Detail page), MGI Symbol (official nomenclature), Genome (inbred strain), MGP ID (Mouse Genomes Project ID; for the reference, C57BL/6J strain, this is an MGI ID), Type (feature type), BioType (subtype), Coordinates (chromosome, genome coordinates and strand), and Length (in bp).
-       <ul>
-        <li>the clicked-on equivalent feature row is also highlighted</li>
-       </ul></li>
-      <li>Mousing over a row in the Feature details table causes that equivalent feature to pulsate in the Zoom View
-     <ul>
-      <li>Hint: in the Zoom View you can temporarily turn on a mouseover-highlighting of the Feature Details section by holding down the control key as you move the mouse over features.
-     </ul></li>
-</ul></tr>
- <tr><th><a id="zoom"></a>Zoom View</th>
-     <td>Use the "R" in the left hand bar in the ZoomView to select or unselect a reference genome. The reference genome:
-     <ul>
-       <li>is shown in the <a href="#genomeview">Genome View</a> section of the main body of the page</li>
-       <li>is marked in the <a href="#zoom">Zoom View</a> with a orange bar at the left end and in the Genomes box with an orange dot.</li>
-       <li>defines the coordinate system in which genome coordinates are interpreted</li>
-       <li>defines the coordinate transformations to any given comparison genome</li>
-     </ul>
-     <ul>
-     <li>Shows the current region of focus
-     <ul>
-      <li>the reference genome and the start..end coordinates</li>
-      <li>for each comparison genome, the genome fragment(s) this maps to. </li>
-      <li>in the closed state, the Zoom View displays just the reference genome’s stripe</li>
-     </ul></li>
-    <li>Each genome is displayed in a “stripe”
-    <ul>
-     <li>the reference genome has a blue bar at the left end</li>
-     <li>comparison genomes have a gray bar</li>
-    </ul></li>
-    <li>You can reorder the genomes by dragging the handle (&#8942;&#8942;) in the blue or gray bar </li>
-    <li>Controls at the top of the Zoom view:
-     <ul>
-      <li>Linkout menu (&#9776;)
-      <ul>
-       <li>Click on &#9776; for options:
-        <ul>
-        <li>MGI SNPs - links to MGI SNP report for SNPs within the given region</li>
-        <li>MGI QTLs - links to an MGI report of QTLs that overlap the region</li>
-        <li>MGI JBrowse - opens <a href="http://jbrowse.informatics.jax.org/">JBrowse</a> for your designated region on C57BL/6J, GRCm38</li>
-       </ul></li>
-       </ul></li>
-     <li><b>C</b> indicates that comparison genome fragments are shown in the comparison genomes' (native) order. Click to change this to <b>R</b>, the reference genome order. 
-     This <a href="http://www.informatics.jax.org/mgv/#chr=10&start=55620656&end=62728727&dmode=comparison&ref=C57BL/6J&genomes=C57BL/6J+BALB/cJ+C3H/HeJ+NOD/ShiLtJ+CAST/EiJ+PWK/PhJ+SPRET/EiJ&highlight=">example</a> shows the comparison genome features in the comparison genomes' order. Click the <b>R</b> to view the same region in the reference genome's order. </li>
-     <li>Coords
-      <ul>
-       <li>Shows the current reference genome coordinates (also shows reference genome’s name)</li>
-       <li>You can change the coordinates or enter a gene symbol</li>
-       <li>Type and press return/enter or tab out to change</li>
-      </ul></li>
-     <li>Showing
-      <ul>
-       <li>Shows the length of the genomic segment, in bp, designated by Coords</li>
-       <li>Type and press enter or tab out to change</li>
-      </ul></li>    
-     <li>Zoom
-     <ul>
-     <li>Four magnifying icons, left to right: Zoom out a lot, Zoom out, Zoom in, Zoom in a lot</li>
-     </ul></li>
-     <li>Pan
-     <ul>
-      <li>Four buttons: Pan left a lot, Pan left, Pan right, Pan right a lot</li>
-      </ul></li>
-	 </ul></li>
-   <li>Within a given stripe (i.e., genome):
-   <ul>
-    <li>mouse over a feature to see its symbol and equivalent in the other genomes
-    <ul>
-    <li>symbol displayed in Zoom View</li>
-    <li>connections to equivalent features in other genomes (if any - depends on the annotation)</li>
-    </ul></li>
-    <li>For each strain, plus strand features are shown above the center line with minus strand features below.</li>
-    <li>backgrounds are colored to indicate rearrangements. Pink segments are inverted relative to the selected reference genome, and yellow segments are translocated.</li>
-   <li>click on a feature to select it
-   <ul>
-    <li>shift-click to select multiple genes and view their equivalent features</li>
-    <li>hold down the option/alt key when mousing to select every feature you touch</li>
-    <li>Control/alt click on a feature and you are presented with several options: the option to  align the view on the Feature, to view the feature in MGI or MouseMine, and the options to download genomic, coding and exon sequences for the feature for your selected strains.</li>
-    <li>associated data are also displayed in tabular form in the <a href="featuredetail">Feature Details</a> view</li>
-   </ul></li>
-   <li>mouse over the horizontal gray bar (with the chromosome number) beneath a genome to view the coordinates at that point</li>
-  <li>drag immediately beneath the stripe’s background to zoom in to that region</li>
-  <li>use a track pad or mouse wheel to scroll left and right</li>
-  </ul></li>
-  <li>Control/right-click on a feature and a pop-up window appears with the feature symbol at the top. Beneath the symbol the following options may be present, depending on the feature: 
- <ul>
-  <li>Align on this feature - this will line up the view on the feature and center it in the Zoom View. To return to the normal/mapped view, click the <span style="color: red;">&#9447;</span> in front of "Aligned on" beneath the coordinates. 
-  For more details, see <a href="#align">How do I align on a feature?</a>.</li>
-  <li>Feature@MGI - opens the feature's detail page in MGI</li>
-  <li>Feature@MouseMine - opens the feature's page in MouseMine</li>
-  <li>Genomic sequences - download the feature's genomic sequence in FASTA format for each of the strains in the Zoom View</li>
-  <li>Transcript sequences - download the feature's transcript sequences for each of the strains in the Zoom View</li>
-  <li>CDS sequences - download the feature's coding sequences for each of the strains in the Zoom View</li>
-  <li>Exon sequences - download the feature's exon sequences for each transcript for each of the strains in the Zoom View</li>
- </ul></li>
-</ul>
-<!-- Whenever the landmark does not exist in a given genome, it falls back to mapping the coordinates based on synteny blocks. -->
-     </td></tr>
+ <tr><th>h &nbsp;</th><td>Opens and closes the popup help window. Same as clicking the <span style="font-weight: bold; font-size: 1.2em; color: #352C96;">&#8505;</span> icon.</td></tr>
+ <tr><th>l &nbsp;</th><td>Same as clicking the lock icon. Turns lock on and off (unlocked). NOTE: when the lock is turned on, the reference genome (if any) is de-selected.</td></tr>
+ <tr><th>n &nbsp;</th><td>Show/don't show all gene names (when view size is below threshold). Same as clicking "Show all labels" under <a href="settings">Settings</a>.</td></tr>
+ <tr><th>P &nbsp;</th><td>Include/exclude paralogs. Same as clicking the P icon.</td></tr>
+ <tr><th>r &nbsp;</th><td>Turn reference genome on/off. The top genome in the view is made the reference. Same as clicking the R in the genome's left end cap. NOTE: when reference genome is selected, the lock is turned off.</td></tr>
+ <tr><th>t &nbsp;</th><td>Open/close the left-side tool panel. Same as clicking the gear icon in the page header.</td></tr>
+ <tr><th>x &nbsp;</th><td>Collapse/expand transcript display. Same as clicking 'Spread trancripts' under <a href="settings">Settings</a>.</td></tr>
+</table>
 </table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
