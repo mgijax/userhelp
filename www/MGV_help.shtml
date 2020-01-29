@@ -51,9 +51,9 @@ function openHelpWindow(helpFile){
  <li><a href="#zoom">How do I navigate the Zoom View?</a></li>
  <li><a href="#shortcuts">Are there keyboard shortcuts for commands?</a></li>
  <li><a href="#sequences">How can I get FASTA sequences for features of interest?</a></li>
- <li><a href="#batch">How can I get additional phenotype, GO and expression data for features of interest?</a></li>
- <!--<li><a href="#snps">How can I find SNPs for a region of interest?</a></li>-->
- <li><a href="#inversions">What do the colored shaded regions mean?</a></li>
+ <li><a href="#batch">How can I get additional phenotype, GO and expression data for a feature of interest?</a></li>
+ <!--<li><a href="#snps">How can I find SNPs for a region of interest?</a></li>
+ <li><a href="#inversions">What do the colored shaded regions mean?</a></li>-->
  <li><a href="#example">Are there any examples?</a></li>
 </ul>
 
@@ -231,7 +231,7 @@ Note that for mouse, currently only the C57BL/6J annotation is "reference qualit
  <tr><th>Homology Connections</th><td>
   <table>
   <tr><th>Show Connectors</th><td>When checked, connectors are drawn joining highlighted genes across genomes. </td></tr>
-  <tr><th>Include Paralogs</th><td>Same as clicking the P icon in the view area. Controls whether paralogs are (on) or are not (off) included in region calculations, connector drawing, etc. </td></tr>
+  <tr><th>Include Paralogs</th><td>Same as clicking the P icon at the top of the Zoom View. This controls whether paralogs are (<span style="font-weight: bold; color: orange;">P</span>) or are not included in region calculations, connector drawing, etc. </td></tr>
   <tr><th>Highlight Inversions</th><td>If on, connectors between features on opposite strands ('inversions') in red and with a twist. </td></tr>
   <tr><th>Contrast</th><td>Fades non-selected features to make the selected feature stand out. </td></tr>
   <tr><th>Fill Opacity</th><td>Sets the opacity of the connector fill area.</td></tr>
@@ -308,7 +308,7 @@ Note that for mouse, currently only the C57BL/6J annotation is "reference qualit
  <li>or select "Align on this gene" from the gene's popup menu</li>
  <li>or search for the gene via the Find box.</li>
 </ul>
-If the gene has paralogs, they are/are not included in this operation depending whether the paralogs toggle ("P") is on or off, respectively.
+If the gene has paralogs, they are/are not included in this operation depending whether the paralogs toggle, ("P") at the top of the Zoom View, is on (<span style="font-weight: bold; color: orange;">P</span>) or off, respectively.
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -329,10 +329,16 @@ If the gene has paralogs, they are/are not included in this operation depending 
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="batch"></a>How can I get additional phenotype, GO and expression data for features of interest?</h3>
+<h3><a id="batch"></a>How can I get additional phenotype, GO and expression data for a feature of interest?</h3>
 
-<p>Click on the pencil icon for a list in My Lists. This will load the list into the List Editor. There, beneath the list of IDs, are several buttons. 
-The last 2 offer the options to Forward the list to MGI and its basic Batch Query, or to Forward the list to MouseMine, an advanced batch query tool.</p>
+<p>Control/right-click on a feature in the <a href="#zoom">Zoom View</a> and a pop-up window appears with the feature symbol at the top. Mouse over the Link outs selection and then select an option. For mouse strains, you will have four options:</p> 
+<ul>
+ <li>MGI, which links to the Gene Detail page (see: <a href="GENE_detail_help.shtml" target="_blank">Interpreting Gene Details</a>)</li>
+ <li>MouseMine, a data warehouse for accessing integrated mouse data from MGI and other web resources.</li>
+ <li>Alliance: the Alliance integrates data for humans and 6 model organisms.</li>
+ <li>Ensembl, which links to their record for the gene.</li> 
+</ul>
+<p>For non-mouse species, only the Alliance and Ensembl options are available.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -346,37 +352,36 @@ The last 2 offer the options to Forward the list to MGI and its basic Batch Quer
 
 <p>Note that the the Linkout menu also lets you find QTLs that overlap the region or open the region in JBrowse.<p> 
 
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p> -->
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p> 
 
 <h3><a id="inversions"></a>What do the colored shaded regions mean?</h3>
 
 <p>Pink shaded regions are <a href="<!--#include file='include/fewi_url.html'-->glossary/inversion" target="_blank">inverted</a> compared to your selected reference genome. Orange shaded regions are <a href="<!--#include file='include/fewi_url.html'-->glossary/translocation" target="_blank">translocations</a>. Yellow shaded regions are both inverted and translocated.</p>
 <p>These regions are also marked by their colored stripe in the <a href="#genomeview">Genome View</a> when you click on a comparison genome in the <a href="#zoom">Zoom View</a>. The Genome View will show the reference genome chromosomes with colored stripes (red/pink, orange and yellow).</p>
 
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>-->
 
 <h3><a id="example"></a>Are there any examples?</h3>
 
 <p>The following examples will help you get started using the Viewer.</p>
 
-<p>This example shows how to a search for a GO term, select comparison strains, adjust the view, and launch a search for SNPs:</p>
+<p>This example shows how to search for phenotype terms, select comparison genomes, adjust the view, and download CDS sequences:</p>
 
 <ol>
- <li>Select C57BL/6J as the Reference Genome.</li>
- <li>Shift-click to select the comparison genomes: AKR/J, BALB/cJ and C3H/HeJ.</li>
- <li>Command (&#8984;)-click on a Mac, or control-click on a PC, to select CAST/EiJ.</li>
- <li>In the Find Genes box, toggle the default search, &hellip;by phenotype or disease, to &hellip;by cellular function, and enter: GO:0008045 (the GO ID for motor neuron axon guidance) and hit your keyboard's return/enter key.</li>
- <li>The GO ID will appear in the My lists box, with the number of genes annotated to the term and its subterms indicated. The genes will also be represented in the <a href="#genomeview">Genome View</a> section with each gene represented by a pink dot. Mouse over a dot to see its gene symbol.</li>
- <li>Click on one of the comparison strains in the <a href="#zoom">Zoom View</a> to view synteny blocks with the reference genome in the Genome View. Rearranged regions with respect to the reference genome are marked by colored lines in the Genome View.</li>
- <li>In the Genome View, drag your cursor over the region of Chromosome X above and below its pink dot.</li>
- <li>This will load this region into the Zoom View below. The <i>Plxna3</i> gene is marked in the Zoom view because it is a gene in your active My list, and connected by a line to the other strains. Mouse over any feature in the Zoom View to see its details in the <a href="featuredetail">Feature Details</a> section just above the Zoom View.</li>
-<li>Click on one of the Magnifying glass icons with a + sign to zoom in.</li>
-<li>Notice that some comparison strains have a translocated region involving Chromosome 4. Your screen may look something like <a href="http://www.informatics.jax.org/mgv/#chr=X&start=74025936&end=74636321&dmode=reference&ref=C57BL/6J&genomes=C57BL/6J+AKR/J+BALB/cJ+C3H/HeJ+CAST/EiJ&highlight=">this.</a></li>
-<li>Zoom in some more and then use the Pan icons to move <i>Plxna3</i> off your screen.</li>
-<li>To bring <i>Plxna3</i> back into view, to go to the Genome View section and drag the, now much smaller, blue selection you made earlier, back in line with the center of the pink dot on Chromosome X or search for Plxna3 in the C57BL/6J coords field.</li>
-<li>If you have clicked on another feature, <i>Plxna3</i> may no longer be labeled. To find it, click on the GO ID again in the My Lists box.</li>
-<li>Click on the Linkout menu (&#9776;) icon to the left of the C57BL/6J coords and select MGI SNPs to launch of search of MGI SNPs in this region for these strains.</li> 
-</ol> 
+ <li>At the bottom of the Genomes section in the left hand frame, click the Mouse, human, rat button to select those species.</li>
+ <li>Also check BALB/cJ.</li>
+ <li>In the Create portion of the Lists and Searches section, set the toggles to "New mouse ID list from search&hellip;" and "&hellip;by phenotype or disease," type cardiac valve regurgitation into the field and click the Go button.</li>
+ <li>The genes associated with that term will now be marked in the Genome View.</li>
+ <li>Now create a new list by searching for the phenotype term: abnormal heart ventricle pressure.</li>
+ <li>The genes associated with this term will now be marked in the Genome View.</li>
+ <li>Now to see the genes these terms share, set the first Create toggle to "New list from combining lists" and click the colored pencil icon for one of the lists. This launches the list edit popup window.</li>
+ <li>Now drag the colored pencil icon for the other list into the intersection cell in the popup window.</li>
+ <li>Give the list a new name and click the Save button in the popup window.</li>
+ <li>If you don't like the color of the markers for the genes in the Genome View, launch the edit window again click on the Color field to change it.</li>
+ <li>Now go to the Genome View section of the main page and with the toggle set to C57BL/6J, click on the <i>Egfr</i> gene on Chromosome 11 to center on this gene in the Zoom View section for all genomes.</li> 
+ <li>To get sequences, control/alt click on one of the <i>Egfr</i> genes and under Add sequences to cart, mouse over This gene and all homologs, and select All cds sequences. The sequences will be added to the Sequence Cart in the left hand frame.</li>
+ <li>In the Sequence Cart, you can uncheck any sequences you don't want to download. For each sequence you will see either an M, will will provided the translated amino acid sequence, or ATG for the untranslated sequence. Click on the M or ATG to toggle between them.</li>
+</ol>
 <br>
 <p>This <a href="http://www.informatics.jax.org/mgv/#landmark=MGI:103310&delta=0&length=9000010&dmode=comparison&ref=C57BL/6J&genomes=C57BL/6J+BALB/cJ+CAST/EiJ+PWK/PhJ&highlight=MGI:103310">example</a> is a search for the pathway, Signaling by EGFR, with 4 strains selected and the region around Ptprk on Chromosome 10 shown and Ptprk is selected as the "landmark." </p>
 
