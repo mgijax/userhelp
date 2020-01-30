@@ -157,8 +157,15 @@ If you are interested in doing queries that ask what genes are expressed in some
 <p>You can choose to use one or both fields in this section.
 </p>
 <b>Anatomical Structures</b><br>
-<p>The anatomical structures are taken from the <A HREF="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Ontology</A>. Begin typing an anatomy term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. The term is followed by the Theiler Stages for which the structure exists (e.g. lung lobe TS20-28). You must choose a term from the autocomplete list (i.e., there is no free text entry in this field).</p>
-
+<p>The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Ontology</a>. Begin typing an anatomy term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. The term is followed by the Theiler Stages for which the structure exists (e.g. lung lobe TS20-28). You must choose a term from the autocomplete list (i.e., there is no free text entry in this field).</p>
+The ordering on the drop down is as follows: 
+<ol>
+<li>exact match to structure</li>
+<li>exact match to a synonym</li>
+<li>"begins" match to a structure</li>
+<li>"begins" match to a synonym</li>
+<li>and then other matches</li>
+</ol>
 <P>For each developmental stage, the Anatomical Dictionary is organized as a hierarchy of structures. <!--You can choose to include either substructures (children), superstructures (parents), both, or neither in your search.--> By default, the search includes substructures. This means if you search for gene expression in, for example, brain, your search will also return annotations for all substructures of brain, such as rhombencephalon, tectum and others.</p>
 <!--<ul>
 <li>
@@ -199,7 +206,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
  </tr>-->
  <tr>
    <td><a id="assay_type"></a><b>Assay types</b></td>
-   <td>Check list of assay types. Use this section to limit your search to assays of one or more selected types. The default is to search <i>All</i> of the assay types on the list. Uncheck the first box for <i>Find expression data in any assay type</i> to quickly clear all selections. 
+   <td>Check list of assay types. Use this section to limit your search to assays of one or more selected types. The default is to exclude RNA-Seq assays from the search.  Use the in situ, blot and whole genome assay check boxes to quickly select or deselect types of assays. 
     </TD>
     </TR>   
 </table>
@@ -208,14 +215,15 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="whatdiffer"></a>What is the purpose of the Differential Expression Search?</h3>
-<p>The Differential Expression Search is specifically designed to allow you to search for genes expressed in some anatomical structures or developmental stages but not in others. Examples of the questions you can ask are:
+<p>The Differential Expression Search is specifically designed to allow you to search for genes expressed in some anatomical structures or developmental stages but not in others. Examples of the questions you can ask are:</p>
  <ul>
   <li>Which genes are expressed in the forebrain and not expressed in the midbrain?</li>
   <li>Which genes are expressed exclusively in the eye and its substructures?</li>
   <li>Which genes are expressed only at Theiler Stage 15?</li>
   <!--<li>Which genes are expressed at Theiler Stage 10 but either are not expressed or have not been analyzed in the adult?</li>-->
-  </ul></p>
-  
+  </ul>
+ <p>RNA-Seq data is not yet included in these searches.</p>
+ 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <H3><a id="Dfields"></a>What values are acceptable in each of the Differential Search fields?</H3>
@@ -351,9 +359,10 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></t
 
 <p>Your search results are displayed within six tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a>, <a href="#assaytab">Assay Results</a>, <a href="#imagetab">Images</a>, <a href="#tissuematrix">Tissue x Stage Matrix</a> and <a href="#genematrix">Tissue x Gene Matrix</a>. With the Standard search, the Assay Results tab is selected by default. For Differential Expression searches, the Tissue x Gene Matrix tab is the default selection.
 See <a href="#whattabs">What are the advantages of the different results tabs?</a> for a brief guide to choosing results tabs.</p>
+<p>If your search returns more than 21 million assay results, only the first page of the assay results tab will be rendered. The other tabs will be blank. Such large search returns make our pages slow to load. To get full functionality in the summary, you will need modify your search or filter to return fewer results.</p>
 
 <h4><a id="genestab"></a>Genes</h4>
-<p>If you select the Genes tab, you are offered the ability to Export your results as a text or spreadsheet file, or forward the list of genes to the MGI <a href="<!--#include file='include/fewi_url.html'-->batch">Batch Query</a> or <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a>, where you can find additional information on the genes. Below the Export options, a table summarizes information on the gene(s). You can use the triangles in the column headers to sort by a column. The query summary contains the following fields: <br><br>
+<p>If you select the Genes tab, you are offered the ability to Export your results as a text, or forward the list of genes to the MGI <a href="<!--#include file='include/fewi_url.html'-->batch">Batch Query</a> or <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a>, where you can find additional information on the genes. Below the Export options, a table summarizes information on the gene(s). You can use the triangles in the column headers to sort by a column. The query summary contains the following fields: <br><br>
 <blockquote> 
 <table>
  <tr><td><b>MGI ID</b></td>
@@ -381,13 +390,14 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
 <blockquote> 
 <table>
 <tr><td><b>Gene</b></td>
-     <td>Symbol of the analyzed gene.</td></tr>
+     <td>Symbol of the analyzed gene for most assay types. Reflecting the nature of the assay, "Whole Genome" for RNA-Seq assays.</td></tr>
 <tr><td><b>Assay Details</b></td>
-     <td>The word <i>data</i> links to detailed expression results; the MGI accession ID of the assay (useful for searching purposes) appears in parentheses. A camera icon appears when there are image data associated with the assay.</td></tr>
+     <td>For most assay types, the word <i>data</i> linked to detailed expression results; the MGI accession ID of the assay (useful for searching purposes) appears in parentheses. For RNA-Seq assays, data set, followed by EBI's Expression Atlas set ID; clicking on the filter icon will filter the summary for that data set.</td></tr>
  <tr><td><span style="white-space: nowrap"><b>Assay Type </b></span></td>
-     <td>Name of the assay used (e.g., Immunohistochemistry, Northern blot, RNA in situ, and so on).</td></tr>
+     <td>Name of the assay type used (e.g., Immunohistochemistry, Northern blot, RNA in situ, and so on).</td></tr>
  <tr><td><b>Reference</b></td>
-     <td>J number (MGI identifier) and short format citation for this reference linked to its MGI reference detail report.</td></tr>
+     <td>For most assay types, J number (MGI reference identifier) and short format citation for this reference linked to its MGI reference detail report. For RNA-Seq assays, the EBI Expression Atlas set id and title, linked to the GXD RNA-Seq and Microarray Experiment Summary. 
+     There you will find details of the experiment and linkouts to the Expression Atlas (for access curated data and additional display and analysis tools), to ArrayExpress and GEO (to access the source data) and PubMed (to access the publication).</td></tr>
 </table>
 </blockquote>
 </p>
