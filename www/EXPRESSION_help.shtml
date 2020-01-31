@@ -206,7 +206,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
  </tr>-->
  <tr>
    <td><a id="assay_type"></a><b>Assay types</b></td>
-   <td>Check list of assay types. Use this section to limit your search to assays of one or more selected types. The default is to exclude RNA-Seq assays from the search.  Use the in situ, blot and whole genome assay check boxes to quickly select or deselect types of assays. 
+   <td>Check list of assay types. Use this section to limit your search to assays of one or more selected types. The default is to exclude RNA-Seq assays from the search. Use the in situ, blot and whole genome assay check boxes to quickly select or deselect types of assays. 
     </TD>
     </TR>   
 </table>
@@ -222,7 +222,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
   <li>Which genes are expressed only at Theiler Stage 15?</li>
   <!--<li>Which genes are expressed at Theiler Stage 10 but either are not expressed or have not been analyzed in the adult?</li>-->
   </ul>
- <p>RNA-Seq data is not yet included in these searches.</p>
+ <p>RNA-Seq data are not yet included in these searches.</p>
  
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -392,26 +392,26 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
 <tr><td><b>Gene</b></td>
      <td>Symbol of the analyzed gene for most assay types. Reflecting the nature of the assay, "Whole Genome" for RNA-Seq assays.</td></tr>
 <tr><td><b>Assay Details</b></td>
-     <td>For most assay types, the word <i>data</i> linked to detailed expression results; the MGI accession ID of the assay (useful for searching purposes) appears in parentheses. For RNA-Seq assays, data set, followed by EBI's Expression Atlas set ID; clicking on the filter icon will filter the summary for that data set.</td></tr>
+     <td>For most assay types, the word <i>data</i> linked to detailed expression results; the MGI accession ID of the assay (useful for searching purposes) appears in parentheses. For RNA-Seq assays, data set, followed by EBI's Expression Atlas set ID; clicking on the <a href="#gxdfilter">filter</a> (<img image width="13" height="13" src="<!--#include file='include/webshare_url.html'-->images/filter.png">) icon will filter the summary for that data set.</td></tr>
  <tr><td><span style="white-space: nowrap"><b>Assay Type </b></span></td>
      <td>Name of the assay type used (e.g., Immunohistochemistry, Northern blot, RNA in situ, and so on).</td></tr>
  <tr><td><b>Reference</b></td>
-     <td>For most assay types, J number (MGI reference identifier) and short format citation for this reference linked to its MGI reference detail report. For RNA-Seq assays, the EBI Expression Atlas set id and title, linked to the GXD RNA-Seq and Microarray Experiment Summary. 
+     <td>For most assay types, J number (MGI reference identifier) and short format citation for this reference linked to its MGI reference detail report. For RNA-Seq assays, the EBI Expression Atlas set ID and title, linked to the GXD RNA-Seq and Microarray Experiment Summary. 
      There you will find details of the experiment and linkouts to the Expression Atlas (for access curated data and additional display and analysis tools), to ArrayExpress and GEO (to access the source data) and PubMed (to access the publication).</td></tr>
 </table>
 </blockquote>
 </p>
 
 <h4><a id="assaytab"></a>Assay Results</h4>
-<p>If you select Assay Results, you are offered the ability to Export your results as a text or spreadsheet file. Below the Export options, a table summarizes information on the assays. You can use the triangles in the column headers to sort by a column. The query summary contains the following fields:<br><br>
+<p>If you select Assay Results, you are offered the ability to Export your results as a text or export the RNA-Seq results to a heat map. Below the Export options, a table summarizes information on the assays. Ten columns are shown by default; an additional 4 columns are displayed when you use the “Show Additional Sample Data” toggle. You can use the triangles in the column headers to sort by a column. The query summary contains the following fields:<br><br>
 <blockquote> 
 <table>
 <tr><td><b>Gene</b></td>
      <td>Symbol of the analyzed gene</td></tr> 
 <tr><td><span style="white-space: nowrap"><b>Result Details</b></span></td>
-     <td>The word data links to detailed expression results; the MGI accession ID of the assay (useful for searching purposes) appears next in parentheses</td></tr>
+     <td>The word <i>data</i> links to detailed expression results in GXD (for most assay results) or linked to experiment detail pages at EBI’s Expression Atlas (for RNA-Seq assay results); the MGI accession ID of the assay or RNA-Seq data set id appears next in parentheses</td></tr>
 <tr><td><span style="white-space: nowrap"><b>Assay Type </b></span></td>
-     <td>Name of the assay used (e.g., immunohistochemistry, Northern blot, RNA <i>in situ</i>)</td></tr>
+     <td>Name of the assay type used (e.g., immunohistochemistry, Northern blot, RNA <i>in situ</i>)</td></tr>
 <tr><td><b>Age </b></td>
      <td>Age of the specimen used in the assay. <!--Whenever possible, the age annotations are normalized according to the following conventions: noon of the day on which the vaginal plug is found is counted as embryonic (E) day 0.5. Therefore, e.g., if an author refers to the day on which the plug is found as E0, we add 0.5 to the age value(s) listed in the paper and the comment <I>Age normalized so that noon of plug day = E0.5</I> to the record. If the staging criteria are not described in the paper, we annotate to the ages given by the authors and may add the comment <I>Age of embryo at noon of plug day not specified in reference</I> to the record. -->The abbreviations for age annotations are as follows:
 <table>
@@ -427,15 +427,19 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
 <tr><td><b>Structure </b></td>
      <td>Structure examined in the assay, given as a Theiler stage (TS) and anatomical structure name.</td></tr>
 <tr><td><b>Detected? </b></td>
-     <td>Was expression detected? Possible values include:
+     <td>Was expression detected? Possible values are:
     <UL>
       <li>Yes</li>
       <li>No</li>
       <li>Ambiguous</li>
-      <li>Not specified</li>
+      <li>Not Specified</li>
     </UL>
-<p>Note: Not specified is used when the authors do not report whether a gel band is present or absent.  Ambiguous is used when the authors specify it or our curators cannot discern from the author's description whether expression is present or absent.</p>
-  <!--<P><sup>*</sup><i>Present</i> appears if expression is reported as detected but the author did not specify the level.--></td></tr>
+<p>Note: 
+<ul>
+ <li>No is used for RNA-Seq results when the <abbr title="Transcripts Per Million">TPM</abbr> are less than 0.5.</li>
+ <li>Not Specified is used when the authors do not report whether a gel band is present or absent. </li>
+ <li>Ambiguous is used when the authors specify it or our curators cannot discern from the author's description whether expression is present or absent.</li>
+ </ul></td></tr>
 <tr><td><b>Images</b></td>
      <td>Name of the specimen or pane with associated images, linked to the appropriate section of the assay detail. Note: Images are shown only when we have permission from the publishers. </td></tr>
 <tr><td><span style="white-space: nowrap"><b>Mutant Allele(s)</b></span></td>
