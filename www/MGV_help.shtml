@@ -231,7 +231,11 @@ Note that for mouse, currently only the C57BL/6J annotation is "reference qualit
  <tr><th>Homology Connections</th><td>
   <table>
   <tr><th>Show Connectors</th><td>When checked, connectors are drawn joining highlighted genes across genomes. </td></tr>
-  <tr><th>Include Paralogs</th><td>Same as clicking the P icon at the top of the Zoom View. This controls whether paralogs are (<span style="font-weight: bold; color: orange;">P</span>) or are not included in region calculations, connector drawing, etc. </td></tr>
+  <tr><th>Include Paralogs</th><td>Same as clicking the P icon at the top of the Zoom View. This controls whether paralogs are (<span style="font-weight: bold; color: orange;">P</span>) or are not included in region calculations, connector drawing, etc. 
+  <p>Note: MGV infers paralogy relationships based on the Alliance data. These paralogs can be included or excluded when doing things like searching, aligning on a gene, gathering sequences, etc.
+</p>
+ <p>Inferred Paralogs: The Alliance data does not contain direct assertions of paralogy. MGV uses shared orthology to infer paralogy. For example, mouse <i>Mx1</i> is an asserted ortholog of both human <i>MX1</i> and <i>MX2</i>. Therefore, <i>MX1</i> and <i>MX2</i> are inferred paralogs of each other.  
+</p></td></tr>
   <tr><th>Highlight Inversions</th><td>If on, connectors between features on opposite strands ('inversions') in red and with a twist. </td></tr>
   <tr><th>Contrast</th><td>Fades non-selected features to make the selected feature stand out. </td></tr>
   <tr><th>Fill Opacity</th><td>Sets the opacity of the connector fill area.</td></tr>
@@ -385,7 +389,7 @@ If the gene has paralogs, they are/are not included in this operation depending 
  <li>Now return to the Zoom View section of the MGV and click on the zoom in magnifier icon a few times to zoom down to the DNA sequence level. Shift-click on the icon to zoom in a lot.</li>
 </ol>
 <br>
-<p>This<a href="http://www.informatics.jax.org/mgv/#regions=CAST/EiJ::10:25572199..27134613/1152|CAROLI/EiJ::10:23425423..24987837/1152|C57BL/6J::10:27554900..29117314/1152&lock=on&paralogs=off&highlight=MGI:103310">example</a> is a search for the pathway, 
+<p>This <a href="http://www.informatics.jax.org/mgv/#regions=CAST/EiJ::10:25572199..27134613/1152|CAROLI/EiJ::10:23425423..24987837/1152|C57BL/6J::10:27554900..29117314/1152&lock=on&paralogs=off&highlight=MGI:103310">example</a> is a search for the pathway, 
 Signaling by EGFR, with 3 mouse strains selected and the region around <i>Ptprk</i> on Chromosome 10 shown. </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
