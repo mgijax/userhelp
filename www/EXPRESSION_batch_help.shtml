@@ -53,6 +53,7 @@ function openHelpWindow(helpFile){
  <LI><a href="EXPRESSION_help.shtml#summary" target="_blank">How do I interpret the query results summary and detail pages?</a></LI>
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
  <li><a href="#batch">Can I send the results of my search to the MGI Batch Query or MouseMine?</a></li>
+ <li><a href="heatmap">Can I create a heat map for my RNA-Seq results?</a></li>
  <li><a href="#example">Are there examples of query results?</a></li>
 </ul>
 </p>
@@ -199,6 +200,13 @@ There is a 5000 gene limit for this query. </p>
 </ul>
 </p>
 <p>See also <a href="BATCH_help.shtml"target="_blank">Using the MGI Batch Query</a>.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="heatmap"></a>Can I create a heat map for my RNA-Seq results?</h3>
+
+<p>Yes. Click on the RNA Seq &#9658; Heat Map button above the table of results in the Assay results tab. A browser window will open, displaying your selected data in Morpheus, a heat map visualization and analysis tool created at the Broad Institute. 
+All the processing of the data you do will be done on your computer, not on MGI's (or the Broad's) servers. Heat map images and files can be saved using Morpheus.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

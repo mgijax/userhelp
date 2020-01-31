@@ -379,11 +379,14 @@ If the gene has paralogs, they are/are not included in this operation depending 
  <li>Give the list a new name and click the Save button in the popup window.</li>
  <li>If you don't like the color of the markers for the genes in the Genome View, launch the edit window again click on the Color field to change it.</li>
  <li>Now go to the Genome View section of the main page and with the toggle set to C57BL/6J, click on the <i>Egfr</i> gene on Chromosome 11 to center on this gene in the Zoom View section for all genomes.</li> 
- <li>To get sequences, control/alt click on one of the <i>Egfr</i> genes and under Add sequences to cart, mouse over This gene and all homologs, and select All cds sequences. The sequences will be added to the Sequence Cart in the left hand frame.</li>
+ <li>To get sequences, control/alt click on one of the <i>Egfr</i> genes and under <i>Add sequences to cart</i>, mouse over "This gene and all homologs," and select All cds sequences. The sequences will be added to the Sequence Cart in the left hand frame.</li>
  <li>In the Sequence Cart, you can uncheck any sequences you don't want to download. For each sequence you will see either an M, will will provided the translated amino acid sequence, or ATG for the untranslated sequence. Click on the M or ATG to toggle between them.</li>
+ <li>Click on the download cloud icon in front of "Browser" to view the sequences in a new browser tab.</li>
+ <li>Now return to the Zoom View section of the MGV and click on the zoom in magnifier icon a few times to zoom down to the DNA sequence level. Shift-click on the icon to zoom in a lot.</li>
 </ol>
 <br>
-<p>This <a href="http://www.informatics.jax.org/mgv/#landmark=MGI:103310&delta=0&length=9000010&dmode=comparison&ref=C57BL/6J&genomes=C57BL/6J+BALB/cJ+CAST/EiJ+PWK/PhJ&highlight=MGI:103310">example</a> is a search for the pathway, Signaling by EGFR, with 4 strains selected and the region around Ptprk on Chromosome 10 shown and Ptprk is selected as the "landmark." </p>
+<p>This<a href="http://www.informatics.jax.org/mgv/#regions=CAST/EiJ::10:25572199..27134613/1152|CAROLI/EiJ::10:23425423..24987837/1152|C57BL/6J::10:27554900..29117314/1152&lock=on&paralogs=off&highlight=MGI:103310">example</a> is a search for the pathway, 
+Signaling by EGFR, with 3 mouse strains selected and the region around <i>Ptprk</i> on Chromosome 10 shown. </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

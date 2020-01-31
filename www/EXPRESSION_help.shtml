@@ -66,7 +66,7 @@ function openHelpWindow(helpFile){
    </li>
  <li><a href="#gxdfilter">How do I filter my results?</a></li>
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
- <li><a href="#column">Can I upload a particular column of IDs/Symbols from a file?</a></li>
+ <li><a href="heatmap">Can I create a heat map for my RNA-Seq results?</a></li>
  <li><a href="#batch">Can I send the results of my search to the MGI Batch Query or MouseMine?</a></li>
  <li><a href="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a></li>
  <li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</a></li>
@@ -463,11 +463,12 @@ Either: appears when the authors use more than one genetic background in a refer
 <tr><td><b>Sex</b></td>
    <td>Column is visible when the Show Additional Sample Data toggle is on.<br>
 Possible values: Female, Male, and Pooled. When the field is blank, it indicates the author did not specific the sex.</td></tr>
-<tr><td><b>Notes (RNA-Seq)</b></td>
+<tr><td><span style="white-space: nowrap"><b>Notes (RNA-Seq)</b></span></td>
     <td>Column is visible when the Show Additional Sample Data toggle is on.<br>
 Provides additional information about RNA-Seq samples, if needed.</td></tr>
 <tr><td><b>Reference </b></td>
-     <td>J number (MGI identifier) and short format citation for this reference linked to its MGI reference detail report</td></tr>
+     <td>For most assay types, J number (MGI reference identifier) and short format citation for this reference linked to its MGI reference detail report. For RNA-Seq assays, the EBI Expression Atlas set ID and title, linked to the GXD RNA-Seq and Microarray Experiment Summary. 
+     There you will find details of the experiment and linkouts to the Expression Atlas (for access curated data and additional display and analysis tools), to ArrayExpress and <abbr title="Gene Expression Omnibus">GEO</abbr> (to access the source data) and PubMed (to access the publication).</td></tr>
 </table>
 </blockquote>
 
@@ -480,9 +481,9 @@ Provides additional information about RNA-Seq samples, if needed.</td></tr>
 <tr><td><b>Gene</b></td>
      <td>Symbol of the analyzed gene(s).</td></tr>
  <tr><td><b>Assay Type</b></td>
-     <td>Name of the assay(s) used (e.g., Immunohistochemistry, Northern blot, RNA in situ, and so on).</td></tr>
+     <td>Name of the assay type(s) used (e.g., Immunohistochemistry, Northern blot, RNA in situ, and so on).</td></tr>
      <tr><td><b>Specimen Type</b></td>
-     <td>Describes whether the sample is a whole mount, section, or section from a whole mount.</td></tr>
+     <td>Describes whether the sample is a whole mount, section, section from a whole mount, or optical section..</td></tr>
  <tr><td><b>Result Details</b></td>
      <td>Links to image and expression assay result details.</td></tr>
 </table>
@@ -526,27 +527,49 @@ Individual cells have the ability to filter as well. Clicking on a cell displays
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="gxdfilter"></a>How do I filter my results?</h3>
-<p>You can filter results by Anatomical System, Assay Type, Theiler Stage, or by whether expression was Detected or whether the data are for wild type or mutant specimens. In the banner above your results, after <i>Filter expression data by:</i> click the desired box. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#excelfile_gxdqf">export</a>. Note: Filtering out mutants will retain heterozygous <i>in situ</i> knockin mutants.</p>
-<p>Both Matrix tabs offer easy filtering by tissue, and the Tissue x Stage Matrix also offers filtering by developmental stage/age and the Tissue x Gene Matrix permits filtering by gene symbol. Check the rows or columns you wish to retain and then click the Filter (<img image width="13" height="13" src="<!--#include file='include/webshare_url.html'-->images/filter.png">) button in the grid to apply the filters. These filters are also applied to all tabs.</p> 
+<p>You can filter results by attributes of the assay results or by vocabulary annotations to the genes analyzed. In the banner above your results, below <i>Filter expression data by:</i>, click the button for the desired filter. 
+This will open a box displaying all the filter terms associated with the assay results or genes in your dataset. Check the boxes of interest and click Filter to to reduce your results to only those annotated to the checked items. 
+Filters that have been applied are displayed below the buttons. You can remove them by individually clicking on them or by using the “Remove All Filters” button.</p>
+Note:
+<ul>
+<li>You can apply as many filters as you desired.</li>
+<li>The filters are applied across all data tabs and to any file you export.</li>
+<li>Within one filter chosen terms are treated as "OR"s; between filters chosen terms are treated as "AND"s.</li>
+<li>Filtering out mutants will retain heterozygous <i>in situ</i> knockin mutants.</li>
+</ul>
+<p>Assay Result Filters (left column)</p>
+<table>
+<tr><th><span style="white-space: nowrap">Anatomical System</span></th><td>High-level terms to describe tissue analyzed</td></tr>
+<tr><th>Theiler Stage</th><td>Developmental stage analyzed</td></tr>
+<tr><th>Assay Type</th><td>Assay type used for study</td></tr>
+<tr><th>Detected?</th><td>Either: Yes; No; Not Specified; or Ambiguous</td></tr>
+<tr><th><abbr title="Transcripts Per Million">TPM</abbr> Level</th><td>For RNA-Seq results; either: Below Cutoff; Low; Medium; or High</td></tr>
+<tr><th>Wild type?</th><td>Whether the specimen/sample was wild type or mutant.</td></tr>
+</table>
+<p>Gene Filters (right column)</p>
+<table>
+<tr><th>Gene Type</th><td>Type of marker, e.g. protein-coding, non-coding RNA gene</td></tr>
+<tr><th>Gene Type</th><td>Type of marker, eg protein-coding, non-coding RNA gene</td></tr>
+<tr><th>Molecular Function</th><td>High-level GO terms describing the molecular processes the gene product is involved with</td></tr>
+<tr><th>Biological Process</th><td>High-level GO terms describing the biological processes the gene product is involved with</td></tr>
+<tr><th><span style="white-space: nowrap">Cellular Component</span></th><td>Type of marker, eg protein-coding, non-coding RNA gene</td></tr>
+<tr><th>Phenotype</th><td>High-level Mammalian Phenotype (MP) terms describing the phenotype of mice carrying mutant alleles of the gene</td></tr>
+<tr><th>Disease</th><td>High-level Disease Ontology (DO) terms describing the diseases mice carrying mutant alleles of the gene manifest</td></tr>
+</table>
+<p>Both Matrix tabs offer easy filtering by tissue. The Tissue x Stage Matrix also offers filtering by developmental stage/age, while the Tissue x Gene Matrix permits filtering by gene symbol. 
+Check the rows or columns you wish to retain and then click the Filter (<img image width="13" height="13" src="<!--#include file='include/webshare_url.html'-->images/filter.png">) button in the grid to apply the filters. These filters are also applied to all tabs.</p> 
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="excelfile_gxdqf"></a>Can I get my results as tab-delimited text or spreadsheet files?</h3>
-<p>Yes. The <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a> tabs provide export options. In your search results, click on the Text File or Excel File icon. Your web browser will download a file of the results<!-- that remain after any filtering you may have performed-->.</p>
+<p>Yes. The <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a> tabs provide export options. Click on the Text File icon. Your web browser will download a file of the results.  The Assay Results file will include all columns, regardless of whether or not the "Show Additional Sample Data" toggle is chosen.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="column"></a>Can I upload a particular column of IDs/Symbols from a file?</h3>
+<h3><a id="heatmap"></a>Can I create a heat map for my RNA-Seq results?</h3>
 
-<p>Yes, you can import a column from a text file by using the Batch Search tab. In the <b>Use IDs from a File</b> section of the form: 
-<ol>
-	<li>Select your file type: tab-delimited or comma separated.</li> 
-	<li>Click the <i>Choose File</i> button to browse for your file.</li>
-	<li>In the <i>ID/Symbols column:</i> field, type the column number that you wish to import.</li>
-</ol>
-</p>
-<p><b>Note:</b> To import a column of symbols or IDs from a spreadsheet, first export the file as text or CSV (Comma Separated Values) and then import the column or copy and paste a column directly from the spreadsheet. See also: <a href="EXPRESSION_batch_help.shtml">Using the Gene Expression Batch Search</a>.
-</p>
+<p>Yes. Click on the RNA Seq &#9658; Heat Map button above the table of results in the Assay results tab. A browser window will open, displaying your selected data in Morpheus, a heat map visualization and analysis tool created at the Broad Institute. 
+All the processing of the data you do will be done on your computer, not on MGI's (or the Broad's) servers. Heat map images and files can be saved using Morpheus.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
