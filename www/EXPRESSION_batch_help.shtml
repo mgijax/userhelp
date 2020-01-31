@@ -53,7 +53,7 @@ function openHelpWindow(helpFile){
  <LI><a href="EXPRESSION_help.shtml#summary" target="_blank">How do I interpret the query results summary and detail pages?</a></LI>
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
  <li><a href="#batch">Can I send the results of my search to the MGI Batch Query or MouseMine?</a></li>
- <li><a href="heatmap">Can I create a heat map for my RNA-Seq results?</a></li>
+ <li><a href="#heatmap">Can I create a heat map for my RNA-Seq results?</a></li>
  <li><a href="#example">Are there examples of query results?</a></li>
 </ul>
 </p>

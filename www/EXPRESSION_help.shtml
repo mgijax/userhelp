@@ -66,7 +66,7 @@ function openHelpWindow(helpFile){
    </li>
  <li><a href="#gxdfilter">How do I filter my results?</a></li>
  <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
- <li><a href="heatmap">Can I create a heat map for my RNA-Seq results?</a></li>
+ <li><a href="#heatmap">Can I create a heat map for my RNA-Seq results?</a></li>
  <li><a href="#batch">Can I send the results of my search to the MGI Batch Query or MouseMine?</a></li>
  <li><a href="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a></li>
  <li><a href="#generate">Which expression data query parameters generate an expression literature search? Which do not?</a></li>
