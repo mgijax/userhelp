@@ -440,10 +440,32 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
  <li>Not Specified is used when the authors do not report whether a gel band is present or absent. </li>
  <li>Ambiguous is used when the authors specify it or our curators cannot discern from the author's description whether expression is present or absent.</li>
  </ul></td></tr>
+ <tr><td><b><abbr title="Transcripts Per Million">TPM</abbr> Level (RNA-Seq)</b></td>
+     <td>Possible values are: 
+     <ul>
+      <li>Below Cutoff = 0.5 TPM
+      <li>Low=0.5-1.0 TPM
+      <li>Medium=11-1,000 TPM
+      <li>High=>1,000 TPM
+     </ul>
+     These mapping conventions are also used by EBI's Expression Atlas.</td></tr>
+<tr><td><b>Biological Replicates (RNA-Seq)</b></td>
+     <td>Column is visible when the Show Additional Sample Data toggle is on.<br>
+The number of biological replicates whose <abbr title="Transcripts Per Million">TPM</abbr> were averaged to generate the TPM used in TPM</td></tr>
 <tr><td><b>Images</b></td>
-     <td>Name of the specimen or pane with associated images, linked to the appropriate section of the assay detail. Note: Images are shown only when we have permission from the publishers. </td></tr>
+     <td>Name of the specimen or pane with associated images, linked to the appropriate section of the assay detail. Note: Images are shown only when we have permission from the publishers. There are no images for RNA-Seq results.</td></tr>
 <tr><td><span style="white-space: nowrap"><b>Mutant Allele(s)</b></span></td>
      <td>If the specimen is a mutant, the allele pairs describing the mutant genotype appear in this field.</td></tr>
+<tr><td><b>Strain</b></td>
+     <td>Column is visible when the Show Additional Sample Data toggle is on.<br>
+Strain information for the specimen/sample, if specified. Use of involves: in the annotation indicates that the strains listed (separated by asterisks) contributed to the genetic background of the specimen; additional unspecified strains may also be part of the specimen's genetic background. 
+Either: appears when the authors use more than one genetic background in a reference but do not specify which one is the background of the specimen.</td></tr>
+<tr><td><b>Sex</b></td>
+   <td>Column is visible when the Show Additional Sample Data toggle is on.<br>
+Possible values: Female, Male, and Pooled. When the field is blank, it indicates the author did not specific the sex.</td></tr>
+<tr><td><b>Notes (RNA-Seq)</b></td>
+    <td>Column is visible when the Show Additional Sample Data toggle is on.<br>
+Provides additional information about RNA-Seq samples, if needed.</td></tr>
 <tr><td><b>Reference </b></td>
      <td>J number (MGI identifier) and short format citation for this reference linked to its MGI reference detail report</td></tr>
 </table>
