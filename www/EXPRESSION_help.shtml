@@ -65,7 +65,7 @@ function openHelpWindow(helpFile){
    </ul>
    </li>
  <li><a href="#gxdfilter">How do I filter my results?</a></li>
- <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
+ <li><a href="#excelfile_gxdqf">Can I get my results as a tab-delimited text file?</a></li>
  <li><a href="#heatmap">Can I create a heat map for my RNA-Seq results?</a></li>
  <li><a href="#batch">Can I send the results of my search to the MGI Batch Query or MouseMine?</a></li>
  <li><a href="#gxd_lit_record">Why is there a link to Gene Expression Literature records in my query summary?</a></li>
@@ -417,11 +417,11 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
 <table>
 <tr><td><b>E</b></td> <td>Embryonic day</td> </tr>
 <tr>  <td><b>P  </b></td> <td>Postnatal or postnatal day </td> </tr>
-<tr>  <td><b>P w</b></td> <td>Postnatal week<td> </tr>
-<tr>  <td><b>P m</b></td> <td>Postnatal month</td> </tr>
-<tr>  <td><b>P y</b></td> <td>Postnatal year</td> </tr>
-<tr>  <td><b>P adult</b></td> <td>Postnatal adult</td> </tr>
-<tr>  <td><b>P newborn</b></td> <td>Postnatal newborn</td> </tr>
+<tr>  <td><b>P w </b></td> <td>Postnatal week<td> </tr>
+<tr>  <td><b>P m </b></td> <td>Postnatal month</td> </tr>
+<tr>  <td><b>P y </b></td> <td>Postnatal year</td> </tr>
+<tr>  <td><b>P adult </b></td> <td>Postnatal adult</td> </tr>
+<tr>  <td><b>P newborn </b></td> <td>Postnatal newborn</td> </tr>
 </table>
 </td></tr>
 <tr><td><b>Structure </b></td>
@@ -451,7 +451,7 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
      These mapping conventions are also used by EBI's Expression Atlas.</td></tr>
 <tr><td><b>Biological Replicates (RNA-Seq)</b></td>
      <td>Column is visible when the Show Additional Sample Data toggle is on.<br>
-The number of biological replicates whose <abbr title="Transcripts Per Million">TPM</abbr> were averaged to generate the TPM used in TPM</td></tr>
+The number of biological replicates whose <abbr title="Transcripts Per Million">TPM</abbr> were averaged to generate the TPM</td></tr>
 <tr><td><b>Images</b></td>
      <td>Name of the specimen or pane with associated images, linked to the appropriate section of the assay detail. Note: Images are shown only when we have permission from the publishers. There are no images for RNA-Seq results.</td></tr>
 <tr><td><span style="white-space: nowrap"><b>Mutant Allele(s)</b></span></td>
@@ -483,7 +483,7 @@ Provides additional information about RNA-Seq samples, if needed.</td></tr>
  <tr><td><b>Assay Type</b></td>
      <td>Name of the assay type(s) used (e.g., Immunohistochemistry, Northern blot, RNA in situ, and so on).</td></tr>
      <tr><td><b>Specimen Type</b></td>
-     <td>Describes whether the sample is a whole mount, section, section from a whole mount, or optical section..</td></tr>
+     <td>Describes whether the sample is a whole mount, section, section from a whole mount, or optical section.</td></tr>
  <tr><td><b>Result Details</b></td>
      <td>Links to image and expression assay result details.</td></tr>
 </table>
@@ -549,10 +549,9 @@ Note:
 <p>Gene Filters (right column)</p>
 <table>
 <tr><th>Gene Type</th><td>Type of marker, e.g. protein-coding, non-coding RNA gene</td></tr>
-<tr><th>Gene Type</th><td>Type of marker, eg protein-coding, non-coding RNA gene</td></tr>
 <tr><th>Molecular Function</th><td>High-level GO terms describing the molecular processes the gene product is involved with</td></tr>
 <tr><th>Biological Process</th><td>High-level GO terms describing the biological processes the gene product is involved with</td></tr>
-<tr><th><span style="white-space: nowrap">Cellular Component</span></th><td>Type of marker, eg protein-coding, non-coding RNA gene</td></tr>
+<tr><th><span style="white-space: nowrap">Cellular Component</span></th><td>High-level GO terms describing the cellular location of the gene product</td></tr>
 <tr><th>Phenotype</th><td>High-level Mammalian Phenotype (MP) terms describing the phenotype of mice carrying mutant alleles of the gene</td></tr>
 <tr><th>Disease</th><td>High-level Disease Ontology (DO) terms describing the diseases mice carrying mutant alleles of the gene manifest</td></tr>
 </table>
@@ -561,7 +560,7 @@ Check the rows or columns you wish to retain and then click the Filter (<img ima
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="excelfile_gxdqf"></a>Can I get my results as tab-delimited text or spreadsheet files?</h3>
+<h3><a id="excelfile_gxdqf"></a>Can I get my results as a tab-delimited text file?</h3>
 <p>Yes. The <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a> tabs provide export options. Click on the Text File icon. Your web browser will download a file of the results.  The Assay Results file will include all columns, regardless of whether or not the "Show Additional Sample Data" toggle is chosen.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>

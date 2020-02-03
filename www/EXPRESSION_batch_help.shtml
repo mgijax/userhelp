@@ -51,7 +51,7 @@ function openHelpWindow(helpFile){
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
  <li><a href="#gxdfilter">How do I filter my results?</a></li>
  <LI><a href="EXPRESSION_help.shtml#summary" target="_blank">How do I interpret the query results summary and detail pages?</a></LI>
- <li><a href="#excelfile_gxdqf">Can I get my results as tab-delimited text or spreadsheet files?</a></li>
+ <li><a href="#excelfile_gxdqf">Can I get my results as a tab-delimited text file?</a></li>
  <li><a href="#batch">Can I send the results of my search to the MGI Batch Query or MouseMine?</a></li>
  <li><a href="#heatmap">Can I create a heat map for my RNA-Seq results?</a></li>
  <li><a href="#example">Are there examples of query results?</a></li>
@@ -187,7 +187,7 @@ There is a 5000 gene limit for this query. </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="excelfile_gxdqf"></a>Can I get my results as tab-delimited text or spreadsheet files?</h3>
+<h3><a id="excelfile_gxdqf"></a>Can I get my results as a tab-delimited text file?</h3>
 <p>Yes. The <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a> tabs provide export options.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
