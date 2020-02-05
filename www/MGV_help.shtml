@@ -234,7 +234,7 @@ Note that for mouse, currently only the C57BL/6J annotation is "reference qualit
   <tr><th>Include Paralogs</th><td>Same as clicking the P icon at the top of the Zoom View. This controls whether paralogs are (<span style="font-weight: bold; color: orange;">P</span>) or are not included in region calculations, connector drawing, etc. 
   <p>Note: MGV infers paralogy relationships based on the Alliance data. These paralogs can be included or excluded when doing things like searching, aligning on a gene, gathering sequences, etc.
 </p>
- <p>Inferred Paralogs: The Alliance data does not contain direct assertions of paralogy. MGV uses shared orthology to infer paralogy. For example, mouse <i>Mx1</i> is an asserted ortholog of both human <i>MX1</i> and <i>MX2</i>. Therefore, <i>MX1</i> and <i>MX2</i> are inferred paralogs of each other.  
+ <p>Inferred Paralogs: The Alliance data do not contain direct assertions of paralogy. MGV uses shared orthology to infer paralogy. For example, mouse <i>Mx1</i> is an asserted ortholog of both human <i>MX1</i> and <i>MX2</i>. Therefore, <i>MX1</i> and <i>MX2</i> are inferred paralogs of each other.  
 </p></td></tr>
   <tr><th>Highlight Inversions</th><td>If on, connectors between features on opposite strands ('inversions') in red and with a twist. </td></tr>
   <tr><th>Contrast</th><td>Fades non-selected features to make the selected feature stand out. </td></tr>
