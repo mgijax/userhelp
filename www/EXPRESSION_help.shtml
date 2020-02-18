@@ -567,8 +567,13 @@ Check the rows or columns you wish to retain and then click the Filter (<img ima
 
 <h3><a id="heatmap"></a>Can I create a heat map for my RNA-Seq results?</h3>
 
-<p>Yes. Click on the RNA Seq &#9658; Heat Map button above the table of results in the Assay results tab. A browser window will open, displaying your selected data in Morpheus, a heat map visualization and analysis tool created at the Broad Institute. 
-All the processing of the data you do will be done on your computer, not on MGI's (or the Broad's) servers. Heat map images and files can be saved using Morpheus.</p>
+<p>Yes. Click on the RNA Seq &#9658; Heat Map button above the table of results in the Assay results tab. A browser window will open, displaying your selected data in Morpheus, a heat map visualization and analysis tool created at the Broad Institute. A summary of the data  exported to Morpheus is at the top of the page. Each column of the heat map is a bioreplicate set; the GXD metadata annotations for the set are included in the column display. 
+Each row in the heat map is a gene; the display includes its symbol and its MGI and Ensembl IDs.</p>
+<p>Note: for any experiment, the number of samples displayed in GXD (and the heat map) may be fewer than the number in the Expression Atlas, the data source. The reasons for this are two fold:</p>
+<ol>
+<li>In GXD we present the biological replicate sets from each experiment; these are derived by grouping samples that have the same source information (anatomical structure, developmental stage, mutated gene, strain and sex).</li> 
+<li>Experiments may contain some samples that are inconsistent with GXD's scope; data from these samples is not included in GXD.</li>
+</ol>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
