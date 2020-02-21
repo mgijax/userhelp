@@ -50,6 +50,7 @@ function openHelpWindow(helpFile){
  <li><a href="#sections">How do I use the different sections of the Viewer?</a></li>
  <li><a href="#zoom">How do I navigate the Zoom View?</a></li>
  <li><a href="#shortcuts">Are there keyboard shortcuts for commands?</a></li>
+ <li><a href="#align">How do I align on a feature?</a></li>
  <li><a href="#sequences">How can I get FASTA sequences for features of interest?</a></li>
  <li><a href="#batch">How can I get additional phenotype, GO and expression data for a feature of interest?</a></li>
  <!--<li><a href="#snps">How can I find SNPs for a region of interest?</a></li>
