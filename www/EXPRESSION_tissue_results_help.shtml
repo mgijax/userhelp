@@ -38,7 +38,7 @@ Interpreting the Gene Expression Data: Results by Tissue Summary</span>
 <h3>How do I interpret this report?</h3>
 
 <ul>
- <li>Tissues analyzed by RNA-Seq data are not yet included in this summary.</li>
+ <li>Tissues analyzed by RNA-Seq data are not yet included in the counts in this summary.</li>
  <li>If there are expression data about a marker in the Gene Expression Database derived from other assay types, the word <i>Tissues</i>, followed by a number, appears in the Expression section of the Gene Detail page.  Clicking that number presents a table of all anatomical structures in the database examined when analyzing the gene expression pattern. The symbol and name of the gene whose expression was analyzed as well as its <abbr title="Mouse Genome Informatics">MGI</abbr> accession ID appears at the top of the table.</li>
  <!--<li>If there are expression data from a reference in the Gene Expression Database, the word <i>Tissues</i>, preceded by a number, appears in the Additional Information section of References Query Results - Details. Clicking <i>Tissues</i> presents a table of all anatomical structures examined when analyzing gene expression in this reference.  The J: number link  to the reference followed by the full list citation appears at the top of the table. </li>-->
  <li>You can export your results in text or spreadsheet formats.</li>
