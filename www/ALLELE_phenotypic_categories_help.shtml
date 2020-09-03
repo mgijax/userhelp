@@ -152,25 +152,25 @@ function openHelpWindow(helpFile){
  <tr>
   <th><a id="collection"></a><span style="white-space: nowrap">Project Collections</span></th>
   <th>Use this section to limit your search to alleles from specific large scale projects and repositories.</th></tr>
-  <tr><th><a href="http://pb.apf.edu.au/phenbank/homePage.html">APF ENU Mutagenesis</a></th><td>A repository of genetically modified mouse strains held in Australia either as live or cryopreserved stock.</td></tr>
-  <tr><th><a href="http://www.benchtobassinet.com/CvDCcenters.asp">B2B/CvDC</a></th><td>The National Heart, Lung, and Blood Institute (NHLBI) Bench to Bassinet (B2B) Program of translational research in pediatric cardiovascular disease</td></tr>
-  <tr><th><a href="https://mutagenetix.utsouthwestern.edu">Beutler Mutagenix</a></th><td>Resource of phenotypes and mutations produced through random germline mutagenesis with ENU</td></tr>
-  <tr><th><a href="http://www.deltagen.com">Deltagen</a></th><td>Deltagen targeted knock-outs</td></tr>
-  <tr><th><a href="http://www.mousephenotype.org/martsearch_ikmc_project/about/eucomm">EUCOMM</a></th><td>The European Conditional Mouse Mutagenesis Program contributes conditionally trapped and targeted genes in mouse C57BL/6N embryonic stem (ES) cells to the International Knockout Mouse Consortium (IKMC).</td></tr>
-  <tr><th><a href="http://www.mousephenotype.org/about-ikmc/eucommtools">EUCOMMTOOLS</a></th><td>EUCOMMTOOLS created new inducible Cre knock-in ES cell lines into genes with useful expression patterns. Mouse lines are generated from many of these cells and the Cre expression patterns are documented at day P14 and P56.</td></tr>
-  <tr><th><a href="http://www.gensat.org/index.html">GENSAT</a></th><td>Gene Expression Nervous System Atlas of the developing and adult central nervous system of the mouse reporter and recombinase lines</td></tr>
-  <tr><th><a href="http://www.har.mrc.ac.uk/research/functional-genomics-section/disease-model-discovery-and-translation/mutagenesis">Harwell ENU Mutagenesis</a></th><td>Stocks with random ENU-induced mutations</td></tr>
-  <tr><th><a href="https://www.mousephenotype.org">IMPC</a></th><td>The International Mouse Phenotyping Consortium will produce and phenotype knockout mouse lines for 20,000 genes</td></tr>
-  <tr><th><a href="https://www.komp.org">KOMP-CSD</a></th><td>CSD: CHORI (Children's Hospital Oakland Research Institute), the Wellcome Trust Sanger Institute, and the University of California at Davis. Knockout-first alleles created in C57BL/6N embryonic stem cells.</td></tr>
-  <tr><th><a href="https://www.mousephenotype.org/martsearch_ikmc_project/aboutkompstrategies">KOMP-Regeneron</a></th><td>Null alleles from the VelociGene group at Regeneron, Inc.</td></tr>
-  <tr><th><a href="http://www.lexgen.com/research/drug-discovery/gene-knockouts.html">Lexicon</a></th><td>Targeted gene knock-outs and gene trapped alleles</td></tr>
+  <tr><th><a href="http://pb.apf.edu.au/phenbank/homePage.html" target="_blank">APF ENU Mutagenesis</a></th><td>A repository of genetically modified mouse strains held in Australia either as live or cryopreserved stock.</td></tr>
+  <tr><th><a href="https://benchtobassinet.com/?page_id=1644" target="_blank">B2B/CvDC</a></th><td>The National Heart, Lung, and Blood Institute (NHLBI) Bench to Bassinet (B2B) Program of translational research in pediatric cardiovascular disease</td></tr>
+  <tr><th><a href="https://mutagenetix.utsouthwestern.edu" target="_blank">Beutler Mutagenix</a></th><td>Resource of phenotypes and mutations produced through random germline mutagenesis with ENU</td></tr>
+  <tr><th>Deltagen</th><td>Deltagen targeted knock-outs</td></tr>
+  <tr><th><a href="http://www.mousephenotype.org/martsearch_ikmc_project/about/eucomm" target="_blank">EUCOMM</a></th><td>The European Conditional Mouse Mutagenesis Program contributes conditionally trapped and targeted genes in mouse C57BL/6N embryonic stem (ES) cells to the International Knockout Mouse Consortium (IKMC).</td></tr>
+  <tr><th><a href="http://www.mousephenotype.org/about-ikmc/eucommtools" target="_blank">EUCOMMTOOLS</a></th><td>EUCOMMTOOLS created new inducible Cre knock-in ES cell lines into genes with useful expression patterns. Mouse lines are generated from many of these cells and the Cre expression patterns are documented at day P14 and P56.</td></tr>
+  <tr><th><a href="http://www.gensat.org/index.html" target="_blank">GENSAT</a></th><td>Gene Expression Nervous System Atlas of the developing and adult central nervous system of the mouse reporter and recombinase lines</td></tr>
+  <tr><th>Harwell ENU Mutagenesis</th><td>Stocks with random ENU-induced mutations</td></tr>
+  <tr><th><a href="https://www.mousephenotype.org" target="_blank">IMPC</a></th><td>The International Mouse Phenotyping Consortium will produce and phenotype knockout mouse lines for 20,000 genes</td></tr>
+  <tr><th><a href="https://www.komp.org" target="_blank">KOMP-CSD</a></th><td>CSD: CHORI (Children's Hospital Oakland Research Institute), the Wellcome Trust Sanger Institute, and the University of California at Davis. Knockout-first alleles created in C57BL/6N embryonic stem cells.</td></tr>
+  <tr><th><a href="https://www.mousephenotype.org/about-impc/about-komp/" target="_blank">KOMP-Regeneron</a></th><td>Null alleles from the VelociGene group at Regeneron, Inc.</td></tr>
+  <tr><th><a href="http://www.lexpharma.com" target="_blank">Lexicon</a></th><td>Targeted gene knock-outs and gene trapped alleles</td></tr>
   <tr><th>Mutagenesis for Dev. Defects</th><td>Facility for Mouse Mutagenesis for Developmental Defects at Baylor College of Medicine</td></tr>
-  <tr><th><a href="http://www.credrivermice.org">Neuroscience Blueprint cre</a></th><td>C57BL6/J mouse strains for the tissue and cell-type-specific perturbation of gene function in the nervous system</td></tr>
-  <tr><th><a href="http://www.norcomm.org/index.htm">NorCOMM</a></th><td>The North American Conditional Mouse Mutagenesis project develops and distributes a library of mouse embryonic stem (ES) cell lines carrying single gene trapped or targeted mutations.</td></tr>
-  <tr><th><a href="http://www.pleiades.org/">Pleiades Promoter Project</a></th><td>Human MiniPromoters that drive region- and cell-specific gene expression in the mouse brain</td></tr>
-  <tr><th><a href="https://www.brc.riken.jp/lab/gsc/mouse/">RIKEN GSC ENU Project</a></th><td>ENU induced mouse mutants</td></tr>
-  <tr><th><a href="http://www.sanger.ac.uk/resources/mouse/sigtr/">Sanger Inst. Gene Trap Res.</a></th><td>The Sanger Institute Gene Trap Resource (SIGTR) characterized reporter-tagged, loss of function gene trapped mouse embryonic stem (ES) cell lines.</td></tr>
-  <tr><th><a href="http://www.sanger.ac.uk/about/press/2011/110808.html">Sanger miRNA knockouts</a></th><td>microRNA reporter knockouts in ES cell lines created using recombinase mediated cassette exchange (RMCE)</td></tr>
+  <tr><th><a href="http://www.credrivermice.org" target="_blank">Neuroscience Blueprint cre</a></th><td>C57BL6/J mouse strains for the tissue and cell-type-specific perturbation of gene function in the nervous system</td></tr>
+  <tr><th><a href="https://www.genomeprairie.ca/project/previous/norcomm/" target="_blank">NorCOMM</a></th><td>The North American Conditional Mouse Mutagenesis project develops and distributes a library of mouse embryonic stem (ES) cell lines carrying single gene trapped or targeted mutations.</td></tr>
+  <tr><th><a href="https://www.addgene.org/depositor-collections/pleiades/" target="_blank">Pleiades Promoter Project</a></th><td>Human MiniPromoters that drive region- and cell-specific gene expression in the mouse brain</td></tr>
+  <tr><th><a href="https://www.brc.riken.jp/lab/gsc/mouse/" target="_blank">RIKEN GSC ENU Project</a></th><td>ENU induced mouse mutants</td></tr>
+  <tr><th><a href="https://www.sanger.ac.uk/collaboration/sanger-institute-gene-trap-resource/" target="_blank">Sanger Inst. Gene Trap Res.</a></th><td>The Sanger Institute Gene Trap Resource (SIGTR) characterized reporter-tagged, loss of function gene trapped mouse embryonic stem (ES) cell lines.</td></tr>
+  <tr><th><a href="https://www.sanger.ac.uk/news_item/2011-08-08-new-resource-to-unlock-the-role-of-micrornas/" target="_blank">Sanger miRNA knockouts</a></th><td>microRNA reporter knockouts in ES cell lines created using recombinase mediated cassette exchange (RMCE)</td></tr>
 </table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
