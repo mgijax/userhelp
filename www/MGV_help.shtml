@@ -95,7 +95,7 @@ Note that for mouse, currently only the C57BL/6J annotation is "reference qualit
 
 <h3><a id="sections"></a>How do I use the different sections of the Viewer?</h3>
 
-<p>In the page banner, click on the gear icon to open or close the left hand panel, or type "t" (for "tools"). The MGI logo links to the MGI Home Page and the <span style="font-weight: bold; font-size: 1.2em; color: #352C96;">&#8505;</span> icon links to a pop-up help document.</p>
+<p>In the page banner, click on the gear icon to open or close the left hand panel, or type "t" (for "tools"). The MGI logo links to the MGI Home Page and the <span style="font-weight: bold; font-size: 1.2em; color: #352C96;">&#8505;</span> icon links to a pop-up help document. You can also mouse-over any icon in the the Viewer to get information about its functions. </p>
 
 <p>The page is divided into boxes.</p>
 <ul>
@@ -155,7 +155,7 @@ Note that for mouse, currently only the C57BL/6J annotation is "reference qualit
    <ul>
     <li>DO/CC founders will select the 8 collaborative cross founder strains</li>
     <li>B6 vs non-musculus will select SPRET/EiJ, CAROLI/EiJ, PAHARI/EiJ and C57BL/6J. The latter will also be set as the reference genome.</li>
-    <li>Mouse, human and rat will select the 3 reference genomes: C57Bl/6J, <i>H. sapiens</i>, and <i>R. norvegicus</i>.</li>  
+    <li>Mouse, human and rat will select the 3 reference genomes: C57BL/6J, <i>H. sapiens</i>, and <i>R. norvegicus</i>.</li>  
    </ul>
   </td></tr>
 <tr><th><a id="findgenes"></a>Lists and Searches</th>
@@ -279,7 +279,7 @@ Note that for mouse, currently only the C57BL/6J annotation is "reference qualit
   <tr><th>Region Controls</th><td>To access controls for an individual region within a genome, right-click on its background (not on a feature). Changes made here affect only that region (and switch to lock_open mode).</td></tr>
   <tr><th>Splitting a Region</th><td>You can create a new region for a genome by splitting an existing one. To split a region, alt-click on its background (not on a feature). Alternatively, click the "compare" button in the region's popup controls.</td></tr>
   <tr><th>Joining Regions</th><td>You can join two neighboring regions by alt-clicking on the divider bar between them. Both regions must be from the same chromosome.</td></tr>
-  <tr><th>Reverse Orientation</th><td>By default, the forward strand direction is drawn left-to-right. When comparing regions with inversions, it can be convenient to draw some left-to-right and some right-to-left, so that homologs line up vertically. To reverse the orientation of a region, open it controls and click on the "F-R" toggle. To reverse the orientation of all the regions in a strip, click the &gt; in the left endcap. The icon turns into &lt;. Click again to revert to normal. Regions in reverse orientation are outlined in red.</td></tr>
+  <tr><th>Reverse Orientation</th><td>By default, the forward strand direction is drawn left-to-right. When comparing regions with inversions, it can be convenient to draw some left-to-right and some right-to-left, so that homologs line up vertically. To reverse the orientation of a region, open its controls and click on the "F-R" toggle. To reverse the orientation of all the regions in a strip, click the &gt; in the left endcap. The icon turns into &lt;. Click again to revert to normal. Regions in reverse orientation are outlined in red.</td></tr>
   <tr><th>Moving and Resizing Regions</th><td>Multiple regions for a genome are displayed side-by-side in a strip. Regions can be reordered by dragging; grab the handle (::) at the top left corner of a region to move it left or right. Genome regions can be resized by dragging the gray divider bar between neighboring regions.</td></tr>
 </table>
 <p>MGV has three modes which determine how the displayed regions are calculated and how actions synchronize (or not). Transitions between modes are designed to be fluid and natural.</p>
@@ -299,6 +299,7 @@ Note that for mouse, currently only the C57BL/6J annotation is "reference qualit
  <tr><th>n &nbsp;</th><td>Show/don't show all gene names (when view size is below threshold). Same as clicking "Show all labels" under <a href="settings">Settings</a>.</td></tr>
  <tr><th>P &nbsp;</th><td>Include/exclude paralogs. Same as clicking the P icon.</td></tr>
  <tr><th>r &nbsp;</th><td>Turn reference genome on/off. The top genome in the view is made the reference. Same as clicking the R in the genome's left end cap. NOTE: when reference genome is selected, the lock is turned off.</td></tr>
+ <tr><th>s &nbsp;</th><td>Creates a new list from the currently selected features. Holding down the shift key includes homologs.</td></tr>
  <tr><th>t &nbsp;</th><td>Open/close the left-side tool panel. Same as clicking the gear icon in the page header.</td></tr>
  <tr><th>x &nbsp;</th><td>Collapse/expand transcript display. Same as clicking 'Spread transcripts' under <a href="settings">Settings</a>.</td></tr>
 </table>
