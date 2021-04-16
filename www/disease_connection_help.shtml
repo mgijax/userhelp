@@ -310,7 +310,7 @@ VCF files are processed in the following manner:
 	<tr><td><b>Organism</b></td>
     <td>States whether the corresponding marker is human or mouse</td></tr> 
  	<tr><td><b>Gene Symbol</b></td>
-    <td>Symbol of the gene. Mouse genes are linked to their MGI gene detail records. Human genes are linked to their Vertebrate Homology Class pages. Vertebrate Homology Class pages provide links to Entrez Gene and the ability to download sequences in FASTA format for several vertebrate species.</td></tr>
+    <td>Symbol of the gene. Mouse genes are linked to their MGI gene detail records. Human genes are linked to their gene pages at the Alliance of Genome Resources.</td></tr>
  	<tr><td><b>Genetic Location </b></td>
     <td>The chromosome and genetic map position for the marker are shown if known.</td></tr>
     <tr><td><b>Genome Coordinates </b></td>
