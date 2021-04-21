@@ -171,12 +171,12 @@ table { border-style: none; align: center
 		<tr><th>Synonyms</th>
 			<td>Names or symbols for a given human marker that may appear in the literature but which are not approved names or symbols</td></tr>
 		<tr><th>Links</th>
-			<td>Links to human gene information at HGNC (Hugo Gene Nomenclature Committee), NCBI and to human protein data at <a href="http://www.nextprot.org/db/" target="_blank">neXtProt</a></td></tr>
+			<td>Links to human gene information at HGNC (Hugo Gene Nomenclature Committee), NCBI and to human protein data at <a href="http://www.nextprot.org/db/" target="_blank">neXtProt</a> and UniProt.</td></tr>
 		<tr><th>Chr Location</th>
 			<td>Human chromosome, cytogenetic band position, genome coordinate range in base pairs, strand and build number from NCBI.</td></tr>
-		<tr><th>HomoloGene</th>
+		<tr><th>Alliance of Genome Resources</th>
 			<td><ul>
-				<li>The HomoloGene ID for this genomic feature and a link to the MGI Vertebrate Homology Class page of homology relationships</li>
+				<li>A link to the MGI Vertebrate Homology Class page of homology relationships</li>
 				<li>A list of species with curated homology relationships and the number of related markers for each species</li>
 				</ul></td></tr>
 		<tr><th>HCOP</th>

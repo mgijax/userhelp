@@ -41,15 +41,15 @@ function openHelpWindow(helpFile){
 </p>
 
 <ul>
- <li><a href="#contain">What's in the Vertebrate Homology Class Report?</a></li>
+ <li><a href="#contain">What's in the Vertebrate Homology Report?</a></li>
  <li><a href="#source">What is the source of the homology assertions?</a></li>
- <li><a href="#field">Which fields should show up in the Homology Class table?</a></li>
+ <li><a href="#field">Which fields should show up in the Homology table?</a></li>
  <li><A href="#acc_ID">How do I view resources for genes?</a></li>
  <li><A href="#sequence">How do I view resources for sequences?</a></li>
- <li><a href="#align">Can I view a multiple sequence alignment?</a></li>
+ <li><a href="#align">Can I compare regions around a feature?</a></li>
  <li><a href="#fasta">How do I download sequences in FASTA format?</a></li>
  <LI><a href="#mouseblast">How do I forward sequences to NCBI BLAST?</a></LI>
- <li><a href="#graph">Are there curated Gene Ontology (GO) annotations for mouse, human, or rat genes in this homology class?</a></li>
+<!--  <li><a href="#graph">Are there curated Gene Ontology (GO) annotations for mouse, human, or rat genes in this homology class?</a></li> -->
 </ul>
 
 <P>See also:</P>
@@ -57,43 +57,37 @@ function openHelpWindow(helpFile){
 <li><a href="<!--#include file='include/fewi_url.html'-->glossary" target="_blank">MGI Glossary</A> (for unfamiliar terms or acronyms)</li>
 </ul>
 
-<H3><a id="contain"></a>What's in the Vertebrate Homology Class Report?</H3>
-<p>The Vertebrate Homology Class Report contains:
+<H3><a id="contain"></a>What's in the Vertebrate Homology Report?</H3>
+<p>The Vertebrate Homology Report contains:
 </p>
 
 <ul>
- <li>the <a href="#source">source</a> of the homology assertions and its homology class ID, linked to HomoloGene.</li>
- <li>a <a href="#field">table</a> summarizing homology information for the class</LI>
- <li>the ability to select sequences from that table for downloading in FASTA format or forwarding to MouseBlast</LI>
+ <li>the <a href="#source">source</a> of the homology assertions</li>
+ <li>a <a href="#field">table</a> summarizing homology information for the feature</LI>
+ <li>the ability to select sequences from that table for downloading in FASTA format or forward to <abbr title="Basic Local Alignment Search Tool">BLAST</abbr> at NCBI</LI>
  <li>links via the database accession identifier to the sequence source</LI>
- <li>a link to the HomoloGene Multiple Sequence <a href="#align">Alignment</a> for the class</li>
- <li>a link to a Comparative GO <a href="#graph">Graph when GO annotations are present.</a></li>
+ <li>a link to the Multiple Genome Viewer that allows you to browse and compare regions around the feature for mouse, human, and rat.</li>
+ <!--<li>a link to a Comparative GO <a href="#graph">Graph when GO annotations are present.</a></li> -->
 </ul>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <H3><a id="source">What is the source of the homology assertions?</a></H3>
-<p>MGI loads sequence based vertebrate homology assertions from NCBI <a href="https://www.ncbi.nlm.nih.gov/homologene">HomoloGene</a>. HomoloGene programmatically detects homologs among the genome features of several completely sequenced eukaryotic genomes.
+<p>MGI loads orthology data based on the 'stringent' set from the <a href="https://www.alliancegenome.org" target="_blank">Alliance of Genome Resources</a>. The Alliance sets are based on a scoring system developed by the Alliance in collaboration with DIOPT.
 </p>
-<p>MGI includes homology for the following selected vertebrate species from HomoloGene:</p>
+<p>MGI includes homology for the following selected vertebrate species from the Alliance of Genome Resources:</p>
 <ul>
  <li>human</li>
  <li>mouse</li>
  <li>rat</li>
- <li>chimpanzee</li>
- <li>rhesus macaque</li>
- <li>cattle</li>
- <li>dog</li>
- <li>chicken</li>
- <li>western clawed frog</li>
  <li>zebrafish</li>
 </ul>
-<p>These are just a subset of the total species represented in HomoloGene Classes at NCBI.</p> 
+<p>These are a subset of the total species represented in the Alliance. There may be stringent set orthologs in other Alliance species.</p> 
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="field"></a>Which fields should show up in the Homology Class table?</h3>
-<p>For each homolog in a class, the record shows some or all information in the following table, depending on the information available.
+<h3><a id="field"></a>Which fields should show up in the Homology table?</h3>
+<p>For each homolog in the set, the record shows some or all information in the following table, depending on the information available.
 </p>
 
 <table class="nb">
@@ -118,14 +112,14 @@ to and the cM position or cytogenetic band. Location information varies dependin
 <tr><th><a id="disease">Associated Human Diseases</a></th> 
 <td>Human Disease Ontology (DO) terms, linked to MGI Disease Ontology Browser. Diseases that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary. See also the <a href="<!--#include file='include/fewi_url.html'-->vocab/do" target="_blank">Disease Ontology Browser</a>. </td>
 <tr><th><a id="sequence">Sequences</a></th>
-<td>Representative transcript and protein sequence ID, linked to the provider's web site. Check boxes permit <A HREF="#fasta">downloading</a> selected sequences in FASTA format or <A HREF="#mouseblast">forwarding</a> them to MouseBLAST. </td>
+<td>Representative transcript and protein sequence ID, linked to the provider's web site. Check boxes permit <A HREF="#fasta">downloading</a> selected sequences in FASTA format or forward to <abbr title="Basic Local Alignment Search Tool">BLAST</abbr> at NCBI. </td>
 </TR>
 </table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><a id="align">Can I view a multiple sequence alignment?</a></H3>
-<p>Yes. Just above the table is a link to a Multiple Sequence Alignment of protein sequences at HomoloGene. 
+<H3><a id="align">Can I compare regions around a feature?</a></H3>
+<p>Yes. Just above the table is a link to a Multiple Genome Viewer that allows you to browse and compare regions around the feature.  By default the Viewer launches with genomes shown for mouse, human, and rat, but you can add other species and mouse strains.  
 </p>
 
 <H3><a id="fasta"></A>How do I download sequences in FASTA format?</H3>
@@ -145,11 +139,11 @@ to and the cM position or cytogenetic band. Location information varies dependin
 <LI>Click <i>Go</i>.</LI>
 </OL>
 
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+<!-- <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <H3><a id="graph">Are there curated Gene Ontology (GO) annotations for mouse, human, or rat genes in this homology class?</a></H3>
 <p>If available, there will be a link to a Comparative GO Graph of curated mouse, human and rat annotations of the molecular functions, biological processes and cellular components of the gene products in this homology class. 
-</p>
+</p> -->
 
 <!--below is the final top link-->
 
