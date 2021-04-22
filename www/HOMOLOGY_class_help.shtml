@@ -49,7 +49,7 @@ function openHelpWindow(helpFile){
  <li><a href="#align">Can I compare regions around a feature?</a></li>
  <li><a href="#fasta">How do I download sequences in FASTA format?</a></li>
  <LI><a href="#mouseblast">How do I forward sequences to NCBI BLAST?</a></LI>
-<!--  <li><a href="#graph">Are there curated Gene Ontology (GO) annotations for mouse, human, or rat genes in this homology class?</a></li> -->
+<!--  <li><a href="#graph">Are there curated Gene Ontology (GO) annotations for mouse, human, or rat genes in this homology set?</a></li> -->
 </ul>
 
 <P>See also:</P>
@@ -141,8 +141,8 @@ to and the cM position or cytogenetic band. Location information varies dependin
 
 <!-- <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<H3><a id="graph">Are there curated Gene Ontology (GO) annotations for mouse, human, or rat genes in this homology class?</a></H3>
-<p>If available, there will be a link to a Comparative GO Graph of curated mouse, human and rat annotations of the molecular functions, biological processes and cellular components of the gene products in this homology class. 
+<H3><a id="graph">Are there curated Gene Ontology (GO) annotations for mouse, human, or rat genes in this homology set?</a></H3>
+<p>If available, there will be a link to a Comparative GO Graph of curated mouse, human and rat annotations of the molecular functions, biological processes and cellular components of the gene products in this homology set. 
 </p> -->
 
 <!--below is the final top link-->

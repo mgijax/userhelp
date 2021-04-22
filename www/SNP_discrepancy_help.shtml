@@ -46,24 +46,24 @@ function openHelpWindow(helpFile){
 </UL>
 
 <h3><a id="discrepancy"></a>What is the discrepancy?</h3>
-<p>The discrepancy occurs when genome coordinates for mouse genes and markers in MGI are derived from the current NCBI mouse genome build but the coordinates for mouse SNPs are derived from an earlier NCBI mouse genome build (as, for example, when MGI genome coordinates are derived from NCBI build 34 but the dbSNP data refer to NCBI build 33).
+<p>The discrepancy occurs when genome coordinates for mouse genes and markers in MGI are derived from the current mouse reference genome build but the coordinates for mouse SNPs are derived from an earlier build (as, for example, when MGI genome coordinates are derived from the most recent Genome Reference Consortium reference assembly (GRCm39) but the SNP coordinates are from GRCm38).
 </p>
 
 <h3><a id="why"></a>Why does this discrepancy exist?</h3>
-<p>SNP data in MGI are obtained from dbSNP. The discrepancy in genome coordinates between SNPs and MGI genes exists when the SNP data for the current NCBI genome build are not yet available or have not yet been loaded.</p>
+<p>The discrepancy in genome coordinates between SNPs and MGI genes exists when the SNP data for the current reference genome assembly are not yet available or have not yet been updated in the public variation archives.</p>
 
 <h3><a id="how"></a>How does this discrepancy affect searches on the Mouse SNP Query Form?</h3>
 
 <table>
-<tr><th>Query Form Section</th><th>Field</th><th>Discrepancy</th></tr>
+<tr><th><span style="white-space: nowrap">Query Form Section</span></th><th>Field</th><th>Discrepancy Impact</th></tr>
 
-<tr><td>Map position and marker range</td> <td>Genome coordinates</td><td>Coordinate values are interpreted from the same NCBI genome build as the SNP coordinate data.</td></tr>
+<tr><td>Marker range</td> <td>Genome coordinates</td><td>Marker Range function is disabled temporally, while a discrepancy exists in MGI between the genome build for mouse SNP coordinates and the genome build for mouse gene coordinates.</td></tr>
 
-<tr><td>Map position and marker range</td><td>Marker range</td><td>Due to genome coordinate discrepancies between SNPs and MGI markers, some marker range searches may produce unexpected results.  In general, genome coordinate discrepancies have a less severe effect on marker range searches when the distance between your flanking markers increases.</TD></TR>
+<tr><td>Marker range</td><td>Marker range</td><td>Marker Range function is disabled temporally, while a discrepancy exists in MGI between the genome build for mouse SNP coordinates and the genome build for mouse gene coordinates.</TD></TR>
 
 <tr><td>Associated genes</TD><td>SNPs Located Near Genes</td><td>This summary section is disabled until coordinate data for SNPs are derived from the same genome build as coordinate data for MGI genes.</td></tr>
 
-<tr><td>Associated genes</td><td>Gene Symbol/Name</td><td>Searches are not affected by the coordinate discrepancy for most genes because SNP associations to MGI genes are derived only from dbSNP annotations during the temporary period of coordinate discrepancy.  When genome coordinate synchronization is restored, SNP associations to MGI genes are derived also from overlap between SNP coordinates and MGI gene coordinate ranges.</td></tr></table>
+</table>
 
 <h3><a id="showup"></a>How does the discrepancy show up in my query results?</h3>
 <p>When the discrepancy exists, information appears at the top of your Mouse SNPs Query Results -- Summary report, indicating that the mouse SNP genome coordinates derive from a different mouse genome build than the MGI genome coordinates. <!--In the center is the statement that a report section (Associated genes) does not appear because of the discrepancy between the genome coordinates of SNPs and MGI genes. You have the option to click and view either
