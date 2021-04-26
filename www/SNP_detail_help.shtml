@@ -80,8 +80,8 @@ function openHelpWindow(helpFile){
 	      <td>The first dbSNP build to include this SNP</td></tr>
 	    <tr><th>Last Updated in dbSNP Build</th>
 	      <td>The most recent dbSNP build with an update for this SNP</td></tr>
-	    <tr><th>Additional Resources</th>
-	      <td>Names of and links to additional SNP information and genome browsers: Mouse Phenome Database (MPD), the MGI Mouse Genome Browser, Ensembl SNPView, UCSC Browser, and the NCBI Map Viewer.</td></tr>
+	   <!--  <tr><th>Additional Resources</th>
+	      <td>Names of and links to additional SNP information and genome browsers: Mouse Phenome Database (MPD), the MGI Mouse Genome Browser, Ensembl SNPView, UCSC Browser, and the NCBI Map Viewer.</td></tr> -->
 	     </table>
 <tr>
 <th><a id="genome_location"></a>Genome Location and Flanking Sequence</th>

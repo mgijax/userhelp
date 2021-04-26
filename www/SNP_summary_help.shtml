@@ -42,7 +42,7 @@ function openHelpWindow(helpFile){
 <P>This Help document answers the following questions about the Mouse SNP summary:</P>
 <UL>
 <LI><A HREF="#contain">What's in a Mouse SNP summary report?</A></LI>
-<li><a href="#date">How can I tell which database build I'm querying against?</a></li>
+<!--<li><a href="#date">How can I tell which database build I'm querying against?</a></li>-->
 <LI><A HREF="#not_contain">Will QTLs show up in a Mouse SNP summary?</A></LI>
 <LI><A HREF="#usage">How do I use a Mouse SNP summary?</A></LI>
 <LI><A HREF="SNP_legend_help.shtml" target="_blank">How do I Interpret the Results Table</A></LI>
@@ -77,7 +77,7 @@ function openHelpWindow(helpFile){
    </dl>
   </BLOCKQUOTE>
     <br>  
- <li>Above the summary is an option to change your parameters. Use <b>Click to modify search</b> to view to the Mouse dbSNP Query form with your previous search parameters.</li><br>  
+ <li>Above the summary is an option to change your parameters. Use <b>Click to modify search</b> to view to the Mouse SNP Query form with your previous search parameters.</li><br>  
  <LI>To the far right of the search summary is information about the amount of data found. For example:
   
 <BLOCKQUOTE>
@@ -101,17 +101,17 @@ function openHelpWindow(helpFile){
 <p>No. SNPs are not associated with markers of type <i>QTL</i>.
 </p>
 
- <h3><a id="date"></a>How can I tell which database build I'm querying against?</h3>
+<!--  <h3><a id="date"></a>How can I tell which database build I'm querying against?</h3>
 <p>In the column headings of the summary report:</p>
 <ul>
 <li>The dbSNP build number appears (in parentheses) at the top of the SNP ID column.</li>
 <li>The NCBI build number appears (in parentheses) at the top of the Map Position column.</li>
-</ul>
+</ul> -->
 
 <H3><A id="usage"></A>How do I use a Mouse SNP summary?</H3>
 <P>There are several ways to use the summary reports. You can:</P>
 <uL>
-<LI>Select and view details about individual SNPs at dbSNP (NCBI) or MPD (Mouse Phenome Database) or on the MGI SNP Detail page from the SNP ID column.</LI>
+<LI>Select and view details about individual SNPs on the MGI SNP Detail page from the SNP ID column.</LI>
 <li>Follow links to marker details from the Genes &amp; Category column.</li>
 <li>Rearrange columns. See <a href="#summary_sort">Can I change the strain order in the query results?</a></li>
 <li>Modify your search. See <a href="#revise">Can I edit my original options and requery?</a></li>
@@ -159,7 +159,7 @@ Click on a cell to refine your search to that sub-region. Once you click on a ce
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="snpfilter"></a>How do I filter my results?</h3>
-<p>You can filter results by dbSNP Function Class, and if you have selected a reference strain, Allele Agreement. Function Classes are assigned by dbSNP. Click <a href="SNP_legend_help.shtml#dbSNP_classes" target="_blank">here</a> for a description of the dbSNP Function Classes. Click the "Filter SNPs by: dbSNP Function Class" button above your results and check the classes you wish to retain after filtering. </p>
+<p>You can filter results by SNP Function Class, and if you have selected a reference strain, Allele Agreement. Function Classes are assigned by dbSNP. Click <a href="SNP_legend_help.shtml#dbSNP_classes" target="_blank">here</a> for a description of the dbSNP Function Classes. Click the "Filter SNPs by: Function Class" button above your results and check the classes you wish to retain after filtering. </p>
 <p>For Allele Agreement, you have two options: 
 <ul>
  <li>All reference strains agree and all comparison strains differ from reference, or</li>
@@ -175,7 +175,7 @@ Click on a cell to refine your search to that sub-region. Once you click on a ce
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="discrepancy"></a>How does genome coordinate discrepancy affect my results?</h3>
-<p>When there is genome coordinate discrepancy, the summary section with links to associated genes from any returned coordinate regions does not appear.<!--When the discrepancy exists, a message indicating that the Associated Genes section is   temporarily disabled appears in the query summary report and you cannot click either the MGI Mouse Genome Browser or the MGI genes/markers links to view any returned coordinate ranges.--> This is because genome coordinates for mouse genes and markers in MGI are derived from the current NCBI mouse genome build but the coordinates for mouse SNPs are derived from an earlier NCBI mouse genome build (as, for example, when MGI genome coordinates are derived from NCBI build 34 but the dbSNP data references NCBI build 33).  See <A href="SNP_discrepancy_help.shtml" target="_blank">Understanding Mouse SNP Coordinate Discrepancies</a> for further information.
+<p>When there is genome coordinate discrepancy, the summary section with links to associated genes from any returned coordinate regions does not appear. When the discrepancy exists, a message indicating that the Associated Genes section is temporarily disabled appears in the query summary report and you cannot click either the MGI Mouse Genome Browser or the MGI genes/markers links to view any returned coordinate ranges. This is because genome coordinates for mouse genes and markers in MGI are derived from the current NCBI mouse genome build but the coordinates for mouse SNPs are derived from an earlier NCBI mouse genome build (as, for example, when MGI genome coordinates are derived from NCBI build 39 but the dbSNP data references NCBI build 38).  See <A href="SNP_discrepancy_help.shtml" target="_blank">Understanding Mouse SNP Coordinate Discrepancies</a> for further information.
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>

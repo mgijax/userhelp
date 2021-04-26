@@ -83,7 +83,7 @@ function openHelpWindow(helpFile){
 <h4><a id="notes"></a>Notes on Function Classes</h4>
 <ul>
   <li><a id="no_class"></a>A class does not appear on  MGI queries unless it is annotated to mouse SNPs. One exception, <b>Contig-Reference</b>, does not appear on the Mouse SNP Query Form but does appear on Mouse SNP Detail reports.</li>
-  <li><a id="model_discrepancy"></a>The coordinates for an MGI gene are obtained from either Ensembl, NCBI, or VEGA gene model annotations of the genome assembly. Occasionally the gene model used for MGI gene coordinates differs from the gene model used by dbSNP to annotate SNP Function Classes. This can give rise to Function Class annotation discrepancies between dbSNP and MGI. For example, a SNP may be annotated to a gene as <b>Locus-Region</b> by dbSNP which implies that it is located outside of the transcribed region for the gene, yet that SNP may fall within the coordinate range (<b>within coordinates</b>) of the gene in MGI.</li>
+  <li><a id="model_discrepancy"></a>The coordinates for an MGI gene are obtained from either Ensembl, or NCBI gene model annotations of the genome assembly. Occasionally the gene model used for MGI gene coordinates differs from the gene model used by dbSNP to annotate SNP Function Classes. This can give rise to Function Class annotation discrepancies between dbSNP and MGI. For example, a SNP may be annotated to a gene as <b>Locus-Region</b> by dbSNP which implies that it is located outside of the transcribed region for the gene, yet that SNP may fall within the coordinate range (<b>within coordinates</b>) of the gene in MGI.</li>
 </ul>
 
 <h4><a id="dbSNP_classes"></a>dbSNP Function Classes</h4>
