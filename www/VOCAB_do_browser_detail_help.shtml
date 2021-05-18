@@ -75,7 +75,7 @@ Interpreting Human Disease and Mouse Model Details</span>
    	 </ul>
 	<p>Links to additional information on genes, genotypes and phenotypes:</p>
  	<ul>
-   		<li>The <b>Human Homologs</b> link to the either the HomoloGene Vertebrate Homology report where you can view homology and mapping information for several species and follow additional links (in the Gene Links column of that page) to databases such as OMIM, Entrez Gene and HGNC, or it links to the HGNC Mouse/Human Homology report. The later report appears when the Homology Source (the last column) is from HGNC/HCOP only. </li>
+   		<li>The <b>Human Homologs</b> link to the Alliance of Genome resources page for the human gene. </li>
    		<LI>The <b>Mouse Homologs</b> link to the MGI Gene Detail reports for each gene listed. There you can find data about everything known about the gene in the MGI database: synonyms, genetic and sequence maps (including the MGI Mouse Genome Browser), vertebrate homology, representative sequences, phenotypes, gene ontology classifications, expression, protein domains, references, as well as links to related databases.</LI>
   		<li>The <b>Mouse Models</b> column shows the number of mouse models possessing an allele of that row's gene. This links to a pop-up window with genotype information (strain background and alleles) and links to references and phenotype data.</li>
   		<!--<LI><I>None identified</I> appears in the Human Homologs column when no human genes are annotated with this disease; however, the Mouse Homologs link (to the MGI Gene Detail report) is active.</li> 
