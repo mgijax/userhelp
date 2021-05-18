@@ -285,7 +285,7 @@ VCF files are processed in the following manner:
 <blockquote> 
 <table>
 	<tr><td><b>Human Gene </b></td>
-    <td>Symbol of the gene, linked to homology information.</td></tr> 
+    <td>Symbol of the gene, linked to the Alliance of Genome Resources human gene page.</td></tr> 
     <tr><td><b>Mouse Gene </b></td>
     <td>Symbol of the gene, linked to its MGI gene detail record.</td></tr> 
     <tr><td><b>Phenotypes And Diseases </b></td>
