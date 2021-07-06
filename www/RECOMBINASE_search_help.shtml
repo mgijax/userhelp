@@ -75,12 +75,12 @@ function openHelpWindow(helpFile){
 <table>
 <TR> <TH>Field</TH> <TH>Description</TH> </TR>
 <tr><th><a id="Ranatomical_structure"></a><b>Anatomical Structure</b></th>
-<td>The anatomical structures are taken from the <a href="http://scrumdogdev.informatics.jax.org/vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. Begin typing a term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. Structures that are greyed out are not currently associated with recombinase activity data.
+<td>The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. Begin typing a term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. Structures that are greyed out are not currently associated with recombinase activity data.
 
 <p>The Anatomical Dictionary is organized as a hierarchy of structures. The search includes substructures. This means that if you search for activity in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon. </p>
 
 <p>If you are unsure of the most appropriate structural term to use, browse the
-<a href="http://scrumdogdev.informatics.jax.org/vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>.</p>
+<a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>.</p>
 
 <p>The default search for this field is to find tissues where recombinase activity was assayed. To search for tissues where activity was detected, toggle "detected" to "assayed."</p>
 
