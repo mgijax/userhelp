@@ -52,11 +52,12 @@ function openHelpWindow(helpFile){
  You can:
 <ul>
   <li>Search for a genome feature by name, symbol, synonym, homolog, allele, or accession ID</li>
-<li>Search using keywords or a text phrase</li>
-  <li>View the <a href="#best_match">best matches</a>, separated into <a href="#genome_features">Genome Features</a>, <a href="#vocabulary">Vocabulary Terms</a>, and <a href="#other_by_ID">Other Results by ID</a> (e.g. sequences, orthologies, references)</li>
-  <li>Follow links to MGI data: genes, alleles, genome features, vocabulary, other objects</li>
+  <li>Search using keywords or a text phrase</li>
+  <li>Search with genome coordinates for mouse or human</li>
+  <li>View the <a href="#best_match">best matches</a>, separated into <a href="#genome_features">Genome Features</a>, <a href="#alleles">Alleles</a>, <a href="#vocabulary">Vocabulary Terms</a>, <a href="#strains">Strains and Stocks</a>, and <a href="#other_by_ID">Other Results by ID</a> (e.g. sequences, orthologies, references)</li>
+  <li>Follow links to MGI data: genes, alleles, strains, vocabulary terms, other objects</li>
+  <li>Filter your search results by feature type, GO terms, expression, and phenotype and disease annotations</li>
   <li>Forward lists of genome features to the MGI Batch Query tool (to access and download additional MGI data such as genome location, phenotype, expression, genome attributes)</li>
-  <li>Iterate your query to find ever more relevant results</li>
   <li>Search MGI's web pages including Help, FAQs, reference abstracts, detailed phenotype notes, sequence descriptions, and other text using Google.</li>
 </ul>
 </p>
@@ -64,6 +65,15 @@ function openHelpWindow(helpFile){
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="how_work">How does Quick Search work?</a></h3>
+
+<p>The Quick Search has four search options available through a toggle: 
+<ol>
+ <li>The default option searches for Keywords, Symbols, and IDs using an exact phrase</li>
+ <li>The second option also searches for Keywords, Symbols, and IDs but each "word" is searched separately. You can add quotes to include a phrase search.</li>
+ <li>Mouse Location, searches for markers mapped within designated coordinates using the format: Chr1:194732198-294732198, or a single coordinate: Chr1:194732198.</li>
+ <li>Human Location, returns the mouse homologs of the human genes within the designated human coordinates.</li>
+</ol>
+
 <p>Quick Search attempts to find matches to your input text in several ways:
 <ul>
   <li>To find an exact match, the tool uses your entire query phrase, intact, with no additional words.  </li>
@@ -74,7 +84,7 @@ function openHelpWindow(helpFile){
 <p>These three approaches compare your input text to:</p>
  <ul>
   <li>individual mouse genome features by name (including mutant cell line name), symbol, synonym, homolog, allele, accession ID</li>
-  <li>individual nomenclature for mouse homologs (from HomoloGene and HGNC) in other organisms (human, rat, and so on)</li>
+  <li>individual nomenclature for mouse homologs (from the Alliance of Genome Resources) for human, rat, and and zebrafish)</li>
   <li>individual vocabulary terms, synonyms, and definitions in six of MGI's controlled vocabularies:
     <ul>
     <li>Gene Ontology (GO)</li>
@@ -116,7 +126,7 @@ function openHelpWindow(helpFile){
    
 <p>Quick Search interprets queries as literally as possible and returns exact matches first, followed by less-than-exact matches. The tool parses your text entry into "words" and compares them to "words" in MGI nomenclature data, terms in any MGI-supported vocabulary, or any accession identifier stored in the MGI database. It assigns a <a href="#scores">score</a> to the data it finds and determines the "goodness" of each match.</p>
 
-<p>Once the results appear, you can look through the three separate categories (<b>Genome Features, Vocabulary Terms,  Other Results by ID</b>), select items of interest, modify the search string, and reiterate until you find the most relevant data. Items that appear beneath <b>Vocabulary Terms</b> in the results can teach you the "native language" used in each of the MGI vocabularies, and this in turn can help you frame subsequent queries more accurately.</p>
+<p>Once the results appear, you can look through the five separate tabs (<b>Genome Features, Alleles, Vocabulary Terms, Strains and Stocks,  Other Results by ID</b>). For each tab, you can filter your search results. The filters are applied to the specific selected tab, and do not affect the other tabs' results.  Items that appear beneath <b>Vocabulary Terms</b> in the results can teach you the "native language" used in each of the MGI vocabularies, and this in turn can help you frame subsequent queries more accurately.</p>
 
 <p>You can access the annotated data directly using links in the <a href="#summary">Quick Search Results</a>.</p>
  

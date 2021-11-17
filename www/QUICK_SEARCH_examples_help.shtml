@@ -82,19 +82,13 @@ function openHelpWindow(helpFile){
 <ul>
   <li>gene model ID</li>
   <li>sequence ID</li>
-  <!--<li>TreeFam ID</li>-->
-  <li>Homologene ID</li>
   <li>EC (Enzyme Commission) ID</li>
-  <li>DoTS ID</li>
   <li>UniGene ID</li>
-  <li>DFCI ID</li>
-  <li>NIA Mouse Gene Index ID</li>
   <li>PDB ID</li>  
   <li>DOI ID</li>
 </ul>
 <p>In addition, some accession IDs are not unique. As an example, query for <i>100678</i>. 
 <ul>
-  <li>HomoloGene uses this identifier for a mouse gene.</li>
   <li>NCBI uses it to identify a gene model sequence associated with another gene.</li>
   <li>OMIM uses it to identify a disease condition whose associated human gene has an orthologous gene in mouse.</li>
 </ul>
