@@ -146,7 +146,7 @@ See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and exa
 <h3><a id="acronym"></a>Which controlled vocabularies does Quick Search query?</h3>
 <blockquote>
 <table>
-<tr><th>Acronym</th><th>Ontology</th><th>Quick Search looks for...</th></tr>
+<tr><th>Acronym</th><th>Ontology</th><th>Quick Search looks for&hellip;</th></tr>
 <tr><td>EMAPA</td><td>Mouse Developmental Anatomy Ontology<br>
 <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a></td><td>Mouse anatomical terms</td></tr>
 <tr><td>GO</td><td>Gene Ontology<br>
@@ -210,7 +210,7 @@ As examples:  <i>translocation</i> is stemmed to <i>transloc-</i>; <i>immunizati
 <p>Additional examples:    
   <blockquote>
  <table>
-   <tr><th>Term</th><th>Stemmed to...</th></tr>
+   <tr><th>Term</th><th>Stemmed to&hellip;</th></tr>
      <tr><td>alimentary</td><td>alimentari-</td></tr>
      <tr><td>perinatal</td><td>perinat-</td></tr>
      <tr><td>metabolism</td><td>metabol-</td></tr>
@@ -258,7 +258,7 @@ See <a href="http://en.wikipedia.org/wiki/Stop_words" target="_blank">stop words
 
 <blockquote>
 <table>
-  <tr><th>To find...</th><th>For example...</th><th>Look here</th></tr>
+  <tr><th>To find&hellip;</th><th>For example&hellip;</th><th>Look here</th></tr>
   <tr><td>An overview of MGI data</td><td>lists of all MGI markers, sequence data, mammalian orthology, gene ontology, strains &amp; polymorphisms, gene expression, alleles and phenotypes, nomenclature, references, clone collections</td><td><a href="<!--#include file="include/ftp_url.html" -->reports/index.html" target="_blank">MGI Data and Statistical Reports</a></td></tr>
   <tr><td>MGI query forms &amp; other searches</td><td width="55%">Genes, Genome Features &amp; Maps; Phenotypes, Alleles &amp; Disease Models; Gene Expression; GO Functional annotations; Strains, SNPs &amp; Polymorphisms; Mammalian Orthology; Sequences; Probes &amp; Clones; References; Vocabularies; and more</td><td>
 <a href="<!--#include file='include/wi_url.html'-->menus/allsearch.shtml" target="_blank">All Search Tools</a></td></tr>
