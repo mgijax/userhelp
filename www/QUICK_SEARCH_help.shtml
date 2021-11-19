@@ -41,10 +41,10 @@ function openHelpWindow(helpFile){
    <li><a href="#purpose">What's the purpose of this tool?</a></li>
    <li><a href="#how_work">How does Quick Search work?</a></li>
    <li><a href="#box">What are the rules for entering text in the Quick Search box?</a></li>
-    <li><a href="#summary">About Quick Search Results (Genome Features, Vocabulary Terms, Other Results by ID, ...)</a></li>
-    <li><a href="#advantage">When should I use Quick Search vs. an individual MGI query form?</a></li>
-    <li><a href="#id_examples">Are there examples of the accession IDs that Quick Search can find?</a></li>
-    <li><a href="#more">More questions and examples</a></li>
+   <li><a href="#summary">About Quick Search Results (Genome Features, Vocabulary Terms, Other Results by ID, ...)</a></li>
+   <li><a href="#advantage">When should I use Quick Search vs. an individual MGI query form?</a></li>
+   <li><a href="#id_examples">Are there examples of the accession IDs that Quick Search can find?</a></li>
+   <li><a href="#more">More questions and examples</a></li>
 </ul>
 <hr>
 <h3><a id="purpose"></a>What's the purpose of this tool?</h3>
@@ -87,13 +87,13 @@ function openHelpWindow(helpFile){
   <li>individual nomenclature for mouse homologs (from the Alliance of Genome Resources) for human, rat, and and zebrafish)</li>
   <li>individual vocabulary terms, synonyms, and definitions in six of MGI's controlled vocabularies:
     <ul>
-    <li>Gene Ontology (GO)</li>
-    <li>Mammalian Phenotype (MP)</li>
-    <li>Human Disease Ontology (DO)</li>
-    <li>Human Disease (OMIM)</li>
-    <li>InterPro</li>
-    <li>Protein Superfamily (PIRSF)</li>
-    <li>Mouse Developmental Anatomy Ontology</li>
+     <li>Gene Ontology (GO)</li>
+     <li>Mammalian Phenotype (MP)</li>
+     <li>Human Disease Ontology (DO)</li>
+     <li>Human Disease (OMIM)</li>
+     <li>InterPro</li>
+     <li>Protein Superfamily (PIRSF)</li>
+     <li>Mouse Developmental Anatomy Ontology</li>
     </ul>
   </li>
   <li>accession IDs from MGI and other data resources (e.g., Entrez Gene, NCBI, Ensembl, RefSeq) for many types of data objects
@@ -204,10 +204,10 @@ function openHelpWindow(helpFile){
 
 <tr><td>For best results, use wild cards on scientific or medical terms which the stemming algorithm may not recognize.</td><td>
 <ul>
-<li><i>hippocamp*</i> &nbsp;finds hippocampus, hippocampi, hippocampal</li>
-<li><i>cell*</i> &nbsp;finds cell, cells, cellular, cell-like</li>
-<li><i>embry*</i>&nbsp; finds embryo, embryonic, embryonal, embryoes, embryogenesis</li>
-<li><i>nucle*</i>&nbsp; finds nucleus, nucleosis, nucleosome, nucleolar.</li>
+ <li><i>hippocamp*</i> &nbsp;finds hippocampus, hippocampi, hippocampal</li>
+ <li><i>cell*</i> &nbsp;finds cell, cells, cellular, cell-like</li>
+ <li><i>embry*</i>&nbsp; finds embryo, embryonic, embryonal, embryoes, embryogenesis</li>
+ <li><i>nucle*</i>&nbsp; finds nucleus, nucleosis, nucleosome, nucleolar.</li>
 </ul></td></tr>
 
 <tr><td><a id="how_many"></a>Number of words allowed</td><td>32</td>
@@ -217,11 +217,11 @@ function openHelpWindow(helpFile){
 
 <tr><td><a id="special_characters">Other special characters</a></td><td>Quick Search treats ampersands, embedded asterisks,  brackets, hyphens, parentheses, slashes, etc. as valid characters. The complete list is ~!@#$%^&amp;*(_)-+={}\|[]:;'&lt;&gt;?/</td><td>
 <ul>
-<li>RP23-100A23</li>
-<li>Hprt&lt;1tm1(UAS-Bmp4)Bhr&gt;</li>
-<li>Tg(Igh-6-cre/ESR1)30Afst</li>
-<li>NM_001122899</li>
-<li>Gt(pU21)103Imeg</li>
+ <li>RP23-100A23</li>
+ <li>Hprt&lt;1tm1(UAS-Bmp4)Bhr&gt;</li>
+ <li>Tg(Igh-6-cre/ESR1)30Afst</li>
+ <li>NM_001122899</li>
+ <li>Gt(pU21)103Imeg</li>
 </ul></td></tr>
 
 <tr><td><a id="separation_character"></a>Separation characters</td><td>The presence of some special characters is important when, for example, they occur within nomenclature but not important when the occurance is within a text string.</td><td>A search for the text <i>t cell</i> or  <i>t-cell</i> yields the same results.</td></tr>
@@ -247,7 +247,7 @@ function openHelpWindow(helpFile){
 <h3><a id="summary"></a>About Quick Search Results&hellip;</h3>
 <p>
 <table>
- <tr><td>Sections:&nbsp;&nbsp;<a href="#genome_features">Genome Features</a> | <a href="#vocabulary">Vocabulary Terms</a> |  <a href="#other_by_ID">Other Results by ID</a> |  <a href="#google">Search MGI with Google</a><br>Columns :&nbsp;&nbsp;&nbsp;<a href="#scores">Score</a> |  <a href="#best_match">Best Match</a><br>Other information:&nbsp;&nbsp;&nbsp;<a href="#helpful_tips">Helpful tips</a> | <a href="#see_details">See Details for this search</a> | <a href="#welcome">Your Input Welcome</a></td></tr>
+ <tr><td>Sections:&nbsp;&nbsp;<a href="#genome_features">Genome Features</a> | <a href="#alleles">Alleles</a> | <a href="#vocabulary">Vocabulary Terms</a> |  <a href="#strains">Strains and Stocks</a> | <a href="#other_by_ID">Other Results by ID</a> |  <a href="#google">Search MGI with Google</a><br>Columns :&nbsp;&nbsp;&nbsp;<a href="#scores">Score</a> |  <a href="#best_match">Best Match</a><br>Other information:&nbsp;&nbsp;&nbsp;<a href="#helpful_tips">Helpful tips</a> | <a href="#see_details">See Details for this search</a> | <a href="#welcome">Your Input Welcome</a></td></tr>
   </table>
 
 <p>The Quick Search Results include lists of:
@@ -262,8 +262,8 @@ function openHelpWindow(helpFile){
 <ul>
   <li>paginate through the results</li>
   <li>forward results to the MGI Batch Query tool</li>
-   <li>search MGI using Google (this box is pre-populated with your search word or phrase)</li>
-   <li>search again using the same word or phrase or modify your text</li>
+  <li>search MGI using Google (this box is pre-populated with your search word or phrase)</li>
+  <li>search again using the same word or phrase or modify your text</li>
   <li>reset the query (and type in new words or phrases for a new search)</li>
   <li>review the details for your search.</li>
 </ul>
@@ -279,16 +279,8 @@ function openHelpWindow(helpFile){
 <dd>
  <ul>
   <li>The list includes genes, QTLs, cytogenetic genome features, alleles, gene trap cell lines, and other genome features whose name, symbol, synonym, or accession ID matches some or all of your entry. See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Types</a> for a complete list.</li>
-
   <li>The list also includes genome features associated with vocabulary terms matching your search text. A search with a mouse anatomy term will return genome features whose expression has been detected in the structure.</li>
-  <li>Cell line ID searches return only allele matches (and not both gene and allele matches).
-<!--<li>Gene trap cell line IDs  associated with a marker return two records: 
- <ol>
-   <li>one for the marker associated with the ID, with a link to the marker's gene detail page</li>
-   <li>one for the allele associated with the ID, with a link to the gene trapped allele detail page.</li>
- </ol>
--->
-
+  <li>Cell line ID searches return only allele matches (and not both gene and allele matches).</li>
   <li>Items (in blue) are linked to their relevant MGI gene detail pages.</li>
   <li>Results are ranked by <a href="#scores">Score</a>.</li>
   <li><b>Chr </b>(chromosome), <b>Location</b> (genome coordinates), and <b>Str</b> (strand, + or -) appear for results with this data. Offsets (cM position or cytogenetic band) appear, if available, when there is no chromosome data.</li>
@@ -298,10 +290,14 @@ function openHelpWindow(helpFile){
   <li>Depending on availability, the first ten matches appear in the display. A display at the bottom of this section indicates the total number of matches found. A link provides access to the first 100 matching items.  You can paginate through the full list of all matching genome features.</li>
  </ul>
 </dd>
+
 <dd>See also <a href="QUICK_SEARCH_examples_help.shtml" target="_blank">Quick Search Examples and Questions</a> for additional search and match information.
 </dd>
 
-<!--2-->
+<dt><a id="alleles"></a><b>Alleles</b></dt>
+<dd>
+</dd>
+
 <dt><a id="vocabulary"></a><b>Vocabulary Terms</b></dt>
 <dd>This area of <b>Quick Search Results</b> identifies and gives the best reason for any matches found in the MGI vocabularies (DO, GO, EMAPA, MP, InterPro, OMIM, PIRSF), provides a link (when available) to that term in the given vocabulary, and to any associated MGI data (when available). </dd>
 <dd>Use the <b>Vocabulary Terms </b> section to:<br>
@@ -318,14 +314,15 @@ function openHelpWindow(helpFile){
 <dd>See <a href="#scores">Scores</a> and <a href="#best_match">Best Match</a> for information about the data appearing in these columns.
   </dd>
 
+<dt><a id="strains"></a><b>Strains and Stocks</b></dt>
+<dd>
+</dd>
 
-<!--3-->
 <dt><a id="other_by_ID"></a><b>Other Results by ID</b></dt>
 <dd>If your query contains one or more accession IDs for a non-genome feature or non-vocabulary object, such matches appear in this section. Results are linked to the sequence, orthology relationship, or other accession identifier matching a Quick Search box entry.
 
 </dd>
 
-<!--4-->
 <dt><a id="google"></a><b>Search MGI with Google</b></dt>
 <dd>When you perform a Quick Search query, your search term also appears in the <b>Search MGI with Google</b> box. You can use it to locate MGI web pages containing this (or any other) term(s). The search extends to the following types of MGI web page content:
   <ul>
@@ -333,8 +330,8 @@ function openHelpWindow(helpFile){
     <li>Help text</li>
     <li>reference abstracts</li>
     <li>phenotypic details for alleles</li>
-   <li>sequence descriptions </li>
-   <li>image captions.</li>
+    <li>sequence descriptions </li>
+    <li>image captions.</li>
   </ul>
 </dd>
 
