@@ -117,10 +117,12 @@ function openHelpWindow(helpFile){
   <li>accepts wild cards for prefix searching.</li>
  </ul>
 </p>
-<p>Quick Search returns any matches in three sections on a result page:</p>
+<p>Quick Search returns any matches in five tabs on a result page:</p>
   <ul>
    <li><b>Genome Features</b> - returns all that match, ordered by: <a href="#best_match">best match</a>.</li>
-   <li><b>Vocabulary Terms</b> -  returns all that match, ordered by: <a href="#best_match">best match</a>.</li>       
+   <li><b>Alleles</b> - returns all that match, ordered by: <a href="#best_match">best match</a>.</li>
+   <li><b>Vocabulary Terms</b> -  returns all that match, ordered by: <a href="#best_match">best match</a>.</li>
+   <li><b>Strains and Stocks</b> - returns all that match, ordered by: <a href="#best_match">best match</a>.</li>      
    <li><b>Other Results by ID</b>  - returns matches for anything other than genome features and vocabularies (i.e., no text is considered in matching).</li>
   </ul> 
    
@@ -278,16 +280,16 @@ function openHelpWindow(helpFile){
 
 <dd>
  <ul>
-  <li>The list includes genes, QTLs, cytogenetic genome features, alleles, gene trap cell lines, and other genome features whose name, symbol, synonym, or accession ID matches some or all of your entry. See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Types</a> for a complete list.</li>
+  <li>The list includes genes, pseudogenes, QTLs, heritable phenotypic markers, cytogenetic genome features, and other genome features whose name, symbol, synonym, or accession ID matches some or all of your entry. See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Types</a> for a complete list.</li>
   <li>The list also includes genome features associated with vocabulary terms matching your search text. A search with a mouse anatomy term will return genome features whose expression has been detected in the structure.</li>
   <li>Cell line ID searches return only allele matches (and not both gene and allele matches).</li>
   <li>Items (in blue) are linked to their relevant MGI gene detail pages.</li>
   <li>Results are ranked by <a href="#scores">Score</a>.</li>
   <li><b>Chr </b>(chromosome), <b>Location</b> (genome coordinates), and <b>Str</b> (strand, + or -) appear for results with this data. Offsets (cM position or cytogenetic band) appear, if available, when there is no chromosome data.</li>
-  <li>The <a href="#best_match">Best Match</a> column lists one of the best reasons why an item is returned. Links from this column go to an <b>All Matches</b> page displaying additional reasons for the return. </li>
+  <li>The <a href="#best_match">Best Match</a> column lists one of the best reasons why an item is returned. <!--Links from this column go to an <b>All Matches</b> page displaying additional reasons for the return.--> </li>
   <li>Clicking <i>Get more data</i> for genome features 1 through <small>nn</small> forwards any returned genes to the MGI Batch Query.  Alleles are not forwarded; only genes for any returned alleles are forwarded.</li>
   <li>The Batch Query form presents more data (symbols, MGI genome feature IDs, genome locations), more links, and some modification options (see <a href="BATCH_help.shtml">Using the MGI Batch Query</a> for complete details).</li>
-  <li>Depending on availability, the first ten matches appear in the display. A display at the bottom of this section indicates the total number of matches found. A link provides access to the first 100 matching items.  You can paginate through the full list of all matching genome features.</li>
+  <li>For large numbers of results, you can paginate through the full list of all matching genome features.</li>
  </ul>
 </dd>
 
