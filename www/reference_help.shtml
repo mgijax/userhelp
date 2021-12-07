@@ -140,7 +140,7 @@ Enter a text string to search for articles with abstracts/titles containing the 
   <li>Use quotation marks to enclose phrases where the specified words must come in order, with no words intervening. </li>
   <li>Boolean operators (OR or AND) are not permitted.</li>
   </ul>
-<p>The most relevant results appear at the top of the returned list (i.e. those containing all of the searched words. Words that match your search terms are <span style="background-color: #FFFF88">highlighted in yellow</span>.</p>
+<p>The most relevant results appear at the top of the returned list (i.e. those containing all of the searched words). Words that match your search terms are <span style="background-color: #FFFF88">highlighted in yellow</span>.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -171,7 +171,7 @@ Enter a text string to search for articles with abstracts/titles containing the 
    <li><b>PubMed ID/MGI Ref. ID</b>: The PubMed ID, if present, is linked to PubMed. The MGI ID begins with <i>J:</i>. A Journal Link to the full publication may also be present. </li>
    <li><b>Author(s)</b>: The authors of the reference. Click this column heading to sort alphabetically by first author. Click again to reverse the sort order. </li>
    <li><b>Title</b>: The title of the reference. Click <code>abstract</code>&#9658; to view the reference abstract. </li>
-   <li><b>Journal</b>: The name of the journal in <a href="ftp://ftp.ncbi.nih.gov/pubmed/J_Medline.txt" target="_blank">NLM</a> abbreviated format. Click this column heading to sort alphabetically by journal. Click again to reverse the sort order. </li>
+   <li><b>Journal</b>: The name of the journal in <a href="https://www.ncbi.nlm.nih.gov/nlmcatalog?term=journalspmc" target="_blank">NLM</a> abbreviated format. Click this column heading to sort alphabetically by journal. Click again to reverse the sort order. </li>
    <li><b>Year</b>: The year the article was published. Click this column heading to sort by year. Click again to reverse the sort order. </li>
    <li><b>Curated Data</b>: Links to some of the MGI data extracted from that paper. If present, a number indicates how many data items of that type to expect. Related records may include <a href="GENE_feature_types_help.shtml" target="_blank">genome features</a>, sequences, functional annotations (GO), strains, molecular probes, mapping data, expression literature records and results, or phenotypic alleles. </li>
    <li><b>Vol(Iss)Pg</b>: The volume designation and pages for the publication. </li>
