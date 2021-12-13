@@ -183,7 +183,8 @@ Enter a text string to search for articles with abstracts/titles containing the 
 
 <h3><a id="filter_refqf"></a>How do I filter my results?</h3>
 
-<p>You can filter results by author, journal, year, data or reference type. In the banner above your results, after Filter References By: click the desired box. This will reduce your results to only those containing the checked items. This will allow you to further limit your results to specific authors, journals, years or a type of MGI curated data.</p>
+<p>You can filter results by author, journal, year, data or reference type. In the banner above your results, after Filter References By: click the desired box. This will allow you to further limit your results to specific authors, journals, years or a type of MGI curated data.
+The filters will reduce your results to only those containing the checked items.</p>
 <p>NOTE: If you get an error message such as "Too many Authors to filter." Modify your search or use another filter first. </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
