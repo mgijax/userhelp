@@ -57,7 +57,8 @@ function openHelpWindow(helpFile){
   <li>View the <a href="#best_match">best matches</a>, separated into <a href="#genome_features">Genome Features</a>, <a href="#alleles">Alleles</a>, <a href="#vocabulary">Vocabulary Terms</a>, <a href="#strains">Strains and Stocks</a>, and <a href="#other_by_ID">Other Results by ID</a> (e.g. sequences, orthologies, references)</li>
   <li>Follow links to MGI data: genes, alleles, strains, vocabulary terms, other objects</li>
   <li>Filter your search results by feature type, GO terms, expression, and phenotype and disease annotations</li>
-  <li>Forward lists of genome features to the MGI Batch Query tool (to access and download additional MGI data such as genome location, phenotype, expression, genome attributes)</li>
+  <li>Forward lists of features to the MGI Batch Query tool or to MouseMine (to access and download additional MGI data such as genome location, phenotype, expression, genome attributes)</li>
+  <li>Export your results</li>
   <li>Search MGI's web pages including Help, FAQs, reference abstracts, detailed phenotype notes, sequence descriptions, and other text using Google.</li>
 </ul>
 </p>
@@ -286,9 +287,8 @@ function openHelpWindow(helpFile){
   <li>Items (in blue) are linked to their relevant MGI gene detail pages.</li>
   <li>Results are ranked by <a href="#scores">Score</a>.</li>
   <li><b>Chr </b>(chromosome), <b>Location</b> (genome coordinates), and <b>Str</b> (strand, + or -) appear for results with this data. Offsets (cM position or cytogenetic band) appear, if available, when there is no chromosome data.</li>
-  <li>The <a href="#best_match">Best Match</a> column lists one of the best reasons why an item is returned. <!--Links from this column go to an <b>All Matches</b> page displaying additional reasons for the return.--> </li>
-  <li>Clicking <i>Get more data</i> for genome features 1 through <small>nn</small> forwards any returned genes to the MGI Batch Query.  Alleles are not forwarded; only genes for any returned alleles are forwarded.</li>
-  <li>The Batch Query form presents more data (symbols, MGI genome feature IDs, genome locations), more links, and some modification options (see <a href="BATCH_help.shtml">Using the MGI Batch Query</a> for complete details).</li>
+  <li>The <a href="#best_match">Best Match</a> column lists one of the best reasons why an item is returned.</li>
+  <li>You have the option of forwarding your results to the Batch Query or MouseMine to obtain additional data associated with the features (see <a href="BATCH_help.shtml" target="_blank">Using the MGI Batch Query</a> and <a href="MouseMine_help.shtml" target="_blank">Using the MouseMine Data Warehouse</a>).</li>
   <li>For large numbers of results, you can paginate through the full list of all matching genome features.</li>
  </ul>
 </dd>
@@ -297,7 +297,11 @@ function openHelpWindow(helpFile){
 </dd>
 
 <dt><a id="alleles"></a><b>Alleles</b></dt>
-<dd>
+<dd><ul>
+ <li>The results display the official allele symbol and name, allele type, the genome location of the associated gene, and <a href="#best_match">best match</a>.</li>
+ <li>You have the option of forwarding the genes of the to the Batch Query or via a toggle, the alleles to MouseMine.</li>
+ <li>You can also download your results as a text or spreadsheet file.</li>
+</ul>
 </dd>
 
 <dt><a id="vocabulary"></a><b>Vocabulary Terms</b></dt>
@@ -308,16 +312,20 @@ function openHelpWindow(helpFile){
      <li>focus on detailed research topics</li>
      <li>explore related research areas</li>
      <li>investigate alternative paths to data.</li>
+     <li>Filter your results by Feature Type, ad high level vocabulary terms for Gene Ontology (GO: Molecular Function, Biological Process, and Cellular Component), Expression, Phenotype, and Disease.</li> 
    </ul>
 </dd>
-<dd>Depending on availability, the first ten matches appear in the display. A link at the bottom of the vocabulary section provides access to the first 100 matching terms. From this page, you can paginate through the full list of all matching vocabulary terms.
+<dd>From this page, you can paginate through the full list of all matching vocabulary terms.
 </dd>
 <dd>The Associated Data column provides  links to the Human Disease and Mouse Model Detail page where you can find information about mouse models and mouse/human orthologies. <b>Note:</b> MGI may not contain evidence that a mutation in a mouse gene presents a model for a disease, yet if that mouse gene is orthologous to a human gene associated with a disease, it is listed as a disease ortholog. </dd>
 <dd>See <a href="#scores">Scores</a> and <a href="#best_match">Best Match</a> for information about the data appearing in these columns.
   </dd>
 
 <dt><a id="strains"></a><b>Strains and Stocks</b></dt>
-<dd>
+<dd><ul>
+ <li>The results display the name of the strain/stock, and when available, a link to the IMSR which provides the state of the stock (i.e.: embryo, sperm, live mice), and links to contact the repository of the stock, associated references, and <a href="#best_match">best match</a>.</li>
+ <li>You can download your results as a text or spreadsheet file.</li>
+</ul>
 </dd>
 
 <dt><a id="other_by_ID"></a><b>Other Results by ID</b></dt>
@@ -352,16 +360,12 @@ function openHelpWindow(helpFile){
 <li><a id="four_stars"></a><b>Four stars</b>
 There is an exact match between what you entered and an ID, symbol, name, synonym, or vocabulary item in MGI. Genome features with nomenclature matches appear first, followed by genome features associated with vocabulary matches. </li>
 <li><a id="three_stars"></a><b>Three stars</b> <br>All the words you entered are present in the matched item, but the matched item also contains additional words. <br>
-Search engine (<a href="http://en.wikipedia.org/wiki/Apache_Lucene" target="blank">Lucene</a>) scores determine the order of this tier. Genome features with better matches are at the top, and nomenclature matches appear before vocabulary matches. The score takes into account such things as number and frequency of matching words, stemmed versus unstemmed results, and spacing. Genome features or vocabulary terms with the same Lucene score are sorted alphanumerically by symbol. 
+Search engine (<a href="http://en.wikipedia.org/wiki/Apache_Lucene" target="blank">Lucene</a>) scores determine the order of this tier. Genome features with better matches are at the top, and nomenclature matches appear before vocabulary matches. The score takes into account such things as number and frequency of matching words, stemmed versus unstemmed results, and spacing. Genome features or vocabulary terms with the same score are sorted alphanumerically by symbol. 
 </li>
  
 <li><a id="two_stars"></a><b>Two stars</b>
 A single word or ID in your entry matches the nomenclature or ID of a genome feature, or the ID of a vocabulary term. For example, searching for <i>absent hippocampus CA1 region</i> returns alleles associated with this phenotype term and also returns <i>CA1 carbonic anhydrase 1</i> because CA1 matches the orthologous human gene symbol. 
 </li>
-
-<li><a id="one_star"></a><b>One star</b><br>Quick Search matched some but not all of your terms. 
-
-Search engine (<a href="http://en.wikipedia.org/wiki/Apache_Lucene" target="blank">Lucene</a>) scores determine order in this tier. Genome features with better matches appear at the top, and nomenclature matches appear before vocabulary matches. The score takes into account such things as number and frequency of matching words, stemmed versus unstemmed results, and spacing. Genome features or vocabulary terms with the same Lucene score are alphanumerically sorted by symbol. </li>
 </ul>
 </dd>
 <!--6-->
