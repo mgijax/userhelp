@@ -63,8 +63,6 @@ function openHelpWindow(helpFile){
 <p>The Gene Expression Database (GXD) is designed to integrate many different types of endogenous gene expression data from the mouse in formats appropriate for comprehensive analysis. Query results, such as the developmental stage and tissue of expression (or non-expression), the genetic origin of the sample, and the numbers and sizes of detected bands, are described together with the molecular probe, the expression assay type, and the experimental conditions used. Expression patterns are described using an extensive, hierarchical dictionary of standardized anatomical terms, making it possible to record expression results from assays with differing spatial resolution in a consistent and integrated manner and to analyze expression patterns at differing levels of detail. Whenever possible, text annotations are complemented by digitized images of the original expression data.</p>
 <p>To learn more about GXD and how we acquire data, please see <a href="<!--#include file='include/mgihome_url.html'-->GXD/aboutGXD.shtml" target="_blank">About the Gene Expression Database (GXD)</a>.</p>
 
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
 <h3><a id="whatquery"></A>What can I use this query form to find?</h3>
 
 <p>The Gene Expression Data Query form Batch Search tab allows you to retrieve expression data with a list of genes or IDs associated with genes. All Gene Expression Data searches return a tissue-by-gene matrix view as part of its multi-tabbed data summary. This view enables a comparison of expression patterns between genes. Data <a href="#gxdfilter">filters</a> found on the summary pages can be used to further refine search results. 
