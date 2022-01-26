@@ -69,7 +69,7 @@ function openHelpWindow(helpFile){
 </p>
 
 <h3><a id="access"></a>How can I access this utility?</h3> 
-<p>This is included as a tab on the Gene Expression Data Search or as Forward feature located on the Genome Features tab of the Quick Search Results summary.</p>
+<p>This is included as a tab on the Gene Expression Data Search or as a Forward feature located on the Genome Features tab of the Quick Search Results summary.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
  
