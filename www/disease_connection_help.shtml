@@ -362,7 +362,7 @@ Reported in these Systems</b></td>
 
 <h3><a id="hmdcfilter"></a>How do I filter my results?</h3>
 
-<p>You can filter any of the tabbed result views. In your results, click the <i>Filter by Genes</i> and <i>Filter by Phenotypes/Disease(s)</i> and check the desired criteria by clicking on them. For long lists of results, you can use the Search field within the Filter. This will launch an autocomplete on the second character. When you have finished making your selections, Click the <i>Apply Filters</i> button. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#hdp_tabfile">export</a>. Your filter options are limited to those displayed in the Gene Homologs x Phenotypes/Diseases tab. Use the <i>Remove Filters</i> button to remove all filters and return to your original results.</p>
+<p>You can filter any of the tabbed result views. In your results, click the <i>Filter by Feature Type</i>,  <i>Filter by Genes</i> and <i>Filter by Phenotypes/Disease(s)</i> and check the desired criteria by clicking on them. For long lists of results, you can use the Search field within the Filter. This will launch an autocomplete on the second character. When you have finished making your selections, Click the <i>Apply Filters</i> button. This will reduce your results to only those containing the checked items. The filters are applied across all data tabs and to any file you <a href="#hdp_tabfile">export</a>. Your filter options are limited to those displayed in the Gene Homologs x Phenotypes/Diseases tab. Use the <i>Remove Filters</i> button to remove all filters and return to your original results.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
