@@ -42,7 +42,9 @@ function openHelpWindow(helpFile){
    <li><a href="#options">What are my search options?</a></li>
    <li><a href="#how_work">How does Quick Search work?</a></li>
    <li><a href="#box">What are the rules for entering text in the Quick Search box?</a></li>
+   <li><a href="#google">What is Search MGI with Google useful for?</a></li>
    <li><a href="#summary">About Quick Search Results (Genome Features, Vocabulary Terms, Other Results by ID, ...)</a></li>
+   <li><a href="#textfile">Can I export my search results?</a></li>
    <li><a href="#advantage">When should I use Quick Search vs. an individual MGI query form?</a></li>
    <li><a href="#id_examples">Are there examples of the accession IDs that Quick Search can find?</a></li>
    <li><a href="#more">More questions and examples</a></li>
@@ -258,6 +260,7 @@ function openHelpWindow(helpFile){
 <ul>
   <li>genome features (e.g. genes or alleles) that match your query</li>
   <li>vocabulary terms that match your query</li>
+  <li>strains and stocks that match your query</li>
   <li>other results with an ID that matches query</li>
 </ul>
 </p>
@@ -274,7 +277,7 @@ function openHelpWindow(helpFile){
 </p>
 
 <p>
-<h4>Sections on the Quick Search Results page</h4>
+<h4>Tabbed sections on the Quick Search Results page</h4>
 <blockquote>
 <dl>
  <!--1-->
@@ -290,7 +293,9 @@ function openHelpWindow(helpFile){
   <li><b>Chr </b>(chromosome), <b>Location</b> (genome coordinates), and <b>Str</b> (strand, + or -) appear for results with this data. Offsets (cM position or cytogenetic band) appear, if available, when there is no chromosome data.</li>
   <li>The <a href="#best_match">Best Match</a> column lists one of the best reasons why an item is returned.</li>
   <li>You have the option of forwarding your results to the MGI Batch Query, the GXD Batch Search, or MouseMine to obtain additional data associated with the features (see <a href="BATCH_help.shtml" target="_blank">Using the MGI Batch Query</a>, <a href="EXPRESSION_batch_help.shtml" target="_blank">Using the Gene Expression Batch Search</a>, and <a href="MouseMine_help.shtml" target="_blank">Using the MouseMine Data Warehouse</a>).</li>
+  <li>You can download your results as a text or spreadsheet file.</li>
   <li>For large numbers of results, you can paginate through the full list of all matching genome features.</li>
+  <li>You can filter your results by feature type, GO terms, expression, and phenotype and disease annotations.</li>
  </ul>
 </dd>
 
@@ -335,24 +340,7 @@ function openHelpWindow(helpFile){
 <dt><a id="other_by_ID"></a><b>Other Results by ID</b></dt>
 <dd>If your query contains one or more accession IDs for a non-genome feature or non-vocabulary object, such matches appear in this section. Results are linked to the sequence, orthology relationship, or other accession identifier matching a Quick Search box entry.
 These results can be downloaded as a text or spreadsheet file. 
-
 </dd>
-
-<dt><a id="google"></a><b>Search MGI with Google</b></dt>
-<dd>When you perform a Quick Search query, your search term also appears in the bottom section of your results, the <b>Search MGI with Google</b> box. You can use it to locate MGI web pages containing this (or any other) term(s). The search extends to the following types of MGI web page content:
-  <ul>
-    <li>FAQs</li>
-    <li>Help text</li>
-    <li>reference abstracts</li>
-    <li>phenotypic details for alleles</li>
-    <li>sequence descriptions </li>
-    <li>image captions.</li>
-  </ul>
-</dd>
-
- <dd>This search works following Google's algorithms on versions of pages indexed from the MGI site. For example, enter: <i>skeletal dysplasia, Pax6</i>. The MGI Google Quick Search 
-<a href="http://www.google.com/search?hl=en&sitesearch=informatics.jax.org&q=skeletal+dysplasia+Pax6&btnG=Search" target="_blank">returns</a> a list cached MGI pages where all the terms appeared.</dd>
-</dl>
 </blockquote>
 
 <h4>Columns on the Quick Search Results page</h4>
@@ -365,7 +353,7 @@ These results can be downloaded as a text or spreadsheet file.
 <li><a id="four_stars"></a><b>Four stars</b>
 There is an exact match between what you entered and an ID, symbol, name, synonym, or vocabulary item in MGI. Genome features with nomenclature matches appear first, followed by genome features associated with vocabulary matches. </li>
 <li><a id="three_stars"></a><b>Three stars</b> <br>All the words you entered are present in the matched item, but the matched item also contains additional words. <br>
-Search engine (<a href="http://en.wikipedia.org/wiki/Apache_Lucene" target="blank">Lucene</a>) scores determine the order of this tier. Genome features with better matches are at the top, and nomenclature matches appear before vocabulary matches. The score takes into account such things as number and frequency of matching words, stemmed versus unstemmed results, and spacing. Genome features or vocabulary terms with the same score are sorted alphanumerically by symbol. 
+Search engine scores determine the order of this tier. Genome features with better matches are at the top, and nomenclature matches appear before vocabulary matches. The score takes into account such things as number and frequency of matching words, stemmed versus unstemmed results, and spacing. Genome features or vocabulary terms with the same score are sorted alphanumerically by symbol. 
 </li>
  
 <li><a id="two_stars"></a><b>Two stars</b>
@@ -383,8 +371,8 @@ A single word or ID in your entry matches the nomenclature or ID of a genome fea
 <h4>Other information on the Quick Search Results page</h4>
 <blockquote>
 <dl>
-<dt><a id="helpful_tips"></a><b>Helpful Tips</b></dt>
-<dd>Using your mouse, hover over an area of interest. If there is more information on a topic, a pop-up window appears.</dd>
+<dt><b>Search MGI with Google</b></dt>
+<dd><a href="#google">What is Search MGI with Google useful for?</a>.</dd>
 <dt><a id="see_details"></a><b>See Details for this Search</b></dt>
 <dd>Click to see a brief summary of how Quick Search performed this query. Some or all of the following appear:
 <ul>
@@ -404,10 +392,27 @@ A single word or ID in your entry matches the nomenclature or ID of a genome fea
 </dl>
 </blockquote>
 
+<h3>a id="google"><What is Search MGI with Google useful for?</a></h3> 
+<p>When you perform a Quick Search query, your search term also appears in the bottom section of your results, the <b>Search MGI with Google</b> box. You can use it to locate MGI web pages containing this (or any other) term(s). The search extends to the following types of MGI web page content:</p>
+  <ul>
+    <li>FAQs</li>
+    <li>Help text</li>
+    <li>reference abstracts</li>
+    <li>phenotypic details for alleles</li>
+    <li>sequence descriptions </li>
+    <li>image captions.</li>
+  </ul>
+
+ <p>This search works following Google's algorithms on versions of pages indexed from the MGI site. For example, enter: <i>skeletal dysplasia, Pax6</i>. The MGI Google Quick Search 
+<a href="http://www.google.com/search?hl=en&sitesearch=informatics.jax.org&q=skeletal+dysplasia+Pax6&btnG=Search" target="_blank">returns</a> a list cached MGI pages where all the terms appeared.<p>
+
 <h3><a id="id_examples"></a>Are there examples of the accession IDs that Quick Search can find?</h3>
 <p>See <a href="ACCESSION_ID_help.shtml" target="_blank">Querying by Accession ID - Results and Examples</a>.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="textfile">Can I export my search results?</a></h3> 
+<p>All search results tabs offer the ability to download your results as text or spreadsheet files.</p>
 
 <h3><a id="advantage"></a>When should I use Quick Search vs an individual MGI query form?</h3>
 <p>It depends on what you are looking for and the depth of information you need. In general, use the Quick Search when you are looking for something specific or are expecting only a few results. You can also use the Quick Search to run a broad search to explore MGI and see the depth of our data. Like using Google to search the Internet, your Quick Search results can be hit or miss. You will get results you weren't expecting, though the best results will sort to the top.</p>
