@@ -39,6 +39,7 @@ function openHelpWindow(helpFile){
 <p>This help document answers the following questions:</p>
 <ul>
    <li><a href="#purpose">What's the purpose of this tool?</a></li>
+   <li><a href="#options">What are my search options?</a></li>
    <li><a href="#how_work">How does Quick Search work?</a></li>
    <li><a href="#box">What are the rules for entering text in the Quick Search box?</a></li>
    <li><a href="#summary">About Quick Search Results (Genome Features, Vocabulary Terms, Other Results by ID, ...)</a></li>
@@ -52,28 +53,30 @@ function openHelpWindow(helpFile){
  You can:
 <ul>
   <li>Search for a genome feature by name, symbol, synonym, homolog, allele, or accession ID</li>
-  <li>Search using keywords or a text phrase</li>
+  <li>Search using keywords (i.e.: phenotype, disease, GO term, protein motif, anatomy term) or a text phrase</li>
   <li>Search with genome coordinates for mouse or human</li>
   <li>View the <a href="#best_match">best matches</a>, separated into <a href="#genome_features">Genome Features</a>, <a href="#alleles">Alleles</a>, <a href="#vocabulary">Vocabulary Terms</a>, <a href="#strains">Strains and Stocks</a>, and <a href="#other_by_ID">Other Results by ID</a> (e.g. sequences, orthologies, references)</li>
   <li>Follow links to MGI data: genes, alleles, strains, vocabulary terms, other objects</li>
   <li>Filter your search results by feature type, GO terms, expression, and phenotype and disease annotations</li>
-  <li>Forward lists of features to the MGI Batch Query tool or to MouseMine (to access and download additional MGI data such as genome location, phenotype, expression, genome attributes)</li>
+  <li>Forward lists of features to Batch Query tools or to MouseMine (to access and download additional MGI data such as genome location, phenotype, expression, genome attributes)</li>
   <li>Export your results</li>
   <li>Search MGI's web pages including Help, FAQs, reference abstracts, detailed phenotype notes, sequence descriptions, and other text using Google.</li>
 </ul>
 </p>
 
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
-<h3><a id="how_work">How does Quick Search work?</a></h3>
+<h3><a id="options">What are my search options?</a></h3> 
 
 <p>The Quick Search has four search options available through a toggle: 
 <ol>
- <li>The default option searches for Keywords, Symbols, and IDs using an exact phrase</li>
- <li>The second option also searches for Keywords, Symbols, and IDs but each "word" is searched separately. You can add quotes to include a phrase search.</li>
- <li>Mouse Location, searches for markers mapped within designated coordinates using the format: Chr1:194732198-294732198, or a single coordinate: Chr1:194732198.</li>
- <li>Human Location, returns the mouse homologs of the human genes within the designated human coordinates.</li>
+ <li>The default option searches for Keywords, Symbols, and IDs <i>using an exact phrase</i></li>
+ <li>The second option also searches for Keywords, Symbols, and IDs but <i>each "word" is searched separately</i>. You can add quotes to include a phrase search.</li>
+ <li><i>Mouse Location</i>, searches for markers mapped within designated coordinates using the format: Chr1:194732198-294732198, or a single coordinate: Chr1:194732198.</li>
+ <li><i>Human Location</i>, returns the mouse homologs of the human genes within the designated human coordinates.</li>
 </ol>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="how_work">How does Quick Search work?</a></h3>
 
 <p>Quick Search attempts to find matches to your input text in several ways:
 <ul>
@@ -85,7 +88,7 @@ function openHelpWindow(helpFile){
 <p>These three approaches compare your input text to:</p>
  <ul>
   <li>individual mouse genome features by name (including mutant cell line name), symbol, synonym, homolog, allele, accession ID</li>
-  <li>individual nomenclature for mouse homologs (from the Alliance of Genome Resources) for human, rat, and and zebrafish)</li>
+  <li>individual nomenclature for mouse homologs (from the Alliance of Genome Resources) for human, rat, and zebrafish</li>
   <li>individual vocabulary terms, synonyms, and definitions in six of MGI's controlled vocabularies:
     <ul>
      <li>Gene Ontology (GO)</li>
@@ -129,7 +132,7 @@ function openHelpWindow(helpFile){
    
 <p>Quick Search interprets queries as literally as possible and returns exact matches first, followed by less-than-exact matches. The tool parses your text entry into "words" and compares them to "words" in MGI nomenclature data, terms in any MGI-supported vocabulary, or any accession identifier stored in the MGI database. It assigns a <a href="#scores">score</a> to the data it finds and determines the "goodness" of each match.</p>
 
-<p>Once the results appear, you can look through the five separate tabs (<b>Genome Features, Alleles, Vocabulary Terms, Strains and Stocks,  Other Results by ID</b>). For each tab, you can filter your search results. The filters are applied to the specific selected tab, and do not affect the other tabs' results.  Items that appear beneath <b>Vocabulary Terms</b> in the results can teach you the "native language" used in each of the MGI vocabularies, and this in turn can help you frame subsequent queries more accurately.</p>
+<p>Once the results appear, you can look through the five separate tabs (<b>Genome Features, Alleles, Vocabulary Terms, Strains and Stocks,  Other Results by ID</b>). For each tab, you can filter your search results. Filters for ontology terms feature subsets of selected highlevel terms. The filters are applied to the specific selected tab, and do not affect the other tabs' results.  Items that appear beneath <b>Vocabulary Terms</b> in the results can teach you the "native language" used in each of the MGI vocabularies, and this in turn can help you frame subsequent queries more accurately.</p>
 
 <p>You can access the annotated data directly using links in the <a href="#summary">Quick Search Results</a>.</p>
  
@@ -141,7 +144,7 @@ function openHelpWindow(helpFile){
  <table class="nb">
  <tr><td><a href="#combining">Combining terms in a search</a> | <a href="#stem_to">Stemming to root words</a> | <a href="#order">Order (of your entries)</a>  |  <a href="#quotes">Quotation marks</a>  |  
 <a href="#case">Case</a>  |  <a href="#wildcards">Wild cards</a> | <a href="#how_many">Number of words allowed</a>  |  
-<a href="#brackets">Angle brackets</a>  |  <a href="#special_characters">Other special characters</a>  | 
+<a href="#special_characters">Other special characters</a>  | 
 <a href="#separation_character">Separation characters</a> | <a href="#contains">"Contains" searching</a> | <a href="#and_or">AND, OR, NOT</a> | </tr>
  </table>
  </blockquote>
@@ -216,8 +219,6 @@ function openHelpWindow(helpFile){
 <tr><td><a id="how_many"></a>Number of words allowed</td><td>32</td>
 <td>Use the <a href="<!--#include file='include/fewi_url.html'-->batch">MGI Batch Query</a> for longer lists of genome features or accession IDs.</td></tr>
 
-<tr><td><a id="brackets"></a>Angle brackets</td><td>Use to enclose superscripts in gene and allele nomenclature.</td><td>fas&lt;lpr&gt;</td></tr>
-
 <tr><td><a id="special_characters">Other special characters</a></td><td>Quick Search treats ampersands, embedded asterisks,  brackets, hyphens, parentheses, slashes, etc. as valid characters. The complete list is ~!@#$%^&amp;*(_)-+={}\|[]:;'&lt;&gt;?/</td><td>
 <ul>
  <li>RP23-100A23</li>
@@ -250,7 +251,7 @@ function openHelpWindow(helpFile){
 <h3><a id="summary"></a>About Quick Search Results&hellip;</h3>
 <p>
 <table>
- <tr><td>Sections:&nbsp;&nbsp;<a href="#genome_features">Genome Features</a> | <a href="#alleles">Alleles</a> | <a href="#vocabulary">Vocabulary Terms</a> |  <a href="#strains">Strains and Stocks</a> | <a href="#other_by_ID">Other Results by ID</a> |  <a href="#google">Search MGI with Google</a><br>Columns :&nbsp;&nbsp;&nbsp;<a href="#scores">Score</a> |  <a href="#best_match">Best Match</a><br>Other information:&nbsp;&nbsp;&nbsp;<a href="#helpful_tips">Helpful tips</a> | <a href="#see_details">See Details for this search</a> | <a href="#welcome">Your Input Welcome</a></td></tr>
+ <tr><td>Sections:&nbsp;&nbsp;<a href="#genome_features">Genome Features</a> | <a href="#alleles">Alleles</a> | <a href="#vocabulary">Vocabulary Terms</a> |  <a href="#strains">Strains and Stocks</a> | <a href="#other_by_ID">Other Results by ID</a> |  <a href="#google">Search MGI with Google</a><br>Columns :&nbsp;&nbsp;&nbsp;<a href="#scores">Score</a> |  <a href="#best_match">Best Match</a><br>Other information:&nbsp;&nbsp;&nbsp; <a href="#see_details">See Details for this search</a> | <a href="#welcome">Your Input Welcome</a></td></tr>
   </table>
 
 <p>The Quick Search Results include lists of:
@@ -264,7 +265,7 @@ function openHelpWindow(helpFile){
 <p>From the Quick Search Results, you can:
 <ul>
   <li>paginate through the results</li>
-  <li>forward results to the MGI Batch Query tool</li>
+  <li>depending on the tab, forward results to the MGI/GXD Batch Query tools or to MouseMine</li>
   <li>search MGI using Google (this box is pre-populated with your search word or phrase)</li>
   <li>search again using the same word or phrase or modify your text</li>
   <li>reset the query (and type in new words or phrases for a new search)</li>
@@ -288,7 +289,7 @@ function openHelpWindow(helpFile){
   <li>Results are ranked by <a href="#scores">Score</a>.</li>
   <li><b>Chr </b>(chromosome), <b>Location</b> (genome coordinates), and <b>Str</b> (strand, + or -) appear for results with this data. Offsets (cM position or cytogenetic band) appear, if available, when there is no chromosome data.</li>
   <li>The <a href="#best_match">Best Match</a> column lists one of the best reasons why an item is returned.</li>
-  <li>You have the option of forwarding your results to the Batch Query or MouseMine to obtain additional data associated with the features (see <a href="BATCH_help.shtml" target="_blank">Using the MGI Batch Query</a> and <a href="MouseMine_help.shtml" target="_blank">Using the MouseMine Data Warehouse</a>).</li>
+  <li>You have the option of forwarding your results to the MGI Batch Query, the GXD Batch Search, or MouseMine to obtain additional data associated with the features (see <a href="BATCH_help.shtml" target="_blank">Using the MGI Batch Query</a>, <a href="EXPRESSION_batch_help.shtml" target="_blank">Using the Gene Expression Batch Search</a>, and <a href="MouseMine_help.shtml" target="_blank">Using the MouseMine Data Warehouse</a>).</li>
   <li>For large numbers of results, you can paginate through the full list of all matching genome features.</li>
  </ul>
 </dd>
@@ -298,7 +299,8 @@ function openHelpWindow(helpFile){
 
 <dt><a id="alleles"></a><b>Alleles</b></dt>
 <dd><ul>
- <li>The results display the official allele symbol and name, allele type, the genome location of the associated gene, and <a href="#best_match">best match</a>.</li>
+ <li>The results display the allele type (<a href="ALLELE_phenotypic_categories_help.shtml#method" target="_blank">see all allele types</a>a>), official allele symbol and name, the genome location of the associated gene, and <a href="#best_match">best match</a>.</li>
+ <li>You can filter your results by feature type and phenotype and disease annotations.</li>
  <li>You have the option of forwarding the genes of the to the Batch Query or via a toggle, the alleles to MouseMine.</li>
  <li>You can also download your results as a text or spreadsheet file.</li>
 </ul>
@@ -311,8 +313,9 @@ function openHelpWindow(helpFile){
      <li>learn MGI's official terms</li>
      <li>focus on detailed research topics</li>
      <li>explore related research areas</li>
-     <li>investigate alternative paths to data.</li>
-     <li>Filter your results by Feature Type, ad high level vocabulary terms for Gene Ontology (GO: Molecular Function, Biological Process, and Cellular Component), Expression, Phenotype, and Disease.</li> 
+     <li>investigate alternative paths to data</li>
+     <li>filter your results by high level vocabulary terms for Gene Ontology (GO: Molecular Function, Biological Process, and Cellular Component), Expression, Phenotype, and Disease</li> 
+     <li>export your results as a text or spreadsheet file.</li>
    </ul>
 </dd>
 <dd>From this page, you can paginate through the full list of all matching vocabulary terms.
@@ -324,17 +327,19 @@ function openHelpWindow(helpFile){
 <dt><a id="strains"></a><b>Strains and Stocks</b></dt>
 <dd><ul>
  <li>The results display the name of the strain/stock, and when available, a link to the IMSR which provides the state of the stock (i.e.: embryo, sperm, live mice), and links to contact the repository of the stock, associated references, and <a href="#best_match">best match</a>.</li>
+ <li>You can filter your results by phenotype and disease annotations.<li>
  <li>You can download your results as a text or spreadsheet file.</li>
 </ul>
 </dd>
 
 <dt><a id="other_by_ID"></a><b>Other Results by ID</b></dt>
 <dd>If your query contains one or more accession IDs for a non-genome feature or non-vocabulary object, such matches appear in this section. Results are linked to the sequence, orthology relationship, or other accession identifier matching a Quick Search box entry.
+These results can be downloaded as a text or spreadsheet file. 
 
 </dd>
 
 <dt><a id="google"></a><b>Search MGI with Google</b></dt>
-<dd>When you perform a Quick Search query, your search term also appears in the <b>Search MGI with Google</b> box. You can use it to locate MGI web pages containing this (or any other) term(s). The search extends to the following types of MGI web page content:
+<dd>When you perform a Quick Search query, your search term also appears in the bottom section of your results, the <b>Search MGI with Google</b> box. You can use it to locate MGI web pages containing this (or any other) term(s). The search extends to the following types of MGI web page content:
   <ul>
     <li>FAQs</li>
     <li>Help text</li>
@@ -371,7 +376,6 @@ A single word or ID in your entry matches the nomenclature or ID of a genome fea
 <!--6-->
 <dt><a id="best_match"></a><b>Best Match</b></dt>
 <dd>In the Genome Features section, the <b>Best Match</b> column displays the nomenclature, ID, or vocabulary terms associated with each genome feature that is the closest match to your query. Sometimes, a Best Match vocabulary term apparently has no matching text; this happens when a higher level, "parent" term matches your query. The displayed term is the more specific "child" term directly associated with the genome feature.</dd>
-<dd>To see any additional associated nomenclature, IDs, or vocabulary terms matching the query, click <i>and more&hellip;</i></dd>
 <dd>In the Vocabulary Terms section, this column displays the text element that is the closest match to the query. This may be the term itself, a synonym, or part of the term's definition. Where the text is lengthy, only the beginning of the best matching element appears.</dd>
 </dl>
 

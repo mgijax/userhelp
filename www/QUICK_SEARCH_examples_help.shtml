@@ -64,12 +64,12 @@ function openHelpWindow(helpFile){
 
 <h3><a id="advanced"></a>Is there an advanced search?</h3>
 <p>You can narrow what the Quick Search returns by:</p>
-<ul><li>entering exact phrases or complete nomenclature (that is, instead of using a wild card). 
+<ul><li>entering exact phrases or complete nomenclature (that is, instead of using a wild card)
   <li>putting your entry in quotation marks (for example  entering "kit ligand" instead of <i>kit</i>).</li>
   </ul>
 <p>You can get additional information about Quick Search results by: 
 <ul>
-  <li>depending on the tab, you can forward results to the MGI Batch Query or MouseMine (see <a href="BATCH_help.shtml" target="_blank">Using the MGI Batch Query</a> and <a href="MouseMine_help.shtml" target="_blank">Using the MouseMine Data Warehouse</a>)</li>
+  <li>depending on the tab, you can forward results to the MGI Batch Query, the GXD Batch Search, or MouseMine (see <a href="BATCH_help.shtml" target="_blank">Using the MGI Batch Query</a>, <a href="EXPRESSION_batch_help.shtml" target="_blank">Using the Gene Expression Batch Search</a>, and <a href="MouseMine_help.shtml" target="_blank">Using the MouseMine Data Warehouse</a>)</li>
   <li>using <a href="QUICK_SEARCH_help.shtml#google" target="_blank">Search MGI with Google</a> (located at the bottom of the <b>Quick Search Results</b> page.</li>
 </ul>
 </p>
@@ -85,7 +85,7 @@ function openHelpWindow(helpFile){
   <li>EC (Enzyme Commission) ID</li>
   <li>UniGene ID</li>
   <li>PDB ID</li>  
-  <li>DOI ID</li>
+  <li>DOI ID.</li>
 </ul>
 <p>In addition, some accession IDs are not unique. As an example, query for <i>100678</i>. 
 <ul>
@@ -111,7 +111,7 @@ See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and exa
   <li>complete allele name</li>
   <li>mutant cell line name</li>
   <li>mutant cell line provider</li>
-  <li>"related" synonym  (e.g., tudor domain containing 7)</li>
+  <li>"related" synonym  (e.g., tudor domain containing 7).</li>
 </ul>
 </p>
 
@@ -186,7 +186,7 @@ See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and exa
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="q_mark"></a>Do I have to use quotation marks?</h3>
-<p>No, but they are helpful when you want Quick Search to match an exact word, term, or phrase.
+<p>No, but they are helpful when you don't use the Quick Search's exact phrase option and want to perform an exact phrase match to a portion of your search terms.
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
