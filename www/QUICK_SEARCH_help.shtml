@@ -332,7 +332,7 @@ function openHelpWindow(helpFile){
 <dt><a id="strains"></a><b>Strains and Stocks</b></dt>
 <dd><ul>
  <li>The results display the name of the strain/stock, and when available, a link to the IMSR which provides the state of the stock (i.e.: embryo, sperm, live mice), and links to contact the repository of the stock, associated references, and <a href="#best_match">best match</a>.</li>
- <li>You can filter your results by phenotype and disease annotations.<li>
+ <li>You can filter your results by phenotype and disease annotations.</li>
  <li>You can download your results as a text or spreadsheet file.</li>
 </ul>
 </dd>
@@ -372,7 +372,7 @@ A single word or ID in your entry matches the nomenclature or ID of a genome fea
 <blockquote>
 <dl>
 <dt><b>Search MGI with Google</b></dt>
-<dd><a href="#google">What is Search MGI with Google useful for?</a>.</dd>
+<dd>See: <a href="#google">What is Search MGI with Google useful for?</a>.</dd>
 <dt><a id="see_details"></a><b>See Details for this Search</b></dt>
 <dd>Click to see a brief summary of how Quick Search performed this query. Some or all of the following appear:
 <ul>
@@ -392,7 +392,7 @@ A single word or ID in your entry matches the nomenclature or ID of a genome fea
 </dl>
 </blockquote>
 
-<h3>a id="google"><What is Search MGI with Google useful for?</a></h3> 
+<h3><a id="google">What is Search MGI with Google useful for?</a></h3> 
 <p>When you perform a Quick Search query, your search term also appears in the bottom section of your results, the <b>Search MGI with Google</b> box. You can use it to locate MGI web pages containing this (or any other) term(s). The search extends to the following types of MGI web page content:</p>
   <ul>
     <li>FAQs</li>
