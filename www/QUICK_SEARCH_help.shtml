@@ -304,7 +304,7 @@ function openHelpWindow(helpFile){
 
 <dt><a id="alleles"></a><b>Alleles</b></dt>
 <dd><ul>
- <li>The results display the allele type (<a href="ALLELE_phenotypic_categories_help.shtml#method" target="_blank">see all allele types</a>a>), official allele symbol and name, the genome location of the associated gene, and <a href="#best_match">best match</a>.</li>
+ <li>The results display the allele type (<a href="ALLELE_phenotypic_categories_help.shtml#method" target="_blank">see all allele types</a>), official allele symbol and name, the genome location of the associated gene, and <a href="#best_match">best match</a>.</li>
  <li>You can filter your results by feature type and phenotype and disease annotations.</li>
  <li>You have the option of forwarding the genes of the to the Batch Query or via a toggle, the alleles to MouseMine.</li>
  <li>You can also download your results as a text or spreadsheet file.</li>
