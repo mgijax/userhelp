@@ -45,6 +45,7 @@ function openHelpWindow(helpFile){
    <li><a href="#google">What is Search MGI with Google useful for?</a></li>
    <li><a href="#summary">About Quick Search Results (Genome Features, Vocabulary Terms, Other Results by ID, ...)</a></li>
    <li><a href="#textfile">Can I export my search results?</a></li>
+   <li><a href="#moredata">Can I forward my results to batch query tools to access additional information?</a></li>
    <li><a href="#advantage">When should I use Quick Search vs. an individual MGI query form?</a></li>
    <li><a href="#id_examples">Are there examples of the accession IDs that Quick Search can find?</a></li>
    <li><a href="#more">More questions and examples</a></li>
@@ -71,7 +72,7 @@ function openHelpWindow(helpFile){
 <p>The Quick Search has four search options available through a toggle: 
 <ol>
  <li>The default option searches for Keywords, Symbols, and IDs <i>using an exact phrase</i></li>
- <li>The second option also searches for Keywords, Symbols, and IDs but <i>each "word" is searched separately</i>. You can add quotes to include a phrase search.</li>
+ <li>The second option also searches for Keywords, Symbols, and IDs but <i>each "word" is searched separately</i>. You can add quotes to include a phrase search of a portion of the included text.</li>
  <li><i>Mouse Location</i>, searches for markers mapped within designated coordinates using the format: Chr1:194732198-294732198, or a single coordinate: Chr1:194732198.</li>
  <li><i>Human Location</i>, returns the mouse homologs of the human genes within the designated human coordinates.</li>
 </ol>
@@ -186,7 +187,7 @@ function openHelpWindow(helpFile){
 
 <tr><td><a id="order"></a>Order (of your entries)</td><td>Does not matter (as long as you don't enclose the terms in quotation marks).</td><td><i>kit bmp4</i> returns the same list as <i>bmp4 kit</i>.</td></tr>
 
-<tr><td><a id="quotes"></a>Quotation marks</td><td>Enclose any multi-word string (or part of a string) in quotation marks when searching for entire phrases.</td><td>
+<tr><td><a id="quotes"></a>Quotation marks</td><td>Enclose any multi-word string (or part of a string) in quotation marks when searching for entire phrases or use the exact phrase search option.</td><td>
 <ul>
  <li>"paired box gene 6" </li><li>"kit ligand"</li>
  <li>"vitamin D metabolism"</li>
@@ -413,6 +414,9 @@ A single word or ID in your entry matches the nomenclature or ID of a genome fea
 
 <h3><a id="textfile">Can I export my search results?</a></h3> 
 <p>All search results tabs offer the ability to download your results as text or spreadsheet files.</p>
+
+<h3><a id="moredata">Can I forward my results to batch query tools to access additional information?</a></h3>
+<p>Depending on the tab, you may have the option of forwarding your results to the MGI Batch Query, the GXD Batch Search, or MouseMine to obtain additional data associated with the results (see <a href="BATCH_help.shtml" target="_blank">Using the MGI Batch Query</a>, <a href="EXPRESSION_batch_help.shtml" target="_blank">Using the Gene Expression Batch Search</a>, and <a href="MouseMine_help.shtml" target="_blank">Using the MouseMine Data Warehouse</a>).</p>
 
 <h3><a id="advantage"></a>When should I use Quick Search vs an individual MGI query form?</h3>
 <p>It depends on what you are looking for and the depth of information you need. In general, use the Quick Search when you are looking for something specific or are expecting only a few results. You can also use the Quick Search to run a broad search to explore MGI and see the depth of our data. Like using Google to search the Internet, your Quick Search results can be hit or miss. You will get results you weren't expecting, though the best results will sort to the top.</p>
