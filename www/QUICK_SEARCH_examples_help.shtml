@@ -65,7 +65,7 @@ function openHelpWindow(helpFile){
 <h3><a id="advanced"></a>Is there an advanced search?</h3>
 <p>You can narrow what the Quick Search returns by:</p>
 <ul><li>entering exact phrases or complete nomenclature (that is, instead of using a wild card)
-  <li>putting your entry in quotation marks (for example  entering "kit ligand" instead of <i>kit</i>).</li>
+  <li>using the exact phrase option, or putting your entry in quotation marks (for example entering "kit ligand" instead of <i>kit ligand</i>).</li>
   </ul>
 <p>You can get additional information about Quick Search results by: 
 <ul>
@@ -118,7 +118,8 @@ See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and exa
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="complicated"></a>Can I search using complicated nomenclature, e.g. <i>T(XA1?;InY)8Ei, reciprocal translocation, Chr X and inverted Chr Y, Eicher 8</i>?</h3>
-<p>Quick Search handles special characters such as parentheses, commas, colons, semicolons, dashes, slashes, +/-.  However, the text in this example consists of both the symbol  (<i>T(XA1?;InY)8Ei</i>) and name (<i>reciprocal translocation, Chr X and inverted Chr Y, Eicher 8</i>). Enter either the symbol or the name in the query box. If you want an exact match on the name/symbol combination, enclose each group in quotation marks ("<i>T(XA1?;InY)8Ei</i>"  "<i>reciprocal translocation, Chr X and inverted Chr Y, Eicher 8</i>").</p>
+<p>Quick Search handles special characters such as parentheses, commas, colons, semicolons, dashes, slashes, +/-.  However, the text in this example consists of both the symbol  (<i>T(XA1?;InY)8Ei</i>) and name (<i>reciprocal translocation, Chr X and inverted Chr Y, Eicher 8</i>). Enter either the symbol or the name in the query box. 
+If you want an exact match on the name, use the exact phrase option or enclose the phrase in quotes.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -129,7 +130,7 @@ See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and exa
 
 
 <h3><a id="no_go"></a>I'm looking for hydrogen:potassium-exchanging ATPase activity GO:0008900. What do I enter in the Quick Search box?</h3>
-<p>The string above contains both  the term definition (hydrogen:potassium-exchanging ATPase activity) and the identifier (GO:0008900). One or the other is sufficient when querying for any matches. For best results, enclose multi-word terms in quotation marks, e.g. "hydrogen:potassium-exchanging ATPase activity."</p>
+<p>The string above contains both  the term definition (hydrogen:potassium-exchanging ATPase activity) and the identifier (GO:0008900). One or the other is sufficient when querying for any matches. For best results, enclose multi-word terms in quotation marks, e.g. "hydrogen:potassium-exchanging ATPase activity" or choose the exact phrase search option. </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -138,7 +139,7 @@ See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and exa
 <a href="#top">Top</font></a>-->
 
 <h3><a id="need_to_know"></a>Do I have to know vocabulary keywords or could I enter a vocabulary definition or synonym instead?</h3>
-<p>Quick Search looks for terms (that is, <a href="http://en.wikipedia.org/wiki/Keyword" target="blank">keywords</a>), synonyms, and definitions from the vocabularies. If you want an exact match, put the word or phrase in quotation marks to find a complete term, synonym, or definition.
+<p>Quick Search looks for terms (that is, <a href="http://en.wikipedia.org/wiki/Keyword" target="blank">keywords</a>), synonyms, and definitions from the vocabularies. If you want an exact match, use the exact phrase search option or put the word or phrase in quotation marks, or use the ontology ID.
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
@@ -276,7 +277,7 @@ Protein kinase ATP binding, conserved site</td><td><a href="<!--#include file="i
   <tr><td>Annotated phenotype data (terms, definitions and term relationships in a DAG)</td><td>cellular phenotype<br>               
  embryogenesis phenotype <br>homeostasis/metabolism phenotype<br>lethality-postnatal</td><td>
 <a href="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype Browser</a></td></tr>   
-  <tr><td>human genes and genetic disorders; diseases</td><td>DOID:10652<br>breast cancer</td><td>
+  <tr><td>Human genes and genetic disorders; diseases</td><td>DOID:10652<br>breast cancer</td><td>
 <a href="<!--#include file='include/fewi_url.html'-->vocab/do" target="_blank">Disease Ontology Browser</a></td></tr> 
 </table>
 </blockquote>
