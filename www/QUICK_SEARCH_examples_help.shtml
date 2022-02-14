@@ -169,7 +169,7 @@ If you want an exact match on the name, use the exact phrase option or enclose t
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="how_many"></a>How many items can I search for at once?</h3>
-<p>You can enter as many as 32 words, IDs, or other text items. Each piece of text in a phrase, even when enclosed in quotation marks, counts as a word. 
+<p>We recommend using no more than 32 words, IDs, or other text items. Each piece of text in a phrase, even when enclosed in quotation marks, counts as a word. 
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
@@ -181,7 +181,7 @@ If you want an exact match on the name, use the exact phrase option or enclose t
 
 <h3><a id="multi_word"></a>Are multi-word phrases allowed?</h3>
 
-<p>Yes, as long as they do not contain more than 32 words.
+<p>Yes, though recommend using no more than 32 words.
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>

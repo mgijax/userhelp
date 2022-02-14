@@ -62,7 +62,7 @@ function openHelpWindow(helpFile){
   <li>Follow links to MGI data: genes, alleles, strains, vocabulary terms, other objects</li>
   <li>Filter your search results by feature type, GO terms, expression, and phenotype and disease annotations</li>
   <li>Forward lists of features to Batch Query tools or to MouseMine (to access and download additional MGI data such as genome location, phenotype, expression, genome attributes)</li>
-  <li>Export your results</li>
+  <li>Download your results</li>
   <li>Search MGI's web pages including Help, FAQs, reference abstracts, detailed phenotype notes, sequence descriptions, and other text using Google.</li>
 </ul>
 </p>
@@ -97,7 +97,7 @@ function openHelpWindow(helpFile){
      <li>Gene Ontology (GO)</li>
      <li>Mammalian Phenotype (MP)</li>
      <li>Human Disease Ontology (DO)</li>
-     <li>Human Disease (OMIM)</li>
+     <li>Human Phenotype Ontology (HPO)</li>
      <li>InterPro</li>
      <li>Protein Superfamily (PIRSF)</li>
      <li>Mouse Developmental Anatomy Ontology</li>
@@ -219,10 +219,10 @@ function openHelpWindow(helpFile){
  <li><i>nucle*</i>&nbsp; finds nucleus, nucleosis, nucleosome, nucleolar.</li>
 </ul></td></tr>
 
-<tr><td><a id="how_many"></a>Number of words allowed</td><td>32</td>
+<tr><td><a id="how_many"></a>Number of words allowed</td><td>We recommend not using more than 32 words.</td>
 <td>Use the <a href="<!--#include file='include/fewi_url.html'-->batch">MGI Batch Query</a> for longer lists of genome features or accession IDs.</td></tr>
 
-<tr><td><a id="special_characters">Other special characters</a></td><td>Quick Search treats ampersands, embedded asterisks,  brackets, hyphens, parentheses, slashes, etc. as valid characters. The complete list is ~!@#$%^&amp;*(_)-+={}\|[]:;'&lt;&gt;?/</td><td>
+<tr><td><a id="special_characters">Other special characters</a></td><td>Quick Search treats ampersands, embedded asterisks, parentheses, slashes, etc. as valid characters. The complete list is ~!@#$%^&amp;*(_)+={}\|[]:;'?/  Angle brackets and hyphens are replaced with spaces.</td><td>
 <ul>
  <li>RP23-100A23</li>
  <li>Hprt&lt;1tm1(UAS-Bmp4)Bhr&gt;</li>
@@ -293,10 +293,10 @@ function openHelpWindow(helpFile){
   <li>Results are ranked by <a href="#scores">Score</a>.</li>
   <li><b>Chr </b>(chromosome), <b>Location</b> (genome coordinates), and <b>Str</b> (strand, + or -) appear for results with this data. Offsets (cM position or cytogenetic band) appear, if available, when there is no chromosome data.</li>
   <li>The <a href="#best_match">Best Match</a> column lists one of the best reasons why an item is returned.</li>
-  <li>You have the option of forwarding your results to the MGI Batch Query, the GXD Batch Search, or MouseMine to obtain additional data associated with the features (see <a href="BATCH_help.shtml" target="_blank">Using the MGI Batch Query</a>, <a href="EXPRESSION_batch_help.shtml" target="_blank">Using the Gene Expression Batch Search</a>, and <a href="MouseMine_help.shtml" target="_blank">Using the MouseMine Data Warehouse</a>).</li>
-  <li>You can download your results as a text or spreadsheet file.</li>
   <li>For large numbers of results, you can paginate through the full list of all matching genome features.</li>
   <li>You can filter your results by feature type, GO terms, expression, and phenotype and disease annotations.</li>
+  <li>You have the option of forwarding your results to the MGI Batch Query, the GXD Batch Search, or MouseMine to obtain additional data associated with the features (see <a href="BATCH_help.shtml" target="_blank">Using the MGI Batch Query</a>, <a href="EXPRESSION_batch_help.shtml" target="_blank">Using the Gene Expression Batch Search</a>, and <a href="MouseMine_help.shtml" target="_blank">Using the MouseMine Data Warehouse</a>).</li>
+  <li>You can download your results as a text or spreadsheet file.</li>
  </ul>
 </dd>
 
@@ -321,7 +321,7 @@ function openHelpWindow(helpFile){
      <li>explore related research areas</li>
      <li>investigate alternative paths to data</li>
      <li>filter your results by high level vocabulary terms for Gene Ontology (GO: Molecular Function, Biological Process, and Cellular Component), Expression, Phenotype, and Disease</li> 
-     <li>export your results as a text or spreadsheet file.</li>
+     <li>download your results as a text or spreadsheet file.</li>
    </ul>
 </dd>
 <dd>From this page, you can paginate through the full list of all matching vocabulary terms.
@@ -419,15 +419,17 @@ A single word or ID in your entry matches the nomenclature or ID of a genome fea
 <p>Depending on the tab, you may have the option of forwarding your results to the MGI Batch Query, the GXD Batch Search, or MouseMine to obtain additional data associated with the results (see <a href="BATCH_help.shtml" target="_blank">Using the MGI Batch Query</a>, <a href="EXPRESSION_batch_help.shtml" target="_blank">Using the Gene Expression Batch Search</a>, and <a href="MouseMine_help.shtml" target="_blank">Using the MouseMine Data Warehouse</a>).</p>
 
 <h3><a id="advantage"></a>When should I use Quick Search vs an individual MGI query form?</h3>
-<p>It depends on what you are looking for and the depth of information you need. In general, use the Quick Search when you are looking for something specific or are expecting only a few results. You can also use the Quick Search to run a broad search to explore MGI and see the depth of our data. Like using Google to search the Internet, your Quick Search results can be hit or miss. You will get results you weren't expecting, though the best results will sort to the top.</p>
-<p>The query forms give you more power over your search. One of the strengths of MGI is data integration. This allows you to search across multiple data sets. For example, you can use the <a href="<!--#include file='include/fewi_url.html'-->marker">Genes &amp; Markers Query</a> to find all the protein coding genes and microRNAs mapped to mouse Chromosome 2, whose products are involved in axon guidance and have alleles that show an eye phenotype. In this example you narrowed the mapping search to Chr 2, the Feature Types to just protein coding genes and microRNAs, the Gene Ontology to just axon guidance and its subterms, and the phenotype to just eye phenotypes.</p>
-<p>The table summarizes the differences between the two types of searches.</p>
+<p>It depends on what you are looking for and the depth of information you need. In general, use the Quick Search when you are looking for something specific or are expecting only a few results. You can also use the Quick Search to run a broad search to explore MGI and see the depth of our data. Like using Google to search the Internet, your Quick Search results can be hit or miss. 
+You may get results you weren't expecting, though the best results will sort to the top.</p>
+<p>The query forms give you more power over your search. One of the strengths of MGI is data integration. This allows you to search across multiple data sets. For example, you can use the <a href="<!--#include file='include/fewi_url.html'-->marker">Genes &amp; Markers Query</a> to find all the protein coding genes and microRNAs mapped to mouse Chromosome 2, whose products are involved in axon guidance and have alleles that show an eye phenotype. 
+In this example you narrowed the mapping search to Chr 2, the Feature Types to just protein coding genes and microRNAs, the Gene Ontology to just axon guidance and its subterms, and the phenotype to just eye phenotypes. The Quick Search results allow you to narrow your results by filtering, however, the filters use high-level terms, whereas with the Query Forms, you can use the specific terms.</p>
+<!--  <p>The table summarizes the differences between the two types of searches.</p>
 
 <table>
 <tr><th>&nbsp;</th><th>Should I use MGI Quick Search?</th><th>or an MGI query form?</th></tr>
 <tr><td>Are any results dependent upon established relationships among MGI data?</td><td>Yes. MGI's vocabularies are DAG structures or hierarchies.</td><td>Yes. (DAG,  hierarchy)</td></tr> 
 <tr><td>Does it provide a quick view of all MGI data related to a term or phrase?</td><td>Yes. (Quick Search Results + linked data)</td><td>No.</td></tr> 
-<tr><td>Does it search all MGI vocabularies?</td><td>Yes.<br>Any Developmental Anatomy, DO, GO, InterPro, OMIM, MP, or PIRSF results appear under <a href="#vocabulary">Vocabulary Terms</a>; Adult Mouse Anatomy results appear in <a href="#other_by_ID">Other Results by ID</a>.</td><td>No.<br>You must use the individual vocabulary query forms or separate vocabulary search boxes on the Genes &amp; Markers; Phenotypes, or Alleles &amp; Disease Models query forms.</td><td></td></tr> 
+<tr><td>Does it search all MGI vocabularies?</td><td>Yes.<br>Any Developmental Anatomy, DO, GO, InterPro, HPO, MP, or PIRSF results appear under <a href="#vocabulary">Vocabulary Terms</a>; Adult Mouse Anatomy results appear in <a href="#other_by_ID">Other Results by ID</a>.</td><td>No.<br>You must use the individual vocabulary query forms or separate vocabulary search boxes on the Genes &amp; Markers; Phenotypes, or Alleles &amp; Disease Models query forms.</td><td></td></tr> 
 <tr><td>Does it find mouse orthologs for human disease genes? <br>(possible research candidates)</td><td>Yes (Quick Search Results + linked data)</td><td>No.</td><td></td></tr>
 <tr><td>Can it cross boundaries between subject areas?<br>
 For example, can I find genes with a particular molecular function expressed in a specific tissue? <br>&hellip;combine a nomenclature query with a GO or MP term and a disease?<br>
@@ -435,7 +437,7 @@ For example, can I find genes with a particular molecular function expressed in 
 <td>No.</td><td>Yes. Click <a href="<!--#include file='include/menus_url.html'-->allsearch.shtml" target="_blank">All Search Tools</a> for a complete list of all available MGI query forms.</td></tr>
 <tr><td>Can I choose how my results are sorted? </td><td>No.</td><td>Yes, many  MGI query forms allow you to customize your output in this way.</td></tr> 
 <tr><td>"Contains" searching?</td><td>No.</td><td>Yes.</td></tr>
-</table>
+</table>-->
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
