@@ -352,14 +352,22 @@ These results can be downloaded as a text or spreadsheet file.
 <dd>
 <ul>
 <li><a id="four_stars"></a><b>Four stars</b>
-There is an exact match between what you entered and an ID, symbol, name, synonym, or vocabulary item in MGI. Genome features with nomenclature matches appear first, followed by genome features associated with vocabulary matches. </li>
+There is an exact match between what you entered and an ID, symbol, name, synonym, or vocabulary item in MGI. </li>
 <li><a id="three_stars"></a><b>Three stars</b> <br>All the words you entered are present in the matched item, but the matched item also contains additional words. <br>
-Search engine scores determine the order of this tier. Genome features with better matches are at the top, and nomenclature matches appear before vocabulary matches. The score takes into account such things as number and frequency of matching words, stemmed versus unstemmed results, and spacing. Genome features or vocabulary terms with the same score are sorted alphanumerically by symbol. 
+Search engine scores determine the order of this tier. Genome features with better matches are at the top. The score takes into account such things as number and frequency of matching words, stemmed versus unstemmed results, and spacing. Genome features or vocabulary terms with the same score are sorted alphanumerically by symbol. 
 </li>
  
 <li><a id="two_stars"></a><b>Two stars</b>
 A single word or ID in your entry matches the nomenclature or ID of a genome feature, or the ID of a vocabulary term. For example, searching for <i>absent hippocampus CA1 region</i> returns alleles associated with this phenotype term and also returns <i>CA1 carbonic anhydrase 1</i> because CA1 matches the orthologous human gene symbol. 
 </li>
+</ul>
+<p>Within a star tier, a result may be boosted according to:<p>
+<ul>
+ <li>Whether the match is at the start of the string</li>
+ <li>Whether the words in the search string are in the same order (even if interrupted) in the matched string</li>
+ <li>Whether the search string is an exact substring of the matched string</li>
+ <li>Whether the match is to a non-stemmed field (prioritized over <a href="#stem_to">stemmed</a> fields)</li>
+ <li>When matching numbers, whether the whole number matched rather than just a prefix to a number</li>
 </ul>
 </dd>
 <!--6-->
