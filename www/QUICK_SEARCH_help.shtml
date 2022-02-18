@@ -53,7 +53,7 @@ function openHelpWindow(helpFile){
 <hr>
 <h3><a id="purpose"></a>What's the purpose of this tool?</h3>
 <p>The Quick Search tool provides a swift overview of MGI data with linked results to deeper layers of information. <br>
- You can:
+ You can:</p>
 <ul>
   <li>Search for a genome feature by name, symbol, synonym, homolog, allele, or accession ID</li>
   <li>Search using keywords (i.e.: phenotype, disease, GO term, protein motif, anatomy term) or a text phrase</li>
@@ -65,17 +65,32 @@ function openHelpWindow(helpFile){
   <li>Download your results</li>
   <li>Search MGI's web pages including Help, FAQs, reference abstracts, detailed phenotype notes, sequence descriptions, and other text using Google.</li>
 </ul>
-</p>
 
 <h3><a id="options">What are my search options?</a></h3> 
 
-<p>The Quick Search has four search options available through a toggle: 
-<ol>
- <li>The default option searches for Keywords, Symbols, and IDs <i>using an exact phrase</i></li>
- <li>The second option also searches for Keywords, Symbols, and IDs but <i>each "word" is searched separately</i>. You can add quotes to include a phrase search of a portion of the included text.</li>
- <li><i>Mouse Location</i>, searches for markers mapped within designated coordinates using the format: Chr1:194732198-294732198, or a single coordinate: Chr1:194732198.</li>
- <li><i>Human Location</i>, returns the mouse homologs of the human genes within the designated human coordinates.</li>
-</ol>
+<table>
+ <tr>
+  <th>Option</th><th>Comments</th>
+ </tr>
+ <tr>
+  <td><span style="white-space: nowrap">Keywords, Symbols, or IDs (exact phrase)&nbsp;&nbsp;</span></td><td>The default option searches for Keywords, Symbols, and IDs <i>using an exact phrase</i>. An exact match is given a 4-star <a href="#scores">score</a>.</td>
+ </tr>
+  <tr>
+   <td>Keywords, Symbols, or IDs </td><td>This option also searches for Keywords, Symbols, and IDs but each "word" is searched separately. You can add quotes to include a phrase search of a portion of the included text. The <a href="#wildcards">wild card</a>, an asterisk (*), is supported in this search option.</td>
+ </tr>
+  <tr>
+   <td>Mouse Location</td><td>Use the format Chr1:194732198-294732198, or Chr1:194732198 for a single coordinate, or Chr1 for an entire chromosome.</td>
+  </tr>
+  <tr>
+   <td>Human Location</td><td>Use the format Chr1:194732198-294732198 or Chr1 for an entire chromosome. This will return the mouse homologs of the human genes within the designated human coordinates.</td>
+  </tr>
+</table>
+<p>Notes:</p> 
+<ul>
+ <li>If you use a wild card in the exact search option, the search switches to the non-exact option. </li>
+ <li>Similarly, if you enter coordinates in the exact search, the search option switches to the mouse coordinate search.</li>
+ <li>Hyphens and angle brackets are replaced with spaces.</li>
+</ul>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
