@@ -96,9 +96,9 @@ function openHelpWindow(helpFile){
 
 <h3><a id="how_work">How does Quick Search work?</a></h3>
 
-<p>Quick Search attempts to find matches to your input text in several ways:
+<p>For the first 2, non-coordinate, search options, the Quick Search attempts to find matches to your input text in several ways:
 <ul>
-  <li>To find an exact match, the tool uses your entire query phrase, intact, with no additional words.  </li>
+  <li>To find an exact match, the tool uses your entire query phrase, intact.  </li>
   <li>To accommodate lists, the tool searches for individual "words" (IDs, symbols, names, synonyms, and so on).</li>
   <li>To find data that may be related to your search, the tool uses as many of the "words" in your query phrase as possible.</li>
 </ul>
@@ -134,7 +134,7 @@ function openHelpWindow(helpFile){
 </p>
 <p>In your input text, Quick Search:
 <ul>
- <li>recognizes quotation marks</li>
+ <li>recognizes quotation marks (not needed when using the exact phrase search)</li>
   <li>applies stemming</li>
   <li>accepts wild cards for prefix searching.</li>
  </ul>
@@ -376,7 +376,7 @@ Search engine scores determine the order of this tier. Genome features with bett
 A single word or ID in your entry matches the nomenclature or ID of a genome feature, or the ID of a vocabulary term. For example, searching for <i>absent hippocampus CA1 region</i> returns alleles associated with this phenotype term and also returns <i>CA1 carbonic anhydrase 1</i> because CA1 matches the orthologous human gene symbol. 
 </li>
 </ul>
-<p>Within a star tier, a result may be boosted according to:<p>
+<p>Within a star tier, a result may be boosted according to:</p>
 <ul>
  <li>Whether the match is at the start of the string</li>
  <li>Whether the words in the search string are in the same order (even if interrupted) in the matched string</li>
