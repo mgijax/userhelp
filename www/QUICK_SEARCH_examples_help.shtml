@@ -118,7 +118,7 @@ See <a href="ACCESSION_ID_help.shtml" target="_blank">Accession ID types and exa
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="complicated"></a>Can I search using complicated nomenclature, e.g. <i>T(XA1?;InY)8Ei, reciprocal translocation, Chr X and inverted Chr Y, Eicher 8</i>?</h3>
-<p>Quick Search handles special characters such as parentheses, commas, colons, semicolons, dashes, slashes, +/-.  However, the text in this example consists of both the symbol  (<i>T(XA1?;InY)8Ei</i>) and name (<i>reciprocal translocation, Chr X and inverted Chr Y, Eicher 8</i>). Enter either the symbol or the name in the query box. 
+<p>Quick Search handles special characters such as parentheses, commas, colons, semicolons, slashes, +/-.  However, the text in this example consists of both the symbol  (<i>T(XA1?;InY)8Ei</i>) and name (<i>reciprocal translocation, Chr X and inverted Chr Y, Eicher 8</i>). Enter either the symbol or the name in the query box. 
 If you want an exact match on the name, use the exact phrase option or enclose the phrase in quotes.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
@@ -193,7 +193,7 @@ If you want an exact match on the name, use the exact phrase option or enclose t
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="mistype"></a>Does Quick Search offer an alternative spelling if I mistype something?</h3>
-<p>No. However, at the top of the Quick Search Results, anything that it does not find is highlighted in red, next to <i>See Details for this Search</i>. Frequently, this is a clue that a term is misspelled.
+<p>No.
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
@@ -261,7 +261,7 @@ See <a href="http://en.wikipedia.org/wiki/Stop_words" target="_blank">stop words
 <table>
   <tr><th>To find&hellip;</th><th>For example&hellip;</th><th>Look here</th></tr>
   <tr><td>An overview of MGI data</td><td>lists of all MGI markers, sequence data, mammalian orthology, gene ontology, strains &amp; polymorphisms, gene expression, alleles and phenotypes, nomenclature, references, clone collections</td><td><a href="<!--#include file="include/ftp_url.html" -->reports/index.html" target="_blank">MGI Data and Statistical Reports</a></td></tr>
-  <tr><td>MGI query forms &amp; other searches</td><td width="55%">Genes, Genome Features &amp; Maps; Phenotypes, Alleles &amp; Disease Models; Gene Expression; GO Functional annotations; Strains, SNPs &amp; Polymorphisms; Mammalian Orthology; Sequences; Probes &amp; Clones; References; Vocabularies; and more</td><td>
+  <tr><td>MGI query forms &amp; other searches</td><td width="55%">Genes, Genome Features &amp; Maps; Phenotypes, Alleles &amp; Disease Models; Gene Expression; GO Functional annotations; Strains, SNPs &amp; Polymorphisms; Mammalian Orthology; Sequences; References; Vocabularies; and more</td><td>
 <a href="<!--#include file='include/wi_url.html'-->menus/allsearch.shtml" target="_blank">All Search Tools</a></td></tr>
   <tr><td>Nomenclature</td><td>symbols, names, synonyms for mouse genes,  genome features, orthologs, alleles, mutations</td><td>
 <a href="<!--#include file='include/mgihome_url.html'-->homepages/genes.shtml" target="_blank">Genes, Genome Features &amp; Maps</a><br>
@@ -273,7 +273,7 @@ See <a href="http://en.wikipedia.org/wiki/Stop_words" target="_blank">stop words
   <tr><td>Functional annotations for mouse gene products</td><td>GO:0004699<br>calcium-independent protein kinase C activity<br>regulation of signal transduction </td><td>
 <a href="<!--#include file='include/fewi_url.html'-->vocab/gene_ontology" target="_blank">GO Browser</a></td></tr>
   <tr><td>Protein domains</td><td>IPR016243<br>Immunoglobulin-like fold<br>Tyrosine-protein kinase, CSF-1/PDGF receptor<br>
-Protein kinase ATP binding, conserved site</td><td><a href="<!--#include file="include/ftp_url.html" -->reports/MGI_InterProDomains.sql.rpt" target="_blank">Interpro IDs and domain names</a> (MGI data report) or <br>EBI's <a href="http://www.ebi.ac.uk/interpro/" target="_blank">InterPro</a> database </td></tr>   
+Protein kinase ATP binding, conserved site</td><td> EBI's <a href="http://www.ebi.ac.uk/interpro/" target="_blank">InterPro</a> database </td></tr>   
   <tr><td>Annotated phenotype data (terms, definitions and term relationships in a DAG)</td><td>cellular phenotype<br>               
  embryogenesis phenotype <br>homeostasis/metabolism phenotype<br>lethality-postnatal</td><td>
 <a href="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype Browser</a></td></tr>   
