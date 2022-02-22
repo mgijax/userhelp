@@ -267,7 +267,7 @@ function openHelpWindow(helpFile){
 <h3><a id="summary"></a>About Quick Search Results&hellip;</h3>
 <p>
 <table>
- <tr><td>Sections:&nbsp;&nbsp;<a href="#genome_features">Genome Features</a> | <a href="#alleles">Alleles</a> | <a href="#vocabulary">Vocabulary Terms</a> |  <a href="#strains">Strains and Stocks</a> | <a href="#other_by_ID">Other Results by ID</a> |  <a href="#google">Search MGI with Google</a><br>Columns :&nbsp;&nbsp;&nbsp;<a href="#scores">Score</a> |  <a href="#best_match">Best Match</a><br>Other information:&nbsp;&nbsp;&nbsp; <a href="#see_details">See Details for this search</a> | <a href="#welcome">Your Input Welcome</a></td></tr>
+ <tr><td>Tabs:&nbsp;&nbsp;<a href="#genome_features">Genome Features</a> | <a href="#alleles">Alleles</a> | <a href="#vocabulary">Vocabulary Terms</a> |  <a href="#strains">Strains and Stocks</a> | <a href="#other_by_ID">Other Results by ID</a>  <br>Columns :&nbsp;&nbsp;&nbsp;<a href="#scores">Score</a> |  <a href="#best_match">Best Match</a><br>Other information:&nbsp;&nbsp;&nbsp;   <a href="#google">Search MGI with Google</a> | <a href="#welcome">Your Input Welcome</a></td></tr>
   </table>
 
 <p>The Quick Search Results include lists of:
@@ -326,7 +326,7 @@ function openHelpWindow(helpFile){
 </dd>
 
 <dt><a id="vocabulary"></a><b>Vocabulary Terms</b></dt>
-<dd>This area of <b>Quick Search Results</b> identifies and gives the best reason for any matches found in the MGI vocabularies (DO, GO, EMAPA, MP, InterPro, OMIM, PIRSF), provides a link (when available) to that term in the given vocabulary, and to any associated MGI data (when available). </dd>
+<dd>This tab of <b>Quick Search Results</b> identifies and gives the best reason for any matches found in the MGI vocabularies (DO, GO, EMAPA, MP, InterPro, OMIM, PIRSF), provides a link (when available) to that term in the given vocabulary, and to any associated MGI data (when available). </dd>
 <dd>Use the <b>Vocabulary Terms </b> section to:<br>
    <ul>
      <li>learn MGI's official terms</li>
@@ -361,7 +361,7 @@ These results can be downloaded as a text or spreadsheet file.
 <blockquote>
 <dl>
  <dt><a id="scores"></a><b>Score</b></dt>
-<dd>Results are grouped into tiers and scored within these tiers by best match using a designation of four stars, three stars, two stars, or one star.</dd>
+<dd>Results are grouped into tiers and scored within these tiers by best match using a designation of four stars, three stars or two stars.</dd>
 <dd>
 <ul>
 <li><a id="four_stars"></a><b>Four stars</b>
@@ -371,7 +371,7 @@ Search engine scores determine the order of this tier. Genome features with bett
 </li>
  
 <li><a id="two_stars"></a><b>Two stars</b>
-A single word or ID in your entry matches the nomenclature or ID of a genome feature, or the ID of a vocabulary term. For example, searching for <i>absent hippocampus CA1 region</i> returns alleles associated with this phenotype term and also returns <i>CA1 carbonic anhydrase 1</i> because CA1 matches the orthologous human gene symbol. 
+A single word or ID in your entry matches the nomenclature or ID of a genome feature, or the ID of a vocabulary term.  
 </li>
 </ul>
 <p>Within a star tier, a result may be boosted according to:</p>
@@ -395,18 +395,6 @@ A single word or ID in your entry matches the nomenclature or ID of a genome fea
 <dl>
 <dt><b>Search MGI with Google</b></dt>
 <dd>See: <a href="#google">What is Search MGI with Google useful for?</a>.</dd>
-<dt><a id="see_details"></a><b>See Details for this Search</b></dt>
-<dd>Click to see a brief summary of how Quick Search performed this query. Some or all of the following appear:
-<ul>
-  <li>a list of what it tried to match (e.g.  TS12, dysplasia, OTTMUSG00000015949)</li>
-  <li>what words it stemmed to root words (e.g.  <i>metabolism</i> is stemmed to <i>metabol-</i> so that additional material is matched).</li>
-  <li>words, numbers, or letters excluded from this search (e.g.  stop words, numbers 0-99, and single alpha characters with non-relevant results)</li>
-   <li>wild card errors (e.g.  only acceptable at the end of a term or symbol <i>unless</i> part of a gene name)</li>
-</ul>
-</dd>
-<dd>Terms that Quick Search cannot find appear (in red) next to <i>See Details&hellip;</i> Frequently, this is a clue that a term is misspelled. A message also appears when Quick Search finds no matches whatsoever on your word(s) or phrase(s).
-</dd>
-<dd><b>Note:</b> Some mistakes in your entry text, such as an odd number of quotation marks, more than 32 words, or no search terms submitted, result in the appearance of a system message to that effect. Click <b>OK</b>, resolve the issue, and search again.</dd>
 
 <!--8-->
 <dt><b><a id="welcome"></a>Your Input Welcome</b></dt>
