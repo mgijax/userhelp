@@ -237,10 +237,8 @@ function openHelpWindow(helpFile){
 <tr><td><a id="how_many"></a>Number of words allowed</td><td>We recommend not using more than 32 words.</td>
 <td>Use the <a href="<!--#include file='include/fewi_url.html'-->batch">MGI Batch Query</a> for longer lists of genome features or accession IDs.</td></tr>
 
-<tr><td><a id="special_characters">Other special characters</a></td><td>Quick Search treats ampersands, embedded asterisks, parentheses, slashes, etc. as valid characters. The complete list is ~!@#$%^&amp;*(_)+={}\|[]:;'?/  Angle brackets and hyphens are replaced with spaces.</td><td>
+<tr><td><a id="special_characters">Other special characters</a></td><td>Quick Search replaces angle brackets and hyphens with spaces. It treats ampersands, embedded asterisks, parentheses, slashes, etc. as valid characters. The complete list is ~!@#$%^&amp;*(_)+={}\|[]:;'?/  </td><td>
 <ul>
- <li>RP23-100A23</li>
- <li>Hprt&lt;1tm1(UAS-Bmp4)Bhr&gt;</li>
  <li>Tg(Igh-6-cre/ESR1)30Afst</li>
  <li>NM_001122899</li>
  <li>Gt(pU21)103Imeg</li>
@@ -322,7 +320,7 @@ function openHelpWindow(helpFile){
 <dd><ul>
  <li>The results display the allele type (<a href="ALLELE_phenotypic_categories_help.shtml#method" target="_blank">see all allele types</a>), official allele symbol and name, the genome location of the associated gene, and <a href="#best_match">best match</a>.</li>
  <li>You can filter your results by feature type and phenotype and disease annotations.</li>
- <li>You have the option of forwarding the genes of the to the Batch Query or via a toggle, the alleles to MouseMine.</li>
+ <li>You have the option of forwarding the genes of the alleles to the Batch Query or via a toggle, the alleles to MouseMine.</li>
  <li>You can also download your results as a text or spreadsheet file.</li>
 </ul>
 </dd>
