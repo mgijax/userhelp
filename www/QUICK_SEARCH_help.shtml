@@ -44,6 +44,7 @@ function openHelpWindow(helpFile){
    <li><a href="#box">What are the rules for entering text in the Quick Search box?</a></li>
    <li><a href="#google">What is Search MGI with Google useful for?</a></li>
    <li><a href="#summary">About Quick Search Results (Genome Features, Vocabulary Terms, Other Results by ID, ...)</a></li>
+   <li><a href="#filter">Can I filter my search results?</a></li> 
    <li><a href="#textfile">Can I export my search results?</a></li>
    <li><a href="#moredata">Can I forward my results to batch query tools to access additional information?</a></li>
    <li><a href="#advantage">When should I use Quick Search vs. an individual MGI query form?</a></li>
@@ -307,7 +308,7 @@ function openHelpWindow(helpFile){
   <li><b>Chr </b>(chromosome), <b>Location</b> (genome coordinates), and <b>Str</b> (strand, + or -) appear for results with this data. Offsets (cM position or cytogenetic band) appear, if available, when there is no chromosome data.</li>
   <li>The <a href="#best_match">Best Match</a> column lists one of the best reasons why an item is returned.</li>
   <li>For large numbers of results, you can paginate through the full list of all matching genome features.</li>
-  <li>You can filter your results by feature type, GO terms, expression, and phenotype and disease annotations.</li>
+  <li>You can <a href="#filter">filter</a> your results by feature type, GO terms, expression, and phenotype and disease annotations.</li>
   <li>You have the option of forwarding your results to the MGI Batch Query, the GXD Batch Search, or MouseMine to obtain additional data associated with the features (see <a href="BATCH_help.shtml" target="_blank">Using the MGI Batch Query</a>, <a href="EXPRESSION_batch_help.shtml" target="_blank">Using the Gene Expression Batch Search</a>, and <a href="MouseMine_help.shtml" target="_blank">Using the MouseMine Data Warehouse</a>).</li>
   <li>You can download your results as a text or spreadsheet file.</li>
  </ul>
@@ -319,7 +320,8 @@ function openHelpWindow(helpFile){
 <dt><a id="alleles"></a><b>Alleles</b></dt>
 <dd><ul>
  <li>The results display the allele type (<a href="ALLELE_phenotypic_categories_help.shtml#method" target="_blank">see all allele types</a>), official allele symbol and name, the genome location of the associated gene, and <a href="#best_match">best match</a>.</li>
- <li>You can filter your results by feature type and phenotype and disease annotations.</li>
+ <li>Within a given score, targeted alleles are returned before transgenes. Also alleles existing as only cell lines are returned last within a given star rating.</li>
+ <li>You can <a href="#filter">filter</a> your results by feature type and phenotype and disease annotations. Phenotype and disease filter values for the allele tab exclude all alleles with one or more of the following attributes: inducible, recombinase, reporter, transposase, and transactivator (as they are not directly responsible for the observed phenotype or disease).</li>
  <li>You have the option of forwarding the genes of the alleles to the Batch Query or via a toggle, the alleles to MouseMine.</li>
  <li>You can also download your results as a text or spreadsheet file.</li>
 </ul>
@@ -333,7 +335,7 @@ function openHelpWindow(helpFile){
      <li>focus on detailed research topics</li>
      <li>explore related research areas</li>
      <li>investigate alternative paths to data</li>
-     <li>filter your results by high level vocabulary terms for Gene Ontology (GO: Molecular Function, Biological Process, and Cellular Component), Expression, Phenotype, and Disease</li> 
+     <li><a href="#filter">filter</a> your results by high level vocabulary terms for Gene Ontology (GO: Molecular Function, Biological Process, and Cellular Component), Expression, Phenotype, and Disease</li> 
      <li>download your results as a text or spreadsheet file.</li>
    </ul>
 </dd>
@@ -346,14 +348,14 @@ function openHelpWindow(helpFile){
 <dt><a id="strains"></a><b>Strains and Stocks</b></dt>
 <dd><ul>
  <li>The results display the name of the strain/stock, and when available, a link to the IMSR which provides the state of the stock (i.e.: embryo, sperm, live mice), and links to contact the repository of the stock, associated references, and <a href="#best_match">best match</a>.</li>
- <li>You can filter your results by phenotype and disease annotations.</li>
+ <li>You can <a href="#filter">filter</a> your results by phenotype and disease annotations.</li>
  <li>You can download your results as a text or spreadsheet file.</li>
 </ul>
 </dd>
 
 <dt><a id="other_by_ID"></a><b>Other Results by ID</b></dt>
 <dd>If your query contains one or more accession IDs for a non-genome feature or non-vocabulary object, such matches appear in this section. Results are linked to the sequence, orthology relationship, or other accession identifier matching a Quick Search box entry.
-These results can be downloaded as a text or spreadsheet file. 
+These results can be filtered by feature type and downloaded as a text or spreadsheet file. 
 </dd>
 </blockquote>
 
@@ -401,6 +403,16 @@ A single word or ID in your entry matches the nomenclature or ID of a genome fea
 <dd>Click to submit comments or questions about your query to our User Support staff.  They will review them and take appropriate action.<dd>
 </dl>
 </blockquote>
+
+<h3><a id="filter">Can I filter my search results?</a></h3> 
+
+<ul>
+<li>For a given tab, the filter options are always displayed, even if no filter values are present for a particular result set.</li>
+<li>The filters are applied to the specific selected tab, and do not affect the other tabs' results. </li>
+<li>Filters for the vocabulary terms are limited to selected high level terms.</li> 
+<li>Check the boxes of interest and click Filter to reduce your results to only those annotated to the checked items.</li> 
+<li>Filters that have been applied are displayed below the buttons. You can remove them by individually clicking on them.</li>
+</ul>
 
 <h3><a id="google">What is Search MGI with Google useful for?</a></h3> 
 <p>When you perform a Quick Search query, your search term also appears in the bottom section of your results, the <b>Search MGI with Google</b> box. You can use it to locate MGI web pages containing this (or any other) term(s). The search extends to the following types of MGI web page content:</p>
