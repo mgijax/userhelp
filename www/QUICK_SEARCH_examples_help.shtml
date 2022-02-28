@@ -149,7 +149,7 @@ If you want an exact match on the name, use the exact phrase option or enclose t
 <table>
 <tr><th>Acronym</th><th>Ontology</th><th>Quick Search looks for&hellip;</th></tr>
 <tr><td>EMAPA</td><td>Mouse Developmental Anatomy Ontology<br>
-<a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a></td><td>Mouse anatomical terms</td></tr>
+<a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank"> (Browser)</a></td><td>Mouse anatomical terms</td></tr>
 <tr><td>GO</td><td>Gene Ontology<br>
 <a href="<!--#include file='include/fewi_url.html'-->vocab/gene_ontology" target="_blank">GO Browser</a></td>
 <td>Function including molecular function, biological process, and cellular component</td></tr>
@@ -181,7 +181,7 @@ If you want an exact match on the name, use the exact phrase option or enclose t
 
 <h3><a id="multi_word"></a>Are multi-word phrases allowed?</h3>
 
-<p>Yes, though recommend using no more than 32 words.
+<p>Yes, though we recommend using no more than 32 words.
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
