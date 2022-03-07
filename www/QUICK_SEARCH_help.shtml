@@ -57,9 +57,9 @@ function openHelpWindow(helpFile){
  You can:</p>
 <ul>
   <li>Search for a genome feature by name, symbol, synonym, homolog, allele, or accession ID</li>
-  <li>Search using keywords (i.e.: phenotype, disease, GO term, protein motif, anatomy term) or a text phrase</li>
+  <li>Search using keywords (i.e., phenotype, disease, GO term, protein motif, anatomy term) or a text phrase</li>
   <li>Search with genome coordinates for mouse or human</li>
-  <li>View the <a href="#best_match">best matches</a>, separated into <a href="#genome_features">Genome Features</a>, <a href="#alleles">Alleles</a>, <a href="#vocabulary">Vocabulary Terms</a>, <a href="#strains">Strains and Stocks</a>, and <a href="#other_by_ID">Other Results by ID</a> (e.g. sequences, orthologies, references)</li>
+  <li>View the <a href="#best_match">best matches</a>, separated into <a href="#genome_features">Genome Features</a>, <a href="#alleles">Alleles</a>, <a href="#vocabulary">Vocabulary Terms</a>, <a href="#strains">Strains and Stocks</a>, and <a href="#other_by_ID">Other Results by ID</a> (e.g., sequences, orthologies, references)</li>
   <li>Follow links to MGI data: genes, alleles, strains, vocabulary terms, other objects</li>
   <li>Filter your search results by feature type, GO terms, expression, and phenotype and disease annotations</li>
   <li>Forward lists of features to Batch Query tools or to MouseMine (to access and download additional MGI data such as genome location, phenotype, expression, genome attributes)</li>
@@ -68,7 +68,7 @@ function openHelpWindow(helpFile){
 </ul>
 
 <h3><a id="options">What are my search options?</a></h3> 
-
+<p>A toggle permits 4 options:</p>
 <table>
  <tr>
   <th>Option</th><th>Comments</th>
@@ -107,7 +107,7 @@ function openHelpWindow(helpFile){
 <p>These three approaches compare your input text to:</p>
  <ul>
   <li>individual mouse genome features by name (including mutant cell line name), symbol, synonym, homolog, allele, accession ID</li>
-  <li>individual nomenclature for mouse homologs (from the Alliance of Genome Resources) for human, rat, and zebrafish</li>
+  <li>individual nomenclature for mouse homologs (from the <a href="https://www.alliancegenome.org" target="_blank">Alliance of Genome Resources</a>) for human, rat, and zebrafish</li>
   <li>individual vocabulary terms, synonyms, and definitions in six of MGI's controlled vocabularies:
     <ul>
      <li>Gene Ontology (GO)</li>
@@ -121,7 +121,7 @@ function openHelpWindow(helpFile){
   </li>
   <li>accession IDs from MGI and other data resources (e.g., Entrez Gene, NCBI, Ensembl, RefSeq) for many types of data objects
    <ul>
-    <li>genome features (e.g., gene, QTL, Heritable Phenotype Marker, miRNA gene)</li>
+    <li>genome features (e.g., gene, QTL, heritable phenotypic marker, miRNA gene)</li>
     <li>alleles</li>
 	<li>mutant cell lines</li>
     <li>sequences</li>
@@ -140,12 +140,12 @@ function openHelpWindow(helpFile){
   <li>accepts wild cards for prefix searching.</li>
  </ul>
 </p>
-<p>Quick Search returns any matches in five tabs on a result page:</p>
+<p>Quick Search returns any matches in five tabs on a results page:</p>
   <ul>
-   <li><b>Genome Features</b> - returns all that match, ordered by: <a href="#best_match">best match</a>.</li>
-   <li><b>Alleles</b> - returns all that match, ordered by: <a href="#best_match">best match</a>.</li>
-   <li><b>Vocabulary Terms</b> -  returns all that match, ordered by: <a href="#best_match">best match</a>.</li>
-   <li><b>Strains and Stocks</b> - returns all that match, ordered by: <a href="#best_match">best match</a>.</li>      
+   <li><b>Genome Features</b> - returns all that match, ordered by <a href="#best_match">Best Match</a>.</li>
+   <li><b>Alleles</b> - returns all that match, ordered by <a href="#best_match">Best Match</a>.</li>
+   <li><b>Vocabulary Terms</b> -  returns all that match, ordered by <a href="#best_match">Best Match</a>.</li>
+   <li><b>Strains and Stocks</b> - returns all that match, ordered by <a href="#best_match">Best Match</a>.</li>      
    <li><b>Other Results by ID</b>  - returns matches for anything other than genome features and vocabularies (i.e., no text is considered in matching).</li>
   </ul> 
    
@@ -178,7 +178,7 @@ function openHelpWindow(helpFile){
 
 <p>Entries can be:
        <ul>
-         <li>All of one type  (e.g. identifiers such as accession IDs/Entrez Gene IDs; gene or allele symbols/synonyms/homologs)</li>
+         <li>All of one type  (e.g., identifiers such as accession IDs/Entrez Gene IDs; gene or allele symbols/synonyms/homologs)</li>
          <li>A mixed list of IDs and text (e.g. accession ID, gene synonym, allele symbol, 
 <a href="http://en.wikipedia.org/wiki/Keyword_(Internet_search)">keywords</a> from an MGI vocabulary)</li>
 </ul>
@@ -319,7 +319,7 @@ function openHelpWindow(helpFile){
 
 <dt><a id="alleles"></a><b>Alleles</b></dt>
 <dd><ul>
- <li>The results display the allele type (<a href="ALLELE_phenotypic_categories_help.shtml#method" target="_blank">see all allele types</a>), official allele symbol and name, the genome location of the associated gene, and <a href="#best_match">best match</a>.</li>
+ <li>The results display the allele type (<a href="ALLELE_phenotypic_categories_help.shtml#method" target="_blank">see all allele types</a>), official allele symbol and name, the genome location of the associated gene, and <a href="#best_match">Best Match</a>.</li>
  <li>Within a given score, targeted alleles are returned before transgenes. Also alleles existing as only cell lines are returned last within a given star rating.</li>
  <li>You can <a href="#filter">filter</a> your results by feature type and phenotype and disease annotations. Phenotype and disease filter values for the allele tab exclude all alleles with one or more of the following attributes: inducible, recombinase, reporter, transposase, and transactivator (as they are not directly responsible for the observed phenotype or disease).</li>
  <li>You have the option of forwarding the genes of the alleles to the Batch Query or via a toggle, the alleles to MouseMine.</li>
@@ -347,7 +347,7 @@ function openHelpWindow(helpFile){
 
 <dt><a id="strains"></a><b>Strains and Stocks</b></dt>
 <dd><ul>
- <li>The results display the name of the strain/stock, and when available, a link to the IMSR which provides the state of the stock (i.e.: embryo, sperm, live mice), and links to contact the repository of the stock, associated references, and <a href="#best_match">best match</a>.</li>
+ <li>The results display the name of the strain/stock, and when available, a link to the <a href="http://www.findmice.org/index.jsp" target="_blank">IMSR</a> which provides the state of the stock (i.e., embryo, sperm, live mice), and links to contact the repository of the stock, associated references, and <a href="#best_match">Best Match</a>.</li>
  <li>You can <a href="#filter">filter</a> your results by phenotype and disease annotations.</li>
  <li>You can download your results as a text or spreadsheet file.</li>
 </ul>
@@ -363,7 +363,7 @@ These results can be filtered by feature type and downloaded as a text or spread
 <blockquote>
 <dl>
  <dt><a id="scores"></a><b>Score</b></dt>
-<dd>Results are grouped into tiers and scored within these tiers by best match using a designation of four stars, three stars or two stars.</dd>
+<dd>Results are grouped into tiers and scored within these tiers by Best Match using a designation of four stars, three stars or two stars.</dd>
 <dd>
 <ul>
 <li><a id="four_stars"></a><b>Four stars</b>
