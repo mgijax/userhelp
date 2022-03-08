@@ -273,7 +273,8 @@ function openHelpWindow(helpFile){
 
 <p>The Quick Search Results include lists of:
 <ul>
-  <li>genome features (e.g. genes or alleles) that match your query</li>
+  <li>genome features that match your query</li>
+  <li>alleles that match your query</li>
   <li>vocabulary terms that match your query</li>
   <li>strains and stocks that match your query</li>
   <li>other results with an ID that matches query</li>
@@ -283,11 +284,11 @@ function openHelpWindow(helpFile){
 <p>From the Quick Search Results, you can:
 <ul>
   <li>paginate through the results</li>
-  <li>depending on the tab, forward results to the MGI/GXD Batch Query tools or to MouseMine</li>
-  <li>search MGI using Google (this box is pre-populated with your search word or phrase)</li>
   <li>search again using the same word or phrase or modify your text</li>
   <li>reset the query (and type in new words or phrases for a new search)</li>
   <li>review the details for your search.</li>
+  <li>depending on the tab, forward results to the MGI/GXD Batch Query tools or to MouseMine</li>
+  <li>search MGI using Google (this box is pre-populated with your search word or phrase)</li>
 </ul>
 </p>
 
@@ -308,7 +309,7 @@ function openHelpWindow(helpFile){
   <li><b>Chr </b>(chromosome), <b>Location</b> (genome coordinates), and <b>Str</b> (strand, + or -) appear for results with this data. Offsets (cM position or cytogenetic band) appear, if available, when there is no chromosome data.</li>
   <li>The <a href="#best_match">Best Match</a> column lists one of the best reasons why an item is returned.</li>
   <li>For large numbers of results, you can paginate through the full list of all matching genome features.</li>
-  <li>You can <a href="#filter">filter</a> your results by feature type, GO terms, expression, and phenotype and disease annotations.</li>
+  <li>You can <a href="#filter">filter</a> your results by feature type, GO terms (molecular function, biological process, cellular component), expression, and phenotype and disease annotations.</li>
   <li>You have the option of forwarding your results to the MGI Batch Query, the GXD Batch Search, or MouseMine to obtain additional data associated with the features (see <a href="BATCH_help.shtml" target="_blank">Using the MGI Batch Query</a>, <a href="EXPRESSION_batch_help.shtml" target="_blank">Using the Gene Expression Batch Search</a>, and <a href="MouseMine_help.shtml" target="_blank">Using the MouseMine Data Warehouse</a>).</li>
   <li>You can download your results as a text or spreadsheet file.</li>
  </ul>
@@ -320,8 +321,8 @@ function openHelpWindow(helpFile){
 <dt><a id="alleles"></a><b>Alleles</b></dt>
 <dd><ul>
  <li>The results display the allele type (<a href="ALLELE_phenotypic_categories_help.shtml#method" target="_blank">see all allele types</a>), official allele symbol and name, the genome location of the associated gene, and <a href="#best_match">Best Match</a>.</li>
- <li>Within a given score, targeted alleles are returned before transgenes. Also alleles existing as only cell lines are returned last within a given star rating.</li>
- <li>You can <a href="#filter">filter</a> your results by feature type and phenotype and disease annotations. Phenotype and disease filter values for the allele tab exclude all alleles with one or more of the following attributes: inducible, recombinase, reporter, transposase, and transactivator (as they are not directly responsible for the observed phenotype or disease).</li>
+ <li>Alleles existing as only cell lines are returned last within a given star rating.</li>
+ <li>You can <a href="#filter">filter</a> your results by feature type and phenotype and disease annotations. <!-- Phenotype and disease filter values for the allele tab exclude all alleles with one or more of the following attributes: inducible, recombinase, reporter, transposase, and transactivator (as they are not directly responsible for the observed phenotype or disease). --> Note that MGI doesn't annotate phenotype and disease terms to genes or even alleles. The terms are assigned to genotypes&mdash;the combination of alleles and strain background.</li>
  <li>You have the option of forwarding the genes of the alleles to the Batch Query or via a toggle, the alleles to MouseMine.</li>
  <li>You can also download your results as a text or spreadsheet file.</li>
 </ul>
