@@ -348,7 +348,7 @@ function openHelpWindow(helpFile){
 
 <dt><a id="strains"></a><b>Strains and Stocks</b></dt>
 <dd><ul>
- <li>The results display the name of the strain/stock, and when available, a link to the <a href="http://www.findmice.org/index.jsp" target="_blank">IMSR</a> which provides the state of the stock (i.e., embryo, sperm, live mice), and links to contact the repository of the stock, associated references, and <a href="#best_match">Best Match</a>.</li>
+ <li>The results display the name of the strain/stock, and when available, a link to the <a href="http://www.findmice.org/index.jsp" target="_blank">IMSR</a> (International Mouse Strain Resource) which provides the state of the stock (i.e., embryo, sperm, live mice), and links to contact the repository of the stock, associated references, and <a href="#best_match">Best Match</a>.</li>
  <li>You can <a href="#filter">filter</a> your results by phenotype and disease annotations.</li>
  <li>You can download your results as a text or spreadsheet file.</li>
 </ul>
@@ -370,7 +370,7 @@ These results can be filtered by feature type and downloaded as a text or spread
 <li><a id="four_stars"></a><b>Four stars</b>
 There is an exact match between what you entered and an ID, symbol, name, synonym, or vocabulary item in MGI. </li>
 <li><a id="three_stars"></a><b>Three stars</b> <br>All the words you entered are present in the matched item, but the matched item also contains additional words. <br>
-Search engine scores determine the order of this tier. Genome features with better matches are at the top. The score takes into account such things as number and frequency of matching words, stemmed versus unstemmed results, and spacing. Genome features or vocabulary terms with the same score are sorted alphanumerically by symbol. 
+Search engine scores determine the order of this tier. Results with better matches are at the top. The score takes into account such things as number and frequency of matching words, stemmed versus unstemmed results, and spacing. Results with the same score are sorted alphanumerically. 
 </li>
  
 <li><a id="two_stars"></a><b>Two stars</b>
@@ -388,8 +388,8 @@ A single word or ID in your entry matches the nomenclature or ID of a genome fea
 </dd>
 <!--6-->
 <dt><a id="best_match"></a><b>Best Match</b></dt>
-<dd>In the Genome Features section, the <b>Best Match</b> column displays the nomenclature, ID, or vocabulary terms associated with each genome feature that is the closest match to your query. Sometimes, a Best Match vocabulary term apparently has no matching text; this happens when a higher level, "parent" term matches your query. The displayed term is the more specific "child" term directly associated with the genome feature.</dd>
-<dd>In the Vocabulary Terms section, this column displays the text element that is the closest match to the query. This may be the term itself, a synonym, or part of the term's definition. Where the text is lengthy, only the beginning of the best matching element appears.</dd>
+<dd>The Best Match column displays the nomenclature, vocabulary terms, strains and stocks, or ID(s) that is the closest match to your query. Sometimes, a Best Match vocabulary term apparently has no matching text; this happens when a higher level, "parent" term matches your query. The displayed term is the more specific "child" term directly associated with the genome feature.</dd>
+<dd>In the Vocabulary Terms section, this column displays the text element that is the closest match to the query. This may be the term itself, a synonym, or part of the term's definition. </dd>
 </dl>
 
 </blockquote>
@@ -407,11 +407,15 @@ A single word or ID in your entry matches the nomenclature or ID of a genome fea
 
 <h3><a id="filter">Can I filter my search results?</a></h3> 
 
+<p>Search results are automatically filtered into tabs. Within a given tab, further filtering options are available.</p>
+
 <ul>
-<li>For a given tab, the filter options are always displayed, even if no filter values are present for a particular result set.</li>
+<li>The filter options are always displayed, even if no filter values are present for a particular result set.</li>
 <li>The filters are applied to the specific selected tab, and do not affect the other tabs' results. </li>
 <li>Filters for the vocabulary terms are limited to selected high level terms.</li> 
-<li>Check the boxes of interest and click Filter to reduce your results to only those annotated to the checked items.</li> 
+<li>Check the boxes of interest and click Filter to reduce your results to only those annotated to the checked items.</li>
+<li>Multiple filters can be applied. If you choose more than one option within a filter (e.g., two terms within the phenotype filter), the results returned include ORed results. If you choose options within two or more filters, the results returned are ANDed.</li> 
+<li>When a filter has been applied to a tab, the text color changes to red and goes back to normal (gray) when the filter is removed.</li> 
 <li>Filters that have been applied are displayed below the buttons. You can remove them by individually clicking on them.</li>
 </ul>
 
