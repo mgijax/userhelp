@@ -55,7 +55,7 @@ function openHelpWindow(helpFile){
 
 <h3><a id="whatfind"></a>What can I use the Recombinase (cre) Activity Search to find?</h3>
 
-<p>You can find Recombinase-carrying alleles by searching for tissues where recombinase activity was assayed or detected, and/or by the promoter/driver used. Search results include raw recombinase activity data and images, allele details and information about the availability of mouse strains and/or cell lines of the alleles in the International Mouse Strain Resource (IMSR).</p> 
+<p>You can find Recombinase-carrying alleles by searching for tissues where recombinase activity was detected or not detected, and/or by the promoter/driver used. Search results include raw recombinase activity data and images, allele details and information about the availability of mouse strains and/or cell lines of the alleles in the International Mouse Strain Resource (IMSR).</p> 
 
 <p>Cre is currently the most commonly used recombinase. It catalyzes site-specific recombination of DNA between loxP sites, and enables conditional mutagenesis, where specific genes can be knocked-out in particular tissues and at particular developmental time points. Other non-cre recombinases (such as Flp, Dre, phiC31, etc.) and various inducible forms of recombinases have been and are being developed. The Cre Portal contains curated data about all recombinase-containing transgenes and knock-ins developed in mice to provide a comprehensive resource delineating known activity patterns and allowing users to find relevant mouse resources for their studies.</p>
 
@@ -75,16 +75,18 @@ function openHelpWindow(helpFile){
 <table>
 <TR> <TH>Field</TH> <TH>Description</TH> </TR>
 <tr><th><a id="Ranatomical_structure"></a><b>Anatomical Structure</b></th>
-<td>The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. Begin typing a term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. Structures that are greyed out are not currently associated with recombinase activity data.
+<td>The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. Begin typing a term of interest and an autocomplete list activates on the second character. The list shows all the anatomy terms and their synonyms that match your search characters. Structures that are grayed out are not currently associated with recombinase activity data.
 
 <p>The Anatomical Dictionary is organized as a hierarchy of structures. The search includes substructures. This means that if you search for activity in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon. </p>
 
 <p>If you are unsure of the most appropriate structural term to use, browse the
 <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>.</p>
 
-<p>The default search for this field is to find tissues where recombinase activity was assayed. To search for tissues where activity was detected, toggle "detected" to "assayed."</p>
+<p>The default search for this field is to find tissues where recombinase activity was detected. For each structure, radio buttons allow you to select "Detected" or "Not detected." Not detected includes results that were not assayed in that tissue. </p>
 
-<p>To find tissues where recombinase activity was detected only in that tissue, check the box in front of "and nowhere else." </p>
+<p>Click the "Add structure" button to query with additional structures. For example, you can search for recombinase activity that has been detected in both brain and spinal cord, or in one structure and not the other.<p>
+
+<p>To find tissues where recombinase activity was detected only in specific tissues, check the box in front of "and nowhere else." This option is only available when all queried tissues have the Detected option selected. </p>
 
 </td>
 </tr>
