@@ -69,7 +69,7 @@ function openHelpWindow(helpFile){
 </ul>
 
 <h3><a id="access"></a>When does a Recombinase Alleles - Tissue Summary appear?</h3>
-<p>The Recombinase Alleles Summary presents a table of transgenic and targeted knock-out recombinase alleles contained in the MGI database. It appears when you select either a driver or enter an anatomical structure from the boxes on the <a href="http://www.creportal.org" target="_blank">Recombinase (cre) Activity</a> page and click <b>Search</b>.</p>
+<p>The Recombinase Alleles Summary presents a table of transgenic, and targeted or endonuclease-mediated knock-in recombinase alleles contained in the MGI database. It appears when you select either a driver or enter an anatomical structure from the boxes on the <a href="http://www.creportal.org" target="_blank">Recombinase (cre) Activity</a> page and click <b>Search</b>.</p>
 
 <h3><a id="contain"></a>What should show up on this page?</h3>
 <p>The table resulting from a Recombinase Allele Activity query contains a row for either:
@@ -80,7 +80,7 @@ function openHelpWindow(helpFile){
 </p>
 <p>The data on the Recombinase Alleles - Tissue Activity Summary are information about assays demonstrating the activity of the recombination allele in particular tissues, at or prior to the time when the mouse tissue is assayed. This is referred to as <i>tissue activity</i> or <i>recombinase activity</i> data.
 </p>
-<p>Although all data are captured in MGI's database as expression assays, the assays of type <i>recombinase reporter</i> are more correctly referred to as demonstrating <i>activity</i> of the recombinase allele rather than its <i>expression</i>. This is because tissues where the assay shows recombinase allele activity may be descendents of the tissue (as development and cell differentiation continues) in which the recombinase allele first began producing its protein (began being expressed).
+<p>Although all data are captured in MGI's database as expression assays, the assays of type <i>recombinase reporter</i> are more correctly referred to as demonstrating <i>activity</i> of the recombinase allele rather than its <i>expression</i>. This is because tissues where the assay shows recombinase allele activity may be descendants of the tissue (as development and cell differentiation continues) in which the recombinase allele first began producing its protein (began being expressed).
 </p>
 <p>Once the recombinase has acted upon the target gene by removing or rearranging part of its sequence, all descendant tissues will carry the recombined target gene. 
 </p>
@@ -132,12 +132,12 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <tr><th class="thleft"> <a id="recomb_data"></a><span style="white-space: nowrap">Recombinase Activity Detected</span></th><td>Information about anatomical systems where recombinase activity data was assayed and detected
 <ul>
   <li>This field will be empty when data showing activity are absent.</li>
-  <li>If you searched for activity assayed in a structure, the relevant high level system(s) will be in bold text.</li>
+  <li>If you searched for activity detected in a structure, the relevant high level system(s) will be in bold text.</li>
   <li>Click the column heading to sort by anatomical system.</li>
 </ul>
-<tr><th class="thleft"><span style="white-space: nowrap">Recombinase Activity Not Detected</span></th><td>Information about anatomical systems where recombinase activity data was assayed and not detected<ul>
+<tr><th class="thleft"><span style="white-space: nowrap">Recombinase Activity Not Detected</span></th><td>Information about anatomical systems where recombinase activity data was activity data was absent (not detected), as well as activity that has not been analyzed or recorded in the database for the specified structure
+<ul>
   <li>This field will be populated only when the absence of activity has been shown.</li>
-  <li>If you searched for activity assayed in a structure, the relevant high level system(s) will be in bold text.</li>
   <li>Click the column heading to sort by anatomical system.</li>
 </ul></td></tr> 
 
