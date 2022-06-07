@@ -96,7 +96,7 @@ In contrast, absent results can only be represented for that structure in the ma
 
 <h3><a id="missing"></a>Why are some alleles not displayed in the matrix?</h3>
 
-<p>Not all recombinase-carrying alleles are displayed in this matrix. Alleles whose tissue activity data has not yet been recorded and those that use non-mouse (orthologous) drivers are omitted. Drivers from species other than mouse will be included in a future database release.</p>
+<p>Not all recombinase-carrying alleles are displayed in this matrix. Alleles whose tissue activity data has not yet been recorded are omitted. </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
