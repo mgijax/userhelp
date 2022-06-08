@@ -214,7 +214,7 @@ Click &#9660; to close the  display.<br>The image that appears is a genome brows
   <li>To expand or collapse  <b>all</b> structures, click  <b>show</b>
 or <b>hide</b> (at the top of the Activity in Systems/Structures column).</li>
   <li>To expand or collapse a <b>single</b> system, click the &#9658; or &#9660; beside it.</li>
-  <li>A colored cell means recombinase activity was assayed. See: <a href="#matrixcolors">What do the colors in a Matrix mean?</a></li>
+  <li>A colored cell means recombinase activity was assayed. Click on a cell to launch a popup window from which you can then access assay details and view images. See also: <a href="#matrixcolors">What do the colors in a Matrix mean?</a></li>
 </ul>
 The age ranges are as follows: 
 	<blockquote>
