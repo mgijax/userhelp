@@ -224,16 +224,17 @@ The age ranges are as follows:
  		<tr><th>Embryonic (E14-21)</th><td>Embryonic age from 14 to 21 days</td></tr>
  		<tr><th>Newborn (P0-3.9)</th><td>Postnatal age from birth to 3.9 days</td></tr>
 		<tr><th>Pre-weaning (P4-21.9)</th><td>Postnatal age from 4 - 21.9 days</td></tr>
-        <tr><th>Post-weaning (22-42.9)</th><td>Postnatal age from 22 - 42.9 days</td></tr>
- 		<tr><th>Adult</th><td>Older than 43 days</td></tr>
+        <tr><th>Post-weaning (P22-42.9)</th><td>Postnatal age from 22 - 42.9 days</td></tr>
+ 		<tr><th>Adult (P>43)</th><td>Older than 43 days</td></tr>
  		<tr><th>Postnatal (age unspecified)</th><td>Details about the exact postnatal age are unknown to us</td></tr>
 		</table>
 	</blockquote></td></tr>
  <tr><td>Driver</td><td>Name of promoter and: 
    <ul>
-    <li>a link to a summary of all recombinase alleles that use the driver gene or an orthologous gene from another species. The species for the driver gene is shown in parenthesis. </li>
+    <li>a link to a summary of all recombinase alleles that use the driver gene or an orthologous gene from another species. </li>
     <li>a link to a Comparative matrix view of recombinase activities. The matrix shows wild-type expression data for the gene and reported recombinase activity for recombinase alleles driven by the gene. 
-    This link will be present only if the allele's driver is a mouse gene and only if we have activity data for alleles with this driver. If this allele has reported activity data, it will be <span style="background-color: #FFFF88">highlighted</span> in the grid column header. If there are no activity data for this allele, it will not be displayed in the grid.</li>
+    This link will be present only if the allele's driver has corresponding mouse gene and only if we have activity data for alleles with this driver. If this allele has reported activity data, it will be  <span style="background-color: #D8BFD8">highlighted</span> in the grid column header. 
+    If there are no activity data for this allele, the link to a Comparative matrix view of recombinase activities will not be shown and it will not be displayed in the grid.</li>
    </ul></td></tr>
  <tr><td>User Notes</td><td>If researchers have submitted additional information to MGI regarding the tissue activity of this allele, this section will be present. Toggle the &#9658; to view the information.</td></tr>
 	</table>

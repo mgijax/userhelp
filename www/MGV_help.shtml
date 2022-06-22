@@ -95,7 +95,7 @@ Note that for mouse, currently only the C57BL/6J annotation is "reference qualit
 
 <h3><a id="sections"></a>How do I use the different sections of the Viewer?</h3>
 
-<p>In the page banner, click on the gear icon to open or close the left hand panel, or type "t" (for "tools"). The MGI logo links to the MGI Home Page and the <span style="font-weight: bold; font-size: 1.2em; color: #352C96;">&#8505;</span> icon links to a pop-up help document. You can also mouse-over icons and features in the the Viewer to get information about their functions. </p>
+<p>In the page banner, click on the gear icon to open or close the left hand panel, or type "t" (for "tools"). The MGI logo links to the MGI Home Page and the <b>?</b> icon links to a pop-up help document. You can also mouse-over icons and features in the the Viewer to get information about their functions. </p>
 
 <p>The page is divided into boxes.</p>
 <ul>
@@ -294,7 +294,7 @@ Note that for mouse, currently only the C57BL/6J annotation is "reference qualit
 <h3><a id="shortcuts"></a>Are there keyboard shortcuts for commands?</h3>
 <p>Some common commands have keyboard shortcuts. If MGV seems unresponsive to key commands, try clicking in any displayed region. The table below describes many of these keyboard shortcuts.</p>
 <table>
- <tr><th>h &nbsp;</th><td>Opens and closes the popup help window. Same as clicking the <span style="font-weight: bold; font-size: 1.2em; color: #352C96;">&#8505;</span> icon.</td></tr>
+ <tr><th>h &nbsp;</th><td>Opens and closes the popup help window. Same as clicking the <b>?</b> icon.</td></tr>
  <tr><th>l &nbsp;</th><td>Same as clicking the lock icon. Turns lock on and off (unlocked). NOTE: when the lock is turned on, the reference genome (if any) is de-selected.</td></tr>
  <tr><th>n &nbsp;</th><td>Show/don't show all gene names (when view size is below threshold). Same as clicking "Show all labels" under <a href="settings">Settings</a>.</td></tr>
  <tr><th>P &nbsp;</th><td>Include/exclude paralogs. Same as clicking the P icon.</td></tr>

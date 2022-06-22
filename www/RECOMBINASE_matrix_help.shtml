@@ -57,7 +57,7 @@ function openHelpWindow(helpFile){
 <h3><a id="correlation"></a>How do I interpret the Recombinase Activity Comparison Matrix?</h3>
 
 <p>The official gene symbol, name and MGI accession ID for the gene of interest appear at the top of the page.</p> 
-<p>The first column shows wild-type expression data for the gene. The following columns show recombinase activity data for recombinase alleles driven by the matching gene. The allele columns are sorted, left to right, by driver species, 
+<p>The first column shows endogenous wild-type gene expression data for the gene. The following columns show recombinase activity data for recombinase alleles driven by the matching gene. The allele columns are sorted, left to right, by driver species, 
 where alleles with mouse drivers are first (left-most), then human, rat, then other driver species, with "not specified" driver species last (right-most). Within each group, targeted before endonuclease-mediated alleles, then transgenic alleles. 
 Finally, smart alpha on allele symbol within these last groups. Please note that not all recombinase-carrying alleles are displayed in this matrix. Alleles whose tissue activity data has not yet been recorded are omitted.</p> 
 
@@ -105,8 +105,9 @@ In contrast, absent results can only be represented for that structure in the ma
 <p>There are three ways to access this matrix:</p>
 <ol>
  <li>By clicking the "Recombinase Activity" link in the Mutations, Alleles, and Phenotypes section of the Gene Detail page of the driver gene. In this case, only the expression column header will be <span style="background-color: #FADD6D;">highlighted</span>.</li>
- <li>By clicking the "Comparative matrix view of recombinase activities" link in the Recombinase Activity section of an Allele Detail page. This link will be present on allele detail pages when the driver gene is mouse and at least one allele for that driver gene has recombinase activity recorded in the database. If the allele you used to access the matrix has associated activity data, then that allele symbol will be highlighted in the column header. The gene expression column header will also be highlighted.</li>
- <li>By clicking on the grid icon in the Matrix View column on a Recombinase Alleles - Tissue Summary page, the result of a Recombinase Activity search. If the allele you used to access the matrix has associated activity data, then that allele symbol will be highlighted in the column header. The gene expression column header will also be highlighted.</li> 
+ <li>By clicking the "Comparative matrix view of recombinase activities" link in the Recombinase Activity section of an Allele Detail page. This link will be present on allele detail pages when there is a matching mouse driver gene and recombinase activity for this allele has been recorded in the database. 
+ The allele symbol of the allele you used to access the matrix will be <span style="background-color: #D8BFD8">highlighted</span> in the column header. The gene expression column header will also be <span style="background-color: #FADD6D">highlighted</span>.</li>
+ <li>By clicking on the grid icon in the Matrix View column on a Recombinase Alleles - Tissue Summary page, the result of a Recombinase Activity search. If the allele you used to access the matrix has associated activity data, then that allele symbol will be <span style="background-color: #D8BFD8">highlighted</span> in the column header. The gene expression column header will also be <span style="background-color: #FADD6D">highlighted</span>.</li> 
 </ol>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
