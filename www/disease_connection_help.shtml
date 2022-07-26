@@ -316,7 +316,7 @@ VCF files are processed in the following manner:
     <tr><td><b>Genome Coordinates </b></td>
     <td>The marker's chromosome basepair coordinates, strand and genome build are shown if known.</td></tr><tr>
     <td><b>Associated Human Diseases </b></td>
-    <td>Lists any human diseases described in the Human Disease Ontology (DO) that are associated with the marker. Disease associations for human markers are from the Alliance of Genome Resources <i>Homo sapiens</i> associations disease file and include annotations from <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr>, <abbr title="Rat Genome Database">RGD</abbr>, NCBI curation, Gene Reviews, and Gene Tests. Mouse markers are associated with human diseases through genotypes described in publications.. Mouse markers are associated with human diseases through genotypes described in publications. </td></tr> 
+    <td>Lists any human diseases described in the Human Disease Ontology (DO) that are associated with the marker. Disease associations for human markers are from the Alliance of Genome Resources <i>Homo sapiens</i> associations disease file and include annotations from <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr>, <abbr title="Rat Genome Database">RGD</abbr>, NCBI curation, Gene Reviews, and Gene Tests. Mouse markers are associated with human diseases through genotypes described in publications. Mouse markers are associated with human diseases through genotypes described in publications. </td></tr> 
     <tr><td><b>Abnormal Mouse Phenotypes
 Reported in these Systems</b></td>
     <td>High level terms from the Mammalian Phenotype (MP) Ontology annotated to alleles of the mouse gene. See also the <A HREF="<!--#include file='include/fewi_url.html'-->vocab/mp_ontology" target="_blank">Mammalian Phenotype Browser</A>. Phenotypes that are only annotated to complex genotypes&mdash;those involving more than one genome feature&mdash;are not listed in this summary but can be found in the Phenotypic Allele Detail Report.</td></tr> 
@@ -345,7 +345,7 @@ Reported in these Systems</b></td>
     <tr><td><b>Associated Genes from Mouse Models </b></td>
     <td>The mouse markers used to create the various models of this disease</td></tr>
     <tr><td><b>Associated Human Genes</b></td>
-    <td>Human genes associated with the disease. Disease associations for human genes are from the NCBI mim2gene_medgen file and include annotations from OMIM, NCBI curation, Gene Reviews, and Gene Tests.</td></tr>
+    <td>Human genes associated with the disease. Disease associations for human markers are from the Alliance of Genome Resources <i>Homo sapiens</i> associations disease file and include annotations from <abbr title="Online Mendelian Inheritance in Man">OMIM</abbr>, <abbr title="Rat Genome Database">RGD</abbr>, NCBI curation, Gene Reviews, and Gene Tests.</td></tr>
     <tr><td><b>References using Mouse Models</b></td>
     <td>The number of references describing mouse models of the disease, linked to reference details and curated data</td></tr>
 </table>
