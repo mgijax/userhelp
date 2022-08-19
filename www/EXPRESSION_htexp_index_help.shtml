@@ -160,7 +160,7 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 
 <h3><a id="summary"></a>How do I interpret the query results summary?</h3>
 
-<p>A summary of the search can be found in the <b>You searched for</b>: section at the top of the summary return.
+<p>A summary of the search can be found in the <b>You searched for</b>: section at the top of the summary return. The return is sorted by experiment ID; first by GEO ID and then by ArrayExpress ID for experiments lacking GEO IDs.
 </p>
 
 <h4>Experiment table</h4>
