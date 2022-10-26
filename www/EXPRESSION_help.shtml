@@ -55,6 +55,11 @@ function openHelpWindow(helpFile){
   <li><a href="#Dfields">What values are acceptable in each of the Differential Search fields?</a></li>
   </ul>
   </li>
+  <li><a href="#whatprofile">What is the purpose of the Expression Profile Search?</a>
+ <ul>
+  <li> <li><a href="#Pfields">What values are acceptable in each of the Profile Search fields?</a></li>
+  </ul>
+</li>
  <li><a href="#batchchoices">Can I perform batch searches for expression data with multiple genes?</a></li>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
  <li><a href="#whattabs">What are the advantages of the different results tabs?</a></li>
@@ -301,6 +306,48 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></t
 <li>For any search, you can generate a list of genes whose expression has been shown to be absent (compared to those whose expression has not been examined) by using the "Detected?' filter, found above the summary, set to "No."</li>
 </ul>
  
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="whatprofile"></a>What is the purpose of the Expression Profile Search?</h3>
+
+<p>It allows you to search for genes by their expression profile. You can define the expression profile of interest by specifying up to 10 anatomical structures and whether expression is present or absent in these structures. Examples of the questions you can ask are:</p>
+<ul>
+<i>Which genes are expressed in the metanephric mesenchyme but not in the metanephros epithelium and primitive collecting duct?</li>
+<li>Which genes are expressed in the photoreceptor layer but not in the retina ganglion cell and inner plexiform layers?</li>
+</ul>
+
+<h3><a id=Pfields"></a>What values are acceptable in each of the Profile Search fields?</h3>
+
+<table class="nb">
+ <tr><td><A HREF="#profileStructure">Anatomical Structure</A> | <A HREF="#profileDetected">Detected</A> | 
+ <A HREF="#profileNot">Not Detected</A> </td>
+ </TR>
+</table>
+
+<table>
+<TR> <TH>Field</TH> <TH>Description</TH> </TR>
+<tr><th><a id="profileStructure"></a><b>Anatomical Structure</b></th>
+ <td>You can enter 1-10 anatomical structures.
+ <p>You can remove a structure by clicking on the X at the left of the row.</p>
+ <p>The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. Begin typing a term of interest and an autocomplete list activates on the second character.</p>
+</td></tr>
+<tr><th><a id="profileDetected"></a><b>Detected</b></th>
+ <td>There must be at least one structure chosen as Detected (expressed) in any search.
+<p>For the search to return a particular gene, results demonstrating its expression must exist for ALL structures chosen as Detected.</p>
+ </td></tr>
+<tr><th><a id="profileNot"></a><b>Not Detected</b></th>
+ <td>For the search to return a particular gene, either there are results showing it was Not Detected (absent) in the specified structure or there are no results, indicating its expression has not been analyzed or recorded in the database for that structure.
+ </td></tr>
+</table>
+
+<ul>
+<li>RNA-Seq data are not yet included in these searches.</li>
+<li>The list of genes that fits the expression profile can be downloaded using the Export features found on the Genes tab.</li>
+<li>If a structure has conflicting expression results annotated to it, i.e., results showing both the presence and absence of expression of a particular gene, that gene is considered to be expressed. Expression results that are either Ambiguous or Not Specified are ignored by this query, i.e. they are treated as neither present nor absent.
+<li>The search is limited to results from wild-type specimens. For the purposes of these queries, results from in situ reporter (knock-in) experiments will be considered wild type if the results are derived from a heterozygote.</li>
+<li>When applicable, you can use the Detected? = filter, found above the summary, to distinguish between genes whose expression has been shown to be absent (compared to those whose expression has not been examined).  Selecting Detected? = No will limit the list on the Genes tab to those genes that have Not Detected results returned by the profile search. If more than one Not Detected structure was specified in the profile, you will need to use the Assay Results tab to distinguish which structure has been shown to lack expression for each gene.</li>
+</ul>
+
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="batchchoices"></a>Can I perform batch searches for expression data with multiple genes?</h3>
