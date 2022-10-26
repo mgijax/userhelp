@@ -328,12 +328,12 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></t
 <TR> <TH>Field</TH> <TH>Description</TH> </TR>
 <tr><th><a id="profileStructure"></a><b>Anatomical Structure</b></th>
  <td>You can enter 1-10 anatomical structures.
- <p>You can remove a structure by clicking on the X at the left of the row.</p>
- <p>The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. Begin typing a term of interest and an autocomplete list activates on the second character.</p>
+ <br>You can remove a structure by clicking on the X at the left of the row.
+ <br>The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. Begin typing a term of interest and an autocomplete list activates on the second character.
 </td></tr>
 <tr><th><a id="profileDetected"></a><b>Detected</b></th>
  <td>There must be at least one structure chosen as Detected (expressed) in any search.
-<p>For the search to return a particular gene, results demonstrating its expression must exist for ALL structures chosen as Detected.</p>
+<br>For the search to return a particular gene, results demonstrating its expression must exist for ALL structures chosen as Detected.
  </td></tr>
 <tr><th><a id="profileNot"></a><b>Not Detected</b></th>
  <td>For the search to return a particular gene, either there are results showing it was Not Detected (absent) in the specified structure or there are no results, indicating its expression has not been analyzed or recorded in the database for that structure.
