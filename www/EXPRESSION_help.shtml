@@ -57,7 +57,7 @@ function openHelpWindow(helpFile){
   </li>
   <li><a href="#whatprofile">What is the purpose of the Expression Profile Search?</a>
  <ul>
-  <li> <li><a href="#Pfields">What values are acceptable in each of the Profile Search fields?</a></li>
+  <li><a href="#Pfields">What values are acceptable in each of the Profile Search fields?</a></li>
   </ul>
 </li>
  <li><a href="#batchchoices">Can I perform batch searches for expression data with multiple genes?</a></li>
@@ -312,11 +312,11 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></t
 
 <p>It allows you to search for genes by their expression profile. You can define the expression profile of interest by specifying up to 10 anatomical structures and whether expression is present or absent in these structures. Examples of the questions you can ask are:</p>
 <ul>
-<i>Which genes are expressed in the metanephric mesenchyme but not in the metanephros epithelium and primitive collecting duct?</li>
+<li>Which genes are expressed in the metanephric mesenchyme but not in the metanephros epithelium and primitive collecting duct?</li>
 <li>Which genes are expressed in the photoreceptor layer but not in the retina ganglion cell and inner plexiform layers?</li>
 </ul>
 
-<h3><a id=Pfields"></a>What values are acceptable in each of the Profile Search fields?</h3>
+<h3><a id="Pfields"></a>What values are acceptable in each of the Profile Search fields?</h3>
 
 <table class="nb">
  <tr><td><A HREF="#profileStructure">Anatomical Structure</A> | <A HREF="#profileDetected">Detected</A> | 
