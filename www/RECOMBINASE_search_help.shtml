@@ -86,7 +86,7 @@ function openHelpWindow(helpFile){
 
 <p>Click the "Add structure" button to query with additional structures. For example, you can search for recombinase activity that has been detected in both brain and spinal cord, or in one structure and not the other.<p>
 
-<p>To find tissues where recombinase activity was detected only in specific tissues, check the box in front of "and nowhere else." This option is only available when all queried tissues have the Detected option selected. </p>
+<!-- <p>To find tissues where recombinase activity was detected only in specific tissues, check the box in front of "and nowhere else." This option is only available when all queried tissues have the Detected option selected. </p> -->
 
 </td>
 </tr>
