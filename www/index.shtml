@@ -91,6 +91,7 @@ User Help Site Map
 <blockquote>
 	<dd><a href="EXPRESSION_help.shtml" target="_blank">Using the Gene Expression Data Query Form</a></dd>
 	<dd><a href="EXPRESSION_help.shtml#whatdiffer" target="_blank">Using the Differential Expression Search</a></dd>
+	<dd><a href="EXPRESSION_help.shtml#whatprofile" target="_blank">Using the Expression Profile Search</a></dd>
 	<dd><a href="EXPRESSION_batch_help.shtml" target="_blank">Using the Gene Expression Batch Search</a></dd>
 	<dd><a href="EXPRESSION_literature_help.shtml" target="_blank">Using the Gene Expression Literature Query Form</a></dd>
 	<dd><a href="EXPRESSION_query_results_help.shtml" target="_blank">Interpreting Gene Expression Data and Image Details</a></dd>
