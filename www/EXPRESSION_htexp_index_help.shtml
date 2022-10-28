@@ -215,7 +215,7 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 <h4>Sample pop-up Experiment table</h4>
 
 <table width="100%" cellpadding="4" class="nb" align="center">
- <tr><td><a href="#name">Name</a> | <a href="#organism">Organism</a> | <a href="#age">Age</a> | <a href="#structure">Structure</a> | <a href="#background">Genetic background</a> | <a href="#allele">Mutant allele(s)</a> | <a href="#sex2">Sex</a>  | <a href="#note2">Note</a>  </td>
+ <tr><td><a href="#name">Name</a> | <a href="#organism">Organism</a> | <a href="#age">Age</a> | <a href="#structure">Structure</a> | <a href="#celltype">Cell Type</a> |<a href="#background">Genetic background</a> | <a href="#allele">Mutant allele(s)</a> | <a href="#sex2">Sex</a>  | <a href="#note2">Note</a>  </td>
  </tr>
 </table>
 
@@ -240,6 +240,9 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 </tr>
 <tr><th><a id="structure"></a>Structure</th>
 	<td>Tissue the sample was derived from, given as a Theiler stage (TS) and anatomical structure name.</td>
+</tr>
+<tr><th><a id="celltype"></a>Cell Type</th>
+	<td>Only displayed when annotations are present</td>
 </tr>
 <tr><th><a id="background"></a>Genetic background</th>
 	<td>Strain information for the sample, if specified. Use of involves: in the annotation indicates that the strains listed (separated by asterisks) contributed to the genetic background of the sample; additional unspecified strains may also be part of the sample's genetic background.</td>
