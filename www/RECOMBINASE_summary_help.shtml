@@ -125,13 +125,13 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <tr><th class="thleft"> <a id="csh_driver"></a>Driver</th><td>Gene, genetic element, or construct that promotes recombination. 
 </td></tr> 
 
-<tr><th class="thleft"> <a id="matrix"></a>Matrix View</th> <td>If there are recombinase activity data for any allele using a driver that is a mouse gene, a grid icon will appear in this column for all alleles that use that mouse driver gene.  The icon links to a matrix which allows you to compare endogenous wild-type gene expression with reported recombinase activity data.</td></tr>
+<tr><th class="thleft"> <a id="matrix"></a>Matrix View</th> <td>If there are recombinase activity data for any allele, a grid icon will appear in this column.  The icon links to a matrix which allows you to compare endogenous wild-type gene expression with reported recombinase activity data.</td></tr>
 
 <tr><th class="thleft"> <a id="asgan"></a>Allele Symbol<br>Gene; Allele Name</th><td>Official symbol for the allele, linked to the MGI Detail Report for this allele. Note that the detail page has a <b>Recombinase Activity</b> row listing every system examined where activity has been detected or not detected. Each system links to its activity detail page. <br>Gene name; allele name.</td></tr> 
 
 <tr><th class="thleft"> <a id="recomb_data"></a><span style="white-space: nowrap">Recombinase Activity Detected</span></th><td>Information about anatomical systems where recombinase activity data was assayed and detected
 <ul>
-  <li>This field will be empty when data showing activity are absent.</li>
+  <li>This field will be empty when data showing activity are absent or have not been analyzed.</li>
   <li>If you searched for activity detected in a structure, the relevant high level system(s) will be in bold text.</li>
   <li>Click the column heading to sort by anatomical system.</li>
 </ul>
@@ -169,7 +169,7 @@ When the specimen's genotype involves a recombinase allele, the results of these
 
 <h3><a id="nomatrix"></a>Why is the matrix view missing for some alleles?</h3> 
 
-<p>The presence of a grid icon in a row indicates that a Gene Expression + Recombinase Activity Comparison Matrix is available. This matrix compares the endogenous wild type gene expression for the driver gene with the recorded recombinase activity of its alleles.  This grid is unavailable when 1) the driver gene is of non-mouse origin; or 2) the driver gene is of mouse origin but none of its alleles have recombinase activity recorded in the database.</p>
+<p>The presence of a grid icon in a row indicates that a Gene Expression + Recombinase Activity Comparison Matrix is available. This matrix compares the endogenous wild type gene expression for the driver gene with the recorded recombinase activity of its alleles.  This grid is unavailable when an allele has yet to have recombinase activity recorded in the database.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
