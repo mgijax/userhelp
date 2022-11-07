@@ -65,7 +65,7 @@ function openHelpWindow(helpFile){
 
 <h3><a id="Rfields"></a>What values are acceptable in each of the Recombinase Activity Search fields?</h3>
 <table class="nb">
-<tr><td><a href="#Ranatomical_structure">Recombinase activity</a> |  <a href="#promoter">Recombinase driven by</a>
+<tr><td><a href="#Ranatomical_structure">Anatomical Structure</a> |  <a href="#promoter">Recombinase driven by</a>
 </td>
   </tr>
  </table>
@@ -95,6 +95,7 @@ function openHelpWindow(helpFile){
     <td>Use this field to search for known drivers. Begin typing a gene, genetic element, or construct that promotes recombination and an autocomplete list activates on the first character. If your driver of choice isn't listed, MGI currently has no recombinase data associated with it.</td></tr>
 
 </table>
+<p>You can also filter your search results by Driver, Inducer, Detected in System, or Not Detected in System. See: <a href="RECOMBINASE_summary_help.shtml#crefilter">How do I filter my results?</a></p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
