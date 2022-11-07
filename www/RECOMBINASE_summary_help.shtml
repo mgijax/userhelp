@@ -135,7 +135,7 @@ When the specimen's genotype involves a recombinase allele, the results of these
   <li>If you searched for activity detected in a structure, the relevant high level system(s) will be in bold text.</li>
   <li>Click the column heading to sort by anatomical system.</li>
 </ul>
-<tr><th class="thleft"><span style="white-space: nowrap">Recombinase Activity Not Detected</span></th><td>Information about anatomical systems where recombinase activity data was activity data was absent (not detected), as well as activity that has not been analyzed or recorded in the database for the specified structure
+<tr><th class="thleft"><span style="white-space: nowrap">Recombinase Activity Not Detected</span></th><td>Information about anatomical systems where recombinase activity data was absent (not detected), as well as activity that has not been analyzed or recorded in the database for the specified structure
 <ul>
   <li>This field will be populated only when the absence of activity has been shown.</li>
   <li>Click the column heading to sort by anatomical system.</li>
