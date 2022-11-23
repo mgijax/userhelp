@@ -134,7 +134,7 @@ function openHelpWindow(helpFile){
 <TH>Description</th>
 </TR>
 
-<tr><th><a id="nomenclature"></a>Nomenclature</th>
+<tr><th><a id="nomenclature"></a>Summary</th>
     <td>
     <table>
     <tr><td>Symbol</td><td>The symbol of the allele.
