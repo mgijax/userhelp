@@ -45,7 +45,7 @@ function openHelpWindow(helpFile){
  <li><a href="#welcome">Your Input Welcome</a></li>
  <li><a href="#image">Images</a></li>
  <li><a href="#fields">Fields</a></li>
- <li><a href="#nomenclature">Nomenclature</a></li>
+ <li><a href="#nomenclature">Summary</a></li>
  <li><a href="#origin">Mutation/Variant/Vector/Transgene origin</a></li>
  <li><a href="#description">Mutation/Variant/Vector/Transgene description</a></li>
  <li><a href="#recombinase_activity">Recombinase activity</a></li>
@@ -116,7 +116,7 @@ function openHelpWindow(helpFile){
 <ul>
   <li>When information for a field is not available or is not pertinent to a given allele, it does not appear.</li>
   <li>Field names vary depending on the type of allele. 
-  <li>a Transgene Detail report has field names titled <i>Transgene</i> <a href="#origin">origin</a> and <i>Transgene</i> <a href="#description">description</a> as well as transgene name and location information in the <a href="#nomenclature">Nomenclature</a> section.</li>
+  <li>a Transgene Detail report has field names titled <i>Transgene</i> <a href="#origin">origin</a> and <i>Transgene</i> <a href="#description">description</a> as well as transgene name and location information in the <a href="#nomenclature">Summary</a> section.</li>
   <li>a QTL detail report has field names entitled <i>Variant</i><a href="#origin"> origin</a> and <i>Variant</i> <a href="#description">description</a>. The <i>Nomenclature</i> section may contain information about the QTL name, location, and genetic position, and/or a QTL note. </li>
 
   <!--<li>a QTL detail report has field names entitled <i>Variant</i><a href="#origin"> origin</a> and <i>Variant</i> <a href="#description">description</a>. The <i>Nomenclature</i> section may contain information about the QTL name, location, and genetic position, and/or a QTL note. </li>-->
@@ -124,7 +124,7 @@ function openHelpWindow(helpFile){
 
 <table class="nb">
   
-<tr><td><a href="#nomenclature">Nomenclature</a> | <a href="#origin">origin</a> |
+<tr><td><a href="#nomenclature">Summary</a> | <a href="#origin">origin</a> |
 <a href="#description">description</a> |  <a href="#recombinase_activity">Recombinase activity</a> | <a href="#summary">Phenotypes</a> <!--| <nobr><a href="#genotype">Phenotypic data by genotype</a></nobr>--> | <a href="#models">Disease models</a> | <a href="#expression">Expression</a> | <a href="#find_mice">Find Mice (IMSR)</a> | <a href="#additional">Additional information</a> | <a href="#reffs">References</a></td></tr>
 </table>
 <table>
@@ -143,9 +143,10 @@ The allele symbol is composed of the gene symbol and the allele designation.  If
    <tr><td>Name</td><td>The allele name appears beneath the symbol.  See 
 <a href="<!--#include file='include/mgihome_url.html'-->nomen/gene.shtml" target="_blank">Guidelines for Nomenclature of Genes, Genetic Markers, Alleles, &amp; Mutations in Mouse &amp; Rat</a> for details.</td></tr>
     <tr><td>MGI ID</td><td>The MGI accession identifier for this allele.</TD></tr>
-    <tr><td>Synonyms</td><td>Unofficial names for this allele.</td></TR>
-    <tr><td>Gene</td><td>Some or all of the following: Gene (symbol), Location (chromosome, genome coordinates, strand), Genetic Position<!--and human ortholog of the mouse genetic marker-->.</td>
-   </tr> 
+    <tr><td>Synonyms</td><td>Unofficial names for this allele.</td></tr>
+    <tr><td>Gene</td><td>Some or all of the following: Gene (symbol), Location (chromosome, genome coordinates, strand), Genetic Position<!--and human ortholog of the mouse genetic marker-->.</td></tr> 
+    <tr><td>Alliance</td><td>A link to the Alliance of Genome Resources page for this allele.</td></tr>
+    <tr><td>IMPC</td><td>A link to the International Mouse Phenotyping Consortium page for the gene which may include raw phenotyping data and images for alleles of the gene.</td></tr>
    </table>
      </td>
 </tr>
