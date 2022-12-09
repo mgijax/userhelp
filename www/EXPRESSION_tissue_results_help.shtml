@@ -38,10 +38,11 @@ Interpreting the Gene Expression Data: Results by Tissue Summary</span>
 <h3>How do I interpret this report?</h3>
 
 <ul>
- <li>Tissues analyzed by RNA-Seq data are not yet included in the counts in this summary.</li>
- <li>If there are expression data about a marker in the Gene Expression Database derived from other assay types, the word <i>Tissues</i>, followed by a number, appears in the Expression section of the Gene Detail page.  Clicking that number presents a table of all anatomical structures in the database examined when analyzing the gene expression pattern. The symbol and name of the gene whose expression was analyzed as well as its <abbr title="Mouse Genome Informatics">MGI</abbr> accession ID appears at the top of the table.</li>
- <!--<li>If there are expression data from a reference in the Gene Expression Database, the word <i>Tissues</i>, preceded by a number, appears in the Additional Information section of References Query Results - Details. Clicking <i>Tissues</i> presents a table of all anatomical structures examined when analyzing gene expression in this reference.  The J: number link  to the reference followed by the full list citation appears at the top of the table. </li>-->
- <li>You can export your results in text or spreadsheet formats.</li>
+ <li>This table summarizes the tissues analyzed and counts of expression data results derived from in situ and blot assay types for markers in the Gene Expression Database.</li> 
+ <li>When these types of results are present in GXD, the word Tissues, followed by a number, appears in the Expression section of the Gene Detail page.
+ Clicking that number presents a table of all anatomical structures in the database examined using in situ and blot assays. The symbol and name of the gene whose expression was analyzed as well as its MGI accession ID appears at the top of the table.</li> 
+ <li>You can export your results in text or spreadsheet formats.</li> 
+ <li>The counts of expression results derived by RNA-seq are not included in these data.  However, if there are RNA-seq results in the database for the structures listed in the table, they will be displayed on the Gene Expression Data Search Results page accessed by clicking on the links within the table.</li> 
 </ul>
 
 <br>
@@ -49,11 +50,11 @@ Interpreting the Gene Expression Data: Results by Tissue Summary</span>
 <table>
 <tr><th>Field</th><th>Description</th></tr>
 
-<tr><th>Structure</th><td>Anatomical structures examined when analyzing expression.  Given as a Theiler stage (TS) and anatomical structure name, linked to the Mouse Developmental Anatomy Browser-term detail page that includes the structure.</td></tr>
+<tr><th>Structure</th><td>Anatomical structures examined when analyzing expression. Given as a Theiler stage (TS) and anatomical structure name, linked to the Mouse Developmental Anatomy Browser-term detail page that includes the structure. If a structure has only been analyzed using RNA-seq, it will not be listed in this table.</td></tr>
 <tr><th>Results</th><td>For all columns, the number links to a Gene Expression Data Search Results page listing the symbol of the gene analyzed, the assay type used, result details (linked to an assay record), the high-level term for the anatomical structure assayed, age of the specimen examined, an indication of whether or not expression was detected, links to images of the data, allele pairs describing the mutant genotype of the specimen (if applicable) and the reference.</td></tr>
-<tr><th>All</th><td>Number of times the structure was examined. Note: This column includes specimens for which expression was detected, not detected, not specified or ambiguous. Not specified is when the authors do not report whether a gel band is present or absent. Ambiguous is used when the authors specify it or our curators cannot discern from the author's description whether expression is present or absent. Because of the inclusion of Ambiguous and Not specified results in this column, the total number of results in this column may be greater than the sum of the results in the + and - columns. </td></tr>
-<tr><th><b>+</b></th><td>Number of times expression was detected in the structure. </td></tr>
-<tr><th><b>-</b></th><td>Number of times expression was found to be absent in the structure.</td></tr>
+<tr><th>All</th><td>Number of times the structure was examined using in situ and blot assays. Note: This column includes specimens for which expression was detected, not detected, not specified or ambiguous. Not specified is when the authors do not report whether a gel band is present or absent. Ambiguous is used when the authors specify it or if our curators cannot discern from the author's description whether expression is present or absent. Because of the inclusion of Ambiguous and Not specified results in this column, the total number of results in this column may be greater than the sum of the results in the + and - columns. </td></tr>
+<tr><th><b>+</b></th><td>Number of times expression was detected in the structure using in situ and blot assays. </td></tr>
+<tr><th><b>-</b></th><td>Number of times expression was found to be absent in the structure using in situ and blot assays.</td></tr>
 </table>
 </blockquote>
 
