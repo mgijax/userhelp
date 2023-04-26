@@ -89,6 +89,7 @@ function openHelpWindow(helpFile){
 <p>Notes:</p> 
 <ul>
  <li>If you use a wild card in the exact search option, the search switches to the non-exact option. </li>
+ <li>If you use a comma in the exact search option, the search switches to the non-exact option. Example: Brca1, Brca2. For feature names that include commas, such as collagen, type II, include the name in quotes. </li>
  <li>Similarly, if you enter coordinates in the exact search, the search option switches to the mouse coordinate search.</li>
  <li>Hyphens and angle brackets are replaced with spaces.</li>
 </ul>
