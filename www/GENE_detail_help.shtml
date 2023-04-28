@@ -101,7 +101,7 @@ table { border-style: none; align: center
 			This will display a graphic view of the TSS features and the gene. JBrowse is an NHGRI funded genome browser that is used by MGI, the Alliance of Genome Resources, and several other model organism databases. </td>
 			<tr><th>Homologous PAR Feature</th><td>The pseudoautosomal region (PAR) is a short region of sequence homology between the sex chromosomes and is involved in sex chromosome pairing, recombination and segregation in meiosis of the heterogametic sex. Genome features in the PAR region are assigned Genetic Map chromosome XY, but can obtain coordinates from assembly chromosome X or Y (Sequence Map chromosome). 
 			Where there is sequence-confirmed equivalence between PARX and PARY genome features, MGI represents these features as PARX / PARY pairs, with shared gene nomenclature distinguished by an "x" or "y" suffix (Erdr1x / Erdr1y, for example).  
-			In the Homologous PAR Feature section, reciprocal links are provided between corresponding PARX / PARY marker pairs in MGI.. </td>
+			In the Homologous PAR Feature section, reciprocal links are provided between corresponding PARX / PARY marker pairs in MGI. </td>
 			</tr>
 			
 		</table>
