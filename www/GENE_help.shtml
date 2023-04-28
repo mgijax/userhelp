@@ -122,6 +122,7 @@ See <a href="GENE_feature_types_help.shtml" target="_blank">Genome Feature Type 
   <a id="cm_offset"></a><a href="MISC_map_position_help.shtml#cm_offset" target="_blank">cM Position</a>) to limit the scope of your query.
   <ul>
 	<li>When using chromosome(s), you can also define genome coordinates or cM position.</li> 
+	<li>For genome features in the pseudoautosomal region (PAR), to search for all genome features in the PAR, select chromosome XY (pseudoautosomal) without entering genome coordinates. To search for genome features in the PAR by coordinates, select the chromosome (X or Y) to which the input coordinates correspond.</li>
     <li>You cannot combine genome coordinates and cM position with one another.</li><li>For Marker Range, you can enter any marker(s) with known coordinates. The query is inclusive of the markers you enter.</li>
   </ul>
     If you wish to search with multiple regions, or search with human regions instead of mouse, you can do this with the <a href="<!--#include file='include/homepages_url.html'-->humanDisease.shtml">Human&mdash;Mouse: Disease Connection</a>.
