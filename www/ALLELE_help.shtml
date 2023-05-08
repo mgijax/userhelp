@@ -254,10 +254,10 @@ There are three ways to use the map position parameters (<a href="#chromosome">C
  </ul>
 </blockquote>
             
-<p><B>Note:</B>&nbsp;
+<p><B>Notes:</B>&nbsp;
 <ul>
 <li>The build number appearing on the query form is that of the most current NCBI assembly sequence.</li>
-<li>To search for genome features in the pseudoautosomal region (PAR) by coordinates, select the chromosome (X or Y) to which the input coordinates correspond.</li>
+<li>To search for alleles of markers in the pseudoautosomal region (PAR) by coordinates, select the chromosome (X or Y) to which the input coordinates correspond. To search for alleles of all markers in the PAR, select chromosome XY (without entering coordinates).</li>
 </ul>
 </td> </tr>
 
