@@ -64,7 +64,8 @@ function openHelpWindow(helpFile){
 The Viewer shows corresponding regions of the selected genomes as horizontal stripes and the equivalent features in each genome. The navigation of the genomes can be synchronized as you scroll in 5' or 3' directions. 
 The Viewer permits searches by genes and other genome features, genome coordinates, and function, phenotype, disease, and pathway terms. All searches query for canonical genes in MGI's <a href="http://www.mousemine.org/mousemine/begin.do">MouseMine</a>. 
 You can download genomic, coding and transcript sequences for a selected feature for designated genomes. 
-The MGV also include the reference genomes for <i>Homo sapiens</i>, <i>Rattus norvegicus</i> (Norway rat), <i>Danio rerio</i> (zebrafish), <i>Caenorhabditis elegans</i> (nematode), <i>Drosophila melanogaster</i> (fruit fly), and <i>Saccharomyces cerevisiae</i> (budding yeast). 
+The MGV also include the reference genomes for <i>Homo sapiens</i>, <i>Rattus norvegicus</i> (Norway rat), <i>Danio rerio</i> (zebrafish), <i>Caenorhabditis elegans</i> (nematode), <i>Drosophila melanogaster</i> (fruit fly), <i>Saccharomyces cerevisiae</i> (budding yeast) and 2 <i>Xenopus</i> genomes: the African clawed frog, <i>X. laevis</i>, and the the Western clawed frog, <i>X. tropicalis</i>. 
+<i>X. laevis</i> is an allotetraploid (2n = 36) of hybrid origin. The resulting <i>X. laevis</i> genome has a set of ‘long’ and ‘short’ chromosomes designated L and S in the MGV.. 
 Note that for mouse, currently only the C57BL/6J annotation is "reference quality."</p>
 
 <h3><a id="allstrains"></a>What mouse inbred strains are included in the Viewer?</h3>
