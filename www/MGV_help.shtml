@@ -259,7 +259,7 @@ Note that for mouse, currently only the C57BL/6J annotation is "reference qualit
 <table>
  <tr><th>Find a gene</th><td>Enter the gene symbol or ID in the Find input box at the top of the Zoom View. Then hit your keyboard's return/enter or tab keys.</td></tr>
  <tr><th>Line Up On a Gene</th><td>Alt/option-click on a gene to align all genome views around that gene and its homologs. Hold down the command/meta key (or not) to scale the region sizes. Scaling can help when the homologs are of very different sizes.</td></tr>
- <tr><th>Specify Coordinates</th><td>Type or paste coordinates in the Find box. Then hit enter or tab.</td></tr>
+ <tr><th>Specify Coordinates</th><td>Type or paste coordinates in the Find box using this format: 11:40279600..45075000. Then hit enter or tab.</td></tr>
  <tr><th>Scroll Left</th><td>Click the &lt; button, or use your keyboard's left arrow key, or drag left on a region.</td></tr>
  <tr><th>Scroll Right</th><td>Click the &gt; button, or hit the right arrow key, or drag right on a region.</td></tr>
  <tr><th>Zoom In</th><td>Click the zoom_in icon, or hit the upward arrow key, or shift-drag on a region.</td></tr>
