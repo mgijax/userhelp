@@ -239,7 +239,7 @@ Note that for mouse, currently only the C57BL/6J annotation is "reference qualit
 </p>
  <p>Inferred Paralogs: The Alliance data do not contain direct assertions of paralogy. MGV uses shared orthology to infer paralogy. For example, mouse <i>Mx1</i> is an asserted ortholog of both human <i>MX1</i> and <i>MX2</i>. Therefore, <i>MX1</i> and <i>MX2</i> are inferred paralogs of each other.  
 </p>
-<p>For <i>X. laevis</i>, the Viewer can't draw direct orthology links between L and S genome features because the Alliance does not create intraspecific orthology associations.  If you turn on the inferred paralogs view in the Viewer, the "homoeology" links between corresponding L and S features are shown.</p>
+<p>For <i>X. laevis</i>, the Viewer can't draw direct orthology links between L and S genome features because the Alliance does not create intraspecific orthology associations.  If you turn on the inferred paralogs view in the Viewer, however, the "homoeology" links between corresponding L and S features are shown.</p>
 </td></tr>
   <tr><th>Highlight Inversions</th><td>If on, connectors between features on opposite strands ('inversions') in red and with a twist. </td></tr>
   <tr><th>Contrast</th><td>Fades non-selected features to make the selected feature stand out. </td></tr>
