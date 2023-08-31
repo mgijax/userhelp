@@ -239,6 +239,26 @@ The Effective Phenotype Query shows only what you type in the Search by disease 
 <li>In addition to running a new, more restrictive query, you can modify your results by <a href="#hmdcfilter">filtering</a> the <a href="#t&mtab">Gene Homologs x Phenotypes/Diseases</a> grid to show only specified columns and rows by checking the appropriate criteria and clicking the Apply Filters button. These filters are applied to your results in the <a href="#genestab">Genes</a> and <a href="#diseasetab">Diseases</a> tabs. For more details, see <a href="#hmdcfilter">How do I filter my results?</a> below.</li>
 </ul>
 
+<b>ID Search Notes:</b><br>
+<ul>
+<li>When you search with MP or HPO IDs, you have the option of search for and adding related terms. After your initial search, if you then click the <b>Click to modify search</b> button, you will see a button to <b>Add related phenotype terms by ID</b>.</li>
+<li>If you click this button a new window will launch.</li>
+<li>In the window that appears, you will have to paste in your ID(s) and then click the "Search for related terms" button.</li> 
+</ul>
+<p>A table of related terms appears in the window with the following columns: </p>
+<table>
+<tr>
+<th>Search Term (ID)</th><td>The terms and IDs you searched with.</td>
+<th>Search Term Definition</th><td>The definition that that term</td>
+<th>Match Method</th><td>Method used to match your search term. Can be manual (i.e. via a curator) or lexical (i.e. a computationally matched word)</td>
+<th>Match Type</th><td>An exact match between the 2 ontologies, or a close match</td>
+<th>Matched Term</th><td>Terms that matched your search terms or its definition or synomyms </td>
+<th>Match Term Synonym<</th><td>Synonyms for you matched terms</td>
+<th>Match Term Definition</th><td>The definition for the matched term </td>
+<th>Add to Search</th><td>Check the related terms you wish to add to your search and click the "Add IDs to HMCDC search."</td>
+</tr>
+</table>
+
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <!--<h3><a id="vcf"></a>How can I search with a VCF file?</h3>
