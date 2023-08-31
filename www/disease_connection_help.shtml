@@ -246,8 +246,8 @@ The Effective Phenotype Query shows only what you type in the Search by disease 
 <li>This button opens a new window in which you can paste in one or more HPO and/or MP terms IDs to find related terms in the other ontology.</li>
 <li>From the results, you can select terms to be added to the search then click "Add IDs to the HMDC search" to transfer the IDs you searched for and those selected back to the HMDC search box.</li> 
 </ul>
-<!--  --><p>A table of related terms appears in the window with the following columns: </p>
-<table>
+<!-- <p>A table of related terms appears in the window with the following columns: </p>
+ <table>
 <tr><th>Search Term (ID)</th><td>The terms and IDs you searched with.</td></tr>
 <tr><th>Search Term Definition</th><td>The definition that that term</td></tr>
 <tr><th>Match Method</th><td>Method used to match your search term. Can be manual (i.e. via a curator) or lexical (i.e. a computationally matched word)</td></tr>
