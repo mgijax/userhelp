@@ -241,11 +241,12 @@ The Effective Phenotype Query shows only what you type in the Search by disease 
 
 <b>ID Search Notes:</b><br>
 <ul>
-<li>When you search with MP or HPO IDs, you have the option of search for and adding related terms. After your initial search, if you then click the <b>Click to modify search</b> button, you will see a button to <b>Add related phenotype terms by ID</b>.</li>
-<li>If you click this button a new window will launch.</li>
-<li>In the window that appears, you will have to paste in your ID(s) and then click the "Search for related terms" button.</li> 
+<li>When you search by HPO or MP term ID, results returned are only for human or mouse annotations, respectively. To expand your result set, you can add related terms from the other ontology.</li>
+<li>To find related terms, in the search field with the search set to Disease or Phenotype ID(s) click the button "Add related phenotype terms by ID"</li> 
+<li>This button opens a new window in which you can paste in one or more HPO and/or MP terms IDs to find related terms in the other ontology.</li>
+<li>From the results, you can select terms to be added to the search then click "Add IDs to the HMDC search" to transfer the IDs you searched for and those selected back to the HMDC search box.</li> 
 </ul>
-<p>A table of related terms appears in the window with the following columns: </p>
+<!--  --><p>A table of related terms appears in the window with the following columns: </p>
 <table>
 <tr><th>Search Term (ID)</th><td>The terms and IDs you searched with.</td></tr>
 <tr><th>Search Term Definition</th><td>The definition that that term</td></tr>
@@ -255,7 +256,7 @@ The Effective Phenotype Query shows only what you type in the Search by disease 
 <tr><th>Match Term Synonym</th><td>Synonyms for you matched terms</td></tr>
 <tr><th>Match Term Definition</th><td>The definition for the matched term </td></tr>
 <tr><th>Add to Search</th><td>Check the related terms you wish to add to your search and click the "Add IDs to HMCDC search."</td></tr>
-</table>
+</table> -->
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
