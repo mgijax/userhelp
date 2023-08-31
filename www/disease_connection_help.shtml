@@ -247,16 +247,14 @@ The Effective Phenotype Query shows only what you type in the Search by disease 
 </ul>
 <p>A table of related terms appears in the window with the following columns: </p>
 <table>
-<tr>
-<th>Search Term (ID)</th><td>The terms and IDs you searched with.</td>
-<th>Search Term Definition</th><td>The definition that that term</td>
-<th>Match Method</th><td>Method used to match your search term. Can be manual (i.e. via a curator) or lexical (i.e. a computationally matched word)</td>
-<th>Match Type</th><td>An exact match between the 2 ontologies, or a close match</td>
-<th>Matched Term</th><td>Terms that matched your search terms or its definition or synomyms </td>
-<th>Match Term Synonym<</th><td>Synonyms for you matched terms</td>
-<th>Match Term Definition</th><td>The definition for the matched term </td>
-<th>Add to Search</th><td>Check the related terms you wish to add to your search and click the "Add IDs to HMCDC search."</td>
-</tr>
+<tr><th>Search Term (ID)</th><td>The terms and IDs you searched with.</td></tr>
+<tr><th>Search Term Definition</th><td>The definition that that term</td></tr>
+<tr><th>Match Method</th><td>Method used to match your search term. Can be manual (i.e. via a curator) or lexical (i.e. a computationally matched word)</td></tr>
+<tr><th>Match Type</th><td>An exact match between the 2 ontologies, or a close match</td></tr>
+<tr><th>Matched Term</th><td>Terms that matched your search terms or its definition or synomyms </td></tr>
+<tr><th>Match Term Synonym<</th><td>Synonyms for you matched terms</td></tr>
+<tr><th>Match Term Definition</th><td>The definition for the matched term </td></tr>
+<tr><th>Add to Search</th><td>Check the related terms you wish to add to your search and click the "Add IDs to HMCDC search."</td></tr>
 </table>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
