@@ -252,7 +252,7 @@ The Effective Phenotype Query shows only what you type in the Search by disease 
 <tr><th>Match Method</th><td>Method used to match your search term. Can be manual (i.e. via a curator) or lexical (i.e. a computationally matched word)</td></tr>
 <tr><th>Match Type</th><td>An exact match between the 2 ontologies, or a close match</td></tr>
 <tr><th>Matched Term</th><td>Terms that matched your search terms or its definition or synomyms </td></tr>
-<tr><th>Match Term Synonym<</th><td>Synonyms for you matched terms</td></tr>
+<tr><th>Match Term Synonym</th><td>Synonyms for you matched terms</td></tr>
 <tr><th>Match Term Definition</th><td>The definition for the matched term </td></tr>
 <tr><th>Add to Search</th><td>Check the related terms you wish to add to your search and click the "Add IDs to HMCDC search."</td></tr>
 </table>
