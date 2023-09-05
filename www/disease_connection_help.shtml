@@ -241,7 +241,7 @@ The Effective Phenotype Query shows only what you type in the Search by disease 
 </ul>
 
 <b>ID Search Notes:</b><br>
-<p>When you search by HPO or MP term ID, results returned are only for human or mouse annotations, respectively. To expand your result set, you can add related terms from the other ontology by clicking on the <b>Click to hide search</b> button. See the next section: <a href="#IDsearch"></a>How do I expand an ID search to include both mouse and human data?</a></p>
+<p>When you search by HPO or MP term ID, results returned are only for human or mouse annotations, respectively. To expand your result set, you can add related terms from the other ontology by clicking on the <b>Click to hide search</b> button. See the next section: <a href="#IDsearch">How do I expand an ID search to include both mouse and human data?</a></p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
