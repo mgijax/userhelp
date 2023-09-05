@@ -255,7 +255,7 @@ The Effective Phenotype Query shows only what you type in the Search by disease 
 <p>A table of related terms appears in the window with the following columns: </p>
  <table>
 <tr><th>Search Term (ID)</th><td>The terms and IDs you searched with.</td></tr>
-<tr><th>Search Term Definition</th><td>The definition that that term</td></tr>
+<tr><th>Search Term Definition</th><td>The definition of that term</td></tr>
 <tr><th>Match Method</th><td>Method used to match your search term. Can be manual (i.e. via a curator) or lexical (i.e. a computationally matched word)</td></tr>
 <tr><th>Match Type</th><td>How the two terms are related. Definitions are found at the <a href=" https://www.w3.org/TR/skos-reference/#mapping" target="_blank">W3C website</a></td></tr>
 <tr><th>Matched Term</th><td>Term that matches the searched term</td></tr>
