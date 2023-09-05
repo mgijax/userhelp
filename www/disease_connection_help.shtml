@@ -51,6 +51,7 @@ Using the Human - Mouse: Disease Connection </span>
     <li><a href="#relationship">Can I query using both a phenotype term and a disease term?</a></li>
 	</ul></li>
  <li><a href="#revise">Can I edit my original options and requery?</a></li>
+ <li><a href="#IDsearch">How do I expand an ID search to include both mouse and human data?</a></li>
  <!--<li><a href="#vcf">How can I search with a VCF file?</a></li>
  	<ul>
  		<li><a href="#process">How are VCF files processed?</a></li>
@@ -240,23 +241,32 @@ The Effective Phenotype Query shows only what you type in the Search by disease 
 </ul>
 
 <b>ID Search Notes:</b><br>
+<p>When you search by HPO or MP term ID, results returned are only for human or mouse annotations, respectively. To expand your result set, you can add related terms from the other ontology by clicking on the <b>Click to hide search</b> button. See the next section: <a id="IDsearch"></a>How do I expand an ID search to include both mouse and human data?</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<h3><a id="IDsearch"></a>How do I expand an ID search to include both mouse and human data?</h3>
 <ul>
 <li>When you search by HPO or MP term ID, results returned are only for human or mouse annotations, respectively. To expand your result set, you can add related terms from the other ontology.</li>
 <li>To find related terms, in the search field with the search set to Disease or Phenotype ID(s) click the button "Add related phenotype terms by ID"</li> 
 <li>This button opens a new window in which you can paste in one or more HPO and/or MP terms IDs to find related terms in the other ontology.</li>
 <li>From the results, you can select terms to be added to the search then click "Add IDs to the HMDC search" to transfer the IDs you searched for and those selected back to the HMDC search box.</li> 
 </ul>
-<!-- <p>A table of related terms appears in the window with the following columns: </p>
+<p>A table of related terms appears in the window with the following columns: </p>
  <table>
 <tr><th>Search Term (ID)</th><td>The terms and IDs you searched with.</td></tr>
 <tr><th>Search Term Definition</th><td>The definition that that term</td></tr>
 <tr><th>Match Method</th><td>Method used to match your search term. Can be manual (i.e. via a curator) or lexical (i.e. a computationally matched word)</td></tr>
-<tr><th>Match Type</th><td>An exact match between the 2 ontologies, or a close match</td></tr>
-<tr><th>Matched Term</th><td>Terms that matched your search terms or its definition or synomyms </td></tr>
-<tr><th>Match Term Synonym</th><td>Synonyms for you matched terms</td></tr>
+<tr><th>Match Type</th><td>How the two terms are related. Definitions are found at the <a href=" https://www.w3.org/TR/skos-reference/#mapping" target="_blank">W3C website</a></td></tr>
+<tr><th>Matched Term</th><td>Term that matches the searched term</td></tr>
+<tr><th>Match Term Synonym</th><td>Alternate names for the matched term</td></tr>
 <tr><th>Match Term Definition</th><td>The definition for the matched term </td></tr>
 <tr><th>Add to Search</th><td>Check the related terms you wish to add to your search and click the "Add IDs to HMCDC search."</td></tr>
-</table> -->
+</table> 
+
+<p>This section is currently under development. One issue is that trailing commas in the term matching tool invoke the "no match found" message. This will be fixed in the next release. </p>
+
+<p>Please send us your suggestions and comments to <a HREF="mgi_inbox.shtml">User Support</A></p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
