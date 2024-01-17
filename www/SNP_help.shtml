@@ -214,6 +214,7 @@ You can select more than one reference strain if you wish to compare sets of str
   </table></td></tr>
   <tr><th><a id="sasc"></a>Strains and Strain Comparisons</th><td>Use this section to select strains to search and determine <a id="reference_strain"></a><b>Reference Strains</b> to return by comparison (if desired). 
    <ul>
+    <li>Mouseover a strain to see the number of its SNPs included in MGI.</li>
     <li>All strains are selected by default.</li>
     <li>By default, no Reference Strain is selected. Select <i>Yes</i> to Compare to one or more Reference strains. See: <a href="#reference">What is a Reference Strain?</a></li>
     <li>There are no disallowed combinations of strain and reference strain (except when they are the same).</li>
