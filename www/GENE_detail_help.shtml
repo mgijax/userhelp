@@ -113,7 +113,7 @@ table { border-style: none; align: center
        <ul>
        <li>Genome coordinate range and strand, in base pairs (provider of genomic coordinates is indicated) </li>
        <li>You can click <b>View this region in JBrowse</b> for a full-page display of the region.<br>
-<b>Note:</b>&nbsp;If the information you expect to see does not appear in the JBrowse (or other browser) display, you may need to turn on (i.e., click) the viewing aides (i.e., tracks, features, maps) in the various displays.</li>
+<b>Note:</b>&nbsp;If the information you expect to see does not appear in JBrowse (or other browser) display, you may need to turn on (i.e., click) the viewing aides (i.e., tracks, features, maps) in the various displays.</li>
     	<li>External links to other genomic context displays (e.g., Ensembl ContigView, UCSC Browser, NCBI Map Viewer)</li>
 		</ul>
 		</td>
