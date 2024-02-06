@@ -112,8 +112,8 @@ table { border-style: none; align: center
 			<td>Appears if coordinates are assigned and includes:
        <ul>
        <li>Genome coordinate range and strand, in base pairs (provider of genomic coordinates is indicated) </li>
-       <li>A thumbnail image link to the MGI Mouse Genome Browser display for the marker's coordinates. You can also click <b>MGI Mouse Genome Browser</b> for a full-page display.<br>
-<b>Note:</b>&nbsp;If the information you expect to see does not appear in the Mouse Genome Browser (or other browser) display, you may need to turn on (i.e., click) the viewing aides (i.e., tracks, features, maps) in the various displays.</li>
+       <li>You can click <b>View this region in JBrowse</b> for a full-page display of the region.<br>
+<b>Note:</b>&nbsp;If the information you expect to see does not appear in the JBrowse (or other browser) display, you may need to turn on (i.e., click) the viewing aides (i.e., tracks, features, maps) in the various displays.</li>
     	<li>External links to other genomic context displays (e.g., Ensembl ContigView, UCSC Browser, NCBI Map Viewer)</li>
 		</ul>
 		</td>
@@ -254,9 +254,6 @@ Click on a blue cell to see the genotypes annotated to the term and the correspo
 <li><a href="<!--#include file='include/mgihome_url.html'-->/homepages/tabContents/GXD_Resources.shtml">Other Vertebrate links</a>: links to expression information for chicken homologs at <a href="http://geisha.arizona.edu/geisha/"><abbr title="Gallus Expression in Situ Hybridization Analysis">GEISHA</abbr></a>, frog homologs at <a href="http://www.xenbase.org">Xenbase</a>, and zebrafish homologs at <a href ="https://zfin.org"><abbr title="Zebrafish Information Network">ZFIN</abbr></a>.</li>
 </ul>
 </td></tr>
-<tr><th><a id="interactions"></a>Interactions</th>
-	<td>The total number of markers with which the gene is known or suspected of interacting, along with links to up to three of those markers' detail pages and a link to View All the markers. <!--Currently MGI only displays microRNA targeting type interactions, though more types will be added.--> See <a href="INTERACTION_explorer_help.shtml" target="_blank">Interpreting Interaction Explorer Results</a> for more information on MGI interaction data.</td></tr>
-
 <tr>
 <th><a id="sequences"></a>Sequences &amp; Gene Models</TH>
 <TD>
