@@ -236,7 +236,34 @@ You can select more than one reference strain if you wish to compare sets of str
 <!-- <tr><th><a id="attributes"></a>SNP attributes</th><td>Use these boxes to determine the types and case of SNPs to return. To make selections, click one or more items on the lists.  The default is to return SNPs from <B>Any</B> type or class on the list. See <a name="variation_type"></a><a href="SNP_terms_help.shtml#dbsnp_vt" target="_blank">Variation Types</a> and <a name="function_class"></a><a href="SNP_terms_help.shtml#dbsnp_fc" target="_blank">Function Class</a> for additional details about list items on these lists.</td></tr> -->
 
    <tr><th><a id="map_position"></a>Genome Region</th>
-       <td>You must select a Chromosome and enter a range of genome coordinates (Examples: 125.618-125.622 Mbp; 1-125618205 bp; 125618205 - 200000000 bp; Use 0 - 200 Mbp for an entire Chr) or a marker range to use the Search by Region tab. You can toggle between bp and Mbp ranges.</td>
+       <td>You must select a Chromosome and enter a range of genome coordinates (Examples: 125.618-125.622 Mbp; 1-125618205 bp; 125618205 - 200000000 bp; Use 0 - 200 Mbp for an entire Chr) or a marker range to use the Search by Region tab. You can toggle between bp and Mbp ranges.
+       <p>If you search for an entire chromosome, you can expect these results:</p> 
+<table>
+  <tr><th>Chr</th><th>Number of SNPs</th></tr>
+  <tr><td>1</td><td>5,186,871</td></tr>
+  <tr><td>2</td><td>4,501,629</td></tr>
+  <tr><td>3</td><td>4,248,624</td></tr>
+  <tr><td>4</td><td>3,847,805</td></tr>
+  <tr><td>5</td><td>3,960,746</td></tr>
+  <tr><td>6</td><td>3,870,640</td></tr>
+  <tr><td>7</td><td>3,575,537</td></tr>
+  <tr><td>8</td><td>3,435,049</td></tr>
+  <tr><td>9</td><td>3,230,356</td></tr>
+  <tr><td>10</td><td>3,510,628</td></tr>
+  <tr><td>11</td><td>3,017,186</td></tr>
+  <tr><td>12</td><td>3,070,118</td></tr>
+  <tr><td>13</td><td>3,102,912</td></tr>
+  <tr><td>14</td><td>3,088,538</td></tr>
+  <tr><td>15</td><td>2,784,286</td></tr>
+  <tr><td>16</td><td>2,528,306</td></tr>
+  <tr><td>17</td><td>2,314,677</td></tr>
+  <tr><td>18</td><td>2,396,729</td></tr>
+  <tr><td>19</td><td>1,577,254</td></tr>
+  <tr><td>X</td><td>2,797,313</td></tr>
+  <tr><td>Y</td><td>5,348</td></tr>
+  <tr><td>MT</td><td>74</td></tr>
+  </table>
+       </td>
     </tr>
 </table>
 
