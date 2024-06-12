@@ -83,7 +83,7 @@ function openHelpWindow(helpFile){
 <BLOCKQUOTE>
 <font size="-1">Showing markers 1 - 100 of 46717.</font>
 </BLOCKQUOTE><br>
-   By default, 100 items are displayed on the web page. You can use the toggle to change the number of items displayed or page through the results. The total number of query results is shown, but no more than 100.000 are displayed.</li>
+   By default, 100 items are displayed on the web page. You can use the toggle to change the number of items displayed or page through the results. The total number of query results is shown, but no more than 100,000 are displayed.</li>
    <br>
 <!--<li>Links to <b>Mouse Genome Browser</b> and a <b>Marker Query Summary</b>.
   <ul>
