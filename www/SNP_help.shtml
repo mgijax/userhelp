@@ -114,7 +114,7 @@ function openHelpWindow(helpFile){
 
 
 <h3><a id="date"></a>How do I know which dbSNP build I'm querying against?</h3>
-<p>The dbSNP build number appears at the top of the Mouse SNP Query Form.</p>
+<p>The dbSNP build number appears in the Summary section of a SNP Detail page.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
@@ -171,7 +171,7 @@ You can select more than one reference strain if you wish to compare sets of str
 
 <h3><a id="limit"></a>Is there a limit on the number of SNPs that a query returns?</h3>
 
-<p>No. The query will return a paginated list of all SNPs that meet the search criteria.
+<p>Yes. The query will return a paginated list of up to 100,000 SNPs that meet the search criteria. The query will show the total number of SNPs within your search criteria, but will not display or download more than 100,000. 
 </p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
@@ -203,7 +203,7 @@ You can select more than one reference strain if you wish to compare sets of str
         </td>
     </tr>
     <tr><th>SNPs Located Near Genes</th>
-        <td>When searching by gene symbol, SNPs within 2 kb of the gene(s) are returned by default. You can choose to limit your search to just within the gene(s) or to expand the range to within 10 kb of the gene(s).
+        <td>When searching by gene symbol, SNPs within 2 kb of the gene(s) are returned by default. You can choose to limit your search to just within the gene(s).
         <p>The SNPs Located near Genes function returns SNPs located within the specified distance/orientation of the marker or markers that match the Gene Symbol/Name query.
         <ul>
          <li>You must enter a Gene Symbol/Name to use this function.</li>
@@ -326,7 +326,7 @@ Click a "Filter SNPs by" button above your results and select the options you wi
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="tabfile"></a>How do I retrieve my results as a tab-delimited text file?</h3>
-<p>In your search results, click on the <b>Export:</b> <i>SNPs to Text File</i> icon. Your web browser will download a file of the results that remain after any filtering you may have performed.</p>
+<p>In your search results, click on the <b>Export:</b> <i>SNPs to Text File</i> icon. Your web browser will download a file of the results that remain after any filtering you may have performed, up to the 100,000 limit.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 

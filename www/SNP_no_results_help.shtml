@@ -55,7 +55,7 @@ function openHelpWindow(helpFile){
 <li>Use the * as a wild card to broaden your search or &hellip;</li>
 <li>Choose Current symbols/names, synonyms &amp; homologs rather than the default (Current symbols) (click the down-arrow).</li>
 </ul></td></tr>
-<tr><td>There may be SNPs that map close to your gene of interest but that are not in the transcribed region.</td><td>Try expanding the search to include more of the upstream and downstream regions. Select <i>include 2 kb upstream and downstream of the gene(s)</i>, the default selection, or <i>10 kb upstream and downstream of the gene(s)</i>.
+<tr><td>There may be SNPs that map close to your gene of interest but that are not in the transcribed region.</td><td>Try expanding the search to include more of the upstream and downstream regions. Select <i>include 2 kb upstream and downstream of the gene(s)</i>, the default selection.
 </td></tr>
 
 <tr><td><b>Genome Region</b></td><td>There were no SNPs for your selected strains in the region you defined.</td>
@@ -69,7 +69,7 @@ function openHelpWindow(helpFile){
 </tr>
 </table>
 </p>
-<p>Note: By default, only those strains with SNPs that meet your search critera are shown. To see all the strains you searched for, select <i>Show all selected strains</i> above the results table.
+<p>Note: By default, only those strains with SNPs that meet your search criteria are shown. To see all the strains you searched for, select <i>Show all selected strains</i> above the results table.
 </p>
 
 <!--#include file='include/templateBlankBodyStop.html'--> 
