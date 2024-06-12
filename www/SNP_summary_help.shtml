@@ -71,7 +71,7 @@ function openHelpWindow(helpFile){
    <BLOCKQUOTE>
 	<dl>
 	  <dt><font size="-1"><u><b>You Searched for...</b></u></font></dt>
-	  <dt><font size="-1">Genome Region: <b>Chr2:125618205 - 999999999</b> bp</font></dt>
+	  <dt><font size="-1">Genome Region: <b>Chr2:125618205 - 127618205</b> bp</font></dt>
 	  <dt><font size="-1">Selected Strains: <b>ALL</b></font></dt>
 	  <dt><font size="-1">Sorted by genome location</font></dt>
    </dl>
@@ -81,9 +81,9 @@ function openHelpWindow(helpFile){
  <LI>To the far right of the search summary is information about the amount of data found. For example:
   
 <BLOCKQUOTE>
-<font size="-1">Showing markers 1 - 100 of 377269.</font>
+<font size="-1">Showing markers 1 - 100 of 46717.</font>
 </BLOCKQUOTE><br>
-   By default, 100 items are displayed on the web page. You can use the toggle to change the number of items displayed or page through the results.</li>
+   By default, 100 items are displayed on the web page. You can use the toggle to change the number of items displayed or page through the results. The total number of query results is shown, but no more than 100.000 are displayed.</li>
    <br>
 <!--<li>Links to <b>Mouse Genome Browser</b> and a <b>Marker Query Summary</b>.
   <ul>
@@ -170,7 +170,7 @@ Click on a cell to refine your search to that sub-region. Once you click on a ce
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="tabfile"></a>How do I retrieve my results as a tab-delimited text file?</h3>
-<p>In your search results, click on the <i>SNPs to Text File</i> icon. Your web browser will download a file of the results that remain after any filtering you may have performed.</p>
+<p>In your search results, click on the <i>SNPs to Text File</i> icon. Your web browser will download a file of the results that remain after any filtering you may have performed, up to a 100,000 limit.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
