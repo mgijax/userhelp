@@ -78,7 +78,7 @@ Using the Disease Ontology (DO) Browser</span>
 
 <p>You can browse the Disease Ontology hierarchy and for each selected disease term, find genes and mouse models associated with the term.</p>
 
-<p>The top of the page shows the disease term, its <abbr title="Disease Ontology">DO</abbr> ID, synonyms, Alternative IDs, linked when possible to the relevant source, and the term definition. This section also provides a link to the Alliance of Genome Resources (AGR) page for the disease term. AGR integrates data from 6 Model Organism Databases and the Gene Ontology (GO) Consortium. The founding database members of the Alliance are Flybase, Mouse Genome Database, Rat Genome Database, Saccharomyces Genome Database, Wormbase, and the Zebrafish Information Network.</p>
+<p>The top of the page shows the disease term, its <abbr title="Disease Ontology">DO</abbr> ID, synonyms, Alternative IDs, linked when possible to the relevant source, and the term definition. This section also provides a link to the Alliance of Genome Resources (AGR) page for the disease term. AGR integrates data from 7 Model Organism Databases and the Gene Ontology (GO) Consortium. The founding database members of the Alliance are Flybase, Mouse Genome Database, Rat Genome Database, Saccharomyces Genome Database, Wormbase, and the Zebrafish Information Network.</p>
 <p>The main body of the page provides 3 tabbed views,<a href="#term_detail">Term Details</a>, <a href="genes">Genes</a> and <a href="models">Models</a>. Term Details is the default selection. 
 </p>
 
