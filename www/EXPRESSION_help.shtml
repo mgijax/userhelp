@@ -50,11 +50,6 @@ function openHelpWindow(helpFile){
   <li><a href="#fields">What values are acceptable in each of the Standard Search fields?</a></li>
  </ul>
  </li>
- <li><a href="#whatdiffer">What is the purpose of the Differential Expression Search?</a>
- <ul>
-  <li><a href="#Dfields">What values are acceptable in each of the Differential Search fields?</a></li>
-  </ul>
-  </li>
   <li><a href="#whatprofile">What is the purpose of the Expression Profile Search?</a>
  <ul>
   <li><a href="#Pfields">What values are acceptable in each of the Profile Search fields?</a></li>
@@ -219,95 +214,6 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
-<h3><a id="whatdiffer"></a>What is the purpose of the Differential Expression Search?</h3>
-<p>The Differential Expression Search is specifically designed to allow you to search for genes expressed in some anatomical structures or developmental stages but not in others. Examples of the questions you can ask are:</p>
- <ul>
-  <li>Which genes are expressed in the forebrain and not expressed in the midbrain?</li>
-  <li>Which genes are expressed exclusively in the eye and its substructures?</li>
-  <li>Which genes are expressed only at Theiler Stage 15?</li>
-  <!--<li>Which genes are expressed at Theiler Stage 10 but either are not expressed or have not been analyzed in the adult?</li>-->
-  </ul>
- <p>RNA-Seq data are not yet included in these searches.</p>
- 
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
-<H3><a id="Dfields"></a>What values are acceptable in each of the Differential Search fields?</H3>
-<table class="nb">
-<tr><td><a href="#Danatomical_structure">Anatomical Structure</a> |  <a href="#Ddevelopmental_stage">Developmental Stage</a>
-</td>
-  </tr>
- </table>
-
-The Differential Expression form lets you query for genes expressed in some anatomical structures and/or developmental stages but not in others. 
-<ul>
-<li>To specify structure(s), type an entry in the field or make stage selections from the list.  You may use both fields simultaneously.</li>
-<li>Structures and/or stages entered in the upper section query the database for assay results demonstrating the expression of genes in those structures or stages.</li>
-<li>Structures or stages entered in the lower section query for the absence of expression of genes in those structures or stages.  <B>Note:</B> If the structure or stage in the lower section has conflicting expression results annotated to it, i.e., results showing both the presence and absence of expression of a particular gene, that gene is considered to be expressed and is not returned by this query. 
-Expression results that are either Ambiguous or Not Specified are ignored by this query, i.e. they are treated as neither present nor absent.</li>
-<li>These searches will return a list of genes whose expression was shown to be absent (not detected), as well as genes whose expression has not been analyzed or recorded in the database for the specified structures and stages.</li>
-<li>The search is limited to results from wild-type specimens. For the purposes of these queries, results from <i>in situ</i> reporter (knock-in) experiments will be considered wild type if the results are derived from a heterozygote.</li>  
-</ul>
-<br> 
-
-<table>
-<TR> <TH>Field</TH> <TH>Description</TH> </TR>
-<tr><th><a id="Danatomical_structure"></a><b>Anatomical Structure</b></th>
-<td>The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. Begin typing a term of interest and an autocomplete list activates on the second character. 
-
-<p>For each stage, the Anatomical Dictionary is organized as a hierarchy of structures. Thus the <i>Find genes where expression is detected in</i>, search includes substructures. This means that if you search for gene expression in, for example, brain, besides searching for brain, the system also searches for substructures to brain in the hierarchy, such as rhombencephalon. <!--If you choose to include superstructures, the system, besides searching for brain, looks for structures in the hierarchy placed above brain, such as central nervous system.-->
-<p>If you enter a structure in the upper section of the form, then in the lower section, you must either enter another structure or check the box for "anywhere else." If you check the box for “anywhere else,” your search will return genes that have been shown to be expressed in the specified structure (or its substructures) but nowhere else.</p>
-<!--<ul><li>If you enter more than one structure in the upper box, results demonstrating expression of a particular gene must exist for <b>all</b> the structures you specified in order for the query to return that gene.
-<li>If you enter more than one structure in the lower box, the query returns genes with an absence of expression in any of the specified structures.
-<li>If you click Any other structure, the query returns genes with expression in the specified structures but nowhere else.
-</ul>-->
-<p>If you are unsure of the most appropriate structural term to use, browse the
-<a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>.</p> </td>
-</tr>
-
-<tr><th><a id="Ddevelopmental_stage"></a><b>Developmental Stages</b></th>
-    <td>Use this field to select one or more Theiler stages (TS) to focus your search on a particular stage of embryonic development. 
-<ul>
-	<li>The default for the lower box is <i>Any stages not selected above</i>.
-	To select multiple stages or ages: 
-<ul>
-  <li>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired stages; OR hold the shift key down and  click on two stages to select those and all stages in between. </li>
-  <li>On a PC, hold the control key down and click on the desired stages; OR hold the shift key down and click on two stages to select those and all stages in between. </li>
- </ul></li>
-    <li>If you enter more than one stage in the upper box, for the query to return a particular gene, results demonstrating its expression must exist for at least one of the specified stages.
-	<li>If you enter more than one stage in the lower box, the query returns those genes for which there was an absence of expression in <i>Any stages not selected above</i>.
-</ul>
-
-<p><b>Note</b>: The Theiler system organizes development into stages defined by the
-appearance of specific developmental features. Embryos of the same gestational age can vary considerably with respect to development.  Consequently, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc. Therefore, if you are interested in all available records for embryos of age 14.0 dpc, you must select both TS 21 and TS 22.
-<p>You can <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage.
-<!--<tr><td><a id="and_not"></a><b>Expression: <br>and NOT detected in:<br>
-and NOT detected or analyzed in:</b><br></td><td><p>This portion of the form allows you to distinguish between two kinds of absence of expression. When you use:
-<ul>
-<li><b>and NOT detected in</b>, the query is for results where expression is <i>absent</i> in the specified structures or stages.</li>
-<li><b>and NOT detected or analyzed in</b>, the query is for genes with no positive expression results in the specified structures or stages. The result is genes whose expression has not been examined (not analyzed) in the specified structures and stages, as well those genes whose expression was <i>absent</i> (not detected).  This is particularly useful because authors tend to emphasize where a particular gene is expressed but often do not explicitly discuss where it was not expressed.</li>
-</ul></td></tr>-->
-
-<!--<tr><td><b>Exclude mutant specimens from query</b></td><td align="left">
-Since mutants often have aberrant expression patterns, by default, expression results obtained from specimens containing one or more mutant alleles are excluded from the query.  To include expression results obtained from mutants in your query, click to deselect this option.  <b>Note:</b> Because of the way the query is designed, knock-in embryos are considered mutants.  Therefore, if you exclude mutant specimens, the query returns no expression results 
-obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></td></tr>
-
-<!--<tr><th><a id="Dstructurestage"></a><b>Structure and Stage</b></th><td>Use this section when you want to query for genes expressed in some structures and stages but not in other structures and stages. This section combines the query fields for the <a href="#anatomical_structure">Anatomical Structure</a> and <a href="#developmental_stage">Developmental Stage</a> fields. 
-<p>You must enter a structure in both fields.</p>
-</td></tr>-->
-</p>
-</table>
-
- <p>The default tab for differential expression search results is the Tissue x Stage Matrix. This matrix is described in detail <a href="#tissuematrix">below</a>. In brief,</p>
-<ul>
-<li>If the differential search queried for expression in a particular structure, that structure will be displayed on the upper row of the matrix; each cell in the row will be a shade of blue.</li>
-<li>If the differential search queried for lack of expression in a particular structure, that structure will be displayed on the lower row of the matrix. Red cells indicate that expression has been recorded as Absent in that structure; white cells indicate that expression has not been examined (or recorded) in that structure.</li>
-<li>If the "anywhere else box" was checked, only the structure where expression is detected is shown. To distinguish between the genes whose expression has been shown to be absent (compared to those whose expression has not been examined), click on the "View the <span style="text-decoration: underline;">Not Detected data</span> for this gene set" filter below the matrix.</li>
-<li>The list of genes returned by the differential queries can be downloaded using the Export features found on the Genes tab.</li>
-<li>For any search, you can generate a list of genes whose expression has been shown to be absent (compared to those whose expression has not been examined) by using the "Detected?' filter, found above the summary, set to "No."</li>
-</ul>
- 
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
 <h3><a id="whatprofile"></a>What is the purpose of the Expression Profile Search?</h3>
 
 <p>It allows you to search for genes by their expression profile. You can define the expression profile of interest by specifying up to 10 anatomical structures and whether expression is present or absent in these structures. Examples of the questions you can ask are:</p>
@@ -355,7 +261,7 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></t
   <li>Classical Expression Assays - Because searching these data will return genes whose expression is Not detected (Absent) as well as genes whose expression has not been analyzed or recorded in the database for the tissue, all anatomical structures in the Mouse Developmental Anatomy are listed on the autocomplete list.</li>  
   <li>RNA-Seq – the autocomplete list is limited to tissues in GXD studied using this technique.</li>
  </ul>
- <br>When searching Classical Expression Data, if you check the box for “Not detected or analyzed anywhere else,” your search will return genes that have been shown to be expressed in the specified structure(s) (and substructures) but nowhere else.
+ <br>When searching Classical Expression Data, if you check the box for "Not detected or analyzed anywhere else," your search will return genes that have been shown to be expressed in the specified structure(s) (and substructures) but nowhere else.
 </td></tr>
 <tr><th><a id="profileStages"></a><b>Theiler Stage(s)</b></th>
  <td>This field is closed by default; use the Show Theiler stage selectors check box to reveal it.
@@ -387,7 +293,7 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></t
 <br>Search results summary for classical expression assay searches
 <ul>
  <li>The list of genes that fits the expression profile can be downloaded using the Export features found on the Genes tab.</li>
-<li>The default tab on the search results summary is the Tissue x Gene Matrix.  (The Heat Map tab will not be present.) This matrix is described in detail below. In brief,
+<li>The default tab on the search results summary is the Tissue x Gene Matrix.  (The Heat Map tab will not be present.) This matrix is described in detail<a href="genematrix">below</a>. In brief,
  <ul>
   <li>If the search queried for expression in a particular structure, that structure will be displayed on an upper row of the matrix; each cell in the row will be a shade of blue. </li>
   <li>If the search queried for lack of expression in a particular structure, that structure will be displayed on a lower row of the matrix. Red cells indicate that expression has been recorded as Absent in that structure; white cells indicate that expression has not been examined (or recorded) in that structure. </li>
@@ -400,16 +306,6 @@ If more than one Not detected structure was specified in the profile, you will n
 <ul>
 <li>The list of genes that fits the expression profile can be downloaded using the Export features found on the Genes tab.</li>
 <li>The default tab on the search results summary is the Heat Map.  (The Tissue x Gene matrix tab will not be present.) Clicking on the RNA Seq &#9658; Heat Map button will open a browser window displaying your data in Morpheus, a heat map visualization and analysis tool created at the Broad Institute.</li>
-</ul>
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
-<ul>
-<li>RNA-Seq data are not yet included in these searches.</li>
-<li>The list of genes that fits the expression profile can be downloaded using the Export features found on the Genes tab.</li>
-<li>If a structure has conflicting expression results annotated to it, i.e., results showing both the presence and absence of expression of a particular gene, that gene is considered to be expressed. Expression results that are either Ambiguous or Not Specified are ignored by this query, i.e. they are treated as neither present nor absent.
-<li>The search is limited to results from wild-type specimens. For the purposes of these queries, results from in situ reporter (knock-in) experiments will be considered wild type if the results are derived from a heterozygote.</li>
-<li>When applicable, you can use the Detected? = filter, found above the summary, to distinguish between genes whose expression has been shown to be absent (compared to those whose expression has not been examined).  Selecting Detected? = No will limit the list on the Genes tab to those genes that have Not Detected results returned by the profile search. If more than one Not Detected structure was specified in the profile, you will need to use the Assay Results tab to distinguish which structure has been shown to lack expression for each gene.</li>
 </ul>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
@@ -460,7 +356,14 @@ If more than one Not detected structure was specified in the profile, you will n
  <tr><td><b><a href="#tissuematrix">Tissue x Stage&nbsp;Matrix</a></b></td>
      <td>The Tissue x Stage Matrix tab offers a temporal and spatial overview of gene expression results. Toggles allow you to expand the anatomy hierarchy to reveal greater levels of detail in tissues of interest. This tab also allows you to <a href="#gxdfilter">filter</a> results by tissue and developmental stage.</td></tr>
  <tr><td><b><a href="#genematrix">Tissue x Gene Matrix</a></b></td>
-     <td>The Tissue x Gene Matrix tab enables the comparison of expression patterns of different genes. As with the tissue x stage matrix, toggles allow you to expand the anatomy hierarchy to reveal greater levels of detail in tissues of interest. This tab also allows you to <a href="#gxdfilter">filter</a> by gene.</td></tr>
+     <td>The Tissue x Gene Matrix tab enables the comparison of expression patterns of different genes. As with the tissue x stage matrix, toggles allow you to expand the anatomy hierarchy to reveal greater levels of detail in tissues of interest. This tab also allows you to <a href="#gxdfilter">filter</a> by gene. This tab is not present when you search for RNA-Seq data using the Expression Profile Search.</td></tr>
+ <tr><td><b><a id="#heatmap">Heat Map</a></b></td>
+     <td>This tab is present when a search returns RNA-Seq data. It provides a RNA Seq &#9658; Heat Map button. Clicking on it will open a browser window displaying your data in Morpheus, a heat map visualization and analysis tool created at the Broad Institute. A summary of the data exported to Morpheus is at the top of the page. Each column of the heat map is a bioreplicate set; the GXD metadata annotations for the set are included in the column display. Each row in the heat map is a gene; the display includes its symbol and its MGI and Ensembl IDs. Morpheus offers a myriad of utilities for further display and analysis, including sorting, filtering, hierarchical clustering, nearest neighbor analysis, and visual enrichment.
+     <br>Note: for any experiment, the number of samples displayed in GXD (and the heat map) may be fewer than the number in the Expression Atlas, the data source. The reasons for this are two fold:
+     <ol>
+      <li>In GXD we present the biological replicate sets from each experiment; these are derived by grouping samples that have the same source information (anatomical structure, developmental stage, mutated gene, strain and sex).</li>
+      <li>Experiments may contain some samples that are inconsistent with GXD's scope; data from these samples are not included in GXD.</li>
+      </ol></td></tr>
 </table>
 </p>
 
@@ -676,18 +579,6 @@ Check the rows or columns you wish to retain and then click the Filter (<img ima
 
 <h3><a id="excelfile_gxdqf"></a>Can I get my results as a tab-delimited text file?</h3>
 <p>Yes. The <a href="#genestab">Genes</a> and <a href="#assaytab">Assay Results</a> tabs provide export options. Click on the Text File icon. Your web browser will download a file of the results.  The Assay Results file will include all columns, regardless of whether or not the "Show Additional Sample Data" toggle is chosen.</p>
-
-<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
-
-<h3><a id="heatmap"></a>Can I create a heat map for my RNA-Seq results?</h3>
-
-<p>Yes. Click on the RNA Seq &#9658; Heat Map button above the table of results in the Assay results tab. A browser window will open, displaying your selected data in Morpheus, a heat map visualization and analysis tool created at the Broad Institute. A summary of the data  exported to Morpheus is at the top of the page. Each column of the heat map is a bioreplicate set; the GXD metadata annotations for the set are included in the column display. 
-Each row in the heat map is a gene; the display includes its symbol and its MGI and Ensembl IDs.</p>
-<p>Note: for any experiment, the number of samples displayed in GXD (and the heat map) may be fewer than the number in the Expression Atlas, the data source. The reasons for this are two fold:</p>
-<ol>
-<li>In GXD we present the biological replicate sets from each experiment; these are derived by grouping samples that have the same source information (anatomical structure, developmental stage, mutated gene, strain and sex).</li> 
-<li>Experiments may contain some samples that are inconsistent with GXD's scope; data from these samples are not included in GXD.</li>
-</ol>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
