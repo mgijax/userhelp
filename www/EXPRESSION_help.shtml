@@ -314,31 +314,95 @@ obtained from <i>in situ</i> reporter (knock in) assays.</td></tr></table>--></t
 <ul>
 <li>Which genes are expressed in the metanephric mesenchyme but not in the metanephros epithelium and primitive collecting duct?</li>
 <li>Which genes are expressed in the photoreceptor layer but not in the retina ganglion cell and inner plexiform layers?</li>
+<li>Which genes are expressed exclusively in the eye and its substructures?</li> 
+<li>Which genes are expressed only at Theiler Stage 15?</li>
+</ul>
+
+<p>Start by using the radio button to choose which type of expression data you wish to search:</p>
+<ul>
+ <li>Classical Expression Assays – data obtained using RNA in situ, immunohistochemistry, knock-in reporter, Northern blot, RT-PCR and Western blot assays. GXD has data for many tissues studied using these techniques.</li>
+ <li>RNA-Seq - data obtained using bulk RNA-seq. There are significantly fewer tissues in GXD studied using this technique, but for those tissues, expression calls have been made for all genes in the genome.</li>
+ <li>Other areas of the search are grayed out until a section is made.</li>
 </ul>
 
 <h3><a id="Pfields"></a>What values are acceptable in each of the Profile Search fields?</h3>
 
 <table class="nb">
- <tr><td><A HREF="#profileStructure">Anatomical Structure</A> | <A HREF="#profileDetected">Detected</A> | 
- <A HREF="#profileNot">Not Detected</A> </td>
+ <tr><td><A HREF="#profileDetected">Detected</A> | <A HREF="#profileNot">Not Detected</A> | <A HREF="#profileStructure">Anatomical Structure</A> | <A HREF="#profileStages">Theiler Stage(s)</A></td>
  </TR>
 </table>
 
 <table>
 <TR> <TH>Field</TH> <TH>Description</TH> </TR>
-<tr><th><a id="profileStructure"></a><b>Anatomical Structure</b></th>
- <td>You can enter 1-10 anatomical structures.
- <br>You can remove a structure by clicking on the X at the left of the row.
- <br>The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. Begin typing a term of interest and an autocomplete list activates on the second character.
-</td></tr>
 <tr><th><a id="profileDetected"></a><b>Detected</b></th>
  <td>There must be at least one structure chosen as Detected (expressed) in any search.
 <br>For the search to return a particular gene, results demonstrating its expression must exist for ALL structures chosen as Detected.
  </td></tr>
 <tr><th><a id="profileNot"></a><b>Not Detected</b></th>
- <td>For the search to return a particular gene, either there are results showing it was Not Detected (absent) in the specified structure or there are no results, indicating its expression has not been analyzed or recorded in the database for that structure.
+ <td>Classical Expression Assays – For the search to return a particular gene, there are no results in the database demonstrating its expression, either because the annotated results show it was Not detected (Absent) in the specified structure/stage or because there are no results in the database, indicating its expression has not been analyzed or recorded for that structure/stage. 
+ <br>RNA-Seq – For the search to return a particular gene, there are results showing it was Not detected (TPM value &lt;0.5).  For tissues analyzed by RNA-seq, expression calls have been made for all genes in the genome.
+ <br>For the search to return a particular gene, it cannot be expressed in ANY of the structures chosen as Not detected.
  </td></tr>
+<tr><th><a id="profileStructure"></a><b>Anatomical Structure</b></th>
+ <td>You can enter 1-10 anatomical structures. 
+ <br>You can remove a structure by clicking on the X at the right of the row. 
+ <br>The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a>. Begin typing a term of interest and an autocomplete list activates on the second character.
+ <br>Begin typing a term of interest and an autocomplete list activates on the second character. 
+ <br>The autocomplete list is limited to anatomical structures with annotations that match the chosen criteria.
+ <br>Detected—that tissue either has Detected annotation(s) or is the ancestor of a term that has them.
+ <br>Not Detected
+ <ul>
+  <li>Classical Expression Assays - Because searching these data will return genes whose expression is Not detected (Absent) as well as genes whose expression has not been analyzed or recorded in the database for the tissue, all anatomical structures in the Mouse Developmental Anatomy are listed on the autocomplete list.</li>  
+  <li>RNA-Seq – the autocomplete list is limited to tissues in GXD studied using this technique.</li>
+ </ul>
+ <br>When searching Classical Expression Data, if you check the box for “Not detected or analyzed anywhere else,” your search will return genes that have been shown to be expressed in the specified structure(s) (and substructures) but nowhere else.
+</td></tr>
+<tr><th><a id="profileStages"></a><b>Theiler Stage(s)</b></th>
+ <td>This field is closed by default; use the Show Theiler stage selectors check box to reveal it.
+  <br>You can use this field to restrict your search to specific stage(s) for the specified anatomical structure or you can search using stages without specifying an anatomical structure.
+  <br>When a stage is chosen, the menu is outlined in green.
+  <br>To select multiple Theiler stages:
+  <ul>
+   <li>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired stages; OR hold the shift key down and click on two stages to select those and all stages in between. </li>
+   <li>On a PC, hold the control key down and click on the desired stages; OR hold the shift key down and click on two stages to select those and all stages in between.</li>
+  </ul>
+  <br>Note: toggling the check box will discard any stage selections.
+  <br>The Theiler stages displayed on the menu reflects stages with annotations that match the chosen criteria. 
+  <ul>
+   <li>By default, when searching for RNA-seq data, the stages for which GXD has no data are not shown.</li>
+   <li>When searching either type of data, when an anatomical structure has been entered, the menu is dynamically updated to reflect the stages for which there is Detected/Not detected data.</li>
+  </ul>
+  <br>If you enter more than one stage in a Detected row, for the query to return a particular gene, results demonstrating its expression must exist for at least one of the specified stages (i.e. it does an OR search of those stages).
+  <br>If you enter more than one stage in a Not Detected row, the query returns those genes for which there was an absence of expression in all of the specified stages (i.e. it does an AND search of those stages).
+  
 </table>
+
+<ul>
+ <li>The search is limited to results from wild-type specimens. For the purposes of these queries, results from in situ reporter (knock-in) experiments will be considered wild type if the results are derived from a heterozygote.</li>
+ <li>If a structure has conflicting expression results annotated to it, i.e., results showing both the presence and absence of expression of a particular gene, that gene is considered to be expressed.</li>
+ <li>Classical expression results that are either Ambiguous or Not Specified are ignored by this query, i.e. they are treated as neither Detected nor Not detected.  (There are no RNA-seq data annotated to either Ambiguous or Not Specified.)</li>
+ <li>For searches by Theiler stage, the structure "mouse" is used in the search.</li>
+</ul>
+
+<br>Search results summary for classical expression assay searches
+<ul>
+ <li>The list of genes that fits the expression profile can be downloaded using the Export features found on the Genes tab.</li>
+<li>The default tab on the search results summary is the Tissue x Gene Matrix.  (The Heat Map tab will not be present.) This matrix is described in detail below. In brief,
+ <ul>
+  <li>If the search queried for expression in a particular structure, that structure will be displayed on an upper row of the matrix; each cell in the row will be a shade of blue. </li>
+  <li>If the search queried for lack of expression in a particular structure, that structure will be displayed on a lower row of the matrix. Red cells indicate that expression has been recorded as Absent in that structure; white cells indicate that expression has not been examined (or recorded) in that structure. </li>
+  <li>If the "anywhere else box" was checked, only the structure where expression is detected is shown. </li>
+  </ul></li>
+<li>To distinguish between the genes whose expression has been shown to be absent (compared to those whose expression has not been examined), click on the "View the Not Detected data for this gene set" filter below the matrix. This action is the same as using the Detected?=No filter found above the summary.  In either case, the list on the Genes tab will be limited to those genes that have Not Detected results returned by the profile search. 
+If more than one Not detected structure was specified in the profile, you will need to use the Assay Results tab to distinguish which structure has been shown to lack expression for each gene.</li>
+</ul>
+<br>Search results summary for RNA-seq data searches
+<ul>
+<li>The list of genes that fits the expression profile can be downloaded using the Export features found on the Genes tab.</li>
+<li>The default tab on the search results summary is the Heat Map.  (The Tissue x Gene matrix tab will not be present.) Clicking on the RNA Seq &#9658; Heat Map button will open a browser window displaying your data in Morpheus, a heat map visualization and analysis tool created at the Broad Institute.</li>
+</ul>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <ul>
 <li>RNA-Seq data are not yet included in these searches.</li>
