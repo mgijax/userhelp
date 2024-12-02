@@ -293,7 +293,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <br>Search results summary for classical expression assay searches
 <ul>
  <li>The list of genes that fits the expression profile can be downloaded using the Export features found on the Genes tab.</li>
-<li>The default tab on the search results summary is the Tissue x Gene Matrix.  (The Heat Map tab will not be present.) This matrix is described in detail<a href="genematrix">below</a>. In brief,
+<li>The default tab on the search results summary is the Tissue x Gene Matrix.  (The Heat Map tab will not be present.) This matrix is described in detail <a href="genematrix">below</a>. In brief,
  <ul>
   <li>If the search queried for expression in a particular structure, that structure will be displayed on an upper row of the matrix; each cell in the row will be a shade of blue. </li>
   <li>If the search queried for lack of expression in a particular structure, that structure will be displayed on a lower row of the matrix. Red cells indicate that expression has been recorded as Absent in that structure; white cells indicate that expression has not been examined (or recorded) in that structure. </li>
