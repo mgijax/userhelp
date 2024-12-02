@@ -76,7 +76,7 @@ function openHelpWindow(helpFile){
 </ul></p>
 
 <h3><a id="whatpurpose"></a>What is the purpose of the Gene Expression Database?</h3>
-<p>The Gene Expression Database (GXD) is designed to integrate many different types of endogenous gene expression data from the mouse in formats appropriate for comprehensive analysis.   Query results, such as the developmental stage and tissue of expression (or non-expression), the genetic origin of the sample, and the numbers and sizes of detected bands, are described together with the molecular probe, the expression assay type, and the experimental conditions used.  Expression patterns are described using an extensive, hierarchical dictionary of standardized anatomical terms, making it possible to record expression results from assays with differing spatial resolution in a consistent and integrated manner and to analyze expression patterns at differing levels of detail. Whenever possible, text annotations are complemented by digitized images of the original expression data.
+<p>The Gene Expression Database (GXD) is designed to integrate many different types of endogenous gene expression data from the mouse in formats appropriate for comprehensive analysis.  Query results, such as the developmental stage and tissue of expression (or non-expression), the genetic origin of the sample, and the numbers and sizes of detected bands, are described together with the molecular probe, the expression assay type, and the experimental conditions used.  Expression patterns are described using an extensive, hierarchical dictionary of standardized anatomical terms, making it possible to record expression results from assays with differing spatial resolution in a consistent and integrated manner and to analyze expression patterns at differing levels of detail. Whenever possible, text annotations are complemented by digitized images of the original expression data.
 <p>To learn more about GXD and how we acquire data, please see
 <a href="<!--#include file='include/mgihome_url.html'-->/GXD/aboutGXD.shtml" target="_blank">About GXD</a>.
 </p>
@@ -97,14 +97,14 @@ function openHelpWindow(helpFile){
 <p>(See <A href="#example">Are there examples of query results?</a> for the form
 field values for these queries.)
 <p>
-If you are interested in doing queries that ask what genes are expressed in some anatomical structures and/or developmental stages but not in others, you should use the <a href="#whatdiffer">Differential Expression Search</a> tab on this form.</p>
+If you are interested in doing queries that ask what genes are expressed in some anatomical structures and/or developmental stages but not in others, you should use the <a href="#whatprofile">Expression Profile Search</a> tab on this form.</p>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 
 <h3><a id="fields"></a>What values are acceptable in each of the Standard Search  fields?</h3>
 <table class="nb">
  <tr><td><A HREF="#gene_nomenclature">Genes</A> | <A HREF="#map_position">Genome location</A> | 
- <A HREF="#anatomical_structure">Anatomical structure or stage</A> | <A HREF="#mutated_gene">Mutant / wild type</A> <!--| <A HREF="#background">Genetic background</A>--> | <A HREF="#assay_type">Assay types</A> </td>
+ <A HREF="#anatomical_structure">Anatomical structure or stage</A> | <A HREF="#mutated_gene">Mutant / wild type</A> | <A HREF="#assay_type">Assay types</A> </td>
  </TR>
 </table>
 
@@ -371,7 +371,7 @@ If more than one Not detected structure was specified in the profile, you will n
 
 <H3><a id="summary"></A>How do I interpret the query results summary page?</H3>
 
-<p>Your search results are displayed within six tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a>, <a href="#assaytab">Assay Results</a>, <a href="#imagetab">Images</a>, <a href="#tissuematrix">Tissue x Stage Matrix</a> and <a href="#genematrix">Tissue x Gene Matrix</a>. With the Standard search, the Assay Results tab is selected by default. For Differential Expression searches, the Tissue x Gene Matrix tab is the default selection.
+<p>Your search results are displayed within six tabs, each noting the number of results: <a href="#genestab">Genes</a>, <a href="#byassay">Assays</a>, <a href="#assaytab">Assay Results</a>, <a href="#imagetab">Images</a>, <a href="#tissuematrix">Tissue x Stage Matrix</a> and <a href="#genematrix">Tissue x Gene Matrix</a>. With the Standard search, the Assay Results tab is selected by default. For Expression Profile searches, the Tissue x Gene Matrix tab is the default selection if you are searching Classical Expression Assays. The Heat Map is the default selection when searching RNA-Seq assays with the Expression Profile Search. 
 See <a href="#whattabs">What are the advantages of the different results tabs?</a> for a brief guide to choosing results tabs.</p>
 <p>If your search returns more than 21 million assay results, only the first page of the assay results tab will be rendered. The other tabs will be blank. Such large search returns make our pages slow to load. To get full functionality in the summary, you will need modify your search or filter to return fewer results.</p>
 
