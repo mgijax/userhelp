@@ -264,7 +264,7 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
  <br>When searching Classical Expression Data, if you check the box for "Not detected or analyzed anywhere else," your search will return genes that have been shown to be expressed in the specified structure(s) (and substructures) but nowhere else.
 </td></tr>
 <tr><th><a id="profileStages"></a><b>Theiler Stage(s)</b></th>
- <td>This field is closed by default; use the Show Theiler stage selectors check box to reveal it.
+ <td>This field is hidden by default; use the Show Theiler stage selectors check box to reveal it.
   <br>You can use this field to restrict your search to specific stage(s) for the specified anatomical structure or you can search using stages without specifying an anatomical structure.
   <br>When a stage is chosen, the menu is outlined in green.
   <br>To select multiple Theiler stages:
@@ -417,7 +417,8 @@ See <a href="#whattabs">What are the advantages of the different results tabs?</
 </p>
 
 <h4><a id="assaytab"></a>Assay Results</h4>
-<p>If you select Assay Results, you are offered the ability to Export your results as a text or export the RNA-Seq results to a heat map. Below the Export options, a table summarizes information on the assays. Ten columns are shown by default; an additional 4 columns are displayed when you use the “Show Additional Sample Data” toggle. You can use the triangles in the column headers to sort by a column. The query summary contains the following fields:<br><br>
+<p>If you select Assay Results, you are offered the ability to Export your results as a text. Below the Export options, a table summarizes information on the assays. Ten columns are shown by default; an additional 4 columns are displayed when you use the “Show Additional Sample Data” toggle. 
+You can use the triangles in the column headers to sort by a column. The query summary contains the following fields:<br><br>
 <blockquote> 
 <table>
 <tr><td><b>Gene</b></td>
