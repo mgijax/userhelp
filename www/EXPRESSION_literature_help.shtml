@@ -2,7 +2,7 @@
 <!--#include file='include/templateHead.html'--> 
 <title>
   <!--#include file="include/mgiversion.html"-->
-MGI-Using the Gene Expression Literature Query Form
+MGI-Using the Gene Expression Literature Search
 </title>
 
 <link rel="stylesheet" type="text/css" href="./userhelp.css"  />
