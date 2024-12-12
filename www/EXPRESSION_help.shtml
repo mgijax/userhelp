@@ -266,7 +266,6 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
 <tr><th><a id="profileStages"></a><b>Theiler Stage(s)</b></th>
  <td>This field is hidden by default; use the Show Theiler stage selectors check box to reveal it.
   <br>You can use this field to restrict your search to specific stage(s) for the specified anatomical structure or you can search using stages without specifying an anatomical structure. 
-  If you are going to use this field in conjunction with an anatomical structure, you must specify the structure first; you cannot specify a structure once you have selected a Theiler stage.
   <br>When a stage is chosen, the menu is outlined in green.
   <br>To select multiple Theiler stages:
   <ul>
