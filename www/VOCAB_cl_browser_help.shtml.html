@@ -1,0 +1,136 @@
+<!--#include file='include/templateHead.html'-->
+
+<title>
+  <!--#include file="include/mgiversion.html"-->
+  MGI-Using the Cell Ontology(CL) Anatomy Browser
+</title>
+
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+</style>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="helpHeaderText">
+   Using the Cell Ontology Anatomy Browser
+ </span>
+</div>
+
+<!-- Container Table -->
+<table border=0 cellpadding=0 cellspacing=5 width="100%">
+
+
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+      Overview
+  </td>
+</tr>
+
+
+<!-- Body of User Help -->
+
+<P>The Anatomy Ontology for the Adult Mouse was developed and is being refined to provide standardized nomenclature for anatomical structures in the postnatal mouse (Theiler stage 28).</p>
+<P>
+Use the Adult Mouse Anatomy Browser to view the anatomical terms and their relationships in a hierarchical display.</p>
+
+<a id="top"></a>
+<P>This help document answers the following questions about the Browser:
+ <UL>
+    <LI><A HREF="#whatis">What is the Cell Ontology?</A></LI>
+    <LI><A HREF="#howis">How is the Cell Ontology organized?</A></LI>
+    <LI><A HREF="#whatcan">What can I find in the Cell Ontology Browser?</A></LI>
+    <LI><A HREF="#browse">How do I browse the Cell Ontology?</A></LI>
+    <LI><A HREF="#search">How do I search the Cell Ontology?</A></LI>
+    <LI><A HREF="#td_page">How do I interpret the results?</A></LI>
+ </UL>
+</p>
+<H3><A id="whatis"></A>What is the Cell Ontology?</H3>
+<P>The Cell Ontology (CL) is a structured controlled vocabulary that describes and classifies a broad range of canonical biological cell types. The CL is not organism-specific, covering cell types from prokaryotes to mammals, but excludes plant cell types.
+</P>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><A id="howis"></A>How is the Cell Ontology organized?</H3>
+<P>The CL organizes cell type classes into a directed acyclic graph (DAG) composed exclusively of a "is a" relationships.</P>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><A id="whatcan"></A>What can I find in the Cell Ontology Browser?</H3>
+
+<P>Use the Browser to find standardized vocabulary terms for cell types found in animals.</P>
+<P>You can either <a href="#browse">browse</a> or <a href="#search">search</a> for cell type terms from the Cell Ontology Browser entry page.
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><A id="browse"></A>How do I browse the vocabulary?</H3>
+<p>To browse the vocabulary, click on terms in the Cell Ontology Tree View on the Cell Ontology Browser page. This shows a term's place in the hierarchy, and updates the Cell Ontology Term Detail section of the page with the selected term's parent terms (superstructures) and ID. Click on cell type terms to navigate progressively through the ontology in order to locate specific terms. In the Cell Ontology Tree View a black triangle at the beginning of a term indicates the term has subterms. You can expand branches by clicking on a term or its preceding triangle. If you click on a term, this also updates the Term Detail section. You can collapse branches by clicking on the downward-pointing triangle. You can click on the triangles to navigate the branches without updating the Term Detail section.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><A id="search"></A>How do I search the vocabulary?</H3>
+<P>The Cell Ontology<B>Search</B> field accepts any text string and searches for all terms containing that string plus any synonyms.
+
+You can search by anatomy term to determine where a particular structure exists in the Cell Ontology and see, in the Cell Ontology<b>Tree View</b> section, the anatomy hierarchy. To do this:
+<ul>
+	<li>Begin typing a cell type of interest and an autocomplete list activates on the second character.
+    <ul>
+    	<li>The list shows all the cell type terms and their synonyms that match your search characters.</li>
+    	<li>You can type the beginnings of multiple terms to narrow the list (example: <i>emb fib</i> will limit the list to <i>embryonic fibroblast</i>).</li>
+    </ul>
+	<li>You must select a term. There is no free text searching in this field.</li>
+	<li>You can only select one term.</li>
+	<li>Enter the CL accession identifier in the Search field to return an exact match for the structure.</li>
+	<li>Use the return/enter key on your keyboard to activate a search. The search finds all structures that contain any of your search terms and displays a list of those structures.</li>
+	<li>If you are uncertain which terms to use for the most effective searching, <a href="#browse">browse</a> the ontology to see the standardized terms.</li>
+</ul>
+<p>Select a term in your search results to automatically update the Cell Ontology Term Detail and Cell Ontology Tree View sections on the right. Use the Clear button to start a new search.</p>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<H3><A id="td_page"></A>How do I interpret the results?</H3>
+<P>
+<table>
+<tr><th><a id="celltype_search"></a>Cell Type Search</th>
+     <td>The search finds all structures that contain any of your search terms and displays a ranked list of those structures. Click on a term to update the Term Detail and Tree View sections of the page with the selected term <span style="background-color: #E5C05A">highlighted in gold</span>.</td></tr>
+<tr><th><a id="term_detail"></a>Cell Type Term Detail</th>
+    <td>
+     <table>
+      <tr>
+       <th>Term</th>
+       <td>The selected term <span style="background-color: #E5C05A">highlighted in gold</span>. If you accessed this page by following a link on another page, the appropriate structure is highlighted. Otherwise, before you initiate a search or browse, the default term <i>cell</i> which is the top of the hierarchy is highlighted.</td>
+      </tr>
+      <tr>
+      <th>ID</th><td>The unique accession ID for the structure</td>
+      </tr>
+      <tr>
+      <th>Parent Terms</th><td>The immediate parent terms for the selected structure. Because the CL Ontology is built on a DAG framework, a structure may have more than one parent term.</td>
+      </tr>
+     </table>
+<tr><th><a id="tree_view"></a>Cell Type Tree View</th>
+     <td>You can collapse or expand branches by clicking on a term. A black triangle at the beginning of a term indicates the term has substructures. When you select a new term, it is <span style="background-color: #BEEBFF">highlighted in gold</span> and the Term Detail section is updated.
+     </td>
+     </tr>
+<td>A black triangle preceding a term in the Tree View indicates that the term has
+<a href="<!--#include file='include/fewi_url.html'-->glossary/children">children</a>. Click on the triangle to see the additional paths. You can collapse branches by clicking on the downward-pointing triangles. Unlike clicking on a term, clicking on a triangle does not update the selected term.</td></tr>
+</table>
+</P>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+
+<HR>
+
+<!--#include file='include/templateBlankBodyStop.html'-->
