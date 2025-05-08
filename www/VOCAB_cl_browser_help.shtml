@@ -109,7 +109,7 @@ You can search by anatomy term to determine where a particular structure exists 
       <th>Parent Terms</th><td>The immediate parent terms for the selected structure. Because the CL Ontology is built on a DAG framework, a structure may have more than one parent term.</td>
       </tr>
      </table>
-<tr><th><a id="tree_view"></a>Cell Type Tree View</th>
+<tr><th><a id="anatomy_search"></a>Cell Type Tree View</th>
      <td>You can collapse or expand branches by clicking on a term. A black triangle at the beginning of a term indicates the term has substructures. When you select a new term, it is <span style="background-color: #BEEBFF">highlighted in gold</span> and the Term Detail section is updated.
      </td>
      </tr>
