@@ -175,8 +175,6 @@ table { border-style: none; align: center
 			<td>The human symbol and name and the source of the homology assertion</td></tr>
 		<tr><th>Synonyms</th>
 			<td>Names or symbols for a given human marker that may appear in the literature but which are not approved names or symbols</td></tr>
-		<tr><th>Links</th>
-			<td>Links to human gene information at HGNC (Hugo Gene Nomenclature Committee), NCBI and to human protein data at <a href="http://www.nextprot.org/db/" target="_blank">neXtProt</a> and UniProt.</td></tr>
 		<tr><th>Chr Location</th>
 			<td>Human chromosome and cytogenetic band position from NCBI. Genome coordinate range in base pairs, strand and build number from The Alliance of Genome Resources.</td></tr>
 		<tr><th>Alliance of Genome Resources</th>
