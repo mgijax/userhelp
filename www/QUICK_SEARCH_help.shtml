@@ -310,7 +310,7 @@ function openHelpWindow(helpFile){
   <li><b>Chr </b>(chromosome), <b>Location</b> (genome coordinates), and <b>Str</b> (strand, + or -) appear for results with this data. Offsets (cM position or cytogenetic band) appear, if available, when there is no chromosome data.</li>
   <li>The <a href="#best_match">Best Match</a> column lists one of the best reasons why an item is returned.</li>
   <li>For large numbers of results, you can paginate through the full list of all matching genome features.</li>
-  <li>You can <a href="#filter">filter</a> your results by feature type, GO terms (molecular function, biological process, cellular component), expression, and phenotype and disease annotations.</li>
+  <li>You can <a href="#filter">filter</a> your results by feature type, GO terms (molecular function, biological process, cellular component), expression (Anatomy or Cell Type), and phenotype and disease annotations.</li>
   <li>You have the option of forwarding your results to the MGI Batch Query, the GXD Batch Search, or MouseMine to obtain additional data associated with the features (see <a href="BATCH_help.shtml" target="_blank">Using the MGI Batch Query</a>, <a href="EXPRESSION_batch_help.shtml" target="_blank">Using the Gene Expression Batch Search</a>, and <a href="MouseMine_help.shtml" target="_blank">Using the MouseMine Data Warehouse</a>).</li>
   <li>You can download your results as a text or spreadsheet file.</li>
  </ul>
@@ -337,7 +337,7 @@ function openHelpWindow(helpFile){
      <li>focus on detailed research topics</li>
      <li>explore related research areas</li>
      <li>investigate alternative paths to data</li>
-     <li><a href="#filter">filter</a> your results by high level vocabulary terms for Gene Ontology (GO: Molecular Function, Biological Process, and Cellular Component), Expression, Phenotype, and Disease</li> 
+     <li><a href="#filter">filter</a> your results by high level vocabulary terms for Gene Ontology (GO: Molecular Function, Biological Process, and Cellular Component), Expression (Anatomy or Cell Type), Phenotype, and Disease</li>
      <li>download your results as a text or spreadsheet file.</li>
    </ul>
 </dd>

@@ -248,7 +248,7 @@ transgenic mice (i.e., animals containing randomly inserted transgenes), culture
   <TR>
    <td><b><a id="structure2"></a>Structure</b></td> <td>Structure examined in the assay. Given as a Theiler stage and anatomical structure name, linked to <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Browser</a> which shows the structure in the anatomical hierarchy.</TD> </TR>
   <TR>
-   <td><b>Cell Type</b></td> <td>Cell type, if specified. Use of the Cell Type (CL) Ontology for annotation began in 2022, so there are not many annotations using it in the database.</TD> 
+   <td><b>Cell Type</b></td> <td>Annotated cell type terms, if specified, linked to the <a href="<!--#include file='include/fewi_url.html'-->vocab/cell_ontology/CL:0000000" target="_blank">Cell Ontology Browser</a>, which can be used to find and view descriptions of a broad range of canonical cell types.</TD>
  </TR>
  <TR>
    <td><b><a id="level"></a>Level</b></td><td>Refers to the strength of the signal. Possible values include:

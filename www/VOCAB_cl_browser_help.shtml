@@ -39,7 +39,7 @@ function openHelpWindow(helpFile){
 <!-- Body of User Help -->
 
 <P>The Cell Ontology (CL) is a structured controlled vocabulary that describes a broad range of canonical biological cell types. The CL is not organism-specific, covering cell types from prokaryotes to mammals, but excludes plant cell types.</p>
-<P>The Cell Ontology Browser can be used to find and view descriptions of cell types, with links to GXD expression results, GXD HT experiments and MGI Recombinase Alleles.
+<P>The Cell Ontology Browser can be used to find and view descriptions of cell types, with links to GXD expression results.
 </p>
 
 <a id="top"></a>
@@ -94,7 +94,7 @@ You can search by anatomy term to determine where a particular structure exists 
 <P>
 <table>
 <tr><th><a id="celltype_search"></a>Cell Type Search</th>
-     <td>The search finds all structures that contain any of your search terms and displays a ranked list of those structures. Click on a term to update the Term Detail and Tree View sections of the page with the selected term <span style="background-color: #E5C05A">highlighted in gold</span>.</td></tr>
+     <td>The search finds all cell types with names containing any of your search terms and displays a ranked list of those cell type terms. Click on a term to update the Term Detail and Tree View sections of the page with the selected term <span style="background-color: #E5C05A">highlighted in gold</span>.</td></tr>
 <tr><th><a id="term_detail"></a>Cell Type Term Detail</th>
     <td>
      <table>
