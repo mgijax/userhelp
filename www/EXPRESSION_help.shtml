@@ -442,7 +442,7 @@ You can use the triangles in the column headers to sort by a column. The query s
 <tr><td><b>Structure </b></td>
      <td>Structure examined in the assay, given as a Theiler stage (TS) and anatomical structure name.</td></tr>
  <tr>
-   <td><b>Cell Type</b></td> <td>Cell type, if specified. Use of the Cell Type (CL) Ontology for annotation began in 2022, so there are not many annotations using it in the database.</td> 
+   <td><b>Cell Type</b></td> <td>Cell type, if specified.</td>
  </tr>
 <tr><td><b>Detected? </b></td>
      <td>Was expression detected? Possible values are:

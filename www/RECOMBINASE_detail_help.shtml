@@ -96,7 +96,7 @@ For example:
     <td>
 	<table>
       <tr><th><a id="structure"></a>Structure</th><td>Recombinase activity results are associated with structures described in the <a href="http://www.informatics.jax.org/searches/AMA_form.shtml" target="_blank">Anatomical Dictionary</a>.  Structures appear in alphabetical order, A-Z.  Click the column name to reverse the order.</td></tr>
-      <tr><th><a id="celltype"></a>Cell Type</th><td>Cell type, if specified. Use of the Cell Type (CL) Ontology for annotation began in 2022, so there are not many annotations using it in the database.</td></tr>
+      <tr><th><a id="celltype"></a>Cell Type</th><td>Cell type, if specified.</td></tr>
       <tr><th><a id="assayed_age"></a><span style="white-space: nowrap">Assayed Age</span></th><td>Age of the embryo at time of assay.</td></tr> 
       <tr><th><a id="level"></a>Level</th><td>Intensity of observed expression as specified by the author(s). Possibilities are: Absent, Present, Ambiguous, Trace, Weak, Moderate, Strong, Very Strong. <i>Present</i> appears if the author does not explicitly describe expression level.</td></tr> 
       <tr><th><a id="pattern"></a>Pattern</th><td>As specified by the author(s), possibilities are: Homogenous, Non-Homogenous, Diffuse, Graded, Patchy, Regionally Restricted, Scattered, Single Cells, Spotted, Ubiquitous, Widespread, Not Specified, Not Applicable.</td></tr> 
