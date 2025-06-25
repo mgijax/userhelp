@@ -558,7 +558,7 @@ Note:
 <p>Assay Result Filters (left column)</p>
 <table><tr><th>Theiler Stage</th><td>Developmental stage analyzed</td></tr>
 <tr><th><span style="white-space: nowrap">Anatomical System</span></th><td>High-level terms to describe tissue analyzed</td></tr>
-<tr><th><span style="...">Cell Type</span></th><td>High level cell type classification terms</td></tr>
+<tr><th><span style="...">Cell Type</span></th><td>High-level cell type classification terms</td></tr>
 <tr><th>Assay Type</th><td>Assay type used for study</td></tr>
 <tr><th>Detected?</th><td>Either: Yes; No; Not Specified; or Ambiguous</td></tr>
 <tr><th><abbr title="Transcripts Per Million">TPM</abbr> Level</th><td>For RNA-Seq results; either: Below Cutoff; Low; Medium; or High</td></tr>
