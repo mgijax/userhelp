@@ -253,7 +253,7 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 <tr><th><a id="sex2"></a>Sex</th>
 	<td>Sex of the sample, if specified.</td>
 </tr>
-<tr><th><a id="rnaseq"></a>Sex</th>
+<tr><th><a id="rnaseq"></a>RNA-seq type</th>
 	<td>Only displayed for RNA-seq experiments. Annotated as a sample attribute because experiments are not limited to samples of one type.</td>
 </tr>
 <tr><th><a id="note2"></a>Note</th>
