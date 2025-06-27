@@ -73,7 +73,7 @@ function openHelpWindow(helpFile){
 <H3><A id="search"></A>How do I search the vocabulary?</H3>
 <P>The Cell Ontology <B>Search</B> field accepts any text string and searches for all terms containing that string plus any synonyms.
 
-You can search by anatomy term to determine where a particular structure exists in the Cell Ontology and see, in the Cell Ontology<b>Tree View</b> section, the anatomy hierarchy. To do this:
+You can search by cell type to find a particular cell type in the Cell Ontology and to see, in the <b>Tree View</b> section, the cell type hierarchy. To do this:
 <ul>
 	<li>Begin typing a cell type of interest and an autocomplete list activates on the second character.
     <ul>
@@ -82,8 +82,9 @@ You can search by anatomy term to determine where a particular structure exists 
     </ul>
 	<li>You must select a term. There is no free text searching in this field.</li>
 	<li>You can only select one term.</li>
-	<li>Enter the CL accession identifier in the Search field to return an exact match for the structure.</li>
-	<li>Use the return/enter key on your keyboard to activate a search. The search finds all structures that contain any of your search terms and displays a list of those structures.</li>
+	<li>Enter a search term or CL accession identifier in the Search field.</li>
+    <li>As you type, an autocomplete will display a list of terms matching the text string you have entered. You can select a term from the autocomplete list or continue entering text.</li>
+	<li>Use the return/enter key on your keyboard to activate a search. The search finds all terms that contain any of your search terms and displays a list of those cell types.</li>
 	<li>If you are uncertain which terms to use for the most effective searching, <a href="#browse">browse</a> the ontology to see the standardized terms.</li>
 </ul>
 <p>Select a term in your search results to automatically update the Cell Ontology Term Detail and Cell Ontology Tree View sections on the right. Use the Clear button to start a new search.</p>
@@ -100,17 +101,17 @@ You can search by anatomy term to determine where a particular structure exists 
      <table>
       <tr>
        <th>Term</th>
-       <td>The selected term <span style="background-color: #E5C05A">highlighted in gold</span>. If you accessed this page by following a link on another page, the appropriate structure is highlighted. Otherwise, before you initiate a search or browse, the default term <i>cell</i> which is the top of the hierarchy is highlighted.</td>
+       <td>The selected term <span style="background-color: #E5C05A">highlighted in gold</span>. If you accessed this page by following a link on another page, the appropriate cell type is highlighted. Otherwise, before you initiate a search or browse, the default term <i>cell</i> which is the top of the hierarchy is highlighted.</td>
       </tr>
       <tr>
-      <th>ID</th><td>The unique accession ID for the structure</td>
+      <th>ID</th><td>The unique accession ID for the cell type term.</td>
       </tr>
       <tr>
-      <th>Parent Terms</th><td>The immediate parent terms for the selected structure. Because the CL Ontology is built on a DAG framework, a structure may have more than one parent term.</td>
+      <th>Parent Terms</th><td>The immediate parent terms for the selected cell type. Because the CL Ontology is built on a DAG framework, a term may have more than one parent term.</td>
       </tr>
      </table>
 <tr><th><a id="tree_view"></a>Cell Type Tree View</th>
-     <td>You can collapse or expand branches by clicking on a term. A black triangle at the beginning of a term indicates the term has substructures. When you select a new term, it is <span style="background-color: #E5C05A">highlighted in gold</span> and the Term Detail section is updated.
+     <td>You can collapse or expand branches by clicking on a term. A black triangle at the beginning of a term indicates the term has subterms. When you select a new term, it is <span style="background-color: #E5C05A">highlighted in gold</span> and the Term Detail section is updated.
      </td>
      </tr>
 <tr><th><img src="images/BlackTriangle.png" alt="Black Triangle" width="59" height="37"></th>
