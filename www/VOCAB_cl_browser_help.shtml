@@ -38,8 +38,8 @@ function openHelpWindow(helpFile){
 
 <!-- Body of User Help -->
 
-<P>The Cell Ontology (CL) is a structured controlled vocabulary that describes a broad range of canonical biological cell types. The CL is not organism-specific, covering cell types from prokaryotes to mammals, but excludes plant cell types.</p>
-<P>The Cell Ontology Browser can be used to find and view descriptions of cell types, with links to GXD expression results.
+<P>The Cell Ontology (CL) is a structured controlled vocabulary that describes a broad range of canonical biological cell types. The CL is not organism-specific, covering cell types from prokaryotes to mammals, but excludes plant cell types. The Cell Ontology is an OBO Foundry ontology and is available at: https://obofoundry.org/ontology/cl.html</p>
+<P>The Cell Ontology Browser can be used to find and view descriptions of cell types, and to retrieve expression data associated with those cell types.
 </p>
 
 <a id="top"></a>
