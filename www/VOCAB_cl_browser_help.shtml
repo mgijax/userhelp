@@ -50,6 +50,7 @@ function openHelpWindow(helpFile){
     <LI><A HREF="#browse">How do I browse the Cell Ontology?</A></LI>
     <LI><A HREF="#search">How do I search the Cell Ontology?</A></LI>
     <LI><A HREF="#td_page">How do I interpret the results?</A></LI>
+    <LI><A HREF="#exp_page">How do I interpret the gene expression results of my search?</A></LI>
  </UL>
 </p>
 
@@ -122,5 +123,7 @@ You can search by cell type to find a particular cell type in the Cell Ontology 
 </P>
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+<H3><A id="exp_page"></A>How do I interpret the gene expression results of my search?</H3>
+<p>When you click on the number of expression results in the Cell Type Tree View, a search returns all gene expression data, images and assay details annotated to the selected structure. See <a HREF="EXPRESSION_help.shtml#summary">Interpreting Gene Expression Data Query Results</a> for more information about the results.</p>
 <!--#include file='include/templateBlankBodyStop.html'-->
 </table>
