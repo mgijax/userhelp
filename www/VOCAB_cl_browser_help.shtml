@@ -102,17 +102,27 @@ You can search by cell type to find a particular cell type in the Cell Ontology 
      <table>
       <tr>
        <th>Term</th>
-       <td>The selected term <span style="background-color: #E5C05A">highlighted in gold</span>. If you accessed this page by following a link on another page, the appropriate cell type is highlighted. Otherwise, before you initiate a search or browse, the default term <i>cell</i> which is the top of the hierarchy is highlighted.</td>
+       <td>The selected cell type term <span style="background-color: #E5C05A">is highlighted in gold</span>. If you accessed this page by following a link on another page, the appropriate cell type is highlighted. Otherwise, before you initiate a search or browse, the default term 'cell' which is at the top of the hierarchy is highlighted.</td>
       </tr>
       <tr>
-      <th>ID</th><td>The unique accession ID for the cell type term.</td>
+       <th>Synonyms</th>
+        <td>Alternative term(s) used to represent the cell type, provided by Cell Ontology editors.</td>
       </tr>
       <tr>
-      <th>Parent Terms</th><td>The immediate parent terms for the selected cell type. Because the CL Ontology is built on a DAG framework, a term may have more than one parent term.</td>
+       <th>Definition</th>
+        <td>Textual description for the selected cell type provided by the Cell Ontology editors.</td>
+      </tr>
+      <tr>
+      <th>Parent Terms</th>
+          <td>Immediate parent terms for the selected cell type. Since the Cell Ontology is built on a DAG framework, a term may have more than one parent term.</td>
+      </tr>
+      <tr>
+      <th>ID</th>
+          <td>Unique accession ID for the selected cell type term.</td>
       </tr>
      </table>
 <tr><th><a id="tree_view"></a>Cell Type Tree View</th>
-     <td>You can collapse or expand branches by clicking on a term. A black triangle at the beginning of a term indicates the term has subterms. When you select a new term, it is <span style="background-color: #E5C05A">highlighted in gold</span> and the Term Detail section is updated.
+     <td>The selected term is presented in the context of a classification hierarchy. You can collapse or expand branches by clicking on a term. A black triangle at the beginning of a term indicates the term has subterms. When you select a new term, it is <span style="background-color: #E5C05A">highlighted in gold</span> and the Term Detail section is updated.
      </td>
      </tr>
 <tr><th><img src="images/BlackTriangle.png" alt="Black Triangle" width="59" height="37"></th>
