@@ -102,7 +102,7 @@ You can search by cell type to find a particular cell type in the Cell Ontology 
      <table>
       <tr>
        <th>Term</th>
-       <td>The selected cell type term <span style="background-color: #E5C05A">is highlighted in gold</span>. If you accessed this page by following a link on another page, the appropriate cell type is highlighted. Otherwise, before you initiate a search or browse, the default term 'cell' which is at the top of the hierarchy is highlighted.</td>
+       <td>The selected cell type term is <span style="background-color: #E5C05A">highlighted in gold</span>. If you accessed this page by following a link on another page, the appropriate cell type is highlighted. Otherwise, before you initiate a search or browse, the default term 'cell' which is at the top of the hierarchy is highlighted.</td>
       </tr>
       <tr>
        <th>Synonyms</th>
