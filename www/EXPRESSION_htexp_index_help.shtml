@@ -188,7 +188,7 @@ You can re-query as many times as you like. Alternatively, click Reset to clear 
 			<td>Experiments are classified as Baseline, those which use wild-type mice to establish expression levels in normal conditions; WT vs. Mutant, those which compare expression levels in wild type and mutant mice; or both.</td>
 		</tr>
 		<tr><th>Reference</th>
-			<td>Linkout to the PubMed entry for the publication (if available)</td>
+			<td>Linkout to the MGI reference detail for the publication (if available)</td>
 		</tr>
 		<tr><th>View experiment at</th>
 			<td>Linkouts to: 

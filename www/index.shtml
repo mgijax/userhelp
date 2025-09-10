@@ -215,7 +215,8 @@ User Help Site Map
 	<dd><a href="VOCAB_hpo_browser_help.shtml" target="_blank">Using the Human Phenotype Ontology (HPO) Browser</a></dd>	
 	<dd><a href="VOCAB_mad_browser_help.shtml" target="_blank">Using the Mouse Developmental Anatomy Browser</a></dd>		
 	<dd><a href="VOCAB_amad_browser_help.shtml" target="_blank">Using the Adult Mouse Anatomical Dictionary Browser</a></dd>
-    </dl>
+    <dd><a href="VOCAB_cl_browser_help.shtml" target="_blank">Using the Cell Ontology Browser</a></dd>
+</dl>
 </blockquote><BR>
  
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
