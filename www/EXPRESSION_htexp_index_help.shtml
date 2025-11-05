@@ -85,12 +85,12 @@ In 2022 we shifted our focus to evaluating (and curating) experiments stored in 
 <p>The anatomical structures are taken from the <a href="<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/" target="_blank">Mouse Developmental Anatomy Ontology</a>. Any anatomical structure term search will include substructures. This means if you search by "brain," for example, your search will also return annotations for all substructures of brain, such as hypothalamus, telencephalon, and others.</p></td>
 </tr>
 <tr><th><a id="stage"></a><span style="white-space: nowrap">Developmental stage</span></th> 
-<td>The <i>Use Ages</i> tab (default) enables searching for experiments with samples of a particular age. You can limit your search to the general terms, <i>Embryonic</i> or <i>Postnatal</i>, or choose specific days post conception (dpc).
+<td>The <i>Use Ages</i> tab (default) enables searching for experiments with samples of a particular age. You can search for a single age; use a hyphen to search for a range of ages; or commas to search for a list of ages (the commas are treated as OR.) The search matches age values, not text strings, so a search for, er. Postnatal day 56 and Postnatal week 8 are equivalent. Newborn is defined as Postnatal day 0-3.99 and Adult as &geq;Postnatal day 21..
 
 <p>Alternatively, you can use the <i>Use Theiler Stages</i> tab to select one or more Theiler stages (TS) to limit your search to samples at a particular stage of embryonic development. The Theiler system organizes development into stages defined by the appearance of specific developmental features. Since embryos of the same gestational age can vary considerably with respect to development, a Theiler stage does not precisely correspond to a particular age. For example, TS 21 applies to embryos between 12.5 and 14.0 days post conception (dpc), while TS 22 applies to embryos between 13.5 and 15.0 dpc.
 </p>
 <p><!--If you mouse-over a stage, a pop-up will describe a few defining features of that stage, such as "first somites, late head fold" for Stage 12. -->You can <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/stagedefinition.html" target="_blank">browse Stage descriptions</a> for a list of the defining features for each Theiler stage.</p>
-To select multiple stages or ages: 
+To select multiple stages:
 <ul>
   <li>On a Macintosh, hold the command (Apple, &#8984;) key down and click on the desired stages; OR hold the shift key down and  click on two stages to select those and all stages in between. </li>
   <li>On a PC, hold the control key down and click on the desired stages; OR hold the shift key down and click on two stages to select those and all stages in between. </li>
