@@ -295,8 +295,14 @@ Click the check box if you want to exclude mutant specimens from the search. <b>
  <li>The list of genes that fits the expression profile can be downloaded using the Export features found on the Genes tab.</li>
 <li>The default tab on the search results summary is the Tissue x Gene Matrix.  (The Heat Map tab will not be present.) This matrix is described in detail <a href="#genematrix">below</a>. In brief,
  <ul>
-  <li>If the search queried for expression in a particular structure, that structure will be displayed on an upper row of the matrix; each cell in the row will be a shade of blue. </li>
-  <li>If the search queried for lack of expression in a particular structure, that structure will be displayed on a lower row of the matrix. Red cells indicate that expression has been recorded as Absent in that structure; white cells indicate that expression has not been examined (or recorded) in that structure. </li>
+     <li>The columns show genes whose expression was examined and the rows display the tissues that were examined.</li>
+     <li>Structures that were queried for expression will appear in the upper rows of the matrix. Each cell in the row will be a shade of blue, with darker shades indicating a greater number of supporting annotations. </li>
+     <li>Structures that were searched for lack of expression will appear in the lower rows of the matrix.
+      <ul>
+          <li>Red cells indicate that expression is recorded in the database as Absent in that structure.</li>
+          <li>White cells indicate that expression has not been examined or has not been recorded in the database for that structure.</li>
+          <li>If the structure searched for as Not detected does not appear in the Tissue x Gene Matrix, this indicates that expression has not been examined in that tissue for the genes shown on the current page of the matrix (i.e. all cells would be white). The structure will appear on other matrix pages when appropriate (i.e. when red cells are present).</li>
+      </ul>
   <li>If the "anywhere else box" was checked, only the structure where expression is detected is shown. </li>
   </ul></li>
 <li>To distinguish between the genes whose expression has been shown to be absent (compared to those whose expression has not been examined), click on the "View the Not Detected data for this gene set" filter below the matrix. This action is the same as using the Detected?=No filter found above the summary.  In either case, the list on the Genes tab will be limited to those genes that have Not Detected results returned by the profile search. 
