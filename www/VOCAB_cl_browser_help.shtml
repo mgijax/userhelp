@@ -102,7 +102,7 @@ You can search by cell type to find a particular cell type in the Cell Ontology 
      <table>
       <tr>
        <th>Term</th>
-       <td>The selected cell type term is <span style="background-color: #E5C05A">highlighted in gold</span>. If you accessed this page by following a link on another page, the appropriate cell type is highlighted. Otherwise, before you initiate a search or browse, the default term 'cell' which is at the top of the hierarchy is highlighted.</td>
+       <td>The selected cell type term is <span style="background-color: #E5C05A">highlighted in gold</span>. If you access this page by following a link on another page, the appropriate cell type is highlighted. Otherwise, before you initiate a search or browse, the default term 'cell' which is at the top of the hierarchy is highlighted.</td>
       </tr>
       <tr>
        <th>Synonyms</th>
@@ -122,7 +122,7 @@ You can search by cell type to find a particular cell type in the Cell Ontology 
       </tr>
      </table>
 <tr><th><a id="tree_view"></a>Cell Type Tree View</th>
-     <td>The selected term is presented in the context of a classification hierarchy. You can collapse or expand branches by clicking on a term. A black triangle at the beginning of a term indicates the term has subterms. When you select a new term, it is <span style="background-color: #E5C05A">highlighted in gold</span> and the Term Detail section is updated.
+     <td>The selected term is presented in the context of a classification hierarchy. You can collapse or expand branches by clicking on a term. A black triangle at the beginning of a term indicates the term has subterms. When you select a new term, it is <span style="background-color: #E5C05A">highlighted in gold</span> and the Term Detail section is updated. If a term or one of its subterms has been used for annotation in MGI, links to summaries are provided. Clicking on the number of expression results leads to a summary of gene expression data, images and assay details annotated to the selected cell type or one of its subterms. Clicking on the number of RNA-seq or microarray experiments leads to a summary of experiments with samples annotated to the selected cell type or one of its subterms. Clicking on the number of recombinase alleles leads to a summary of alleles with demonstrated recombinase activity in the selected cell type or one of its subterms. Greyed out terms have no associated annotations; some of these cell types are not present in the mouse.
      </td>
      </tr>
 </table>
@@ -130,7 +130,9 @@ You can search by cell type to find a particular cell type in the Cell Ontology 
 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 <H3><A id="exp_page"></A>How do I interpret the gene expression results of my search?</H3>
-<p>When you click on the number of expression results in the Cell Type Tree View, a search returns all gene expression data, images and assay details annotated to the selected structure. See <a HREF="EXPRESSION_help.shtml#summary">Interpreting Gene Expression Data Query Results</a> for more information about the results.</p>
+<p>When you click on the number of expression results in the Cell Type Tree View, a search returns all gene expression data, images and assay details annotated to the selected cell type or one of its subterms. See <a HREF="EXPRESSION_help.shtml#summary">Interpreting Gene Expression Data Query Results</a> for more information about the return.</p>
+<p>When you click on the number of RNA-seq or microarray experiments, a search returns all experiments with samples annotated to the selected cell type or one of its subterms. See <a HREF="EXPRESSION_htexp_index_help.shtml#summary">Interpreting RNA-Seq and Microarray Experiment Search Results</a> for more information about the return.</p>
+<p>When you click on the number of recombinase alleles in the Cell Type Tree View, a search returns all alleles demonstrating recombinase activity in the selected cell type or one of its subterms. See <a HREF="RECOMBINASE_summary_help.shtml">Interpreting a Recombinase Alleles Tissue Summary</a> for more information about the return.</p>
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
     <!--#include file='include/templateBlankBodyStop.html'-->
 </table>
