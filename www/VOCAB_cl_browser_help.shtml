@@ -131,7 +131,7 @@ You can search by cell type to find a particular cell type in the Cell Ontology 
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
 <H3><A id="exp_page"></A>How do I interpret the gene expression results of my search?</H3>
 <p>When you click on the number of expression results in the Cell Type Tree View, a search returns all gene expression data, images and assay details annotated to the selected cell type or one of its subterms. See <a HREF="EXPRESSION_help.shtml#summary">Interpreting Gene Expression Data Query Results</a> for more information about the return.</p>
-<p>When you click on the number of RNA-seq or microarray experiments, a search returns all experiments with samples annotated to the selected cell type or one of its subterms. See <a HREF="EXPRESSION_htexp_index_help.shtml#summary">Interpreting RNA-Seq and Microarray Experiment Search Results</a> for more information about the return.</p>
+<p>When you click on the number of RNA-seq or microarray experiments in the Cell Type Tree View, a search returns all experiments with samples annotated to the selected cell type or one of its subterms. See <a HREF="EXPRESSION_htexp_index_help.shtml#summary">Interpreting RNA-Seq and Microarray Experiment Search Results</a> for more information about the return.</p>
 <p>When you click on the number of recombinase alleles in the Cell Type Tree View, a search returns all alleles demonstrating recombinase activity in the selected cell type or one of its subterms. See <a HREF="RECOMBINASE_summary_help.shtml">Interpreting a Recombinase Alleles Tissue Summary</a> for more information about the return.</p>
 <p style="font-size: 0.9em;"><a href="#top">Top</a></p>
     <!--#include file='include/templateBlankBodyStop.html'-->
