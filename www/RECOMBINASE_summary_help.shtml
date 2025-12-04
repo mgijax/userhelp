@@ -69,18 +69,18 @@ function openHelpWindow(helpFile){
 </ul>
 
 <h3><a id="access"></a>When does a Recombinase Alleles - Tissue Summary appear?</h3>
-<p>The Recombinase Alleles Summary presents a table of transgenic, and targeted or endonuclease-mediated knock-in recombinase alleles contained in the MGI database. It appears when you select either a driver or enter an anatomical structure from the boxes on the <a href="http://www.creportal.org" target="_blank">Recombinase (cre) Activity</a> page and click <b>Search</b>.</p>
+<p>The Recombinase Alleles Summary presents a table of transgenic, and targeted or endonuclease-mediated knock-in recombinase alleles contained in the MGI database. It appears when you select either a driver or enter an anatomical structure/cell type from the boxes on the <a href="http://www.creportal.org" target="_blank">Recombinase (cre) Activity</a> page and click <b>Search</b>.</p>
 
 <h3><a id="contain"></a>What should show up on this page?</h3>
 <p>The table resulting from a Recombinase Allele Activity query contains a row for either:
 <ul>
-  <li>every recombinase allele in the MGI database for the selected <b>driver</b>, whether it has tissue activity data or not.</li>
+  <li>every recombinase allele in the MGI database for the selected <b>driver</b>, whether it has tissue activity data, confirmed absent of tissue activity data, or cell type activity data.</li>
   <li>only those recombinase alleles in the MGI database having data for the queried <b>anatomical structure</b>.</li>
 </ul>
 </p>
-<p>The data on the Recombinase Alleles - Tissue Activity Summary are information about assays demonstrating the activity of the recombination allele in particular tissues, at or prior to the time when the mouse tissue is assayed. This is referred to as <i>tissue activity</i> or <i>recombinase activity</i> data.
+<p>The data on the Recombinase Alleles - Tissue Activity Summary are information about assays demonstrating the activity of the recombination allele in particular tissues / cell types, at or prior to the time when the mouse tissue or cell type is assayed. This is referred to as <i>tissue activity</i> or <i>recombinase activity</i> data.
 </p>
-<p>Although all data are captured in MGI's database as expression assays, the assays of type <i>recombinase reporter</i> are more correctly referred to as demonstrating <i>activity</i> of the recombinase allele rather than its <i>expression</i>. This is because tissues where the assay shows recombinase allele activity may be descendants of the tissue (as development and cell differentiation continues) in which the recombinase allele first began producing its protein (began being expressed).
+<p>Although all data are captured in MGI's database as expression assays, the assays of type <i>recombinase reporter</i> are more correctly referred to as demonstrating <i>activity</i> of the recombinase allele rather than its <i>expression</i>. This is because tissues where the assay shows recombinase allele activity may be descendants of the tissue or cell type (as development and cell differentiation continues) in which the recombinase allele first began producing its protein (began being expressed).
 </p>
 <p>Once the recombinase has acted upon the target gene by removing or rearranging part of its sequence, all descendant tissues will carry the recombined target gene. 
 </p>
@@ -108,7 +108,7 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <tr><td><a href="#csh_driver">Driver</a> |
 <a href="#matrix">Matrix View</a> |
 <a href="#asgan">Allele Symbol/Gene; Allele Name</a> | 
-<a href="#recomb_data">Recombinase Activity</a> | 
+<a href="#recomb_data">Recombinase Activity</a> |
 <!--<a href="#anatom_system"><i> system</i></a> |-->
 <!--<a href="#allele_type">Allele Type</a> | -->
 <a href="#inducible">Induced By</a> |  
@@ -129,18 +129,22 @@ When the specimen's genotype involves a recombinase allele, the results of these
 
 <tr><th class="thleft"> <a id="asgan"></a>Allele Symbol<br>Gene; Allele Name</th><td>Official symbol for the allele, linked to the MGI Detail Report for this allele. Note that the detail page has a <b>Recombinase Activity</b> row listing every system examined where activity has been detected or not detected. Each system links to its activity detail page. <br>Gene name; allele name.</td></tr> 
 
-<tr><th class="thleft"> <a id="recomb_data"></a><span style="white-space: nowrap">Recombinase Activity Detected</span></th><td>Information about anatomical systems where recombinase activity data was assayed and detected
+<tr><th class="thleft"> <a id="recomb_data"></a><span style="white-space: nowrap">Recombinase Activity Detected in Anatomical Structure</span></th><td>Information about anatomical systems where recombinase activity data was assayed and detected
 <ul>
   <li>This field will be empty when data showing activity are absent or have not been analyzed.</li>
   <li>If you searched for activity detected in a structure, the relevant high level system(s) will be in bold text.</li>
   <li>Click the column heading to sort by anatomical system.</li>
 </ul>
-<tr><th class="thleft"><span style="white-space: nowrap">Recombinase Activity Not Detected</span></th><td>Information about anatomical systems where recombinase activity data was absent (not detected), as well as activity that has not been analyzed or recorded in the database for the specified structure
+<tr><th class="thleft"><span style="white-space: nowrap">Recombinase Activity Not Detected in Anatomical Structure</span></th><td>Information about anatomical systems where recombinase activity data was absent (not detected), as well as activity that has not been analyzed or recorded in the database for the specified structure
+<ul>
+  <li>This field will be empty when data showing activity are absent or have not been analyzed.</li>
+  <li>If you searched for activity detected in a structure, the relevant high level cell type(s) will be in bold text.</li>
+</ul></td></tr> 
+<tr><th class="thleft"><span style="white-space: nowrap">Recombinase Activity Detected in Cell Types</span></th><td>Information about cell types where recombinase activity data was assayed and detected
 <ul>
   <li>This field will be populated only when the absence of activity has been shown.</li>
   <li>Click the column heading to sort by anatomical system.</li>
-</ul></td></tr> 
-
+</ul></td></tr>
 <!--<tr><th class="thleft"> <a id="anatom_system"></a><span style="white-space: nowrap"><i>system</i></span></th> <td><ul>
   <li>When you search for recombinase activity by selecting an anatomical system from the list on the Recombinase (cre) Activity page, a column containing information about that system appears in the results; the system name appears in the column header.</li>
   <li>Any links go to the Recombinase Activity Detail page for the listed system. Use the check boxes at the top of the page to add/remove additional systems.</li>
