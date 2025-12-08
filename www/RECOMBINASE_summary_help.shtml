@@ -133,7 +133,7 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <ul>
   <li>This field will be empty when data showing activity are absent or have not been analyzed.</li>
   <li>If you searched for activity detected in a structure, the relevant high level system(s) will be in bold text.</li>
-  <li>Click the column heading to sort by anatomical system.</li>
+  <li>Click the column heading to sort by anatomical structure.</li>
 </ul>
 <tr><th class="thleft"><span style="white-space: nowrap">Recombinase Activity Not Detected in Anatomical Structure</span></th><td>Information about anatomical systems where recombinase activity data was absent (not detected), as well as activity that has not been analyzed or recorded in the database for the specified structure
 <ul>
@@ -143,7 +143,7 @@ When the specimen's genotype involves a recombinase allele, the results of these
 <tr><th class="thleft"><span style="white-space: nowrap">Recombinase Activity Detected in Cell Types</span></th><td>Information about cell types where recombinase activity data was assayed and detected
 <ul>
   <li>This field will be populated only when the absence of activity has been shown.</li>
-  <li>Click the column heading to sort by anatomical system.</li>
+  <li>Click the column heading to sort by cell type.</li>
 </ul></td></tr>
 <!--<tr><th class="thleft"> <a id="anatom_system"></a><span style="white-space: nowrap"><i>system</i></span></th> <td><ul>
   <li>When you search for recombinase activity by selecting an anatomical system from the list on the Recombinase (cre) Activity page, a column containing information about that system appears in the results; the system name appears in the column header.</li>
