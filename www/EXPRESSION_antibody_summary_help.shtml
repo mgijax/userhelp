@@ -1,0 +1,65 @@
+<!--#include file='include/templateHead.html'-->
+
+<title><!--#include file="include/mgiversion.html"-->MGI-Interpreting aa Antibody Summary</title>
+<link rel="stylesheet" type="text/css" href="./userhelp.css"  />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">Interpreting an Antibody Summary</span>
+</div>
+
+<style type="text/css">
+</style>
+
+
+<!-- Container Table -->
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+<!-- Title Bar -->
+<tr>
+  <td class="enhance" align=left>
+      <!--#include file='help_toolbar.shtml'-->
+  </td>
+</tr>
+</table>
+<!--#include file='include/templateBlankBodyStart.html'-->
+<!-- Body of User Help -->
+
+<a id="top"></a>
+
+<P><a id="summary"></a>This help document describes how to interpret an Antibody Summary.
+</P>
+
+<p>If you reached this summary from a Gene Detail page, then the top of the page indicates the official gene symbol, linked to its Gene Detail page, and its name and <abbr title="Mouse Genome Informatics">MGI</abbr> accession ID. If you reached this summary from a Reference Detail page, then the top of the page indicates the MGI reference ID, linked to the Reference Detail page, and the citation.
+</p>
+
+<table>
+<TR>
+<TH>FIELD <TH>DESCRIPTION
+</TR>
+<TR>
+<th>Antibody<td>The antibody name,linked to the Antibody Detail page; the <abbr title="Mouse Genome Informatics">MGI</abbr> Accession ID of the antibody is also displayed (in parentheses).
+</TR>
+<TR>
+<th>Genes<td>Symbol for each gene whose product is recognized by the antibody. This is the primary sort when the summary is accessed from the Reference Detail page.
+</TR>
+ <TR>
+<th>Type<td>Type of antibody; possible values are Monoclonal, Polyclonal, or Not Specified.
+ </TR>
+<TR>
+<th>Host</TH> <td>Organism in which the antibody was raised.</TD>
+</TR>
+ <TR>
+<th>References</TH> <td>The number of publications that use the antibody. This is the primary sort when the summary is accessed from a Gene Detail page.</TD>
+</TR>
+</TABLE>
+
+<p style="font-size: 0.9em;"><a href="#top">Top</a></p>
+
+<!--#include file='include/templateBlankBodyStop.html'-->
