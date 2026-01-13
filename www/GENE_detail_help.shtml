@@ -318,7 +318,8 @@ MGI Representative Sequences provide users quick access to a single genomic, tra
 
 <UL STYLE="padding-left:30px">
 <li>All nucleic, Genomic, cDNA, Primer pair, Other:  link is to Molecular Probes and Clones Query Results -- Summary.</li>
-<li>Microarray probesets: link is to Microarray Probeset Summary.</li>
+<li>Antibodies: link is to an Antibody Summary</li>
+	<li>Microarray probesets: link is to Microarray Probeset Summary.</li>
 </ul>
 </td>
 </tr>
