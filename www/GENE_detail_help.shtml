@@ -314,7 +314,7 @@ MGI Representative Sequences provide users quick access to a single genomic, tra
 </tr>
 <tr>
 <th><a id="molecular_reagents"></a>Molecular Reagents</TH>
-<TD>Links to summary pages of MGI molecular reagent information for the marker grouped by All nucleic, Genomic, cDNA, Primer pair, Other (i.e., other nucleic acid probes) and Microarray probesets. Note that <I>Genomic, cDNA, Primer pair</I> and <I>Other</I> are subsets of All nucleic. The number indicates the total number of items listed in the summary. If you select:
+<TD>Links to summary pages of MGI molecular reagent information for the marker grouped by All nucleic, Genomic, cDNA, Primer pair, Other (i.e., other nucleic acid probes), antibodies, and Microarray probesets. Note that <I>Genomic, cDNA, Primer pair</I> and <I>Other</I> are subsets of All nucleic. The number indicates the total number of items listed in the summary. If you select:
 
 <UL STYLE="padding-left:30px">
 <li>All nucleic, Genomic, cDNA, Primer pair, Other:  link is to Molecular Probes and Clones Query Results -- Summary.</li>
