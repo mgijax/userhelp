@@ -451,6 +451,10 @@ You can use the triangles in the column headers to sort by a column. The query s
  <tr>
    <td><b>Cell Type</b></td> <td>Cell type, if specified.</td>
  </tr>
+    <tr>
+        <td><b>Sex</b></td>
+        <td>Possible values are: Female, Male, and Pooled, When the field is blank, it indicates the author did not specify the sex></td>
+    </tr>
 <tr><td><b>Detected? </b></td>
      <td>Was expression detected? Possible values are:
     <UL>
@@ -525,7 +529,8 @@ Individual cells have the ability to filter as well. Clicking on a cell displays
 
 <h4><a id="genematrix"></a>Tissue x Gene Matrix</h4>
 <p>The Tissue x Gene Matrix tab presents the query results in a grid view. The columns show genes whose expression was examined and the rows display the tissues that were examined. The tissues consist of anatomy terms from <a href="VOCAB_mad_browser_help.shtml">The Mouse Developmental Anatomy Ontology</a>. You can expand or collapse the anatomy hierarchy by clicking on the blue &#9658; or &#9660;.</p>
-<p>In addition to the <a href="#gxdfilter">filters</a> above the tabs, you can also filter by checking rows and/or columns in the grid and clicking on the Filter (<img image width="13" height="13" src="<!--#include file='include/webshare_url.html'-->images/filter.png">) button to reduce the grid to just the rows and columns you have checked. Selected filters will be displayed above the tab; they can be removed by clicking on them. Any filtering done on the grid will apply to all the other data tabs as well. 
+<p>In addition to the <a href="#gxdfilter">filters</a> above the tabs, you can also filter by checking rows(tissues) and/or columns(genes) in the grid. When you check a gene column, a Gene Cart popup appears listing the selected genes. A gene can be deselected either by unchecking its column or by clicking on it within the popup. Clicking on the Filter (<img image width="13" height="13" src="<!--#include file='include/webshare_url.html'-->images/filter.png">) button will reduce the grid to just the rows and columns you have checked. The Gene Cart button appears when genes have been selected but not yet filtered; it can also be used to reopen the Gene Cart popup if it has been closed.</p>
+<p>Selected filters will be displayed above the tab; they can be removed by clicking on them. Any filtering done on the grid will apply to all the other data tabs as well.
 Individual cells have the ability to filter as well. Clicking on a cell displays the options, <i>View All Results</i> and <i>View Images</i>. Selecting one of those options filters the results and takes you to the appropriate summary tab where you can explore those results by visiting detail pages.</p>
 <p>See <a href="#matrixcolors">What do the colors in a Matrix mean?</a></p>
 
@@ -566,7 +571,8 @@ Note:
 <table><tr><th>Theiler Stage</th><td>Developmental stage analyzed</td></tr>
 <tr><th><span style="white-space: nowrap">Anatomical System</span></th><td>High-level terms to describe tissue analyzed</td></tr>
 <tr><th><span style="...">Cell Type</span></th><td>High-level cell type classification terms</td></tr>
-<tr><th>Assay Type</th><td>Assay type used for study</td></tr>
+<tr><th>Sex</th><td>Either: Female; Male; or Pooled. Specimens/samples without a reported sex cannot be filtered.</td></tr>
+    <tr><th>Assay Type</th><td>Assay type used for study</td></tr>
 <tr><th>Detected?</th><td>Either: Yes; No; Not Specified; or Ambiguous</td></tr>
 <tr><th><abbr title="Transcripts Per Million">TPM</abbr> Level</th><td>For RNA-Seq results; either: Below Cutoff; Low; Medium; or High</td></tr>
 <tr><th>Wild type?</th><td>Whether the specimen/sample was wild type or mutant.</td></tr>

@@ -150,6 +150,7 @@ There is a 5000 gene limit for this query. </p>
 <p>You may wish to select a single input type from the Type list when you want the Batch Query to return:</p>
  <ul>
    <li>Only current mouse gene symbols with MGI gene associations (for example, Acat1).</li>
+     <li>Only current mouse gene symbols and synonyms.</li>
    <li>Only current or former mouse symbols, synonyms, and orthologs with MGI gene associations.</li> 
    <li>Results from one database and not another. Numerical identifiers (those without an alpha character), may recur in several databases (i.e., UniGene or Entrez Gene, and as an example, 12192). </li>
  </ul>
