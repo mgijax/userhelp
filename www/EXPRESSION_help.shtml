@@ -490,7 +490,7 @@ The number of biological replicates whose <abbr title="Transcripts Per Million">
 Strain information for the specimen/sample, if specified. Use of involves: in the annotation indicates that the strains listed (separated by asterisks) contributed to the genetic background of the specimen; additional unspecified strains may also be part of the specimen's genetic background. 
 Either: appears when the authors use more than one genetic background in a reference but do not specify which one is the background of the specimen.</td></tr>
 <tr><td><b>Sex</b></td>
-   <td>Column is visible when the Show Additional Sample Data toggle is on.<br>
+   <td>Column is visible when the Show Additional Sample Data toggle is on.
 Possible values: Female, Male, and Pooled. When the field is blank, it indicates the author did not specific the sex.</td></tr>
 <tr><td><span style="white-space: nowrap"><b>Notes (RNA-Seq)</b></span></td>
     <td>Column is visible when the Show Additional Sample Data toggle is on.<br>
