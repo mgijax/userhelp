@@ -453,7 +453,7 @@ You can use the triangles in the column headers to sort by a column. The query s
  </tr>
     <tr>
         <td><b>Sex</b></td>
-        <td>Possible values are: Female, Male, and Pooled, When the field is blank, it indicates the author did not specify the sex></td>
+        <td>Possible values are: Female, Male, and Pooled, When the field is blank, it indicates the author did not specify the sex.</td>
     </tr>
 <tr><td><b>Detected? </b></td>
      <td>Was expression detected? Possible values are:
