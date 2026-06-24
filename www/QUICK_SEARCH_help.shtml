@@ -321,9 +321,9 @@ function openHelpWindow(helpFile){
 
 <dt><a id="alleles"></a><b>Alleles</b></dt>
 <dd><ul>
- <li>The results display the allele type (<a href="ALLELE_phenotypic_categories_help.shtml#method" target="_blank">see all allele types</a>), official allele symbol and name, the genome location of the associated gene, and <a href="#best_match">Best Match</a>.</li>
+ <li>The results display the official symbol and name, synonyms, allele type(<a href="ALLELE_phenotypic_categories_help.shtml#method" target="_blank">see all allele types</a>), molecular mutation, attribute, and <a href="#best_match">Best Match</a>.</li>
  <li>Alleles existing as only cell lines are returned last within a given star rating.</li>
- <li>You can <a href="#filter">filter</a> your results by feature type and phenotype and disease annotations. <!-- Phenotype and disease filter values for the allele tab exclude all alleles with one or more of the following attributes: inducible, recombinase, reporter, transposase, and transactivator (as they are not directly responsible for the observed phenotype or disease). --> Note that MGI doesn't annotate phenotype and disease terms to genes or even alleles. The terms are assigned to genotypes&mdash;the combination of alleles and strain background.</li>
+ <li>You can <a href="#filter">filter</a> your results by feature type and phenotype and disease annotations, collection, allele type, mutation, and attribute. Note the MGI doesn't annotate phenotype and disease terms to genes or even alleles. The terms are assigned to genotypes--the combination of alleles and strain background. <!-- Phenotype and disease filter values for the allele tab exclude all alleles with one or more of the following attributes: inducible, recombinase, reporter, transposase, and transactivator (as they are not directly responsible for the observed phenotype or disease). --> Note that MGI doesn't annotate phenotype and disease terms to genes or even alleles. The terms are assigned to genotypes&mdash;the combination of alleles and strain background.</li>
  <li>You have the option of forwarding the genes of the alleles to the Batch Query or via a toggle, the alleles to MouseMine.</li>
  <li>You can also download your results as a text or spreadsheet file.</li>
 </ul>
